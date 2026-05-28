@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:42:32.983Z",
+  "generatedAt": "2026-05-28T08:06:37.562Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -10,6 +10,7 @@
       "difficulty": 1,
       "questionCount": 6,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age3/con-vat.json"
     },
     {
@@ -21,6 +22,7 @@
       "difficulty": 2,
       "questionCount": 7,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age4/con-vat.json"
     },
     {
@@ -32,6 +34,7 @@
       "difficulty": 3,
       "questionCount": 8,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age5/con-vat.json"
     },
     {
@@ -43,6 +46,7 @@
       "difficulty": 1,
       "questionCount": 6,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age3/dem-so.json"
     },
     {
@@ -54,6 +58,7 @@
       "difficulty": 2,
       "questionCount": 7,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age4/dem-so.json"
     },
     {
@@ -65,6 +70,7 @@
       "difficulty": 3,
       "questionCount": 8,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age5/dem-so.json"
     },
     {
@@ -76,6 +82,7 @@
       "difficulty": 1,
       "questionCount": 6,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age3/hinh-khoi.json"
     },
     {
@@ -87,6 +94,7 @@
       "difficulty": 2,
       "questionCount": 7,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age4/hinh-khoi.json"
     },
     {
@@ -98,6 +106,7 @@
       "difficulty": 3,
       "questionCount": 8,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age5/hinh-khoi.json"
     },
     {
@@ -109,6 +118,7 @@
       "difficulty": 1,
       "questionCount": 6,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age3/mau-sac.json"
     },
     {
@@ -120,6 +130,7 @@
       "difficulty": 2,
       "questionCount": 7,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age4/mau-sac.json"
     },
     {
@@ -131,6 +142,7 @@
       "difficulty": 3,
       "questionCount": 7,
       "outcomes": [],
+      "timeLimit": null,
       "path": "mam-non/age5/mau-sac.json"
     },
     {
@@ -142,6 +154,7 @@
       "difficulty": 2,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop6/ngu-van-tu-loai-va-bien-phap-tu-tu.json"
     },
     {
@@ -153,6 +166,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop7/ngu-van-tu-han-viet-va-tu-tu.json"
     },
     {
@@ -164,6 +178,7 @@
       "difficulty": 2,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop8/ngu-van-cau-va-bien-phap-tu-tu.json"
     },
     {
@@ -175,6 +190,7 @@
       "difficulty": 3,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
     },
     {
@@ -186,6 +202,7 @@
       "difficulty": 1,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-anh/lop1/colors-and-numbers.json"
     },
     {
@@ -197,6 +214,7 @@
       "difficulty": 1,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-anh/lop2/animals-family-school.json"
     },
     {
@@ -208,6 +226,7 @@
       "difficulty": 2,
       "questionCount": 16,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-anh/lop3/numbers-and-days.json"
     },
     {
@@ -219,6 +238,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-anh/lop4/jobs-and-hobbies.json"
     },
     {
@@ -230,6 +250,7 @@
       "difficulty": 3,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
     },
     {
@@ -241,6 +262,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop6/tieng-anh-present-simple.json"
     },
     {
@@ -252,6 +274,7 @@
       "difficulty": 2,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop7/tieng-anh-past-simple-comparatives.json"
     },
     {
@@ -263,6 +286,7 @@
       "difficulty": 3,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop8/tieng-anh-present-perfect.json"
     },
     {
@@ -274,6 +298,7 @@
       "difficulty": 3,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop9/tieng-anh-relative-clauses.json"
     },
     {
@@ -285,6 +310,7 @@
       "difficulty": 1,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
     },
     {
@@ -296,6 +322,7 @@
       "difficulty": 1,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-viet/lop2/tu-loai-va-cau.json"
     },
     {
@@ -307,6 +334,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-viet/lop3/tu-loai-va-so-sanh.json"
     },
     {
@@ -318,6 +346,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
     },
     {
@@ -329,6 +358,7 @@
       "difficulty": 3,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "tieng-viet/lop5/dong-trai-nghia-quan-he-tu.json"
     },
     {
@@ -340,6 +370,7 @@
       "difficulty": 1,
       "questionCount": 16,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop1/phep-cong-trong-10.json"
     },
     {
@@ -351,6 +382,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/bang-chia-2-va-3.json"
     },
     {
@@ -362,6 +394,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/bang-chia-4-va-5.json"
     },
     {
@@ -373,6 +406,7 @@
       "difficulty": 1,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/bang-nhan-2-va-3.json"
     },
     {
@@ -384,6 +418,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/bang-nhan-4-va-5.json"
     },
     {
@@ -395,6 +430,7 @@
       "difficulty": 1,
       "questionCount": 16,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/cong-tru-va-bang-nhan.json"
     },
     {
@@ -406,6 +442,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/don-vi-do-do-dai.json"
     },
     {
@@ -417,6 +454,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/toan-co-loi-van.json"
     },
     {
@@ -428,6 +466,7 @@
       "difficulty": 1,
       "questionCount": 16,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/cong-co-nho-trong-100.json"
     },
     {
@@ -439,6 +478,7 @@
       "difficulty": 1,
       "questionCount": 16,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/tru-co-nho-trong-100.json"
     },
     {
@@ -450,6 +490,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/so-co-ba-chu-so.json"
     },
     {
@@ -461,6 +502,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop2/xem-dong-ho.json"
     },
     {
@@ -472,6 +514,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop3/nhan-chia-trong-bang.json"
     },
     {
@@ -483,6 +526,7 @@
       "difficulty": 2,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
     },
     {
@@ -494,6 +538,7 @@
       "difficulty": 3,
       "questionCount": 17,
       "outcomes": [],
+      "timeLimit": null,
       "path": "toan/lop5/thap-phan-phan-tram-dien-tich.json"
     },
     {
@@ -511,6 +556,7 @@
         "T6-STN-4",
         "T6-STN-5"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c1-so-tu-nhien.json"
     },
     {
@@ -527,6 +573,7 @@
         "T6-CH-3",
         "T6-CH-4"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c2-tinh-chia-het.json"
     },
     {
@@ -544,6 +591,7 @@
         "T6-SN-4",
         "T6-SN-5"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c3-so-nguyen.json"
     },
     {
@@ -561,6 +609,7 @@
         "T6-DX-1",
         "T6-DX-2"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c4-5-hinh-phang-doi-xung.json"
     },
     {
@@ -578,6 +627,7 @@
         "T6-PS-4",
         "T6-PS-5"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c6-phan-so.json"
     },
     {
@@ -594,6 +644,7 @@
         "T6-TP-3",
         "T6-TP-4"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c7-so-thap-phan.json"
     },
     {
@@ -610,6 +661,7 @@
         "T6-HC-3",
         "T6-HC-4"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c8-hinh-co-ban.json"
     },
     {
@@ -626,6 +678,7 @@
         "T6-DL-3",
         "T6-DL-4"
       ],
+      "timeLimit": null,
       "path": "thcs/lop6/c9-du-lieu-xac-suat.json"
     },
     {
@@ -637,6 +690,7 @@
       "difficulty": 2,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop7/toan-so-huu-ti-va-bieu-thuc.json"
     },
     {
@@ -648,6 +702,7 @@
       "difficulty": 2,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop8/toan-hang-dang-thuc-va-phuong-trinh.json"
     },
     {
@@ -659,7 +714,25 @@
       "difficulty": 3,
       "questionCount": 18,
       "outcomes": [],
+      "timeLimit": null,
       "path": "thcs/lop9/toan-can-bac-hai-va-ham-so.json"
+    },
+    {
+      "id": "thcs-toan-l9-de-thi-thu-1",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 9,
+      "topic": "Đề thi thử Toán 9 (cấu trúc mới)",
+      "difficulty": 3,
+      "questionCount": 15,
+      "outcomes": [
+        "Căn bậc hai",
+        "Hàm số bậc nhất",
+        "Phương trình bậc hai & Vi-ét",
+        "Hệ thức lượng trong tam giác vuông"
+      ],
+      "timeLimit": 45,
+      "path": "thcs/lop9/de-thi-thu-1.json"
     }
   ]
 }

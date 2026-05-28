@@ -217,8 +217,8 @@ function renderTopicList(view, grade, subject) {
       : `<div class="topic-list">${list.map(ex => {
           const done = Progress.getCompletion(ex.id);
           return `<a href="#/bai/${ex.id}" class="topic-item">
-              <div><div class="title">${ex.topic}</div>
-              <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}</div></div>
+              <div><div class="title">${ex.timeLimit ? '📝 ' : ''}${ex.topic}</div>
+              <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút (đề thi thử)` : ''}</div></div>
               ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
             </a>`;
         }).join('')}</div>`}
@@ -282,10 +282,14 @@ async function renderExercise(view, id) {
     : `#/lop${exercise.grade}/${exercise.subject}`;
   const levelLabel = isPreschool ? `Bé ${exercise.grade} tuổi` : `Lớp ${exercise.grade}`;
 
+  const isTimed = typeof exercise.timeLimit === 'number' && exercise.timeLimit > 0;
+
   // Mầm non: vào thẳng chế độ chơi (không có "Làm bài thi")
   if (isPreschool) { startQuestions('practice'); return; }
+  // Đề thi thử có bấm giờ: vào thẳng chế độ thi
+  if (isTimed) { startQuestions('exam'); return; }
 
-  // Tiểu học: chọn chế độ
+  // Tiểu học / THCS: chọn chế độ
   view.innerHTML = `
     <a href="${backHref}" class="back-btn">← Quay lại danh sách bài</a>
     <div class="hero" style="padding:14px 10px 22px">
@@ -312,17 +316,23 @@ async function renderExercise(view, id) {
     let currentIdx = 0, score = 0;
     const total = exercise.questions.length;
     const answers = [];
+    const timed = typeof exercise.timeLimit === 'number' && exercise.timeLimit > 0;
+    const deadline = Date.now() + (exercise.timeLimit || 0) * 60000;
+    let timerInterval = null, done = false;
 
     const renderQuestion = () => {
       const q = exercise.questions[currentIdx];
-      const modeLabel = isPreschool ? '🧸 Chơi mà học' : (mode === 'exam' ? '📝 Làm bài thi' : '🎯 Luyện tập');
+      const modeLabel = timed ? '⏱ Đề thi thử' : (isPreschool ? '🧸 Chơi mà học' : (mode === 'exam' ? '📝 Làm bài thi' : '🎯 Luyện tập'));
       view.innerHTML = `
         <a href="${backHref}" class="back-btn">← Thoát</a>
         <div class="exercise-header">
           <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
             <div><div style="font-weight:800;font-size:1.2rem">${subject.icon} ${exercise.topic}</div>
             <div style="color:#6B6B8C;font-size:0.9rem">${modeLabel} · ${levelLabel}</div></div>
-            <div style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</div>
+            <div style="display:flex;align-items:center;gap:12px">
+              ${timed ? '<span id="exam-timer" class="exam-timer">⏱ --:--</span>' : ''}
+              <span style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</span>
+            </div>
           </div>
           <div class="progress-bar"><div class="progress-fill" style="width:${(currentIdx / total) * 100}%"></div></div>
         </div>`;
@@ -332,6 +342,7 @@ async function renderExercise(view, id) {
         if (correct) score++;
         const delay = isPreschool ? 1700 : (mode === 'exam' ? 250 : 1500);
         setTimeout(() => {
+          if (done) return;
           currentIdx++;
           if (currentIdx >= total) showResult();
           else renderQuestion();
@@ -344,12 +355,31 @@ async function renderExercise(view, id) {
       else if (q.type === 'fill-blank') card = FillBlank.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'matching') card = Matching.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'true-false') card = TrueFalse.render(q, currentIdx, onAnswer, mode);
+      else if (q.type === 'true-false-group') card = TrueFalseGroup.render(q, currentIdx, onAnswer, mode);
       else { view.innerHTML += `<div class="empty">Loại câu chưa hỗ trợ: ${q.type}</div>`; return; }
       view.appendChild(card);
       Media.renderMath(card);
     };
 
+    // Đồng hồ đếm ngược cho đề thi thử
+    const startTimer = () => {
+      const tick = () => {
+        const el = document.getElementById('exam-timer');
+        if (!el) { clearInterval(timerInterval); return; } // đã rời màn làm bài
+        const remain = Math.max(0, deadline - Date.now());
+        const s = Math.floor(remain / 1000);
+        el.textContent = `⏱ ${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+        el.classList.toggle('low', remain <= 60000);
+        if (remain <= 0) { clearInterval(timerInterval); showResult(); }
+      };
+      tick();
+      timerInterval = setInterval(tick, 1000);
+    };
+
     const showResult = () => {
+      if (done) return;
+      done = true;
+      if (timerInterval) clearInterval(timerInterval);
       const percent = Math.round((score / total) * 100);
       const isNewBest = Progress.markCompleted(exercise.id, score, total);
       Progress.addStars(score);
@@ -384,6 +414,7 @@ async function renderExercise(view, id) {
     };
 
     renderQuestion();
+    if (timed) startTimer();
   }
 }
 

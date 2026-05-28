@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:42:32.983Z",
+  "generatedAt": "2026-05-28T08:06:37.562Z",
   "coverage": {
     "toan": {
       "1": {
@@ -471,13 +471,19 @@
         ]
       },
       "9": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 33,
         "topics": [
           {
             "id": "thcs-toan-l9-can-bac-hai-va-ham-so",
             "topic": "Căn bậc hai, hàm số bậc nhất, hệ phương trình, phương trình bậc hai và hệ thức lượng trong tam giác vuông",
             "questionCount": 18,
+            "difficulty": 3
+          },
+          {
+            "id": "thcs-toan-l9-de-thi-thu-1",
+            "topic": "Đề thi thử Toán 9 (cấu trúc mới)",
+            "questionCount": 15,
             "difficulty": 3
           }
         ]

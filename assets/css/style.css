@@ -274,6 +274,39 @@ a { color: inherit; text-decoration: none; }
 /* Công thức KaTeX vừa khít trong câu hỏi */
 .question-text .katex { font-size: 1.05em; }
 
+/* Đồng hồ đếm ngược (đề thi thử) */
+.exam-timer {
+  font-weight: 800;
+  background: #E8F8F1;
+  color: #2E7D32;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+.exam-timer.low { background: #FFEBEE; color: #C62828; animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
+
+/* Trắc nghiệm Đúng/Sai nhiều ý */
+.tfg-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 6px; border-bottom: 2px solid var(--c-border); flex-wrap: wrap;
+}
+.tfg-statement { flex: 1; min-width: 180px; font-weight: 600; font-size: 1.05rem; }
+.tfg-buttons { display: flex; gap: 8px; align-items: center; }
+.tfg-btn {
+  font-weight: 700; padding: 8px 18px; border-radius: 999px;
+  background: #FAFAFC; border: 2px solid var(--c-border); transition: all 0.12s;
+}
+.tfg-btn:hover:not(.disabled) { border-color: var(--c-toan); }
+.tfg-btn.picked { background: var(--c-ta); border-color: var(--c-ta-dark); color: #fff; }
+.tfg-btn.disabled { cursor: default; opacity: 0.85; }
+.tfg-row.tfg-correct { background: #E8F5E9; border-radius: 10px; }
+.tfg-row.tfg-wrong { background: #FFEBEE; border-radius: 10px; }
+.tfg-answer { font-size: 0.85rem; color: #C62828; font-weight: 700; margin-left: 6px; }
+
+/* Nhãn đề thi thử trong danh sách bài */
+.topic-item .badge.exam { background: var(--c-ta-dark); }
+
 /* ===== Trang chủ ===== */
 .hero {
   text-align: center;

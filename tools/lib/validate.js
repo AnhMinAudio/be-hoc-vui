@@ -36,6 +36,10 @@ function questionFingerprint(q) {
   if (q.type === 'true-false') {
     return hash(`tf|${normalizeText(q.question)}|${q.answer ? 'T' : 'F'}`);
   }
+  if (q.type === 'true-false-group') {
+    const s = (q.statements || []).map(st => `${normalizeText(st && st.text)}=${st && st.answer ? 'T' : 'F'}`).join('|');
+    return hash(`tfg|${normalizeText(q.question)}|${s}`);
+  }
   if (q.type === 'matching') {
     const pairs = (q.pairs || [])
       .map(p => `${normalizeText(p[0])}=>${normalizeText(p[1])}`)
@@ -67,12 +71,16 @@ function validateExercise(data) {
   if (!data.topic) errors.push('thiếu "topic"');
   if (data.outcomes !== undefined && (!Array.isArray(data.outcomes) || data.outcomes.some(o => typeof o !== 'string')))
     errors.push('"outcomes" phải là mảng chuỗi (mã yêu cầu cần đạt)');
+  if (data.timeLimit !== undefined && (typeof data.timeLimit !== 'number' || data.timeLimit <= 0))
+    errors.push('"timeLimit" phải là số phút dương (đề thi thử bấm giờ)');
   if (!Array.isArray(data.questions) || data.questions.length === 0) {
     errors.push('không có câu hỏi');
   } else {
     data.questions.forEach((q, i) => {
       const n = i + 1;
       if (!q || !q.type) { errors.push(`câu ${n}: thiếu type`); return; }
+      if (q.level !== undefined && !['NB', 'TH', 'VD', 'VDC'].includes(q.level))
+        errors.push(`câu ${n}: level phải là NB/TH/VD/VDC`);
       if (q.type === 'multiple-choice' || q.type === 'image-choice') {
         if (!Array.isArray(q.options) || q.options.length < 2) errors.push(`câu ${n}: cần >= 2 options`);
         else if (typeof q.answer !== 'number' || q.answer < 0 || q.answer >= q.options.length)
@@ -86,6 +94,10 @@ function validateExercise(data) {
           errors.push(`câu ${n}: mỗi pair phải là [trái, phải]`);
       } else if (q.type === 'true-false') {
         if (typeof q.answer !== 'boolean') errors.push(`câu ${n}: true-false cần answer là true/false`);
+      } else if (q.type === 'true-false-group') {
+        if (!Array.isArray(q.statements) || q.statements.length < 2) errors.push(`câu ${n}: true-false-group cần >= 2 ý`);
+        else if (q.statements.some(s => !s || typeof s.text !== 'string' || typeof s.answer !== 'boolean'))
+          errors.push(`câu ${n}: mỗi ý cần {text, answer là true/false}`);
       } else {
         errors.push(`câu ${n}: type không hỗ trợ: ${q.type}`);
       }
@@ -215,6 +227,7 @@ function buildArtifacts(okList) {
       difficulty: data.difficulty || 1,
       questionCount: data.questions.length,
       outcomes: data.outcomes || [],
+      timeLimit: data.timeLimit || null,
       path: rel,
     });
   }
