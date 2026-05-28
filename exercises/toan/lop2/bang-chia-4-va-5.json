@@ -1,0 +1,17 @@
+{
+  "id": "toan-l2-bang-chia-4-va-5",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Bảng chia 4 và bảng chia 5",
+  "difficulty": 2,
+  "questions": [
+    { "type": "multiple-choice", "question": "20 : 4 = ?", "options": ["4", "5", "6", "8"], "answer": 1 },
+    { "type": "multiple-choice", "question": "35 : 5 = ?", "options": ["6", "7", "8", "9"], "answer": 1 },
+    { "type": "fill-blank", "question": "24 : 4 = ___", "answer": "6" },
+    { "type": "fill-blank", "question": "40 : 5 = ___", "answer": "8" },
+    { "type": "matching", "question": "Nối phép chia với kết quả", "pairs": [["16 : 4", "4"], ["25 : 5", "5"], ["28 : 4", "7"], ["30 : 5", "6"]] },
+    { "type": "multiple-choice", "question": "8 : 4 = ?", "options": ["2", "3", "4", "8"], "answer": 0 },
+    { "type": "fill-blank", "question": "___ : 5 = 4", "answer": "20", "hint": "Số nào chia 5 được 4?" },
+    { "type": "multiple-choice", "question": "Có 20 quyển vở xếp đều vào 5 chồng. Hỏi mỗi chồng có mấy quyển?", "options": ["3 quyển", "4 quyển", "5 quyển", "10 quyển"], "answer": 1, "hint": "Lấy 20 chia 5" }
+  ]
+}

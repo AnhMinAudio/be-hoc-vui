@@ -1,0 +1,16 @@
+{
+  "id": "toan-l2-toan-co-loi-van",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Giải toán có lời văn (nhiều hơn, ít hơn)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "multiple-choice", "question": "An có 15 viên bi, Bình có nhiều hơn An 7 viên. Hỏi Bình có bao nhiêu viên bi?", "options": ["8 viên", "22 viên", "21 viên", "23 viên"], "answer": 1, "hint": "Nhiều hơn thì làm phép cộng" },
+    { "type": "multiple-choice", "question": "Lan có 24 cái kẹo, Mai có ít hơn Lan 9 cái. Hỏi Mai có bao nhiêu cái kẹo?", "options": ["15 cái", "33 cái", "16 cái", "14 cái"], "answer": 0, "hint": "Ít hơn thì làm phép trừ" },
+    { "type": "fill-blank", "question": "Có 18 con gà và 6 con vịt. Hỏi có tất cả bao nhiêu con? ___", "answer": "24" },
+    { "type": "fill-blank", "question": "Thùng to có 40 lít, thùng nhỏ có 15 lít. Thùng to nhiều hơn thùng nhỏ ___ lít.", "answer": "25" },
+    { "type": "multiple-choice", "question": "Lớp có 32 bạn, trong đó có 14 bạn nữ. Hỏi lớp có bao nhiêu bạn nam?", "options": ["18 bạn", "46 bạn", "17 bạn", "19 bạn"], "answer": 0, "hint": "Lấy tổng số bạn trừ số bạn nữ" },
+    { "type": "matching", "question": "Nối dạng bài với phép tính thường dùng", "pairs": [["Có thêm vào", "Phép cộng"], ["Bớt đi, cho đi", "Phép trừ"], ["Chia đều", "Phép chia"]] },
+    { "type": "fill-blank", "question": "Hùng cao 120 cm, Nam cao hơn Hùng 8 cm. Nam cao ___ cm.", "answer": "128" }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T04:36:52.523Z",
+  "generatedAt": "2026-05-28T05:34:49.502Z",
   "coverage": {
     "toan": {
       "1": {
@@ -15,14 +15,74 @@
         ]
       },
       "2": {
-        "exerciseCount": 1,
-        "totalQuestions": 8,
+        "exerciseCount": 11,
+        "totalQuestions": 85,
         "topics": [
+          {
+            "id": "toan-l2-bang-chia-2-va-3",
+            "topic": "Bảng chia 2 và bảng chia 3",
+            "questionCount": 8,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l2-bang-chia-4-va-5",
+            "topic": "Bảng chia 4 và bảng chia 5",
+            "questionCount": 8,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l2-bang-nhan-2-va-3",
+            "topic": "Bảng nhân 2 và bảng nhân 3",
+            "questionCount": 8,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l2-bang-nhan-4-va-5",
+            "topic": "Bảng nhân 4 và bảng nhân 5",
+            "questionCount": 8,
+            "difficulty": 2
+          },
           {
             "id": "toan-l2-cong-tru-va-bang-nhan",
             "topic": "Cộng trừ trong 100 và bảng nhân",
             "questionCount": 8,
             "difficulty": 1
+          },
+          {
+            "id": "toan-l2-don-vi-do-do-dai",
+            "topic": "Đơn vị đo độ dài (cm, dm, m)",
+            "questionCount": 7,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l2-toan-co-loi-van",
+            "topic": "Giải toán có lời văn (nhiều hơn, ít hơn)",
+            "questionCount": 7,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l2-cong-co-nho-trong-100",
+            "topic": "Phép cộng có nhớ trong phạm vi 100",
+            "questionCount": 8,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l2-tru-co-nho-trong-100",
+            "topic": "Phép trừ có nhớ trong phạm vi 100",
+            "questionCount": 8,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l2-so-co-ba-chu-so",
+            "topic": "Số có ba chữ số (đọc, viết, so sánh)",
+            "questionCount": 8,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l2-xem-dong-ho",
+            "topic": "Xem đồng hồ và đơn vị thời gian",
+            "questionCount": 7,
+            "difficulty": 2
           }
         ]
       },

@@ -1,0 +1,17 @@
+{
+  "id": "toan-l2-bang-nhan-2-va-3",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Bảng nhân 2 và bảng nhân 3",
+  "difficulty": 1,
+  "questions": [
+    { "type": "multiple-choice", "question": "2 × 6 = ?", "options": ["10", "12", "14", "8"], "answer": 1 },
+    { "type": "multiple-choice", "question": "3 × 7 = ?", "options": ["21", "18", "24", "27"], "answer": 0 },
+    { "type": "fill-blank", "question": "2 × 8 = ___", "answer": "16" },
+    { "type": "fill-blank", "question": "3 × 9 = ___", "answer": "27" },
+    { "type": "matching", "question": "Nối phép nhân với kết quả", "pairs": [["2 × 4", "8"], ["3 × 5", "15"], ["2 × 7", "14"], ["3 × 8", "24"]] },
+    { "type": "multiple-choice", "question": "3 × 3 = ?", "options": ["6", "9", "12", "3"], "answer": 1 },
+    { "type": "fill-blank", "question": "2 × ___ = 10", "answer": "5", "hint": "2 nhân với mấy thì bằng 10?" },
+    { "type": "multiple-choice", "question": "Mỗi bàn có 2 bạn. Hỏi 5 bàn như thế có bao nhiêu bạn?", "options": ["7 bạn", "10 bạn", "12 bạn", "8 bạn"], "answer": 1, "hint": "Lấy 2 nhân 5" }
+  ]
+}

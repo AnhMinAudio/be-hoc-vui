@@ -1,0 +1,17 @@
+{
+  "id": "toan-l2-bang-chia-2-va-3",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Bảng chia 2 và bảng chia 3",
+  "difficulty": 2,
+  "questions": [
+    { "type": "multiple-choice", "question": "12 : 2 = ?", "options": ["4", "6", "8", "5"], "answer": 1 },
+    { "type": "multiple-choice", "question": "18 : 3 = ?", "options": ["5", "6", "7", "9"], "answer": 1 },
+    { "type": "fill-blank", "question": "16 : 2 = ___", "answer": "8" },
+    { "type": "fill-blank", "question": "27 : 3 = ___", "answer": "9" },
+    { "type": "matching", "question": "Nối phép chia với kết quả", "pairs": [["8 : 2", "4"], ["21 : 3", "7"], ["20 : 2", "10"], ["24 : 3", "8"]] },
+    { "type": "multiple-choice", "question": "6 : 3 = ?", "options": ["2", "3", "4", "6"], "answer": 0 },
+    { "type": "fill-blank", "question": "___ : 2 = 7", "answer": "14", "hint": "Số nào chia 2 được 7?" },
+    { "type": "multiple-choice", "question": "Có 12 cái kẹo chia đều cho 3 bạn. Hỏi mỗi bạn được mấy cái kẹo?", "options": ["3 cái", "4 cái", "5 cái", "6 cái"], "answer": 1, "hint": "Lấy 12 chia 3" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "toan-l2-don-vi-do-do-dai",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Đơn vị đo độ dài (cm, dm, m)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "multiple-choice", "question": "1 dm bằng bao nhiêu xăng-ti-mét?", "options": ["1 cm", "10 cm", "100 cm", "5 cm"], "answer": 1 },
+    { "type": "multiple-choice", "question": "1 m bằng bao nhiêu xăng-ti-mét?", "options": ["10 cm", "100 cm", "1000 cm", "50 cm"], "answer": 1 },
+    { "type": "fill-blank", "question": "Tính: 15 cm + 8 cm = ___ cm", "answer": "23" },
+    { "type": "fill-blank", "question": "1 m = ___ dm", "answer": "10" },
+    { "type": "matching", "question": "Nối hai cách viết cùng một độ dài", "pairs": [["1 dm", "10 cm"], ["1 m", "100 cm"], ["2 dm", "20 cm"], ["5 dm", "50 cm"]] },
+    { "type": "multiple-choice", "question": "Cái bút chì dài khoảng bao nhiêu?", "options": ["15 cm", "15 m", "15 dm", "15 km"], "answer": 0 },
+    { "type": "multiple-choice", "question": "Độ dài nào lớn hơn: 1 m hay 90 cm?", "options": ["1 m", "90 cm", "Bằng nhau", "Không so sánh được"], "answer": 0, "hint": "Đổi 1 m ra cm rồi so sánh" }
+  ]
+}

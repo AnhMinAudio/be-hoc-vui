@@ -1,0 +1,17 @@
+{
+  "id": "toan-l2-tru-co-nho-trong-100",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Phép trừ có nhớ trong phạm vi 100",
+  "difficulty": 1,
+  "questions": [
+    { "type": "multiple-choice", "question": "52 - 17 = ?", "options": ["35", "45", "34", "36"], "answer": 0 },
+    { "type": "multiple-choice", "question": "73 - 28 = ?", "options": ["45", "55", "44", "46"], "answer": 0 },
+    { "type": "fill-blank", "question": "60 - 24 = ___", "answer": "36" },
+    { "type": "fill-blank", "question": "90 - 45 = ___", "answer": "45" },
+    { "type": "multiple-choice", "question": "64 - 38 = ?", "options": ["26", "36", "24", "34"], "answer": 0 },
+    { "type": "matching", "question": "Nối phép trừ với kết quả", "pairs": [["14 - 6", "8"], ["13 - 4", "9"], ["16 - 9", "7"], ["11 - 5", "6"]] },
+    { "type": "fill-blank", "question": "50 - ___ = 23", "answer": "27", "hint": "50 trừ 23 bằng mấy?" },
+    { "type": "multiple-choice", "question": "Mẹ có 45 quả cam, mẹ cho đi 18 quả. Hỏi mẹ còn lại bao nhiêu quả cam?", "options": ["27 quả", "37 quả", "26 quả", "23 quả"], "answer": 0, "hint": "Lấy 45 trừ 18" }
+  ]
+}

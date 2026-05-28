@@ -1,0 +1,17 @@
+{
+  "id": "toan-l2-so-co-ba-chu-so",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Số có ba chữ số (đọc, viết, so sánh)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "multiple-choice", "question": "Số 245 đọc là gì?", "options": ["Hai trăm bốn mươi lăm", "Hai trăm năm mươi tư", "Hai bốn năm", "Hai nghìn bốn trăm năm"], "answer": 0 },
+    { "type": "multiple-choice", "question": "Số 'ba trăm linh bảy' viết là?", "options": ["370", "307", "337", "3007"], "answer": 1 },
+    { "type": "fill-blank", "question": "Số liền sau của 199 là ___", "answer": "200" },
+    { "type": "fill-blank", "question": "Số liền trước của 500 là ___", "answer": "499" },
+    { "type": "multiple-choice", "question": "Số nào lớn nhất?", "options": ["456", "465", "399", "500"], "answer": 3 },
+    { "type": "matching", "question": "Nối số với cách đọc", "pairs": [["100", "Một trăm"], ["250", "Hai trăm năm mươi"], ["999", "Chín trăm chín mươi chín"], ["410", "Bốn trăm mười"]] },
+    { "type": "multiple-choice", "question": "Số 608 gồm:", "options": ["6 trăm, 0 chục, 8 đơn vị", "6 trăm, 8 chục, 0 đơn vị", "60 trăm, 8 đơn vị", "6 trăm, 8 đơn vị"], "answer": 0 },
+    { "type": "fill-blank", "question": "300 + 50 + 7 = ___", "answer": "357" }
+  ]
+}
