@@ -1,0 +1,59 @@
+{
+  "id": "ta-l3-numbers-and-days",
+  "subject": "tieng-anh",
+  "grade": 3,
+  "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 12 trong tiếng Anh là gì?",
+      "options": ["twelve", "twenty", "two", "ten"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Monday' là thứ mấy?",
+      "options": ["Chủ nhật", "Thứ Hai", "Thứ Ba", "Thứ Bảy"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết số 15 bằng tiếng Anh: ___",
+      "answer": "fifteen",
+      "alternatives": ["Fifteen", "FIFTEEN"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối ngày trong tuần với nghĩa",
+      "pairs": [
+        ["Monday", "Thứ Hai"],
+        ["Tuesday", "Thứ Ba"],
+        ["Friday", "Thứ Sáu"],
+        ["Sunday", "Chủ nhật"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào là 'eleven'?",
+      "options": ["11", "12", "20", "10"],
+      "answer": 0
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với từ tiếng Anh",
+      "pairs": [
+        ["13", "thirteen"],
+        ["14", "fourteen"],
+        ["16", "sixteen"],
+        ["20", "twenty"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Teacher' nghĩa là gì?",
+      "options": ["học sinh", "giáo viên", "bác sĩ", "nông dân"],
+      "answer": 1
+    }
+  ]
+}

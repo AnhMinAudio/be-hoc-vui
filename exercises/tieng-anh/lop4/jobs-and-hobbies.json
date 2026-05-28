@@ -1,0 +1,59 @@
+{
+  "id": "ta-l4-jobs-and-hobbies",
+  "subject": "tieng-anh",
+  "grade": 4,
+  "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "matching",
+      "question": "Nối nghề nghiệp với nghĩa tiếng Việt",
+      "pairs": [
+        ["doctor", "bác sĩ"],
+        ["teacher", "giáo viên"],
+        ["farmer", "nông dân"],
+        ["worker", "công nhân"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'I like reading books' nghĩa là gì?",
+      "options": ["Tôi thích đọc sách", "Tôi thích chơi bóng", "Tôi thích vẽ tranh", "Tôi thích bơi"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bác sĩ trong tiếng Anh là gì?",
+      "options": ["teacher", "doctor", "driver", "cook"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Môn 'swimming' trong tiếng Việt nghĩa là gì? ___",
+      "answer": "bơi",
+      "alternatives": ["bơi lội"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối sở thích với nghĩa",
+      "pairs": [
+        ["singing", "ca hát"],
+        ["dancing", "nhảy múa"],
+        ["drawing", "vẽ"],
+        ["cooking", "nấu ăn"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ đúng: 'She ___ a teacher.'",
+      "options": ["am", "is", "are", "be"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Nông dân trong tiếng Anh là ___",
+      "answer": "farmer",
+      "alternatives": ["Farmer", "FARMER"]
+    }
+  ]
+}

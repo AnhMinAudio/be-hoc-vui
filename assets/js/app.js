@@ -5,36 +5,42 @@ const SUBJECTS = {
   'tieng-anh': { name: 'Tiếng Anh', icon: '🌍', cls: 'ta' },
 };
 
-let CATALOG = null; // sẽ load từ exercises/index.json
+const AVATARS = ['🦊', '🐼', '🐯', '🐰', '🦄', '🐲', '🐧', '🦉', '🐨', '🦁', '🐢', '🐝'];
+
+// Huy hiệu — mở khóa theo thống kê (stars, số bài hoàn thành, số bài điểm tuyệt đối)
+const BADGES = [
+  { icon: '🌱', name: 'Mầm non', desc: 'Hoàn thành bài đầu tiên', earned: s => s.completedCount >= 1 },
+  { icon: '⭐', name: 'Ngôi sao nhỏ', desc: 'Đạt 20 sao', earned: s => s.stars >= 20 },
+  { icon: '🏅', name: 'Chăm chỉ', desc: 'Hoàn thành 5 bài', earned: s => s.completedCount >= 5 },
+  { icon: '💯', name: 'Hoàn hảo', desc: 'Đạt điểm tuyệt đối 1 bài', earned: s => s.perfectCount >= 1 },
+  { icon: '🌟', name: 'Ngôi sao sáng', desc: 'Đạt 50 sao', earned: s => s.stars >= 50 },
+  { icon: '🏆', name: 'Nhà vô địch', desc: '10 bài điểm tuyệt đối', earned: s => s.perfectCount >= 10 },
+  { icon: '💎', name: 'Kim cương', desc: 'Đạt 100 sao', earned: s => s.stars >= 100 },
+  { icon: '👑', name: 'Bậc thầy', desc: 'Hoàn thành 20 bài', earned: s => s.completedCount >= 20 },
+];
+
+let CATALOG = null;
 
 // ===== Routing =====
 async function route() {
   const hash = window.location.hash.slice(1) || '/';
   const view = document.getElementById('view');
   view.innerHTML = '<div class="empty"><div class="emoji">⏳</div><div class="msg">Đang tải...</div></div>';
-  updateStarsDisplay();
+  updateHeader();
 
   if (!CATALOG) {
     try {
-      const res = await fetch('exercises/index.json');
-      CATALOG = await res.json();
+      CATALOG = await (await fetch('exercises/index.json')).json();
     } catch (e) {
-      view.innerHTML = `
-        <div class="empty">
-          <div class="emoji">📭</div>
-          <div class="msg">Chưa có đề bài nào. Hãy chạy <code>node tools/build-index.js</code> để tạo danh mục.</div>
-        </div>`;
+      view.innerHTML = `<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có đề bài. Chạy <code>node tools/build-index.js</code>.</div></div>`;
       return;
     }
   }
 
   const parts = hash.split('/').filter(Boolean);
-  // /                 → chọn lớp
-  // /lopN             → chọn môn của lớp N
-  // /lopN/MON         → danh sách bài lớp N môn MON
-  // /bai/ID           → làm bài
-
   if (parts.length === 0) return renderHome(view);
+  if (parts[0] === 'thanh-tich') return renderAchievements(view);
+  if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
   if (parts[0].startsWith('lop')) {
     const grade = parseInt(parts[0].replace('lop', ''));
     if (parts.length === 1) return renderSubjects(view, grade);
@@ -47,52 +53,69 @@ async function route() {
 window.addEventListener('hashchange', route);
 window.addEventListener('DOMContentLoaded', route);
 
-function updateStarsDisplay() {
+function updateHeader() {
   document.getElementById('star-count').textContent = Progress.getStars();
+  const av = Progress.getAvatar();
+  document.getElementById('header-avatar').textContent = av || '📚';
+}
+
+// ===== Avatar =====
+function renderAvatarPicker(view, isChanging) {
+  view.innerHTML = `
+    <div class="hero" style="padding:30px 10px 20px">
+      <h1>${isChanging ? '🎭 Đổi nhân vật' : '👋 Chào bạn nhỏ!'}</h1>
+      <p>Chọn một người bạn đồng hành cùng bạn học nhé</p>
+    </div>
+    <div class="avatar-grid">
+      ${AVATARS.map(a => `<button class="avatar-pick" data-a="${a}">${a}</button>`).join('')}
+    </div>
+  `;
+  view.querySelectorAll('.avatar-pick').forEach(btn => {
+    btn.onclick = () => {
+      Progress.setAvatar(btn.dataset.a);
+      updateHeader();
+      window.location.hash = isChanging ? '#/thanh-tich' : '#/';
+    };
+  });
 }
 
 // ===== Views =====
 function renderHome(view) {
+  if (!Progress.getAvatar()) return renderAvatarPicker(view, false);
   const total = CATALOG.exercises.length;
-  const html = `
+  const av = Progress.getAvatar();
+  view.innerHTML = `
     <div class="hero">
-      <h1>🎈 Chào mừng đến với Bé Học Vui!</h1>
-      <p>Chọn lớp của bạn để bắt đầu nào — có ${total} bài tập đang chờ bạn 🚀</p>
+      <div style="font-size:4rem">${av}</div>
+      <h1>Chào mừng bạn quay lại!</h1>
+      <p>Chọn lớp của bạn để bắt đầu — có ${total} bài tập đang chờ 🚀</p>
     </div>
     <div class="grade-grid">
       ${[1, 2, 3, 4, 5].map(g => `
         <a href="#/lop${g}" class="grade-card">
           <div class="num">${g}</div>
           <div class="label">Lớp ${g}</div>
-        </a>
-      `).join('')}
+        </a>`).join('')}
     </div>
   `;
-  view.innerHTML = html;
 }
 
 function renderSubjects(view, grade) {
   const counts = {};
-  for (const key of Object.keys(SUBJECTS)) {
+  for (const key of Object.keys(SUBJECTS))
     counts[key] = CATALOG.exercises.filter(e => e.subject === key && e.grade === grade).length;
-  }
-  const html = `
+  view.innerHTML = `
     <a href="#/" class="back-btn">← Quay lại chọn lớp</a>
-    <div class="hero" style="padding:20px 10px 30px">
-      <h1>Lớp ${grade}</h1>
-      <p>Chọn môn học để bắt đầu</p>
-    </div>
+    <div class="hero" style="padding:20px 10px 30px"><h1>Lớp ${grade}</h1><p>Chọn môn học để bắt đầu</p></div>
     <div class="subject-grid">
       ${Object.entries(SUBJECTS).map(([key, s]) => `
         <a href="#/lop${grade}/${key}" class="subject-card ${s.cls}">
           <div class="icon">${s.icon}</div>
           <div class="name">${s.name}</div>
           <div class="count">${counts[key]} bài tập</div>
-        </a>
-      `).join('')}
+        </a>`).join('')}
     </div>
   `;
-  view.innerHTML = html;
 }
 
 function renderTopicList(view, grade, subject) {
@@ -101,32 +124,57 @@ function renderTopicList(view, grade, subject) {
   const list = CATALOG.exercises.filter(e => e.grade === grade && e.subject === subject);
   view.innerHTML = `
     <a href="#/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
-    <div class="hero" style="padding:20px 10px 30px">
-      <h1>${s.icon} ${s.name} - Lớp ${grade}</h1>
-      <p>Chọn bài tập để làm</p>
-    </div>
-    ${list.length === 0 ? `
-      <div class="empty">
-        <div class="emoji">📭</div>
-        <div class="msg">Chưa có bài nào cho ${s.name} lớp ${grade}. Sắp có rồi nhé!</div>
-      </div>
-    ` : `
-      <div class="topic-list">
-        ${list.map(ex => {
+    <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
+    ${list.length === 0
+      ? `<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có bài nào. Sắp có rồi nhé!</div></div>`
+      : `<div class="topic-list">${list.map(ex => {
           const done = Progress.getCompletion(ex.id);
-          return `
-            <a href="#/bai/${ex.id}" class="topic-item">
-              <div>
-                <div class="title">${ex.topic}</div>
-                <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}</div>
-              </div>
+          return `<a href="#/bai/${ex.id}" class="topic-item">
+              <div><div class="title">${ex.topic}</div>
+              <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}</div></div>
               ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
-            </a>
-          `;
-        }).join('')}
-      </div>
-    `}
+            </a>`;
+        }).join('')}</div>`}
   `;
+}
+
+function renderAchievements(view) {
+  const stats = Progress.getStats();
+  const av = Progress.getAvatar() || '📚';
+  const earnedCount = BADGES.filter(b => b.earned(stats)).length;
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <div class="result-card" style="margin-bottom:20px">
+      <div style="font-size:4.5rem">${av}</div>
+      <div class="result-title">Thành tích của bé</div>
+      <div class="achv-stats">
+        <div class="achv-stat"><div class="n">⭐ ${stats.stars}</div><div class="l">Tổng sao</div></div>
+        <div class="achv-stat"><div class="n">📚 ${stats.completedCount}</div><div class="l">Bài đã làm</div></div>
+        <div class="achv-stat"><div class="n">💯 ${stats.perfectCount}</div><div class="l">Điểm tuyệt đối</div></div>
+      </div>
+    </div>
+    <h2 style="margin:10px 4px">🏅 Huy hiệu (${earnedCount}/${BADGES.length})</h2>
+    <div class="badge-grid">
+      ${BADGES.map(b => {
+        const got = b.earned(stats);
+        return `<div class="badge-card ${got ? 'earned' : 'locked'}">
+          <div class="badge-icon">${got ? b.icon : '🔒'}</div>
+          <div class="badge-name">${b.name}</div>
+          <div class="badge-desc">${b.desc}</div>
+        </div>`;
+      }).join('')}
+    </div>
+    <div class="action-bar" style="justify-content:center;margin-top:24px">
+      <a href="#/doi-nhan-vat" class="btn btn-secondary">🎭 Đổi nhân vật</a>
+      <button class="btn btn-secondary" id="reset-btn" style="color:#EF5350">🗑️ Xóa tiến độ</button>
+    </div>
+  `;
+  view.querySelector('#reset-btn').onclick = () => {
+    if (confirm('Bạn có chắc muốn xóa toàn bộ tiến độ và sao không?')) {
+      Progress.reset();
+      window.location.hash = '#/';
+    }
+  };
 }
 
 async function renderExercise(view, id) {
@@ -135,89 +183,113 @@ async function renderExercise(view, id) {
 
   let exercise;
   try {
-    const res = await fetch(`exercises/${meta.path}`);
-    exercise = await res.json();
+    exercise = await (await fetch(`exercises/${meta.path}`)).json();
   } catch (e) {
     view.innerHTML = `<div class="empty">Không tải được bài: ${meta.path}</div>`;
     return;
   }
-
   const subject = SUBJECTS[exercise.subject];
-  let currentIdx = 0;
-  let score = 0;
-  const total = exercise.questions.length;
 
-  const renderQuestion = () => {
-    const q = exercise.questions[currentIdx];
-    const headerHtml = `
-      <a href="#/lop${exercise.grade}/${exercise.subject}" class="back-btn">← Quay lại danh sách bài</a>
-      <div class="exercise-header">
-        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
-          <div>
-            <div style="font-weight:800;font-size:1.3rem">${subject.icon} ${exercise.topic}</div>
-            <div style="color:#6B6B8C;font-size:0.95rem">Lớp ${exercise.grade} · ${subject.name}</div>
+  // Bước 1: chọn chế độ
+  view.innerHTML = `
+    <a href="#/lop${exercise.grade}/${exercise.subject}" class="back-btn">← Quay lại danh sách bài</a>
+    <div class="hero" style="padding:14px 10px 22px">
+      <h1>${subject.icon} ${exercise.topic}</h1>
+      <p>Lớp ${exercise.grade} · ${exercise.questions.length} câu · Chọn cách làm bài</p>
+    </div>
+    <div class="mode-grid">
+      <button class="mode-card practice" data-mode="practice">
+        <div class="icon">🎯</div><div class="name">Luyện tập</div>
+        <div class="desc">Biết đúng/sai ngay sau mỗi câu, có gợi ý</div>
+      </button>
+      <button class="mode-card exam" data-mode="exam">
+        <div class="icon">📝</div><div class="name">Làm bài thi</div>
+        <div class="desc">Làm hết rồi mới chấm điểm, giống thi thật</div>
+      </button>
+    </div>
+  `;
+  view.querySelectorAll('.mode-card').forEach(btn => {
+    btn.onclick = () => startQuestions(btn.dataset.mode);
+  });
+
+  // Bước 2: làm bài
+  function startQuestions(mode) {
+    let currentIdx = 0, score = 0;
+    const total = exercise.questions.length;
+    const answers = [];
+
+    const renderQuestion = () => {
+      const q = exercise.questions[currentIdx];
+      const modeLabel = mode === 'exam' ? '📝 Làm bài thi' : '🎯 Luyện tập';
+      view.innerHTML = `
+        <a href="#/lop${exercise.grade}/${exercise.subject}" class="back-btn">← Thoát</a>
+        <div class="exercise-header">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div><div style="font-weight:800;font-size:1.2rem">${subject.icon} ${exercise.topic}</div>
+            <div style="color:#6B6B8C;font-size:0.9rem">${modeLabel} · Lớp ${exercise.grade}</div></div>
+            <div style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</div>
           </div>
-          <div style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</div>
-        </div>
-        <div class="progress-bar"><div class="progress-fill" style="width:${(currentIdx / total) * 100}%"></div></div>
-      </div>
-    `;
-    view.innerHTML = headerHtml;
+          <div class="progress-bar"><div class="progress-fill" style="width:${(currentIdx / total) * 100}%"></div></div>
+        </div>`;
 
-    const onAnswer = (correct) => {
-      if (correct) score++;
-      setTimeout(() => {
-        currentIdx++;
-        if (currentIdx >= total) {
-          showResult();
-        } else {
-          renderQuestion();
-        }
-      }, 1500);
+      const onAnswer = (correct) => {
+        answers.push({ correct });
+        if (correct) score++;
+        const delay = mode === 'exam' ? 250 : 1500;
+        setTimeout(() => {
+          currentIdx++;
+          if (currentIdx >= total) showResult();
+          else renderQuestion();
+        }, delay);
+      };
+
+      let card;
+      if (q.type === 'multiple-choice') card = MultipleChoice.render(q, currentIdx, onAnswer, mode);
+      else if (q.type === 'fill-blank') card = FillBlank.render(q, currentIdx, onAnswer, mode);
+      else if (q.type === 'matching') card = Matching.render(q, currentIdx, onAnswer, mode);
+      else { view.innerHTML += `<div class="empty">Loại câu chưa hỗ trợ: ${q.type}</div>`; return; }
+      view.appendChild(card);
     };
 
-    let card;
-    if (q.type === 'multiple-choice') card = MultipleChoice.render(q, currentIdx, onAnswer);
-    else if (q.type === 'fill-blank') card = FillBlank.render(q, currentIdx, onAnswer);
-    else if (q.type === 'matching') card = Matching.render(q, currentIdx, onAnswer);
-    else { view.innerHTML += `<div class="empty">Loại câu hỏi chưa hỗ trợ: ${q.type}</div>`; return; }
-    view.appendChild(card);
-  };
+    const showResult = () => {
+      const percent = Math.round((score / total) * 100);
+      const isNewBest = Progress.markCompleted(exercise.id, score, total);
+      Progress.addStars(score);
+      updateHeader();
 
-  const showResult = () => {
-    const percent = Math.round((score / total) * 100);
-    const isNewBest = Progress.markCompleted(exercise.id, score, total);
-    const earnedStars = score; // 1 sao / câu đúng
-    Progress.addStars(earnedStars);
-    updateStarsDisplay();
+      let emoji, title;
+      if (percent === 100) { emoji = '🏆'; title = 'XUẤT SẮC!'; }
+      else if (percent >= 80) { emoji = '🌟'; title = 'Rất giỏi!'; }
+      else if (percent >= 50) { emoji = '👍'; title = 'Khá tốt!'; }
+      else { emoji = '💪'; title = 'Cố gắng thêm nhé!'; }
 
-    let emoji, title;
-    if (percent === 100) { emoji = '🏆'; title = 'XUẤT SẮC!'; }
-    else if (percent >= 80) { emoji = '🌟'; title = 'Rất giỏi!'; }
-    else if (percent >= 50) { emoji = '👍'; title = 'Khá tốt!'; }
-    else { emoji = '💪'; title = 'Cố gắng thêm nhé!'; }
+      const recap = answers.map((a, i) =>
+        `<span class="recap-item ${a.correct ? 'ok' : 'no'}">${i + 1}${a.correct ? ' ✓' : ' ✗'}</span>`
+      ).join('');
 
-    view.innerHTML = `
-      <div class="result-card">
-        <div class="result-emoji">${emoji}</div>
-        <div class="result-title">${title}</div>
-        <div class="result-score">${score}/${total}</div>
-        <div class="result-stars">${'⭐'.repeat(Math.min(score, 10))}</div>
-        ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:14px">🎉 Kỷ lục mới!</div>' : ''}
-        <div style="color:#6B6B8C;margin-bottom:24px">Bạn được +${earnedStars} ⭐</div>
-        <div class="action-bar" style="justify-content:center">
-          <button class="btn btn-secondary" onclick="location.hash='#/lop${exercise.grade}/${exercise.subject}'">Bài khác</button>
-          <button class="btn btn-primary" onclick="location.reload()">Làm lại</button>
-        </div>
-      </div>
-    `;
-    if (percent >= 80) confetti();
-  };
+      view.innerHTML = `
+        <div class="result-card">
+          <div class="result-emoji">${emoji}</div>
+          <div class="result-title">${title}</div>
+          <div class="result-score">${score}/${total}</div>
+          <div class="result-stars">${'⭐'.repeat(Math.min(score, 10))}</div>
+          ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:10px">🎉 Kỷ lục mới!</div>' : ''}
+          <div style="color:#6B6B8C;margin-bottom:16px">Bạn được +${score} ⭐</div>
+          <div class="recap">${recap}</div>
+          <div class="action-bar" style="justify-content:center;margin-top:22px">
+            <button class="btn btn-secondary" onclick="location.hash='#/lop${exercise.grade}/${exercise.subject}'">Bài khác</button>
+            <button class="btn btn-primary" id="retry-btn">Làm lại</button>
+          </div>
+        </div>`;
+      view.querySelector('#retry-btn').onclick = () => renderExercise(view, id);
+      if (percent >= 80) confetti();
+    };
 
-  renderQuestion();
+    renderQuestion();
+  }
 }
 
-// ===== Confetti hiệu ứng đơn giản =====
+// ===== Confetti =====
 function confetti() {
   const colors = ['#A8E6CF', '#FFD3B6', '#FFAAA5', '#C9A3FF', '#FFC107'];
   for (let i = 0; i < 60; i++) {

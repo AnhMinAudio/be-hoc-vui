@@ -1,6 +1,6 @@
 // Render câu hỏi điền đáp án
 const FillBlank = {
-  render(q, idx, onAnswer) {
+  render(q, idx, onAnswer, mode = 'practice') {
     const wrap = document.createElement('div');
     wrap.className = 'question-card';
 
@@ -46,13 +46,19 @@ const FillBlank = {
     const check = () => {
       if (answered) return;
       const userAns = input.value.trim().toLowerCase();
+      if (userAns === '') { input.focus(); return; }
       const expected = String(q.answer).trim().toLowerCase();
       const accepted = (q.alternatives || []).map(a => String(a).trim().toLowerCase());
       const correct = userAns === expected || accepted.includes(userAns);
       answered = true;
-      input.classList.add(correct ? 'correct' : 'wrong');
       input.disabled = true;
       btn.disabled = true;
+      if (mode === 'exam') {
+        input.classList.add('selected');
+        setTimeout(() => onAnswer(correct), 450);
+        return;
+      }
+      input.classList.add(correct ? 'correct' : 'wrong');
       if (!correct) {
         const showAns = document.createElement('div');
         showAns.style.cssText = 'text-align:center;margin-top:14px;color:#6B6B8C;';

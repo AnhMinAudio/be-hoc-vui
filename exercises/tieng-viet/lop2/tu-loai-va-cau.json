@@ -1,0 +1,53 @@
+{
+  "id": "tv-l2-tu-loai-va-cau",
+  "subject": "tieng-viet",
+  "grade": 2,
+  "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": ["chạy", "cái bàn", "đẹp", "nhanh"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": ["bông hoa", "học bài", "xinh", "con mèo"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đặc điểm?",
+      "options": ["cây bút", "viết", "cao lớn", "ăn cơm"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ trái nghĩa với 'cao': ___",
+      "answer": "thấp"
+    },
+    {
+      "type": "matching",
+      "question": "Nối con vật với tiếng kêu của nó",
+      "pairs": [
+        ["con mèo", "meo meo"],
+        ["con chó", "gâu gâu"],
+        ["con vịt", "cạp cạp"],
+        ["con gà", "ò ó o"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào là câu giới thiệu kiểu 'Ai là gì?'",
+      "options": ["Em đang học bài.", "Bố em là bác sĩ.", "Trời mưa to.", "Con mèo chạy nhanh."],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ còn thiếu: Mặt trời mọc ở hướng ___ (trái với hướng tây)",
+      "answer": "đông"
+    }
+  ]
+}

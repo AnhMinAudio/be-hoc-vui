@@ -1,91 +1,46 @@
-// Sinh file exercises/index.json từ tất cả file JSON trong exercises/
+// Sinh exercises/index.json + exercises/coverage.json từ tất cả file đề.
+// Đồng thời cảnh báo câu hỏi trùng lặp.
 // Chạy: node tools/build-index.js
 const fs = require('fs');
 const path = require('path');
+const { loadAll, buildArtifacts } = require('./lib/validate');
 
-const ROOT = path.resolve(__dirname, '..');
-const EX_DIR = path.join(ROOT, 'exercises');
-const OUT = path.join(EX_DIR, 'index.json');
+const EX_DIR = path.resolve(__dirname, '..', 'exercises');
+const INDEX_OUT = path.join(EX_DIR, 'index.json');
+const COVERAGE_OUT = path.join(EX_DIR, 'coverage.json');
 
-const VALID_SUBJECTS = ['toan', 'tieng-viet', 'tieng-anh'];
+const { ok, fileErrors } = loadAll(EX_DIR);
+const { index, coverage, dupIds, dupQuestions } = buildArtifacts(ok);
 
-function walk(dir) {
-  const results = [];
-  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) results.push(...walk(full));
-    else if (entry.isFile() && entry.name.endsWith('.json') && entry.name !== 'index.json') {
-      results.push(full);
-    }
-  }
-  return results;
+const now = new Date().toISOString();
+fs.writeFileSync(INDEX_OUT, JSON.stringify({ generatedAt: now, ...index }, null, 2), 'utf8');
+fs.writeFileSync(COVERAGE_OUT, JSON.stringify({ generatedAt: now, ...coverage }, null, 2), 'utf8');
+
+console.log(`✅ Đã sinh index.json (${index.exercises.length} bài) và coverage.json`);
+
+if (coverage.gaps.length) {
+  console.log(`\n📍 Chỗ còn thiếu (${coverage.gaps.length}): ${coverage.gaps.join(' · ')}`);
 }
 
-const files = walk(EX_DIR);
-const exercises = [];
-const errors = [];
-const seenIds = new Set();
-
-for (const file of files) {
-  const rel = path.relative(EX_DIR, file).split(path.sep).join('/');
-  try {
-    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-    // Validate cơ bản
-    if (!data.id) throw new Error('thiếu field "id"');
-    if (!VALID_SUBJECTS.includes(data.subject)) throw new Error('subject không hợp lệ: ' + data.subject);
-    if (![1,2,3,4,5].includes(data.grade)) throw new Error('grade phải 1-5');
-    if (!data.topic) throw new Error('thiếu field "topic"');
-    if (!Array.isArray(data.questions) || data.questions.length === 0) throw new Error('không có câu hỏi');
-    if (seenIds.has(data.id)) throw new Error('id trùng: ' + data.id);
-    seenIds.add(data.id);
-
-    // Validate từng câu hỏi
-    data.questions.forEach((q, i) => {
-      if (!q.type) throw new Error(`câu ${i+1} thiếu type`);
-      if (q.type === 'multiple-choice') {
-        if (!Array.isArray(q.options)) throw new Error(`câu ${i+1} thiếu options`);
-        if (typeof q.answer !== 'number') throw new Error(`câu ${i+1} answer phải là số`);
-        if (q.answer < 0 || q.answer >= q.options.length) throw new Error(`câu ${i+1} answer ngoài phạm vi`);
-      } else if (q.type === 'fill-blank') {
-        if (q.answer === undefined || q.answer === null) throw new Error(`câu ${i+1} thiếu answer`);
-      } else if (q.type === 'matching') {
-        if (!Array.isArray(q.pairs) || q.pairs.length < 2) throw new Error(`câu ${i+1} cần ít nhất 2 pairs`);
-      } else {
-        throw new Error(`câu ${i+1} type không hỗ trợ: ${q.type}`);
-      }
-    });
-
-    exercises.push({
-      id: data.id,
-      subject: data.subject,
-      grade: data.grade,
-      topic: data.topic,
-      difficulty: data.difficulty || 1,
-      questionCount: data.questions.length,
-      path: rel,
-    });
-  } catch (e) {
-    errors.push({ file: rel, error: e.message });
-  }
+if (fileErrors.length) {
+  console.log(`\n❌ ${fileErrors.length} file LỖI (đã bỏ qua, không đưa vào index):`);
+  fileErrors.forEach(f => {
+    console.log(`   - ${f.file}`);
+    f.errors.forEach(e => console.log(`       • ${e}`));
+  });
 }
 
-// Sắp xếp: theo môn, lớp, topic
-exercises.sort((a, b) => {
-  if (a.subject !== b.subject) return a.subject.localeCompare(b.subject);
-  if (a.grade !== b.grade) return a.grade - b.grade;
-  return a.topic.localeCompare(b.topic, 'vi');
-});
-
-const output = {
-  generatedAt: new Date().toISOString(),
-  exercises,
-};
-fs.writeFileSync(OUT, JSON.stringify(output, null, 2), 'utf8');
-
-console.log(`✅ Đã sinh ${OUT}`);
-console.log(`   Tổng số bài: ${exercises.length}`);
-if (errors.length) {
-  console.log(`\n⚠️  ${errors.length} file bị lỗi (đã bỏ qua):`);
-  errors.forEach(e => console.log(`   - ${e.file}: ${e.error}`));
-  process.exitCode = 1;
+if (dupIds.length) {
+  console.log(`\n❌ ID trùng:`);
+  dupIds.forEach(d => console.log(`   - "${d.id}" ở: ${d.files.join(', ')}`));
 }
+
+if (dupQuestions.length) {
+  console.log(`\n⚠️  ${dupQuestions.length} câu hỏi bị TRÙNG (cân nhắc giữ lại hay bỏ):`);
+  dupQuestions.forEach(d => {
+    console.log(`   - "${d.locations[0].preview}..." xuất hiện ${d.count} lần:`);
+    d.locations.forEach(l => console.log(`       • ${l.id} (câu ${l.qIndex})`));
+  });
+}
+
+if (fileErrors.length || dupIds.length) process.exitCode = 1;

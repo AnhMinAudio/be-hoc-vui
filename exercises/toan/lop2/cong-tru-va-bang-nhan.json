@@ -1,0 +1,61 @@
+{
+  "id": "toan-l2-cong-tru-va-bang-nhan",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Cộng trừ trong 100 và bảng nhân",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "25 + 13 = ?",
+      "options": ["35", "38", "48", "28"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "47 - 12 = ?",
+      "options": ["35", "37", "25", "45"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "36 + ___ = 40",
+      "answer": "4",
+      "hint": "40 trừ 36 bằng mấy?"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2 × 5 = ___",
+      "answer": "10",
+      "hint": "2 được lấy 5 lần"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "3 × 4 = ?",
+      "options": ["7", "12", "9", "15"],
+      "answer": 1
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép nhân với kết quả",
+      "pairs": [
+        ["2 × 3", "6"],
+        ["4 × 2", "8"],
+        ["5 × 2", "10"],
+        ["3 × 3", "9"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "20 - ___ = 15",
+      "answer": "5"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lan có 12 cái kẹo, mẹ cho thêm 8 cái. Hỏi Lan có tất cả bao nhiêu cái kẹo?",
+      "options": ["18 cái", "20 cái", "22 cái", "16 cái"],
+      "answer": 1,
+      "hint": "Lấy 12 cộng 8"
+    }
+  ]
+}

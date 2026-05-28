@@ -1,0 +1,60 @@
+{
+  "id": "toan-l4-so-lon-phan-so-hinh-hoc",
+  "subject": "toan",
+  "grade": 4,
+  "topic": "Số lớn, phân số và hình học",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "1234 + 5678 = ?",
+      "options": ["6912", "6812", "7912", "6902"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "3000 - 1500 = ___",
+      "answer": "1500"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "12 × 11 = ?",
+      "options": ["121", "132", "144", "122"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "144 : 12 = ___",
+      "answer": "12"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Chu vi hình chữ nhật dài 8, rộng 5 (theo công thức (8 + 5) × 2): ___",
+      "answer": "26",
+      "hint": "Cộng dài với rộng rồi nhân 2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số nào bằng 1/2?",
+      "options": ["2/4", "1/3", "3/4", "2/3"],
+      "answer": 0,
+      "hint": "Thử rút gọn từng phân số"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phân số với cách đọc",
+      "pairs": [
+        ["1/2", "một phần hai"],
+        ["1/4", "một phần tư"],
+        ["3/4", "ba phần tư"],
+        ["2/3", "hai phần ba"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 7035 đọc là gì?",
+      "options": ["Bảy nghìn không trăm ba mươi lăm", "Bảy trăm ba mươi lăm", "Bảy nghìn ba trăm năm", "Bảy nghìn ba mươi"],
+      "answer": 0
+    }
+  ]
+}

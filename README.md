@@ -50,14 +50,37 @@ npx serve
 
 Mở `http://localhost:8000` để xem trang chính, hoặc `http://localhost:8000/tools/preview.html` để duyệt đề.
 
-## 📝 Quy trình thêm bài tập mới
+## 📝 Quy trình thêm bài tập mới (tự động + duyệt qua PR)
 
-1. Bảo Claude Code (trong VSCode) tạo đề:
-   > "Đọc `tools/schema.md` rồi tạo 8 câu phép trừ trong phạm vi 10 cho lớp 1, đặt tại `exercises/toan/lop1/phep-tru-trong-10.json`"
-2. Mở file JSON do Claude sinh — duyệt nội dung
-3. Chạy `node tools/build-index.js` để cập nhật catalog
-4. Mở `tools/preview.html` qua server, chọn đề mới → xem trước
-5. OK → commit + push → web tự deploy
+1. Bảo Claude Code (trong VSCode) tạo đề. Claude sẽ tự đọc `exercises/coverage.json` để tránh trùng chủ đề:
+   > "Đọc `tools/schema.md` và `exercises/coverage.json`, rồi sinh đề cho các chỗ còn thiếu của Toán lớp 2"
+2. Claude sinh JSON → chạy `node tools/build-index.js` → `node tools/check.js`
+3. Nếu **cổng kiểm tra** báo lỗi chặn (đáp án sai, ID/câu trùng) → Claude sửa rồi chạy lại
+4. Khi ĐẠT → tạo nhánh + Pull Request
+5. Bạn liếc qua PR (~30 giây), xem các cảnh báo "cần người liếc" → **Merge**
+6. Cloudflare tự deploy nhánh `main`
+
+### 🛡️ Cơ chế chống trùng (3 tầng)
+
+| Tầng | Chặn cái gì | Công cụ |
+|---|---|---|
+| ID file | 2 đề cùng `id` | `check.js` (lỗi chặn) |
+| Chủ đề | Sinh lại chủ đề đã có | `coverage.json` cho Claude biết chỗ thiếu |
+| Câu hỏi | Câu trùng giữa các file (chuẩn hóa + fingerprint) | `check.js` (cảnh báo) |
+
+### ✅ Kiểm tra đáp án
+
+`check.js` tự tính lại các câu Toán có dạng phép tính (vd `7 + 2 = ___`) và **chặn nếu đáp án sai**. Câu lời văn / Tiếng Việt / Tiếng Anh không tự kiểm được sẽ được đánh dấu "cần người liếc" trong báo cáo.
+
+### 🔧 Các lệnh kiểm tra
+
+```bash
+node tools/build-index.js    # sinh index.json + coverage.json
+node tools/verify-answers.js # chỉ kiểm đáp án Toán
+node tools/check.js          # CỔNG KIỂM TRA tổng hợp (dùng trước khi commit / trong PR)
+```
+
+> CI: `.github/workflows/check.yml` tự chạy `check.js` trên mỗi Pull Request — PR đỏ là có lỗi chặn.
 
 ## 🌐 Đưa lên internet (miễn phí, không cần tên miền)
 

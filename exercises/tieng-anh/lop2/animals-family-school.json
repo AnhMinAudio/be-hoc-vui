@@ -1,0 +1,59 @@
+{
+  "id": "ta-l2-animals-family-school",
+  "subject": "tieng-anh",
+  "grade": 2,
+  "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "matching",
+      "question": "Nối từ tiếng Anh với nghĩa tiếng Việt",
+      "pairs": [
+        ["dog", "con chó"],
+        ["cat", "con mèo"],
+        ["fish", "con cá"],
+        ["bird", "con chim"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Mother' có nghĩa là gì?",
+      "options": ["bố", "mẹ", "anh trai", "chị gái"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cái bút chì trong tiếng Anh là gì?",
+      "options": ["pen", "book", "pencil", "bag"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "Con chó trong tiếng Anh là ___",
+      "answer": "dog",
+      "alternatives": ["Dog", "DOG"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ về gia đình với nghĩa",
+      "pairs": [
+        ["father", "bố"],
+        ["mother", "mẹ"],
+        ["brother", "anh/em trai"],
+        ["sister", "chị/em gái"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "'Book' nghĩa là gì?",
+      "options": ["quyển sách", "cái bàn", "cái ghế", "cái cặp"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Con mèo trong tiếng Anh là ___",
+      "answer": "cat",
+      "alternatives": ["Cat", "CAT"]
+    }
+  ]
+}

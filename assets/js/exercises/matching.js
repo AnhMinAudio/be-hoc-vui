@@ -1,6 +1,6 @@
 // Render câu hỏi ghép cặp (matching) — click để chọn, không cần kéo thả thật sự (dễ trên mobile)
 const Matching = {
-  render(q, idx, onAnswer) {
+  render(q, idx, onAnswer, mode = 'practice') {
     const wrap = document.createElement('div');
     wrap.className = 'question-card';
 
@@ -30,29 +30,29 @@ const Matching = {
     const totalPairs = q.pairs.length;
 
     const checkAndContinue = () => {
-      if (Object.keys(state.matches).length === totalPairs) {
-        state.answered = true;
-        // Đếm số cặp đúng
-        let correctCount = 0;
-        Object.entries(state.matches).forEach(([leftId, rightId]) => {
-          const lEl = colL.querySelector(`[data-id="${leftId}"]`);
-          const rEl = colR.querySelector(`[data-id="${rightId}"]`);
-          if (Number(leftId) === Number(rightId)) {
-            correctCount++;
-            lEl.classList.add('match-correct');
-            rEl.classList.add('match-correct');
-          } else {
-            lEl.classList.add('match-wrong');
-            rEl.classList.add('match-wrong');
-          }
-        });
-        const allCorrect = correctCount === totalPairs;
-        const fbMsg = allCorrect
-          ? null
-          : `Đúng ${correctCount}/${totalPairs} cặp. Lần sau cẩn thận hơn nhé!`;
-        window.__showFeedback(wrap, allCorrect, fbMsg);
-        onAnswer(allCorrect);
+      if (Object.keys(state.matches).length !== totalPairs) return;
+      state.answered = true;
+      let correctCount = 0;
+      Object.entries(state.matches).forEach(([leftId, rightId]) => {
+        if (Number(leftId) === Number(rightId)) correctCount++;
+      });
+      const allCorrect = correctCount === totalPairs;
+
+      if (mode === 'exam') {
+        setTimeout(() => onAnswer(allCorrect), 450);
+        return;
       }
+      // Chế độ luyện: tô màu đúng/sai từng cặp
+      Object.entries(state.matches).forEach(([leftId, rightId]) => {
+        const lEl = colL.querySelector(`[data-id="${leftId}"]`);
+        const rEl = colR.querySelector(`[data-id="${rightId}"]`);
+        const cls = Number(leftId) === Number(rightId) ? 'match-correct' : 'match-wrong';
+        lEl.classList.add(cls);
+        rEl.classList.add(cls);
+      });
+      const fbMsg = allCorrect ? null : `Đúng ${correctCount}/${totalPairs} cặp. Lần sau cẩn thận hơn nhé!`;
+      window.__showFeedback(wrap, allCorrect, fbMsg);
+      onAnswer(allCorrect);
     };
 
     const handleClick = (side, el, item) => {

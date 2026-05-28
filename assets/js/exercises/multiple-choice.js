@@ -1,6 +1,7 @@
 // Render câu hỏi trắc nghiệm 1 đáp án
+// mode: 'practice' (hiện đúng/sai ngay) | 'exam' (không hiện, chỉ ghi nhận)
 const MultipleChoice = {
-  render(q, idx, onAnswer) {
+  render(q, idx, onAnswer, mode = 'practice') {
     const wrap = document.createElement('div');
     wrap.className = 'question-card';
 
@@ -30,13 +31,16 @@ const MultipleChoice = {
         if (answered) return;
         answered = true;
         const correct = i === q.answer;
-        btn.classList.add(correct ? 'correct' : 'wrong');
-        if (!correct) {
-          opts.children[q.answer].classList.add('correct');
-        }
         Array.from(opts.children).forEach(c => c.classList.add('disabled'));
-        showFeedback(wrap, correct, q.hint);
-        onAnswer(correct);
+        if (mode === 'exam') {
+          btn.classList.add('selected');
+          setTimeout(() => onAnswer(correct), 450);
+        } else {
+          btn.classList.add(correct ? 'correct' : 'wrong');
+          if (!correct) opts.children[q.answer].classList.add('correct');
+          showFeedback(wrap, correct, q.hint);
+          onAnswer(correct);
+        }
       };
       opts.appendChild(btn);
     });

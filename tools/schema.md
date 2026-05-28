@@ -2,6 +2,19 @@
 
 > Đọc file này trước khi sinh đề. Mỗi đề là một file JSON. Đặt vào đúng thư mục theo môn/lớp.
 
+## ⚠️ QUY TRÌNH BẮT BUỘC KHI SINH ĐỀ (đọc kỹ)
+
+1. **Tránh trùng — đọc `exercises/coverage.json` TRƯỚC.** File này liệt kê mỗi (môn, lớp) đã có chủ đề nào, bao nhiêu câu, và mục `gaps` là các chỗ còn trống. → Hãy **nhắm vào chỗ thiếu**, KHÔNG sinh lại chủ đề đã có.
+2. **Sinh đề GỐC, không copy đề thi có bản quyền.** Lấy đề thi thật chỉ để tham khảo *cấu trúc và độ khó*, rồi tự ra đề mới tương đương.
+3. **Đáp án phải đúng.** Với Toán, tự tính lại từng phép. Câu nào không chắc thì bỏ, đừng đoán.
+4. **Sau khi tạo file mới, BẮT BUỘC chạy theo thứ tự:**
+   ```bash
+   node tools/build-index.js   # cập nhật index.json + coverage.json
+   node tools/check.js         # cổng kiểm tra — phải ĐẠT (exit 0)
+   ```
+   Nếu `check.js` báo LỖI CHẶN (đáp án sai, ID trùng, file lỗi) → phải sửa rồi chạy lại. Chỉ commit khi đã ĐẠT.
+5. **Để verify đáp án Toán tự động chạy được:** câu Toán nên viết ở dạng có dấu `=`, ví dụ `7 + 2 = ___` hoặc `7 + 2 = ?`. Như vậy công cụ mới tính lại và kiểm tra được.
+
 ## Vị trí file
 
 ```
@@ -107,9 +120,20 @@ exercises/<subject>/lop<grade>/<slug>.json
 
 ## SAU KHI TẠO ĐỀ MỚI
 
-Chạy lệnh để cập nhật danh mục:
 ```bash
-node tools/build-index.js
+node tools/build-index.js   # cập nhật index.json + coverage.json, cảnh báo câu trùng
+node tools/check.js         # cổng kiểm tra tổng hợp — phải ĐẠT
 ```
 
 Sau đó mở `tools/preview.html` (qua HTTP server) để xem trước.
+
+### Các công cụ kiểm tra
+
+| Lệnh | Tác dụng |
+|---|---|
+| `node tools/build-index.js` | Sinh `index.json` + `coverage.json`; cảnh báo câu/ID trùng |
+| `node tools/verify-answers.js` | Tính lại đáp án Toán, báo câu SAI |
+| `node tools/check.js` | **Cổng kiểm tra**: gộp tất cả; thoát mã ≠ 0 nếu có lỗi chặn (dùng trong CI/PR) |
+
+**Lỗi CHẶN (phải sửa):** file sai cấu trúc, ID trùng, đáp án Toán sai, index/coverage cũ.
+**Cảnh báo (không chặn, người duyệt liếc):** câu hỏi trùng giữa các file, câu Toán không tự kiểm được.

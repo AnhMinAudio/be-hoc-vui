@@ -1,0 +1,55 @@
+{
+  "id": "tv-l5-dong-trai-nghia-quan-he-tu",
+  "subject": "tieng-viet",
+  "grade": 5,
+  "topic": "Từ đồng nghĩa, trái nghĩa, quan hệ từ và đại từ",
+  "difficulty": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với 'siêng năng'?",
+      "options": ["lười biếng", "chăm chỉ", "buồn bã", "ồn ào"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào trái nghĩa với 'hạnh phúc'?",
+      "options": ["vui vẻ", "sung sướng", "đau khổ", "may mắn"],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là quan hệ từ?",
+      "options": ["và", "chạy", "đẹp", "ngôi nhà"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền quan hệ từ chỉ sự đối lập: Trời mưa ___ em vẫn đi học.",
+      "answer": "nhưng",
+      "alternatives": ["mà", "song"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ đồng nghĩa",
+      "pairs": [
+        ["to lớn", "khổng lồ"],
+        ["nhỏ bé", "tí hon"],
+        ["nhanh nhẹn", "lẹ làng"],
+        ["xinh đẹp", "kiều diễm"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đại từ trong câu 'Nó đang chơi' là từ nào?",
+      "options": ["đang", "chơi", "nó", "ngoài"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm một từ đồng nghĩa với 'dũng cảm': ___",
+      "answer": "gan dạ",
+      "alternatives": ["can đảm", "gan góc", "anh dũng", "dũng mãnh"]
+    }
+  ]
+}

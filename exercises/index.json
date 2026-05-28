@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T02:41:37.358Z",
+  "generatedAt": "2026-05-28T04:36:52.523Z",
   "exercises": [
     {
       "id": "ta-l1-colors-and-numbers",
@@ -11,6 +11,42 @@
       "path": "tieng-anh/lop1/colors-and-numbers.json"
     },
     {
+      "id": "ta-l2-animals-family-school",
+      "subject": "tieng-anh",
+      "grade": 2,
+      "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
+      "difficulty": 1,
+      "questionCount": 7,
+      "path": "tieng-anh/lop2/animals-family-school.json"
+    },
+    {
+      "id": "ta-l3-numbers-and-days",
+      "subject": "tieng-anh",
+      "grade": 3,
+      "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "tieng-anh/lop3/numbers-and-days.json"
+    },
+    {
+      "id": "ta-l4-jobs-and-hobbies",
+      "subject": "tieng-anh",
+      "grade": 4,
+      "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "tieng-anh/lop4/jobs-and-hobbies.json"
+    },
+    {
+      "id": "ta-l5-routines-places-comparatives",
+      "subject": "tieng-anh",
+      "grade": 5,
+      "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
+      "difficulty": 3,
+      "questionCount": 7,
+      "path": "tieng-anh/lop5/routines-places-comparatives.json"
+    },
+    {
       "id": "tv-l1-chu-cai-va-am",
       "subject": "tieng-viet",
       "grade": 1,
@@ -20,6 +56,42 @@
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
     },
     {
+      "id": "tv-l2-tu-loai-va-cau",
+      "subject": "tieng-viet",
+      "grade": 2,
+      "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
+      "difficulty": 1,
+      "questionCount": 7,
+      "path": "tieng-viet/lop2/tu-loai-va-cau.json"
+    },
+    {
+      "id": "tv-l3-tu-loai-va-so-sanh",
+      "subject": "tieng-viet",
+      "grade": 3,
+      "topic": "Từ chỉ đặc điểm và hình ảnh so sánh",
+      "difficulty": 2,
+      "questionCount": 6,
+      "path": "tieng-viet/lop3/tu-loai-va-so-sanh.json"
+    },
+    {
+      "id": "tv-l4-danh-dong-tinh-tu",
+      "subject": "tieng-viet",
+      "grade": 4,
+      "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
+    },
+    {
+      "id": "tv-l5-dong-trai-nghia-quan-he-tu",
+      "subject": "tieng-viet",
+      "grade": 5,
+      "topic": "Từ đồng nghĩa, trái nghĩa, quan hệ từ và đại từ",
+      "difficulty": 3,
+      "questionCount": 7,
+      "path": "tieng-viet/lop5/dong-trai-nghia-quan-he-tu.json"
+    },
+    {
       "id": "toan-l1-phep-cong-trong-10",
       "subject": "toan",
       "grade": 1,
@@ -27,6 +99,42 @@
       "difficulty": 1,
       "questionCount": 8,
       "path": "toan/lop1/phep-cong-trong-10.json"
+    },
+    {
+      "id": "toan-l2-cong-tru-va-bang-nhan",
+      "subject": "toan",
+      "grade": 2,
+      "topic": "Cộng trừ trong 100 và bảng nhân",
+      "difficulty": 1,
+      "questionCount": 8,
+      "path": "toan/lop2/cong-tru-va-bang-nhan.json"
+    },
+    {
+      "id": "toan-l3-nhan-chia-trong-bang",
+      "subject": "toan",
+      "grade": 3,
+      "topic": "Nhân chia trong bảng và phép tính trong 1000",
+      "difficulty": 2,
+      "questionCount": 8,
+      "path": "toan/lop3/nhan-chia-trong-bang.json"
+    },
+    {
+      "id": "toan-l4-so-lon-phan-so-hinh-hoc",
+      "subject": "toan",
+      "grade": 4,
+      "topic": "Số lớn, phân số và hình học",
+      "difficulty": 2,
+      "questionCount": 8,
+      "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
+    },
+    {
+      "id": "toan-l5-thap-phan-phan-tram-dien-tich",
+      "subject": "toan",
+      "grade": 5,
+      "topic": "Số thập phân, phần trăm và diện tích",
+      "difficulty": 3,
+      "questionCount": 8,
+      "path": "toan/lop5/thap-phan-phan-tram-dien-tich.json"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "tv-l3-tu-loai-va-so-sanh",
+  "subject": "tieng-viet",
+  "grade": 3,
+  "topic": "Từ chỉ đặc điểm và hình ảnh so sánh",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào có hình ảnh so sánh?",
+      "options": ["Mặt trời đỏ rực.", "Trăng tròn như cái đĩa.", "Em bé đang khóc.", "Gió thổi rất mạnh."],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm từ chỉ đặc điểm trong câu 'Bông hoa đỏ thắm': ___",
+      "answer": "đỏ thắm",
+      "alternatives": ["đỏ"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'chăm chỉ' chỉ điều gì?",
+      "options": ["sự vật", "hoạt động", "đặc điểm", "số lượng"],
+      "answer": 2
+    },
+    {
+      "type": "matching",
+      "question": "Nối để hoàn thành câu so sánh quen thuộc",
+      "pairs": [
+        ["hiền như", "Bụt"],
+        ["nhanh như", "sóc"],
+        ["chậm như", "rùa"],
+        ["khỏe như", "voi"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ trái nghĩa với 'siêng năng': ___",
+      "answer": "lười biếng",
+      "alternatives": ["lười", "lười nhác"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào dùng dấu phẩy đúng?",
+      "options": ["Em thích, táo cam và xoài.", "Em thích táo, cam và xoài.", "Em, thích táo cam xoài.", "Em thích táo cam, và xoài."],
+      "answer": 1
+    }
+  ]
+}

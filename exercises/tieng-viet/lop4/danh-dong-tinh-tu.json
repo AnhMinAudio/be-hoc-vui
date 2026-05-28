@@ -1,0 +1,53 @@
+{
+  "id": "tv-l4-danh-dong-tinh-tu",
+  "subject": "tieng-viet",
+  "grade": 4,
+  "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là động từ?",
+      "options": ["ngôi nhà", "chạy", "xanh", "cao"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là tính từ?",
+      "options": ["bàn học", "ăn", "đẹp đẽ", "quyển sách"],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ láy?",
+      "options": ["bàn ghế", "xinh xắn", "ăn uống", "sách vở"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ ghép?",
+      "options": ["lung linh", "long lanh", "hoa hồng", "rì rào"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm danh từ chỉ người trong câu 'Học sinh chăm chỉ học bài': ___",
+      "answer": "học sinh"
+    },
+    {
+      "type": "matching",
+      "question": "Phân loại từ cho đúng",
+      "pairs": [
+        ["ngôi trường", "danh từ"],
+        ["viết bài", "động từ"],
+        ["chăm ngoan", "tính từ"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Từ trái nghĩa với 'chăm chỉ' là ___",
+      "answer": "lười biếng",
+      "alternatives": ["lười"]
+    }
+  ]
+}
