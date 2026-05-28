@@ -881,6 +881,7 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 }
 .auth-tab.active { color: var(--c-ta-dark); border-bottom-color: var(--c-ta-dark); }
 .auth-form { display: flex; flex-direction: column; gap: 14px; }
+.auth-form[hidden] { display: none; }
 .auth-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 0.92rem; }
 .auth-form label small { font-weight: 600; color: var(--c-text-soft); }
 .auth-form input, .auth-form select {
