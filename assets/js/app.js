@@ -4,10 +4,17 @@ const SUBJECTS = {
   'tieng-viet': { name: 'Tiếng Việt', icon: '📖', cls: 'tv' },
   'ngu-van': { name: 'Ngữ văn', icon: '📖', cls: 'tv' },
   'tieng-anh': { name: 'Tiếng Anh', icon: '🌍', cls: 'ta' },
+  'vat-li': { name: 'Vật lí', icon: '⚛️', cls: 'toan' },
+  'hoa-hoc': { name: 'Hóa học', icon: '🧪', cls: 'tv' },
+  'sinh-hoc': { name: 'Sinh học', icon: '🧬', cls: 'toan' },
+  'lich-su': { name: 'Lịch sử', icon: '📜', cls: 'tv' },
+  'dia-li': { name: 'Địa lí', icon: '🌏', cls: 'ta' },
+  'gdkt-pl': { name: 'GD Kinh tế & Pháp luật', icon: '⚖️', cls: 'ta' },
 };
 // Môn theo cấp học
 const PRIMARY_SUBJECT_KEYS = ['toan', 'tieng-viet', 'tieng-anh'];
 const THCS_SUBJECT_KEYS = ['toan', 'ngu-van', 'tieng-anh'];
+const THPT_SUBJECT_KEYS = ['toan', 'ngu-van', 'tieng-anh', 'vat-li', 'hoa-hoc', 'sinh-hoc', 'lich-su', 'dia-li', 'gdkt-pl'];
 
 // Mầm non: lĩnh vực phát triển (3-5 tuổi)
 const PRESCHOOL = {
@@ -130,6 +137,14 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
+    <h2 class="home-section">🎓 Trung học phổ thông</h2>
+    <div class="grade-grid">
+      ${[10, 11, 12].map(g => `
+        <a href="#/lop${g}" class="grade-card thpt">
+          <div class="num">${g}</div>
+          <div class="label">Lớp ${g}</div>
+        </a>`).join('')}
+    </div>
   `;
 }
 
@@ -187,7 +202,7 @@ function renderPreschoolTopics(view, age, domain) {
 }
 
 function renderSubjects(view, grade) {
-  const keys = grade >= 6 ? THCS_SUBJECT_KEYS : PRIMARY_SUBJECT_KEYS;
+  const keys = grade >= 10 ? THPT_SUBJECT_KEYS : grade >= 6 ? THCS_SUBJECT_KEYS : PRIMARY_SUBJECT_KEYS;
   const counts = {};
   for (const key of keys)
     counts[key] = CATALOG.exercises.filter(e => e.subject === key && e.grade === grade).length;

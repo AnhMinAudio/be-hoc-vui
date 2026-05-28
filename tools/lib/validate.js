@@ -9,6 +9,8 @@ const PRESCHOOL_DOMAINS = ['mau-sac', 'con-vat', 'dem-so', 'hinh-khoi'];
 const PRESCHOOL_AGES = [3, 4, 5];
 const THCS_SUBJECTS = ['toan', 'ngu-van', 'tieng-anh'];
 const THCS_GRADES = [6, 7, 8, 9];
+const THPT_SUBJECTS = ['toan', 'ngu-van', 'tieng-anh', 'vat-li', 'hoa-hoc', 'sinh-hoc', 'lich-su', 'dia-li', 'gdkt-pl'];
+const THPT_GRADES = [10, 11, 12];
 
 // ===== Chuẩn hóa & fingerprint =====
 // Giữ dấu tiếng Việt (vì có nghĩa), chỉ hạ chữ thường, gộp khoảng trắng, bỏ dấu câu cuối.
@@ -65,6 +67,9 @@ function validateExercise(data) {
   } else if (stage === 'thcs') {
     if (!THCS_SUBJECTS.includes(data.subject)) errors.push(`THCS: subject không hợp lệ: ${data.subject}`);
     if (!THCS_GRADES.includes(data.grade)) errors.push('THCS: grade phải là 6-9');
+  } else if (stage === 'thpt') {
+    if (!THPT_SUBJECTS.includes(data.subject)) errors.push(`THPT: subject không hợp lệ: ${data.subject}`);
+    if (!THPT_GRADES.includes(data.grade)) errors.push('THPT: grade phải là 10-12');
   } else {
     errors.push(`stage không hợp lệ: ${stage}`);
   }
@@ -290,9 +295,23 @@ function buildArtifacts(okList) {
     }
   }
 
+  // Coverage map — THPT
+  const thpt = {};
+  for (const subject of THPT_SUBJECTS) {
+    thpt[subject] = {};
+    for (const grade of THPT_GRADES) {
+      const list = exercises.filter(e => e.stage === 'thpt' && e.subject === subject && e.grade === grade);
+      thpt[subject][grade] = {
+        exerciseCount: list.length,
+        totalQuestions: list.reduce((s, e) => s + e.questionCount, 0),
+        topics: list.map(e => ({ id: e.id, topic: e.topic, questionCount: e.questionCount, difficulty: e.difficulty })),
+      };
+    }
+  }
+
   return {
     index: { exercises },
-    coverage: { coverage, preschool, thcs, gaps },
+    coverage: { coverage, preschool, thcs, thpt, gaps },
     dupIds,
     dupQuestions,
   };
@@ -314,7 +333,7 @@ function verifyAll(okList) {
 }
 
 module.exports = {
-  VALID_SUBJECTS, VALID_GRADES, PRESCHOOL_DOMAINS, PRESCHOOL_AGES, THCS_SUBJECTS, THCS_GRADES,
+  VALID_SUBJECTS, VALID_GRADES, PRESCHOOL_DOMAINS, PRESCHOOL_AGES, THCS_SUBJECTS, THCS_GRADES, THPT_SUBJECTS, THPT_GRADES,
   normalizeText, questionFingerprint, validateExercise,
   safeArithmetic, verifyMathQuestion,
   walkJsonFiles, loadAll, buildArtifacts, verifyAll,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:06:37.562Z",
+  "generatedAt": "2026-05-28T08:28:36.328Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -733,6 +733,23 @@
       ],
       "timeLimit": 45,
       "path": "thcs/lop9/de-thi-thu-1.json"
+    },
+    {
+      "id": "thpt-toan-l12-de-thi-thu-tot-nghiep-1",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Đề thi thử tốt nghiệp THPT - Toán (cấu trúc 2025)",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Ứng dụng đạo hàm",
+        "Nguyên hàm và tích phân",
+        "Tọa độ trong không gian",
+        "Xác suất có điều kiện"
+      ],
+      "timeLimit": 45,
+      "path": "thpt/lop12/de-thi-thu-tot-nghiep-1.json"
     }
   ]
 }

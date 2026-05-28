@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:06:37.562Z",
+  "generatedAt": "2026-05-28T08:28:36.328Z",
   "coverage": {
     "toan": {
       "1": {
@@ -587,6 +587,168 @@
             "difficulty": 3
           }
         ]
+      }
+    }
+  },
+  "thpt": {
+    "toan": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 1,
+        "totalQuestions": 16,
+        "topics": [
+          {
+            "id": "thpt-toan-l12-de-thi-thu-tot-nghiep-1",
+            "topic": "Đề thi thử tốt nghiệp THPT - Toán (cấu trúc 2025)",
+            "questionCount": 16,
+            "difficulty": 3
+          }
+        ]
+      }
+    },
+    "ngu-van": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "tieng-anh": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "vat-li": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "hoa-hoc": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "sinh-hoc": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "lich-su": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "dia-li": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      }
+    },
+    "gdkt-pl": {
+      "10": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "11": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
+      },
+      "12": {
+        "exerciseCount": 0,
+        "totalQuestions": 0,
+        "topics": []
       }
     }
   },
