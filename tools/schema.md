@@ -129,6 +129,30 @@ Ví dụ:
 
 ---
 
+## ĐỀ THCS (lớp 6–9) — định dạng riêng
+
+Đề THCS thêm `stage: "thcs"`, `grade` = 6–9, `subject` ∈ `toan` | `ngu-van` | `tieng-anh`. Thư mục `exercises/thcs/lop<n>/<slug>.json`. Số câu **15–20** như tiểu học.
+
+**Công thức Toán — dùng KaTeX** trong `$...$`. Trong JSON phải escape `\` thành `\\`:
+```json
+{ "type": "multiple-choice", "question": "Khai triển $(a+b)^2$ bằng:", "options": ["$a^2+2ab+b^2$", "$a^2+b^2$"], "answer": 0 }
+```
+Phân số `$\\frac{a}{b}$`, lũy thừa `$x^2$`, căn `$\\sqrt{16}$`, khác `$\\neq$`.
+
+**Hai loại câu thêm cho THCS (cũng dùng được ở cấp khác):**
+- `true-false` — câu Đúng/Sai, `answer` là **boolean**:
+  ```json
+  { "type": "true-false", "question": "Số 0 là số nguyên dương.", "answer": false, "hint": "..." }
+  ```
+- **Đọc hiểu** — thêm trường `passage` vào câu `multiple-choice`/`fill-blank`; đoạn văn hiện phía trên câu hỏi. Làm 1 nhóm 3–4 câu CÙNG một `passage` (lặp passage giống nhau ở mỗi câu, vì mỗi lần chỉ hiện 1 câu).
+  ```json
+  { "type": "multiple-choice", "passage": "Lan is a student...", "question": "How does Lan go to school? (...)", "options": ["By bike", "By bus"], "answer": 0 }
+  ```
+
+**Tiếng Anh THCS:** vẫn theo quy tắc song ngữ (câu hỏi Anh + nghĩa Việt trong ngoặc; đáp án giữ nguyên). Đoạn đọc hiểu là đoạn tiếng Anh ngắn đúng trình độ.
+
+**Lưu ý:** Toán THCS (đại số/hình học) đa phần KHÔNG tự kiểm được đáp án → soạn cẩn thận, tự giải lại từng câu.
+
 ## ĐỀ MẦM NON (3–5 tuổi) — định dạng riêng
 
 Trẻ mầm non **chưa biết đọc** → đề dùng **tranh + giọng đọc**, KHÔNG dùng `fill-blank` (không gõ chữ).
