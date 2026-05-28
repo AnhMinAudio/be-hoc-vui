@@ -1,0 +1,126 @@
+{
+  "id": "tv-l1-am-va-chu-cai-nang-cao",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Âm và chữ cái (nâng cao)",
+  "difficulty": 1,
+  "outcomes": ["TV1-AM-1", "TV1-AM-2", "TV1-AM-3"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Bảng chữ cái tiếng Việt có bao nhiêu chữ cái?",
+      "options": ["24", "26", "29", "30"],
+      "answer": 2,
+      "hint": "Bảng chữ cái tiếng Việt có a, ă, â... đến y.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào đứng cuối bảng chữ cái?",
+      "options": ["x", "y", "v", "u"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'gà' bắt đầu bằng âm nào?",
+      "options": ["g", "c", "k", "q"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào bắt đầu bằng âm 'th'?",
+      "options": ["tay", "thỏ", "ta", "tô"],
+      "answer": 1,
+      "hint": "Âm 'th' đọc là 'thờ'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào sau đây là phụ âm?",
+      "options": ["a", "o", "b", "ê"],
+      "answer": 2,
+      "hint": "Nguyên âm là a, e, i, o, u...; còn lại là phụ âm.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'khế' bắt đầu bằng âm nào?",
+      "options": ["k", "kh", "h", "c"],
+      "answer": 1,
+      "hint": "Âm 'kh' đọc là 'khờ'.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___á (con vật bơi dưới nước)",
+      "answer": "c",
+      "hint": "Con cá bơi dưới nước."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___ưa (trái cây có nhiều múi, ăn mùa hè)",
+      "answer": "d",
+      "hint": "Quả dưa hấu màu đỏ."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___à (mẹ của bố hoặc mẹ)",
+      "answer": "b",
+      "hint": "Bà ngoại, bà nội."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết chữ cái đứng ngay sau chữ 'm' trong bảng chữ cái.",
+      "answer": "n",
+      "alternatives": ["N"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối âm đầu với một tiếng bắt đầu bằng âm đó",
+      "pairs": [
+        ["ch", "chó"],
+        ["nh", "nhà"],
+        ["kh", "khế"],
+        ["ph", "phố"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối chữ cái với tên gọi của nó",
+      "pairs": [
+        ["b", "bê"],
+        ["c", "xê"],
+        ["l", "e-lờ"],
+        ["m", "em-mờ"]
+      ]
+    },
+    {
+      "type": "true-false",
+      "question": "Chữ 'a' là một nguyên âm. Đúng hay sai?",
+      "answer": true,
+      "level": "NB"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'nhà' bắt đầu bằng âm 'n'. Đúng hay sai?",
+      "answer": false,
+      "hint": "Tiếng 'nhà' bắt đầu bằng âm 'nh'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào bắt đầu bằng âm 'ng'?",
+      "options": ["nhà", "ngô", "nó", "na"],
+      "answer": 1,
+      "hint": "Âm 'ng' đọc là 'ngờ'. Quả ngô.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___ế (đồ dùng để ngồi, có bốn chân và lưng tựa)",
+      "answer": "gh",
+      "hint": "Cái ghế để ngồi. Trước 'ê' viết là 'gh'."
+    }
+  ]
+}

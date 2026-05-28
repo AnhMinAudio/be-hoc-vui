@@ -1,0 +1,140 @@
+{
+  "id": "toan-l1-so-den-100-so-sanh",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Số đến 100 và so sánh số",
+  "difficulty": 1,
+  "outcomes": ["T1-SO-5", "T1-SO-6", "T1-SO-7"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 47 gồm mấy chục và mấy đơn vị?",
+      "options": ["4 chục 7 đơn vị", "7 chục 4 đơn vị", "4 chục 4 đơn vị", "7 chục 7 đơn vị"],
+      "answer": 0,
+      "hint": "Chữ số hàng chục là 4, hàng đơn vị là 7",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số gồm 6 chục và 3 đơn vị là số ___",
+      "answer": "63",
+      "hint": "Viết chục trước, đơn vị sau",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số tròn chục liền sau của 50 là ___",
+      "answer": "60",
+      "hint": "Thêm 1 chục nữa vào 50",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 38 hay 53?",
+      "options": ["38", "53", "Bằng nhau", "Không biết"],
+      "answer": 1,
+      "hint": "So hàng chục trước: 3 chục và 5 chục, số nào nhiều chục hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 71 hay 67?",
+      "options": ["71", "67", "Bằng nhau", "Cả hai"],
+      "answer": 1,
+      "hint": "67 có 6 chục, 71 có 7 chục",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 45 hay 49?",
+      "options": ["45", "49", "Bằng nhau", "Không biết"],
+      "answer": 1,
+      "hint": "Cùng 4 chục thì so đơn vị: 5 hay 9 lớn hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp các số tròn chục: 10, 20, 30, ___, 50",
+      "answer": "40",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 96, 97, 98, ___, 100",
+      "answer": "99",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 79 là ___",
+      "answer": "80",
+      "hint": "79 thêm 1 đơn vị nữa",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 60 là ___",
+      "answer": "59",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số lớn nhất trong các số 34, 43, 28, 40 là số nào?",
+      "options": ["34", "43", "28", "40"],
+      "answer": 1,
+      "hint": "So hàng chục trước rồi mới đến đơn vị",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số bé nhất trong các số 52, 25, 50, 35 là số nào?",
+      "options": ["52", "25", "50", "35"],
+      "answer": 1,
+      "hint": "Số nào ít chục nhất?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dấu nào điền đúng: 27 ... 72?",
+      "options": ["lớn hơn (>)", "bé hơn (<)", "bằng (=)", "không có dấu"],
+      "answer": 1,
+      "hint": "27 có 2 chục, 72 có 7 chục",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cấu tạo chục - đơn vị",
+      "pairs": [
+        ["52", "5 chục 2 đơn vị"],
+        ["30", "3 chục 0 đơn vị"],
+        ["68", "6 chục 8 đơn vị"],
+        ["41", "4 chục 1 đơn vị"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số tròn chục với cách đọc",
+      "pairs": [
+        ["20", "hai mươi"],
+        ["50", "năm mươi"],
+        ["80", "tám mươi"],
+        ["90", "chín mươi"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Nhà bạn Hoa nuôi 35 con gà, nhà bạn Lan nuôi 53 con gà. Nhà ai nuôi nhiều gà hơn?",
+      "options": ["Nhà bạn Hoa", "Nhà bạn Lan", "Bằng nhau", "Không ai"],
+      "answer": 1,
+      "hint": "So sánh 35 và 53: số nào nhiều chục hơn?",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Xếp các số 24, 19, 31 theo thứ tự từ bé đến lớn, số đứng đầu là ___",
+      "answer": "19",
+      "hint": "Số bé nhất đứng đầu",
+      "level": "VD"
+    }
+  ]
+}

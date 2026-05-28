@@ -1,0 +1,127 @@
+{
+  "id": "ta-l1-animals-and-pets",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Animals & Pets (Con vật và thú nuôi)",
+  "difficulty": 1,
+  "outcomes": ["TA1-ANIMAL", "TA1-PATTERN"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cat' mean? (Từ 'cat' nghĩa là gì?)",
+      "options": ["con mèo", "con chó", "con cá", "con chim"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal says 'woof woof'? (Con vật nào kêu 'gâu gâu'?)",
+      "options": ["cat", "dog", "fish", "bird"],
+      "answer": 1,
+      "level": "TH",
+      "hint": "A dog says 'woof'. (Con chó kêu gâu gâu.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'con cá' (Viết từ tiếng Anh của 'con cá'): ___",
+      "answer": "fish",
+      "alternatives": ["Fish", "FISH"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the animal with its Vietnamese meaning (Nối con vật với nghĩa tiếng Việt)",
+      "pairs": [
+        ["dog", "con chó"],
+        ["rabbit", "con thỏ"],
+        ["bird", "con chim"],
+        ["duck", "con vịt"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal can fly? (Con vật nào biết bay?)",
+      "options": ["fish", "cat", "bird", "rabbit"],
+      "answer": 2,
+      "level": "TH",
+      "hint": "A bird can fly. (Con chim biết bay.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'rabbit' mean? (Từ 'rabbit' nghĩa là gì?)",
+      "options": ["con thỏ", "con vịt", "con gà mái", "con chim"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'con vịt' (Viết từ tiếng Anh của 'con vịt'): ___",
+      "answer": "duck",
+      "alternatives": ["Duck", "DUCK"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the animal with its Vietnamese meaning (Nối con vật với nghĩa tiếng Việt)",
+      "pairs": [
+        ["rabbit", "con thỏ"],
+        ["duck", "con vịt"],
+        ["hen", "con gà mái"],
+        ["frog", "con ếch"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal lives in water? (Con vật nào sống dưới nước?)",
+      "options": ["cat", "fish", "bird", "rabbit"],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'dog' mean? (Từ 'dog' nghĩa là gì?)",
+      "options": ["con mèo", "con chó", "con thỏ", "con cá"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "It's a small pet that says 'meow'. It is a ___ . (Đây là thú nuôi nhỏ kêu 'meo meo'. Nó là con gì? - điền 'cat')",
+      "answer": "cat",
+      "alternatives": ["Cat", "CAT"],
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence tells about an animal? (Câu nào nói về một con vật?)",
+      "options": ["It's a dog.", "I'm five.", "Hello!", "Sit down."],
+      "answer": 0,
+      "level": "TH",
+      "hint": "'It's a dog.' tells what the animal is. ('It's a dog.' cho biết đó là con gì.)"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English phrase with its meaning (Nối cụm tiếng Anh với nghĩa)",
+      "pairs": [
+        ["It's a cat.", "Đó là con mèo."],
+        ["I have a dog.", "Tôi có một con chó."],
+        ["The bird is small.", "Con chim nhỏ."],
+        ["The dog is big.", "Con chó to."]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'bird' mean? (Từ 'bird' nghĩa là gì?)",
+      "options": ["con chim", "con cá", "con mèo", "con thỏ"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'con gà mái' (Viết từ tiếng Anh của 'con gà mái'): ___",
+      "answer": "hen",
+      "alternatives": ["Hen", "HEN"],
+      "level": "TH"
+    }
+  ]
+}

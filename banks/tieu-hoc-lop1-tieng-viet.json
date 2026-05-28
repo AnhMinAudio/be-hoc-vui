@@ -1,0 +1,1301 @@
+{
+  "stage": "tieu-hoc",
+  "grade": 1,
+  "subject": "tieng-viet",
+  "count": 113,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Bảng chữ cái tiếng Việt có bao nhiêu chữ cái?",
+      "options": [
+        "24",
+        "26",
+        "29",
+        "30"
+      ],
+      "answer": 2,
+      "hint": "Bảng chữ cái tiếng Việt có a, ă, â... đến y.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào đứng cuối bảng chữ cái?",
+      "options": [
+        "x",
+        "y",
+        "v",
+        "u"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'gà' bắt đầu bằng âm nào?",
+      "options": [
+        "g",
+        "c",
+        "k",
+        "q"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào bắt đầu bằng âm 'th'?",
+      "options": [
+        "tay",
+        "thỏ",
+        "ta",
+        "tô"
+      ],
+      "answer": 1,
+      "hint": "Âm 'th' đọc là 'thờ'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào sau đây là phụ âm?",
+      "options": [
+        "a",
+        "o",
+        "b",
+        "ê"
+      ],
+      "answer": 2,
+      "hint": "Nguyên âm là a, e, i, o, u...; còn lại là phụ âm.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'khế' bắt đầu bằng âm nào?",
+      "options": [
+        "k",
+        "kh",
+        "h",
+        "c"
+      ],
+      "answer": 1,
+      "hint": "Âm 'kh' đọc là 'khờ'.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___á (con vật bơi dưới nước)",
+      "answer": "c",
+      "hint": "Con cá bơi dưới nước."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___ưa (trái cây có nhiều múi, ăn mùa hè)",
+      "answer": "d",
+      "hint": "Quả dưa hấu màu đỏ."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___à (mẹ của bố hoặc mẹ)",
+      "answer": "b",
+      "hint": "Bà ngoại, bà nội."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết chữ cái đứng ngay sau chữ 'm' trong bảng chữ cái.",
+      "answer": "n",
+      "alternatives": [
+        "N"
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối âm đầu với một tiếng bắt đầu bằng âm đó",
+      "pairs": [
+        [
+          "ch",
+          "chó"
+        ],
+        [
+          "nh",
+          "nhà"
+        ],
+        [
+          "kh",
+          "khế"
+        ],
+        [
+          "ph",
+          "phố"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối chữ cái với tên gọi của nó",
+      "pairs": [
+        [
+          "b",
+          "bê"
+        ],
+        [
+          "c",
+          "xê"
+        ],
+        [
+          "l",
+          "e-lờ"
+        ],
+        [
+          "m",
+          "em-mờ"
+        ]
+      ]
+    },
+    {
+      "type": "true-false",
+      "question": "Chữ 'a' là một nguyên âm. Đúng hay sai?",
+      "answer": true,
+      "level": "NB"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'nhà' bắt đầu bằng âm 'n'. Đúng hay sai?",
+      "answer": false,
+      "hint": "Tiếng 'nhà' bắt đầu bằng âm 'nh'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào bắt đầu bằng âm 'ng'?",
+      "options": [
+        "nhà",
+        "ngô",
+        "nó",
+        "na"
+      ],
+      "answer": 1,
+      "hint": "Âm 'ng' đọc là 'ngờ'. Quả ngô.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___ế (đồ dùng để ngồi, có bốn chân và lưng tựa)",
+      "answer": "gh",
+      "hint": "Cái ghế để ngồi. Trước 'ê' viết là 'gh'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào đứng sau chữ 'a' trong bảng chữ cái?",
+      "options": [
+        "c",
+        "ă",
+        "b",
+        "đ"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'mẹ' bắt đầu bằng âm nào?",
+      "options": [
+        "b",
+        "m",
+        "n",
+        "l"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: ___à nội (người sinh ra bố)",
+      "answer": "b",
+      "hint": "Bà nội — ai sinh ra bố của bé?"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: con ___èo (con vật kêu meo meo)",
+      "answer": "m"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với hình ảnh (mô tả)",
+      "pairs": [
+        [
+          "cá",
+          "bơi dưới nước"
+        ],
+        [
+          "chim",
+          "bay trên trời"
+        ],
+        [
+          "bò",
+          "ăn cỏ trên đồng"
+        ],
+        [
+          "mèo",
+          "kêu meo meo"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có dấu sắc?",
+      "options": [
+        "bà",
+        "má",
+        "mả",
+        "mà"
+      ],
+      "answer": 1,
+      "hint": "Dấu sắc là dấu nghiêng lên phía trên"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết chữ cái đứng trước chữ 'd'",
+      "answer": "đ",
+      "alternatives": [
+        "Đ"
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với dấu thanh tương ứng",
+      "pairs": [
+        [
+          "mẹ",
+          "dấu nặng"
+        ],
+        [
+          "má",
+          "dấu sắc"
+        ],
+        [
+          "mả",
+          "dấu hỏi"
+        ],
+        [
+          "mã",
+          "dấu ngã"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào là nguyên âm?",
+      "options": [
+        "b",
+        "o",
+        "t",
+        "k"
+      ],
+      "answer": 1,
+      "hint": "Các nguyên âm là a, e, i, o, u..."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'ba' bắt đầu bằng âm nào?",
+      "options": [
+        "b",
+        "p",
+        "đ",
+        "v"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: con ___á (con vật bơi dưới nước)",
+      "answer": "c"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: quả ___am (quả màu cam, ăn rất ngọt)",
+      "answer": "c"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có dấu huyền?",
+      "options": [
+        "lá",
+        "là",
+        "lạ",
+        "lả"
+      ],
+      "answer": 1,
+      "hint": "Dấu huyền là dấu nghiêng xuống phía dưới"
+    },
+    {
+      "type": "matching",
+      "question": "Nối chữ cái với một tiếng bắt đầu bằng chữ đó",
+      "pairs": [
+        [
+          "b",
+          "bé"
+        ],
+        [
+          "c",
+          "cá"
+        ],
+        [
+          "m",
+          "mẹ"
+        ],
+        [
+          "n",
+          "nó"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu thanh để được tiếng 'cá': viết chữ 'ca' rồi thêm dấu ___",
+      "answer": "sắc"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào KHÔNG có dấu thanh?",
+      "options": [
+        "bè",
+        "ba",
+        "bó",
+        "bị"
+      ],
+      "answer": 1,
+      "hint": "Tiếng không dấu là tiếng đọc bằng giọng bình thường"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với màu sắc của đồ vật",
+      "pairs": [
+        [
+          "lá cây",
+          "màu xanh"
+        ],
+        [
+          "quả cà chua",
+          "màu đỏ"
+        ],
+        [
+          "quả chuối",
+          "màu vàng"
+        ],
+        [
+          "bầu trời",
+          "màu xanh da trời"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng Việt có mấy dấu thanh (kể cả thanh ngang không dấu)?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "hint": "Ngang, huyền, sắc, hỏi, ngã, nặng.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'má' mang dấu thanh nào?",
+      "options": [
+        "dấu huyền",
+        "dấu sắc",
+        "dấu hỏi",
+        "dấu nặng"
+      ],
+      "answer": 1,
+      "hint": "Dấu sắc nghiêng lên phía trên.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'mẹ' mang dấu thanh nào?",
+      "options": [
+        "dấu sắc",
+        "dấu huyền",
+        "dấu nặng",
+        "dấu ngã"
+      ],
+      "answer": 2,
+      "hint": "Dấu nặng là dấu chấm ở dưới.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào mang dấu hỏi?",
+      "options": [
+        "bã",
+        "bạ",
+        "bả",
+        "bá"
+      ],
+      "answer": 2,
+      "hint": "Dấu hỏi giống cái móc câu nhỏ.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào mang dấu ngã?",
+      "options": [
+        "võ",
+        "vó",
+        "vọ",
+        "vỏ"
+      ],
+      "answer": 0,
+      "hint": "Dấu ngã giống làn sóng nằm trên.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ghép âm 'b' + vần 'a' + dấu huyền được tiếng nào?",
+      "options": [
+        "ba",
+        "bà",
+        "bá",
+        "bạ"
+      ],
+      "answer": 1,
+      "hint": "Dấu huyền nghiêng xuống.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ghép âm 'c' + vần 'a' + dấu sắc được tiếng nào?",
+      "options": [
+        "ca",
+        "cà",
+        "cá",
+        "cạ"
+      ],
+      "answer": 2,
+      "hint": "Con cá. Dấu sắc.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Thêm dấu thanh vào tiếng 'me' để được tiếng chỉ người sinh ra em.",
+      "answer": "mẹ",
+      "hint": "Tiếng 'mẹ' mang dấu nặng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Thêm dấu thanh vào tiếng 'la' để được tiếng chỉ bộ phận màu xanh của cây.",
+      "answer": "lá",
+      "hint": "Lá cây màu xanh — dấu sắc."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tiếng 'cá' gồm âm đầu 'c' ghép với vần 'a' và dấu sắc. Hãy viết vần của tiếng 'cá'.",
+      "answer": "a",
+      "hint": "Bỏ âm đầu và dấu thanh, còn lại là vần."
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với dấu thanh của tiếng đó",
+      "pairs": [
+        [
+          "bà",
+          "dấu huyền"
+        ],
+        [
+          "bá",
+          "dấu sắc"
+        ],
+        [
+          "bả",
+          "dấu hỏi"
+        ],
+        [
+          "bạ",
+          "dấu nặng"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng được ghép với kết quả đúng",
+      "pairs": [
+        [
+          "m + a + huyền",
+          "mà"
+        ],
+        [
+          "m + a + sắc",
+          "má"
+        ],
+        [
+          "m + a + nặng",
+          "mạ"
+        ],
+        [
+          "m + a + ngã",
+          "mã"
+        ]
+      ]
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'ba' không mang dấu thanh nào (thanh ngang). Đúng hay sai?",
+      "answer": true,
+      "hint": "Tiếng đọc giọng bình thường, không có dấu là thanh ngang.",
+      "level": "NB"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'bé' mang dấu huyền. Đúng hay sai?",
+      "answer": false,
+      "hint": "Tiếng 'bé' mang dấu sắc."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào KHÔNG mang dấu thanh?",
+      "options": [
+        "lò",
+        "lo",
+        "ló",
+        "lọ"
+      ],
+      "answer": 1,
+      "hint": "Tiếng 'lo' đọc giọng bình thường (thanh ngang).",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Ghép âm 'g' + vần 'a' + dấu huyền để được tên con vật gáy ò ó o.",
+      "answer": "gà",
+      "hint": "Con gà trống gáy buổi sáng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: con ___èo (con vật kêu meo meo)",
+      "answer": "m",
+      "hint": "Con mèo."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu: c___ cá (con vật nhỏ bơi dưới nước)",
+      "answer": "on",
+      "hint": "Con cá."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: quả ___am (quả màu cam, ăn ngọt)",
+      "answer": "c",
+      "hint": "Quả cam."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu: cái b___ (đồ dùng để ngồi học)",
+      "answer": "àn",
+      "alternatives": [
+        "an"
+      ],
+      "hint": "Cái bàn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: ___à (mẹ của bố hoặc mẹ em)",
+      "answer": "b",
+      "hint": "Bà nội, bà ngoại."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền vần thích hợp: cây ch___ (loài cây cho quả cong, màu vàng khi chín)",
+      "options": [
+        "uôi",
+        "ôi",
+        "uông",
+        "uô"
+      ],
+      "answer": 0,
+      "hint": "Cây chuối — vần 'uôi'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Bé đi học.' Ai đi học?",
+      "options": [
+        "Mẹ",
+        "Bé",
+        "Bố",
+        "Cô"
+      ],
+      "answer": 1,
+      "hint": "Đọc kĩ chủ ngữ ở đầu câu.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Mèo bắt chuột.' Mèo làm gì?",
+      "options": [
+        "ngủ",
+        "bắt chuột",
+        "ăn cỏ",
+        "bơi"
+      ],
+      "answer": 1,
+      "hint": "Tìm việc mèo làm trong câu.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Lá cây màu xanh.' Lá cây có màu gì?",
+      "options": [
+        "màu đỏ",
+        "màu vàng",
+        "màu xanh",
+        "màu tím"
+      ],
+      "answer": 2,
+      "hint": "Câu cho biết màu của lá cây.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Bà cho bé quà.' Ai cho bé quà?",
+      "options": [
+        "Bà",
+        "Mẹ",
+        "Bố",
+        "Chị"
+      ],
+      "answer": 0,
+      "hint": "Người cho quà đứng đầu câu.",
+      "level": "VD"
+    },
+    {
+      "type": "true-false",
+      "question": "Đọc câu: 'Trời nắng to.' Câu này nói trời đang mưa. Đúng hay sai?",
+      "answer": false,
+      "hint": "Câu nói trời nắng, không phải mưa.",
+      "level": "TH"
+    },
+    {
+      "type": "true-false",
+      "question": "Đọc câu: 'Cá bơi dưới nước.' Cá bơi ở dưới nước. Đúng hay sai?",
+      "answer": true,
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với việc nhân vật làm trong câu",
+      "pairs": [
+        [
+          "Bé học bài.",
+          "học bài"
+        ],
+        [
+          "Gà gáy sáng.",
+          "gáy sáng"
+        ],
+        [
+          "Mẹ nấu cơm.",
+          "nấu cơm"
+        ],
+        [
+          "Chó giữ nhà.",
+          "giữ nhà"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: con ___ó (con vật trông nhà, sủa gâu gâu)",
+      "answer": "ch",
+      "hint": "Con chó."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đọc câu rồi điền từ còn thiếu: 'Em yêu ___ và bố.' (người sinh ra em)",
+      "answer": "mẹ",
+      "hint": "Em yêu mẹ và bố."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền chữ thích hợp: con ___ịt (con vật biết bơi, kêu cạp cạp)",
+      "options": [
+        "v",
+        "b",
+        "d",
+        "đ"
+      ],
+      "answer": 0,
+      "hint": "Con vịt.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ người trong GIA ĐÌNH?",
+      "options": [
+        "bàn",
+        "ông",
+        "cá",
+        "lá"
+      ],
+      "answer": 1,
+      "hint": "Ông, bà, bố, mẹ là người trong gia đình.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ một CON VẬT?",
+      "options": [
+        "ghế",
+        "mèo",
+        "bút",
+        "mây"
+      ],
+      "answer": 1,
+      "hint": "Con mèo kêu meo meo.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đồ dùng HỌC TẬP?",
+      "options": [
+        "bút",
+        "gà",
+        "hoa",
+        "núi"
+      ],
+      "answer": 0,
+      "hint": "Bút để viết bài.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ một MÀU SẮC?",
+      "options": [
+        "xanh",
+        "bàn",
+        "chó",
+        "ăn"
+      ],
+      "answer": 0,
+      "hint": "Màu xanh của lá cây.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào KHÔNG chỉ con vật?",
+      "options": [
+        "gà",
+        "vịt",
+        "chó",
+        "ghế"
+      ],
+      "answer": 3,
+      "hint": "Ghế là đồ vật, không phải con vật.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ một CÂY (loài cây)?",
+      "options": [
+        "cây chuối",
+        "cái bàn",
+        "con cá",
+        "màu đỏ"
+      ],
+      "answer": 0,
+      "hint": "Cây chuối là một loài cây.",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với chủ đề của từ đó",
+      "pairs": [
+        [
+          "mẹ",
+          "gia đình"
+        ],
+        [
+          "mèo",
+          "con vật"
+        ],
+        [
+          "bút",
+          "đồ dùng học tập"
+        ],
+        [
+          "đỏ",
+          "màu sắc"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối con vật với tiếng kêu / đặc điểm của nó",
+      "pairs": [
+        [
+          "gà",
+          "gáy ò ó o"
+        ],
+        [
+          "mèo",
+          "kêu meo meo"
+        ],
+        [
+          "chó",
+          "sủa gâu gâu"
+        ],
+        [
+          "vịt",
+          "kêu cạp cạp"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối nơi chốn với việc thường làm ở đó",
+      "pairs": [
+        [
+          "trường học",
+          "học bài"
+        ],
+        [
+          "nhà",
+          "ngủ nghỉ"
+        ],
+        [
+          "sân",
+          "vui chơi"
+        ],
+        [
+          "vườn",
+          "trồng cây"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ chỉ con vật: Con ___ gáy ò ó o vào buổi sáng.",
+      "answer": "gà",
+      "hint": "Con gà trống."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ chỉ màu sắc: Lá cây có màu ___.",
+      "answer": "xanh",
+      "hint": "Lá cây màu xanh."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ chỉ người trong gia đình: Người sinh ra em là ___.",
+      "answer": "mẹ",
+      "alternatives": [
+        "bố mẹ",
+        "mẹ và bố",
+        "bố",
+        "ba"
+      ],
+      "hint": "Mẹ (hoặc bố) sinh ra và nuôi em lớn."
+    },
+    {
+      "type": "true-false",
+      "question": "Từ 'cái bàn' là một đồ vật. Đúng hay sai?",
+      "answer": true,
+      "level": "NB"
+    },
+    {
+      "type": "true-false",
+      "question": "Từ 'con chó' chỉ một loài cây. Đúng hay sai?",
+      "answer": false,
+      "hint": "Con chó là một con vật."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Nhóm từ nào đều chỉ con vật?",
+      "options": [
+        "gà, mèo, cá",
+        "bàn, ghế, bút",
+        "đỏ, xanh, vàng",
+        "ông, bà, mẹ"
+      ],
+      "answer": 0,
+      "hint": "Tìm nhóm toàn các con vật.",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đồ vật trong nhà?",
+      "options": [
+        "cái tủ",
+        "con bò",
+        "quả cam",
+        "lá cây"
+      ],
+      "answer": 0,
+      "hint": "Cái tủ để đựng quần áo.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trước các âm i, e, ê, âm 'cờ' được viết bằng chữ nào?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": 1,
+      "hint": "Ví dụ: kim, kê, kẻ.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào viết ĐÚNG chính tả?",
+      "options": [
+        "ci",
+        "ki",
+        "qi",
+        "gi"
+      ],
+      "answer": 1,
+      "hint": "Trước 'i' viết là 'k'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trước các âm i, e, ê, âm 'gờ' được viết bằng chữ nào?",
+      "options": [
+        "g",
+        "gh",
+        "ngh",
+        "k"
+      ],
+      "answer": 1,
+      "hint": "Ví dụ: ghế, ghi, ghe.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào viết ĐÚNG chính tả?",
+      "options": [
+        "ghà",
+        "gà",
+        "ghô",
+        "ghu"
+      ],
+      "answer": 1,
+      "hint": "Trước 'a' viết là 'g' (con gà).",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trước các âm i, e, ê, âm 'ngờ' được viết bằng chữ nào?",
+      "options": [
+        "ng",
+        "ngh",
+        "nh",
+        "n"
+      ],
+      "answer": 1,
+      "hint": "Ví dụ: nghe, nghĩ, nghệ.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào viết ĐÚNG chính tả?",
+      "options": [
+        "ngô",
+        "nghô",
+        "ngha",
+        "nghu"
+      ],
+      "answer": 0,
+      "hint": "Trước 'ô' viết là 'ng' (quả ngô).",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'c' hoặc 'k' cho đúng: ___im (vật nhỏ, nhọn dùng để khâu vá)",
+      "answer": "k",
+      "hint": "Cây kim — trước 'i' viết là 'k'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'c' hoặc 'k' cho đúng: ___á (con vật bơi dưới nước)",
+      "answer": "c",
+      "hint": "Con cá — trước 'a' viết là 'c'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'g' hoặc 'gh' cho đúng: ___ế (đồ dùng để ngồi)",
+      "answer": "gh",
+      "hint": "Cái ghế — trước 'ê' viết là 'gh'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'ng' hoặc 'ngh' cho đúng: ___e nhạc (lắng tai để nghe âm thanh)",
+      "answer": "ngh",
+      "hint": "Nghe nhạc — trước 'e' viết là 'ngh'."
+    },
+    {
+      "type": "matching",
+      "question": "Nối âm cần điền với tiếng viết đúng chính tả",
+      "pairs": [
+        [
+          "k + e",
+          "ke"
+        ],
+        [
+          "c + a",
+          "ca"
+        ],
+        [
+          "gh + i",
+          "ghi"
+        ],
+        [
+          "ngh + ê",
+          "nghê"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'lá cây' bắt đầu bằng âm nào?",
+      "options": [
+        "l",
+        "n",
+        "đ",
+        "t"
+      ],
+      "answer": 0,
+      "hint": "Lá cây — âm 'l' (lờ).",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ chỉ ngôi nhà viết là gì?",
+      "options": [
+        "là",
+        "nhà",
+        "lhà",
+        "nà"
+      ],
+      "answer": 1,
+      "hint": "Ngôi nhà — âm đầu 'nh'.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'l' hoặc 'n' cho đúng: con ___a (con vật giống ngựa, chở hàng)",
+      "answer": "l",
+      "hint": "Con la chở hàng — âm 'l'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'l' hoặc 'n' cho đúng: quả ___a (quả có nhiều mắt, ăn ngọt, ruột trắng)",
+      "answer": "n",
+      "hint": "Quả na — âm 'n'."
+    },
+    {
+      "type": "true-false",
+      "question": "Viết 'ke' (thay cho 'ce') là đúng chính tả vì trước 'e' phải viết là 'k'. Đúng hay sai?",
+      "answer": true,
+      "hint": "Trước i, e, ê luôn viết 'k'.",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'bàn' có vần gì?",
+      "options": [
+        "an",
+        "am",
+        "ang",
+        "anh"
+      ],
+      "answer": 0,
+      "hint": "Bỏ âm đầu 'b' và dấu huyền, còn lại là vần.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'cam' có vần gì?",
+      "options": [
+        "an",
+        "am",
+        "ap",
+        "ang"
+      ],
+      "answer": 1,
+      "hint": "Quả cam — vần kết thúc bằng 'm'.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'cát' có vần gì?",
+      "options": [
+        "an",
+        "at",
+        "ac",
+        "ang"
+      ],
+      "answer": 1,
+      "hint": "Hạt cát ở bãi biển.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có vần 'ong'?",
+      "options": [
+        "con",
+        "cong",
+        "cốc",
+        "côn"
+      ],
+      "answer": 1,
+      "hint": "Vần 'ong' kết thúc bằng 'ng'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'chanh' có vần gì?",
+      "options": [
+        "an",
+        "ang",
+        "anh",
+        "ach"
+      ],
+      "answer": 2,
+      "hint": "Quả chanh chua — vần kết thúc bằng 'nh'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có vần 'ot'?",
+      "options": [
+        "hòn",
+        "hót",
+        "hong",
+        "học"
+      ],
+      "answer": 1,
+      "hint": "Chim hót líu lo. Vần 'ot' kết thúc bằng 't'.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần 'an' hoặc 'at' cho đúng: b___ (đồ dùng để ngồi học, có mặt phẳng)",
+      "answer": "an",
+      "hint": "Cái bàn học."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu để được tiếng 'lá': l___ (bộ phận màu xanh của cây)",
+      "answer": "á",
+      "alternatives": [
+        "a"
+      ],
+      "hint": "Lá cây màu xanh."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần 'am' hoặc 'ap' cho đúng: con t___ (con vật sống dưới nước, có vỏ cứng, càng to)",
+      "answer": "ôm",
+      "alternatives": [
+        "om",
+        "ôm"
+      ],
+      "hint": "Con tôm. Gợi ý: vần có dấu mũ."
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với vần của tiếng đó",
+      "pairs": [
+        [
+          "bàn",
+          "an"
+        ],
+        [
+          "cam",
+          "am"
+        ],
+        [
+          "cát",
+          "at"
+        ],
+        [
+          "cong",
+          "ong"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với vần của tiếng đó",
+      "pairs": [
+        [
+          "xanh",
+          "anh"
+        ],
+        [
+          "bông",
+          "ông"
+        ],
+        [
+          "học",
+          "oc"
+        ],
+        [
+          "hót",
+          "ot"
+        ]
+      ]
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'lan' và tiếng 'làn' có cùng một vần là 'an'. Đúng hay sai?",
+      "answer": true,
+      "hint": "Hai tiếng chỉ khác nhau ở dấu thanh, vần vẫn là 'an'.",
+      "level": "VD"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'mang' có vần 'an'. Đúng hay sai?",
+      "answer": false,
+      "hint": "Tiếng 'mang' có vần 'ang' (kết thúc bằng 'ng')."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào KHÔNG có vần 'am'?",
+      "options": [
+        "cam",
+        "tham",
+        "làm",
+        "lan"
+      ],
+      "answer": 3,
+      "hint": "Tiếng 'lan' có vần 'an', không phải 'am'.",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu để được tiếng 'mèo': m___ (con vật kêu meo meo)",
+      "answer": "èo",
+      "alternatives": [
+        "eo"
+      ],
+      "hint": "Con mèo."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Vần 'ang' và vần 'an' khác nhau ở chỗ nào?",
+      "options": [
+        "ang có thêm 'g' ở cuối",
+        "an có thêm 'g'",
+        "hai vần giống hệt nhau",
+        "khác âm đầu"
+      ],
+      "answer": 0,
+      "hint": "So sánh: 'an' và 'ang'.",
+      "level": "VD"
+    }
+  ]
+}

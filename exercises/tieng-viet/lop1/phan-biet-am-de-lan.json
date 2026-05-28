@@ -1,0 +1,127 @@
+{
+  "id": "tv-l1-phan-biet-am-de-lan",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Phân biệt âm dễ lẫn (l/n, c/k, g/gh, ng/ngh)",
+  "difficulty": 2,
+  "outcomes": ["TV1-CK-1", "TV1-GGH-1", "TV1-NGH-1", "TV1-LN-1"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Trước các âm i, e, ê, âm 'cờ' được viết bằng chữ nào?",
+      "options": ["c", "k", "q", "g"],
+      "answer": 1,
+      "hint": "Ví dụ: kim, kê, kẻ.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào viết ĐÚNG chính tả?",
+      "options": ["ci", "ki", "qi", "gi"],
+      "answer": 1,
+      "hint": "Trước 'i' viết là 'k'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trước các âm i, e, ê, âm 'gờ' được viết bằng chữ nào?",
+      "options": ["g", "gh", "ngh", "k"],
+      "answer": 1,
+      "hint": "Ví dụ: ghế, ghi, ghe.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào viết ĐÚNG chính tả?",
+      "options": ["ghà", "gà", "ghô", "ghu"],
+      "answer": 1,
+      "hint": "Trước 'a' viết là 'g' (con gà).",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trước các âm i, e, ê, âm 'ngờ' được viết bằng chữ nào?",
+      "options": ["ng", "ngh", "nh", "n"],
+      "answer": 1,
+      "hint": "Ví dụ: nghe, nghĩ, nghệ.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào viết ĐÚNG chính tả?",
+      "options": ["ngô", "nghô", "ngha", "nghu"],
+      "answer": 0,
+      "hint": "Trước 'ô' viết là 'ng' (quả ngô).",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'c' hoặc 'k' cho đúng: ___im (vật nhỏ, nhọn dùng để khâu vá)",
+      "answer": "k",
+      "hint": "Cây kim — trước 'i' viết là 'k'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'c' hoặc 'k' cho đúng: ___á (con vật bơi dưới nước)",
+      "answer": "c",
+      "hint": "Con cá — trước 'a' viết là 'c'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'g' hoặc 'gh' cho đúng: ___ế (đồ dùng để ngồi)",
+      "answer": "gh",
+      "hint": "Cái ghế — trước 'ê' viết là 'gh'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'ng' hoặc 'ngh' cho đúng: ___e nhạc (lắng tai để nghe âm thanh)",
+      "answer": "ngh",
+      "hint": "Nghe nhạc — trước 'e' viết là 'ngh'."
+    },
+    {
+      "type": "matching",
+      "question": "Nối âm cần điền với tiếng viết đúng chính tả",
+      "pairs": [
+        ["k + e", "ke"],
+        ["c + a", "ca"],
+        ["gh + i", "ghi"],
+        ["ngh + ê", "nghê"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'lá cây' bắt đầu bằng âm nào?",
+      "options": ["l", "n", "đ", "t"],
+      "answer": 0,
+      "hint": "Lá cây — âm 'l' (lờ).",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ chỉ ngôi nhà viết là gì?",
+      "options": ["là", "nhà", "lhà", "nà"],
+      "answer": 1,
+      "hint": "Ngôi nhà — âm đầu 'nh'.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'l' hoặc 'n' cho đúng: con ___a (con vật giống ngựa, chở hàng)",
+      "answer": "l",
+      "hint": "Con la chở hàng — âm 'l'."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'l' hoặc 'n' cho đúng: quả ___a (quả có nhiều mắt, ăn ngọt, ruột trắng)",
+      "answer": "n",
+      "hint": "Quả na — âm 'n'."
+    },
+    {
+      "type": "true-false",
+      "question": "Viết 'ke' (thay cho 'ce') là đúng chính tả vì trước 'e' phải viết là 'k'. Đúng hay sai?",
+      "answer": true,
+      "hint": "Trước i, e, ê luôn viết 'k'.",
+      "level": "VD"
+    }
+  ]
+}

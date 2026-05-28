@@ -1,0 +1,1332 @@
+{
+  "stage": "tieu-hoc",
+  "grade": 1,
+  "subject": "toan",
+  "count": 115,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "12 + 3 = ?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "13"
+      ],
+      "answer": 1,
+      "hint": "Cộng thêm 3 vào 12 nhé!",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "17 - 4 = ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "11"
+      ],
+      "answer": 1,
+      "hint": "17 bớt đi 4 còn mấy?",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "10 + 8 = ?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": 2,
+      "hint": "1 chục thêm 8 đơn vị",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "14 + 5 = ___",
+      "answer": "19",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "19 - 6 = ___",
+      "answer": "13",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "11 + 7 = ___",
+      "answer": "18",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "16 - 5 = ___",
+      "answer": "11",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "13 + ___ = 16",
+      "answer": "3",
+      "hint": "16 bớt 13 còn mấy?",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "18 - ___ = 12",
+      "answer": "6",
+      "hint": "18 bớt mấy thì còn 12?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trên giá có 15 quyển sách, cô giáo lấy ra 3 quyển. Hỏi trên giá còn lại mấy quyển sách?",
+      "options": [
+        "11 quyển",
+        "12 quyển",
+        "13 quyển",
+        "10 quyển"
+      ],
+      "answer": 1,
+      "hint": "Lấy 15 trừ đi 3",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Nam có 11 viên bi, được anh cho thêm 5 viên. Hỏi bạn Nam có tất cả bao nhiêu viên bi?",
+      "options": [
+        "15 viên",
+        "16 viên",
+        "17 viên",
+        "14 viên"
+      ],
+      "answer": 1,
+      "hint": "Lấy 11 cộng với 5",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "15 + 4 = ___",
+      "answer": "19",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "20 - 10 = ___",
+      "answer": "10",
+      "hint": "Hai chục bớt một chục còn mấy chục?",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        [
+          "13 + 2",
+          "15"
+        ],
+        [
+          "18 - 6",
+          "12"
+        ],
+        [
+          "11 + 8",
+          "19"
+        ],
+        [
+          "16 - 3",
+          "13"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Bạn hãy nối phép tính với kết quả nhé",
+      "pairs": [
+        [
+          "10 + 4",
+          "14"
+        ],
+        [
+          "17 - 7",
+          "10"
+        ],
+        [
+          "12 + 5",
+          "17"
+        ],
+        [
+          "19 - 4",
+          "15"
+        ],
+        [
+          "14 + 2",
+          "16"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kết quả nào lớn nhất? 12+4, 19-5, 11+7, 18-4",
+      "options": [
+        "12+4",
+        "19-5",
+        "11+7",
+        "18-4"
+      ],
+      "answer": 2,
+      "hint": "Tính từng phép: 11+7 bằng mấy?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mặt đồng hồ và mặt trăng tròn có dạng hình gì?",
+      "options": [
+        "Hình vuông",
+        "Hình tròn",
+        "Hình tam giác",
+        "Hình chữ nhật"
+      ],
+      "answer": 1,
+      "hint": "Hình không có góc, lăn được",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cái khăn mùi xoa có 4 cạnh bằng nhau và 4 góc vuông là hình gì?",
+      "options": [
+        "Hình tròn",
+        "Hình tam giác",
+        "Hình vuông",
+        "Hình chữ nhật"
+      ],
+      "answer": 2,
+      "hint": "Bốn cạnh bằng nhau là hình vuông",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cái biển báo giao thông có 3 cạnh là hình gì?",
+      "options": [
+        "Hình vuông",
+        "Hình tam giác",
+        "Hình tròn",
+        "Hình chữ nhật"
+      ],
+      "answer": 1,
+      "hint": "Hình có ba cạnh, ba góc",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Viên xúc xắc (con súc sắc) có 6 mặt đều là hình vuông bằng nhau. Đó là khối gì?",
+      "options": [
+        "Khối lập phương",
+        "Khối hộp chữ nhật",
+        "Hình tròn",
+        "Hình tam giác"
+      ],
+      "answer": 0,
+      "hint": "Sáu mặt vuông bằng nhau là khối lập phương",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hộp bánh hình chữ nhật, có các mặt là hình chữ nhật. Đó là khối gì?",
+      "options": [
+        "Khối lập phương",
+        "Khối hộp chữ nhật",
+        "Hình vuông",
+        "Hình tròn"
+      ],
+      "answer": 1,
+      "hint": "Giống viên gạch, hộp giày",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bút chì dài 15 cm, bút sáp dài 9 cm. Bút nào dài hơn?",
+      "options": [
+        "Bút chì",
+        "Bút sáp",
+        "Bằng nhau",
+        "Không biết"
+      ],
+      "answer": 0,
+      "hint": "So sánh 15 cm và 9 cm",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đơn vị nào dùng để đo độ dài cái bút?",
+      "options": [
+        "Ki-lô-gam (kg)",
+        "Xăng-ti-mét (cm)",
+        "Lít (l)",
+        "Giờ"
+      ],
+      "answer": 1,
+      "hint": "Đo độ dài bằng xăng-ti-mét",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Băng giấy đỏ dài 6 cm, băng giấy xanh dài 4 cm. Cả hai băng giấy nối lại dài ___ cm",
+      "answer": "10",
+      "hint": "Lấy 6 cộng 4",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Sợi dây dài 12 cm, cắt bỏ 3 cm. Sợi dây còn lại dài ___ cm",
+      "answer": "9",
+      "hint": "Lấy 12 trừ 3",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đồng hồ có kim ngắn chỉ số 8, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?",
+      "options": [
+        "7 giờ",
+        "8 giờ",
+        "9 giờ",
+        "12 giờ"
+      ],
+      "answer": 1,
+      "hint": "Kim dài chỉ 12 là giờ đúng, đọc theo kim ngắn",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một tuần lễ có mấy ngày?",
+      "options": [
+        "5 ngày",
+        "6 ngày",
+        "7 ngày",
+        "10 ngày"
+      ],
+      "answer": 2,
+      "hint": "Từ thứ Hai đến Chủ nhật",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sau ngày thứ Ba là ngày nào trong tuần?",
+      "options": [
+        "Thứ Hai",
+        "Thứ Tư",
+        "Thứ Năm",
+        "Chủ nhật"
+      ],
+      "answer": 1,
+      "hint": "Thứ Hai, thứ Ba, rồi đến thứ mấy?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quyển sách đặt trên mặt bàn. Vậy quyển sách ở vị trí nào so với mặt bàn?",
+      "options": [
+        "Ở dưới",
+        "Ở trên",
+        "Bên trái",
+        "Bên phải"
+      ],
+      "answer": 1,
+      "hint": "Sách nằm phía trên mặt bàn",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn An đứng giữa bạn Bình và bạn Cường. Vậy bạn An ở vị trí nào?",
+      "options": [
+        "Ngoài cùng bên trái",
+        "Ở giữa",
+        "Ngoài cùng bên phải",
+        "Phía sau"
+      ],
+      "answer": 1,
+      "hint": "Ở giữa hai bạn kia",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối đồ vật với dạng hình của nó",
+      "pairs": [
+        [
+          "Bánh xe",
+          "hình tròn"
+        ],
+        [
+          "Quyển vở",
+          "hình chữ nhật"
+        ],
+        [
+          "Mái nhà",
+          "hình tam giác"
+        ],
+        [
+          "Ô cửa sổ vuông",
+          "hình vuông"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối đồng hồ với giờ đúng (kim dài chỉ số 12)",
+      "pairs": [
+        [
+          "Kim ngắn chỉ số 3",
+          "3 giờ"
+        ],
+        [
+          "Kim ngắn chỉ số 6",
+          "6 giờ"
+        ],
+        [
+          "Kim ngắn chỉ số 9",
+          "9 giờ"
+        ],
+        [
+          "Kim ngắn chỉ số 11",
+          "11 giờ"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Cây thước dài 10 cm, cây bút chì dài 7 cm. Cây thước dài hơn cây bút chì ___ cm",
+      "answer": "3",
+      "hint": "Lấy 10 trừ 7",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "2 + 3 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "hint": "Đếm thêm 3 sau số 2 nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "4 + 4 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "5 + ___ = 9",
+      "answer": "4",
+      "hint": "9 trừ 5 bằng mấy?"
+    },
+    {
+      "type": "fill-blank",
+      "question": "___ + 6 = 10",
+      "answer": "4"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trên bàn có 3 quả táo, mẹ cho thêm 2 quả nữa. Hỏi trên bàn có tất cả mấy quả táo?",
+      "options": [
+        "4 quả",
+        "5 quả",
+        "6 quả",
+        "7 quả"
+      ],
+      "answer": 1,
+      "hint": "Lấy 3 cộng với 2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả",
+      "pairs": [
+        [
+          "1 + 2",
+          "3"
+        ],
+        [
+          "4 + 3",
+          "7"
+        ],
+        [
+          "5 + 5",
+          "10"
+        ],
+        [
+          "2 + 6",
+          "8"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "7 + 2 = ___",
+      "answer": "9"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn nhất trong các kết quả sau? 2+3, 1+4, 4+5, 3+3",
+      "options": [
+        "2+3",
+        "1+4",
+        "4+5",
+        "3+3"
+      ],
+      "answer": 2,
+      "hint": "Tính từng phép rồi so sánh nhé"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 + 8 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "hint": "Đếm thêm 8 sau số 1 nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "6 + 3 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "3 + 4 = ___",
+      "answer": "7"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2 + ___ = 8",
+      "answer": "6",
+      "hint": "8 trừ 2 bằng mấy?"
+    },
+    {
+      "type": "matching",
+      "question": "Bạn hãy nối phép cộng với kết quả đúng nhé",
+      "pairs": [
+        [
+          "0 + 5",
+          "5"
+        ],
+        [
+          "3 + 3",
+          "6"
+        ],
+        [
+          "1 + 1",
+          "2"
+        ],
+        [
+          "4 + 5",
+          "9"
+        ],
+        [
+          "3 + 1",
+          "4"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong vườn có 5 con gà và 4 con vịt. Hỏi có tất cả bao nhiêu con?",
+      "options": [
+        "8 con",
+        "9 con",
+        "10 con",
+        "7 con"
+      ],
+      "answer": 1,
+      "hint": "Lấy 5 cộng với 4"
+    },
+    {
+      "type": "fill-blank",
+      "question": "0 + 7 = ___",
+      "answer": "7",
+      "hint": "Cộng với 0 thì kết quả không đổi nhé"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "5 + 4 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "7 - 2 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "hint": "Đếm lùi 2 từ số 7 nhé!",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "9 - 4 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "10 - 6 = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "hint": "10 bớt đi 6 còn lại mấy?",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "8 - 3 = ___",
+      "answer": "5",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "6 - 6 = ___",
+      "answer": "0",
+      "hint": "Bớt hết thì còn lại 0",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "5 - 0 = ___",
+      "answer": "5",
+      "hint": "Trừ đi 0 thì kết quả không đổi nhé",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "10 - ___ = 7",
+      "answer": "3",
+      "hint": "10 bớt mấy thì còn 7?",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9 - ___ = 2",
+      "answer": "7",
+      "hint": "9 bớt mấy thì còn 2?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trên cành có 8 con chim, 3 con bay đi. Hỏi trên cành còn lại mấy con chim?",
+      "options": [
+        "4 con",
+        "5 con",
+        "6 con",
+        "3 con"
+      ],
+      "answer": 1,
+      "hint": "Lấy 8 trừ đi 3",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Lan có 10 cái bánh, ăn hết 4 cái. Hỏi bạn Lan còn lại mấy cái bánh?",
+      "options": [
+        "5 cái",
+        "6 cái",
+        "7 cái",
+        "4 cái"
+      ],
+      "answer": 1,
+      "hint": "Lấy 10 trừ đi 4",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "7 - 5 = ___",
+      "answer": "2",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "4 - 1 = ___",
+      "answer": "3",
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép trừ với kết quả đúng",
+      "pairs": [
+        [
+          "6 - 2",
+          "4"
+        ],
+        [
+          "9 - 3",
+          "6"
+        ],
+        [
+          "10 - 1",
+          "9"
+        ],
+        [
+          "5 - 5",
+          "0"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Bạn hãy nối phép trừ với kết quả nhé",
+      "pairs": [
+        [
+          "8 - 6",
+          "2"
+        ],
+        [
+          "7 - 4",
+          "3"
+        ],
+        [
+          "10 - 5",
+          "5"
+        ],
+        [
+          "9 - 2",
+          "7"
+        ],
+        [
+          "6 - 5",
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kết quả nào lớn nhất? 8-3, 9-5, 10-2, 7-6",
+      "options": [
+        "8-3",
+        "9-5",
+        "10-2",
+        "7-6"
+      ],
+      "answer": 2,
+      "hint": "Tính từng phép rồi so sánh: 10-2 bằng mấy?",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 9 quả bóng, làm vỡ 3 quả. Còn lại ___ quả bóng",
+      "answer": "6",
+      "hint": "9 trừ 3",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 47 gồm mấy chục và mấy đơn vị?",
+      "options": [
+        "4 chục 7 đơn vị",
+        "7 chục 4 đơn vị",
+        "4 chục 4 đơn vị",
+        "7 chục 7 đơn vị"
+      ],
+      "answer": 0,
+      "hint": "Chữ số hàng chục là 4, hàng đơn vị là 7",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số gồm 6 chục và 3 đơn vị là số ___",
+      "answer": "63",
+      "hint": "Viết chục trước, đơn vị sau",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số tròn chục liền sau của 50 là ___",
+      "answer": "60",
+      "hint": "Thêm 1 chục nữa vào 50",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 38 hay 53?",
+      "options": [
+        "38",
+        "53",
+        "Bằng nhau",
+        "Không biết"
+      ],
+      "answer": 1,
+      "hint": "So hàng chục trước: 3 chục và 5 chục, số nào nhiều chục hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 71 hay 67?",
+      "options": [
+        "71",
+        "67",
+        "Bằng nhau",
+        "Cả hai"
+      ],
+      "answer": 1,
+      "hint": "67 có 6 chục, 71 có 7 chục",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 45 hay 49?",
+      "options": [
+        "45",
+        "49",
+        "Bằng nhau",
+        "Không biết"
+      ],
+      "answer": 1,
+      "hint": "Cùng 4 chục thì so đơn vị: 5 hay 9 lớn hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp các số tròn chục: 10, 20, 30, ___, 50",
+      "answer": "40",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 96, 97, 98, ___, 100",
+      "answer": "99",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 79 là ___",
+      "answer": "80",
+      "hint": "79 thêm 1 đơn vị nữa",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 60 là ___",
+      "answer": "59",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số lớn nhất trong các số 34, 43, 28, 40 là số nào?",
+      "options": [
+        "34",
+        "43",
+        "28",
+        "40"
+      ],
+      "answer": 1,
+      "hint": "So hàng chục trước rồi mới đến đơn vị",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số bé nhất trong các số 52, 25, 50, 35 là số nào?",
+      "options": [
+        "52",
+        "25",
+        "50",
+        "35"
+      ],
+      "answer": 1,
+      "hint": "Số nào ít chục nhất?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dấu nào điền đúng: 27 ... 72?",
+      "options": [
+        "lớn hơn (>)",
+        "bé hơn (<)",
+        "bằng (=)",
+        "không có dấu"
+      ],
+      "answer": 1,
+      "hint": "27 có 2 chục, 72 có 7 chục",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cấu tạo chục - đơn vị",
+      "pairs": [
+        [
+          "52",
+          "5 chục 2 đơn vị"
+        ],
+        [
+          "30",
+          "3 chục 0 đơn vị"
+        ],
+        [
+          "68",
+          "6 chục 8 đơn vị"
+        ],
+        [
+          "41",
+          "4 chục 1 đơn vị"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số tròn chục với cách đọc",
+      "pairs": [
+        [
+          "20",
+          "hai mươi"
+        ],
+        [
+          "50",
+          "năm mươi"
+        ],
+        [
+          "80",
+          "tám mươi"
+        ],
+        [
+          "90",
+          "chín mươi"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Nhà bạn Hoa nuôi 35 con gà, nhà bạn Lan nuôi 53 con gà. Nhà ai nuôi nhiều gà hơn?",
+      "options": [
+        "Nhà bạn Hoa",
+        "Nhà bạn Lan",
+        "Bằng nhau",
+        "Không ai"
+      ],
+      "answer": 1,
+      "hint": "So sánh 35 và 53: số nào nhiều chục hơn?",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Xếp các số 24, 19, 31 theo thứ tự từ bé đến lớn, số đứng đầu là ___",
+      "answer": "19",
+      "hint": "Số bé nhất đứng đầu",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 15 gồm mấy chục và mấy đơn vị?",
+      "options": [
+        "1 chục 5 đơn vị",
+        "5 chục 1 đơn vị",
+        "1 chục 1 đơn vị",
+        "5 chục 5 đơn vị"
+      ],
+      "answer": 0,
+      "hint": "Chữ số bên trái là chục, bên phải là đơn vị",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 chục bằng bao nhiêu đơn vị?",
+      "options": [
+        "1",
+        "5",
+        "10",
+        "20"
+      ],
+      "answer": 2,
+      "hint": "Một chục là mười",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số gồm 1 chục và 7 đơn vị là số ___",
+      "answer": "17",
+      "hint": "Viết chục trước, đơn vị sau",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số gồm 1 chục và 0 đơn vị là số ___",
+      "answer": "10",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 20 gồm mấy chục và mấy đơn vị?",
+      "options": [
+        "2 chục 0 đơn vị",
+        "0 chục 2 đơn vị",
+        "1 chục 2 đơn vị",
+        "2 chục 2 đơn vị"
+      ],
+      "answer": 0,
+      "hint": "20 là hai chục",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 11, 12, 13, ___, 15",
+      "answer": "14",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 16, 17, ___, 19, 20",
+      "answer": "18",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 19 là ___",
+      "answer": "20",
+      "hint": "Đếm thêm 1 sau 19",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 13 là ___",
+      "answer": "12",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 12 hay 18?",
+      "options": [
+        "12",
+        "18",
+        "Bằng nhau",
+        "Không biết"
+      ],
+      "answer": 1,
+      "hint": "Cùng 1 chục thì so đơn vị: 2 hay 8 lớn hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 16 hay 11?",
+      "options": [
+        "16",
+        "11",
+        "Bằng nhau",
+        "Cả hai"
+      ],
+      "answer": 1,
+      "hint": "So đơn vị: 6 và 1 số nào bé hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc số 14 là gì?",
+      "options": [
+        "Mười bốn",
+        "Bốn mươi",
+        "Mười tư mươi",
+        "Bốn mười"
+      ],
+      "answer": 0,
+      "hint": "1 chục đọc là mười, rồi đến 4",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một tá bút chì có 12 cái. Một tá gồm 1 chục và ___ đơn vị",
+      "answer": "2",
+      "hint": "12 gồm 1 chục và mấy đơn vị?",
+      "level": "VD"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cấu tạo chục - đơn vị",
+      "pairs": [
+        [
+          "11",
+          "1 chục 1 đơn vị"
+        ],
+        [
+          "13",
+          "1 chục 3 đơn vị"
+        ],
+        [
+          "16",
+          "1 chục 6 đơn vị"
+        ],
+        [
+          "19",
+          "1 chục 9 đơn vị"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cách đọc",
+      "pairs": [
+        [
+          "12",
+          "mười hai"
+        ],
+        [
+          "15",
+          "mười lăm"
+        ],
+        [
+          "18",
+          "mười tám"
+        ],
+        [
+          "20",
+          "hai mươi"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Mai có 1 chục cái kẹo và thêm 4 cái kẹo lẻ. Bạn Mai có tất cả bao nhiêu cái kẹo?",
+      "options": [
+        "14 cái",
+        "10 cái",
+        "4 cái",
+        "15 cái"
+      ],
+      "answer": 0,
+      "hint": "1 chục là 10, thêm 4 nữa là bao nhiêu?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có mấy bông hoa? 🌸🌸🌸🌸",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "hint": "Đếm từng bông hoa nhé!",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 8 hay 6?",
+      "options": [
+        "6",
+        "8",
+        "Bằng nhau",
+        "Không biết"
+      ],
+      "answer": 1,
+      "hint": "Số nào đứng sau khi đếm thì lớn hơn",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 4 hay 9?",
+      "options": [
+        "4",
+        "9",
+        "Bằng nhau",
+        "Cả hai"
+      ],
+      "answer": 0,
+      "hint": "Số nào đếm đến trước thì bé hơn",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 6 là ___",
+      "answer": "7",
+      "hint": "Đếm thêm 1 sau số 6",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 5 là ___",
+      "answer": "4",
+      "hint": "Đếm lùi 1 trước số 5",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số lớn nhất trong các số 3, 7, 5, 2 là số nào?",
+      "options": [
+        "3",
+        "7",
+        "5",
+        "2"
+      ],
+      "answer": 1,
+      "hint": "Số nào đếm đến sau cùng?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số bé nhất trong các số 6, 1, 4, 9 là số nào?",
+      "options": [
+        "6",
+        "1",
+        "4",
+        "9"
+      ],
+      "answer": 1,
+      "hint": "Số nào đếm đến đầu tiên?",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 1, 2, 3, ___, 5",
+      "answer": "4",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 7, 8, ___, 10",
+      "answer": "9",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong vườn có 5 cây xanh và 5 cây vàng. Số cây xanh và số cây vàng thế nào?",
+      "options": [
+        "Nhiều hơn",
+        "Ít hơn",
+        "Bằng nhau",
+        "Không biết"
+      ],
+      "answer": 2,
+      "hint": "5 và 5, hai số có giống nhau không?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn An có 4 viên kẹo, bạn Bình có 7 viên kẹo. Ai có nhiều kẹo hơn?",
+      "options": [
+        "Bạn An",
+        "Bạn Bình",
+        "Bằng nhau",
+        "Không ai"
+      ],
+      "answer": 1,
+      "hint": "So sánh 4 và 7 xem số nào lớn hơn",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 9 là ___",
+      "answer": "10",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dấu nào điền đúng vào chỗ chấm: 6 ... 8?",
+      "options": [
+        "lớn hơn (>)",
+        "bé hơn (<)",
+        "bằng (=)",
+        "không có dấu"
+      ],
+      "answer": 1,
+      "hint": "6 đứng trước 8 khi đếm",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với số lượng ngôi sao tương ứng",
+      "pairs": [
+        [
+          "2",
+          "⭐⭐"
+        ],
+        [
+          "5",
+          "⭐⭐⭐⭐⭐"
+        ],
+        [
+          "3",
+          "⭐⭐⭐"
+        ],
+        [
+          "1",
+          "⭐"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cách đọc đúng",
+      "pairs": [
+        [
+          "7",
+          "bảy"
+        ],
+        [
+          "10",
+          "mười"
+        ],
+        [
+          "4",
+          "bốn"
+        ],
+        [
+          "8",
+          "tám"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm số chấm tròn rồi viết số: ● ● ● ● ● ● là số ___",
+      "answer": "6",
+      "hint": "Đếm từng chấm tròn",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 0 có nghĩa là gì?",
+      "options": [
+        "Có một cái",
+        "Không có cái nào",
+        "Có nhiều cái",
+        "Có hai cái"
+      ],
+      "answer": 1,
+      "hint": "Khi cái rổ rỗng thì có 0 quả",
+      "level": "NB"
+    }
+  ]
+}

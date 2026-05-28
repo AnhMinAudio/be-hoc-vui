@@ -1,0 +1,124 @@
+{
+  "id": "tv-l1-dien-van-chu-va-doc-hieu",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Điền vần, chữ còn thiếu và đọc hiểu câu ngắn",
+  "difficulty": 2,
+  "outcomes": ["TV1-CT-1", "TV1-DH-1"],
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: con ___èo (con vật kêu meo meo)",
+      "answer": "m",
+      "hint": "Con mèo."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu: c___ cá (con vật nhỏ bơi dưới nước)",
+      "answer": "on",
+      "hint": "Con cá."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: quả ___am (quả màu cam, ăn ngọt)",
+      "answer": "c",
+      "hint": "Quả cam."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu: cái b___ (đồ dùng để ngồi học)",
+      "answer": "àn",
+      "alternatives": ["an"],
+      "hint": "Cái bàn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: ___à (mẹ của bố hoặc mẹ em)",
+      "answer": "b",
+      "hint": "Bà nội, bà ngoại."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền vần thích hợp: cây ch___ (loài cây cho quả cong, màu vàng khi chín)",
+      "options": ["uôi", "ôi", "uông", "uô"],
+      "answer": 0,
+      "hint": "Cây chuối — vần 'uôi'.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Bé đi học.' Ai đi học?",
+      "options": ["Mẹ", "Bé", "Bố", "Cô"],
+      "answer": 1,
+      "hint": "Đọc kĩ chủ ngữ ở đầu câu.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Mèo bắt chuột.' Mèo làm gì?",
+      "options": ["ngủ", "bắt chuột", "ăn cỏ", "bơi"],
+      "answer": 1,
+      "hint": "Tìm việc mèo làm trong câu.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Lá cây màu xanh.' Lá cây có màu gì?",
+      "options": ["màu đỏ", "màu vàng", "màu xanh", "màu tím"],
+      "answer": 2,
+      "hint": "Câu cho biết màu của lá cây.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Bà cho bé quà.' Ai cho bé quà?",
+      "options": ["Bà", "Mẹ", "Bố", "Chị"],
+      "answer": 0,
+      "hint": "Người cho quà đứng đầu câu.",
+      "level": "VD"
+    },
+    {
+      "type": "true-false",
+      "question": "Đọc câu: 'Trời nắng to.' Câu này nói trời đang mưa. Đúng hay sai?",
+      "answer": false,
+      "hint": "Câu nói trời nắng, không phải mưa.",
+      "level": "TH"
+    },
+    {
+      "type": "true-false",
+      "question": "Đọc câu: 'Cá bơi dưới nước.' Cá bơi ở dưới nước. Đúng hay sai?",
+      "answer": true,
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với việc nhân vật làm trong câu",
+      "pairs": [
+        ["Bé học bài.", "học bài"],
+        ["Gà gáy sáng.", "gáy sáng"],
+        ["Mẹ nấu cơm.", "nấu cơm"],
+        ["Chó giữ nhà.", "giữ nhà"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền chữ còn thiếu: con ___ó (con vật trông nhà, sủa gâu gâu)",
+      "answer": "ch",
+      "hint": "Con chó."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đọc câu rồi điền từ còn thiếu: 'Em yêu ___ và bố.' (người sinh ra em)",
+      "answer": "mẹ",
+      "hint": "Em yêu mẹ và bố."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền chữ thích hợp: con ___ịt (con vật biết bơi, kêu cạp cạp)",
+      "options": ["v", "b", "d", "đ"],
+      "answer": 0,
+      "hint": "Con vịt.",
+      "level": "TH"
+    }
+  ]
+}

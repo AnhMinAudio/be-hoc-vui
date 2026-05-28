@@ -1,15 +1,51 @@
 {
-  "generatedAt": "2026-05-28T13:25:25.138Z",
+  "generatedAt": "2026-05-28T13:54:29.461Z",
   "coverage": {
     "toan": {
       "1": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 7,
+        "totalQuestions": 115,
         "topics": [
+          {
+            "id": "toan-l1-cong-tru-trong-20",
+            "topic": "Cộng - trừ trong phạm vi 20",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l1-hinh-hoc-do-luong-vi-tri",
+            "topic": "Hình học, Đo lường và Vị trí",
+            "questionCount": 17,
+            "difficulty": 1
+          },
           {
             "id": "toan-l1-phep-cong-trong-10",
             "topic": "Phép cộng trong phạm vi 10",
             "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l1-phep-tru-trong-10",
+            "topic": "Phép trừ trong phạm vi 10",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l1-so-den-100-so-sanh",
+            "topic": "Số đến 100 và so sánh số",
+            "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l1-so-den-20-chuc-don-vi",
+            "topic": "Số đến 20 và chục - đơn vị",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "toan-l1-so-trong-pham-vi-10",
+            "topic": "Số trong phạm vi 10",
+            "questionCount": 17,
             "difficulty": 1
           }
         ]
@@ -125,13 +161,49 @@
     },
     "tieng-viet": {
       "1": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 7,
+        "totalQuestions": 113,
         "topics": [
+          {
+            "id": "tv-l1-am-va-chu-cai-nang-cao",
+            "topic": "Âm và chữ cái (nâng cao)",
+            "questionCount": 16,
+            "difficulty": 1
+          },
           {
             "id": "tv-l1-chu-cai-va-am",
             "topic": "Chữ cái và âm",
             "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "tv-l1-dau-thanh-va-ghep-tieng",
+            "topic": "Dấu thanh và ghép tiếng",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "tv-l1-dien-van-chu-va-doc-hieu",
+            "topic": "Điền vần, chữ còn thiếu và đọc hiểu câu ngắn",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "tv-l1-mo-rong-von-tu",
+            "topic": "Mở rộng vốn từ theo chủ đề",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "tv-l1-phan-biet-am-de-lan",
+            "topic": "Phân biệt âm dễ lẫn (l/n, c/k, g/gh, ng/ngh)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "tv-l1-van-thong-dung",
+            "topic": "Vần thông dụng",
+            "questionCount": 16,
             "difficulty": 1
           }
         ]
@@ -205,13 +277,49 @@
     },
     "tieng-anh": {
       "1": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 7,
+        "totalQuestions": 110,
         "topics": [
+          {
+            "id": "ta-l1-animals-and-pets",
+            "topic": "Animals & Pets (Con vật và thú nuôi)",
+            "questionCount": 15,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l1-classroom-objects",
+            "topic": "Classroom Objects (Đồ dùng học tập)",
+            "questionCount": 16,
+            "difficulty": 1
+          },
           {
             "id": "ta-l1-colors-and-numbers",
             "topic": "Colors & Numbers (Màu sắc và số đếm)",
             "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l1-greetings-and-names",
+            "topic": "Greetings & Names (Chào hỏi và tên)",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l1-my-family",
+            "topic": "My Family (Gia đình của em)",
+            "questionCount": 15,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l1-numbers-1-to-10",
+            "topic": "Numbers 1-10 (Số đếm 1 đến 10)",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l1-toys-and-food",
+            "topic": "Toys & Food (Đồ chơi và thức ăn)",
+            "questionCount": 15,
             "difficulty": 1
           }
         ]

@@ -1,0 +1,1498 @@
+{
+  "stage": "tieu-hoc",
+  "grade": 1,
+  "subject": "tieng-anh",
+  "count": 110,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cat' mean? (Từ 'cat' nghĩa là gì?)",
+      "options": [
+        "con mèo",
+        "con chó",
+        "con cá",
+        "con chim"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal says 'woof woof'? (Con vật nào kêu 'gâu gâu'?)",
+      "options": [
+        "cat",
+        "dog",
+        "fish",
+        "bird"
+      ],
+      "answer": 1,
+      "level": "TH",
+      "hint": "A dog says 'woof'. (Con chó kêu gâu gâu.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'con cá' (Viết từ tiếng Anh của 'con cá'): ___",
+      "answer": "fish",
+      "alternatives": [
+        "Fish",
+        "FISH"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the animal with its Vietnamese meaning (Nối con vật với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "dog",
+          "con chó"
+        ],
+        [
+          "rabbit",
+          "con thỏ"
+        ],
+        [
+          "bird",
+          "con chim"
+        ],
+        [
+          "duck",
+          "con vịt"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal can fly? (Con vật nào biết bay?)",
+      "options": [
+        "fish",
+        "cat",
+        "bird",
+        "rabbit"
+      ],
+      "answer": 2,
+      "level": "TH",
+      "hint": "A bird can fly. (Con chim biết bay.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'rabbit' mean? (Từ 'rabbit' nghĩa là gì?)",
+      "options": [
+        "con thỏ",
+        "con vịt",
+        "con gà mái",
+        "con chim"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'con vịt' (Viết từ tiếng Anh của 'con vịt'): ___",
+      "answer": "duck",
+      "alternatives": [
+        "Duck",
+        "DUCK"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the animal with its Vietnamese meaning (Nối con vật với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "rabbit",
+          "con thỏ"
+        ],
+        [
+          "duck",
+          "con vịt"
+        ],
+        [
+          "hen",
+          "con gà mái"
+        ],
+        [
+          "frog",
+          "con ếch"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal lives in water? (Con vật nào sống dưới nước?)",
+      "options": [
+        "cat",
+        "fish",
+        "bird",
+        "rabbit"
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'dog' mean? (Từ 'dog' nghĩa là gì?)",
+      "options": [
+        "con mèo",
+        "con chó",
+        "con thỏ",
+        "con cá"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "It's a small pet that says 'meow'. It is a ___ . (Đây là thú nuôi nhỏ kêu 'meo meo'. Nó là con gì? - điền 'cat')",
+      "answer": "cat",
+      "alternatives": [
+        "Cat",
+        "CAT"
+      ],
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence tells about an animal? (Câu nào nói về một con vật?)",
+      "options": [
+        "It's a dog.",
+        "I'm five.",
+        "Hello!",
+        "Sit down."
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "'It's a dog.' tells what the animal is. ('It's a dog.' cho biết đó là con gì.)"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English phrase with its meaning (Nối cụm tiếng Anh với nghĩa)",
+      "pairs": [
+        [
+          "It's a cat.",
+          "Đó là con mèo."
+        ],
+        [
+          "I have a dog.",
+          "Tôi có một con chó."
+        ],
+        [
+          "The bird is small.",
+          "Con chim nhỏ."
+        ],
+        [
+          "The dog is big.",
+          "Con chó to."
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'bird' mean? (Từ 'bird' nghĩa là gì?)",
+      "options": [
+        "con chim",
+        "con cá",
+        "con mèo",
+        "con thỏ"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'con gà mái' (Viết từ tiếng Anh của 'con gà mái'): ___",
+      "answer": "hen",
+      "alternatives": [
+        "Hen",
+        "HEN"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You write with this. What is it? (Em viết bằng vật này. Nó là gì?)",
+      "options": [
+        "pen",
+        "bag",
+        "desk",
+        "door"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "A pen is for writing. (Bút để viết.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'quyển sách' in English? (Từ nào nghĩa là 'quyển sách'?)",
+      "options": [
+        "book",
+        "pen",
+        "desk",
+        "chair"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I read a ___ at school. (Em đọc một quyển sách ở trường - điền 'book')",
+      "answer": "book",
+      "alternatives": [
+        "Book",
+        "BOOK"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the school object with its Vietnamese meaning (Nối đồ dùng học tập với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "pen",
+          "bút mực"
+        ],
+        [
+          "pencil",
+          "bút chì"
+        ],
+        [
+          "ruler",
+          "thước kẻ"
+        ],
+        [
+          "bag",
+          "cặp sách"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You use this to draw straight lines. What is it? (Em dùng vật này để kẻ đường thẳng. Nó là gì?)",
+      "options": [
+        "eraser",
+        "ruler",
+        "book",
+        "chair"
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'eraser' mean? (Từ 'eraser' nghĩa là gì?)",
+      "options": [
+        "cục tẩy",
+        "cái bàn",
+        "cửa sổ",
+        "cái cặp"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'bút chì' (Viết từ tiếng Anh của 'bút chì'): ___",
+      "answer": "pencil",
+      "alternatives": [
+        "Pencil",
+        "PENCIL"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the classroom object with its Vietnamese meaning (Nối đồ vật trong lớp với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "desk",
+          "bàn học"
+        ],
+        [
+          "chair",
+          "ghế"
+        ],
+        [
+          "board",
+          "bảng"
+        ],
+        [
+          "door",
+          "cửa ra vào"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The teacher writes on the ___ . (Cô giáo viết lên cái gì?)",
+      "options": [
+        "board",
+        "bag",
+        "pencil",
+        "shoe"
+      ],
+      "answer": 0,
+      "level": "VD",
+      "hint": "The teacher writes on the board. (Cô viết lên bảng.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'bag' mean? (Từ 'bag' nghĩa là gì?)",
+      "options": [
+        "cặp sách",
+        "cái bút",
+        "quyển vở",
+        "cái bảng"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I sit on a ___ in class. (Em ngồi trên cái ghế trong lớp - điền 'chair')",
+      "answer": "chair",
+      "alternatives": [
+        "Chair",
+        "CHAIR"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your teacher says 'Stand up'. What should you do? (Cô giáo nói 'Stand up'. Em nên làm gì?)",
+      "options": [
+        "ngồi xuống",
+        "đứng lên",
+        "viết bài",
+        "ăn cơm"
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the classroom command with its meaning (Nối mệnh lệnh trong lớp với nghĩa)",
+      "pairs": [
+        [
+          "Stand up",
+          "Đứng lên"
+        ],
+        [
+          "Sit down",
+          "Ngồi xuống"
+        ],
+        [
+          "Open your book",
+          "Mở sách ra"
+        ],
+        [
+          "Be quiet",
+          "Trật tự"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Sit down' mean? (Câu 'Sit down' nghĩa là gì?)",
+      "options": [
+        "Đứng lên",
+        "Ngồi xuống",
+        "Mở sách",
+        "Im lặng"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'thước kẻ' (Viết từ tiếng Anh của 'thước kẻ'): ___",
+      "answer": "ruler",
+      "alternatives": [
+        "Ruler",
+        "RULER"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one do you use to erase a mistake? (Em dùng vật nào để tẩy chỗ viết sai?)",
+      "options": [
+        "pen",
+        "eraser",
+        "desk",
+        "bag"
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "red",
+          "đỏ"
+        ],
+        [
+          "blue",
+          "xanh dương"
+        ],
+        [
+          "yellow",
+          "vàng"
+        ],
+        [
+          "green",
+          "xanh lá"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'one' mean? (Từ 'one' nghĩa là gì?)",
+      "options": [
+        "một",
+        "hai",
+        "ba",
+        "bốn"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is number 5 in English? (Số 5 trong tiếng Anh là gì?)",
+      "options": [
+        "four",
+        "five",
+        "six",
+        "seven"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 3 in English (Viết số 3 bằng tiếng Anh): ___",
+      "answer": "three",
+      "alternatives": [
+        "Three",
+        "THREE"
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
+      "pairs": [
+        [
+          "1",
+          "one"
+        ],
+        [
+          "2",
+          "two"
+        ],
+        [
+          "3",
+          "three"
+        ],
+        [
+          "4",
+          "four"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What color is a banana? (Quả chuối màu gì?)",
+      "options": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "answer": 2,
+      "hint": "A banana is yellow (Quả chuối màu vàng)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "What color is grass? Answer in English (Cỏ màu gì? Trả lời bằng tiếng Anh): ___",
+      "answer": "green",
+      "alternatives": [
+        "Green",
+        "GREEN"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many fingers do you have on one hand? (Một bàn tay có mấy ngón?)",
+      "options": [
+        "three",
+        "four",
+        "five",
+        "ten"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'black' mean? (Từ 'black' nghĩa là gì?)",
+      "options": [
+        "trắng",
+        "đen",
+        "hồng",
+        "cam"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is number 8 in English? (Số 8 trong tiếng Anh là gì?)",
+      "options": [
+        "six",
+        "seven",
+        "eight",
+        "nine"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 10 in English (Viết số 10 bằng tiếng Anh): ___",
+      "answer": "ten",
+      "alternatives": [
+        "Ten",
+        "TEN"
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Match the color with its Vietnamese meaning (Nối màu sắc với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "white",
+          "trắng"
+        ],
+        [
+          "black",
+          "đen"
+        ],
+        [
+          "pink",
+          "hồng"
+        ],
+        [
+          "orange",
+          "cam"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What color is the sky on a sunny day? (Bầu trời ngày nắng màu gì?)",
+      "options": [
+        "green",
+        "blue",
+        "red",
+        "black"
+      ],
+      "answer": 1,
+      "hint": "The sky is blue (Bầu trời màu xanh dương)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 2 in English (Viết số 2 bằng tiếng Anh): ___",
+      "answer": "two",
+      "alternatives": [
+        "Two",
+        "TWO"
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
+      "pairs": [
+        [
+          "6",
+          "six"
+        ],
+        [
+          "7",
+          "seven"
+        ],
+        [
+          "8",
+          "eight"
+        ],
+        [
+          "9",
+          "nine"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'seven' mean? (Từ 'seven' nghĩa là gì?)",
+      "options": [
+        "năm",
+        "sáu",
+        "bảy",
+        "tám"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "What color is a tomato? Answer in English (Quả cà chua màu gì? Trả lời bằng tiếng Anh): ___",
+      "answer": "red",
+      "alternatives": [
+        "Red",
+        "RED"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you greet a friend in the morning? (Em chào bạn thế nào khi gặp nhau?)",
+      "options": [
+        "Hello",
+        "Eat",
+        "Run",
+        "Sleep"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "We say 'Hello' or 'Hi'. (Ta nói 'Hello' hoặc 'Hi'.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What do you say when you leave? (Em nói gì khi tạm biệt?)",
+      "options": [
+        "Hello",
+        "Goodbye",
+        "Yellow",
+        "Book"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Hi! What's your ___? (Xin chào! Tên bạn là gì?)",
+      "answer": "name",
+      "alternatives": [
+        "Name",
+        "NAME"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'What's your name?'. How do you answer? (Có người hỏi 'What's your name?'. Em trả lời thế nào?)",
+      "options": [
+        "I'm seven.",
+        "I'm Nam.",
+        "It's red.",
+        "Goodbye."
+      ],
+      "answer": 1,
+      "level": "TH",
+      "hint": "We say 'I'm' and our name. (Ta nói 'I'm' rồi đến tên.)"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "Hello",
+          "xin chào"
+        ],
+        [
+          "Goodbye",
+          "tạm biệt"
+        ],
+        [
+          "name",
+          "tên"
+        ],
+        [
+          "friend",
+          "bạn bè"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Hi' mean? (Từ 'Hi' nghĩa là gì?)",
+      "options": [
+        "tạm biệt",
+        "xin chào",
+        "cảm ơn",
+        "xin lỗi"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Goodbye! See you ___! (Tạm biệt! Hẹn gặp lại nhé! - điền 'later')",
+      "answer": "later",
+      "alternatives": [
+        "Later",
+        "LATER"
+      ],
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your teacher says 'Hello'. What do you say back? (Cô giáo nói 'Hello'. Em đáp lại thế nào?)",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Apple",
+        "Three"
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the greeting with the right time/situation word (Nối lời chào với từ chỉ tình huống)",
+      "pairs": [
+        [
+          "Good morning",
+          "buổi sáng"
+        ],
+        [
+          "Good afternoon",
+          "buổi chiều"
+        ],
+        [
+          "Good night",
+          "buổi tối đi ngủ"
+        ],
+        [
+          "Goodbye",
+          "khi chia tay"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence introduces your name? (Câu nào dùng để giới thiệu tên em?)",
+      "options": [
+        "It's a cat.",
+        "I'm Lan.",
+        "I have a ball.",
+        "Sit down."
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "___! Nice to meet you. (Xin chào! Rất vui được gặp bạn. - điền lời chào)",
+      "answer": "Hello",
+      "alternatives": [
+        "hello",
+        "Hi",
+        "hi",
+        "HELLO"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Goodbye' mean? (Từ 'Goodbye' nghĩa là gì?)",
+      "options": [
+        "xin chào",
+        "tạm biệt",
+        "cảm ơn",
+        "vâng"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask someone's name in English? (Em hỏi tên người khác bằng tiếng Anh thế nào?)",
+      "options": [
+        "How old are you?",
+        "What's your name?",
+        "What color is it?",
+        "Where are you?"
+      ],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English phrase with its meaning (Nối cụm tiếng Anh với nghĩa)",
+      "pairs": [
+        [
+          "What's your name?",
+          "Bạn tên gì?"
+        ],
+        [
+          "I'm Mai.",
+          "Mình là Mai."
+        ],
+        [
+          "Nice to meet you.",
+          "Rất vui được gặp bạn."
+        ],
+        [
+          "See you later.",
+          "Hẹn gặp lại."
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: What's your name? B: ___ Nam. (Trả lời: 'Mình là Nam' - điền 'I'm')",
+      "answer": "I'm",
+      "alternatives": [
+        "I am",
+        "im",
+        "I'M"
+      ],
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'friend' mean? (Từ 'friend' nghĩa là gì?)",
+      "options": [
+        "bạn bè",
+        "cô giáo",
+        "bố",
+        "con mèo"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'mẹ' in English? (Từ nào nghĩa là 'mẹ'?)",
+      "options": [
+        "mother",
+        "father",
+        "sister",
+        "baby"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your dad's word in English is ___ . (Từ tiếng Anh chỉ 'bố' là gì?)",
+      "options": [
+        "mother",
+        "father",
+        "sister",
+        "baby"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'chị/em gái' (Viết từ tiếng Anh của 'chị/em gái'): ___",
+      "answer": "sister",
+      "alternatives": [
+        "Sister",
+        "SISTER"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the family word with its Vietnamese meaning (Nối từ chỉ gia đình với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "mother",
+          "mẹ"
+        ],
+        [
+          "sister",
+          "chị/em gái"
+        ],
+        [
+          "grandpa",
+          "ông"
+        ],
+        [
+          "baby",
+          "em bé"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'baby' mean? (Từ 'baby' nghĩa là gì?)",
+      "options": [
+        "em bé",
+        "ông",
+        "bà",
+        "bố"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "This is my mother's mother. Who is she? (Đây là mẹ của mẹ em. Bà ấy là ai?)",
+      "options": [
+        "grandma",
+        "sister",
+        "baby",
+        "brother"
+      ],
+      "answer": 0,
+      "level": "VD",
+      "hint": "Mother's mother is grandma. (Mẹ của mẹ là bà.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I love my ___ and father. (Em yêu mẹ và bố - điền 'mother')",
+      "answer": "mother",
+      "alternatives": [
+        "Mother",
+        "MOTHER",
+        "mom",
+        "mum"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the family word with its Vietnamese meaning (Nối từ chỉ gia đình với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "grandma",
+          "bà"
+        ],
+        [
+          "grandpa",
+          "ông"
+        ],
+        [
+          "baby",
+          "em bé"
+        ],
+        [
+          "family",
+          "gia đình"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'brother' mean? (Từ 'brother' nghĩa là gì?)",
+      "options": [
+        "chị/em gái",
+        "anh/em trai",
+        "mẹ",
+        "bà"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'ông' (Viết từ tiếng Anh của 'ông'): ___",
+      "answer": "grandpa",
+      "alternatives": [
+        "Grandpa",
+        "GRANDPA",
+        "grandfather"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence points to your mom? (Câu nào dùng để chỉ mẹ của em?)",
+      "options": [
+        "This is my mother.",
+        "It's a cat.",
+        "I have a pen.",
+        "Sit down."
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "We use 'This is my...' to introduce people. (Dùng 'This is my...' để giới thiệu.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'father' mean? (Từ 'father' nghĩa là gì?)",
+      "options": [
+        "mẹ",
+        "bố",
+        "bà",
+        "em bé"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English phrase with its meaning (Nối cụm tiếng Anh với nghĩa)",
+      "pairs": [
+        [
+          "This is my mother.",
+          "Đây là mẹ tôi."
+        ],
+        [
+          "This is my father.",
+          "Đây là bố tôi."
+        ],
+        [
+          "I have a brother.",
+          "Tôi có một anh trai."
+        ],
+        [
+          "My family is big.",
+          "Gia đình tôi đông."
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'bà' (Viết từ tiếng Anh của 'bà'): ___",
+      "answer": "grandma",
+      "alternatives": [
+        "Grandma",
+        "GRANDMA",
+        "grandmother"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who takes care of the baby in a family? (Trong gia đình, ai chăm sóc em bé?)",
+      "options": [
+        "mother and father",
+        "a cat",
+        "a pen",
+        "a ball"
+      ],
+      "answer": 0,
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is number 1 in English? (Số 1 trong tiếng Anh là gì?)",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'six' mean? (Từ 'six' nghĩa là số mấy?)",
+      "options": [
+        "bốn",
+        "năm",
+        "sáu",
+        "bảy"
+      ],
+      "answer": 2,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 6 in English (Viết số 6 bằng tiếng Anh): ___",
+      "answer": "six",
+      "alternatives": [
+        "Six",
+        "SIX"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with the digit (Nối từ tiếng Anh với chữ số)",
+      "pairs": [
+        [
+          "one",
+          "1"
+        ],
+        [
+          "four",
+          "4"
+        ],
+        [
+          "seven",
+          "7"
+        ],
+        [
+          "ten",
+          "10"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which number comes after 'seven'? (Số nào đứng sau 'seven'?)",
+      "options": [
+        "six",
+        "eight",
+        "nine",
+        "ten"
+      ],
+      "answer": 1,
+      "level": "TH",
+      "hint": "After seven (7) comes eight (8). (Sau 7 là 8.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is number 10 in English? (Số 10 trong tiếng Anh là gì?)",
+      "options": [
+        "nine",
+        "ten",
+        "eight",
+        "seven"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 4 in English (Viết số 4 bằng tiếng Anh): ___",
+      "answer": "four",
+      "alternatives": [
+        "Four",
+        "FOUR"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
+      "pairs": [
+        [
+          "5",
+          "five"
+        ],
+        [
+          "6",
+          "six"
+        ],
+        [
+          "7",
+          "seven"
+        ],
+        [
+          "8",
+          "eight"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many is 'three'? (Từ 'three' là mấy?)",
+      "options": [
+        "hai",
+        "ba",
+        "bốn",
+        "năm"
+      ],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 7 in English (Viết số 7 bằng tiếng Anh): ___",
+      "answer": "seven",
+      "alternatives": [
+        "Seven",
+        "SEVEN"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count: one, two, ___ . What comes next? (Đếm: one, two, ___ . Số tiếp theo là gì?)",
+      "options": [
+        "three",
+        "five",
+        "six",
+        "ten"
+      ],
+      "answer": 0,
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'five' mean? (Từ 'five' nghĩa là số mấy?)",
+      "options": [
+        "năm",
+        "sáu",
+        "bốn",
+        "ba"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "There are ___ days in a week. (Một tuần có 7 ngày - viết số 7 bằng tiếng Anh)",
+      "answer": "seven",
+      "alternatives": [
+        "Seven",
+        "SEVEN"
+      ],
+      "level": "VD"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English number word with its Vietnamese meaning (Nối từ chỉ số với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "nine",
+          "chín"
+        ],
+        [
+          "ten",
+          "mười"
+        ],
+        [
+          "eight",
+          "tám"
+        ],
+        [
+          "six",
+          "sáu"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which number is the biggest? (Số nào lớn nhất?)",
+      "options": [
+        "two",
+        "five",
+        "eight",
+        "ten"
+      ],
+      "answer": 3,
+      "level": "TH",
+      "hint": "Ten (10) is the biggest here. (Mười là lớn nhất.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write number 8 in English (Viết số 8 bằng tiếng Anh): ___",
+      "answer": "eight",
+      "alternatives": [
+        "Eight",
+        "EIGHT"
+      ],
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'ball' mean? (Từ 'ball' nghĩa là gì?)",
+      "options": [
+        "quả bóng",
+        "con búp bê",
+        "cái diều",
+        "ô tô"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A girl loves to play with this toy that looks like a person. What is it? (Bé gái thích chơi món đồ chơi giống người này. Nó là gì?)",
+      "options": [
+        "car",
+        "doll",
+        "ball",
+        "kite"
+      ],
+      "answer": 1,
+      "level": "TH",
+      "hint": "A doll looks like a little person. (Búp bê giống một người nhỏ.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'cái diều' (Viết từ tiếng Anh của 'cái diều'): ___",
+      "answer": "kite",
+      "alternatives": [
+        "Kite",
+        "KITE"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the toy with its Vietnamese meaning (Nối đồ chơi với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "ball",
+          "quả bóng"
+        ],
+        [
+          "doll",
+          "búp bê"
+        ],
+        [
+          "car",
+          "ô tô"
+        ],
+        [
+          "kite",
+          "cái diều"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'teddy bear' mean? (Từ 'teddy bear' nghĩa là gì?)",
+      "options": [
+        "gấu bông",
+        "ô tô",
+        "quả bóng",
+        "cái diều"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I drive my toy ___ on the floor. (Em chạy ô tô đồ chơi trên sàn - điền 'car')",
+      "answer": "car",
+      "alternatives": [
+        "Car",
+        "CAR"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'rice' mean? (Từ 'rice' nghĩa là gì?)",
+      "options": [
+        "cơm",
+        "sữa",
+        "trứng",
+        "bánh mì"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Match the food with its Vietnamese meaning (Nối thức ăn với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "rice",
+          "cơm"
+        ],
+        [
+          "milk",
+          "sữa"
+        ],
+        [
+          "egg",
+          "trứng"
+        ],
+        [
+          "bread",
+          "bánh mì"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one is a drink? (Cái nào là đồ uống?)",
+      "options": [
+        "milk",
+        "egg",
+        "rice",
+        "bread"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Milk is a drink. (Sữa là đồ uống.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'quả táo' (Viết từ tiếng Anh của 'quả táo'): ___",
+      "answer": "apple",
+      "alternatives": [
+        "Apple",
+        "APPLE"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'water' mean? (Từ 'water' nghĩa là gì?)",
+      "options": [
+        "nước",
+        "sữa",
+        "cơm",
+        "trứng"
+      ],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one can you eat for breakfast? (Cái nào em có thể ăn vào bữa sáng?)",
+      "options": [
+        "a kite",
+        "bread",
+        "a ball",
+        "a doll"
+      ],
+      "answer": 1,
+      "level": "VD",
+      "hint": "Bread is food; a kite and a ball are toys. (Bánh mì là đồ ăn; diều và bóng là đồ chơi.)"
+    },
+    {
+      "type": "matching",
+      "question": "Match the food/drink with its Vietnamese meaning (Nối đồ ăn/đồ uống với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "apple",
+          "quả táo"
+        ],
+        [
+          "water",
+          "nước"
+        ],
+        [
+          "cake",
+          "bánh ngọt"
+        ],
+        [
+          "fish",
+          "cá"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "I drink ___ every morning. (Em uống sữa mỗi sáng - điền 'milk')",
+      "answer": "milk",
+      "alternatives": [
+        "Milk",
+        "MILK"
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'egg' mean? (Từ 'egg' nghĩa là gì?)",
+      "options": [
+        "trứng",
+        "cơm",
+        "nước",
+        "bánh mì"
+      ],
+      "answer": 0,
+      "level": "NB"
+    }
+  ]
+}

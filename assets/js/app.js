@@ -172,31 +172,42 @@ function renderHome(view) {
 function renderDailyHomeSection() {
   const today = Progress.getTodayDaily().subjects || {};
   const streak = Progress.getStreak();
+  const grade = Daily.getGrade();
   const cards = Daily.SUBJECTS.map(s => {
     const r = today[s.key];
-    return `<a href="#/bai/daily-${s.key}" class="daily-card ${r ? 'done' : ''}">
+    return `<a href="#/bai/daily-${grade}-${s.key}" class="daily-card ${r ? 'done' : ''}">
         <span class="dc-icon">${s.icon}</span>
         <span class="dc-name">${s.name}</span>
         <span class="dc-status">${r ? `✓ ${r.score}/${r.total}` : 'Chưa làm'}</span>
       </a>`;
   }).join('');
+  const gradeTabs = Daily.GRADES.map(g =>
+    `<button class="daily-grade-tab ${g === grade ? 'active' : ''}" onclick="setDailyGrade(${g})">Lớp ${g}</button>`
+  ).join('');
   const doneCount = Daily.SUBJECTS.filter(s => today[s.key]).length;
   const allDone = doneCount === Daily.SUBJECTS.length;
   return `
     <section class="daily-section">
       <div class="daily-head">
-        <h2>📅 Đề hôm nay <small>· Lớp 2 (thử nghiệm)</small></h2>
+        <h2>📅 Đề hôm nay <small>· Lớp ${grade}</small></h2>
         <div class="daily-meta">
           ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
           <a href="#/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
         </div>
       </div>
+      <div class="daily-grade-tabs" role="tablist" aria-label="Chọn lớp">${gradeTabs}</div>
       ${allDone
         ? '<div class="daily-banner ok">🎉 Tuyệt vời! Bạn đã hoàn thành cả 3 đề hôm nay.</div>'
         : `<div class="daily-banner">⏰ Hôm nay đã làm ${doneCount}/3 đề — cố gắng hoàn thành nhé!</div>`}
       <div class="daily-grid">${cards}</div>
     </section>`;
 }
+
+// Đổi lớp cho "Đề hôm nay" rồi vẽ lại trang chủ
+window.setDailyGrade = function (g) {
+  Daily.setGrade(g);
+  route();
+};
 
 function renderProgress(view) {
   const days = Progress.last28Days();

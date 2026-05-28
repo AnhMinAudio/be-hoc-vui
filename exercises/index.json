@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T13:25:25.138Z",
+  "generatedAt": "2026-05-28T13:54:29.461Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -804,6 +804,36 @@
       "path": "thpt/lop12/sinh-hoc.json"
     },
     {
+      "id": "ta-l1-animals-and-pets",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Animals & Pets (Con vật và thú nuôi)",
+      "difficulty": 1,
+      "questionCount": 15,
+      "outcomes": [
+        "TA1-ANIMAL",
+        "TA1-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/animals-and-pets.json"
+    },
+    {
+      "id": "ta-l1-classroom-objects",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Classroom Objects (Đồ dùng học tập)",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TA1-SCHOOL",
+        "TA1-COMMAND"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/classroom-objects.json"
+    },
+    {
       "id": "ta-l1-colors-and-numbers",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -814,6 +844,65 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-anh/lop1/colors-and-numbers.json"
+    },
+    {
+      "id": "ta-l1-greetings-and-names",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Greetings & Names (Chào hỏi và tên)",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TA1-GREET",
+        "TA1-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/greetings-and-names.json"
+    },
+    {
+      "id": "ta-l1-my-family",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "My Family (Gia đình của em)",
+      "difficulty": 1,
+      "questionCount": 15,
+      "outcomes": [
+        "TA1-FAMILY",
+        "TA1-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/my-family.json"
+    },
+    {
+      "id": "ta-l1-numbers-1-to-10",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Numbers 1-10 (Số đếm 1 đến 10)",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TA1-NUM"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/numbers-1-to-10.json"
+    },
+    {
+      "id": "ta-l1-toys-and-food",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Toys & Food (Đồ chơi và thức ăn)",
+      "difficulty": 1,
+      "questionCount": 15,
+      "outcomes": [
+        "TA1-TOY",
+        "TA1-FOOD"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/toys-and-food.json"
     },
     {
       "id": "ta-l2-animals-family-school",
@@ -980,6 +1069,22 @@
       "path": "thpt/lop12/tieng-anh.json"
     },
     {
+      "id": "tv-l1-am-va-chu-cai-nang-cao",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Âm và chữ cái (nâng cao)",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TV1-AM-1",
+        "TV1-AM-2",
+        "TV1-AM-3"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/am-va-chu-cai-nang-cao.json"
+    },
+    {
       "id": "tv-l1-chu-cai-va-am",
       "stage": "tieu-hoc",
       "subject": "tieng-viet",
@@ -990,6 +1095,83 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
+    },
+    {
+      "id": "tv-l1-dau-thanh-va-ghep-tieng",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Dấu thanh và ghép tiếng",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TV1-THANH-1",
+        "TV1-GHEP-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/dau-thanh-va-ghep-tieng.json"
+    },
+    {
+      "id": "tv-l1-dien-van-chu-va-doc-hieu",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Điền vần, chữ còn thiếu và đọc hiểu câu ngắn",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "TV1-CT-1",
+        "TV1-DH-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/dien-van-chu-va-doc-hieu.json"
+    },
+    {
+      "id": "tv-l1-mo-rong-von-tu",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Mở rộng vốn từ theo chủ đề",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TV1-TU-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/mo-rong-von-tu.json"
+    },
+    {
+      "id": "tv-l1-phan-biet-am-de-lan",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Phân biệt âm dễ lẫn (l/n, c/k, g/gh, ng/ngh)",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "TV1-CK-1",
+        "TV1-GGH-1",
+        "TV1-NGH-1",
+        "TV1-LN-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/phan-biet-am-de-lan.json"
+    },
+    {
+      "id": "tv-l1-van-thong-dung",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Vần thông dụng",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TV1-VAN-1",
+        "TV1-VAN-2",
+        "TV1-VAN-4"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/van-thong-dung.json"
     },
     {
       "id": "tv-l2-on-luyen-1",
@@ -1109,6 +1291,41 @@
       "path": "tieng-viet/lop5/dong-trai-nghia-quan-he-tu.json"
     },
     {
+      "id": "toan-l1-cong-tru-trong-20",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Cộng - trừ trong phạm vi 20",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "T1-PT-4",
+        "T1-PT-6"
+      ],
+      "timeLimit": null,
+      "path": "toan/lop1/cong-tru-trong-20.json"
+    },
+    {
+      "id": "toan-l1-hinh-hoc-do-luong-vi-tri",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Hình học, Đo lường và Vị trí",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "T1-HH-1",
+        "T1-HH-2",
+        "T1-DL-1",
+        "T1-DL-2",
+        "T1-DL-3",
+        "T1-DL-4",
+        "T1-VT-1"
+      ],
+      "timeLimit": null,
+      "path": "toan/lop1/hinh-hoc-do-luong-vi-tri.json"
+    },
+    {
       "id": "toan-l1-phep-cong-trong-10",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -1119,6 +1336,69 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "toan/lop1/phep-cong-trong-10.json"
+    },
+    {
+      "id": "toan-l1-phep-tru-trong-10",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Phép trừ trong phạm vi 10",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "T1-PT-2",
+        "T1-PT-3",
+        "T1-PT-6"
+      ],
+      "timeLimit": null,
+      "path": "toan/lop1/phep-tru-trong-10.json"
+    },
+    {
+      "id": "toan-l1-so-den-100-so-sanh",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Số đến 100 và so sánh số",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "T1-SO-5",
+        "T1-SO-6",
+        "T1-SO-7"
+      ],
+      "timeLimit": null,
+      "path": "toan/lop1/so-den-100-so-sanh.json"
+    },
+    {
+      "id": "toan-l1-so-den-20-chuc-don-vi",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Số đến 20 và chục - đơn vị",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "T1-SO-4",
+        "T1-SO-6"
+      ],
+      "timeLimit": null,
+      "path": "toan/lop1/so-den-20-chuc-don-vi.json"
+    },
+    {
+      "id": "toan-l1-so-trong-pham-vi-10",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Số trong phạm vi 10",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "T1-SO-1",
+        "T1-SO-2",
+        "T1-SO-3"
+      ],
+      "timeLimit": null,
+      "path": "toan/lop1/so-trong-pham-vi-10.json"
     },
     {
       "id": "toan-l2-bang-chia-2-va-3",

@@ -11,6 +11,7 @@ const BANK_DIR = path.join(ROOT, 'banks');
 
 // Cấu hình kho cần gộp: [stage, grade, [subjects]]
 const TARGETS = [
+  { stage: 'tieu-hoc', grade: 1, subjects: ['toan', 'tieng-viet', 'tieng-anh'] },
   { stage: 'tieu-hoc', grade: 2, subjects: ['toan', 'tieng-viet', 'tieng-anh'] },
 ];
 

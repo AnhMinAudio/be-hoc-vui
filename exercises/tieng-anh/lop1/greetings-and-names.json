@@ -1,0 +1,133 @@
+{
+  "id": "ta-l1-greetings-and-names",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Greetings & Names (Chào hỏi và tên)",
+  "difficulty": 1,
+  "outcomes": ["TA1-GREET", "TA1-PATTERN"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you greet a friend in the morning? (Em chào bạn thế nào khi gặp nhau?)",
+      "options": ["Hello", "Eat", "Run", "Sleep"],
+      "answer": 0,
+      "level": "NB",
+      "hint": "We say 'Hello' or 'Hi'. (Ta nói 'Hello' hoặc 'Hi'.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What do you say when you leave? (Em nói gì khi tạm biệt?)",
+      "options": ["Hello", "Goodbye", "Yellow", "Book"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Hi! What's your ___? (Xin chào! Tên bạn là gì?)",
+      "answer": "name",
+      "alternatives": ["Name", "NAME"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'What's your name?'. How do you answer? (Có người hỏi 'What's your name?'. Em trả lời thế nào?)",
+      "options": ["I'm seven.", "I'm Nam.", "It's red.", "Goodbye."],
+      "answer": 1,
+      "level": "TH",
+      "hint": "We say 'I'm' and our name. (Ta nói 'I'm' rồi đến tên.)"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
+      "pairs": [
+        ["Hello", "xin chào"],
+        ["Goodbye", "tạm biệt"],
+        ["name", "tên"],
+        ["friend", "bạn bè"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Hi' mean? (Từ 'Hi' nghĩa là gì?)",
+      "options": ["tạm biệt", "xin chào", "cảm ơn", "xin lỗi"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Goodbye! See you ___! (Tạm biệt! Hẹn gặp lại nhé! - điền 'later')",
+      "answer": "later",
+      "alternatives": ["Later", "LATER"],
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your teacher says 'Hello'. What do you say back? (Cô giáo nói 'Hello'. Em đáp lại thế nào?)",
+      "options": ["Goodbye", "Hello", "Apple", "Three"],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the greeting with the right time/situation word (Nối lời chào với từ chỉ tình huống)",
+      "pairs": [
+        ["Good morning", "buổi sáng"],
+        ["Good afternoon", "buổi chiều"],
+        ["Good night", "buổi tối đi ngủ"],
+        ["Goodbye", "khi chia tay"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence introduces your name? (Câu nào dùng để giới thiệu tên em?)",
+      "options": ["It's a cat.", "I'm Lan.", "I have a ball.", "Sit down."],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "___! Nice to meet you. (Xin chào! Rất vui được gặp bạn. - điền lời chào)",
+      "answer": "Hello",
+      "alternatives": ["hello", "Hi", "hi", "HELLO"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Goodbye' mean? (Từ 'Goodbye' nghĩa là gì?)",
+      "options": ["xin chào", "tạm biệt", "cảm ơn", "vâng"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask someone's name in English? (Em hỏi tên người khác bằng tiếng Anh thế nào?)",
+      "options": ["How old are you?", "What's your name?", "What color is it?", "Where are you?"],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English phrase with its meaning (Nối cụm tiếng Anh với nghĩa)",
+      "pairs": [
+        ["What's your name?", "Bạn tên gì?"],
+        ["I'm Mai.", "Mình là Mai."],
+        ["Nice to meet you.", "Rất vui được gặp bạn."],
+        ["See you later.", "Hẹn gặp lại."]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: What's your name? B: ___ Nam. (Trả lời: 'Mình là Nam' - điền 'I'm')",
+      "answer": "I'm",
+      "alternatives": ["I am", "im", "I'M"],
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'friend' mean? (Từ 'friend' nghĩa là gì?)",
+      "options": ["bạn bè", "cô giáo", "bố", "con mèo"],
+      "answer": 0,
+      "level": "NB"
+    }
+  ]
+}

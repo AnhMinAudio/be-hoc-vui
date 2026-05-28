@@ -1,0 +1,131 @@
+{
+  "id": "tv-l1-dau-thanh-va-ghep-tieng",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Dấu thanh và ghép tiếng",
+  "difficulty": 1,
+  "outcomes": ["TV1-THANH-1", "TV1-GHEP-1"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng Việt có mấy dấu thanh (kể cả thanh ngang không dấu)?",
+      "options": ["4", "5", "6", "7"],
+      "answer": 2,
+      "hint": "Ngang, huyền, sắc, hỏi, ngã, nặng.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'má' mang dấu thanh nào?",
+      "options": ["dấu huyền", "dấu sắc", "dấu hỏi", "dấu nặng"],
+      "answer": 1,
+      "hint": "Dấu sắc nghiêng lên phía trên.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'mẹ' mang dấu thanh nào?",
+      "options": ["dấu sắc", "dấu huyền", "dấu nặng", "dấu ngã"],
+      "answer": 2,
+      "hint": "Dấu nặng là dấu chấm ở dưới.",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào mang dấu hỏi?",
+      "options": ["bã", "bạ", "bả", "bá"],
+      "answer": 2,
+      "hint": "Dấu hỏi giống cái móc câu nhỏ.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào mang dấu ngã?",
+      "options": ["võ", "vó", "vọ", "vỏ"],
+      "answer": 0,
+      "hint": "Dấu ngã giống làn sóng nằm trên.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ghép âm 'b' + vần 'a' + dấu huyền được tiếng nào?",
+      "options": ["ba", "bà", "bá", "bạ"],
+      "answer": 1,
+      "hint": "Dấu huyền nghiêng xuống.",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ghép âm 'c' + vần 'a' + dấu sắc được tiếng nào?",
+      "options": ["ca", "cà", "cá", "cạ"],
+      "answer": 2,
+      "hint": "Con cá. Dấu sắc.",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Thêm dấu thanh vào tiếng 'me' để được tiếng chỉ người sinh ra em.",
+      "answer": "mẹ",
+      "hint": "Tiếng 'mẹ' mang dấu nặng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Thêm dấu thanh vào tiếng 'la' để được tiếng chỉ bộ phận màu xanh của cây.",
+      "answer": "lá",
+      "hint": "Lá cây màu xanh — dấu sắc."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tiếng 'cá' gồm âm đầu 'c' ghép với vần 'a' và dấu sắc. Hãy viết vần của tiếng 'cá'.",
+      "answer": "a",
+      "hint": "Bỏ âm đầu và dấu thanh, còn lại là vần."
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với dấu thanh của tiếng đó",
+      "pairs": [
+        ["bà", "dấu huyền"],
+        ["bá", "dấu sắc"],
+        ["bả", "dấu hỏi"],
+        ["bạ", "dấu nặng"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng được ghép với kết quả đúng",
+      "pairs": [
+        ["m + a + huyền", "mà"],
+        ["m + a + sắc", "má"],
+        ["m + a + nặng", "mạ"],
+        ["m + a + ngã", "mã"]
+      ]
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'ba' không mang dấu thanh nào (thanh ngang). Đúng hay sai?",
+      "answer": true,
+      "hint": "Tiếng đọc giọng bình thường, không có dấu là thanh ngang.",
+      "level": "NB"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'bé' mang dấu huyền. Đúng hay sai?",
+      "answer": false,
+      "hint": "Tiếng 'bé' mang dấu sắc."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào KHÔNG mang dấu thanh?",
+      "options": ["lò", "lo", "ló", "lọ"],
+      "answer": 1,
+      "hint": "Tiếng 'lo' đọc giọng bình thường (thanh ngang).",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Ghép âm 'g' + vần 'a' + dấu huyền để được tên con vật gáy ò ó o.",
+      "answer": "gà",
+      "hint": "Con gà trống gáy buổi sáng."
+    }
+  ]
+}

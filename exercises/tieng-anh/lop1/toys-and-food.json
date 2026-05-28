@@ -1,0 +1,127 @@
+{
+  "id": "ta-l1-toys-and-food",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Toys & Food (Đồ chơi và thức ăn)",
+  "difficulty": 1,
+  "outcomes": ["TA1-TOY", "TA1-FOOD"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'ball' mean? (Từ 'ball' nghĩa là gì?)",
+      "options": ["quả bóng", "con búp bê", "cái diều", "ô tô"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A girl loves to play with this toy that looks like a person. What is it? (Bé gái thích chơi món đồ chơi giống người này. Nó là gì?)",
+      "options": ["car", "doll", "ball", "kite"],
+      "answer": 1,
+      "level": "TH",
+      "hint": "A doll looks like a little person. (Búp bê giống một người nhỏ.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'cái diều' (Viết từ tiếng Anh của 'cái diều'): ___",
+      "answer": "kite",
+      "alternatives": ["Kite", "KITE"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the toy with its Vietnamese meaning (Nối đồ chơi với nghĩa tiếng Việt)",
+      "pairs": [
+        ["ball", "quả bóng"],
+        ["doll", "búp bê"],
+        ["car", "ô tô"],
+        ["kite", "cái diều"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'teddy bear' mean? (Từ 'teddy bear' nghĩa là gì?)",
+      "options": ["gấu bông", "ô tô", "quả bóng", "cái diều"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I drive my toy ___ on the floor. (Em chạy ô tô đồ chơi trên sàn - điền 'car')",
+      "answer": "car",
+      "alternatives": ["Car", "CAR"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'rice' mean? (Từ 'rice' nghĩa là gì?)",
+      "options": ["cơm", "sữa", "trứng", "bánh mì"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Match the food with its Vietnamese meaning (Nối thức ăn với nghĩa tiếng Việt)",
+      "pairs": [
+        ["rice", "cơm"],
+        ["milk", "sữa"],
+        ["egg", "trứng"],
+        ["bread", "bánh mì"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one is a drink? (Cái nào là đồ uống?)",
+      "options": ["milk", "egg", "rice", "bread"],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Milk is a drink. (Sữa là đồ uống.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'quả táo' (Viết từ tiếng Anh của 'quả táo'): ___",
+      "answer": "apple",
+      "alternatives": ["Apple", "APPLE"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'water' mean? (Từ 'water' nghĩa là gì?)",
+      "options": ["nước", "sữa", "cơm", "trứng"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one can you eat for breakfast? (Cái nào em có thể ăn vào bữa sáng?)",
+      "options": ["a kite", "bread", "a ball", "a doll"],
+      "answer": 1,
+      "level": "VD",
+      "hint": "Bread is food; a kite and a ball are toys. (Bánh mì là đồ ăn; diều và bóng là đồ chơi.)"
+    },
+    {
+      "type": "matching",
+      "question": "Match the food/drink with its Vietnamese meaning (Nối đồ ăn/đồ uống với nghĩa tiếng Việt)",
+      "pairs": [
+        ["apple", "quả táo"],
+        ["water", "nước"],
+        ["cake", "bánh ngọt"],
+        ["fish", "cá"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "I drink ___ every morning. (Em uống sữa mỗi sáng - điền 'milk')",
+      "answer": "milk",
+      "alternatives": ["Milk", "MILK"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'egg' mean? (Từ 'egg' nghĩa là gì?)",
+      "options": ["trứng", "cơm", "nước", "bánh mì"],
+      "answer": 0,
+      "level": "NB"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "toan-l1-hinh-hoc-do-luong-vi-tri",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Hình học, Đo lường và Vị trí",
+  "difficulty": 1,
+  "outcomes": ["T1-HH-1", "T1-HH-2", "T1-DL-1", "T1-DL-2", "T1-DL-3", "T1-DL-4", "T1-VT-1"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Mặt đồng hồ và mặt trăng tròn có dạng hình gì?",
+      "options": ["Hình vuông", "Hình tròn", "Hình tam giác", "Hình chữ nhật"],
+      "answer": 1,
+      "hint": "Hình không có góc, lăn được",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cái khăn mùi xoa có 4 cạnh bằng nhau và 4 góc vuông là hình gì?",
+      "options": ["Hình tròn", "Hình tam giác", "Hình vuông", "Hình chữ nhật"],
+      "answer": 2,
+      "hint": "Bốn cạnh bằng nhau là hình vuông",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cái biển báo giao thông có 3 cạnh là hình gì?",
+      "options": ["Hình vuông", "Hình tam giác", "Hình tròn", "Hình chữ nhật"],
+      "answer": 1,
+      "hint": "Hình có ba cạnh, ba góc",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Viên xúc xắc (con súc sắc) có 6 mặt đều là hình vuông bằng nhau. Đó là khối gì?",
+      "options": ["Khối lập phương", "Khối hộp chữ nhật", "Hình tròn", "Hình tam giác"],
+      "answer": 0,
+      "hint": "Sáu mặt vuông bằng nhau là khối lập phương",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hộp bánh hình chữ nhật, có các mặt là hình chữ nhật. Đó là khối gì?",
+      "options": ["Khối lập phương", "Khối hộp chữ nhật", "Hình vuông", "Hình tròn"],
+      "answer": 1,
+      "hint": "Giống viên gạch, hộp giày",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bút chì dài 15 cm, bút sáp dài 9 cm. Bút nào dài hơn?",
+      "options": ["Bút chì", "Bút sáp", "Bằng nhau", "Không biết"],
+      "answer": 0,
+      "hint": "So sánh 15 cm và 9 cm",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đơn vị nào dùng để đo độ dài cái bút?",
+      "options": ["Ki-lô-gam (kg)", "Xăng-ti-mét (cm)", "Lít (l)", "Giờ"],
+      "answer": 1,
+      "hint": "Đo độ dài bằng xăng-ti-mét",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Băng giấy đỏ dài 6 cm, băng giấy xanh dài 4 cm. Cả hai băng giấy nối lại dài ___ cm",
+      "answer": "10",
+      "hint": "Lấy 6 cộng 4",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Sợi dây dài 12 cm, cắt bỏ 3 cm. Sợi dây còn lại dài ___ cm",
+      "answer": "9",
+      "hint": "Lấy 12 trừ 3",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đồng hồ có kim ngắn chỉ số 8, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?",
+      "options": ["7 giờ", "8 giờ", "9 giờ", "12 giờ"],
+      "answer": 1,
+      "hint": "Kim dài chỉ 12 là giờ đúng, đọc theo kim ngắn",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một tuần lễ có mấy ngày?",
+      "options": ["5 ngày", "6 ngày", "7 ngày", "10 ngày"],
+      "answer": 2,
+      "hint": "Từ thứ Hai đến Chủ nhật",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sau ngày thứ Ba là ngày nào trong tuần?",
+      "options": ["Thứ Hai", "Thứ Tư", "Thứ Năm", "Chủ nhật"],
+      "answer": 1,
+      "hint": "Thứ Hai, thứ Ba, rồi đến thứ mấy?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quyển sách đặt trên mặt bàn. Vậy quyển sách ở vị trí nào so với mặt bàn?",
+      "options": ["Ở dưới", "Ở trên", "Bên trái", "Bên phải"],
+      "answer": 1,
+      "hint": "Sách nằm phía trên mặt bàn",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn An đứng giữa bạn Bình và bạn Cường. Vậy bạn An ở vị trí nào?",
+      "options": ["Ngoài cùng bên trái", "Ở giữa", "Ngoài cùng bên phải", "Phía sau"],
+      "answer": 1,
+      "hint": "Ở giữa hai bạn kia",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối đồ vật với dạng hình của nó",
+      "pairs": [
+        ["Bánh xe", "hình tròn"],
+        ["Quyển vở", "hình chữ nhật"],
+        ["Mái nhà", "hình tam giác"],
+        ["Ô cửa sổ vuông", "hình vuông"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối đồng hồ với giờ đúng (kim dài chỉ số 12)",
+      "pairs": [
+        ["Kim ngắn chỉ số 3", "3 giờ"],
+        ["Kim ngắn chỉ số 6", "6 giờ"],
+        ["Kim ngắn chỉ số 9", "9 giờ"],
+        ["Kim ngắn chỉ số 11", "11 giờ"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Cây thước dài 10 cm, cây bút chì dài 7 cm. Cây thước dài hơn cây bút chì ___ cm",
+      "answer": "3",
+      "hint": "Lấy 10 trừ 7",
+      "level": "VD"
+    }
+  ]
+}

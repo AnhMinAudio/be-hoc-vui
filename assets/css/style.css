@@ -429,6 +429,15 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 .daily-progress-link { font-weight: 700; color: var(--c-ta-dark); }
 .daily-banner { background: #FFFFFF; border-radius: var(--radius-md); padding: 12px 16px; font-weight: 600; margin-bottom: 14px; }
 .daily-banner.ok { background: #E8F5E9; color: #2E7D32; }
+.daily-grade-tabs { display: flex; gap: 8px; margin-bottom: 14px; }
+.daily-grade-tab {
+  font: inherit; font-weight: 700; cursor: pointer;
+  background: #fff; color: var(--c-text-soft);
+  border: 2px solid var(--c-border, #e0e0e0); border-radius: 999px;
+  padding: 6px 18px; transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.daily-grade-tab:hover { border-color: var(--c-ta-dark); }
+.daily-grade-tab.active { background: var(--c-ta-dark); color: #fff; border-color: var(--c-ta-dark); }
 .daily-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
 .daily-card {
   background: #fff; border-radius: var(--radius-md); padding: 18px 12px;

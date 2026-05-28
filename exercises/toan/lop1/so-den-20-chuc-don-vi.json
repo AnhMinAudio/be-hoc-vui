@@ -1,0 +1,131 @@
+{
+  "id": "toan-l1-so-den-20-chuc-don-vi",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Số đến 20 và chục - đơn vị",
+  "difficulty": 1,
+  "outcomes": ["T1-SO-4", "T1-SO-6"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 15 gồm mấy chục và mấy đơn vị?",
+      "options": ["1 chục 5 đơn vị", "5 chục 1 đơn vị", "1 chục 1 đơn vị", "5 chục 5 đơn vị"],
+      "answer": 0,
+      "hint": "Chữ số bên trái là chục, bên phải là đơn vị",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 chục bằng bao nhiêu đơn vị?",
+      "options": ["1", "5", "10", "20"],
+      "answer": 2,
+      "hint": "Một chục là mười",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số gồm 1 chục và 7 đơn vị là số ___",
+      "answer": "17",
+      "hint": "Viết chục trước, đơn vị sau",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số gồm 1 chục và 0 đơn vị là số ___",
+      "answer": "10",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 20 gồm mấy chục và mấy đơn vị?",
+      "options": ["2 chục 0 đơn vị", "0 chục 2 đơn vị", "1 chục 2 đơn vị", "2 chục 2 đơn vị"],
+      "answer": 0,
+      "hint": "20 là hai chục",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 11, 12, 13, ___, 15",
+      "answer": "14",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 16, 17, ___, 19, 20",
+      "answer": "18",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 19 là ___",
+      "answer": "20",
+      "hint": "Đếm thêm 1 sau 19",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 13 là ___",
+      "answer": "12",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 12 hay 18?",
+      "options": ["12", "18", "Bằng nhau", "Không biết"],
+      "answer": 1,
+      "hint": "Cùng 1 chục thì so đơn vị: 2 hay 8 lớn hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 16 hay 11?",
+      "options": ["16", "11", "Bằng nhau", "Cả hai"],
+      "answer": 1,
+      "hint": "So đơn vị: 6 và 1 số nào bé hơn?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc số 14 là gì?",
+      "options": ["Mười bốn", "Bốn mươi", "Mười tư mươi", "Bốn mười"],
+      "answer": 0,
+      "hint": "1 chục đọc là mười, rồi đến 4",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một tá bút chì có 12 cái. Một tá gồm 1 chục và ___ đơn vị",
+      "answer": "2",
+      "hint": "12 gồm 1 chục và mấy đơn vị?",
+      "level": "VD"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cấu tạo chục - đơn vị",
+      "pairs": [
+        ["11", "1 chục 1 đơn vị"],
+        ["13", "1 chục 3 đơn vị"],
+        ["16", "1 chục 6 đơn vị"],
+        ["19", "1 chục 9 đơn vị"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cách đọc",
+      "pairs": [
+        ["12", "mười hai"],
+        ["15", "mười lăm"],
+        ["18", "mười tám"],
+        ["20", "hai mươi"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Mai có 1 chục cái kẹo và thêm 4 cái kẹo lẻ. Bạn Mai có tất cả bao nhiêu cái kẹo?",
+      "options": ["14 cái", "10 cái", "4 cái", "15 cái"],
+      "answer": 0,
+      "hint": "1 chục là 10, thêm 4 nữa là bao nhiêu?",
+      "level": "VD"
+    }
+  ]
+}

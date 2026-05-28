@@ -1,0 +1,141 @@
+{
+  "id": "toan-l1-so-trong-pham-vi-10",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Số trong phạm vi 10",
+  "difficulty": 1,
+  "outcomes": ["T1-SO-1", "T1-SO-2", "T1-SO-3"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Có mấy bông hoa? 🌸🌸🌸🌸",
+      "options": ["3", "4", "5", "6"],
+      "answer": 1,
+      "hint": "Đếm từng bông hoa nhé!",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 8 hay 6?",
+      "options": ["6", "8", "Bằng nhau", "Không biết"],
+      "answer": 1,
+      "hint": "Số nào đứng sau khi đếm thì lớn hơn",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 4 hay 9?",
+      "options": ["4", "9", "Bằng nhau", "Cả hai"],
+      "answer": 0,
+      "hint": "Số nào đếm đến trước thì bé hơn",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 6 là ___",
+      "answer": "7",
+      "hint": "Đếm thêm 1 sau số 6",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 5 là ___",
+      "answer": "4",
+      "hint": "Đếm lùi 1 trước số 5",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số lớn nhất trong các số 3, 7, 5, 2 là số nào?",
+      "options": ["3", "7", "5", "2"],
+      "answer": 1,
+      "hint": "Số nào đếm đến sau cùng?",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số bé nhất trong các số 6, 1, 4, 9 là số nào?",
+      "options": ["6", "1", "4", "9"],
+      "answer": 1,
+      "hint": "Số nào đếm đến đầu tiên?",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 1, 2, 3, ___, 5",
+      "answer": "4",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm tiếp: 7, 8, ___, 10",
+      "answer": "9",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong vườn có 5 cây xanh và 5 cây vàng. Số cây xanh và số cây vàng thế nào?",
+      "options": ["Nhiều hơn", "Ít hơn", "Bằng nhau", "Không biết"],
+      "answer": 2,
+      "hint": "5 và 5, hai số có giống nhau không?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn An có 4 viên kẹo, bạn Bình có 7 viên kẹo. Ai có nhiều kẹo hơn?",
+      "options": ["Bạn An", "Bạn Bình", "Bằng nhau", "Không ai"],
+      "answer": 1,
+      "hint": "So sánh 4 và 7 xem số nào lớn hơn",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 9 là ___",
+      "answer": "10",
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dấu nào điền đúng vào chỗ chấm: 6 ... 8?",
+      "options": ["lớn hơn (>)", "bé hơn (<)", "bằng (=)", "không có dấu"],
+      "answer": 1,
+      "hint": "6 đứng trước 8 khi đếm",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với số lượng ngôi sao tương ứng",
+      "pairs": [
+        ["2", "⭐⭐"],
+        ["5", "⭐⭐⭐⭐⭐"],
+        ["3", "⭐⭐⭐"],
+        ["1", "⭐"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cách đọc đúng",
+      "pairs": [
+        ["7", "bảy"],
+        ["10", "mười"],
+        ["4", "bốn"],
+        ["8", "tám"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đếm số chấm tròn rồi viết số: ● ● ● ● ● ● là số ___",
+      "answer": "6",
+      "hint": "Đếm từng chấm tròn",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 0 có nghĩa là gì?",
+      "options": ["Có một cái", "Không có cái nào", "Có nhiều cái", "Có hai cái"],
+      "answer": 1,
+      "hint": "Khi cái rổ rỗng thì có 0 quả",
+      "level": "NB"
+    }
+  ]
+}

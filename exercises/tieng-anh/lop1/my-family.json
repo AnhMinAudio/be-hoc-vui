@@ -1,0 +1,126 @@
+{
+  "id": "ta-l1-my-family",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "My Family (Gia đình của em)",
+  "difficulty": 1,
+  "outcomes": ["TA1-FAMILY", "TA1-PATTERN"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'mẹ' in English? (Từ nào nghĩa là 'mẹ'?)",
+      "options": ["mother", "father", "sister", "baby"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your dad's word in English is ___ . (Từ tiếng Anh chỉ 'bố' là gì?)",
+      "options": ["mother", "father", "sister", "baby"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'chị/em gái' (Viết từ tiếng Anh của 'chị/em gái'): ___",
+      "answer": "sister",
+      "alternatives": ["Sister", "SISTER"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the family word with its Vietnamese meaning (Nối từ chỉ gia đình với nghĩa tiếng Việt)",
+      "pairs": [
+        ["mother", "mẹ"],
+        ["sister", "chị/em gái"],
+        ["grandpa", "ông"],
+        ["baby", "em bé"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'baby' mean? (Từ 'baby' nghĩa là gì?)",
+      "options": ["em bé", "ông", "bà", "bố"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "This is my mother's mother. Who is she? (Đây là mẹ của mẹ em. Bà ấy là ai?)",
+      "options": ["grandma", "sister", "baby", "brother"],
+      "answer": 0,
+      "level": "VD",
+      "hint": "Mother's mother is grandma. (Mẹ của mẹ là bà.)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I love my ___ and father. (Em yêu mẹ và bố - điền 'mother')",
+      "answer": "mother",
+      "alternatives": ["Mother", "MOTHER", "mom", "mum"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the family word with its Vietnamese meaning (Nối từ chỉ gia đình với nghĩa tiếng Việt)",
+      "pairs": [
+        ["grandma", "bà"],
+        ["grandpa", "ông"],
+        ["baby", "em bé"],
+        ["family", "gia đình"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'brother' mean? (Từ 'brother' nghĩa là gì?)",
+      "options": ["chị/em gái", "anh/em trai", "mẹ", "bà"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'ông' (Viết từ tiếng Anh của 'ông'): ___",
+      "answer": "grandpa",
+      "alternatives": ["Grandpa", "GRANDPA", "grandfather"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence points to your mom? (Câu nào dùng để chỉ mẹ của em?)",
+      "options": ["This is my mother.", "It's a cat.", "I have a pen.", "Sit down."],
+      "answer": 0,
+      "level": "TH",
+      "hint": "We use 'This is my...' to introduce people. (Dùng 'This is my...' để giới thiệu.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'father' mean? (Từ 'father' nghĩa là gì?)",
+      "options": ["mẹ", "bố", "bà", "em bé"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English phrase with its meaning (Nối cụm tiếng Anh với nghĩa)",
+      "pairs": [
+        ["This is my mother.", "Đây là mẹ tôi."],
+        ["This is my father.", "Đây là bố tôi."],
+        ["I have a brother.", "Tôi có một anh trai."],
+        ["My family is big.", "Gia đình tôi đông."]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'bà' (Viết từ tiếng Anh của 'bà'): ___",
+      "answer": "grandma",
+      "alternatives": ["Grandma", "GRANDMA", "grandmother"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who takes care of the baby in a family? (Trong gia đình, ai chăm sóc em bé?)",
+      "options": ["mother and father", "a cat", "a pen", "a ball"],
+      "answer": 0,
+      "level": "VD"
+    }
+  ]
+}

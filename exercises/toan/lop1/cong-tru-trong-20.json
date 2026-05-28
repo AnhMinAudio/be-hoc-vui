@@ -1,0 +1,130 @@
+{
+  "id": "toan-l1-cong-tru-trong-20",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Cộng - trừ trong phạm vi 20",
+  "difficulty": 1,
+  "outcomes": ["T1-PT-4", "T1-PT-6"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "12 + 3 = ?",
+      "options": ["14", "15", "16", "13"],
+      "answer": 1,
+      "hint": "Cộng thêm 3 vào 12 nhé!",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "17 - 4 = ?",
+      "options": ["12", "13", "14", "11"],
+      "answer": 1,
+      "hint": "17 bớt đi 4 còn mấy?",
+      "level": "NB"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "10 + 8 = ?",
+      "options": ["16", "17", "18", "19"],
+      "answer": 2,
+      "hint": "1 chục thêm 8 đơn vị",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "14 + 5 = ___",
+      "answer": "19",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "19 - 6 = ___",
+      "answer": "13",
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "11 + 7 = ___",
+      "answer": "18",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "16 - 5 = ___",
+      "answer": "11",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "13 + ___ = 16",
+      "answer": "3",
+      "hint": "16 bớt 13 còn mấy?",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "18 - ___ = 12",
+      "answer": "6",
+      "hint": "18 bớt mấy thì còn 12?",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trên giá có 15 quyển sách, cô giáo lấy ra 3 quyển. Hỏi trên giá còn lại mấy quyển sách?",
+      "options": ["11 quyển", "12 quyển", "13 quyển", "10 quyển"],
+      "answer": 1,
+      "hint": "Lấy 15 trừ đi 3",
+      "level": "VD"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Nam có 11 viên bi, được anh cho thêm 5 viên. Hỏi bạn Nam có tất cả bao nhiêu viên bi?",
+      "options": ["15 viên", "16 viên", "17 viên", "14 viên"],
+      "answer": 1,
+      "hint": "Lấy 11 cộng với 5",
+      "level": "VD"
+    },
+    {
+      "type": "fill-blank",
+      "question": "15 + 4 = ___",
+      "answer": "19",
+      "level": "TH"
+    },
+    {
+      "type": "fill-blank",
+      "question": "20 - 10 = ___",
+      "answer": "10",
+      "hint": "Hai chục bớt một chục còn mấy chục?",
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["13 + 2", "15"],
+        ["18 - 6", "12"],
+        ["11 + 8", "19"],
+        ["16 - 3", "13"]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Bạn hãy nối phép tính với kết quả nhé",
+      "pairs": [
+        ["10 + 4", "14"],
+        ["17 - 7", "10"],
+        ["12 + 5", "17"],
+        ["19 - 4", "15"],
+        ["14 + 2", "16"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kết quả nào lớn nhất? 12+4, 19-5, 11+7, 18-4",
+      "options": ["12+4", "19-5", "11+7", "18-4"],
+      "answer": 2,
+      "hint": "Tính từng phép: 11+7 bằng mấy?",
+      "level": "VD"
+    }
+  ]
+}

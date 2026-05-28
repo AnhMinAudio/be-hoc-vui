@@ -1,0 +1,133 @@
+{
+  "id": "ta-l1-classroom-objects",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Classroom Objects (Đồ dùng học tập)",
+  "difficulty": 1,
+  "outcomes": ["TA1-SCHOOL", "TA1-COMMAND"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "You write with this. What is it? (Em viết bằng vật này. Nó là gì?)",
+      "options": ["pen", "bag", "desk", "door"],
+      "answer": 0,
+      "level": "TH",
+      "hint": "A pen is for writing. (Bút để viết.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'quyển sách' in English? (Từ nào nghĩa là 'quyển sách'?)",
+      "options": ["book", "pen", "desk", "chair"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I read a ___ at school. (Em đọc một quyển sách ở trường - điền 'book')",
+      "answer": "book",
+      "alternatives": ["Book", "BOOK"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the school object with its Vietnamese meaning (Nối đồ dùng học tập với nghĩa tiếng Việt)",
+      "pairs": [
+        ["pen", "bút mực"],
+        ["pencil", "bút chì"],
+        ["ruler", "thước kẻ"],
+        ["bag", "cặp sách"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You use this to draw straight lines. What is it? (Em dùng vật này để kẻ đường thẳng. Nó là gì?)",
+      "options": ["eraser", "ruler", "book", "chair"],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'eraser' mean? (Từ 'eraser' nghĩa là gì?)",
+      "options": ["cục tẩy", "cái bàn", "cửa sổ", "cái cặp"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'bút chì' (Viết từ tiếng Anh của 'bút chì'): ___",
+      "answer": "pencil",
+      "alternatives": ["Pencil", "PENCIL"],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the classroom object with its Vietnamese meaning (Nối đồ vật trong lớp với nghĩa tiếng Việt)",
+      "pairs": [
+        ["desk", "bàn học"],
+        ["chair", "ghế"],
+        ["board", "bảng"],
+        ["door", "cửa ra vào"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The teacher writes on the ___ . (Cô giáo viết lên cái gì?)",
+      "options": ["board", "bag", "pencil", "shoe"],
+      "answer": 0,
+      "level": "VD",
+      "hint": "The teacher writes on the board. (Cô viết lên bảng.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'bag' mean? (Từ 'bag' nghĩa là gì?)",
+      "options": ["cặp sách", "cái bút", "quyển vở", "cái bảng"],
+      "answer": 0,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I sit on a ___ in class. (Em ngồi trên cái ghế trong lớp - điền 'chair')",
+      "answer": "chair",
+      "alternatives": ["Chair", "CHAIR"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your teacher says 'Stand up'. What should you do? (Cô giáo nói 'Stand up'. Em nên làm gì?)",
+      "options": ["ngồi xuống", "đứng lên", "viết bài", "ăn cơm"],
+      "answer": 1,
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Match the classroom command with its meaning (Nối mệnh lệnh trong lớp với nghĩa)",
+      "pairs": [
+        ["Stand up", "Đứng lên"],
+        ["Sit down", "Ngồi xuống"],
+        ["Open your book", "Mở sách ra"],
+        ["Be quiet", "Trật tự"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Sit down' mean? (Câu 'Sit down' nghĩa là gì?)",
+      "options": ["Đứng lên", "Ngồi xuống", "Mở sách", "Im lặng"],
+      "answer": 1,
+      "level": "NB"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the English word for 'thước kẻ' (Viết từ tiếng Anh của 'thước kẻ'): ___",
+      "answer": "ruler",
+      "alternatives": ["Ruler", "RULER"],
+      "level": "TH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one do you use to erase a mistake? (Em dùng vật nào để tẩy chỗ viết sai?)",
+      "options": ["pen", "eraser", "desk", "bag"],
+      "answer": 1,
+      "level": "TH"
+    }
+  ]
+}
