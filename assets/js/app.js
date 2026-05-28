@@ -123,6 +123,31 @@ function applyStageTheme(stage) {
   else delete document.body.dataset.stage;
 }
 
+// Vòng tiến trình tròn (đề hôm nay): done/total
+function progressRing(done, total) {
+  const r = 26, c = 2 * Math.PI * r;
+  const frac = total ? Math.max(0, Math.min(1, done / total)) : 0;
+  const off = c * (1 - frac);
+  return `
+  <svg class="progress-ring ${total && done >= total ? 'full' : ''}" viewBox="0 0 64 64" role="img" aria-label="Đã làm ${done} trên ${total} đề hôm nay">
+    <circle class="pr-track" cx="32" cy="32" r="${r}" fill="none" stroke-width="7"/>
+    <circle class="pr-fill" cx="32" cy="32" r="${r}" fill="none" stroke-width="7"
+      stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"
+      stroke-linecap="round" transform="rotate(-90 32 32)"/>
+    <text x="32" y="33" class="pr-text">${done}/${total}</text>
+  </svg>`;
+}
+
+// Trạng thái trống có linh vật — đồng bộ phong cách
+function emptyState(title, desc, actionHtml) {
+  return `<div class="empty-state">
+    ${mascotSVG()}
+    <div class="es-title">${title}</div>
+    ${desc ? `<div class="es-desc">${desc}</div>` : ''}
+    ${actionHtml || ''}
+  </div>`;
+}
+
 function updateHeader() {
   document.getElementById('star-count').textContent = Progress.getStars();
   const av = Progress.getAvatar();
@@ -385,16 +410,22 @@ function renderDailyHomeSection() {
     const hasBelow = Daily.GRADES.includes(below);
     const mainCards = hasMain ? Daily.SUBJECTS.map(s => dailyCard(grade, s, today, false)).join('') : '';
     const belowCards = hasBelow ? Daily.SUBJECTS.map(s => dailyCard(below, s, today, true)).join('') : '';
+    const totalSubs = Daily.SUBJECTS.length;
     const doneCount = hasMain ? Daily.SUBJECTS.filter(s => today[s.key]).length : 0;
-    const allDone = hasMain && doneCount === Daily.SUBJECTS.length;
+    const allDone = hasMain && doneCount === totalSubs;
+    const summary = hasMain
+      ? `<div class="daily-summary">
+          ${progressRing(doneCount, totalSubs)}
+          <div class="ds-text">
+            <b>${allDone ? '🎉 Hoàn thành cả ' + totalSubs + ' đề hôm nay!' : `Hôm nay đã làm ${doneCount}/${totalSubs} đề`}</b>
+            <span>${allDone ? 'Tuyệt vời, hẹn gặp lại ngày mai nhé!' : 'Cố hoàn thành nốt để giữ chuỗi ngày học nhé!'}</span>
+          </div>
+        </div>`
+      : `<div class="daily-banner">📚 "Đề hôm nay" cho Lớp ${grade} đang được xây dựng. Bạn vẫn vào từng môn để luyện tập nhé!</div>`;
     return `
     <section class="daily-section">
       ${head(grade)}
-      ${hasMain
-        ? (allDone
-          ? '<div class="daily-banner ok">🎉 Tuyệt vời! Bạn đã hoàn thành cả 3 đề hôm nay.</div>'
-          : `<div class="daily-banner">⏰ Hôm nay đã làm ${doneCount}/3 đề — cố gắng hoàn thành nhé!</div>`)
-        : `<div class="daily-banner">📚 "Đề hôm nay" cho Lớp ${grade} đang được xây dựng. Bạn vẫn vào từng môn để luyện tập nhé!</div>`}
+      ${summary}
       ${hasMain ? `<div class="daily-grid">${mainCards}</div>` : ''}
       ${hasBelow ? `<h3 class="daily-sub">📖 Ôn lại Lớp ${below} <small>(để nắm chắc kiến thức — không tính thành tích)</small></h3><div class="daily-grid">${belowCards}</div>` : ''}
     </section>`;
@@ -470,7 +501,7 @@ function renderProgress(view) {
       ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span><span class="sr-spd">${r.spd !== null ? Math.round(r.spd) + 's/câu' : ''}</span></div>`).join('')}
     </div>
     ${weak && done.length > 1 ? `<p class="about-note">💡 Nên ôn thêm môn <b>${weak.name}</b> (đang ${weak.pct}%).</p>` : ''}
-    ${activeDays === 0 ? '<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có dữ liệu. Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi tiến trình!</div></div>' : ''}
+    ${activeDays === 0 ? emptyState('Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
   `;
 }
 
@@ -605,7 +636,7 @@ function renderPreschoolTopics(view, age, domain) {
     <a href="#/mam-non/age${age}" class="back-btn">← Quay lại</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>${d.icon} ${d.name}</h1><p>Bé ${age} tuổi</p></div>
     ${list.length === 0
-      ? `<div class="empty"><div class="emoji">🧸</div><div class="msg">Sắp có trò chơi mới nhé!</div></div>`
+      ? emptyState('Sắp có trò chơi mới nhé!', 'Bé quay lại sau để khám phá thêm nha!')
       : `<div class="topic-list">${list.map(ex => {
           const done = Progress.getCompletion(ex.id);
           return `<a href="#/bai/${ex.id}" class="topic-item">
@@ -643,7 +674,7 @@ function renderTopicList(view, grade, subject) {
     <a href="#/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
     ${list.length === 0
-      ? `<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có bài nào. Sắp có rồi nhé!</div></div>`
+      ? emptyState('Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
       : `<div class="topic-list">${list.map(ex => {
           const done = Progress.getCompletion(ex.id);
           return `<a href="#/bai/${ex.id}" class="topic-item">
@@ -699,14 +730,14 @@ async function renderExercise(view, id) {
   let exercise;
   if (id.indexOf('daily-') === 0) {
     exercise = await Daily.getExercise(id);
-    if (!exercise) { view.innerHTML = '<div class="empty">Chưa có đề hôm nay cho mục này.</div>'; return; }
+    if (!exercise) { view.innerHTML = emptyState('Chưa có đề hôm nay cho mục này', 'Hãy chọn môn khác hoặc quay lại sau nhé!', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
   } else {
     const meta = CATALOG.exercises.find(e => e.id === id);
-    if (!meta) { view.innerHTML = '<div class="empty">Không tìm thấy bài này.</div>'; return; }
+    if (!meta) { view.innerHTML = emptyState('Không tìm thấy bài này', 'Có thể đường dẫn đã thay đổi.', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
     try {
       exercise = await (await fetch(`exercises/${meta.path}`)).json();
     } catch (e) {
-      view.innerHTML = `<div class="empty">Không tải được bài: ${meta.path}</div>`;
+      view.innerHTML = emptyState('Không tải được bài', 'Kiểm tra kết nối mạng rồi thử lại nhé.', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
       return;
     }
   }

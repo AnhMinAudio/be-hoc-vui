@@ -957,6 +957,30 @@ a:focus-visible, button:focus-visible, input:focus-visible,
   .hero-mascot, .daily-meta .streak, .result-emoji, .result-stars { animation: none; }
 }
 
+/* ===== Vòng tiến trình "Đề hôm nay" ===== */
+.daily-summary {
+  display: flex; align-items: center; gap: 16px;
+  background: #fff; border-radius: var(--radius-md); padding: 14px 18px;
+  box-shadow: var(--shadow-sm); margin-bottom: 14px;
+}
+.progress-ring { width: 64px; height: 64px; flex-shrink: 0; }
+.progress-ring .pr-track { stroke: var(--c-border); }
+.progress-ring .pr-fill { stroke: var(--c-primary-dark); transition: stroke-dashoffset 0.6s ease; }
+.progress-ring.full .pr-fill { stroke: var(--c-correct); }
+.progress-ring .pr-text { fill: var(--c-text); font-size: 17px; font-weight: 800; text-anchor: middle; dominant-baseline: middle; }
+.daily-summary .ds-text { display: flex; flex-direction: column; gap: 2px; }
+.daily-summary .ds-text b { font-size: 1.05rem; }
+.daily-summary .ds-text span { font-size: 0.9rem; color: var(--c-text-soft); }
+
+/* ===== Trạng thái trống có linh vật ===== */
+.empty-state {
+  text-align: center; padding: 40px 20px; color: var(--c-text-soft);
+  display: flex; flex-direction: column; align-items: center;
+}
+.empty-state .hero-mascot { width: 100px; height: 100px; margin-bottom: 4px; }
+.empty-state .es-title { font-size: 1.25rem; font-weight: 800; color: var(--c-text); }
+.empty-state .es-desc { font-size: 1rem; margin-top: 6px; max-width: 360px; }
+
 /* Print mode (cho phụ huynh in đề) */
 @media print {
   .header, .back-btn, .action-bar, .feedback { display: none; }
