@@ -96,6 +96,9 @@ function updateHeader() {
   document.getElementById('star-count').textContent = Progress.getStars();
   const av = Progress.getAvatar();
   document.getElementById('header-avatar').textContent = av || '📚';
+  // Sao là tính năng theo tài khoản → chỉ hiện khi đã đăng nhập
+  const sd = document.getElementById('stars-display');
+  if (sd) sd.style.display = Auth.isLoggedIn() ? '' : 'none';
   renderAccountArea();
 }
 
@@ -236,6 +239,24 @@ function renderAuth(view) {
   registerForm.onsubmit = (e) => { e.preventDefault(); submit(registerForm, view.querySelector('#register-msg'), d => Auth.register(d)); };
 }
 
+// Màn yêu cầu đăng nhập (tường mềm) cho các tính năng cần tài khoản
+function loginRequiredView(view, title, desc) {
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <div class="auth-wrap">
+      <div class="auth-card" style="text-align:center">
+        <div style="font-size:3.4rem">🔐</div>
+        <h1>${title}</h1>
+        <p class="auth-sub">${desc}</p>
+        <div class="action-bar" style="justify-content:center;margin-top:16px">
+          <a href="#/tai-khoan" class="btn btn-primary">Đăng nhập / Đăng ký</a>
+          <a href="#/" class="btn btn-secondary">Về trang chủ</a>
+        </div>
+        <p class="about-note">Bạn vẫn luyện tập tự do ở từng môn mà không cần đăng nhập. Đăng nhập để lưu &amp; đồng bộ kết quả trên mọi thiết bị.</p>
+      </div>
+    </div>`;
+}
+
 // ===== Views =====
 function renderHome(view) {
   const total = CATALOG.exercises.length;
@@ -342,33 +363,23 @@ function renderDailyHomeSection() {
     </section>`;
   }
 
-  // Chưa đăng nhập: bộ chọn lớp thủ công + lời mời đăng nhập
-  const grade = Daily.getGrade();
-  const cards = Daily.SUBJECTS.map(s => dailyCard(grade, s, today, false)).join('');
-  const gradeTabs = Daily.GRADES.map(g =>
-    `<button class="daily-grade-tab ${g === grade ? 'active' : ''}" onclick="setDailyGrade(${g})">Lớp ${g}</button>`
-  ).join('');
-  const doneCount = Daily.SUBJECTS.filter(s => today[s.key]).length;
-  const allDone = doneCount === Daily.SUBJECTS.length;
-  const hint = '<div class="daily-login-hint">🔐 <a href="#/tai-khoan">Đăng nhập</a> để lưu tiến trình & đồng bộ trên mọi thiết bị (điện thoại, máy tính, máy tính bảng).</div>';
+  // Chưa đăng nhập: "Đề hôm nay" cần tài khoản (tường mềm)
   return `
     <section class="daily-section">
-      ${head(grade, hint)}
-      <div class="daily-grade-tabs" role="tablist" aria-label="Chọn lớp">${gradeTabs}</div>
-      ${allDone
-        ? '<div class="daily-banner ok">🎉 Tuyệt vời! Bạn đã hoàn thành cả 3 đề hôm nay.</div>'
-        : `<div class="daily-banner">⏰ Hôm nay đã làm ${doneCount}/3 đề — cố gắng hoàn thành nhé!</div>`}
-      <div class="daily-grid">${cards}</div>
+      <div class="daily-head"><h2>📅 Đề hôm nay</h2></div>
+      <div class="daily-login-gate">
+        <span class="dlg-icon">🔐</span>
+        <span class="dlg-text">
+          <b>Đăng nhập để làm "Đề hôm nay"</b>
+          <small>Mỗi ngày một bộ đề theo đúng lớp của bạn, có chuỗi ngày học &amp; tiến trình — lưu trên mọi thiết bị.</small>
+        </span>
+        <a href="#/tai-khoan" class="btn btn-primary">Đăng nhập / Đăng ký</a>
+      </div>
     </section>`;
 }
 
-// Đổi lớp cho "Đề hôm nay" rồi vẽ lại trang chủ
-window.setDailyGrade = function (g) {
-  Daily.setGrade(g);
-  route();
-};
-
 function renderProgress(view) {
+  if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để xem Tiến trình', 'Lịch học theo tháng và phân tích 28 ngày được lưu theo tài khoản của bạn.');
   const month = Progress.getMonthInfo();
   const log = Progress.getDailyLog();
   const streak = Progress.getStreak();
@@ -608,6 +619,7 @@ function renderTopicList(view, grade, subject) {
 }
 
 function renderAchievements(view) {
+  if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để xem Thành tích', 'Sao, huy hiệu và thành tích được lưu theo tài khoản của bạn.');
   const stats = Progress.getStats();
   const av = Progress.getAvatar() || '📚';
   const earnedCount = BADGES.filter(b => b.earned(stats)).length;
@@ -789,9 +801,10 @@ async function renderExercise(view, id) {
       const elapsedMs = Date.now() - startTime;
       const baseline = Progress.getAvgSecPerQ(); // tốc độ TB trước lần này (mốc so sánh là chính bé)
       const percent = Math.round((score / total) * 100);
-      // Chỉ tính thành tích/phân tích khi đề thuộc đúng lớp của học sinh (đã đăng nhập).
-      // Đề ôn lớp dưới hoặc đề khác lớp: làm để học, KHÔNG cộng sao/thành tích.
-      const counts = Auth.countsForExercise(exercise);
+      // Tường mềm: chỉ lưu/cộng thành tích khi ĐÃ đăng nhập VÀ đề đúng lớp của học sinh.
+      // Chưa đăng nhập → luyện tập tự do, không lưu. Đề khác lớp → ôn, không tính.
+      const loggedIn = Auth.isLoggedIn();
+      const counts = loggedIn && Auth.countsForExercise(exercise);
       let isNewBest = false;
       if (counts) {
         isNewBest = Progress.markCompleted(exercise.id, score, total);
@@ -800,6 +813,11 @@ async function renderExercise(view, id) {
         if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
       }
       updateHeader();
+      const earnNote = counts
+        ? `Bạn được +${score} ⭐`
+        : (loggedIn
+          ? '📖 Đề ôn (khác lớp) — không tính sao &amp; thành tích'
+          : '🔐 <a href="#/tai-khoan">Đăng nhập</a> để lưu kết quả &amp; nhận sao');
 
       let emoji, title;
       if (percent === 100) { emoji = '🏆'; title = 'XUẤT SẮC!'; }
@@ -833,7 +851,7 @@ async function renderExercise(view, id) {
           ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:10px">🎉 Kỷ lục mới!</div>' : ''}
           <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
           ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
-          <div style="color:#6B6B8C;margin:10px 0 16px">${counts ? `Bạn được +${score} ⭐` : '📖 Đề ôn (khác lớp) — không tính sao &amp; thành tích'}</div>
+          <div style="color:#6B6B8C;margin:10px 0 16px">${earnNote}</div>
           <div class="recap">${recap}</div>
           <div class="action-bar" style="justify-content:center;margin-top:22px">
             <button class="btn btn-secondary" onclick="location.hash='${backHref}'">Bài khác</button>

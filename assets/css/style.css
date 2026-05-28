@@ -899,6 +899,15 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 .daily-card.review .dc-status { color: var(--c-text-soft); font-weight: 700; }
 .daily-login-hint { background: #E8F5E9; color: #2E7D32; border-radius: var(--radius-md); padding: 10px 14px; font-weight: 600; margin-bottom: 12px; }
 .daily-login-hint a { color: #1B5E20; text-decoration: underline; font-weight: 800; }
+.daily-login-gate {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  background: #fff; border-radius: var(--radius-md); padding: 16px 18px; box-shadow: var(--shadow-sm);
+}
+.daily-login-gate .dlg-icon { font-size: 2rem; }
+.daily-login-gate .dlg-text { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 200px; }
+.daily-login-gate .dlg-text b { font-size: 1.02rem; }
+.daily-login-gate .dlg-text small { color: var(--c-text-soft); font-weight: 600; }
+.daily-login-gate .btn { white-space: nowrap; }
 
 /* Print mode (cho phụ huynh in đề) */
 @media print {
