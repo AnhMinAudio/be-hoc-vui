@@ -61,6 +61,8 @@ async function route() {
   if (parts.length === 0) return renderHome(view);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
+  if (parts[0] === 'chinh-sach') return renderPolicy(view);
+  if (parts[0] === 'faq') return renderFAQ(view);
   if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
   if (parts[0] === 'mam-non') {
     if (parts.length === 1) return renderPreschoolAges(view);
@@ -181,6 +183,69 @@ function renderAbout(view) {
       <p class="about-note">⚠️ Nội dung mang tính tham khảo. Đáp án các môn khoa học – xã hội và tự luận nên được giáo viên hoặc phụ huynh kiểm tra trước khi dùng chính thức.</p>
       <h2>Liên hệ</h2>
       <p>Mọi góp ý xin gửi tới quản trị viên của trang để chúng tôi hoàn thiện nội dung. <em>(Bạn có thể cập nhật thông tin liên hệ cụ thể tại đây.)</em></p>
+    </article>
+  `;
+}
+
+function renderPolicy(view) {
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <article class="about">
+      <h1>Chính sách & Điều khoản</h1>
+
+      <h2>1. Quyền riêng tư</h2>
+      <p><b>Bé Học Vui không thu thập thông tin cá nhân.</b> Trang không yêu cầu đăng ký, không đăng nhập, không có máy chủ lưu dữ liệu người dùng.</p>
+      <ul>
+        <li>Tiến độ học (sao, huy hiệu, nhân vật, kết quả bài làm) chỉ được lưu trong <b>bộ nhớ trình duyệt (localStorage)</b> trên chính thiết bị của bạn — <b>không gửi đi đâu</b>.</li>
+        <li>Không dùng cookie theo dõi, không quảng cáo, không chia sẻ dữ liệu cho bên thứ ba.</li>
+        <li>Vì dữ liệu nằm trên thiết bị nên nếu xóa dữ liệu trình duyệt hoặc đổi máy, tiến độ sẽ mất và không đồng bộ giữa các thiết bị.</li>
+        <li>Trang phù hợp cho trẻ em do không thu thập dữ liệu cá nhân.</li>
+      </ul>
+      <p>Một số thư viện hiển thị (phông chữ, biểu tượng, công thức) được tải từ dịch vụ CDN công cộng (Google Fonts, jsDelivr) — các dịch vụ này có thể ghi nhận yêu cầu tải tệp theo chính sách riêng của họ.</p>
+
+      <h2>2. Điều khoản sử dụng</h2>
+      <ul>
+        <li>Trang được cung cấp <b>miễn phí</b> cho mục đích học tập, ôn luyện.</li>
+        <li>Nội dung được biên soạn <b>tham khảo</b>, bám chương trình GDPT 2018 nhưng <b>có thể có sai sót</b>; không thay thế cho sách giáo khoa, giáo viên hay đề thi chính thức.</li>
+        <li>Phụ huynh/giáo viên nên kiểm tra đáp án trước khi dùng chính thức, đặc biệt với các môn khoa học – xã hội và câu tự luận.</li>
+        <li>Trang được cung cấp "nguyên trạng", không kèm bảo đảm về tính chính xác tuyệt đối.</li>
+      </ul>
+
+      <h2>3. Bản quyền & nguồn</h2>
+      <ul>
+        <li>Các câu hỏi do nhóm biên soạn tạo mới (đề gốc), không sao chép nguyên văn đề thi có bản quyền.</li>
+        <li>Biểu tượng minh họa: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noopener">Twemoji</a> — giấy phép CC-BY 4.0.</li>
+        <li>Hiển thị công thức: <a href="https://katex.org" target="_blank" rel="noopener">KaTeX</a> (MIT). Phông chữ: Nunito (Google Fonts, OFL).</li>
+      </ul>
+      <p class="about-note">Đây là chính sách mẫu cho trang học tập phi lợi nhuận. Bạn có thể chỉnh lại cho phù hợp nhu cầu thực tế.</p>
+    </article>
+  `;
+}
+
+function renderFAQ(view) {
+  const faqs = [
+    ['Trang web có miễn phí không?', 'Có, hoàn toàn miễn phí. Không thu phí, không quảng cáo.'],
+    ['Có cần đăng ký hay đăng nhập không?', 'Không. Bạn vào là học được ngay. Tiến độ tự lưu trên trình duyệt của bạn.'],
+    ['Tiến độ học của tôi được lưu ở đâu?', 'Lưu trong bộ nhớ trình duyệt (localStorage) trên chính thiết bị bạn đang dùng. Nếu xóa dữ liệu trình duyệt hoặc dùng máy khác, tiến độ sẽ không còn và không đồng bộ giữa các thiết bị.'],
+    ['Nội dung bám theo chương trình/sách nào?', 'Bám chương trình GDPT 2018, chủ yếu theo bộ sách Kết nối tri thức với cuộc sống. Đề thi thử tham khảo cấu trúc thi tốt nghiệp THPT và đánh giá năng lực.'],
+    ['Đáp án có chính xác 100% không?', 'Đề được biên soạn tham khảo và đã kiểm tra; phần số học tiểu học còn được máy tự kiểm tra lại. Tuy nhiên vẫn nên nhờ giáo viên/phụ huynh rà soát, nhất là môn khoa học – xã hội và câu tự luận.'],
+    ['Học được trên điện thoại, máy tính bảng không?', 'Được. Giao diện tự co giãn theo màn hình, nút bấm to dễ dùng trên cảm ứng.'],
+    ['Đề thi thử hoạt động thế nào?', 'Đề thi thử có bấm giờ như phòng thi: đồng hồ đếm ngược, hết giờ tự nộp, chấm điểm ở cuối và xem lại từng câu đúng/sai.'],
+    ['Phần mầm non có giọng đọc nhưng không kêu?', 'Giọng đọc dùng bộ đọc tiếng Việt có sẵn của thiết bị/trình duyệt; máy nào không có giọng tiếng Việt sẽ không đọc. Đây là tính năng bổ trợ, bài vẫn làm được bằng hình.'],
+    ['Làm sao xóa tiến độ hoặc đổi nhân vật?', 'Vào trang "Thành tích" — có nút Đổi nhân vật và Xóa tiến độ.'],
+    ['Tôi muốn góp ý hoặc báo lỗi trong đề thì làm thế nào?', 'Xin gửi góp ý tới quản trị viên qua thông tin ở trang Giới thiệu. Mọi phản hồi giúp hoàn thiện nội dung.'],
+  ];
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <article class="about">
+      <h1>Câu hỏi thường gặp (FAQ)</h1>
+      <div class="faq-list">
+        ${faqs.map(([q, a]) => `
+          <details class="faq-item">
+            <summary>${q}</summary>
+            <div class="faq-answer">${a}</div>
+          </details>`).join('')}
+      </div>
     </article>
   `;
 }

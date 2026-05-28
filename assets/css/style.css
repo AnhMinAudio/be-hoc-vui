@@ -407,6 +407,22 @@ a:focus-visible, button:focus-visible, input:focus-visible,
   padding: 12px 16px; border-radius: 8px; margin: 16px 0;
 }
 
+/* FAQ (gập/mở) */
+.faq-list { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+.faq-item {
+  background: #FAFAFC; border: 2px solid var(--c-border);
+  border-radius: var(--radius-md); overflow: hidden;
+}
+.faq-item summary {
+  cursor: pointer; padding: 16px 20px; font-weight: 700; font-size: 1.05rem;
+  list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: '+'; font-size: 1.5rem; color: var(--c-ta-dark); flex-shrink: 0; }
+.faq-item[open] summary::after { content: '−'; }
+.faq-item[open] summary { color: var(--c-ta-dark); }
+.faq-answer { padding: 0 20px 16px; line-height: 1.7; color: var(--c-text); }
+
 @media (max-width: 600px) {
   .hero-pro h1 { font-size: 1.9rem; }
   .hero-pro { padding: 28px 12px 18px; }
