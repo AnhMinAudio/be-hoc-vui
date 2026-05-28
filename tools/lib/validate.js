@@ -86,8 +86,8 @@ function validateExercise(data) {
     data.questions.forEach((q, i) => {
       const n = i + 1;
       if (!q || !q.type) { errors.push(`câu ${n}: thiếu type`); return; }
-      if (q.level !== undefined && !['NB', 'TH', 'VD', 'VDC'].includes(q.level))
-        errors.push(`câu ${n}: level phải là NB/TH/VD/VDC`);
+      if (q.level !== undefined && !['NB', 'TH', 'VD', 'VDC', 'M1', 'M2', 'M3'].includes(q.level))
+        errors.push(`câu ${n}: level phải là NB/TH/VD/VDC (THCS/THPT) hoặc M1/M2/M3 (tiểu học - TT27)`);
       if (q.type === 'multiple-choice' || q.type === 'image-choice') {
         if (!Array.isArray(q.options) || q.options.length < 2) errors.push(`câu ${n}: cần >= 2 options`);
         else if (typeof q.answer !== 'number' || q.answer < 0 || q.answer >= q.options.length)

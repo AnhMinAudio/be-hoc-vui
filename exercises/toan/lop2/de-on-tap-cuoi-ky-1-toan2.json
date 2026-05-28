@@ -1,0 +1,174 @@
+{
+  "id": "toan-l2-on-tap-cuoi-ky-1",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Ôn tập cuối học kỳ 1 — Toán 2",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 56 gồm:",
+      "options": [
+        "5 chục và 6 đơn vị",
+        "6 chục và 5 đơn vị",
+        "56 chục",
+        "5 đơn vị và 6 chục"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 70 là ___",
+      "answer": "69",
+      "level": "M1",
+      "hint": "Bớt đi 1 đơn vị nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "34 + 5 = ___",
+      "answer": "39",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "48 - 6 = ___",
+      "answer": "42",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 dm bằng bao nhiêu cm?",
+      "options": [
+        "1 cm",
+        "10 cm",
+        "100 cm",
+        "20 cm"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "đề-xi-mét là đơn vị lớn hơn xăng-ti-mét."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đường gấp khúc là đường như thế nào?",
+      "options": [
+        "Là một đoạn thẳng duy nhất",
+        "Gồm nhiều đoạn thẳng nối tiếp nhau",
+        "Là một đường tròn",
+        "Là một điểm"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "27 + 18 = ___",
+      "answer": "45",
+      "level": "M2",
+      "hint": "Cộng có nhớ: 7 + 8 = 15, viết 5 nhớ 1."
+    },
+    {
+      "type": "fill-blank",
+      "question": "63 - 28 = ___",
+      "answer": "35",
+      "level": "M2",
+      "hint": "Trừ có nhớ: 3 không trừ được 8, mượn 1 chục."
+    },
+    {
+      "type": "fill-blank",
+      "question": "45 + 9 = ___",
+      "answer": "54",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 38 + 7 ... 50",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Tính 38 + 7 trước rồi mới so sánh với 50."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        [
+          "29 + 16",
+          "45"
+        ],
+        [
+          "52 - 17",
+          "35"
+        ],
+        [
+          "36 + 8",
+          "44"
+        ],
+        [
+          "80 - 25",
+          "55"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một đường gấp khúc gồm hai đoạn thẳng dài 3 cm và 5 cm. Độ dài đường gấp khúc đó là bao nhiêu?",
+      "options": [
+        "2 cm",
+        "8 cm",
+        "15 cm",
+        "53 cm"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Độ dài đường gấp khúc bằng tổng độ dài các đoạn thẳng: 3 + 5."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mẹ mua 25 kg gạo, sau đó mua thêm 17 kg gạo nữa. Hỏi mẹ mua tất cả bao nhiêu ki-lô-gam gạo? Trả lời: ___ kg. (25 + 17 = ?)",
+      "answer": "42",
+      "level": "M3",
+      "hint": "Mua thêm thì làm phép cộng nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một thùng có 50 lít nước, người ta lấy ra 24 lít. Hỏi trong thùng còn lại bao nhiêu lít nước? Trả lời: ___ lít. (50 - 24 = ?)",
+      "answer": "26",
+      "level": "M3",
+      "hint": "Lấy ra thì bớt đi, em làm phép trừ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lan gấp được 18 con hạc giấy, Mai gấp được nhiều hơn Lan 7 con. Hỏi Mai gấp được bao nhiêu con hạc giấy?",
+      "options": [
+        "11 con",
+        "24 con",
+        "25 con",
+        "26 con"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Nhiều hơn thì làm phép cộng: 18 + 7."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sắp xếp các số 64, 46, 60 theo thứ tự từ lớn đến bé:",
+      "options": [
+        "46, 60, 64",
+        "64, 60, 46",
+        "60, 64, 46",
+        "64, 46, 60"
+      ],
+      "answer": 1,
+      "level": "M2"
+    }
+  ]
+}

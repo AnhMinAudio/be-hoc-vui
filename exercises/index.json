@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T17:57:06.094Z",
+  "generatedAt": "2026-05-28T18:16:00.630Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -1425,6 +1425,19 @@
       "path": "toan/lop1/hinh-hoc-do-luong-vi-tri.json"
     },
     {
+      "id": "toan-l1-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Ôn tập cuối học kỳ 1 — Toán 1",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 15,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "toan/lop1/de-on-tap-cuoi-ky-1-toan1.json"
+    },
+    {
       "id": "toan-l1-phep-cong-trong-10",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -1596,6 +1609,19 @@
       "path": "toan/lop2/toan-co-loi-van.json"
     },
     {
+      "id": "toan-l2-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 2,
+      "topic": "Ôn tập cuối học kỳ 1 — Toán 2",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "toan/lop2/de-on-tap-cuoi-ky-1-toan2.json"
+    },
+    {
       "id": "toan-l2-cong-co-nho-trong-100",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -1661,6 +1687,32 @@
       "path": "toan/lop3/nhan-chia-trong-bang.json"
     },
     {
+      "id": "toan-l3-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 3,
+      "topic": "Ôn tập cuối học kỳ 1 — Toán 3",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "toan/lop3/de-on-tap-cuoi-ky-1-toan3.json"
+    },
+    {
+      "id": "toan-l4-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 4,
+      "topic": "Ôn tập cuối học kỳ 1 — Toán 4",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "toan/lop4/de-on-tap-cuoi-ky-1-toan4.json"
+    },
+    {
       "id": "toan-l4-so-lon-phan-so-hinh-hoc",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -1672,6 +1724,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
+    },
+    {
+      "id": "toan-l5-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 5,
+      "topic": "Ôn tập cuối học kỳ 1 — Toán 5",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "toan/lop5/de-on-tap-cuoi-ky-1-toan5.json"
     },
     {
       "id": "toan-l5-thap-phan-phan-tram-dien-tich",

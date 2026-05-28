@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-28T17:57:06.094Z",
+  "generatedAt": "2026-05-28T18:16:00.630Z",
   "coverage": {
     "toan": {
       "1": {
-        "exerciseCount": 7,
-        "totalQuestions": 115,
+        "exerciseCount": 8,
+        "totalQuestions": 130,
         "topics": [
           {
             "id": "toan-l1-cong-tru-trong-20",
@@ -17,6 +17,12 @@
             "topic": "Hình học, Đo lường và Vị trí",
             "questionCount": 17,
             "difficulty": 1
+          },
+          {
+            "id": "toan-l1-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 1",
+            "questionCount": 15,
+            "difficulty": 2
           },
           {
             "id": "toan-l1-phep-cong-trong-10",
@@ -51,8 +57,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 11,
-        "totalQuestions": 184,
+        "exerciseCount": 12,
+        "totalQuestions": 200,
         "topics": [
           {
             "id": "toan-l2-bang-chia-2-va-3",
@@ -97,6 +103,12 @@
             "difficulty": 2
           },
           {
+            "id": "toan-l2-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 2",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "toan-l2-cong-co-nho-trong-100",
             "topic": "Phép cộng có nhớ trong phạm vi 100",
             "questionCount": 16,
@@ -123,21 +135,33 @@
         ]
       },
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
           {
             "id": "toan-l3-nhan-chia-trong-bang",
             "topic": "Nhân chia trong bảng và phép tính trong 1000",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "toan-l3-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 3",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
+          {
+            "id": "toan-l4-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 4",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "toan-l4-so-lon-phan-so-hinh-hoc",
             "topic": "Số lớn, phân số và hình học",
@@ -147,9 +171,15 @@
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
+          {
+            "id": "toan-l5-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 5",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "toan-l5-thap-phan-phan-tram-dien-tich",
             "topic": "Số thập phân, phần trăm và diện tích",

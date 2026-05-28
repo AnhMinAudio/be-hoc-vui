@@ -1,0 +1,200 @@
+{
+  "id": "toan-l4-on-tap-cuoi-ky-1",
+  "subject": "toan",
+  "grade": 4,
+  "topic": "Ôn tập cuối học kỳ 1 — Toán 4",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 305 412 đọc là gì?",
+      "options": [
+        "Ba trăm linh năm nghìn bốn trăm mười hai",
+        "Ba trăm năm nghìn bốn trăm mười hai",
+        "Ba mươi nghìn năm trăm bốn mươi hai",
+        "Ba trăm linh năm nghìn bốn mươi hai"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Chữ số 7 trong số 4 728 069 thuộc hàng trăm nghìn. Giá trị của chữ số 7 là ___",
+      "answer": "700000",
+      "alternatives": ["700 000"],
+      "level": "M1",
+      "hint": "Chữ số ở hàng trăm nghìn có giá trị bằng chữ số đó nhân 100 000"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn nhất trong các số sau?",
+      "options": [
+        "899 999",
+        "900 010",
+        "899 909",
+        "890 999"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "45 678 + 32 145 = ___",
+      "answer": "77823",
+      "alternatives": ["77 823"],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "80 000 - 27 564 = ___",
+      "answer": "52436",
+      "alternatives": ["52 436"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "234 × 6 = ?",
+      "options": [
+        "1304",
+        "1404",
+        "1394",
+        "1444"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "672 : 4 = ___",
+      "answer": "168",
+      "level": "M2",
+      "hint": "Chia lần lượt từ hàng cao nhất"
+    },
+    {
+      "type": "fill-blank",
+      "question": "23 × 14 = ___",
+      "answer": "322",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Góc nào lớn hơn góc vuông và bé hơn góc bẹt?",
+      "options": [
+        "Góc nhọn",
+        "Góc tù",
+        "Góc vuông",
+        "Góc bẹt"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Góc vuông là 90°, góc bẹt là 180°"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hai đường thẳng cắt nhau tạo thành bốn góc vuông thì gọi là gì?",
+      "options": [
+        "Hai đường thẳng song song",
+        "Hai đường thẳng vuông góc",
+        "Hai đường thẳng trùng nhau",
+        "Hai đường thẳng cong"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối đơn vị đo khối lượng với giá trị đúng",
+      "pairs": [
+        [
+          "1 yến",
+          "10 kg"
+        ],
+        [
+          "1 tạ",
+          "100 kg"
+        ],
+        [
+          "1 tấn",
+          "1000 kg"
+        ],
+        [
+          "1 kg",
+          "1000 g"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đổi: 3 tấn 5 tạ = ___ kg",
+      "answer": "3500",
+      "alternatives": ["3 500"],
+      "level": "M2",
+      "hint": "1 tấn = 1000 kg, 1 tạ = 100 kg"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 thế kỉ có bao nhiêu năm?",
+      "options": [
+        "10 năm",
+        "100 năm",
+        "1000 năm",
+        "60 năm"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cấu tạo theo hàng",
+      "pairs": [
+        [
+          "60 000 + 4 000 + 200",
+          "64 200"
+        ],
+        [
+          "50 000 + 5 000 + 50",
+          "55 050"
+        ],
+        [
+          "70 000 + 700 + 7",
+          "70 707"
+        ],
+        [
+          "40 000 + 4 000 + 40 + 4",
+          "44 044"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một cửa hàng buổi sáng bán được 1 250 kg gạo, buổi chiều bán được ít hơn buổi sáng 320 kg. Hỏi cả hai buổi cửa hàng bán được bao nhiêu ki-lô-gam gạo? Đáp số: 1250 + (1250 - 320) = ___ kg",
+      "answer": "2180",
+      "alternatives": ["2 180"],
+      "level": "M3",
+      "hint": "Tính số gạo buổi chiều trước rồi cộng với buổi sáng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một trường tiểu học có 8 lớp, mỗi lớp có 35 học sinh. Hỏi cả trường có bao nhiêu học sinh? (lấy 8 × 35)",
+      "options": [
+        "270 học sinh",
+        "280 học sinh",
+        "290 học sinh",
+        "315 học sinh"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Số học sinh cả trường = số lớp nhân số học sinh mỗi lớp"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 945 quyển vở chia đều vào 7 thùng. Hỏi mỗi thùng có bao nhiêu quyển vở? Đáp số: 945 : 7 = ___ quyển",
+      "answer": "135",
+      "level": "M3",
+      "hint": "Chia đều nghĩa là lấy tổng số chia cho số thùng"
+    }
+  ]
+}

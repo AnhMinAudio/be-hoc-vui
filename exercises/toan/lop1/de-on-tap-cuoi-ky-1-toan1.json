@@ -1,0 +1,171 @@
+{
+  "id": "toan-l1-on-tap-cuoi-ky-1",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Ôn tập cuối học kỳ 1 — Toán 1",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 7 đọc là gì?",
+      "options": [
+        "Năm",
+        "Sáu",
+        "Bảy",
+        "Tám"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đếm: 🍎 🍎 🍎 🍎. Có mấy quả táo?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Em chỉ tay vào từng quả và đếm nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 8 là ___",
+      "answer": "9",
+      "alternatives": [
+        "chín"
+      ],
+      "level": "M1",
+      "hint": "Đếm thêm 1 đơn vị nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn hơn: 8 hay 5?",
+      "options": [
+        "8",
+        "5",
+        "Bằng nhau",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2 + 5 = ___",
+      "answer": "7",
+      "level": "M1",
+      "hint": "Đếm thêm 5 từ số 2 nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9 - 2 = ___",
+      "answer": "7",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "5 + ___ = 8",
+      "answer": "3",
+      "level": "M2",
+      "hint": "8 trừ 5 bằng mấy?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 6 ... 9",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Số nào đứng trước khi đếm thì bé hơn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "10 - 4 = ___",
+      "answer": "6",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2 + 3 + 1 = ___",
+      "answer": "6",
+      "level": "M2",
+      "hint": "Cộng hai số đầu trước, rồi cộng tiếp số còn lại."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sắp xếp các số 4, 9, 2 theo thứ tự từ bé đến lớn:",
+      "options": [
+        "2, 4, 9",
+        "4, 2, 9",
+        "9, 4, 2",
+        "2, 9, 4"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        [
+          "4 + 5",
+          "9"
+        ],
+        [
+          "8 - 6",
+          "2"
+        ],
+        [
+          "3 + 3",
+          "6"
+        ],
+        [
+          "10 - 6",
+          "4"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Na có 5 viên kẹo, mẹ cho thêm 3 viên nữa. Hỏi bạn Na có tất cả bao nhiêu viên kẹo?",
+      "options": [
+        "2 viên",
+        "7 viên",
+        "8 viên",
+        "9 viên"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Muốn biết có tất cả, em làm phép cộng: 5 + 3."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trên cây có 9 chú chim, có 4 chú chim bay đi. Hỏi trên cây còn lại mấy chú chim? Trả lời: còn ___ chú chim. (9 - 4 = ?)",
+      "answer": "5",
+      "level": "M3",
+      "hint": "Bay đi thì bớt đi, em làm phép trừ nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Em đứng quay mặt vào bảng. Cô giáo đứng ở trước mặt em, còn cửa ra vào ở sau lưng em. Vậy bảng ở phía nào của em?",
+      "options": [
+        "Phía sau",
+        "Phía trước",
+        "Bên trái",
+        "Bên phải"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Em đang nhìn vào bảng, nên bảng ở ngay trước mặt."
+    }
+  ]
+}

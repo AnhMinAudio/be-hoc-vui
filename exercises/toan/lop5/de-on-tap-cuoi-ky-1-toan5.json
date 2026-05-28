@@ -1,0 +1,202 @@
+{
+  "id": "toan-l5-on-tap-cuoi-ky-1",
+  "subject": "toan",
+  "grade": 5,
+  "topic": "Ôn tập cuối học kỳ 1 — Toán 5",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số thập phân 12,07 đọc là gì?",
+      "options": [
+        "Mười hai phẩy bảy",
+        "Mười hai phẩy không bảy",
+        "Mười hai phẩy bảy mươi",
+        "Một trăm hai mươi phẩy bảy"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Đọc phần nguyên, rồi 'phẩy', rồi từng chữ số phần thập phân"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết phân số 7/10 dưới dạng số thập phân: ___",
+      "answer": "0,7",
+      "alternatives": ["0.7"],
+      "level": "M1",
+      "hint": "Mẫu số là 10 nên phần thập phân có một chữ số"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn nhất trong các số sau?",
+      "options": [
+        "0,9",
+        "0,89",
+        "0,901",
+        "0,899"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "So sánh lần lượt phần nguyên rồi từng hàng phần thập phân"
+    },
+    {
+      "type": "fill-blank",
+      "question": "6,84 + 2,57 = ___",
+      "answer": "9,41",
+      "alternatives": ["9.41"],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "15,3 - 7,68 = ___",
+      "answer": "7,62",
+      "alternatives": ["7.62"],
+      "level": "M2",
+      "hint": "Viết 15,30 rồi trừ theo cột cho thẳng dấu phẩy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "4,2 × 3 = ?",
+      "options": [
+        "12,6",
+        "126",
+        "1,26",
+        "12,2"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9,6 : 4 = ___",
+      "answer": "2,4",
+      "alternatives": ["2.4"],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "8,7 × 0,6 = ___",
+      "answer": "5,22",
+      "alternatives": ["5.22"],
+      "level": "M2",
+      "hint": "Nhân như số tự nhiên rồi đếm tổng số chữ số phần thập phân của hai thừa số"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số nào dưới đây bằng phân số 3/4?",
+      "options": [
+        "6/8",
+        "4/5",
+        "3/5",
+        "9/16"
+      ],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Nhân cả tử và mẫu với cùng một số"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Rút gọn phân số 12/18 ta được phân số tối giản ___ (viết dạng a/b)",
+      "answer": "2/3",
+      "level": "M2",
+      "hint": "Chia cả tử và mẫu cho 6"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phân số (hoặc hỗn số) với số thập phân bằng nó",
+      "pairs": [
+        [
+          "1/2",
+          "0,5"
+        ],
+        [
+          "3/4",
+          "0,75"
+        ],
+        [
+          "1/5",
+          "0,2"
+        ],
+        [
+          "9/100",
+          "0,09"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối đơn vị đo diện tích với giá trị tương ứng",
+      "pairs": [
+        [
+          "1 km²",
+          "1 000 000 m²"
+        ],
+        [
+          "1 ha",
+          "10 000 m²"
+        ],
+        [
+          "1 m²",
+          "100 dm²"
+        ],
+        [
+          "1 dm²",
+          "100 cm²"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đổi 0,25 m ra xăng-ti-mét được bao nhiêu?",
+      "options": [
+        "2,5 cm",
+        "25 cm",
+        "250 cm",
+        "0,25 cm"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "1 m = 100 cm"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết số đo 3 m 7 dm dưới dạng số thập phân có đơn vị mét: ___ m",
+      "answer": "3,7",
+      "alternatives": ["3.7"],
+      "level": "M2",
+      "hint": "7 dm = 0,7 m"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mẹ mua 3,5 kg gạo, mỗi ki-lô-gam giá 18 000 đồng. Hỏi mẹ phải trả bao nhiêu tiền? Đáp số: 3,5 × 18000 = ___ đồng",
+      "answer": "63000",
+      "alternatives": ["63 000"],
+      "level": "M3",
+      "hint": "Số tiền = số ki-lô-gam nhân giá mỗi ki-lô-gam"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một sợi dây dài 9,6 m được cắt thành 8 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu mét? Đáp số: 9,6 : 8 = ___ m",
+      "answer": "1,2",
+      "alternatives": ["1.2"],
+      "level": "M3",
+      "hint": "Lấy độ dài cả sợi dây chia cho số đoạn"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một mảnh vườn hình chữ nhật có chiều dài 12,5 m và chiều rộng 8 m. Diện tích mảnh vườn là bao nhiêu? (lấy dài × rộng)",
+      "options": [
+        "100 m²",
+        "20,5 m²",
+        "41 m²",
+        "1000 m²"
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Diện tích hình chữ nhật = chiều dài nhân chiều rộng"
+    }
+  ]
+}
