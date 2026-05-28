@@ -54,6 +54,74 @@
       "question": "Write 'con mèo' in English (Viết 'con mèo' bằng tiếng Anh): ___",
       "answer": "cat",
       "alternatives": ["Cat", "CAT"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái cặp'? (Cái cặp sách tiếng Anh là gì?)",
+      "options": ["bag", "ruler", "pen", "desk"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'grandmother' mean? (Từ 'grandmother' nghĩa là gì?)",
+      "options": ["bà", "ông", "dì", "chú"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'con chim' in English (Viết 'con chim' bằng tiếng Anh): ___",
+      "answer": "bird",
+      "alternatives": ["Bird", "BIRD"]
+    },
+    {
+      "type": "matching",
+      "question": "Match the school object with its meaning (Nối đồ dùng học tập với nghĩa)",
+      "pairs": [
+        ["pen", "cái bút mực"],
+        ["ruler", "cái thước"],
+        ["eraser", "cục tẩy"],
+        ["desk", "cái bàn"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'con cá'? (Con cá tiếng Anh là gì?)",
+      "options": ["fish", "frog", "duck", "cow"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'bố' in English (Viết 'bố' bằng tiếng Anh): ___",
+      "answer": "father",
+      "alternatives": ["Father", "FATHER", "dad", "Dad"]
+    },
+    {
+      "type": "matching",
+      "question": "Match the animal with its Vietnamese meaning (Nối con vật với nghĩa tiếng Việt)",
+      "pairs": [
+        ["duck", "con vịt"],
+        ["cow", "con bò"],
+        ["pig", "con lợn"],
+        ["hen", "con gà mái"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'sister' mean? (Từ 'sister' nghĩa là gì?)",
+      "options": ["chị/em gái", "anh/em trai", "mẹ", "bà"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái thước'? (Cái thước kẻ tiếng Anh là gì?)",
+      "options": ["ruler", "book", "pencil", "bag"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'mẹ' in English (Viết 'mẹ' bằng tiếng Anh): ___",
+      "answer": "mother",
+      "alternatives": ["Mother", "MOTHER", "mom", "Mom"]
     }
   ]
 }

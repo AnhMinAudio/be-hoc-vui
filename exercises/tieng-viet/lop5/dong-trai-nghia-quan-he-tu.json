@@ -50,6 +50,81 @@
       "question": "Tìm một từ đồng nghĩa với 'dũng cảm': ___",
       "answer": "gan dạ",
       "alternatives": ["can đảm", "gan góc", "anh dũng", "dũng mãnh"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với 'rộng lớn'?",
+      "options": ["chật hẹp", "bao la", "nhỏ nhắn", "tối tăm"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào trái nghĩa với 'chiến tranh'?",
+      "options": ["hòa bình", "xung đột", "loạn lạc", "binh lửa"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền cặp quan hệ từ chỉ nguyên nhân - kết quả: ___ trời mưa to nên đường ngập nước.",
+      "answer": "vì",
+      "alternatives": ["bởi vì", "do", "bởi"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ trái nghĩa của nó",
+      "pairs": [
+        ["chăm chỉ", "lười biếng"],
+        ["dũng cảm", "hèn nhát"],
+        ["thật thà", "gian dối"],
+        ["khiêm tốn", "kiêu căng"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Hoa và Lan là đôi bạn thân', từ 'và' nối hai từ ngữ nào?",
+      "options": ["hai động từ", "hai danh từ", "hai tính từ", "hai đại từ"],
+      "answer": 1,
+      "hint": "'Hoa' và 'Lan' đều chỉ người"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trong câu 'Em rất yêu mẹ vì mẹ chăm sóc em', từ 'em' lặp lại có thể thay bằng đại từ nào ở vế sau? ___",
+      "answer": "mình",
+      "alternatives": ["bản thân"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối quan hệ từ với ý nghĩa mà nó biểu thị",
+      "pairs": [
+        ["vì... nên...", "nguyên nhân - kết quả"],
+        ["tuy... nhưng...", "tương phản"],
+        ["nếu... thì...", "điều kiện - kết quả"],
+        ["không những... mà còn...", "tăng tiến"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cặp quan hệ từ nào biểu thị quan hệ tương phản (nhượng bộ)?",
+      "options": ["vì... nên...", "tuy... nhưng...", "nếu... thì...", "do... mà..."],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền đại từ thích hợp: Các bạn học sinh chăm ngoan, ___ luôn vâng lời thầy cô.",
+      "answer": "các bạn ấy",
+      "alternatives": ["họ", "chúng"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với 'chăm chú'?",
+      "options": ["lơ đãng", "tập trung", "lười nhác", "vội vàng"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm một từ trái nghĩa với 'cần cù': ___",
+      "answer": "lười biếng",
+      "alternatives": ["lười nhác", "biếng nhác", "lười"]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T05:53:34.932Z",
+  "generatedAt": "2026-05-28T06:06:01.327Z",
   "exercises": [
     {
       "id": "ta-l1-colors-and-numbers",
@@ -7,7 +7,7 @@
       "grade": 1,
       "topic": "Colors & Numbers (Màu sắc và số đếm)",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "tieng-anh/lop1/colors-and-numbers.json"
     },
     {
@@ -16,7 +16,7 @@
       "grade": 2,
       "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
       "difficulty": 1,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "tieng-anh/lop2/animals-family-school.json"
     },
     {
@@ -25,7 +25,7 @@
       "grade": 3,
       "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
       "difficulty": 2,
-      "questionCount": 7,
+      "questionCount": 16,
       "path": "tieng-anh/lop3/numbers-and-days.json"
     },
     {
@@ -34,7 +34,7 @@
       "grade": 4,
       "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
       "difficulty": 2,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "tieng-anh/lop4/jobs-and-hobbies.json"
     },
     {
@@ -43,7 +43,7 @@
       "grade": 5,
       "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
       "difficulty": 3,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
     },
     {
@@ -52,7 +52,7 @@
       "grade": 1,
       "topic": "Chữ cái và âm",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
     },
     {
@@ -61,7 +61,7 @@
       "grade": 2,
       "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
       "difficulty": 1,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "tieng-viet/lop2/tu-loai-va-cau.json"
     },
     {
@@ -70,7 +70,7 @@
       "grade": 3,
       "topic": "Từ chỉ đặc điểm và hình ảnh so sánh",
       "difficulty": 2,
-      "questionCount": 6,
+      "questionCount": 17,
       "path": "tieng-viet/lop3/tu-loai-va-so-sanh.json"
     },
     {
@@ -79,7 +79,7 @@
       "grade": 4,
       "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
       "difficulty": 2,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
     },
     {
@@ -88,7 +88,7 @@
       "grade": 5,
       "topic": "Từ đồng nghĩa, trái nghĩa, quan hệ từ và đại từ",
       "difficulty": 3,
-      "questionCount": 7,
+      "questionCount": 18,
       "path": "tieng-viet/lop5/dong-trai-nghia-quan-he-tu.json"
     },
     {
@@ -97,7 +97,7 @@
       "grade": 1,
       "topic": "Phép cộng trong phạm vi 10",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 16,
       "path": "toan/lop1/phep-cong-trong-10.json"
     },
     {
@@ -106,7 +106,7 @@
       "grade": 2,
       "topic": "Bảng chia 2 và bảng chia 3",
       "difficulty": 2,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop2/bang-chia-2-va-3.json"
     },
     {
@@ -115,7 +115,7 @@
       "grade": 2,
       "topic": "Bảng chia 4 và bảng chia 5",
       "difficulty": 2,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop2/bang-chia-4-va-5.json"
     },
     {
@@ -124,7 +124,7 @@
       "grade": 2,
       "topic": "Bảng nhân 2 và bảng nhân 3",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop2/bang-nhan-2-va-3.json"
     },
     {
@@ -133,7 +133,7 @@
       "grade": 2,
       "topic": "Bảng nhân 4 và bảng nhân 5",
       "difficulty": 2,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop2/bang-nhan-4-va-5.json"
     },
     {
@@ -142,7 +142,7 @@
       "grade": 2,
       "topic": "Cộng trừ trong 100 và bảng nhân",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 16,
       "path": "toan/lop2/cong-tru-va-bang-nhan.json"
     },
     {
@@ -151,7 +151,7 @@
       "grade": 2,
       "topic": "Đơn vị đo độ dài (cm, dm, m)",
       "difficulty": 2,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "toan/lop2/don-vi-do-do-dai.json"
     },
     {
@@ -160,7 +160,7 @@
       "grade": 2,
       "topic": "Giải toán có lời văn (nhiều hơn, ít hơn)",
       "difficulty": 2,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "toan/lop2/toan-co-loi-van.json"
     },
     {
@@ -169,7 +169,7 @@
       "grade": 2,
       "topic": "Phép cộng có nhớ trong phạm vi 100",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 16,
       "path": "toan/lop2/cong-co-nho-trong-100.json"
     },
     {
@@ -178,7 +178,7 @@
       "grade": 2,
       "topic": "Phép trừ có nhớ trong phạm vi 100",
       "difficulty": 1,
-      "questionCount": 8,
+      "questionCount": 16,
       "path": "toan/lop2/tru-co-nho-trong-100.json"
     },
     {
@@ -187,7 +187,7 @@
       "grade": 2,
       "topic": "Số có ba chữ số (đọc, viết, so sánh)",
       "difficulty": 2,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop2/so-co-ba-chu-so.json"
     },
     {
@@ -196,7 +196,7 @@
       "grade": 2,
       "topic": "Xem đồng hồ và đơn vị thời gian",
       "difficulty": 2,
-      "questionCount": 7,
+      "questionCount": 17,
       "path": "toan/lop2/xem-dong-ho.json"
     },
     {
@@ -205,7 +205,7 @@
       "grade": 3,
       "topic": "Nhân chia trong bảng và phép tính trong 1000",
       "difficulty": 2,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop3/nhan-chia-trong-bang.json"
     },
     {
@@ -214,7 +214,7 @@
       "grade": 4,
       "topic": "Số lớn, phân số và hình học",
       "difficulty": 2,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
     },
     {
@@ -223,7 +223,7 @@
       "grade": 5,
       "topic": "Số thập phân, phần trăm và diện tích",
       "difficulty": 3,
-      "questionCount": 8,
+      "questionCount": 17,
       "path": "toan/lop5/thap-phan-phan-tram-dien-tich.json"
     }
   ]

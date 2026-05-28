@@ -12,6 +12,14 @@
     { "type": "multiple-choice", "question": "56 + 28 = ?", "options": ["74", "84", "86", "83"], "answer": 1 },
     { "type": "matching", "question": "Nối phép cộng với kết quả", "pairs": [["8 + 9", "17"], ["7 + 6", "13"], ["9 + 9", "18"], ["6 + 8", "14"]] },
     { "type": "fill-blank", "question": "44 + ___ = 50", "answer": "6", "hint": "50 trừ 44 bằng mấy?" },
-    { "type": "multiple-choice", "question": "Lớp 2A có 23 bạn, lớp 2B có 28 bạn. Hỏi cả hai lớp có tất cả bao nhiêu bạn?", "options": ["41 bạn", "50 bạn", "51 bạn", "52 bạn"], "answer": 2, "hint": "Lấy 23 cộng 28" }
+    { "type": "multiple-choice", "question": "Lớp 2A có 23 bạn, lớp 2B có 28 bạn. Hỏi cả hai lớp có tất cả bao nhiêu bạn?", "options": ["41 bạn", "50 bạn", "51 bạn", "52 bạn"], "answer": 2, "hint": "Lấy 23 cộng 28" },
+    { "type": "multiple-choice", "question": "38 + 47 = ?", "options": ["75", "85", "84", "86"], "answer": 1 },
+    { "type": "multiple-choice", "question": "29 + 36 = ?", "options": ["55", "65", "66", "64"], "answer": 1 },
+    { "type": "fill-blank", "question": "57 + 25 = ___", "answer": "82" },
+    { "type": "fill-blank", "question": "46 + 38 = ___", "answer": "84" },
+    { "type": "matching", "question": "Bạn hãy nối phép cộng có nhớ với kết quả đúng nhé", "pairs": [["17 + 14", "31"], ["28 + 13", "41"], ["35 + 26", "61"], ["49 + 22", "71"], ["18 + 33", "51"]] },
+    { "type": "fill-blank", "question": "67 + ___ = 80", "answer": "13", "hint": "80 trừ 67 bằng mấy?" },
+    { "type": "multiple-choice", "question": "Một cửa hàng buổi sáng bán 45 cái bánh, buổi chiều bán 39 cái. Hỏi cả ngày cửa hàng bán bao nhiêu cái bánh?", "options": ["74 cái", "84 cái", "85 cái", "83 cái"], "answer": 1, "hint": "Lấy 45 cộng 39" },
+    { "type": "multiple-choice", "question": "63 + 18 = ?", "options": ["71", "81", "82", "80"], "answer": 1 }
   ]
 }

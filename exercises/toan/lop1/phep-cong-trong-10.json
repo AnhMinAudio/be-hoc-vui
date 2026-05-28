@@ -57,6 +57,60 @@
       "options": ["2+3", "1+4", "4+5", "3+3"],
       "answer": 2,
       "hint": "Tính từng phép rồi so sánh nhé"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 + 8 = ?",
+      "options": ["7", "8", "9", "10"],
+      "answer": 2,
+      "hint": "Đếm thêm 8 sau số 1 nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "6 + 3 = ?",
+      "options": ["8", "9", "10", "7"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "3 + 4 = ___",
+      "answer": "7"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2 + ___ = 8",
+      "answer": "6",
+      "hint": "8 trừ 2 bằng mấy?"
+    },
+    {
+      "type": "matching",
+      "question": "Bạn hãy nối phép cộng với kết quả đúng nhé",
+      "pairs": [
+        ["0 + 5", "5"],
+        ["3 + 3", "6"],
+        ["1 + 1", "2"],
+        ["4 + 5", "9"],
+        ["3 + 1", "4"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong vườn có 5 con gà và 4 con vịt. Hỏi có tất cả bao nhiêu con?",
+      "options": ["8 con", "9 con", "10 con", "7 con"],
+      "answer": 1,
+      "hint": "Lấy 5 cộng với 4"
+    },
+    {
+      "type": "fill-blank",
+      "question": "0 + 7 = ___",
+      "answer": "7",
+      "hint": "Cộng với 0 thì kết quả không đổi nhé"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "5 + 4 = ?",
+      "options": ["8", "9", "10", "7"],
+      "answer": 1
     }
   ]
 }

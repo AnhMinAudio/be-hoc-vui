@@ -12,6 +12,14 @@
     { "type": "multiple-choice", "question": "64 - 38 = ?", "options": ["26", "36", "24", "34"], "answer": 0 },
     { "type": "matching", "question": "Nối phép trừ với kết quả", "pairs": [["14 - 6", "8"], ["13 - 4", "9"], ["16 - 9", "7"], ["11 - 5", "6"]] },
     { "type": "fill-blank", "question": "50 - ___ = 23", "answer": "27", "hint": "50 trừ 23 bằng mấy?" },
-    { "type": "multiple-choice", "question": "Mẹ có 45 quả cam, mẹ cho đi 18 quả. Hỏi mẹ còn lại bao nhiêu quả cam?", "options": ["27 quả", "37 quả", "26 quả", "23 quả"], "answer": 0, "hint": "Lấy 45 trừ 18" }
+    { "type": "multiple-choice", "question": "Mẹ có 45 quả cam, mẹ cho đi 18 quả. Hỏi mẹ còn lại bao nhiêu quả cam?", "options": ["27 quả", "37 quả", "26 quả", "23 quả"], "answer": 0, "hint": "Lấy 45 trừ 18" },
+    { "type": "multiple-choice", "question": "81 - 36 = ?", "options": ["55", "45", "44", "46"], "answer": 1 },
+    { "type": "multiple-choice", "question": "70 - 23 = ?", "options": ["57", "47", "46", "53"], "answer": 1 },
+    { "type": "fill-blank", "question": "85 - 49 = ___", "answer": "36" },
+    { "type": "fill-blank", "question": "62 - 27 = ___", "answer": "35" },
+    { "type": "matching", "question": "Bạn hãy nối phép trừ có nhớ với kết quả đúng nhé", "pairs": [["41 - 15", "26"], ["53 - 28", "25"], ["72 - 39", "33"], ["64 - 27", "37"], ["80 - 46", "34"]] },
+    { "type": "fill-blank", "question": "93 - ___ = 58", "answer": "35", "hint": "93 trừ 58 bằng mấy?" },
+    { "type": "multiple-choice", "question": "Trên cây có 54 con chim, có 26 con bay đi. Hỏi trên cây còn lại bao nhiêu con chim?", "options": ["28 con", "38 con", "27 con", "32 con"], "answer": 0, "hint": "Lấy 54 trừ 26" },
+    { "type": "multiple-choice", "question": "96 - 47 = ?", "options": ["59", "49", "48", "51"], "answer": 1 }
   ]
 }

@@ -60,6 +60,68 @@
         ["mả", "dấu hỏi"],
         ["mã", "dấu ngã"]
       ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào là nguyên âm?",
+      "options": ["b", "o", "t", "k"],
+      "answer": 1,
+      "hint": "Các nguyên âm là a, e, i, o, u..."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'ba' bắt đầu bằng âm nào?",
+      "options": ["b", "p", "đ", "v"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: con ___á (con vật bơi dưới nước)",
+      "answer": "c"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: quả ___am (quả màu cam, ăn rất ngọt)",
+      "answer": "c"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có dấu huyền?",
+      "options": ["lá", "là", "lạ", "lả"],
+      "answer": 1,
+      "hint": "Dấu huyền là dấu nghiêng xuống phía dưới"
+    },
+    {
+      "type": "matching",
+      "question": "Nối chữ cái với một tiếng bắt đầu bằng chữ đó",
+      "pairs": [
+        ["b", "bé"],
+        ["c", "cá"],
+        ["m", "mẹ"],
+        ["n", "nó"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu thanh để được tiếng 'cá': viết chữ 'ca' rồi thêm dấu ___",
+      "answer": "sắc"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào KHÔNG có dấu thanh?",
+      "options": ["bè", "ba", "bó", "bị"],
+      "answer": 1,
+      "hint": "Tiếng không dấu là tiếng đọc bằng giọng bình thường"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với màu sắc của đồ vật",
+      "pairs": [
+        ["lá cây", "màu xanh"],
+        ["quả cà chua", "màu đỏ"],
+        ["quả chuối", "màu vàng"],
+        ["bầu trời", "màu xanh da trời"]
+      ]
     }
   ]
 }

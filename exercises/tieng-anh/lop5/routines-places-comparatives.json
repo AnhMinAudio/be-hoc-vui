@@ -54,6 +54,76 @@
         ["have lunch", "ăn trưa"],
         ["go to bed", "đi ngủ"]
       ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the comparative form of 'happy'? (Dạng so sánh hơn của 'happy' là gì?)",
+      "options": ["happier", "happiest", "more happy", "happyer"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'Math is ___ difficult than English.' (Chọn từ đúng để điền vào chỗ trống)",
+      "options": ["more", "most", "much", "many"],
+      "answer": 0,
+      "hint": "Long adjectives use 'more' (Tính từ dài dùng 'more')"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write the comparative form of 'small' (Viết dạng so sánh hơn của 'small'): ___",
+      "answer": "smaller",
+      "alternatives": ["Smaller", "SMALLER"]
+    },
+    {
+      "type": "matching",
+      "question": "Match the place with its Vietnamese meaning (Nối địa điểm với nghĩa tiếng Việt)",
+      "pairs": [
+        ["library", "thư viện"],
+        ["zoo", "sở thú"],
+        ["cinema", "rạp chiếu phim"],
+        ["restaurant", "nhà hàng"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'I brush my teeth' mean? (Câu 'I brush my teeth' nghĩa là gì?)",
+      "options": ["Tôi đánh răng", "Tôi rửa mặt", "Tôi tắm", "Tôi chải tóc"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "What does 'have dinner' mean in Vietnamese? (Cụm 'have dinner' nghĩa tiếng Việt là gì?): ___",
+      "answer": "ăn tối",
+      "alternatives": ["ăn bữa tối"]
+    },
+    {
+      "type": "matching",
+      "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
+      "pairs": [
+        ["wake up", "tỉnh giấc"],
+        ["take a shower", "tắm vòi sen"],
+        ["do homework", "làm bài tập về nhà"],
+        ["watch TV", "xem ti vi"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the comparative form of 'good'? (Dạng so sánh hơn của 'good' là gì?)",
+      "options": ["gooder", "better", "best", "more good"],
+      "answer": 1,
+      "hint": "'Good' is irregular ('Good' là bất quy tắc)"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Complete the sentence: 'A train is ___ (fast) than a bike.' (Hoàn thành câu với dạng so sánh hơn của 'fast'): ___",
+      "answer": "faster",
+      "alternatives": ["Faster", "FASTER"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What place is a 'post office'? ('Post office' là nơi nào?)",
+      "options": ["bưu điện", "ngân hàng", "sân bay", "khách sạn"],
+      "answer": 0
     }
   ]
 }

@@ -11,6 +11,16 @@
     { "type": "fill-blank", "question": "1 m = ___ dm", "answer": "10" },
     { "type": "matching", "question": "Nối hai cách viết cùng một độ dài", "pairs": [["1 dm", "10 cm"], ["1 m", "100 cm"], ["2 dm", "20 cm"], ["5 dm", "50 cm"]] },
     { "type": "multiple-choice", "question": "Cái bút chì dài khoảng bao nhiêu?", "options": ["15 cm", "15 m", "15 dm", "15 km"], "answer": 0 },
-    { "type": "multiple-choice", "question": "Độ dài nào lớn hơn: 1 m hay 90 cm?", "options": ["1 m", "90 cm", "Bằng nhau", "Không so sánh được"], "answer": 0, "hint": "Đổi 1 m ra cm rồi so sánh" }
+    { "type": "multiple-choice", "question": "Độ dài nào lớn hơn: 1 m hay 90 cm?", "options": ["1 m", "90 cm", "Bằng nhau", "Không so sánh được"], "answer": 0, "hint": "Đổi 1 m ra cm rồi so sánh" },
+    { "type": "fill-blank", "question": "Tính: 30 cm + 25 cm = ___ cm", "answer": "55" },
+    { "type": "fill-blank", "question": "Tính: 48 cm - 16 cm = ___ cm", "answer": "32" },
+    { "type": "fill-blank", "question": "2 m = ___ cm", "answer": "200", "hint": "1 m = 100 cm" },
+    { "type": "multiple-choice", "question": "3 dm bằng bao nhiêu xăng-ti-mét?", "options": ["3 cm", "13 cm", "30 cm", "300 cm"], "answer": 2 },
+    { "type": "multiple-choice", "question": "Độ dài nào bé hơn: 50 cm hay 4 dm?", "options": ["50 cm", "4 dm", "Bằng nhau", "Không so sánh được"], "answer": 1, "hint": "4 dm = 40 cm" },
+    { "type": "matching", "question": "Nối đồ vật với độ dài hợp lí", "pairs": [["Cái thước kẻ", "20 cm"], ["Cái bảng lớp", "2 m"], ["Cục tẩy", "4 cm"], ["Bàn học", "1 m"]] },
+    { "type": "fill-blank", "question": "Sợi dây thứ nhất dài 35 cm, sợi dây thứ hai dài 27 cm. Cả hai sợi dài ___ cm.", "answer": "62" },
+    { "type": "multiple-choice", "question": "Băng giấy dài 90 cm, cắt đi 40 cm. Băng giấy còn lại dài bao nhiêu?", "options": ["130 cm", "50 cm", "40 cm", "60 cm"], "answer": 1, "hint": "Lấy 90 trừ 40" },
+    { "type": "fill-blank", "question": "5 dm = ___ cm", "answer": "50" },
+    { "type": "multiple-choice", "question": "Quãng đường từ nhà đến trường nên đo bằng đơn vị nào?", "options": ["cm", "dm", "m", "không đo được"], "answer": 2 }
   ]
 }

@@ -54,6 +54,60 @@
       "options": ["20 cái", "24 cái", "18 cái", "30 cái"],
       "answer": 1,
       "hint": "Lấy 6 nhân 4"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9 × 7 = ___",
+      "answer": "63"
+    },
+    {
+      "type": "fill-blank",
+      "question": "72 : 8 = ___",
+      "answer": "9"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "8 × 9 = ?",
+      "options": ["72", "64", "81", "63"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "56 : 7 = ?",
+      "options": ["6", "7", "8", "9"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "346 + 215 = ___",
+      "answer": "561"
+    },
+    {
+      "type": "fill-blank",
+      "question": "720 - 480 = ___",
+      "answer": "240"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép chia với kết quả",
+      "pairs": [
+        ["48 : 6", "8"],
+        ["54 : 9", "6"],
+        ["42 : 7", "6"],
+        ["81 : 9", "9"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có 35 cái kẹo chia đều cho 7 bạn. Hỏi mỗi bạn được bao nhiêu cái kẹo?",
+      "options": ["4 cái", "5 cái", "6 cái", "7 cái"],
+      "answer": 1,
+      "hint": "Lấy 35 chia cho 7"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mỗi xe chở được 8 bao gạo. Hỏi 6 xe như thế chở được bao nhiêu bao gạo? Trả lời: 8 × 6 = ___",
+      "answer": "48"
     }
   ]
 }

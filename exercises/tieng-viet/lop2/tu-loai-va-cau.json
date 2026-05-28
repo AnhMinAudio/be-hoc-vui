@@ -48,6 +48,73 @@
       "type": "fill-blank",
       "question": "Điền từ còn thiếu: Mặt trời mọc ở hướng ___ (trái với hướng tây)",
       "answer": "đông"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": ["nhảy", "vui vẻ", "quyển sách", "hát"],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": ["chiếc lá", "nấu cơm", "tươi tốt", "ngôi nhà"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ trái nghĩa với 'nhanh': Con rùa bò rất ___",
+      "answer": "chậm"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với nhóm từ loại đúng",
+      "pairs": [
+        ["con gà", "chỉ sự vật"],
+        ["chạy nhảy", "chỉ hoạt động"],
+        ["xinh đẹp", "chỉ đặc điểm"],
+        ["bơi lội", "chỉ hoạt động dưới nước"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào nói về đặc điểm của sự vật?",
+      "options": ["Bé đang chạy.", "Bông hoa rất thơm.", "Mẹ nấu cơm.", "Gà gáy."],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ trái nghĩa với 'to': Con kiến rất ___",
+      "answer": "nhỏ",
+      "alternatives": ["bé"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đặc điểm về màu sắc?",
+      "options": ["chạy", "xanh", "bàn", "ăn"],
+      "answer": 1
+    },
+    {
+      "type": "matching",
+      "question": "Nối con vật với nơi nó sống",
+      "pairs": [
+        ["con cá", "dưới nước"],
+        ["con chim", "trên cây"],
+        ["con trâu", "trên đồng ruộng"],
+        ["con khỉ", "trong rừng"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ chỉ hoạt động: Buổi sáng, chú gà trống ___ ò ó o.",
+      "answer": "gáy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Cô giáo là người dạy em học' thuộc kiểu câu nào?",
+      "options": ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Ở đâu?"],
+      "answer": 2,
+      "hint": "Câu có từ 'là' để giới thiệu"
     }
   ]
 }

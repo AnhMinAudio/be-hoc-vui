@@ -12,6 +12,15 @@
     { "type": "multiple-choice", "question": "Số nào lớn nhất?", "options": ["456", "465", "399", "500"], "answer": 3 },
     { "type": "matching", "question": "Nối số với cách đọc", "pairs": [["100", "Một trăm"], ["250", "Hai trăm năm mươi"], ["999", "Chín trăm chín mươi chín"], ["410", "Bốn trăm mười"]] },
     { "type": "multiple-choice", "question": "Số 608 gồm:", "options": ["6 trăm, 0 chục, 8 đơn vị", "6 trăm, 8 chục, 0 đơn vị", "60 trăm, 8 đơn vị", "6 trăm, 8 đơn vị"], "answer": 0 },
-    { "type": "fill-blank", "question": "300 + 50 + 7 = ___", "answer": "357" }
+    { "type": "fill-blank", "question": "300 + 50 + 7 = ___", "answer": "357" },
+    { "type": "fill-blank", "question": "Số liền sau của 349 là ___", "answer": "350" },
+    { "type": "fill-blank", "question": "Số liền trước của 800 là ___", "answer": "799" },
+    { "type": "multiple-choice", "question": "Số 'năm trăm hai mươi' viết là?", "options": ["502", "520", "512", "5200"], "answer": 1 },
+    { "type": "multiple-choice", "question": "Số nào bé nhất?", "options": ["723", "732", "699", "700"], "answer": 2 },
+    { "type": "fill-blank", "question": "400 + 80 + 6 = ___", "answer": "486" },
+    { "type": "multiple-choice", "question": "Số 470 gồm:", "options": ["4 trăm, 7 chục, 0 đơn vị", "4 trăm, 0 chục, 7 đơn vị", "47 trăm, 0 đơn vị", "4 trăm, 7 đơn vị"], "answer": 0 },
+    { "type": "matching", "question": "Nối số với tổng các hàng", "pairs": [["315", "300 + 10 + 5"], ["240", "200 + 40"], ["506", "500 + 6"], ["189", "100 + 80 + 9"]] },
+    { "type": "fill-blank", "question": "Điền dấu thích hợp (dùng > , < hoặc =): 678 ___ 687", "answer": "<", "hint": "So sánh hàng chục" },
+    { "type": "multiple-choice", "question": "Sắp xếp các số 254, 245, 524 theo thứ tự từ bé đến lớn:", "options": ["245, 254, 524", "254, 245, 524", "524, 254, 245", "245, 524, 254"], "answer": 0 }
   ]
 }

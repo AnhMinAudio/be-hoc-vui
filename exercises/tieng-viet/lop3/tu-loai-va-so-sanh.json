@@ -44,6 +44,80 @@
       "question": "Câu nào dùng dấu phẩy đúng?",
       "options": ["Em thích, táo cam và xoài.", "Em thích táo, cam và xoài.", "Em, thích táo cam xoài.", "Em thích táo cam, và xoài."],
       "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Mắt bé sáng như sao', sự vật nào được dùng để so sánh?",
+      "options": ["mắt bé", "sao", "sáng", "bé"],
+      "answer": 1,
+      "hint": "Tìm hình ảnh đứng sau từ 'như'"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ so sánh còn thiếu: Cô bé đẹp ___ hoa.",
+      "answer": "như",
+      "alternatives": ["tựa", "tựa như"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ chỉ đặc điểm?",
+      "options": ["chạy", "ngôi nhà", "tròn trịa", "học"],
+      "answer": 2
+    },
+    {
+      "type": "matching",
+      "question": "Nối sự vật với đặc điểm thường thấy của nó",
+      "pairs": [
+        ["mặt trời", "đỏ rực"],
+        ["dòng sông", "êm đềm"],
+        ["bầu trời", "trong xanh"],
+        ["bông hoa", "thơm ngát"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cuối câu kể (câu trần thuật) ta dùng dấu gì?",
+      "options": ["dấu chấm", "dấu hỏi", "dấu chấm than", "dấu phẩy"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu đúng cuối câu hỏi: Bạn tên là gì ___",
+      "answer": "?",
+      "alternatives": ["dấu hỏi", "dấu chấm hỏi"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào là câu cảm (bộc lộ cảm xúc)?",
+      "options": ["Hôm nay trời đẹp quá!", "Em đi học.", "Bạn có khỏe không?", "Mẹ nấu cơm."],
+      "answer": 0,
+      "hint": "Câu cảm thường kết thúc bằng dấu chấm than"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ trái nghĩa với 'sáng': Buổi tối trời rất ___",
+      "answer": "tối"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với loại dấu câu nên đặt ở cuối",
+      "pairs": [
+        ["Bạn học lớp mấy", "dấu chấm hỏi"],
+        ["Em yêu trường em", "dấu chấm"],
+        ["Ôi, đẹp quá", "dấu chấm than"],
+        ["Bạn đã ăn cơm chưa", "dấu chấm hỏi"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào dưới đây chỉ đặc điểm về tính nết của người?",
+      "options": ["cao", "hiền lành", "đỏ", "to"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm từ chỉ đặc điểm trong câu 'Dòng suối chảy róc rách': ___",
+      "answer": "róc rách"
     }
   ]
 }

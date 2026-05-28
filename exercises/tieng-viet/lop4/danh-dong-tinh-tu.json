@@ -48,6 +48,76 @@
       "question": "Từ trái nghĩa với 'chăm chỉ' là ___",
       "answer": "lười biếng",
       "alternatives": ["lười"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ?",
+      "options": ["nhảy múa", "dòng sông", "vui vẻ", "đọc"],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ láy?",
+      "options": ["nhà cửa", "mặt mũi", "lấp lánh", "quần áo"],
+      "answer": 2,
+      "hint": "Từ láy có các tiếng lặp lại âm đầu hoặc vần"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ ghép?",
+      "options": ["xanh xao", "đo đỏ", "núi non", "thoang thoảng"],
+      "answer": 2,
+      "hint": "Từ ghép gồm các tiếng đều có nghĩa"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm động từ trong câu 'Chim hót líu lo trên cành cây': ___",
+      "answer": "hót"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm tính từ trong câu 'Bầu trời cao và xanh thẳm': ___",
+      "answer": "xanh thẳm",
+      "alternatives": ["cao", "xanh"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với loại từ ghép hay từ láy",
+      "pairs": [
+        ["xinh xắn", "từ láy"],
+        ["bàn ghế", "từ ghép"],
+        ["mênh mông", "từ láy"],
+        ["bánh kẹo", "từ ghép"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Mẹ em là cô giáo', từ 'cô giáo' là từ loại nào?",
+      "options": ["động từ", "tính từ", "danh từ", "quan hệ từ"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền một từ láy tả tiếng mưa rơi: Mưa rơi ___ suốt đêm.",
+      "answer": "tí tách",
+      "alternatives": ["rả rích", "lộp độp", "tí tí tách tách"]
+    },
+    {
+      "type": "matching",
+      "question": "Phân loại các từ sau",
+      "pairs": [
+        ["chạy nhảy", "động từ"],
+        ["dòng suối", "danh từ"],
+        ["thông minh", "tính từ"],
+        ["bay lượn", "động từ chỉ chim bay"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào KHÔNG phải là tính từ?",
+      "options": ["hiền lành", "to lớn", "học tập", "trắng tinh"],
+      "answer": 2,
+      "hint": "'học tập' chỉ hoạt động nên là động từ"
     }
   ]
 }

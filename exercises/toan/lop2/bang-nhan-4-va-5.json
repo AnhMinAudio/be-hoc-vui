@@ -12,6 +12,15 @@
     { "type": "matching", "question": "Nối phép nhân với kết quả", "pairs": [["4 × 3", "12"], ["5 × 4", "20"], ["4 × 7", "28"], ["5 × 6", "30"]] },
     { "type": "multiple-choice", "question": "5 × 5 = ?", "options": ["20", "25", "30", "15"], "answer": 1 },
     { "type": "fill-blank", "question": "4 × ___ = 20", "answer": "5", "hint": "4 nhân với mấy thì bằng 20?" },
-    { "type": "multiple-choice", "question": "Mỗi hộp có 5 cái bánh. Hỏi 4 hộp có tất cả bao nhiêu cái bánh?", "options": ["9 cái", "15 cái", "20 cái", "25 cái"], "answer": 2, "hint": "Lấy 5 nhân 4" }
+    { "type": "multiple-choice", "question": "Mỗi hộp có 5 cái bánh. Hỏi 4 hộp có tất cả bao nhiêu cái bánh?", "options": ["9 cái", "15 cái", "20 cái", "25 cái"], "answer": 2, "hint": "Lấy 5 nhân 4" },
+    { "type": "fill-blank", "question": "4 × 9 = ___", "answer": "36" },
+    { "type": "fill-blank", "question": "5 × 8 = ___", "answer": "40" },
+    { "type": "multiple-choice", "question": "4 × 4 = ?", "options": ["8", "12", "16", "20"], "answer": 2 },
+    { "type": "multiple-choice", "question": "5 × 10 = ?", "options": ["15", "40", "50", "55"], "answer": 2, "hint": "Lấy 5 nhân 10" },
+    { "type": "matching", "question": "Nối phép nhân với kết quả đúng nhé!", "pairs": [["4 × 5", "20"], ["5 × 3", "15"], ["4 × 10", "40"], ["5 × 9", "45"], ["4 × 6", "24"]] },
+    { "type": "fill-blank", "question": "5 × ___ = 35", "answer": "7", "hint": "5 nhân với mấy thì bằng 35?" },
+    { "type": "multiple-choice", "question": "4 × 2 = ?", "options": ["6", "8", "10", "12"], "answer": 1 },
+    { "type": "fill-blank", "question": "4 × 7 = ___", "answer": "28" },
+    { "type": "multiple-choice", "question": "Mỗi tuần có 5 ngày đi học. Hỏi 4 tuần có tất cả bao nhiêu ngày đi học?", "options": ["9 ngày", "16 ngày", "20 ngày", "25 ngày"], "answer": 2, "hint": "Lấy 5 nhân 4" }
   ]
 }

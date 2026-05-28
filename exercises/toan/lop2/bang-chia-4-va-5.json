@@ -12,6 +12,15 @@
     { "type": "matching", "question": "Nối phép chia với kết quả", "pairs": [["16 : 4", "4"], ["25 : 5", "5"], ["28 : 4", "7"], ["30 : 5", "6"]] },
     { "type": "multiple-choice", "question": "8 : 4 = ?", "options": ["2", "3", "4", "8"], "answer": 0 },
     { "type": "fill-blank", "question": "___ : 5 = 4", "answer": "20", "hint": "Số nào chia 5 được 4?" },
-    { "type": "multiple-choice", "question": "Có 20 quyển vở xếp đều vào 5 chồng. Hỏi mỗi chồng có mấy quyển?", "options": ["3 quyển", "4 quyển", "5 quyển", "10 quyển"], "answer": 1, "hint": "Lấy 20 chia 5" }
+    { "type": "multiple-choice", "question": "Có 20 quyển vở xếp đều vào 5 chồng. Hỏi mỗi chồng có mấy quyển?", "options": ["3 quyển", "4 quyển", "5 quyển", "10 quyển"], "answer": 1, "hint": "Lấy 20 chia 5" },
+    { "type": "fill-blank", "question": "36 : 4 = ___", "answer": "9" },
+    { "type": "fill-blank", "question": "5 : 5 = ___", "answer": "1" },
+    { "type": "multiple-choice", "question": "12 : 4 = ?", "options": ["2", "3", "4", "6"], "answer": 1 },
+    { "type": "multiple-choice", "question": "50 : 5 = ?", "options": ["5", "9", "10", "15"], "answer": 2, "hint": "Lấy 50 chia 5" },
+    { "type": "matching", "question": "Nối phép chia với kết quả đúng nhé!", "pairs": [["32 : 4", "8"], ["15 : 5", "3"], ["4 : 4", "1"], ["20 : 5", "4"], ["40 : 4", "10"]] },
+    { "type": "fill-blank", "question": "___ : 4 = 5", "answer": "20", "hint": "Số nào chia 4 được 5?" },
+    { "type": "multiple-choice", "question": "10 : 5 = ?", "options": ["1", "2", "3", "5"], "answer": 1 },
+    { "type": "fill-blank", "question": "28 : 4 = ___", "answer": "7" },
+    { "type": "multiple-choice", "question": "Có 25 bông hoa cắm đều vào 5 lọ. Hỏi mỗi lọ có mấy bông hoa?", "options": ["4 bông", "5 bông", "6 bông", "10 bông"], "answer": 1, "hint": "Lấy 25 chia 5" }
   ]
 }

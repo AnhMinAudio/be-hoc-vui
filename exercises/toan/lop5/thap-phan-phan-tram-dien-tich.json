@@ -55,6 +55,63 @@
       "options": ["60 m²", "16 m²", "32 m²", "60 m"],
       "answer": 0,
       "hint": "Diện tích = dài nhân rộng"
+    },
+    {
+      "type": "fill-blank",
+      "question": "3,6 + 2,4 = ___",
+      "answer": "6",
+      "hint": "Cộng phần thập phân trước"
+    },
+    {
+      "type": "fill-blank",
+      "question": "7,5 - 2,3 = ___",
+      "answer": "5,2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "50% của 80 là bao nhiêu?",
+      "options": ["30", "40", "50", "60"],
+      "answer": 1,
+      "hint": "50% nghĩa là một nửa"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "2,5 × 4 = ?",
+      "options": ["8", "10", "9", "12"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Diện tích hình chữ nhật dài 8 cm, rộng 5 cm là 8 × 5 = ___ (cm²)",
+      "answer": "40"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phân số với số thập phân bằng nó",
+      "pairs": [
+        ["1/2", "0,5"],
+        ["1/4", "0,25"],
+        ["3/4", "0,75"],
+        ["1/10", "0,1"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "10% của 350 là ___",
+      "answer": "35",
+      "hint": "10% là một phần mười"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đổi 250 cm ra mét được bao nhiêu?",
+      "options": ["2,5 m", "25 m", "0,25 m", "250 m"],
+      "answer": 0,
+      "hint": "100 cm = 1 m"
+    },
+    {
+      "type": "fill-blank",
+      "question": "4,8 : 2 = ___",
+      "answer": "2,4"
     }
   ]
 }

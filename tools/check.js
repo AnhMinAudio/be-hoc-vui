@@ -31,6 +31,15 @@ dupQuestions.forEach(d =>
   warnings.push(`Câu trùng (${d.count}×): "${d.locations[0].preview}" — ${d.locations.map(l => `${l.id}#${l.qIndex}`).join(', ')}`)
 );
 
+// 4b) Số câu mỗi đề phải trong khoảng 15-20 → cảnh báo
+const MIN_Q = 15, MAX_Q = 20;
+ok.forEach(({ data }) => {
+  const n = data.questions.length;
+  if (n < MIN_Q || n > MAX_Q) {
+    warnings.push(`Số câu ngoài khoảng ${MIN_Q}-${MAX_Q}: ${data.id} có ${n} câu`);
+  }
+});
+
 // 5) Câu Toán không tự kiểm được → cảnh báo cần liếc qua
 skipped.filter(s => s.subject === 'toan').forEach(s =>
   warnings.push(`Cần người liếc: ${s.id} câu ${s.q} (Toán không tự verify được)`)

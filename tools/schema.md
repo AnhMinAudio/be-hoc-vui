@@ -44,7 +44,7 @@ exercises/<subject>/lop<grade>/<slug>.json
   - Ví dụ: `tv-l2-tu-loai-001`, `ta-l3-colors`, `toan-l1-cong-10`
 - `topic`: tiêu đề hiển thị (có thể có dấu, có khoảng trắng)
 - `difficulty`: 1-3 (1 = dễ, 3 = khó)
-- `questions`: 5-12 câu là vừa đủ cho 1 buổi luyện
+- `questions`: **BẮT BUỘC mỗi đề 15–20 câu** (cổng kiểm tra sẽ cảnh báo nếu ngoài khoảng này). Nên trộn đều cả 3 loại câu hỏi.
 
 ---
 
