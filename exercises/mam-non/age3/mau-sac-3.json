@@ -1,0 +1,17 @@
+{
+  "id": "mn-mau-sac-3t-3",
+  "stage": "mam-non",
+  "subject": "mau-sac",
+  "grade": 3,
+  "topic": "Màu sắc quanh bé (phần 3)",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Quả táo chín thường có màu gì? Chạm vào ô màu đúng nhé!", "prompt": "🍎", "options": ["🔴", "🟢", "🔵"], "answer": 0, "hint": "Quả táo đỏ tươi." },
+    { "type": "image-choice", "question": "Ông mặt trời có màu gì?", "prompt": "☀️", "options": ["🔵", "🟡", "🟣"], "answer": 1, "hint": "Mặt trời vàng ấm áp." },
+    { "type": "image-choice", "question": "Quả nào có màu tím?", "options": ["🍇", "🍎", "🍌"], "answer": 0, "hint": "Chùm nho tím." },
+    { "type": "image-choice", "question": "Quả nào có màu vàng?", "options": ["🍓", "🍋", "🫐"], "answer": 1 },
+    { "type": "image-choice", "question": "Lá cây thường có màu gì?", "prompt": "🍃", "options": ["🟢", "🔴", "🟤"], "answer": 0, "hint": "Lá cây xanh mát." },
+    { "type": "image-choice", "question": "Đám mây trắng ở đâu nhỉ?", "options": ["⚫", "☁️", "🔴"], "answer": 1 },
+    { "type": "image-choice", "question": "Quả nào có màu cam?", "options": ["🍊", "🍏", "🫐"], "answer": 0, "hint": "Quả cam màu cam." }
+  ]
+}

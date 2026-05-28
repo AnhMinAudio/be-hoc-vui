@@ -1,0 +1,17 @@
+{
+  "id": "mn-do-vat-5t",
+  "stage": "mam-non",
+  "subject": "do-vat",
+  "grade": 5,
+  "topic": "Đồ vật quanh bé",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Đồ nào là ĐỒ DÙNG HỌC TẬP?", "options": ["✏️", "🍴", "👗", "🧸"], "answer": 0, "hint": "Bút chì dùng để học, viết, vẽ." },
+    { "type": "image-choice", "question": "Đồ nào dùng để MẶC?", "options": ["🥄", "👗", "🔑", "💡"], "answer": 1, "hint": "Cái váy để mặc lên người." },
+    { "type": "image-choice", "question": "Đồ nào KHÔNG phải đồ chơi?", "options": ["⚽", "🧸", "🪑", "🪁"], "answer": 2, "hint": "Cái ghế là đồ dùng, không phải đồ chơi." },
+    { "type": "image-choice", "question": "Đồ nào dùng khi đi NGỦ?", "options": ["✂️", "📚", "🛏️", "👟"], "answer": 2, "hint": "Cái giường để nằm ngủ." },
+    { "type": "image-choice", "question": "Đồ nào dùng để ĂN cơm?", "options": ["🍴", "📏", "🧢", "⏰"], "answer": 0, "hint": "Dao và nĩa dùng khi ăn." },
+    { "type": "image-choice", "question": "Đồ nào dùng để TẮM rửa?", "options": ["🎒", "🧼", "📺", "✏️"], "answer": 1, "hint": "Bánh xà phòng để rửa cho sạch." },
+    { "type": "image-choice", "question": "Đồ nào dùng để GIỮ ẤM bàn tay?", "options": ["🧤", "🥄", "📖", "🔑"], "answer": 0, "hint": "Găng tay đeo cho ấm tay." }
+  ]
+}

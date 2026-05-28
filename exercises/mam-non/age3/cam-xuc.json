@@ -1,0 +1,16 @@
+{
+  "id": "mn-cam-xuc-3t",
+  "stage": "mam-non",
+  "subject": "cam-xuc",
+  "grade": 3,
+  "topic": "Nhận biết cảm xúc",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Bạn nào đang VUI (cười tươi)?", "options": ["😀", "😢", "😠"], "answer": 0, "hint": "Vui thì miệng cười thật to." },
+    { "type": "image-choice", "question": "Bạn nào đang BUỒN (khóc)?", "options": ["😀", "😢", "😴"], "answer": 1, "hint": "Buồn thì mắt rơi nước mắt." },
+    { "type": "image-choice", "question": "Khuôn mặt nào đang TỨC GIẬN?", "options": ["🙂", "😠", "😀"], "answer": 1, "hint": "Tức giận thì cau mày." },
+    { "type": "image-choice", "question": "Bạn nào đang BUỒN NGỦ?", "options": ["😴", "😀", "😠"], "answer": 0, "hint": "Buồn ngủ thì nhắm mắt lại." },
+    { "type": "image-choice", "question": "Khuôn mặt nào đang KHÓC?", "options": ["😠", "😢", "🙂"], "answer": 1, "hint": "Khóc thì có nước mắt." },
+    { "type": "image-choice", "question": "Bạn nào đang CƯỜI vui vẻ?", "options": ["😢", "😴", "😀"], "answer": 2, "hint": "Cười vui thì miệng cong lên." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mn-do-vat-4t-2",
+  "stage": "mam-non",
+  "subject": "do-vat",
+  "grade": 4,
+  "topic": "Đồ vật quanh bé",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Đồ nào để CẮT giấy?", "options": ["✂️", "📏", "🥄"], "answer": 0, "hint": "Cái kéo dùng để cắt." },
+    { "type": "image-choice", "question": "Đồ nào để CHẢI RĂNG?", "options": ["🧦", "🪥", "🔑"], "answer": 1, "hint": "Bàn chải để đánh răng cho sạch." },
+    { "type": "image-choice", "question": "Đồ nào để ĐỘI lên đầu?", "options": ["👟", "🧤", "🧢"], "answer": 2, "hint": "Cái mũ đội trên đầu." },
+    { "type": "image-choice", "question": "Đồ nào để CHIẾU SÁNG ban đêm?", "options": ["💡", "⏰", "🎒"], "answer": 0, "hint": "Bóng đèn cho ánh sáng." },
+    { "type": "image-choice", "question": "Đồ nào để ĐO chiều dài?", "options": ["🥄", "📏", "🪥"], "answer": 1, "hint": "Cái thước để đo và kẻ thẳng." },
+    { "type": "image-choice", "question": "Đồ nào để XEM phim?", "options": ["📺", "🍴", "🧢"], "answer": 0, "hint": "Cái tivi để xem phim, hoạt hình." },
+    { "type": "image-choice", "question": "Đồ nào để ĐỰNG sách đi học?", "options": ["🕯️", "🎒", "⚽"], "answer": 1, "hint": "Cái cặp sách đeo trên vai." }
+  ]
+}

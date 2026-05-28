@@ -22,6 +22,9 @@ const PRESCHOOL = {
   'con-vat': { name: 'Con vật', icon: '🐶' },
   'dem-so': { name: 'Đếm số', icon: '🔢' },
   'hinh-khoi': { name: 'Hình khối & So sánh', icon: '🔺' },
+  'chu-cai': { name: 'Chữ cái', icon: '🔤' },
+  'cam-xuc': { name: 'Cảm xúc', icon: '😊' },
+  'do-vat': { name: 'Đồ vật', icon: '🧸' },
 };
 const PRESCHOOL_AGES = [3, 4, 5];
 

@@ -1,0 +1,17 @@
+{
+  "id": "mn-cam-xuc-3t-2",
+  "stage": "mam-non",
+  "subject": "cam-xuc",
+  "grade": 3,
+  "topic": "Nhận biết cảm xúc",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Khuôn mặt nào đang VUI?", "options": ["😀", "😠", "😢"], "answer": 0, "hint": "Vui thì cười tươi." },
+    { "type": "image-choice", "question": "Bạn nào đang GIẬN DỖI?", "options": ["😴", "😠", "😀"], "answer": 1, "hint": "Giận thì nhăn mặt." },
+    { "type": "image-choice", "question": "Bạn nào đang NGỦ NGON?", "options": ["😀", "😢", "😴"], "answer": 2, "hint": "Ngủ thì nhắm mắt." },
+    { "type": "image-choice", "question": "Khuôn mặt nào BÌNH THƯỜNG, vui nhẹ?", "options": ["🙂", "😢", "😠"], "answer": 0, "hint": "Mặt nhẹ nhàng, hơi cười." },
+    { "type": "image-choice", "question": "Bạn nào đang BUỒN?", "options": ["😀", "😢", "🙂"], "answer": 1, "hint": "Buồn thì xịu mặt, khóc." },
+    { "type": "image-choice", "question": "Khuôn mặt nào CƯỜI to nhất?", "options": ["😴", "😀", "😠"], "answer": 1, "hint": "Cười to thì rất vui." },
+    { "type": "image-choice", "question": "Bạn nào đang CÁU KỈNH?", "options": ["🙂", "😠", "😢"], "answer": 1, "hint": "Cáu thì cau có." }
+  ]
+}

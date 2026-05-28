@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2026-05-28T13:07:53.037Z",
+  "generatedAt": "2026-05-28T13:25:25.138Z",
   "exercises": [
+    {
+      "id": "mn-cam-xuc-3t-2",
+      "stage": "mam-non",
+      "subject": "cam-xuc",
+      "grade": 3,
+      "topic": "Nhận biết cảm xúc",
+      "difficulty": 1,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/cam-xuc-2.json"
+    },
+    {
+      "id": "mn-cam-xuc-3t",
+      "stage": "mam-non",
+      "subject": "cam-xuc",
+      "grade": 3,
+      "topic": "Nhận biết cảm xúc",
+      "difficulty": 1,
+      "questionCount": 6,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/cam-xuc.json"
+    },
+    {
+      "id": "mn-cam-xuc-4t-2",
+      "stage": "mam-non",
+      "subject": "cam-xuc",
+      "grade": 4,
+      "topic": "Cảm xúc và tình huống",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/cam-xuc-2.json"
+    },
+    {
+      "id": "mn-cam-xuc-4t",
+      "stage": "mam-non",
+      "subject": "cam-xuc",
+      "grade": 4,
+      "topic": "Cảm xúc và tình huống",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/cam-xuc.json"
+    },
+    {
+      "id": "mn-cam-xuc-5t-2",
+      "stage": "mam-non",
+      "subject": "cam-xuc",
+      "grade": 5,
+      "topic": "Cảm xúc theo tình huống",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/cam-xuc-2.json"
+    },
+    {
+      "id": "mn-cam-xuc-5t",
+      "stage": "mam-non",
+      "subject": "cam-xuc",
+      "grade": 5,
+      "topic": "Cảm xúc theo tình huống",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/cam-xuc.json"
+    },
+    {
+      "id": "mn-chu-cai-3t-2",
+      "stage": "mam-non",
+      "subject": "chu-cai",
+      "grade": 3,
+      "topic": "Làm quen chữ cái",
+      "difficulty": 1,
+      "questionCount": 6,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/chu-cai-2.json"
+    },
+    {
+      "id": "mn-chu-cai-3t",
+      "stage": "mam-non",
+      "subject": "chu-cai",
+      "grade": 3,
+      "topic": "Làm quen chữ cái",
+      "difficulty": 1,
+      "questionCount": 6,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/chu-cai.json"
+    },
+    {
+      "id": "mn-chu-cai-4t-2",
+      "stage": "mam-non",
+      "subject": "chu-cai",
+      "grade": 4,
+      "topic": "Làm quen chữ cái",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/chu-cai-2.json"
+    },
+    {
+      "id": "mn-chu-cai-4t",
+      "stage": "mam-non",
+      "subject": "chu-cai",
+      "grade": 4,
+      "topic": "Làm quen chữ cái",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/chu-cai.json"
+    },
+    {
+      "id": "mn-chu-cai-5t-2",
+      "stage": "mam-non",
+      "subject": "chu-cai",
+      "grade": 5,
+      "topic": "Làm quen chữ cái",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/chu-cai-2.json"
+    },
+    {
+      "id": "mn-chu-cai-5t",
+      "stage": "mam-non",
+      "subject": "chu-cai",
+      "grade": 5,
+      "topic": "Làm quen chữ cái",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/chu-cai.json"
+    },
     {
       "id": "mn-con-vat-3t",
       "stage": "mam-non",
@@ -24,6 +168,18 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age3/con-vat-2.json"
+    },
+    {
+      "id": "mn-con-vat-3t-3",
+      "stage": "mam-non",
+      "subject": "con-vat",
+      "grade": 3,
+      "topic": "Thế giới động vật (phần 3)",
+      "difficulty": 1,
+      "questionCount": 6,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/con-vat-3.json"
     },
     {
       "id": "mn-con-vat-4t",
@@ -50,6 +206,18 @@
       "path": "mam-non/age4/con-vat-2.json"
     },
     {
+      "id": "mn-con-vat-4t-3",
+      "stage": "mam-non",
+      "subject": "con-vat",
+      "grade": 4,
+      "topic": "Đặc điểm con vật (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/con-vat-3.json"
+    },
+    {
       "id": "mn-con-vat-5t",
       "stage": "mam-non",
       "subject": "con-vat",
@@ -60,6 +228,18 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age5/con-vat.json"
+    },
+    {
+      "id": "mn-con-vat-5t-3",
+      "stage": "mam-non",
+      "subject": "con-vat",
+      "grade": 5,
+      "topic": "Thế giới động vật (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/con-vat-3.json"
     },
     {
       "id": "mn-con-vat-5t-2",
@@ -96,6 +276,30 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age3/dem-so-2.json"
+    },
+    {
+      "id": "mn-dem-so-3t-3",
+      "stage": "mam-non",
+      "subject": "dem-so",
+      "grade": 3,
+      "topic": "Đếm số 1 - 5 (phần 3)",
+      "difficulty": 1,
+      "questionCount": 6,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/dem-so-3.json"
+    },
+    {
+      "id": "mn-dem-so-4t-3",
+      "stage": "mam-non",
+      "subject": "dem-so",
+      "grade": 4,
+      "topic": "Đếm số 1 - 10 (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/dem-so-3.json"
     },
     {
       "id": "mn-dem-so-4t",
@@ -146,6 +350,18 @@
       "path": "mam-non/age5/dem-so-2.json"
     },
     {
+      "id": "mn-dem-so-5t-3",
+      "stage": "mam-non",
+      "subject": "dem-so",
+      "grade": 5,
+      "topic": "Đếm và phép tính đơn giản (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/dem-so-3.json"
+    },
+    {
       "id": "thpt-dia-li-l12-on-tap",
       "stage": "thpt",
       "subject": "dia-li",
@@ -161,6 +377,78 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/dia-li.json"
+    },
+    {
+      "id": "mn-do-vat-3t-2",
+      "stage": "mam-non",
+      "subject": "do-vat",
+      "grade": 3,
+      "topic": "Đồ vật quanh bé",
+      "difficulty": 1,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/do-vat-2.json"
+    },
+    {
+      "id": "mn-do-vat-3t",
+      "stage": "mam-non",
+      "subject": "do-vat",
+      "grade": 3,
+      "topic": "Đồ vật quanh bé",
+      "difficulty": 1,
+      "questionCount": 6,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/do-vat.json"
+    },
+    {
+      "id": "mn-do-vat-4t-2",
+      "stage": "mam-non",
+      "subject": "do-vat",
+      "grade": 4,
+      "topic": "Đồ vật quanh bé",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/do-vat-2.json"
+    },
+    {
+      "id": "mn-do-vat-4t",
+      "stage": "mam-non",
+      "subject": "do-vat",
+      "grade": 4,
+      "topic": "Đồ vật quanh bé",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/do-vat.json"
+    },
+    {
+      "id": "mn-do-vat-5t-2",
+      "stage": "mam-non",
+      "subject": "do-vat",
+      "grade": 5,
+      "topic": "Đồ vật quanh bé",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/do-vat-2.json"
+    },
+    {
+      "id": "mn-do-vat-5t",
+      "stage": "mam-non",
+      "subject": "do-vat",
+      "grade": 5,
+      "topic": "Đồ vật quanh bé",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/do-vat.json"
     },
     {
       "id": "thpt-gdkt-pl-l12-on-tap",
@@ -205,6 +493,30 @@
       "path": "mam-non/age3/hinh-khoi-2.json"
     },
     {
+      "id": "mn-hinh-khoi-3t-3",
+      "stage": "mam-non",
+      "subject": "hinh-khoi",
+      "grade": 3,
+      "topic": "Hình khối quanh bé (phần 3)",
+      "difficulty": 1,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/hinh-khoi-3.json"
+    },
+    {
+      "id": "mn-hinh-khoi-4t-3",
+      "stage": "mam-non",
+      "subject": "hinh-khoi",
+      "grade": 4,
+      "topic": "Hình dạng đồ vật (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/hinh-khoi-3.json"
+    },
+    {
       "id": "mn-hinh-khoi-4t",
       "stage": "mam-non",
       "subject": "hinh-khoi",
@@ -227,6 +539,18 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age4/hinh-khoi-2.json"
+    },
+    {
+      "id": "mn-hinh-khoi-5t-3",
+      "stage": "mam-non",
+      "subject": "hinh-khoi",
+      "grade": 5,
+      "topic": "Hình khối và đếm cạnh (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/hinh-khoi-3.json"
     },
     {
       "id": "mn-hinh-khoi-5t",
@@ -289,6 +613,18 @@
       "path": "thpt/lop12/lich-su.json"
     },
     {
+      "id": "mn-mau-sac-3t-3",
+      "stage": "mam-non",
+      "subject": "mau-sac",
+      "grade": 3,
+      "topic": "Màu sắc quanh bé (phần 3)",
+      "difficulty": 1,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age3/mau-sac-3.json"
+    },
+    {
       "id": "mn-mau-sac-3t",
       "stage": "mam-non",
       "subject": "mau-sac",
@@ -325,6 +661,18 @@
       "path": "mam-non/age4/mau-sac-2.json"
     },
     {
+      "id": "mn-mau-sac-4t-3",
+      "stage": "mam-non",
+      "subject": "mau-sac",
+      "grade": 4,
+      "topic": "Màu sắc của đồ vật (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age4/mau-sac-3.json"
+    },
+    {
       "id": "mn-mau-sac-4t",
       "stage": "mam-non",
       "subject": "mau-sac",
@@ -359,6 +707,18 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age5/mau-sac.json"
+    },
+    {
+      "id": "mn-mau-sac-5t-3",
+      "stage": "mam-non",
+      "subject": "mau-sac",
+      "grade": 5,
+      "topic": "Phân loại và liên hệ màu sắc (phần 3)",
+      "difficulty": 2,
+      "questionCount": 7,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "mam-non/age5/mau-sac-3.json"
     },
     {
       "id": "thcs-tv-l6-tu-loai-va-bien-phap-tu-tu",

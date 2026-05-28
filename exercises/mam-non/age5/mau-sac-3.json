@@ -1,0 +1,17 @@
+{
+  "id": "mn-mau-sac-5t-3",
+  "stage": "mam-non",
+  "subject": "mau-sac",
+  "grade": 5,
+  "topic": "Phân loại và liên hệ màu sắc (phần 3)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Vật nào KHÔNG cùng màu với hai vật kia?", "prompt": "🍓 🍅 🍋", "options": ["🍓", "🍅", "🍋"], "answer": 2, "hint": "Dâu và cà chua màu đỏ, chanh màu vàng." },
+    { "type": "image-choice", "question": "Quả nào có màu giống quả chuối chín?", "prompt": "🍌", "options": ["🍋", "🍇", "🍎", "🫐"], "answer": 0, "hint": "Chuối và chanh đều màu vàng." },
+    { "type": "image-choice", "question": "Đèn giao thông báo dừng lại có màu gì?", "prompt": "🚦", "options": ["🟢", "🔴", "🔵", "🟣"], "answer": 1, "hint": "Đèn đỏ thì dừng lại." },
+    { "type": "image-choice", "question": "Trộn màu đỏ với màu trắng được màu gì?", "options": ["🩷", "🟢", "🔵", "⚫"], "answer": 0, "hint": "Đỏ pha trắng thành hồng." },
+    { "type": "image-choice", "question": "Vật nào KHÔNG có màu xanh lá?", "prompt": "🥦 🍃 🍊", "options": ["🥦", "🍃", "🍊"], "answer": 2, "hint": "Quả cam màu cam, không xanh." },
+    { "type": "image-choice", "question": "Cầu vồng có rất nhiều màu. Chạm vào cầu vồng nhé!", "options": ["☁️", "🌈", "⚫", "🔴"], "answer": 1 },
+    { "type": "image-choice", "question": "Quả dưa hấu bổ ra bên trong có màu gì?", "prompt": "🍉", "options": ["🟢", "🔴", "🔵", "🟤"], "answer": 1, "hint": "Ruột dưa hấu đỏ ngọt." }
+  ]
+}

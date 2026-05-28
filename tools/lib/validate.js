@@ -5,7 +5,7 @@ const crypto = require('crypto');
 
 const VALID_SUBJECTS = ['toan', 'tieng-viet', 'tieng-anh'];
 const VALID_GRADES = [1, 2, 3, 4, 5];
-const PRESCHOOL_DOMAINS = ['mau-sac', 'con-vat', 'dem-so', 'hinh-khoi'];
+const PRESCHOOL_DOMAINS = ['mau-sac', 'con-vat', 'dem-so', 'hinh-khoi', 'chu-cai', 'cam-xuc', 'do-vat'];
 const PRESCHOOL_AGES = [3, 4, 5];
 const THCS_SUBJECTS = ['toan', 'ngu-van', 'tieng-anh'];
 const THCS_GRADES = [6, 7, 8, 9];

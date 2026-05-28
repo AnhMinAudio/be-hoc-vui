@@ -1,0 +1,17 @@
+{
+  "id": "mn-chu-cai-4t",
+  "stage": "mam-non",
+  "subject": "chu-cai",
+  "grade": 4,
+  "topic": "Làm quen chữ cái",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là chữ Ô?", "options": ["O", "Ô", "Ơ"], "answer": 1, "hint": "Chữ Ô đội cái mũ ở trên." },
+    { "type": "image-choice", "question": "Đâu là chữ Đ?", "options": ["D", "Đ", "B"], "answer": 1, "hint": "Chữ Đ có cái gạch ngang ở giữa." },
+    { "type": "image-choice", "question": "Đâu là chữ Ă?", "options": ["A", "Â", "Ă"], "answer": 2, "hint": "Chữ Ă đội cái nón cong tròn." },
+    { "type": "image-choice", "question": "Đâu là chữ Ê?", "options": ["E", "Ê", "Ơ"], "answer": 1, "hint": "Chữ Ê đội cái mũ nhọn." },
+    { "type": "image-choice", "question": "Tiếng 'Bò' bắt đầu bằng chữ gì?", "prompt": "🐮", "options": ["B", "D", "N"], "answer": 0, "hint": "Bờ... Bò." },
+    { "type": "image-choice", "question": "Tiếng 'Mèo' bắt đầu bằng chữ gì?", "prompt": "🐱", "options": ["N", "M", "L"], "answer": 1, "hint": "Mờ... Mèo." },
+    { "type": "image-choice", "question": "Tiếng 'Cá' bắt đầu bằng chữ gì?", "prompt": "🐟", "options": ["C", "G", "O"], "answer": 0, "hint": "Cờ... Cá." }
+  ]
+}

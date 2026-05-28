@@ -1,0 +1,17 @@
+{
+  "id": "mn-chu-cai-5t",
+  "stage": "mam-non",
+  "subject": "chu-cai",
+  "grade": 5,
+  "topic": "Làm quen chữ cái",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Tiếng 'Nhà' bắt đầu bằng chữ nào?", "prompt": "🏠", "options": ["M", "N", "L", "H"], "answer": 1, "hint": "Nờ... Nhà." },
+    { "type": "image-choice", "question": "Tiếng 'Táo' bắt đầu bằng chữ nào?", "prompt": "🍎", "options": ["T", "C", "B", "D"], "answer": 0, "hint": "Tờ... Táo." },
+    { "type": "image-choice", "question": "Tiếng 'Sao' bắt đầu bằng chữ nào?", "prompt": "⭐", "options": ["X", "S", "C", "T"], "answer": 1, "hint": "Sờ... Sao." },
+    { "type": "image-choice", "question": "Tiếng 'Vịt' bắt đầu bằng chữ nào?", "prompt": "🦆", "options": ["U", "B", "V", "D"], "answer": 2, "hint": "Vờ... Vịt." },
+    { "type": "image-choice", "question": "Tiếng 'Khỉ' bắt đầu bằng chữ nào?", "prompt": "🐵", "options": ["H", "C", "G", "K"], "answer": 3, "hint": "Khờ... Khỉ." },
+    { "type": "image-choice", "question": "Tiếng 'Rùa' bắt đầu bằng chữ nào?", "prompt": "🐢", "options": ["R", "D", "N", "L"], "answer": 0, "hint": "Rờ... Rùa." },
+    { "type": "image-choice", "question": "Tiếng 'Dù' bắt đầu bằng chữ nào?", "prompt": "🌂", "options": ["B", "D", "Đ", "T"], "answer": 1, "hint": "Dờ... Dù." }
+  ]
+}

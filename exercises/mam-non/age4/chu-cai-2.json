@@ -1,0 +1,17 @@
+{
+  "id": "mn-chu-cai-4t-2",
+  "stage": "mam-non",
+  "subject": "chu-cai",
+  "grade": 4,
+  "topic": "Làm quen chữ cái",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là chữ Ơ?", "options": ["O", "Ô", "Ơ"], "answer": 2, "hint": "Chữ Ơ có cái râu nhỏ bên cạnh." },
+    { "type": "image-choice", "question": "Đâu là chữ Â?", "options": ["Â", "A", "Ă"], "answer": 0, "hint": "Chữ Â đội cái mũ nhọn." },
+    { "type": "image-choice", "question": "Đâu là chữ Ư?", "options": ["U", "Ư", "V"], "answer": 1, "hint": "Chữ Ư có cái râu nhỏ bên cạnh." },
+    { "type": "image-choice", "question": "Tiếng 'Gà' bắt đầu bằng chữ gì?", "prompt": "🐔", "options": ["C", "G", "K"], "answer": 1, "hint": "Gờ... Gà." },
+    { "type": "image-choice", "question": "Tiếng 'Lá' bắt đầu bằng chữ gì?", "prompt": "🍃", "options": ["L", "N", "T"], "answer": 0, "hint": "Lờ... Lá." },
+    { "type": "image-choice", "question": "Tiếng 'Hổ' bắt đầu bằng chữ gì?", "prompt": "🐯", "options": ["B", "H", "K"], "answer": 1, "hint": "Hờ... Hổ." },
+    { "type": "image-choice", "question": "Tiếng 'Voi' bắt đầu bằng chữ gì?", "prompt": "🐘", "options": ["U", "M", "V"], "answer": 2, "hint": "Vờ... Voi." }
+  ]
+}

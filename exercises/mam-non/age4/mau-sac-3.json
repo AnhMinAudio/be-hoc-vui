@@ -1,0 +1,17 @@
+{
+  "id": "mn-mau-sac-4t-3",
+  "stage": "mam-non",
+  "subject": "mau-sac",
+  "grade": 4,
+  "topic": "Màu sắc của đồ vật (phần 3)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Con ếch thường có màu gì?", "prompt": "🐸", "options": ["🟢", "🔴", "🔵", "🟣"], "answer": 0, "hint": "Chú ếch xanh lá." },
+    { "type": "image-choice", "question": "Quả nào có màu đỏ?", "options": ["🍌", "🍒", "🫐", "🍐"], "answer": 1, "hint": "Quả anh đào đỏ tươi." },
+    { "type": "image-choice", "question": "Quả bí ngô có màu gì?", "prompt": "🎃", "options": ["🔵", "🟠", "🟣", "⚫"], "answer": 1 },
+    { "type": "image-choice", "question": "Con heo hồng này có màu gì?", "prompt": "🐷", "options": ["🩷", "🔵", "🟢", "🟤"], "answer": 0 },
+    { "type": "image-choice", "question": "Vật nào có màu trắng?", "options": ["🥛", "🍫", "🍇", "🍅"], "answer": 0, "hint": "Ly sữa màu trắng." },
+    { "type": "image-choice", "question": "Bông hoa hướng dương có màu gì?", "prompt": "🌻", "options": ["🟣", "🟡", "🔵", "⚫"], "answer": 1 },
+    { "type": "image-choice", "question": "Quả nào có màu nâu?", "options": ["🥥", "🍓", "🫐", "🍋"], "answer": 0, "hint": "Quả dừa vỏ nâu." }
+  ]
+}

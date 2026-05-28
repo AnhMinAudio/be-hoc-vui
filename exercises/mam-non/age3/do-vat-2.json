@@ -1,0 +1,17 @@
+{
+  "id": "mn-do-vat-3t-2",
+  "stage": "mam-non",
+  "subject": "do-vat",
+  "grade": 3,
+  "topic": "Đồ vật quanh bé",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là cái giường?", "options": ["🚪", "🛏️", "🪑"], "answer": 1, "hint": "Cái giường để nằm ngủ." },
+    { "type": "image-choice", "question": "Đâu là cây bút chì?", "options": ["✏️", "🥄", "🔑"], "answer": 0, "hint": "Bút chì để viết, vẽ." },
+    { "type": "image-choice", "question": "Đâu là cái áo?", "options": ["👟", "👕", "🧦"], "answer": 1, "hint": "Cái áo để mặc." },
+    { "type": "image-choice", "question": "Đâu là chiếc chìa khóa?", "options": ["🔑", "💡", "⏰"], "answer": 0, "hint": "Chìa khóa để mở cửa." },
+    { "type": "image-choice", "question": "Đâu là cái đồng hồ?", "options": ["📺", "⏰", "🕯️"], "answer": 1, "hint": "Đồng hồ để xem giờ." },
+    { "type": "image-choice", "question": "Đâu là cái cặp sách?", "options": ["🎒", "📏", "🍴"], "answer": 0, "hint": "Cặp sách để đựng sách đi học." },
+    { "type": "image-choice", "question": "Đâu là cây kéo?", "options": ["📖", "✂️", "🥄"], "answer": 1, "hint": "Cây kéo để cắt giấy." }
+  ]
+}
