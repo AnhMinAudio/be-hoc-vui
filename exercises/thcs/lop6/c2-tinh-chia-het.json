@@ -1,0 +1,29 @@
+{
+  "id": "thcs-toan-l6-c2-tinh-chia-het",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Chương 2: Tính chia hết trong tập số tự nhiên",
+  "difficulty": 1,
+  "outcomes": ["T6-CH-1", "T6-CH-2", "T6-CH-3", "T6-CH-4"],
+  "questions": [
+    { "type": "multiple-choice", "question": "Số nào sau đây chia hết cho $6$?", "options": ["$42$", "$40$", "$44$", "$46$"], "answer": 0, "hint": "$42 = 6 \\times 7$" },
+    { "type": "true-false", "question": "Nếu $a\\ \\vdots\\ m$ và $b\\ \\vdots\\ m$ thì $(a + b)\\ \\vdots\\ m$.", "answer": true, "hint": "Tính chất chia hết của một tổng" },
+    { "type": "fill-blank", "question": "Tìm số dư khi chia $38$ cho $4$. Số dư là ___", "answer": "2", "hint": "$38 = 4 \\times 9 + 2$" },
+    { "type": "multiple-choice", "question": "Số nào sau đây chia hết cho cả $2$ và $5$?", "options": ["$120$", "$125$", "$112$", "$105$"], "answer": 0, "hint": "Số chia hết cho cả $2$ và $5$ có tận cùng là $0$" },
+    { "type": "true-false", "question": "Số $531$ chia hết cho $9$.", "answer": true, "hint": "Tổng các chữ số: $5 + 3 + 1 = 9$" },
+    { "type": "multiple-choice", "question": "Trong các số sau, số nào chia hết cho $3$ nhưng không chia hết cho $9$?", "options": ["$24$", "$27$", "$18$", "$36$"], "answer": 0, "hint": "$2 + 4 = 6$ chia hết cho $3$ nhưng không chia hết cho $9$" },
+    { "type": "fill-blank", "question": "Số $\\overline{4*2}$ chia hết cho $3$ khi chữ số $*$ nhỏ nhất bằng ___", "answer": "0", "hint": "$4 + 0 + 2 = 6$ chia hết cho $3$" },
+    { "type": "multiple-choice", "question": "Số nào sau đây là số nguyên tố?", "options": ["$17$", "$15$", "$21$", "$9$"], "answer": 0, "hint": "Số nguyên tố chỉ có hai ước là $1$ và chính nó" },
+    { "type": "true-false", "question": "Số $1$ là số nguyên tố.", "answer": false, "hint": "Số nguyên tố phải lớn hơn $1$" },
+    { "type": "multiple-choice", "question": "Số $51$ là:", "options": ["Hợp số", "Số nguyên tố", "Vừa nguyên tố vừa hợp số", "Không phải số tự nhiên"], "answer": 0, "hint": "$51 = 3 \\times 17$" },
+    { "type": "fill-blank", "question": "Phân tích số $60$ ra thừa số nguyên tố (viết dạng lũy thừa, ví dụ $2^2 \\times 3$). Kết quả: ___", "answer": "2^2 \\times 3 \\times 5", "hint": "$60 = 2 \\times 2 \\times 3 \\times 5$" },
+    { "type": "multiple-choice", "question": "Kết quả phân tích số $72$ ra thừa số nguyên tố là:", "options": ["$2^3 \\times 3^2$", "$2^2 \\times 3^3$", "$2^3 \\times 3$", "$2^2 \\times 3^2$"], "answer": 0, "hint": "$72 = 8 \\times 9 = 2^3 \\times 3^2$" },
+    { "type": "multiple-choice", "question": "ƯCLN$(24, 36)$ bằng:", "options": ["$12$", "$6$", "$72$", "$4$"], "answer": 0, "hint": "$24 = 2^3 \\times 3$; $36 = 2^2 \\times 3^2$; lấy thừa số chung số mũ nhỏ nhất: $2^2 \\times 3 = 12$" },
+    { "type": "fill-blank", "question": "Tìm BCNN$(4, 6)$. Kết quả là ___", "answer": "12", "hint": "$4 = 2^2$; $6 = 2 \\times 3$; BCNN $= 2^2 \\times 3 = 12$" },
+    { "type": "multiple-choice", "question": "BCNN$(8, 12)$ bằng:", "options": ["$24$", "$48$", "$96$", "$4$"], "answer": 0, "hint": "$8 = 2^3$; $12 = 2^2 \\times 3$; BCNN $= 2^3 \\times 3 = 24$" },
+    { "type": "true-false", "question": "Hai số $9$ và $16$ là hai số nguyên tố cùng nhau.", "answer": true, "hint": "ƯCLN$(9, 16) = 1$" },
+    { "type": "multiple-choice", "question": "Cô giáo có $24$ chiếc bút và $36$ quyển vở, muốn chia đều vào các phần quà giống nhau. Hỏi chia được nhiều nhất bao nhiêu phần quà?", "options": ["$12$", "$6$", "$24$", "$72$"], "answer": 0, "hint": "Số phần quà nhiều nhất là ƯCLN$(24, 36) = 12$" },
+    { "type": "multiple-choice", "question": "Hai bạn An và Bình cùng trực nhật. An cứ $6$ ngày trực một lần, Bình cứ $8$ ngày trực một lần. Nếu hôm nay hai bạn cùng trực thì sau ít nhất bao nhiêu ngày nữa hai bạn lại cùng trực?", "options": ["$24$", "$48$", "$14$", "$12$"], "answer": 0, "hint": "Số ngày là BCNN$(6, 8) = 24$" }
+  ]
+}

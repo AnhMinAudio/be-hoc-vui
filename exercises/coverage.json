@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:11:11.690Z",
+  "generatedAt": "2026-05-28T07:42:32.983Z",
   "coverage": {
     "toan": {
       "1": {
@@ -393,13 +393,55 @@
   "thcs": {
     "toan": {
       "6": {
-        "exerciseCount": 1,
-        "totalQuestions": 15,
+        "exerciseCount": 8,
+        "totalQuestions": 140,
         "topics": [
           {
-            "id": "thcs-toan-l6-so-nguyen-luy-thua",
-            "topic": "Số nguyên, lũy thừa và thứ tự phép tính",
-            "questionCount": 15,
+            "id": "thcs-toan-l6-c1-so-tu-nhien",
+            "topic": "Chương 1: Tập hợp các số tự nhiên",
+            "questionCount": 18,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c2-tinh-chia-het",
+            "topic": "Chương 2: Tính chia hết trong tập số tự nhiên",
+            "questionCount": 18,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c3-so-nguyen",
+            "topic": "Chương 3: Số nguyên",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c4-5-hinh-phang-doi-xung",
+            "topic": "Chương 4 & 5: Hình phẳng và tính đối xứng",
+            "questionCount": 18,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c6-phan-so",
+            "topic": "Chương 6: Phân số",
+            "questionCount": 18,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c7-so-thap-phan",
+            "topic": "Chương 7: Số thập phân",
+            "questionCount": 18,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c8-hinh-co-ban",
+            "topic": "Chương 8: Những hình hình học cơ bản",
+            "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-c9-du-lieu-xac-suat",
+            "topic": "Chương 9: Dữ liệu và xác suất thực nghiệm",
+            "questionCount": 17,
             "difficulty": 1
           }
         ]

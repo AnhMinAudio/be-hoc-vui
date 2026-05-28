@@ -1,0 +1,29 @@
+{
+  "id": "thcs-toan-l6-c1-so-tu-nhien",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Chương 1: Tập hợp các số tự nhiên",
+  "difficulty": 1,
+  "outcomes": ["T6-STN-1", "T6-STN-2", "T6-STN-3", "T6-STN-4", "T6-STN-5"],
+  "questions": [
+    { "type": "multiple-choice", "question": "Cho tập hợp $A = \\{1; 3; 5; 7\\}$. Khẳng định nào sau đây đúng?", "options": ["$3 \\in A$", "$2 \\in A$", "$5 \\notin A$", "$7 \\notin A$"], "answer": 0, "hint": "Phần tử thuộc tập hợp dùng kí hiệu $\\in$" },
+    { "type": "fill-blank", "question": "Cho tập hợp $B = \\{0; 2; 4; 6; 8\\}$. Điền kí hiệu thích hợp: $5\\ $ ___ $\\ B$ (viết $\\in$ hoặc $\\notin$).", "answer": "\\notin", "hint": "Số $5$ có nằm trong tập hợp $B$ không?" },
+    { "type": "true-false", "question": "Tập hợp $\\mathbb{N}$ các số tự nhiên gồm các số $0; 1; 2; 3; \\dots$", "answer": true, "hint": "Số tự nhiên bắt đầu từ $0$" },
+    { "type": "multiple-choice", "question": "Tập hợp $C$ gồm các số tự nhiên nhỏ hơn $5$ được viết là:", "options": ["$C = \\{0; 1; 2; 3; 4\\}$", "$C = \\{1; 2; 3; 4; 5\\}$", "$C = \\{0; 1; 2; 3; 4; 5\\}$", "$C = \\{1; 2; 3; 4\\}$"], "answer": 0, "hint": "Số tự nhiên nhỏ hơn $5$ và bắt đầu từ $0$" },
+    { "type": "multiple-choice", "question": "Số $24$ được viết bằng số La Mã là:", "options": ["XXIV", "XXVI", "XIV", "XXIIII"], "answer": 0, "hint": "$24 = 10 + 10 + 4$, với $4 = $ IV" },
+    { "type": "fill-blank", "question": "Số La Mã XVII biểu diễn số tự nhiên ___", "answer": "17", "hint": "$X = 10,\\ V = 5,\\ II = 2$" },
+    { "type": "multiple-choice", "question": "So sánh hai số $1023$ và $1032$, chọn kết quả đúng:", "options": ["$1023 < 1032$", "$1023 > 1032$", "$1023 = 1032$", "Không so sánh được"], "answer": 0, "hint": "So sánh từng chữ số từ trái sang phải" },
+    { "type": "fill-blank", "question": "Tính tổng $356 + 144 = $ ___", "answer": "500", "hint": "$356 + 144 = 500$" },
+    { "type": "multiple-choice", "question": "Tính $1000 - 375$:", "options": ["$625$", "$725$", "$635$", "$615$"], "answer": 0, "hint": "$1000 - 375 = 625$" },
+    { "type": "multiple-choice", "question": "Tính tích $25 \\times 4$:", "options": ["$100$", "$90$", "$29$", "$104$"], "answer": 0, "hint": "$25 \\times 4 = 100$" },
+    { "type": "fill-blank", "question": "Thực hiện phép chia $144 : 12 = $ ___", "answer": "12", "hint": "$12 \\times 12 = 144$" },
+    { "type": "true-false", "question": "Trong phép chia $47 : 5$, số dư là $2$.", "answer": true, "hint": "$47 = 5 \\times 9 + 2$" },
+    { "type": "multiple-choice", "question": "Lũy thừa $2^3$ có giá trị bằng:", "options": ["$8$", "$6$", "$9$", "$5$"], "answer": 0, "hint": "$2^3 = 2 \\times 2 \\times 2$" },
+    { "type": "fill-blank", "question": "Viết gọn tích $7 \\times 7 \\times 7 \\times 7$ dưới dạng lũy thừa ___", "answer": "7^4", "hint": "Số $7$ xuất hiện $4$ lần" },
+    { "type": "multiple-choice", "question": "Giá trị của $5^2$ là:", "options": ["$25$", "$10$", "$7$", "$52$"], "answer": 0, "hint": "$5^2 = 5 \\times 5$" },
+    { "type": "multiple-choice", "question": "Tính giá trị của biểu thức $3 + 4 \\times 2$:", "options": ["$11$", "$14$", "$10$", "$24$"], "answer": 0, "hint": "Nhân chia trước, cộng trừ sau" },
+    { "type": "multiple-choice", "question": "Tính giá trị của biểu thức $(15 - 5) \\times 2 + 3^2$:", "options": ["$29$", "$23$", "$26$", "$49$"], "answer": 0, "hint": "Làm trong ngoặc, rồi lũy thừa, rồi nhân, cuối cùng cộng: $10 \\times 2 + 9$" },
+    { "type": "fill-blank", "question": "Tính giá trị của biểu thức $20 - 2^3 : 4 = $ ___", "answer": "18", "hint": "$2^3 = 8$, rồi $8 : 4 = 2$, sau đó $20 - 2$" }
+  ]
+}

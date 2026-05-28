@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:haylamdo.com)",
+      "WebFetch(domain:thcslamsonq6.hcm.edu.vn)"
+    ]
+  }
+}

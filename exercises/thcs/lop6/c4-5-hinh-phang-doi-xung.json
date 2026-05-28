@@ -1,0 +1,29 @@
+{
+  "id": "thcs-toan-l6-c4-5-hinh-phang-doi-xung",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Chương 4 & 5: Hình phẳng và tính đối xứng",
+  "difficulty": 1,
+  "outcomes": ["T6-HH-1", "T6-HH-2", "T6-HH-3", "T6-DX-1", "T6-DX-2"],
+  "questions": [
+    { "type": "multiple-choice", "question": "Tam giác đều là tam giác có:", "options": ["Ba cạnh bằng nhau", "Hai cạnh bằng nhau", "Một góc vuông", "Bốn cạnh bằng nhau"], "answer": 0, "hint": "Tam giác đều có ba cạnh và ba góc bằng nhau." },
+    { "type": "true-false", "question": "Mỗi góc của tam giác đều có số đo bằng $60^\\circ$.", "answer": true, "hint": "Tổng ba góc bằng $180^\\circ$, chia đều cho ba góc bằng nhau." },
+    { "type": "multiple-choice", "question": "Hình vuông có đặc điểm nào sau đây?", "options": ["Bốn cạnh bằng nhau và bốn góc vuông", "Bốn cạnh bằng nhau nhưng không có góc vuông", "Chỉ có hai cạnh bằng nhau", "Hai đường chéo không bằng nhau"], "answer": 0, "hint": "Hình vuông vừa có bốn cạnh bằng nhau, vừa có bốn góc vuông." },
+    { "type": "fill-blank", "question": "Lục giác đều là hình có ___ cạnh bằng nhau (điền số).", "answer": "6", "hint": "Lục có nghĩa là sáu." },
+    { "type": "true-false", "question": "Trong hình chữ nhật, hai cạnh đối diện song song và bằng nhau.", "answer": true, "hint": "Hình chữ nhật có hai cặp cạnh đối song song, bằng nhau." },
+    { "type": "multiple-choice", "question": "Hình thoi có đặc điểm nào sau đây?", "options": ["Bốn cạnh bằng nhau", "Bốn góc đều vuông", "Chỉ có một cặp cạnh song song", "Hai đường chéo bằng nhau"], "answer": 0, "hint": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau." },
+    { "type": "true-false", "question": "Hình bình hành có hai cặp cạnh đối song song và bằng nhau.", "answer": true, "hint": "Đó là đặc điểm cơ bản của hình bình hành." },
+    { "type": "multiple-choice", "question": "Hình thang cân là hình thang có:", "options": ["Hai cạnh bên bằng nhau và hai góc kề một đáy bằng nhau", "Bốn cạnh bằng nhau", "Bốn góc vuông", "Hai đường chéo vuông góc"], "answer": 0, "hint": "Hình thang cân có hai cạnh bên bằng nhau và hai đường chéo bằng nhau." },
+    { "type": "matching", "question": "Nối mỗi hình với đặc điểm nhận biết đúng.", "pairs": [["Hình vuông", "Bốn cạnh bằng nhau và bốn góc vuông"], ["Hình thoi", "Bốn cạnh bằng nhau, hai đường chéo vuông góc"], ["Hình chữ nhật", "Bốn góc vuông, hai cặp cạnh đối bằng nhau"], ["Hình thang cân", "Một cặp cạnh đối song song, hai cạnh bên bằng nhau"]] },
+    { "type": "multiple-choice", "question": "Hình chữ nhật có chiều dài $8\\ \\text{cm}$ và chiều rộng $5\\ \\text{cm}$. Chu vi của hình chữ nhật là:", "options": ["$26\\ \\text{cm}$", "$13\\ \\text{cm}$", "$40\\ \\text{cm}$", "$30\\ \\text{cm}$"], "answer": 0, "hint": "Chu vi $= 2 \\times (\\text{dài} + \\text{rộng}) = 2 \\times (8 + 5)$." },
+    { "type": "fill-blank", "question": "Tính diện tích hình chữ nhật có chiều dài $8\\ \\text{cm}$ và chiều rộng $5\\ \\text{cm}$ (chỉ điền số, đơn vị $\\text{cm}^2$): ___", "answer": "40", "hint": "Diện tích $= \\text{dài} \\times \\text{rộng} = 8 \\times 5$." },
+    { "type": "multiple-choice", "question": "Hình thoi có hai đường chéo dài $6\\ \\text{cm}$ và $8\\ \\text{cm}$. Diện tích của hình thoi là:", "options": ["$24\\ \\text{cm}^2$", "$48\\ \\text{cm}^2$", "$14\\ \\text{cm}^2$", "$28\\ \\text{cm}^2$"], "answer": 0, "hint": "Diện tích hình thoi $= \\dfrac{1}{2} \\times d_1 \\times d_2 = \\dfrac{1}{2} \\times 6 \\times 8$." },
+    { "type": "fill-blank", "question": "Hình bình hành có cạnh đáy $7\\ \\text{cm}$ và chiều cao $4\\ \\text{cm}$. Diện tích là (chỉ điền số, đơn vị $\\text{cm}^2$): ___", "answer": "28", "hint": "Diện tích hình bình hành $= \\text{đáy} \\times \\text{chiều cao} = 7 \\times 4$." },
+    { "type": "multiple-choice", "question": "Hình thang có hai đáy dài $5\\ \\text{cm}$ và $9\\ \\text{cm}$, chiều cao $4\\ \\text{cm}$. Diện tích của hình thang là:", "options": ["$28\\ \\text{cm}^2$", "$56\\ \\text{cm}^2$", "$18\\ \\text{cm}^2$", "$36\\ \\text{cm}^2$"], "answer": 0, "hint": "Diện tích hình thang $= \\dfrac{(a + b) \\times h}{2} = \\dfrac{(5 + 9) \\times 4}{2}$." },
+    { "type": "multiple-choice", "question": "Hình nào sau đây có đúng $4$ trục đối xứng?", "options": ["Hình vuông", "Hình chữ nhật (không phải hình vuông)", "Hình bình hành", "Hình thang cân"], "answer": 0, "hint": "Hình vuông có $4$ trục đối xứng; hình chữ nhật có $2$ trục đối xứng." },
+    { "type": "fill-blank", "question": "Tam giác đều có ___ trục đối xứng (điền số).", "answer": "3", "hint": "Mỗi trục đi qua một đỉnh và trung điểm cạnh đối diện." },
+    { "type": "true-false", "question": "Hình bình hành (không phải hình chữ nhật hay hình thoi) có tâm đối xứng nhưng không có trục đối xứng.", "answer": true, "hint": "Tâm đối xứng của hình bình hành là giao điểm hai đường chéo." },
+    { "type": "multiple-choice", "question": "Hình nào sau đây KHÔNG có tâm đối xứng?", "options": ["Tam giác đều", "Hình vuông", "Hình chữ nhật", "Hình thoi"], "answer": 0, "hint": "Tam giác đều có trục đối xứng nhưng không có tâm đối xứng." }
+  ]
+}

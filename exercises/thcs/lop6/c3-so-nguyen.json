@@ -1,0 +1,27 @@
+{
+  "id": "thcs-toan-l6-c3-so-nguyen",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Chương 3: Số nguyên",
+  "difficulty": 1,
+  "outcomes": ["T6-SN-1", "T6-SN-2", "T6-SN-3", "T6-SN-4", "T6-SN-5"],
+  "questions": [
+    { "type": "multiple-choice", "question": "Số nào sau đây là số nguyên âm?", "options": ["$-4$", "$0$", "$5$", "$\\frac{1}{2}$"], "answer": 0 },
+    { "type": "multiple-choice", "question": "Tập hợp các số nguyên được kí hiệu là:", "options": ["$\\mathbb{Z}$", "$\\mathbb{N}$", "$\\mathbb{Q}$", "$\\mathbb{R}$"], "answer": 0 },
+    { "type": "multiple-choice", "question": "So sánh hai số $-7$ và $-3$, chọn câu đúng:", "options": ["$-7 < -3$", "$-7 > -3$", "$-7 = -3$", "Không so sánh được"], "answer": 0, "hint": "Trên trục số, số bên trái nhỏ hơn" },
+    { "type": "fill-blank", "question": "Số đối của $-8$ là ___", "answer": "8" },
+    { "type": "fill-blank", "question": "Giá trị tuyệt đối $|-15|$ bằng ___", "answer": "15" },
+    { "type": "true-false", "question": "Mọi số nguyên âm đều nhỏ hơn $0$.", "answer": true },
+    { "type": "multiple-choice", "question": "Tính $(-6) + (-9)$:", "options": ["$-15$", "$15$", "$-3$", "$3$"], "answer": 0, "hint": "Cộng hai số cùng dấu âm" },
+    { "type": "multiple-choice", "question": "Tính $(-12) + 5$:", "options": ["$-7$", "$7$", "$-17$", "$17$"], "answer": 0 },
+    { "type": "fill-blank", "question": "Tính $8 - 15 = $ ___", "answer": "-7" },
+    { "type": "multiple-choice", "question": "Bỏ dấu ngoặc và tính $5 - (3 - 8)$:", "options": ["$10$", "$0$", "$-6$", "$6$"], "answer": 0, "hint": "Đổi dấu các số trong ngoặc khi trước ngoặc có dấu trừ" },
+    { "type": "true-false", "question": "Đẳng thức $-(a - b) = -a + b$ đúng với mọi số nguyên $a, b$.", "answer": true },
+    { "type": "multiple-choice", "question": "Tính $(-4) \\times 7$:", "options": ["$-28$", "$28$", "$-11$", "$11$"], "answer": 0 },
+    { "type": "multiple-choice", "question": "Tích $(-3) \\times (-5)$ bằng:", "options": ["$15$", "$-15$", "$8$", "$-8$"], "answer": 0, "hint": "Tích hai số âm là số dương" },
+    { "type": "fill-blank", "question": "Tính $(-20) : 4 = $ ___", "answer": "-5" },
+    { "type": "true-false", "question": "Tích của hai số nguyên âm là một số nguyên dương.", "answer": true },
+    { "type": "multiple-choice", "question": "Nhiệt độ buổi sáng là $-3^\\circ C$, đến trưa tăng thêm $8^\\circ C$. Nhiệt độ buổi trưa là:", "options": ["$5^\\circ C$", "$-11^\\circ C$", "$11^\\circ C$", "$-5^\\circ C$"], "answer": 0, "hint": "Lấy $-3 + 8$" }
+  ]
+}

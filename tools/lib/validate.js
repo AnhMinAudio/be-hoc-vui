@@ -65,6 +65,8 @@ function validateExercise(data) {
     errors.push(`stage không hợp lệ: ${stage}`);
   }
   if (!data.topic) errors.push('thiếu "topic"');
+  if (data.outcomes !== undefined && (!Array.isArray(data.outcomes) || data.outcomes.some(o => typeof o !== 'string')))
+    errors.push('"outcomes" phải là mảng chuỗi (mã yêu cầu cần đạt)');
   if (!Array.isArray(data.questions) || data.questions.length === 0) {
     errors.push('không có câu hỏi');
   } else {
@@ -212,6 +214,7 @@ function buildArtifacts(okList) {
       topic: data.topic,
       difficulty: data.difficulty || 1,
       questionCount: data.questions.length,
+      outcomes: data.outcomes || [],
       path: rel,
     });
   }

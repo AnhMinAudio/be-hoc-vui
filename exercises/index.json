@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:11:11.690Z",
+  "generatedAt": "2026-05-28T07:42:32.983Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -9,6 +9,7 @@
       "topic": "Nhận biết con vật",
       "difficulty": 1,
       "questionCount": 6,
+      "outcomes": [],
       "path": "mam-non/age3/con-vat.json"
     },
     {
@@ -19,6 +20,7 @@
       "topic": "Con vật và đặc điểm",
       "difficulty": 2,
       "questionCount": 7,
+      "outcomes": [],
       "path": "mam-non/age4/con-vat.json"
     },
     {
@@ -29,6 +31,7 @@
       "topic": "Thế giới động vật",
       "difficulty": 3,
       "questionCount": 8,
+      "outcomes": [],
       "path": "mam-non/age5/con-vat.json"
     },
     {
@@ -39,6 +42,7 @@
       "topic": "Đếm số 1 - 3",
       "difficulty": 1,
       "questionCount": 6,
+      "outcomes": [],
       "path": "mam-non/age3/dem-so.json"
     },
     {
@@ -49,6 +53,7 @@
       "topic": "Đếm số 1 - 5",
       "difficulty": 2,
       "questionCount": 7,
+      "outcomes": [],
       "path": "mam-non/age4/dem-so.json"
     },
     {
@@ -59,6 +64,7 @@
       "topic": "Đếm số 1 - 10 và so sánh",
       "difficulty": 3,
       "questionCount": 8,
+      "outcomes": [],
       "path": "mam-non/age5/dem-so.json"
     },
     {
@@ -69,6 +75,7 @@
       "topic": "Hình khối cơ bản",
       "difficulty": 1,
       "questionCount": 6,
+      "outcomes": [],
       "path": "mam-non/age3/hinh-khoi.json"
     },
     {
@@ -79,6 +86,7 @@
       "topic": "Hình khối và so sánh",
       "difficulty": 2,
       "questionCount": 7,
+      "outcomes": [],
       "path": "mam-non/age4/hinh-khoi.json"
     },
     {
@@ -89,6 +97,7 @@
       "topic": "Hình khối và so sánh nâng cao",
       "difficulty": 3,
       "questionCount": 8,
+      "outcomes": [],
       "path": "mam-non/age5/hinh-khoi.json"
     },
     {
@@ -99,6 +108,7 @@
       "topic": "Nhận biết màu sắc",
       "difficulty": 1,
       "questionCount": 6,
+      "outcomes": [],
       "path": "mam-non/age3/mau-sac.json"
     },
     {
@@ -109,6 +119,7 @@
       "topic": "Màu sắc và đồ vật",
       "difficulty": 2,
       "questionCount": 7,
+      "outcomes": [],
       "path": "mam-non/age4/mau-sac.json"
     },
     {
@@ -119,6 +130,7 @@
       "topic": "Màu sắc của sự vật quanh em",
       "difficulty": 3,
       "questionCount": 7,
+      "outcomes": [],
       "path": "mam-non/age5/mau-sac.json"
     },
     {
@@ -129,6 +141,7 @@
       "topic": "Từ loại, cấu tạo từ và biện pháp tu từ so sánh, nhân hóa",
       "difficulty": 2,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop6/ngu-van-tu-loai-va-bien-phap-tu-tu.json"
     },
     {
@@ -139,6 +152,7 @@
       "topic": "Từ Hán Việt, từ đồng nghĩa - trái nghĩa và biện pháp điệp ngữ, ẩn dụ, hoán dụ",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "thcs/lop7/ngu-van-tu-han-viet-va-tu-tu.json"
     },
     {
@@ -149,6 +163,7 @@
       "topic": "Câu ghép, dấu câu, trường từ vựng và biện pháp nói quá, nói giảm nói tránh",
       "difficulty": 2,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop8/ngu-van-cau-va-bien-phap-tu-tu.json"
     },
     {
@@ -159,6 +174,7 @@
       "topic": "Các phương châm hội thoại, nghĩa tường minh và hàm ý, thành phần biệt lập, liên kết câu",
       "difficulty": 3,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
     },
     {
@@ -169,6 +185,7 @@
       "topic": "Colors & Numbers (Màu sắc và số đếm)",
       "difficulty": 1,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-anh/lop1/colors-and-numbers.json"
     },
     {
@@ -179,6 +196,7 @@
       "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
       "difficulty": 1,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-anh/lop2/animals-family-school.json"
     },
     {
@@ -189,6 +207,7 @@
       "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
       "difficulty": 2,
       "questionCount": 16,
+      "outcomes": [],
       "path": "tieng-anh/lop3/numbers-and-days.json"
     },
     {
@@ -199,6 +218,7 @@
       "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-anh/lop4/jobs-and-hobbies.json"
     },
     {
@@ -209,6 +229,7 @@
       "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
       "difficulty": 3,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
     },
     {
@@ -219,6 +240,7 @@
       "topic": "Present Simple, to be, there is/are & Daily routines (Thì hiện tại đơn, động từ to be, cấu trúc there is/are và thói quen hằng ngày)",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "thcs/lop6/tieng-anh-present-simple.json"
     },
     {
@@ -229,6 +251,7 @@
       "topic": "Past Simple, Comparatives & Superlatives, Present Continuous (Thì quá khứ đơn, so sánh hơn và so sánh nhất, thì hiện tại tiếp diễn)",
       "difficulty": 2,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop7/tieng-anh-past-simple-comparatives.json"
     },
     {
@@ -239,6 +262,7 @@
       "topic": "Present Perfect, First Conditional & Basic Passive Voice (Thì hiện tại hoàn thành, câu điều kiện loại 1 và câu bị động cơ bản)",
       "difficulty": 3,
       "questionCount": 17,
+      "outcomes": [],
       "path": "thcs/lop8/tieng-anh-present-perfect.json"
     },
     {
@@ -249,6 +273,7 @@
       "topic": "Relative Clauses, Reported Speech & Second Conditional (Mệnh đề quan hệ, câu tường thuật và câu điều kiện loại 2)",
       "difficulty": 3,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop9/tieng-anh-relative-clauses.json"
     },
     {
@@ -259,6 +284,7 @@
       "topic": "Chữ cái và âm",
       "difficulty": 1,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
     },
     {
@@ -269,6 +295,7 @@
       "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
       "difficulty": 1,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-viet/lop2/tu-loai-va-cau.json"
     },
     {
@@ -279,6 +306,7 @@
       "topic": "Từ chỉ đặc điểm và hình ảnh so sánh",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-viet/lop3/tu-loai-va-so-sanh.json"
     },
     {
@@ -289,6 +317,7 @@
       "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
     },
     {
@@ -299,6 +328,7 @@
       "topic": "Từ đồng nghĩa, trái nghĩa, quan hệ từ và đại từ",
       "difficulty": 3,
       "questionCount": 18,
+      "outcomes": [],
       "path": "tieng-viet/lop5/dong-trai-nghia-quan-he-tu.json"
     },
     {
@@ -309,6 +339,7 @@
       "topic": "Phép cộng trong phạm vi 10",
       "difficulty": 1,
       "questionCount": 16,
+      "outcomes": [],
       "path": "toan/lop1/phep-cong-trong-10.json"
     },
     {
@@ -319,6 +350,7 @@
       "topic": "Bảng chia 2 và bảng chia 3",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/bang-chia-2-va-3.json"
     },
     {
@@ -329,6 +361,7 @@
       "topic": "Bảng chia 4 và bảng chia 5",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/bang-chia-4-va-5.json"
     },
     {
@@ -339,6 +372,7 @@
       "topic": "Bảng nhân 2 và bảng nhân 3",
       "difficulty": 1,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/bang-nhan-2-va-3.json"
     },
     {
@@ -349,6 +383,7 @@
       "topic": "Bảng nhân 4 và bảng nhân 5",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/bang-nhan-4-va-5.json"
     },
     {
@@ -359,6 +394,7 @@
       "topic": "Cộng trừ trong 100 và bảng nhân",
       "difficulty": 1,
       "questionCount": 16,
+      "outcomes": [],
       "path": "toan/lop2/cong-tru-va-bang-nhan.json"
     },
     {
@@ -369,6 +405,7 @@
       "topic": "Đơn vị đo độ dài (cm, dm, m)",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/don-vi-do-do-dai.json"
     },
     {
@@ -379,6 +416,7 @@
       "topic": "Giải toán có lời văn (nhiều hơn, ít hơn)",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/toan-co-loi-van.json"
     },
     {
@@ -389,6 +427,7 @@
       "topic": "Phép cộng có nhớ trong phạm vi 100",
       "difficulty": 1,
       "questionCount": 16,
+      "outcomes": [],
       "path": "toan/lop2/cong-co-nho-trong-100.json"
     },
     {
@@ -399,6 +438,7 @@
       "topic": "Phép trừ có nhớ trong phạm vi 100",
       "difficulty": 1,
       "questionCount": 16,
+      "outcomes": [],
       "path": "toan/lop2/tru-co-nho-trong-100.json"
     },
     {
@@ -409,6 +449,7 @@
       "topic": "Số có ba chữ số (đọc, viết, so sánh)",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/so-co-ba-chu-so.json"
     },
     {
@@ -419,6 +460,7 @@
       "topic": "Xem đồng hồ và đơn vị thời gian",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop2/xem-dong-ho.json"
     },
     {
@@ -429,6 +471,7 @@
       "topic": "Nhân chia trong bảng và phép tính trong 1000",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop3/nhan-chia-trong-bang.json"
     },
     {
@@ -439,6 +482,7 @@
       "topic": "Số lớn, phân số và hình học",
       "difficulty": 2,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
     },
     {
@@ -449,17 +493,140 @@
       "topic": "Số thập phân, phần trăm và diện tích",
       "difficulty": 3,
       "questionCount": 17,
+      "outcomes": [],
       "path": "toan/lop5/thap-phan-phan-tram-dien-tich.json"
     },
     {
-      "id": "thcs-toan-l6-so-nguyen-luy-thua",
+      "id": "thcs-toan-l6-c1-so-tu-nhien",
       "stage": "thcs",
       "subject": "toan",
       "grade": 6,
-      "topic": "Số nguyên, lũy thừa và thứ tự phép tính",
+      "topic": "Chương 1: Tập hợp các số tự nhiên",
       "difficulty": 1,
-      "questionCount": 15,
-      "path": "thcs/lop6/toan-so-nguyen-luy-thua.json"
+      "questionCount": 18,
+      "outcomes": [
+        "T6-STN-1",
+        "T6-STN-2",
+        "T6-STN-3",
+        "T6-STN-4",
+        "T6-STN-5"
+      ],
+      "path": "thcs/lop6/c1-so-tu-nhien.json"
+    },
+    {
+      "id": "thcs-toan-l6-c2-tinh-chia-het",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 2: Tính chia hết trong tập số tự nhiên",
+      "difficulty": 1,
+      "questionCount": 18,
+      "outcomes": [
+        "T6-CH-1",
+        "T6-CH-2",
+        "T6-CH-3",
+        "T6-CH-4"
+      ],
+      "path": "thcs/lop6/c2-tinh-chia-het.json"
+    },
+    {
+      "id": "thcs-toan-l6-c3-so-nguyen",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 3: Số nguyên",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "T6-SN-1",
+        "T6-SN-2",
+        "T6-SN-3",
+        "T6-SN-4",
+        "T6-SN-5"
+      ],
+      "path": "thcs/lop6/c3-so-nguyen.json"
+    },
+    {
+      "id": "thcs-toan-l6-c4-5-hinh-phang-doi-xung",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 4 & 5: Hình phẳng và tính đối xứng",
+      "difficulty": 1,
+      "questionCount": 18,
+      "outcomes": [
+        "T6-HH-1",
+        "T6-HH-2",
+        "T6-HH-3",
+        "T6-DX-1",
+        "T6-DX-2"
+      ],
+      "path": "thcs/lop6/c4-5-hinh-phang-doi-xung.json"
+    },
+    {
+      "id": "thcs-toan-l6-c6-phan-so",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 6: Phân số",
+      "difficulty": 1,
+      "questionCount": 18,
+      "outcomes": [
+        "T6-PS-1",
+        "T6-PS-2",
+        "T6-PS-3",
+        "T6-PS-4",
+        "T6-PS-5"
+      ],
+      "path": "thcs/lop6/c6-phan-so.json"
+    },
+    {
+      "id": "thcs-toan-l6-c7-so-thap-phan",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 7: Số thập phân",
+      "difficulty": 1,
+      "questionCount": 18,
+      "outcomes": [
+        "T6-TP-1",
+        "T6-TP-2",
+        "T6-TP-3",
+        "T6-TP-4"
+      ],
+      "path": "thcs/lop6/c7-so-thap-phan.json"
+    },
+    {
+      "id": "thcs-toan-l6-c8-hinh-co-ban",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 8: Những hình hình học cơ bản",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "T6-HC-1",
+        "T6-HC-2",
+        "T6-HC-3",
+        "T6-HC-4"
+      ],
+      "path": "thcs/lop6/c8-hinh-co-ban.json"
+    },
+    {
+      "id": "thcs-toan-l6-c9-du-lieu-xac-suat",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Chương 9: Dữ liệu và xác suất thực nghiệm",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "T6-DL-1",
+        "T6-DL-2",
+        "T6-DL-3",
+        "T6-DL-4"
+      ],
+      "path": "thcs/lop6/c9-du-lieu-xac-suat.json"
     },
     {
       "id": "thcs-toan-l7-so-huu-ti-va-bieu-thuc",
@@ -469,6 +636,7 @@
       "topic": "Số hữu tỉ, lũy thừa, tỉ lệ thức, biểu thức đại số và đường thẳng song song",
       "difficulty": 2,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop7/toan-so-huu-ti-va-bieu-thuc.json"
     },
     {
@@ -479,6 +647,7 @@
       "topic": "Hằng đẳng thức đáng nhớ, phân thức, phương trình bậc nhất, định lý Pythagore và diện tích",
       "difficulty": 2,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop8/toan-hang-dang-thuc-va-phuong-trinh.json"
     },
     {
@@ -489,6 +658,7 @@
       "topic": "Căn bậc hai, hàm số bậc nhất, hệ phương trình, phương trình bậc hai và hệ thức lượng trong tam giác vuông",
       "difficulty": 3,
       "questionCount": 18,
+      "outcomes": [],
       "path": "thcs/lop9/toan-can-bac-hai-va-ham-so.json"
     }
   ]
