@@ -60,6 +60,7 @@ async function route() {
   const parts = hash.split('/').filter(Boolean);
   if (parts.length === 0) return renderHome(view);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
+  if (parts[0] === 'gioi-thieu') return renderAbout(view);
   if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
   if (parts[0] === 'mam-non') {
     if (parts.length === 1) return renderPreschoolAges(view);
@@ -107,21 +108,33 @@ function renderAvatarPicker(view, isChanging) {
 
 // ===== Views =====
 function renderHome(view) {
-  if (!Progress.getAvatar()) return renderAvatarPicker(view, false);
   const total = CATALOG.exercises.length;
   const av = Progress.getAvatar();
   view.innerHTML = `
-    <div class="hero">
-      <div style="font-size:4rem">${av}</div>
-      <h1>Chào mừng bạn quay lại!</h1>
-      <p>Chọn nơi học của bạn — có ${total} bài đang chờ 🚀</p>
-    </div>
+    <section class="hero-pro">
+      <h1>Học vui mỗi ngày, vững vàng mỗi kỳ thi</h1>
+      <p class="hero-sub">Bài tập &amp; đề thi thử bám sát chương trình GDPT 2018 — từ Mầm non đến THPT. Hiện có <b>${total}</b> bộ đề, hoàn toàn miễn phí.</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" onclick="document.getElementById('cap-hoc').scrollIntoView({behavior:'smooth'})">Bắt đầu học</button>
+        <a href="#/gioi-thieu" class="btn btn-secondary">Tìm hiểu thêm</a>
+      </div>
+      ${av ? '' : '<a href="#/doi-nhan-vat" class="avatar-hint">🐾 Chọn một nhân vật học tập đồng hành cùng bạn</a>'}
+    </section>
+
+    <section class="features" aria-label="Điểm nổi bật">
+      <div class="feature"><div class="f-icon">📋</div><div class="f-text"><b>Bám chương trình</b><span>Theo yêu cầu cần đạt GDPT 2018 (Kết nối tri thức)</span></div></div>
+      <div class="feature"><div class="f-icon">📝</div><div class="f-text"><b>Luyện thi thật</b><span>Đề thi thử bấm giờ, đúng cấu trúc thi tốt nghiệp &amp; ĐGNL</span></div></div>
+      <div class="feature"><div class="f-icon">🎯</div><div class="f-text"><b>Chấm điểm ngay</b><span>Trắc nghiệm, điền đáp án, đúng/sai, ghép cặp</span></div></div>
+      <div class="feature"><div class="f-icon">⭐</div><div class="f-text"><b>Vui &amp; có thưởng</b><span>Sao, huy hiệu, nhân vật đồng hành</span></div></div>
+    </section>
+
+    <h2 class="home-section" id="cap-hoc">Chọn cấp học</h2>
     <a href="#/mam-non" class="preschool-banner">
       <span class="pb-icon">🧸</span>
       <span class="pb-text"><b>Khu Mầm Non</b><small>Cho bé 3 – 5 tuổi · chạm tranh, nghe đọc</small></span>
       <span class="pb-arrow">→</span>
     </a>
-    <h2 class="home-section">🎒 Tiểu học</h2>
+    <h3 class="home-subsection">🎒 Tiểu học</h3>
     <div class="grade-grid">
       ${[1, 2, 3, 4, 5].map(g => `
         <a href="#/lop${g}" class="grade-card">
@@ -129,7 +142,7 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
-    <h2 class="home-section">🎓 Trung học cơ sở</h2>
+    <h3 class="home-subsection">📚 Trung học cơ sở</h3>
     <div class="grade-grid">
       ${[6, 7, 8, 9].map(g => `
         <a href="#/lop${g}" class="grade-card thcs">
@@ -137,7 +150,7 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
-    <h2 class="home-section">🎓 Trung học phổ thông</h2>
+    <h3 class="home-subsection">🎓 Trung học phổ thông</h3>
     <div class="grade-grid">
       ${[10, 11, 12].map(g => `
         <a href="#/lop${g}" class="grade-card thpt">
@@ -145,6 +158,30 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
+  `;
+}
+
+function renderAbout(view) {
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <article class="about">
+      <h1>Giới thiệu Bé Học Vui</h1>
+      <p><b>Bé Học Vui</b> là nền tảng học và luyện tập <b>miễn phí</b>, giúp học sinh ôn luyện đúng chương trình và chuẩn bị cho các kỳ thi — từ Mầm non đến THPT.</p>
+      <h2>Dành cho ai?</h2>
+      <ul>
+        <li><b>Mầm non (3–5 tuổi):</b> màu sắc, con vật, đếm số, hình khối — chạm tranh, nghe đọc, chưa cần biết chữ.</li>
+        <li><b>Tiểu học (1–5):</b> Toán, Tiếng Việt, Tiếng Anh.</li>
+        <li><b>THCS (6–9):</b> Toán, Ngữ văn, Tiếng Anh.</li>
+        <li><b>THPT (10–12):</b> Toán, Ngữ văn, Tiếng Anh, Vật lí, Hóa học, Sinh học, Lịch sử, Địa lí, GDKT-PL.</li>
+      </ul>
+      <h2>Cách dùng</h2>
+      <p>Chọn cấp học → lớp → môn → bài. Mỗi bài chấm điểm ngay, có chế độ <b>Luyện tập</b> (biết đúng/sai từng câu) và <b>Làm bài thi</b> (chấm cuối). Riêng <b>đề thi thử</b> có bấm giờ như phòng thi.</p>
+      <h2>Cam kết chất lượng</h2>
+      <p>Đề được biên soạn <b>bám yêu cầu cần đạt của chương trình GDPT 2018</b> (bộ Kết nối tri thức) và tham khảo cấu trúc đề thi thật. Mỗi câu gắn nhãn chủ đề và mức độ tư duy (Nhận biết / Thông hiểu / Vận dụng / Vận dụng cao).</p>
+      <p class="about-note">⚠️ Nội dung mang tính tham khảo. Đáp án các môn khoa học – xã hội và tự luận nên được giáo viên hoặc phụ huynh kiểm tra trước khi dùng chính thức.</p>
+      <h2>Liên hệ</h2>
+      <p>Mọi góp ý xin gửi tới quản trị viên của trang để chúng tôi hoàn thiện nội dung. <em>(Bạn có thể cập nhật thông tin liên hệ cụ thể tại đây.)</em></p>
+    </article>
   `;
 }
 

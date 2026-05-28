@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Nunito, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8F8F1"/>
+      <stop offset="0.5" stop-color="#FFF9F2"/>
+      <stop offset="1" stop-color="#F4ECFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="150" cy="120" r="70" fill="#A8E6CF" opacity="0.5"/>
+  <circle cx="1060" cy="520" r="90" fill="#C9A3FF" opacity="0.4"/>
+  <circle cx="1080" cy="120" r="46" fill="#FFD3B6" opacity="0.6"/>
+  <text x="600" y="250" font-size="150" text-anchor="middle">📚</text>
+  <text x="600" y="380" font-size="92" font-weight="900" text-anchor="middle" fill="#3D3D5C">Bé Học Vui</text>
+  <text x="600" y="450" font-size="40" font-weight="700" text-anchor="middle" fill="#4DB6AC">Học &amp; luyện thi bám chương trình GDPT</text>
+  <text x="600" y="510" font-size="34" font-weight="600" text-anchor="middle" fill="#6B6B8C">Mầm non · Tiểu học · THCS · THPT</text>
+</svg>

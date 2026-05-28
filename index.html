@@ -3,8 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bé Học Vui - Bài tập tiểu học</title>
-  <meta name="description" content="Trang web bài tập Toán, Tiếng Việt, Tiếng Anh cho học sinh tiểu học lớp 1-5">
+  <title>Bé Học Vui — Học & luyện thi bám chương trình GDPT (Mầm non đến THPT)</title>
+  <meta name="description" content="Bé Học Vui: nền tảng học và luyện tập miễn phí bám sát chương trình GDPT 2018 — từ Mầm non, Tiểu học, THCS đến THPT. Bài tập theo chủ đề và đề thi thử có chấm điểm tức thì.">
+  <meta name="theme-color" content="#4DB6AC">
+  <meta name="author" content="Bé Học Vui">
+
+  <!-- Open Graph / chia sẻ liên kết -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="Bé Học Vui">
+  <meta property="og:title" content="Bé Học Vui — Học & luyện thi từ Mầm non đến THPT">
+  <meta property="og:description" content="Bài tập & đề thi thử bám sát chương trình GDPT 2018, có chấm điểm tức thì. Miễn phí cho mọi cấp học.">
+  <meta property="og:url" content="https://be-hoc-vui.trantan3459.workers.dev/">
+  <meta property="og:image" content="https://be-hoc-vui.trantan3459.workers.dev/assets/img/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bé Học Vui — Học & luyện thi từ Mầm non đến THPT">
+  <meta name="twitter:description" content="Bài tập & đề thi thử bám sát chương trình GDPT 2018, có chấm điểm tức thì.">
+  <meta name="twitter:image" content="https://be-hoc-vui.trantan3459.workers.dev/assets/img/og-image.svg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,30 +29,63 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
 </head>
 <body>
-  <div id="app" class="container">
-    <!-- Header -->
-    <header class="header">
-      <a href="#/" class="logo">
+  <a class="skip-link" href="#view">Bỏ qua tới nội dung chính</a>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="#/" class="logo" aria-label="Bé Học Vui - trang chủ">
         <span class="logo-icon" id="header-avatar">📚</span>
-        <span>Bé Học Vui</span>
+        <span class="logo-text">
+          <b>Bé Học Vui</b>
+          <small>Học &amp; luyện thi · Mầm non → THPT</small>
+        </span>
       </a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#/">Trang chủ</a>
+        <a href="#/gioi-thieu">Giới thiệu</a>
+        <a href="#/thanh-tich">Thành tích</a>
+      </nav>
       <div class="header-right">
-        <a href="#/thanh-tich" class="achievements-btn" title="Thành tích của bé">🏅</a>
-        <div class="stars-display" id="stars-display">
-          <span>⭐</span>
+        <div class="stars-display" id="stars-display" title="Số sao của bạn">
+          <span aria-hidden="true">⭐</span>
           <span id="star-count">0</span>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- View container — renders bằng JS -->
+  <div class="container">
     <main id="view"></main>
   </div>
 
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-brand">📚 Bé Học Vui</div>
+        <p>Học và luyện tập bám sát chương trình GDPT 2018, từ Mầm non đến THPT. Hoàn toàn miễn phí.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Liên kết</h4>
+        <a href="#/">Trang chủ</a>
+        <a href="#/gioi-thieu">Giới thiệu</a>
+        <a href="#/thanh-tich">Thành tích của bé</a>
+      </div>
+      <div class="footer-col">
+        <h4>Nguồn &amp; bản quyền</h4>
+        <p>Biểu tượng: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noopener">Twemoji</a> (giấy phép CC-BY 4.0).<br>
+        Công thức: <a href="https://katex.org" target="_blank" rel="noopener">KaTeX</a> (MIT).<br>
+        Phông chữ: Nunito (Google Fonts, OFL).</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Bé Học Vui · Nội dung biên soạn tham khảo, bám chương trình GDPT 2018 (bộ Kết nối tri thức). Đáp án mang tính tham khảo, nên được giáo viên/phụ huynh kiểm tra.
+    </div>
+  </footer>
+
   <script src="assets/js/progress.js"></script>
   <script src="assets/js/media.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <script src="assets/js/exercises/multiple-choice.js"></script>
   <script src="assets/js/exercises/fill-blank.js"></script>
   <script src="assets/js/exercises/matching.js"></script>
