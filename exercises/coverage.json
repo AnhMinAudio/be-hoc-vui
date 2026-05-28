@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:52:36.472Z",
+  "generatedAt": "2026-05-28T09:01:36.248Z",
   "coverage": {
     "toan": {
       "1": {
@@ -697,9 +697,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 18,
+        "topics": [
+          {
+            "id": "thpt-vat-li-l12-on-tap",
+            "topic": "Ôn tập Vật lí 12",
+            "questionCount": 18,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "hoa-hoc": {
@@ -714,9 +721,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 18,
+        "topics": [
+          {
+            "id": "thpt-hoa-hoc-l12-on-tap",
+            "topic": "Ôn tập Hóa học 12",
+            "questionCount": 18,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "sinh-hoc": {
@@ -731,9 +745,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 19,
+        "topics": [
+          {
+            "id": "thpt-sinh-hoc-l12-on-tap",
+            "topic": "Ôn tập Sinh học 12",
+            "questionCount": 19,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "lich-su": {
@@ -748,9 +769,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 17,
+        "topics": [
+          {
+            "id": "thpt-lich-su-l12-on-tap",
+            "topic": "Ôn tập Lịch sử 12",
+            "questionCount": 17,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "dia-li": {
@@ -765,9 +793,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 17,
+        "topics": [
+          {
+            "id": "thpt-dia-li-l12-on-tap",
+            "topic": "Ôn tập Địa lí 12",
+            "questionCount": 17,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "gdkt-pl": {
@@ -782,9 +817,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 18,
+        "topics": [
+          {
+            "id": "thpt-gdkt-pl-l12-on-tap",
+            "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 12",
+            "questionCount": 18,
+            "difficulty": 3
+          }
+        ]
       }
     }
   },

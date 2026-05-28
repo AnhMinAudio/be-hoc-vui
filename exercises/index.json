@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:52:36.472Z",
+  "generatedAt": "2026-05-28T09:01:36.248Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -74,6 +74,41 @@
       "path": "mam-non/age5/dem-so.json"
     },
     {
+      "id": "thpt-dia-li-l12-on-tap",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 12,
+      "topic": "Ôn tập Địa lí 12",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Địa lí tự nhiên Việt Nam",
+        "Địa lí dân cư",
+        "Địa lí các ngành kinh tế",
+        "Địa lí vùng kinh tế"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/dia-li.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l12-on-tap",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 12,
+      "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 12",
+      "difficulty": 3,
+      "questionCount": 18,
+      "outcomes": [
+        "Tăng trưởng và phát triển kinh tế",
+        "Hội nhập kinh tế quốc tế",
+        "Bảo hiểm và an sinh xã hội",
+        "Quyền và nghĩa vụ công dân",
+        "Pháp luật"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/gdkt-pl.json"
+    },
+    {
       "id": "mn-hinh-khoi-3t",
       "stage": "mam-non",
       "subject": "hinh-khoi",
@@ -108,6 +143,42 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age5/hinh-khoi.json"
+    },
+    {
+      "id": "thpt-hoa-hoc-l12-on-tap",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 12,
+      "topic": "Ôn tập Hóa học 12",
+      "difficulty": 3,
+      "questionCount": 18,
+      "outcomes": [
+        "Ester - Lipid",
+        "Carbohydrate",
+        "Hợp chất nitrogen",
+        "Polymer",
+        "Đại cương kim loại"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/hoa-hoc.json"
+    },
+    {
+      "id": "thpt-lich-su-l12-on-tap",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 12,
+      "topic": "Ôn tập Lịch sử 12",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Trật tự thế giới sau 1945",
+        "ASEAN",
+        "Cách mạng tháng Tám 1945",
+        "Kháng chiến chống Pháp - Mỹ",
+        "Công cuộc Đổi mới"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/lich-su.json"
     },
     {
       "id": "mn-mau-sac-3t",
@@ -192,6 +263,24 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l12-on-tap",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 12,
+      "topic": "Ôn tập Sinh học 12",
+      "difficulty": 3,
+      "questionCount": 19,
+      "outcomes": [
+        "Di truyền phân tử",
+        "Quy luật di truyền",
+        "Đột biến",
+        "Tiến hóa",
+        "Sinh thái học"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/sinh-hoc.json"
     },
     {
       "id": "ta-l1-colors-and-numbers",
@@ -848,6 +937,23 @@
       ],
       "timeLimit": 45,
       "path": "thpt/lop12/de-thi-thu-tot-nghiep-1.json"
+    },
+    {
+      "id": "thpt-vat-li-l12-on-tap",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 12,
+      "topic": "Ôn tập Vật lí 12",
+      "difficulty": 3,
+      "questionCount": 18,
+      "outcomes": [
+        "Vật lí nhiệt",
+        "Khí lí tưởng",
+        "Từ trường",
+        "Vật lí hạt nhân"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/vat-li.json"
     }
   ]
 }

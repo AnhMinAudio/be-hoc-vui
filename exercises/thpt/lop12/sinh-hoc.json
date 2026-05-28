@@ -1,0 +1,35 @@
+{
+  "id": "thpt-sinh-hoc-l12-on-tap",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 12,
+  "topic": "Ôn tập Sinh học 12",
+  "difficulty": 3,
+  "outcomes": ["Di truyền phân tử", "Quy luật di truyền", "Đột biến", "Tiến hóa", "Sinh thái học"],
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "Đơn phân cấu tạo nên phân tử DNA là:", "options": ["Nucleotide", "Amino acid", "Glucose", "Acid béo"], "answer": 0, "hint": "DNA là một đa phân, đơn phân của nó gồm 4 loại A, T, G, C." },
+    { "type": "multiple-choice", "level": "NB", "question": "Theo nguyên tắc bổ sung trong phân tử DNA, base nào sau đây liên kết với adenine (A)?", "options": ["Thymine (T)", "Guanine (G)", "Cytosine (C)", "Uracil (U)"], "answer": 0, "hint": "A liên kết với T bằng 2 liên kết hydrogen, G liên kết với C bằng 3 liên kết hydrogen." },
+    { "type": "multiple-choice", "level": "NB", "question": "Quá trình tổng hợp phân tử RNA dựa trên khuôn mẫu của DNA được gọi là:", "options": ["Phiên mã", "Dịch mã", "Nhân đôi DNA", "Đột biến"], "answer": 0, "hint": "Phiên mã (transcription) tạo ra RNA từ khuôn DNA." },
+    { "type": "multiple-choice", "level": "NB", "question": "Mã di truyền có tính đặc hiệu, nghĩa là:", "options": ["Một codon chỉ mã hóa cho một loại amino acid", "Nhiều codon cùng mã hóa một amino acid", "Mọi loài đều dùng chung bộ mã", "Mã được đọc theo từng cặp nucleotide"], "answer": 0, "hint": "Tính đặc hiệu: mỗi codon xác định một amino acid nhất định." },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong quá trình dịch mã, amino acid được vận chuyển đến ribosome nhờ phân tử nào?", "options": ["tRNA", "mRNA", "rRNA", "DNA"], "answer": 0, "hint": "tRNA (RNA vận chuyển) mang amino acid và có bộ ba đối mã (anticodon)." },
+    { "type": "multiple-choice", "level": "TH", "question": "Một gene có 3000 nucleotide. Số chu kì xoắn của gene này là:", "options": ["150", "300", "1500", "3000"], "answer": 0, "hint": "Mỗi chu kì xoắn gồm 20 nucleotide nên số chu kì = 3000 : 20 = 150." },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong thí nghiệm của Mendel ở cây đậu Hà Lan, khi lai hai cây thuần chủng hoa đỏ và hoa trắng (hoa đỏ trội hoàn toàn), kiểu hình ở đời F1 là:", "options": ["Toàn hoa đỏ", "Toàn hoa trắng", "1 đỏ : 1 trắng", "3 đỏ : 1 trắng"], "answer": 0, "hint": "F1 đồng tính biểu hiện tính trạng trội (hoa đỏ)." },
+    { "type": "multiple-choice", "level": "TH", "question": "Theo quy luật phân li của Mendel, khi cho F1 dị hợp (Aa) tự thụ phấn (A trội hoàn toàn so với a), tỉ lệ kiểu hình ở F2 là:", "options": ["3 trội : 1 lặn", "1 trội : 1 lặn", "1 : 2 : 1", "9 : 3 : 3 : 1"], "answer": 0, "hint": "Aa × Aa cho tỉ lệ kiểu gene 1AA : 2Aa : 1aa, kiểu hình 3 trội : 1 lặn." },
+    { "type": "multiple-choice", "level": "VD", "question": "Phép lai phân tích được dùng để xác định:", "options": ["Kiểu gene của cơ thể mang tính trạng trội", "Số lượng nhiễm sắc thể của loài", "Trình tự nucleotide của gene", "Số liên kết hydrogen của gene"], "answer": 0, "hint": "Lai cá thể trội chưa rõ kiểu gene với cá thể đồng hợp lặn để xác định nó thuần chủng hay dị hợp." },
+    { "type": "multiple-choice", "level": "NB", "question": "Đột biến gene là những biến đổi xảy ra trong:", "options": ["Cấu trúc của gene (liên quan đến một hoặc một số cặp nucleotide)", "Số lượng nhiễm sắc thể", "Cấu trúc của nhiễm sắc thể", "Kích thước tế bào"], "answer": 0, "hint": "Đột biến gene liên quan tới trình tự nucleotide như mất, thêm, thay thế cặp nucleotide." },
+    { "type": "multiple-choice", "level": "TH", "question": "Dạng đột biến số lượng nhiễm sắc thể mà tế bào thừa một nhiễm sắc thể ở một cặp (2n + 1) được gọi là:", "options": ["Thể ba", "Thể một", "Thể tam bội", "Thể tứ bội"], "answer": 0, "hint": "2n + 1 là thể ba (trisomy); 2n − 1 là thể một." },
+    { "type": "multiple-choice", "level": "NB", "question": "Hội chứng Down ở người chủ yếu do nguyên nhân nào?", "options": ["Thừa một nhiễm sắc thể số 21 (ba nhiễm sắc thể 21)", "Mất một nhiễm sắc thể giới tính", "Đột biến gene lặn trên nhiễm sắc thể X", "Lặp đoạn nhiễm sắc thể số 21"], "answer": 0, "hint": "Người mắc hội chứng Down có 3 nhiễm sắc thể số 21 (thể ba)." },
+    { "type": "multiple-choice", "level": "VD", "question": "Theo Darwin, nhân tố chính dẫn đến hình thành các đặc điểm thích nghi của sinh vật là:", "options": ["Chọn lọc tự nhiên", "Đột biến gene", "Sự cách li địa lí", "Giao phối ngẫu nhiên"], "answer": 0, "hint": "Chọn lọc tự nhiên giữ lại biến dị có lợi, đào thải biến dị có hại." },
+    { "type": "multiple-choice", "level": "VDC", "question": "Phát biểu nào sau đây phản ánh đúng vai trò của chọn lọc tự nhiên trong tiến hóa theo quan điểm hiện đại?", "options": ["Quy định chiều hướng và làm thay đổi tần số allele của quần thể theo hướng thích nghi", "Tạo ra các allele mới làm nguyên liệu cho tiến hóa", "Làm cho mọi cá thể trong quần thể giống hệt nhau", "Trực tiếp tạo ra loài mới chỉ trong một thế hệ"], "answer": 0, "hint": "Chọn lọc tự nhiên không tạo allele mới (đó là vai trò của đột biến) mà sàng lọc, định hướng tiến hóa." },
+    { "type": "multiple-choice", "level": "NB", "question": "Tập hợp các cá thể cùng loài, cùng sống trong một khoảng không gian xác định, vào một thời điểm nhất định và có khả năng sinh sản tạo thế hệ mới được gọi là:", "options": ["Quần thể sinh vật", "Quần xã sinh vật", "Hệ sinh thái", "Sinh quyển"], "answer": 0, "hint": "Đây là định nghĩa của quần thể sinh vật." },
+    { "type": "true-false", "level": "TH", "question": "Trong một chuỗi thức ăn, năng lượng giảm dần khi đi qua các bậc dinh dưỡng từ sinh vật sản xuất đến sinh vật tiêu thụ bậc cao.", "answer": true },
+    { "type": "true-false-group", "level": "VD", "question": "Xét tính đúng/sai của các khẳng định sau về di truyền phân tử và quy luật di truyền:", "statements": [
+      { "text": "Quá trình nhân đôi DNA diễn ra theo nguyên tắc bổ sung và nguyên tắc bán bảo toàn.", "answer": true },
+      { "text": "Mỗi codon trên mRNA gồm ba nucleotide.", "answer": true },
+      { "text": "Phép lai hai tính trạng của Mendel cho tỉ lệ kiểu hình ở F2 là 3 : 1.", "answer": false },
+      { "text": "Codon mở đầu trên mRNA mã hóa cho amino acid methionine (ở sinh vật nhân thực).", "answer": true }
+    ] },
+    { "type": "fill-blank", "level": "TH", "question": "Một đoạn mạch gốc của gene có trình tự các nucleotide là 3'-TAX-5'. Trình tự codon tương ứng trên mRNA được phiên mã là 5'-___-3' (viết liền các base, dùng U thay cho T).", "answer": "AUG" },
+    { "type": "fill-blank", "level": "VD", "question": "Một gene có 600 nucleotide loại adenine (A) và 900 nucleotide loại guanine (G). Theo nguyên tắc bổ sung, tổng số nucleotide của gene này là ___", "answer": "3000" }
+  ]
+}

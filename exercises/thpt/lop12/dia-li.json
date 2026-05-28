@@ -1,0 +1,33 @@
+{
+  "id": "thpt-dia-li-l12-on-tap",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 12,
+  "topic": "Ôn tập Địa lí 12",
+  "difficulty": 3,
+  "outcomes": ["Địa lí tự nhiên Việt Nam", "Địa lí dân cư", "Địa lí các ngành kinh tế", "Địa lí vùng kinh tế"],
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "Khí hậu của Việt Nam mang tính chất chủ yếu nào sau đây?", "options": ["Ôn đới lục địa", "Nhiệt đới ẩm gió mùa", "Cận cực", "Hoang mạc khô hạn"], "answer": 1, "hint": "Đặc trưng bởi nền nhiệt cao, mưa nhiều và hoạt động của gió mùa." },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong cơ cấu địa hình của Việt Nam, dạng địa hình nào chiếm phần lớn (khoảng 3/4) diện tích lãnh thổ?", "options": ["Đồng bằng", "Đồi núi", "Cao nguyên badan", "Bờ biển"], "answer": 1, "hint": "Tuy chiếm diện tích lớn nhưng chủ yếu là đồi núi thấp." },
+    { "type": "multiple-choice", "level": "NB", "question": "Việt Nam nằm ở khu vực nào sau đây của châu Á?", "options": ["Đông Bắc Á", "Nam Á", "Đông Nam Á", "Trung Á"], "answer": 2, "hint": "Việt Nam là một quốc gia thuộc bán đảo Đông Dương." },
+    { "type": "multiple-choice", "level": "NB", "question": "Đặc điểm nổi bật của mạng lưới sông ngòi nước ta là:", "options": ["Thưa thớt, ít sông", "Dày đặc, nhiều nước, giàu phù sa", "Toàn sông lớn, ít sông nhỏ", "Chủ yếu chảy theo hướng tây - đông và không có phù sa"], "answer": 1, "hint": "Gắn liền với khí hậu nhiệt đới ẩm gió mùa, mưa nhiều." },
+    { "type": "multiple-choice", "level": "NB", "question": "Hai đồng bằng châu thổ rộng lớn nhất của Việt Nam là:", "options": ["Đồng bằng sông Hồng và Đồng bằng sông Cửu Long", "Đồng bằng Thanh - Nghệ - Tĩnh và Đồng bằng Nam Trung Bộ", "Đồng bằng Bắc Trung Bộ và Tây Nguyên", "Đồng bằng sông Hồng và Tây Nguyên"], "answer": 0, "hint": "Hai đồng bằng do phù sa sông bồi đắp, là vựa lúa của cả nước." },
+    { "type": "multiple-choice", "level": "NB", "question": "Quá trình tăng tỉ lệ dân số sống ở thành thị và mở rộng không gian đô thị được gọi là:", "options": ["Công nghiệp hóa", "Đô thị hóa", "Hiện đại hóa", "Toàn cầu hóa"], "answer": 1, "hint": "Một xu hướng đang diễn ra mạnh ở nước ta." },
+    { "type": "multiple-choice", "level": "NB", "question": "Ngành kinh tế nào sau đây thuộc khu vực dịch vụ?", "options": ["Trồng lúa", "Khai thác than", "Du lịch", "Luyện kim"], "answer": 2, "hint": "Dịch vụ gồm giao thông, thương mại, du lịch, tài chính..." },
+    { "type": "multiple-choice", "level": "TH", "question": "Tính chất nhiệt đới ẩm gió mùa của khí hậu nước ta tạo điều kiện thuận lợi nhất cho hoạt động sản xuất nào?", "options": ["Trồng cây công nghiệp ôn đới", "Phát triển nền nông nghiệp nhiệt đới với cây trồng quanh năm", "Khai thác dầu khí", "Phát triển chăn nuôi tuần lộc"], "answer": 1, "hint": "Nền nhiệt ẩm cao cho phép cây trồng sinh trưởng quanh năm, thâm canh, xen canh." },
+    { "type": "multiple-choice", "level": "TH", "question": "Cây trồng giữ vai trò chủ đạo trong ngành trồng trọt và bảo đảm an ninh lương thực của nước ta là:", "options": ["Cây cao su", "Cây lúa", "Cây cà phê", "Cây chè"], "answer": 1, "hint": "Tập trung nhiều ở hai đồng bằng châu thổ lớn." },
+    { "type": "multiple-choice", "level": "TH", "question": "Đặc điểm nào sau đây đúng với phân bố dân cư của nước ta?", "options": ["Phân bố rất đều giữa các vùng", "Phân bố không đều: tập trung đông ở đồng bằng, thưa thớt ở miền núi", "Tập trung chủ yếu ở vùng núi cao", "Chỉ tập trung ở Tây Nguyên"], "answer": 1, "hint": "Đồng bằng và đô thị có mật độ dân số cao hơn nhiều so với miền núi." },
+    { "type": "multiple-choice", "level": "VD", "question": "Vì sao Đồng bằng sông Cửu Long là vùng trọng điểm sản xuất lương thực, thực phẩm lớn nhất nước ta?", "options": ["Do địa hình toàn đồi núi cao", "Do có diện tích đất phù sa rộng lớn, khí hậu nóng ẩm, nguồn nước dồi dào", "Do khí hậu ôn đới mát mẻ", "Do thiếu nước quanh năm"], "answer": 1, "hint": "Kết hợp đất đai màu mỡ, khí hậu và nguồn nước thuận lợi." },
+    { "type": "multiple-choice", "level": "VD", "question": "Việc nước ta có đường bờ biển dài và vùng biển rộng tạo điều kiện thuận lợi để phát triển các ngành kinh tế biển nào?", "options": ["Chăn nuôi gia súc lớn trên cao nguyên", "Khai thác và nuôi trồng thủy sản, giao thông vận tải biển, du lịch biển", "Trồng cây công nghiệp lâu năm trên đất badan", "Khai thác quặng sắt trong nội địa"], "answer": 1, "hint": "Các thế mạnh gắn liền với biển: thủy sản, hàng hải, du lịch, dầu khí." },
+    { "type": "true-false", "level": "NB", "question": "Phần lớn (khoảng 3/4) diện tích lãnh thổ Việt Nam là đồi núi, chủ yếu là đồi núi thấp.", "answer": true },
+    { "type": "true-false", "level": "TH", "question": "Khí hậu nước ta mang tính chất ôn đới lục địa, mùa đông lạnh và khô trên cả nước.", "answer": false },
+    { "type": "true-false-group", "level": "VD", "question": "Xét tính đúng/sai của các khẳng định sau về địa lí tự nhiên và kinh tế Việt Nam:", "statements": [
+      { "text": "Khí hậu nước ta mang tính chất nhiệt đới ẩm gió mùa.", "answer": true },
+      { "text": "Mạng lưới sông ngòi nước ta dày đặc và giàu phù sa.", "answer": true },
+      { "text": "Dân cư nước ta phân bố không đều giữa đồng bằng và miền núi.", "answer": true },
+      { "text": "Đồng bằng chiếm phần lớn diện tích lãnh thổ nước ta.", "answer": false }
+    ] },
+    { "type": "fill-blank", "level": "NB", "question": "Khí hậu nước ta mang tính chất nhiệt đới ẩm ___, với hoạt động của gió mùa mùa đông và gió mùa mùa hạ.", "answer": "gió mùa", "alternatives": ["gió mùa."] },
+    { "type": "fill-blank", "level": "TH", "question": "Hai vùng trọng điểm sản xuất lương thực lớn nhất nước ta là Đồng bằng sông Hồng và Đồng bằng sông ___", "answer": "Cửu Long", "alternatives": ["Cửu Long.", "Mê Công", "Mê Kông"] }
+  ]
+}
