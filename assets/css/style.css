@@ -947,6 +947,8 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 @keyframes streak-pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08); } }
 .result-emoji { animation: pop-in 0.5s cubic-bezier(0.18, 1.4, 0.5, 1) both; }
 .result-stars { animation: pop-in 0.5s 0.15s cubic-bezier(0.18, 1.4, 0.5, 1) both; }
+.result-mascot { animation: pop-in 0.5s cubic-bezier(0.18, 1.4, 0.5, 1) both; }
+.result-mascot .hero-mascot { width: 112px; height: 112px; margin: 0 auto 4px; }
 @keyframes pop-in { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
 .daily-card.done { position: relative; }
 .daily-card.done::after {
@@ -954,7 +956,8 @@ a:focus-visible, button:focus-visible, input:focus-visible,
   color: var(--c-correct); font-weight: 900; font-size: 0.9rem;
 }
 @media (prefers-reduced-motion: reduce) {
-  .hero-mascot, .daily-meta .streak, .result-emoji, .result-stars { animation: none; }
+  .hero-mascot, .daily-meta .streak, .result-emoji, .result-stars, .result-mascot { animation: none; }
+  .progress-ring .pr-fill { animation: none; }
 }
 
 /* ===== Vòng tiến trình "Đề hôm nay" ===== */
@@ -965,7 +968,8 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 }
 .progress-ring { width: 64px; height: 64px; flex-shrink: 0; }
 .progress-ring .pr-track { stroke: var(--c-border); }
-.progress-ring .pr-fill { stroke: var(--c-primary-dark); transition: stroke-dashoffset 0.6s ease; }
+.progress-ring .pr-fill { stroke: var(--c-primary-dark); stroke-dashoffset: var(--pr-off); animation: ring-draw 0.9s ease; }
+@keyframes ring-draw { from { stroke-dashoffset: var(--pr-c); } }
 .progress-ring.full .pr-fill { stroke: var(--c-correct); }
 .progress-ring .pr-text { fill: var(--c-text); font-size: 17px; font-weight: 800; text-anchor: middle; dominant-baseline: middle; }
 .daily-summary .ds-text { display: flex; flex-direction: column; gap: 2px; }

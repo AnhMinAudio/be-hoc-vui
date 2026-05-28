@@ -97,8 +97,20 @@ function escapeHtml(s) {
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
-// Linh vật "Bé Học Vui" — màu theo chủ đề (--c-primary*) nên đổi theo cấp học
-function mascotSVG() {
+// Linh vật "Bé Học Vui" — màu theo chủ đề (--c-primary*); mood đổi biểu cảm: 'celebrate' | 'happy' | 'try'
+function mascotSVG(mood) {
+  const m = mood || 'happy';
+  const happyEyes = '<ellipse cx="46" cy="60" rx="7" ry="9" fill="#fff"/><ellipse cx="74" cy="60" rx="7" ry="9" fill="#fff"/><circle cx="47" cy="62" r="4" fill="#3D3D5C"/><circle cx="75" cy="62" r="4" fill="#3D3D5C"/><circle cx="48.6" cy="60.4" r="1.4" fill="#fff"/><circle cx="76.6" cy="60.4" r="1.4" fill="#fff"/>';
+  const arcEyes = '<path d="M40 61 q6 -8 12 0" fill="none" stroke="#3D3D5C" stroke-width="3" stroke-linecap="round"/><path d="M68 61 q6 -8 12 0" fill="none" stroke="#3D3D5C" stroke-width="3" stroke-linecap="round"/>';
+  const mouths = {
+    celebrate: '<path d="M45 75 q15 17 30 0 z" fill="#3D3D5C"/><path d="M50 81 q10 4 20 0" fill="#FF8FA3"/>',
+    happy: '<path d="M48 79 q12 12 24 0" fill="none" stroke="#3D3D5C" stroke-width="3" stroke-linecap="round"/>',
+    try: '<path d="M51 82 q9 6 18 0" fill="none" stroke="#3D3D5C" stroke-width="3" stroke-linecap="round"/>',
+  };
+  const eyes = m === 'celebrate' ? arcEyes : happyEyes;
+  const extra = m === 'celebrate'
+    ? '<g fill="var(--c-star)"><path d="M14 54 l1.6 3.2 3.5.4 -2.6 2.4 .6 3.4 -3.1-1.7 -3.1 1.7 .6-3.4 -2.6-2.4 3.5-.4z"/><path d="M104 46 l1.6 3.2 3.5.4 -2.6 2.4 .6 3.4 -3.1-1.7 -3.1 1.7 .6-3.4 -2.6-2.4 3.5-.4z"/></g>'
+    : '';
   return `
   <svg class="hero-mascot" viewBox="0 0 120 120" role="img" aria-label="Linh vật Bé Học Vui">
     <g fill="var(--c-primary-dark)" opacity="0.55"><circle cx="18" cy="32" r="2.6"/><circle cx="101" cy="26" r="3"/><circle cx="105" cy="72" r="2.2"/></g>
@@ -107,13 +119,9 @@ function mascotSVG() {
     <circle cx="60" cy="66" r="44" fill="var(--c-primary-soft)" stroke="var(--c-primary-dark)" stroke-width="3"/>
     <circle cx="38" cy="75" r="7" fill="#FF8FA3" opacity="0.5"/>
     <circle cx="82" cy="75" r="7" fill="#FF8FA3" opacity="0.5"/>
-    <ellipse cx="46" cy="60" rx="7" ry="9" fill="#fff"/>
-    <ellipse cx="74" cy="60" rx="7" ry="9" fill="#fff"/>
-    <circle cx="47" cy="62" r="4" fill="#3D3D5C"/>
-    <circle cx="75" cy="62" r="4" fill="#3D3D5C"/>
-    <circle cx="48.6" cy="60.4" r="1.4" fill="#fff"/>
-    <circle cx="76.6" cy="60.4" r="1.4" fill="#fff"/>
-    <path d="M48 79 q12 12 24 0" fill="none" stroke="#3D3D5C" stroke-width="3" stroke-linecap="round"/>
+    ${eyes}
+    ${mouths[m] || mouths.happy}
+    ${extra}
   </svg>`;
 }
 
@@ -129,7 +137,8 @@ function progressRing(done, total) {
   const frac = total ? Math.max(0, Math.min(1, done / total)) : 0;
   const off = c * (1 - frac);
   return `
-  <svg class="progress-ring ${total && done >= total ? 'full' : ''}" viewBox="0 0 64 64" role="img" aria-label="Đã làm ${done} trên ${total} đề hôm nay">
+  <svg class="progress-ring ${total && done >= total ? 'full' : ''}" viewBox="0 0 64 64" role="img"
+    style="--pr-c:${c.toFixed(1)};--pr-off:${off.toFixed(1)}" aria-label="Đã làm ${done} trên ${total} đề hôm nay">
     <circle class="pr-track" cx="32" cy="32" r="${r}" fill="none" stroke-width="7"/>
     <circle class="pr-fill" cx="32" cy="32" r="${r}" fill="none" stroke-width="7"
       stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"
@@ -893,6 +902,7 @@ async function renderExercise(view, id) {
       else if (percent >= 80) { emoji = '🌟'; title = 'Rất giỏi!'; }
       else if (percent >= 50) { emoji = '👍'; title = 'Khá tốt!'; }
       else { emoji = '💪'; title = 'Cố gắng thêm nhé!'; }
+      const mascotMood = percent >= 80 ? 'celebrate' : percent >= 50 ? 'happy' : 'try';
 
       const recap = answers.map((a, i) =>
         `<span class="recap-item ${a.correct ? 'ok' : 'no'}">${i + 1}${a.correct ? ' ✓' : ' ✗'}</span>`
@@ -913,8 +923,8 @@ async function renderExercise(view, id) {
 
       view.innerHTML = `
         <div class="result-card">
-          <div class="result-emoji">${emoji}</div>
-          <div class="result-title">${title}</div>
+          <div class="result-mascot">${mascotSVG(mascotMood)}</div>
+          <div class="result-title">${emoji} ${title}</div>
           <div class="result-score">${score}/${total}</div>
           <div class="result-stars">${'⭐'.repeat(Math.min(score, 10))}</div>
           ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:10px">🎉 Kỷ lục mới!</div>' : ''}
