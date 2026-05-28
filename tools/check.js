@@ -31,12 +31,13 @@ dupQuestions.forEach(d =>
   warnings.push(`Câu trùng (${d.count}×): "${d.locations[0].preview}" — ${d.locations.map(l => `${l.id}#${l.qIndex}`).join(', ')}`)
 );
 
-// 4b) Số câu mỗi đề phải trong khoảng 15-20 → cảnh báo
-const MIN_Q = 15, MAX_Q = 20;
+// 4b) Số câu mỗi đề: tiểu học 15-20, mầm non 5-10 → cảnh báo
 ok.forEach(({ data }) => {
   const n = data.questions.length;
-  if (n < MIN_Q || n > MAX_Q) {
-    warnings.push(`Số câu ngoài khoảng ${MIN_Q}-${MAX_Q}: ${data.id} có ${n} câu`);
+  const isPreschool = (data.stage || 'tieu-hoc') === 'mam-non';
+  const [min, max] = isPreschool ? [5, 10] : [15, 20];
+  if (n < min || n > max) {
+    warnings.push(`Số câu ngoài khoảng ${min}-${max} (${isPreschool ? 'mầm non' : 'tiểu học'}): ${data.id} có ${n} câu`);
   }
 });
 

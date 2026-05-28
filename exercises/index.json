@@ -1,8 +1,129 @@
 {
-  "generatedAt": "2026-05-28T06:06:01.327Z",
+  "generatedAt": "2026-05-28T06:31:30.732Z",
   "exercises": [
     {
+      "id": "mn-con-vat-3t",
+      "stage": "mam-non",
+      "subject": "con-vat",
+      "grade": 3,
+      "topic": "Nhận biết con vật",
+      "difficulty": 1,
+      "questionCount": 6,
+      "path": "mam-non/age3/con-vat.json"
+    },
+    {
+      "id": "mn-con-vat-4t",
+      "stage": "mam-non",
+      "subject": "con-vat",
+      "grade": 4,
+      "topic": "Con vật và đặc điểm",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "mam-non/age4/con-vat.json"
+    },
+    {
+      "id": "mn-con-vat-5t",
+      "stage": "mam-non",
+      "subject": "con-vat",
+      "grade": 5,
+      "topic": "Thế giới động vật",
+      "difficulty": 3,
+      "questionCount": 8,
+      "path": "mam-non/age5/con-vat.json"
+    },
+    {
+      "id": "mn-dem-so-3t",
+      "stage": "mam-non",
+      "subject": "dem-so",
+      "grade": 3,
+      "topic": "Đếm số 1 - 3",
+      "difficulty": 1,
+      "questionCount": 6,
+      "path": "mam-non/age3/dem-so.json"
+    },
+    {
+      "id": "mn-dem-so-4t",
+      "stage": "mam-non",
+      "subject": "dem-so",
+      "grade": 4,
+      "topic": "Đếm số 1 - 5",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "mam-non/age4/dem-so.json"
+    },
+    {
+      "id": "mn-dem-so-5t",
+      "stage": "mam-non",
+      "subject": "dem-so",
+      "grade": 5,
+      "topic": "Đếm số 1 - 10 và so sánh",
+      "difficulty": 3,
+      "questionCount": 8,
+      "path": "mam-non/age5/dem-so.json"
+    },
+    {
+      "id": "mn-hinh-khoi-3t",
+      "stage": "mam-non",
+      "subject": "hinh-khoi",
+      "grade": 3,
+      "topic": "Hình khối cơ bản",
+      "difficulty": 1,
+      "questionCount": 6,
+      "path": "mam-non/age3/hinh-khoi.json"
+    },
+    {
+      "id": "mn-hinh-khoi-4t",
+      "stage": "mam-non",
+      "subject": "hinh-khoi",
+      "grade": 4,
+      "topic": "Hình khối và so sánh",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "mam-non/age4/hinh-khoi.json"
+    },
+    {
+      "id": "mn-hinh-khoi-5t",
+      "stage": "mam-non",
+      "subject": "hinh-khoi",
+      "grade": 5,
+      "topic": "Hình khối và so sánh nâng cao",
+      "difficulty": 3,
+      "questionCount": 8,
+      "path": "mam-non/age5/hinh-khoi.json"
+    },
+    {
+      "id": "mn-mau-sac-3t",
+      "stage": "mam-non",
+      "subject": "mau-sac",
+      "grade": 3,
+      "topic": "Nhận biết màu sắc",
+      "difficulty": 1,
+      "questionCount": 6,
+      "path": "mam-non/age3/mau-sac.json"
+    },
+    {
+      "id": "mn-mau-sac-4t",
+      "stage": "mam-non",
+      "subject": "mau-sac",
+      "grade": 4,
+      "topic": "Màu sắc và đồ vật",
+      "difficulty": 2,
+      "questionCount": 7,
+      "path": "mam-non/age4/mau-sac.json"
+    },
+    {
+      "id": "mn-mau-sac-5t",
+      "stage": "mam-non",
+      "subject": "mau-sac",
+      "grade": 5,
+      "topic": "Màu sắc của sự vật quanh em",
+      "difficulty": 3,
+      "questionCount": 7,
+      "path": "mam-non/age5/mau-sac.json"
+    },
+    {
       "id": "ta-l1-colors-and-numbers",
+      "stage": "tieu-hoc",
       "subject": "tieng-anh",
       "grade": 1,
       "topic": "Colors & Numbers (Màu sắc và số đếm)",
@@ -12,6 +133,7 @@
     },
     {
       "id": "ta-l2-animals-family-school",
+      "stage": "tieu-hoc",
       "subject": "tieng-anh",
       "grade": 2,
       "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
@@ -21,6 +143,7 @@
     },
     {
       "id": "ta-l3-numbers-and-days",
+      "stage": "tieu-hoc",
       "subject": "tieng-anh",
       "grade": 3,
       "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
@@ -30,6 +153,7 @@
     },
     {
       "id": "ta-l4-jobs-and-hobbies",
+      "stage": "tieu-hoc",
       "subject": "tieng-anh",
       "grade": 4,
       "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
@@ -39,6 +163,7 @@
     },
     {
       "id": "ta-l5-routines-places-comparatives",
+      "stage": "tieu-hoc",
       "subject": "tieng-anh",
       "grade": 5,
       "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
@@ -48,6 +173,7 @@
     },
     {
       "id": "tv-l1-chu-cai-va-am",
+      "stage": "tieu-hoc",
       "subject": "tieng-viet",
       "grade": 1,
       "topic": "Chữ cái và âm",
@@ -57,6 +183,7 @@
     },
     {
       "id": "tv-l2-tu-loai-va-cau",
+      "stage": "tieu-hoc",
       "subject": "tieng-viet",
       "grade": 2,
       "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
@@ -66,6 +193,7 @@
     },
     {
       "id": "tv-l3-tu-loai-va-so-sanh",
+      "stage": "tieu-hoc",
       "subject": "tieng-viet",
       "grade": 3,
       "topic": "Từ chỉ đặc điểm và hình ảnh so sánh",
@@ -75,6 +203,7 @@
     },
     {
       "id": "tv-l4-danh-dong-tinh-tu",
+      "stage": "tieu-hoc",
       "subject": "tieng-viet",
       "grade": 4,
       "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
@@ -84,6 +213,7 @@
     },
     {
       "id": "tv-l5-dong-trai-nghia-quan-he-tu",
+      "stage": "tieu-hoc",
       "subject": "tieng-viet",
       "grade": 5,
       "topic": "Từ đồng nghĩa, trái nghĩa, quan hệ từ và đại từ",
@@ -93,6 +223,7 @@
     },
     {
       "id": "toan-l1-phep-cong-trong-10",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 1,
       "topic": "Phép cộng trong phạm vi 10",
@@ -102,6 +233,7 @@
     },
     {
       "id": "toan-l2-bang-chia-2-va-3",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Bảng chia 2 và bảng chia 3",
@@ -111,6 +243,7 @@
     },
     {
       "id": "toan-l2-bang-chia-4-va-5",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Bảng chia 4 và bảng chia 5",
@@ -120,6 +253,7 @@
     },
     {
       "id": "toan-l2-bang-nhan-2-va-3",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Bảng nhân 2 và bảng nhân 3",
@@ -129,6 +263,7 @@
     },
     {
       "id": "toan-l2-bang-nhan-4-va-5",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Bảng nhân 4 và bảng nhân 5",
@@ -138,6 +273,7 @@
     },
     {
       "id": "toan-l2-cong-tru-va-bang-nhan",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Cộng trừ trong 100 và bảng nhân",
@@ -147,6 +283,7 @@
     },
     {
       "id": "toan-l2-don-vi-do-do-dai",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Đơn vị đo độ dài (cm, dm, m)",
@@ -156,6 +293,7 @@
     },
     {
       "id": "toan-l2-toan-co-loi-van",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Giải toán có lời văn (nhiều hơn, ít hơn)",
@@ -165,6 +303,7 @@
     },
     {
       "id": "toan-l2-cong-co-nho-trong-100",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Phép cộng có nhớ trong phạm vi 100",
@@ -174,6 +313,7 @@
     },
     {
       "id": "toan-l2-tru-co-nho-trong-100",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Phép trừ có nhớ trong phạm vi 100",
@@ -183,6 +323,7 @@
     },
     {
       "id": "toan-l2-so-co-ba-chu-so",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Số có ba chữ số (đọc, viết, so sánh)",
@@ -192,6 +333,7 @@
     },
     {
       "id": "toan-l2-xem-dong-ho",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 2,
       "topic": "Xem đồng hồ và đơn vị thời gian",
@@ -201,6 +343,7 @@
     },
     {
       "id": "toan-l3-nhan-chia-trong-bang",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 3,
       "topic": "Nhân chia trong bảng và phép tính trong 1000",
@@ -210,6 +353,7 @@
     },
     {
       "id": "toan-l4-so-lon-phan-so-hinh-hoc",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 4,
       "topic": "Số lớn, phân số và hình học",
@@ -219,6 +363,7 @@
     },
     {
       "id": "toan-l5-thap-phan-phan-tram-dien-tich",
+      "stage": "tieu-hoc",
       "subject": "toan",
       "grade": 5,
       "topic": "Số thập phân, phần trăm và diện tích",

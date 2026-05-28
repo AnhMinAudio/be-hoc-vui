@@ -1,0 +1,16 @@
+{
+  "id": "mn-hinh-khoi-3t",
+  "stage": "mam-non",
+  "subject": "hinh-khoi",
+  "grade": 3,
+  "topic": "Hình khối cơ bản",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là hình tròn?", "options": ["🔵", "🟥", "🔺"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là hình vuông?", "options": ["🔺", "🟦", "🔵"], "answer": 1 },
+    { "type": "image-choice", "question": "Đâu là hình tam giác?", "options": ["🔴", "🔺", "🟦"], "answer": 1 },
+    { "type": "image-choice", "question": "Đâu là ngôi sao?", "options": ["⭐", "🔵", "🟥"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là hình trái tim?", "options": ["🔺", "❤️", "🔵"], "answer": 1 },
+    { "type": "image-choice", "question": "Con vật nào TO hơn?", "options": ["🐘", "🐭"], "answer": 0 }
+  ]
+}

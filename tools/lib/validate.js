@@ -5,6 +5,8 @@ const crypto = require('crypto');
 
 const VALID_SUBJECTS = ['toan', 'tieng-viet', 'tieng-anh'];
 const VALID_GRADES = [1, 2, 3, 4, 5];
+const PRESCHOOL_DOMAINS = ['mau-sac', 'con-vat', 'dem-so', 'hinh-khoi'];
+const PRESCHOOL_AGES = [3, 4, 5];
 
 // ===== Chuẩn hóa & fingerprint =====
 // Giữ dấu tiếng Việt (vì có nghĩa), chỉ hạ chữ thường, gộp khoảng trắng, bỏ dấu câu cuối.
@@ -22,9 +24,9 @@ function hash(s) {
 
 // Vân tay của một câu hỏi — dùng để phát hiện câu trùng (kể cả khác file)
 function questionFingerprint(q) {
-  if (q.type === 'multiple-choice') {
+  if (q.type === 'multiple-choice' || q.type === 'image-choice') {
     const correct = Array.isArray(q.options) ? q.options[q.answer] : '';
-    return hash(`mc|${normalizeText(q.question)}|${normalizeText(correct)}`);
+    return hash(`${q.type}|${normalizeText(q.question)}|${normalizeText(correct)}`);
   }
   if (q.type === 'fill-blank') {
     return hash(`fb|${normalizeText(q.question)}|${normalizeText(q.answer)}`);
@@ -44,8 +46,16 @@ function validateExercise(data) {
   const errors = [];
   if (!data || typeof data !== 'object') return ['file không phải object JSON'];
   if (!data.id) errors.push('thiếu "id"');
-  if (!VALID_SUBJECTS.includes(data.subject)) errors.push(`subject không hợp lệ: ${data.subject}`);
-  if (!VALID_GRADES.includes(data.grade)) errors.push('grade phải là 1-5');
+  const stage = data.stage || 'tieu-hoc';
+  if (stage === 'mam-non') {
+    if (!PRESCHOOL_DOMAINS.includes(data.subject)) errors.push(`mầm non: lĩnh vực (subject) không hợp lệ: ${data.subject}`);
+    if (!PRESCHOOL_AGES.includes(data.grade)) errors.push('mầm non: grade (tuổi) phải là 3, 4 hoặc 5');
+  } else if (stage === 'tieu-hoc') {
+    if (!VALID_SUBJECTS.includes(data.subject)) errors.push(`subject không hợp lệ: ${data.subject}`);
+    if (!VALID_GRADES.includes(data.grade)) errors.push('grade phải là 1-5');
+  } else {
+    errors.push(`stage không hợp lệ: ${stage}`);
+  }
   if (!data.topic) errors.push('thiếu "topic"');
   if (!Array.isArray(data.questions) || data.questions.length === 0) {
     errors.push('không có câu hỏi');
@@ -53,7 +63,7 @@ function validateExercise(data) {
     data.questions.forEach((q, i) => {
       const n = i + 1;
       if (!q || !q.type) { errors.push(`câu ${n}: thiếu type`); return; }
-      if (q.type === 'multiple-choice') {
+      if (q.type === 'multiple-choice' || q.type === 'image-choice') {
         if (!Array.isArray(q.options) || q.options.length < 2) errors.push(`câu ${n}: cần >= 2 options`);
         else if (typeof q.answer !== 'number' || q.answer < 0 || q.answer >= q.options.length)
           errors.push(`câu ${n}: answer phải là chỉ số hợp lệ trong options`);
@@ -186,6 +196,7 @@ function buildArtifacts(okList) {
 
     exercises.push({
       id: data.id,
+      stage: data.stage || 'tieu-hoc',
       subject: data.subject,
       grade: data.grade,
       topic: data.topic,
@@ -207,13 +218,13 @@ function buildArtifacts(okList) {
     if (locs.length > 1) dupQuestions.push({ fingerprint: fp, count: locs.length, locations: locs });
   }
 
-  // Coverage map
+  // Coverage map — Tiểu học
   const coverage = {};
   const gaps = [];
   for (const subject of VALID_SUBJECTS) {
     coverage[subject] = {};
     for (const grade of VALID_GRADES) {
-      const list = exercises.filter(e => e.subject === subject && e.grade === grade);
+      const list = exercises.filter(e => (e.stage || 'tieu-hoc') === 'tieu-hoc' && e.subject === subject && e.grade === grade);
       coverage[subject][grade] = {
         exerciseCount: list.length,
         totalQuestions: list.reduce((s, e) => s + e.questionCount, 0),
@@ -223,9 +234,24 @@ function buildArtifacts(okList) {
     }
   }
 
+  // Coverage map — Mầm non
+  const preschool = {};
+  for (const domain of PRESCHOOL_DOMAINS) {
+    preschool[domain] = {};
+    for (const age of PRESCHOOL_AGES) {
+      const list = exercises.filter(e => e.stage === 'mam-non' && e.subject === domain && e.grade === age);
+      preschool[domain][age] = {
+        exerciseCount: list.length,
+        totalQuestions: list.reduce((s, e) => s + e.questionCount, 0),
+        topics: list.map(e => ({ id: e.id, topic: e.topic, questionCount: e.questionCount })),
+      };
+      if (list.length === 0) gaps.push(`mầm non ${domain} ${age} tuổi`);
+    }
+  }
+
   return {
     index: { exercises },
-    coverage: { coverage, gaps },
+    coverage: { coverage, preschool, gaps },
     dupIds,
     dupQuestions,
   };
@@ -247,7 +273,7 @@ function verifyAll(okList) {
 }
 
 module.exports = {
-  VALID_SUBJECTS, VALID_GRADES,
+  VALID_SUBJECTS, VALID_GRADES, PRESCHOOL_DOMAINS, PRESCHOOL_AGES,
   normalizeText, questionFingerprint, validateExercise,
   safeArithmetic, verifyMathQuestion,
   walkJsonFiles, loadAll, buildArtifacts, verifyAll,

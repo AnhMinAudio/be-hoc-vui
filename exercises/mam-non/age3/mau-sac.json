@@ -1,0 +1,16 @@
+{
+  "id": "mn-mau-sac-3t",
+  "stage": "mam-non",
+  "subject": "mau-sac",
+  "grade": 3,
+  "topic": "Nhận biết màu sắc",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là màu đỏ?", "options": ["🔴", "🟡", "🔵"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là màu vàng?", "options": ["🟢", "🟡", "🔴"], "answer": 1 },
+    { "type": "image-choice", "question": "Đâu là màu xanh dương?", "options": ["🔵", "🔴", "🟡"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là màu xanh lá?", "options": ["🟡", "🔵", "🟢"], "answer": 2 },
+    { "type": "image-choice", "question": "Đâu là màu tím?", "options": ["🟣", "🔴", "🟢"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là màu cam?", "options": ["🟠", "🔵", "🟣"], "answer": 0 }
+  ]
+}

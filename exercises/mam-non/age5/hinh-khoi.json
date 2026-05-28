@@ -1,0 +1,18 @@
+{
+  "id": "mn-hinh-khoi-5t",
+  "stage": "mam-non",
+  "subject": "hinh-khoi",
+  "grade": 5,
+  "topic": "Hình khối và so sánh nâng cao",
+  "difficulty": 3,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là hình thoi (kim cương)?", "options": ["🔷", "🔵", "🟦", "🔺"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là hình tròn?", "options": ["🔺", "🟦", "⚪", "🔷"], "answer": 2 },
+    { "type": "image-choice", "question": "Hình nào có ba cạnh (tam giác)?", "options": ["🟥", "🔺", "🔵", "⭐"], "answer": 1 },
+    { "type": "image-choice", "question": "Con vật nào NHỎ hơn?", "options": ["🐘", "🐜"], "answer": 1 },
+    { "type": "image-choice", "question": "Cây nào CAO hơn?", "options": ["🌲", "🌱"], "answer": 0 },
+    { "type": "image-choice", "question": "Con nào DÀI hơn?", "options": ["🐍", "🐛"], "answer": 0 },
+    { "type": "image-choice", "question": "Cái nào NẶNG hơn?", "options": ["🐘", "🎈"], "answer": 0 },
+    { "type": "image-choice", "question": "Tìm ngôi sao lấp lánh!", "options": ["❤️", "⭐", "🔷", "🟦"], "answer": 1 }
+  ]
+}

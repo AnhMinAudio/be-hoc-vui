@@ -1,0 +1,16 @@
+{
+  "id": "mn-con-vat-3t",
+  "stage": "mam-non",
+  "subject": "con-vat",
+  "grade": 3,
+  "topic": "Nhận biết con vật",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là con chó?", "options": ["🐶", "🐱", "🐭"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là con mèo?", "options": ["🐰", "🐱", "🐶"], "answer": 1 },
+    { "type": "image-choice", "question": "Đâu là con thỏ?", "options": ["🐰", "🐻", "🐱"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là con gà?", "options": ["🐔", "🐶", "🐟"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là con cá?", "options": ["🐱", "🐦", "🐟"], "answer": 2 },
+    { "type": "image-choice", "question": "Đâu là con voi?", "options": ["🐘", "🐭", "🐰"], "answer": 0 }
+  ]
+}

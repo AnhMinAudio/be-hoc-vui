@@ -1,0 +1,17 @@
+{
+  "id": "mn-mau-sac-4t",
+  "stage": "mam-non",
+  "subject": "mau-sac",
+  "grade": 4,
+  "topic": "Màu sắc và đồ vật",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là màu nâu?", "options": ["🟤", "🟢", "🔵", "🔴"], "answer": 0 },
+    { "type": "image-choice", "question": "Đâu là màu đen?", "options": ["⚪", "⚫", "🔴", "🟡"], "answer": 1 },
+    { "type": "image-choice", "question": "Đâu là màu trắng?", "options": ["⚫", "🔵", "⚪", "🟢"], "answer": 2 },
+    { "type": "image-choice", "question": "Quả dâu tây màu gì?", "prompt": "🍓", "options": ["🔴", "🟢", "🟡", "🔵"], "answer": 0 },
+    { "type": "image-choice", "question": "Lá cây màu gì?", "prompt": "🍃", "options": ["🔴", "🟢", "🟤", "🔵"], "answer": 1 },
+    { "type": "image-choice", "question": "Mặt trời màu gì?", "prompt": "☀️", "options": ["🔵", "🟡", "🟢", "🟣"], "answer": 1 },
+    { "type": "image-choice", "question": "Quả nho này màu gì?", "prompt": "🍇", "options": ["🟡", "🟣", "🔵", "🟢"], "answer": 1 }
+  ]
+}

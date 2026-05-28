@@ -5,6 +5,15 @@ const SUBJECTS = {
   'tieng-anh': { name: 'Tiếng Anh', icon: '🌍', cls: 'ta' },
 };
 
+// Mầm non: lĩnh vực phát triển (3-5 tuổi)
+const PRESCHOOL = {
+  'mau-sac': { name: 'Màu sắc', icon: '🎨' },
+  'con-vat': { name: 'Con vật', icon: '🐶' },
+  'dem-so': { name: 'Đếm số', icon: '🔢' },
+  'hinh-khoi': { name: 'Hình khối & So sánh', icon: '🔺' },
+};
+const PRESCHOOL_AGES = [3, 4, 5];
+
 const AVATARS = ['🦊', '🐼', '🐯', '🐰', '🦄', '🐲', '🐧', '🦉', '🐨', '🦁', '🐢', '🐝'];
 
 // Huy hiệu — mở khóa theo thống kê (stars, số bài hoàn thành, số bài điểm tuyệt đối)
@@ -41,6 +50,12 @@ async function route() {
   if (parts.length === 0) return renderHome(view);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
   if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
+  if (parts[0] === 'mam-non') {
+    if (parts.length === 1) return renderPreschoolAges(view);
+    const age = parseInt(parts[1].replace('age', ''));
+    if (parts.length === 2) return renderPreschoolDomains(view, age);
+    return renderPreschoolTopics(view, age, parts[2]);
+  }
   if (parts[0].startsWith('lop')) {
     const grade = parseInt(parts[0].replace('lop', ''));
     if (parts.length === 1) return renderSubjects(view, grade);
@@ -88,8 +103,14 @@ function renderHome(view) {
     <div class="hero">
       <div style="font-size:4rem">${av}</div>
       <h1>Chào mừng bạn quay lại!</h1>
-      <p>Chọn lớp của bạn để bắt đầu — có ${total} bài tập đang chờ 🚀</p>
+      <p>Chọn nơi học của bạn — có ${total} bài đang chờ 🚀</p>
     </div>
+    <a href="#/mam-non" class="preschool-banner">
+      <span class="pb-icon">🧸</span>
+      <span class="pb-text"><b>Khu Mầm Non</b><small>Cho bé 3 – 5 tuổi · chạm tranh, nghe đọc</small></span>
+      <span class="pb-arrow">→</span>
+    </a>
+    <h2 class="home-section">🎒 Tiểu học</h2>
     <div class="grade-grid">
       ${[1, 2, 3, 4, 5].map(g => `
         <a href="#/lop${g}" class="grade-card">
@@ -97,6 +118,59 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
+  `;
+}
+
+// ===== Mầm non =====
+function renderPreschoolAges(view) {
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <div class="hero"><h1>🧸 Khu Mầm Non</h1><p>Bé mấy tuổi nào?</p></div>
+    <div class="grade-grid">
+      ${PRESCHOOL_AGES.map(a => `
+        <a href="#/mam-non/age${a}" class="grade-card mn">
+          <div class="num">${a}</div>
+          <div class="label">${a} tuổi</div>
+        </a>`).join('')}
+    </div>
+  `;
+}
+
+function renderPreschoolDomains(view, age) {
+  if (!PRESCHOOL_AGES.includes(age)) { window.location.hash = '#/mam-non'; return; }
+  const counts = {};
+  for (const k of Object.keys(PRESCHOOL))
+    counts[k] = CATALOG.exercises.filter(e => e.stage === 'mam-non' && e.subject === k && e.grade === age).length;
+  view.innerHTML = `
+    <a href="#/mam-non" class="back-btn">← Chọn tuổi khác</a>
+    <div class="hero" style="padding:20px 10px 30px"><h1>Bé ${age} tuổi</h1><p>Chọn trò chơi nhé!</p></div>
+    <div class="subject-grid">
+      ${Object.entries(PRESCHOOL).map(([k, d]) => `
+        <a href="#/mam-non/age${age}/${k}" class="subject-card mn">
+          <div class="icon">${d.icon}</div>
+          <div class="name">${d.name}</div>
+          <div class="count">${counts[k]} trò chơi</div>
+        </a>`).join('')}
+    </div>
+  `;
+}
+
+function renderPreschoolTopics(view, age, domain) {
+  const d = PRESCHOOL[domain];
+  if (!d) { window.location.hash = '#/mam-non'; return; }
+  const list = CATALOG.exercises.filter(e => e.stage === 'mam-non' && e.grade === age && e.subject === domain);
+  view.innerHTML = `
+    <a href="#/mam-non/age${age}" class="back-btn">← Quay lại</a>
+    <div class="hero" style="padding:20px 10px 30px"><h1>${d.icon} ${d.name}</h1><p>Bé ${age} tuổi</p></div>
+    ${list.length === 0
+      ? `<div class="empty"><div class="emoji">🧸</div><div class="msg">Sắp có trò chơi mới nhé!</div></div>`
+      : `<div class="topic-list">${list.map(ex => {
+          const done = Progress.getCompletion(ex.id);
+          return `<a href="#/bai/${ex.id}" class="topic-item">
+            <div><div class="title">${ex.topic}</div><div class="meta">${ex.questionCount} câu</div></div>
+            ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
+          </a>`;
+        }).join('')}</div>`}
   `;
 }
 
@@ -188,14 +262,22 @@ async function renderExercise(view, id) {
     view.innerHTML = `<div class="empty">Không tải được bài: ${meta.path}</div>`;
     return;
   }
-  const subject = SUBJECTS[exercise.subject];
+  const isPreschool = exercise.stage === 'mam-non';
+  const subject = isPreschool ? PRESCHOOL[exercise.subject] : SUBJECTS[exercise.subject];
+  const backHref = isPreschool
+    ? `#/mam-non/age${exercise.grade}/${exercise.subject}`
+    : `#/lop${exercise.grade}/${exercise.subject}`;
+  const levelLabel = isPreschool ? `Bé ${exercise.grade} tuổi` : `Lớp ${exercise.grade}`;
 
-  // Bước 1: chọn chế độ
+  // Mầm non: vào thẳng chế độ chơi (không có "Làm bài thi")
+  if (isPreschool) { startQuestions('practice'); return; }
+
+  // Tiểu học: chọn chế độ
   view.innerHTML = `
-    <a href="#/lop${exercise.grade}/${exercise.subject}" class="back-btn">← Quay lại danh sách bài</a>
+    <a href="${backHref}" class="back-btn">← Quay lại danh sách bài</a>
     <div class="hero" style="padding:14px 10px 22px">
       <h1>${subject.icon} ${exercise.topic}</h1>
-      <p>Lớp ${exercise.grade} · ${exercise.questions.length} câu · Chọn cách làm bài</p>
+      <p>${levelLabel} · ${exercise.questions.length} câu · Chọn cách làm bài</p>
     </div>
     <div class="mode-grid">
       <button class="mode-card practice" data-mode="practice">
@@ -220,13 +302,13 @@ async function renderExercise(view, id) {
 
     const renderQuestion = () => {
       const q = exercise.questions[currentIdx];
-      const modeLabel = mode === 'exam' ? '📝 Làm bài thi' : '🎯 Luyện tập';
+      const modeLabel = isPreschool ? '🧸 Chơi mà học' : (mode === 'exam' ? '📝 Làm bài thi' : '🎯 Luyện tập');
       view.innerHTML = `
-        <a href="#/lop${exercise.grade}/${exercise.subject}" class="back-btn">← Thoát</a>
+        <a href="${backHref}" class="back-btn">← Thoát</a>
         <div class="exercise-header">
           <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
             <div><div style="font-weight:800;font-size:1.2rem">${subject.icon} ${exercise.topic}</div>
-            <div style="color:#6B6B8C;font-size:0.9rem">${modeLabel} · Lớp ${exercise.grade}</div></div>
+            <div style="color:#6B6B8C;font-size:0.9rem">${modeLabel} · ${levelLabel}</div></div>
             <div style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</div>
           </div>
           <div class="progress-bar"><div class="progress-fill" style="width:${(currentIdx / total) * 100}%"></div></div>
@@ -235,7 +317,7 @@ async function renderExercise(view, id) {
       const onAnswer = (correct) => {
         answers.push({ correct });
         if (correct) score++;
-        const delay = mode === 'exam' ? 250 : 1500;
+        const delay = isPreschool ? 1700 : (mode === 'exam' ? 250 : 1500);
         setTimeout(() => {
           currentIdx++;
           if (currentIdx >= total) showResult();
@@ -244,7 +326,8 @@ async function renderExercise(view, id) {
       };
 
       let card;
-      if (q.type === 'multiple-choice') card = MultipleChoice.render(q, currentIdx, onAnswer, mode);
+      if (q.type === 'image-choice') card = ImageChoice.render(q, currentIdx, onAnswer);
+      else if (q.type === 'multiple-choice') card = MultipleChoice.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'fill-blank') card = FillBlank.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'matching') card = Matching.render(q, currentIdx, onAnswer, mode);
       else { view.innerHTML += `<div class="empty">Loại câu chưa hỗ trợ: ${q.type}</div>`; return; }
@@ -277,7 +360,7 @@ async function renderExercise(view, id) {
           <div style="color:#6B6B8C;margin-bottom:16px">Bạn được +${score} ⭐</div>
           <div class="recap">${recap}</div>
           <div class="action-bar" style="justify-content:center;margin-top:22px">
-            <button class="btn btn-secondary" onclick="location.hash='#/lop${exercise.grade}/${exercise.subject}'">Bài khác</button>
+            <button class="btn btn-secondary" onclick="location.hash='${backHref}'">Bài khác</button>
             <button class="btn btn-primary" id="retry-btn">Làm lại</button>
           </div>
         </div>`;

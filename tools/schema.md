@@ -129,6 +129,42 @@ Ví dụ:
 
 ---
 
+## ĐỀ MẦM NON (3–5 tuổi) — định dạng riêng
+
+Trẻ mầm non **chưa biết đọc** → đề dùng **tranh + giọng đọc**, KHÔNG dùng `fill-blank` (không gõ chữ).
+
+File mầm non có thêm `stage: "mam-non"`, dùng `subject` = lĩnh vực và `grade` = tuổi:
+```json
+{
+  "id": "mn-mau-sac-3t",
+  "stage": "mam-non",
+  "subject": "mau-sac",        // mau-sac | con-vat | dem-so | hinh-khoi
+  "grade": 3,                   // tuổi: 3 | 4 | 5
+  "topic": "Nhận biết màu sắc",
+  "difficulty": 1,
+  "questions": [ /* 5–10 câu, chủ yếu image-choice */ ]
+}
+```
+- Thư mục: `exercises/mam-non/age<tuổi>/<lĩnh-vực>.json`
+- **Số câu: 5–10** (ngắn vì bé mau chán). Độ khó tăng theo tuổi (3 < 4 < 5); bé 3 tuổi nên 3 lựa chọn, bé 4–5 tuổi 4 lựa chọn.
+
+### Loại câu `image-choice` (chạm vào tranh đúng)
+```json
+{
+  "type": "image-choice",
+  "question": "Đâu là màu đỏ?",
+  "options": ["🔴", "🟡", "🔵"],
+  "answer": 0,
+  "prompt": "🍎 🍎 🍎",     // (tùy chọn) tranh hiện ở đề bài, vd để ĐẾM — cách nhau bằng dấu cách
+  "speak": "Đâu là màu đỏ?"  // (tùy chọn) câu đọc to, mặc định = question
+}
+```
+- `options` là **emoji** (sẽ tự render thành tranh minh hoạ) hoặc **số** (cho bài đếm). `answer` = chỉ số đáp án đúng.
+- Bài ĐẾM: đặt các vật vào `prompt` (cách nhau bằng dấu cách: `"🐶 🐶 🐶"`), `options` là các số.
+- Mỗi emoji trong `prompt`/`options` PHẢI cách nhau bằng dấu cách để hiện thành nhiều tranh.
+- Câu hỏi được đọc to bằng giọng nói; viết câu hỏi ngắn, rõ.
+- **Tránh trùng:** giữa các tuổi, đổi đáp án hoặc cách hỏi (vd hình tròn: bé 3 dùng 🔵, bé 4 dùng 🔴, bé 5 dùng ⚪) để không bị cảnh báo trùng câu.
+
 ## SAU KHI TẠO ĐỀ MỚI
 
 ```bash
