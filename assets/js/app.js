@@ -210,13 +210,16 @@ window.setDailyGrade = function (g) {
 };
 
 function renderProgress(view) {
-  const days = Progress.last28Days();
+  const month = Progress.getMonthInfo();
   const log = Progress.getDailyLog();
   const streak = Progress.getStreak();
   const subjStats = Progress.getSubjectStats();
 
-  const cells = days.map(k => {
-    const day = log[k];
+  const weekHead = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN']
+    .map(w => `<div class="cal-dow">${w}</div>`).join('');
+  const blanks = Array.from({ length: month.leading }, () => '<div class="hm-cell blank"></div>').join('');
+  const dayCells = month.days.map(d => {
+    const day = log[d.key];
     let pct = null, count = 0;
     if (day) {
       const subs = Object.values(day.subjects || {});
@@ -226,7 +229,9 @@ function renderProgress(view) {
       pct = tt ? Math.round(sc / tt * 100) : 0;
     }
     const lvl = pct === null ? 'none' : pct >= 80 ? 'l4' : pct >= 60 ? 'l3' : pct >= 40 ? 'l2' : 'l1';
-    return `<div class="hm-cell ${lvl}" title="${k}${pct !== null ? ` · ${count} đề · ${pct}%` : ' · chưa làm'}">${k.slice(8)}</div>`;
+    const cls = ['hm-cell', lvl, d.isToday ? 'today' : '', d.isFuture ? 'future' : ''].filter(Boolean).join(' ');
+    const title = `${d.key}${pct !== null ? ` · ${count} đề · ${pct}%` : (d.isFuture ? ' · sắp tới' : ' · chưa làm')}`;
+    return `<div class="${cls}" title="${title}">${d.dom}</div>`;
   }).join('');
 
   const SUB = { toan: 'Toán', 'tieng-viet': 'Tiếng Việt', 'tieng-anh': 'Tiếng Anh' };
@@ -238,21 +243,22 @@ function renderProgress(view) {
   });
   const done = rows.filter(r => r.pct !== null);
   const weak = done.length ? done.reduce((a, b) => (b.pct < a.pct ? b : a)) : null;
-  const activeDays = Object.values(log).filter(d => Object.keys(d.subjects || {}).length).length;
+  const activeDays = Progress.getActiveDays();
   const avgSpeed = Progress.getAvgSecPerQ();
 
   view.innerHTML = `
     <a href="#/" class="back-btn">← Về trang chủ</a>
-    <div class="hero" style="padding:16px 10px 14px"><h1>📈 Tiến trình 28 ngày</h1><p>Theo dõi làm đề hằng ngày (chỉ lưu 28 ngày gần nhất)</p></div>
+    <div class="hero" style="padding:16px 10px 14px"><h1>📈 Tiến trình</h1><p>Lịch tháng này · số liệu phân tích theo 28 ngày gần nhất</p></div>
     <div class="achv-stats">
       <div class="achv-stat"><div class="n">🔥 ${streak}</div><div class="l">Ngày liên tiếp</div></div>
-      <div class="achv-stat"><div class="n">📅 ${activeDays}</div><div class="l">Ngày có học</div></div>
+      <div class="achv-stat"><div class="n">📅 ${activeDays}</div><div class="l">Ngày có học (28n)</div></div>
       <div class="achv-stat"><div class="n">⚡ ${avgSpeed !== null ? Math.round(avgSpeed) + 's' : '—'}</div><div class="l">Giây/câu (TB)</div></div>
     </div>
-    <h2 class="home-section">Lịch 28 ngày</h2>
-    <div class="heatmap">${cells}</div>
-    <div class="hm-legend">Ít <span class="hm-cell l1"></span><span class="hm-cell l2"></span><span class="hm-cell l3"></span><span class="hm-cell l4"></span> Nhiều / đúng cao</div>
-    <h2 class="home-section">Kết quả theo môn</h2>
+    <h2 class="home-section">📅 ${month.label}</h2>
+    <div class="cal-head">${weekHead}</div>
+    <div class="heatmap month-cal">${blanks}${dayCells}</div>
+    <div class="hm-legend">Ít <span class="hm-cell l1"></span><span class="hm-cell l2"></span><span class="hm-cell l3"></span><span class="hm-cell l4"></span> Nhiều / đúng cao · <span class="hm-cell today legend-today"></span> hôm nay</div>
+    <h2 class="home-section">Kết quả theo môn <small style="font-weight:600;color:var(--c-text-soft)">(28 ngày gần nhất)</small></h2>
     <div class="subj-stats">
       ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span><span class="sr-spd">${r.spd !== null ? Math.round(r.spd) + 's/câu' : ''}</span></div>`).join('')}
     </div>

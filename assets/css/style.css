@@ -467,8 +467,18 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 .hm-cell.l2 { background: #8FE0BB; }
 .hm-cell.l3 { background: #5BC99A; color: #fff; }
 .hm-cell.l4 { background: #2FA877; color: #fff; }
-.hm-legend { display: flex; align-items: center; gap: 5px; font-size: 0.85rem; color: var(--c-text-soft); margin-bottom: 8px; }
+.hm-legend { display: flex; align-items: center; gap: 5px; font-size: 0.85rem; color: var(--c-text-soft); margin-bottom: 8px; flex-wrap: wrap; }
 .hm-legend .hm-cell { width: 18px; height: 18px; aspect-ratio: auto; }
+.hm-legend .legend-today { background: #EFEFF4; }
+/* Lịch tháng */
+.cal-head {
+  display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px;
+  max-width: 420px; margin: 4px 0 6px; text-align: center;
+}
+.cal-dow { font-size: 0.78rem; font-weight: 700; color: var(--c-text-soft); }
+.month-cal .hm-cell.blank { background: transparent; }
+.month-cal .hm-cell.future { opacity: 0.4; }
+.month-cal .hm-cell.today { box-shadow: 0 0 0 3px var(--c-ta-dark); font-weight: 800; }
 
 /* Thống kê theo môn */
 .subj-stats { display: flex; flex-direction: column; gap: 12px; }
