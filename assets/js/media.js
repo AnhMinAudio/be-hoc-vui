@@ -75,5 +75,21 @@ const Media = (() => {
     return 'speechSynthesis' in window;
   }
 
-  return { visual, speak, supportsSpeech, isEmoji };
+  // Render công thức Toán dạng $...$ bằng KaTeX (nếu đã tải)
+  function renderMath(el) {
+    if (!el || typeof window.renderMathInElement !== 'function') return;
+    try {
+      window.renderMathInElement(el, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true },
+        ],
+        throwOnError: false,
+      });
+    } catch (e) { /* bỏ qua */ }
+  }
+
+  return { visual, speak, supportsSpeech, isEmoji, renderMath };
 })();

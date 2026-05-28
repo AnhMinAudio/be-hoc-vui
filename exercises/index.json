@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T06:31:30.732Z",
+  "generatedAt": "2026-05-28T07:11:11.690Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -122,6 +122,46 @@
       "path": "mam-non/age5/mau-sac.json"
     },
     {
+      "id": "thcs-tv-l6-tu-loai-va-bien-phap-tu-tu",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 6,
+      "topic": "Từ loại, cấu tạo từ và biện pháp tu từ so sánh, nhân hóa",
+      "difficulty": 2,
+      "questionCount": 18,
+      "path": "thcs/lop6/ngu-van-tu-loai-va-bien-phap-tu-tu.json"
+    },
+    {
+      "id": "thcs-tv-l7-tu-han-viet-va-tu-tu",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 7,
+      "topic": "Từ Hán Việt, từ đồng nghĩa - trái nghĩa và biện pháp điệp ngữ, ẩn dụ, hoán dụ",
+      "difficulty": 2,
+      "questionCount": 17,
+      "path": "thcs/lop7/ngu-van-tu-han-viet-va-tu-tu.json"
+    },
+    {
+      "id": "thcs-tv-l8-cau-va-bien-phap-tu-tu",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 8,
+      "topic": "Câu ghép, dấu câu, trường từ vựng và biện pháp nói quá, nói giảm nói tránh",
+      "difficulty": 2,
+      "questionCount": 18,
+      "path": "thcs/lop8/ngu-van-cau-va-bien-phap-tu-tu.json"
+    },
+    {
+      "id": "thcs-tv-l9-hoi-thoai-va-nghia",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 9,
+      "topic": "Các phương châm hội thoại, nghĩa tường minh và hàm ý, thành phần biệt lập, liên kết câu",
+      "difficulty": 3,
+      "questionCount": 18,
+      "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
+    },
+    {
       "id": "ta-l1-colors-and-numbers",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -170,6 +210,46 @@
       "difficulty": 3,
       "questionCount": 17,
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
+    },
+    {
+      "id": "thcs-ta-l6-present-simple",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 6,
+      "topic": "Present Simple, to be, there is/are & Daily routines (Thì hiện tại đơn, động từ to be, cấu trúc there is/are và thói quen hằng ngày)",
+      "difficulty": 2,
+      "questionCount": 17,
+      "path": "thcs/lop6/tieng-anh-present-simple.json"
+    },
+    {
+      "id": "thcs-ta-l7-past-simple-comparatives",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 7,
+      "topic": "Past Simple, Comparatives & Superlatives, Present Continuous (Thì quá khứ đơn, so sánh hơn và so sánh nhất, thì hiện tại tiếp diễn)",
+      "difficulty": 2,
+      "questionCount": 18,
+      "path": "thcs/lop7/tieng-anh-past-simple-comparatives.json"
+    },
+    {
+      "id": "thcs-ta-l8-present-perfect",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 8,
+      "topic": "Present Perfect, First Conditional & Basic Passive Voice (Thì hiện tại hoàn thành, câu điều kiện loại 1 và câu bị động cơ bản)",
+      "difficulty": 3,
+      "questionCount": 17,
+      "path": "thcs/lop8/tieng-anh-present-perfect.json"
+    },
+    {
+      "id": "thcs-ta-l9-relative-clauses",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 9,
+      "topic": "Relative Clauses, Reported Speech & Second Conditional (Mệnh đề quan hệ, câu tường thuật và câu điều kiện loại 2)",
+      "difficulty": 3,
+      "questionCount": 18,
+      "path": "thcs/lop9/tieng-anh-relative-clauses.json"
     },
     {
       "id": "tv-l1-chu-cai-va-am",
@@ -370,6 +450,46 @@
       "difficulty": 3,
       "questionCount": 17,
       "path": "toan/lop5/thap-phan-phan-tram-dien-tich.json"
+    },
+    {
+      "id": "thcs-toan-l6-so-nguyen-luy-thua",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Số nguyên, lũy thừa và thứ tự phép tính",
+      "difficulty": 1,
+      "questionCount": 15,
+      "path": "thcs/lop6/toan-so-nguyen-luy-thua.json"
+    },
+    {
+      "id": "thcs-toan-l7-so-huu-ti-va-bieu-thuc",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 7,
+      "topic": "Số hữu tỉ, lũy thừa, tỉ lệ thức, biểu thức đại số và đường thẳng song song",
+      "difficulty": 2,
+      "questionCount": 18,
+      "path": "thcs/lop7/toan-so-huu-ti-va-bieu-thuc.json"
+    },
+    {
+      "id": "thcs-toan-l8-hang-dang-thuc-va-phuong-trinh",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 8,
+      "topic": "Hằng đẳng thức đáng nhớ, phân thức, phương trình bậc nhất, định lý Pythagore và diện tích",
+      "difficulty": 2,
+      "questionCount": 18,
+      "path": "thcs/lop8/toan-hang-dang-thuc-va-phuong-trinh.json"
+    },
+    {
+      "id": "thcs-toan-l9-can-bac-hai-va-ham-so",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 9,
+      "topic": "Căn bậc hai, hàm số bậc nhất, hệ phương trình, phương trình bậc hai và hệ thức lượng trong tam giác vuông",
+      "difficulty": 3,
+      "questionCount": 18,
+      "path": "thcs/lop9/toan-can-bac-hai-va-ham-so.json"
     }
   ]
 }

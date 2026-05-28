@@ -1,0 +1,28 @@
+{
+  "id": "thcs-tv-l9-hoi-thoai-va-nghia",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 9,
+  "topic": "Các phương châm hội thoại, nghĩa tường minh và hàm ý, thành phần biệt lập, liên kết câu",
+  "difficulty": 3,
+  "questions": [
+    { "type": "multiple-choice", "question": "Phương châm hội thoại nào yêu cầu nội dung lời nói phải đúng sự thật, có bằng chứng xác thực?", "options": ["Phương châm về chất", "Phương châm về lượng", "Phương châm quan hệ", "Phương châm cách thức"], "answer": 0, "hint": "Đừng nói điều mình không tin là đúng hoặc không có bằng chứng" },
+    { "type": "multiple-choice", "question": "Phương châm về lượng yêu cầu điều gì khi giao tiếp?", "options": ["Lời nói có nội dung đúng yêu cầu, không thiếu, không thừa", "Lời nói phải đúng sự thật", "Nói đúng đề tài, không lạc đề", "Nói ngắn gọn, rành mạch"], "answer": 0, "hint": "Lượng thông tin vừa đủ với yêu cầu giao tiếp" },
+    { "type": "multiple-choice", "question": "Câu \"Nói có sách, mách có chứng\" khuyên ta tuân thủ phương châm hội thoại nào?", "options": ["Phương châm về chất", "Phương châm về lượng", "Phương châm lịch sự", "Phương châm cách thức"], "answer": 0, "hint": "Nói phải có căn cứ, bằng chứng" },
+    { "type": "true-false", "question": "Phương châm quan hệ yêu cầu khi giao tiếp cần nói đúng vào đề tài, tránh nói lạc đề.", "answer": true, "hint": "Tục ngữ: \"Ông nói gà, bà nói vịt\" là vi phạm phương châm này" },
+    { "type": "true-false", "question": "Phương châm lịch sự yêu cầu người nói phải nói thật to và nhanh.", "answer": false, "hint": "Lịch sự là tế nhị, tôn trọng người khác" },
+    { "type": "fill-blank", "question": "Phương châm hội thoại yêu cầu nói ngắn gọn, rành mạch, tránh cách nói mơ hồ là phương châm ___.", "answer": "cách thức", "alternatives": ["phương châm cách thức"], "hint": "Liên quan đến cách trình bày lời nói" },
+    { "type": "multiple-choice", "passage": "Lan hỏi: \"Bạn làm xong bài tập chưa?\" Hoa đáp: \"Mình vừa đi đá bóng về.\"", "question": "Câu trả lời của Hoa chứa hàm ý gì?", "options": ["Hoa chưa làm xong bài tập", "Hoa đã làm xong bài tập", "Hoa không thích đá bóng", "Hoa muốn rủ Lan đi chơi"], "answer": 0, "hint": "Hàm ý là phần thông báo không nói trực tiếp ra" },
+    { "type": "multiple-choice", "passage": "Lan hỏi: \"Bạn làm xong bài tập chưa?\" Hoa đáp: \"Mình vừa đi đá bóng về.\"", "question": "Nghĩa được diễn đạt trực tiếp bằng từ ngữ trong câu của Hoa được gọi là gì?", "options": ["Nghĩa tường minh", "Hàm ý", "Nghĩa bóng", "Nghĩa chuyển"], "answer": 0, "hint": "Nghĩa hiện ra ngay từ câu chữ" },
+    { "type": "multiple-choice", "passage": "Lan hỏi: \"Bạn làm xong bài tập chưa?\" Hoa đáp: \"Mình vừa đi đá bóng về.\"", "question": "Để hiểu được hàm ý trong câu trả lời của Hoa, người nghe cần làm gì?", "options": ["Suy luận dựa trên ngữ cảnh giao tiếp", "Tra từ điển", "Hỏi lại nhiều lần", "Không cần làm gì"], "answer": 0, "hint": "Hàm ý phải dùng năng lực suy đoán mới nắm được" },
+    { "type": "fill-blank", "question": "Phần thông báo tuy không được nói ra trực tiếp bằng từ ngữ nhưng có thể suy ra từ những từ ngữ ấy gọi là ___.", "answer": "hàm ý", "alternatives": ["nghĩa hàm ý"], "hint": "Trái với nghĩa tường minh" },
+    { "type": "multiple-choice", "question": "Trong câu \"Chao ôi, bông hoa đẹp quá!\", từ \"Chao ôi\" là thành phần biệt lập nào?", "options": ["Thành phần cảm thán", "Thành phần gọi - đáp", "Thành phần phụ chú", "Thành phần tình thái"], "answer": 0, "hint": "Bộc lộ cảm xúc của người nói" },
+    { "type": "multiple-choice", "question": "Trong câu \"Có lẽ trời sắp mưa\", từ \"Có lẽ\" là thành phần biệt lập nào?", "options": ["Thành phần tình thái", "Thành phần cảm thán", "Thành phần phụ chú", "Thành phần gọi - đáp"], "answer": 0, "hint": "Thể hiện thái độ, sự nhìn nhận của người nói với độ tin cậy của sự việc" },
+    { "type": "true-false", "question": "Thành phần biệt lập là bộ phận không tham gia vào việc diễn đạt nghĩa sự việc của câu.", "answer": true, "hint": "Vì vậy nó tách biệt khỏi nòng cốt câu" },
+    { "type": "multiple-choice", "question": "Trong hai câu \"Tôi rất thích đọc sách. Vì vậy, tôi thường ra thư viện.\", từ \"Vì vậy\" có vai trò gì?", "options": ["Phép nối để liên kết câu", "Phép lặp từ ngữ", "Phép thế", "Phép đồng nghĩa"], "answer": 0, "hint": "Dùng quan hệ từ nối câu sau với câu trước" },
+    { "type": "multiple-choice", "question": "Trong hai câu \"Lan rất chăm học. Cô bé luôn đứng đầu lớp.\", cụm từ \"Cô bé\" thay cho \"Lan\" thể hiện phép liên kết nào?", "options": ["Phép thế", "Phép lặp", "Phép nối", "Phép liên tưởng"], "answer": 0, "hint": "Dùng từ ngữ khác thay thế cho từ đã xuất hiện trước" },
+    { "type": "fill-blank", "question": "Phép liên kết dùng cách lặp lại ở câu sau từ ngữ đã có ở câu trước gọi là phép ___.", "answer": "lặp", "alternatives": ["phép lặp", "lặp từ ngữ"], "hint": "Lặp lại từ ngữ để nối các câu" },
+    { "type": "matching", "question": "Nối câu với phương châm hội thoại bị vi phạm:", "pairs": [["Ông nói gà, bà nói vịt", "phương châm quan hệ"], ["Nói nửa úp nửa mở", "phương châm cách thức"], ["Nói dối, bịa đặt", "phương châm về chất"]] },
+    { "type": "matching", "question": "Nối thành phần biệt lập với ví dụ tương ứng:", "pairs": [["thành phần tình thái", "Hình như trời sắp tối"], ["thành phần cảm thán", "Trời ơi, đẹp quá"], ["thành phần gọi - đáp", "Này, cậu đi đâu đấy?"]] }
+  ]
+}

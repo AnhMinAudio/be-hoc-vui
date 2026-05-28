@@ -1,0 +1,28 @@
+{
+  "id": "thcs-tv-l8-cau-va-bien-phap-tu-tu",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 8,
+  "topic": "Câu ghép, dấu câu, trường từ vựng và biện pháp nói quá, nói giảm nói tránh",
+  "difficulty": 2,
+  "questions": [
+    { "type": "multiple-choice", "question": "Câu nào sau đây là câu ghép?", "options": ["Trời mưa to nên đường rất trơn.", "Em bé đang ngủ.", "Bông hoa hồng rất đẹp.", "Chú mèo nằm trên ghế."], "answer": 0, "hint": "Câu ghép có từ hai cụm chủ - vị trở lên" },
+    { "type": "multiple-choice", "question": "Trong câu \"Vì trời mưa nên chúng tôi nghỉ học\", hai vế câu được nối với nhau bằng cặp quan hệ từ nào?", "options": ["Vì... nên...", "Tuy... nhưng...", "Nếu... thì...", "Càng... càng..."], "answer": 0, "hint": "Cặp quan hệ từ chỉ nguyên nhân - kết quả" },
+    { "type": "true-false", "question": "Câu \"Tôi đi học và em tôi đi chơi\" là câu ghép.", "answer": true, "hint": "Có hai cụm chủ - vị nối bằng quan hệ từ \"và\"" },
+    { "type": "true-false", "question": "Câu ghép chỉ có một cụm chủ - vị làm nòng cốt.", "answer": false, "hint": "Câu một cụm chủ - vị là câu đơn" },
+    { "type": "fill-blank", "question": "Câu do hai hoặc nhiều cụm chủ - vị không bao chứa nhau tạo thành được gọi là câu ___.", "answer": "ghép", "alternatives": ["câu ghép"], "hint": "Trái với câu đơn" },
+    { "type": "multiple-choice", "question": "Dấu câu nào dùng để đánh dấu ranh giới giữa các vế của một câu ghép có cấu tạo phức tạp?", "options": ["Dấu chấm phẩy", "Dấu chấm", "Dấu chấm hỏi", "Dấu chấm than"], "answer": 0, "hint": "Dấu này còn dùng ngăn các bộ phận trong phép liệt kê phức tạp" },
+    { "type": "multiple-choice", "question": "Dấu hai chấm trong câu \"Tôi mua nhiều thứ: sách, vở, bút.\" có tác dụng gì?", "options": ["Báo hiệu phần liệt kê, giải thích phía sau", "Kết thúc câu", "Đánh dấu lời đối thoại", "Tách trạng ngữ"], "answer": 0, "hint": "Sau dấu hai chấm là phần làm rõ ý trước đó" },
+    { "type": "multiple-choice", "question": "Dấu ngoặc kép thường KHÔNG dùng để làm gì?", "options": ["Tách trạng ngữ với nòng cốt câu", "Đánh dấu lời dẫn trực tiếp", "Đánh dấu từ ngữ hiểu theo nghĩa đặc biệt", "Đánh dấu tên tác phẩm"], "answer": 0, "hint": "Việc tách trạng ngữ là chức năng của dấu phẩy" },
+    { "type": "fill-blank", "question": "Dấu ___ dùng để đánh dấu phần chú thích, giải thích thêm trong câu, thường đặt trong cặp ( ).", "answer": "ngoặc đơn", "alternatives": ["dấu ngoặc đơn"], "hint": "Cặp dấu ( )" },
+    { "type": "multiple-choice", "passage": "Bàn tay ta làm nên tất cả / Có sức người sỏi đá cũng thành cơm.", "question": "Câu thơ \"Có sức người sỏi đá cũng thành cơm\" sử dụng biện pháp tu từ nào?", "options": ["Nói quá", "Nói giảm nói tránh", "Liệt kê", "Câu hỏi tu từ"], "answer": 0, "hint": "Phóng đại mức độ để nhấn mạnh sức lao động" },
+    { "type": "multiple-choice", "passage": "Bàn tay ta làm nên tất cả / Có sức người sỏi đá cũng thành cơm.", "question": "Tác dụng của biện pháp nói quá trong hai câu thơ là gì?", "options": ["Nhấn mạnh, đề cao sức mạnh của lao động con người", "Giảm nhẹ sự đau buồn", "Liệt kê các sự vật", "Tả thực cảnh lao động"], "answer": 0, "hint": "Nói quá nhằm gây ấn tượng, tăng sức biểu cảm" },
+    { "type": "multiple-choice", "passage": "Bàn tay ta làm nên tất cả / Có sức người sỏi đá cũng thành cơm.", "question": "\"Sỏi đá cũng thành cơm\" có ý nghĩa thực tế là gì?", "options": ["Đất cằn cỗi cũng có thể cho mùa màng nhờ sức lao động", "Sỏi đá biến thành cơm thật", "Con người ăn sỏi đá", "Không có nghĩa gì"], "answer": 0, "hint": "Hiểu theo nghĩa biểu trưng, không hiểu cứng nhắc" },
+    { "type": "multiple-choice", "question": "Câu nào sau đây sử dụng biện pháp nói giảm nói tránh?", "options": ["Ông cụ đã ra đi mãi mãi.", "Bài toán này khó quá trời.", "Cây cao chọc trời.", "Chờ mãi đến mòn cả mắt."], "answer": 0, "hint": "\"ra đi\" là cách nói tránh cho từ \"chết\"" },
+    { "type": "true-false", "question": "Nói giảm nói tránh là cách diễn đạt tế nhị, uyển chuyển để tránh gây cảm giác đau buồn, nặng nề hoặc thô tục.", "answer": true, "hint": "Khác với nói quá - phóng đại" },
+    { "type": "fill-blank", "question": "Tập hợp những từ có ít nhất một nét chung về nghĩa được gọi là ___.", "answer": "trường từ vựng", "alternatives": ["trường nghĩa"], "hint": "Ví dụ: tay, chân, đầu, mắt thuộc trường \"bộ phận cơ thể người\"" },
+    { "type": "multiple-choice", "question": "Nhóm từ \"mắt, mũi, miệng, tai\" thuộc trường từ vựng nào?", "options": ["Bộ phận trên khuôn mặt người", "Đồ dùng học tập", "Phương tiện giao thông", "Hiện tượng thời tiết"], "answer": 0, "hint": "Tìm nét nghĩa chung của các từ" },
+    { "type": "matching", "question": "Nối câu với biện pháp tu từ tương ứng:", "pairs": [["Lỗ mũi mười tám gánh lông", "nói quá"], ["Bà cụ đã về với tổ tiên", "nói giảm nói tránh"], ["Đường vô xứ Nghệ quanh quanh", "không có biện pháp tu từ"]] },
+    { "type": "matching", "question": "Nối từ với trường từ vựng phù hợp:", "pairs": [["vui, buồn, giận", "trạng thái tâm lí"], ["xanh, đỏ, vàng", "màu sắc"], ["chạy, đi, nhảy", "hoạt động di chuyển"]] }
+  ]
+}

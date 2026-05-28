@@ -2,8 +2,12 @@
 const SUBJECTS = {
   toan: { name: 'Toán', icon: '🔢', cls: 'toan' },
   'tieng-viet': { name: 'Tiếng Việt', icon: '📖', cls: 'tv' },
+  'ngu-van': { name: 'Ngữ văn', icon: '📖', cls: 'tv' },
   'tieng-anh': { name: 'Tiếng Anh', icon: '🌍', cls: 'ta' },
 };
+// Môn theo cấp học
+const PRIMARY_SUBJECT_KEYS = ['toan', 'tieng-viet', 'tieng-anh'];
+const THCS_SUBJECT_KEYS = ['toan', 'ngu-van', 'tieng-anh'];
 
 // Mầm non: lĩnh vực phát triển (3-5 tuổi)
 const PRESCHOOL = {
@@ -118,6 +122,14 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
+    <h2 class="home-section">🎓 Trung học cơ sở</h2>
+    <div class="grade-grid">
+      ${[6, 7, 8, 9].map(g => `
+        <a href="#/lop${g}" class="grade-card thcs">
+          <div class="num">${g}</div>
+          <div class="label">Lớp ${g}</div>
+        </a>`).join('')}
+    </div>
   `;
 }
 
@@ -175,19 +187,20 @@ function renderPreschoolTopics(view, age, domain) {
 }
 
 function renderSubjects(view, grade) {
+  const keys = grade >= 6 ? THCS_SUBJECT_KEYS : PRIMARY_SUBJECT_KEYS;
   const counts = {};
-  for (const key of Object.keys(SUBJECTS))
+  for (const key of keys)
     counts[key] = CATALOG.exercises.filter(e => e.subject === key && e.grade === grade).length;
   view.innerHTML = `
     <a href="#/" class="back-btn">← Quay lại chọn lớp</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>Lớp ${grade}</h1><p>Chọn môn học để bắt đầu</p></div>
     <div class="subject-grid">
-      ${Object.entries(SUBJECTS).map(([key, s]) => `
+      ${keys.map(key => { const s = SUBJECTS[key]; return `
         <a href="#/lop${grade}/${key}" class="subject-card ${s.cls}">
           <div class="icon">${s.icon}</div>
           <div class="name">${s.name}</div>
           <div class="count">${counts[key]} bài tập</div>
-        </a>`).join('')}
+        </a>`; }).join('')}
     </div>
   `;
 }
@@ -330,8 +343,10 @@ async function renderExercise(view, id) {
       else if (q.type === 'multiple-choice') card = MultipleChoice.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'fill-blank') card = FillBlank.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'matching') card = Matching.render(q, currentIdx, onAnswer, mode);
+      else if (q.type === 'true-false') card = TrueFalse.render(q, currentIdx, onAnswer, mode);
       else { view.innerHTML += `<div class="empty">Loại câu chưa hỗ trợ: ${q.type}</div>`; return; }
       view.appendChild(card);
+      Media.renderMath(card);
     };
 
     const showResult = () => {

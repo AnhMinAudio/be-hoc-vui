@@ -1,0 +1,25 @@
+{
+  "id": "thcs-toan-l6-so-nguyen-luy-thua",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Số nguyên, lũy thừa và thứ tự phép tính",
+  "difficulty": 1,
+  "questions": [
+    { "type": "multiple-choice", "question": "Kết quả của $(-5) + 3$ là:", "options": ["$-2$", "$2$", "$-8$", "$8$"], "answer": 0 },
+    { "type": "multiple-choice", "question": "Kết quả của $(-7) - (-4)$ là:", "options": ["$-3$", "$-11$", "$3$", "$11$"], "answer": 0, "hint": "Trừ một số âm là cộng số đối của nó" },
+    { "type": "fill-blank", "question": "Tính: $2^3 = $ ___", "answer": "8" },
+    { "type": "fill-blank", "question": "Tính: $5^2 = $ ___", "answer": "25" },
+    { "type": "true-false", "question": "Số $0$ là số nguyên dương.", "answer": false, "hint": "Số 0 không âm cũng không dương" },
+    { "type": "true-false", "question": "Mọi số tự nhiên đều là số nguyên.", "answer": true },
+    { "type": "multiple-choice", "question": "Giá trị tuyệt đối $|-9|$ bằng:", "options": ["$9$", "$-9$", "$0$", "$18$"], "answer": 0 },
+    { "type": "multiple-choice", "question": "Kết quả của $(-3) \\times 4$ là:", "options": ["$-12$", "$12$", "$-7$", "$7$"], "answer": 0 },
+    { "type": "fill-blank", "question": "Tính: $(-2)^2 = $ ___", "answer": "4", "hint": "Số âm bình phương cho kết quả dương" },
+    { "type": "multiple-choice", "question": "Trong biểu thức $2 + 3 \\times 4$, ta thực hiện phép nào trước?", "options": ["Phép nhân", "Phép cộng", "Từ trái sang phải", "Tùy ý"], "answer": 0 },
+    { "type": "fill-blank", "question": "Tính: $2 + 3 \\times 4 = $ ___", "answer": "14" },
+    { "type": "true-false", "question": "Đẳng thức $(-1)^2 = -1$ là đúng.", "answer": false, "hint": "Bình phương của một số luôn không âm" },
+    { "type": "multiple-choice", "question": "Số đối của $7$ là:", "options": ["$-7$", "$7$", "$0$", "$\\frac{1}{7}$"], "answer": 0 },
+    { "type": "fill-blank", "question": "Ước chung lớn nhất của $12$ và $18$ là ___", "answer": "6" },
+    { "type": "multiple-choice", "question": "Bội chung nhỏ nhất của $4$ và $6$ là:", "options": ["$12$", "$24$", "$2$", "$10$"], "answer": 0 }
+  ]
+}

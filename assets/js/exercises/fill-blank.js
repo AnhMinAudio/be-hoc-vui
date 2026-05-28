@@ -4,6 +4,8 @@ const FillBlank = {
     const wrap = document.createElement('div');
     wrap.className = 'question-card';
 
+    if (q.passage && window.__makePassage) wrap.appendChild(window.__makePassage(q.passage));
+
     const text = document.createElement('div');
     text.className = 'question-text';
     text.textContent = `Câu ${idx + 1}.`;

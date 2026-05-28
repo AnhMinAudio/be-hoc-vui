@@ -7,6 +7,8 @@ const VALID_SUBJECTS = ['toan', 'tieng-viet', 'tieng-anh'];
 const VALID_GRADES = [1, 2, 3, 4, 5];
 const PRESCHOOL_DOMAINS = ['mau-sac', 'con-vat', 'dem-so', 'hinh-khoi'];
 const PRESCHOOL_AGES = [3, 4, 5];
+const THCS_SUBJECTS = ['toan', 'ngu-van', 'tieng-anh'];
+const THCS_GRADES = [6, 7, 8, 9];
 
 // ===== Chuẩn hóa & fingerprint =====
 // Giữ dấu tiếng Việt (vì có nghĩa), chỉ hạ chữ thường, gộp khoảng trắng, bỏ dấu câu cuối.
@@ -31,6 +33,9 @@ function questionFingerprint(q) {
   if (q.type === 'fill-blank') {
     return hash(`fb|${normalizeText(q.question)}|${normalizeText(q.answer)}`);
   }
+  if (q.type === 'true-false') {
+    return hash(`tf|${normalizeText(q.question)}|${q.answer ? 'T' : 'F'}`);
+  }
   if (q.type === 'matching') {
     const pairs = (q.pairs || [])
       .map(p => `${normalizeText(p[0])}=>${normalizeText(p[1])}`)
@@ -53,6 +58,9 @@ function validateExercise(data) {
   } else if (stage === 'tieu-hoc') {
     if (!VALID_SUBJECTS.includes(data.subject)) errors.push(`subject không hợp lệ: ${data.subject}`);
     if (!VALID_GRADES.includes(data.grade)) errors.push('grade phải là 1-5');
+  } else if (stage === 'thcs') {
+    if (!THCS_SUBJECTS.includes(data.subject)) errors.push(`THCS: subject không hợp lệ: ${data.subject}`);
+    if (!THCS_GRADES.includes(data.grade)) errors.push('THCS: grade phải là 6-9');
   } else {
     errors.push(`stage không hợp lệ: ${stage}`);
   }
@@ -74,6 +82,8 @@ function validateExercise(data) {
         if (!Array.isArray(q.pairs) || q.pairs.length < 2) errors.push(`câu ${n}: cần >= 2 pairs`);
         else if (q.pairs.some(p => !Array.isArray(p) || p.length !== 2))
           errors.push(`câu ${n}: mỗi pair phải là [trái, phải]`);
+      } else if (q.type === 'true-false') {
+        if (typeof q.answer !== 'boolean') errors.push(`câu ${n}: true-false cần answer là true/false`);
       } else {
         errors.push(`câu ${n}: type không hỗ trợ: ${q.type}`);
       }
@@ -249,9 +259,24 @@ function buildArtifacts(okList) {
     }
   }
 
+  // Coverage map — THCS
+  const thcs = {};
+  for (const subject of THCS_SUBJECTS) {
+    thcs[subject] = {};
+    for (const grade of THCS_GRADES) {
+      const list = exercises.filter(e => e.stage === 'thcs' && e.subject === subject && e.grade === grade);
+      thcs[subject][grade] = {
+        exerciseCount: list.length,
+        totalQuestions: list.reduce((s, e) => s + e.questionCount, 0),
+        topics: list.map(e => ({ id: e.id, topic: e.topic, questionCount: e.questionCount, difficulty: e.difficulty })),
+      };
+      if (list.length === 0) gaps.push(`THCS ${subject} lớp ${grade}`);
+    }
+  }
+
   return {
     index: { exercises },
-    coverage: { coverage, preschool, gaps },
+    coverage: { coverage, preschool, thcs, gaps },
     dupIds,
     dupQuestions,
   };
@@ -273,7 +298,7 @@ function verifyAll(okList) {
 }
 
 module.exports = {
-  VALID_SUBJECTS, VALID_GRADES, PRESCHOOL_DOMAINS, PRESCHOOL_AGES,
+  VALID_SUBJECTS, VALID_GRADES, PRESCHOOL_DOMAINS, PRESCHOOL_AGES, THCS_SUBJECTS, THCS_GRADES,
   normalizeText, questionFingerprint, validateExercise,
   safeArithmetic, verifyMathQuestion,
   walkJsonFiles, loadAll, buildArtifacts, verifyAll,
