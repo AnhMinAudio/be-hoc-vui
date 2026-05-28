@@ -1,0 +1,17 @@
+name: Kiểm tra đề bài
+on:
+  pull_request:
+    paths: ['exercises/**', 'tools/**']
+  push:
+    branches: [main]
+    paths: ['exercises/**', 'tools/**']
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Chạy cổng kiểm tra
+        run: node tools/check.js
