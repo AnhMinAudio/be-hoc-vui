@@ -11,6 +11,10 @@
   --c-tv-dark: #FF8A65;
   --c-ta: #C9A3FF;            /* tím - Tiếng Anh */
   --c-ta-dark: #9575CD;
+  /* Màu nhấn chính — đổi theo cấp học (data-stage) để trẻ nhỏ tươi vui, học sinh lớn trầm/hiện đại */
+  --c-primary: #4DB6AC;
+  --c-primary-dark: #00897B;
+  --c-primary-soft: #A8E6CF;
   --c-correct: #66BB6A;
   --c-wrong: #EF5350;
   --c-star: #FFC107;
@@ -21,6 +25,12 @@
   --radius-md: 18px;
   --radius-lg: 28px;
 }
+
+/* Chủ đề theo cấp: Mầm non/Tiểu học tươi vui, THCS/THPT trầm & hiện đại hơn */
+body[data-stage="mam-non"] { --c-primary: #FF7FA3; --c-primary-dark: #E91E63; --c-primary-soft: #FFD3E0; }
+body[data-stage="tieu-hoc"] { --c-primary: #4DB6AC; --c-primary-dark: #00897B; --c-primary-soft: #A8E6CF; }
+body[data-stage="thcs"] { --c-primary: #5C6BC0; --c-primary-dark: #3949AB; --c-primary-soft: #C5CAE9; }
+body[data-stage="thpt"] { --c-primary: #455A64; --c-primary-dark: #263238; --c-primary-soft: #B0BEC5; }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -749,8 +759,12 @@ a:focus-visible, button:focus-visible, input:focus-visible,
   transition: transform 0.15s, box-shadow 0.15s;
 }
 .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.btn:active { transform: translateY(0); }
-.btn-primary { background: var(--c-toan-dark); color: #fff; }
+.btn:active { transform: translateY(1px) scale(0.99); }
+.btn-primary {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-primary-dark));
+  color: #fff; box-shadow: 0 6px 16px color-mix(in srgb, var(--c-primary-dark) 38%, transparent);
+}
+.btn-primary:hover { box-shadow: 0 10px 24px color-mix(in srgb, var(--c-primary-dark) 45%, transparent); }
 .btn-secondary { background: #fff; color: var(--c-text); border: 2px solid var(--c-border); }
 .btn-success { background: var(--c-correct); color: #fff; }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
@@ -908,6 +922,40 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 .daily-login-gate .dlg-text b { font-size: 1.02rem; }
 .daily-login-gate .dlg-text small { color: var(--c-text-soft); font-weight: 600; }
 .daily-login-gate .btn { white-space: nowrap; }
+
+/* ===== Hero nâng cấp: linh vật + chip số liệu ===== */
+.hero-mascot { width: 132px; height: 132px; margin: 0 auto 6px; display: block; animation: mascot-float 3.6s ease-in-out infinite; }
+@keyframes mascot-float { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-10px) rotate(1.5deg); } }
+.hero-pro h1 .accent { color: var(--c-primary-dark); }
+.hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+.hero-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #fff; border: 2px solid var(--c-border); border-radius: 999px;
+  padding: 7px 16px; font-weight: 800; font-size: 0.9rem; color: var(--c-text);
+  box-shadow: var(--shadow-sm);
+}
+.hero-chip b { color: var(--c-primary-dark); }
+
+/* ===== Chiều sâu thị giác: thẻ & nút ===== */
+.grade-card:hover { border-color: var(--c-primary); }
+.feature { transition: transform 0.15s, box-shadow 0.15s; }
+.feature:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.daily-card, .grade-card, .feature, .subject-card { will-change: transform; }
+
+/* ===== Gamification: streak + hiệu ứng kết quả ===== */
+.daily-meta .streak { animation: streak-pulse 1.8s ease-in-out infinite; }
+@keyframes streak-pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+.result-emoji { animation: pop-in 0.5s cubic-bezier(0.18, 1.4, 0.5, 1) both; }
+.result-stars { animation: pop-in 0.5s 0.15s cubic-bezier(0.18, 1.4, 0.5, 1) both; }
+@keyframes pop-in { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+.daily-card.done { position: relative; }
+.daily-card.done::after {
+  content: '✓'; position: absolute; top: 8px; right: 10px;
+  color: var(--c-correct); font-weight: 900; font-size: 0.9rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-mascot, .daily-meta .streak, .result-emoji, .result-stars { animation: none; }
+}
 
 /* Print mode (cho phụ huynh in đề) */
 @media print {

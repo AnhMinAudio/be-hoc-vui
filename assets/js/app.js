@@ -61,6 +61,11 @@ async function route() {
   }
 
   const parts = hash.split('/').filter(Boolean);
+  // Chủ đề theo cấp (đề/bài sẽ tự đặt trong renderExercise)
+  if (parts[0] === 'mam-non') applyStageTheme('mam-non');
+  else if (parts[0] && parts[0].startsWith('lop')) applyStageTheme(stageFromGrade(parseInt(parts[0].replace('lop', ''))));
+  else if (parts[0] !== 'bai') applyStageTheme('');
+
   if (parts.length === 0) return renderHome(view);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
@@ -90,6 +95,32 @@ window.addEventListener('DOMContentLoaded', route);
 function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// Linh vật "Bé Học Vui" — màu theo chủ đề (--c-primary*) nên đổi theo cấp học
+function mascotSVG() {
+  return `
+  <svg class="hero-mascot" viewBox="0 0 120 120" role="img" aria-label="Linh vật Bé Học Vui">
+    <g fill="var(--c-primary-dark)" opacity="0.55"><circle cx="18" cy="32" r="2.6"/><circle cx="101" cy="26" r="3"/><circle cx="105" cy="72" r="2.2"/></g>
+    <line x1="60" y1="24" x2="60" y2="12" stroke="var(--c-primary-dark)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M60 2 l2.6 5.2 5.7 .6 -4.2 3.9 1 5.6 -5.1-2.8 -5.1 2.8 1-5.6 -4.2-3.9 5.7-.6z" fill="var(--c-star)"/>
+    <circle cx="60" cy="66" r="44" fill="var(--c-primary-soft)" stroke="var(--c-primary-dark)" stroke-width="3"/>
+    <circle cx="38" cy="75" r="7" fill="#FF8FA3" opacity="0.5"/>
+    <circle cx="82" cy="75" r="7" fill="#FF8FA3" opacity="0.5"/>
+    <ellipse cx="46" cy="60" rx="7" ry="9" fill="#fff"/>
+    <ellipse cx="74" cy="60" rx="7" ry="9" fill="#fff"/>
+    <circle cx="47" cy="62" r="4" fill="#3D3D5C"/>
+    <circle cx="75" cy="62" r="4" fill="#3D3D5C"/>
+    <circle cx="48.6" cy="60.4" r="1.4" fill="#fff"/>
+    <circle cx="76.6" cy="60.4" r="1.4" fill="#fff"/>
+    <path d="M48 79 q12 12 24 0" fill="none" stroke="#3D3D5C" stroke-width="3" stroke-linecap="round"/>
+  </svg>`;
+}
+
+function stageFromGrade(g) { return g >= 10 ? 'thpt' : g >= 6 ? 'thcs' : 'tieu-hoc'; }
+function applyStageTheme(stage) {
+  if (stage) document.body.dataset.stage = stage;
+  else delete document.body.dataset.stage;
 }
 
 function updateHeader() {
@@ -267,13 +298,19 @@ function renderHome(view) {
     ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="#/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
     <section class="hero-pro">
       ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
-      <h1>Học vui mỗi ngày, vững vàng mỗi kỳ thi</h1>
-      <p class="hero-sub">Bài tập &amp; đề thi thử bám sát chương trình GDPT 2018 — từ Mầm non đến THPT. Hiện có <b>${total}</b> bộ đề, hoàn toàn miễn phí.</p>
+      ${mascotSVG()}
+      <h1>Học vui mỗi ngày, <span class="accent">vững vàng mỗi kỳ thi</span></h1>
+      <p class="hero-sub">Bài tập &amp; đề thi thử bám sát chương trình GDPT 2018 — từ Mầm non đến THPT, chấm điểm tức thì.</p>
       <div class="hero-cta">
-        <button class="btn btn-primary" onclick="document.getElementById('cap-hoc').scrollIntoView({behavior:'smooth'})">Bắt đầu học</button>
+        <button class="btn btn-primary" onclick="document.getElementById('cap-hoc').scrollIntoView({behavior:'smooth'})">Bắt đầu học ngay</button>
         <a href="#/gioi-thieu" class="btn btn-secondary">Tìm hiểu thêm</a>
       </div>
-      ${av ? '' : '<a href="#/doi-nhan-vat" class="avatar-hint">🐾 Chọn một nhân vật học tập đồng hành cùng bạn</a>'}
+      <div class="hero-chips">
+        <span class="hero-chip">📚 <b>${total}</b> bộ đề</span>
+        <span class="hero-chip">🎓 Mầm non → THPT</span>
+        <span class="hero-chip">💚 100% miễn phí</span>
+      </div>
+      ${u || av ? '' : '<a href="#/doi-nhan-vat" class="avatar-hint">🐾 Chọn một nhân vật học tập đồng hành cùng bạn</a>'}
     </section>
 
     ${renderDailyHomeSection()}
@@ -674,6 +711,7 @@ async function renderExercise(view, id) {
     }
   }
   const isPreschool = exercise.stage === 'mam-non';
+  applyStageTheme(isPreschool ? 'mam-non' : stageFromGrade(exercise.grade));
   const subject = isPreschool ? PRESCHOOL[exercise.subject] : SUBJECTS[exercise.subject];
   const backHref = exercise.daily
     ? '#/'
