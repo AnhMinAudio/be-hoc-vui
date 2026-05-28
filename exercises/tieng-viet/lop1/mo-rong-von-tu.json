@@ -3,13 +3,21 @@
   "subject": "tieng-viet",
   "grade": 1,
   "topic": "Mở rộng vốn từ theo chủ đề",
+  "chapter": "Chủ đề 4: Mở rộng vốn từ",
   "difficulty": 1,
-  "outcomes": ["TV1-TU-1"],
+  "outcomes": [
+    "TV1-TU-1"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ người trong GIA ĐÌNH?",
-      "options": ["bàn", "ông", "cá", "lá"],
+      "options": [
+        "bàn",
+        "ông",
+        "cá",
+        "lá"
+      ],
       "answer": 1,
       "hint": "Ông, bà, bố, mẹ là người trong gia đình.",
       "level": "NB"
@@ -17,7 +25,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ một CON VẬT?",
-      "options": ["ghế", "mèo", "bút", "mây"],
+      "options": [
+        "ghế",
+        "mèo",
+        "bút",
+        "mây"
+      ],
       "answer": 1,
       "hint": "Con mèo kêu meo meo.",
       "level": "NB"
@@ -25,7 +38,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ đồ dùng HỌC TẬP?",
-      "options": ["bút", "gà", "hoa", "núi"],
+      "options": [
+        "bút",
+        "gà",
+        "hoa",
+        "núi"
+      ],
       "answer": 0,
       "hint": "Bút để viết bài.",
       "level": "NB"
@@ -33,7 +51,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ một MÀU SẮC?",
-      "options": ["xanh", "bàn", "chó", "ăn"],
+      "options": [
+        "xanh",
+        "bàn",
+        "chó",
+        "ăn"
+      ],
       "answer": 0,
       "hint": "Màu xanh của lá cây.",
       "level": "NB"
@@ -41,7 +64,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào KHÔNG chỉ con vật?",
-      "options": ["gà", "vịt", "chó", "ghế"],
+      "options": [
+        "gà",
+        "vịt",
+        "chó",
+        "ghế"
+      ],
       "answer": 3,
       "hint": "Ghế là đồ vật, không phải con vật.",
       "level": "TH"
@@ -49,7 +77,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ một CÂY (loài cây)?",
-      "options": ["cây chuối", "cái bàn", "con cá", "màu đỏ"],
+      "options": [
+        "cây chuối",
+        "cái bàn",
+        "con cá",
+        "màu đỏ"
+      ],
       "answer": 0,
       "hint": "Cây chuối là một loài cây.",
       "level": "TH"
@@ -58,30 +91,66 @@
       "type": "matching",
       "question": "Nối từ với chủ đề của từ đó",
       "pairs": [
-        ["mẹ", "gia đình"],
-        ["mèo", "con vật"],
-        ["bút", "đồ dùng học tập"],
-        ["đỏ", "màu sắc"]
+        [
+          "mẹ",
+          "gia đình"
+        ],
+        [
+          "mèo",
+          "con vật"
+        ],
+        [
+          "bút",
+          "đồ dùng học tập"
+        ],
+        [
+          "đỏ",
+          "màu sắc"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Nối con vật với tiếng kêu / đặc điểm của nó",
       "pairs": [
-        ["gà", "gáy ò ó o"],
-        ["mèo", "kêu meo meo"],
-        ["chó", "sủa gâu gâu"],
-        ["vịt", "kêu cạp cạp"]
+        [
+          "gà",
+          "gáy ò ó o"
+        ],
+        [
+          "mèo",
+          "kêu meo meo"
+        ],
+        [
+          "chó",
+          "sủa gâu gâu"
+        ],
+        [
+          "vịt",
+          "kêu cạp cạp"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Nối nơi chốn với việc thường làm ở đó",
       "pairs": [
-        ["trường học", "học bài"],
-        ["nhà", "ngủ nghỉ"],
-        ["sân", "vui chơi"],
-        ["vườn", "trồng cây"]
+        [
+          "trường học",
+          "học bài"
+        ],
+        [
+          "nhà",
+          "ngủ nghỉ"
+        ],
+        [
+          "sân",
+          "vui chơi"
+        ],
+        [
+          "vườn",
+          "trồng cây"
+        ]
       ]
     },
     {
@@ -100,7 +169,12 @@
       "type": "fill-blank",
       "question": "Điền từ chỉ người trong gia đình: Người sinh ra em là ___.",
       "answer": "mẹ",
-      "alternatives": ["bố mẹ", "mẹ và bố", "bố", "ba"],
+      "alternatives": [
+        "bố mẹ",
+        "mẹ và bố",
+        "bố",
+        "ba"
+      ],
       "hint": "Mẹ (hoặc bố) sinh ra và nuôi em lớn."
     },
     {
@@ -118,7 +192,12 @@
     {
       "type": "multiple-choice",
       "question": "Nhóm từ nào đều chỉ con vật?",
-      "options": ["gà, mèo, cá", "bàn, ghế, bút", "đỏ, xanh, vàng", "ông, bà, mẹ"],
+      "options": [
+        "gà, mèo, cá",
+        "bàn, ghế, bút",
+        "đỏ, xanh, vàng",
+        "ông, bà, mẹ"
+      ],
       "answer": 0,
       "hint": "Tìm nhóm toàn các con vật.",
       "level": "VD"
@@ -126,7 +205,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ đồ vật trong nhà?",
-      "options": ["cái tủ", "con bò", "quả cam", "lá cây"],
+      "options": [
+        "cái tủ",
+        "con bò",
+        "quả cam",
+        "lá cây"
+      ],
       "answer": 0,
       "hint": "Cái tủ để đựng quần áo.",
       "level": "TH"

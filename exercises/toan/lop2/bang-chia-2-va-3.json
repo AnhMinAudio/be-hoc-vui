@@ -3,24 +3,184 @@
   "subject": "toan",
   "grade": 2,
   "topic": "Bảng chia 2 và bảng chia 3",
+  "chapter": "Chủ đề 2: Phép nhân, phép chia",
   "difficulty": 2,
   "questions": [
-    { "type": "multiple-choice", "question": "12 : 2 = ?", "options": ["4", "6", "8", "5"], "answer": 1 },
-    { "type": "multiple-choice", "question": "18 : 3 = ?", "options": ["5", "6", "7", "9"], "answer": 1 },
-    { "type": "fill-blank", "question": "16 : 2 = ___", "answer": "8" },
-    { "type": "fill-blank", "question": "27 : 3 = ___", "answer": "9" },
-    { "type": "matching", "question": "Nối phép chia với kết quả", "pairs": [["8 : 2", "4"], ["21 : 3", "7"], ["20 : 2", "10"], ["24 : 3", "8"]] },
-    { "type": "multiple-choice", "question": "6 : 3 = ?", "options": ["2", "3", "4", "6"], "answer": 0 },
-    { "type": "fill-blank", "question": "___ : 2 = 7", "answer": "14", "hint": "Số nào chia 2 được 7?" },
-    { "type": "multiple-choice", "question": "Có 12 cái kẹo chia đều cho 3 bạn. Hỏi mỗi bạn được mấy cái kẹo?", "options": ["3 cái", "4 cái", "5 cái", "6 cái"], "answer": 1, "hint": "Lấy 12 chia 3" },
-    { "type": "fill-blank", "question": "14 : 2 = ___", "answer": "7" },
-    { "type": "fill-blank", "question": "15 : 3 = ___", "answer": "5" },
-    { "type": "multiple-choice", "question": "10 : 2 = ?", "options": ["3", "4", "5", "6"], "answer": 2 },
-    { "type": "multiple-choice", "question": "30 : 3 = ?", "options": ["6", "9", "10", "12"], "answer": 2, "hint": "Lấy 30 chia 3" },
-    { "type": "matching", "question": "Nối phép chia với kết quả đúng nhé!", "pairs": [["6 : 2", "3"], ["12 : 3", "4"], ["18 : 2", "9"], ["10 : 2", "5"], ["4 : 2", "2"]] },
-    { "type": "fill-blank", "question": "___ : 3 = 6", "answer": "18", "hint": "Số nào chia 3 được 6?" },
-    { "type": "multiple-choice", "question": "4 : 2 = ?", "options": ["1", "2", "3", "4"], "answer": 1 },
-    { "type": "fill-blank", "question": "24 : 2 = ___", "answer": "12" },
-    { "type": "multiple-choice", "question": "Có 18 quả táo xếp đều vào 2 rổ. Hỏi mỗi rổ có mấy quả táo?", "options": ["6 quả", "8 quả", "9 quả", "10 quả"], "answer": 2, "hint": "Lấy 18 chia 2" }
+    {
+      "type": "multiple-choice",
+      "question": "12 : 2 = ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "5"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "18 : 3 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "16 : 2 = ___",
+      "answer": "8"
+    },
+    {
+      "type": "fill-blank",
+      "question": "27 : 3 = ___",
+      "answer": "9"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép chia với kết quả",
+      "pairs": [
+        [
+          "8 : 2",
+          "4"
+        ],
+        [
+          "21 : 3",
+          "7"
+        ],
+        [
+          "20 : 2",
+          "10"
+        ],
+        [
+          "24 : 3",
+          "8"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "6 : 3 = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "question": "___ : 2 = 7",
+      "answer": "14",
+      "hint": "Số nào chia 2 được 7?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có 12 cái kẹo chia đều cho 3 bạn. Hỏi mỗi bạn được mấy cái kẹo?",
+      "options": [
+        "3 cái",
+        "4 cái",
+        "5 cái",
+        "6 cái"
+      ],
+      "answer": 1,
+      "hint": "Lấy 12 chia 3"
+    },
+    {
+      "type": "fill-blank",
+      "question": "14 : 2 = ___",
+      "answer": "7"
+    },
+    {
+      "type": "fill-blank",
+      "question": "15 : 3 = ___",
+      "answer": "5"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "10 : 2 = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "30 : 3 = ?",
+      "options": [
+        "6",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "hint": "Lấy 30 chia 3"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép chia với kết quả đúng nhé!",
+      "pairs": [
+        [
+          "6 : 2",
+          "3"
+        ],
+        [
+          "12 : 3",
+          "4"
+        ],
+        [
+          "18 : 2",
+          "9"
+        ],
+        [
+          "10 : 2",
+          "5"
+        ],
+        [
+          "4 : 2",
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "___ : 3 = 6",
+      "answer": "18",
+      "hint": "Số nào chia 3 được 6?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "4 : 2 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "24 : 2 = ___",
+      "answer": "12"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có 18 quả táo xếp đều vào 2 rổ. Hỏi mỗi rổ có mấy quả táo?",
+      "options": [
+        "6 quả",
+        "8 quả",
+        "9 quả",
+        "10 quả"
+      ],
+      "answer": 2,
+      "hint": "Lấy 18 chia 2"
+    }
   ]
 }

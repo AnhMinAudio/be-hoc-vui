@@ -3,24 +3,40 @@
   "subject": "tieng-viet",
   "grade": 2,
   "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
+  "chapter": "Chủ đề 1: Luyện từ và câu",
   "difficulty": 1,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ sự vật?",
-      "options": ["chạy", "cái bàn", "đẹp", "nhanh"],
+      "options": [
+        "chạy",
+        "cái bàn",
+        "đẹp",
+        "nhanh"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ hoạt động?",
-      "options": ["bông hoa", "học bài", "xinh", "con mèo"],
+      "options": [
+        "bông hoa",
+        "học bài",
+        "xinh",
+        "con mèo"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ đặc điểm?",
-      "options": ["cây bút", "viết", "cao lớn", "ăn cơm"],
+      "options": [
+        "cây bút",
+        "viết",
+        "cao lớn",
+        "ăn cơm"
+      ],
       "answer": 2
     },
     {
@@ -32,16 +48,33 @@
       "type": "matching",
       "question": "Nối con vật với tiếng kêu của nó",
       "pairs": [
-        ["con mèo", "meo meo"],
-        ["con chó", "gâu gâu"],
-        ["con vịt", "cạp cạp"],
-        ["con gà", "ò ó o"]
+        [
+          "con mèo",
+          "meo meo"
+        ],
+        [
+          "con chó",
+          "gâu gâu"
+        ],
+        [
+          "con vịt",
+          "cạp cạp"
+        ],
+        [
+          "con gà",
+          "ò ó o"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào là câu giới thiệu kiểu 'Ai là gì?'",
-      "options": ["Em đang học bài.", "Bố em là bác sĩ.", "Trời mưa to.", "Con mèo chạy nhanh."],
+      "options": [
+        "Em đang học bài.",
+        "Bố em là bác sĩ.",
+        "Trời mưa to.",
+        "Con mèo chạy nhanh."
+      ],
       "answer": 1
     },
     {
@@ -52,13 +85,23 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ sự vật?",
-      "options": ["nhảy", "vui vẻ", "quyển sách", "hát"],
+      "options": [
+        "nhảy",
+        "vui vẻ",
+        "quyển sách",
+        "hát"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ hoạt động?",
-      "options": ["chiếc lá", "nấu cơm", "tươi tốt", "ngôi nhà"],
+      "options": [
+        "chiếc lá",
+        "nấu cơm",
+        "tươi tốt",
+        "ngôi nhà"
+      ],
       "answer": 1
     },
     {
@@ -70,38 +113,74 @@
       "type": "matching",
       "question": "Nối từ với nhóm từ loại đúng",
       "pairs": [
-        ["con gà", "chỉ sự vật"],
-        ["chạy nhảy", "chỉ hoạt động"],
-        ["xinh đẹp", "chỉ đặc điểm"],
-        ["bơi lội", "chỉ hoạt động dưới nước"]
+        [
+          "con gà",
+          "chỉ sự vật"
+        ],
+        [
+          "chạy nhảy",
+          "chỉ hoạt động"
+        ],
+        [
+          "xinh đẹp",
+          "chỉ đặc điểm"
+        ],
+        [
+          "bơi lội",
+          "chỉ hoạt động dưới nước"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào nói về đặc điểm của sự vật?",
-      "options": ["Bé đang chạy.", "Bông hoa rất thơm.", "Mẹ nấu cơm.", "Gà gáy."],
+      "options": [
+        "Bé đang chạy.",
+        "Bông hoa rất thơm.",
+        "Mẹ nấu cơm.",
+        "Gà gáy."
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Điền từ trái nghĩa với 'to': Con kiến rất ___",
       "answer": "nhỏ",
-      "alternatives": ["bé"]
+      "alternatives": [
+        "bé"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ đặc điểm về màu sắc?",
-      "options": ["chạy", "xanh", "bàn", "ăn"],
+      "options": [
+        "chạy",
+        "xanh",
+        "bàn",
+        "ăn"
+      ],
       "answer": 1
     },
     {
       "type": "matching",
       "question": "Nối con vật với nơi nó sống",
       "pairs": [
-        ["con cá", "dưới nước"],
-        ["con chim", "trên cây"],
-        ["con trâu", "trên đồng ruộng"],
-        ["con khỉ", "trong rừng"]
+        [
+          "con cá",
+          "dưới nước"
+        ],
+        [
+          "con chim",
+          "trên cây"
+        ],
+        [
+          "con trâu",
+          "trên đồng ruộng"
+        ],
+        [
+          "con khỉ",
+          "trong rừng"
+        ]
       ]
     },
     {
@@ -112,7 +191,12 @@
     {
       "type": "multiple-choice",
       "question": "Câu 'Cô giáo là người dạy em học' thuộc kiểu câu nào?",
-      "options": ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Ở đâu?"],
+      "options": [
+        "Ai làm gì?",
+        "Ai thế nào?",
+        "Ai là gì?",
+        "Ở đâu?"
+      ],
       "answer": 2,
       "hint": "Câu có từ 'là' để giới thiệu"
     }

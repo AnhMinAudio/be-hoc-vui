@@ -4,64 +4,102 @@
   "subject": "tieng-anh",
   "grade": 8,
   "topic": "Present Perfect, First Conditional & Basic Passive Voice (Thì hiện tại hoàn thành, câu điều kiện loại 1 và câu bị động cơ bản)",
+  "chapter": "Ngữ pháp & Từ vựng 8",
   "difficulty": 3,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Choose the correct form: 'She has ___ her homework already.' (Chọn dạng quá khứ phân từ đúng của 'do')",
-      "options": ["do", "did", "done", "doing"],
+      "options": [
+        "do",
+        "did",
+        "done",
+        "doing"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct auxiliary: 'They ___ visited London twice.' (Chọn trợ động từ đúng cho thì hiện tại hoàn thành)",
-      "options": ["has", "have", "had", "having"],
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
       "answer": 1,
       "hint": "Chủ ngữ số nhiều dùng 'have'"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'I have lived here ___ 2010.' (Chọn từ chỉ mốc thời gian đi với hiện tại hoàn thành)",
-      "options": ["for", "since", "in", "at"],
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
       "answer": 1,
       "hint": "'since' đi với một mốc thời gian"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct first conditional sentence: 'If it rains tomorrow, we ___ at home.' (Chọn mệnh đề chính đúng của câu điều kiện loại 1)",
-      "options": ["stay", "stayed", "will stay", "would stay"],
+      "options": [
+        "stay",
+        "stayed",
+        "will stay",
+        "would stay"
+      ],
       "answer": 2,
       "hint": "If + hiện tại đơn, will + V (nguyên thể)"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct passive sentence for 'They clean the room every day.' (Chọn câu bị động đúng)",
-      "options": ["The room cleans every day.", "The room is cleaned every day.", "The room is cleaning every day.", "The room cleaned every day."],
+      "options": [
+        "The room cleans every day.",
+        "The room is cleaned every day.",
+        "The room is cleaning every day.",
+        "The room cleaned every day."
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Complete the present perfect: 'I ___ (never / see) such a beautiful place.' (Điền 'never see' ở hiện tại hoàn thành): ___",
       "answer": "have never seen",
-      "alternatives": ["Have never seen", "HAVE NEVER SEEN"]
+      "alternatives": [
+        "Have never seen",
+        "HAVE NEVER SEEN"
+      ]
     },
     {
       "type": "fill-blank",
       "question": "Complete the first conditional: 'If you study hard, you ___ (pass) the exam.' (Điền 'pass' ở mệnh đề chính câu điều kiện loại 1): ___",
       "answer": "will pass",
-      "alternatives": ["Will pass", "WILL PASS"]
+      "alternatives": [
+        "Will pass",
+        "WILL PASS"
+      ]
     },
     {
       "type": "fill-blank",
       "question": "Make this passive: 'Shakespeare wrote this play.' -> 'This play ___ (write) by Shakespeare.' (Điền dạng bị động quá khứ của 'write'): ___",
       "answer": "was written",
-      "alternatives": ["Was written", "WAS WRITTEN"]
+      "alternatives": [
+        "Was written",
+        "WAS WRITTEN"
+      ]
     },
     {
       "type": "fill-blank",
       "question": "Write the past participle of 'eat' (Viết quá khứ phân từ của 'eat'): ___",
       "answer": "eaten",
-      "alternatives": ["Eaten", "EATEN"]
+      "alternatives": [
+        "Eaten",
+        "EATEN"
+      ]
     },
     {
       "type": "true-false",
@@ -83,41 +121,80 @@
       "type": "matching",
       "question": "Match each verb with its past participle (Nối động từ với quá khứ phân từ của nó)",
       "pairs": [
-        ["go", "gone"],
-        ["write", "written"],
-        ["break", "broken"],
-        ["take", "taken"]
+        [
+          "go",
+          "gone"
+        ],
+        [
+          "write",
+          "written"
+        ],
+        [
+          "break",
+          "broken"
+        ],
+        [
+          "take",
+          "taken"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Match each tense or structure with its Vietnamese name (Nối thì hoặc cấu trúc với tên tiếng Việt)",
       "pairs": [
-        ["Present Perfect", "thì hiện tại hoàn thành"],
-        ["First Conditional", "câu điều kiện loại 1"],
-        ["Passive Voice", "câu bị động"],
-        ["Past Participle", "quá khứ phân từ"]
+        [
+          "Present Perfect",
+          "thì hiện tại hoàn thành"
+        ],
+        [
+          "First Conditional",
+          "câu điều kiện loại 1"
+        ],
+        [
+          "Passive Voice",
+          "câu bị động"
+        ],
+        [
+          "Past Participle",
+          "quá khứ phân từ"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "passage": "Tom has just finished a big project at school. He has worked on it for three weeks. His teacher was very happy and gave him a high mark. Now Tom feels proud because all his effort has been rewarded.",
       "question": "How long has Tom worked on the project? (Tom đã làm dự án trong bao lâu?)",
-      "options": ["For two weeks", "For three weeks", "For a month", "For three days"],
+      "options": [
+        "For two weeks",
+        "For three weeks",
+        "For a month",
+        "For three days"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "passage": "Tom has just finished a big project at school. He has worked on it for three weeks. His teacher was very happy and gave him a high mark. Now Tom feels proud because all his effort has been rewarded.",
       "question": "How did the teacher feel? (Giáo viên cảm thấy thế nào?)",
-      "options": ["Angry", "Sad", "Very happy", "Bored"],
+      "options": [
+        "Angry",
+        "Sad",
+        "Very happy",
+        "Bored"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "passage": "Tom has just finished a big project at school. He has worked on it for three weeks. His teacher was very happy and gave him a high mark. Now Tom feels proud because all his effort has been rewarded.",
       "question": "Why does Tom feel proud? (Vì sao Tom cảm thấy tự hào?)",
-      "options": ["Because he failed the test", "Because his effort has been rewarded", "Because he had a holiday", "Because he made new friends"],
+      "options": [
+        "Because he failed the test",
+        "Because his effort has been rewarded",
+        "Because he had a holiday",
+        "Because he made new friends"
+      ],
       "answer": 1
     }
   ]

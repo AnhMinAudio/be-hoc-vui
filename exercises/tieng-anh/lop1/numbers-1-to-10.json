@@ -3,20 +3,33 @@
   "subject": "tieng-anh",
   "grade": 1,
   "topic": "Numbers 1-10 (Số đếm 1 đến 10)",
+  "chapter": "Unit 2: Numbers (Số đếm)",
   "difficulty": 1,
-  "outcomes": ["TA1-NUM"],
+  "outcomes": [
+    "TA1-NUM"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "What is number 1 in English? (Số 1 trong tiếng Anh là gì?)",
-      "options": ["one", "two", "three", "four"],
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
       "answer": 0,
       "level": "NB"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'six' mean? (Từ 'six' nghĩa là số mấy?)",
-      "options": ["bốn", "năm", "sáu", "bảy"],
+      "options": [
+        "bốn",
+        "năm",
+        "sáu",
+        "bảy"
+      ],
       "answer": 2,
       "level": "NB"
     },
@@ -24,23 +37,43 @@
       "type": "fill-blank",
       "question": "Write number 6 in English (Viết số 6 bằng tiếng Anh): ___",
       "answer": "six",
-      "alternatives": ["Six", "SIX"],
+      "alternatives": [
+        "Six",
+        "SIX"
+      ],
       "level": "TH"
     },
     {
       "type": "matching",
       "question": "Match the English word with the digit (Nối từ tiếng Anh với chữ số)",
       "pairs": [
-        ["one", "1"],
-        ["four", "4"],
-        ["seven", "7"],
-        ["ten", "10"]
+        [
+          "one",
+          "1"
+        ],
+        [
+          "four",
+          "4"
+        ],
+        [
+          "seven",
+          "7"
+        ],
+        [
+          "ten",
+          "10"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Which number comes after 'seven'? (Số nào đứng sau 'seven'?)",
-      "options": ["six", "eight", "nine", "ten"],
+      "options": [
+        "six",
+        "eight",
+        "nine",
+        "ten"
+      ],
       "answer": 1,
       "level": "TH",
       "hint": "After seven (7) comes eight (8). (Sau 7 là 8.)"
@@ -48,7 +81,12 @@
     {
       "type": "multiple-choice",
       "question": "What is number 10 in English? (Số 10 trong tiếng Anh là gì?)",
-      "options": ["nine", "ten", "eight", "seven"],
+      "options": [
+        "nine",
+        "ten",
+        "eight",
+        "seven"
+      ],
       "answer": 1,
       "level": "NB"
     },
@@ -56,23 +94,43 @@
       "type": "fill-blank",
       "question": "Write number 4 in English (Viết số 4 bằng tiếng Anh): ___",
       "answer": "four",
-      "alternatives": ["Four", "FOUR"],
+      "alternatives": [
+        "Four",
+        "FOUR"
+      ],
       "level": "TH"
     },
     {
       "type": "matching",
       "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
-        ["5", "five"],
-        ["6", "six"],
-        ["7", "seven"],
-        ["8", "eight"]
+        [
+          "5",
+          "five"
+        ],
+        [
+          "6",
+          "six"
+        ],
+        [
+          "7",
+          "seven"
+        ],
+        [
+          "8",
+          "eight"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "How many is 'three'? (Từ 'three' là mấy?)",
-      "options": ["hai", "ba", "bốn", "năm"],
+      "options": [
+        "hai",
+        "ba",
+        "bốn",
+        "năm"
+      ],
       "answer": 1,
       "level": "NB"
     },
@@ -80,20 +138,33 @@
       "type": "fill-blank",
       "question": "Write number 7 in English (Viết số 7 bằng tiếng Anh): ___",
       "answer": "seven",
-      "alternatives": ["Seven", "SEVEN"],
+      "alternatives": [
+        "Seven",
+        "SEVEN"
+      ],
       "level": "TH"
     },
     {
       "type": "multiple-choice",
       "question": "Count: one, two, ___ . What comes next? (Đếm: one, two, ___ . Số tiếp theo là gì?)",
-      "options": ["three", "five", "six", "ten"],
+      "options": [
+        "three",
+        "five",
+        "six",
+        "ten"
+      ],
       "answer": 0,
       "level": "TH"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'five' mean? (Từ 'five' nghĩa là số mấy?)",
-      "options": ["năm", "sáu", "bốn", "ba"],
+      "options": [
+        "năm",
+        "sáu",
+        "bốn",
+        "ba"
+      ],
       "answer": 0,
       "level": "NB"
     },
@@ -101,23 +172,43 @@
       "type": "fill-blank",
       "question": "There are ___ days in a week. (Một tuần có 7 ngày - viết số 7 bằng tiếng Anh)",
       "answer": "seven",
-      "alternatives": ["Seven", "SEVEN"],
+      "alternatives": [
+        "Seven",
+        "SEVEN"
+      ],
       "level": "VD"
     },
     {
       "type": "matching",
       "question": "Match the English number word with its Vietnamese meaning (Nối từ chỉ số với nghĩa tiếng Việt)",
       "pairs": [
-        ["nine", "chín"],
-        ["ten", "mười"],
-        ["eight", "tám"],
-        ["six", "sáu"]
+        [
+          "nine",
+          "chín"
+        ],
+        [
+          "ten",
+          "mười"
+        ],
+        [
+          "eight",
+          "tám"
+        ],
+        [
+          "six",
+          "sáu"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Which number is the biggest? (Số nào lớn nhất?)",
-      "options": ["two", "five", "eight", "ten"],
+      "options": [
+        "two",
+        "five",
+        "eight",
+        "ten"
+      ],
       "answer": 3,
       "level": "TH",
       "hint": "Ten (10) is the biggest here. (Mười là lớn nhất.)"
@@ -126,7 +217,10 @@
       "type": "fill-blank",
       "question": "Write number 8 in English (Viết số 8 bằng tiếng Anh): ___",
       "answer": "eight",
-      "alternatives": ["Eight", "EIGHT"],
+      "alternatives": [
+        "Eight",
+        "EIGHT"
+      ],
       "level": "NB"
     }
   ]

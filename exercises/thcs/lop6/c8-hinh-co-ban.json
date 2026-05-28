@@ -4,25 +4,180 @@
   "subject": "toan",
   "grade": 6,
   "topic": "Chương 8: Những hình hình học cơ bản",
+  "chapter": "Chương 8: Hình học cơ bản",
   "difficulty": 1,
-  "outcomes": ["T6-HC-1", "T6-HC-2", "T6-HC-3", "T6-HC-4"],
+  "outcomes": [
+    "T6-HC-1",
+    "T6-HC-2",
+    "T6-HC-3",
+    "T6-HC-4"
+  ],
   "questions": [
-    { "type": "multiple-choice", "question": "Kí hiệu nào sau đây diễn tả điểm $A$ thuộc đường thẳng $d$?", "options": ["$A \\in d$", "$A \\notin d$", "$A \\subset d$", "$d \\in A$"], "answer": 0, "hint": "Điểm thuộc đường thẳng dùng kí hiệu $\\in$." },
-    { "type": "true-false", "question": "Qua hai điểm phân biệt chỉ có một đường thẳng đi qua chúng.", "answer": true, "hint": "Đây là tính chất cơ bản về điểm và đường thẳng." },
-    { "type": "fill-blank", "question": "Cho điểm $M$ không nằm trên đường thẳng $a$. Điền kí hiệu thích hợp: $M\\ $ ___ $\\ a$ (viết $\\in$ hoặc $\\notin$).", "answer": "\\notin", "hint": "Điểm không thuộc đường thẳng dùng kí hiệu $\\notin$." },
-    { "type": "multiple-choice", "question": "Trên đường thẳng, điểm $B$ nằm giữa hai điểm $A$ và $C$. Khi đó:", "options": ["$AB + BC = AC$", "$AB + AC = BC$", "$AC + BC = AB$", "$AB = BC = AC$"], "answer": 0, "hint": "Khi $B$ nằm giữa $A$ và $C$ thì $AB + BC = AC$." },
-    { "type": "true-false", "question": "Hai tia $Ox$ và $Oy$ tạo thành một đường thẳng thì gọi là hai tia đối nhau.", "answer": true, "hint": "Hai tia đối nhau có chung gốc và cùng nằm trên một đường thẳng." },
-    { "type": "multiple-choice", "question": "Tia $Ox$ là hình gồm:", "options": ["Điểm $O$ và một phần đường thẳng bị chia bởi $O$", "Toàn bộ đường thẳng đi qua $O$", "Đoạn thẳng có hai đầu mút", "Một điểm duy nhất"], "answer": 0, "hint": "Tia gồm gốc $O$ và phần đường thẳng tính từ $O$ về một phía." },
-    { "type": "fill-blank", "question": "Đoạn thẳng $AB$ có độ dài $5\\ \\text{cm}$ và đoạn thẳng $BC$ có độ dài $3\\ \\text{cm}$, với $B$ nằm giữa $A$ và $C$. Độ dài đoạn thẳng $AC$ là (chỉ điền số, đơn vị $\\text{cm}$): ___", "answer": "8", "hint": "$AC = AB + BC = 5 + 3$." },
-    { "type": "multiple-choice", "question": "Cho $M$ nằm giữa $A$ và $B$, biết $AB = 10\\ \\text{cm}$ và $AM = 4\\ \\text{cm}$. Độ dài $MB$ là:", "options": ["$6\\ \\text{cm}$", "$14\\ \\text{cm}$", "$4\\ \\text{cm}$", "$10\\ \\text{cm}$"], "answer": 0, "hint": "$MB = AB - AM = 10 - 4$." },
-    { "type": "multiple-choice", "question": "Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi:", "options": ["$M$ nằm giữa $A$, $B$ và $MA = MB$", "$M$ nằm ngoài đoạn $AB$", "$MA = 2 \\cdot MB$", "$M$ trùng với điểm $A$"], "answer": 0, "hint": "Trung điểm chia đoạn thẳng thành hai phần bằng nhau." },
-    { "type": "fill-blank", "question": "$M$ là trung điểm của đoạn thẳng $AB$ có độ dài $12\\ \\text{cm}$. Độ dài $MA$ là (chỉ điền số, đơn vị $\\text{cm}$): ___", "answer": "6", "hint": "$MA = MB = \\dfrac{AB}{2} = \\dfrac{12}{2}$." },
-    { "type": "true-false", "question": "Trung điểm của một đoạn thẳng là điểm cách đều hai đầu mút của đoạn thẳng đó.", "answer": true, "hint": "Trung điểm vừa nằm giữa, vừa cách đều hai đầu mút." },
-    { "type": "multiple-choice", "question": "Góc có số đo $45^\\circ$ là góc gì?", "options": ["Góc nhọn", "Góc vuông", "Góc tù", "Góc bẹt"], "answer": 0, "hint": "Góc nhọn có số đo nhỏ hơn $90^\\circ$." },
-    { "type": "fill-blank", "question": "Góc vuông có số đo bằng ___ độ (chỉ điền số).", "answer": "90", "hint": "Góc vuông có số đo $90^\\circ$." },
-    { "type": "multiple-choice", "question": "Góc có số đo $120^\\circ$ là góc gì?", "options": ["Góc tù", "Góc nhọn", "Góc vuông", "Góc bẹt"], "answer": 0, "hint": "Góc tù có số đo lớn hơn $90^\\circ$ và nhỏ hơn $180^\\circ$." },
-    { "type": "true-false", "question": "Góc bẹt có số đo bằng $180^\\circ$.", "answer": true, "hint": "Góc bẹt có hai cạnh là hai tia đối nhau." },
-    { "type": "matching", "question": "Nối mỗi góc với cách phân loại đúng theo số đo.", "pairs": [["$30^\\circ$", "Góc nhọn"], ["$90^\\circ$", "Góc vuông"], ["$135^\\circ$", "Góc tù"], ["$180^\\circ$", "Góc bẹt"]] },
-    { "type": "multiple-choice", "question": "Trong các số đo sau, số đo nào là của một góc nhọn?", "options": ["$75^\\circ$", "$90^\\circ$", "$110^\\circ$", "$180^\\circ$"], "answer": 0, "hint": "Góc nhọn có số đo nhỏ hơn $90^\\circ$." }
+    {
+      "type": "multiple-choice",
+      "question": "Kí hiệu nào sau đây diễn tả điểm $A$ thuộc đường thẳng $d$?",
+      "options": [
+        "$A \\in d$",
+        "$A \\notin d$",
+        "$A \\subset d$",
+        "$d \\in A$"
+      ],
+      "answer": 0,
+      "hint": "Điểm thuộc đường thẳng dùng kí hiệu $\\in$."
+    },
+    {
+      "type": "true-false",
+      "question": "Qua hai điểm phân biệt chỉ có một đường thẳng đi qua chúng.",
+      "answer": true,
+      "hint": "Đây là tính chất cơ bản về điểm và đường thẳng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Cho điểm $M$ không nằm trên đường thẳng $a$. Điền kí hiệu thích hợp: $M\\ $ ___ $\\ a$ (viết $\\in$ hoặc $\\notin$).",
+      "answer": "\\notin",
+      "hint": "Điểm không thuộc đường thẳng dùng kí hiệu $\\notin$."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trên đường thẳng, điểm $B$ nằm giữa hai điểm $A$ và $C$. Khi đó:",
+      "options": [
+        "$AB + BC = AC$",
+        "$AB + AC = BC$",
+        "$AC + BC = AB$",
+        "$AB = BC = AC$"
+      ],
+      "answer": 0,
+      "hint": "Khi $B$ nằm giữa $A$ và $C$ thì $AB + BC = AC$."
+    },
+    {
+      "type": "true-false",
+      "question": "Hai tia $Ox$ và $Oy$ tạo thành một đường thẳng thì gọi là hai tia đối nhau.",
+      "answer": true,
+      "hint": "Hai tia đối nhau có chung gốc và cùng nằm trên một đường thẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tia $Ox$ là hình gồm:",
+      "options": [
+        "Điểm $O$ và một phần đường thẳng bị chia bởi $O$",
+        "Toàn bộ đường thẳng đi qua $O$",
+        "Đoạn thẳng có hai đầu mút",
+        "Một điểm duy nhất"
+      ],
+      "answer": 0,
+      "hint": "Tia gồm gốc $O$ và phần đường thẳng tính từ $O$ về một phía."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đoạn thẳng $AB$ có độ dài $5\\ \\text{cm}$ và đoạn thẳng $BC$ có độ dài $3\\ \\text{cm}$, với $B$ nằm giữa $A$ và $C$. Độ dài đoạn thẳng $AC$ là (chỉ điền số, đơn vị $\\text{cm}$): ___",
+      "answer": "8",
+      "hint": "$AC = AB + BC = 5 + 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cho $M$ nằm giữa $A$ và $B$, biết $AB = 10\\ \\text{cm}$ và $AM = 4\\ \\text{cm}$. Độ dài $MB$ là:",
+      "options": [
+        "$6\\ \\text{cm}$",
+        "$14\\ \\text{cm}$",
+        "$4\\ \\text{cm}$",
+        "$10\\ \\text{cm}$"
+      ],
+      "answer": 0,
+      "hint": "$MB = AB - AM = 10 - 4$."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi:",
+      "options": [
+        "$M$ nằm giữa $A$, $B$ và $MA = MB$",
+        "$M$ nằm ngoài đoạn $AB$",
+        "$MA = 2 \\cdot MB$",
+        "$M$ trùng với điểm $A$"
+      ],
+      "answer": 0,
+      "hint": "Trung điểm chia đoạn thẳng thành hai phần bằng nhau."
+    },
+    {
+      "type": "fill-blank",
+      "question": "$M$ là trung điểm của đoạn thẳng $AB$ có độ dài $12\\ \\text{cm}$. Độ dài $MA$ là (chỉ điền số, đơn vị $\\text{cm}$): ___",
+      "answer": "6",
+      "hint": "$MA = MB = \\dfrac{AB}{2} = \\dfrac{12}{2}$."
+    },
+    {
+      "type": "true-false",
+      "question": "Trung điểm của một đoạn thẳng là điểm cách đều hai đầu mút của đoạn thẳng đó.",
+      "answer": true,
+      "hint": "Trung điểm vừa nằm giữa, vừa cách đều hai đầu mút."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Góc có số đo $45^\\circ$ là góc gì?",
+      "options": [
+        "Góc nhọn",
+        "Góc vuông",
+        "Góc tù",
+        "Góc bẹt"
+      ],
+      "answer": 0,
+      "hint": "Góc nhọn có số đo nhỏ hơn $90^\\circ$."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Góc vuông có số đo bằng ___ độ (chỉ điền số).",
+      "answer": "90",
+      "hint": "Góc vuông có số đo $90^\\circ$."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Góc có số đo $120^\\circ$ là góc gì?",
+      "options": [
+        "Góc tù",
+        "Góc nhọn",
+        "Góc vuông",
+        "Góc bẹt"
+      ],
+      "answer": 0,
+      "hint": "Góc tù có số đo lớn hơn $90^\\circ$ và nhỏ hơn $180^\\circ$."
+    },
+    {
+      "type": "true-false",
+      "question": "Góc bẹt có số đo bằng $180^\\circ$.",
+      "answer": true,
+      "hint": "Góc bẹt có hai cạnh là hai tia đối nhau."
+    },
+    {
+      "type": "matching",
+      "question": "Nối mỗi góc với cách phân loại đúng theo số đo.",
+      "pairs": [
+        [
+          "$30^\\circ$",
+          "Góc nhọn"
+        ],
+        [
+          "$90^\\circ$",
+          "Góc vuông"
+        ],
+        [
+          "$135^\\circ$",
+          "Góc tù"
+        ],
+        [
+          "$180^\\circ$",
+          "Góc bẹt"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các số đo sau, số đo nào là của một góc nhọn?",
+      "options": [
+        "$75^\\circ$",
+        "$90^\\circ$",
+        "$110^\\circ$",
+        "$180^\\circ$"
+      ],
+      "answer": 0,
+      "hint": "Góc nhọn có số đo nhỏ hơn $90^\\circ$."
+    }
   ]
 }

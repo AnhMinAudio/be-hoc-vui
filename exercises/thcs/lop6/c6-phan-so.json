@@ -4,26 +4,189 @@
   "subject": "toan",
   "grade": 6,
   "topic": "Chương 6: Phân số",
+  "chapter": "Chương 6: Phân số",
   "difficulty": 1,
-  "outcomes": ["T6-PS-1", "T6-PS-2", "T6-PS-3", "T6-PS-4", "T6-PS-5"],
+  "outcomes": [
+    "T6-PS-1",
+    "T6-PS-2",
+    "T6-PS-3",
+    "T6-PS-4",
+    "T6-PS-5"
+  ],
   "questions": [
-    { "type": "multiple-choice", "question": "Phân số nào sau đây bằng phân số $\\frac{2}{3}$?", "options": ["$\\frac{6}{9}$", "$\\frac{2}{6}$", "$\\frac{3}{2}$", "$\\frac{4}{5}$"], "answer": 0, "hint": "Nhân cả tử và mẫu với cùng một số: $\\frac{2}{3} = \\frac{2 \\times 3}{3 \\times 3}$" },
-    { "type": "fill-blank", "question": "Rút gọn phân số $\\frac{18}{24}$ về dạng tối giản ta được ___", "answer": "3/4", "hint": "Chia cả tử và mẫu cho ước chung lớn nhất là $6$" },
-    { "type": "multiple-choice", "question": "Phân số nào sau đây là phân số tối giản?", "options": ["$\\frac{5}{8}$", "$\\frac{4}{6}$", "$\\frac{9}{12}$", "$\\frac{10}{15}$"], "answer": 0, "hint": "Phân số tối giản có tử và mẫu không cùng chia hết cho số nào lớn hơn $1$" },
-    { "type": "true-false", "question": "Hai phân số $\\frac{3}{4}$ và $\\frac{9}{12}$ bằng nhau.", "answer": true, "hint": "Kiểm tra tích chéo: $3 \\times 12 = 4 \\times 9$" },
-    { "type": "multiple-choice", "question": "Rút gọn phân số $\\frac{-15}{25}$ về dạng tối giản:", "options": ["$\\frac{-3}{5}$", "$\\frac{3}{5}$", "$\\frac{-5}{3}$", "$\\frac{-15}{25}$"], "answer": 0, "hint": "Chia cả tử và mẫu cho $5$" },
-    { "type": "fill-blank", "question": "Tìm số nguyên $x$ biết $\\frac{x}{6} = \\frac{2}{3}$. Vậy $x = $ ___", "answer": "4", "hint": "Từ $\\frac{x}{6} = \\frac{2}{3}$ suy ra $x \\times 3 = 6 \\times 2$" },
-    { "type": "multiple-choice", "question": "So sánh hai phân số $\\frac{3}{5}$ và $\\frac{2}{5}$:", "options": ["$\\frac{3}{5} > \\frac{2}{5}$", "$\\frac{3}{5} < \\frac{2}{5}$", "$\\frac{3}{5} = \\frac{2}{5}$", "Không so sánh được"], "answer": 0, "hint": "Hai phân số cùng mẫu dương, tử nào lớn hơn thì phân số lớn hơn" },
-    { "type": "multiple-choice", "question": "So sánh hai phân số $\\frac{2}{3}$ và $\\frac{3}{4}$:", "options": ["$\\frac{2}{3} < \\frac{3}{4}$", "$\\frac{2}{3} > \\frac{3}{4}$", "$\\frac{2}{3} = \\frac{3}{4}$", "Không so sánh được"], "answer": 0, "hint": "Quy đồng về mẫu chung $12$: $\\frac{8}{12}$ và $\\frac{9}{12}$" },
-    { "type": "true-false", "question": "Phân số $\\frac{-2}{5}$ nhỏ hơn $0$.", "answer": true, "hint": "Phân số có tử âm, mẫu dương thì nhỏ hơn $0$" },
-    { "type": "multiple-choice", "question": "Hỗn số $2\\frac{1}{3}$ được viết dưới dạng phân số là:", "options": ["$\\frac{7}{3}$", "$\\frac{5}{3}$", "$\\frac{6}{3}$", "$\\frac{2}{3}$"], "answer": 0, "hint": "$2\\frac{1}{3} = \\frac{2 \\times 3 + 1}{3}$" },
-    { "type": "fill-blank", "question": "Viết phân số $\\frac{11}{4}$ dưới dạng hỗn số. Phần nguyên của hỗn số đó là ___", "answer": "2", "hint": "Lấy $11$ chia $4$ được thương $2$ dư $3$, nên $\\frac{11}{4} = 2\\frac{3}{4}$" },
-    { "type": "multiple-choice", "question": "Tính $\\frac{2}{3} + \\frac{1}{4}$:", "options": ["$\\frac{11}{12}$", "$\\frac{3}{7}$", "$\\frac{3}{12}$", "$\\frac{2}{12}$"], "answer": 0, "hint": "Quy đồng mẫu số chung $12$: $\\frac{8}{12} + \\frac{3}{12}$" },
-    { "type": "multiple-choice", "question": "Tính $\\frac{3}{4} - \\frac{1}{6}$:", "options": ["$\\frac{7}{12}$", "$\\frac{2}{2}$", "$\\frac{1}{2}$", "$\\frac{5}{12}$"], "answer": 0, "hint": "Quy đồng mẫu số chung $12$: $\\frac{9}{12} - \\frac{2}{12}$" },
-    { "type": "fill-blank", "question": "Tính $\\frac{5}{6} + \\frac{1}{6} = $ ___ (viết dạng tối giản)", "answer": "1", "hint": "Cộng tử số: $\\frac{5+1}{6} = \\frac{6}{6}$" },
-    { "type": "multiple-choice", "question": "Tính $\\frac{2}{3} \\times \\frac{3}{5}$:", "options": ["$\\frac{2}{5}$", "$\\frac{6}{8}$", "$\\frac{5}{8}$", "$\\frac{6}{15}$"], "answer": 0, "hint": "Nhân tử với tử, mẫu với mẫu rồi rút gọn: $\\frac{6}{15} = \\frac{2}{5}$" },
-    { "type": "multiple-choice", "question": "Tính $\\frac{4}{5} : \\frac{2}{3}$:", "options": ["$\\frac{6}{5}$", "$\\frac{8}{15}$", "$\\frac{5}{6}$", "$\\frac{2}{15}$"], "answer": 0, "hint": "Chia phân số là nhân với nghịch đảo: $\\frac{4}{5} \\times \\frac{3}{2}$" },
-    { "type": "multiple-choice", "question": "Một sợi dây dài $60$ m. Người ta cắt đi $\\frac{2}{3}$ chiều dài sợi dây. Hỏi đã cắt đi bao nhiêu mét?", "options": ["$40$ m", "$20$ m", "$30$ m", "$90$ m"], "answer": 0, "hint": "Lấy $60 \\times \\frac{2}{3}$" },
-    { "type": "fill-blank", "question": "Biết $\\frac{3}{5}$ của một số bằng $30$. Số đó là ___", "answer": "50", "hint": "Tìm một số khi biết giá trị phân số của nó: lấy $30 : \\frac{3}{5} = 30 \\times \\frac{5}{3}$" }
+    {
+      "type": "multiple-choice",
+      "question": "Phân số nào sau đây bằng phân số $\\frac{2}{3}$?",
+      "options": [
+        "$\\frac{6}{9}$",
+        "$\\frac{2}{6}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": 0,
+      "hint": "Nhân cả tử và mẫu với cùng một số: $\\frac{2}{3} = \\frac{2 \\times 3}{3 \\times 3}$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Rút gọn phân số $\\frac{18}{24}$ về dạng tối giản ta được ___",
+      "answer": "3/4",
+      "hint": "Chia cả tử và mẫu cho ước chung lớn nhất là $6$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số nào sau đây là phân số tối giản?",
+      "options": [
+        "$\\frac{5}{8}$",
+        "$\\frac{4}{6}$",
+        "$\\frac{9}{12}$",
+        "$\\frac{10}{15}$"
+      ],
+      "answer": 0,
+      "hint": "Phân số tối giản có tử và mẫu không cùng chia hết cho số nào lớn hơn $1$"
+    },
+    {
+      "type": "true-false",
+      "question": "Hai phân số $\\frac{3}{4}$ và $\\frac{9}{12}$ bằng nhau.",
+      "answer": true,
+      "hint": "Kiểm tra tích chéo: $3 \\times 12 = 4 \\times 9$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Rút gọn phân số $\\frac{-15}{25}$ về dạng tối giản:",
+      "options": [
+        "$\\frac{-3}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{-5}{3}$",
+        "$\\frac{-15}{25}$"
+      ],
+      "answer": 0,
+      "hint": "Chia cả tử và mẫu cho $5$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm số nguyên $x$ biết $\\frac{x}{6} = \\frac{2}{3}$. Vậy $x = $ ___",
+      "answer": "4",
+      "hint": "Từ $\\frac{x}{6} = \\frac{2}{3}$ suy ra $x \\times 3 = 6 \\times 2$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "So sánh hai phân số $\\frac{3}{5}$ và $\\frac{2}{5}$:",
+      "options": [
+        "$\\frac{3}{5} > \\frac{2}{5}$",
+        "$\\frac{3}{5} < \\frac{2}{5}$",
+        "$\\frac{3}{5} = \\frac{2}{5}$",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "hint": "Hai phân số cùng mẫu dương, tử nào lớn hơn thì phân số lớn hơn"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "So sánh hai phân số $\\frac{2}{3}$ và $\\frac{3}{4}$:",
+      "options": [
+        "$\\frac{2}{3} < \\frac{3}{4}$",
+        "$\\frac{2}{3} > \\frac{3}{4}$",
+        "$\\frac{2}{3} = \\frac{3}{4}$",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "hint": "Quy đồng về mẫu chung $12$: $\\frac{8}{12}$ và $\\frac{9}{12}$"
+    },
+    {
+      "type": "true-false",
+      "question": "Phân số $\\frac{-2}{5}$ nhỏ hơn $0$.",
+      "answer": true,
+      "hint": "Phân số có tử âm, mẫu dương thì nhỏ hơn $0$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hỗn số $2\\frac{1}{3}$ được viết dưới dạng phân số là:",
+      "options": [
+        "$\\frac{7}{3}$",
+        "$\\frac{5}{3}$",
+        "$\\frac{6}{3}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": 0,
+      "hint": "$2\\frac{1}{3} = \\frac{2 \\times 3 + 1}{3}$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết phân số $\\frac{11}{4}$ dưới dạng hỗn số. Phần nguyên của hỗn số đó là ___",
+      "answer": "2",
+      "hint": "Lấy $11$ chia $4$ được thương $2$ dư $3$, nên $\\frac{11}{4} = 2\\frac{3}{4}$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $\\frac{2}{3} + \\frac{1}{4}$:",
+      "options": [
+        "$\\frac{11}{12}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{3}{12}$",
+        "$\\frac{2}{12}$"
+      ],
+      "answer": 0,
+      "hint": "Quy đồng mẫu số chung $12$: $\\frac{8}{12} + \\frac{3}{12}$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $\\frac{3}{4} - \\frac{1}{6}$:",
+      "options": [
+        "$\\frac{7}{12}$",
+        "$\\frac{2}{2}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{12}$"
+      ],
+      "answer": 0,
+      "hint": "Quy đồng mẫu số chung $12$: $\\frac{9}{12} - \\frac{2}{12}$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tính $\\frac{5}{6} + \\frac{1}{6} = $ ___ (viết dạng tối giản)",
+      "answer": "1",
+      "hint": "Cộng tử số: $\\frac{5+1}{6} = \\frac{6}{6}$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $\\frac{2}{3} \\times \\frac{3}{5}$:",
+      "options": [
+        "$\\frac{2}{5}$",
+        "$\\frac{6}{8}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{6}{15}$"
+      ],
+      "answer": 0,
+      "hint": "Nhân tử với tử, mẫu với mẫu rồi rút gọn: $\\frac{6}{15} = \\frac{2}{5}$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $\\frac{4}{5} : \\frac{2}{3}$:",
+      "options": [
+        "$\\frac{6}{5}$",
+        "$\\frac{8}{15}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{2}{15}$"
+      ],
+      "answer": 0,
+      "hint": "Chia phân số là nhân với nghịch đảo: $\\frac{4}{5} \\times \\frac{3}{2}$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một sợi dây dài $60$ m. Người ta cắt đi $\\frac{2}{3}$ chiều dài sợi dây. Hỏi đã cắt đi bao nhiêu mét?",
+      "options": [
+        "$40$ m",
+        "$20$ m",
+        "$30$ m",
+        "$90$ m"
+      ],
+      "answer": 0,
+      "hint": "Lấy $60 \\times \\frac{2}{3}$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biết $\\frac{3}{5}$ của một số bằng $30$. Số đó là ___",
+      "answer": "50",
+      "hint": "Tìm một số khi biết giá trị phân số của nó: lấy $30 : \\frac{3}{5} = 30 \\times \\frac{5}{3}$"
+    }
   ]
 }

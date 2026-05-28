@@ -3,24 +3,191 @@
   "subject": "toan",
   "grade": 2,
   "topic": "Xem đồng hồ và đơn vị thời gian",
+  "chapter": "Chủ đề 4: Đại lượng và đo lường",
   "difficulty": 2,
   "questions": [
-    { "type": "multiple-choice", "question": "Một ngày có bao nhiêu giờ?", "options": ["12 giờ", "24 giờ", "60 giờ", "48 giờ"], "answer": 1 },
-    { "type": "multiple-choice", "question": "Một giờ có bao nhiêu phút?", "options": ["30 phút", "60 phút", "100 phút", "24 phút"], "answer": 1 },
-    { "type": "multiple-choice", "question": "Kim ngắn chỉ số 3, kim dài chỉ số 12. Lúc đó là mấy giờ?", "options": ["3 giờ", "12 giờ", "9 giờ", "6 giờ"], "answer": 0 },
-    { "type": "multiple-choice", "question": "Kim dài (kim phút) chỉ số 6 nghĩa là bao nhiêu phút?", "options": ["6 phút", "30 phút", "60 phút", "15 phút"], "answer": 1 },
-    { "type": "matching", "question": "Nối giờ theo cách nói trong ngày", "pairs": [["15 giờ", "3 giờ chiều"], ["18 giờ", "6 giờ chiều"], ["20 giờ", "8 giờ tối"], ["13 giờ", "1 giờ chiều"]] },
-    { "type": "fill-blank", "question": "Buổi học bắt đầu lúc 7 giờ và kết thúc lúc 11 giờ. Buổi học kéo dài ___ giờ.", "answer": "4", "hint": "Lấy 11 trừ 7" },
-    { "type": "multiple-choice", "question": "9 giờ tối còn được gọi là mấy giờ?", "options": ["19 giờ", "21 giờ", "20 giờ", "9 giờ"], "answer": 1 },
-    { "type": "multiple-choice", "question": "Kim phút chỉ số 3 nghĩa là bao nhiêu phút?", "options": ["3 phút", "15 phút", "30 phút", "45 phút"], "answer": 1 },
-    { "type": "fill-blank", "question": "Một giờ rưỡi bằng ___ phút.", "answer": "90", "hint": "60 phút cộng thêm nửa giờ là 30 phút" },
-    { "type": "multiple-choice", "question": "5 giờ chiều còn được gọi là mấy giờ?", "options": ["15 giờ", "16 giờ", "17 giờ", "18 giờ"], "answer": 2, "hint": "Lấy 12 cộng 5" },
-    { "type": "matching", "question": "Nối hoạt động với thời gian phù hợp", "pairs": [["Ăn sáng", "7 giờ sáng"], ["Ngủ trưa", "12 giờ trưa"], ["Tan học", "4 giờ chiều"], ["Đi ngủ", "9 giờ tối"]] },
-    { "type": "fill-blank", "question": "Phim bắt đầu lúc 8 giờ và kết thúc lúc 10 giờ. Phim dài ___ giờ.", "answer": "2" },
-    { "type": "multiple-choice", "question": "Một tuần lễ có bao nhiêu ngày?", "options": ["5 ngày", "7 ngày", "10 ngày", "12 ngày"], "answer": 1 },
-    { "type": "fill-blank", "question": "Nửa giờ bằng ___ phút.", "answer": "30" },
-    { "type": "multiple-choice", "question": "Kim ngắn chỉ số 8, kim dài chỉ số 12. Lúc đó là mấy giờ?", "options": ["12 giờ", "8 giờ", "4 giờ", "10 giờ"], "answer": 1 },
-    { "type": "fill-blank", "question": "Bạn Na học bài từ 2 giờ chiều đến 5 giờ chiều. Bạn Na học ___ giờ.", "answer": "3", "hint": "Lấy 5 trừ 2" },
-    { "type": "multiple-choice", "question": "Buổi sáng thường bắt đầu vào khoảng mấy giờ?", "options": ["6 giờ sáng", "6 giờ tối", "12 giờ đêm", "9 giờ tối"], "answer": 0 }
+    {
+      "type": "multiple-choice",
+      "question": "Một ngày có bao nhiêu giờ?",
+      "options": [
+        "12 giờ",
+        "24 giờ",
+        "60 giờ",
+        "48 giờ"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một giờ có bao nhiêu phút?",
+      "options": [
+        "30 phút",
+        "60 phút",
+        "100 phút",
+        "24 phút"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kim ngắn chỉ số 3, kim dài chỉ số 12. Lúc đó là mấy giờ?",
+      "options": [
+        "3 giờ",
+        "12 giờ",
+        "9 giờ",
+        "6 giờ"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kim dài (kim phút) chỉ số 6 nghĩa là bao nhiêu phút?",
+      "options": [
+        "6 phút",
+        "30 phút",
+        "60 phút",
+        "15 phút"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "matching",
+      "question": "Nối giờ theo cách nói trong ngày",
+      "pairs": [
+        [
+          "15 giờ",
+          "3 giờ chiều"
+        ],
+        [
+          "18 giờ",
+          "6 giờ chiều"
+        ],
+        [
+          "20 giờ",
+          "8 giờ tối"
+        ],
+        [
+          "13 giờ",
+          "1 giờ chiều"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Buổi học bắt đầu lúc 7 giờ và kết thúc lúc 11 giờ. Buổi học kéo dài ___ giờ.",
+      "answer": "4",
+      "hint": "Lấy 11 trừ 7"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "9 giờ tối còn được gọi là mấy giờ?",
+      "options": [
+        "19 giờ",
+        "21 giờ",
+        "20 giờ",
+        "9 giờ"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kim phút chỉ số 3 nghĩa là bao nhiêu phút?",
+      "options": [
+        "3 phút",
+        "15 phút",
+        "30 phút",
+        "45 phút"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một giờ rưỡi bằng ___ phút.",
+      "answer": "90",
+      "hint": "60 phút cộng thêm nửa giờ là 30 phút"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "5 giờ chiều còn được gọi là mấy giờ?",
+      "options": [
+        "15 giờ",
+        "16 giờ",
+        "17 giờ",
+        "18 giờ"
+      ],
+      "answer": 2,
+      "hint": "Lấy 12 cộng 5"
+    },
+    {
+      "type": "matching",
+      "question": "Nối hoạt động với thời gian phù hợp",
+      "pairs": [
+        [
+          "Ăn sáng",
+          "7 giờ sáng"
+        ],
+        [
+          "Ngủ trưa",
+          "12 giờ trưa"
+        ],
+        [
+          "Tan học",
+          "4 giờ chiều"
+        ],
+        [
+          "Đi ngủ",
+          "9 giờ tối"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Phim bắt đầu lúc 8 giờ và kết thúc lúc 10 giờ. Phim dài ___ giờ.",
+      "answer": "2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một tuần lễ có bao nhiêu ngày?",
+      "options": [
+        "5 ngày",
+        "7 ngày",
+        "10 ngày",
+        "12 ngày"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Nửa giờ bằng ___ phút.",
+      "answer": "30"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kim ngắn chỉ số 8, kim dài chỉ số 12. Lúc đó là mấy giờ?",
+      "options": [
+        "12 giờ",
+        "8 giờ",
+        "4 giờ",
+        "10 giờ"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Bạn Na học bài từ 2 giờ chiều đến 5 giờ chiều. Bạn Na học ___ giờ.",
+      "answer": "3",
+      "hint": "Lấy 5 trừ 2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Buổi sáng thường bắt đầu vào khoảng mấy giờ?",
+      "options": [
+        "6 giờ sáng",
+        "6 giờ tối",
+        "12 giờ đêm",
+        "9 giờ tối"
+      ],
+      "answer": 0
+    }
   ]
 }

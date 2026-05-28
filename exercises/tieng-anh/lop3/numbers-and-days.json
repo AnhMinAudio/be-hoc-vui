@@ -3,96 +3,177 @@
   "subject": "tieng-anh",
   "grade": 3,
   "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
+  "chapter": "Numbers & Days (Số & Ngày trong tuần)",
   "difficulty": 2,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "What is number 12 in English? (Số 12 trong tiếng Anh là gì?)",
-      "options": ["twelve", "twenty", "two", "ten"],
+      "options": [
+        "twelve",
+        "twenty",
+        "two",
+        "ten"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What day is 'Monday'? ('Monday' là thứ mấy?)",
-      "options": ["Chủ nhật", "Thứ Hai", "Thứ Ba", "Thứ Bảy"],
+      "options": [
+        "Chủ nhật",
+        "Thứ Hai",
+        "Thứ Ba",
+        "Thứ Bảy"
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Write number 15 in English (Viết số 15 bằng tiếng Anh): ___",
       "answer": "fifteen",
-      "alternatives": ["Fifteen", "FIFTEEN"]
+      "alternatives": [
+        "Fifteen",
+        "FIFTEEN"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the day of the week with its meaning (Nối ngày trong tuần với nghĩa)",
       "pairs": [
-        ["Monday", "Thứ Hai"],
-        ["Tuesday", "Thứ Ba"],
-        ["Friday", "Thứ Sáu"],
-        ["Sunday", "Chủ nhật"]
+        [
+          "Monday",
+          "Thứ Hai"
+        ],
+        [
+          "Tuesday",
+          "Thứ Ba"
+        ],
+        [
+          "Friday",
+          "Thứ Sáu"
+        ],
+        [
+          "Sunday",
+          "Chủ nhật"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Which number is 'eleven'? (Số nào là 'eleven'?)",
-      "options": ["11", "12", "20", "10"],
+      "options": [
+        "11",
+        "12",
+        "20",
+        "10"
+      ],
       "answer": 0
     },
     {
       "type": "matching",
       "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
-        ["13", "thirteen"],
-        ["14", "fourteen"],
-        ["16", "sixteen"],
-        ["20", "twenty"]
+        [
+          "13",
+          "thirteen"
+        ],
+        [
+          "14",
+          "fourteen"
+        ],
+        [
+          "16",
+          "sixteen"
+        ],
+        [
+          "20",
+          "twenty"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'teacher' mean? (Từ 'teacher' nghĩa là gì?)",
-      "options": ["học sinh", "giáo viên", "bác sĩ", "nông dân"],
+      "options": [
+        "học sinh",
+        "giáo viên",
+        "bác sĩ",
+        "nông dân"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "What day is 'Wednesday'? ('Wednesday' là thứ mấy?)",
-      "options": ["Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu"],
+      "options": [
+        "Thứ Ba",
+        "Thứ Tư",
+        "Thứ Năm",
+        "Thứ Sáu"
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Write number 18 in English (Viết số 18 bằng tiếng Anh): ___",
       "answer": "eighteen",
-      "alternatives": ["Eighteen", "EIGHTEEN"]
+      "alternatives": [
+        "Eighteen",
+        "EIGHTEEN"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "What is number 17 in English? (Số 17 trong tiếng Anh là gì?)",
-      "options": ["seventeen", "seventy", "seven", "sixteen"],
+      "options": [
+        "seventeen",
+        "seventy",
+        "seven",
+        "sixteen"
+      ],
       "answer": 0
     },
     {
       "type": "matching",
       "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
-        ["11", "eleven"],
-        ["12", "twelve"],
-        ["15", "fifteen"],
-        ["19", "nineteen"]
+        [
+          "11",
+          "eleven"
+        ],
+        [
+          "12",
+          "twelve"
+        ],
+        [
+          "15",
+          "fifteen"
+        ],
+        [
+          "19",
+          "nineteen"
+        ]
       ]
     },
     {
       "type": "fill-blank",
       "question": "What is the English word for 'Thứ Năm'? (Thứ Năm trong tiếng Anh là gì?): ___",
       "answer": "Thursday",
-      "alternatives": ["thursday", "THURSDAY"]
+      "alternatives": [
+        "thursday",
+        "THURSDAY"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "Which day comes after Saturday? (Ngày nào đến sau Thứ Bảy?)",
-      "options": ["Friday", "Monday", "Sunday", "Tuesday"],
+      "options": [
+        "Friday",
+        "Monday",
+        "Sunday",
+        "Tuesday"
+      ],
       "answer": 2,
       "hint": "After Saturday is Sunday (Sau Thứ Bảy là Chủ nhật)"
     },
@@ -100,22 +181,42 @@
       "type": "fill-blank",
       "question": "Write number 14 in English (Viết số 14 bằng tiếng Anh): ___",
       "answer": "fourteen",
-      "alternatives": ["Fourteen", "FOURTEEN"]
+      "alternatives": [
+        "Fourteen",
+        "FOURTEEN"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the day of the week with its meaning (Nối ngày trong tuần với nghĩa)",
       "pairs": [
-        ["Wednesday", "Thứ Tư"],
-        ["Thursday", "Thứ Năm"],
-        ["Saturday", "Thứ Bảy"],
-        ["Tuesday", "Thứ Ba"]
+        [
+          "Wednesday",
+          "Thứ Tư"
+        ],
+        [
+          "Thursday",
+          "Thứ Năm"
+        ],
+        [
+          "Saturday",
+          "Thứ Bảy"
+        ],
+        [
+          "Tuesday",
+          "Thứ Ba"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'student' mean? (Từ 'student' nghĩa là gì?)",
-      "options": ["giáo viên", "học sinh", "lớp học", "trường học"],
+      "options": [
+        "giáo viên",
+        "học sinh",
+        "lớp học",
+        "trường học"
+      ],
       "answer": 1
     }
   ]

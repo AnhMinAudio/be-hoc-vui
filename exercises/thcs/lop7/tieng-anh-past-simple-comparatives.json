@@ -4,44 +4,75 @@
   "subject": "tieng-anh",
   "grade": 7,
   "topic": "Past Simple, Comparatives & Superlatives, Present Continuous (Thì quá khứ đơn, so sánh hơn và so sánh nhất, thì hiện tại tiếp diễn)",
+  "chapter": "Ngữ pháp & Từ vựng 7",
   "difficulty": 2,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "What is the past form of 'go'? (Quá khứ của 'go' là gì?)",
-      "options": ["goed", "went", "gone", "goes"],
+      "options": [
+        "goed",
+        "went",
+        "gone",
+        "goes"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct verb: 'Yesterday I ___ a new film.' (Chọn động từ đúng ở thì quá khứ đơn)",
-      "options": ["watch", "watches", "watched", "watching"],
+      "options": [
+        "watch",
+        "watches",
+        "watched",
+        "watching"
+      ],
       "answer": 2,
       "hint": "Động từ có quy tắc thêm -ed ở quá khứ"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'A car is ___ than a bike.' (Chọn dạng so sánh hơn đúng)",
-      "options": ["fast", "faster", "fastest", "more fast"],
+      "options": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'This is the ___ building in the city.' (Chọn dạng so sánh nhất đúng)",
-      "options": ["tall", "taller", "tallest", "more tall"],
+      "options": [
+        "tall",
+        "taller",
+        "tallest",
+        "more tall"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'Math is the ___ interesting subject for me.' (Chọn từ đúng cho so sánh nhất với tính từ dài)",
-      "options": ["more", "most", "much", "many"],
+      "options": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
       "answer": 1,
       "hint": "Tính từ dài dùng 'the most'"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct sentence: 'Look! The children ___ in the garden now.' (Chọn dạng đúng của thì hiện tại tiếp diễn)",
-      "options": ["play", "plays", "are playing", "played"],
+      "options": [
+        "play",
+        "plays",
+        "are playing",
+        "played"
+      ],
       "answer": 2,
       "hint": "Dấu hiệu 'now' dùng hiện tại tiếp diễn"
     },
@@ -49,25 +80,38 @@
       "type": "fill-blank",
       "question": "Write the past simple of 'study': 'She ___ (study) English last night.' (Viết dạng quá khứ của 'study'): ___",
       "answer": "studied",
-      "alternatives": ["Studied", "STUDIED"]
+      "alternatives": [
+        "Studied",
+        "STUDIED"
+      ]
     },
     {
       "type": "fill-blank",
       "question": "Complete the present continuous: 'They ___ (write) a letter at the moment.' (Điền 'write' ở thì hiện tại tiếp diễn): ___",
       "answer": "are writing",
-      "alternatives": ["Are writing", "ARE WRITING"]
+      "alternatives": [
+        "Are writing",
+        "ARE WRITING"
+      ]
     },
     {
       "type": "fill-blank",
       "question": "Write the comparative form of 'good' (Viết dạng so sánh hơn của 'good'): ___",
       "answer": "better",
-      "alternatives": ["Better", "BETTER"]
+      "alternatives": [
+        "Better",
+        "BETTER"
+      ]
     },
     {
       "type": "fill-blank",
       "question": "Write the superlative form of 'happy' with 'the' (Viết dạng so sánh nhất của 'happy', kèm 'the'): ___",
       "answer": "the happiest",
-      "alternatives": ["happiest", "The happiest", "THE HAPPIEST"]
+      "alternatives": [
+        "happiest",
+        "The happiest",
+        "THE HAPPIEST"
+      ]
     },
     {
       "type": "true-false",
@@ -84,48 +128,92 @@
       "type": "matching",
       "question": "Match each verb with its past simple form (Nối động từ với dạng quá khứ đơn của nó)",
       "pairs": [
-        ["eat", "ate"],
-        ["come", "came"],
-        ["buy", "bought"],
-        ["take", "took"]
+        [
+          "eat",
+          "ate"
+        ],
+        [
+          "come",
+          "came"
+        ],
+        [
+          "buy",
+          "bought"
+        ],
+        [
+          "take",
+          "took"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Match each adjective with its comparative form (Nối tính từ với dạng so sánh hơn của nó)",
       "pairs": [
-        ["big", "bigger"],
-        ["easy", "easier"],
-        ["beautiful", "more beautiful"],
-        ["bad", "worse"]
+        [
+          "big",
+          "bigger"
+        ],
+        [
+          "easy",
+          "easier"
+        ],
+        [
+          "beautiful",
+          "more beautiful"
+        ],
+        [
+          "bad",
+          "worse"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "passage": "Last summer, Mai and her family travelled to Da Nang. They stayed there for five days. The beaches were beautiful and the weather was hot and sunny. Mai swam in the sea every morning and visited the famous bridge in the evening.",
       "question": "Where did Mai's family go last summer? (Gia đình Mai đã đi đâu vào mùa hè năm ngoái?)",
-      "options": ["Da Nang", "Ha Noi", "Hue", "Nha Trang"],
+      "options": [
+        "Da Nang",
+        "Ha Noi",
+        "Hue",
+        "Nha Trang"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "passage": "Last summer, Mai and her family travelled to Da Nang. They stayed there for five days. The beaches were beautiful and the weather was hot and sunny. Mai swam in the sea every morning and visited the famous bridge in the evening.",
       "question": "How long did they stay there? (Họ đã ở đó bao lâu?)",
-      "options": ["Three days", "Four days", "Five days", "A week"],
+      "options": [
+        "Three days",
+        "Four days",
+        "Five days",
+        "A week"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "passage": "Last summer, Mai and her family travelled to Da Nang. They stayed there for five days. The beaches were beautiful and the weather was hot and sunny. Mai swam in the sea every morning and visited the famous bridge in the evening.",
       "question": "What did Mai do every morning? (Mai đã làm gì mỗi sáng?)",
-      "options": ["She visited the bridge", "She swam in the sea", "She went shopping", "She read books"],
+      "options": [
+        "She visited the bridge",
+        "She swam in the sea",
+        "She went shopping",
+        "She read books"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "passage": "Last summer, Mai and her family travelled to Da Nang. They stayed there for five days. The beaches were beautiful and the weather was hot and sunny. Mai swam in the sea every morning and visited the famous bridge in the evening.",
       "question": "What was the weather like? (Thời tiết như thế nào?)",
-      "options": ["Cold and rainy", "Hot and sunny", "Cool and windy", "Cloudy and wet"],
+      "options": [
+        "Cold and rainy",
+        "Hot and sunny",
+        "Cool and windy",
+        "Cloudy and wet"
+      ],
       "answer": 1
     }
   ]

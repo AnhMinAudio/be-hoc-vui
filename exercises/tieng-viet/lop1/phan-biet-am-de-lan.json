@@ -3,13 +3,24 @@
   "subject": "tieng-viet",
   "grade": 1,
   "topic": "Phân biệt âm dễ lẫn (l/n, c/k, g/gh, ng/ngh)",
+  "chapter": "Chủ đề 3: Chính tả",
   "difficulty": 2,
-  "outcomes": ["TV1-CK-1", "TV1-GGH-1", "TV1-NGH-1", "TV1-LN-1"],
+  "outcomes": [
+    "TV1-CK-1",
+    "TV1-GGH-1",
+    "TV1-NGH-1",
+    "TV1-LN-1"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Trước các âm i, e, ê, âm 'cờ' được viết bằng chữ nào?",
-      "options": ["c", "k", "q", "g"],
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
       "answer": 1,
       "hint": "Ví dụ: kim, kê, kẻ.",
       "level": "NB"
@@ -17,7 +28,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ nào viết ĐÚNG chính tả?",
-      "options": ["ci", "ki", "qi", "gi"],
+      "options": [
+        "ci",
+        "ki",
+        "qi",
+        "gi"
+      ],
       "answer": 1,
       "hint": "Trước 'i' viết là 'k'.",
       "level": "TH"
@@ -25,7 +41,12 @@
     {
       "type": "multiple-choice",
       "question": "Trước các âm i, e, ê, âm 'gờ' được viết bằng chữ nào?",
-      "options": ["g", "gh", "ngh", "k"],
+      "options": [
+        "g",
+        "gh",
+        "ngh",
+        "k"
+      ],
       "answer": 1,
       "hint": "Ví dụ: ghế, ghi, ghe.",
       "level": "NB"
@@ -33,7 +54,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào viết ĐÚNG chính tả?",
-      "options": ["ghà", "gà", "ghô", "ghu"],
+      "options": [
+        "ghà",
+        "gà",
+        "ghô",
+        "ghu"
+      ],
       "answer": 1,
       "hint": "Trước 'a' viết là 'g' (con gà).",
       "level": "TH"
@@ -41,7 +67,12 @@
     {
       "type": "multiple-choice",
       "question": "Trước các âm i, e, ê, âm 'ngờ' được viết bằng chữ nào?",
-      "options": ["ng", "ngh", "nh", "n"],
+      "options": [
+        "ng",
+        "ngh",
+        "nh",
+        "n"
+      ],
       "answer": 1,
       "hint": "Ví dụ: nghe, nghĩ, nghệ.",
       "level": "NB"
@@ -49,7 +80,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào viết ĐÚNG chính tả?",
-      "options": ["ngô", "nghô", "ngha", "nghu"],
+      "options": [
+        "ngô",
+        "nghô",
+        "ngha",
+        "nghu"
+      ],
       "answer": 0,
       "hint": "Trước 'ô' viết là 'ng' (quả ngô).",
       "level": "TH"
@@ -82,16 +118,33 @@
       "type": "matching",
       "question": "Nối âm cần điền với tiếng viết đúng chính tả",
       "pairs": [
-        ["k + e", "ke"],
-        ["c + a", "ca"],
-        ["gh + i", "ghi"],
-        ["ngh + ê", "nghê"]
+        [
+          "k + e",
+          "ke"
+        ],
+        [
+          "c + a",
+          "ca"
+        ],
+        [
+          "gh + i",
+          "ghi"
+        ],
+        [
+          "ngh + ê",
+          "nghê"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'lá cây' bắt đầu bằng âm nào?",
-      "options": ["l", "n", "đ", "t"],
+      "options": [
+        "l",
+        "n",
+        "đ",
+        "t"
+      ],
       "answer": 0,
       "hint": "Lá cây — âm 'l' (lờ).",
       "level": "TH"
@@ -99,7 +152,12 @@
     {
       "type": "multiple-choice",
       "question": "Từ chỉ ngôi nhà viết là gì?",
-      "options": ["là", "nhà", "lhà", "nà"],
+      "options": [
+        "là",
+        "nhà",
+        "lhà",
+        "nà"
+      ],
       "answer": 1,
       "hint": "Ngôi nhà — âm đầu 'nh'.",
       "level": "TH"

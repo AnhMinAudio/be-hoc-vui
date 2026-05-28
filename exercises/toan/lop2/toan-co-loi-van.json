@@ -3,24 +3,172 @@
   "subject": "toan",
   "grade": 2,
   "topic": "Giải toán có lời văn (nhiều hơn, ít hơn)",
+  "chapter": "Chủ đề 5: Giải toán có lời văn",
   "difficulty": 2,
   "questions": [
-    { "type": "multiple-choice", "question": "An có 15 viên bi, Bình có nhiều hơn An 7 viên. Hỏi Bình có bao nhiêu viên bi?", "options": ["8 viên", "22 viên", "21 viên", "23 viên"], "answer": 1, "hint": "Nhiều hơn thì làm phép cộng" },
-    { "type": "multiple-choice", "question": "Lan có 24 cái kẹo, Mai có ít hơn Lan 9 cái. Hỏi Mai có bao nhiêu cái kẹo?", "options": ["15 cái", "33 cái", "16 cái", "14 cái"], "answer": 0, "hint": "Ít hơn thì làm phép trừ" },
-    { "type": "fill-blank", "question": "Có 18 con gà và 6 con vịt. Hỏi có tất cả bao nhiêu con? ___", "answer": "24" },
-    { "type": "fill-blank", "question": "Thùng to có 40 lít, thùng nhỏ có 15 lít. Thùng to nhiều hơn thùng nhỏ ___ lít.", "answer": "25" },
-    { "type": "multiple-choice", "question": "Lớp có 32 bạn, trong đó có 14 bạn nữ. Hỏi lớp có bao nhiêu bạn nam?", "options": ["18 bạn", "46 bạn", "17 bạn", "19 bạn"], "answer": 0, "hint": "Lấy tổng số bạn trừ số bạn nữ" },
-    { "type": "matching", "question": "Nối dạng bài với phép tính thường dùng", "pairs": [["Có thêm vào", "Phép cộng"], ["Bớt đi, cho đi", "Phép trừ"], ["Chia đều", "Phép chia"]] },
-    { "type": "fill-blank", "question": "Hùng cao 120 cm, Nam cao hơn Hùng 8 cm. Nam cao ___ cm.", "answer": "128" },
-    { "type": "fill-blank", "question": "Vườn có 27 cây cam và 35 cây bưởi. Vườn có tất cả ___ cây.", "answer": "62" },
-    { "type": "multiple-choice", "question": "Mẹ mua 50 quả trứng, đã dùng 18 quả. Hỏi còn lại bao nhiêu quả trứng?", "options": ["68 quả", "32 quả", "42 quả", "22 quả"], "answer": 1, "hint": "Lấy 50 trừ 18" },
-    { "type": "fill-blank", "question": "Tổ Một trồng được 24 cây, tổ Hai trồng ít hơn tổ Một 6 cây. Tổ Hai trồng được ___ cây.", "answer": "18" },
-    { "type": "multiple-choice", "question": "Cửa hàng có 65 kg gạo, bán đi 28 kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?", "options": ["37 kg", "47 kg", "93 kg", "43 kg"], "answer": 0, "hint": "Lấy 65 trừ 28" },
-    { "type": "fill-blank", "question": "Bao gạo nặng 30 kg, bao ngô nặng hơn bao gạo 12 kg. Bao ngô nặng ___ kg.", "answer": "42" },
-    { "type": "matching", "question": "Nối từ khóa trong đề với phép tính nên dùng", "pairs": [["nhiều hơn", "phép cộng"], ["ít hơn", "phép trừ"], ["còn lại", "phép trừ khi bớt"], ["tất cả", "phép cộng để gộp"]] },
-    { "type": "multiple-choice", "question": "Hoa có 16 bông hoa, Hồng có 19 bông hoa. Cả hai bạn có tất cả bao nhiêu bông hoa?", "options": ["3 bông", "35 bông", "25 bông", "36 bông"], "answer": 1, "hint": "Cộng số hoa của hai bạn" },
-    { "type": "fill-blank", "question": "Quyển sách dày 96 trang, Lan đã đọc 40 trang. Lan còn phải đọc ___ trang nữa.", "answer": "56" },
-    { "type": "multiple-choice", "question": "Đoạn dây dài 45 cm, cắt đi một đoạn dài 17 cm. Đoạn dây còn lại dài bao nhiêu?", "options": ["62 cm", "38 cm", "28 cm", "32 cm"], "answer": 2, "hint": "Lấy 45 trừ 17" },
-    { "type": "fill-blank", "question": "Sáng bán được 38 cái bánh, chiều bán được 25 cái bánh. Cả ngày bán được ___ cái bánh.", "answer": "63" }
+    {
+      "type": "multiple-choice",
+      "question": "An có 15 viên bi, Bình có nhiều hơn An 7 viên. Hỏi Bình có bao nhiêu viên bi?",
+      "options": [
+        "8 viên",
+        "22 viên",
+        "21 viên",
+        "23 viên"
+      ],
+      "answer": 1,
+      "hint": "Nhiều hơn thì làm phép cộng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lan có 24 cái kẹo, Mai có ít hơn Lan 9 cái. Hỏi Mai có bao nhiêu cái kẹo?",
+      "options": [
+        "15 cái",
+        "33 cái",
+        "16 cái",
+        "14 cái"
+      ],
+      "answer": 0,
+      "hint": "Ít hơn thì làm phép trừ"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 18 con gà và 6 con vịt. Hỏi có tất cả bao nhiêu con? ___",
+      "answer": "24"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Thùng to có 40 lít, thùng nhỏ có 15 lít. Thùng to nhiều hơn thùng nhỏ ___ lít.",
+      "answer": "25"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lớp có 32 bạn, trong đó có 14 bạn nữ. Hỏi lớp có bao nhiêu bạn nam?",
+      "options": [
+        "18 bạn",
+        "46 bạn",
+        "17 bạn",
+        "19 bạn"
+      ],
+      "answer": 0,
+      "hint": "Lấy tổng số bạn trừ số bạn nữ"
+    },
+    {
+      "type": "matching",
+      "question": "Nối dạng bài với phép tính thường dùng",
+      "pairs": [
+        [
+          "Có thêm vào",
+          "Phép cộng"
+        ],
+        [
+          "Bớt đi, cho đi",
+          "Phép trừ"
+        ],
+        [
+          "Chia đều",
+          "Phép chia"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "Hùng cao 120 cm, Nam cao hơn Hùng 8 cm. Nam cao ___ cm.",
+      "answer": "128"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Vườn có 27 cây cam và 35 cây bưởi. Vườn có tất cả ___ cây.",
+      "answer": "62"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mẹ mua 50 quả trứng, đã dùng 18 quả. Hỏi còn lại bao nhiêu quả trứng?",
+      "options": [
+        "68 quả",
+        "32 quả",
+        "42 quả",
+        "22 quả"
+      ],
+      "answer": 1,
+      "hint": "Lấy 50 trừ 18"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tổ Một trồng được 24 cây, tổ Hai trồng ít hơn tổ Một 6 cây. Tổ Hai trồng được ___ cây.",
+      "answer": "18"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cửa hàng có 65 kg gạo, bán đi 28 kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?",
+      "options": [
+        "37 kg",
+        "47 kg",
+        "93 kg",
+        "43 kg"
+      ],
+      "answer": 0,
+      "hint": "Lấy 65 trừ 28"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Bao gạo nặng 30 kg, bao ngô nặng hơn bao gạo 12 kg. Bao ngô nặng ___ kg.",
+      "answer": "42"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ khóa trong đề với phép tính nên dùng",
+      "pairs": [
+        [
+          "nhiều hơn",
+          "phép cộng"
+        ],
+        [
+          "ít hơn",
+          "phép trừ"
+        ],
+        [
+          "còn lại",
+          "phép trừ khi bớt"
+        ],
+        [
+          "tất cả",
+          "phép cộng để gộp"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hoa có 16 bông hoa, Hồng có 19 bông hoa. Cả hai bạn có tất cả bao nhiêu bông hoa?",
+      "options": [
+        "3 bông",
+        "35 bông",
+        "25 bông",
+        "36 bông"
+      ],
+      "answer": 1,
+      "hint": "Cộng số hoa của hai bạn"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Quyển sách dày 96 trang, Lan đã đọc 40 trang. Lan còn phải đọc ___ trang nữa.",
+      "answer": "56"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đoạn dây dài 45 cm, cắt đi một đoạn dài 17 cm. Đoạn dây còn lại dài bao nhiêu?",
+      "options": [
+        "62 cm",
+        "38 cm",
+        "28 cm",
+        "32 cm"
+      ],
+      "answer": 2,
+      "hint": "Lấy 45 trừ 17"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Sáng bán được 38 cái bánh, chiều bán được 25 cái bánh. Cả ngày bán được ___ cái bánh.",
+      "answer": "63"
+    }
   ]
 }

@@ -4,6 +4,7 @@
   "subject": "tieng-viet",
   "grade": 2,
   "topic": "Ôn luyện Tiếng Việt 2 (số 1)",
+  "chapter": "Chủ đề 2: Ôn tập tổng hợp",
   "difficulty": 1,
   "outcomes": [
     "TV2-TU-1",
@@ -22,7 +23,12 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Từ nào dưới đây là từ chỉ sự vật?",
-      "options": ["bay lượn", "ngôi trường", "chăm chỉ", "vui vẻ"],
+      "options": [
+        "bay lượn",
+        "ngôi trường",
+        "chăm chỉ",
+        "vui vẻ"
+      ],
       "answer": 1,
       "hint": "Từ chỉ sự vật gọi tên người, đồ vật, con vật, cây cối."
     },
@@ -30,7 +36,12 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Từ nào dưới đây là từ chỉ hoạt động?",
-      "options": ["cây tre", "tưới cây", "ngọt ngào", "bông lúa"],
+      "options": [
+        "cây tre",
+        "tưới cây",
+        "ngọt ngào",
+        "bông lúa"
+      ],
       "answer": 1,
       "hint": "Từ chỉ hoạt động cho biết người, vật đang làm gì."
     },
@@ -38,7 +49,12 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Từ nào dưới đây là từ chỉ đặc điểm?",
-      "options": ["quét nhà", "chiếc cặp", "tròn xoe", "leo trèo"],
+      "options": [
+        "quét nhà",
+        "chiếc cặp",
+        "tròn xoe",
+        "leo trèo"
+      ],
       "answer": 2,
       "hint": "Từ chỉ đặc điểm cho biết hình dáng, màu sắc, tính nết của sự vật."
     },
@@ -47,20 +63,31 @@
       "level": "NB",
       "question": "Điền chữ c hoặc k vào chỗ trống cho đúng chính tả: con ___á (loài vật bơi dưới nước)",
       "answer": "c",
-      "alternatives": ["con cá", "cá"]
+      "alternatives": [
+        "con cá",
+        "cá"
+      ]
     },
     {
       "type": "fill-blank",
       "level": "NB",
       "question": "Điền chữ k hoặc c vào chỗ trống: ___iến (con vật nhỏ hay tha mồi)",
       "answer": "k",
-      "alternatives": ["kiến", "con kiến"]
+      "alternatives": [
+        "kiến",
+        "con kiến"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Câu nào dưới đây thuộc kiểu câu 'Ai làm gì?'",
-      "options": ["Lan là học sinh lớp 2.", "Bạn Nam đang quét sân.", "Bầu trời rất trong xanh.", "Cây bàng cao lớn."],
+      "options": [
+        "Lan là học sinh lớp 2.",
+        "Bạn Nam đang quét sân.",
+        "Bầu trời rất trong xanh.",
+        "Cây bàng cao lớn."
+      ],
       "answer": 1,
       "hint": "Câu 'Ai làm gì?' nói về hoạt động của người hoặc vật."
     },
@@ -68,7 +95,12 @@
       "type": "multiple-choice",
       "level": "TH",
       "question": "Câu nào dưới đây thuộc kiểu câu 'Ai là gì?'",
-      "options": ["Em bé cười tươi.", "Gió thổi mát rượi.", "Hà Nội là thủ đô của nước ta.", "Chú gà trống gáy vang."],
+      "options": [
+        "Em bé cười tươi.",
+        "Gió thổi mát rượi.",
+        "Hà Nội là thủ đô của nước ta.",
+        "Chú gà trống gáy vang."
+      ],
       "answer": 2,
       "hint": "Câu 'Ai là gì?' dùng để giới thiệu, thường có từ 'là'."
     },
@@ -77,14 +109,20 @@
       "level": "NB",
       "question": "Điền dấu câu thích hợp vào cuối câu: Hôm nay là thứ mấy ___",
       "answer": "?",
-      "alternatives": ["dấu chấm hỏi", "dấu hỏi", "dấu hỏi chấm"]
+      "alternatives": [
+        "dấu chấm hỏi",
+        "dấu hỏi",
+        "dấu hỏi chấm"
+      ]
     },
     {
       "type": "fill-blank",
       "level": "NB",
       "question": "Điền dấu câu thích hợp vào cuối câu kể: Mẹ em đi chợ ___",
       "answer": ".",
-      "alternatives": ["dấu chấm"]
+      "alternatives": [
+        "dấu chấm"
+      ]
     },
     {
       "type": "fill-blank",
@@ -97,7 +135,9 @@
       "level": "TH",
       "question": "Điền từ trái nghĩa với 'nóng': Mùa đông trời rất ___",
       "answer": "lạnh",
-      "alternatives": ["rét"]
+      "alternatives": [
+        "rét"
+      ]
     },
     {
       "type": "true-false",
@@ -116,10 +156,22 @@
       "level": "TH",
       "question": "Nối tên mùa với đặc điểm thời tiết thường gặp.",
       "pairs": [
-        ["mùa xuân", "ấm áp, cây đâm chồi"],
-        ["mùa hạ", "nắng nóng, ve kêu"],
-        ["mùa thu", "mát mẻ, lá vàng rơi"],
-        ["mùa đông", "giá lạnh, gió bấc"]
+        [
+          "mùa xuân",
+          "ấm áp, cây đâm chồi"
+        ],
+        [
+          "mùa hạ",
+          "nắng nóng, ve kêu"
+        ],
+        [
+          "mùa thu",
+          "mát mẻ, lá vàng rơi"
+        ],
+        [
+          "mùa đông",
+          "giá lạnh, gió bấc"
+        ]
       ]
     },
     {
@@ -127,17 +179,34 @@
       "level": "TH",
       "question": "Nối nghề nghiệp với công việc thường làm.",
       "pairs": [
-        ["bác sĩ", "khám và chữa bệnh"],
-        ["giáo viên", "dạy học cho học sinh"],
-        ["nông dân", "trồng lúa, cấy cày"],
-        ["công nhân", "làm việc trong nhà máy"]
+        [
+          "bác sĩ",
+          "khám và chữa bệnh"
+        ],
+        [
+          "giáo viên",
+          "dạy học cho học sinh"
+        ],
+        [
+          "nông dân",
+          "trồng lúa, cấy cày"
+        ],
+        [
+          "công nhân",
+          "làm việc trong nhà máy"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "VD",
       "question": "Chọn cách viết đúng chính tả:",
-      "options": ["ghe thuyền", "ghe sông", "ghe cộ", "ghế ngồi"],
+      "options": [
+        "ghe thuyền",
+        "ghe sông",
+        "ghe cộ",
+        "ghế ngồi"
+      ],
       "answer": 3,
       "hint": "gh chỉ đi với i, e, ê; 'ghế' dùng để ngồi."
     },
@@ -145,7 +214,12 @@
       "type": "multiple-choice",
       "level": "VD",
       "question": "Trong câu 'Đàn cò trắng bay trên cánh đồng.', từ nào là từ chỉ đặc điểm?",
-      "options": ["đàn cò", "trắng", "bay", "cánh đồng"],
+      "options": [
+        "đàn cò",
+        "trắng",
+        "bay",
+        "cánh đồng"
+      ],
       "answer": 1,
       "hint": "Từ chỉ màu sắc cũng là từ chỉ đặc điểm."
     }

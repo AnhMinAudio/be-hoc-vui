@@ -4,26 +4,182 @@
   "subject": "toan",
   "grade": 6,
   "topic": "Chương 7: Số thập phân",
+  "chapter": "Chương 7: Số thập phân",
   "difficulty": 1,
-  "outcomes": ["T6-TP-1", "T6-TP-2", "T6-TP-3", "T6-TP-4"],
+  "outcomes": [
+    "T6-TP-1",
+    "T6-TP-2",
+    "T6-TP-3",
+    "T6-TP-4"
+  ],
   "questions": [
-    { "type": "multiple-choice", "question": "Phân số $\\frac{3}{4}$ được viết dưới dạng số thập phân là:", "options": ["0,75", "0,34", "0,43", "1,33"], "answer": 0, "hint": "Lấy tử chia cho mẫu: $3 : 4 = 0,75$" },
-    { "type": "fill-blank", "question": "Viết phân số $\\frac{1}{5}$ dưới dạng số thập phân ta được ___", "answer": "0,2", "hint": "$\\frac{1}{5} = \\frac{2}{10} = 0,2$" },
-    { "type": "multiple-choice", "question": "Số thập phân $0,25$ được viết dưới dạng phân số tối giản là:", "options": ["$\\frac{1}{4}$", "$\\frac{25}{10}$", "$\\frac{1}{25}$", "$\\frac{2}{5}$"], "answer": 0, "hint": "$0,25 = \\frac{25}{100} = \\frac{1}{4}$" },
-    { "type": "true-false", "question": "Số thập phân $-2,5$ là một số thập phân âm.", "answer": true, "hint": "Số thập phân có dấu trừ phía trước là số thập phân âm" },
-    { "type": "multiple-choice", "question": "Tính $0,5 + 0,25$:", "options": ["0,75", "0,30", "0,55", "0,07"], "answer": 0, "hint": "Đặt tính thẳng dấu phẩy rồi cộng" },
-    { "type": "fill-blank", "question": "Tính $3,6 - 1,8 = $ ___", "answer": "1,8", "hint": "Đặt tính thẳng dấu phẩy rồi trừ" },
-    { "type": "multiple-choice", "question": "Tính $0,2 \\times 0,3$:", "options": ["0,06", "0,6", "0,5", "0,23"], "answer": 0, "hint": "Nhân $2 \\times 3 = 6$, kết quả có $2$ chữ số ở phần thập phân" },
-    { "type": "multiple-choice", "question": "Tính $1,2 \\times 5$:", "options": ["6", "5,2", "0,6", "60"], "answer": 0, "hint": "$12 \\times 5 = 60$, kết quả có $1$ chữ số ở phần thập phân nên bằng $6,0$" },
-    { "type": "fill-blank", "question": "Tính $6,4 : 0,8 = $ ___", "answer": "8", "hint": "Nhân cả số bị chia và số chia với $10$: $64 : 8 = 8$" },
-    { "type": "true-false", "question": "So sánh: $0,7 > 0,68$.", "answer": true, "hint": "$0,70 > 0,68$ vì $70 > 68$ phần trăm" },
-    { "type": "multiple-choice", "question": "Làm tròn số $3,456$ đến hàng phần trăm ta được:", "options": ["3,46", "3,45", "3,5", "3,4"], "answer": 0, "hint": "Chữ số sau hàng phần trăm là $6 \\geq 5$ nên làm tròn lên" },
-    { "type": "fill-blank", "question": "Làm tròn số $7,84$ đến hàng đơn vị ta được ___", "answer": "8", "hint": "Chữ số phần thập phân là $8 \\geq 5$ nên làm tròn lên thành $8$" },
-    { "type": "multiple-choice", "question": "Tỉ số của $3$ và $4$ là:", "options": ["$\\frac{3}{4}$", "$\\frac{4}{3}$", "$\\frac{3}{7}$", "$12$"], "answer": 0, "hint": "Tỉ số của $a$ và $b$ là $\\frac{a}{b}$" },
-    { "type": "multiple-choice", "question": "Số thập phân $0,25$ viết dưới dạng tỉ số phần trăm là:", "options": ["25%", "2,5%", "250%", "0,25%"], "answer": 0, "hint": "Nhân $0,25$ với $100$ rồi thêm dấu %" },
-    { "type": "multiple-choice", "question": "Tính $25\\%$ của $80$:", "options": ["20", "25", "32", "16"], "answer": 0, "hint": "Lấy $80 \\times \\frac{25}{100}$" },
-    { "type": "fill-blank", "question": "Tỉ số phần trăm của $9$ và $36$ là ___ % (chỉ điền số)", "answer": "25", "hint": "Lấy $\\frac{9}{36} \\times 100\\% = \\frac{1}{4} \\times 100\\%$" },
-    { "type": "true-false", "question": "Một lớp có $40$ học sinh, trong đó $60\\%$ là học sinh nữ. Vậy lớp có $24$ học sinh nữ.", "answer": true, "hint": "Lấy $40 \\times \\frac{60}{100} = 24$" },
-    { "type": "multiple-choice", "question": "Biết $20\\%$ của một số bằng $8$. Số đó là:", "options": ["40", "1,6", "16", "28"], "answer": 0, "hint": "Tìm một số khi biết giá trị phần trăm: lấy $8 : \\frac{20}{100} = 8 \\times 5$" }
+    {
+      "type": "multiple-choice",
+      "question": "Phân số $\\frac{3}{4}$ được viết dưới dạng số thập phân là:",
+      "options": [
+        "0,75",
+        "0,34",
+        "0,43",
+        "1,33"
+      ],
+      "answer": 0,
+      "hint": "Lấy tử chia cho mẫu: $3 : 4 = 0,75$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết phân số $\\frac{1}{5}$ dưới dạng số thập phân ta được ___",
+      "answer": "0,2",
+      "hint": "$\\frac{1}{5} = \\frac{2}{10} = 0,2$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số thập phân $0,25$ được viết dưới dạng phân số tối giản là:",
+      "options": [
+        "$\\frac{1}{4}$",
+        "$\\frac{25}{10}$",
+        "$\\frac{1}{25}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 0,
+      "hint": "$0,25 = \\frac{25}{100} = \\frac{1}{4}$"
+    },
+    {
+      "type": "true-false",
+      "question": "Số thập phân $-2,5$ là một số thập phân âm.",
+      "answer": true,
+      "hint": "Số thập phân có dấu trừ phía trước là số thập phân âm"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $0,5 + 0,25$:",
+      "options": [
+        "0,75",
+        "0,30",
+        "0,55",
+        "0,07"
+      ],
+      "answer": 0,
+      "hint": "Đặt tính thẳng dấu phẩy rồi cộng"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tính $3,6 - 1,8 = $ ___",
+      "answer": "1,8",
+      "hint": "Đặt tính thẳng dấu phẩy rồi trừ"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $0,2 \\times 0,3$:",
+      "options": [
+        "0,06",
+        "0,6",
+        "0,5",
+        "0,23"
+      ],
+      "answer": 0,
+      "hint": "Nhân $2 \\times 3 = 6$, kết quả có $2$ chữ số ở phần thập phân"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $1,2 \\times 5$:",
+      "options": [
+        "6",
+        "5,2",
+        "0,6",
+        "60"
+      ],
+      "answer": 0,
+      "hint": "$12 \\times 5 = 60$, kết quả có $1$ chữ số ở phần thập phân nên bằng $6,0$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tính $6,4 : 0,8 = $ ___",
+      "answer": "8",
+      "hint": "Nhân cả số bị chia và số chia với $10$: $64 : 8 = 8$"
+    },
+    {
+      "type": "true-false",
+      "question": "So sánh: $0,7 > 0,68$.",
+      "answer": true,
+      "hint": "$0,70 > 0,68$ vì $70 > 68$ phần trăm"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Làm tròn số $3,456$ đến hàng phần trăm ta được:",
+      "options": [
+        "3,46",
+        "3,45",
+        "3,5",
+        "3,4"
+      ],
+      "answer": 0,
+      "hint": "Chữ số sau hàng phần trăm là $6 \\geq 5$ nên làm tròn lên"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Làm tròn số $7,84$ đến hàng đơn vị ta được ___",
+      "answer": "8",
+      "hint": "Chữ số phần thập phân là $8 \\geq 5$ nên làm tròn lên thành $8$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tỉ số của $3$ và $4$ là:",
+      "options": [
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{3}$",
+        "$\\frac{3}{7}$",
+        "$12$"
+      ],
+      "answer": 0,
+      "hint": "Tỉ số của $a$ và $b$ là $\\frac{a}{b}$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số thập phân $0,25$ viết dưới dạng tỉ số phần trăm là:",
+      "options": [
+        "25%",
+        "2,5%",
+        "250%",
+        "0,25%"
+      ],
+      "answer": 0,
+      "hint": "Nhân $0,25$ với $100$ rồi thêm dấu %"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính $25\\%$ của $80$:",
+      "options": [
+        "20",
+        "25",
+        "32",
+        "16"
+      ],
+      "answer": 0,
+      "hint": "Lấy $80 \\times \\frac{25}{100}$"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tỉ số phần trăm của $9$ và $36$ là ___ % (chỉ điền số)",
+      "answer": "25",
+      "hint": "Lấy $\\frac{9}{36} \\times 100\\% = \\frac{1}{4} \\times 100\\%$"
+    },
+    {
+      "type": "true-false",
+      "question": "Một lớp có $40$ học sinh, trong đó $60\\%$ là học sinh nữ. Vậy lớp có $24$ học sinh nữ.",
+      "answer": true,
+      "hint": "Lấy $40 \\times \\frac{60}{100} = 24$"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Biết $20\\%$ của một số bằng $8$. Số đó là:",
+      "options": [
+        "40",
+        "1,6",
+        "16",
+        "28"
+      ],
+      "answer": 0,
+      "hint": "Tìm một số khi biết giá trị phần trăm: lấy $8 : \\frac{20}{100} = 8 \\times 5$"
+    }
   ]
 }

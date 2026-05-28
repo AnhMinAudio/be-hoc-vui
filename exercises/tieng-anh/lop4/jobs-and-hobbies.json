@@ -3,125 +3,228 @@
   "subject": "tieng-anh",
   "grade": 4,
   "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
+  "chapter": "Jobs & Hobbies (Nghề nghiệp & Sở thích)",
   "difficulty": 2,
   "questions": [
     {
       "type": "matching",
       "question": "Match the job with its Vietnamese meaning (Nối nghề nghiệp với nghĩa tiếng Việt)",
       "pairs": [
-        ["doctor", "bác sĩ"],
-        ["teacher", "giáo viên"],
-        ["farmer", "nông dân"],
-        ["worker", "công nhân"]
+        [
+          "doctor",
+          "bác sĩ"
+        ],
+        [
+          "teacher",
+          "giáo viên"
+        ],
+        [
+          "farmer",
+          "nông dân"
+        ],
+        [
+          "worker",
+          "công nhân"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'I like reading books' mean? (Câu 'I like reading books' nghĩa là gì?)",
-      "options": ["Tôi thích đọc sách", "Tôi thích chơi bóng", "Tôi thích vẽ tranh", "Tôi thích bơi"],
+      "options": [
+        "Tôi thích đọc sách",
+        "Tôi thích chơi bóng",
+        "Tôi thích vẽ tranh",
+        "Tôi thích bơi"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'bác sĩ'? (Bác sĩ trong tiếng Anh là gì?)",
-      "options": ["teacher", "doctor", "driver", "cook"],
+      "options": [
+        "teacher",
+        "doctor",
+        "driver",
+        "cook"
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "What does 'swimming' mean in Vietnamese? (Từ 'swimming' nghĩa tiếng Việt là gì?): ___",
       "answer": "bơi",
-      "alternatives": ["bơi lội"]
+      "alternatives": [
+        "bơi lội"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the hobby with its meaning (Nối sở thích với nghĩa)",
       "pairs": [
-        ["singing", "ca hát"],
-        ["dancing", "nhảy múa"],
-        ["drawing", "vẽ"],
-        ["cooking", "nấu ăn"]
+        [
+          "singing",
+          "ca hát"
+        ],
+        [
+          "dancing",
+          "nhảy múa"
+        ],
+        [
+          "drawing",
+          "vẽ"
+        ],
+        [
+          "cooking",
+          "nấu ăn"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'She ___ a teacher.' (Chọn từ đúng để điền vào chỗ trống)",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Write 'nông dân' in English (Viết 'nông dân' bằng tiếng Anh): ___",
       "answer": "farmer",
-      "alternatives": ["Farmer", "FARMER"]
+      "alternatives": [
+        "Farmer",
+        "FARMER"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'nurse' mean? (Từ 'nurse' nghĩa là gì?)",
-      "options": ["y tá", "đầu bếp", "ca sĩ", "tài xế"],
+      "options": [
+        "y tá",
+        "đầu bếp",
+        "ca sĩ",
+        "tài xế"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'tài xế'? (Tài xế trong tiếng Anh là gì?)",
-      "options": ["pilot", "driver", "police", "cook"],
+      "options": [
+        "pilot",
+        "driver",
+        "police",
+        "cook"
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Write 'giáo viên' in English (Viết 'giáo viên' bằng tiếng Anh): ___",
       "answer": "teacher",
-      "alternatives": ["Teacher", "TEACHER"]
+      "alternatives": [
+        "Teacher",
+        "TEACHER"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the job with its Vietnamese meaning (Nối nghề nghiệp với nghĩa tiếng Việt)",
       "pairs": [
-        ["nurse", "y tá"],
-        ["cook", "đầu bếp"],
-        ["singer", "ca sĩ"],
-        ["pilot", "phi công"]
+        [
+          "nurse",
+          "y tá"
+        ],
+        [
+          "cook",
+          "đầu bếp"
+        ],
+        [
+          "singer",
+          "ca sĩ"
+        ],
+        [
+          "pilot",
+          "phi công"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'They ___ students.' (Chọn từ đúng để điền vào chỗ trống)",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "What does 'I like playing football' mean? (Câu 'I like playing football' nghĩa là gì?)",
-      "options": ["Tôi thích chơi bóng đá", "Tôi thích đọc sách", "Tôi thích nấu ăn", "Tôi thích ca hát"],
+      "options": [
+        "Tôi thích chơi bóng đá",
+        "Tôi thích đọc sách",
+        "Tôi thích nấu ăn",
+        "Tôi thích ca hát"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "Complete the sentence: 'I ___ a student.' (Hoàn thành câu với từ to be đúng): ___",
       "answer": "am",
-      "alternatives": ["Am", "AM"]
+      "alternatives": [
+        "Am",
+        "AM"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the hobby with its meaning (Nối sở thích với nghĩa)",
       "pairs": [
-        ["reading", "đọc sách"],
-        ["swimming", "bơi"],
-        ["fishing", "câu cá"],
-        ["running", "chạy bộ"]
+        [
+          "reading",
+          "đọc sách"
+        ],
+        [
+          "swimming",
+          "bơi"
+        ],
+        [
+          "fishing",
+          "câu cá"
+        ],
+        [
+          "running",
+          "chạy bộ"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'He is a cook' mean? (Câu 'He is a cook' nghĩa là gì?)",
-      "options": ["Anh ấy là đầu bếp", "Anh ấy là bác sĩ", "Anh ấy là giáo viên", "Anh ấy là nông dân"],
+      "options": [
+        "Anh ấy là đầu bếp",
+        "Anh ấy là bác sĩ",
+        "Anh ấy là giáo viên",
+        "Anh ấy là nông dân"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "What does 'dancing' mean in Vietnamese? (Từ 'dancing' nghĩa tiếng Việt là gì?): ___",
       "answer": "nhảy múa",
-      "alternatives": ["nhảy", "múa"]
+      "alternatives": [
+        "nhảy",
+        "múa"
+      ]
     }
   ]
 }

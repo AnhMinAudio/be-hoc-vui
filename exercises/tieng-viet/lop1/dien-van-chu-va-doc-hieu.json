@@ -3,8 +3,12 @@
   "subject": "tieng-viet",
   "grade": 1,
   "topic": "Điền vần, chữ còn thiếu và đọc hiểu câu ngắn",
+  "chapter": "Chủ đề 3: Chính tả",
   "difficulty": 2,
-  "outcomes": ["TV1-CT-1", "TV1-DH-1"],
+  "outcomes": [
+    "TV1-CT-1",
+    "TV1-DH-1"
+  ],
   "questions": [
     {
       "type": "fill-blank",
@@ -28,7 +32,9 @@
       "type": "fill-blank",
       "question": "Điền vần còn thiếu: cái b___ (đồ dùng để ngồi học)",
       "answer": "àn",
-      "alternatives": ["an"],
+      "alternatives": [
+        "an"
+      ],
       "hint": "Cái bàn."
     },
     {
@@ -40,7 +46,12 @@
     {
       "type": "multiple-choice",
       "question": "Điền vần thích hợp: cây ch___ (loài cây cho quả cong, màu vàng khi chín)",
-      "options": ["uôi", "ôi", "uông", "uô"],
+      "options": [
+        "uôi",
+        "ôi",
+        "uông",
+        "uô"
+      ],
       "answer": 0,
       "hint": "Cây chuối — vần 'uôi'.",
       "level": "TH"
@@ -48,7 +59,12 @@
     {
       "type": "multiple-choice",
       "question": "Đọc câu: 'Bé đi học.' Ai đi học?",
-      "options": ["Mẹ", "Bé", "Bố", "Cô"],
+      "options": [
+        "Mẹ",
+        "Bé",
+        "Bố",
+        "Cô"
+      ],
       "answer": 1,
       "hint": "Đọc kĩ chủ ngữ ở đầu câu.",
       "level": "TH"
@@ -56,7 +72,12 @@
     {
       "type": "multiple-choice",
       "question": "Đọc câu: 'Mèo bắt chuột.' Mèo làm gì?",
-      "options": ["ngủ", "bắt chuột", "ăn cỏ", "bơi"],
+      "options": [
+        "ngủ",
+        "bắt chuột",
+        "ăn cỏ",
+        "bơi"
+      ],
       "answer": 1,
       "hint": "Tìm việc mèo làm trong câu.",
       "level": "TH"
@@ -64,7 +85,12 @@
     {
       "type": "multiple-choice",
       "question": "Đọc câu: 'Lá cây màu xanh.' Lá cây có màu gì?",
-      "options": ["màu đỏ", "màu vàng", "màu xanh", "màu tím"],
+      "options": [
+        "màu đỏ",
+        "màu vàng",
+        "màu xanh",
+        "màu tím"
+      ],
       "answer": 2,
       "hint": "Câu cho biết màu của lá cây.",
       "level": "TH"
@@ -72,7 +98,12 @@
     {
       "type": "multiple-choice",
       "question": "Đọc câu: 'Bà cho bé quà.' Ai cho bé quà?",
-      "options": ["Bà", "Mẹ", "Bố", "Chị"],
+      "options": [
+        "Bà",
+        "Mẹ",
+        "Bố",
+        "Chị"
+      ],
       "answer": 0,
       "hint": "Người cho quà đứng đầu câu.",
       "level": "VD"
@@ -94,10 +125,22 @@
       "type": "matching",
       "question": "Nối câu với việc nhân vật làm trong câu",
       "pairs": [
-        ["Bé học bài.", "học bài"],
-        ["Gà gáy sáng.", "gáy sáng"],
-        ["Mẹ nấu cơm.", "nấu cơm"],
-        ["Chó giữ nhà.", "giữ nhà"]
+        [
+          "Bé học bài.",
+          "học bài"
+        ],
+        [
+          "Gà gáy sáng.",
+          "gáy sáng"
+        ],
+        [
+          "Mẹ nấu cơm.",
+          "nấu cơm"
+        ],
+        [
+          "Chó giữ nhà.",
+          "giữ nhà"
+        ]
       ]
     },
     {
@@ -115,7 +158,12 @@
     {
       "type": "multiple-choice",
       "question": "Điền chữ thích hợp: con ___ịt (con vật biết bơi, kêu cạp cạp)",
-      "options": ["v", "b", "d", "đ"],
+      "options": [
+        "v",
+        "b",
+        "d",
+        "đ"
+      ],
       "answer": 0,
       "hint": "Con vịt.",
       "level": "TH"

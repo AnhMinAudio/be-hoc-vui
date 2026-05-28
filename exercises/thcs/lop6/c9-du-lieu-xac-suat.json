@@ -4,25 +4,180 @@
   "subject": "toan",
   "grade": 6,
   "topic": "Chương 9: Dữ liệu và xác suất thực nghiệm",
+  "chapter": "Chương 9: Dữ liệu và xác suất",
   "difficulty": 1,
-  "outcomes": ["T6-DL-1", "T6-DL-2", "T6-DL-3", "T6-DL-4"],
+  "outcomes": [
+    "T6-DL-1",
+    "T6-DL-2",
+    "T6-DL-3",
+    "T6-DL-4"
+  ],
   "questions": [
-    { "type": "multiple-choice", "question": "Dãy dữ liệu \"đỏ, vàng, xanh, đỏ, xanh\" về màu sắc yêu thích thuộc loại dữ liệu nào?", "options": ["Dữ liệu không phải là số (định tính)", "Dữ liệu là số (định lượng)", "Dữ liệu liên tục", "Không phải dữ liệu"], "answer": 0, "hint": "Màu sắc là dữ liệu không phải là số." },
-    { "type": "true-false", "question": "Chiều cao (theo $\\text{cm}$) của các bạn trong lớp là dữ liệu dạng số.", "answer": true, "hint": "Chiều cao đo bằng số nên là dữ liệu định lượng." },
-    { "type": "multiple-choice", "question": "Phương pháp nào sau đây dùng để thu thập dữ liệu về sở thích môn học của học sinh?", "options": ["Lập phiếu hỏi (phỏng vấn)", "Đo chiều dài bàn học", "Cân khối lượng cặp sách", "Vẽ một bức tranh"], "answer": 0, "hint": "Phiếu hỏi giúp thu thập ý kiến, sở thích." },
-    { "type": "fill-blank", "question": "Trong biểu đồ tranh, mỗi biểu tượng quyển sách ứng với $5$ quyển. Một bạn có $4$ biểu tượng quyển sách thì bạn đó có ___ quyển (điền số).", "answer": "20", "hint": "$4 \\times 5 = 20$." },
-    { "type": "true-false", "question": "Biểu đồ tranh dùng biểu tượng (hình ảnh) để biểu diễn số liệu thống kê.", "answer": true, "hint": "Mỗi biểu tượng thay cho một số lượng nhất định." },
-    { "type": "multiple-choice", "question": "Một bảng thống kê ghi số học sinh thích các môn: Toán $12$, Văn $8$, Anh $10$. Môn nào được nhiều bạn thích nhất?", "options": ["Toán", "Văn", "Anh", "Cả ba bằng nhau"], "answer": 0, "hint": "So sánh các số: $12 > 10 > 8$." },
-    { "type": "fill-blank", "question": "Bảng thống kê số bạn thích các môn: Toán $12$, Văn $8$, Anh $10$. Tổng số bạn được hỏi là ___ (điền số).", "answer": "30", "hint": "$12 + 8 + 10 = 30$." },
-    { "type": "multiple-choice", "question": "Biểu đồ cột thường được dùng để:", "options": ["So sánh số liệu giữa các nhóm", "Đo độ dài đoạn thẳng", "Tính chu vi hình", "Vẽ một đường thẳng"], "answer": 0, "hint": "Độ cao mỗi cột biểu diễn số liệu của một nhóm." },
-    { "type": "true-false", "question": "Biểu đồ cột kép dùng để so sánh hai bộ số liệu trên cùng một biểu đồ.", "answer": true, "hint": "Mỗi nhóm có hai cột đặt cạnh nhau để so sánh." },
-    { "type": "multiple-choice", "question": "Một biểu đồ cột cho biết số cây trồng được: Lớp 6A là $30$ cây, lớp 6B là $25$ cây. Lớp 6A trồng nhiều hơn lớp 6B bao nhiêu cây?", "options": ["$5$ cây", "$55$ cây", "$25$ cây", "$30$ cây"], "answer": 0, "hint": "$30 - 25 = 5$." },
-    { "type": "fill-blank", "question": "Biểu đồ cột kép cho biết số học sinh giỏi học kì I là $8$, học kì II là $11$. Số học sinh giỏi tăng thêm ở học kì II là ___ (điền số).", "answer": "3", "hint": "$11 - 8 = 3$." },
-    { "type": "multiple-choice", "question": "Khi gieo một con xúc xắc (sáu mặt), kết quả nào sau đây KHÔNG thể xảy ra?", "options": ["Xuất hiện mặt $7$ chấm", "Xuất hiện mặt $1$ chấm", "Xuất hiện mặt $6$ chấm", "Xuất hiện mặt $3$ chấm"], "answer": 0, "hint": "Xúc xắc chỉ có các mặt từ $1$ đến $6$ chấm." },
-    { "type": "true-false", "question": "Khi tung một đồng xu, có hai kết quả có thể xảy ra là mặt sấp và mặt ngửa.", "answer": true, "hint": "Đồng xu có hai mặt: sấp (S) và ngửa (N)." },
-    { "type": "multiple-choice", "question": "Tung một đồng xu $20$ lần thì có $12$ lần xuất hiện mặt ngửa. Xác suất thực nghiệm xuất hiện mặt ngửa là:", "options": ["$\\dfrac{12}{20}$", "$\\dfrac{20}{12}$", "$\\dfrac{8}{20}$", "$\\dfrac{12}{8}$"], "answer": 0, "hint": "Xác suất thực nghiệm $= \\dfrac{\\text{số lần xảy ra}}{\\text{tổng số lần}} = \\dfrac{12}{20}$." },
-    { "type": "fill-blank", "question": "Gieo một con xúc xắc $30$ lần thì có $6$ lần xuất hiện mặt $5$ chấm. Xác suất thực nghiệm xuất hiện mặt $5$ chấm viết dưới dạng phân số $\\dfrac{6}{30}$ rút gọn thành $\\dfrac{1}{?}$. Điền số vào dấu hỏi: ___", "answer": "5", "hint": "$\\dfrac{6}{30} = \\dfrac{1}{5}$ vì chia cả tử và mẫu cho $6$." },
-    { "type": "matching", "question": "Nối kết quả tung đồng xu với xác suất thực nghiệm tương ứng (tung $10$ lần).", "pairs": [["Mặt ngửa xuất hiện $5$ lần", "$\\dfrac{5}{10}$"], ["Mặt ngửa xuất hiện $3$ lần", "$\\dfrac{3}{10}$"], ["Mặt ngửa xuất hiện $7$ lần", "$\\dfrac{7}{10}$"], ["Mặt ngửa xuất hiện $0$ lần", "$\\dfrac{0}{10}$"]] },
-    { "type": "multiple-choice", "question": "Trong một hộp chỉ có các viên bi màu xanh, sự kiện nào sau đây là chắc chắn xảy ra khi lấy ra một viên bi?", "options": ["Lấy được viên bi màu xanh", "Lấy được viên bi màu đỏ", "Lấy được viên bi màu vàng", "Không lấy được viên bi nào"], "answer": 0, "hint": "Hộp chỉ có bi xanh nên chắc chắn lấy được bi xanh." }
+    {
+      "type": "multiple-choice",
+      "question": "Dãy dữ liệu \"đỏ, vàng, xanh, đỏ, xanh\" về màu sắc yêu thích thuộc loại dữ liệu nào?",
+      "options": [
+        "Dữ liệu không phải là số (định tính)",
+        "Dữ liệu là số (định lượng)",
+        "Dữ liệu liên tục",
+        "Không phải dữ liệu"
+      ],
+      "answer": 0,
+      "hint": "Màu sắc là dữ liệu không phải là số."
+    },
+    {
+      "type": "true-false",
+      "question": "Chiều cao (theo $\\text{cm}$) của các bạn trong lớp là dữ liệu dạng số.",
+      "answer": true,
+      "hint": "Chiều cao đo bằng số nên là dữ liệu định lượng."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phương pháp nào sau đây dùng để thu thập dữ liệu về sở thích môn học của học sinh?",
+      "options": [
+        "Lập phiếu hỏi (phỏng vấn)",
+        "Đo chiều dài bàn học",
+        "Cân khối lượng cặp sách",
+        "Vẽ một bức tranh"
+      ],
+      "answer": 0,
+      "hint": "Phiếu hỏi giúp thu thập ý kiến, sở thích."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trong biểu đồ tranh, mỗi biểu tượng quyển sách ứng với $5$ quyển. Một bạn có $4$ biểu tượng quyển sách thì bạn đó có ___ quyển (điền số).",
+      "answer": "20",
+      "hint": "$4 \\times 5 = 20$."
+    },
+    {
+      "type": "true-false",
+      "question": "Biểu đồ tranh dùng biểu tượng (hình ảnh) để biểu diễn số liệu thống kê.",
+      "answer": true,
+      "hint": "Mỗi biểu tượng thay cho một số lượng nhất định."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một bảng thống kê ghi số học sinh thích các môn: Toán $12$, Văn $8$, Anh $10$. Môn nào được nhiều bạn thích nhất?",
+      "options": [
+        "Toán",
+        "Văn",
+        "Anh",
+        "Cả ba bằng nhau"
+      ],
+      "answer": 0,
+      "hint": "So sánh các số: $12 > 10 > 8$."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Bảng thống kê số bạn thích các môn: Toán $12$, Văn $8$, Anh $10$. Tổng số bạn được hỏi là ___ (điền số).",
+      "answer": "30",
+      "hint": "$12 + 8 + 10 = 30$."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Biểu đồ cột thường được dùng để:",
+      "options": [
+        "So sánh số liệu giữa các nhóm",
+        "Đo độ dài đoạn thẳng",
+        "Tính chu vi hình",
+        "Vẽ một đường thẳng"
+      ],
+      "answer": 0,
+      "hint": "Độ cao mỗi cột biểu diễn số liệu của một nhóm."
+    },
+    {
+      "type": "true-false",
+      "question": "Biểu đồ cột kép dùng để so sánh hai bộ số liệu trên cùng một biểu đồ.",
+      "answer": true,
+      "hint": "Mỗi nhóm có hai cột đặt cạnh nhau để so sánh."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một biểu đồ cột cho biết số cây trồng được: Lớp 6A là $30$ cây, lớp 6B là $25$ cây. Lớp 6A trồng nhiều hơn lớp 6B bao nhiêu cây?",
+      "options": [
+        "$5$ cây",
+        "$55$ cây",
+        "$25$ cây",
+        "$30$ cây"
+      ],
+      "answer": 0,
+      "hint": "$30 - 25 = 5$."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biểu đồ cột kép cho biết số học sinh giỏi học kì I là $8$, học kì II là $11$. Số học sinh giỏi tăng thêm ở học kì II là ___ (điền số).",
+      "answer": "3",
+      "hint": "$11 - 8 = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Khi gieo một con xúc xắc (sáu mặt), kết quả nào sau đây KHÔNG thể xảy ra?",
+      "options": [
+        "Xuất hiện mặt $7$ chấm",
+        "Xuất hiện mặt $1$ chấm",
+        "Xuất hiện mặt $6$ chấm",
+        "Xuất hiện mặt $3$ chấm"
+      ],
+      "answer": 0,
+      "hint": "Xúc xắc chỉ có các mặt từ $1$ đến $6$ chấm."
+    },
+    {
+      "type": "true-false",
+      "question": "Khi tung một đồng xu, có hai kết quả có thể xảy ra là mặt sấp và mặt ngửa.",
+      "answer": true,
+      "hint": "Đồng xu có hai mặt: sấp (S) và ngửa (N)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tung một đồng xu $20$ lần thì có $12$ lần xuất hiện mặt ngửa. Xác suất thực nghiệm xuất hiện mặt ngửa là:",
+      "options": [
+        "$\\dfrac{12}{20}$",
+        "$\\dfrac{20}{12}$",
+        "$\\dfrac{8}{20}$",
+        "$\\dfrac{12}{8}$"
+      ],
+      "answer": 0,
+      "hint": "Xác suất thực nghiệm $= \\dfrac{\\text{số lần xảy ra}}{\\text{tổng số lần}} = \\dfrac{12}{20}$."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Gieo một con xúc xắc $30$ lần thì có $6$ lần xuất hiện mặt $5$ chấm. Xác suất thực nghiệm xuất hiện mặt $5$ chấm viết dưới dạng phân số $\\dfrac{6}{30}$ rút gọn thành $\\dfrac{1}{?}$. Điền số vào dấu hỏi: ___",
+      "answer": "5",
+      "hint": "$\\dfrac{6}{30} = \\dfrac{1}{5}$ vì chia cả tử và mẫu cho $6$."
+    },
+    {
+      "type": "matching",
+      "question": "Nối kết quả tung đồng xu với xác suất thực nghiệm tương ứng (tung $10$ lần).",
+      "pairs": [
+        [
+          "Mặt ngửa xuất hiện $5$ lần",
+          "$\\dfrac{5}{10}$"
+        ],
+        [
+          "Mặt ngửa xuất hiện $3$ lần",
+          "$\\dfrac{3}{10}$"
+        ],
+        [
+          "Mặt ngửa xuất hiện $7$ lần",
+          "$\\dfrac{7}{10}$"
+        ],
+        [
+          "Mặt ngửa xuất hiện $0$ lần",
+          "$\\dfrac{0}{10}$"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong một hộp chỉ có các viên bi màu xanh, sự kiện nào sau đây là chắc chắn xảy ra khi lấy ra một viên bi?",
+      "options": [
+        "Lấy được viên bi màu xanh",
+        "Lấy được viên bi màu đỏ",
+        "Lấy được viên bi màu vàng",
+        "Không lấy được viên bi nào"
+      ],
+      "answer": 0,
+      "hint": "Hộp chỉ có bi xanh nên chắc chắn lấy được bi xanh."
+    }
   ]
 }

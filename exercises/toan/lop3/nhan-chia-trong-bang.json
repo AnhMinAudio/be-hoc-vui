@@ -3,18 +3,29 @@
   "subject": "toan",
   "grade": 3,
   "topic": "Nhân chia trong bảng và phép tính trong 1000",
+  "chapter": "Phép nhân, phép chia trong bảng",
   "difficulty": 2,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "6 × 7 = ?",
-      "options": ["42", "48", "36", "49"],
+      "options": [
+        "42",
+        "48",
+        "36",
+        "49"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "63 : 9 = ?",
-      "options": ["6", "7", "8", "9"],
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "answer": 1
     },
     {
@@ -30,7 +41,12 @@
     {
       "type": "multiple-choice",
       "question": "125 + 234 = ?",
-      "options": ["359", "349", "459", "339"],
+      "options": [
+        "359",
+        "349",
+        "459",
+        "339"
+      ],
       "answer": 0
     },
     {
@@ -42,16 +58,33 @@
       "type": "matching",
       "question": "Nối phép nhân với kết quả",
       "pairs": [
-        ["7 × 8", "56"],
-        ["9 × 6", "54"],
-        ["8 × 8", "64"],
-        ["7 × 7", "49"]
+        [
+          "7 × 8",
+          "56"
+        ],
+        [
+          "9 × 6",
+          "54"
+        ],
+        [
+          "8 × 8",
+          "64"
+        ],
+        [
+          "7 × 7",
+          "49"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Một hộp có 6 cái bút. Hỏi 4 hộp như thế có bao nhiêu cái bút?",
-      "options": ["20 cái", "24 cái", "18 cái", "30 cái"],
+      "options": [
+        "20 cái",
+        "24 cái",
+        "18 cái",
+        "30 cái"
+      ],
       "answer": 1,
       "hint": "Lấy 6 nhân 4"
     },
@@ -68,13 +101,23 @@
     {
       "type": "multiple-choice",
       "question": "8 × 9 = ?",
-      "options": ["72", "64", "81", "63"],
+      "options": [
+        "72",
+        "64",
+        "81",
+        "63"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "56 : 7 = ?",
-      "options": ["6", "7", "8", "9"],
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "answer": 2
     },
     {
@@ -91,16 +134,33 @@
       "type": "matching",
       "question": "Nối phép chia với kết quả",
       "pairs": [
-        ["48 : 6", "8"],
-        ["54 : 9", "6"],
-        ["42 : 7", "6"],
-        ["81 : 9", "9"]
+        [
+          "48 : 6",
+          "8"
+        ],
+        [
+          "54 : 9",
+          "6"
+        ],
+        [
+          "42 : 7",
+          "6"
+        ],
+        [
+          "81 : 9",
+          "9"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Có 35 cái kẹo chia đều cho 7 bạn. Hỏi mỗi bạn được bao nhiêu cái kẹo?",
-      "options": ["4 cái", "5 cái", "6 cái", "7 cái"],
+      "options": [
+        "4 cái",
+        "5 cái",
+        "6 cái",
+        "7 cái"
+      ],
       "answer": 1,
       "hint": "Lấy 35 chia cho 7"
     },

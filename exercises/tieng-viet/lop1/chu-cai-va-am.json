@@ -3,18 +3,29 @@
   "subject": "tieng-viet",
   "grade": 1,
   "topic": "Chữ cái và âm",
+  "chapter": "Chủ đề 1: Âm và chữ cái",
   "difficulty": 1,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Chữ cái nào đứng sau chữ 'a' trong bảng chữ cái?",
-      "options": ["c", "ă", "b", "đ"],
+      "options": [
+        "c",
+        "ă",
+        "b",
+        "đ"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng 'mẹ' bắt đầu bằng âm nào?",
-      "options": ["b", "m", "n", "l"],
+      "options": [
+        "b",
+        "m",
+        "n",
+        "l"
+      ],
       "answer": 1
     },
     {
@@ -32,16 +43,33 @@
       "type": "matching",
       "question": "Nối tiếng với hình ảnh (mô tả)",
       "pairs": [
-        ["cá", "bơi dưới nước"],
-        ["chim", "bay trên trời"],
-        ["bò", "ăn cỏ trên đồng"],
-        ["mèo", "kêu meo meo"]
+        [
+          "cá",
+          "bơi dưới nước"
+        ],
+        [
+          "chim",
+          "bay trên trời"
+        ],
+        [
+          "bò",
+          "ăn cỏ trên đồng"
+        ],
+        [
+          "mèo",
+          "kêu meo meo"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng nào có dấu sắc?",
-      "options": ["bà", "má", "mả", "mà"],
+      "options": [
+        "bà",
+        "má",
+        "mả",
+        "mà"
+      ],
       "answer": 1,
       "hint": "Dấu sắc là dấu nghiêng lên phía trên"
     },
@@ -49,29 +77,53 @@
       "type": "fill-blank",
       "question": "Viết chữ cái đứng trước chữ 'd'",
       "answer": "đ",
-      "alternatives": ["Đ"]
+      "alternatives": [
+        "Đ"
+      ]
     },
     {
       "type": "matching",
       "question": "Nối tiếng với dấu thanh tương ứng",
       "pairs": [
-        ["mẹ", "dấu nặng"],
-        ["má", "dấu sắc"],
-        ["mả", "dấu hỏi"],
-        ["mã", "dấu ngã"]
+        [
+          "mẹ",
+          "dấu nặng"
+        ],
+        [
+          "má",
+          "dấu sắc"
+        ],
+        [
+          "mả",
+          "dấu hỏi"
+        ],
+        [
+          "mã",
+          "dấu ngã"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Chữ cái nào là nguyên âm?",
-      "options": ["b", "o", "t", "k"],
+      "options": [
+        "b",
+        "o",
+        "t",
+        "k"
+      ],
       "answer": 1,
       "hint": "Các nguyên âm là a, e, i, o, u..."
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng 'ba' bắt đầu bằng âm nào?",
-      "options": ["b", "p", "đ", "v"],
+      "options": [
+        "b",
+        "p",
+        "đ",
+        "v"
+      ],
       "answer": 0
     },
     {
@@ -87,7 +139,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào có dấu huyền?",
-      "options": ["lá", "là", "lạ", "lả"],
+      "options": [
+        "lá",
+        "là",
+        "lạ",
+        "lả"
+      ],
       "answer": 1,
       "hint": "Dấu huyền là dấu nghiêng xuống phía dưới"
     },
@@ -95,10 +152,22 @@
       "type": "matching",
       "question": "Nối chữ cái với một tiếng bắt đầu bằng chữ đó",
       "pairs": [
-        ["b", "bé"],
-        ["c", "cá"],
-        ["m", "mẹ"],
-        ["n", "nó"]
+        [
+          "b",
+          "bé"
+        ],
+        [
+          "c",
+          "cá"
+        ],
+        [
+          "m",
+          "mẹ"
+        ],
+        [
+          "n",
+          "nó"
+        ]
       ]
     },
     {
@@ -109,7 +178,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào KHÔNG có dấu thanh?",
-      "options": ["bè", "ba", "bó", "bị"],
+      "options": [
+        "bè",
+        "ba",
+        "bó",
+        "bị"
+      ],
       "answer": 1,
       "hint": "Tiếng không dấu là tiếng đọc bằng giọng bình thường"
     },
@@ -117,10 +191,22 @@
       "type": "matching",
       "question": "Nối tiếng với màu sắc của đồ vật",
       "pairs": [
-        ["lá cây", "màu xanh"],
-        ["quả cà chua", "màu đỏ"],
-        ["quả chuối", "màu vàng"],
-        ["bầu trời", "màu xanh da trời"]
+        [
+          "lá cây",
+          "màu xanh"
+        ],
+        [
+          "quả cà chua",
+          "màu đỏ"
+        ],
+        [
+          "quả chuối",
+          "màu vàng"
+        ],
+        [
+          "bầu trời",
+          "màu xanh da trời"
+        ]
       ]
     }
   ]

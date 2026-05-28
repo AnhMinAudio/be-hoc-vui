@@ -3,68 +3,126 @@
   "subject": "tieng-anh",
   "grade": 5,
   "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
+  "chapter": "Routines, Places & Comparatives",
   "difficulty": 3,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "What does 'I get up at 6 o'clock' mean? (Câu 'I get up at 6 o'clock' nghĩa là gì?)",
-      "options": ["Tôi thức dậy lúc 6 giờ", "Tôi đi ngủ lúc 6 giờ", "Tôi ăn lúc 6 giờ", "Tôi học lúc 6 giờ"],
+      "options": [
+        "Tôi thức dậy lúc 6 giờ",
+        "Tôi đi ngủ lúc 6 giờ",
+        "Tôi ăn lúc 6 giờ",
+        "Tôi học lúc 6 giờ"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What is the comparative form of 'tall'? (Dạng so sánh hơn của 'tall' là gì?)",
-      "options": ["taller", "tallest", "more tall", "talls"],
+      "options": [
+        "taller",
+        "tallest",
+        "more tall",
+        "talls"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What place is a 'hospital'? ('Hospital' là nơi nào?)",
-      "options": ["bệnh viện", "trường học", "công viên", "chợ"],
+      "options": [
+        "bệnh viện",
+        "trường học",
+        "công viên",
+        "chợ"
+      ],
       "answer": 0
     },
     {
       "type": "matching",
       "question": "Match the place with its Vietnamese meaning (Nối địa điểm với nghĩa tiếng Việt)",
       "pairs": [
-        ["school", "trường học"],
-        ["hospital", "bệnh viện"],
-        ["market", "chợ"],
-        ["park", "công viên"]
+        [
+          "school",
+          "trường học"
+        ],
+        [
+          "hospital",
+          "bệnh viện"
+        ],
+        [
+          "market",
+          "chợ"
+        ],
+        [
+          "park",
+          "công viên"
+        ]
       ]
     },
     {
       "type": "fill-blank",
       "question": "'Bigger' is the comparative form of which word? ('Bigger' là so sánh hơn của từ nào?): ___",
       "answer": "big",
-      "alternatives": ["Big", "BIG"]
+      "alternatives": [
+        "Big",
+        "BIG"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'An elephant is ___ than a cat.' (Chọn từ đúng để điền vào chỗ trống)",
-      "options": ["big", "bigger", "biggest", "more big"],
+      "options": [
+        "big",
+        "bigger",
+        "biggest",
+        "more big"
+      ],
       "answer": 1
     },
     {
       "type": "matching",
       "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
       "pairs": [
-        ["get up", "thức dậy"],
-        ["go to school", "đi học"],
-        ["have lunch", "ăn trưa"],
-        ["go to bed", "đi ngủ"]
+        [
+          "get up",
+          "thức dậy"
+        ],
+        [
+          "go to school",
+          "đi học"
+        ],
+        [
+          "have lunch",
+          "ăn trưa"
+        ],
+        [
+          "go to bed",
+          "đi ngủ"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What is the comparative form of 'happy'? (Dạng so sánh hơn của 'happy' là gì?)",
-      "options": ["happier", "happiest", "more happy", "happyer"],
+      "options": [
+        "happier",
+        "happiest",
+        "more happy",
+        "happyer"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: 'Math is ___ difficult than English.' (Chọn từ đúng để điền vào chỗ trống)",
-      "options": ["more", "most", "much", "many"],
+      "options": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
       "answer": 0,
       "hint": "Long adjectives use 'more' (Tính từ dài dùng 'more')"
     },
@@ -72,44 +130,83 @@
       "type": "fill-blank",
       "question": "Write the comparative form of 'small' (Viết dạng so sánh hơn của 'small'): ___",
       "answer": "smaller",
-      "alternatives": ["Smaller", "SMALLER"]
+      "alternatives": [
+        "Smaller",
+        "SMALLER"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the place with its Vietnamese meaning (Nối địa điểm với nghĩa tiếng Việt)",
       "pairs": [
-        ["library", "thư viện"],
-        ["zoo", "sở thú"],
-        ["cinema", "rạp chiếu phim"],
-        ["restaurant", "nhà hàng"]
+        [
+          "library",
+          "thư viện"
+        ],
+        [
+          "zoo",
+          "sở thú"
+        ],
+        [
+          "cinema",
+          "rạp chiếu phim"
+        ],
+        [
+          "restaurant",
+          "nhà hàng"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'I brush my teeth' mean? (Câu 'I brush my teeth' nghĩa là gì?)",
-      "options": ["Tôi đánh răng", "Tôi rửa mặt", "Tôi tắm", "Tôi chải tóc"],
+      "options": [
+        "Tôi đánh răng",
+        "Tôi rửa mặt",
+        "Tôi tắm",
+        "Tôi chải tóc"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "What does 'have dinner' mean in Vietnamese? (Cụm 'have dinner' nghĩa tiếng Việt là gì?): ___",
       "answer": "ăn tối",
-      "alternatives": ["ăn bữa tối"]
+      "alternatives": [
+        "ăn bữa tối"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
       "pairs": [
-        ["wake up", "tỉnh giấc"],
-        ["take a shower", "tắm vòi sen"],
-        ["do homework", "làm bài tập về nhà"],
-        ["watch TV", "xem ti vi"]
+        [
+          "wake up",
+          "tỉnh giấc"
+        ],
+        [
+          "take a shower",
+          "tắm vòi sen"
+        ],
+        [
+          "do homework",
+          "làm bài tập về nhà"
+        ],
+        [
+          "watch TV",
+          "xem ti vi"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What is the comparative form of 'good'? (Dạng so sánh hơn của 'good' là gì?)",
-      "options": ["gooder", "better", "best", "more good"],
+      "options": [
+        "gooder",
+        "better",
+        "best",
+        "more good"
+      ],
       "answer": 1,
       "hint": "'Good' is irregular ('Good' là bất quy tắc)"
     },
@@ -117,12 +214,20 @@
       "type": "fill-blank",
       "question": "Complete the sentence: 'A train is ___ (fast) than a bike.' (Hoàn thành câu với dạng so sánh hơn của 'fast'): ___",
       "answer": "faster",
-      "alternatives": ["Faster", "FASTER"]
+      "alternatives": [
+        "Faster",
+        "FASTER"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "What place is a 'post office'? ('Post office' là nơi nào?)",
-      "options": ["bưu điện", "ngân hàng", "sân bay", "khách sạn"],
+      "options": [
+        "bưu điện",
+        "ngân hàng",
+        "sân bay",
+        "khách sạn"
+      ],
       "answer": 0
     }
   ]

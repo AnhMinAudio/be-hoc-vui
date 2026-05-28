@@ -3,13 +3,23 @@
   "subject": "tieng-viet",
   "grade": 1,
   "topic": "Vần thông dụng",
+  "chapter": "Chủ đề 2: Vần và thanh điệu",
   "difficulty": 1,
-  "outcomes": ["TV1-VAN-1", "TV1-VAN-2", "TV1-VAN-4"],
+  "outcomes": [
+    "TV1-VAN-1",
+    "TV1-VAN-2",
+    "TV1-VAN-4"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Tiếng 'bàn' có vần gì?",
-      "options": ["an", "am", "ang", "anh"],
+      "options": [
+        "an",
+        "am",
+        "ang",
+        "anh"
+      ],
       "answer": 0,
       "hint": "Bỏ âm đầu 'b' và dấu huyền, còn lại là vần.",
       "level": "NB"
@@ -17,7 +27,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng 'cam' có vần gì?",
-      "options": ["an", "am", "ap", "ang"],
+      "options": [
+        "an",
+        "am",
+        "ap",
+        "ang"
+      ],
       "answer": 1,
       "hint": "Quả cam — vần kết thúc bằng 'm'.",
       "level": "NB"
@@ -25,7 +40,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng 'cát' có vần gì?",
-      "options": ["an", "at", "ac", "ang"],
+      "options": [
+        "an",
+        "at",
+        "ac",
+        "ang"
+      ],
       "answer": 1,
       "hint": "Hạt cát ở bãi biển.",
       "level": "NB"
@@ -33,7 +53,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào có vần 'ong'?",
-      "options": ["con", "cong", "cốc", "côn"],
+      "options": [
+        "con",
+        "cong",
+        "cốc",
+        "côn"
+      ],
       "answer": 1,
       "hint": "Vần 'ong' kết thúc bằng 'ng'.",
       "level": "TH"
@@ -41,7 +66,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng 'chanh' có vần gì?",
-      "options": ["an", "ang", "anh", "ach"],
+      "options": [
+        "an",
+        "ang",
+        "anh",
+        "ach"
+      ],
       "answer": 2,
       "hint": "Quả chanh chua — vần kết thúc bằng 'nh'.",
       "level": "TH"
@@ -49,7 +79,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào có vần 'ot'?",
-      "options": ["hòn", "hót", "hong", "học"],
+      "options": [
+        "hòn",
+        "hót",
+        "hong",
+        "học"
+      ],
       "answer": 1,
       "hint": "Chim hót líu lo. Vần 'ot' kết thúc bằng 't'.",
       "level": "TH"
@@ -64,34 +99,63 @@
       "type": "fill-blank",
       "question": "Điền vần còn thiếu để được tiếng 'lá': l___ (bộ phận màu xanh của cây)",
       "answer": "á",
-      "alternatives": ["a"],
+      "alternatives": [
+        "a"
+      ],
       "hint": "Lá cây màu xanh."
     },
     {
       "type": "fill-blank",
       "question": "Điền vần 'am' hoặc 'ap' cho đúng: con t___ (con vật sống dưới nước, có vỏ cứng, càng to)",
       "answer": "ôm",
-      "alternatives": ["om", "ôm"],
+      "alternatives": [
+        "om",
+        "ôm"
+      ],
       "hint": "Con tôm. Gợi ý: vần có dấu mũ."
     },
     {
       "type": "matching",
       "question": "Nối tiếng với vần của tiếng đó",
       "pairs": [
-        ["bàn", "an"],
-        ["cam", "am"],
-        ["cát", "at"],
-        ["cong", "ong"]
+        [
+          "bàn",
+          "an"
+        ],
+        [
+          "cam",
+          "am"
+        ],
+        [
+          "cát",
+          "at"
+        ],
+        [
+          "cong",
+          "ong"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Nối tiếng với vần của tiếng đó",
       "pairs": [
-        ["xanh", "anh"],
-        ["bông", "ông"],
-        ["học", "oc"],
-        ["hót", "ot"]
+        [
+          "xanh",
+          "anh"
+        ],
+        [
+          "bông",
+          "ông"
+        ],
+        [
+          "học",
+          "oc"
+        ],
+        [
+          "hót",
+          "ot"
+        ]
       ]
     },
     {
@@ -110,7 +174,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào KHÔNG có vần 'am'?",
-      "options": ["cam", "tham", "làm", "lan"],
+      "options": [
+        "cam",
+        "tham",
+        "làm",
+        "lan"
+      ],
       "answer": 3,
       "hint": "Tiếng 'lan' có vần 'an', không phải 'am'.",
       "level": "VD"
@@ -119,13 +188,20 @@
       "type": "fill-blank",
       "question": "Điền vần còn thiếu để được tiếng 'mèo': m___ (con vật kêu meo meo)",
       "answer": "èo",
-      "alternatives": ["eo"],
+      "alternatives": [
+        "eo"
+      ],
       "hint": "Con mèo."
     },
     {
       "type": "multiple-choice",
       "question": "Vần 'ang' và vần 'an' khác nhau ở chỗ nào?",
-      "options": ["ang có thêm 'g' ở cuối", "an có thêm 'g'", "hai vần giống hệt nhau", "khác âm đầu"],
+      "options": [
+        "ang có thêm 'g' ở cuối",
+        "an có thêm 'g'",
+        "hai vần giống hệt nhau",
+        "khác âm đầu"
+      ],
       "answer": 0,
       "hint": "So sánh: 'an' và 'ang'.",
       "level": "VD"

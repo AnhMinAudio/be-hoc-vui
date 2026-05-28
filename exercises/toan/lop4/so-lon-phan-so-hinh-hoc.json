@@ -3,12 +3,18 @@
   "subject": "toan",
   "grade": 4,
   "topic": "Số lớn, phân số và hình học",
+  "chapter": "Số tự nhiên, phân số và hình học",
   "difficulty": 2,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "1234 + 5678 = ?",
-      "options": ["6912", "6812", "7912", "6902"],
+      "options": [
+        "6912",
+        "6812",
+        "7912",
+        "6902"
+      ],
       "answer": 0
     },
     {
@@ -19,7 +25,12 @@
     {
       "type": "multiple-choice",
       "question": "12 × 11 = ?",
-      "options": ["121", "132", "144", "122"],
+      "options": [
+        "121",
+        "132",
+        "144",
+        "122"
+      ],
       "answer": 1
     },
     {
@@ -36,7 +47,12 @@
     {
       "type": "multiple-choice",
       "question": "Phân số nào bằng 1/2?",
-      "options": ["2/4", "1/3", "3/4", "2/3"],
+      "options": [
+        "2/4",
+        "1/3",
+        "3/4",
+        "2/3"
+      ],
       "answer": 0,
       "hint": "Thử rút gọn từng phân số"
     },
@@ -44,16 +60,33 @@
       "type": "matching",
       "question": "Nối phân số với cách đọc",
       "pairs": [
-        ["1/2", "một phần hai"],
-        ["1/4", "một phần tư"],
-        ["3/4", "ba phần tư"],
-        ["2/3", "hai phần ba"]
+        [
+          "1/2",
+          "một phần hai"
+        ],
+        [
+          "1/4",
+          "một phần tư"
+        ],
+        [
+          "3/4",
+          "ba phần tư"
+        ],
+        [
+          "2/3",
+          "hai phần ba"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Số 7035 đọc là gì?",
-      "options": ["Bảy nghìn không trăm ba mươi lăm", "Bảy trăm ba mươi lăm", "Bảy nghìn ba trăm năm", "Bảy nghìn ba mươi"],
+      "options": [
+        "Bảy nghìn không trăm ba mươi lăm",
+        "Bảy trăm ba mươi lăm",
+        "Bảy nghìn ba trăm năm",
+        "Bảy nghìn ba mươi"
+      ],
       "answer": 0
     },
     {
@@ -70,14 +103,24 @@
     {
       "type": "multiple-choice",
       "question": "Chu vi hình vuông cạnh 5 cm là bao nhiêu? (lấy 5 × 4)",
-      "options": ["10 cm", "20 cm", "25 cm", "15 cm"],
+      "options": [
+        "10 cm",
+        "20 cm",
+        "25 cm",
+        "15 cm"
+      ],
       "answer": 1,
       "hint": "Chu vi hình vuông = cạnh nhân 4"
     },
     {
       "type": "multiple-choice",
       "question": "Phân số nào lớn hơn: 3/5 hay 2/5?",
-      "options": ["3/5", "2/5", "Bằng nhau", "Không so sánh được"],
+      "options": [
+        "3/5",
+        "2/5",
+        "Bằng nhau",
+        "Không so sánh được"
+      ],
       "answer": 0,
       "hint": "Cùng mẫu thì tử lớn hơn là phân số lớn hơn"
     },
@@ -90,17 +133,34 @@
     {
       "type": "multiple-choice",
       "question": "Số 4080 gồm có chữ số 4 ở hàng nào?",
-      "options": ["Hàng nghìn", "Hàng trăm", "Hàng chục", "Hàng đơn vị"],
+      "options": [
+        "Hàng nghìn",
+        "Hàng trăm",
+        "Hàng chục",
+        "Hàng đơn vị"
+      ],
       "answer": 0
     },
     {
       "type": "matching",
       "question": "Nối phép tính với kết quả",
       "pairs": [
-        ["2345 + 1000", "3345"],
-        ["5000 - 2000", "3000"],
-        ["15 × 10", "150"],
-        ["240 : 6", "40"]
+        [
+          "2345 + 1000",
+          "3345"
+        ],
+        [
+          "5000 - 2000",
+          "3000"
+        ],
+        [
+          "15 × 10",
+          "150"
+        ],
+        [
+          "240 : 6",
+          "40"
+        ]
       ]
     },
     {
@@ -111,7 +171,12 @@
     {
       "type": "multiple-choice",
       "question": "Phân số 5/5 bằng bao nhiêu?",
-      "options": ["0", "1", "5", "10"],
+      "options": [
+        "0",
+        "1",
+        "5",
+        "10"
+      ],
       "answer": 1,
       "hint": "Tử số bằng mẫu số thì phân số bằng 1"
     }

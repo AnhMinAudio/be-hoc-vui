@@ -3,18 +3,29 @@
   "subject": "toan",
   "grade": 2,
   "topic": "Cộng trừ trong 100 và bảng nhân",
+  "chapter": "Chủ đề 2: Phép nhân, phép chia",
   "difficulty": 1,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "25 + 13 = ?",
-      "options": ["35", "38", "48", "28"],
+      "options": [
+        "35",
+        "38",
+        "48",
+        "28"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "47 - 12 = ?",
-      "options": ["35", "37", "25", "45"],
+      "options": [
+        "35",
+        "37",
+        "25",
+        "45"
+      ],
       "answer": 0
     },
     {
@@ -32,17 +43,34 @@
     {
       "type": "multiple-choice",
       "question": "3 × 4 = ?",
-      "options": ["7", "12", "9", "15"],
+      "options": [
+        "7",
+        "12",
+        "9",
+        "15"
+      ],
       "answer": 1
     },
     {
       "type": "matching",
       "question": "Nối phép nhân với kết quả",
       "pairs": [
-        ["2 × 3", "6"],
-        ["4 × 2", "8"],
-        ["5 × 2", "10"],
-        ["3 × 3", "9"]
+        [
+          "2 × 3",
+          "6"
+        ],
+        [
+          "4 × 2",
+          "8"
+        ],
+        [
+          "5 × 2",
+          "10"
+        ],
+        [
+          "3 × 3",
+          "9"
+        ]
       ]
     },
     {
@@ -53,20 +81,35 @@
     {
       "type": "multiple-choice",
       "question": "Lan có 12 cái kẹo, mẹ cho thêm 8 cái. Hỏi Lan có tất cả bao nhiêu cái kẹo?",
-      "options": ["18 cái", "20 cái", "22 cái", "16 cái"],
+      "options": [
+        "18 cái",
+        "20 cái",
+        "22 cái",
+        "16 cái"
+      ],
       "answer": 1,
       "hint": "Lấy 12 cộng 8"
     },
     {
       "type": "multiple-choice",
       "question": "54 + 21 = ?",
-      "options": ["65", "75", "74", "76"],
+      "options": [
+        "65",
+        "75",
+        "74",
+        "76"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "68 - 35 = ?",
-      "options": ["33", "43", "23", "32"],
+      "options": [
+        "33",
+        "43",
+        "23",
+        "32"
+      ],
       "answer": 0
     },
     {
@@ -84,17 +127,37 @@
       "type": "matching",
       "question": "Bạn hãy nối phép tính với kết quả đúng nhé",
       "pairs": [
-        ["30 + 40", "70"],
-        ["80 - 20", "60"],
-        ["3 × 5", "15"],
-        ["2 × 4", "8"],
-        ["55 + 11", "66"]
+        [
+          "30 + 40",
+          "70"
+        ],
+        [
+          "80 - 20",
+          "60"
+        ],
+        [
+          "3 × 5",
+          "15"
+        ],
+        [
+          "2 × 4",
+          "8"
+        ],
+        [
+          "55 + 11",
+          "66"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Một hộp có 5 cây bút, hỏi 4 hộp như vậy có bao nhiêu cây bút?",
-      "options": ["9 cây", "20 cây", "15 cây", "25 cây"],
+      "options": [
+        "9 cây",
+        "20 cây",
+        "15 cây",
+        "25 cây"
+      ],
       "answer": 1,
       "hint": "Lấy 5 nhân với 4"
     },
@@ -106,7 +169,12 @@
     {
       "type": "multiple-choice",
       "question": "Bạn Nam có 30 viên bi, bạn cho em 14 viên. Hỏi Nam còn lại bao nhiêu viên bi?",
-      "options": ["16 viên", "26 viên", "14 viên", "24 viên"],
+      "options": [
+        "16 viên",
+        "26 viên",
+        "14 viên",
+        "24 viên"
+      ],
       "answer": 0,
       "hint": "Lấy 30 trừ 14"
     }

@@ -4,32 +4,60 @@
   "subject": "tieng-anh",
   "grade": 2,
   "topic": "Ôn luyện Tiếng Anh 2 (số 1)",
+  "chapter": "Unit 2: Ôn tập tổng hợp",
   "difficulty": 1,
-  "outcomes": ["TA2-VOCAB", "TA2-NUM", "TA2-COLOR", "TA2-PATTERN"],
+  "outcomes": [
+    "TA2-VOCAB",
+    "TA2-NUM",
+    "TA2-COLOR",
+    "TA2-PATTERN"
+  ],
   "questions": [
     {
       "type": "matching",
       "level": "NB",
       "question": "Match the birthday word with its meaning (Nối từ về sinh nhật với nghĩa)",
       "pairs": [
-        ["cake", "cái bánh"],
-        ["candle", "cây nến"],
-        ["balloon", "quả bóng bay"],
-        ["gift", "món quà"]
+        [
+          "cake",
+          "cái bánh"
+        ],
+        [
+          "candle",
+          "cây nến"
+        ],
+        [
+          "balloon",
+          "quả bóng bay"
+        ],
+        [
+          "gift",
+          "món quà"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'balloon' mean? (Từ 'balloon' nghĩa là gì?)",
-      "options": ["cái bánh", "quả bóng bay", "cây nến", "món quà"],
+      "options": [
+        "cái bánh",
+        "quả bóng bay",
+        "cây nến",
+        "món quà"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'cây nến'? (Cây nến tiếng Anh là gì?)",
-      "options": ["cake", "gift", "candle", "balloon"],
+      "options": [
+        "cake",
+        "gift",
+        "candle",
+        "balloon"
+      ],
       "answer": 2
     },
     {
@@ -37,13 +65,21 @@
       "level": "NB",
       "question": "Write 'cái bánh' in English (Viết 'cái bánh' bằng tiếng Anh): ___",
       "answer": "cake",
-      "alternatives": ["Cake", "CAKE"]
+      "alternatives": [
+        "Cake",
+        "CAKE"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'tree' mean? (Từ 'tree' nghĩa là gì?)",
-      "options": ["bông hoa", "cái cây", "con chim", "ngọn cỏ"],
+      "options": [
+        "bông hoa",
+        "cái cây",
+        "con chim",
+        "ngọn cỏ"
+      ],
       "answer": 1
     },
     {
@@ -51,10 +87,22 @@
       "level": "NB",
       "question": "Match the garden word with its meaning (Nối từ về sân vườn với nghĩa)",
       "pairs": [
-        ["tree", "cái cây"],
-        ["flower", "bông hoa"],
-        ["bird", "con chim"],
-        ["grass", "ngọn cỏ"]
+        [
+          "tree",
+          "cái cây"
+        ],
+        [
+          "flower",
+          "bông hoa"
+        ],
+        [
+          "bird",
+          "con chim"
+        ],
+        [
+          "grass",
+          "ngọn cỏ"
+        ]
       ]
     },
     {
@@ -62,13 +110,21 @@
       "level": "NB",
       "question": "Write 'bông hoa' in English (Viết 'bông hoa' bằng tiếng Anh): ___",
       "answer": "flower",
-      "alternatives": ["Flower", "FLOWER"]
+      "alternatives": [
+        "Flower",
+        "FLOWER"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'cái cây'? (Cái cây tiếng Anh là gì?)",
-      "options": ["tree", "flower", "sand", "shell"],
+      "options": [
+        "tree",
+        "flower",
+        "sand",
+        "shell"
+      ],
       "answer": 0
     },
     {
@@ -76,17 +132,34 @@
       "level": "NB",
       "question": "Match the sea word with its meaning (Nối từ về biển với nghĩa)",
       "pairs": [
-        ["sea", "biển"],
-        ["sand", "cát"],
-        ["shell", "vỏ sò"],
-        ["boat", "chiếc thuyền"]
+        [
+          "sea",
+          "biển"
+        ],
+        [
+          "sand",
+          "cát"
+        ],
+        [
+          "shell",
+          "vỏ sò"
+        ],
+        [
+          "boat",
+          "chiếc thuyền"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'shell' mean? (Từ 'shell' nghĩa là gì?)",
-      "options": ["biển", "cát", "vỏ sò", "chiếc thuyền"],
+      "options": [
+        "biển",
+        "cát",
+        "vỏ sò",
+        "chiếc thuyền"
+      ],
       "answer": 2
     },
     {
@@ -94,13 +167,21 @@
       "level": "NB",
       "question": "Write 'biển' in English (Viết 'biển' bằng tiếng Anh): ___",
       "answer": "sea",
-      "alternatives": ["Sea", "SEA"]
+      "alternatives": [
+        "Sea",
+        "SEA"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'cái bàn học'? (Cái bàn học tiếng Anh là gì?)",
-      "options": ["desk", "chair", "door", "bed"],
+      "options": [
+        "desk",
+        "chair",
+        "door",
+        "bed"
+      ],
       "answer": 0
     },
     {
@@ -108,17 +189,34 @@
       "level": "NB",
       "question": "Match the classroom word with its meaning (Nối từ về lớp học với nghĩa)",
       "pairs": [
-        ["desk", "cái bàn học"],
-        ["chair", "cái ghế"],
-        ["bag", "cái cặp"],
-        ["pen", "cái bút mực"]
+        [
+          "desk",
+          "cái bàn học"
+        ],
+        [
+          "chair",
+          "cái ghế"
+        ],
+        [
+          "bag",
+          "cái cặp"
+        ],
+        [
+          "pen",
+          "cái bút mực"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Complete: 'This is a ___.' to talk about a chair (Hoàn thành câu nói về cái ghế)",
-      "options": ["chair", "cake", "sea", "bird"],
+      "options": [
+        "chair",
+        "cake",
+        "sea",
+        "bird"
+      ],
       "answer": 0
     },
     {
@@ -126,13 +224,21 @@
       "level": "TH",
       "question": "Complete: 'I have a ___.' meaning 'Tôi có một quả bóng bay' (Hoàn thành câu): ___",
       "answer": "balloon",
-      "alternatives": ["Balloon", "BALLOON"]
+      "alternatives": [
+        "Balloon",
+        "BALLOON"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'chair' mean? (Từ 'chair' nghĩa là gì?)",
-      "options": ["cái ghế", "cái bàn", "cái cửa", "cái giường"],
+      "options": [
+        "cái ghế",
+        "cái bàn",
+        "cái cửa",
+        "cái giường"
+      ],
       "answer": 0
     }
   ]

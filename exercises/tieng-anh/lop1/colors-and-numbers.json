@@ -3,50 +3,93 @@
   "subject": "tieng-anh",
   "grade": 1,
   "topic": "Colors & Numbers (Màu sắc và số đếm)",
+  "chapter": "Unit 3: Colors (Màu sắc)",
   "difficulty": 1,
   "questions": [
     {
       "type": "matching",
       "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
       "pairs": [
-        ["red", "đỏ"],
-        ["blue", "xanh dương"],
-        ["yellow", "vàng"],
-        ["green", "xanh lá"]
+        [
+          "red",
+          "đỏ"
+        ],
+        [
+          "blue",
+          "xanh dương"
+        ],
+        [
+          "yellow",
+          "vàng"
+        ],
+        [
+          "green",
+          "xanh lá"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'one' mean? (Từ 'one' nghĩa là gì?)",
-      "options": ["một", "hai", "ba", "bốn"],
+      "options": [
+        "một",
+        "hai",
+        "ba",
+        "bốn"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What is number 5 in English? (Số 5 trong tiếng Anh là gì?)",
-      "options": ["four", "five", "six", "seven"],
+      "options": [
+        "four",
+        "five",
+        "six",
+        "seven"
+      ],
       "answer": 1
     },
     {
       "type": "fill-blank",
       "question": "Write number 3 in English (Viết số 3 bằng tiếng Anh): ___",
       "answer": "three",
-      "alternatives": ["Three", "THREE"]
+      "alternatives": [
+        "Three",
+        "THREE"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
-        ["1", "one"],
-        ["2", "two"],
-        ["3", "three"],
-        ["4", "four"]
+        [
+          "1",
+          "one"
+        ],
+        [
+          "2",
+          "two"
+        ],
+        [
+          "3",
+          "three"
+        ],
+        [
+          "4",
+          "four"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What color is a banana? (Quả chuối màu gì?)",
-      "options": ["red", "blue", "yellow", "green"],
+      "options": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
       "answer": 2,
       "hint": "A banana is yellow (Quả chuối màu vàng)"
     },
@@ -54,46 +97,84 @@
       "type": "fill-blank",
       "question": "What color is grass? Answer in English (Cỏ màu gì? Trả lời bằng tiếng Anh): ___",
       "answer": "green",
-      "alternatives": ["Green", "GREEN"]
+      "alternatives": [
+        "Green",
+        "GREEN"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "How many fingers do you have on one hand? (Một bàn tay có mấy ngón?)",
-      "options": ["three", "four", "five", "ten"],
+      "options": [
+        "three",
+        "four",
+        "five",
+        "ten"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "What does 'black' mean? (Từ 'black' nghĩa là gì?)",
-      "options": ["trắng", "đen", "hồng", "cam"],
+      "options": [
+        "trắng",
+        "đen",
+        "hồng",
+        "cam"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "What is number 8 in English? (Số 8 trong tiếng Anh là gì?)",
-      "options": ["six", "seven", "eight", "nine"],
+      "options": [
+        "six",
+        "seven",
+        "eight",
+        "nine"
+      ],
       "answer": 2
     },
     {
       "type": "fill-blank",
       "question": "Write number 10 in English (Viết số 10 bằng tiếng Anh): ___",
       "answer": "ten",
-      "alternatives": ["Ten", "TEN"]
+      "alternatives": [
+        "Ten",
+        "TEN"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the color with its Vietnamese meaning (Nối màu sắc với nghĩa tiếng Việt)",
       "pairs": [
-        ["white", "trắng"],
-        ["black", "đen"],
-        ["pink", "hồng"],
-        ["orange", "cam"]
+        [
+          "white",
+          "trắng"
+        ],
+        [
+          "black",
+          "đen"
+        ],
+        [
+          "pink",
+          "hồng"
+        ],
+        [
+          "orange",
+          "cam"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What color is the sky on a sunny day? (Bầu trời ngày nắng màu gì?)",
-      "options": ["green", "blue", "red", "black"],
+      "options": [
+        "green",
+        "blue",
+        "red",
+        "black"
+      ],
       "answer": 1,
       "hint": "The sky is blue (Bầu trời màu xanh dương)"
     },
@@ -101,29 +182,52 @@
       "type": "fill-blank",
       "question": "Write number 2 in English (Viết số 2 bằng tiếng Anh): ___",
       "answer": "two",
-      "alternatives": ["Two", "TWO"]
+      "alternatives": [
+        "Two",
+        "TWO"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
-        ["6", "six"],
-        ["7", "seven"],
-        ["8", "eight"],
-        ["9", "nine"]
+        [
+          "6",
+          "six"
+        ],
+        [
+          "7",
+          "seven"
+        ],
+        [
+          "8",
+          "eight"
+        ],
+        [
+          "9",
+          "nine"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'seven' mean? (Từ 'seven' nghĩa là gì?)",
-      "options": ["năm", "sáu", "bảy", "tám"],
+      "options": [
+        "năm",
+        "sáu",
+        "bảy",
+        "tám"
+      ],
       "answer": 2
     },
     {
       "type": "fill-blank",
       "question": "What color is a tomato? Answer in English (Quả cà chua màu gì? Trả lời bằng tiếng Anh): ___",
       "answer": "red",
-      "alternatives": ["Red", "RED"]
+      "alternatives": [
+        "Red",
+        "RED"
+      ]
     }
   ]
 }

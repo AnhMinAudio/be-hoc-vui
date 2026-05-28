@@ -3,13 +3,23 @@
   "subject": "tieng-viet",
   "grade": 1,
   "topic": "Âm và chữ cái (nâng cao)",
+  "chapter": "Chủ đề 1: Âm và chữ cái",
   "difficulty": 1,
-  "outcomes": ["TV1-AM-1", "TV1-AM-2", "TV1-AM-3"],
+  "outcomes": [
+    "TV1-AM-1",
+    "TV1-AM-2",
+    "TV1-AM-3"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Bảng chữ cái tiếng Việt có bao nhiêu chữ cái?",
-      "options": ["24", "26", "29", "30"],
+      "options": [
+        "24",
+        "26",
+        "29",
+        "30"
+      ],
       "answer": 2,
       "hint": "Bảng chữ cái tiếng Việt có a, ă, â... đến y.",
       "level": "NB"
@@ -17,21 +27,36 @@
     {
       "type": "multiple-choice",
       "question": "Chữ cái nào đứng cuối bảng chữ cái?",
-      "options": ["x", "y", "v", "u"],
+      "options": [
+        "x",
+        "y",
+        "v",
+        "u"
+      ],
       "answer": 1,
       "level": "NB"
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng 'gà' bắt đầu bằng âm nào?",
-      "options": ["g", "c", "k", "q"],
+      "options": [
+        "g",
+        "c",
+        "k",
+        "q"
+      ],
       "answer": 0,
       "level": "NB"
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng nào bắt đầu bằng âm 'th'?",
-      "options": ["tay", "thỏ", "ta", "tô"],
+      "options": [
+        "tay",
+        "thỏ",
+        "ta",
+        "tô"
+      ],
       "answer": 1,
       "hint": "Âm 'th' đọc là 'thờ'.",
       "level": "TH"
@@ -39,7 +64,12 @@
     {
       "type": "multiple-choice",
       "question": "Chữ cái nào sau đây là phụ âm?",
-      "options": ["a", "o", "b", "ê"],
+      "options": [
+        "a",
+        "o",
+        "b",
+        "ê"
+      ],
       "answer": 2,
       "hint": "Nguyên âm là a, e, i, o, u...; còn lại là phụ âm.",
       "level": "TH"
@@ -47,7 +77,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng 'khế' bắt đầu bằng âm nào?",
-      "options": ["k", "kh", "h", "c"],
+      "options": [
+        "k",
+        "kh",
+        "h",
+        "c"
+      ],
       "answer": 1,
       "hint": "Âm 'kh' đọc là 'khờ'.",
       "level": "TH"
@@ -74,26 +109,52 @@
       "type": "fill-blank",
       "question": "Viết chữ cái đứng ngay sau chữ 'm' trong bảng chữ cái.",
       "answer": "n",
-      "alternatives": ["N"]
+      "alternatives": [
+        "N"
+      ]
     },
     {
       "type": "matching",
       "question": "Nối âm đầu với một tiếng bắt đầu bằng âm đó",
       "pairs": [
-        ["ch", "chó"],
-        ["nh", "nhà"],
-        ["kh", "khế"],
-        ["ph", "phố"]
+        [
+          "ch",
+          "chó"
+        ],
+        [
+          "nh",
+          "nhà"
+        ],
+        [
+          "kh",
+          "khế"
+        ],
+        [
+          "ph",
+          "phố"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Nối chữ cái với tên gọi của nó",
       "pairs": [
-        ["b", "bê"],
-        ["c", "xê"],
-        ["l", "e-lờ"],
-        ["m", "em-mờ"]
+        [
+          "b",
+          "bê"
+        ],
+        [
+          "c",
+          "xê"
+        ],
+        [
+          "l",
+          "e-lờ"
+        ],
+        [
+          "m",
+          "em-mờ"
+        ]
       ]
     },
     {
@@ -111,7 +172,12 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng nào bắt đầu bằng âm 'ng'?",
-      "options": ["nhà", "ngô", "nó", "na"],
+      "options": [
+        "nhà",
+        "ngô",
+        "nó",
+        "na"
+      ],
       "answer": 1,
       "hint": "Âm 'ng' đọc là 'ngờ'. Quả ngô.",
       "level": "TH"

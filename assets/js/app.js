@@ -698,7 +698,8 @@ function renderTopicList(view, grade, subject) {
   // Phần luyện tập: nhóm theo chương nếu đề có gắn chapter; nếu không thì danh sách phẳng (đã sắp dễ→khó)
   let practiceHTML = '';
   if (practice.length) {
-    if (practice.some(e => e.chapter)) {
+    // Chỉ nhóm theo chương khi có từ 2 đề trở lên (tránh tiêu đề thừa cho mục chỉ 1 đề)
+    if (practice.length >= 2 && practice.some(e => e.chapter)) {
       const groups = {};
       for (const e of practice) (groups[e.chapter || 'Khác'] = groups[e.chapter || 'Khác'] || []).push(e);
       practiceHTML = Object.keys(groups)

@@ -4,30 +4,225 @@
   "subject": "lich-su",
   "grade": 12,
   "topic": "Ôn tập Lịch sử 12",
+  "chapter": "Tổng ôn Lịch sử 12",
   "difficulty": 3,
-  "outcomes": ["Trật tự thế giới sau 1945", "ASEAN", "Cách mạng tháng Tám 1945", "Kháng chiến chống Pháp - Mỹ", "Công cuộc Đổi mới"],
+  "outcomes": [
+    "Trật tự thế giới sau 1945",
+    "ASEAN",
+    "Cách mạng tháng Tám 1945",
+    "Kháng chiến chống Pháp - Mỹ",
+    "Công cuộc Đổi mới"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Tổ chức Liên hợp quốc (UN) chính thức được thành lập vào năm nào?", "options": ["1944", "1945", "1946", "1947"], "answer": 1, "hint": "Liên hợp quốc ra đời ngay sau khi Chiến tranh thế giới thứ hai kết thúc." },
-    { "type": "multiple-choice", "level": "NB", "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập vào năm nào?", "options": ["1945", "1954", "1967", "1976"], "answer": 2, "hint": "ASEAN ra đời tại Băng Cốc (Thái Lan) với 5 nước sáng lập." },
-    { "type": "multiple-choice", "level": "NB", "question": "Việt Nam chính thức trở thành thành viên của ASEAN vào năm nào?", "options": ["1986", "1991", "1995", "2007"], "answer": 2, "hint": "Việt Nam là thành viên thứ 7 của ASEAN." },
-    { "type": "multiple-choice", "level": "NB", "question": "Bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa được Chủ tịch Hồ Chí Minh đọc vào ngày nào?", "options": ["19/8/1945", "23/9/1945", "2/9/1945", "6/1/1946"], "answer": 2, "hint": "Sự kiện diễn ra tại Quảng trường Ba Đình, Hà Nội." },
-    { "type": "multiple-choice", "level": "NB", "question": "Chiến dịch Điện Biên Phủ kết thúc thắng lợi, kết thúc cuộc kháng chiến chống thực dân Pháp vào năm nào?", "options": ["1945", "1950", "1954", "1960"], "answer": 2, "hint": "Chiến thắng buộc Pháp phải ký Hiệp định Giơ-ne-vơ." },
-    { "type": "multiple-choice", "level": "NB", "question": "Cuộc kháng chiến chống Mỹ, cứu nước kết thúc thắng lợi với đại thắng mùa Xuân năm nào?", "options": ["1973", "1975", "1976", "1979"], "answer": 1, "hint": "Chiến dịch Hồ Chí Minh giải phóng hoàn toàn miền Nam." },
-    { "type": "multiple-choice", "level": "NB", "question": "Công cuộc Đổi mới ở Việt Nam được Đảng Cộng sản Việt Nam đề ra tại Đại hội đại biểu toàn quốc lần thứ VI (1986). Năm bắt đầu công cuộc Đổi mới là:", "options": ["1975", "1976", "1986", "1995"], "answer": 2, "hint": "Đại hội VI diễn ra tháng 12 năm 1986." },
-    { "type": "multiple-choice", "level": "TH", "question": "Trật tự thế giới hình thành sau Chiến tranh thế giới thứ hai (dựa trên thỏa thuận của các cường quốc tại Hội nghị I-an-ta) thường được gọi là:", "options": ["Trật tự Véc-xai - Oa-sinh-tơn", "Trật tự hai cực I-an-ta", "Trật tự đơn cực", "Trật tự đa cực"], "answer": 1, "hint": "Trật tự với hai cực đứng đầu là Mỹ và Liên Xô." },
-    { "type": "multiple-choice", "level": "TH", "question": "Sự đối đầu căng thẳng giữa hai phe tư bản chủ nghĩa (đứng đầu là Mỹ) và xã hội chủ nghĩa (đứng đầu là Liên Xô) sau năm 1945 được gọi là:", "options": ["Chiến tranh thế giới thứ ba", "Chiến tranh lạnh", "Chiến tranh cục bộ", "Chiến tranh tổng lực"], "answer": 1, "hint": "Đối đầu trên mọi lĩnh vực nhưng không xảy ra xung đột quân sự trực tiếp giữa hai siêu cường." },
-    { "type": "multiple-choice", "level": "TH", "question": "Năm nước sáng lập ban đầu của tổ chức ASEAN gồm: In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po và:", "options": ["Việt Nam", "Thái Lan", "Lào", "Mi-an-ma"], "answer": 1, "hint": "Nước chủ nhà nơi ký Tuyên bố Băng Cốc." },
-    { "type": "multiple-choice", "level": "VD", "question": "Sắp xếp các sự kiện theo đúng trình tự thời gian: (1) Cách mạng tháng Tám thành công; (2) Chiến thắng Điện Biên Phủ; (3) Đại thắng mùa Xuân giải phóng miền Nam; (4) Đảng đề ra đường lối Đổi mới.", "options": ["(1) - (2) - (3) - (4)", "(2) - (1) - (3) - (4)", "(1) - (3) - (2) - (4)", "(1) - (2) - (4) - (3)"], "answer": 0, "hint": "1945 → 1954 → 1975 → 1986." },
-    { "type": "multiple-choice", "level": "VD", "question": "Ý nghĩa quan trọng nhất của Cách mạng tháng Tám năm 1945 đối với dân tộc Việt Nam là:", "options": ["Đưa nước ta gia nhập Liên hợp quốc", "Lật đổ ách thống trị của thực dân, phong kiến, lập ra nước Việt Nam Dân chủ Cộng hòa", "Hoàn thành thống nhất đất nước về mặt nhà nước", "Khởi đầu công cuộc Đổi mới đất nước"], "answer": 1, "hint": "Khai sinh ra nhà nước công nông đầu tiên ở Đông Nam Á." },
-    { "type": "true-false", "level": "NB", "question": "Việt Nam là một trong năm nước sáng lập ra tổ chức ASEAN vào năm 1967.", "answer": false },
-    { "type": "true-false", "level": "TH", "question": "Công cuộc Đổi mới ở Việt Nam (từ năm 1986) lấy đổi mới về kinh tế làm trọng tâm.", "answer": true },
-    { "type": "true-false-group", "level": "VD", "question": "Xét tính đúng/sai của các khẳng định sau về lịch sử Việt Nam và thế giới hiện đại:", "statements": [
-      { "text": "Liên hợp quốc được thành lập năm 1945 với mục tiêu duy trì hòa bình và an ninh thế giới.", "answer": true },
-      { "text": "Chiến thắng Điện Biên Phủ năm 1954 kết thúc cuộc kháng chiến chống thực dân Pháp.", "answer": true },
-      { "text": "Đại thắng mùa Xuân năm 1975 đã giải phóng hoàn toàn miền Nam, thống nhất đất nước.", "answer": true },
-      { "text": "Việt Nam gia nhập ASEAN vào năm 1967, cùng năm tổ chức này được thành lập.", "answer": false }
-    ] },
-    { "type": "fill-blank", "level": "NB", "question": "Ngày 2/9/1945, tại Quảng trường Ba Đình (Hà Nội), Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập, khai sinh ra nước ___", "answer": "Việt Nam Dân chủ Cộng hòa", "alternatives": ["Việt Nam Dân chủ Cộng hoà", "nước Việt Nam Dân chủ Cộng hòa"] },
-    { "type": "fill-blank", "level": "TH", "question": "Đường lối Đổi mới toàn diện đất nước được Đảng Cộng sản Việt Nam đề ra tại Đại hội đại biểu toàn quốc lần thứ VI, năm ___", "answer": "1986", "alternatives": ["năm 1986"] }
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tổ chức Liên hợp quốc (UN) chính thức được thành lập vào năm nào?",
+      "options": [
+        "1944",
+        "1945",
+        "1946",
+        "1947"
+      ],
+      "answer": 1,
+      "hint": "Liên hợp quốc ra đời ngay sau khi Chiến tranh thế giới thứ hai kết thúc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập vào năm nào?",
+      "options": [
+        "1945",
+        "1954",
+        "1967",
+        "1976"
+      ],
+      "answer": 2,
+      "hint": "ASEAN ra đời tại Băng Cốc (Thái Lan) với 5 nước sáng lập."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Việt Nam chính thức trở thành thành viên của ASEAN vào năm nào?",
+      "options": [
+        "1986",
+        "1991",
+        "1995",
+        "2007"
+      ],
+      "answer": 2,
+      "hint": "Việt Nam là thành viên thứ 7 của ASEAN."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa được Chủ tịch Hồ Chí Minh đọc vào ngày nào?",
+      "options": [
+        "19/8/1945",
+        "23/9/1945",
+        "2/9/1945",
+        "6/1/1946"
+      ],
+      "answer": 2,
+      "hint": "Sự kiện diễn ra tại Quảng trường Ba Đình, Hà Nội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chiến dịch Điện Biên Phủ kết thúc thắng lợi, kết thúc cuộc kháng chiến chống thực dân Pháp vào năm nào?",
+      "options": [
+        "1945",
+        "1950",
+        "1954",
+        "1960"
+      ],
+      "answer": 2,
+      "hint": "Chiến thắng buộc Pháp phải ký Hiệp định Giơ-ne-vơ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cuộc kháng chiến chống Mỹ, cứu nước kết thúc thắng lợi với đại thắng mùa Xuân năm nào?",
+      "options": [
+        "1973",
+        "1975",
+        "1976",
+        "1979"
+      ],
+      "answer": 1,
+      "hint": "Chiến dịch Hồ Chí Minh giải phóng hoàn toàn miền Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công cuộc Đổi mới ở Việt Nam được Đảng Cộng sản Việt Nam đề ra tại Đại hội đại biểu toàn quốc lần thứ VI (1986). Năm bắt đầu công cuộc Đổi mới là:",
+      "options": [
+        "1975",
+        "1976",
+        "1986",
+        "1995"
+      ],
+      "answer": 2,
+      "hint": "Đại hội VI diễn ra tháng 12 năm 1986."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trật tự thế giới hình thành sau Chiến tranh thế giới thứ hai (dựa trên thỏa thuận của các cường quốc tại Hội nghị I-an-ta) thường được gọi là:",
+      "options": [
+        "Trật tự Véc-xai - Oa-sinh-tơn",
+        "Trật tự hai cực I-an-ta",
+        "Trật tự đơn cực",
+        "Trật tự đa cực"
+      ],
+      "answer": 1,
+      "hint": "Trật tự với hai cực đứng đầu là Mỹ và Liên Xô."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sự đối đầu căng thẳng giữa hai phe tư bản chủ nghĩa (đứng đầu là Mỹ) và xã hội chủ nghĩa (đứng đầu là Liên Xô) sau năm 1945 được gọi là:",
+      "options": [
+        "Chiến tranh thế giới thứ ba",
+        "Chiến tranh lạnh",
+        "Chiến tranh cục bộ",
+        "Chiến tranh tổng lực"
+      ],
+      "answer": 1,
+      "hint": "Đối đầu trên mọi lĩnh vực nhưng không xảy ra xung đột quân sự trực tiếp giữa hai siêu cường."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Năm nước sáng lập ban đầu của tổ chức ASEAN gồm: In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po và:",
+      "options": [
+        "Việt Nam",
+        "Thái Lan",
+        "Lào",
+        "Mi-an-ma"
+      ],
+      "answer": 1,
+      "hint": "Nước chủ nhà nơi ký Tuyên bố Băng Cốc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Sắp xếp các sự kiện theo đúng trình tự thời gian: (1) Cách mạng tháng Tám thành công; (2) Chiến thắng Điện Biên Phủ; (3) Đại thắng mùa Xuân giải phóng miền Nam; (4) Đảng đề ra đường lối Đổi mới.",
+      "options": [
+        "(1) - (2) - (3) - (4)",
+        "(2) - (1) - (3) - (4)",
+        "(1) - (3) - (2) - (4)",
+        "(1) - (2) - (4) - (3)"
+      ],
+      "answer": 0,
+      "hint": "1945 → 1954 → 1975 → 1986."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ý nghĩa quan trọng nhất của Cách mạng tháng Tám năm 1945 đối với dân tộc Việt Nam là:",
+      "options": [
+        "Đưa nước ta gia nhập Liên hợp quốc",
+        "Lật đổ ách thống trị của thực dân, phong kiến, lập ra nước Việt Nam Dân chủ Cộng hòa",
+        "Hoàn thành thống nhất đất nước về mặt nhà nước",
+        "Khởi đầu công cuộc Đổi mới đất nước"
+      ],
+      "answer": 1,
+      "hint": "Khai sinh ra nhà nước công nông đầu tiên ở Đông Nam Á."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Việt Nam là một trong năm nước sáng lập ra tổ chức ASEAN vào năm 1967.",
+      "answer": false
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Công cuộc Đổi mới ở Việt Nam (từ năm 1986) lấy đổi mới về kinh tế làm trọng tâm.",
+      "answer": true
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về lịch sử Việt Nam và thế giới hiện đại:",
+      "statements": [
+        {
+          "text": "Liên hợp quốc được thành lập năm 1945 với mục tiêu duy trì hòa bình và an ninh thế giới.",
+          "answer": true
+        },
+        {
+          "text": "Chiến thắng Điện Biên Phủ năm 1954 kết thúc cuộc kháng chiến chống thực dân Pháp.",
+          "answer": true
+        },
+        {
+          "text": "Đại thắng mùa Xuân năm 1975 đã giải phóng hoàn toàn miền Nam, thống nhất đất nước.",
+          "answer": true
+        },
+        {
+          "text": "Việt Nam gia nhập ASEAN vào năm 1967, cùng năm tổ chức này được thành lập.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Ngày 2/9/1945, tại Quảng trường Ba Đình (Hà Nội), Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập, khai sinh ra nước ___",
+      "answer": "Việt Nam Dân chủ Cộng hòa",
+      "alternatives": [
+        "Việt Nam Dân chủ Cộng hoà",
+        "nước Việt Nam Dân chủ Cộng hòa"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đường lối Đổi mới toàn diện đất nước được Đảng Cộng sản Việt Nam đề ra tại Đại hội đại biểu toàn quốc lần thứ VI, năm ___",
+      "answer": "1986",
+      "alternatives": [
+        "năm 1986"
+      ]
+    }
   ]
 }

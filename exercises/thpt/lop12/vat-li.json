@@ -4,36 +4,243 @@
   "subject": "vat-li",
   "grade": 12,
   "topic": "Ôn tập Vật lí 12",
+  "chapter": "Tổng ôn Vật lí 12",
   "difficulty": 3,
-  "outcomes": ["Vật lí nhiệt", "Khí lí tưởng", "Từ trường", "Vật lí hạt nhân"],
+  "outcomes": [
+    "Vật lí nhiệt",
+    "Khí lí tưởng",
+    "Từ trường",
+    "Vật lí hạt nhân"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Nội năng của một vật là:", "options": ["Tổng động năng và thế năng của các phân tử cấu tạo nên vật", "Tổng động năng của các vật trong hệ", "Thế năng hấp dẫn của vật", "Cơ năng toàn phần của vật"], "answer": 0, "hint": "Nội năng gồm động năng chuyển động nhiệt và thế năng tương tác của các phân tử." },
-    { "type": "multiple-choice", "level": "NB", "question": "Đơn vị của nhiệt độ trong thang Kelvin (thang nhiệt độ tuyệt đối) là:", "options": ["Kelvin (K)", "độ C ($^\\circ$C)", "độ F ($^\\circ$F)", "Joule (J)"], "answer": 0, "hint": "Thang nhiệt độ tuyệt đối có đơn vị Kelvin, kí hiệu K." },
-    { "type": "multiple-choice", "level": "NB", "question": "Quá trình chất chuyển từ thể rắn sang thể lỏng được gọi là:", "options": ["Sự nóng chảy", "Sự bay hơi", "Sự ngưng tụ", "Sự đông đặc"], "answer": 0, "hint": "Rắn → lỏng là nóng chảy; lỏng → rắn là đông đặc." },
-    { "type": "multiple-choice", "level": "NB", "question": "Hệ thức nào sau đây là phương trình trạng thái của khí lí tưởng?", "options": ["$pV = nRT$", "$F = BIl$", "$Q = mc\\Delta t$", "$E = mc^2$"], "answer": 0, "hint": "Phương trình trạng thái khí lí tưởng liên hệ $p$, $V$, $T$ qua $pV = nRT$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Theo định luật Boyle, ở nhiệt độ không đổi, khi thể tích của một lượng khí xác định giảm thì áp suất của khí:", "options": ["Tăng", "Giảm", "Không đổi", "Bằng không"], "answer": 0, "hint": "$pV =$ hằng số, nên $p$ và $V$ tỉ lệ nghịch." },
-    { "type": "multiple-choice", "level": "TH", "question": "Một dây dẫn thẳng dài mang dòng điện $I$ đặt trong từ trường đều có cảm ứng từ $B$, dây vuông góc với đường sức từ. Độ lớn lực từ tác dụng lên đoạn dây dài $l$ được tính bằng:", "options": ["$F = BIl$", "$F = \\dfrac{BI}{l}$", "$F = \\dfrac{Bl}{I}$", "$F = B + Il$"], "answer": 0, "hint": "Khi dây vuông góc với $\\vec{B}$ thì $F = BIl$." },
-    { "type": "multiple-choice", "level": "NB", "question": "Đơn vị của cảm ứng từ $B$ trong hệ SI là:", "options": ["Tesla (T)", "Vôn (V)", "Ampe (A)", "Niutơn (N)"], "answer": 0, "hint": "Cảm ứng từ đo bằng tesla, kí hiệu T." },
-    { "type": "multiple-choice", "level": "TH", "question": "Hạt nhân $^{235}_{92}U$ có số proton và số neutron lần lượt là:", "options": ["$92$ proton và $143$ neutron", "$143$ proton và $92$ neutron", "$92$ proton và $235$ neutron", "$235$ proton và $92$ neutron"], "answer": 0, "hint": "Số proton $Z = 92$; số neutron $= A - Z = 235 - 92 = 143$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Đại lượng đặc trưng cho thời gian để một nửa số hạt nhân của một mẫu chất phóng xạ bị phân rã được gọi là:", "options": ["Chu kì bán rã", "Độ phóng xạ", "Hằng số Avogadro", "Năng lượng liên kết"], "answer": 0, "hint": "Sau một chu kì bán rã, số hạt nhân còn lại bằng một nửa ban đầu." },
-    { "type": "multiple-choice", "level": "VD", "question": "Một lượng khí lí tưởng ở áp suất $2 \\cdot 10^5$ Pa có thể tích $3$ lít. Giữ nhiệt độ không đổi, nén khí đến thể tích $1$ lít. Áp suất của khí lúc này là:", "options": ["$6 \\cdot 10^5$ Pa", "$2 \\cdot 10^5$ Pa", "$3 \\cdot 10^5$ Pa", "$0,67 \\cdot 10^5$ Pa"], "answer": 0, "hint": "Định luật Boyle: $p_1 V_1 = p_2 V_2 \\Rightarrow p_2 = \\dfrac{2 \\cdot 10^5 \\cdot 3}{1} = 6 \\cdot 10^5$ Pa." },
-    { "type": "multiple-choice", "level": "VD", "question": "Cần cung cấp nhiệt lượng bao nhiêu để làm nóng $2$ kg nước từ $20\\ ^\\circ$C lên $70\\ ^\\circ$C? Cho nhiệt dung riêng của nước $c = 4200$ J/(kg·K).", "options": ["$420\\,000$ J", "$210\\,000$ J", "$588\\,000$ J", "$840\\,000$ J"], "answer": 0, "hint": "$Q = mc\\Delta t = 2 \\cdot 4200 \\cdot (70 - 20) = 420\\,000$ J." },
-    { "type": "multiple-choice", "level": "VD", "question": "Một đoạn dây dẫn dài $l = 0,2$ m mang dòng điện $I = 5$ A đặt vuông góc với từ trường đều có cảm ứng từ $B = 0,4$ T. Độ lớn lực từ tác dụng lên đoạn dây là:", "options": ["$0,4$ N", "$4$ N", "$0,04$ N", "$1$ N"], "answer": 0, "hint": "$F = BIl = 0,4 \\cdot 5 \\cdot 0,2 = 0,4$ N." },
-    { "type": "true-false-group", "level": "VD", "question": "Cho phản ứng hạt nhân và các khái niệm về phóng xạ. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Trong phản ứng hạt nhân, tổng số khối (số nucleon) được bảo toàn.", "answer": true },
-      { "text": "Trong phản ứng hạt nhân, tổng điện tích được bảo toàn.", "answer": true },
-      { "text": "Tia $\\beta^-$ thực chất là dòng các electron.", "answer": true },
-      { "text": "Tia $\\gamma$ là dòng các hạt mang điện tích dương.", "answer": false }
-    ] },
-    { "type": "true-false-group", "level": "VD", "question": "Cho một lượng khí lí tưởng xác định. Xét tính đúng/sai của các khẳng định về các quá trình biến đổi trạng thái:", "statements": [
-      { "text": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái khi nhiệt độ không đổi.", "answer": true },
-      { "text": "Theo định luật Charles, ở thể tích không đổi, áp suất tỉ lệ thuận với nhiệt độ tuyệt đối.", "answer": true },
-      { "text": "Trong quá trình đẳng áp, áp suất của khối khí được giữ không đổi.", "answer": true },
-      { "text": "Khi nung nóng một lượng khí trong bình kín (thể tích không đổi) thì áp suất giảm.", "answer": false }
-    ] },
-    { "type": "fill-blank", "level": "TH", "question": "Nhiệt độ $27\\ ^\\circ$C ứng với nhiệt độ tuyệt đối là ___ K", "answer": "300", "hint": "$T = t + 273 = 27 + 273 = 300$ K." },
-    { "type": "fill-blank", "level": "VDC", "question": "Một mẫu chất phóng xạ có chu kì bán rã $T = 8$ ngày, ban đầu có $N_0 = 800$ nguyên tử. Sau $24$ ngày, số nguyên tử còn lại chưa phân rã là ___ nguyên tử", "answer": "100", "hint": "$24$ ngày $= 3T$, nên $N = \\dfrac{N_0}{2^3} = \\dfrac{800}{8} = 100$." },
-    { "type": "fill-blank", "level": "VDC", "question": "Một lượng khí lí tưởng ở $27\\ ^\\circ$C ($300$ K) có thể tích $4$ lít. Giữ áp suất không đổi, nung nóng khí đến $327\\ ^\\circ$C ($600$ K) thì thể tích khí bằng ___ lít", "answer": "8", "hint": "Quá trình đẳng áp: $\\dfrac{V_1}{T_1} = \\dfrac{V_2}{T_2} \\Rightarrow V_2 = 4 \\cdot \\dfrac{600}{300} = 8$ lít." },
-    { "type": "true-false", "level": "NB", "question": "Đường sức từ của một nam châm thẳng đi ra từ cực Bắc (N) và đi vào cực Nam (S) ở bên ngoài nam châm.", "answer": true }
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nội năng của một vật là:",
+      "options": [
+        "Tổng động năng và thế năng của các phân tử cấu tạo nên vật",
+        "Tổng động năng của các vật trong hệ",
+        "Thế năng hấp dẫn của vật",
+        "Cơ năng toàn phần của vật"
+      ],
+      "answer": 0,
+      "hint": "Nội năng gồm động năng chuyển động nhiệt và thế năng tương tác của các phân tử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đơn vị của nhiệt độ trong thang Kelvin (thang nhiệt độ tuyệt đối) là:",
+      "options": [
+        "Kelvin (K)",
+        "độ C ($^\\circ$C)",
+        "độ F ($^\\circ$F)",
+        "Joule (J)"
+      ],
+      "answer": 0,
+      "hint": "Thang nhiệt độ tuyệt đối có đơn vị Kelvin, kí hiệu K."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quá trình chất chuyển từ thể rắn sang thể lỏng được gọi là:",
+      "options": [
+        "Sự nóng chảy",
+        "Sự bay hơi",
+        "Sự ngưng tụ",
+        "Sự đông đặc"
+      ],
+      "answer": 0,
+      "hint": "Rắn → lỏng là nóng chảy; lỏng → rắn là đông đặc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hệ thức nào sau đây là phương trình trạng thái của khí lí tưởng?",
+      "options": [
+        "$pV = nRT$",
+        "$F = BIl$",
+        "$Q = mc\\Delta t$",
+        "$E = mc^2$"
+      ],
+      "answer": 0,
+      "hint": "Phương trình trạng thái khí lí tưởng liên hệ $p$, $V$, $T$ qua $pV = nRT$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo định luật Boyle, ở nhiệt độ không đổi, khi thể tích của một lượng khí xác định giảm thì áp suất của khí:",
+      "options": [
+        "Tăng",
+        "Giảm",
+        "Không đổi",
+        "Bằng không"
+      ],
+      "answer": 0,
+      "hint": "$pV =$ hằng số, nên $p$ và $V$ tỉ lệ nghịch."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Một dây dẫn thẳng dài mang dòng điện $I$ đặt trong từ trường đều có cảm ứng từ $B$, dây vuông góc với đường sức từ. Độ lớn lực từ tác dụng lên đoạn dây dài $l$ được tính bằng:",
+      "options": [
+        "$F = BIl$",
+        "$F = \\dfrac{BI}{l}$",
+        "$F = \\dfrac{Bl}{I}$",
+        "$F = B + Il$"
+      ],
+      "answer": 0,
+      "hint": "Khi dây vuông góc với $\\vec{B}$ thì $F = BIl$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đơn vị của cảm ứng từ $B$ trong hệ SI là:",
+      "options": [
+        "Tesla (T)",
+        "Vôn (V)",
+        "Ampe (A)",
+        "Niutơn (N)"
+      ],
+      "answer": 0,
+      "hint": "Cảm ứng từ đo bằng tesla, kí hiệu T."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hạt nhân $^{235}_{92}U$ có số proton và số neutron lần lượt là:",
+      "options": [
+        "$92$ proton và $143$ neutron",
+        "$143$ proton và $92$ neutron",
+        "$92$ proton và $235$ neutron",
+        "$235$ proton và $92$ neutron"
+      ],
+      "answer": 0,
+      "hint": "Số proton $Z = 92$; số neutron $= A - Z = 235 - 92 = 143$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đại lượng đặc trưng cho thời gian để một nửa số hạt nhân của một mẫu chất phóng xạ bị phân rã được gọi là:",
+      "options": [
+        "Chu kì bán rã",
+        "Độ phóng xạ",
+        "Hằng số Avogadro",
+        "Năng lượng liên kết"
+      ],
+      "answer": 0,
+      "hint": "Sau một chu kì bán rã, số hạt nhân còn lại bằng một nửa ban đầu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một lượng khí lí tưởng ở áp suất $2 \\cdot 10^5$ Pa có thể tích $3$ lít. Giữ nhiệt độ không đổi, nén khí đến thể tích $1$ lít. Áp suất của khí lúc này là:",
+      "options": [
+        "$6 \\cdot 10^5$ Pa",
+        "$2 \\cdot 10^5$ Pa",
+        "$3 \\cdot 10^5$ Pa",
+        "$0,67 \\cdot 10^5$ Pa"
+      ],
+      "answer": 0,
+      "hint": "Định luật Boyle: $p_1 V_1 = p_2 V_2 \\Rightarrow p_2 = \\dfrac{2 \\cdot 10^5 \\cdot 3}{1} = 6 \\cdot 10^5$ Pa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cần cung cấp nhiệt lượng bao nhiêu để làm nóng $2$ kg nước từ $20\\ ^\\circ$C lên $70\\ ^\\circ$C? Cho nhiệt dung riêng của nước $c = 4200$ J/(kg·K).",
+      "options": [
+        "$420\\,000$ J",
+        "$210\\,000$ J",
+        "$588\\,000$ J",
+        "$840\\,000$ J"
+      ],
+      "answer": 0,
+      "hint": "$Q = mc\\Delta t = 2 \\cdot 4200 \\cdot (70 - 20) = 420\\,000$ J."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một đoạn dây dẫn dài $l = 0,2$ m mang dòng điện $I = 5$ A đặt vuông góc với từ trường đều có cảm ứng từ $B = 0,4$ T. Độ lớn lực từ tác dụng lên đoạn dây là:",
+      "options": [
+        "$0,4$ N",
+        "$4$ N",
+        "$0,04$ N",
+        "$1$ N"
+      ],
+      "answer": 0,
+      "hint": "$F = BIl = 0,4 \\cdot 5 \\cdot 0,2 = 0,4$ N."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho phản ứng hạt nhân và các khái niệm về phóng xạ. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Trong phản ứng hạt nhân, tổng số khối (số nucleon) được bảo toàn.",
+          "answer": true
+        },
+        {
+          "text": "Trong phản ứng hạt nhân, tổng điện tích được bảo toàn.",
+          "answer": true
+        },
+        {
+          "text": "Tia $\\beta^-$ thực chất là dòng các electron.",
+          "answer": true
+        },
+        {
+          "text": "Tia $\\gamma$ là dòng các hạt mang điện tích dương.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho một lượng khí lí tưởng xác định. Xét tính đúng/sai của các khẳng định về các quá trình biến đổi trạng thái:",
+      "statements": [
+        {
+          "text": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái khi nhiệt độ không đổi.",
+          "answer": true
+        },
+        {
+          "text": "Theo định luật Charles, ở thể tích không đổi, áp suất tỉ lệ thuận với nhiệt độ tuyệt đối.",
+          "answer": true
+        },
+        {
+          "text": "Trong quá trình đẳng áp, áp suất của khối khí được giữ không đổi.",
+          "answer": true
+        },
+        {
+          "text": "Khi nung nóng một lượng khí trong bình kín (thể tích không đổi) thì áp suất giảm.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Nhiệt độ $27\\ ^\\circ$C ứng với nhiệt độ tuyệt đối là ___ K",
+      "answer": "300",
+      "hint": "$T = t + 273 = 27 + 273 = 300$ K."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Một mẫu chất phóng xạ có chu kì bán rã $T = 8$ ngày, ban đầu có $N_0 = 800$ nguyên tử. Sau $24$ ngày, số nguyên tử còn lại chưa phân rã là ___ nguyên tử",
+      "answer": "100",
+      "hint": "$24$ ngày $= 3T$, nên $N = \\dfrac{N_0}{2^3} = \\dfrac{800}{8} = 100$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Một lượng khí lí tưởng ở $27\\ ^\\circ$C ($300$ K) có thể tích $4$ lít. Giữ áp suất không đổi, nung nóng khí đến $327\\ ^\\circ$C ($600$ K) thì thể tích khí bằng ___ lít",
+      "answer": "8",
+      "hint": "Quá trình đẳng áp: $\\dfrac{V_1}{T_1} = \\dfrac{V_2}{T_2} \\Rightarrow V_2 = 4 \\cdot \\dfrac{600}{300} = 8$ lít."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đường sức từ của một nam châm thẳng đi ra từ cực Bắc (N) và đi vào cực Nam (S) ở bên ngoài nam châm.",
+      "answer": true
+    }
   ]
 }

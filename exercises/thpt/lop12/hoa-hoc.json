@@ -4,36 +4,244 @@
   "subject": "hoa-hoc",
   "grade": 12,
   "topic": "Ôn tập Hóa học 12",
+  "chapter": "Tổng ôn Hóa học 12",
   "difficulty": 3,
-  "outcomes": ["Ester - Lipid", "Carbohydrate", "Hợp chất nitrogen", "Polymer", "Đại cương kim loại"],
+  "outcomes": [
+    "Ester - Lipid",
+    "Carbohydrate",
+    "Hợp chất nitrogen",
+    "Polymer",
+    "Đại cương kim loại"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Ester được tạo thành từ phản ứng giữa acid carboxylic và alcohol. Công thức của ethyl acetate là:", "options": ["$CH_3COOC_2H_5$", "$CH_3COOH$", "$C_2H_5OH$", "$HCOOCH_3$"], "answer": 0, "hint": "Ethyl acetate là ester của acetic acid và ethanol: $CH_3COOC_2H_5$." },
-    { "type": "multiple-choice", "level": "NB", "question": "Chất béo (lipid) là trieste của glycerol với:", "options": ["Các acid béo", "Các alcohol đơn chức", "Các amino acid", "Các acid vô cơ"], "answer": 0, "hint": "Chất béo là triglyceride: este của glycerol và 3 acid béo." },
-    { "type": "multiple-choice", "level": "NB", "question": "Công thức phân tử của glucose là:", "options": ["$C_6H_{12}O_6$", "$C_{12}H_{22}O_{11}$", "$(C_6H_{10}O_5)_n$", "$C_2H_5OH$"], "answer": 0, "hint": "Glucose là monosaccharide có công thức $C_6H_{12}O_6$." },
-    { "type": "multiple-choice", "level": "NB", "question": "Tinh bột và cellulose đều có công thức chung dạng:", "options": ["$(C_6H_{10}O_5)_n$", "$C_6H_{12}O_6$", "$C_{12}H_{22}O_{11}$", "$C_nH_{2n+1}OH$"], "answer": 0, "hint": "Cả hai là polysaccharide tạo từ các mắt xích glucose: $(C_6H_{10}O_5)_n$." },
-    { "type": "multiple-choice", "level": "NB", "question": "Amino acid là loại hợp chất hữu cơ tạp chức, trong phân tử đồng thời chứa:", "options": ["Nhóm amino ($-NH_2$) và nhóm carboxyl ($-COOH$)", "Hai nhóm carboxyl ($-COOH$)", "Nhóm hydroxyl ($-OH$) và nhóm amino ($-NH_2$)", "Hai nhóm amino ($-NH_2$)"], "answer": 0, "hint": "Amino acid chứa đồng thời nhóm $-NH_2$ và nhóm $-COOH$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Phản ứng thủy phân ester $CH_3COOC_2H_5$ trong môi trường kiềm (NaOH) tạo ra muối $CH_3COONa$ và sản phẩm còn lại là:", "options": ["$C_2H_5OH$", "$CH_3OH$", "$CH_3COOH$", "$HCOOH$"], "answer": 0, "hint": "Thủy phân kiềm (xà phòng hóa) tạo muối của acid và alcohol $C_2H_5OH$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Thuốc thử nào sau đây dùng để nhận biết hồ tinh bột?", "options": ["Dung dịch iodine ($I_2$)", "Dung dịch $NaOH$", "Quỳ tím", "Dung dịch $NaCl$"], "answer": 0, "hint": "Hồ tinh bột tạo màu xanh tím đặc trưng với iodine." },
-    { "type": "multiple-choice", "level": "TH", "question": "Trong dãy điện hóa của kim loại, kim loại nào sau đây có tính khử mạnh nhất?", "options": ["$K$", "$Fe$", "$Cu$", "$Ag$"], "answer": 0, "hint": "Trong dãy hoạt động hóa học, $K$ đứng đầu nên có tính khử mạnh nhất." },
-    { "type": "multiple-choice", "level": "TH", "question": "Kim loại nào sau đây thuộc nhóm IA (kim loại kiềm)?", "options": ["$Na$", "$Ca$", "$Al$", "$Fe$"], "answer": 0, "hint": "Nhóm IA gồm Li, Na, K, Rb, Cs..." },
-    { "type": "multiple-choice", "level": "VD", "question": "Polymer nào sau đây được điều chế bằng phản ứng trùng hợp?", "options": ["Polyethylene (PE)", "Tơ nylon-6,6", "Tơ tằm", "Tinh bột"], "answer": 0, "hint": "PE được tạo từ trùng hợp ethylene $CH_2=CH_2$; nylon-6,6 điều chế bằng trùng ngưng." },
-    { "type": "multiple-choice", "level": "VD", "question": "Cho phản ứng: $Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$. Vai trò của $Fe$ trong phản ứng này là:", "options": ["Chất khử", "Chất oxi hóa", "Vừa là chất khử vừa là chất oxi hóa", "Chất xúc tác"], "answer": 0, "hint": "$Fe$ nhường electron ($Fe \\rightarrow Fe^{2+} + 2e$) nên là chất khử." },
-    { "type": "multiple-choice", "level": "VD", "question": "Đốt cháy hoàn toàn một loại sắt để trong không khí ẩm lâu ngày bị gỉ. Hiện tượng ăn mòn xảy ra ở đây chủ yếu là:", "options": ["Ăn mòn điện hóa học", "Ăn mòn hóa học thuần túy ở nhiệt độ cao", "Sự nóng chảy của kim loại", "Sự thăng hoa của kim loại"], "answer": 0, "hint": "Sắt trong không khí ẩm (có nước, oxygen, tạp chất) bị ăn mòn điện hóa." },
-    { "type": "true-false-group", "level": "VD", "question": "Xét tính đúng/sai của các khẳng định về carbohydrate:", "statements": [
-      { "text": "Glucose và fructose đều có công thức phân tử $C_6H_{12}O_6$.", "answer": true },
-      { "text": "Saccharose có công thức phân tử $C_{12}H_{22}O_{11}$.", "answer": true },
-      { "text": "Glucose có phản ứng tráng bạc (tráng gương).", "answer": true },
-      { "text": "Tinh bột tan tốt trong nước lạnh tạo dung dịch trong suốt.", "answer": false }
-    ] },
-    { "type": "true-false-group", "level": "VD", "question": "Xét tính đúng/sai của các khẳng định về ester, lipid và polymer:", "statements": [
-      { "text": "Phản ứng xà phòng hóa chất béo bằng dung dịch kiềm tạo ra glycerol và muối của acid béo.", "answer": true },
-      { "text": "Ester thường có mùi thơm đặc trưng và ít tan trong nước.", "answer": true },
-      { "text": "Tơ nylon-6,6 được điều chế bằng phản ứng trùng ngưng.", "answer": true },
-      { "text": "Cao su thiên nhiên là một polymer được tạo thành bằng phản ứng trùng ngưng.", "answer": false }
-    ] },
-    { "type": "fill-blank", "level": "TH", "question": "Số nguyên tử carbon trong một phân tử glucose $C_6H_{12}O_6$ là ___", "answer": "6", "hint": "Công thức $C_6H_{12}O_6$ cho thấy có 6 nguyên tử C." },
-    { "type": "fill-blank", "level": "TH", "question": "Sản phẩm thu được khi thủy phân hoàn toàn tinh bột trong môi trường acid là một monosaccharide có tên là ___", "answer": "glucose", "hint": "$(C_6H_{10}O_5)_n + nH_2O \\rightarrow nC_6H_{12}O_6$ (glucose)." },
-    { "type": "fill-blank", "level": "VDC", "question": "Phương pháp điều chế kim loại bằng cách dùng dòng điện một chiều để khử ion kim loại trong dung dịch hoặc chất nóng chảy được gọi là phương pháp điện ___", "answer": "phân", "hint": "Đó là phương pháp điện phân (ví dụ điện phân $Al_2O_3$ nóng chảy để điều chế nhôm)." },
-    { "type": "true-false", "level": "NB", "question": "Methylamine ($CH_3NH_2$) làm quỳ tím ẩm chuyển sang màu xanh do tính base.", "answer": true }
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ester được tạo thành từ phản ứng giữa acid carboxylic và alcohol. Công thức của ethyl acetate là:",
+      "options": [
+        "$CH_3COOC_2H_5$",
+        "$CH_3COOH$",
+        "$C_2H_5OH$",
+        "$HCOOCH_3$"
+      ],
+      "answer": 0,
+      "hint": "Ethyl acetate là ester của acetic acid và ethanol: $CH_3COOC_2H_5$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chất béo (lipid) là trieste của glycerol với:",
+      "options": [
+        "Các acid béo",
+        "Các alcohol đơn chức",
+        "Các amino acid",
+        "Các acid vô cơ"
+      ],
+      "answer": 0,
+      "hint": "Chất béo là triglyceride: este của glycerol và 3 acid béo."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử của glucose là:",
+      "options": [
+        "$C_6H_{12}O_6$",
+        "$C_{12}H_{22}O_{11}$",
+        "$(C_6H_{10}O_5)_n$",
+        "$C_2H_5OH$"
+      ],
+      "answer": 0,
+      "hint": "Glucose là monosaccharide có công thức $C_6H_{12}O_6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tinh bột và cellulose đều có công thức chung dạng:",
+      "options": [
+        "$(C_6H_{10}O_5)_n$",
+        "$C_6H_{12}O_6$",
+        "$C_{12}H_{22}O_{11}$",
+        "$C_nH_{2n+1}OH$"
+      ],
+      "answer": 0,
+      "hint": "Cả hai là polysaccharide tạo từ các mắt xích glucose: $(C_6H_{10}O_5)_n$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Amino acid là loại hợp chất hữu cơ tạp chức, trong phân tử đồng thời chứa:",
+      "options": [
+        "Nhóm amino ($-NH_2$) và nhóm carboxyl ($-COOH$)",
+        "Hai nhóm carboxyl ($-COOH$)",
+        "Nhóm hydroxyl ($-OH$) và nhóm amino ($-NH_2$)",
+        "Hai nhóm amino ($-NH_2$)"
+      ],
+      "answer": 0,
+      "hint": "Amino acid chứa đồng thời nhóm $-NH_2$ và nhóm $-COOH$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phản ứng thủy phân ester $CH_3COOC_2H_5$ trong môi trường kiềm (NaOH) tạo ra muối $CH_3COONa$ và sản phẩm còn lại là:",
+      "options": [
+        "$C_2H_5OH$",
+        "$CH_3OH$",
+        "$CH_3COOH$",
+        "$HCOOH$"
+      ],
+      "answer": 0,
+      "hint": "Thủy phân kiềm (xà phòng hóa) tạo muối của acid và alcohol $C_2H_5OH$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Thuốc thử nào sau đây dùng để nhận biết hồ tinh bột?",
+      "options": [
+        "Dung dịch iodine ($I_2$)",
+        "Dung dịch $NaOH$",
+        "Quỳ tím",
+        "Dung dịch $NaCl$"
+      ],
+      "answer": 0,
+      "hint": "Hồ tinh bột tạo màu xanh tím đặc trưng với iodine."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong dãy điện hóa của kim loại, kim loại nào sau đây có tính khử mạnh nhất?",
+      "options": [
+        "$K$",
+        "$Fe$",
+        "$Cu$",
+        "$Ag$"
+      ],
+      "answer": 0,
+      "hint": "Trong dãy hoạt động hóa học, $K$ đứng đầu nên có tính khử mạnh nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kim loại nào sau đây thuộc nhóm IA (kim loại kiềm)?",
+      "options": [
+        "$Na$",
+        "$Ca$",
+        "$Al$",
+        "$Fe$"
+      ],
+      "answer": 0,
+      "hint": "Nhóm IA gồm Li, Na, K, Rb, Cs..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Polymer nào sau đây được điều chế bằng phản ứng trùng hợp?",
+      "options": [
+        "Polyethylene (PE)",
+        "Tơ nylon-6,6",
+        "Tơ tằm",
+        "Tinh bột"
+      ],
+      "answer": 0,
+      "hint": "PE được tạo từ trùng hợp ethylene $CH_2=CH_2$; nylon-6,6 điều chế bằng trùng ngưng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho phản ứng: $Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$. Vai trò của $Fe$ trong phản ứng này là:",
+      "options": [
+        "Chất khử",
+        "Chất oxi hóa",
+        "Vừa là chất khử vừa là chất oxi hóa",
+        "Chất xúc tác"
+      ],
+      "answer": 0,
+      "hint": "$Fe$ nhường electron ($Fe \\rightarrow Fe^{2+} + 2e$) nên là chất khử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đốt cháy hoàn toàn một loại sắt để trong không khí ẩm lâu ngày bị gỉ. Hiện tượng ăn mòn xảy ra ở đây chủ yếu là:",
+      "options": [
+        "Ăn mòn điện hóa học",
+        "Ăn mòn hóa học thuần túy ở nhiệt độ cao",
+        "Sự nóng chảy của kim loại",
+        "Sự thăng hoa của kim loại"
+      ],
+      "answer": 0,
+      "hint": "Sắt trong không khí ẩm (có nước, oxygen, tạp chất) bị ăn mòn điện hóa."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định về carbohydrate:",
+      "statements": [
+        {
+          "text": "Glucose và fructose đều có công thức phân tử $C_6H_{12}O_6$.",
+          "answer": true
+        },
+        {
+          "text": "Saccharose có công thức phân tử $C_{12}H_{22}O_{11}$.",
+          "answer": true
+        },
+        {
+          "text": "Glucose có phản ứng tráng bạc (tráng gương).",
+          "answer": true
+        },
+        {
+          "text": "Tinh bột tan tốt trong nước lạnh tạo dung dịch trong suốt.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định về ester, lipid và polymer:",
+      "statements": [
+        {
+          "text": "Phản ứng xà phòng hóa chất béo bằng dung dịch kiềm tạo ra glycerol và muối của acid béo.",
+          "answer": true
+        },
+        {
+          "text": "Ester thường có mùi thơm đặc trưng và ít tan trong nước.",
+          "answer": true
+        },
+        {
+          "text": "Tơ nylon-6,6 được điều chế bằng phản ứng trùng ngưng.",
+          "answer": true
+        },
+        {
+          "text": "Cao su thiên nhiên là một polymer được tạo thành bằng phản ứng trùng ngưng.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Số nguyên tử carbon trong một phân tử glucose $C_6H_{12}O_6$ là ___",
+      "answer": "6",
+      "hint": "Công thức $C_6H_{12}O_6$ cho thấy có 6 nguyên tử C."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Sản phẩm thu được khi thủy phân hoàn toàn tinh bột trong môi trường acid là một monosaccharide có tên là ___",
+      "answer": "glucose",
+      "hint": "$(C_6H_{10}O_5)_n + nH_2O \\rightarrow nC_6H_{12}O_6$ (glucose)."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Phương pháp điều chế kim loại bằng cách dùng dòng điện một chiều để khử ion kim loại trong dung dịch hoặc chất nóng chảy được gọi là phương pháp điện ___",
+      "answer": "phân",
+      "hint": "Đó là phương pháp điện phân (ví dụ điện phân $Al_2O_3$ nóng chảy để điều chế nhôm)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Methylamine ($CH_3NH_2$) làm quỳ tím ẩm chuyển sang màu xanh do tính base.",
+      "answer": true
+    }
   ]
 }

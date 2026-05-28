@@ -3,125 +3,233 @@
   "subject": "tieng-anh",
   "grade": 2,
   "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
+  "chapter": "Unit 1: Animals, Family & School",
   "difficulty": 1,
   "questions": [
     {
       "type": "matching",
       "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
       "pairs": [
-        ["dog", "con chó"],
-        ["cat", "con mèo"],
-        ["fish", "con cá"],
-        ["bird", "con chim"]
+        [
+          "dog",
+          "con chó"
+        ],
+        [
+          "cat",
+          "con mèo"
+        ],
+        [
+          "fish",
+          "con cá"
+        ],
+        [
+          "bird",
+          "con chim"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'mother' mean? (Từ 'mother' nghĩa là gì?)",
-      "options": ["bố", "mẹ", "anh trai", "chị gái"],
+      "options": [
+        "bố",
+        "mẹ",
+        "anh trai",
+        "chị gái"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'bút chì'? (Cái bút chì tiếng Anh là gì?)",
-      "options": ["pen", "book", "pencil", "bag"],
+      "options": [
+        "pen",
+        "book",
+        "pencil",
+        "bag"
+      ],
       "answer": 2
     },
     {
       "type": "fill-blank",
       "question": "Write 'con chó' in English (Viết 'con chó' bằng tiếng Anh): ___",
       "answer": "dog",
-      "alternatives": ["Dog", "DOG"]
+      "alternatives": [
+        "Dog",
+        "DOG"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the family word with its meaning (Nối từ về gia đình với nghĩa)",
       "pairs": [
-        ["father", "bố"],
-        ["mother", "mẹ"],
-        ["brother", "anh/em trai"],
-        ["sister", "chị/em gái"]
+        [
+          "father",
+          "bố"
+        ],
+        [
+          "mother",
+          "mẹ"
+        ],
+        [
+          "brother",
+          "anh/em trai"
+        ],
+        [
+          "sister",
+          "chị/em gái"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'book' mean? (Từ 'book' nghĩa là gì?)",
-      "options": ["quyển sách", "cái bàn", "cái ghế", "cái cặp"],
+      "options": [
+        "quyển sách",
+        "cái bàn",
+        "cái ghế",
+        "cái cặp"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "Write 'con mèo' in English (Viết 'con mèo' bằng tiếng Anh): ___",
       "answer": "cat",
-      "alternatives": ["Cat", "CAT"]
+      "alternatives": [
+        "Cat",
+        "CAT"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'cái cặp'? (Cái cặp sách tiếng Anh là gì?)",
-      "options": ["bag", "ruler", "pen", "desk"],
+      "options": [
+        "bag",
+        "ruler",
+        "pen",
+        "desk"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What does 'grandmother' mean? (Từ 'grandmother' nghĩa là gì?)",
-      "options": ["bà", "ông", "dì", "chú"],
+      "options": [
+        "bà",
+        "ông",
+        "dì",
+        "chú"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "Write 'con chim' in English (Viết 'con chim' bằng tiếng Anh): ___",
       "answer": "bird",
-      "alternatives": ["Bird", "BIRD"]
+      "alternatives": [
+        "Bird",
+        "BIRD"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the school object with its meaning (Nối đồ dùng học tập với nghĩa)",
       "pairs": [
-        ["pen", "cái bút mực"],
-        ["ruler", "cái thước"],
-        ["eraser", "cục tẩy"],
-        ["desk", "cái bàn"]
+        [
+          "pen",
+          "cái bút mực"
+        ],
+        [
+          "ruler",
+          "cái thước"
+        ],
+        [
+          "eraser",
+          "cục tẩy"
+        ],
+        [
+          "desk",
+          "cái bàn"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'con cá'? (Con cá tiếng Anh là gì?)",
-      "options": ["fish", "frog", "duck", "cow"],
+      "options": [
+        "fish",
+        "frog",
+        "duck",
+        "cow"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "Write 'bố' in English (Viết 'bố' bằng tiếng Anh): ___",
       "answer": "father",
-      "alternatives": ["Father", "FATHER", "dad", "Dad"]
+      "alternatives": [
+        "Father",
+        "FATHER",
+        "dad",
+        "Dad"
+      ]
     },
     {
       "type": "matching",
       "question": "Match the animal with its Vietnamese meaning (Nối con vật với nghĩa tiếng Việt)",
       "pairs": [
-        ["duck", "con vịt"],
-        ["cow", "con bò"],
-        ["pig", "con lợn"],
-        ["hen", "con gà mái"]
+        [
+          "duck",
+          "con vịt"
+        ],
+        [
+          "cow",
+          "con bò"
+        ],
+        [
+          "pig",
+          "con lợn"
+        ],
+        [
+          "hen",
+          "con gà mái"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "What does 'sister' mean? (Từ 'sister' nghĩa là gì?)",
-      "options": ["chị/em gái", "anh/em trai", "mẹ", "bà"],
+      "options": [
+        "chị/em gái",
+        "anh/em trai",
+        "mẹ",
+        "bà"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'cái thước'? (Cái thước kẻ tiếng Anh là gì?)",
-      "options": ["ruler", "book", "pencil", "bag"],
+      "options": [
+        "ruler",
+        "book",
+        "pencil",
+        "bag"
+      ],
       "answer": 0
     },
     {
       "type": "fill-blank",
       "question": "Write 'mẹ' in English (Viết 'mẹ' bằng tiếng Anh): ___",
       "answer": "mother",
-      "alternatives": ["Mother", "MOTHER", "mom", "Mom"]
+      "alternatives": [
+        "Mother",
+        "MOTHER",
+        "mom",
+        "Mom"
+      ]
     }
   ]
 }

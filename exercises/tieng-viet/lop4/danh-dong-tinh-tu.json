@@ -3,30 +3,51 @@
   "subject": "tieng-viet",
   "grade": 4,
   "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
+  "chapter": "Luyện từ và câu: Danh/động/tính từ, từ ghép-láy",
   "difficulty": 2,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Từ nào là động từ?",
-      "options": ["ngôi nhà", "chạy", "xanh", "cao"],
+      "options": [
+        "ngôi nhà",
+        "chạy",
+        "xanh",
+        "cao"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là tính từ?",
-      "options": ["bàn học", "ăn", "đẹp đẽ", "quyển sách"],
+      "options": [
+        "bàn học",
+        "ăn",
+        "đẹp đẽ",
+        "quyển sách"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là từ láy?",
-      "options": ["bàn ghế", "xinh xắn", "ăn uống", "sách vở"],
+      "options": [
+        "bàn ghế",
+        "xinh xắn",
+        "ăn uống",
+        "sách vở"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là từ ghép?",
-      "options": ["lung linh", "long lanh", "hoa hồng", "rì rào"],
+      "options": [
+        "lung linh",
+        "long lanh",
+        "hoa hồng",
+        "rì rào"
+      ],
       "answer": 2
     },
     {
@@ -38,34 +59,60 @@
       "type": "matching",
       "question": "Phân loại từ cho đúng",
       "pairs": [
-        ["ngôi trường", "danh từ"],
-        ["viết bài", "động từ"],
-        ["chăm ngoan", "tính từ"]
+        [
+          "ngôi trường",
+          "danh từ"
+        ],
+        [
+          "viết bài",
+          "động từ"
+        ],
+        [
+          "chăm ngoan",
+          "tính từ"
+        ]
       ]
     },
     {
       "type": "fill-blank",
       "question": "Từ trái nghĩa với 'chăm chỉ' là ___",
       "answer": "lười biếng",
-      "alternatives": ["lười"]
+      "alternatives": [
+        "lười"
+      ]
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là danh từ?",
-      "options": ["nhảy múa", "dòng sông", "vui vẻ", "đọc"],
+      "options": [
+        "nhảy múa",
+        "dòng sông",
+        "vui vẻ",
+        "đọc"
+      ],
       "answer": 1
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là từ láy?",
-      "options": ["nhà cửa", "mặt mũi", "lấp lánh", "quần áo"],
+      "options": [
+        "nhà cửa",
+        "mặt mũi",
+        "lấp lánh",
+        "quần áo"
+      ],
       "answer": 2,
       "hint": "Từ láy có các tiếng lặp lại âm đầu hoặc vần"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là từ ghép?",
-      "options": ["xanh xao", "đo đỏ", "núi non", "thoang thoảng"],
+      "options": [
+        "xanh xao",
+        "đo đỏ",
+        "núi non",
+        "thoang thoảng"
+      ],
       "answer": 2,
       "hint": "Từ ghép gồm các tiếng đều có nghĩa"
     },
@@ -78,44 +125,85 @@
       "type": "fill-blank",
       "question": "Tìm tính từ trong câu 'Bầu trời cao và xanh thẳm': ___",
       "answer": "xanh thẳm",
-      "alternatives": ["cao", "xanh"]
+      "alternatives": [
+        "cao",
+        "xanh"
+      ]
     },
     {
       "type": "matching",
       "question": "Nối từ với loại từ ghép hay từ láy",
       "pairs": [
-        ["xinh xắn", "từ láy"],
-        ["bàn ghế", "từ ghép"],
-        ["mênh mông", "từ láy"],
-        ["bánh kẹo", "từ ghép"]
+        [
+          "xinh xắn",
+          "từ láy"
+        ],
+        [
+          "bàn ghế",
+          "từ ghép"
+        ],
+        [
+          "mênh mông",
+          "từ láy"
+        ],
+        [
+          "bánh kẹo",
+          "từ ghép"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Trong câu 'Mẹ em là cô giáo', từ 'cô giáo' là từ loại nào?",
-      "options": ["động từ", "tính từ", "danh từ", "quan hệ từ"],
+      "options": [
+        "động từ",
+        "tính từ",
+        "danh từ",
+        "quan hệ từ"
+      ],
       "answer": 2
     },
     {
       "type": "fill-blank",
       "question": "Điền một từ láy tả tiếng mưa rơi: Mưa rơi ___ suốt đêm.",
       "answer": "tí tách",
-      "alternatives": ["rả rích", "lộp độp", "tí tí tách tách"]
+      "alternatives": [
+        "rả rích",
+        "lộp độp",
+        "tí tí tách tách"
+      ]
     },
     {
       "type": "matching",
       "question": "Phân loại các từ sau",
       "pairs": [
-        ["chạy nhảy", "động từ"],
-        ["dòng suối", "danh từ"],
-        ["thông minh", "tính từ"],
-        ["bay lượn", "động từ chỉ chim bay"]
+        [
+          "chạy nhảy",
+          "động từ"
+        ],
+        [
+          "dòng suối",
+          "danh từ"
+        ],
+        [
+          "thông minh",
+          "tính từ"
+        ],
+        [
+          "bay lượn",
+          "động từ chỉ chim bay"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào KHÔNG phải là tính từ?",
-      "options": ["hiền lành", "to lớn", "học tập", "trắng tinh"],
+      "options": [
+        "hiền lành",
+        "to lớn",
+        "học tập",
+        "trắng tinh"
+      ],
       "answer": 2,
       "hint": "'học tập' chỉ hoạt động nên là động từ"
     }

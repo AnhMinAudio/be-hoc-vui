@@ -4,24 +4,214 @@
   "subject": "ngu-van",
   "grade": 7,
   "topic": "Từ Hán Việt, từ đồng nghĩa - trái nghĩa và biện pháp điệp ngữ, ẩn dụ, hoán dụ",
+  "chapter": "Thực hành tiếng Việt 7",
   "difficulty": 2,
   "questions": [
-    { "type": "multiple-choice", "question": "Từ nào sau đây là từ Hán Việt?", "options": ["Phụ nữ", "Đàn bà", "Con gái", "Người ta"], "answer": 0, "hint": "Từ Hán Việt thường mang sắc thái trang trọng" },
-    { "type": "multiple-choice", "question": "Từ \"thiên\" trong \"thiên thư\" có nghĩa là gì?", "options": ["Trời", "Nghìn", "Dời", "Nghiêng"], "answer": 0, "hint": "\"thiên thư\" nghĩa là sách trời" },
-    { "type": "fill-blank", "question": "Từ Hán Việt đồng nghĩa với từ thuần Việt \"chết\" và mang sắc thái trang trọng là \"___\" (chỉ cái chết của người có công).", "answer": "hi sinh", "alternatives": ["hy sinh", "từ trần"], "hint": "Dùng cho người ngã xuống vì nghĩa lớn" },
-    { "type": "multiple-choice", "question": "Cặp từ nào sau đây là cặp từ trái nghĩa?", "options": ["Cao - thấp", "To - lớn", "Đẹp - xinh", "Nhanh - lẹ"], "answer": 0, "hint": "Trái nghĩa là hai từ có nghĩa đối lập nhau" },
-    { "type": "multiple-choice", "question": "Từ nào đồng nghĩa với từ \"siêng năng\"?", "options": ["Chăm chỉ", "Lười biếng", "Buồn bã", "Vui vẻ"], "answer": 0, "hint": "Từ đồng nghĩa có nghĩa giống hoặc gần giống nhau" },
-    { "type": "true-false", "question": "Hai từ \"rộng\" và \"hẹp\" là cặp từ trái nghĩa.", "answer": true, "hint": "Nghĩa của chúng đối lập về độ rộng" },
-    { "type": "true-false", "question": "Từ \"giang sơn\" là từ thuần Việt.", "answer": false, "hint": "\"giang\" là sông, \"sơn\" là núi - đây là từ Hán Việt" },
-    { "type": "fill-blank", "question": "Hai từ có nghĩa giống nhau hoặc gần giống nhau gọi là từ ___.", "answer": "đồng nghĩa", "alternatives": ["từ đồng nghĩa"], "hint": "Ví dụ: ba - bố, mẹ - má" },
-    { "type": "multiple-choice", "passage": "Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai.", "question": "Việc lặp lại cụm từ \"ngàn dâu\" trong đoạn thơ là biện pháp tu từ nào?", "options": ["Điệp ngữ", "Ẩn dụ", "Hoán dụ", "So sánh"], "answer": 0, "hint": "Lặp lại từ ngữ nhằm nhấn mạnh, tạo nhịp" },
-    { "type": "multiple-choice", "passage": "Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai.", "question": "Từ ngữ nào sau đây cũng được điệp lại trong đoạn thơ?", "options": ["cùng", "lòng", "sầu", "thiếp"], "answer": 0, "hint": "Đọc lại câu thơ đầu tiên" },
-    { "type": "multiple-choice", "passage": "Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai.", "question": "Biện pháp điệp ngữ trong đoạn thơ có tác dụng chủ yếu gì?", "options": ["Nhấn mạnh, gợi nỗi buồn xa cách triền miên", "Liệt kê sự vật", "Tả màu sắc khách quan", "Đặt câu hỏi tu từ"], "answer": 0, "hint": "Sự lặp lại gợi cảm giác mênh mông, day dứt" },
-    { "type": "multiple-choice", "passage": "Thuyền về có nhớ bến chăng / Bến thì một dạ khăng khăng đợi thuyền.", "question": "Hình ảnh \"thuyền\" và \"bến\" trong câu ca dao là biện pháp tu từ nào?", "options": ["Ẩn dụ", "Hoán dụ", "Điệp ngữ", "Nói quá"], "answer": 0, "hint": "Dùng hình ảnh này để chỉ ngầm sự vật khác có nét tương đồng" },
-    { "type": "multiple-choice", "passage": "Thuyền về có nhớ bến chăng / Bến thì một dạ khăng khăng đợi thuyền.", "question": "Hình ảnh \"bến\" ẩn dụ cho đối tượng nào?", "options": ["Người ở lại chờ đợi (thường là người con gái)", "Con thuyền thật", "Dòng sông", "Bến đò"], "answer": 0, "hint": "Bến cố định, một dạ khăng khăng đợi" },
-    { "type": "multiple-choice", "question": "Câu \"Áo chàm đưa buổi phân li\" dùng \"áo chàm\" để chỉ người dân Việt Bắc. Đây là biện pháp tu từ nào?", "options": ["Hoán dụ", "Ẩn dụ", "So sánh", "Nhân hóa"], "answer": 0, "hint": "Lấy dấu hiệu (áo chàm) để gọi đối tượng có quan hệ gần gũi" },
-    { "type": "fill-blank", "question": "Biện pháp gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng được gọi là ___.", "answer": "ẩn dụ", "alternatives": ["phép ẩn dụ", "biện pháp ẩn dụ"], "hint": "Dựa trên sự giống nhau giữa hai sự vật" },
-    { "type": "matching", "question": "Nối từ Hán Việt với nghĩa thuần Việt tương ứng:", "pairs": [["phụ thân", "cha"], ["mẫu thân", "mẹ"], ["huynh", "anh"], ["đệ", "em trai"]] },
-    { "type": "matching", "question": "Nối câu với biện pháp tu từ được sử dụng:", "pairs": [["Ngày ngày mặt trời đi qua trên lăng", "ẩn dụ"], ["Bàn tay ta làm nên tất cả", "hoán dụ"], ["Học, học nữa, học mãi", "điệp ngữ"]] }
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ Hán Việt?",
+      "options": [
+        "Phụ nữ",
+        "Đàn bà",
+        "Con gái",
+        "Người ta"
+      ],
+      "answer": 0,
+      "hint": "Từ Hán Việt thường mang sắc thái trang trọng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ \"thiên\" trong \"thiên thư\" có nghĩa là gì?",
+      "options": [
+        "Trời",
+        "Nghìn",
+        "Dời",
+        "Nghiêng"
+      ],
+      "answer": 0,
+      "hint": "\"thiên thư\" nghĩa là sách trời"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Từ Hán Việt đồng nghĩa với từ thuần Việt \"chết\" và mang sắc thái trang trọng là \"___\" (chỉ cái chết của người có công).",
+      "answer": "hi sinh",
+      "alternatives": [
+        "hy sinh",
+        "từ trần"
+      ],
+      "hint": "Dùng cho người ngã xuống vì nghĩa lớn"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cặp từ nào sau đây là cặp từ trái nghĩa?",
+      "options": [
+        "Cao - thấp",
+        "To - lớn",
+        "Đẹp - xinh",
+        "Nhanh - lẹ"
+      ],
+      "answer": 0,
+      "hint": "Trái nghĩa là hai từ có nghĩa đối lập nhau"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với từ \"siêng năng\"?",
+      "options": [
+        "Chăm chỉ",
+        "Lười biếng",
+        "Buồn bã",
+        "Vui vẻ"
+      ],
+      "answer": 0,
+      "hint": "Từ đồng nghĩa có nghĩa giống hoặc gần giống nhau"
+    },
+    {
+      "type": "true-false",
+      "question": "Hai từ \"rộng\" và \"hẹp\" là cặp từ trái nghĩa.",
+      "answer": true,
+      "hint": "Nghĩa của chúng đối lập về độ rộng"
+    },
+    {
+      "type": "true-false",
+      "question": "Từ \"giang sơn\" là từ thuần Việt.",
+      "answer": false,
+      "hint": "\"giang\" là sông, \"sơn\" là núi - đây là từ Hán Việt"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Hai từ có nghĩa giống nhau hoặc gần giống nhau gọi là từ ___.",
+      "answer": "đồng nghĩa",
+      "alternatives": [
+        "từ đồng nghĩa"
+      ],
+      "hint": "Ví dụ: ba - bố, mẹ - má"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai.",
+      "question": "Việc lặp lại cụm từ \"ngàn dâu\" trong đoạn thơ là biện pháp tu từ nào?",
+      "options": [
+        "Điệp ngữ",
+        "Ẩn dụ",
+        "Hoán dụ",
+        "So sánh"
+      ],
+      "answer": 0,
+      "hint": "Lặp lại từ ngữ nhằm nhấn mạnh, tạo nhịp"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai.",
+      "question": "Từ ngữ nào sau đây cũng được điệp lại trong đoạn thơ?",
+      "options": [
+        "cùng",
+        "lòng",
+        "sầu",
+        "thiếp"
+      ],
+      "answer": 0,
+      "hint": "Đọc lại câu thơ đầu tiên"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai.",
+      "question": "Biện pháp điệp ngữ trong đoạn thơ có tác dụng chủ yếu gì?",
+      "options": [
+        "Nhấn mạnh, gợi nỗi buồn xa cách triền miên",
+        "Liệt kê sự vật",
+        "Tả màu sắc khách quan",
+        "Đặt câu hỏi tu từ"
+      ],
+      "answer": 0,
+      "hint": "Sự lặp lại gợi cảm giác mênh mông, day dứt"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Thuyền về có nhớ bến chăng / Bến thì một dạ khăng khăng đợi thuyền.",
+      "question": "Hình ảnh \"thuyền\" và \"bến\" trong câu ca dao là biện pháp tu từ nào?",
+      "options": [
+        "Ẩn dụ",
+        "Hoán dụ",
+        "Điệp ngữ",
+        "Nói quá"
+      ],
+      "answer": 0,
+      "hint": "Dùng hình ảnh này để chỉ ngầm sự vật khác có nét tương đồng"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Thuyền về có nhớ bến chăng / Bến thì một dạ khăng khăng đợi thuyền.",
+      "question": "Hình ảnh \"bến\" ẩn dụ cho đối tượng nào?",
+      "options": [
+        "Người ở lại chờ đợi (thường là người con gái)",
+        "Con thuyền thật",
+        "Dòng sông",
+        "Bến đò"
+      ],
+      "answer": 0,
+      "hint": "Bến cố định, một dạ khăng khăng đợi"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu \"Áo chàm đưa buổi phân li\" dùng \"áo chàm\" để chỉ người dân Việt Bắc. Đây là biện pháp tu từ nào?",
+      "options": [
+        "Hoán dụ",
+        "Ẩn dụ",
+        "So sánh",
+        "Nhân hóa"
+      ],
+      "answer": 0,
+      "hint": "Lấy dấu hiệu (áo chàm) để gọi đối tượng có quan hệ gần gũi"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng được gọi là ___.",
+      "answer": "ẩn dụ",
+      "alternatives": [
+        "phép ẩn dụ",
+        "biện pháp ẩn dụ"
+      ],
+      "hint": "Dựa trên sự giống nhau giữa hai sự vật"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ Hán Việt với nghĩa thuần Việt tương ứng:",
+      "pairs": [
+        [
+          "phụ thân",
+          "cha"
+        ],
+        [
+          "mẫu thân",
+          "mẹ"
+        ],
+        [
+          "huynh",
+          "anh"
+        ],
+        [
+          "đệ",
+          "em trai"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với biện pháp tu từ được sử dụng:",
+      "pairs": [
+        [
+          "Ngày ngày mặt trời đi qua trên lăng",
+          "ẩn dụ"
+        ],
+        [
+          "Bàn tay ta làm nên tất cả",
+          "hoán dụ"
+        ],
+        [
+          "Học, học nữa, học mãi",
+          "điệp ngữ"
+        ]
+      ]
+    }
   ]
 }

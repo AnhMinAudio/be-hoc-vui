@@ -4,32 +4,60 @@
   "subject": "tieng-anh",
   "grade": 2,
   "topic": "Ôn luyện Tiếng Anh 2 (số 2)",
+  "chapter": "Unit 2: Ôn tập tổng hợp",
   "difficulty": 1,
-  "outcomes": ["TA2-VOCAB", "TA2-NUM", "TA2-COLOR", "TA2-PATTERN"],
+  "outcomes": [
+    "TA2-VOCAB",
+    "TA2-NUM",
+    "TA2-COLOR",
+    "TA2-PATTERN"
+  ],
   "questions": [
     {
       "type": "matching",
       "level": "NB",
       "question": "Match the farm animal with its meaning (Nối con vật nông trại với nghĩa)",
       "pairs": [
-        ["hen", "con gà mái"],
-        ["pig", "con lợn"],
-        ["cow", "con bò"],
-        ["horse", "con ngựa"]
+        [
+          "hen",
+          "con gà mái"
+        ],
+        [
+          "pig",
+          "con lợn"
+        ],
+        [
+          "cow",
+          "con bò"
+        ],
+        [
+          "horse",
+          "con ngựa"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'horse' mean? (Từ 'horse' nghĩa là gì?)",
-      "options": ["con bò", "con lợn", "con ngựa", "con gà mái"],
+      "options": [
+        "con bò",
+        "con lợn",
+        "con ngựa",
+        "con gà mái"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'con bò'? (Con bò tiếng Anh là gì?)",
-      "options": ["pig", "cow", "hen", "horse"],
+      "options": [
+        "pig",
+        "cow",
+        "hen",
+        "horse"
+      ],
       "answer": 1
     },
     {
@@ -37,24 +65,44 @@
       "level": "NB",
       "question": "Write 'con lợn' in English (Viết 'con lợn' bằng tiếng Anh): ___",
       "answer": "pig",
-      "alternatives": ["Pig", "PIG"]
+      "alternatives": [
+        "Pig",
+        "PIG"
+      ]
     },
     {
       "type": "matching",
       "level": "NB",
       "question": "Match the kitchen word with its meaning (Nối từ về nhà bếp với nghĩa)",
       "pairs": [
-        ["cup", "cái cốc"],
-        ["plate", "cái đĩa"],
-        ["spoon", "cái thìa"],
-        ["bowl", "cái bát"]
+        [
+          "cup",
+          "cái cốc"
+        ],
+        [
+          "plate",
+          "cái đĩa"
+        ],
+        [
+          "spoon",
+          "cái thìa"
+        ],
+        [
+          "bowl",
+          "cái bát"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'spoon' mean? (Từ 'spoon' nghĩa là gì?)",
-      "options": ["cái cốc", "cái đĩa", "cái thìa", "cái bát"],
+      "options": [
+        "cái cốc",
+        "cái đĩa",
+        "cái thìa",
+        "cái bát"
+      ],
       "answer": 2
     },
     {
@@ -62,13 +110,21 @@
       "level": "NB",
       "question": "Write 'cái cốc' in English (Viết 'cái cốc' bằng tiếng Anh): ___",
       "answer": "cup",
-      "alternatives": ["Cup", "CUP"]
+      "alternatives": [
+        "Cup",
+        "CUP"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'cái đĩa'? (Cái đĩa tiếng Anh là gì?)",
-      "options": ["plate", "cup", "spoon", "bowl"],
+      "options": [
+        "plate",
+        "cup",
+        "spoon",
+        "bowl"
+      ],
       "answer": 0
     },
     {
@@ -76,17 +132,34 @@
       "level": "NB",
       "question": "Match the shop food with its meaning (Nối thực phẩm ở cửa hàng với nghĩa)",
       "pairs": [
-        ["milk", "sữa"],
-        ["bread", "bánh mì"],
-        ["egg", "quả trứng"],
-        ["rice", "cơm/gạo"]
+        [
+          "milk",
+          "sữa"
+        ],
+        [
+          "bread",
+          "bánh mì"
+        ],
+        [
+          "egg",
+          "quả trứng"
+        ],
+        [
+          "rice",
+          "cơm/gạo"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'bread' mean? (Từ 'bread' nghĩa là gì?)",
-      "options": ["sữa", "bánh mì", "quả trứng", "cơm/gạo"],
+      "options": [
+        "sữa",
+        "bánh mì",
+        "quả trứng",
+        "cơm/gạo"
+      ],
       "answer": 1
     },
     {
@@ -94,20 +167,33 @@
       "level": "NB",
       "question": "Write 'quả trứng' in English (Viết 'quả trứng' bằng tiếng Anh): ___",
       "answer": "egg",
-      "alternatives": ["Egg", "EGG"]
+      "alternatives": [
+        "Egg",
+        "EGG"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'sữa'? (Sữa tiếng Anh là gì?)",
-      "options": ["egg", "bread", "milk", "rice"],
+      "options": [
+        "egg",
+        "bread",
+        "milk",
+        "rice"
+      ],
       "answer": 2
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What number is 'six'? (Số 'six' là số mấy?)",
-      "options": ["bốn", "năm", "sáu", "bảy"],
+      "options": [
+        "bốn",
+        "năm",
+        "sáu",
+        "bảy"
+      ],
       "answer": 2
     },
     {
@@ -115,13 +201,21 @@
       "level": "NB",
       "question": "Write number 9 in English (Viết số 9 bằng tiếng Anh): ___",
       "answer": "nine",
-      "alternatives": ["Nine", "NINE"]
+      "alternatives": [
+        "Nine",
+        "NINE"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Complete: 'I have a ___.' meaning 'Tôi có một con ngựa' (Hoàn thành câu)",
-      "options": ["horse", "cup", "egg", "milk"],
+      "options": [
+        "horse",
+        "cup",
+        "egg",
+        "milk"
+      ],
       "answer": 0
     },
     {
@@ -129,13 +223,21 @@
       "level": "TH",
       "question": "Complete: 'This is a ___.' meaning 'Đây là cái thìa' (Hoàn thành câu): ___",
       "answer": "spoon",
-      "alternatives": ["Spoon", "SPOON"]
+      "alternatives": [
+        "Spoon",
+        "SPOON"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'hen' mean? (Từ 'hen' nghĩa là gì?)",
-      "options": ["con bò", "con gà mái", "con ngựa", "con lợn"],
+      "options": [
+        "con bò",
+        "con gà mái",
+        "con ngựa",
+        "con lợn"
+      ],
       "answer": 1
     }
   ]
