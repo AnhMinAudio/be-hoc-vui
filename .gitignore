@@ -12,6 +12,9 @@ desktop.ini
 *.swp
 *.swo
 
+# Claude Code local settings (cá nhân, không đẩy lên repo)
+.claude/settings.local.json
+
 # Node (chỉ dùng build-index.js, không cần npm install)
 node_modules/
 
