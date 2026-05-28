@@ -7,7 +7,7 @@
   "questions": [
     {
       "type": "matching",
-      "question": "Nối từ tiếng Anh với nghĩa tiếng Việt",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
       "pairs": [
         ["red", "đỏ"],
         ["blue", "xanh dương"],
@@ -17,25 +17,25 @@
     },
     {
       "type": "multiple-choice",
-      "question": "Từ 'one' có nghĩa là gì?",
+      "question": "What does 'one' mean? (Từ 'one' nghĩa là gì?)",
       "options": ["một", "hai", "ba", "bốn"],
       "answer": 0
     },
     {
       "type": "multiple-choice",
-      "question": "Số 5 trong tiếng Anh là gì?",
+      "question": "What is number 5 in English? (Số 5 trong tiếng Anh là gì?)",
       "options": ["four", "five", "six", "seven"],
       "answer": 1
     },
     {
       "type": "fill-blank",
-      "question": "Viết số 3 bằng tiếng Anh: ___",
+      "question": "Write number 3 in English (Viết số 3 bằng tiếng Anh): ___",
       "answer": "three",
       "alternatives": ["Three", "THREE"]
     },
     {
       "type": "matching",
-      "question": "Nối số với từ tiếng Anh",
+      "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
         ["1", "one"],
         ["2", "two"],
@@ -45,14 +45,14 @@
     },
     {
       "type": "multiple-choice",
-      "question": "Màu của quả chuối là gì? (tiếng Anh)",
+      "question": "What color is a banana? (Quả chuối màu gì?)",
       "options": ["red", "blue", "yellow", "green"],
       "answer": 2,
-      "hint": "Banana is..."
+      "hint": "A banana is yellow (Quả chuối màu vàng)"
     },
     {
       "type": "fill-blank",
-      "question": "Cỏ có màu gì? (tiếng Anh): ___",
+      "question": "What color is grass? Answer in English (Cỏ màu gì? Trả lời bằng tiếng Anh): ___",
       "answer": "green",
       "alternatives": ["Green", "GREEN"]
     },

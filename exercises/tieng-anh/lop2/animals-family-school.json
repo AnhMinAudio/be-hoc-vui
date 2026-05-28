@@ -7,7 +7,7 @@
   "questions": [
     {
       "type": "matching",
-      "question": "Nối từ tiếng Anh với nghĩa tiếng Việt",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
       "pairs": [
         ["dog", "con chó"],
         ["cat", "con mèo"],
@@ -17,25 +17,25 @@
     },
     {
       "type": "multiple-choice",
-      "question": "'Mother' có nghĩa là gì?",
+      "question": "What does 'mother' mean? (Từ 'mother' nghĩa là gì?)",
       "options": ["bố", "mẹ", "anh trai", "chị gái"],
       "answer": 1
     },
     {
       "type": "multiple-choice",
-      "question": "Cái bút chì trong tiếng Anh là gì?",
+      "question": "What is the English word for 'bút chì'? (Cái bút chì tiếng Anh là gì?)",
       "options": ["pen", "book", "pencil", "bag"],
       "answer": 2
     },
     {
       "type": "fill-blank",
-      "question": "Con chó trong tiếng Anh là ___",
+      "question": "Write 'con chó' in English (Viết 'con chó' bằng tiếng Anh): ___",
       "answer": "dog",
       "alternatives": ["Dog", "DOG"]
     },
     {
       "type": "matching",
-      "question": "Nối từ về gia đình với nghĩa",
+      "question": "Match the family word with its meaning (Nối từ về gia đình với nghĩa)",
       "pairs": [
         ["father", "bố"],
         ["mother", "mẹ"],
@@ -45,13 +45,13 @@
     },
     {
       "type": "multiple-choice",
-      "question": "'Book' nghĩa là gì?",
+      "question": "What does 'book' mean? (Từ 'book' nghĩa là gì?)",
       "options": ["quyển sách", "cái bàn", "cái ghế", "cái cặp"],
       "answer": 0
     },
     {
       "type": "fill-blank",
-      "question": "Con mèo trong tiếng Anh là ___",
+      "question": "Write 'con mèo' in English (Viết 'con mèo' bằng tiếng Anh): ___",
       "answer": "cat",
       "alternatives": ["Cat", "CAT"]
     }

@@ -7,25 +7,25 @@
   "questions": [
     {
       "type": "multiple-choice",
-      "question": "Số 12 trong tiếng Anh là gì?",
+      "question": "What is number 12 in English? (Số 12 trong tiếng Anh là gì?)",
       "options": ["twelve", "twenty", "two", "ten"],
       "answer": 0
     },
     {
       "type": "multiple-choice",
-      "question": "'Monday' là thứ mấy?",
+      "question": "What day is 'Monday'? ('Monday' là thứ mấy?)",
       "options": ["Chủ nhật", "Thứ Hai", "Thứ Ba", "Thứ Bảy"],
       "answer": 1
     },
     {
       "type": "fill-blank",
-      "question": "Viết số 15 bằng tiếng Anh: ___",
+      "question": "Write number 15 in English (Viết số 15 bằng tiếng Anh): ___",
       "answer": "fifteen",
       "alternatives": ["Fifteen", "FIFTEEN"]
     },
     {
       "type": "matching",
-      "question": "Nối ngày trong tuần với nghĩa",
+      "question": "Match the day of the week with its meaning (Nối ngày trong tuần với nghĩa)",
       "pairs": [
         ["Monday", "Thứ Hai"],
         ["Tuesday", "Thứ Ba"],
@@ -35,13 +35,13 @@
     },
     {
       "type": "multiple-choice",
-      "question": "Số nào là 'eleven'?",
+      "question": "Which number is 'eleven'? (Số nào là 'eleven'?)",
       "options": ["11", "12", "20", "10"],
       "answer": 0
     },
     {
       "type": "matching",
-      "question": "Nối số với từ tiếng Anh",
+      "question": "Match the number with its English word (Nối số với từ tiếng Anh)",
       "pairs": [
         ["13", "thirteen"],
         ["14", "fourteen"],
@@ -51,7 +51,7 @@
     },
     {
       "type": "multiple-choice",
-      "question": "'Teacher' nghĩa là gì?",
+      "question": "What does 'teacher' mean? (Từ 'teacher' nghĩa là gì?)",
       "options": ["học sinh", "giáo viên", "bác sĩ", "nông dân"],
       "answer": 1
     }

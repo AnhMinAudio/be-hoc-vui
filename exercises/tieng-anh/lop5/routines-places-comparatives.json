@@ -7,25 +7,25 @@
   "questions": [
     {
       "type": "multiple-choice",
-      "question": "'I get up at 6 o'clock' nghĩa là gì?",
+      "question": "What does 'I get up at 6 o'clock' mean? (Câu 'I get up at 6 o'clock' nghĩa là gì?)",
       "options": ["Tôi thức dậy lúc 6 giờ", "Tôi đi ngủ lúc 6 giờ", "Tôi ăn lúc 6 giờ", "Tôi học lúc 6 giờ"],
       "answer": 0
     },
     {
       "type": "multiple-choice",
-      "question": "Dạng so sánh hơn (comparative) của 'tall' là gì?",
+      "question": "What is the comparative form of 'tall'? (Dạng so sánh hơn của 'tall' là gì?)",
       "options": ["taller", "tallest", "more tall", "talls"],
       "answer": 0
     },
     {
       "type": "multiple-choice",
-      "question": "'Hospital' là nơi nào?",
+      "question": "What place is a 'hospital'? ('Hospital' là nơi nào?)",
       "options": ["bệnh viện", "trường học", "công viên", "chợ"],
       "answer": 0
     },
     {
       "type": "matching",
-      "question": "Nối địa điểm với nghĩa tiếng Việt",
+      "question": "Match the place with its Vietnamese meaning (Nối địa điểm với nghĩa tiếng Việt)",
       "pairs": [
         ["school", "trường học"],
         ["hospital", "bệnh viện"],
@@ -35,19 +35,19 @@
     },
     {
       "type": "fill-blank",
-      "question": "'Bigger' là dạng so sánh hơn của từ ___",
+      "question": "'Bigger' is the comparative form of which word? ('Bigger' là so sánh hơn của từ nào?): ___",
       "answer": "big",
       "alternatives": ["Big", "BIG"]
     },
     {
       "type": "multiple-choice",
-      "question": "Chọn từ đúng: 'An elephant is ___ than a cat.'",
+      "question": "Choose the correct word: 'An elephant is ___ than a cat.' (Chọn từ đúng để điền vào chỗ trống)",
       "options": ["big", "bigger", "biggest", "more big"],
       "answer": 1
     },
     {
       "type": "matching",
-      "question": "Nối hoạt động hằng ngày với nghĩa",
+      "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
       "pairs": [
         ["get up", "thức dậy"],
         ["go to school", "đi học"],

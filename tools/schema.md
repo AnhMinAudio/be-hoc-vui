@@ -107,6 +107,17 @@ exercises/<subject>/lop<grade>/<slug>.json
 
 ---
 
+## QUY TẮC RIÊNG CHO MÔN TIẾNG ANH (tieng-anh)
+
+**Mọi câu hỏi trong đề Tiếng Anh phải SONG NGỮ:** trường `question` viết bằng tiếng Anh, kèm nghĩa tiếng Việt trong ngoặc đơn ngay sau. Đáp án (`options`/`pairs`) **giữ nguyên** như nội dung cần kiểm tra (KHÔNG thêm dịch nếu sẽ làm lộ đáp án).
+
+Ví dụ:
+```json
+{ "type": "multiple-choice", "question": "What does 'mother' mean? (Từ 'mother' nghĩa là gì?)", "options": ["bố", "mẹ", "anh trai", "chị gái"], "answer": 1 }
+```
+- Câu ghép cặp: phần hướng dẫn cũng song ngữ, ví dụ `"Match the word with its meaning (Nối từ với nghĩa)"`.
+- Áp dụng cho TẤT CẢ đề `tieng-anh`, mọi lớp.
+
 ## QUY TẮC CHẤT LƯỢNG ĐỀ
 
 1. **Đúng cấp độ**: lớp 1 không có phép tính 3 chữ số; lớp 5 không hỏi chữ cái

@@ -7,7 +7,7 @@
   "questions": [
     {
       "type": "matching",
-      "question": "Nối nghề nghiệp với nghĩa tiếng Việt",
+      "question": "Match the job with its Vietnamese meaning (Nối nghề nghiệp với nghĩa tiếng Việt)",
       "pairs": [
         ["doctor", "bác sĩ"],
         ["teacher", "giáo viên"],
@@ -17,25 +17,25 @@
     },
     {
       "type": "multiple-choice",
-      "question": "'I like reading books' nghĩa là gì?",
+      "question": "What does 'I like reading books' mean? (Câu 'I like reading books' nghĩa là gì?)",
       "options": ["Tôi thích đọc sách", "Tôi thích chơi bóng", "Tôi thích vẽ tranh", "Tôi thích bơi"],
       "answer": 0
     },
     {
       "type": "multiple-choice",
-      "question": "Bác sĩ trong tiếng Anh là gì?",
+      "question": "What is the English word for 'bác sĩ'? (Bác sĩ trong tiếng Anh là gì?)",
       "options": ["teacher", "doctor", "driver", "cook"],
       "answer": 1
     },
     {
       "type": "fill-blank",
-      "question": "Môn 'swimming' trong tiếng Việt nghĩa là gì? ___",
+      "question": "What does 'swimming' mean in Vietnamese? (Từ 'swimming' nghĩa tiếng Việt là gì?): ___",
       "answer": "bơi",
       "alternatives": ["bơi lội"]
     },
     {
       "type": "matching",
-      "question": "Nối sở thích với nghĩa",
+      "question": "Match the hobby with its meaning (Nối sở thích với nghĩa)",
       "pairs": [
         ["singing", "ca hát"],
         ["dancing", "nhảy múa"],
@@ -45,13 +45,13 @@
     },
     {
       "type": "multiple-choice",
-      "question": "Chọn từ đúng: 'She ___ a teacher.'",
+      "question": "Choose the correct word: 'She ___ a teacher.' (Chọn từ đúng để điền vào chỗ trống)",
       "options": ["am", "is", "are", "be"],
       "answer": 1
     },
     {
       "type": "fill-blank",
-      "question": "Nông dân trong tiếng Anh là ___",
+      "question": "Write 'nông dân' in English (Viết 'nông dân' bằng tiếng Anh): ___",
       "answer": "farmer",
       "alternatives": ["Farmer", "FARMER"]
     }
