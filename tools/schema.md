@@ -43,7 +43,8 @@ exercises/<subject>/lop<grade>/<slug>.json
   - `toan` → `toan`, `tieng-viet` → `tv`, `tieng-anh` → `ta`
   - Ví dụ: `tv-l2-tu-loai-001`, `ta-l3-colors`, `toan-l1-cong-10`
 - `topic`: tiêu đề hiển thị (có thể có dấu, có khoảng trắng)
-- `difficulty`: 1-3 (1 = dễ, 3 = khó)
+- `chapter` (tùy chọn): tên chương/chủ đề để NHÓM đề trong danh sách, bám SGK. Nên có số đầu để sắp đúng thứ tự (vd `"Chủ đề 2: Phép nhân, phép chia"`, `"Chương 1: Ứng dụng đạo hàm"`). Đề cùng `chapter` sẽ gộp một nhóm; phần "Luyện tập" chỉ hiện nhóm khi môn có ≥2 đề. Đề thi thử (`timeLimit`) tự nằm ở khu riêng, không cần `chapter`.
+- `difficulty`: 1-3 (1 = dễ, 3 = khó). Trong mỗi nhóm, đề được sắp dễ→khó theo trường này.
 - `questions`: **BẮT BUỘC mỗi đề 15–20 câu** (cổng kiểm tra sẽ cảnh báo nếu ngoài khoảng này). Nên trộn đều cả 3 loại câu hỏi.
 
 ---
