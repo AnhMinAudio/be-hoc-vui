@@ -1,0 +1,41 @@
+{
+  "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 8,
+  "topic": "Đề thi thử cuối kỳ 1 — Toán 8 (cấu trúc mới)",
+  "difficulty": 3,
+  "timeLimit": 90,
+  "outcomes": ["Đa thức & hằng đẳng thức", "Phân tích đa thức thành nhân tử", "Tứ giác", "Định lí Thalès & đường trung bình", "Dữ liệu và biểu đồ"],
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "Khai triển $(x - 5)^2$ bằng:", "options": ["$x^2 - 10x + 25$", "$x^2 - 25$", "$x^2 + 10x + 25$", "$x^2 - 5x + 25$"], "answer": 0, "hint": "$(a-b)^2 = a^2 - 2ab + b^2$." },
+    { "type": "multiple-choice", "level": "NB", "question": "Đa thức $4x^2 - 3xy + 7$ có bậc bằng:", "options": ["$2$", "$3$", "$4$", "$7$"], "answer": 0, "hint": "Hạng tử $-3xy$ có bậc $2$; bậc cao nhất là $2$." },
+    { "type": "multiple-choice", "level": "NB", "question": "Hằng đẳng thức lập phương của một tổng $(a + b)^3$ bằng:", "options": ["$a^3 + 3a^2b + 3ab^2 + b^3$", "$a^3 + b^3$", "$a^3 + 3ab + b^3$", "$a^3 - 3a^2b + 3ab^2 - b^3$"], "answer": 0, "hint": "Nhớ công thức lập phương của một tổng." },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong hình thoi, hai đường chéo:", "options": ["Vuông góc với nhau", "Bằng nhau", "Song song với nhau", "Không cắt nhau"], "answer": 0, "hint": "Đặc điểm riêng của hình thoi." },
+    { "type": "multiple-choice", "level": "NB", "question": "Đường trung bình của tam giác thì:", "options": ["Song song với cạnh thứ ba và bằng nửa cạnh ấy", "Bằng cạnh thứ ba", "Vuông góc với cạnh thứ ba", "Bằng nửa chu vi tam giác"], "answer": 0, "hint": "Định lí về đường trung bình của tam giác." },
+    { "type": "multiple-choice", "level": "NB", "question": "Biểu đồ nào sau đây thích hợp để biểu diễn tỉ lệ phần trăm các thành phần trong một tổng thể?", "options": ["Biểu đồ hình quạt tròn", "Biểu đồ đoạn thẳng", "Biểu đồ tranh", "Bảng tần số"], "answer": 0, "hint": "Biểu đồ thể hiện cơ cấu (phần trăm) của tổng." },
+    { "type": "multiple-choice", "level": "TH", "question": "Phân tích đa thức $x^3 - 8$ thành nhân tử bằng:", "options": ["$(x - 2)(x^2 + 2x + 4)$", "$(x - 2)^3$", "$(x - 2)(x^2 - 2x + 4)$", "$(x + 2)(x^2 - 2x + 4)$"], "answer": 0, "hint": "Hiệu hai lập phương: $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ với $b = 2$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Phân tích $2x^2 - 8$ thành nhân tử bằng:", "options": ["$2(x - 2)(x + 2)$", "$2(x^2 - 8)$", "$(2x - 4)(x + 2)$", "$2(x - 4)(x + 1)$"], "answer": 0, "hint": "Đặt nhân tử chung $2$ rồi dùng hiệu hai bình phương." },
+    { "type": "multiple-choice", "level": "TH", "question": "Tam giác $ABC$ có $DE \\parallel BC$ ($D$ thuộc $AB$, $E$ thuộc $AC$). Biết $AD = 2$, $DB = 3$, $AE = 4$. Khi đó độ dài $EC$ bằng:", "options": ["$6$", "$5$", "$8$", "$\\frac{8}{3}$"], "answer": 0, "hint": "Định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC}$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Tam giác $ABC$ có $M$, $N$ lần lượt là trung điểm của $AB$, $AC$. Biết $BC = 12$ cm. Độ dài $MN$ bằng:", "options": ["$6$ cm", "$12$ cm", "$24$ cm", "$3$ cm"], "answer": 0, "hint": "$MN$ là đường trung bình nên $MN = \\frac{1}{2} BC$." },
+    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định sau:", "statements": [
+      { "text": "$(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$.", "answer": true },
+      { "text": "$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$.", "answer": true },
+      { "text": "$(a + b)^2 = a^2 + b^2$.", "answer": false },
+      { "text": "Đa thức $x^2 + 1$ phân tích được thành $(x+1)(x-1)$.", "answer": false }
+    ] },
+    { "type": "true-false-group", "level": "VD", "question": "Cho hình chữ nhật $ABCD$. Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "Bốn góc của hình chữ nhật đều bằng $90^\\circ$.", "answer": true },
+      { "text": "Hai đường chéo bằng nhau.", "answer": true },
+      { "text": "Hai đường chéo vuông góc với nhau.", "answer": false },
+      { "text": "Hình chữ nhật là một hình bình hành.", "answer": true }
+    ] },
+    { "type": "fill-blank", "level": "TH", "question": "Tính nhanh $98 \\times 102 = $ ___", "answer": "9996", "hint": "Viết thành $(100 - 2)(100 + 2) = 100^2 - 2^2$." },
+    { "type": "fill-blank", "level": "TH", "question": "Một tứ giác có ba góc bằng $70^\\circ,\\ 110^\\circ,\\ 95^\\circ$. Số đo góc còn lại là ___ độ.", "answer": "85", "alternatives": ["85 độ", "$85^\\circ$"], "hint": "Tổng bốn góc bằng $360^\\circ$." },
+    { "type": "fill-blank", "level": "VD", "question": "Cho $a + b = 6$ và $ab = 5$. Giá trị của $a^2 + b^2$ bằng ___", "answer": "26", "hint": "$a^2 + b^2 = (a+b)^2 - 2ab = 36 - 10$." },
+    { "type": "fill-blank", "level": "VD", "question": "Tìm $x$ biết $x^2 - 4x = 0$ và $x > 0$. Khi đó $x = $ ___", "answer": "4", "hint": "$x^2 - 4x = x(x - 4) = 0$, chọn nghiệm dương." },
+    { "type": "multiple-choice", "level": "VD", "question": "Một lớp có $40$ học sinh. Biểu đồ quạt tròn cho biết số học sinh thích môn Toán chiếm $30\\%$. Số học sinh thích môn Toán là:", "options": ["$12$ học sinh", "$30$ học sinh", "$10$ học sinh", "$13$ học sinh"], "answer": 0, "hint": "Lấy $40 \\times 30\\% = 40 \\times 0,3$." },
+    { "type": "fill-blank", "level": "VD", "question": "Một mảnh đất hình chữ nhật có chiều dài hơn chiều rộng $5$ m và chu vi bằng $50$ m. Chiều rộng mảnh đất là ___ m.", "answer": "10", "hint": "Nửa chu vi = dài + rộng = $25$; gọi rộng là $x$ thì $x + (x+5) = 25$." },
+    { "type": "fill-blank", "level": "VDC", "question": "Tìm giá trị nhỏ nhất của biểu thức $P = x^2 + y^2 - 4x + 6y + 15$. Giá trị nhỏ nhất đó là ___", "answer": "2", "hint": "Viết $P = (x-2)^2 + (y+3)^2 + 2 \\ge 2$." }
+  ]
+}
