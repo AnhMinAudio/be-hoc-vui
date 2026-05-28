@@ -3,13 +3,22 @@
   "subject": "toan",
   "grade": 1,
   "topic": "Cộng - trừ trong phạm vi 20",
+  "chapter": "Chủ đề 4: Phép cộng, phép trừ trong phạm vi 20",
   "difficulty": 1,
-  "outcomes": ["T1-PT-4", "T1-PT-6"],
+  "outcomes": [
+    "T1-PT-4",
+    "T1-PT-6"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "12 + 3 = ?",
-      "options": ["14", "15", "16", "13"],
+      "options": [
+        "14",
+        "15",
+        "16",
+        "13"
+      ],
       "answer": 1,
       "hint": "Cộng thêm 3 vào 12 nhé!",
       "level": "NB"
@@ -17,7 +26,12 @@
     {
       "type": "multiple-choice",
       "question": "17 - 4 = ?",
-      "options": ["12", "13", "14", "11"],
+      "options": [
+        "12",
+        "13",
+        "14",
+        "11"
+      ],
       "answer": 1,
       "hint": "17 bớt đi 4 còn mấy?",
       "level": "NB"
@@ -25,7 +39,12 @@
     {
       "type": "multiple-choice",
       "question": "10 + 8 = ?",
-      "options": ["16", "17", "18", "19"],
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
       "answer": 2,
       "hint": "1 chục thêm 8 đơn vị",
       "level": "NB"
@@ -71,7 +90,12 @@
     {
       "type": "multiple-choice",
       "question": "Trên giá có 15 quyển sách, cô giáo lấy ra 3 quyển. Hỏi trên giá còn lại mấy quyển sách?",
-      "options": ["11 quyển", "12 quyển", "13 quyển", "10 quyển"],
+      "options": [
+        "11 quyển",
+        "12 quyển",
+        "13 quyển",
+        "10 quyển"
+      ],
       "answer": 1,
       "hint": "Lấy 15 trừ đi 3",
       "level": "VD"
@@ -79,7 +103,12 @@
     {
       "type": "multiple-choice",
       "question": "Bạn Nam có 11 viên bi, được anh cho thêm 5 viên. Hỏi bạn Nam có tất cả bao nhiêu viên bi?",
-      "options": ["15 viên", "16 viên", "17 viên", "14 viên"],
+      "options": [
+        "15 viên",
+        "16 viên",
+        "17 viên",
+        "14 viên"
+      ],
       "answer": 1,
       "hint": "Lấy 11 cộng với 5",
       "level": "VD"
@@ -101,27 +130,59 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả đúng",
       "pairs": [
-        ["13 + 2", "15"],
-        ["18 - 6", "12"],
-        ["11 + 8", "19"],
-        ["16 - 3", "13"]
+        [
+          "13 + 2",
+          "15"
+        ],
+        [
+          "18 - 6",
+          "12"
+        ],
+        [
+          "11 + 8",
+          "19"
+        ],
+        [
+          "16 - 3",
+          "13"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Bạn hãy nối phép tính với kết quả nhé",
       "pairs": [
-        ["10 + 4", "14"],
-        ["17 - 7", "10"],
-        ["12 + 5", "17"],
-        ["19 - 4", "15"],
-        ["14 + 2", "16"]
+        [
+          "10 + 4",
+          "14"
+        ],
+        [
+          "17 - 7",
+          "10"
+        ],
+        [
+          "12 + 5",
+          "17"
+        ],
+        [
+          "19 - 4",
+          "15"
+        ],
+        [
+          "14 + 2",
+          "16"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Kết quả nào lớn nhất? 12+4, 19-5, 11+7, 18-4",
-      "options": ["12+4", "19-5", "11+7", "18-4"],
+      "options": [
+        "12+4",
+        "19-5",
+        "11+7",
+        "18-4"
+      ],
       "answer": 2,
       "hint": "Tính từng phép: 11+7 bằng mấy?",
       "level": "VD"

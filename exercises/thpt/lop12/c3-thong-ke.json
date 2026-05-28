@@ -4,35 +4,234 @@
   "subject": "toan",
   "grade": 12,
   "topic": "Chương 3: Các số đặc trưng đo mức độ phân tán (mẫu ghép nhóm)",
+  "chapter": "Chương 3: Thống kê",
   "difficulty": 3,
-  "outcomes": ["T12-TK-1", "T12-TK-2"],
+  "outcomes": [
+    "T12-TK-1",
+    "T12-TK-2"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Khoảng biến thiên $R$ của một mẫu số liệu được tính bằng:", "options": ["Hiệu giữa giá trị lớn nhất và giá trị nhỏ nhất", "Tổng tất cả các giá trị", "Trung bình cộng của các giá trị", "Hiệu giữa tứ phân vị thứ ba và thứ nhất"], "answer": 0, "hint": "$R = x_{\\max} - x_{\\min}$" },
-    { "type": "multiple-choice", "level": "NB", "question": "Các số đặc trưng như khoảng biến thiên, phương sai, độ lệch chuẩn dùng để đo:", "options": ["Mức độ phân tán của mẫu số liệu", "Giá trị trung tâm của mẫu số liệu", "Tổng số liệu của mẫu", "Số phần tử của mẫu"], "answer": 0, "hint": "Đây là các số đo độ phân tán." },
-    { "type": "multiple-choice", "level": "NB", "question": "Khoảng tứ phân vị $\\Delta_Q$ được xác định theo công thức nào sau đây?", "options": ["$\\Delta_Q = Q_3 - Q_1$", "$\\Delta_Q = Q_3 - Q_2$", "$\\Delta_Q = Q_2 - Q_1$", "$\\Delta_Q = Q_3 + Q_1$"], "answer": 0, "hint": "Hiệu giữa tứ phân vị thứ ba và thứ nhất." },
-    { "type": "multiple-choice", "level": "NB", "question": "Độ lệch chuẩn $s$ của một mẫu số liệu có quan hệ với phương sai $s^2$ là:", "options": ["$s = \\sqrt{s^2}$", "$s = (s^2)^2$", "$s = \\dfrac{s^2}{2}$", "$s = 2 s^2$"], "answer": 0, "hint": "Độ lệch chuẩn là căn bậc hai của phương sai." },
-    { "type": "multiple-choice", "level": "NB", "question": "Cho mẫu số liệu: $3;\\ 5;\\ 9;\\ 11;\\ 15$. Khoảng biến thiên của mẫu là:", "options": ["$12$", "$15$", "$5$", "$10$"], "answer": 0, "hint": "$R = 15 - 3$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Cho mẫu số liệu: $6;\\ 8;\\ 10;\\ 12;\\ 14$ có số trung bình $\\bar{x} = 10$. Phương sai của mẫu là:", "options": ["$8$", "$10$", "$40$", "$4$"], "answer": 0, "hint": "$s^2 = \\dfrac{(-4)^2 + (-2)^2 + 0^2 + 2^2 + 4^2}{5} = \\dfrac{40}{5} = 8$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Cho mẫu số liệu: $2;\\ 4;\\ 4;\\ 4;\\ 5;\\ 5;\\ 7;\\ 9$. Số trung bình $\\bar{x}$ bằng:", "options": ["$5$", "$4$", "$6$", "$4,5$"], "answer": 0, "hint": "$\\bar{x} = \\dfrac{2+4+4+4+5+5+7+9}{8} = \\dfrac{40}{8} = 5$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Với mẫu số liệu $2;\\ 4;\\ 4;\\ 4;\\ 5;\\ 5;\\ 7;\\ 9$ (có $\\bar{x} = 5$), độ lệch chuẩn của mẫu bằng:", "options": ["$2$", "$4$", "$\\sqrt{2}$", "$8$"], "answer": 0, "hint": "$s^2 = \\dfrac{9+1+1+1+0+0+4+16}{8} = \\dfrac{32}{8} = 4 \\Rightarrow s = \\sqrt{4} = 2$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Cho mẫu số liệu đã sắp xếp có $Q_1 = 5$ và $Q_3 = 18$. Khoảng tứ phân vị của mẫu là:", "options": ["$13$", "$23$", "$5$", "$18$"], "answer": 0, "hint": "$\\Delta_Q = Q_3 - Q_1 = 18 - 5 = 13$." },
-    { "type": "multiple-choice", "level": "VD", "question": "Cho mẫu số liệu ghép nhóm về thời gian (phút) như bảng: nhóm $[10;20)$ có tần số $2$; $[20;30)$ có tần số $5$; $[30;40)$ có tần số $3$. Số trung bình (dùng giá trị đại diện là trung điểm) bằng:", "options": ["$25,5$", "$25$", "$26$", "$24$"], "answer": 0, "hint": "Trung điểm $15;25;35$. $\\bar{x} = \\dfrac{15\\cdot2 + 25\\cdot5 + 35\\cdot3}{10} = \\dfrac{255}{10} = 25,5$." },
-    { "type": "multiple-choice", "level": "VD", "question": "Cho mẫu số liệu ghép nhóm có giá trị đại diện và tần số: $10\\ (2);\\ 20\\ (5);\\ 30\\ (3)$, với số trung bình $\\bar{x} = 21$. Phương sai của mẫu bằng:", "options": ["$49$", "$7$", "$21$", "$59$"], "answer": 0, "hint": "$s^2 = \\dfrac{2(10-21)^2 + 5(20-21)^2 + 3(30-21)^2}{10} = \\dfrac{242 + 5 + 243}{10} = \\dfrac{490}{10} = 49$." },
-    { "type": "multiple-choice", "level": "VDC", "question": "Cho mẫu số liệu ghép nhóm với các nhóm và tần số: $[0;20)$ tần số $2$; $[20;40)$ tần số $4$; $[40;60)$ tần số $3$; $[60;80)$ tần số $1$. Biết số trung bình $\\bar{x} = 36$. Độ lệch chuẩn của mẫu (làm tròn đến hàng đơn vị) bằng:", "options": ["$18$", "$324$", "$36$", "$9$"], "answer": 0, "hint": "Trung điểm $10;30;50;70$. $s^2 = \\dfrac{2(10-36)^2 + 4(30-36)^2 + 3(50-36)^2 + 1(70-36)^2}{10} = \\dfrac{1352 + 144 + 588 + 1156}{10} = \\dfrac{3240}{10} = 324 \\Rightarrow s = \\sqrt{324} = 18$." },
-    { "type": "true-false-group", "level": "VD", "question": "Cho mẫu số liệu: $1;\\ 3;\\ 5;\\ 7;\\ 9$ có số trung bình $\\bar{x} = 5$. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Khoảng biến thiên của mẫu bằng $8$.", "answer": true },
-      { "text": "Phương sai của mẫu bằng $8$.", "answer": true },
-      { "text": "Độ lệch chuẩn của mẫu bằng $2$.", "answer": false },
-      { "text": "Tổng bình phương các độ lệch so với số trung bình bằng $40$.", "answer": true }
-    ] },
-    { "type": "true-false-group", "level": "VD", "question": "Cho mẫu số liệu đã sắp xếp tăng dần: $1;\\ 2;\\ 5;\\ 6;\\ 7;\\ 9;\\ 12;\\ 15;\\ 18;\\ 19;\\ 27$ (gồm $11$ giá trị). Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Trung vị (tứ phân vị thứ hai) của mẫu bằng $9$.", "answer": true },
-      { "text": "Tứ phân vị thứ nhất $Q_1 = 5$.", "answer": true },
-      { "text": "Tứ phân vị thứ ba $Q_3 = 18$.", "answer": true },
-      { "text": "Khoảng tứ phân vị của mẫu bằng $26$.", "answer": false }
-    ] },
-    { "type": "fill-blank", "level": "TH", "question": "Cho mẫu số liệu: $4;\\ 8;\\ 8;\\ 10;\\ 10$ có số trung bình $\\bar{x} = 8$. Phương sai của mẫu (viết dạng số thập phân) là ___", "answer": "4,8" },
-    { "type": "fill-blank", "level": "VD", "question": "Cho mẫu số liệu ghép nhóm có giá trị đại diện và tần số: $1\\ (1);\\ 2\\ (3);\\ 3\\ (4);\\ 4\\ (2)$. Số trung bình của mẫu (viết dạng số thập phân) là ___", "answer": "2,7", "hint": "$\\bar{x} = \\dfrac{1\\cdot1 + 2\\cdot3 + 3\\cdot4 + 4\\cdot2}{10} = \\dfrac{27}{10}$." },
-    { "type": "fill-blank", "level": "VDC", "question": "Với mẫu số liệu ghép nhóm có giá trị đại diện và tần số $1\\ (1);\\ 2\\ (3);\\ 3\\ (4);\\ 4\\ (2)$ (số trung bình $\\bar{x} = 2,7$), độ lệch chuẩn của mẫu (viết dạng số thập phân) là ___", "answer": "0,9", "hint": "$s^2 = \\dfrac{1(1-2,7)^2 + 3(2-2,7)^2 + 4(3-2,7)^2 + 2(4-2,7)^2}{10} = \\dfrac{8,1}{10} = 0,81 \\Rightarrow s = 0,9$." }
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khoảng biến thiên $R$ của một mẫu số liệu được tính bằng:",
+      "options": [
+        "Hiệu giữa giá trị lớn nhất và giá trị nhỏ nhất",
+        "Tổng tất cả các giá trị",
+        "Trung bình cộng của các giá trị",
+        "Hiệu giữa tứ phân vị thứ ba và thứ nhất"
+      ],
+      "answer": 0,
+      "hint": "$R = x_{\\max} - x_{\\min}$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Các số đặc trưng như khoảng biến thiên, phương sai, độ lệch chuẩn dùng để đo:",
+      "options": [
+        "Mức độ phân tán của mẫu số liệu",
+        "Giá trị trung tâm của mẫu số liệu",
+        "Tổng số liệu của mẫu",
+        "Số phần tử của mẫu"
+      ],
+      "answer": 0,
+      "hint": "Đây là các số đo độ phân tán."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khoảng tứ phân vị $\\Delta_Q$ được xác định theo công thức nào sau đây?",
+      "options": [
+        "$\\Delta_Q = Q_3 - Q_1$",
+        "$\\Delta_Q = Q_3 - Q_2$",
+        "$\\Delta_Q = Q_2 - Q_1$",
+        "$\\Delta_Q = Q_3 + Q_1$"
+      ],
+      "answer": 0,
+      "hint": "Hiệu giữa tứ phân vị thứ ba và thứ nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Độ lệch chuẩn $s$ của một mẫu số liệu có quan hệ với phương sai $s^2$ là:",
+      "options": [
+        "$s = \\sqrt{s^2}$",
+        "$s = (s^2)^2$",
+        "$s = \\dfrac{s^2}{2}$",
+        "$s = 2 s^2$"
+      ],
+      "answer": 0,
+      "hint": "Độ lệch chuẩn là căn bậc hai của phương sai."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cho mẫu số liệu: $3;\\ 5;\\ 9;\\ 11;\\ 15$. Khoảng biến thiên của mẫu là:",
+      "options": [
+        "$12$",
+        "$15$",
+        "$5$",
+        "$10$"
+      ],
+      "answer": 0,
+      "hint": "$R = 15 - 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho mẫu số liệu: $6;\\ 8;\\ 10;\\ 12;\\ 14$ có số trung bình $\\bar{x} = 10$. Phương sai của mẫu là:",
+      "options": [
+        "$8$",
+        "$10$",
+        "$40$",
+        "$4$"
+      ],
+      "answer": 0,
+      "hint": "$s^2 = \\dfrac{(-4)^2 + (-2)^2 + 0^2 + 2^2 + 4^2}{5} = \\dfrac{40}{5} = 8$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho mẫu số liệu: $2;\\ 4;\\ 4;\\ 4;\\ 5;\\ 5;\\ 7;\\ 9$. Số trung bình $\\bar{x}$ bằng:",
+      "options": [
+        "$5$",
+        "$4$",
+        "$6$",
+        "$4,5$"
+      ],
+      "answer": 0,
+      "hint": "$\\bar{x} = \\dfrac{2+4+4+4+5+5+7+9}{8} = \\dfrac{40}{8} = 5$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Với mẫu số liệu $2;\\ 4;\\ 4;\\ 4;\\ 5;\\ 5;\\ 7;\\ 9$ (có $\\bar{x} = 5$), độ lệch chuẩn của mẫu bằng:",
+      "options": [
+        "$2$",
+        "$4$",
+        "$\\sqrt{2}$",
+        "$8$"
+      ],
+      "answer": 0,
+      "hint": "$s^2 = \\dfrac{9+1+1+1+0+0+4+16}{8} = \\dfrac{32}{8} = 4 \\Rightarrow s = \\sqrt{4} = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho mẫu số liệu đã sắp xếp có $Q_1 = 5$ và $Q_3 = 18$. Khoảng tứ phân vị của mẫu là:",
+      "options": [
+        "$13$",
+        "$23$",
+        "$5$",
+        "$18$"
+      ],
+      "answer": 0,
+      "hint": "$\\Delta_Q = Q_3 - Q_1 = 18 - 5 = 13$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho mẫu số liệu ghép nhóm về thời gian (phút) như bảng: nhóm $[10;20)$ có tần số $2$; $[20;30)$ có tần số $5$; $[30;40)$ có tần số $3$. Số trung bình (dùng giá trị đại diện là trung điểm) bằng:",
+      "options": [
+        "$25,5$",
+        "$25$",
+        "$26$",
+        "$24$"
+      ],
+      "answer": 0,
+      "hint": "Trung điểm $15;25;35$. $\\bar{x} = \\dfrac{15\\cdot2 + 25\\cdot5 + 35\\cdot3}{10} = \\dfrac{255}{10} = 25,5$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho mẫu số liệu ghép nhóm có giá trị đại diện và tần số: $10\\ (2);\\ 20\\ (5);\\ 30\\ (3)$, với số trung bình $\\bar{x} = 21$. Phương sai của mẫu bằng:",
+      "options": [
+        "$49$",
+        "$7$",
+        "$21$",
+        "$59$"
+      ],
+      "answer": 0,
+      "hint": "$s^2 = \\dfrac{2(10-21)^2 + 5(20-21)^2 + 3(30-21)^2}{10} = \\dfrac{242 + 5 + 243}{10} = \\dfrac{490}{10} = 49$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Cho mẫu số liệu ghép nhóm với các nhóm và tần số: $[0;20)$ tần số $2$; $[20;40)$ tần số $4$; $[40;60)$ tần số $3$; $[60;80)$ tần số $1$. Biết số trung bình $\\bar{x} = 36$. Độ lệch chuẩn của mẫu (làm tròn đến hàng đơn vị) bằng:",
+      "options": [
+        "$18$",
+        "$324$",
+        "$36$",
+        "$9$"
+      ],
+      "answer": 0,
+      "hint": "Trung điểm $10;30;50;70$. $s^2 = \\dfrac{2(10-36)^2 + 4(30-36)^2 + 3(50-36)^2 + 1(70-36)^2}{10} = \\dfrac{1352 + 144 + 588 + 1156}{10} = \\dfrac{3240}{10} = 324 \\Rightarrow s = \\sqrt{324} = 18$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho mẫu số liệu: $1;\\ 3;\\ 5;\\ 7;\\ 9$ có số trung bình $\\bar{x} = 5$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Khoảng biến thiên của mẫu bằng $8$.",
+          "answer": true
+        },
+        {
+          "text": "Phương sai của mẫu bằng $8$.",
+          "answer": true
+        },
+        {
+          "text": "Độ lệch chuẩn của mẫu bằng $2$.",
+          "answer": false
+        },
+        {
+          "text": "Tổng bình phương các độ lệch so với số trung bình bằng $40$.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho mẫu số liệu đã sắp xếp tăng dần: $1;\\ 2;\\ 5;\\ 6;\\ 7;\\ 9;\\ 12;\\ 15;\\ 18;\\ 19;\\ 27$ (gồm $11$ giá trị). Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Trung vị (tứ phân vị thứ hai) của mẫu bằng $9$.",
+          "answer": true
+        },
+        {
+          "text": "Tứ phân vị thứ nhất $Q_1 = 5$.",
+          "answer": true
+        },
+        {
+          "text": "Tứ phân vị thứ ba $Q_3 = 18$.",
+          "answer": true
+        },
+        {
+          "text": "Khoảng tứ phân vị của mẫu bằng $26$.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Cho mẫu số liệu: $4;\\ 8;\\ 8;\\ 10;\\ 10$ có số trung bình $\\bar{x} = 8$. Phương sai của mẫu (viết dạng số thập phân) là ___",
+      "answer": "4,8"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Cho mẫu số liệu ghép nhóm có giá trị đại diện và tần số: $1\\ (1);\\ 2\\ (3);\\ 3\\ (4);\\ 4\\ (2)$. Số trung bình của mẫu (viết dạng số thập phân) là ___",
+      "answer": "2,7",
+      "hint": "$\\bar{x} = \\dfrac{1\\cdot1 + 2\\cdot3 + 3\\cdot4 + 4\\cdot2}{10} = \\dfrac{27}{10}$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Với mẫu số liệu ghép nhóm có giá trị đại diện và tần số $1\\ (1);\\ 2\\ (3);\\ 3\\ (4);\\ 4\\ (2)$ (số trung bình $\\bar{x} = 2,7$), độ lệch chuẩn của mẫu (viết dạng số thập phân) là ___",
+      "answer": "0,9",
+      "hint": "$s^2 = \\dfrac{1(1-2,7)^2 + 3(2-2,7)^2 + 4(3-2,7)^2 + 2(4-2,7)^2}{10} = \\dfrac{8,1}{10} = 0,81 \\Rightarrow s = 0,9$."
+    }
   ]
 }

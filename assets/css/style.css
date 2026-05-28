@@ -600,8 +600,12 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 .topic-list {
   display: grid;
   gap: 14px;
-  margin-top: 20px;
+  margin-top: 12px;
 }
+.topic-section { margin: 26px 4px 4px; font-size: 1.2rem; font-weight: 800; }
+.topic-section:first-of-type { margin-top: 8px; }
+.topic-section small { font-weight: 600; color: var(--c-text-soft); font-size: 0.82rem; }
+.topic-group { margin: 18px 4px 0; font-size: 1rem; font-weight: 800; color: var(--c-primary-dark); }
 .topic-item {
   background: var(--c-card);
   border-radius: var(--radius-md);

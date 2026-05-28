@@ -675,23 +675,56 @@ function renderSubjects(view, grade) {
   `;
 }
 
+function chapterOrderKey(ch) {
+  const m = (ch || '').match(/\d+/);
+  return m ? parseInt(m[0], 10) : 9999;
+}
+function topicItemHTML(ex) {
+  const done = Progress.getCompletion(ex.id);
+  return `<a href="#/bai/${ex.id}" class="topic-item">
+      <div><div class="title">${ex.timeLimit ? '📝 ' : ''}${ex.topic}</div>
+      <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút` : ''}</div></div>
+      ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
+    </a>`;
+}
 function renderTopicList(view, grade, subject) {
   const s = SUBJECTS[subject];
   if (!s) { window.location.hash = '#/'; return; }
-  const list = CATALOG.exercises.filter(e => e.grade === grade && e.subject === subject);
+  const all = CATALOG.exercises.filter(e => e.grade === grade && e.subject === subject);
+  const byDiff = (a, b) => (a.difficulty || 1) - (b.difficulty || 1);
+  const practice = all.filter(e => !e.timeLimit).sort(byDiff);
+  const exams = all.filter(e => e.timeLimit).sort(byDiff);
+
+  // Phần luyện tập: nhóm theo chương nếu đề có gắn chapter; nếu không thì danh sách phẳng (đã sắp dễ→khó)
+  let practiceHTML = '';
+  if (practice.length) {
+    if (practice.some(e => e.chapter)) {
+      const groups = {};
+      for (const e of practice) (groups[e.chapter || 'Khác'] = groups[e.chapter || 'Khác'] || []).push(e);
+      practiceHTML = Object.keys(groups)
+        .sort((a, b) => (chapterOrderKey(a) - chapterOrderKey(b)) || a.localeCompare(b, 'vi'))
+        .map(k => `<h3 class="topic-group">${k === 'Khác' ? '📦 Bài khác' : '📘 ' + escapeHtml(k)}</h3>
+          <div class="topic-list">${groups[k].map(topicItemHTML).join('')}</div>`).join('');
+    } else {
+      practiceHTML = `<div class="topic-list">${practice.map(topicItemHTML).join('')}</div>`;
+    }
+  }
+
+  const sections = [];
+  if (practice.length) {
+    sections.push((exams.length ? '<h2 class="topic-section">📚 Luyện tập theo chủ đề</h2>' : '') + practiceHTML);
+  }
+  if (exams.length) {
+    sections.push(`<h2 class="topic-section">📝 Đề thi thử <small>(bấm giờ như thi thật)</small></h2>
+      <div class="topic-list">${exams.map(topicItemHTML).join('')}</div>`);
+  }
+
   view.innerHTML = `
     <a href="#/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
-    ${list.length === 0
+    ${all.length === 0
       ? emptyState('Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
-      : `<div class="topic-list">${list.map(ex => {
-          const done = Progress.getCompletion(ex.id);
-          return `<a href="#/bai/${ex.id}" class="topic-item">
-              <div><div class="title">${ex.timeLimit ? '📝 ' : ''}${ex.topic}</div>
-              <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút (đề thi thử)` : ''}</div></div>
-              ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
-            </a>`;
-        }).join('')}</div>`}
+      : sections.join('')}
   `;
 }
 

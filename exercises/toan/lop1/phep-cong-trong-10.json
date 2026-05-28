@@ -3,19 +3,30 @@
   "subject": "toan",
   "grade": 1,
   "topic": "Phép cộng trong phạm vi 10",
+  "chapter": "Chủ đề 2: Phép cộng, phép trừ trong phạm vi 10",
   "difficulty": 1,
   "questions": [
     {
       "type": "multiple-choice",
       "question": "2 + 3 = ?",
-      "options": ["4", "5", "6", "7"],
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
       "answer": 1,
       "hint": "Đếm thêm 3 sau số 2 nhé!"
     },
     {
       "type": "multiple-choice",
       "question": "4 + 4 = ?",
-      "options": ["6", "7", "8", "9"],
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "answer": 2
     },
     {
@@ -32,7 +43,12 @@
     {
       "type": "multiple-choice",
       "question": "Trên bàn có 3 quả táo, mẹ cho thêm 2 quả nữa. Hỏi trên bàn có tất cả mấy quả táo?",
-      "options": ["4 quả", "5 quả", "6 quả", "7 quả"],
+      "options": [
+        "4 quả",
+        "5 quả",
+        "6 quả",
+        "7 quả"
+      ],
       "answer": 1,
       "hint": "Lấy 3 cộng với 2"
     },
@@ -40,10 +56,22 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả",
       "pairs": [
-        ["1 + 2", "3"],
-        ["4 + 3", "7"],
-        ["5 + 5", "10"],
-        ["2 + 6", "8"]
+        [
+          "1 + 2",
+          "3"
+        ],
+        [
+          "4 + 3",
+          "7"
+        ],
+        [
+          "5 + 5",
+          "10"
+        ],
+        [
+          "2 + 6",
+          "8"
+        ]
       ]
     },
     {
@@ -54,21 +82,36 @@
     {
       "type": "multiple-choice",
       "question": "Số nào lớn nhất trong các kết quả sau? 2+3, 1+4, 4+5, 3+3",
-      "options": ["2+3", "1+4", "4+5", "3+3"],
+      "options": [
+        "2+3",
+        "1+4",
+        "4+5",
+        "3+3"
+      ],
       "answer": 2,
       "hint": "Tính từng phép rồi so sánh nhé"
     },
     {
       "type": "multiple-choice",
       "question": "1 + 8 = ?",
-      "options": ["7", "8", "9", "10"],
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "answer": 2,
       "hint": "Đếm thêm 8 sau số 1 nhé!"
     },
     {
       "type": "multiple-choice",
       "question": "6 + 3 = ?",
-      "options": ["8", "9", "10", "7"],
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
       "answer": 1
     },
     {
@@ -86,17 +129,37 @@
       "type": "matching",
       "question": "Bạn hãy nối phép cộng với kết quả đúng nhé",
       "pairs": [
-        ["0 + 5", "5"],
-        ["3 + 3", "6"],
-        ["1 + 1", "2"],
-        ["4 + 5", "9"],
-        ["3 + 1", "4"]
+        [
+          "0 + 5",
+          "5"
+        ],
+        [
+          "3 + 3",
+          "6"
+        ],
+        [
+          "1 + 1",
+          "2"
+        ],
+        [
+          "4 + 5",
+          "9"
+        ],
+        [
+          "3 + 1",
+          "4"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Trong vườn có 5 con gà và 4 con vịt. Hỏi có tất cả bao nhiêu con?",
-      "options": ["8 con", "9 con", "10 con", "7 con"],
+      "options": [
+        "8 con",
+        "9 con",
+        "10 con",
+        "7 con"
+      ],
       "answer": 1,
       "hint": "Lấy 5 cộng với 4"
     },
@@ -109,7 +172,12 @@
     {
       "type": "multiple-choice",
       "question": "5 + 4 = ?",
-      "options": ["8", "9", "10", "7"],
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
       "answer": 1
     }
   ]

@@ -3,13 +3,23 @@
   "subject": "toan",
   "grade": 1,
   "topic": "Phép trừ trong phạm vi 10",
+  "chapter": "Chủ đề 2: Phép cộng, phép trừ trong phạm vi 10",
   "difficulty": 1,
-  "outcomes": ["T1-PT-2", "T1-PT-3", "T1-PT-6"],
+  "outcomes": [
+    "T1-PT-2",
+    "T1-PT-3",
+    "T1-PT-6"
+  ],
   "questions": [
     {
       "type": "multiple-choice",
       "question": "7 - 2 = ?",
-      "options": ["4", "5", "6", "3"],
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
       "answer": 1,
       "hint": "Đếm lùi 2 từ số 7 nhé!",
       "level": "NB"
@@ -17,14 +27,24 @@
     {
       "type": "multiple-choice",
       "question": "9 - 4 = ?",
-      "options": ["4", "5", "6", "3"],
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
       "answer": 1,
       "level": "NB"
     },
     {
       "type": "multiple-choice",
       "question": "10 - 6 = ?",
-      "options": ["3", "4", "5", "6"],
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
       "answer": 1,
       "hint": "10 bớt đi 6 còn lại mấy?",
       "level": "NB"
@@ -66,7 +86,12 @@
     {
       "type": "multiple-choice",
       "question": "Trên cành có 8 con chim, 3 con bay đi. Hỏi trên cành còn lại mấy con chim?",
-      "options": ["4 con", "5 con", "6 con", "3 con"],
+      "options": [
+        "4 con",
+        "5 con",
+        "6 con",
+        "3 con"
+      ],
       "answer": 1,
       "hint": "Lấy 8 trừ đi 3",
       "level": "VD"
@@ -74,7 +99,12 @@
     {
       "type": "multiple-choice",
       "question": "Bạn Lan có 10 cái bánh, ăn hết 4 cái. Hỏi bạn Lan còn lại mấy cái bánh?",
-      "options": ["5 cái", "6 cái", "7 cái", "4 cái"],
+      "options": [
+        "5 cái",
+        "6 cái",
+        "7 cái",
+        "4 cái"
+      ],
       "answer": 1,
       "hint": "Lấy 10 trừ đi 4",
       "level": "VD"
@@ -95,27 +125,59 @@
       "type": "matching",
       "question": "Nối phép trừ với kết quả đúng",
       "pairs": [
-        ["6 - 2", "4"],
-        ["9 - 3", "6"],
-        ["10 - 1", "9"],
-        ["5 - 5", "0"]
+        [
+          "6 - 2",
+          "4"
+        ],
+        [
+          "9 - 3",
+          "6"
+        ],
+        [
+          "10 - 1",
+          "9"
+        ],
+        [
+          "5 - 5",
+          "0"
+        ]
       ]
     },
     {
       "type": "matching",
       "question": "Bạn hãy nối phép trừ với kết quả nhé",
       "pairs": [
-        ["8 - 6", "2"],
-        ["7 - 4", "3"],
-        ["10 - 5", "5"],
-        ["9 - 2", "7"],
-        ["6 - 5", "1"]
+        [
+          "8 - 6",
+          "2"
+        ],
+        [
+          "7 - 4",
+          "3"
+        ],
+        [
+          "10 - 5",
+          "5"
+        ],
+        [
+          "9 - 2",
+          "7"
+        ],
+        [
+          "6 - 5",
+          "1"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "question": "Kết quả nào lớn nhất? 8-3, 9-5, 10-2, 7-6",
-      "options": ["8-3", "9-5", "10-2", "7-6"],
+      "options": [
+        "8-3",
+        "9-5",
+        "10-2",
+        "7-6"
+      ],
       "answer": 2,
       "hint": "Tính từng phép rồi so sánh: 10-2 bằng mấy?",
       "level": "VD"

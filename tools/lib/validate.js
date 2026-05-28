@@ -74,6 +74,8 @@ function validateExercise(data) {
     errors.push(`stage không hợp lệ: ${stage}`);
   }
   if (!data.topic) errors.push('thiếu "topic"');
+  if (data.chapter !== undefined && typeof data.chapter !== 'string')
+    errors.push('"chapter" phải là chuỗi (tên chương/chủ đề để nhóm đề)');
   if (data.outcomes !== undefined && (!Array.isArray(data.outcomes) || data.outcomes.some(o => typeof o !== 'string')))
     errors.push('"outcomes" phải là mảng chuỗi (mã yêu cầu cần đạt)');
   if (data.timeLimit !== undefined && (typeof data.timeLimit !== 'number' || data.timeLimit <= 0))
@@ -229,6 +231,7 @@ function buildArtifacts(okList) {
       subject: data.subject,
       grade: data.grade,
       topic: data.topic,
+      chapter: data.chapter || null,
       difficulty: data.difficulty || 1,
       questionCount: data.questions.length,
       outcomes: data.outcomes || [],

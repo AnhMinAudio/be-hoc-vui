@@ -4,35 +4,230 @@
   "subject": "toan",
   "grade": 12,
   "topic": "Chương 5: Phương pháp tọa độ trong không gian",
+  "chapter": "Chương 5: Tọa độ trong không gian",
   "difficulty": 3,
-  "outcomes": ["T12-PT-1", "T12-PT-2", "T12-PT-3", "T12-PT-4"],
+  "outcomes": [
+    "T12-PT-1",
+    "T12-PT-2",
+    "T12-PT-3",
+    "T12-PT-4"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, mặt phẳng $2x - 3y + z - 5 = 0$ có một vectơ pháp tuyến là:", "options": ["$(2; -3; 1)$", "$(2; 3; 1)$", "$(-3; 1; -5)$", "$(2; -3; -5)$"], "answer": 0, "hint": "Mặt phẳng $ax + by + cz + d = 0$ có vectơ pháp tuyến $(a; b; c)$" },
-    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, đường thẳng $d: \\dfrac{x-1}{2} = \\dfrac{y+2}{-1} = \\dfrac{z}{3}$ có một vectơ chỉ phương là:", "options": ["$(2; -1; 3)$", "$(1; -2; 0)$", "$(2; 1; 3)$", "$(-1; 2; 0)$"], "answer": 0, "hint": "Các mẫu số là tọa độ vectơ chỉ phương" },
-    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, mặt cầu $(x-1)^2 + (y+2)^2 + (z-3)^2 = 16$ có tâm $I$ là:", "options": ["$I(1; -2; 3)$", "$I(-1; 2; -3)$", "$I(1; 2; 3)$", "$I(-1; -2; -3)$"], "answer": 0, "hint": "Tâm $(a; b; c)$ ứng với $(x-a)^2 + (y-b)^2 + (z-c)^2 = R^2$" },
-    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, mặt cầu $(x-1)^2 + y^2 + (z+2)^2 = 9$ có bán kính bằng:", "options": ["$3$", "$9$", "$\\sqrt{3}$", "$81$"], "answer": 0, "hint": "$R^2 = 9$" },
-    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, mặt phẳng đi qua điểm $M(1; 2; -1)$ và nhận $\\vec{n} = (3; -1; 2)$ làm vectơ pháp tuyến có phương trình là:", "options": ["$3x - y + 2z + 1 = 0$", "$3x - y + 2z - 1 = 0$", "$x + 2y - z + 1 = 0$", "$3x - y + 2z = 0$"], "answer": 0, "hint": "$3(x-1) - 1(y-2) + 2(z+1) = 0$" },
-    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, mặt phẳng $(P): x + 2y - 2z + 3 = 0$. Khoảng cách từ điểm $O(0; 0; 0)$ đến $(P)$ bằng:", "options": ["$1$", "$3$", "$\\dfrac{3}{\\sqrt{5}}$", "$\\dfrac{1}{3}$"], "answer": 0, "hint": "$d = \\dfrac{|3|}{\\sqrt{1^2 + 2^2 + (-2)^2}}$" },
-    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, đường thẳng đi qua điểm $A(2; -1; 3)$ và có vectơ chỉ phương $\\vec{u} = (1; 2; -1)$ có phương trình tham số là:", "options": ["$\\begin{cases} x = 2 + t \\\\ y = -1 + 2t \\\\ z = 3 - t \\end{cases}$", "$\\begin{cases} x = 1 + 2t \\\\ y = 2 - t \\\\ z = -1 + 3t \\end{cases}$", "$\\begin{cases} x = 2 + t \\\\ y = -1 - 2t \\\\ z = 3 + t \\end{cases}$", "$\\begin{cases} x = -2 + t \\\\ y = 1 + 2t \\\\ z = -3 - t \\end{cases}$"], "answer": 0, "hint": "Điểm cho hằng số, vectơ chỉ phương là hệ số của $t$" },
-    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, mặt cầu $x^2 + y^2 + z^2 - 2x + 4y - 6z + 5 = 0$ có tâm là:", "options": ["$I(1; -2; 3)$", "$I(-1; 2; -3)$", "$I(2; -4; 6)$", "$I(1; 2; 3)$"], "answer": 0, "hint": "Tâm $I(-\\dfrac{a}{2}; -\\dfrac{b}{2}; -\\dfrac{c}{2})$ với hệ số $-2x, 4y, -6z$" },
-    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, hai mặt phẳng $(P): x - 2y + z + 1 = 0$ và $(Q): 2x - 4y + 2z - 3 = 0$ có vị trí tương đối là:", "options": ["Song song", "Cắt nhau", "Trùng nhau", "Vuông góc"], "answer": 0, "hint": "So sánh tỉ lệ các hệ số: $\\dfrac{1}{2} = \\dfrac{-2}{-4} = \\dfrac{1}{2} \\ne \\dfrac{1}{-3}$" },
-    { "type": "multiple-choice", "level": "VD", "question": "Trong không gian $Oxyz$, góc giữa hai mặt phẳng $(P): x + y + z - 1 = 0$ và $(Q): x - y = 0$ bằng:", "options": ["$90^\\circ$", "$45^\\circ$", "$60^\\circ$", "$30^\\circ$"], "answer": 0, "hint": "$\\vec{n_1} \\cdot \\vec{n_2} = 1 \\cdot 1 + 1 \\cdot (-1) + 1 \\cdot 0 = 0$" },
-    { "type": "multiple-choice", "level": "VD", "question": "Trong không gian $Oxyz$, mặt cầu tâm $I(1; 2; -1)$ và tiếp xúc với mặt phẳng $(P): 2x - 2y + z + 5 = 0$ có bán kính bằng:", "options": ["$\\dfrac{2}{3}$", "$3$", "$1$", "$2$"], "answer": 0, "hint": "$R = d(I, (P)) = \\dfrac{|2 - 4 - 1 + 5|}{\\sqrt{4 + 4 + 1}}$" },
-    { "type": "true-false", "level": "TH", "question": "Trong không gian $Oxyz$, mặt phẳng $(P): x - y + 2z - 4 = 0$ đi qua điểm $A(2; 0; 1)$.", "answer": true },
-    { "type": "true-false-group", "level": "VD", "question": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2 + y^2 + z^2 - 4x + 2y - 4 = 0$. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Mặt cầu có tâm $I(2; -1; 0)$.", "answer": true },
-      { "text": "Mặt cầu có bán kính $R = 3$.", "answer": true },
-      { "text": "Điểm $O(0; 0; 0)$ nằm trên mặt cầu.", "answer": false },
-      { "text": "Mặt cầu đi qua gốc tọa độ khi và chỉ khi hệ số tự do bằng $0$.", "answer": true }
-    ] },
-    { "type": "true-false-group", "level": "VDC", "question": "Trong không gian $Oxyz$, cho đường thẳng $d: \\dfrac{x-1}{2} = \\dfrac{y}{1} = \\dfrac{z+1}{-2}$ và mặt phẳng $(P): 2x + y - 2z + 5 = 0$. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Đường thẳng $d$ có vectơ chỉ phương $\\vec{u} = (2; 1; -2)$.", "answer": true },
-      { "text": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n} = (2; 1; -2)$.", "answer": true },
-      { "text": "Đường thẳng $d$ song song hoặc nằm trong mặt phẳng $(P)$.", "answer": false },
-      { "text": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$.", "answer": true }
-    ] },
-    { "type": "fill-blank", "level": "TH", "question": "Trong không gian $Oxyz$, mặt cầu đường kính $AB$ với $A(1; 2; 3)$ và $B(3; 4; 5)$ có tâm $I$ có hoành độ bằng ___", "answer": "2", "hint": "Tâm là trung điểm $AB$" },
-    { "type": "fill-blank", "level": "VD", "question": "Trong không gian $Oxyz$, khoảng cách từ điểm $M(1; -2; 3)$ đến mặt phẳng $(P): 2x - y + 2z - 3 = 0$ bằng ___", "answer": "3", "hint": "$d = \\dfrac{|2 + 2 + 6 - 3|}{\\sqrt{4 + 1 + 4}}$" },
-    { "type": "fill-blank", "level": "VDC", "question": "Trong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y + 2z - 12 = 0$ và mặt cầu $(S)$ tâm $I(1; 1; 1)$. Biết $(P)$ cắt $(S)$ theo giao tuyến là đường tròn có bán kính $r = 4$. Bán kính của mặt cầu $(S)$ bằng ___", "answer": "5", "hint": "$d(I,(P)) = \\dfrac{|2 - 1 + 2 - 12|}{\\sqrt{4+1+4}} = 3$ rồi $R = \\sqrt{d^2 + r^2}$" }
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong không gian $Oxyz$, mặt phẳng $2x - 3y + z - 5 = 0$ có một vectơ pháp tuyến là:",
+      "options": [
+        "$(2; -3; 1)$",
+        "$(2; 3; 1)$",
+        "$(-3; 1; -5)$",
+        "$(2; -3; -5)$"
+      ],
+      "answer": 0,
+      "hint": "Mặt phẳng $ax + by + cz + d = 0$ có vectơ pháp tuyến $(a; b; c)$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong không gian $Oxyz$, đường thẳng $d: \\dfrac{x-1}{2} = \\dfrac{y+2}{-1} = \\dfrac{z}{3}$ có một vectơ chỉ phương là:",
+      "options": [
+        "$(2; -1; 3)$",
+        "$(1; -2; 0)$",
+        "$(2; 1; 3)$",
+        "$(-1; 2; 0)$"
+      ],
+      "answer": 0,
+      "hint": "Các mẫu số là tọa độ vectơ chỉ phương"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong không gian $Oxyz$, mặt cầu $(x-1)^2 + (y+2)^2 + (z-3)^2 = 16$ có tâm $I$ là:",
+      "options": [
+        "$I(1; -2; 3)$",
+        "$I(-1; 2; -3)$",
+        "$I(1; 2; 3)$",
+        "$I(-1; -2; -3)$"
+      ],
+      "answer": 0,
+      "hint": "Tâm $(a; b; c)$ ứng với $(x-a)^2 + (y-b)^2 + (z-c)^2 = R^2$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong không gian $Oxyz$, mặt cầu $(x-1)^2 + y^2 + (z+2)^2 = 9$ có bán kính bằng:",
+      "options": [
+        "$3$",
+        "$9$",
+        "$\\sqrt{3}$",
+        "$81$"
+      ],
+      "answer": 0,
+      "hint": "$R^2 = 9$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong không gian $Oxyz$, mặt phẳng đi qua điểm $M(1; 2; -1)$ và nhận $\\vec{n} = (3; -1; 2)$ làm vectơ pháp tuyến có phương trình là:",
+      "options": [
+        "$3x - y + 2z + 1 = 0$",
+        "$3x - y + 2z - 1 = 0$",
+        "$x + 2y - z + 1 = 0$",
+        "$3x - y + 2z = 0$"
+      ],
+      "answer": 0,
+      "hint": "$3(x-1) - 1(y-2) + 2(z+1) = 0$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P): x + 2y - 2z + 3 = 0$. Khoảng cách từ điểm $O(0; 0; 0)$ đến $(P)$ bằng:",
+      "options": [
+        "$1$",
+        "$3$",
+        "$\\dfrac{3}{\\sqrt{5}}$",
+        "$\\dfrac{1}{3}$"
+      ],
+      "answer": 0,
+      "hint": "$d = \\dfrac{|3|}{\\sqrt{1^2 + 2^2 + (-2)^2}}$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong không gian $Oxyz$, đường thẳng đi qua điểm $A(2; -1; 3)$ và có vectơ chỉ phương $\\vec{u} = (1; 2; -1)$ có phương trình tham số là:",
+      "options": [
+        "$\\begin{cases} x = 2 + t \\\\ y = -1 + 2t \\\\ z = 3 - t \\end{cases}$",
+        "$\\begin{cases} x = 1 + 2t \\\\ y = 2 - t \\\\ z = -1 + 3t \\end{cases}$",
+        "$\\begin{cases} x = 2 + t \\\\ y = -1 - 2t \\\\ z = 3 + t \\end{cases}$",
+        "$\\begin{cases} x = -2 + t \\\\ y = 1 + 2t \\\\ z = -3 - t \\end{cases}$"
+      ],
+      "answer": 0,
+      "hint": "Điểm cho hằng số, vectơ chỉ phương là hệ số của $t$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong không gian $Oxyz$, mặt cầu $x^2 + y^2 + z^2 - 2x + 4y - 6z + 5 = 0$ có tâm là:",
+      "options": [
+        "$I(1; -2; 3)$",
+        "$I(-1; 2; -3)$",
+        "$I(2; -4; 6)$",
+        "$I(1; 2; 3)$"
+      ],
+      "answer": 0,
+      "hint": "Tâm $I(-\\dfrac{a}{2}; -\\dfrac{b}{2}; -\\dfrac{c}{2})$ với hệ số $-2x, 4y, -6z$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong không gian $Oxyz$, hai mặt phẳng $(P): x - 2y + z + 1 = 0$ và $(Q): 2x - 4y + 2z - 3 = 0$ có vị trí tương đối là:",
+      "options": [
+        "Song song",
+        "Cắt nhau",
+        "Trùng nhau",
+        "Vuông góc"
+      ],
+      "answer": 0,
+      "hint": "So sánh tỉ lệ các hệ số: $\\dfrac{1}{2} = \\dfrac{-2}{-4} = \\dfrac{1}{2} \\ne \\dfrac{1}{-3}$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong không gian $Oxyz$, góc giữa hai mặt phẳng $(P): x + y + z - 1 = 0$ và $(Q): x - y = 0$ bằng:",
+      "options": [
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$30^\\circ$"
+      ],
+      "answer": 0,
+      "hint": "$\\vec{n_1} \\cdot \\vec{n_2} = 1 \\cdot 1 + 1 \\cdot (-1) + 1 \\cdot 0 = 0$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong không gian $Oxyz$, mặt cầu tâm $I(1; 2; -1)$ và tiếp xúc với mặt phẳng $(P): 2x - 2y + z + 5 = 0$ có bán kính bằng:",
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$3$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "hint": "$R = d(I, (P)) = \\dfrac{|2 - 4 - 1 + 5|}{\\sqrt{4 + 4 + 1}}$"
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P): x - y + 2z - 4 = 0$ đi qua điểm $A(2; 0; 1)$.",
+      "answer": true
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2 + y^2 + z^2 - 4x + 2y - 4 = 0$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Mặt cầu có tâm $I(2; -1; 0)$.",
+          "answer": true
+        },
+        {
+          "text": "Mặt cầu có bán kính $R = 3$.",
+          "answer": true
+        },
+        {
+          "text": "Điểm $O(0; 0; 0)$ nằm trên mặt cầu.",
+          "answer": false
+        },
+        {
+          "text": "Mặt cầu đi qua gốc tọa độ khi và chỉ khi hệ số tự do bằng $0$.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VDC",
+      "question": "Trong không gian $Oxyz$, cho đường thẳng $d: \\dfrac{x-1}{2} = \\dfrac{y}{1} = \\dfrac{z+1}{-2}$ và mặt phẳng $(P): 2x + y - 2z + 5 = 0$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Đường thẳng $d$ có vectơ chỉ phương $\\vec{u} = (2; 1; -2)$.",
+          "answer": true
+        },
+        {
+          "text": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n} = (2; 1; -2)$.",
+          "answer": true
+        },
+        {
+          "text": "Đường thẳng $d$ song song hoặc nằm trong mặt phẳng $(P)$.",
+          "answer": false
+        },
+        {
+          "text": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Trong không gian $Oxyz$, mặt cầu đường kính $AB$ với $A(1; 2; 3)$ và $B(3; 4; 5)$ có tâm $I$ có hoành độ bằng ___",
+      "answer": "2",
+      "hint": "Tâm là trung điểm $AB$"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Trong không gian $Oxyz$, khoảng cách từ điểm $M(1; -2; 3)$ đến mặt phẳng $(P): 2x - y + 2z - 3 = 0$ bằng ___",
+      "answer": "3",
+      "hint": "$d = \\dfrac{|2 + 2 + 6 - 3|}{\\sqrt{4 + 1 + 4}}$"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Trong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y + 2z - 12 = 0$ và mặt cầu $(S)$ tâm $I(1; 1; 1)$. Biết $(P)$ cắt $(S)$ theo giao tuyến là đường tròn có bán kính $r = 4$. Bán kính của mặt cầu $(S)$ bằng ___",
+      "answer": "5",
+      "hint": "$d(I,(P)) = \\dfrac{|2 - 1 + 2 - 12|}{\\sqrt{4+1+4}} = 3$ rồi $R = \\sqrt{d^2 + r^2}$"
+    }
   ]
 }
