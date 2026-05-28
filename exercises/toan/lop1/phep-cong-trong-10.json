@@ -1,0 +1,62 @@
+{
+  "id": "toan-l1-phep-cong-trong-10",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Phép cộng trong phạm vi 10",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "2 + 3 = ?",
+      "options": ["4", "5", "6", "7"],
+      "answer": 1,
+      "hint": "Đếm thêm 3 sau số 2 nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "4 + 4 = ?",
+      "options": ["6", "7", "8", "9"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "question": "5 + ___ = 9",
+      "answer": "4",
+      "hint": "9 trừ 5 bằng mấy?"
+    },
+    {
+      "type": "fill-blank",
+      "question": "___ + 6 = 10",
+      "answer": "4"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trên bàn có 3 quả táo, mẹ cho thêm 2 quả nữa. Hỏi trên bàn có tất cả mấy quả táo?",
+      "options": ["4 quả", "5 quả", "6 quả", "7 quả"],
+      "answer": 1,
+      "hint": "Lấy 3 cộng với 2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả",
+      "pairs": [
+        ["1 + 2", "3"],
+        ["4 + 3", "7"],
+        ["5 + 5", "10"],
+        ["2 + 6", "8"]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "question": "7 + 2 = ___",
+      "answer": "9"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn nhất trong các kết quả sau? 2+3, 1+4, 4+5, 3+3",
+      "options": ["2+3", "1+4", "4+5", "3+3"],
+      "answer": 2,
+      "hint": "Tính từng phép rồi so sánh nhé"
+    }
+  ]
+}

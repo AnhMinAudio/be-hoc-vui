@@ -1,0 +1,428 @@
+/* ===== Web Học Tập - Theme Pastel ===== */
+:root {
+  --c-bg: #FFF9F2;
+  --c-text: #3D3D5C;
+  --c-text-soft: #6B6B8C;
+  --c-card: #FFFFFF;
+  --c-border: #F0E5D8;
+  --c-toan: #A8E6CF;          /* xanh mint - Toán */
+  --c-toan-dark: #4DB6AC;
+  --c-tv: #FFD3B6;            /* cam đào - Tiếng Việt */
+  --c-tv-dark: #FF8A65;
+  --c-ta: #C9A3FF;            /* tím - Tiếng Anh */
+  --c-ta-dark: #9575CD;
+  --c-correct: #66BB6A;
+  --c-wrong: #EF5350;
+  --c-star: #FFC107;
+  --shadow-sm: 0 2px 8px rgba(61, 61, 92, 0.08);
+  --shadow-md: 0 6px 20px rgba(61, 61, 92, 0.12);
+  --shadow-lg: 0 12px 36px rgba(61, 61, 92, 0.18);
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  font-family: 'Nunito', 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 18px;
+  color: var(--c-text);
+  background: var(--c-bg);
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(168, 230, 207, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(201, 163, 255, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(255, 211, 182, 0.10) 0%, transparent 50%);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+button { font-family: inherit; cursor: pointer; border: none; }
+a { color: inherit; text-decoration: none; }
+
+/* ===== Layout ===== */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: var(--c-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 28px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-icon { font-size: 2rem; }
+
+.stars-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #FFF3CD, #FFE082);
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 1.1rem;
+}
+
+/* ===== Trang chủ ===== */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.hero p {
+  font-size: 1.15rem;
+  color: var(--c-text-soft);
+  margin-bottom: 32px;
+}
+
+.grade-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.grade-card {
+  background: var(--c-card);
+  border-radius: var(--radius-lg);
+  padding: 32px 16px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+.grade-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--c-toan);
+}
+.grade-card .num {
+  font-size: 3.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--c-toan-dark), var(--c-ta-dark));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+}
+.grade-card .label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+/* ===== Chọn môn ===== */
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+.subject-card {
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  cursor: pointer;
+}
+.subject-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.subject-card.toan { background: linear-gradient(135deg, #D7F5E9, var(--c-toan)); }
+.subject-card.tv   { background: linear-gradient(135deg, #FFE6D5, var(--c-tv)); }
+.subject-card.ta   { background: linear-gradient(135deg, #E3D2FF, var(--c-ta)); }
+.subject-card .icon { font-size: 4rem; line-height: 1; }
+.subject-card .name { font-size: 1.4rem; font-weight: 800; margin-top: 12px; }
+.subject-card .count { font-size: 0.95rem; color: var(--c-text-soft); margin-top: 4px; }
+
+/* ===== Danh sách bài ===== */
+.topic-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+.topic-item {
+  background: var(--c-card);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.topic-item:hover { transform: translateX(4px); box-shadow: var(--shadow-md); }
+.topic-item .title { font-weight: 700; font-size: 1.1rem; }
+.topic-item .meta { color: var(--c-text-soft); font-size: 0.9rem; }
+.topic-item .badge {
+  background: var(--c-star);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* ===== Trang bài tập ===== */
+.exercise-header {
+  background: var(--c-card);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.progress-bar {
+  height: 12px;
+  background: #F0E5D8;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 12px;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--c-toan-dark), var(--c-ta-dark));
+  transition: width 0.35s ease;
+}
+
+.question-card {
+  background: var(--c-card);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 20px;
+}
+.question-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+/* Multiple choice */
+.options { display: grid; gap: 12px; }
+.option {
+  background: #FAFAFC;
+  border: 3px solid transparent;
+  border-radius: var(--radius-md);
+  padding: 16px 22px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.option .letter {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--c-toan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+}
+.option:hover:not(.selected):not(.disabled) {
+  background: #FFF;
+  border-color: var(--c-toan);
+  transform: translateX(4px);
+}
+.option.selected { border-color: var(--c-toan-dark); background: #E8F8F1; }
+.option.correct { border-color: var(--c-correct); background: #E8F5E9; }
+.option.wrong { border-color: var(--c-wrong); background: #FFEBEE; }
+.option.disabled { cursor: not-allowed; opacity: 0.7; }
+
+/* Fill blank */
+.fill-input {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 12px 20px;
+  border: 3px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: #FAFAFC;
+  text-align: center;
+  width: 160px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.fill-input:focus { border-color: var(--c-toan-dark); }
+.fill-input.correct { border-color: var(--c-correct); background: #E8F5E9; }
+.fill-input.wrong { border-color: var(--c-wrong); background: #FFEBEE; }
+.fill-question {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+/* Matching */
+.matching-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+.matching-col { display: grid; gap: 12px; }
+.match-item {
+  background: #FAFAFC;
+  border: 3px solid transparent;
+  border-radius: var(--radius-md);
+  padding: 14px 20px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+}
+.match-item:hover:not(.matched) { transform: scale(1.03); border-color: var(--c-toan); }
+.match-item.selected { border-color: var(--c-ta-dark); background: #E3D2FF; }
+.match-item.matched { opacity: 0.5; cursor: default; }
+.match-item.match-correct { border-color: var(--c-correct); background: #E8F5E9; }
+.match-item.match-wrong { border-color: var(--c-wrong); background: #FFEBEE; }
+
+/* Action buttons */
+.btn {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 999px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.btn:active { transform: translateY(0); }
+.btn-primary { background: var(--c-toan-dark); color: #fff; }
+.btn-secondary { background: #fff; color: var(--c-text); border: 2px solid var(--c-border); }
+.btn-success { background: var(--c-correct); color: #fff; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+.action-bar {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Feedback */
+.feedback {
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: slideUp 0.3s ease;
+}
+.feedback.correct { background: #E8F5E9; color: #2E7D32; }
+.feedback.wrong { background: #FFEBEE; color: #C62828; }
+.feedback .emoji { font-size: 1.8rem; }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Kết quả */
+.result-card {
+  background: var(--c-card);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+.result-emoji { font-size: 5rem; line-height: 1; margin-bottom: 10px; }
+.result-title { font-size: 2rem; font-weight: 800; margin-bottom: 10px; }
+.result-score { font-size: 3rem; font-weight: 900; color: var(--c-toan-dark); margin: 16px 0; }
+.result-stars { font-size: 2.5rem; margin: 16px 0; letter-spacing: 6px; }
+
+/* Breadcrumb / back */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  color: var(--c-text-soft);
+  font-size: 0.95rem;
+}
+.breadcrumb a { font-weight: 600; }
+.breadcrumb a:hover { color: var(--c-toan-dark); }
+
+.back-btn {
+  background: var(--c-card);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+}
+.back-btn:hover { transform: translateX(-3px); }
+
+/* Empty state */
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--c-text-soft);
+}
+.empty .emoji { font-size: 4rem; }
+.empty .msg { font-size: 1.2rem; margin-top: 12px; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  html, body { font-size: 16px; }
+  .container { padding: 16px 14px; }
+  .hero h1 { font-size: 1.8rem; }
+  .question-card { padding: 22px 18px; }
+  .question-text { font-size: 1.25rem; }
+  .matching-area { gap: 12px; }
+  .match-item { font-size: 1.05rem; padding: 12px 14px; }
+  .fill-question { font-size: 1.5rem; }
+}
+
+/* Confetti */
+.confetti {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+  z-index: 1000;
+  animation: fall 2s linear forwards;
+}
+@keyframes fall {
+  to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+
+/* Print mode (cho phụ huynh in đề) */
+@media print {
+  .header, .back-btn, .action-bar, .feedback { display: none; }
+  .question-card { box-shadow: none; border: 1px solid #ddd; page-break-inside: avoid; }
+}

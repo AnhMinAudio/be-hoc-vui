@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-05-28T02:41:37.358Z",
+  "exercises": [
+    {
+      "id": "ta-l1-colors-and-numbers",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Colors & Numbers (Màu sắc và số đếm)",
+      "difficulty": 1,
+      "questionCount": 8,
+      "path": "tieng-anh/lop1/colors-and-numbers.json"
+    },
+    {
+      "id": "tv-l1-chu-cai-va-am",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Chữ cái và âm",
+      "difficulty": 1,
+      "questionCount": 8,
+      "path": "tieng-viet/lop1/chu-cai-va-am.json"
+    },
+    {
+      "id": "toan-l1-phep-cong-trong-10",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Phép cộng trong phạm vi 10",
+      "difficulty": 1,
+      "questionCount": 8,
+      "path": "toan/lop1/phep-cong-trong-10.json"
+    }
+  ]
+}

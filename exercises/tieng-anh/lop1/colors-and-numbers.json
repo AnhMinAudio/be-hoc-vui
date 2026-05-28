@@ -1,0 +1,66 @@
+{
+  "id": "ta-l1-colors-and-numbers",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Colors & Numbers (Màu sắc và số đếm)",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "matching",
+      "question": "Nối từ tiếng Anh với nghĩa tiếng Việt",
+      "pairs": [
+        ["red", "đỏ"],
+        ["blue", "xanh dương"],
+        ["yellow", "vàng"],
+        ["green", "xanh lá"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'one' có nghĩa là gì?",
+      "options": ["một", "hai", "ba", "bốn"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 5 trong tiếng Anh là gì?",
+      "options": ["four", "five", "six", "seven"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết số 3 bằng tiếng Anh: ___",
+      "answer": "three",
+      "alternatives": ["Three", "THREE"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với từ tiếng Anh",
+      "pairs": [
+        ["1", "one"],
+        ["2", "two"],
+        ["3", "three"],
+        ["4", "four"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Màu của quả chuối là gì? (tiếng Anh)",
+      "options": ["red", "blue", "yellow", "green"],
+      "answer": 2,
+      "hint": "Banana is..."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Cỏ có màu gì? (tiếng Anh): ___",
+      "answer": "green",
+      "alternatives": ["Green", "GREEN"]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many fingers do you have on one hand? (Một bàn tay có mấy ngón?)",
+      "options": ["three", "four", "five", "ten"],
+      "answer": 2
+    }
+  ]
+}

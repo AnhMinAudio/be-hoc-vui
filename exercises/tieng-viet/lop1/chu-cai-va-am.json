@@ -1,0 +1,65 @@
+{
+  "id": "tv-l1-chu-cai-va-am",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Chữ cái và âm",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào đứng sau chữ 'a' trong bảng chữ cái?",
+      "options": ["c", "ă", "b", "đ"],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'mẹ' bắt đầu bằng âm nào?",
+      "options": ["b", "m", "n", "l"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: ___à nội (người sinh ra bố)",
+      "answer": "b",
+      "hint": "Bà nội — ai sinh ra bố của bé?"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm còn thiếu: con ___èo (con vật kêu meo meo)",
+      "answer": "m"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với hình ảnh (mô tả)",
+      "pairs": [
+        ["cá", "bơi dưới nước"],
+        ["chim", "bay trên trời"],
+        ["bò", "ăn cỏ trên đồng"],
+        ["mèo", "kêu meo meo"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có dấu sắc?",
+      "options": ["bà", "má", "mả", "mà"],
+      "answer": 1,
+      "hint": "Dấu sắc là dấu nghiêng lên phía trên"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết chữ cái đứng trước chữ 'd'",
+      "answer": "đ",
+      "alternatives": ["Đ"]
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với dấu thanh tương ứng",
+      "pairs": [
+        ["mẹ", "dấu nặng"],
+        ["má", "dấu sắc"],
+        ["mả", "dấu hỏi"],
+        ["mã", "dấu ngã"]
+      ]
+    }
+  ]
+}

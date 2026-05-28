@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Preview - Duyệt đề bài</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .preview-bar {
+      background: #FFF3CD;
+      padding: 14px 22px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .preview-bar select {
+      font-family: inherit; font-size: 1rem; padding: 8px 14px;
+      border-radius: 999px; border: 2px solid #FFD3B6;
+      background: #fff; font-weight: 600; min-width: 220px;
+    }
+    .preview-bar .label { font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><span class="logo-icon">🔍</span><span>Preview - Duyệt đề</span></div>
+      <a href="../index.html" class="back-btn" style="margin:0">Xem trang web →</a>
+    </header>
+
+    <div class="preview-bar">
+      <span class="label">Chọn đề:</span>
+      <select id="select"><option>Đang tải...</option></select>
+      <button class="btn btn-secondary" id="reload" style="padding:8px 18px;font-size:0.95rem">↻ Tải lại danh sách</button>
+      <span style="color:#6B6B8C;font-size:0.9rem">💡 Sau khi sinh đề mới, chạy <code>node tools/build-index.js</code> rồi bấm Tải lại</span>
+    </div>
+
+    <main id="view"></main>
+  </div>
+
+  <script src="../assets/js/progress.js"></script>
+  <script src="../assets/js/exercises/multiple-choice.js"></script>
+  <script src="../assets/js/exercises/fill-blank.js"></script>
+  <script src="../assets/js/exercises/matching.js"></script>
+  <script>
+    const SUBJECTS = {
+      toan: { name: 'Toán', icon: '🔢' },
+      'tieng-viet': { name: 'Tiếng Việt', icon: '📖' },
+      'tieng-anh': { name: 'Tiếng Anh', icon: '🌍' },
+    };
+    let catalog = null;
+    const select = document.getElementById('select');
+    const view = document.getElementById('view');
+
+    async function loadCatalog() {
+      const res = await fetch('../exercises/index.json?_=' + Date.now());
+      catalog = await res.json();
+      select.innerHTML = '<option value="">— Chọn đề để xem —</option>' +
+        catalog.exercises.map(e =>
+          `<option value="${e.id}">${SUBJECTS[e.subject].icon} L${e.grade} · ${SUBJECTS[e.subject].name} · ${e.topic} (${e.questionCount} câu)</option>`
+        ).join('');
+    }
+
+    async function showExercise(id) {
+      if (!id) { view.innerHTML = ''; return; }
+      const meta = catalog.exercises.find(e => e.id === id);
+      const res = await fetch('../exercises/' + meta.path + '?_=' + Date.now());
+      const ex = await res.json();
+      view.innerHTML = `
+        <div class="exercise-header">
+          <div style="font-weight:800;font-size:1.3rem">${SUBJECTS[ex.subject].icon} ${ex.topic}</div>
+          <div style="color:#6B6B8C">Lớp ${ex.grade} · ${SUBJECTS[ex.subject].name} · ${ex.questions.length} câu · ID: <code>${ex.id}</code></div>
+        </div>
+      `;
+      ex.questions.forEach((q, i) => {
+        let card;
+        const noop = () => {};
+        if (q.type === 'multiple-choice') card = MultipleChoice.render(q, i, noop);
+        else if (q.type === 'fill-blank') card = FillBlank.render(q, i, noop);
+        else if (q.type === 'matching') card = Matching.render(q, i, noop);
+        view.appendChild(card);
+      });
+    }
+
+    select.addEventListener('change', e => showExercise(e.target.value));
+    document.getElementById('reload').onclick = loadCatalog;
+    loadCatalog();
+  </script>
+</body>
+</html>
