@@ -28,9 +28,9 @@
       { "text": "Hàm số $y = 2x + 1$ không âm trên đoạn $[0; 2]$.", "answer": true },
       { "text": "$I = 4$.", "answer": false }
     ] },
-    { "type": "fill-blank", "level": "TH", "question": "Cho hàm số $y = x^3 - 3x^2 + 1$. Số điểm cực trị của hàm số là ___", "answer": "2" },
+    { "type": "fill-blank", "level": "TH", "question": "Cho hàm số $y = x^4 - 2x^2 + 3$. Số điểm cực trị của hàm số là ___", "answer": "3" },
     { "type": "fill-blank", "level": "VD", "question": "Giá trị lớn nhất của hàm số $y = -x^2 + 4x + 1$ là ___", "answer": "5", "hint": "$y = -(x-2)^2 + 5$" },
-    { "type": "fill-blank", "level": "VD", "question": "Tính $\\displaystyle\\int_0^1 (2x + 3)\\,dx = $ ___", "answer": "4" },
+    { "type": "fill-blank", "level": "VD", "question": "Tính $\\displaystyle\\int_0^1 (4x + 1)\\,dx = $ ___", "answer": "3" },
     { "type": "fill-blank", "level": "VD", "question": "Trong không gian $Oxyz$, cho $A(1; 0; 0)$ và $B(3; 2; 2)$. Hoành độ trung điểm của đoạn thẳng $AB$ bằng ___", "answer": "2" },
     { "type": "fill-blank", "level": "VDC", "question": "Gieo hai đồng xu cân đối. Xác suất cả hai đồng xu đều xuất hiện mặt ngửa là $\\dfrac{1}{a}$. Giá trị của $a$ là ___", "answer": "4" },
     { "type": "fill-blank", "level": "VDC", "question": "Một vật chuyển động có phương trình quãng đường $s(t) = t^3 - 3t^2 + 2$ (m). Vận tốc của vật tại thời điểm $t = 3$ giây là ___ (m/s)", "answer": "9", "hint": "Vận tốc $v(t) = s'(t)$" }

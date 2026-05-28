@@ -1,0 +1,37 @@
+{
+  "id": "thpt-toan-l12-c6-xac-suat-co-dieu-kien",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 12,
+  "topic": "Chương 6: Xác suất có điều kiện",
+  "difficulty": 3,
+  "outcomes": ["T12-XS-1", "T12-XS-2"],
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "Với $P(B) > 0$, xác suất của $A$ với điều kiện $B$ được tính theo công thức:", "options": ["$P(A \\mid B) = \\dfrac{P(A \\cap B)}{P(B)}$", "$P(A \\mid B) = \\dfrac{P(B)}{P(A \\cap B)}$", "$P(A \\mid B) = P(A) \\cdot P(B)$", "$P(A \\mid B) = \\dfrac{P(A \\cap B)}{P(A)}$"], "answer": 0, "hint": "Theo định nghĩa xác suất có điều kiện." },
+    { "type": "multiple-choice", "level": "NB", "question": "Công thức nhân xác suất viết đúng là:", "options": ["$P(A \\cap B) = P(B) \\cdot P(A \\mid B)$", "$P(A \\cap B) = P(A) + P(B)$", "$P(A \\cap B) = \\dfrac{P(A)}{P(B)}$", "$P(A \\cap B) = P(A \\mid B) - P(B)$"], "answer": 0, "hint": "Suy ra từ định nghĩa $P(A \\mid B) = \\dfrac{P(A \\cap B)}{P(B)}$." },
+    { "type": "multiple-choice", "level": "NB", "question": "Cho $P(B) = 0,5$ và $P(A \\cap B) = 0,2$. Khi đó $P(A \\mid B)$ bằng:", "options": ["$0,4$", "$0,1$", "$2,5$", "$0,7$"], "answer": 0, "hint": "$P(A \\mid B) = \\dfrac{0,2}{0,5} = 0,4$." },
+    { "type": "multiple-choice", "level": "NB", "question": "Cho $P(A) = 0,6$ và $P(B \\mid A) = 0,5$. Khi đó $P(A \\cap B)$ bằng:", "options": ["$0,3$", "$1,1$", "$0,1$", "$1,2$"], "answer": 0, "hint": "$P(A \\cap B) = P(A) \\cdot P(B \\mid A) = 0,6 \\cdot 0,5 = 0,3$." },
+    { "type": "multiple-choice", "level": "NB", "question": "Hai biến cố $A$ và $B$ độc lập khi và chỉ khi (với $P(B) > 0$):", "options": ["$P(A \\mid B) = P(A)$", "$P(A \\mid B) = P(B)$", "$P(A \\cap B) = 0$", "$P(A \\mid B) = 1$"], "answer": 0, "hint": "Khi độc lập, việc $B$ xảy ra không làm thay đổi xác suất của $A$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Một hộp có $5$ bi đỏ và $3$ bi xanh. Lấy lần lượt $2$ bi không hoàn lại. Biết bi thứ nhất là bi đỏ, xác suất bi thứ hai cũng là bi đỏ bằng:", "options": ["$\\dfrac{4}{7}$", "$\\dfrac{5}{8}$", "$\\dfrac{5}{7}$", "$\\dfrac{1}{2}$"], "answer": 0, "hint": "Sau khi lấy $1$ bi đỏ còn $4$ đỏ trên tổng $7$ bi: $\\dfrac{4}{7}$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Rút lần lượt $2$ lá từ bộ bài $52$ lá (không hoàn lại). Biết lá thứ nhất là Át, xác suất lá thứ hai cũng là Át bằng:", "options": ["$\\dfrac{1}{17}$", "$\\dfrac{1}{13}$", "$\\dfrac{3}{52}$", "$\\dfrac{4}{51}$"], "answer": 0, "hint": "Còn $3$ Át trên $51$ lá: $\\dfrac{3}{51} = \\dfrac{1}{17}$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Gieo hai con xúc xắc cân đối. Biết tổng số chấm bằng $7$, xác suất để con thứ nhất xuất hiện mặt chẵn bằng:", "options": ["$\\dfrac{1}{2}$", "$\\dfrac{1}{3}$", "$\\dfrac{2}{3}$", "$\\dfrac{1}{6}$"], "answer": 0, "hint": "Tổng $7$ có $6$ trường hợp; con thứ nhất chẵn ở $(2,5),(4,3),(6,1)$ là $3$ trường hợp: $\\dfrac{3}{6} = \\dfrac{1}{2}$." },
+    { "type": "multiple-choice", "level": "VD", "question": "Có hai túi. Túi I chứa $3$ bi đỏ, $2$ bi trắng; túi II chứa $1$ bi đỏ, $4$ bi trắng. Chọn ngẫu nhiên một túi (mỗi túi khả năng $\\dfrac{1}{2}$) rồi lấy một bi. Xác suất lấy được bi đỏ là:", "options": ["$\\dfrac{2}{5}$", "$\\dfrac{3}{5}$", "$\\dfrac{1}{5}$", "$\\dfrac{4}{5}$"], "answer": 0, "hint": "Toàn phần: $\\dfrac{1}{2}\\cdot\\dfrac{3}{5} + \\dfrac{1}{2}\\cdot\\dfrac{1}{5} = \\dfrac{4}{10} = \\dfrac{2}{5}$." },
+    { "type": "multiple-choice", "level": "VD", "question": "Một nhà máy có hai máy. Máy I làm $60\\%$ sản phẩm với tỉ lệ hỏng $2\\%$; máy II làm $40\\%$ sản phẩm với tỉ lệ hỏng $5\\%$. Lấy ngẫu nhiên một sản phẩm. Xác suất sản phẩm đó bị hỏng là:", "options": ["$0,032$", "$0,07$", "$0,035$", "$0,02$"], "answer": 0, "hint": "Toàn phần: $0,6\\cdot0,02 + 0,4\\cdot0,05 = 0,012 + 0,02 = 0,032$." },
+    { "type": "multiple-choice", "level": "VDC", "question": "Với nhà máy ở trên (máy I: $60\\%$, hỏng $2\\%$; máy II: $40\\%$, hỏng $5\\%$). Một sản phẩm lấy ra bị hỏng. Xác suất sản phẩm đó do máy I sản xuất (theo công thức Bayes) bằng:", "options": ["$0,375$", "$0,6$", "$0,625$", "$0,4$"], "answer": 0, "hint": "Bayes: $\\dfrac{0,6\\cdot0,02}{0,032} = \\dfrac{0,012}{0,032} = 0,375$." },
+    { "type": "true-false-group", "level": "VD", "question": "Một lớp có hai nhóm chọn ngẫu nhiên đều nhau. Túi I gồm $3$ bi đỏ và $2$ bi trắng; túi II gồm $1$ bi đỏ và $4$ bi trắng. Chọn ngẫu nhiên một túi rồi lấy một bi. Gọi $D$ là biến cố lấy được bi đỏ. Xét tính đúng/sai:", "statements": [
+      { "text": "$P(\\text{bi đỏ} \\mid \\text{túi I}) = \\dfrac{3}{5}$.", "answer": true },
+      { "text": "Xác suất lấy được bi đỏ là $P(D) = \\dfrac{2}{5}$.", "answer": true },
+      { "text": "Biết lấy được bi đỏ, xác suất bi đó từ túi I là $\\dfrac{3}{4}$.", "answer": true },
+      { "text": "Biết lấy được bi đỏ, xác suất bi đó từ túi II là $\\dfrac{1}{2}$.", "answer": false }
+    ] },
+    { "type": "true-false-group", "level": "VDC", "question": "Để phát hiện một bệnh, biết tỉ lệ mắc bệnh trong dân số là $P(D) = 0,01$. Xét nghiệm cho kết quả dương tính với xác suất $P(+ \\mid D) = 0,9$ nếu có bệnh và $P(+ \\mid \\overline{D}) = 0,05$ nếu không bệnh. Xét tính đúng/sai:", "statements": [
+      { "text": "$P(+ \\cap D) = 0,01 \\cdot 0,9 = 0,009$.", "answer": true },
+      { "text": "Xác suất một người có kết quả dương tính là $P(+) = 0,0585$.", "answer": true },
+      { "text": "Theo Bayes, $P(D \\mid +) = \\dfrac{0,009}{0,0585} = \\dfrac{2}{13}$.", "answer": true },
+      { "text": "Xác suất một người dương tính mà thực sự có bệnh lớn hơn $0,5$.", "answer": false }
+    ] },
+    { "type": "fill-blank", "level": "TH", "question": "Cho bảng số liệu trên $100$ người: số người vừa thuộc $A$ vừa thuộc $B$ là $20$, số người thuộc $B$ là $50$. Khi đó $P(A \\mid B)$ (viết dạng số thập phân) là ___", "answer": "0,4", "hint": "$P(A \\mid B) = \\dfrac{20}{50} = 0,4$." },
+    { "type": "fill-blank", "level": "VD", "question": "Cho $P(A) = 0,3$, $P(B) = 0,4$ và $A,\\ B$ độc lập. Khi đó $P(A \\cap B)$ (viết dạng số thập phân) là ___", "answer": "0,12", "hint": "Hai biến cố độc lập: $P(A \\cap B) = P(A)\\cdot P(B) = 0,3 \\cdot 0,4$." },
+    { "type": "fill-blank", "level": "VD", "question": "Một gia đình có hai con (khả năng sinh trai/gái như nhau). Biết gia đình có ít nhất một con trai, xác suất cả hai con đều là trai là $\\dfrac{1}{a}$. Giá trị của $a$ là ___", "answer": "3", "hint": "Không gian rút gọn $\\{BT, TB, TT\\}$, chỉ $TT$ thoả mãn: $\\dfrac{1}{3}$." }
+  ]
+}

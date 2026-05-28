@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:28:36.328Z",
+  "generatedAt": "2026-05-28T08:52:36.472Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -733,6 +733,104 @@
       ],
       "timeLimit": 45,
       "path": "thcs/lop9/de-thi-thu-1.json"
+    },
+    {
+      "id": "thpt-toan-l12-c1-ung-dung-dao-ham",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Chương 1: Ứng dụng đạo hàm để khảo sát hàm số",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "T12-DH-1",
+        "T12-DH-2",
+        "T12-DH-3",
+        "T12-DH-4",
+        "T12-DH-5",
+        "T12-DH-6"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/c1-ung-dung-dao-ham.json"
+    },
+    {
+      "id": "thpt-toan-l12-c2-vecto-toa-do",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Chương 2: Vectơ và hệ trục tọa độ trong không gian",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "T12-KG-1",
+        "T12-KG-2",
+        "T12-KG-3"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/c2-vecto-toa-do.json"
+    },
+    {
+      "id": "thpt-toan-l12-c3-thong-ke",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Chương 3: Các số đặc trưng đo mức độ phân tán (mẫu ghép nhóm)",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "T12-TK-1",
+        "T12-TK-2"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/c3-thong-ke.json"
+    },
+    {
+      "id": "thpt-toan-l12-c4-nguyen-ham-tich-phan",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Chương 4: Nguyên hàm và tích phân",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "T12-TP-1",
+        "T12-TP-2",
+        "T12-TP-3"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/c4-nguyen-ham-tich-phan.json"
+    },
+    {
+      "id": "thpt-toan-l12-c5-phuong-trinh-khong-gian",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Chương 5: Phương pháp tọa độ trong không gian",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "T12-PT-1",
+        "T12-PT-2",
+        "T12-PT-3",
+        "T12-PT-4"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/c5-phuong-trinh-khong-gian.json"
+    },
+    {
+      "id": "thpt-toan-l12-c6-xac-suat-co-dieu-kien",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Chương 6: Xác suất có điều kiện",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "T12-XS-1",
+        "T12-XS-2"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/c6-xac-suat-co-dieu-kien.json"
     },
     {
       "id": "thpt-toan-l12-de-thi-thu-tot-nghiep-1",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:28:36.328Z",
+  "generatedAt": "2026-05-28T08:52:36.472Z",
   "coverage": {
     "toan": {
       "1": {
@@ -603,9 +603,45 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 7,
+        "totalQuestions": 117,
         "topics": [
+          {
+            "id": "thpt-toan-l12-c1-ung-dung-dao-ham",
+            "topic": "Chương 1: Ứng dụng đạo hàm để khảo sát hàm số",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l12-c2-vecto-toa-do",
+            "topic": "Chương 2: Vectơ và hệ trục tọa độ trong không gian",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l12-c3-thong-ke",
+            "topic": "Chương 3: Các số đặc trưng đo mức độ phân tán (mẫu ghép nhóm)",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l12-c4-nguyen-ham-tich-phan",
+            "topic": "Chương 4: Nguyên hàm và tích phân",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l12-c5-phuong-trinh-khong-gian",
+            "topic": "Chương 5: Phương pháp tọa độ trong không gian",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l12-c6-xac-suat-co-dieu-kien",
+            "topic": "Chương 6: Xác suất có điều kiện",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thpt-toan-l12-de-thi-thu-tot-nghiep-1",
             "topic": "Đề thi thử tốt nghiệp THPT - Toán (cấu trúc 2025)",

@@ -1,0 +1,38 @@
+{
+  "id": "thpt-toan-l12-c2-vecto-toa-do",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 12,
+  "topic": "Chương 2: Vectơ và hệ trục tọa độ trong không gian",
+  "difficulty": 3,
+  "outcomes": ["T12-KG-1", "T12-KG-2", "T12-KG-3"],
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, cho vectơ $\\vec{a} = (2; -3; 1)$. Tọa độ của vectơ $-\\vec{a}$ là:", "options": ["$(-2; 3; -1)$", "$(2; 3; 1)$", "$(-2; -3; -1)$", "$(2; -3; -1)$"], "answer": 0, "hint": "Đổi dấu từng tọa độ" },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, vectơ đơn vị $\\vec{j}$ trên trục $Oy$ có tọa độ là:", "options": ["$(0; 1; 0)$", "$(1; 0; 0)$", "$(0; 0; 1)$", "$(1; 1; 1)$"], "answer": 0, "hint": "$\\vec{j}$ là vectơ đơn vị theo phương trục $Oy$" },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, cho điểm $M(3; -2; 5)$. Hình chiếu vuông góc của $M$ lên mặt phẳng $(Oxy)$ có tọa độ là:", "options": ["$(3; -2; 0)$", "$(3; 0; 5)$", "$(0; -2; 5)$", "$(0; 0; 5)$"], "answer": 0, "hint": "Hình chiếu lên $(Oxy)$ giữ nguyên $x, y$ và cho $z = 0$" },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (1; 2; -2)$. Độ dài $|\\vec{a}|$ bằng:", "options": ["$3$", "$\\sqrt{5}$", "$9$", "$\\sqrt{7}$"], "answer": 0, "hint": "$|\\vec{a}| = \\sqrt{1^2 + 2^2 + (-2)^2}$" },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong không gian $Oxyz$, cho hai điểm $A(2; 1; 3)$ và $B(5; 4; 7)$. Tọa độ của vectơ $\\overrightarrow{AB}$ là:", "options": ["$(3; 3; 4)$", "$(7; 5; 10)$", "$(-3; -3; -4)$", "$(3; 3; -4)$"], "answer": 0, "hint": "$\\overrightarrow{AB} = (x_B - x_A; y_B - y_A; z_B - z_A)$" },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (1; -2; 3)$ và $\\vec{b} = (2; 1; -1)$. Tọa độ của $\\vec{a} + \\vec{b}$ là:", "options": ["$(3; -1; 2)$", "$(-1; -3; 4)$", "$(3; 1; 2)$", "$(2; -2; -3)$"], "answer": 0, "hint": "Cộng từng thành phần tương ứng" },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (3; 0; 4)$ và $\\vec{b} = (1; 2; -2)$. Tích vô hướng $\\vec{a} \\cdot \\vec{b}$ bằng:", "options": ["$-5$", "$5$", "$11$", "$0$"], "answer": 0, "hint": "$\\vec{a} \\cdot \\vec{b} = 3 \\cdot 1 + 0 \\cdot 2 + 4 \\cdot (-2)$" },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (2; -1; 2)$ và $\\vec{b} = (1; 0; -2)$. Tọa độ của $\\vec{a} - 2\\vec{b}$ là:", "options": ["$(0; -1; 6)$", "$(0; -1; -2)$", "$(4; -1; -2)$", "$(0; 1; 6)$"], "answer": 0, "hint": "$2\\vec{b} = (2; 0; -4)$ rồi trừ từng thành phần" },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong không gian $Oxyz$, cho hai điểm $A(1; 2; 3)$ và $B(3; 6; 5)$. Tọa độ trung điểm $M$ của đoạn thẳng $AB$ là:", "options": ["$(2; 4; 4)$", "$(4; 8; 8)$", "$(1; 2; 1)$", "$(2; 4; 8)$"], "answer": 0, "hint": "$M = \\left(\\dfrac{x_A + x_B}{2}; \\dfrac{y_A + y_B}{2}; \\dfrac{z_A + z_B}{2}\\right)$" },
+    { "type": "multiple-choice", "level": "VD", "question": "Trong không gian $Oxyz$, cho tam giác $ABC$ với $A(1; 0; 2)$, $B(3; 2; -1)$, $C(-1; 4; 2)$. Tọa độ trọng tâm $G$ của tam giác là:", "options": ["$(1; 2; 1)$", "$(3; 6; 3)$", "$(1; 2; 3)$", "$(-1; 2; 1)$"], "answer": 0, "hint": "$G = \\left(\\dfrac{x_A + x_B + x_C}{3}; \\dfrac{y_A + y_B + y_C}{3}; \\dfrac{z_A + z_B + z_C}{3}\\right)$" },
+    { "type": "multiple-choice", "level": "VD", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (1; 1; 0)$ và $\\vec{b} = (1; 0; 1)$. Cosin của góc giữa hai vectơ $\\vec{a}$ và $\\vec{b}$ bằng:", "options": ["$\\dfrac{1}{2}$", "$\\dfrac{1}{\\sqrt{2}}$", "$0$", "$-\\dfrac{1}{2}$"], "answer": 0, "hint": "$\\cos(\\vec{a}, \\vec{b}) = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|}$, với $\\vec{a}\\cdot\\vec{b}=1$, $|\\vec{a}|=|\\vec{b}|=\\sqrt{2}$" },
+    { "type": "true-false", "level": "TH", "question": "Trong không gian $Oxyz$, hai vectơ $\\vec{a} = (1; -2; 1)$ và $\\vec{b} = (2; 1; 0)$ vuông góc với nhau.", "answer": true },
+    { "type": "true-false-group", "level": "VD", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (2; -1; 2)$ và $\\vec{b} = (1; 2; 2)$. Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "$|\\vec{a}| = 3$.", "answer": true },
+      { "text": "$\\vec{a} \\cdot \\vec{b} = 4$.", "answer": true },
+      { "text": "$|\\vec{b}| = 3$.", "answer": true },
+      { "text": "Hai vectơ $\\vec{a}$ và $\\vec{b}$ vuông góc với nhau.", "answer": false }
+    ] },
+    { "type": "true-false-group", "level": "VDC", "question": "Trong không gian $Oxyz$, cho ba điểm $A(1; 1; 1)$, $B(2; 3; 4)$, $C(3; 5; 7)$. Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "$\\overrightarrow{AB} = (1; 2; 3)$.", "answer": true },
+      { "text": "$\\overrightarrow{AC} = (2; 4; 6)$.", "answer": true },
+      { "text": "Ba điểm $A$, $B$, $C$ thẳng hàng.", "answer": true },
+      { "text": "$\\overrightarrow{AC} = 3\\,\\overrightarrow{AB}$.", "answer": false }
+    ] },
+    { "type": "fill-blank", "level": "TH", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (3; -4; 0)$. Độ dài $|\\vec{a}|$ bằng ___", "answer": "5" },
+    { "type": "fill-blank", "level": "VD", "question": "Trong không gian $Oxyz$, cho hai điểm $A(1; 2; -1)$ và $B(4; 6; 11)$. Độ dài đoạn thẳng $AB$ bằng ___", "answer": "13", "hint": "$AB = \\sqrt{3^2 + 4^2 + 12^2}$" },
+    { "type": "fill-blank", "level": "VDC", "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (m; 2; -1)$ và $\\vec{b} = (3; -1; 2)$. Tìm $m$ để $\\vec{a} \\perp \\vec{b}$. Giá trị $m = $ ___", "answer": "4", "hint": "$\\vec{a} \\cdot \\vec{b} = 3m - 2 - 2 = 0$" }
+  ]
+}
