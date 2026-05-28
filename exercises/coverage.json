@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T09:01:36.248Z",
+  "generatedAt": "2026-05-28T09:08:22.221Z",
   "coverage": {
     "toan": {
       "1": {
@@ -663,9 +663,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 18,
+        "topics": [
+          {
+            "id": "thpt-ngu-van-l12-on-tap",
+            "topic": "Ôn tập Ngữ văn 12: Đọc hiểu và Thực hành tiếng Việt",
+            "questionCount": 18,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "tieng-anh": {
@@ -680,9 +687,16 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 1,
+        "totalQuestions": 19,
+        "topics": [
+          {
+            "id": "thpt-tieng-anh-l12-on-tap",
+            "topic": "Ôn tập Tiếng Anh 12: Ngữ pháp, từ vựng và đọc hiểu",
+            "questionCount": 19,
+            "difficulty": 3
+          }
+        ]
       }
     },
     "vat-li": {

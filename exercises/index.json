@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T09:01:36.248Z",
+  "generatedAt": "2026-05-28T09:08:22.221Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -265,6 +265,23 @@
       "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
     },
     {
+      "id": "thpt-ngu-van-l12-on-tap",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 12,
+      "topic": "Ôn tập Ngữ văn 12: Đọc hiểu và Thực hành tiếng Việt",
+      "difficulty": 3,
+      "questionCount": 18,
+      "outcomes": [
+        "Đọc hiểu văn bản",
+        "Biện pháp tu từ",
+        "Thực hành tiếng Việt",
+        "Nghị luận"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/ngu-van.json"
+    },
+    {
       "id": "thpt-sinh-hoc-l12-on-tap",
       "stage": "thpt",
       "subject": "sinh-hoc",
@@ -389,6 +406,23 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop9/tieng-anh-relative-clauses.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l12-on-tap",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 12,
+      "topic": "Ôn tập Tiếng Anh 12: Ngữ pháp, từ vựng và đọc hiểu",
+      "difficulty": 3,
+      "questionCount": 19,
+      "outcomes": [
+        "Grammar (tenses, passive, reported speech, conditionals)",
+        "Relative clauses",
+        "Vocabulary",
+        "Reading comprehension"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/tieng-anh.json"
     },
     {
       "id": "tv-l1-chu-cai-va-am",
