@@ -853,6 +853,52 @@ a:focus-visible, button:focus-visible, input:focus-visible,
   to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
 }
 
+/* ===== Tài khoản ===== */
+.account-area { display: flex; align-items: center; }
+.acct-login {
+  font-weight: 700; font-size: 0.9rem; color: #fff; background: var(--c-ta-dark);
+  padding: 6px 14px; border-radius: 999px; white-space: nowrap;
+}
+.acct-chip {
+  display: flex; flex-direction: column; line-height: 1.1; text-align: right;
+  background: #fff; border: 2px solid var(--c-border, #e6e6ef); border-radius: 12px; padding: 4px 10px;
+}
+.acct-chip .acct-name { font-weight: 800; font-size: 0.86rem; color: var(--c-text, #333); max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.acct-chip .acct-grade { font-size: 0.72rem; color: var(--c-text-soft); font-weight: 700; }
+.hero-greet { font-weight: 800; color: var(--c-ta-dark); margin-bottom: 8px; }
+.acct-notice { background: #FFF3E0; color: #B45309; border-radius: var(--radius-md); padding: 12px 16px; font-weight: 600; margin-bottom: 14px; }
+.acct-notice a { color: #B45309; text-decoration: underline; font-weight: 800; }
+
+/* Trang đăng nhập/đăng ký */
+.auth-wrap { display: flex; justify-content: center; padding: 10px 0 30px; }
+.auth-card { background: #fff; border-radius: var(--radius-lg, 18px); box-shadow: var(--shadow-sm); padding: 22px; max-width: 440px; width: 100%; }
+.auth-card h1 { font-size: 1.5rem; text-align: center; }
+.auth-sub { text-align: center; color: var(--c-text-soft); margin-bottom: 8px; }
+.auth-tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.auth-tab {
+  flex: 1; font: inherit; font-weight: 800; cursor: pointer; padding: 10px;
+  border: none; border-bottom: 3px solid transparent; background: transparent; color: var(--c-text-soft);
+}
+.auth-tab.active { color: var(--c-ta-dark); border-bottom-color: var(--c-ta-dark); }
+.auth-form { display: flex; flex-direction: column; gap: 14px; }
+.auth-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 0.92rem; }
+.auth-form label small { font-weight: 600; color: var(--c-text-soft); }
+.auth-form input, .auth-form select {
+  font: inherit; padding: 11px 12px; border: 2px solid var(--c-border, #e0e0e0); border-radius: 12px; background: #fff;
+}
+.auth-form input:focus, .auth-form select:focus { outline: none; border-color: var(--c-ta-dark); }
+.auth-submit { width: 100%; margin-top: 4px; }
+.auth-msg { min-height: 1.1em; font-size: 0.9rem; font-weight: 600; color: var(--c-text-soft); }
+.auth-msg.error { color: #EF5350; }
+
+/* Đề hôm nay: mục ôn lớp dưới + lời mời đăng nhập */
+.daily-sub { margin: 18px 0 10px; font-size: 1rem; font-weight: 800; }
+.daily-sub small { font-weight: 600; color: var(--c-text-soft); }
+.daily-card.review { opacity: 0.92; }
+.daily-card.review .dc-status { color: var(--c-text-soft); font-weight: 700; }
+.daily-login-hint { background: #E8F5E9; color: #2E7D32; border-radius: var(--radius-md); padding: 10px 14px; font-weight: 600; margin-bottom: 12px; }
+.daily-login-hint a { color: #1B5E20; text-decoration: underline; font-weight: 800; }
+
 /* Print mode (cho phụ huynh in đề) */
 @media print {
   .header, .back-btn, .action-bar, .feedback { display: none; }

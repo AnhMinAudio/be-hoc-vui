@@ -1,13 +1,18 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "be-hoc-vui",
+  "main": "worker.js",
   "compatibility_date": "2026-05-28",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "binding": "ASSETS"
   },
+  "kv_namespaces": [
+    { "binding": "PROGRESS", "id": "6eec473082a14155a235abf1f1eafbf3" }
+  ],
   "compatibility_flags": [
     "nodejs_compat"
   ]

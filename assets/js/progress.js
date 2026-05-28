@@ -1,10 +1,16 @@
 // Quản lý tiến độ học sinh — lưu vào localStorage
 const Progress = (() => {
-  const KEY = 'be-hoc-vui-progress-v1';
+  const BASE_KEY = 'be-hoc-vui-progress-v1';
+  // Khi đăng nhập, tiến trình lưu vào kho riêng theo tài khoản (BASE_KEY::<user>);
+  // khi chưa đăng nhập dùng kho ẩn danh (BASE_KEY).
+  let activeKey = BASE_KEY;
+  let afterSave = null;
+  function setActiveKey(suffix) { activeKey = suffix ? `${BASE_KEY}::${suffix}` : BASE_KEY; }
+  function onSave(cb) { afterSave = cb; }
 
   function load() {
     try {
-      const d = JSON.parse(localStorage.getItem(KEY));
+      const d = JSON.parse(localStorage.getItem(activeKey));
       return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } }, d || {});
     } catch {
       return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } };
@@ -123,7 +129,8 @@ const Progress = (() => {
   }
 
   function save(data) {
-    localStorage.setItem(KEY, JSON.stringify(data));
+    localStorage.setItem(activeKey, JSON.stringify(data));
+    if (afterSave) { try { afterSave(data); } catch {} }
   }
 
   function addStars(n) {
@@ -180,7 +187,11 @@ const Progress = (() => {
   }
 
   function reset() {
-    localStorage.removeItem(KEY);
+    localStorage.removeItem(activeKey);
+  }
+  // Ghi đè toàn bộ tiến trình (dùng khi tải từ server về sau đăng nhập/đồng bộ)
+  function replaceAll(data) {
+    localStorage.setItem(activeKey, JSON.stringify(data || {}));
   }
 
   return {
@@ -188,5 +199,6 @@ const Progress = (() => {
     recordDaily, getDailyLog, getTodayDaily, getStreak, getSubjectStats, last28Days, todayKey,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
+    setActiveKey, onSave, replaceAll,
   };
 })();

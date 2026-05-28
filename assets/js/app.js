@@ -67,6 +67,7 @@ async function route() {
   if (parts[0] === 'chinh-sach') return renderPolicy(view);
   if (parts[0] === 'faq') return renderFAQ(view);
   if (parts[0] === 'tien-trinh') return renderProgress(view);
+  if (parts[0] === 'tai-khoan') return renderAuth(view);
   if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
   if (parts[0] === 'mam-non') {
     if (parts.length === 1) return renderPreschoolAges(view);
@@ -86,10 +87,25 @@ async function route() {
 window.addEventListener('hashchange', route);
 window.addEventListener('DOMContentLoaded', route);
 
+function escapeHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
 function updateHeader() {
   document.getElementById('star-count').textContent = Progress.getStars();
   const av = Progress.getAvatar();
   document.getElementById('header-avatar').textContent = av || '📚';
+  renderAccountArea();
+}
+
+function renderAccountArea() {
+  const el = document.getElementById('account-area');
+  if (!el) return;
+  const u = Auth.getUser();
+  el.innerHTML = u
+    ? `<a href="#/tai-khoan" class="acct-chip" title="Tài khoản"><span class="acct-name">👤 ${escapeHtml(u.displayName)}</span><span class="acct-grade">Lớp ${u.grade}</span></a>`
+    : `<a href="#/tai-khoan" class="acct-login">Đăng nhập</a>`;
 }
 
 // ===== Avatar =====
@@ -112,12 +128,124 @@ function renderAvatarPicker(view, isChanging) {
   });
 }
 
+// ===== Tài khoản =====
+const AUTH_ERR = {
+  name_short: 'Biệt danh quá ngắn (ít nhất 2 ký tự).',
+  pass_short: 'Mật khẩu quá ngắn (ít nhất 4 ký tự).',
+  grade: 'Hãy chọn lớp của bạn.',
+  exists: 'Biệt danh này đã có người dùng. Hãy chọn biệt danh khác.',
+  not_found: 'Không tìm thấy tài khoản. Kiểm tra biệt danh hoặc đăng ký mới.',
+  wrong_pass: 'Sai mật khẩu, thử lại nhé.',
+  server_error: 'Lỗi máy chủ, vui lòng thử lại sau.',
+};
+
+function renderAuth(view) {
+  const u = Auth.getUser();
+  if (u) {
+    view.innerHTML = `
+      <a href="#/" class="back-btn">← Về trang chủ</a>
+      <div class="auth-wrap">
+        <div class="auth-card">
+          <h1>👤 ${escapeHtml(u.displayName)}</h1>
+          <p class="auth-sub">Đang đăng nhập · <b>Lớp ${u.grade}</b></p>
+          <p class="about-note">Tiến trình của bạn được lưu trên máy chủ và đồng bộ trên mọi thiết bị khi đăng nhập cùng biệt danh.</p>
+          <p class="about-note">⚠️ Tài khoản sẽ tự xóa nếu <b>15 ngày liên tiếp không làm bài</b>. Cứ làm bài đều đặn để giữ tài khoản nhé!</p>
+          <div class="action-bar" style="justify-content:center;margin-top:18px">
+            <a href="#/" class="btn btn-primary">Vào học</a>
+            <button class="btn btn-secondary" id="logout-btn" style="color:#EF5350">Đăng xuất</button>
+          </div>
+        </div>
+      </div>`;
+    view.querySelector('#logout-btn').onclick = () => { Auth.logout(); window.location.hash = '#/'; };
+    return;
+  }
+
+  const gradeOpts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    .map(g => `<option value="${g}">Lớp ${g}</option>`).join('');
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-tabs">
+          <button class="auth-tab active" data-tab="login">Đăng nhập</button>
+          <button class="auth-tab" data-tab="register">Đăng ký</button>
+        </div>
+
+        <form id="login-form" class="auth-form">
+          <label>Biệt danh / Tên đăng nhập
+            <input type="text" name="username" autocomplete="username" required placeholder="VD: Bé An 2A">
+          </label>
+          <label>Mật khẩu
+            <input type="password" name="password" autocomplete="current-password" required>
+          </label>
+          <div class="auth-msg" id="login-msg"></div>
+          <button type="submit" class="btn btn-primary auth-submit">Đăng nhập</button>
+        </form>
+
+        <form id="register-form" class="auth-form" hidden>
+          <label>Biệt danh / Tên đăng nhập <small>(không phân biệt hoa/thường)</small>
+            <input type="text" name="username" autocomplete="username" required placeholder="VD: Bé An 2A">
+          </label>
+          <label>Mật khẩu <small>(ít nhất 4 ký tự)</small>
+            <input type="password" name="password" autocomplete="new-password" required>
+          </label>
+          <label>Lớp đang học
+            <select name="grade" required>
+              <option value="" selected disabled>— Chọn lớp —</option>
+              ${gradeOpts}
+            </select>
+          </label>
+          <div class="auth-msg" id="register-msg"></div>
+          <button type="submit" class="btn btn-primary auth-submit">Đăng ký &amp; dùng ngay</button>
+        </form>
+
+        <p class="about-note">Không cần email. Chỉ lưu biệt danh + lớp + tiến trình học (mật khẩu được mã hóa). Tài khoản tự xóa sau 15 ngày không làm bài. Xem <a href="#/chinh-sach">Chính sách</a>.</p>
+      </div>
+    </div>`;
+
+  const loginForm = view.querySelector('#login-form');
+  const registerForm = view.querySelector('#register-form');
+  view.querySelectorAll('.auth-tab').forEach(tab => {
+    tab.onclick = () => {
+      view.querySelectorAll('.auth-tab').forEach(t => t.classList.toggle('active', t === tab));
+      const isLogin = tab.dataset.tab === 'login';
+      loginForm.hidden = !isLogin;
+      registerForm.hidden = isLogin;
+    };
+  });
+
+  const submit = async (form, msgEl, fn) => {
+    msgEl.className = 'auth-msg';
+    msgEl.textContent = 'Đang xử lý...';
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true;
+    const data = Object.fromEntries(new FormData(form).entries());
+    if (data.grade) data.grade = parseInt(data.grade, 10);
+    let r;
+    try { r = await fn(data); } catch { r = { ok: false, error: 'server_error' }; }
+    btn.disabled = false;
+    if (r && r.ok) {
+      window.location.hash = '#/';
+    } else {
+      msgEl.className = 'auth-msg error';
+      msgEl.textContent = AUTH_ERR[r && r.error] || 'Có lỗi xảy ra, thử lại nhé.';
+    }
+  };
+
+  loginForm.onsubmit = (e) => { e.preventDefault(); submit(loginForm, view.querySelector('#login-msg'), d => Auth.login(d)); };
+  registerForm.onsubmit = (e) => { e.preventDefault(); submit(registerForm, view.querySelector('#register-msg'), d => Auth.register(d)); };
+}
+
 // ===== Views =====
 function renderHome(view) {
   const total = CATALOG.exercises.length;
   const av = Progress.getAvatar();
+  const u = Auth.getUser();
+  const deleted = Auth.consumeDeletedNotice();
   view.innerHTML = `
+    ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="#/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
     <section class="hero-pro">
+      ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
       <h1>Học vui mỗi ngày, vững vàng mỗi kỳ thi</h1>
       <p class="hero-sub">Bài tập &amp; đề thi thử bám sát chương trình GDPT 2018 — từ Mầm non đến THPT. Hiện có <b>${total}</b> bộ đề, hoàn toàn miễn phí.</p>
       <div class="hero-cta">
@@ -169,32 +297,63 @@ function renderHome(view) {
   `;
 }
 
+function dailyCard(grade, s, today, review) {
+  const r = !review && today[s.key];
+  return `<a href="#/bai/daily-${grade}-${s.key}" class="daily-card ${r ? 'done' : ''} ${review ? 'review' : ''}">
+      <span class="dc-icon">${s.icon}</span>
+      <span class="dc-name">${s.name}</span>
+      <span class="dc-status">${review ? 'Ôn tập' : (r ? `✓ ${r.score}/${r.total}` : 'Chưa làm')}</span>
+    </a>`;
+}
+
 function renderDailyHomeSection() {
   const today = Progress.getTodayDaily().subjects || {};
   const streak = Progress.getStreak();
+  const u = Auth.getUser();
+
+  const head = (grade, extra) => `
+    <div class="daily-head">
+      <h2>📅 Đề hôm nay <small>· Lớp ${grade}</small></h2>
+      <div class="daily-meta">
+        ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
+        <a href="#/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
+      </div>
+    </div>${extra || ''}`;
+
+  if (u) {
+    const grade = u.grade;
+    const hasMain = Daily.GRADES.includes(grade);
+    const below = grade - 1;
+    const hasBelow = Daily.GRADES.includes(below);
+    const mainCards = hasMain ? Daily.SUBJECTS.map(s => dailyCard(grade, s, today, false)).join('') : '';
+    const belowCards = hasBelow ? Daily.SUBJECTS.map(s => dailyCard(below, s, today, true)).join('') : '';
+    const doneCount = hasMain ? Daily.SUBJECTS.filter(s => today[s.key]).length : 0;
+    const allDone = hasMain && doneCount === Daily.SUBJECTS.length;
+    return `
+    <section class="daily-section">
+      ${head(grade)}
+      ${hasMain
+        ? (allDone
+          ? '<div class="daily-banner ok">🎉 Tuyệt vời! Bạn đã hoàn thành cả 3 đề hôm nay.</div>'
+          : `<div class="daily-banner">⏰ Hôm nay đã làm ${doneCount}/3 đề — cố gắng hoàn thành nhé!</div>`)
+        : `<div class="daily-banner">📚 "Đề hôm nay" cho Lớp ${grade} đang được xây dựng. Bạn vẫn vào từng môn để luyện tập nhé!</div>`}
+      ${hasMain ? `<div class="daily-grid">${mainCards}</div>` : ''}
+      ${hasBelow ? `<h3 class="daily-sub">📖 Ôn lại Lớp ${below} <small>(để nắm chắc kiến thức — không tính thành tích)</small></h3><div class="daily-grid">${belowCards}</div>` : ''}
+    </section>`;
+  }
+
+  // Chưa đăng nhập: bộ chọn lớp thủ công + lời mời đăng nhập
   const grade = Daily.getGrade();
-  const cards = Daily.SUBJECTS.map(s => {
-    const r = today[s.key];
-    return `<a href="#/bai/daily-${grade}-${s.key}" class="daily-card ${r ? 'done' : ''}">
-        <span class="dc-icon">${s.icon}</span>
-        <span class="dc-name">${s.name}</span>
-        <span class="dc-status">${r ? `✓ ${r.score}/${r.total}` : 'Chưa làm'}</span>
-      </a>`;
-  }).join('');
+  const cards = Daily.SUBJECTS.map(s => dailyCard(grade, s, today, false)).join('');
   const gradeTabs = Daily.GRADES.map(g =>
     `<button class="daily-grade-tab ${g === grade ? 'active' : ''}" onclick="setDailyGrade(${g})">Lớp ${g}</button>`
   ).join('');
   const doneCount = Daily.SUBJECTS.filter(s => today[s.key]).length;
   const allDone = doneCount === Daily.SUBJECTS.length;
+  const hint = '<div class="daily-login-hint">🔐 <a href="#/tai-khoan">Đăng nhập</a> để lưu tiến trình & đồng bộ trên mọi thiết bị (điện thoại, máy tính, máy tính bảng).</div>';
   return `
     <section class="daily-section">
-      <div class="daily-head">
-        <h2>📅 Đề hôm nay <small>· Lớp ${grade}</small></h2>
-        <div class="daily-meta">
-          ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
-          <a href="#/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
-        </div>
-      </div>
+      ${head(grade, hint)}
       <div class="daily-grade-tabs" role="tablist" aria-label="Chọn lớp">${gradeTabs}</div>
       ${allDone
         ? '<div class="daily-banner ok">🎉 Tuyệt vời! Bạn đã hoàn thành cả 3 đề hôm nay.</div>'
@@ -298,13 +457,15 @@ function renderPolicy(view) {
       <h1>Chính sách & Điều khoản</h1>
 
       <h2>1. Quyền riêng tư</h2>
-      <p><b>Bé Học Vui không thu thập thông tin cá nhân.</b> Trang không yêu cầu đăng ký, không đăng nhập, không có máy chủ lưu dữ liệu người dùng.</p>
+      <p><b>Dùng không cần tài khoản:</b> nếu bạn không đăng ký, trang <b>không thu thập thông tin cá nhân</b>. Tiến độ học (sao, huy hiệu, nhân vật, kết quả bài làm) chỉ lưu trong <b>bộ nhớ trình duyệt (localStorage)</b> trên chính thiết bị — không gửi đi đâu. Nhược điểm: đổi máy hoặc xóa dữ liệu trình duyệt thì tiến độ mất và không đồng bộ giữa các thiết bị.</p>
+      <p><b>Nếu tạo tài khoản (tùy chọn)</b> để đồng bộ tiến trình trên nhiều thiết bị, chúng tôi lưu trên máy chủ Cloudflare (dịch vụ KV) những dữ liệu sau:</p>
       <ul>
-        <li>Tiến độ học (sao, huy hiệu, nhân vật, kết quả bài làm) chỉ được lưu trong <b>bộ nhớ trình duyệt (localStorage)</b> trên chính thiết bị của bạn — <b>không gửi đi đâu</b>.</li>
-        <li>Không dùng cookie theo dõi, không quảng cáo, không chia sẻ dữ liệu cho bên thứ ba.</li>
-        <li>Vì dữ liệu nằm trên thiết bị nên nếu xóa dữ liệu trình duyệt hoặc đổi máy, tiến độ sẽ mất và không đồng bộ giữa các thiết bị.</li>
-        <li>Trang phù hợp cho trẻ em do không thu thập dữ liệu cá nhân.</li>
+        <li><b>Biệt danh</b> do bạn tự đặt (không bắt buộc là tên thật), <b>lớp đang học</b>, và <b>tiến trình học</b> (kết quả, sao, lịch làm bài).</li>
+        <li><b>Mật khẩu được mã hóa</b> (băm PBKDF2 + salt) — chúng tôi không lưu và không xem được mật khẩu gốc.</li>
+        <li><b>Không thu thập email, số điện thoại</b> hay thông tin liên hệ nào khác. Không cookie theo dõi, không quảng cáo, không chia sẻ cho bên thứ ba.</li>
+        <li><b>Tự động xóa:</b> tài khoản và toàn bộ dữ liệu sẽ <b>tự xóa vĩnh viễn sau 15 ngày liên tiếp không làm bài</b>; muốn dùng lại phải đăng ký mới.</li>
       </ul>
+      <p class="about-note">💡 Để bảo vệ trẻ em, <b>khuyến nghị không dùng tên thật đầy đủ hay thông tin nhạy cảm</b> làm biệt danh/mật khẩu. Phụ huynh nên hỗ trợ trẻ khi đăng ký.</p>
       <p>Một số thư viện hiển thị (phông chữ, biểu tượng, công thức) được tải từ dịch vụ CDN công cộng (Google Fonts, jsDelivr) — các dịch vụ này có thể ghi nhận yêu cầu tải tệp theo chính sách riêng của họ.</p>
 
       <h2>2. Điều khoản sử dụng</h2>
@@ -628,10 +789,16 @@ async function renderExercise(view, id) {
       const elapsedMs = Date.now() - startTime;
       const baseline = Progress.getAvgSecPerQ(); // tốc độ TB trước lần này (mốc so sánh là chính bé)
       const percent = Math.round((score / total) * 100);
-      const isNewBest = Progress.markCompleted(exercise.id, score, total);
-      Progress.addStars(score);
-      Progress.recordTime(total, elapsedMs);
-      if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
+      // Chỉ tính thành tích/phân tích khi đề thuộc đúng lớp của học sinh (đã đăng nhập).
+      // Đề ôn lớp dưới hoặc đề khác lớp: làm để học, KHÔNG cộng sao/thành tích.
+      const counts = Auth.countsForExercise(exercise);
+      let isNewBest = false;
+      if (counts) {
+        isNewBest = Progress.markCompleted(exercise.id, score, total);
+        Progress.addStars(score);
+        Progress.recordTime(total, elapsedMs);
+        if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
+      }
       updateHeader();
 
       let emoji, title;
@@ -666,7 +833,7 @@ async function renderExercise(view, id) {
           ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:10px">🎉 Kỷ lục mới!</div>' : ''}
           <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
           ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
-          <div style="color:#6B6B8C;margin:10px 0 16px">Bạn được +${score} ⭐</div>
+          <div style="color:#6B6B8C;margin:10px 0 16px">${counts ? `Bạn được +${score} ⭐` : '📖 Đề ôn (khác lớp) — không tính sao &amp; thành tích'}</div>
           <div class="recap">${recap}</div>
           <div class="action-bar" style="justify-content:center;margin-top:22px">
             <button class="btn btn-secondary" onclick="location.hash='${backHref}'">Bài khác</button>
