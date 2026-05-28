@@ -284,6 +284,12 @@ a { color: inherit; text-decoration: none; }
   font-variant-numeric: tabular-nums;
 }
 .exam-timer.low { background: #FFEBEE; color: #C62828; animation: pulse 1s infinite; }
+.exam-timer.up { background: #F0F0F6; color: #6B6B8C; } /* đếm xuôi: trung tính, không tạo áp lực */
+
+/* Thời gian & nhận xét ở màn kết quả */
+.result-time { font-weight: 800; color: var(--c-text); font-size: 1.05rem; margin-top: 6px; }
+.time-note { color: var(--c-ta-dark); font-weight: 700; margin-top: 4px; }
+.sr-spd { width: 64px; text-align: right; font-size: 0.82rem; color: var(--c-text-soft); flex-shrink: 0; }
 @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
 
 /* Trắc nghiệm Đúng/Sai nhiều ý */

@@ -219,11 +219,13 @@ function renderProgress(view) {
   const rows = Object.keys(SUB).map(s => {
     const st = subjStats[s];
     const pct = st && st.total ? Math.round(st.score / st.total * 100) : null;
-    return { name: SUB[s], pct };
+    const spd = st && st.total && st.timeMs ? (st.timeMs / 1000 / st.total) : null;
+    return { name: SUB[s], pct, spd };
   });
   const done = rows.filter(r => r.pct !== null);
   const weak = done.length ? done.reduce((a, b) => (b.pct < a.pct ? b : a)) : null;
   const activeDays = Object.values(log).filter(d => Object.keys(d.subjects || {}).length).length;
+  const avgSpeed = Progress.getAvgSecPerQ();
 
   view.innerHTML = `
     <a href="#/" class="back-btn">← Về trang chủ</a>
@@ -231,13 +233,14 @@ function renderProgress(view) {
     <div class="achv-stats">
       <div class="achv-stat"><div class="n">🔥 ${streak}</div><div class="l">Ngày liên tiếp</div></div>
       <div class="achv-stat"><div class="n">📅 ${activeDays}</div><div class="l">Ngày có học</div></div>
+      <div class="achv-stat"><div class="n">⚡ ${avgSpeed !== null ? Math.round(avgSpeed) + 's' : '—'}</div><div class="l">Giây/câu (TB)</div></div>
     </div>
     <h2 class="home-section">Lịch 28 ngày</h2>
     <div class="heatmap">${cells}</div>
     <div class="hm-legend">Ít <span class="hm-cell l1"></span><span class="hm-cell l2"></span><span class="hm-cell l3"></span><span class="hm-cell l4"></span> Nhiều / đúng cao</div>
     <h2 class="home-section">Kết quả theo môn</h2>
     <div class="subj-stats">
-      ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span></div>`).join('')}
+      ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span><span class="sr-spd">${r.spd !== null ? Math.round(r.spd) + 's/câu' : ''}</span></div>`).join('')}
     </div>
     ${weak && done.length > 1 ? `<p class="about-note">💡 Nên ôn thêm môn <b>${weak.name}</b> (đang ${weak.pct}%).</p>` : ''}
     ${activeDays === 0 ? '<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có dữ liệu. Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi tiến trình!</div></div>' : ''}
@@ -523,6 +526,10 @@ async function renderExercise(view, id) {
     const timed = typeof exercise.timeLimit === 'number' && exercise.timeLimit > 0;
     const deadline = Date.now() + (exercise.timeLimit || 0) * 60000;
     let timerInterval = null, done = false;
+    // Đo thời gian làm bài. Hiện đồng hồ đếm xuôi cho THCS/THPT (không phải đề bấm giờ); cấp nhỏ đo ngầm.
+    const startTime = Date.now();
+    const showCountUp = !timed && (exercise.stage === 'thcs' || exercise.stage === 'thpt');
+    let elapsedInterval = null;
 
     const renderQuestion = () => {
       const q = exercise.questions[currentIdx];
@@ -535,6 +542,7 @@ async function renderExercise(view, id) {
             <div style="color:#6B6B8C;font-size:0.9rem">${modeLabel} · ${levelLabel}</div></div>
             <div style="display:flex;align-items:center;gap:12px">
               ${timed ? '<span id="exam-timer" class="exam-timer">⏱ --:--</span>' : ''}
+              ${showCountUp ? '<span id="elapsed-timer" class="exam-timer up">⏱ 0:00</span>' : ''}
               <span style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</span>
             </div>
           </div>
@@ -580,14 +588,30 @@ async function renderExercise(view, id) {
       timerInterval = setInterval(tick, 1000);
     };
 
+    // Đồng hồ đếm xuôi (THCS/THPT, đề không bấm giờ)
+    const startElapsedTimer = () => {
+      const tick = () => {
+        const el = document.getElementById('elapsed-timer');
+        if (!el) { clearInterval(elapsedInterval); return; }
+        const s = Math.floor((Date.now() - startTime) / 1000);
+        el.textContent = `⏱ ${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+      };
+      tick();
+      elapsedInterval = setInterval(tick, 1000);
+    };
+
     const showResult = () => {
       if (done) return;
       done = true;
       if (timerInterval) clearInterval(timerInterval);
+      if (elapsedInterval) clearInterval(elapsedInterval);
+      const elapsedMs = Date.now() - startTime;
+      const baseline = Progress.getAvgSecPerQ(); // tốc độ TB trước lần này (mốc so sánh là chính bé)
       const percent = Math.round((score / total) * 100);
       const isNewBest = Progress.markCompleted(exercise.id, score, total);
       Progress.addStars(score);
-      if (exercise.daily) Progress.recordDaily(exercise.subject, score, total);
+      Progress.recordTime(total, elapsedMs);
+      if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
       updateHeader();
 
       let emoji, title;
@@ -600,6 +624,19 @@ async function renderExercise(view, id) {
         `<span class="recap-item ${a.correct ? 'ok' : 'no'}">${i + 1}${a.correct ? ' ✓' : ' ✗'}</span>`
       ).join('');
 
+      // Thời gian + nhận xét (so với tốc độ trung bình của chính học sinh)
+      const secPerQ = total ? elapsedMs / 1000 / total : 0;
+      const mm = Math.floor(elapsedMs / 60000), ss = Math.floor((elapsedMs % 60000) / 1000);
+      const timeStr = mm ? `${mm} phút ${ss} giây` : `${ss} giây`;
+      const fast = baseline !== null && secPerQ <= baseline * 1.05; // nhanh hơn/ngang trung bình
+      let timeNote = '';
+      if (baseline !== null) {
+        if (percent >= 80 && fast) timeNote = 'Chính xác và nhanh — xuất sắc! 🚀';
+        else if (percent >= 80) timeNote = 'Rất chính xác! Thử làm nhanh hơn một chút nhé.';
+        else if (percent < 50 && fast) timeNote = 'Hơi vội rồi — chậm lại và đọc kỹ hơn nhé.';
+        else timeNote = 'Cứ bình tĩnh, làm cẩn thận rồi sẽ tiến bộ!';
+      }
+
       view.innerHTML = `
         <div class="result-card">
           <div class="result-emoji">${emoji}</div>
@@ -607,7 +644,9 @@ async function renderExercise(view, id) {
           <div class="result-score">${score}/${total}</div>
           <div class="result-stars">${'⭐'.repeat(Math.min(score, 10))}</div>
           ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:10px">🎉 Kỷ lục mới!</div>' : ''}
-          <div style="color:#6B6B8C;margin-bottom:16px">Bạn được +${score} ⭐</div>
+          <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
+          ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
+          <div style="color:#6B6B8C;margin:10px 0 16px">Bạn được +${score} ⭐</div>
           <div class="recap">${recap}</div>
           <div class="action-bar" style="justify-content:center;margin-top:22px">
             <button class="btn btn-secondary" onclick="location.hash='${backHref}'">Bài khác</button>
@@ -620,6 +659,7 @@ async function renderExercise(view, id) {
 
     renderQuestion();
     if (timed) startTimer();
+    if (showCountUp) startElapsedTimer();
   }
 }
 

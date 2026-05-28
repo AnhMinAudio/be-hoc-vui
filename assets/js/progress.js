@@ -5,9 +5,9 @@ const Progress = (() => {
   function load() {
     try {
       const d = JSON.parse(localStorage.getItem(KEY));
-      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {} }, d || {});
+      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } }, d || {});
     } catch {
-      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {} };
+      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } };
     }
   }
 
@@ -25,13 +25,27 @@ const Progress = (() => {
     for (const k of Object.keys(log || {})) if (k >= cutoffKey) out[k] = log[k];
     return out;
   }
-  function recordDaily(subject, score, total) {
+  function recordDaily(subject, score, total, timeMs) {
     const data = load();
     data.dailyLog = pruneDaily(data.dailyLog);
     const k = todayKey();
     if (!data.dailyLog[k]) data.dailyLog[k] = { subjects: {} };
-    data.dailyLog[k].subjects[subject] = { score, total, at: Date.now() };
+    data.dailyLog[k].subjects[subject] = { score, total, timeMs: timeMs || 0, at: Date.now() };
     save(data);
+  }
+
+  // ===== Thời gian làm bài (đo tốc độ; mốc so sánh là chính học sinh) =====
+  function recordTime(questions, timeMs) {
+    if (!questions || !timeMs) return;
+    const data = load();
+    data.speed = data.speed || { questions: 0, timeMs: 0 };
+    data.speed.questions += questions;
+    data.speed.timeMs += timeMs;
+    save(data);
+  }
+  function getAvgSecPerQ() {
+    const s = load().speed || { questions: 0, timeMs: 0 };
+    return s.questions ? (s.timeMs / 1000 / s.questions) : null;
   }
   function getDailyLog() {
     const data = load();
@@ -55,8 +69,8 @@ const Progress = (() => {
     const log = getDailyLog(); const acc = {};
     for (const day of Object.values(log)) {
       for (const [s, r] of Object.entries(day.subjects || {})) {
-        if (!acc[s]) acc[s] = { score: 0, total: 0, days: 0 };
-        acc[s].score += r.score; acc[s].total += r.total; acc[s].days++;
+        if (!acc[s]) acc[s] = { score: 0, total: 0, days: 0, timeMs: 0 };
+        acc[s].score += r.score; acc[s].total += r.total; acc[s].days++; acc[s].timeMs += (r.timeMs || 0);
       }
     }
     return acc;
@@ -136,5 +150,6 @@ const Progress = (() => {
   return {
     load, save, addStars, markCompleted, getCompletion, getStars, getAvatar, setAvatar, getStats, reset,
     recordDaily, getDailyLog, getTodayDaily, getStreak, getSubjectStats, last28Days, todayKey,
+    recordTime, getAvgSecPerQ,
   };
 })();
