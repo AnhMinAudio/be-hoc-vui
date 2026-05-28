@@ -2,7 +2,7 @@
   "stage": "tieu-hoc",
   "grade": 2,
   "subject": "tieng-anh",
-  "count": 17,
+  "count": 67,
   "questions": [
     {
       "type": "matching",
@@ -228,6 +228,699 @@
         "mom",
         "Mom"
       ]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the birthday word with its meaning (Nối từ về sinh nhật với nghĩa)",
+      "pairs": [
+        [
+          "cake",
+          "cái bánh"
+        ],
+        [
+          "candle",
+          "cây nến"
+        ],
+        [
+          "balloon",
+          "quả bóng bay"
+        ],
+        [
+          "gift",
+          "món quà"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'balloon' mean? (Từ 'balloon' nghĩa là gì?)",
+      "options": [
+        "cái bánh",
+        "quả bóng bay",
+        "cây nến",
+        "món quà"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cây nến'? (Cây nến tiếng Anh là gì?)",
+      "options": [
+        "cake",
+        "gift",
+        "candle",
+        "balloon"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'cái bánh' in English (Viết 'cái bánh' bằng tiếng Anh): ___",
+      "answer": "cake",
+      "alternatives": [
+        "Cake",
+        "CAKE"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'tree' mean? (Từ 'tree' nghĩa là gì?)",
+      "options": [
+        "bông hoa",
+        "cái cây",
+        "con chim",
+        "ngọn cỏ"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the garden word with its meaning (Nối từ về sân vườn với nghĩa)",
+      "pairs": [
+        [
+          "tree",
+          "cái cây"
+        ],
+        [
+          "flower",
+          "bông hoa"
+        ],
+        [
+          "bird",
+          "con chim"
+        ],
+        [
+          "grass",
+          "ngọn cỏ"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'bông hoa' in English (Viết 'bông hoa' bằng tiếng Anh): ___",
+      "answer": "flower",
+      "alternatives": [
+        "Flower",
+        "FLOWER"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái cây'? (Cái cây tiếng Anh là gì?)",
+      "options": [
+        "tree",
+        "flower",
+        "sand",
+        "shell"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the sea word with its meaning (Nối từ về biển với nghĩa)",
+      "pairs": [
+        [
+          "sea",
+          "biển"
+        ],
+        [
+          "sand",
+          "cát"
+        ],
+        [
+          "shell",
+          "vỏ sò"
+        ],
+        [
+          "boat",
+          "chiếc thuyền"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'shell' mean? (Từ 'shell' nghĩa là gì?)",
+      "options": [
+        "biển",
+        "cát",
+        "vỏ sò",
+        "chiếc thuyền"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'biển' in English (Viết 'biển' bằng tiếng Anh): ___",
+      "answer": "sea",
+      "alternatives": [
+        "Sea",
+        "SEA"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái bàn học'? (Cái bàn học tiếng Anh là gì?)",
+      "options": [
+        "desk",
+        "chair",
+        "door",
+        "bed"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the classroom word with its meaning (Nối từ về lớp học với nghĩa)",
+      "pairs": [
+        [
+          "desk",
+          "cái bàn học"
+        ],
+        [
+          "chair",
+          "cái ghế"
+        ],
+        [
+          "bag",
+          "cái cặp"
+        ],
+        [
+          "pen",
+          "cái bút mực"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'This is a ___.' to talk about a chair (Hoàn thành câu nói về cái ghế)",
+      "options": [
+        "chair",
+        "cake",
+        "sea",
+        "bird"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete: 'I have a ___.' meaning 'Tôi có một quả bóng bay' (Hoàn thành câu): ___",
+      "answer": "balloon",
+      "alternatives": [
+        "Balloon",
+        "BALLOON"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'chair' mean? (Từ 'chair' nghĩa là gì?)",
+      "options": [
+        "cái ghế",
+        "cái bàn",
+        "cái cửa",
+        "cái giường"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the farm animal with its meaning (Nối con vật nông trại với nghĩa)",
+      "pairs": [
+        [
+          "hen",
+          "con gà mái"
+        ],
+        [
+          "pig",
+          "con lợn"
+        ],
+        [
+          "cow",
+          "con bò"
+        ],
+        [
+          "horse",
+          "con ngựa"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'horse' mean? (Từ 'horse' nghĩa là gì?)",
+      "options": [
+        "con bò",
+        "con lợn",
+        "con ngựa",
+        "con gà mái"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'con bò'? (Con bò tiếng Anh là gì?)",
+      "options": [
+        "pig",
+        "cow",
+        "hen",
+        "horse"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'con lợn' in English (Viết 'con lợn' bằng tiếng Anh): ___",
+      "answer": "pig",
+      "alternatives": [
+        "Pig",
+        "PIG"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the kitchen word with its meaning (Nối từ về nhà bếp với nghĩa)",
+      "pairs": [
+        [
+          "cup",
+          "cái cốc"
+        ],
+        [
+          "plate",
+          "cái đĩa"
+        ],
+        [
+          "spoon",
+          "cái thìa"
+        ],
+        [
+          "bowl",
+          "cái bát"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'spoon' mean? (Từ 'spoon' nghĩa là gì?)",
+      "options": [
+        "cái cốc",
+        "cái đĩa",
+        "cái thìa",
+        "cái bát"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'cái cốc' in English (Viết 'cái cốc' bằng tiếng Anh): ___",
+      "answer": "cup",
+      "alternatives": [
+        "Cup",
+        "CUP"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái đĩa'? (Cái đĩa tiếng Anh là gì?)",
+      "options": [
+        "plate",
+        "cup",
+        "spoon",
+        "bowl"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the shop food with its meaning (Nối thực phẩm ở cửa hàng với nghĩa)",
+      "pairs": [
+        [
+          "milk",
+          "sữa"
+        ],
+        [
+          "bread",
+          "bánh mì"
+        ],
+        [
+          "egg",
+          "quả trứng"
+        ],
+        [
+          "rice",
+          "cơm/gạo"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'bread' mean? (Từ 'bread' nghĩa là gì?)",
+      "options": [
+        "sữa",
+        "bánh mì",
+        "quả trứng",
+        "cơm/gạo"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'quả trứng' in English (Viết 'quả trứng' bằng tiếng Anh): ___",
+      "answer": "egg",
+      "alternatives": [
+        "Egg",
+        "EGG"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'sữa'? (Sữa tiếng Anh là gì?)",
+      "options": [
+        "egg",
+        "bread",
+        "milk",
+        "rice"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What number is 'six'? (Số 'six' là số mấy?)",
+      "options": [
+        "bốn",
+        "năm",
+        "sáu",
+        "bảy"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write number 9 in English (Viết số 9 bằng tiếng Anh): ___",
+      "answer": "nine",
+      "alternatives": [
+        "Nine",
+        "NINE"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'I have a ___.' meaning 'Tôi có một con ngựa' (Hoàn thành câu)",
+      "options": [
+        "horse",
+        "cup",
+        "egg",
+        "milk"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete: 'This is a ___.' meaning 'Đây là cái thìa' (Hoàn thành câu): ___",
+      "answer": "spoon",
+      "alternatives": [
+        "Spoon",
+        "SPOON"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'hen' mean? (Từ 'hen' nghĩa là gì?)",
+      "options": [
+        "con bò",
+        "con gà mái",
+        "con ngựa",
+        "con lợn"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the zoo animal with its meaning (Nối con vật ở sở thú với nghĩa)",
+      "pairs": [
+        [
+          "lion",
+          "con sư tử"
+        ],
+        [
+          "tiger",
+          "con hổ"
+        ],
+        [
+          "monkey",
+          "con khỉ"
+        ],
+        [
+          "elephant",
+          "con voi"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'monkey' mean? (Từ 'monkey' nghĩa là gì?)",
+      "options": [
+        "con sư tử",
+        "con hổ",
+        "con khỉ",
+        "con voi"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'con voi'? (Con voi tiếng Anh là gì?)",
+      "options": [
+        "lion",
+        "tiger",
+        "monkey",
+        "elephant"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'con hổ' in English (Viết 'con hổ' bằng tiếng Anh): ___",
+      "answer": "tiger",
+      "alternatives": [
+        "Tiger",
+        "TIGER"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the playground word with its meaning (Nối từ về sân chơi với nghĩa)",
+      "pairs": [
+        [
+          "ball",
+          "quả bóng"
+        ],
+        [
+          "kite",
+          "cái diều"
+        ],
+        [
+          "swing",
+          "cái xích đu"
+        ],
+        [
+          "slide",
+          "cầu trượt"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'kite' mean? (Từ 'kite' nghĩa là gì?)",
+      "options": [
+        "quả bóng",
+        "cái diều",
+        "cái xích đu",
+        "cầu trượt"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'quả bóng' in English (Viết 'quả bóng' bằng tiếng Anh): ___",
+      "answer": "ball",
+      "alternatives": [
+        "Ball",
+        "BALL"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái xích đu'? (Cái xích đu tiếng Anh là gì?)",
+      "options": [
+        "slide",
+        "kite",
+        "swing",
+        "ball"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the home word with its meaning (Nối từ về đồ vật trong nhà với nghĩa)",
+      "pairs": [
+        [
+          "table",
+          "cái bàn"
+        ],
+        [
+          "bed",
+          "cái giường"
+        ],
+        [
+          "door",
+          "cái cửa"
+        ],
+        [
+          "window",
+          "cửa sổ"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'bed' mean? (Từ 'bed' nghĩa là gì?)",
+      "options": [
+        "cái bàn",
+        "cái giường",
+        "cái cửa",
+        "cửa sổ"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'cái cửa' in English (Viết 'cái cửa' bằng tiếng Anh): ___",
+      "answer": "door",
+      "alternatives": [
+        "Door",
+        "DOOR"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the clothes word with its meaning (Nối từ về quần áo với nghĩa)",
+      "pairs": [
+        [
+          "hat",
+          "cái mũ"
+        ],
+        [
+          "shirt",
+          "cái áo sơ mi"
+        ],
+        [
+          "shoes",
+          "đôi giày"
+        ],
+        [
+          "dress",
+          "cái váy"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'shoes' mean? (Từ 'shoes' nghĩa là gì?)",
+      "options": [
+        "cái mũ",
+        "cái áo sơ mi",
+        "đôi giày",
+        "cái váy"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'cái mũ' in English (Viết 'cái mũ' bằng tiếng Anh): ___",
+      "answer": "hat",
+      "alternatives": [
+        "Hat",
+        "HAT"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'It's ___.' to say the shirt is green (Nói cái áo màu xanh lá)",
+      "options": [
+        "green",
+        "tiger",
+        "swing",
+        "door"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete: 'This is a ___.' meaning 'Đây là con voi' (Hoàn thành câu): ___",
+      "answer": "elephant",
+      "alternatives": [
+        "Elephant",
+        "ELEPHANT"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái áo sơ mi'? (Cái áo sơ mi tiếng Anh là gì?)",
+      "options": [
+        "hat",
+        "shirt",
+        "shoes",
+        "dress"
+      ],
+      "answer": 1
     }
   ]
 }

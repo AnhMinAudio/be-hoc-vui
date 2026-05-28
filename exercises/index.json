@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T09:08:22.221Z",
+  "generatedAt": "2026-05-28T12:47:06.255Z",
   "exercises": [
     {
       "id": "mn-con-vat-3t",
@@ -324,6 +324,57 @@
       "path": "tieng-anh/lop2/animals-family-school.json"
     },
     {
+      "id": "ta-l2-on-luyen-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 2,
+      "topic": "Ôn luyện Tiếng Anh 2 (số 1)",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TA2-VOCAB",
+        "TA2-NUM",
+        "TA2-COLOR",
+        "TA2-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop2/on-luyen-1.json"
+    },
+    {
+      "id": "ta-l2-on-luyen-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 2,
+      "topic": "Ôn luyện Tiếng Anh 2 (số 2)",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "TA2-VOCAB",
+        "TA2-NUM",
+        "TA2-COLOR",
+        "TA2-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop2/on-luyen-2.json"
+    },
+    {
+      "id": "ta-l2-on-luyen-3",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 2,
+      "topic": "Ôn luyện Tiếng Anh 2 (số 3)",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "TA2-VOCAB",
+        "TA2-NUM",
+        "TA2-COLOR",
+        "TA2-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop2/on-luyen-3.json"
+    },
+    {
       "id": "ta-l3-numbers-and-days",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -435,6 +486,75 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
+    },
+    {
+      "id": "tv-l2-on-luyen-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 2,
+      "topic": "Ôn luyện Tiếng Việt 2 (số 1)",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "TV2-TU-1",
+        "TV2-TU-2",
+        "TV2-TU-3",
+        "TV2-CAU-1",
+        "TV2-CAU-2",
+        "TV2-DAU-1",
+        "TV2-DAU-4",
+        "TV2-VT-1",
+        "TV2-NGHIA-1",
+        "TV2-CT-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop2/on-luyen-1.json"
+    },
+    {
+      "id": "tv-l2-on-luyen-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 2,
+      "topic": "Ôn luyện Tiếng Việt 2 (số 2)",
+      "difficulty": 1,
+      "questionCount": 16,
+      "outcomes": [
+        "TV2-TU-1",
+        "TV2-TU-2",
+        "TV2-TU-3",
+        "TV2-CAU-2",
+        "TV2-CAU-3",
+        "TV2-DAU-2",
+        "TV2-DAU-3",
+        "TV2-VT-1",
+        "TV2-NGHIA-1",
+        "TV2-CT-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop2/on-luyen-2.json"
+    },
+    {
+      "id": "tv-l2-on-luyen-3",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 2,
+      "topic": "Ôn luyện Tiếng Việt 2 (số 3)",
+      "difficulty": 1,
+      "questionCount": 17,
+      "outcomes": [
+        "TV2-TU-1",
+        "TV2-TU-2",
+        "TV2-TU-3",
+        "TV2-CAU-1",
+        "TV2-CAU-3",
+        "TV2-DAU-1",
+        "TV2-DAU-2",
+        "TV2-VT-1",
+        "TV2-NGHIA-1",
+        "TV2-CT-1"
+      ],
+      "timeLimit": null,
+      "path": "tieng-viet/lop2/on-luyen-3.json"
     },
     {
       "id": "tv-l2-tu-loai-va-cau",

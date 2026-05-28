@@ -2,8 +2,612 @@
   "stage": "tieu-hoc",
   "grade": 2,
   "subject": "tieng-viet",
-  "count": 17,
+  "count": 67,
   "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ sự vật?",
+      "options": [
+        "bay lượn",
+        "ngôi trường",
+        "chăm chỉ",
+        "vui vẻ"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ sự vật gọi tên người, đồ vật, con vật, cây cối."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ hoạt động?",
+      "options": [
+        "cây tre",
+        "tưới cây",
+        "ngọt ngào",
+        "bông lúa"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ hoạt động cho biết người, vật đang làm gì."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ đặc điểm?",
+      "options": [
+        "quét nhà",
+        "chiếc cặp",
+        "tròn xoe",
+        "leo trèo"
+      ],
+      "answer": 2,
+      "hint": "Từ chỉ đặc điểm cho biết hình dáng, màu sắc, tính nết của sự vật."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền chữ c hoặc k vào chỗ trống cho đúng chính tả: con ___á (loài vật bơi dưới nước)",
+      "answer": "c",
+      "alternatives": [
+        "con cá",
+        "cá"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền chữ k hoặc c vào chỗ trống: ___iến (con vật nhỏ hay tha mồi)",
+      "answer": "k",
+      "alternatives": [
+        "kiến",
+        "con kiến"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào dưới đây thuộc kiểu câu 'Ai làm gì?'",
+      "options": [
+        "Lan là học sinh lớp 2.",
+        "Bạn Nam đang quét sân.",
+        "Bầu trời rất trong xanh.",
+        "Cây bàng cao lớn."
+      ],
+      "answer": 1,
+      "hint": "Câu 'Ai làm gì?' nói về hoạt động của người hoặc vật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào dưới đây thuộc kiểu câu 'Ai là gì?'",
+      "options": [
+        "Em bé cười tươi.",
+        "Gió thổi mát rượi.",
+        "Hà Nội là thủ đô của nước ta.",
+        "Chú gà trống gáy vang."
+      ],
+      "answer": 2,
+      "hint": "Câu 'Ai là gì?' dùng để giới thiệu, thường có từ 'là'."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền dấu câu thích hợp vào cuối câu: Hôm nay là thứ mấy ___",
+      "answer": "?",
+      "alternatives": [
+        "dấu chấm hỏi",
+        "dấu hỏi",
+        "dấu hỏi chấm"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền dấu câu thích hợp vào cuối câu kể: Mẹ em đi chợ ___",
+      "answer": ".",
+      "alternatives": [
+        "dấu chấm"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền từ trái nghĩa với 'dài': Con đường này rất ngắn, còn con đường kia rất ___",
+      "answer": "dài"
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền từ trái nghĩa với 'nóng': Mùa đông trời rất ___",
+      "answer": "lạnh",
+      "alternatives": [
+        "rét"
+      ]
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Từ 'xanh tươi' là từ chỉ đặc điểm.",
+      "answer": true
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Câu hỏi thường kết thúc bằng dấu chấm.",
+      "answer": false
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Nối tên mùa với đặc điểm thời tiết thường gặp.",
+      "pairs": [
+        [
+          "mùa xuân",
+          "ấm áp, cây đâm chồi"
+        ],
+        [
+          "mùa hạ",
+          "nắng nóng, ve kêu"
+        ],
+        [
+          "mùa thu",
+          "mát mẻ, lá vàng rơi"
+        ],
+        [
+          "mùa đông",
+          "giá lạnh, gió bấc"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Nối nghề nghiệp với công việc thường làm.",
+      "pairs": [
+        [
+          "bác sĩ",
+          "khám và chữa bệnh"
+        ],
+        [
+          "giáo viên",
+          "dạy học cho học sinh"
+        ],
+        [
+          "nông dân",
+          "trồng lúa, cấy cày"
+        ],
+        [
+          "công nhân",
+          "làm việc trong nhà máy"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Chọn cách viết đúng chính tả:",
+      "options": [
+        "ghe thuyền",
+        "ghe sông",
+        "ghe cộ",
+        "ghế ngồi"
+      ],
+      "answer": 3,
+      "hint": "gh chỉ đi với i, e, ê; 'ghế' dùng để ngồi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong câu 'Đàn cò trắng bay trên cánh đồng.', từ nào là từ chỉ đặc điểm?",
+      "options": [
+        "đàn cò",
+        "trắng",
+        "bay",
+        "cánh đồng"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ màu sắc cũng là từ chỉ đặc điểm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ sự vật?",
+      "options": [
+        "chăm sóc",
+        "dòng sông",
+        "siêng năng",
+        "nhảy múa"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ sự vật gọi tên người, vật, hiện tượng thiên nhiên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ hoạt động?",
+      "options": [
+        "quả cam",
+        "đọc sách",
+        "thơm ngon",
+        "mái nhà"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ hoạt động cho biết người, vật đang làm việc gì."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ đặc điểm?",
+      "options": [
+        "may áo",
+        "con bướm",
+        "nhỏ nhắn",
+        "hái hoa"
+      ],
+      "answer": 2,
+      "hint": "Từ chỉ đặc điểm tả hình dáng, kích thước, tính nết."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền chữ ng hoặc ngh vào chỗ trống: ___e nhạc (lắng nghe âm thanh)",
+      "answer": "ngh",
+      "alternatives": [
+        "nghe",
+        "nghe nhạc"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền chữ g hoặc gh vào chỗ trống: con ___à (con vật biết gáy)",
+      "answer": "g",
+      "alternatives": [
+        "gà",
+        "con gà"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào dưới đây thuộc kiểu câu 'Ai thế nào?'",
+      "options": [
+        "Bố em là kĩ sư.",
+        "Em đang tô màu.",
+        "Bạn Hoa rất chăm chỉ.",
+        "Chú chim hót líu lo."
+      ],
+      "answer": 2,
+      "hint": "Câu 'Ai thế nào?' nêu đặc điểm, tính nết của người, vật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào dưới đây thuộc kiểu câu 'Ai làm gì?'",
+      "options": [
+        "Mặt trời đỏ rực.",
+        "Bà em kể chuyện cổ tích.",
+        "Cô giáo là người mẹ thứ hai.",
+        "Bầu trời cao và xanh."
+      ],
+      "answer": 1,
+      "hint": "Câu 'Ai làm gì?' nói về hành động của người hoặc vật."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền dấu câu thích hợp vào cuối câu cảm: Ôi, bông hoa đẹp quá ___",
+      "answer": "!",
+      "alternatives": [
+        "dấu chấm than",
+        "chấm than"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào sử dụng dấu phẩy đúng để ngăn cách các từ cùng loại?",
+      "options": [
+        "Trong vườn, có chuối na ổi.",
+        "Trong vườn có chuối, na, ổi.",
+        "Trong, vườn có chuối na ổi.",
+        "Trong vườn có chuối na, ổi"
+      ],
+      "answer": 1,
+      "hint": "Dấu phẩy ngăn cách các sự vật được liệt kê."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền từ trái nghĩa với 'rộng': Cái ngõ này hơi ___",
+      "answer": "hẹp",
+      "alternatives": [
+        "chật"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền từ trái nghĩa với 'sạch': Bàn tay lấm lem rất ___",
+      "answer": "bẩn",
+      "alternatives": [
+        "dơ"
+      ]
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Từ 'múa hát' là từ chỉ hoạt động.",
+      "answer": true
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Câu 'Cây phượng nở hoa đỏ rực.' thuộc kiểu câu 'Ai là gì?'.",
+      "answer": false
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Nối con vật với nơi sống quen thuộc của nó.",
+      "pairs": [
+        [
+          "con ong",
+          "trong tổ"
+        ],
+        [
+          "con cua",
+          "dưới hang"
+        ],
+        [
+          "con sóc",
+          "trên cây"
+        ],
+        [
+          "con vịt",
+          "dưới ao"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Nối thành viên trong gia đình với cách gọi đúng.",
+      "pairs": [
+        [
+          "em của mẹ",
+          "cậu hoặc dì"
+        ],
+        [
+          "bố của bố",
+          "ông nội"
+        ],
+        [
+          "mẹ của mẹ",
+          "bà ngoại"
+        ],
+        [
+          "anh của bố",
+          "bác trai"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Chọn từ viết đúng chính tả l/n:",
+      "options": [
+        "lo lắng",
+        "no lắng",
+        "lo nắng",
+        "no nắng"
+      ],
+      "answer": 0,
+      "hint": "'lo lắng' nghĩa là băn khoăn, không yên tâm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ sự vật?",
+      "options": [
+        "gặt lúa",
+        "bác nông dân",
+        "vàng óng",
+        "cần cù"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ sự vật gọi tên người, nghề nghiệp, đồ vật, con vật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ hoạt động?",
+      "options": [
+        "lớp học",
+        "bơi lội",
+        "ngoan ngoãn",
+        "viên phấn"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ hoạt động cho biết việc người, vật đang làm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào dưới đây là từ chỉ đặc điểm?",
+      "options": [
+        "chải tóc",
+        "rửa bát",
+        "hiền lành",
+        "đá bóng"
+      ],
+      "answer": 2,
+      "hint": "Từ chỉ đặc điểm tả tính nết, hình dáng, màu sắc."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền chữ s hoặc x vào chỗ trống: ngôi ___ao (vật sáng lấp lánh trên trời đêm)",
+      "answer": "s",
+      "alternatives": [
+        "sao",
+        "ngôi sao"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền chữ x hoặc s vào chỗ trống: ___e đạp (phương tiện có hai bánh, đạp để đi)",
+      "answer": "x",
+      "alternatives": [
+        "xe",
+        "xe đạp"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào dưới đây thuộc kiểu câu 'Ai là gì?'",
+      "options": [
+        "Con voi rất to khỏe.",
+        "Cá heo là loài vật thông minh.",
+        "Bé tập viết chữ.",
+        "Mưa rơi tí tách."
+      ],
+      "answer": 1,
+      "hint": "Câu 'Ai là gì?' dùng để giới thiệu, nhận định, thường có từ 'là'."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào dưới đây thuộc kiểu câu 'Ai thế nào?'",
+      "options": [
+        "Ông em là thợ mộc.",
+        "Dòng suối trong veo.",
+        "Chị gặt lúa ngoài đồng.",
+        "Đàn kiến tha mồi về tổ."
+      ],
+      "answer": 1,
+      "hint": "Câu 'Ai thế nào?' nêu đặc điểm, trạng thái của sự vật."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền dấu câu thích hợp vào cuối câu kể: Chúng em chăm chỉ học bài ___",
+      "answer": ".",
+      "alternatives": [
+        "dấu chấm"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Điền dấu câu thích hợp vào cuối câu: Bạn có thích đọc truyện không ___",
+      "answer": "?",
+      "alternatives": [
+        "dấu chấm hỏi",
+        "dấu hỏi"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền từ trái nghĩa với 'già': Cây non còn ___, mới được trồng.",
+      "answer": "non",
+      "alternatives": [
+        "trẻ"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền từ trái nghĩa với 'vui': Khi bị điểm kém, em cảm thấy rất ___",
+      "answer": "buồn"
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Từ 'quyển vở' là từ chỉ sự vật.",
+      "answer": true
+    },
+    {
+      "type": "true-false",
+      "level": "TH",
+      "question": "Dấu phẩy dùng để ngăn cách các từ cùng loại trong một câu.",
+      "answer": true
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Nối loại cây với nhóm cây đúng.",
+      "pairs": [
+        [
+          "cây cam",
+          "cây ăn quả"
+        ],
+        [
+          "cây lúa",
+          "cây lương thực"
+        ],
+        [
+          "cây hồng (hoa)",
+          "cây cho hoa"
+        ],
+        [
+          "cây phượng",
+          "cây bóng mát"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Nối đồ vật ở trường học với công dụng của nó.",
+      "pairs": [
+        [
+          "cái bảng",
+          "để cô giáo viết bài"
+        ],
+        [
+          "cục tẩy",
+          "để xóa chữ viết sai"
+        ],
+        [
+          "cái thước",
+          "để kẻ và đo"
+        ],
+        [
+          "cặp sách",
+          "để đựng sách vở"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Chọn từ viết đúng chính tả ng/ngh:",
+      "options": [
+        "nghé con",
+        "ngé con",
+        "nghé cong",
+        "ngẻ con"
+      ],
+      "answer": 0,
+      "hint": "ngh chỉ đi với i, e, ê; 'nghé' là con của con trâu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong câu 'Bạn Mai hát rất hay.', từ nào là từ chỉ hoạt động?",
+      "options": [
+        "bạn Mai",
+        "hát",
+        "rất",
+        "hay"
+      ],
+      "answer": 1,
+      "hint": "Từ chỉ hoạt động cho biết bạn Mai đang làm gì."
+    },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ sự vật?",

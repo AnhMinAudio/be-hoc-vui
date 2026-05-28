@@ -1,0 +1,146 @@
+{
+  "id": "ta-l2-on-luyen-3",
+  "stage": "tieu-hoc",
+  "subject": "tieng-anh",
+  "grade": 2,
+  "topic": "Ôn luyện Tiếng Anh 2 (số 3)",
+  "difficulty": 1,
+  "outcomes": ["TA2-VOCAB", "TA2-NUM", "TA2-COLOR", "TA2-PATTERN"],
+  "questions": [
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the zoo animal with its meaning (Nối con vật ở sở thú với nghĩa)",
+      "pairs": [
+        ["lion", "con sư tử"],
+        ["tiger", "con hổ"],
+        ["monkey", "con khỉ"],
+        ["elephant", "con voi"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'monkey' mean? (Từ 'monkey' nghĩa là gì?)",
+      "options": ["con sư tử", "con hổ", "con khỉ", "con voi"],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'con voi'? (Con voi tiếng Anh là gì?)",
+      "options": ["lion", "tiger", "monkey", "elephant"],
+      "answer": 3
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'con hổ' in English (Viết 'con hổ' bằng tiếng Anh): ___",
+      "answer": "tiger",
+      "alternatives": ["Tiger", "TIGER"]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the playground word with its meaning (Nối từ về sân chơi với nghĩa)",
+      "pairs": [
+        ["ball", "quả bóng"],
+        ["kite", "cái diều"],
+        ["swing", "cái xích đu"],
+        ["slide", "cầu trượt"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'kite' mean? (Từ 'kite' nghĩa là gì?)",
+      "options": ["quả bóng", "cái diều", "cái xích đu", "cầu trượt"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'quả bóng' in English (Viết 'quả bóng' bằng tiếng Anh): ___",
+      "answer": "ball",
+      "alternatives": ["Ball", "BALL"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái xích đu'? (Cái xích đu tiếng Anh là gì?)",
+      "options": ["slide", "kite", "swing", "ball"],
+      "answer": 2
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the home word with its meaning (Nối từ về đồ vật trong nhà với nghĩa)",
+      "pairs": [
+        ["table", "cái bàn"],
+        ["bed", "cái giường"],
+        ["door", "cái cửa"],
+        ["window", "cửa sổ"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'bed' mean? (Từ 'bed' nghĩa là gì?)",
+      "options": ["cái bàn", "cái giường", "cái cửa", "cửa sổ"],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'cái cửa' in English (Viết 'cái cửa' bằng tiếng Anh): ___",
+      "answer": "door",
+      "alternatives": ["Door", "DOOR"]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the clothes word with its meaning (Nối từ về quần áo với nghĩa)",
+      "pairs": [
+        ["hat", "cái mũ"],
+        ["shirt", "cái áo sơ mi"],
+        ["shoes", "đôi giày"],
+        ["dress", "cái váy"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'shoes' mean? (Từ 'shoes' nghĩa là gì?)",
+      "options": ["cái mũ", "cái áo sơ mi", "đôi giày", "cái váy"],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Write 'cái mũ' in English (Viết 'cái mũ' bằng tiếng Anh): ___",
+      "answer": "hat",
+      "alternatives": ["Hat", "HAT"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'It's ___.' to say the shirt is green (Nói cái áo màu xanh lá)",
+      "options": ["green", "tiger", "swing", "door"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete: 'This is a ___.' meaning 'Đây là con voi' (Hoàn thành câu): ___",
+      "answer": "elephant",
+      "alternatives": ["Elephant", "ELEPHANT"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'cái áo sơ mi'? (Cái áo sơ mi tiếng Anh là gì?)",
+      "options": ["hat", "shirt", "shoes", "dress"],
+      "answer": 1
+    }
+  ]
+}

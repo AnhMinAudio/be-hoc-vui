@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T09:08:22.221Z",
+  "generatedAt": "2026-05-28T12:47:06.255Z",
   "coverage": {
     "toan": {
       "1": {
@@ -137,9 +137,27 @@
         ]
       },
       "2": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 4,
+        "totalQuestions": 67,
         "topics": [
+          {
+            "id": "tv-l2-on-luyen-1",
+            "topic": "Ôn luyện Tiếng Việt 2 (số 1)",
+            "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "tv-l2-on-luyen-2",
+            "topic": "Ôn luyện Tiếng Việt 2 (số 2)",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "tv-l2-on-luyen-3",
+            "topic": "Ôn luyện Tiếng Việt 2 (số 3)",
+            "questionCount": 17,
+            "difficulty": 1
+          },
           {
             "id": "tv-l2-tu-loai-va-cau",
             "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
@@ -199,12 +217,30 @@
         ]
       },
       "2": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 4,
+        "totalQuestions": 67,
         "topics": [
           {
             "id": "ta-l2-animals-family-school",
             "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
+            "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l2-on-luyen-1",
+            "topic": "Ôn luyện Tiếng Anh 2 (số 1)",
+            "questionCount": 16,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l2-on-luyen-2",
+            "topic": "Ôn luyện Tiếng Anh 2 (số 2)",
+            "questionCount": 17,
+            "difficulty": 1
+          },
+          {
+            "id": "ta-l2-on-luyen-3",
+            "topic": "Ôn luyện Tiếng Anh 2 (số 3)",
             "questionCount": 17,
             "difficulty": 1
           }
