@@ -5,10 +5,71 @@ const Progress = (() => {
   function load() {
     try {
       const d = JSON.parse(localStorage.getItem(KEY));
-      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null }, d || {});
+      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {} }, d || {});
     } catch {
-      return { stars: 0, completed: {}, history: [], avatar: null };
+      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {} };
     }
+  }
+
+  // ===== Nhật ký làm đề hàng ngày (giữ 28 ngày gần nhất) =====
+  const RETENTION_DAYS = 28;
+  function dateKey(d) {
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  }
+  function todayKey() { return dateKey(new Date()); }
+  function pruneDaily(log) {
+    const cutoff = new Date(); cutoff.setHours(0, 0, 0, 0);
+    cutoff.setDate(cutoff.getDate() - (RETENTION_DAYS - 1));
+    const cutoffKey = dateKey(cutoff);
+    const out = {};
+    for (const k of Object.keys(log || {})) if (k >= cutoffKey) out[k] = log[k];
+    return out;
+  }
+  function recordDaily(subject, score, total) {
+    const data = load();
+    data.dailyLog = pruneDaily(data.dailyLog);
+    const k = todayKey();
+    if (!data.dailyLog[k]) data.dailyLog[k] = { subjects: {} };
+    data.dailyLog[k].subjects[subject] = { score, total, at: Date.now() };
+    save(data);
+  }
+  function getDailyLog() {
+    const data = load();
+    const pruned = pruneDaily(data.dailyLog);
+    if (Object.keys(pruned).length !== Object.keys(data.dailyLog || {}).length) {
+      data.dailyLog = pruned; save(data);
+    }
+    return pruned;
+  }
+  function getTodayDaily() { return getDailyLog()[todayKey()] || { subjects: {} }; }
+  function getStreak() {
+    const log = getDailyLog();
+    const d = new Date(); d.setHours(0, 0, 0, 0);
+    const has = k => log[k] && Object.keys(log[k].subjects || {}).length > 0;
+    if (!has(todayKey())) d.setDate(d.getDate() - 1); // hôm nay chưa làm → đếm từ hôm qua
+    let streak = 0;
+    while (has(dateKey(d))) { streak++; d.setDate(d.getDate() - 1); }
+    return streak;
+  }
+  function getSubjectStats() {
+    const log = getDailyLog(); const acc = {};
+    for (const day of Object.values(log)) {
+      for (const [s, r] of Object.entries(day.subjects || {})) {
+        if (!acc[s]) acc[s] = { score: 0, total: 0, days: 0 };
+        acc[s].score += r.score; acc[s].total += r.total; acc[s].days++;
+      }
+    }
+    return acc;
+  }
+  function last28Days() {
+    const arr = [];
+    const d = new Date(); d.setHours(0, 0, 0, 0);
+    d.setDate(d.getDate() - (RETENTION_DAYS - 1));
+    for (let i = 0; i < RETENTION_DAYS; i++) {
+      arr.push(dateKey(d));
+      d.setDate(d.getDate() + 1);
+    }
+    return arr;
   }
 
   function save(data) {
@@ -72,5 +133,8 @@ const Progress = (() => {
     localStorage.removeItem(KEY);
   }
 
-  return { load, save, addStars, markCompleted, getCompletion, getStars, getAvatar, setAvatar, getStats, reset };
+  return {
+    load, save, addStars, markCompleted, getCompletion, getStars, getAvatar, setAvatar, getStats, reset,
+    recordDaily, getDailyLog, getTodayDaily, getStreak, getSubjectStats, last28Days, todayKey,
+  };
 })();

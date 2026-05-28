@@ -63,6 +63,7 @@ async function route() {
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
   if (parts[0] === 'chinh-sach') return renderPolicy(view);
   if (parts[0] === 'faq') return renderFAQ(view);
+  if (parts[0] === 'tien-trinh') return renderProgress(view);
   if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
   if (parts[0] === 'mam-non') {
     if (parts.length === 1) return renderPreschoolAges(view);
@@ -123,6 +124,8 @@ function renderHome(view) {
       ${av ? '' : '<a href="#/doi-nhan-vat" class="avatar-hint">🐾 Chọn một nhân vật học tập đồng hành cùng bạn</a>'}
     </section>
 
+    ${renderDailyHomeSection()}
+
     <section class="features" aria-label="Điểm nổi bật">
       <div class="feature"><div class="f-icon">📋</div><div class="f-text"><b>Bám chương trình</b><span>Theo yêu cầu cần đạt GDPT 2018 (Kết nối tri thức)</span></div></div>
       <div class="feature"><div class="f-icon">📝</div><div class="f-text"><b>Luyện thi thật</b><span>Đề thi thử bấm giờ, đúng cấu trúc thi tốt nghiệp &amp; ĐGNL</span></div></div>
@@ -160,6 +163,84 @@ function renderHome(view) {
           <div class="label">Lớp ${g}</div>
         </a>`).join('')}
     </div>
+  `;
+}
+
+function renderDailyHomeSection() {
+  const today = Progress.getTodayDaily().subjects || {};
+  const streak = Progress.getStreak();
+  const cards = Daily.SUBJECTS.map(s => {
+    const r = today[s.key];
+    return `<a href="#/bai/daily-${s.key}" class="daily-card ${r ? 'done' : ''}">
+        <span class="dc-icon">${s.icon}</span>
+        <span class="dc-name">${s.name}</span>
+        <span class="dc-status">${r ? `✓ ${r.score}/${r.total}` : 'Chưa làm'}</span>
+      </a>`;
+  }).join('');
+  const doneCount = Daily.SUBJECTS.filter(s => today[s.key]).length;
+  const allDone = doneCount === Daily.SUBJECTS.length;
+  return `
+    <section class="daily-section">
+      <div class="daily-head">
+        <h2>📅 Đề hôm nay <small>· Lớp 2 (thử nghiệm)</small></h2>
+        <div class="daily-meta">
+          ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
+          <a href="#/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
+        </div>
+      </div>
+      ${allDone
+        ? '<div class="daily-banner ok">🎉 Tuyệt vời! Bạn đã hoàn thành cả 3 đề hôm nay.</div>'
+        : `<div class="daily-banner">⏰ Hôm nay đã làm ${doneCount}/3 đề — cố gắng hoàn thành nhé!</div>`}
+      <div class="daily-grid">${cards}</div>
+    </section>`;
+}
+
+function renderProgress(view) {
+  const days = Progress.last28Days();
+  const log = Progress.getDailyLog();
+  const streak = Progress.getStreak();
+  const subjStats = Progress.getSubjectStats();
+
+  const cells = days.map(k => {
+    const day = log[k];
+    let pct = null, count = 0;
+    if (day) {
+      const subs = Object.values(day.subjects || {});
+      count = subs.length;
+      const sc = subs.reduce((a, r) => a + r.score, 0);
+      const tt = subs.reduce((a, r) => a + r.total, 0);
+      pct = tt ? Math.round(sc / tt * 100) : 0;
+    }
+    const lvl = pct === null ? 'none' : pct >= 80 ? 'l4' : pct >= 60 ? 'l3' : pct >= 40 ? 'l2' : 'l1';
+    return `<div class="hm-cell ${lvl}" title="${k}${pct !== null ? ` · ${count} đề · ${pct}%` : ' · chưa làm'}">${k.slice(8)}</div>`;
+  }).join('');
+
+  const SUB = { toan: 'Toán', 'tieng-viet': 'Tiếng Việt', 'tieng-anh': 'Tiếng Anh' };
+  const rows = Object.keys(SUB).map(s => {
+    const st = subjStats[s];
+    const pct = st && st.total ? Math.round(st.score / st.total * 100) : null;
+    return { name: SUB[s], pct };
+  });
+  const done = rows.filter(r => r.pct !== null);
+  const weak = done.length ? done.reduce((a, b) => (b.pct < a.pct ? b : a)) : null;
+  const activeDays = Object.values(log).filter(d => Object.keys(d.subjects || {}).length).length;
+
+  view.innerHTML = `
+    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <div class="hero" style="padding:16px 10px 14px"><h1>📈 Tiến trình 28 ngày</h1><p>Theo dõi làm đề hằng ngày (chỉ lưu 28 ngày gần nhất)</p></div>
+    <div class="achv-stats">
+      <div class="achv-stat"><div class="n">🔥 ${streak}</div><div class="l">Ngày liên tiếp</div></div>
+      <div class="achv-stat"><div class="n">📅 ${activeDays}</div><div class="l">Ngày có học</div></div>
+    </div>
+    <h2 class="home-section">Lịch 28 ngày</h2>
+    <div class="heatmap">${cells}</div>
+    <div class="hm-legend">Ít <span class="hm-cell l1"></span><span class="hm-cell l2"></span><span class="hm-cell l3"></span><span class="hm-cell l4"></span> Nhiều / đúng cao</div>
+    <h2 class="home-section">Kết quả theo môn</h2>
+    <div class="subj-stats">
+      ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span></div>`).join('')}
+    </div>
+    ${weak && done.length > 1 ? `<p class="about-note">💡 Nên ôn thêm môn <b>${weak.name}</b> (đang ${weak.pct}%).</p>` : ''}
+    ${activeDays === 0 ? '<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có dữ liệu. Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi tiến trình!</div></div>' : ''}
   `;
 }
 
@@ -382,21 +463,27 @@ function renderAchievements(view) {
 }
 
 async function renderExercise(view, id) {
-  const meta = CATALOG.exercises.find(e => e.id === id);
-  if (!meta) { view.innerHTML = '<div class="empty">Không tìm thấy bài này.</div>'; return; }
-
   let exercise;
-  try {
-    exercise = await (await fetch(`exercises/${meta.path}`)).json();
-  } catch (e) {
-    view.innerHTML = `<div class="empty">Không tải được bài: ${meta.path}</div>`;
-    return;
+  if (id.indexOf('daily-') === 0) {
+    exercise = await Daily.getExercise(id);
+    if (!exercise) { view.innerHTML = '<div class="empty">Chưa có đề hôm nay cho mục này.</div>'; return; }
+  } else {
+    const meta = CATALOG.exercises.find(e => e.id === id);
+    if (!meta) { view.innerHTML = '<div class="empty">Không tìm thấy bài này.</div>'; return; }
+    try {
+      exercise = await (await fetch(`exercises/${meta.path}`)).json();
+    } catch (e) {
+      view.innerHTML = `<div class="empty">Không tải được bài: ${meta.path}</div>`;
+      return;
+    }
   }
   const isPreschool = exercise.stage === 'mam-non';
   const subject = isPreschool ? PRESCHOOL[exercise.subject] : SUBJECTS[exercise.subject];
-  const backHref = isPreschool
-    ? `#/mam-non/age${exercise.grade}/${exercise.subject}`
-    : `#/lop${exercise.grade}/${exercise.subject}`;
+  const backHref = exercise.daily
+    ? '#/'
+    : isPreschool
+      ? `#/mam-non/age${exercise.grade}/${exercise.subject}`
+      : `#/lop${exercise.grade}/${exercise.subject}`;
   const levelLabel = isPreschool ? `Bé ${exercise.grade} tuổi` : `Lớp ${exercise.grade}`;
 
   const isTimed = typeof exercise.timeLimit === 'number' && exercise.timeLimit > 0;
@@ -500,6 +587,7 @@ async function renderExercise(view, id) {
       const percent = Math.round((score / total) * 100);
       const isNewBest = Progress.markCompleted(exercise.id, score, total);
       Progress.addStars(score);
+      if (exercise.daily) Progress.recordDaily(exercise.subject, score, total);
       updateHeader();
 
       let emoji, title;
