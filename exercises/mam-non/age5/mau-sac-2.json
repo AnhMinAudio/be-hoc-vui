@@ -1,0 +1,18 @@
+{
+  "id": "mn-mau-sac-5t-2",
+  "stage": "mam-non",
+  "subject": "mau-sac",
+  "grade": 5,
+  "topic": "Liên hệ màu sắc (phần 2)",
+  "difficulty": 3,
+  "questions": [
+    { "type": "image-choice", "question": "Cỏ ngoài sân có màu gì?", "options": ["🟢", "🔴", "🔵", "🟣"], "answer": 0, "prompt": "🌿" },
+    { "type": "image-choice", "question": "Quả dâu tây chín có màu gì?", "options": ["🟡", "🔴", "🔵", "⚫"], "answer": 1, "prompt": "🍓" },
+    { "type": "image-choice", "question": "Quả nho tím có màu gì?", "options": ["🟢", "🟠", "🟣", "⚪"], "answer": 2, "prompt": "🍇" },
+    { "type": "image-choice", "question": "Trộn màu đỏ với màu vàng được màu gì?", "options": ["🟢", "🟠", "🔵", "🟣"], "answer": 1, "hint": "Đỏ + vàng = cam." },
+    { "type": "image-choice", "question": "Trộn màu xanh dương với màu vàng được màu gì?", "options": ["🟢", "🔴", "🟤", "⚫"], "answer": 0, "hint": "Xanh dương + vàng = xanh lá." },
+    { "type": "image-choice", "question": "Trời ban đêm có màu gì?", "options": ["🟡", "⚪", "⚫", "🟢"], "answer": 2 },
+    { "type": "image-choice", "question": "Cây kẹo mút này có nhiều màu. Chạm vào nó nhé!", "options": ["⚫", "🍭", "⚪"], "answer": 1, "prompt": "🍭" },
+    { "type": "image-choice", "question": "Quả cà rốt và quả bí ngô đều có màu gì giống nhau?", "options": ["🔵", "🟠", "🟣", "🟢"], "answer": 1, "prompt": "🥕 🎃" }
+  ]
+}

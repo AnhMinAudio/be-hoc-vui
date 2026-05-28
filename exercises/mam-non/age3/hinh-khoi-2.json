@@ -1,0 +1,16 @@
+{
+  "id": "mn-hinh-khoi-3t-2",
+  "stage": "mam-non",
+  "subject": "hinh-khoi",
+  "grade": 3,
+  "topic": "Hình khối cơ bản (bài 2)",
+  "difficulty": 1,
+  "questions": [
+    { "type": "image-choice", "question": "Hình nào tròn?", "options": ["🟥", "🔴", "🔺"], "answer": 1, "hint": "Hình tròn không có góc nhọn." },
+    { "type": "image-choice", "question": "Đâu là hình vuông màu đỏ?", "options": ["🔺", "🔴", "🟥"], "answer": 2, "hint": "Hình vuông có bốn cạnh bằng nhau." },
+    { "type": "image-choice", "question": "Hình nào là tam giác?", "options": ["🟦", "🔻", "🔵"], "answer": 1, "hint": "Tam giác có ba cạnh." },
+    { "type": "image-choice", "question": "Trái tim ở đâu?", "options": ["🔺", "🔵", "❤️"], "answer": 2, "hint": "Trái tim dùng để nói lời yêu thương." },
+    { "type": "image-choice", "question": "Ngôi sao ở đâu nhỉ?", "options": ["🔴", "⭐", "🟦"], "answer": 1, "hint": "Ngôi sao có nhiều cánh nhọn." },
+    { "type": "image-choice", "question": "Quả bóng nào NHỎ hơn?", "options": ["⚽", "🔵"], "answer": 1, "hint": "Chấm tròn nhỏ hơn quả bóng đá." }
+  ]
+}

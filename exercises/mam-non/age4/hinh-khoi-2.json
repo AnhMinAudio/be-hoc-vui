@@ -1,0 +1,17 @@
+{
+  "id": "mn-hinh-khoi-4t-2",
+  "stage": "mam-non",
+  "subject": "hinh-khoi",
+  "grade": 4,
+  "topic": "Hình khối và so sánh (bài 2)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Đâu là hình tròn màu trắng?", "options": ["🟦", "⚪", "🔺", "⭐"], "answer": 1, "hint": "Hình tròn tròn xoe không góc." },
+    { "type": "image-choice", "question": "Đâu là hình vuông màu xanh lá?", "options": ["🔵", "🟩", "🔺", "❤️"], "answer": 1, "hint": "Hình vuông có bốn cạnh bằng nhau." },
+    { "type": "image-choice", "question": "Hình nào có ba góc nhọn?", "options": ["🟨", "🔵", "🔺", "⭐"], "answer": 2, "hint": "Tam giác có ba cạnh, ba góc." },
+    { "type": "image-choice", "question": "Hình nào giống trái tim?", "options": ["🟩", "🔺", "🔵", "❤️"], "answer": 3, "hint": "Trái tim màu đỏ xinh xinh." },
+    { "type": "image-choice", "question": "Con vật nào TO hơn?", "options": ["🐅", "🐈"], "answer": 0, "hint": "Hổ to hơn mèo nhà." },
+    { "type": "image-choice", "question": "Cái cây nào CAO hơn?", "options": ["🌴", "🌵"], "answer": 0, "hint": "Cây dừa cao hơn cây xương rồng." },
+    { "type": "image-choice", "question": "Hình thoi (kim cương) ở đâu?", "options": ["🔷", "🟥", "⭐", "🔵"], "answer": 0, "hint": "Hình thoi giống viên kim cương." }
+  ]
+}

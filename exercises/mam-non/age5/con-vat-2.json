@@ -1,0 +1,18 @@
+{
+  "id": "mn-con-vat-5t-2",
+  "stage": "mam-non",
+  "subject": "con-vat",
+  "grade": 5,
+  "topic": "Tìm hiểu động vật (phần 2)",
+  "difficulty": 3,
+  "questions": [
+    { "type": "image-choice", "question": "Con nào KHÔNG có chân?", "options": ["🐍", "🐱", "🐔", "🐻"], "answer": 0, "hint": "Con rắn trườn bằng thân mình." },
+    { "type": "image-choice", "question": "Con nào di chuyển chậm nhất?", "options": ["🐆", "🐌", "🐰", "🐬"], "answer": 1 },
+    { "type": "image-choice", "question": "Con nào chạy nhanh nhất?", "options": ["🐢", "🐌", "🐆", "🐧"], "answer": 2 },
+    { "type": "image-choice", "question": "Con nào sống ở nơi rất lạnh, băng tuyết?", "options": ["🦁", "🐧", "🐮", "🐝"], "answer": 1 },
+    { "type": "image-choice", "question": "Con nào con sẽ lớn lên thành con bướm?", "options": ["🐛", "🐔", "🐭", "🐷"], "answer": 0, "hint": "Sâu sẽ hóa thành bướm." },
+    { "type": "image-choice", "question": "So sánh: con nào NHỎ hơn?", "options": ["🐘", "🐭"], "answer": 1, "prompt": "🐘 🐭" },
+    { "type": "image-choice", "question": "So sánh: con nào TO hơn?", "options": ["🐤", "🐮"], "answer": 1, "prompt": "🐤 🐮" },
+    { "type": "image-choice", "question": "Con nào đẻ trứng trong tổ và biết bay?", "options": ["🐦", "🐮", "🐶", "🐷"], "answer": 0 }
+  ]
+}

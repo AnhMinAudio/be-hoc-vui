@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T12:47:06.255Z",
+  "generatedAt": "2026-05-28T13:07:53.037Z",
   "coverage": {
     "toan": {
       "1": {
@@ -287,20 +287,30 @@
   "preschool": {
     "mau-sac": {
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 6,
+        "exerciseCount": 2,
+        "totalQuestions": 12,
         "topics": [
           {
             "id": "mn-mau-sac-3t",
             "topic": "Nhận biết màu sắc",
             "questionCount": 6
+          },
+          {
+            "id": "mn-mau-sac-3t-2",
+            "topic": "Nhận biết màu sắc (phần 2)",
+            "questionCount": 6
           }
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 7,
+        "exerciseCount": 2,
+        "totalQuestions": 15,
         "topics": [
+          {
+            "id": "mn-mau-sac-4t-2",
+            "topic": "Màu sắc của đồ vật (phần 2)",
+            "questionCount": 8
+          },
           {
             "id": "mn-mau-sac-4t",
             "topic": "Màu sắc và đồ vật",
@@ -309,9 +319,14 @@
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 7,
+        "exerciseCount": 2,
+        "totalQuestions": 15,
         "topics": [
+          {
+            "id": "mn-mau-sac-5t-2",
+            "topic": "Liên hệ màu sắc (phần 2)",
+            "questionCount": 8
+          },
           {
             "id": "mn-mau-sac-5t",
             "topic": "Màu sắc của sự vật quanh em",
@@ -322,34 +337,49 @@
     },
     "con-vat": {
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 6,
+        "exerciseCount": 2,
+        "totalQuestions": 13,
         "topics": [
           {
             "id": "mn-con-vat-3t",
             "topic": "Nhận biết con vật",
             "questionCount": 6
+          },
+          {
+            "id": "mn-con-vat-3t-2",
+            "topic": "Nhận biết con vật (phần 2)",
+            "questionCount": 7
           }
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 7,
+        "exerciseCount": 2,
+        "totalQuestions": 15,
         "topics": [
           {
             "id": "mn-con-vat-4t",
             "topic": "Con vật và đặc điểm",
             "questionCount": 7
+          },
+          {
+            "id": "mn-con-vat-4t-2",
+            "topic": "Đặc điểm con vật (phần 2)",
+            "questionCount": 8
           }
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 8,
+        "exerciseCount": 2,
+        "totalQuestions": 16,
         "topics": [
           {
             "id": "mn-con-vat-5t",
             "topic": "Thế giới động vật",
+            "questionCount": 8
+          },
+          {
+            "id": "mn-con-vat-5t-2",
+            "topic": "Tìm hiểu động vật (phần 2)",
             "questionCount": 8
           }
         ]
@@ -357,34 +387,49 @@
     },
     "dem-so": {
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 6,
+        "exerciseCount": 2,
+        "totalQuestions": 12,
         "topics": [
           {
             "id": "mn-dem-so-3t",
             "topic": "Đếm số 1 - 3",
             "questionCount": 6
+          },
+          {
+            "id": "mn-dem-so-3t-2",
+            "topic": "Đếm số 1 - 3 (bài 2)",
+            "questionCount": 6
           }
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 7,
+        "exerciseCount": 2,
+        "totalQuestions": 14,
         "topics": [
           {
             "id": "mn-dem-so-4t",
             "topic": "Đếm số 1 - 5",
             "questionCount": 7
+          },
+          {
+            "id": "mn-dem-so-4t-2",
+            "topic": "Đếm số 1 - 5 (bài 2)",
+            "questionCount": 7
           }
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 8,
+        "exerciseCount": 2,
+        "totalQuestions": 16,
         "topics": [
           {
             "id": "mn-dem-so-5t",
             "topic": "Đếm số 1 - 10 và so sánh",
+            "questionCount": 8
+          },
+          {
+            "id": "mn-dem-so-5t-2",
+            "topic": "Đếm số 1 - 10 và so sánh (bài 2)",
             "questionCount": 8
           }
         ]
@@ -392,34 +437,49 @@
     },
     "hinh-khoi": {
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 6,
+        "exerciseCount": 2,
+        "totalQuestions": 12,
         "topics": [
           {
             "id": "mn-hinh-khoi-3t",
             "topic": "Hình khối cơ bản",
             "questionCount": 6
+          },
+          {
+            "id": "mn-hinh-khoi-3t-2",
+            "topic": "Hình khối cơ bản (bài 2)",
+            "questionCount": 6
           }
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 7,
+        "exerciseCount": 2,
+        "totalQuestions": 14,
         "topics": [
           {
             "id": "mn-hinh-khoi-4t",
             "topic": "Hình khối và so sánh",
             "questionCount": 7
+          },
+          {
+            "id": "mn-hinh-khoi-4t-2",
+            "topic": "Hình khối và so sánh (bài 2)",
+            "questionCount": 7
           }
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 8,
+        "exerciseCount": 2,
+        "totalQuestions": 16,
         "topics": [
           {
             "id": "mn-hinh-khoi-5t",
             "topic": "Hình khối và so sánh nâng cao",
+            "questionCount": 8
+          },
+          {
+            "id": "mn-hinh-khoi-5t-2",
+            "topic": "Hình khối và so sánh nâng cao (bài 2)",
             "questionCount": 8
           }
         ]

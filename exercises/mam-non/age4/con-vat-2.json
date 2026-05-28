@@ -1,0 +1,18 @@
+{
+  "id": "mn-con-vat-4t-2",
+  "stage": "mam-non",
+  "subject": "con-vat",
+  "grade": 4,
+  "topic": "Đặc điểm con vật (phần 2)",
+  "difficulty": 2,
+  "questions": [
+    { "type": "image-choice", "question": "Con nào có cổ rất dài?", "options": ["🦒", "🐭", "🐤", "🐢"], "answer": 0, "hint": "Cổ dài để ăn lá trên cao." },
+    { "type": "image-choice", "question": "Con nào nhảy lò cò và có túi trước bụng?", "options": ["🐨", "🦘", "🐷", "🐔"], "answer": 1 },
+    { "type": "image-choice", "question": "Con nào leo cây và ăn lá trúc?", "options": ["🐼", "🐮", "🐟", "🦆"], "answer": 0 },
+    { "type": "image-choice", "question": "Con nào kêu 'ụt ịt'?", "options": ["🐱", "🐷", "🐤", "🦋"], "answer": 1, "hint": "Con lợn kêu ụt ịt." },
+    { "type": "image-choice", "question": "Con nào sống trên cây và ăn hạt dẻ?", "options": ["🐬", "🐮", "🐿️", "🐔"], "answer": 2 },
+    { "type": "image-choice", "question": "Con nào bơi dưới nước và có càng to?", "options": ["🦀", "🐤", "🦊", "🐻"], "answer": 0 },
+    { "type": "image-choice", "question": "Con nào có nhiều lông và kêu 'be be'?", "options": ["🐑", "🐢", "🐤", "🐬"], "answer": 0 },
+    { "type": "image-choice", "question": "Con nào sống dưới nước và phun nước lên cao?", "options": ["🐭", "🐰", "🐳", "🐤"], "answer": 2 }
+  ]
+}
