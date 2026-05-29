@@ -8,7 +8,8 @@
   },
   "assets": {
     "directory": ".",
-    "binding": "ASSETS"
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
   },
   "kv_namespaces": [
     { "binding": "PROGRESS", "id": "6eec473082a14155a235abf1f1eafbf3" }

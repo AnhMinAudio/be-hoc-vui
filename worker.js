@@ -16,13 +16,9 @@ export default {
         return json({ ok: false, error: 'server_error', detail: String(err) }, 500);
       }
     }
-    const res = await env.ASSETS.fetch(request);
-    // SPA fallback: đường dẫn "ảo" của router (URL thật, không có đuôi file) mà không có file tương ứng
-    // → trả index.html để app tự dựng nội dung theo URL. Nhờ vậy Google index được từng trang.
-    if (res.status === 404 && request.method === 'GET' && !url.pathname.slice(1).includes('.')) {
-      return env.ASSETS.fetch(new Request(new URL('/index.html', url), request));
-    }
-    return res;
+    // Đường dẫn ảo của router (vd /lop3/toan) không có file → Cloudflare tự trả index.html
+    // (assets.not_found_handling = "single-page-application"), KHÔNG redirect, giữ nguyên URL.
+    return env.ASSETS.fetch(request);
   },
 };
 
