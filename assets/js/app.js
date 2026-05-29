@@ -126,10 +126,22 @@ function mascotSVG(mood) {
 }
 
 function stageFromGrade(g) { return g >= 10 ? 'thpt' : g >= 6 ? 'thcs' : 'tieu-hoc'; }
+const DARK_KEY = 'be-hoc-vui-theme-dark';
 function applyStageTheme(stage) {
   if (stage) document.body.dataset.stage = stage;
   else delete document.body.dataset.stage;
+  // Dark mode chỉ cho THCS/THPT (học buổi tối)
+  const darkAllowed = stage === 'thcs' || stage === 'thpt';
+  const pref = localStorage.getItem(DARK_KEY) === '1';
+  document.body.classList.toggle('theme-dark', darkAllowed && pref);
+  const tg = document.getElementById('dark-toggle');
+  if (tg) { tg.hidden = !darkAllowed; tg.textContent = (darkAllowed && pref) ? '☀️' : '🌙'; }
 }
+window.toggleDark = function () {
+  const cur = localStorage.getItem(DARK_KEY) === '1';
+  localStorage.setItem(DARK_KEY, cur ? '0' : '1');
+  applyStageTheme(document.body.dataset.stage || '');
+};
 
 // Vòng tiến trình tròn (đề hôm nay): done/total
 function progressRing(done, total) {

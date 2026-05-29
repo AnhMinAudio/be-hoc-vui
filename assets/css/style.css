@@ -1,51 +1,107 @@
-/* ===== Web Học Tập - Theme Pastel ===== */
+/* ===== Bé Học Vui — Hệ thiết kế "4 thế giới" (redesign GĐ1) =====
+   Tokens đổi theo body[data-stage] + body.theme-dark (THCS/THPT).
+   Mặc định = Tiểu học (teal, Fredoka). */
 :root {
-  --c-bg: #FFF9F2;
-  --c-text: #3D3D5C;
-  --c-text-soft: #6B6B8C;
+  /* Bo góc & bóng (mỗi cấp ghi đè) */
+  --radius-sm: 16px;
+  --radius-md: 22px;
+  --radius-lg: 30px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 2px 8px rgba(30, 30, 50, .07);
+  --shadow-md: 0 8px 24px rgba(30, 30, 50, .10);
+  --shadow-lg: 0 20px 48px rgba(30, 30, 50, .16);
+  --bounce: cubic-bezier(.34, 1.56, .64, 1);
+
+  /* Font theo cấp */
+  --font-display: 'Fredoka', 'Nunito', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+  --font-num: 'Fredoka', 'Nunito', sans-serif;
+
+  /* Nền / bề mặt / chữ */
+  --c-bg: #F1FAF7;
+  --c-bg-tint: #DCF3EC;
   --c-card: #FFFFFF;
-  --c-border: #F0E5D8;
-  --c-toan: #A8E6CF;          /* xanh mint - Toán */
-  --c-toan-dark: #4DB6AC;
-  --c-tv: #FFD3B6;            /* cam đào - Tiếng Việt */
-  --c-tv-dark: #FF8A65;
-  --c-ta: #C9A3FF;            /* tím - Tiếng Anh */
-  --c-ta-dark: #9575CD;
-  /* Màu nhấn chính — đổi theo cấp học (data-stage) để trẻ nhỏ tươi vui, học sinh lớn trầm/hiện đại */
-  --c-primary: #4DB6AC;
-  --c-primary-dark: #00897B;
-  --c-primary-soft: #A8E6CF;
-  --c-correct: #66BB6A;
-  --c-wrong: #EF5350;
-  --c-star: #FFC107;
-  --shadow-sm: 0 2px 8px rgba(61, 61, 92, 0.08);
-  --shadow-md: 0 6px 20px rgba(61, 61, 92, 0.12);
-  --shadow-lg: 0 12px 36px rgba(61, 61, 92, 0.18);
-  --radius-sm: 12px;
-  --radius-md: 18px;
-  --radius-lg: 28px;
+  --c-surface-2: #EEF8F4;
+  --c-border: #DBEEE8;
+  --c-text: #1F3A3B;
+  --c-text-soft: #5B7B7C;
+
+  /* Màu chính + theo môn */
+  --c-primary: #12B5A5;
+  --c-primary-dark: #0C8A7E;
+  --c-primary-soft: #C6F0E9;
+  --c-toan: #C6F0E9;  --c-toan-dark: #12B5A5;
+  --c-tv: #FFD8C4;    --c-tv-dark: #FF8A5B;
+  --c-ta: #DAD3FB;    --c-ta-dark: #8B7CF6;
+  --c-correct: #18A957; --c-correct-soft: #DBF4E3;
+  --c-wrong: #EF4F56;   --c-wrong-soft: #FCE2E3;
+  --c-star: #FFB23E;
 }
 
-/* Chủ đề theo cấp: Mầm non/Tiểu học tươi vui, THCS/THPT trầm & hiện đại hơn */
-body[data-stage="mam-non"] { --c-primary: #FF7FA3; --c-primary-dark: #E91E63; --c-primary-soft: #FFD3E0; }
-body[data-stage="tieu-hoc"] { --c-primary: #4DB6AC; --c-primary-dark: #00897B; --c-primary-soft: #A8E6CF; }
-body[data-stage="thcs"] { --c-primary: #5C6BC0; --c-primary-dark: #3949AB; --c-primary-soft: #C5CAE9; }
-body[data-stage="thpt"] { --c-primary: #455A64; --c-primary-dark: #263238; --c-primary-soft: #B0BEC5; }
+/* ===== Mầm non — kẹo ngọt, bo cực tròn, Baloo 2 ===== */
+body[data-stage="mam-non"] {
+  --font-display: 'Baloo 2', 'Nunito', sans-serif;
+  --font-num: 'Baloo 2', 'Nunito', sans-serif;
+  --radius-sm: 22px; --radius-md: 30px; --radius-lg: 40px;
+  --c-bg: #FFF4F7; --c-bg-tint: #FFE6EE; --c-card: #FFFFFF; --c-surface-2: #FFF0F4; --c-border: #FFE0E9;
+  --c-text: #4A2E3D; --c-text-soft: #9A6E7E;
+  --c-primary: #FF6F91; --c-primary-dark: #E8487A; --c-primary-soft: #FFE0E9;
+  --c-star: #FFC93C;
+}
+/* ===== Tiểu học — teal (giữ DNA cũ), Fredoka: dùng mặc định :root ===== */
+body[data-stage="tieu-hoc"] {
+  --font-display: 'Fredoka', 'Nunito', sans-serif; --font-num: 'Fredoka', 'Nunito', sans-serif;
+  --radius-sm: 16px; --radius-md: 22px; --radius-lg: 30px;
+}
+/* ===== THCS — hiện đại, indigo, Be Vietnam Pro ===== */
+body[data-stage="thcs"] {
+  --font-display: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  --font-body: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  --font-num: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  --radius-sm: 14px; --radius-md: 18px; --radius-lg: 24px;
+  --c-bg: #F4F6FB; --c-bg-tint: #E7EBF7; --c-card: #FFFFFF; --c-surface-2: #F1F3FA; --c-border: #E3E7F2;
+  --c-text: #1B2138; --c-text-soft: #5E657F;
+  --c-primary: #4F46E5; --c-primary-dark: #3A32C2; --c-primary-soft: #E2E1FE;
+}
+/* ===== THPT — EdTech tối giản, xanh điện, mono cho số ===== */
+body[data-stage="thpt"] {
+  --font-display: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  --font-body: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  --font-num: 'JetBrains Mono', ui-monospace, monospace;
+  --radius-sm: 12px; --radius-md: 16px; --radius-lg: 20px;
+  --c-bg: #F6F7F9; --c-bg-tint: #EAEDF3; --c-card: #FFFFFF; --c-surface-2: #F0F2F6; --c-border: #E4E7EE;
+  --c-text: #0F172A; --c-text-soft: #5A6477;
+  --c-primary: #2F6BFF; --c-primary-dark: #1E4FD6; --c-primary-soft: #DEE9FF;
+}
+
+/* ===== Dark mode (chỉ THCS/THPT — học buổi tối) ===== */
+body[data-stage="thcs"].theme-dark {
+  --c-bg: #11131D; --c-bg-tint: #181B29; --c-card: #1A1E2C; --c-surface-2: #202433; --c-border: #2A2F44;
+  --c-text: #E7E9F4; --c-text-soft: #9AA0BC;
+  --c-primary: #7C82FF; --c-primary-dark: #9CA1FF; --c-primary-soft: #2A2D55;
+  --c-correct-soft: #143726; --c-wrong-soft: #3A1E22;
+  --shadow-sm: 0 2px 10px rgba(0,0,0,.35); --shadow-md: 0 10px 28px rgba(0,0,0,.45); --shadow-lg: 0 24px 56px rgba(0,0,0,.55);
+}
+body[data-stage="thpt"].theme-dark {
+  --c-bg: #0A0D14; --c-bg-tint: #0F131D; --c-card: #141925; --c-surface-2: #1A2030; --c-border: #232A3B;
+  --c-text: #E6EAF3; --c-text-soft: #8A93AC;
+  --c-primary: #4F8DFF; --c-primary-dark: #6FA3FF; --c-primary-soft: #16233F;
+  --c-correct: #2BD27A; --c-correct-soft: #0E2E1F; --c-wrong: #FF6168; --c-wrong-soft: #34161A; --c-star: #FFC04D;
+  --shadow-sm: 0 2px 12px rgba(0,0,0,.4); --shadow-md: 0 12px 30px rgba(0,0,0,.5); --shadow-lg: 0 28px 60px rgba(0,0,0,.6);
+}
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 html, body {
-  font-family: 'Nunito', 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-body);
   font-size: 18px;
   color: var(--c-text);
   background: var(--c-bg);
-  background-image:
-    radial-gradient(circle at 10% 20%, rgba(168, 230, 207, 0.15) 0%, transparent 40%),
-    radial-gradient(circle at 90% 80%, rgba(201, 163, 255, 0.15) 0%, transparent 40%),
-    radial-gradient(circle at 50% 50%, rgba(255, 211, 182, 0.10) 0%, transparent 50%);
   min-height: 100vh;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
+h1, h2, h3, h4 { font-family: var(--font-display); }
 
 button { font-family: inherit; cursor: pointer; border: none; }
 a { color: inherit; text-decoration: none; }
@@ -870,6 +926,14 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 @keyframes fall {
   to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
 }
+
+/* ===== Nút dark mode (THCS/THPT) ===== */
+.dark-toggle {
+  width: 38px; height: 38px; border-radius: 50%; font-size: 1.1rem; line-height: 1;
+  background: var(--c-surface-2); border: 2px solid var(--c-border); color: var(--c-text);
+  display: grid; place-items: center;
+}
+.dark-toggle[hidden] { display: none; }
 
 /* ===== Tài khoản ===== */
 .account-area { display: flex; align-items: center; }
