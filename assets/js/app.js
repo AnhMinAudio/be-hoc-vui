@@ -77,7 +77,7 @@ async function route() {
 
   const parts = hash.split('/').filter(Boolean);
   // Xác định "thế giới" (cấp học) để áp chủ đề + đánh dấu tab cấp ở đầu trang
-  const PERSONAL = ['tien-trinh', 'thanh-tich', 'tai-khoan', 'doi-nhan-vat'];
+  const PERSONAL = ['tien-trinh', 'thanh-tich', 'tai-khoan', 'doi-nhan-vat', 'bang-xep-hang'];
   const world = parts[0] === 'cap' ? (parts[1] || '')
     : parts[0] === 'mam-non' ? 'mam-non'
     : (parts[0] && parts[0].startsWith('lop')) ? stageFromGrade(parseInt(parts[0].replace('lop', '')))
@@ -90,6 +90,7 @@ async function route() {
   if (parts.length === 0) return renderWorldHome(view, homeWorld());
   if (parts[0] === 'cap' && parts[1]) return renderWorldHome(view, parts[1]);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
+  if (parts[0] === 'bang-xep-hang') return renderLeaderboard(view);
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
   if (parts[0] === 'chinh-sach') return renderPolicy(view);
   if (parts[0] === 'faq') return renderFAQ(view);
@@ -861,6 +862,190 @@ function renderAchievements(view) {
       window.location.hash = '#/';
     }
   };
+}
+
+// ===== Bảng xếp hạng =====
+const LB_FILTER = { period: 'week', scope: 'lop', metric: 'stars' };
+const LB_METRIC = {
+  stars: { icon: '⭐', unit: 'sao' },
+  streak: { icon: '🔥', unit: 'ngày' },
+};
+const STAGE_LABEL = { 'mam-non': 'Mầm non', 'tieu-hoc': 'Tiểu học', 'thcs': 'THCS', 'thpt': 'THPT' };
+
+function renderLeaderboard(view) {
+  if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để xem Bảng xếp hạng', 'Đăng nhập để đua hạng cùng các bạn cùng lớp nhé!');
+  const grade = Auth.getUser().grade;
+  const stage = stageFromGrade(grade);
+  const play = stage === 'mam-non' || stage === 'tieu-hoc';
+  const back = '<a href="#/" class="back-btn">← Về trang chủ</a>';
+  const reduceMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const hero = (sub) => `
+    <div class="hero" style="padding:14px 6px 6px">
+      ${play ? mascotSVG('celebrate') : ''}
+      <h1>${play ? '🏆 ' : ''}Bảng xếp hạng</h1>
+      <p class="hero-sub">${escapeHtml(sub)}</p>
+    </div>`;
+
+  const lbSub = () => {
+    const where = LB_FILTER.scope === 'lop' ? `Lớp ${grade}` : `Toàn cấp ${STAGE_LABEL[stage]}`;
+    const when = LB_FILTER.period === 'week' ? 'Tuần này (đặt lại thứ Hai)' : 'Mọi lúc';
+    return `${where} · ${when}`;
+  };
+
+  const segHTML = (name, opts) => {
+    const n = opts.length;
+    const idx = Math.max(0, opts.findIndex(o => o.v === LB_FILTER[name]));
+    const w = 100 / n;
+    const thumb = `<span class="seg-thumb" style="width:calc(${w}% - 4px);transform:translateX(calc(${idx * 100}%))"></span>`;
+    const btns = opts.map(o => `<button class="seg-btn ${o.v === LB_FILTER[name] ? 'active' : ''}" data-seg="${name}" data-val="${o.v}">${o.icon ? `<span>${o.icon}</span>` : ''}${o.label}</button>`).join('');
+    return `<div class="seg">${thumb}${btns}</div>`;
+  };
+  const filtersHTML = () => `
+    <div class="lb-filters">
+      ${segHTML('period', [{ v: 'week', label: 'Tuần này' }, { v: 'all', label: 'Mọi lúc' }])}
+      ${segHTML('scope', [{ v: 'lop', label: 'Lớp tôi' }, { v: 'cap', label: 'Cùng cấp' }])}
+      ${segHTML('metric', [{ v: 'stars', label: 'Sao', icon: play ? '⭐' : '' }, { v: 'streak', label: 'Chuỗi ngày', icon: play ? '🔥' : '' }])}
+    </div>`;
+
+  const podiumSpot = (row, place, mi) => {
+    const medals = { 1: '🥇', 2: '🥈', 3: '🥉' };
+    if (!row) return `<div class="podium-spot p${place} empty-spot">
+      <div class="ps-avatar-wrap"><div class="ps-avatar">?</div></div>
+      <div class="ps-name">Còn trống</div><div class="ps-score">Cố lên nào!</div>
+      <div class="ps-base num">${place}</div></div>`;
+    return `<div class="podium-spot p${place}">
+      ${place === 1 && play ? '<div class="ps-crown">👑</div>' : ''}
+      <div class="ps-avatar-wrap"><div class="ps-avatar">${escapeHtml(row.avatar)}</div><span class="ps-medal">${medals[place]}</span></div>
+      <div class="ps-name">${escapeHtml(row.name)}</div>
+      <div class="ps-score">${mi.icon} <span class="num">${row.score}</span></div>
+      <div class="ps-base num">${place}</div></div>`;
+  };
+
+  const medalOrRank = (rank) => rank <= 3 ? `<span class="lb-rank-medal">${['🥇', '🥈', '🥉'][rank - 1]}</span>` : `<span class="num">${rank}</span>`;
+
+  const meCardHTML = (me, mi, hidden, noScore) => {
+    if (hidden) return `<div class="lb-me-card cta">
+      <div class="lbm-cta-text">Bạn đang ẩn khỏi bảng xếp hạng.<small>Bật công tắc bên dưới để cùng đua với các bạn nhé.</small></div></div>`;
+    if (noScore) return `<div class="lb-me-card cta">
+      <div class="lbm-cta-text">${play ? '⭐ ' : ''}Chưa có ${mi.unit} ${LB_FILTER.period === 'week' ? 'tuần này' : ''} — làm 1 bài để lên bảng nhé!<small>Hạng của bé sẽ hiện ở đây ngay khi có điểm.</small></div>
+      <a href="#/" class="btn btn-primary">Làm bài ngay</a></div>`;
+    const top3 = me.rank <= 3;
+    const subCls = top3 ? 'up' : 'same';
+    const subTxt = top3 ? 'Trong nhóm dẫn đầu! 🎉' : 'Cố lên để tiến hạng nhé!';
+    const right = top3
+      ? `<div class="lbm-medal">${['🥇', '🥈', '🥉'][me.rank - 1]}</div>`
+      : `<div class="lbm-rank num" data-count="${me.rank}" data-prefix="#">#${me.rank}</div>`;
+    return `<div class="lb-me-card">
+      <div class="lbm-avatar">${escapeHtml(me.avatar)}</div>
+      <div class="lbm-info">
+        <div class="lbm-label">Hạng của bé</div>
+        <div class="lbm-name">${escapeHtml(me.name)}</div>
+        <div class="lbm-sub ${subCls}">${subTxt}</div>
+      </div>
+      <div class="lbm-right">${right}<div class="lbm-score">${mi.icon} ${me.score} ${mi.unit}</div></div>
+    </div>`;
+  };
+
+  const rowHTML = (r, me, mi) => `<div class="lb-row ${r.isMe ? 'lb-me' : ''}">
+    <span class="lb-rank">${medalOrRank(r.rank)}</span>
+    <span class="lb-avatar">${escapeHtml(r.avatar)}</span>
+    <span class="lb-name">${escapeHtml(r.name)}</span>
+    <span class="lb-score"><span class="lb-star">${mi.icon}</span><span class="num">${r.score}</span></span></div>`;
+
+  const paintLoading = () => {
+    view.innerHTML = back + hero('Đang tải…') + `
+      <div class="lb-skeleton">
+        <div class="lb-me-card" style="background:var(--c-card);border:1px solid var(--c-border)">
+          <div class="sk" style="width:54px;height:54px;border-radius:50%"></div>
+          <div class="lbm-info"><div class="sk" style="width:60%;height:14px;margin-bottom:8px"></div><div class="sk" style="width:40%;height:12px"></div></div>
+        </div>
+        <div class="sk-podium"><div class="sk" style="height:90px"></div><div class="sk" style="height:120px"></div><div class="sk" style="height:70px"></div></div>
+        ${[0, 1, 2, 3, 4].map(() => '<div class="sk sk-row"></div>').join('')}
+      </div>`;
+  };
+
+  const countUp = () => {
+    if (reduceMotion()) return;
+    view.querySelectorAll('[data-count]').forEach(el => {
+      const target = parseInt(el.dataset.count, 10) || 0;
+      const pre = el.dataset.prefix || '';
+      if (target <= 0) { el.textContent = pre + target; return; }
+      const start = performance.now(), dur = 420;
+      const stepFn = (t) => {
+        const p = Math.min(1, (t - start) / dur);
+        el.textContent = pre + Math.round(target * (1 - Math.pow(1 - p, 3)));
+        if (p < 1) requestAnimationFrame(stepFn);
+      };
+      requestAnimationFrame(stepFn);
+    });
+  };
+
+  const paint = (data) => {
+    if (!data || !data.ok) {
+      view.innerHTML = back + hero(lbSub()) + filtersHTML() +
+        emptyState('Không tải được bảng xếp hạng.', 'Kiểm tra kết nối và thử lại nhé.',
+          '<button class="btn btn-primary" id="lb-retry" style="margin-top:12px">Thử lại</button>');
+      attach();
+      const r = view.querySelector('#lb-retry'); if (r) r.onclick = load;
+      return;
+    }
+    const me = data.me, top = data.top || [], total = data.total || 0;
+    const mi = LB_METRIC[LB_FILTER.metric];
+    const hidden = !!me.hidden;
+    const noScore = !hidden && (!me.rank || me.score === 0);
+    const solo = total === 1 && me.rank === 1;
+    const champ = me.rank === 1 && total > 1;
+
+    let html = back + hero(lbSub());
+    if (champ) html += `<div class="lb-champ-banner"><span class="cb-ic">👑</span><span><b>Quán quân tuần!</b><small>Bé đang dẫn đầu ${LB_FILTER.scope === 'lop' ? 'lớp ' + grade : 'cấp ' + STAGE_LABEL[stage]}. Tuyệt vời!</small></span></div>`;
+    html += meCardHTML(me, mi, hidden, noScore);
+    html += filtersHTML();
+
+    if (top.length === 0) {
+      html += emptyState('Chưa có ai trên bảng.', 'Hãy là người đầu tiên ghi tên lên bảng nhé!',
+        '<a href="#/" class="btn btn-primary" style="margin-top:12px">Làm bài ngay</a>');
+    } else {
+      html += `<div class="lb-podium">${podiumSpot(top[1], 2, mi)}${podiumSpot(top[0], 1, mi)}${podiumSpot(top[2], 3, mi)}</div>`;
+      if (solo) html += '<p class="lb-note solo">Bé đang dẫn đầu! Rủ bạn cùng học để đua nào 🎉</p>';
+      const listRows = top.slice(3);
+      if (listRows.length) {
+        html += '<div class="lb-list-title">Bảng đầy đủ</div><div class="lb-list">' + listRows.map(r => rowHTML(r, me, mi)).join('') + '</div>';
+      }
+    }
+
+    html += `<div class="lb-privacy"><div class="lp-info"><b>Hiện tên mình trên bảng xếp hạng</b><small>${hidden ? 'Bạn đang ẩn khỏi bảng. Bật để cùng đua nhé.' : 'Chỉ hiển thị biệt danh & nhân vật, không có thông tin thật của bé.'}</small></div><button class="switch ${hidden ? '' : 'on'}" id="lb-switch" aria-label="Hiện tên trên bảng"></button></div>`;
+    html += '<p class="lb-note">Bảng chỉ hiển thị biệt danh &amp; nhân vật. Không có tên thật, trường lớp hay ảnh của bé.</p>';
+
+    const listRows = top.slice(3);
+    const meInList = listRows.some(r => r.isMe);
+    if (!hidden && !noScore && me.rank && me.rank > 3 && !meInList) {
+      html += `<div class="lb-sticky-me lb-row"><span class="lb-rank num">${me.rank}</span><span class="lb-avatar">${escapeHtml(me.avatar)}</span><span class="lb-name">${escapeHtml(me.name)}</span><span class="lb-score"><span class="lb-star">${mi.icon}</span><span class="num">${me.score}</span></span></div>`;
+    }
+
+    view.innerHTML = html;
+    attach();
+    countUp();
+    if (champ && !reduceMotion()) setTimeout(confetti, 300);
+  };
+
+  const attach = () => {
+    view.querySelectorAll('.seg-btn').forEach(b => {
+      b.onclick = () => { LB_FILTER[b.dataset.seg] = b.dataset.val; load(); };
+    });
+    const sw = view.querySelector('#lb-switch');
+    if (sw) sw.onclick = async () => { sw.style.pointerEvents = 'none'; await Auth.getLeaderboard({ ...LB_FILTER, setHidden: sw.classList.contains('on') }); load(); };
+  };
+
+  const load = async () => {
+    paintLoading();
+    const guard = window.location.hash;
+    const data = await Auth.getLeaderboard(LB_FILTER);
+    if (window.location.hash !== guard) return; // người dùng đã rời màn
+    paint(data);
+  };
+
+  load();
 }
 
 async function renderExercise(view, id) {

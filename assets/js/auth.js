@@ -103,5 +103,12 @@ const Auth = (() => {
     refreshFromServer(); // bất đồng bộ; re-render khi có dữ liệu mới nhất
   }
 
-  return { isLoggedIn, getUser, register, login, logout, syncUp, consumeDeletedNotice, countsForExercise };
+  // Lấy bảng xếp hạng (kèm xác thực). params: { scope, period, metric, setHidden? }
+  async function getLeaderboard(params) {
+    if (!session) return { ok: false, error: 'auth' };
+    return api('/api/leaderboard', { username: session.username, token: session.token, ...params })
+      .catch(() => ({ ok: false, error: 'network' }));
+  }
+
+  return { isLoggedIn, getUser, register, login, logout, syncUp, consumeDeletedNotice, countsForExercise, getLeaderboard };
 })();
