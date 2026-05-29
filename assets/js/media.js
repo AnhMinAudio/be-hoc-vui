@@ -62,12 +62,18 @@ const Media = (() => {
   function speak(text) {
     if (!('speechSynthesis' in window) || !text) return;
     try {
-      window.speechSynthesis.cancel();
+      const synth = window.speechSynthesis;
+      // Chỉ huỷ khi đang/đang chờ đọc. Gọi cancel() lúc hàng đợi rỗng là lỗi
+      // đã biết của Chrome: câu kế tiếp bị "nuốt", loa im re.
+      if (synth.speaking || synth.pending) synth.cancel();
+      // Chrome đôi khi kẹt ở trạng thái paused làm speak() không phát.
+      synth.resume();
+      if (!viVoice) pickVoice(); // lần đầu getVoices() có thể rỗng → thử lại
       const u = new SpeechSynthesisUtterance(text);
       u.lang = 'vi-VN';
       u.rate = 0.9;
       if (viVoice) u.voice = viVoice;
-      window.speechSynthesis.speak(u);
+      synth.speak(u);
     } catch (e) { /* bỏ qua nếu thiết bị không hỗ trợ */ }
   }
 
