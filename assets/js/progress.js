@@ -11,9 +11,9 @@ const Progress = (() => {
   function load() {
     try {
       const d = JSON.parse(localStorage.getItem(activeKey));
-      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } }, d || {});
+      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, speed: { questions: 0, timeMs: 0 } }, d || {});
     } catch {
-      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } };
+      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, speed: { questions: 0, timeMs: 0 } };
     }
   }
 
@@ -133,9 +133,23 @@ const Progress = (() => {
     if (afterSave) { try { afterSave(data); } catch {} }
   }
 
+  // Sổ ghi sao theo ngày: số sao kiếm được mỗi ngày (mọi bài tính điểm).
+  // Dùng cho bảng xếp hạng "sao tuần này" chính xác. Giữ ~35 ngày gần nhất.
+  const STARLOG_DAYS = 35;
+  function pruneStarLog(log) {
+    const d = new Date(); d.setHours(0, 0, 0, 0);
+    d.setDate(d.getDate() - (STARLOG_DAYS - 1));
+    const cutoff = dateKey(d);
+    const out = {};
+    for (const k of Object.keys(log || {})) if (k >= cutoff) out[k] = log[k];
+    return out;
+  }
+
   function addStars(n) {
     const data = load();
     data.stars += n;
+    data.starLog = pruneStarLog(data.starLog || {});
+    if (n) { const k = todayKey(); data.starLog[k] = (data.starLog[k] || 0) + n; }
     save(data);
     return data.stars;
   }

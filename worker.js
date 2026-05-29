@@ -59,7 +59,7 @@ async function readBody(request) {
   try { return await request.json(); } catch { return {}; }
 }
 function emptyProgress() {
-  return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, speed: { questions: 0, timeMs: 0 } };
+  return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, speed: { questions: 0, timeMs: 0 } };
 }
 
 async function getAccount(env, name) {
@@ -169,13 +169,20 @@ function nextMondayISO(ms) {
   d.setUTCDate(d.getUTCDate() + (7 - dow));
   return `${d.getUTCFullYear()}-${pad2(d.getUTCMonth() + 1)}-${pad2(d.getUTCDate())}T00:00:00+07:00`;
 }
-// Tổng "sao" trong khoảng [fromKey, toKey) theo nhật ký ngày (toKey=null → tới nay)
-function starsBetween(dailyLog, fromKey, toKey) {
+// Tổng sao trong khoảng [fromKey, toKey) theo SỔ SAO ngày (toKey=null → tới nay)
+function starsBetween(starLog, fromKey, toKey) {
   let sum = 0;
-  for (const [k, day] of Object.entries(dailyLog || {})) {
-    if (k >= fromKey && (toKey === null || k < toKey)) for (const r of Object.values((day && day.subjects) || {})) sum += (r.score || 0);
+  for (const [k, v] of Object.entries(starLog || {})) {
+    if (k >= fromKey && (toKey === null || k < toKey)) sum += (v || 0);
   }
   return sum;
+}
+// Cắt bớt sổ sao trên máy chủ (giữ ~6.5 tuần) để khỏi phình
+function pruneStarLogSrv(log, ms) {
+  const cutoff = vnMondayKey(ms - 45 * 86400 * 1000);
+  const out = {};
+  for (const k of Object.keys(log || {})) if (k >= cutoff) out[k] = log[k];
+  return out;
 }
 function prevDateKey(key) {
   const [y, m, d] = key.split('-').map(Number);
@@ -194,7 +201,8 @@ function streakEndingAt(dailyLog, endKey) {
 // Tóm tắt 1 tài khoản kèm số liệu "tuần trước" để tính delta tăng/giảm bậc
 function summarize(acc, ms) {
   const p = acc.progress || {};
-  const log = p.dailyLog || {};
+  const starLog = p.starLog || {};
+  const dayLog = p.dailyLog || {};   // streak vẫn dựa trên ngày có làm bài
   const thisMon = vnMondayKey(ms);
   const lastMon = vnMondayKey(ms - 7 * 86400 * 1000);
   return {
@@ -203,10 +211,10 @@ function summarize(acc, ms) {
     grade: acc.grade,
     avatar: p.avatar || '🐣',
     starsAll: p.stars || 0,
-    starsWeek: starsBetween(log, thisMon, null),
-    starsPrevWeek: starsBetween(log, lastMon, thisMon),
-    streak: streakEndingAt(log, vnDate(ms).key),
-    streakPrev: streakEndingAt(log, prevDateKey(thisMon)), // tính tới hết tuần trước
+    starsWeek: starsBetween(starLog, thisMon, null),
+    starsPrevWeek: starsBetween(starLog, lastMon, thisMon),
+    streak: streakEndingAt(dayLog, vnDate(ms).key),
+    streakPrev: streakEndingAt(dayLog, prevDateKey(thisMon)), // tính tới hết tuần trước
     optOut: !!acc.lbOptOut,
   };
 }
@@ -364,6 +372,13 @@ function mergeProgress(a, b) {
   out.speed = (sb.questions || 0) >= (sa.questions || 0)
     ? { questions: sb.questions || 0, timeMs: sb.timeMs || 0 }
     : { questions: sa.questions || 0, timeMs: sa.timeMs || 0 };
+
+  // starLog: union ngày, giữ giá trị lớn hơn mỗi ngày (nhất quán với stars = max)
+  const sl = {};
+  for (const day of new Set([...Object.keys(a.starLog || {}), ...Object.keys(b.starLog || {})])) {
+    sl[day] = Math.max((a.starLog || {})[day] || 0, (b.starLog || {})[day] || 0);
+  }
+  out.starLog = pruneStarLogSrv(sl, Date.now());
 
   return out;
 }
