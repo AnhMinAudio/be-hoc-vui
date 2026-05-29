@@ -1,0 +1,132 @@
+{
+  "id": "thcs-toan-l7-on-tap-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 7,
+  "topic": "Ôn tập cuối học kỳ 2 — Toán 7",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ tỉ lệ thức $\\dfrac{x}{4} = \\dfrac{3}{6}$, giá trị của $x$ là:",
+      "options": ["$2$", "$8$", "$\\dfrac{1}{2}$", "$6$"],
+      "answer": 0,
+      "hint": "$x = \\dfrac{4 \\times 3}{6} = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nếu $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 3$ thì công thức liên hệ là:",
+      "options": ["$y = 3x$", "$y = \\dfrac{3}{x}$", "$y = x + 3$", "$x = 3y$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bậc của đa thức $P(x) = 2x^3 - 5x + 1$ là:",
+      "options": ["$3$", "$2$", "$1$", "$0$"],
+      "answer": 0,
+      "hint": "Bậc là số mũ cao nhất của biến."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hệ số tự do của đa thức $P(x) = 4x^2 - 7x + 5$ là:",
+      "options": ["$5$", "$4$", "$-7$", "$2$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong một tam giác, cạnh đối diện với góc lớn hơn là:",
+      "options": ["cạnh lớn hơn", "cạnh nhỏ hơn", "cạnh bằng nhau", "không xác định được"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là:",
+      "options": ["trọng tâm", "trực tâm", "tâm đường tròn ngoại tiếp", "tâm đường tròn nội tiếp"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho $\\dfrac{a}{b} = \\dfrac{c}{d}$. Khẳng định nào đúng theo tính chất tỉ lệ thức?",
+      "options": ["$ad = bc$", "$ac = bd$", "$ab = cd$", "$a + d = b + c$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính giá trị của đa thức $P(x) = x^2 - 3x + 2$ tại $x = 2$:",
+      "options": ["$0$", "$2$", "$12$", "$-2$"],
+      "answer": 0,
+      "hint": "$2^2 - 3 \\times 2 + 2 = 4 - 6 + 2 = 0$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về đại lượng tỉ lệ và đa thức:",
+      "statements": [
+        { "text": "Nếu $y = \\dfrac{12}{x}$ thì $y$ tỉ lệ nghịch với $x$.", "answer": true },
+        { "text": "Đa thức $2x + 1$ có nghiệm $x = -\\dfrac{1}{2}$.", "answer": true },
+        { "text": "Bậc của đa thức hằng $5$ (khác $0$) là $1$.", "answer": false },
+        { "text": "Một tam giác có thể có hai góc tù.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Thu gọn đa thức $3x + 5x - 2x$ được kết quả là $\\square x$. Số điền vào ô vuông là ___",
+      "answer": "6",
+      "hint": "$3 + 5 - 2 = 6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tổng số đo ba góc trong một tam giác bằng:",
+      "options": ["$180^\\circ$", "$360^\\circ$", "$90^\\circ$", "$270^\\circ$"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau; khi $x = 4$ thì $y = 10$. Khi $x = 6$ thì $y$ bằng ___",
+      "answer": "15",
+      "hint": "Hệ số tỉ lệ $k = \\dfrac{10}{4} = 2{,}5$; $y = 2{,}5 \\times 6 = 15$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Chia số $90$ thành hai phần tỉ lệ với $2$ và $3$. Phần lớn hơn là ___",
+      "answer": "54",
+      "hint": "Phần lớn $= 90 \\times \\dfrac{3}{2 + 3} = 54$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ba người thợ làm xong một công việc trong $6$ ngày. Hỏi $9$ người thợ (cùng năng suất) làm xong công việc đó trong bao nhiêu ngày?",
+      "options": ["$2$ ngày", "$18$ ngày", "$4{,}5$ ngày", "$3$ ngày"],
+      "answer": 0,
+      "hint": "Số người và số ngày tỉ lệ nghịch: $3 \\times 6 = 9 \\times t \\Rightarrow t = 2$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tìm $x, y$ biết $\\dfrac{x}{3} = \\dfrac{y}{5}$ và $x + y = 32$. Giá trị của $y$ là ___",
+      "answer": "20",
+      "hint": "Đặt $\\dfrac{x}{3} = \\dfrac{y}{5} = k$; $3k + 5k = 32 \\Rightarrow k = 4 \\Rightarrow y = 20$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Cho đa thức $P(x) = x^2 - 5x + 6$. Tập nghiệm của đa thức là:",
+      "options": ["$x = 2$ và $x = 3$", "$x = -2$ và $x = -3$", "$x = 1$ và $x = 6$", "$x = 0$"],
+      "answer": 0,
+      "hint": "$2^2 - 5 \\times 2 + 6 = 0$ và $3^2 - 5 \\times 3 + 6 = 0$."
+    }
+  ]
+}

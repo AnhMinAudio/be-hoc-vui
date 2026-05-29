@@ -1,0 +1,130 @@
+{
+  "id": "thcs-tienganh-l6-on-tap-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 6,
+  "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh 6",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'recycle' mean? (Từ 'recycle' nghĩa là gì?)",
+      "options": ["tái chế", "vứt bỏ", "đốt cháy", "mua sắm"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'ti vi'? ('ti vi' tiếng Anh là gì?)",
+      "options": ["television", "radio", "computer", "telephone"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the comparative form of 'big'. (Chọn dạng so sánh hơn của 'big')",
+      "options": ["bigger", "biger", "more big", "biggest"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which sport do you play with a racket? (Môn thể thao nào chơi bằng vợt?)",
+      "options": ["tennis", "football", "swimming", "running"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Complete the sentence: 'In the future, robots ___ help us.' (Trong tương lai, robot sẽ giúp ta — điền 'will')",
+      "answer": "will",
+      "alternatives": ["Will"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the superlative: 'Mount Everest is the ___ mountain in the world.' (cao nhất)",
+      "options": ["highest", "higher", "high", "more high"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete (first conditional): 'If we recycle paper, we ___ trees.' (Nếu tái chế giấy, ta sẽ cứu cây)",
+      "options": ["will save", "saved", "saving", "to save"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'My house is ___ than your house.' (to hơn)",
+      "options": ["bigger", "biggest", "big", "more big"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Decide True or False (Xét đúng/sai):",
+      "statements": [
+        { "text": "'taller' is the comparative form of 'tall'.", "answer": true },
+        { "text": "We use 'will' to talk about the future.", "answer": true },
+        { "text": "Football is played with a racket.", "answer": false },
+        { "text": "Recycling helps protect the environment.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Write the plural of 'tree' in English (Viết dạng số nhiều của 'tree'): ___",
+      "answer": "trees",
+      "alternatives": ["Trees"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the correct sentence about a future house (Chọn câu đúng về ngôi nhà tương lai)",
+      "options": ["There will be a robot in the house.", "There is will a robot.", "Robot there will house.", "House will robot is."],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "What should you do to have a greener world? (Em nên làm gì cho thế giới xanh hơn?)",
+      "options": ["reuse and recycle things", "throw away everything", "cut down trees", "waste water"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Hello! I'm Mai. I think houses will be different in the future. There will be smart robots to help us clean and cook. Houses will use solar energy from the sun. I hope my future house will be green and modern.",
+      "question": "Who is talking about the future house? (Ai đang nói về ngôi nhà tương lai?)",
+      "options": ["Mai", "Nam", "Lan", "Tom"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Hello! I'm Mai. I think houses will be different in the future. There will be smart robots to help us clean and cook. Houses will use solar energy from the sun. I hope my future house will be green and modern.",
+      "question": "What will help us clean and cook? (Cái gì sẽ giúp dọn dẹp và nấu ăn?)",
+      "options": ["smart robots", "cats", "cars", "trees"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Hello! I'm Mai. I think houses will be different in the future. There will be smart robots to help us clean and cook. Houses will use solar energy from the sun. I hope my future house will be green and modern.",
+      "question": "What energy will the houses use? (Những ngôi nhà sẽ dùng năng lượng gì?)",
+      "options": ["solar energy", "coal", "oil", "wood"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Your friend wastes a lot of paper. What is the best advice? (Bạn em lãng phí nhiều giấy. Lời khuyên tốt nhất là gì?)",
+      "options": ["You should recycle and reuse paper.", "Throw all the paper away.", "Burn the paper.", "Buy more paper."],
+      "answer": 0
+    }
+  ]
+}

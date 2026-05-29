@@ -1,0 +1,133 @@
+{
+  "id": "thcs-nguvan-l8-on-tap-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 8,
+  "topic": "Ôn tập cuối học kỳ 2 — Ngữ văn 8",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Quê hương là nơi ta sinh ra và lớn lên, nơi lưu giữ những kỉ niệm êm đềm của tuổi thơ. Dù đi đâu, về đâu, mỗi người vẫn luôn hướng về quê hương với tình yêu tha thiết. Bởi quê hương chính là cội nguồn, là điểm tựa tinh thần của mỗi chúng ta.",
+      "question": "Theo đoạn văn, quê hương là nơi như thế nào?",
+      "options": ["nơi ta sinh ra, lớn lên và lưu giữ kỉ niệm tuổi thơ", "nơi xa lạ", "nơi chỉ để làm việc", "nơi để đi du lịch"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Quê hương là nơi ta sinh ra và lớn lên, nơi lưu giữ những kỉ niệm êm đềm của tuổi thơ. Dù đi đâu, về đâu, mỗi người vẫn luôn hướng về quê hương với tình yêu tha thiết. Bởi quê hương chính là cội nguồn, là điểm tựa tinh thần của mỗi chúng ta.",
+      "question": "Tình cảm của con người dành cho quê hương được miêu tả ra sao?",
+      "options": ["yêu tha thiết, luôn hướng về", "thờ ơ, lạnh nhạt", "ghét bỏ", "quên lãng"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Quê hương là nơi ta sinh ra và lớn lên, nơi lưu giữ những kỉ niệm êm đềm của tuổi thơ. Dù đi đâu, về đâu, mỗi người vẫn luôn hướng về quê hương với tình yêu tha thiết. Bởi quê hương chính là cội nguồn, là điểm tựa tinh thần của mỗi chúng ta.",
+      "question": "Câu 'Bởi quê hương chính là cội nguồn...' có vai trò gì trong đoạn văn?",
+      "options": ["nêu lí do, khẳng định ý nghĩa của quê hương", "mở đầu đoạn", "đặt câu hỏi", "miêu tả cảnh vật"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Quê hương là nơi ta sinh ra và lớn lên, nơi lưu giữ những kỉ niệm êm đềm của tuổi thơ. Dù đi đâu, về đâu, mỗi người vẫn luôn hướng về quê hương với tình yêu tha thiết. Bởi quê hương chính là cội nguồn, là điểm tựa tinh thần của mỗi chúng ta.",
+      "question": "Đoạn văn trên chủ yếu sử dụng phương thức biểu đạt nào?",
+      "options": ["biểu cảm kết hợp nghị luận", "tự sự", "thuyết minh", "miêu tả thuần túy"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào sau đây là từ Hán Việt?",
+      "options": ["giang sơn", "sông núi", "đất nước", "quê nhà"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong câu 'Chính quê hương đã nuôi dưỡng tâm hồn tôi.', từ 'Chính' là:",
+      "options": ["trợ từ (dùng để nhấn mạnh)", "thán từ", "quan hệ từ", "số từ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Câu 'Ôi, quê hương đẹp biết bao!' chứa thán từ nào?",
+      "options": ["Ôi", "quê hương", "đẹp", "biết bao"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về tiếng Việt:",
+      "statements": [
+        { "text": "Từ Hán Việt 'phụ huynh' có nghĩa là cha anh (cha mẹ học sinh).", "answer": true },
+        { "text": "Câu 'Tôi không đi học.' là câu phủ định.", "answer": true },
+        { "text": "Thán từ dùng để bộc lộ cảm xúc hoặc dùng để gọi đáp.", "answer": true },
+        { "text": "Trợ từ là từ dùng để chỉ số lượng chính xác.", "answer": false }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào sau đây là câu khẳng định?",
+      "options": ["Em rất yêu quê hương.", "Em không thích xa quê.", "Chẳng ai muốn rời xa quê.", "Đâu có chuyện đó."],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm một từ Hán Việt đồng nghĩa với 'nước nhà': ___",
+      "answer": "tổ quốc",
+      "alternatives": ["quốc gia", "Tổ quốc"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu 'Ai mà chẳng yêu quê hương mình?' sử dụng biện pháp tu từ nào?",
+      "options": ["câu hỏi tu từ", "so sánh", "nhân hóa", "nói quá"],
+      "answer": 0,
+      "hint": "Hỏi nhưng không nhằm để hỏi, mà để khẳng định."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu 'Đẹp vô cùng Tổ quốc ta ơi!' sử dụng biện pháp tu từ nào?",
+      "options": ["đảo ngữ", "điệp ngữ", "hoán dụ", "nói giảm nói tránh"],
+      "answer": 0,
+      "hint": "Vị ngữ 'Đẹp vô cùng' được đảo lên trước chủ ngữ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ 'tha thiết' trong đoạn văn thuộc loại từ nào?",
+      "options": ["tính từ", "danh từ", "số từ", "trợ từ"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền quan hệ từ thích hợp: 'Tuy đi xa quê ___ ông vẫn luôn nhớ về nguồn cội.'",
+      "answer": "nhưng",
+      "alternatives": ["mà", "song"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai từ 'cội nguồn' và 'gốc rễ' có quan hệ với nhau như thế nào?",
+      "options": ["gần nghĩa (đồng nghĩa)", "trái nghĩa", "đồng âm", "không liên quan"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Để thể hiện tình yêu quê hương, là học sinh em nên làm gì?",
+      "options": ["học tập tốt, giữ gìn và góp phần xây dựng quê hương", "rời bỏ quê hương càng sớm càng tốt", "chê bai quê mình", "thờ ơ với mọi việc ở quê"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "thcs-tienganh-l8-on-tap-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 8,
+  "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh 8",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'pollution' mean? (Từ 'pollution' nghĩa là gì?)",
+      "options": ["sự ô nhiễm", "năng lượng", "thiên tai", "giao thông"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'động đất'? ('động đất' tiếng Anh là gì?)",
+      "options": ["earthquake", "flood", "storm", "drought"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which is a renewable energy source? (Đâu là nguồn năng lượng tái tạo?)",
+      "options": ["solar energy", "coal", "oil", "natural gas"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct passive form: 'Trees ___ by people.' (Cây được trồng bởi con người)",
+      "options": ["are planted", "plant", "planting", "plants"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Complete (first conditional): 'If we save energy, we ___ money.' (điền 'will save')",
+      "answer": "will save",
+      "alternatives": ["save"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Past continuous: 'I ___ TV when the phone rang.' (đang xem)",
+      "options": ["was watching", "watch", "watched", "am watching"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the passive form: 'The letter ___ yesterday.' (đã được gửi đi)",
+      "options": ["was sent", "sent", "sends", "is sending"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which one causes air pollution? (Điều gì gây ô nhiễm không khí?)",
+      "options": ["car exhaust fumes", "planting trees", "walking", "recycling"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Decide True or False (Xét đúng/sai):",
+      "statements": [
+        { "text": "Solar and wind are renewable energy sources.", "answer": true },
+        { "text": "We use the past continuous to describe an action in progress in the past.", "answer": true },
+        { "text": "'was built' is a passive form.", "answer": true },
+        { "text": "Burning coal does not cause any pollution.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Write the past participle of 'do' (Viết quá khứ phân từ của 'do'): It is ___.",
+      "answer": "done",
+      "alternatives": ["Done"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the best way to reduce pollution (Chọn cách tốt nhất để giảm ô nhiễm)",
+      "options": ["use public transport and bicycles", "drive cars more often", "burn rubbish", "cut down trees"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Complete (second conditional): 'If I were rich, I ___ help poor people.' (điều kiện không có thực)",
+      "options": ["would", "will", "am", "did"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Air pollution is a serious problem in many big cities. It is mainly caused by smoke from factories and exhaust fumes from vehicles. To reduce air pollution, people should use public transport, ride bicycles and plant more trees. Everyone can help to protect our environment.",
+      "question": "What is the passage mainly about? (Đoạn văn nói chủ yếu về điều gì?)",
+      "options": ["air pollution and how to reduce it", "famous festivals", "English food", "houses in the future"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Air pollution is a serious problem in many big cities. It is mainly caused by smoke from factories and exhaust fumes from vehicles. To reduce air pollution, people should use public transport, ride bicycles and plant more trees. Everyone can help to protect our environment.",
+      "question": "What mainly causes air pollution, according to the passage? (Theo bài, điều gì chủ yếu gây ô nhiễm không khí?)",
+      "options": ["smoke from factories and exhaust fumes from vehicles", "planting trees", "riding bicycles", "using public transport"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Air pollution is a serious problem in many big cities. It is mainly caused by smoke from factories and exhaust fumes from vehicles. To reduce air pollution, people should use public transport, ride bicycles and plant more trees. Everyone can help to protect our environment.",
+      "question": "What should people do to reduce air pollution? (Mọi người nên làm gì để giảm ô nhiễm không khí?)",
+      "options": ["use public transport, ride bicycles and plant trees", "drive more cars", "build more factories", "burn more coal"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Your city has a lot of traffic pollution. What is the best suggestion? (Thành phố em bị ô nhiễm do giao thông. Đề xuất nào tốt nhất?)",
+      "options": ["We should use buses and bikes more often.", "We should buy more private cars.", "We should burn more fuel.", "We should drive everywhere every day."],
+      "answer": 0
+    }
+  ]
+}

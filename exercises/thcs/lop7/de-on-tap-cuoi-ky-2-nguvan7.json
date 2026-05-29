@@ -1,0 +1,133 @@
+{
+  "id": "thcs-nguvan-l7-on-tap-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 7,
+  "topic": "Ôn tập cuối học kỳ 2 — Ngữ văn 7",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Sách là người bạn lớn của con người. Mỗi cuốn sách hay mở ra trước mắt ta bao điều mới lạ về thế giới. Đọc sách giúp ta mở mang hiểu biết, nuôi dưỡng tâm hồn và rèn luyện cách suy nghĩ. Vì vậy, hãy tạo cho mình thói quen đọc sách mỗi ngày.",
+      "question": "Theo đoạn văn, sách được ví là gì của con người?",
+      "options": ["người bạn lớn", "kẻ thù", "món đồ chơi", "công cụ kiếm tiền"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Sách là người bạn lớn của con người. Mỗi cuốn sách hay mở ra trước mắt ta bao điều mới lạ về thế giới. Đọc sách giúp ta mở mang hiểu biết, nuôi dưỡng tâm hồn và rèn luyện cách suy nghĩ. Vì vậy, hãy tạo cho mình thói quen đọc sách mỗi ngày.",
+      "question": "Đọc sách mang lại những lợi ích nào?",
+      "options": ["mở mang hiểu biết, nuôi dưỡng tâm hồn, rèn luyện cách suy nghĩ", "chỉ làm tốn thời gian", "gây mệt mỏi", "không có ích gì"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Sách là người bạn lớn của con người. Mỗi cuốn sách hay mở ra trước mắt ta bao điều mới lạ về thế giới. Đọc sách giúp ta mở mang hiểu biết, nuôi dưỡng tâm hồn và rèn luyện cách suy nghĩ. Vì vậy, hãy tạo cho mình thói quen đọc sách mỗi ngày.",
+      "question": "Xét theo mục đích nói, câu cuối đoạn văn ('Vì vậy, hãy tạo... mỗi ngày.') thuộc kiểu câu nào?",
+      "options": ["câu cầu khiến", "câu nghi vấn", "câu cảm thán", "câu trần thuật kể sự việc"],
+      "answer": 0,
+      "hint": "Câu có từ 'hãy' nêu lời khuyên, đề nghị."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Sách là người bạn lớn của con người. Mỗi cuốn sách hay mở ra trước mắt ta bao điều mới lạ về thế giới. Đọc sách giúp ta mở mang hiểu biết, nuôi dưỡng tâm hồn và rèn luyện cách suy nghĩ. Vì vậy, hãy tạo cho mình thói quen đọc sách mỗi ngày.",
+      "question": "Đoạn văn trên thuộc kiểu văn bản nào?",
+      "options": ["nghị luận", "tự sự", "miêu tả", "biểu cảm"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu tục ngữ 'Có công mài sắt, có ngày nên kim' khuyên ta điều gì?",
+      "options": ["kiên trì, bền bỉ thì sẽ thành công", "nên đi mài sắt", "phải biết làm kim", "không nên bỏ cuộc khi mài sắt"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Biện pháp tu từ trong câu 'Bàn tay ta làm nên tất cả' (chỉ sức lao động của con người) là:",
+      "options": ["hoán dụ", "so sánh", "nói quá", "nhân hóa"],
+      "answer": 0,
+      "hint": "Lấy 'bàn tay' (một bộ phận) để chỉ con người lao động."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong câu 'Em đã làm bài xong.', từ 'đã' là:",
+      "options": ["phó từ (chỉ thời gian quá khứ)", "danh từ", "số từ", "động từ"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về tiếng Việt:",
+      "statements": [
+        { "text": "Tục ngữ thường ngắn gọn, có vần điệu, đúc kết kinh nghiệm.", "answer": true },
+        { "text": "Nói giảm nói tránh dùng để diễn đạt tế nhị, tránh gây cảm giác nặng nề.", "answer": true },
+        { "text": "Số từ là từ chỉ hành động.", "answer": false },
+        { "text": "Phép lặp từ ngữ là một cách liên kết câu.", "answer": true }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong câu 'Hai bạn học sinh đang quét sân.', từ nào là số từ?",
+      "options": ["Hai", "bạn", "học sinh", "quét"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm một từ đồng nghĩa với 'siêng năng': ___",
+      "answer": "chăm chỉ",
+      "alternatives": ["cần cù", "chịu khó"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu 'Anh ấy đã ra đi mãi mãi.' (ý nói về cái chết) sử dụng biện pháp tu từ nào?",
+      "options": ["nói giảm nói tránh", "nói quá", "so sánh", "điệp ngữ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Thành ngữ 'Chậm như rùa' sử dụng biện pháp tu từ nào?",
+      "options": ["so sánh", "nhân hóa", "ẩn dụ", "hoán dụ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Dấu chấm lửng (…) trong câu có thể dùng để làm gì?",
+      "options": ["thể hiện lời nói bỏ dở hoặc liệt kê chưa hết", "kết thúc câu hỏi", "ngăn cách chủ ngữ và vị ngữ", "thay cho dấu phẩy"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền quan hệ từ thích hợp để liên kết hai vế: 'Trời mưa to ___ em vẫn đi học đúng giờ.'",
+      "answer": "nhưng",
+      "alternatives": ["mà", "song"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ 'mở mang' trong đoạn văn có nghĩa gần với:",
+      "options": ["mở rộng, làm tăng thêm", "đóng lại", "thu hẹp", "giữ nguyên"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Để rèn thói quen đọc sách tốt, việc làm nào hợp lí nhất?",
+      "options": ["đọc mỗi ngày một ít và chọn sách phù hợp với mình", "chỉ đọc khi sắp thi", "đọc thật nhanh cho xong", "không cần đọc, chỉ xem video"],
+      "answer": 0
+    }
+  ]
+}

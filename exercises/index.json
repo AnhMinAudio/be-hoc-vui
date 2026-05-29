@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T07:54:46.245Z",
+  "generatedAt": "2026-05-29T08:09:24.283Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -792,6 +792,19 @@
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-nguvan6.json"
     },
     {
+      "id": "thcs-nguvan-l6-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 6,
+      "topic": "Ôn tập cuối học kỳ 2 — Ngữ văn 6",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop6/de-on-tap-cuoi-ky-2-nguvan6.json"
+    },
+    {
       "id": "thcs-tv-l6-on-tap-giua-ky-1",
       "stage": "thcs",
       "subject": "ngu-van",
@@ -829,6 +842,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-nguvan7.json"
+    },
+    {
+      "id": "thcs-nguvan-l7-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 7,
+      "topic": "Ôn tập cuối học kỳ 2 — Ngữ văn 7",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop7/de-on-tap-cuoi-ky-2-nguvan7.json"
     },
     {
       "id": "thcs-tv-l7-on-tap-giua-ky-1",
@@ -881,6 +907,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-1-nguvan8.json"
+    },
+    {
+      "id": "thcs-nguvan-l8-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 8,
+      "topic": "Ôn tập cuối học kỳ 2 — Ngữ văn 8",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop8/de-on-tap-cuoi-ky-2-nguvan8.json"
     },
     {
       "id": "thcs-tv-l8-on-tap-giua-ky-1",
@@ -1391,6 +1430,19 @@
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-tienganh6.json"
     },
     {
+      "id": "thcs-tienganh-l6-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 6,
+      "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh 6",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop6/de-on-tap-cuoi-ky-2-tienganh6.json"
+    },
+    {
       "id": "thcs-ta-l6-on-tap-giua-ky-1",
       "stage": "thcs",
       "subject": "tieng-anh",
@@ -1430,6 +1482,19 @@
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-tienganh7.json"
     },
     {
+      "id": "thcs-tienganh-l7-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 7,
+      "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh 7",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop7/de-on-tap-cuoi-ky-2-tienganh7.json"
+    },
+    {
       "id": "thcs-ta-l7-on-tap-giua-ky-1",
       "stage": "thcs",
       "subject": "tieng-anh",
@@ -1467,6 +1532,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-1-tienganh8.json"
+    },
+    {
+      "id": "thcs-tienganh-l8-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 8,
+      "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh 8",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop8/de-on-tap-cuoi-ky-2-tienganh8.json"
     },
     {
       "id": "thcs-ta-l8-on-tap-giua-ky-1",
@@ -2624,6 +2702,19 @@
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-toan6.json"
     },
     {
+      "id": "thcs-toan-l6-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Ôn tập cuối học kỳ 2 — Toán 6",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop6/de-on-tap-cuoi-ky-2-toan6.json"
+    },
+    {
       "id": "thcs-toan-l6-on-tap-giua-ky-1",
       "stage": "thcs",
       "subject": "toan",
@@ -2661,6 +2752,19 @@
       ],
       "timeLimit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-toan7.json"
+    },
+    {
+      "id": "thcs-toan-l7-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 7,
+      "topic": "Ôn tập cuối học kỳ 2 — Toán 7",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop7/de-on-tap-cuoi-ky-2-toan7.json"
     },
     {
       "id": "thcs-toan-l7-on-tap-giua-ky-1",
@@ -2723,6 +2827,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop8/toan-hang-dang-thuc-va-phuong-trinh.json"
+    },
+    {
+      "id": "thcs-toan-l8-on-tap-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 8,
+      "topic": "Ôn tập cuối học kỳ 2 — Toán 8",
+      "chapter": "Ôn tập cuối kỳ 2",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop8/de-on-tap-cuoi-ky-2-toan8.json"
     },
     {
       "id": "thcs-toan-l8-on-tap-giua-ky-1",
