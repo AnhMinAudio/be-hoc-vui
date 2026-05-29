@@ -1,0 +1,239 @@
+{
+  "id": "ta-l4-on-tap-cuoi-ky-1",
+  "subject": "tieng-anh",
+  "grade": 4,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 4",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Monday' mean? (Từ 'Monday' nghĩa là gì?)",
+      "options": [
+        "Thứ Hai",
+        "Thứ Ba",
+        "Chủ nhật",
+        "Thứ Sáu"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a school subject? (Từ nào là một môn học?)",
+      "options": [
+        "Maths",
+        "kitchen",
+        "rabbit",
+        "garden"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'tháng Một'? ('tháng Một' tiếng Anh là gì?)",
+      "options": [
+        "June",
+        "January",
+        "July",
+        "March"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I have English ___ Wednesday. (Em học tiếng Anh vào thứ Tư. - điền giới từ thời gian 'on')",
+      "answer": "on",
+      "alternatives": [
+        "On",
+        "ON"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the school subject with its meaning (Nối môn học với nghĩa)",
+      "pairs": [
+        [
+          "Maths",
+          "Toán"
+        ],
+        [
+          "English",
+          "Tiếng Anh"
+        ],
+        [
+          "Music",
+          "Âm nhạc"
+        ],
+        [
+          "Art",
+          "Mỹ thuật"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the daily routine with its meaning (Nối hoạt động hằng ngày với nghĩa)",
+      "pairs": [
+        [
+          "get up",
+          "thức dậy"
+        ],
+        [
+          "brush teeth",
+          "đánh răng"
+        ],
+        [
+          "go to school",
+          "đi học"
+        ],
+        [
+          "have breakfast",
+          "ăn sáng"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'tall' mean? (Từ 'tall' nghĩa là gì?)",
+      "options": [
+        "cao",
+        "thấp",
+        "gầy",
+        "béo"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'thứ Bảy' in English (Viết 'thứ Bảy' bằng tiếng Anh): ___",
+      "answer": "Saturday",
+      "alternatives": [
+        "saturday",
+        "SATURDAY"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What time is it? It is 7:00. (Mấy giờ rồi? Bây giờ là 7 giờ.)",
+      "options": [
+        "It's seven o'clock.",
+        "It's seven days.",
+        "It's Monday.",
+        "It's January."
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'I ___ to school every day.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "goes",
+        "go",
+        "going",
+        "to go"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Complete: 'She ___ her teeth every morning.' (Hoàn thành câu với động từ chia đúng cho 'she'): ___",
+      "answer": "brushes",
+      "alternatives": [
+        "Brushes",
+        "BRUSHES"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the month with its meaning (Nối tháng với nghĩa)",
+      "pairs": [
+        [
+          "February",
+          "tháng Hai"
+        ],
+        [
+          "May",
+          "tháng Năm"
+        ],
+        [
+          "September",
+          "tháng Chín"
+        ],
+        [
+          "December",
+          "tháng Mười Hai"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question: '___ do you have English?' — 'On Monday.' (Chọn từ hỏi đúng để hỏi ngày học)",
+      "options": [
+        "What",
+        "When",
+        "Who",
+        "How many"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: When is your birthday? B: It's in ___. (Trả lời: Sinh nhật mình vào tháng Mười. - điền 'October')",
+      "answer": "October",
+      "alternatives": [
+        "october",
+        "OCTOBER"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A friend asks 'What do you do after school?'. Which is a good answer? (Bạn hỏi em làm gì sau giờ học. Câu trả lời nào hợp lý?)",
+      "options": [
+        "It's January.",
+        "I do my homework.",
+        "She is tall.",
+        "On Sunday."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask a friend's birthday. What do you say? (Em muốn hỏi sinh nhật của bạn. Em nói thế nào?)",
+      "options": [
+        "What time is it?",
+        "When is your birthday?",
+        "How are you?",
+        "What subject is it?"
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend says 'I get up at 6 and go to school at 7.'. What does she do first? (Bạn nói câu trên. Bạn ấy làm việc gì trước?)",
+      "options": [
+        "go to school",
+        "get up",
+        "have lunch",
+        "go to bed"
+      ],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

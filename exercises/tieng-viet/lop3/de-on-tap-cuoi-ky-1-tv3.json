@@ -1,0 +1,227 @@
+{
+  "id": "tv-l3-on-tap-cuoi-ky-1",
+  "subject": "tieng-viet",
+  "grade": 3,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 3",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ chỉ đặc điểm?",
+      "options": [
+        "ngôi nhà",
+        "trắng muốt",
+        "đọc sách",
+        "con voi"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ chỉ hoạt động?",
+      "options": [
+        "rực rỡ",
+        "ngọn núi",
+        "tưới rau",
+        "ngoan ngoãn"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào có hình ảnh so sánh?",
+      "options": [
+        "Cánh đồng lúa rộng mênh mông như tấm thảm vàng.",
+        "Em đang tưới hoa.",
+        "Trời sắp mưa rồi.",
+        "Bà kể chuyện cổ tích."
+      ],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Câu so sánh thường có từ 'như', 'tựa', 'là'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong nhóm từ chủ điểm 'trường học', từ nào KHÔNG cùng nhóm?",
+      "options": [
+        "thầy giáo",
+        "bảng lớp",
+        "bút chì",
+        "con trâu"
+      ],
+      "answer": 3,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu thích hợp cuối câu: Ôi, vườn hoa đẹp quá___",
+      "answer": "!",
+      "alternatives": [
+        "dấu chấm than",
+        "dấu cảm thán"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối sự vật với hình ảnh thường dùng để so sánh",
+      "pairs": [
+        [
+          "ông mặt trời",
+          "quả cầu lửa"
+        ],
+        [
+          "lá cọ",
+          "chiếc quạt"
+        ],
+        [
+          "đàn cò",
+          "những bông hoa trắng"
+        ],
+        [
+          "giọt sương",
+          "hạt ngọc"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm từ chỉ đặc điểm trong câu 'Bầu trời mùa thu trong veo': ___",
+      "answer": "trong veo",
+      "alternatives": [
+        "trong"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào dùng dấu phẩy đúng?",
+      "options": [
+        "Trong vườn có hoa hồng hoa cúc, và hoa lan.",
+        "Trong vườn có hoa hồng, hoa cúc và hoa lan.",
+        "Trong vườn, có hoa hồng hoa cúc hoa lan.",
+        "Trong vườn có hoa hồng, hoa cúc, và hoa lan."
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bộ phận in nghiêng trong câu 'Mỗi sáng, em tập thể dục' trả lời cho câu hỏi nào? (bộ phận: Mỗi sáng)",
+      "options": [
+        "Ai?",
+        "Làm gì?",
+        "Khi nào?",
+        "Ở đâu?"
+      ],
+      "answer": 2,
+      "level": "M2",
+      "hint": "'Mỗi sáng' chỉ thời gian."
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với loại câu theo mục đích nói",
+      "pairs": [
+        [
+          "Bạn học trường nào?",
+          "câu hỏi"
+        ],
+        [
+          "Em chăm sóc cây xanh.",
+          "câu kể"
+        ],
+        [
+          "Trời hôm nay đẹp quá!",
+          "câu cảm"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ so sánh thích hợp: Tiếng suối chảy nghe êm ___ tiếng hát xa.",
+      "answer": "như",
+      "alternatives": [
+        "tựa",
+        "tựa như",
+        "như là"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Bác nông dân chăm chỉ cày ruộng' thuộc mẫu câu nào?",
+      "options": [
+        "Ai là gì?",
+        "Ai làm gì?",
+        "Ai thế nào?",
+        "Ở đâu?"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn câu hỏi đặt đúng để hỏi về thời gian của việc: 'Lan đi thăm bà vào chủ nhật.'",
+      "options": [
+        "Lan đi thăm ai?",
+        "Lan đi thăm bà khi nào?",
+        "Lan đi đâu?",
+        "Ai đi thăm bà?"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Muốn hỏi thời gian thì dùng từ 'khi nào'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu so sánh 'Mặt hồ phẳng lặng như một tấm gương', sự vật nào được so sánh với 'tấm gương'?",
+      "options": [
+        "mặt hồ",
+        "phẳng lặng",
+        "tấm gương",
+        "một"
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Tìm sự vật đứng trước từ 'như'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ thích hợp nhất điền vào chỗ trống: 'Sau cơn mưa, bầu trời ___ trở lại.'",
+      "options": [
+        "u ám",
+        "trong sáng",
+        "tối tăm",
+        "ồn ào"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Sau mưa, trời thường quang đãng, đẹp hơn."
+    },
+    {
+      "type": "true-false",
+      "question": "Câu 'Bạn dọn dẹp lớp học rất sạch sẽ.' nên kết thúc bằng dấu chấm hỏi. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "Đây là câu kể, không phải câu hỏi, nên dùng dấu chấm."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ chỉ đặc điểm (tính nết) điền đúng: 'Bạn Mai luôn giúp đỡ mọi người, bạn ấy thật ___.'",
+      "options": [
+        "lười biếng",
+        "tốt bụng",
+        "ích kỉ",
+        "nhút nhát"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Người hay giúp đỡ người khác là người tốt bụng."
+    }
+  ]
+}

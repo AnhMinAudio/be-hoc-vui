@@ -1,0 +1,241 @@
+{
+  "id": "ta-l5-on-tap-cuoi-ky-1",
+  "subject": "tieng-anh",
+  "grade": 5,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 5",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'address' mean? (Từ 'address' nghĩa là gì?)",
+      "options": [
+        "địa chỉ",
+        "trường học",
+        "thời gian",
+        "sở thích"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place at school? (Từ nào là một nơi ở trường?)",
+      "options": [
+        "library",
+        "breakfast",
+        "Tuesday",
+        "always"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'phòng máy tính'? ('phòng máy tính' tiếng Anh là gì?)",
+      "options": [
+        "computer room",
+        "playground",
+        "gym",
+        "canteen"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I ___ get up early. (Em luôn luôn thức dậy sớm. - điền trạng từ tần suất 'always')",
+      "answer": "always",
+      "alternatives": [
+        "Always",
+        "ALWAYS"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the place at school with its meaning (Nối nơi chốn ở trường với nghĩa)",
+      "pairs": [
+        [
+          "library",
+          "thư viện"
+        ],
+        [
+          "playground",
+          "sân chơi"
+        ],
+        [
+          "canteen",
+          "căng tin"
+        ],
+        [
+          "gym",
+          "phòng thể chất"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the adverb of frequency with its meaning (Nối trạng từ tần suất với nghĩa)",
+      "pairs": [
+        [
+          "always",
+          "luôn luôn"
+        ],
+        [
+          "usually",
+          "thường thường"
+        ],
+        [
+          "sometimes",
+          "thỉnh thoảng"
+        ],
+        [
+          "never",
+          "không bao giờ"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'have breakfast' mean? (Cụm 'have breakfast' nghĩa là gì?)",
+      "options": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đi ngủ"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'sân chơi' in English (Viết 'sân chơi' bằng tiếng Anh): ___",
+      "answer": "playground",
+      "alternatives": [
+        "Playground",
+        "PLAYGROUND"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'What is your address?' — '___ 12 Tran Phu Street.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "It's",
+        "I'm",
+        "She's",
+        "They're"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'My sister ___ to school at 7 o'clock.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "to go"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Complete: 'I usually ___ my homework in the evening.' (Hoàn thành câu với động từ 'do'): ___",
+      "answer": "do",
+      "alternatives": [
+        "Do",
+        "DO"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question: '___ do you go to bed?' — 'At 10 o'clock.' (Chọn từ hỏi đúng để hỏi giờ)",
+      "options": [
+        "What",
+        "What time",
+        "Where",
+        "Who"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the daily routine with its meaning (Nối thói quen hằng ngày với nghĩa)",
+      "pairs": [
+        [
+          "wash my face",
+          "rửa mặt"
+        ],
+        [
+          "have dinner",
+          "ăn tối"
+        ],
+        [
+          "do homework",
+          "làm bài tập"
+        ],
+        [
+          "go to bed",
+          "đi ngủ"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: Where do you live? B: I live ___ Hanoi. (Trả lời: Mình sống ở Hà Nội. - điền giới từ 'in')",
+      "answer": "in",
+      "alternatives": [
+        "In",
+        "IN"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hi, I'm Mai. I live in Hue. I usually get up at 6 o'clock. I have breakfast and go to school at 6:45. I always have lunch at school. In the evening, I do my homework and go to bed at 10.",
+      "question": "Read the passage. What time does Mai get up? (Đọc đoạn văn. Mai thức dậy lúc mấy giờ?)",
+      "options": [
+        "At 6 o'clock.",
+        "At 6:45.",
+        "At 10 o'clock.",
+        "At 7 o'clock."
+      ],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hi, I'm Mai. I live in Hue. I usually get up at 6 o'clock. I have breakfast and go to school at 6:45. I always have lunch at school. In the evening, I do my homework and go to bed at 10.",
+      "question": "Read the passage. Where does Mai have lunch? (Đọc đoạn văn. Mai ăn trưa ở đâu?)",
+      "options": [
+        "At home.",
+        "At school.",
+        "In a restaurant.",
+        "At the library."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A friend asks 'What's your address?'. Which is the best answer? (Bạn hỏi địa chỉ của em. Câu trả lời nào hợp lý nhất?)",
+      "options": [
+        "It's Monday.",
+        "It's 25 Le Loi Street.",
+        "I'm fine, thanks.",
+        "I get up at six."
+      ],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

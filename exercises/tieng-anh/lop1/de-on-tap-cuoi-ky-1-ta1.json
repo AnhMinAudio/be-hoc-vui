@@ -1,0 +1,237 @@
+{
+  "id": "ta-l1-on-tap-cuoi-ky-1",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 1",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "TA1-GREET",
+    "TA1-NUM",
+    "TA1-COLOR",
+    "TA1-SCHOOL",
+    "TA1-FAMILY",
+    "TA1-PATTERN"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'xin chào' in English? ('xin chào' nói thế nào trong tiếng Anh?)",
+      "options": [
+        "Hello",
+        "Apple",
+        "Three",
+        "Chair"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What number is 'three'? (Số nào là 'three'?)",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What color is 'red'? ('red' là màu gì?)",
+      "options": [
+        "màu xanh lá",
+        "màu đỏ",
+        "màu vàng",
+        "màu xanh dương"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'bố' in English? (Từ nào nghĩa là 'bố'?)",
+      "options": [
+        "mother",
+        "father",
+        "grandma",
+        "baby"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I write with a ___. (Em viết bằng cái bút mực. - điền tên đồ dùng học tập)",
+      "answer": "pen",
+      "alternatives": [
+        "Pen",
+        "PEN"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the number word with its number (Nối từ chỉ số với chữ số)",
+      "pairs": [
+        [
+          "one",
+          "1"
+        ],
+        [
+          "two",
+          "2"
+        ],
+        [
+          "four",
+          "4"
+        ],
+        [
+          "five",
+          "5"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "book",
+          "quyển sách"
+        ],
+        [
+          "bag",
+          "cái cặp"
+        ],
+        [
+          "mother",
+          "mẹ"
+        ],
+        [
+          "sister",
+          "chị/em gái"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the color with its Vietnamese meaning (Nối màu sắc với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "blue",
+          "màu xanh dương"
+        ],
+        [
+          "green",
+          "màu xanh lá"
+        ],
+        [
+          "yellow",
+          "màu vàng"
+        ],
+        [
+          "black",
+          "màu đen"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái bút chì'? ('cái bút chì' tiếng Anh là gì?)",
+      "options": [
+        "ruler",
+        "pencil",
+        "eraser",
+        "desk"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'chị/em gái' in English (Viết 'chị/em gái' bằng tiếng Anh): ___",
+      "answer": "sister",
+      "alternatives": [
+        "Sister",
+        "SISTER"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count the apples: 🍎🍎🍎🍎. How many? (Đếm số quả táo. Có mấy quả?)",
+      "options": [
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "What color is a banana? It's ___. (Quả chuối màu gì? Nó màu vàng. - điền màu tiếng Anh)",
+      "answer": "yellow",
+      "alternatives": [
+        "Yellow",
+        "YELLOW"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the teacher say to start class? (Cô giáo nói gì để bắt đầu giờ học?)",
+      "options": [
+        "Goodbye.",
+        "Sit down, please.",
+        "It's red.",
+        "I'm five."
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A friend says 'Goodbye'. What do you say back? (Một người bạn nói 'Goodbye'. Em đáp lại thế nào?)",
+      "options": [
+        "Goodbye!",
+        "One, two, three.",
+        "It's a book.",
+        "Stand up."
+      ],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'How old are you?'. You are six. How do you answer? (Có người hỏi tuổi em. Em sáu tuổi. Em trả lời thế nào?)",
+      "options": [
+        "I'm red.",
+        "I'm six.",
+        "It's a pen.",
+        "Hello."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You meet a new friend. What do you say to ask the name? (Em gặp một người bạn mới. Em hỏi tên bạn thế nào?)",
+      "options": [
+        "What color is it?",
+        "What's your name?",
+        "Sit down.",
+        "I have a cat."
+      ],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

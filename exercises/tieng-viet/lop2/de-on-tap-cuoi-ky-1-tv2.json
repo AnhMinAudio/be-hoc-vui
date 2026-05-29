@@ -1,0 +1,217 @@
+{
+  "id": "tv-l2-on-tap-cuoi-ky-1",
+  "subject": "tieng-viet",
+  "grade": 2,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 2",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": [
+        "ngắm",
+        "cây tre",
+        "vui",
+        "bay"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": [
+        "bầu trời",
+        "tưới cây",
+        "tròn",
+        "cái rổ"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đặc điểm?",
+      "options": [
+        "con thỏ",
+        "nhảy",
+        "mềm mại",
+        "cái áo"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ 'k' được viết đúng trong tiếng nào?",
+      "options": [
+        "ke",
+        "ka",
+        "ko",
+        "ku"
+      ],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Viết 'k' khi đứng trước i, e, ê."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'g' hoặc 'gh': con ___à (con vật gáy ò ó o)",
+      "answer": "g",
+      "hint": "Đứng trước 'a' nên viết 'g'.",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu cuối câu hỏi: Bạn có thích đọc truyện không___",
+      "answer": "?",
+      "alternatives": [
+        "dấu hỏi",
+        "dấu chấm hỏi"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với nhóm từ loại đúng",
+      "pairs": [
+        [
+          "bông hoa",
+          "chỉ sự vật"
+        ],
+        [
+          "quét nhà",
+          "chỉ hoạt động"
+        ],
+        [
+          "vàng tươi",
+          "chỉ đặc điểm"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào thuộc kiểu 'Ai làm gì?'",
+      "options": [
+        "Bạn Nam là học sinh.",
+        "Bạn Nam quét sân trường.",
+        "Bạn Nam rất chăm chỉ.",
+        "Bạn Nam cao lớn."
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào thuộc kiểu 'Ai thế nào?'",
+      "options": [
+        "Cô giáo là người dạy em.",
+        "Em làm bài tập.",
+        "Dòng sông hiền hòa.",
+        "Mèo bắt chuột."
+      ],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'ng' hoặc 'ngh': ___e nhạc (lắng tai để nghe)",
+      "answer": "ngh",
+      "hint": "Đứng trước 'e' nên viết 'ngh'.",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu cuối câu kể: Em rất yêu trường của em___",
+      "answer": ".",
+      "alternatives": [
+        "dấu chấm"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ trái nghĩa của nó",
+      "pairs": [
+        [
+          "cao",
+          "thấp"
+        ],
+        [
+          "sáng",
+          "tối"
+        ],
+        [
+          "nhanh",
+          "chậm"
+        ],
+        [
+          "vui",
+          "buồn"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào điền vào chỗ trống cho đúng: 'Mùa đông trời rất ___.'",
+      "options": [
+        "nóng",
+        "lạnh",
+        "khô",
+        "sáng"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Mùa đông thường có thời tiết thế nào?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào dùng dấu chấm hỏi đúng?",
+      "options": [
+        "Hôm nay là thứ mấy?",
+        "Em đi học?",
+        "Trời mưa to?",
+        "Mẹ nấu cơm ngon?"
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Dấu chấm hỏi đặt cuối câu dùng để HỎI điều chưa biết."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn câu được viết đúng (đúng dấu câu và nghĩa rõ ràng):",
+      "options": [
+        "bé tô màu bức tranh",
+        "Bé tô màu bức tranh.",
+        "Bé tô màu bức tranh?",
+        "Bé tô màu bức tranh"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Câu kể phải viết hoa chữ đầu và có dấu chấm ở cuối."
+    },
+    {
+      "type": "true-false",
+      "question": "Trong câu 'Bố em là kĩ sư', từ 'kĩ sư' là từ chỉ hoạt động. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "'Kĩ sư' chỉ người (nghề nghiệp) nên là từ chỉ sự vật."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ chỉ đặc điểm điền đúng: 'Quả ớt có vị ___.'",
+      "options": [
+        "ngọt",
+        "cay",
+        "chua",
+        "mặn"
+      ],
+      "answer": 1,
+      "hint": "Quả ớt ăn vào thấy cay.",
+      "level": "M3"
+    }
+  ]
+}

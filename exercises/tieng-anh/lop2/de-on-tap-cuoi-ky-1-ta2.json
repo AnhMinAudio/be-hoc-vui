@@ -1,0 +1,222 @@
+{
+  "id": "ta-l2-on-tap-cuoi-ky-1",
+  "subject": "tieng-anh",
+  "grade": 2,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 2",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "TA2-VOCAB",
+    "TA2-NUM",
+    "TA2-COLOR",
+    "TA2-PATTERN"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái bánh sinh nhật'? ('bánh sinh nhật' tiếng Anh là gì?)",
+      "options": [
+        "cake",
+        "candle",
+        "balloon",
+        "present"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'flower' mean? (Từ 'flower' nghĩa là gì?)",
+      "options": [
+        "cái cây",
+        "bông hoa",
+        "con chim",
+        "quả bóng"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What animal lives on a farm? (Con vật nào sống ở nông trại?)",
+      "options": [
+        "lion",
+        "pig",
+        "shark",
+        "monkey"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái ghế' in English (Viết 'cái ghế' bằng tiếng Anh): ___",
+      "answer": "chair",
+      "alternatives": [
+        "Chair",
+        "CHAIR"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "tree",
+          "cái cây"
+        ],
+        [
+          "sea",
+          "biển"
+        ],
+        [
+          "hill",
+          "ngọn đồi"
+        ],
+        [
+          "river",
+          "dòng sông"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What do you use to eat soup? (Em dùng gì để ăn súp?)",
+      "options": [
+        "a spoon",
+        "a pen",
+        "a ball",
+        "a book"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái nến'? ('cái nến' tiếng Anh là gì?)",
+      "options": [
+        "present",
+        "candle",
+        "balloon",
+        "cake"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'con bò' in English (Viết 'con bò' bằng tiếng Anh): ___",
+      "answer": "cow",
+      "alternatives": [
+        "Cow",
+        "COW"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the farm animal with its meaning (Nối con vật ở nông trại với nghĩa)",
+      "pairs": [
+        [
+          "hen",
+          "con gà mái"
+        ],
+        [
+          "pig",
+          "con lợn"
+        ],
+        [
+          "horse",
+          "con ngựa"
+        ],
+        [
+          "duck",
+          "con vịt"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many candles? 🕯️🕯️🕯️🕯️🕯️ (Có mấy cây nến?)",
+      "options": [
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Look! It's a desk. What color? It's ___. (Nhìn kìa! Cái bàn màu nâu. - điền màu 'brown')",
+      "answer": "brown",
+      "alternatives": [
+        "Brown",
+        "BROWN"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence for a book (Chọn câu đúng để nói về quyển sách)",
+      "options": [
+        "It's a book.",
+        "I'm a book.",
+        "She book.",
+        "Book is you."
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I see a bird in the tree. What is it? It's a ___. (Em thấy một con chim. Đó là con gì? - điền 'bird')",
+      "answer": "bird",
+      "alternatives": [
+        "Bird",
+        "BIRD"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend asks 'What is it?' and points at a cat. What do you say? (Bạn chỉ vào con mèo và hỏi 'What is it?'. Em trả lời thế nào?)",
+      "options": [
+        "I'm a cat.",
+        "It's a cat.",
+        "You are cat.",
+        "Cat me."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "It is your birthday. A friend gives you a present. What do you say? (Sinh nhật em, bạn tặng quà. Em nói gì?)",
+      "options": [
+        "Goodbye.",
+        "Thank you!",
+        "Sit down.",
+        "It's blue."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to tell a friend you have a ball. What do you say? (Em muốn khoe với bạn rằng em có một quả bóng. Em nói thế nào?)",
+      "options": [
+        "I have a ball.",
+        "It's a ball you.",
+        "Ball I am.",
+        "You ball have."
+      ],
+      "answer": 0,
+      "level": "M3"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T18:16:00.630Z",
+  "generatedAt": "2026-05-29T00:36:25.566Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -960,6 +960,26 @@
       "path": "tieng-anh/lop1/numbers-1-to-10.json"
     },
     {
+      "id": "ta-l1-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 1",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "TA1-GREET",
+        "TA1-NUM",
+        "TA1-COLOR",
+        "TA1-SCHOOL",
+        "TA1-FAMILY",
+        "TA1-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop1/de-on-tap-cuoi-ky-1-ta1.json"
+    },
+    {
       "id": "ta-l1-toys-and-food",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1043,6 +1063,24 @@
       "path": "tieng-anh/lop2/on-luyen-3.json"
     },
     {
+      "id": "ta-l2-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 2,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 2",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "TA2-VOCAB",
+        "TA2-NUM",
+        "TA2-COLOR",
+        "TA2-PATTERN"
+      ],
+      "timeLimit": null,
+      "path": "tieng-anh/lop2/de-on-tap-cuoi-ky-1-ta2.json"
+    },
+    {
       "id": "ta-l3-numbers-and-days",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1054,6 +1092,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-anh/lop3/numbers-and-days.json"
+    },
+    {
+      "id": "ta-l3-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 3,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 3",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-anh/lop3/de-on-tap-cuoi-ky-1-ta3.json"
     },
     {
       "id": "ta-l4-jobs-and-hobbies",
@@ -1069,6 +1120,19 @@
       "path": "tieng-anh/lop4/jobs-and-hobbies.json"
     },
     {
+      "id": "ta-l4-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 4,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 4",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-anh/lop4/de-on-tap-cuoi-ky-1-ta4.json"
+    },
+    {
       "id": "ta-l5-routines-places-comparatives",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1080,6 +1144,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
+    },
+    {
+      "id": "ta-l5-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 5,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 5",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-anh/lop5/de-on-tap-cuoi-ky-1-ta5.json"
     },
     {
       "id": "thcs-ta-l6-present-simple",
@@ -1229,6 +1306,19 @@
       "path": "tieng-viet/lop1/mo-rong-von-tu.json"
     },
     {
+      "id": "tv-l1-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 1",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-viet/lop1/de-on-tap-cuoi-ky-1-tv1.json"
+    },
+    {
       "id": "tv-l1-phan-biet-am-de-lan",
       "stage": "tieu-hoc",
       "subject": "tieng-viet",
@@ -1336,6 +1426,19 @@
       "path": "tieng-viet/lop2/on-luyen-3.json"
     },
     {
+      "id": "tv-l2-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 2,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 2",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-viet/lop2/de-on-tap-cuoi-ky-1-tv2.json"
+    },
+    {
       "id": "tv-l2-tu-loai-va-cau",
       "stage": "tieu-hoc",
       "subject": "tieng-viet",
@@ -1347,6 +1450,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-viet/lop2/tu-loai-va-cau.json"
+    },
+    {
+      "id": "tv-l3-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 3,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 3",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-viet/lop3/de-on-tap-cuoi-ky-1-tv3.json"
     },
     {
       "id": "tv-l3-tu-loai-va-so-sanh",
@@ -1373,6 +1489,32 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
+    },
+    {
+      "id": "tv-l4-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 4,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 4",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-viet/lop4/de-on-tap-cuoi-ky-1-tv4.json"
+    },
+    {
+      "id": "tv-l5-on-tap-cuoi-ky-1",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 5,
+      "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 5",
+      "chapter": "Ôn tập cuối kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "tieng-viet/lop5/de-on-tap-cuoi-ky-1-tv5.json"
     },
     {
       "id": "tv-l5-dong-trai-nghia-quan-he-tu",

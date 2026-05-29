@@ -1,0 +1,238 @@
+{
+  "id": "tv-l5-on-tap-cuoi-ky-1",
+  "subject": "tieng-viet",
+  "grade": 5,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 5",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với 'to lớn'?",
+      "options": [
+        "nhỏ nhắn",
+        "vĩ đại",
+        "yếu ớt",
+        "mỏng manh"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào trái nghĩa với 'cần cù'?",
+      "options": [
+        "siêng năng",
+        "chăm chỉ",
+        "lười nhác",
+        "chịu khó"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Tôi và bạn cùng đi học', từ nào là đại từ?",
+      "options": [
+        "tôi",
+        "đi",
+        "học",
+        "cùng"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'chân' trong cụm nào được dùng theo nghĩa gốc?",
+      "options": [
+        "chân bàn",
+        "chân trời",
+        "chân của em bé",
+        "chân núi"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "Nghĩa gốc của 'chân' là bộ phận cơ thể dùng để đi."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cặp từ nào là từ đồng âm (đọc giống nhau nhưng nghĩa khác hẳn)?",
+      "options": [
+        "to – lớn",
+        "đá (hòn đá) – đá (đá bóng)",
+        "vui – buồn",
+        "nhanh – mau"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Từ đồng âm: viết và đọc giống nhau nhưng nghĩa khác hẳn nhau."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm một từ đồng nghĩa với 'chăm chỉ': ___",
+      "answer": "siêng năng",
+      "alternatives": [
+        "cần cù",
+        "chịu khó",
+        "cần mẫn",
+        "chuyên cần"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ đồng nghĩa",
+      "pairs": [
+        [
+          "can đảm",
+          "dũng cảm"
+        ],
+        [
+          "tổ quốc",
+          "đất nước"
+        ],
+        [
+          "vắng vẻ",
+          "hiu quạnh"
+        ],
+        [
+          "vui sướng",
+          "hân hoan"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối đại từ với đối tượng nó dùng để xưng hô hoặc thay thế",
+      "pairs": [
+        [
+          "tôi",
+          "người nói"
+        ],
+        [
+          "bạn",
+          "người nghe"
+        ],
+        [
+          "họ",
+          "nhiều người được nhắc tới"
+        ],
+        [
+          "nó",
+          "vật hoặc con vật được nhắc tới"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trong câu 'Lan học giỏi, ___ còn hát rất hay.', điền đại từ thay cho 'Lan' để câu không bị lặp.",
+      "answer": "bạn ấy",
+      "alternatives": [
+        "bạn",
+        "cô ấy"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'đi' trong câu nào được dùng theo nghĩa chuyển?",
+      "options": [
+        "Em đi bộ tới trường.",
+        "Bà đi chợ mua rau.",
+        "Chiếc đồng hồ này đi rất chính xác.",
+        "Nam đi nhanh để kịp giờ."
+      ],
+      "answer": 2,
+      "level": "M2",
+      "hint": "'Đồng hồ đi' nghĩa là đồng hồ chạy, hoạt động — đây là nghĩa chuyển."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cặp từ nào là một cặp từ trái nghĩa?",
+      "options": [
+        "hiền lành – nhân hậu",
+        "thành công – thất bại",
+        "to lớn – khổng lồ",
+        "vui vẻ – hân hoan"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền một từ trái nghĩa với 'phức tạp': Bài toán này khá ___, em làm xong rất nhanh.",
+      "answer": "đơn giản",
+      "alternatives": [
+        "dễ",
+        "giản đơn"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ 'nhà' với nghĩa của nó trong từng cụm từ",
+      "pairs": [
+        [
+          "nhà sàn",
+          "nơi để ở"
+        ],
+        [
+          "nhà thơ",
+          "người làm nghề (sáng tác thơ)"
+        ],
+        [
+          "nhà Trần",
+          "triều đại"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ đồng nghĩa thích hợp nhất thay cho từ in nghiêng để câu trang trọng hơn: 'Nhân dân ta rất *yêu* Tổ quốc.'",
+      "options": [
+        "thích",
+        "yêu thương",
+        "yêu quý",
+        "mến"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Khi nói về tình cảm với Tổ quốc nên dùng từ trang trọng như 'yêu quý'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào dùng từ 'ngọt' theo nghĩa chuyển?",
+      "options": [
+        "Quả xoài này ăn rất ngọt.",
+        "Cô ấy nói năng thật ngọt ngào, dễ nghe.",
+        "Em thích uống nước cam ngọt.",
+        "Chè đậu xanh nấu ngọt vừa."
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "'Lời nói ngọt' không phải vị ngọt mà chỉ cách nói dễ nghe — đó là nghĩa chuyển."
+    },
+    {
+      "type": "true-false",
+      "question": "Trong câu 'Đường này rất xa nhưng đường trong cốc lại ngọt', hai từ 'đường' là một cặp từ nhiều nghĩa. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "Hai từ 'đường' này nghĩa khác hẳn nhau và không liên quan nên là từ ĐỒNG ÂM, không phải từ nhiều nghĩa."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đặt một quan hệ từ thích hợp vào chỗ trống: 'Trời đã tối ___ các bạn vẫn miệt mài tập văn nghệ.'",
+      "answer": "nhưng",
+      "alternatives": [
+        "mà",
+        "song"
+      ],
+      "level": "M3",
+      "hint": "Hai vế câu có ý đối lập nên dùng quan hệ từ chỉ sự tương phản."
+    }
+  ]
+}

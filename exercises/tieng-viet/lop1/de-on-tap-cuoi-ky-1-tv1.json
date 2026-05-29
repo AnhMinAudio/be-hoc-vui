@@ -1,0 +1,209 @@
+{
+  "id": "tv-l1-on-tap-cuoi-ky-1",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 1",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào đứng đầu tiên trong bảng chữ cái tiếng Việt?",
+      "options": [
+        "a",
+        "b",
+        "ă",
+        "c"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có vần 'oa'?",
+      "options": [
+        "bàn",
+        "hoa",
+        "mèo",
+        "cá"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Đọc to từng tiếng, tìm tiếng có vần 'oa' như trong 'hoa'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'lá' mang dấu thanh gì?",
+      "options": [
+        "thanh huyền",
+        "thanh sắc",
+        "thanh hỏi",
+        "thanh nặng"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ nào dưới đây là nguyên âm?",
+      "options": [
+        "b",
+        "m",
+        "e",
+        "t"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___á (con vật bơi dưới nước, có vảy)",
+      "answer": "c",
+      "hint": "Con cá.",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu: b___ (đồ dùng để ngồi, có bốn chân)",
+      "answer": "àn",
+      "alternatives": [
+        "an"
+      ],
+      "hint": "Cái bàn.",
+      "level": "M1"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'mẹ' mang dấu thanh nặng. Đúng hay sai?",
+      "answer": false,
+      "level": "M1",
+      "hint": "Đọc lại 'mẹ' nhé — đây là thanh nặng hay thanh khác?"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với dấu thanh của nó",
+      "pairs": [
+        [
+          "bà",
+          "thanh huyền"
+        ],
+        [
+          "cá",
+          "thanh sắc"
+        ],
+        [
+          "vở",
+          "thanh hỏi"
+        ],
+        [
+          "vẹt",
+          "thanh nặng"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ghép âm 'b' với vần 'é' được tiếng nào?",
+      "options": [
+        "bé",
+        "bà",
+        "bò",
+        "bê"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với âm đầu của tiếng đó",
+      "pairs": [
+        [
+          "nhà",
+          "nh"
+        ],
+        [
+          "thỏ",
+          "th"
+        ],
+        [
+          "chó",
+          "ch"
+        ],
+        [
+          "khế",
+          "kh"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ một đồ vật trong lớp học?",
+      "options": [
+        "con mèo",
+        "bảng đen",
+        "quả cam",
+        "dòng sông"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần thích hợp: cây ch___ (cây cho quả cong, vàng khi chín)",
+      "answer": "uối",
+      "alternatives": [
+        "uôi"
+      ],
+      "hint": "Cây chuối.",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Bé tô màu đỏ.' Bé tô màu gì?",
+      "options": [
+        "màu xanh",
+        "màu đỏ",
+        "màu vàng",
+        "màu tím"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Câu cho biết bé tô màu nào."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đọc câu: 'Chị quét nhà giúp mẹ.' Ai quét nhà?",
+      "options": [
+        "Mẹ",
+        "Bé",
+        "Chị",
+        "Bố"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Người làm việc quét nhà đứng ở đầu câu."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào nói đúng về bức tranh 'mặt trời buổi sáng'?",
+      "options": [
+        "Trời tối đen.",
+        "Mặt trời mọc, trời sáng.",
+        "Trăng tròn trên cao.",
+        "Trời đang mưa to."
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Buổi sáng mặt trời mọc lên, trời sáng dần."
+    },
+    {
+      "type": "true-false",
+      "question": "Đọc câu: 'Mèo đuổi chuột.' Câu này nói chuột đuổi mèo. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "Đọc kĩ ai đuổi ai trong câu nhé."
+    }
+  ]
+}

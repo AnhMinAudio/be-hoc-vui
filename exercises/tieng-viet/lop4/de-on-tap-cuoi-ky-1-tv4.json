@@ -1,0 +1,237 @@
+{
+  "id": "tv-l4-on-tap-cuoi-ky-1",
+  "subject": "tieng-viet",
+  "grade": 4,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 4",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ?",
+      "options": [
+        "suy nghĩ",
+        "biển cả",
+        "mải miết",
+        "rực rỡ"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là động từ?",
+      "options": [
+        "cơn gió",
+        "thẳng tắp",
+        "gặt hái",
+        "tươi tốt"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là tính từ?",
+      "options": [
+        "leo trèo",
+        "mảnh mai",
+        "cánh diều",
+        "gặt lúa"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ láy?",
+      "options": [
+        "non sông",
+        "thoăn thoắt",
+        "đất nước",
+        "trường lớp"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ ghép?",
+      "options": [
+        "rì rầm",
+        "lao xao",
+        "máy bay",
+        "lảo đảo"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm danh từ chỉ hiện tượng tự nhiên trong câu 'Cơn mưa rào ập đến rất nhanh': ___",
+      "answer": "mưa",
+      "alternatives": [
+        "mưa rào",
+        "cơn mưa",
+        "cơn mưa rào"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Phân loại các từ sau cho đúng từ loại",
+      "pairs": [
+        [
+          "dòng sông",
+          "danh từ"
+        ],
+        [
+          "bơi lội",
+          "động từ"
+        ],
+        [
+          "trong xanh",
+          "tính từ"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Phân loại từ ghép và từ láy",
+      "pairs": [
+        [
+          "róc rách",
+          "từ láy"
+        ],
+        [
+          "nhà cửa",
+          "từ ghép"
+        ],
+        [
+          "chót vót",
+          "từ láy"
+        ],
+        [
+          "ruộng vườn",
+          "từ ghép"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào dùng dấu hai chấm đúng để dẫn lời nói?",
+      "options": [
+        "Mẹ bảo: \"Con nhớ mặc áo ấm nhé.\"",
+        "Mẹ bảo con nhớ: mặc áo ấm nhé.",
+        "Mẹ: bảo con nhớ mặc áo ấm nhé.",
+        "Mẹ bảo con nhớ mặc áo ấm nhé:"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Dấu hai chấm đặt trước lời nói trực tiếp được đặt trong dấu ngoặc kép."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm tính từ trong câu 'Đàn cò trắng bay lượn trên cánh đồng': ___",
+      "answer": "trắng",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Những cánh hoa mỏng manh rung rinh trước gió', từ 'rung rinh' là từ loại nào?",
+      "options": [
+        "danh từ",
+        "động từ",
+        "tính từ",
+        "quan hệ từ"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "'Rung rinh' chỉ trạng thái chuyển động nên là động từ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ ghép có nghĩa tổng hợp?",
+      "options": [
+        "xe đạp",
+        "bàn ghế",
+        "hoa hồng",
+        "máy giặt"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Từ ghép tổng hợp chỉ chung một loại sự vật (gồm cả bàn và ghế)."
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ trái nghĩa của nó",
+      "pairs": [
+        [
+          "rộng rãi",
+          "chật hẹp"
+        ],
+        [
+          "dũng cảm",
+          "hèn nhát"
+        ],
+        [
+          "siêng năng",
+          "lười biếng"
+        ],
+        [
+          "khiêm tốn",
+          "kiêu căng"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ láy thích hợp nhất tả dáng đi nhẹ nhàng, khoan thai:",
+      "options": [
+        "hùng hục",
+        "thong thả",
+        "vội vàng",
+        "huỳnh huỵch"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Đi 'khoan thai' là đi chậm rãi, ung dung."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn câu KHÔNG mắc lỗi dùng từ:",
+      "options": [
+        "Bạn ấy chạy rất nhanh nhẹn về đích.",
+        "Bạn ấy về đích một cách nhanh chóng.",
+        "Bạn ấy chạy nhanh chóng nhẹn.",
+        "Bạn ấy nhanh nhẹn chạy nhanh về đích nhanh."
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Đọc lại từng câu, tìm câu diễn đạt gọn và đúng nghĩa nhất."
+    },
+    {
+      "type": "true-false",
+      "question": "Trong câu 'Mặt trời chiếu những tia nắng ấm áp', từ 'ấm áp' là động từ. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "'Ấm áp' chỉ đặc điểm của tia nắng nên là tính từ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn động từ thích hợp điền vào chỗ trống: 'Trên cành cao, mấy chú chim non đang ___ mồi từ chim mẹ.'",
+      "options": [
+        "chờ",
+        "ngủ",
+        "bay",
+        "hót"
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Chim non làm gì để được chim mẹ cho ăn?"
+    }
+  ]
+}

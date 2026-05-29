@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T18:16:00.630Z",
+  "generatedAt": "2026-05-29T00:36:25.566Z",
   "coverage": {
     "toan": {
       "1": {
@@ -191,8 +191,8 @@
     },
     "tieng-viet": {
       "1": {
-        "exerciseCount": 7,
-        "totalQuestions": 113,
+        "exerciseCount": 8,
+        "totalQuestions": 129,
         "topics": [
           {
             "id": "tv-l1-am-va-chu-cai-nang-cao",
@@ -225,6 +225,12 @@
             "difficulty": 1
           },
           {
+            "id": "tv-l1-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 1",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "tv-l1-phan-biet-am-de-lan",
             "topic": "Phân biệt âm dễ lẫn (l/n, c/k, g/gh, ng/ngh)",
             "questionCount": 16,
@@ -239,8 +245,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 4,
-        "totalQuestions": 67,
+        "exerciseCount": 5,
+        "totalQuestions": 84,
         "topics": [
           {
             "id": "tv-l2-on-luyen-1",
@@ -261,6 +267,12 @@
             "difficulty": 1
           },
           {
+            "id": "tv-l2-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 2",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
             "id": "tv-l2-tu-loai-va-cau",
             "topic": "Từ chỉ sự vật, hoạt động, đặc điểm",
             "questionCount": 17,
@@ -269,9 +281,15 @@
         ]
       },
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
+          {
+            "id": "tv-l3-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 3",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "tv-l3-tu-loai-va-so-sanh",
             "topic": "Từ chỉ đặc điểm và hình ảnh so sánh",
@@ -281,21 +299,33 @@
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
           {
             "id": "tv-l4-danh-dong-tinh-tu",
             "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "tv-l4-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 4",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 35,
         "topics": [
+          {
+            "id": "tv-l5-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 5",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "tv-l5-dong-trai-nghia-quan-he-tu",
             "topic": "Từ đồng nghĩa, trái nghĩa, quan hệ từ và đại từ",
@@ -307,8 +337,8 @@
     },
     "tieng-anh": {
       "1": {
-        "exerciseCount": 7,
-        "totalQuestions": 110,
+        "exerciseCount": 8,
+        "totalQuestions": 126,
         "topics": [
           {
             "id": "ta-l1-animals-and-pets",
@@ -347,6 +377,12 @@
             "difficulty": 1
           },
           {
+            "id": "ta-l1-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 1",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "ta-l1-toys-and-food",
             "topic": "Toys & Food (Đồ chơi và thức ăn)",
             "questionCount": 15,
@@ -355,8 +391,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 4,
-        "totalQuestions": 67,
+        "exerciseCount": 5,
+        "totalQuestions": 83,
         "topics": [
           {
             "id": "ta-l2-animals-family-school",
@@ -381,42 +417,66 @@
             "topic": "Ôn luyện Tiếng Anh 2 (số 3)",
             "questionCount": 17,
             "difficulty": 1
+          },
+          {
+            "id": "ta-l2-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 2",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       },
       "3": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 2,
+        "totalQuestions": 33,
         "topics": [
           {
             "id": "ta-l3-numbers-and-days",
             "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
             "questionCount": 16,
             "difficulty": 2
+          },
+          {
+            "id": "ta-l3-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 3",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "4": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
           {
             "id": "ta-l4-jobs-and-hobbies",
             "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "ta-l4-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 4",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "5": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
           {
             "id": "ta-l5-routines-places-comparatives",
             "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
             "questionCount": 17,
             "difficulty": 3
+          },
+          {
+            "id": "ta-l5-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 5",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       }

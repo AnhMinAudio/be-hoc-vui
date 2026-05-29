@@ -1,0 +1,244 @@
+{
+  "id": "ta-l3-on-tap-cuoi-ky-1",
+  "subject": "tieng-anh",
+  "grade": 3,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 3",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What do you say to greet your teacher in the morning? (Em chào cô giáo buổi sáng thế nào?)",
+      "options": [
+        "Good morning.",
+        "Good night.",
+        "I'm fine.",
+        "Goodbye."
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'bạn bè' in English? (Từ nào nghĩa là 'bạn bè'?)",
+      "options": [
+        "teacher",
+        "friend",
+        "school",
+        "classroom"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a part of the body? (Từ nào là một bộ phận cơ thể?)",
+      "options": [
+        "arm",
+        "desk",
+        "table",
+        "door"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I see with my ___. (Em nhìn bằng mắt. - điền tên bộ phận cơ thể)",
+      "answer": "eyes",
+      "alternatives": [
+        "eye",
+        "Eyes",
+        "Eye",
+        "EYES"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the body part with its meaning (Nối bộ phận cơ thể với nghĩa)",
+      "pairs": [
+        [
+          "head",
+          "cái đầu"
+        ],
+        [
+          "hand",
+          "bàn tay"
+        ],
+        [
+          "leg",
+          "cái chân"
+        ],
+        [
+          "nose",
+          "cái mũi"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the greeting with its meaning (Nối lời chào với nghĩa)",
+      "pairs": [
+        [
+          "Hello",
+          "Xin chào"
+        ],
+        [
+          "Goodbye",
+          "Tạm biệt"
+        ],
+        [
+          "Good night",
+          "Chúc ngủ ngon"
+        ],
+        [
+          "See you",
+          "Hẹn gặp lại"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái bảng'? ('cái bảng' tiếng Anh là gì?)",
+      "options": [
+        "board",
+        "book",
+        "bag",
+        "pen"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'This ___ my friend.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái tai' in English (Viết 'cái tai' bằng tiếng Anh): ___",
+      "answer": "ear",
+      "alternatives": [
+        "Ear",
+        "EAR",
+        "ears"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the classroom object with its meaning (Nối đồ dùng lớp học với nghĩa)",
+      "pairs": [
+        [
+          "ruler",
+          "cái thước"
+        ],
+        [
+          "rubber",
+          "cục tẩy"
+        ],
+        [
+          "notebook",
+          "quyển vở"
+        ],
+        [
+          "schoolbag",
+          "cặp sách"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you spell the name 'Nam'? (Em đánh vần tên 'Nam' thế nào?)",
+      "options": [
+        "N-A-M",
+        "M-A-N",
+        "N-M-A",
+        "A-N-M"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: How are you? B: I'm ___, thank you. (Trả lời: Mình khỏe, cảm ơn. - điền 'fine')",
+      "answer": "fine",
+      "alternatives": [
+        "Fine",
+        "FINE"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question: '___ are you?' — 'I'm fine.' (Chọn câu hỏi đúng để hỏi sức khỏe)",
+      "options": [
+        "What",
+        "Who",
+        "How",
+        "Where"
+      ],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone asks 'What's your name?'. How do you answer? (Có người hỏi tên em. Em trả lời thế nào?)",
+      "options": [
+        "I'm nine.",
+        "My name is Lan.",
+        "It's a pen.",
+        "Fine, thank you."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You meet a friend you have not seen for a long time. What do you say first? (Em gặp lại một người bạn lâu ngày. Em nói gì trước?)",
+      "options": [
+        "Goodbye.",
+        "Sit down.",
+        "Hello! Nice to see you.",
+        "Open your book."
+      ],
+      "answer": 2,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend says 'Goodbye. See you tomorrow.'. What is the best reply? (Bạn nói 'Tạm biệt, hẹn mai gặp'. Câu đáp nào hợp nhất?)",
+      "options": [
+        "Bye! See you tomorrow.",
+        "What's your name?",
+        "I'm seven years old.",
+        "This is my nose."
+      ],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to point at a friend and introduce her. What do you say? (Em muốn chỉ vào bạn và giới thiệu bạn ấy. Em nói thế nào?)",
+      "options": [
+        "This is my friend, Mai.",
+        "I have a friend nose.",
+        "She is a desk.",
+        "Friend you are Mai."
+      ],
+      "answer": 0,
+      "level": "M3"
+    }
+  ]
+}
