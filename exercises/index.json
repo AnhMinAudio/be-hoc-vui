@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T17:46:56.420Z",
+  "generatedAt": "2026-05-29T18:01:00.728Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -392,6 +392,42 @@
       "path": "mam-non/age5/dem-so-3.json"
     },
     {
+      "id": "thpt-dia-li-l12-kinh-te-vung",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 12,
+      "topic": "Địa lí các ngành kinh tế và vùng kinh tế Việt Nam",
+      "chapter": "Địa lí kinh tế & vùng kinh tế",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Chuyển dịch cơ cấu kinh tế",
+        "Địa lí nông nghiệp, công nghiệp, dịch vụ",
+        "Địa lí các vùng kinh tế",
+        "Vùng kinh tế trọng điểm"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/dia-li-kinh-te-vung.json"
+    },
+    {
+      "id": "thpt-dia-li-l12-tu-nhien-dan-cu",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 12,
+      "topic": "Địa lí tự nhiên và dân cư Việt Nam",
+      "chapter": "Địa lí tự nhiên & dân cư",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Vị trí địa lí và phạm vi lãnh thổ",
+        "Đặc điểm tự nhiên: địa hình, khí hậu, sông ngòi",
+        "Dân số và phân bố dân cư",
+        "Đô thị hóa"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/dia-li-tu-nhien-dan-cu.json"
+    },
+    {
       "id": "thpt-dia-li-l12-on-tap",
       "stage": "thpt",
       "subject": "dia-li",
@@ -505,6 +541,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/gdkt-pl.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l12-phap-luat-cong-dan",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 12,
+      "topic": "Pháp luật: Quyền và nghĩa vụ cơ bản của công dân",
+      "chapter": "Giáo dục pháp luật 12",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Bản chất, đặc trưng của pháp luật",
+        "Vi phạm pháp luật và trách nhiệm pháp lí",
+        "Quyền và nghĩa vụ cơ bản của công dân",
+        "Bình đẳng trước pháp luật"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/gdkt-pl-phap-luat-cong-dan.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l12-kinh-te-an-sinh",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 12,
+      "topic": "Tăng trưởng, hội nhập kinh tế và an sinh xã hội",
+      "chapter": "Giáo dục kinh tế 12",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Tăng trưởng và phát triển kinh tế",
+        "Hội nhập kinh tế quốc tế",
+        "Bảo hiểm và an sinh xã hội",
+        "Trách nhiệm xã hội, quản lí thu chi"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/gdkt-pl-kinh-te-an-sinh.json"
     },
     {
       "id": "mn-hinh-khoi-3t",
@@ -696,6 +768,41 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/lich-su.json"
+    },
+    {
+      "id": "thpt-lich-su-l12-the-gioi-asean",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 12,
+      "topic": "Thế giới sau 1945: Trật tự hai cực, Chiến tranh lạnh và ASEAN",
+      "chapter": "Lịch sử thế giới hiện đại",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Trật tự thế giới sau Chiến tranh thế giới thứ hai",
+        "Chiến tranh lạnh và trật tự đa cực",
+        "Liên hợp quốc",
+        "ASEAN và Cộng đồng ASEAN"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/lich-su-the-gioi-asean.json"
+    },
+    {
+      "id": "thpt-lich-su-l12-viet-nam-1945-nay",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 12,
+      "topic": "Việt Nam từ 1945 đến nay: Kháng chiến, Đổi mới và Chủ tịch Hồ Chí Minh",
+      "chapter": "Lịch sử Việt Nam hiện đại",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Cách mạng tháng Tám và chiến tranh giải phóng dân tộc (1945-1975)",
+        "Công cuộc Đổi mới từ năm 1986",
+        "Hồ Chí Minh trong lịch sử Việt Nam"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/lich-su-viet-nam-1945-nay.json"
     },
     {
       "id": "mn-mau-sac-3t-3",

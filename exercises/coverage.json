@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T17:46:56.420Z",
+  "generatedAt": "2026-05-29T18:01:00.728Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1953,13 +1953,25 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
           {
             "id": "thpt-lich-su-l12-on-tap",
             "topic": "Ôn tập Lịch sử 12",
             "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-lich-su-l12-the-gioi-asean",
+            "topic": "Thế giới sau 1945: Trật tự hai cực, Chiến tranh lạnh và ASEAN",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-lich-su-l12-viet-nam-1945-nay",
+            "topic": "Việt Nam từ 1945 đến nay: Kháng chiến, Đổi mới và Chủ tịch Hồ Chí Minh",
+            "questionCount": 16,
             "difficulty": 3
           }
         ]
@@ -1977,9 +1989,21 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
+          {
+            "id": "thpt-dia-li-l12-kinh-te-vung",
+            "topic": "Địa lí các ngành kinh tế và vùng kinh tế Việt Nam",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-dia-li-l12-tu-nhien-dan-cu",
+            "topic": "Địa lí tự nhiên và dân cư Việt Nam",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thpt-dia-li-l12-on-tap",
             "topic": "Ôn tập Địa lí 12",
@@ -2001,14 +2025,26 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
           {
             "id": "thpt-gdkt-pl-l12-on-tap",
             "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 12",
             "questionCount": 18,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-gdkt-pl-l12-phap-luat-cong-dan",
+            "topic": "Pháp luật: Quyền và nghĩa vụ cơ bản của công dân",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-gdkt-pl-l12-kinh-te-an-sinh",
+            "topic": "Tăng trưởng, hội nhập kinh tế và an sinh xã hội",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       }

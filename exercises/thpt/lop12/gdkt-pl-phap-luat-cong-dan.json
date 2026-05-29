@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l12-phap-luat-cong-dan",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 12,
+  "topic": "Pháp luật: Quyền và nghĩa vụ cơ bản của công dân",
+  "chapter": "Giáo dục pháp luật 12",
+  "difficulty": 3,
+  "outcomes": [
+    "Bản chất, đặc trưng của pháp luật",
+    "Vi phạm pháp luật và trách nhiệm pháp lí",
+    "Quyền và nghĩa vụ cơ bản của công dân",
+    "Bình đẳng trước pháp luật"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Pháp luật có tính quyền lực, bắt buộc chung, nghĩa là:",
+      "options": [
+        "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện, bắt buộc đối với mọi cá nhân, tổ chức",
+        "Pháp luật chỉ áp dụng cho một số người nhất định",
+        "Pháp luật chỉ mang tính khuyến khích, không bắt buộc",
+        "Pháp luật do mỗi cá nhân tự đặt ra cho riêng mình"
+      ],
+      "answer": 0,
+      "hint": "Pháp luật mang tính quyền lực nhà nước, bắt buộc chung với mọi chủ thể trong xã hội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hành vi trái pháp luật, có lỗi, do người có năng lực trách nhiệm pháp lí thực hiện, xâm hại các quan hệ xã hội được pháp luật bảo vệ được gọi là:",
+      "options": [
+        "Vi phạm pháp luật",
+        "Quan hệ pháp luật",
+        "Thực hiện pháp luật",
+        "Áp dụng pháp luật"
+      ],
+      "answer": 0,
+      "hint": "Đây là khái niệm vi phạm pháp luật, cơ sở để xác định trách nhiệm pháp lí."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Người có hành vi nguy hiểm cho xã hội, bị coi là tội phạm theo quy định của Bộ luật Hình sự thì phải chịu trách nhiệm:",
+      "options": [
+        "Hình sự",
+        "Hành chính",
+        "Dân sự",
+        "Kỉ luật"
+      ],
+      "answer": 0,
+      "hint": "Hành vi cấu thành tội phạm phải chịu trách nhiệm hình sự."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong quan hệ tài sản giữa vợ và chồng, pháp luật nước ta quy định:",
+      "options": [
+        "Vợ, chồng bình đẳng, có quyền và nghĩa vụ ngang nhau",
+        "Người chồng có toàn quyền quyết định mọi tài sản",
+        "Người vợ không có quyền với tài sản chung",
+        "Tài sản chung chỉ thuộc về người tạo ra nhiều thu nhập hơn"
+      ],
+      "answer": 0,
+      "hint": "Vợ chồng bình đẳng về quyền và nghĩa vụ, kể cả trong quan hệ tài sản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo quy định của pháp luật, công dân Việt Nam đủ bao nhiêu tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân?",
+      "options": [
+        "Đủ 18 tuổi",
+        "Đủ 16 tuổi",
+        "Đủ 20 tuổi",
+        "Đủ 21 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Công dân đủ 18 tuổi trở lên có quyền bầu cử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Công dân đủ bao nhiêu tuổi trở lên có quyền ứng cử vào Quốc hội, Hội đồng nhân dân?",
+      "options": [
+        "Đủ 21 tuổi",
+        "Đủ 18 tuổi",
+        "Đủ 25 tuổi",
+        "Đủ 30 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Quyền bầu cử: đủ 18 tuổi; quyền ứng cử: đủ 21 tuổi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quyền tự do ngôn luận của công dân được hiểu là:",
+      "options": [
+        "Công dân có quyền tự do phát biểu ý kiến, bày tỏ quan điểm về các vấn đề của đất nước trong khuôn khổ pháp luật",
+        "Công dân được nói và làm bất cứ điều gì mình muốn",
+        "Chỉ cán bộ nhà nước mới được phát biểu ý kiến",
+        "Công dân được phép xuyên tạc, vu khống người khác"
+      ],
+      "answer": 0,
+      "hint": "Quyền tự do ngôn luận được thực hiện trong khuôn khổ pháp luật, không xâm phạm quyền, lợi ích của người khác."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Việc khám xét chỗ ở của công dân chỉ được tiến hành khi:",
+      "options": [
+        "Có quyết định hoặc phê chuẩn của cơ quan nhà nước có thẩm quyền và theo đúng trình tự pháp luật",
+        "Bất kì ai cũng có thể tự ý khám xét",
+        "Hàng xóm yêu cầu kiểm tra",
+        "Người khám xét cảm thấy nghi ngờ"
+      ],
+      "answer": 0,
+      "hint": "Chỗ ở của công dân là bất khả xâm phạm; chỉ được khám khi có căn cứ và quyết định hợp pháp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nội dung nào sau đây là nghĩa vụ cơ bản của công dân?",
+      "options": [
+        "Trung thành và bảo vệ Tổ quốc",
+        "Được pháp luật bảo hộ về tính mạng",
+        "Được tự do kinh doanh theo pháp luật",
+        "Được học tập, nghiên cứu khoa học"
+      ],
+      "answer": 0,
+      "hint": "Bảo vệ Tổ quốc, tuân theo Hiến pháp và pháp luật, nộp thuế… là các nghĩa vụ cơ bản của công dân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Chị B và anh C cùng làm một công việc với năng suất như nhau nhưng chị B bị trả lương thấp hơn chỉ vì là nữ. Việc làm của người sử dụng lao động đã vi phạm quyền bình đẳng trong lĩnh vực:",
+      "options": [
+        "Lao động",
+        "Hôn nhân và gia đình",
+        "Kinh doanh",
+        "Tín ngưỡng, tôn giáo"
+      ],
+      "answer": 0,
+      "hint": "Trả lương khác nhau cho cùng công việc, năng suất như nhau chỉ vì giới tính là vi phạm bình đẳng trong lao động."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Anh M điều khiển xe máy vượt đèn đỏ và bị cảnh sát giao thông xử phạt tiền. Trong trường hợp này, anh M phải chịu trách nhiệm:",
+      "options": [
+        "Hành chính",
+        "Hình sự",
+        "Dân sự",
+        "Kỉ luật"
+      ],
+      "answer": 0,
+      "hint": "Vi phạm quy tắc giao thông bị xử phạt tiền là vi phạm hành chính → chịu trách nhiệm hành chính."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về pháp luật:",
+      "statements": [
+        { "text": "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.", "answer": true },
+        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
+        { "text": "Chỉ những người có chức quyền mới phải tuân theo pháp luật.", "answer": false },
+        { "text": "Vi phạm hình sự là hành vi nguy hiểm cho xã hội, bị coi là tội phạm.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ của công dân:",
+      "statements": [
+        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân.", "answer": true },
+        { "text": "Bảo vệ Tổ quốc là quyền và nghĩa vụ thiêng liêng của công dân.", "answer": true },
+        { "text": "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát, trừ trường hợp phạm tội quả tang.", "answer": true },
+        { "text": "Công dân chỉ có quyền mà không phải thực hiện bất kì nghĩa vụ nào đối với Nhà nước.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Theo quy định của pháp luật, công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội.",
+      "answer": "18",
+      "alternatives": ["mười tám"],
+      "hint": "Quyền bầu cử: công dân đủ 18 tuổi trở lên."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Hành vi nguy hiểm cho xã hội, bị coi là tội phạm thì người vi phạm phải chịu trách nhiệm ___ (loại trách nhiệm pháp lí).",
+      "answer": "hình sự",
+      "alternatives": ["hinh su", "trách nhiệm hình sự"],
+      "hint": "Tội phạm phải chịu trách nhiệm hình sự."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Hiến pháp là luật cơ bản của Nhà nước, có hiệu lực pháp lí cao nhất.",
+      "answer": true,
+      "hint": "Mọi văn bản pháp luật khác đều phải phù hợp với Hiến pháp."
+    }
+  ]
+}

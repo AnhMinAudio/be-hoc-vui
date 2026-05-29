@@ -1,0 +1,205 @@
+{
+  "id": "thpt-dia-li-l12-tu-nhien-dan-cu",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 12,
+  "topic": "Địa lí tự nhiên và dân cư Việt Nam",
+  "chapter": "Địa lí tự nhiên & dân cư",
+  "difficulty": 2,
+  "outcomes": [
+    "Vị trí địa lí và phạm vi lãnh thổ",
+    "Đặc điểm tự nhiên: địa hình, khí hậu, sông ngòi",
+    "Dân số và phân bố dân cư",
+    "Đô thị hóa"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trên đất liền, Việt Nam tiếp giáp với ba quốc gia nào?",
+      "options": [
+        "Trung Quốc, Lào và Campuchia",
+        "Trung Quốc, Thái Lan và Lào",
+        "Lào, Campuchia và Thái Lan",
+        "Trung Quốc, Campuchia và Mi-an-ma"
+      ],
+      "answer": 0,
+      "hint": "Phía Bắc giáp Trung Quốc; phía Tây giáp Lào và Campuchia."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường bờ biển của nước ta kéo dài khoảng:",
+      "options": [
+        "3 260 km",
+        "1 650 km",
+        "2 360 km",
+        "4 550 km"
+      ],
+      "answer": 0,
+      "hint": "Bờ biển Việt Nam dài khoảng 3 260 km, từ Móng Cái (Quảng Ninh) đến Hà Tiên (Kiên Giang)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Vào mùa đông, miền Bắc nước ta chịu ảnh hưởng của loại gió nào gây nên thời tiết lạnh?",
+      "options": [
+        "Gió mùa Đông Bắc",
+        "Gió mùa Tây Nam",
+        "Gió Tín phong (Mậu dịch) bán cầu Nam",
+        "Gió Tây khô nóng (gió Lào)"
+      ],
+      "answer": 0,
+      "hint": "Gió mùa Đông Bắc từ phương Bắc tràn xuống gây ra mùa đông lạnh ở miền Bắc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai hệ thống sông lớn nhất nước ta là:",
+      "options": [
+        "Sông Hồng và sông Mê Công (Cửu Long)",
+        "Sông Đà và sông Mã",
+        "Sông Đồng Nai và sông Thu Bồn",
+        "Sông Cả và sông Ba"
+      ],
+      "answer": 0,
+      "hint": "Sông Hồng (miền Bắc) và sông Mê Công - Cửu Long (miền Nam) có lưu vực và lưu lượng lớn nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hướng nghiêng chung của địa hình nước ta là:",
+      "options": [
+        "Tây Bắc - Đông Nam (cao ở phía tây bắc, thấp dần ra biển ở phía đông nam)",
+        "Đông Bắc - Tây Nam",
+        "Bắc - Nam",
+        "Đông - Tây"
+      ],
+      "answer": 0,
+      "hint": "Địa hình thấp dần từ tây bắc xuống đông nam, ra phía biển."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ranh giới tự nhiên quan trọng tạo nên sự phân hóa khí hậu giữa miền Bắc và miền Nam nước ta là dãy núi:",
+      "options": [
+        "Bạch Mã",
+        "Hoàng Liên Sơn",
+        "Trường Sơn Bắc",
+        "Tam Đảo"
+      ],
+      "answer": 0,
+      "hint": "Dãy Bạch Mã (đèo Hải Vân) là ranh giới phân hóa khí hậu Bắc - Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Về quy mô dân số, Việt Nam là nước:",
+      "options": [
+        "Đông dân (thuộc nhóm các nước đông dân trên thế giới)",
+        "Thưa dân, dân số ít",
+        "Có dân số đứng đầu thế giới",
+        "Không có dân cư sinh sống ở miền núi"
+      ],
+      "answer": 0,
+      "hint": "Việt Nam có quy mô dân số lớn, thuộc nhóm các quốc gia đông dân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Dân cư nước ta tập trung đông đúc nhất ở khu vực nào?",
+      "options": [
+        "Các đồng bằng và đô thị",
+        "Vùng núi cao",
+        "Vùng biên giới",
+        "Các đảo xa bờ"
+      ],
+      "answer": 0,
+      "hint": "Đồng bằng và đô thị có điều kiện sống, sản xuất thuận lợi nên dân cư tập trung đông."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hiện nay, cơ cấu dân số nước ta đang trong giai đoạn:",
+      "options": [
+        "Cơ cấu dân số vàng (tỉ lệ người trong độ tuổi lao động cao) và bắt đầu già hóa",
+        "Dân số rất trẻ, hầu hết là trẻ em",
+        "Dân số đã già hóa hoàn toàn",
+        "Không có biến động về cơ cấu tuổi"
+      ],
+      "answer": 0,
+      "hint": "Nước ta đang ở thời kì cơ cấu dân số vàng, đồng thời tốc độ già hóa đang tăng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tình trạng dân cư tập trung quá đông ở đồng bằng, đô thị nhưng thưa thớt ở miền núi gây ra khó khăn chủ yếu nào?",
+      "options": [
+        "Sử dụng lao động và khai thác tài nguyên chưa hợp lí giữa các vùng",
+        "Làm cho khí hậu thay đổi đột ngột",
+        "Khiến diện tích lãnh thổ bị thu hẹp",
+        "Làm mất hoàn toàn tài nguyên rừng"
+      ],
+      "answer": 0,
+      "hint": "Phân bố dân cư không đều gây lãng phí lao động ở nơi đông và thiếu lao động ở nơi giàu tài nguyên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khí hậu nhiệt đới ẩm gió mùa gây ra khó khăn nào sau đây cho sản xuất và đời sống ở nước ta?",
+      "options": [
+        "Nhiều thiên tai như bão, lũ lụt, hạn hán; sâu bệnh dễ phát triển",
+        "Làm cho đất đai hoàn toàn khô cằn quanh năm",
+        "Khiến nước ta không trồng được lúa",
+        "Làm nhiệt độ giảm xuống dưới 0 °C trên cả nước"
+      ],
+      "answer": 0,
+      "hint": "Khí hậu nóng ẩm, mưa nhiều theo mùa dễ gây bão, lũ, hạn hán và sâu bệnh."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về tự nhiên Việt Nam:",
+      "statements": [
+        { "text": "Việt Nam nằm hoàn toàn trong vùng nội chí tuyến của bán cầu Bắc.", "answer": true },
+        { "text": "Địa hình nước ta chủ yếu là đồi núi, trong đó đồi núi thấp chiếm ưu thế.", "answer": true },
+        { "text": "Khí hậu nước ta có sự phân hóa theo mùa và theo chiều Bắc - Nam.", "answer": true },
+        { "text": "Phần lớn lãnh thổ nước ta có khí hậu ôn đới lạnh quanh năm.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về dân cư nước ta:",
+      "statements": [
+        { "text": "Việt Nam là quốc gia có nhiều dân tộc cùng sinh sống.", "answer": true },
+        { "text": "Dân cư nước ta phân bố không đều giữa đồng bằng và miền núi, giữa thành thị và nông thôn.", "answer": true },
+        { "text": "Tỉ lệ dân thành thị của nước ta đang có xu hướng tăng lên do quá trình đô thị hóa.", "answer": true },
+        { "text": "Dân số nước ta hiện nay phân bố hoàn toàn đồng đều trên khắp cả nước.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Trên đất liền, nước ta có chung đường biên giới dài nhất với quốc gia ___",
+      "answer": "Lào",
+      "alternatives": ["lao", "nước Lào"],
+      "hint": "Đường biên giới Việt Nam - Lào dài nhất, hơn cả biên giới với Trung Quốc và Campuchia."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đồng bằng có diện tích lớn nhất nước ta là Đồng bằng sông ___",
+      "answer": "Cửu Long",
+      "alternatives": ["cuu long", "Cửu Long (Mê Công)"],
+      "hint": "Đồng bằng sông Cửu Long rộng khoảng 40 000 km², lớn nhất cả nước."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Biển Đông là vùng biển rộng, giàu tài nguyên, có vai trò quan trọng đối với phát triển kinh tế và an ninh của nước ta.",
+      "answer": true,
+      "hint": "Biển Đông giàu hải sản, dầu khí và là tuyến giao thông hàng hải quan trọng."
+    }
+  ]
+}

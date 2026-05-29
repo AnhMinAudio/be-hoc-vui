@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l12-kinh-te-an-sinh",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 12,
+  "topic": "Tăng trưởng, hội nhập kinh tế và an sinh xã hội",
+  "chapter": "Giáo dục kinh tế 12",
+  "difficulty": 2,
+  "outcomes": [
+    "Tăng trưởng và phát triển kinh tế",
+    "Hội nhập kinh tế quốc tế",
+    "Bảo hiểm và an sinh xã hội",
+    "Trách nhiệm xã hội, quản lí thu chi"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phát triển kinh tế bao gồm tăng trưởng kinh tế gắn liền với:",
+      "options": [
+        "Chuyển dịch cơ cấu kinh tế và tiến bộ, công bằng xã hội",
+        "Sự gia tăng dân số nhanh chóng",
+        "Việc mở rộng diện tích lãnh thổ",
+        "Sự tăng lên của giá cả hàng hóa"
+      ],
+      "answer": 0,
+      "hint": "Phát triển kinh tế = tăng trưởng kinh tế + chuyển dịch cơ cấu hợp lí + tiến bộ, công bằng xã hội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tăng trưởng kinh tế có vai trò quan trọng nào sau đây?",
+      "options": [
+        "Tạo điều kiện vật chất để nâng cao đời sống nhân dân và giải quyết việc làm",
+        "Làm gia tăng tình trạng thất nghiệp",
+        "Thu hẹp quy mô của nền kinh tế",
+        "Làm giảm thu nhập của người dân"
+      ],
+      "answer": 0,
+      "hint": "Tăng trưởng kinh tế tạo ra của cải, là cơ sở để cải thiện đời sống và tạo việc làm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Việc Việt Nam gia nhập Tổ chức Thương mại Thế giới (WTO) năm 2007 thể hiện hội nhập kinh tế ở cấp độ:",
+      "options": [
+        "Toàn cầu",
+        "Song phương",
+        "Khu vực",
+        "Địa phương"
+      ],
+      "answer": 0,
+      "hint": "WTO là tổ chức thương mại mang tính toàn cầu nên đây là hội nhập cấp độ toàn cầu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bên cạnh lợi ích, hội nhập kinh tế quốc tế cũng đặt ra thách thức nào cho nước ta?",
+      "options": [
+        "Sức ép cạnh tranh gay gắt, nguy cơ phụ thuộc và tụt hậu nếu không nâng cao năng lực",
+        "Làm cho hàng hóa trong nước không thể xuất khẩu",
+        "Khiến nước ta bị cô lập hoàn toàn với thế giới",
+        "Làm giảm cơ hội tiếp cận khoa học - công nghệ"
+      ],
+      "answer": 0,
+      "hint": "Hội nhập mở ra cơ hội nhưng cũng tạo sức ép cạnh tranh và nguy cơ phụ thuộc, tụt hậu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Loại hình bảo hiểm nào sau đây mang tính bắt buộc đối với người lao động theo quy định của pháp luật?",
+      "options": [
+        "Bảo hiểm xã hội",
+        "Bảo hiểm nhân thọ",
+        "Bảo hiểm du lịch",
+        "Bảo hiểm tài sản"
+      ],
+      "answer": 0,
+      "hint": "Bảo hiểm xã hội là loại hình bắt buộc đối với nhiều nhóm người lao động."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chính sách nào sau đây thuộc hệ thống an sinh xã hội?",
+      "options": [
+        "Trợ giúp xã hội cho người có hoàn cảnh khó khăn",
+        "Tăng giá các mặt hàng tiêu dùng",
+        "Hạn chế quyền học tập của công dân",
+        "Thu hẹp hệ thống y tế công cộng"
+      ],
+      "answer": 0,
+      "hint": "An sinh xã hội gồm các chính sách bảo hiểm, trợ giúp xã hội nhằm bảo đảm mức sống tối thiểu cho người dân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Việc tham gia bảo hiểm y tế giúp người dân:",
+      "options": [
+        "Được hỗ trợ chi phí khám, chữa bệnh và chia sẻ rủi ro về sức khỏe",
+        "Được miễn hoàn toàn thuế thu nhập cá nhân",
+        "Được cấp đất ở miễn phí",
+        "Được nhận lương hưu ngay khi còn trẻ"
+      ],
+      "answer": 0,
+      "hint": "Bảo hiểm y tế hỗ trợ chi phí khám, chữa bệnh và chia sẻ rủi ro sức khỏe trong cộng đồng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nội dung nào sau đây KHÔNG thuộc trách nhiệm xã hội của doanh nghiệp?",
+      "options": [
+        "Trốn tránh nghĩa vụ nộp thuế để tăng lợi nhuận",
+        "Bảo đảm quyền lợi cho người lao động",
+        "Bảo vệ môi trường trong quá trình sản xuất",
+        "Cung cấp sản phẩm an toàn cho người tiêu dùng"
+      ],
+      "answer": 0,
+      "hint": "Trốn thuế là hành vi vi phạm pháp luật, đi ngược lại trách nhiệm xã hội của doanh nghiệp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Để quản lí thu chi cá nhân hiệu quả, mỗi người nên:",
+      "options": [
+        "Lập kế hoạch chi tiêu hợp lí, tiết kiệm và cân đối giữa thu và chi",
+        "Chi tiêu vượt quá thu nhập, vay mượn để mua sắm",
+        "Không cần ghi chép hay theo dõi các khoản chi",
+        "Dùng hết thu nhập, không để dành khoản dự phòng"
+      ],
+      "answer": 0,
+      "hint": "Quản lí thu chi tốt là lập kế hoạch, cân đối thu - chi và có khoản tiết kiệm, dự phòng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Việc các mặt hàng nông sản Việt Nam (gạo, cà phê, trái cây) được xuất khẩu sang nhiều nước thể hiện lợi ích nào của hội nhập kinh tế quốc tế?",
+      "options": [
+        "Mở rộng thị trường tiêu thụ hàng hóa",
+        "Làm cho hàng hóa trong nước khan hiếm",
+        "Hạn chế giao lưu thương mại với bên ngoài",
+        "Làm giảm thu nhập của người nông dân"
+      ],
+      "answer": 0,
+      "hint": "Hội nhập giúp hàng hóa Việt Nam tiếp cận nhiều thị trường, mở rộng đầu ra cho sản xuất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thuế là khoản nộp bắt buộc vào ngân sách nhà nước nhằm mục đích chủ yếu nào?",
+      "options": [
+        "Phục vụ chi tiêu công và thực hiện các chức năng của Nhà nước",
+        "Tăng lợi nhuận riêng cho doanh nghiệp nộp thuế",
+        "Làm giàu cho cá nhân cán bộ thu thuế",
+        "Giảm nguồn thu của ngân sách nhà nước"
+      ],
+      "answer": 0,
+      "hint": "Thuế là nguồn thu chủ yếu của ngân sách, dùng cho chi tiêu công và hoạt động của Nhà nước."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế và hội nhập:",
+      "statements": [
+        { "text": "Tăng trưởng kinh tế là điều kiện cần để phát triển kinh tế và nâng cao đời sống nhân dân.", "answer": true },
+        { "text": "GDP là tổng giá trị bằng tiền của tất cả hàng hóa và dịch vụ cuối cùng được sản xuất ra trong phạm vi lãnh thổ một quốc gia trong một thời kì nhất định.", "answer": true },
+        { "text": "Hội nhập kinh tế quốc tế chỉ mang lại lợi ích mà không có bất kì thách thức nào.", "answer": false },
+        { "text": "Việt Nam là thành viên của Tổ chức Thương mại Thế giới (WTO).", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về bảo hiểm và an sinh xã hội:",
+      "statements": [
+        { "text": "Bảo hiểm xã hội nhằm bù đắp một phần thu nhập cho người lao động khi ốm đau, thai sản, tai nạn lao động hoặc hết tuổi lao động.", "answer": true },
+        { "text": "An sinh xã hội góp phần bảo đảm mức sống tối thiểu và hỗ trợ người dân khi gặp rủi ro.", "answer": true },
+        { "text": "Bảo hiểm y tế giúp chia sẻ rủi ro và hỗ trợ chi phí khám, chữa bệnh.", "answer": true },
+        { "text": "Tham gia bảo hiểm xã hội bắt buộc chỉ là quyền lợi, người lao động không có nghĩa vụ đóng góp nào.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Cụm từ \"bảo hiểm xã hội\" thường được viết tắt là ___",
+      "answer": "BHXH",
+      "alternatives": ["bhxh"],
+      "hint": "Bảo hiểm xã hội → BHXH."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Loại bảo hiểm bắt buộc giúp chi trả chi phí khám, chữa bệnh cho người tham gia là bảo hiểm ___",
+      "answer": "y tế",
+      "alternatives": ["y te", "bảo hiểm y tế"],
+      "hint": "Bảo hiểm y tế (BHYT) hỗ trợ chi phí khám, chữa bệnh."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Hội nhập kinh tế quốc tế là xu thế tất yếu trong bối cảnh toàn cầu hóa hiện nay.",
+      "answer": true,
+      "hint": "Trong bối cảnh toàn cầu hóa, hầu hết các quốc gia đều tham gia hội nhập kinh tế quốc tế."
+    }
+  ]
+}

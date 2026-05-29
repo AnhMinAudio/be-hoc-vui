@@ -1,0 +1,202 @@
+{
+  "id": "thpt-lich-su-l12-viet-nam-1945-nay",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 12,
+  "topic": "Việt Nam từ 1945 đến nay: Kháng chiến, Đổi mới và Chủ tịch Hồ Chí Minh",
+  "chapter": "Lịch sử Việt Nam hiện đại",
+  "difficulty": 3,
+  "outcomes": [
+    "Cách mạng tháng Tám và chiến tranh giải phóng dân tộc (1945-1975)",
+    "Công cuộc Đổi mới từ năm 1986",
+    "Hồ Chí Minh trong lịch sử Việt Nam"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong Cách mạng tháng Tám năm 1945, chính quyền cách mạng ở Hà Nội được thiết lập vào ngày nào?",
+      "options": [
+        "19/8/1945",
+        "2/9/1945",
+        "23/8/1945",
+        "25/8/1945"
+      ],
+      "answer": 0,
+      "hint": "Khởi nghĩa giành chính quyền thắng lợi ở Hà Nội ngày 19/8/1945."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hiệp định Giơ-ne-vơ (Geneva) về chấm dứt chiến tranh, lập lại hòa bình ở Đông Dương được kí kết vào năm nào?",
+      "options": [
+        "1954",
+        "1945",
+        "1973",
+        "1975"
+      ],
+      "answer": 0,
+      "hint": "Sau chiến thắng Điện Biên Phủ (1954), Hiệp định Giơ-ne-vơ được kí kết cùng năm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chiến dịch lịch sử kết thúc cuộc kháng chiến chống Mỹ, giải phóng hoàn toàn miền Nam (30/4/1975) mang tên:",
+      "options": [
+        "Chiến dịch Hồ Chí Minh",
+        "Chiến dịch Điện Biên Phủ",
+        "Chiến dịch Biên giới",
+        "Chiến dịch Tây Nguyên"
+      ],
+      "answer": 0,
+      "hint": "Chiến dịch giải phóng Sài Gòn được mang tên Chiến dịch Hồ Chí Minh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hiệp định Pa-ri về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam được kí kết vào năm nào?",
+      "options": [
+        "1973",
+        "1954",
+        "1968",
+        "1975"
+      ],
+      "answer": 0,
+      "hint": "Hiệp định Pa-ri kí năm 1973, buộc Mỹ rút quân khỏi miền Nam Việt Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sau khi đất nước thống nhất, kì họp đầu tiên của Quốc hội khóa VI (năm 1976) đã quyết định đổi tên nước thành:",
+      "options": [
+        "Cộng hòa xã hội chủ nghĩa Việt Nam",
+        "Việt Nam Dân chủ Cộng hòa",
+        "Cộng hòa miền Nam Việt Nam",
+        "Liên bang Đông Dương"
+      ],
+      "answer": 0,
+      "hint": "Năm 1976, nước ta đổi tên thành Cộng hòa xã hội chủ nghĩa Việt Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường lối Đổi mới của Đảng Cộng sản Việt Nam (năm 1986) xác định trọng tâm là đổi mới về lĩnh vực nào?",
+      "options": [
+        "Kinh tế",
+        "Quân sự",
+        "Văn hóa",
+        "Đối ngoại"
+      ],
+      "answer": 0,
+      "hint": "Đổi mới toàn diện nhưng lấy đổi mới kinh tế làm trọng tâm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Một nội dung quan trọng của đường lối Đổi mới về kinh tế ở nước ta là:",
+      "options": [
+        "Phát triển nền kinh tế hàng hóa nhiều thành phần, vận hành theo cơ chế thị trường có sự quản lí của Nhà nước theo định hướng xã hội chủ nghĩa",
+        "Duy trì nền kinh tế tập trung, bao cấp",
+        "Xóa bỏ hoàn toàn vai trò quản lí của Nhà nước",
+        "Chỉ phát triển kinh tế nhà nước, xóa bỏ kinh tế tư nhân"
+      ],
+      "answer": 0,
+      "hint": "Đổi mới chuyển sang nền kinh tế thị trường định hướng xã hội chủ nghĩa, nhiều thành phần."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Năm 1911, người thanh niên Nguyễn Tất Thành (Chủ tịch Hồ Chí Minh) ra đi tìm đường cứu nước từ địa điểm nào?",
+      "options": [
+        "Bến cảng Nhà Rồng (Sài Gòn)",
+        "Cảng Hải Phòng",
+        "Cửa biển Thuận An (Huế)",
+        "Bến Bính (Quảng Ninh)"
+      ],
+      "answer": 0,
+      "hint": "Ngày 5/6/1911, Nguyễn Tất Thành rời Bến Nhà Rồng đi tìm đường cứu nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Năm 1920, Nguyễn Ái Quốc đã tìm ra con đường cứu nước đúng đắn cho dân tộc Việt Nam, đó là con đường:",
+      "options": [
+        "Cách mạng vô sản",
+        "Cách mạng tư sản",
+        "Cải lương ôn hòa",
+        "Bạo động vũ trang đơn thuần"
+      ],
+      "answer": 0,
+      "hint": "Sau khi đọc Sơ thảo Luận cương của Lê-nin (1920), Người khẳng định con đường cách mạng vô sản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đảng Cộng sản Việt Nam được thành lập (ngày 3/2/1930) do ai chủ trì hội nghị hợp nhất các tổ chức cộng sản?",
+      "options": [
+        "Nguyễn Ái Quốc (Hồ Chí Minh)",
+        "Trần Phú",
+        "Lê Hồng Phong",
+        "Trường Chinh"
+      ],
+      "answer": 0,
+      "hint": "Nguyễn Ái Quốc chủ trì hội nghị hợp nhất ba tổ chức cộng sản đầu năm 1930."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Sắp xếp các sự kiện sau theo đúng trình tự thời gian: (1) Chiến thắng Điện Biên Phủ; (2) Đại thắng mùa Xuân giải phóng hoàn toàn miền Nam; (3) Đại hội VI của Đảng mở đầu công cuộc Đổi mới.",
+      "options": [
+        "(1) → (2) → (3)",
+        "(2) → (1) → (3)",
+        "(3) → (2) → (1)",
+        "(1) → (3) → (2)"
+      ],
+      "answer": 0,
+      "hint": "Điện Biên Phủ (1954) → Giải phóng miền Nam (1975) → Đổi mới (1986)."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các cuộc kháng chiến của dân tộc Việt Nam:",
+      "statements": [
+        { "text": "Chiến thắng Điện Biên Phủ năm 1954 buộc Pháp kí Hiệp định Giơ-ne-vơ, chấm dứt chiến tranh xâm lược Đông Dương.", "answer": true },
+        { "text": "Hiệp định Pa-ri năm 1973 buộc Mỹ rút hết quân khỏi miền Nam Việt Nam.", "answer": true },
+        { "text": "Cuộc kháng chiến chống Mỹ, cứu nước kết thúc thắng lợi năm 1975.", "answer": true },
+        { "text": "Đất nước Việt Nam được thống nhất về mặt nhà nước ngay trong năm 1945.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về công cuộc Đổi mới và Chủ tịch Hồ Chí Minh:",
+      "statements": [
+        { "text": "Công cuộc Đổi mới ở Việt Nam được khởi xướng từ Đại hội đại biểu toàn quốc lần thứ VI (1986) của Đảng.", "answer": true },
+        { "text": "Đường lối Đổi mới lấy đổi mới về kinh tế làm trọng tâm.", "answer": true },
+        { "text": "Năm 1911, Nguyễn Tất Thành ra đi tìm đường cứu nước.", "answer": true },
+        { "text": "Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa vào ngày 30/4/1975.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Nước Việt Nam Dân chủ Cộng hòa ra đời, gắn với bản Tuyên ngôn Độc lập đọc vào ngày 2 tháng 9 năm ___",
+      "answer": "1945",
+      "hint": "Ngày 2/9/1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đại thắng mùa Xuân, giải phóng hoàn toàn miền Nam, thống nhất đất nước diễn ra vào ngày 30 tháng 4 năm ___",
+      "answer": "1975",
+      "hint": "Ngày 30/4/1975, Chiến dịch Hồ Chí Minh toàn thắng."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Chiến thắng Điện Biên Phủ năm 1954 được ví là chiến thắng \"lừng lẫy năm châu, chấn động địa cầu\".",
+      "answer": true,
+      "hint": "Đây là câu thường dùng để ca ngợi tầm vóc của chiến thắng Điện Biên Phủ."
+    }
+  ]
+}

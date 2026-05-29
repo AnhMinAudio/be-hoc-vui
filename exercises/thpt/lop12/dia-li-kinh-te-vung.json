@@ -1,0 +1,205 @@
+{
+  "id": "thpt-dia-li-l12-kinh-te-vung",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 12,
+  "topic": "Địa lí các ngành kinh tế và vùng kinh tế Việt Nam",
+  "chapter": "Địa lí kinh tế & vùng kinh tế",
+  "difficulty": 3,
+  "outcomes": [
+    "Chuyển dịch cơ cấu kinh tế",
+    "Địa lí nông nghiệp, công nghiệp, dịch vụ",
+    "Địa lí các vùng kinh tế",
+    "Vùng kinh tế trọng điểm"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Xu hướng chuyển dịch cơ cấu kinh tế nước ta hiện nay là:",
+      "options": [
+        "Giảm tỉ trọng nông - lâm - thủy sản, tăng tỉ trọng công nghiệp - xây dựng và dịch vụ",
+        "Tăng tỉ trọng nông nghiệp, giảm công nghiệp và dịch vụ",
+        "Giữ nguyên cơ cấu kinh tế như trước Đổi mới",
+        "Chỉ phát triển duy nhất ngành nông nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Cơ cấu kinh tế chuyển dịch theo hướng công nghiệp hóa, hiện đại hóa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Vùng trồng cây công nghiệp lâu năm (cà phê, cao su, hồ tiêu) lớn nhất nước ta là:",
+      "options": [
+        "Tây Nguyên",
+        "Đồng bằng sông Hồng",
+        "Trung du và miền núi Bắc Bộ",
+        "Đồng bằng sông Cửu Long"
+      ],
+      "answer": 0,
+      "hint": "Tây Nguyên có đất badan màu mỡ, là vùng chuyên canh cây công nghiệp lâu năm lớn nhất, nổi bật là cà phê."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Vùng dẫn đầu cả nước về sản lượng thủy sản (nuôi trồng và khai thác) là:",
+      "options": [
+        "Đồng bằng sông Cửu Long",
+        "Đồng bằng sông Hồng",
+        "Tây Nguyên",
+        "Trung du và miền núi Bắc Bộ"
+      ],
+      "answer": 0,
+      "hint": "Đồng bằng sông Cửu Long có hệ thống sông ngòi, kênh rạch và vùng biển rộng, dẫn đầu về thủy sản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ngành nào sau đây được xem là ngành công nghiệp trọng điểm, dựa trên nguồn dầu khí ở thềm lục địa phía Nam nước ta?",
+      "options": [
+        "Công nghiệp khai thác dầu khí",
+        "Công nghiệp dệt may",
+        "Công nghiệp chế biến gỗ",
+        "Công nghiệp sản xuất giấy"
+      ],
+      "answer": 0,
+      "hint": "Dầu khí khai thác ở thềm lục địa phía Nam là nguồn nhiên liệu - nguyên liệu quan trọng của nước ta."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trung tâm công nghiệp và kinh tế lớn nhất ở phía Nam nước ta là:",
+      "options": [
+        "Thành phố Hồ Chí Minh",
+        "Cần Thơ",
+        "Đà Nẵng",
+        "Vũng Tàu"
+      ],
+      "answer": 0,
+      "hint": "Thành phố Hồ Chí Minh là trung tâm kinh tế, công nghiệp, dịch vụ lớn nhất phía Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Loại hình giao thông vận tải nào có vai trò quan trọng nhất trong vận chuyển hàng hóa xuất, nhập khẩu của nước ta?",
+      "options": [
+        "Đường biển",
+        "Đường sắt",
+        "Đường hàng không",
+        "Đường ống"
+      ],
+      "answer": 0,
+      "hint": "Phần lớn hàng hóa xuất nhập khẩu được vận chuyển bằng đường biển qua các cảng lớn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ngành kinh tế nào sau đây đang phát triển nhanh và được ví là \"ngành công nghiệp không khói\"?",
+      "options": [
+        "Du lịch",
+        "Khai thác than",
+        "Luyện kim",
+        "Đóng tàu"
+      ],
+      "answer": 0,
+      "hint": "Du lịch là ngành dịch vụ được gọi là \"ngành công nghiệp không khói\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Thế mạnh kinh tế nổi bật của vùng Trung du và miền núi Bắc Bộ là:",
+      "options": [
+        "Khai thác khoáng sản và phát triển thủy điện",
+        "Sản xuất lúa gạo xuất khẩu lớn nhất cả nước",
+        "Nuôi trồng thủy sản nước mặn quy mô lớn",
+        "Trồng cây ăn quả nhiệt đới ở đồng bằng"
+      ],
+      "answer": 0,
+      "hint": "Vùng giàu khoáng sản (than Quảng Ninh) và có tiềm năng thủy điện lớn (Hòa Bình, Sơn La)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nước ta hiện có bao nhiêu vùng kinh tế trọng điểm?",
+      "options": [
+        "4 vùng",
+        "2 vùng",
+        "6 vùng",
+        "8 vùng"
+      ],
+      "answer": 0,
+      "hint": "Bốn vùng kinh tế trọng điểm: Bắc Bộ, miền Trung, phía Nam và vùng Đồng bằng sông Cửu Long."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đồng bằng sông Hồng có thế mạnh đặc biệt nào trong phát triển kinh tế - xã hội?",
+      "options": [
+        "Dân cư đông, nguồn lao động dồi dào, trình độ thâm canh cao",
+        "Diện tích đất badan rộng lớn để trồng cà phê",
+        "Tiềm năng dầu khí lớn nhất cả nước",
+        "Là vùng có mật độ dân số thấp nhất nước"
+      ],
+      "answer": 0,
+      "hint": "Đồng bằng sông Hồng đông dân, lao động dồi dào, có lịch sử khai thác lâu đời và trình độ thâm canh cao."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Vì sao Đồng bằng sông Cửu Long trở thành vùng sản xuất lương thực, thực phẩm lớn nhất nước ta?",
+      "options": [
+        "Có diện tích đất phù sa rộng, khí hậu thuận lợi và nguồn nước dồi dào",
+        "Có nhiều khoáng sản và đồi núi cao",
+        "Có mùa đông lạnh kéo dài thuận lợi cho cây trồng",
+        "Có diện tích nhỏ nhưng dân cư rất thưa"
+      ],
+      "answer": 0,
+      "hint": "Đất phù sa màu mỡ, khí hậu cận xích đạo nóng ẩm quanh năm và nguồn nước sông Cửu Long dồi dào."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các ngành kinh tế nước ta:",
+      "statements": [
+        { "text": "Cơ cấu kinh tế nước ta đang chuyển dịch theo hướng công nghiệp hóa, hiện đại hóa.", "answer": true },
+        { "text": "Đồng bằng sông Cửu Long là vùng sản xuất lương thực và thủy sản lớn nhất nước ta.", "answer": true },
+        { "text": "Tây Nguyên là vùng chuyên canh cây công nghiệp lâu năm lớn, đặc biệt là cà phê.", "answer": true },
+        { "text": "Ngành nông nghiệp hiện chiếm tỉ trọng lớn nhất trong cơ cấu GDP của nước ta.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về vùng kinh tế và dịch vụ:",
+      "statements": [
+        { "text": "Thành phố Hồ Chí Minh và Hà Nội là hai trung tâm kinh tế lớn nhất nước ta.", "answer": true },
+        { "text": "Giao thông đường biển có vai trò quan trọng trong vận chuyển hàng hóa xuất, nhập khẩu.", "answer": true },
+        { "text": "Du lịch là ngành dịch vụ đang được đẩy mạnh phát triển ở nước ta.", "answer": true },
+        { "text": "Trung du và miền núi Bắc Bộ là vùng trọng điểm sản xuất lúa gạo lớn nhất nước ta.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Vùng chuyên canh cây cà phê lớn nhất nước ta là ___",
+      "answer": "Tây Nguyên",
+      "alternatives": ["tay nguyen"],
+      "hint": "Tây Nguyên với đất badan là vùng trồng cà phê lớn nhất cả nước."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Trung tâm kinh tế, công nghiệp lớn nhất ở phía Nam nước ta là Thành phố ___",
+      "answer": "Hồ Chí Minh",
+      "alternatives": ["ho chi minh", "Thành phố Hồ Chí Minh", "TP Hồ Chí Minh"],
+      "hint": "Thành phố Hồ Chí Minh là đầu tàu kinh tế của phía Nam và cả nước."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đồng bằng sông Cửu Long là vùng xuất khẩu gạo chủ lực của nước ta.",
+      "answer": true,
+      "hint": "Phần lớn lượng gạo xuất khẩu của Việt Nam đến từ Đồng bằng sông Cửu Long."
+    }
+  ]
+}

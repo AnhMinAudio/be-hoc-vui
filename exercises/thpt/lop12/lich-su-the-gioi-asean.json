@@ -1,0 +1,203 @@
+{
+  "id": "thpt-lich-su-l12-the-gioi-asean",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 12,
+  "topic": "Thế giới sau 1945: Trật tự hai cực, Chiến tranh lạnh và ASEAN",
+  "chapter": "Lịch sử thế giới hiện đại",
+  "difficulty": 2,
+  "outcomes": [
+    "Trật tự thế giới sau Chiến tranh thế giới thứ hai",
+    "Chiến tranh lạnh và trật tự đa cực",
+    "Liên hợp quốc",
+    "ASEAN và Cộng đồng ASEAN"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hội nghị Ianta (Yalta, tháng 2/1945) có sự tham gia của nguyên thủ ba cường quốc nào?",
+      "options": [
+        "Liên Xô, Mỹ và Anh",
+        "Liên Xô, Mỹ và Pháp",
+        "Mỹ, Anh và Pháp",
+        "Liên Xô, Anh và Trung Quốc"
+      ],
+      "answer": 0,
+      "hint": "Ba nhà lãnh đạo dự Hội nghị Yalta là Stalin (Liên Xô), Roosevelt (Mỹ) và Churchill (Anh)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cơ quan nào của Liên hợp quốc giữ vai trò trọng yếu trong việc duy trì hòa bình và an ninh thế giới?",
+      "options": [
+        "Hội đồng Bảo an",
+        "Đại hội đồng",
+        "Ban Thư kí",
+        "Tòa án Quốc tế"
+      ],
+      "answer": 0,
+      "hint": "Hội đồng Bảo an chịu trách nhiệm chính về hòa bình và an ninh quốc tế."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Năm nước ủy viên thường trực của Hội đồng Bảo an Liên hợp quốc là:",
+      "options": [
+        "Mỹ, Anh, Pháp, Nga (Liên Xô) và Trung Quốc",
+        "Mỹ, Anh, Pháp, Đức và Nhật Bản",
+        "Mỹ, Nga, Trung Quốc, Ấn Độ và Nhật Bản",
+        "Mỹ, Anh, Pháp, Italia và Canada"
+      ],
+      "answer": 0,
+      "hint": "Năm ủy viên thường trực có quyền phủ quyết: Mỹ, Anh, Pháp, Nga, Trung Quốc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chiến tranh lạnh là cuộc đối đầu căng thẳng giữa hai phe do hai siêu cường nào đứng đầu?",
+      "options": [
+        "Mỹ và Liên Xô",
+        "Mỹ và Trung Quốc",
+        "Anh và Liên Xô",
+        "Mỹ và Nhật Bản"
+      ],
+      "answer": 0,
+      "hint": "Phe tư bản chủ nghĩa do Mỹ đứng đầu đối đầu với phe xã hội chủ nghĩa do Liên Xô đứng đầu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sự kiện nào sau đây đánh dấu trật tự thế giới hai cực Yalta sụp đổ hoàn toàn?",
+      "options": [
+        "Liên Xô tan rã (năm 1991)",
+        "Bức tường Béc-lin được xây dựng (1961)",
+        "Chiến tranh thế giới thứ hai kết thúc (1945)",
+        "Việt Nam gia nhập ASEAN (1995)"
+      ],
+      "answer": 0,
+      "hint": "Khi Liên Xô tan rã (1991), một trong hai cực không còn, trật tự hai cực Yalta sụp đổ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Xu thế phát triển chính của thế giới sau khi Chiến tranh lạnh chấm dứt là:",
+      "options": [
+        "Hòa bình, hợp tác và phát triển; hình thành trật tự thế giới đa cực",
+        "Tiếp tục đối đầu hai cực căng thẳng",
+        "Chạy đua vũ trang hạt nhân toàn diện",
+        "Hình thành trật tự thế giới đơn cực vĩnh viễn"
+      ],
+      "answer": 0,
+      "hint": "Sau Chiến tranh lạnh, các nước điều chỉnh chiến lược, lấy phát triển kinh tế làm trọng tâm; thế giới chuyển sang đa cực."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tổ chức ASEAN được thành lập (8/8/1967) gắn với việc kí kết văn kiện nào?",
+      "options": [
+        "Tuyên bố Băng Cốc (Bangkok)",
+        "Hiến chương Liên hợp quốc",
+        "Hiệp định Pa-ri",
+        "Tuyên bố Cu-a-la Lăm-pơ"
+      ],
+      "answer": 0,
+      "hint": "ASEAN ra đời với Tuyên bố Băng Cốc kí tại Thái Lan năm 1967."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Mục tiêu cơ bản của ASEAN là:",
+      "options": [
+        "Thúc đẩy hợp tác, phát triển kinh tế - văn hóa và duy trì hòa bình, ổn định khu vực",
+        "Thành lập một liên minh quân sự chống lại các nước lớn",
+        "Áp đặt một loại tiền tệ chung bắt buộc cho toàn châu Á",
+        "Xóa bỏ chủ quyền riêng của các quốc gia thành viên"
+      ],
+      "answer": 0,
+      "hint": "ASEAN hướng tới hợp tác phát triển và giữ gìn hòa bình, ổn định ở Đông Nam Á."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cộng đồng ASEAN (thành lập cuối năm 2015) gồm ba trụ cột là:",
+      "options": [
+        "Cộng đồng Chính trị - An ninh, Cộng đồng Kinh tế và Cộng đồng Văn hóa - Xã hội",
+        "Cộng đồng Quân sự, Cộng đồng Tôn giáo và Cộng đồng Giáo dục",
+        "Cộng đồng Tiền tệ, Cộng đồng Du lịch và Cộng đồng Thể thao",
+        "Cộng đồng Nông nghiệp, Công nghiệp và Dịch vụ"
+      ],
+      "answer": 0,
+      "hint": "Ba trụ cột: Chính trị - An ninh, Kinh tế và Văn hóa - Xã hội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Hiện nay, ASEAN có bao nhiêu quốc gia thành viên?",
+      "options": [
+        "10 nước",
+        "5 nước",
+        "7 nước",
+        "12 nước"
+      ],
+      "answer": 0,
+      "hint": "Từ 5 nước ban đầu (1967), ASEAN hiện có 10 thành viên ở khu vực Đông Nam Á."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Việc Việt Nam gia nhập ASEAN (năm 1995) có ý nghĩa quan trọng nào sau đây?",
+      "options": [
+        "Mở rộng hợp tác khu vực, tạo môi trường hòa bình thuận lợi cho phát triển đất nước",
+        "Chấm dứt hoàn toàn quan hệ với các nước ngoài khu vực",
+        "Buộc Việt Nam từ bỏ độc lập, chủ quyền",
+        "Làm cho nền kinh tế Việt Nam tách biệt khỏi thế giới"
+      ],
+      "answer": 0,
+      "hint": "Gia nhập ASEAN giúp Việt Nam hội nhập khu vực, mở rộng hợp tác và giữ môi trường hòa bình để phát triển."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về trật tự thế giới và Chiến tranh lạnh:",
+      "statements": [
+        { "text": "Sau Chiến tranh thế giới thứ hai, một trật tự thế giới mới hình thành theo khuôn khổ thỏa thuận tại Hội nghị Yalta (trật tự hai cực).", "answer": true },
+        { "text": "Liên hợp quốc được thành lập năm 1945 nhằm duy trì hòa bình và an ninh thế giới.", "answer": true },
+        { "text": "Trong Chiến tranh lạnh, Mỹ và Liên Xô đã trực tiếp tiến hành chiến tranh tổng lực bằng vũ khí hạt nhân với nhau.", "answer": false },
+        { "text": "Sau Chiến tranh lạnh, thế giới phát triển theo xu thế đa cực.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về tổ chức ASEAN:",
+      "statements": [
+        { "text": "ASEAN được thành lập năm 1967 với 5 nước thành viên ban đầu.", "answer": true },
+        { "text": "Việt Nam gia nhập ASEAN vào năm 1995.", "answer": true },
+        { "text": "Hiện nay ASEAN có 10 quốc gia thành viên.", "answer": true },
+        { "text": "Tất cả các quốc gia ở khu vực Đông Nam Á hiện đều đã là thành viên chính thức của ASEAN.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Cộng đồng ASEAN chính thức được thành lập vào năm ___",
+      "answer": "2015",
+      "hint": "Cộng đồng ASEAN ra đời cuối năm 2015 với ba trụ cột hợp tác."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Liên Xô tan rã vào năm ___, đánh dấu trật tự thế giới hai cực Yalta sụp đổ hoàn toàn.",
+      "answer": "1991",
+      "hint": "Cuối năm 1991, Liên bang Xô viết chính thức tan rã."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trụ sở chính của Liên hợp quốc đặt tại thành phố Niu Oóc (New York), Mỹ.",
+      "answer": true,
+      "hint": "Liên hợp quốc có trụ sở chính tại New York."
+    }
+  ]
+}
