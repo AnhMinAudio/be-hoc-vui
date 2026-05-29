@@ -237,7 +237,7 @@ a { color: inherit; text-decoration: none; }
 .fill-input.selected { border-color: var(--c-primary-dark); background: var(--c-primary-soft); }
 
 /* ===== Mầm non ===== */
-.home-section { margin: 24px 4px 12px; font-size: 1.3rem; font-weight: 800; }
+.home-section { margin: 22px 4px 12px; font-size: 1.18rem; font-weight: 800; }
 
 .preschool-banner {
   display: flex;
@@ -431,29 +431,32 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
   .site-header .header-right { margin-left: auto; }
 }
 
-/* Hero */
-.hero-pro { text-align: center; padding: 46px 20px 26px; }
-.hero-pro h1 { font-size: 2.5rem; font-weight: 900; line-height: 1.2; }
-.hero-sub { font-size: 1.15rem; color: var(--c-text-soft); max-width: 640px; margin: 14px auto 22px; }
-.hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-.avatar-hint { display: inline-block; margin-top: 18px; color: var(--c-ta-dark); font-weight: 700; }
+/* Hero (theo components.css) */
+.hero-pro { text-align: center; padding: 22px 6px 12px; }
+.hero-pro h1 { font-size: 2rem; font-weight: 800; line-height: 1.12; letter-spacing: -.5px; }
+.hero-pro h1 .accent { color: var(--c-primary-dark); }
+.hero-sub { font-size: 1rem; color: var(--c-text-soft); max-width: 34ch; margin: 10px auto 18px; }
+.hero-cta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.avatar-hint { display: inline-block; margin-top: 18px; color: var(--c-primary-dark); font-weight: 700; }
+.hero-greet { font-weight: 800; color: var(--c-primary-dark); margin-bottom: 8px; }
 
-/* Điểm nổi bật */
-.features {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px; margin: 8px 0 30px;
-}
+/* Điểm nổi bật — lưới 2 cột, icon chip */
+.features { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0 14px; }
 .feature {
   background: var(--c-card); border-radius: var(--radius-md);
-  padding: 18px; display: flex; gap: 12px; align-items: flex-start;
+  padding: 15px; display: flex; flex-direction: column; gap: 6px;
   box-shadow: var(--shadow-sm);
 }
-.feature .f-icon { font-size: 1.9rem; line-height: 1; flex-shrink: 0; }
+.feature .f-icon {
+  width: 38px; height: 38px; border-radius: var(--radius-sm);
+  display: grid; place-items: center; font-size: 1.3rem;
+  background: var(--c-primary-soft); color: var(--c-primary-dark);
+}
 .feature .f-text { display: flex; flex-direction: column; gap: 2px; }
-.feature .f-text b { font-size: 1.05rem; }
-.feature .f-text span { font-size: 0.9rem; color: var(--c-text-soft); }
+.feature .f-text b { font-size: .98rem; }
+.feature .f-text span { font-size: .82rem; color: var(--c-text-soft); }
 
-.home-subsection { margin: 22px 4px 12px; font-size: 1.1rem; font-weight: 800; color: var(--c-text-soft); }
+.home-subsection { margin: 18px 4px 10px; font-size: .96rem; font-weight: 800; color: var(--c-text-soft); }
 
 /* Footer */
 .site-footer { background: #2E2E44; color: #D8D8E8; margin-top: 48px; }
@@ -487,43 +490,41 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
   padding: 12px 16px; border-radius: 8px; margin: 16px 0;
 }
 
-/* ===== Đề hôm nay ===== */
+/* ===== Đề hôm nay (theo components.css) ===== */
 .daily-section {
-  background: linear-gradient(135deg, #FFF6E9, #FFE9F0);
-  border-radius: var(--radius-lg);
-  padding: 20px 22px;
-  margin: 18px 0 26px;
-  box-shadow: var(--shadow-sm);
+  margin: 18px 0 22px; border-radius: var(--radius-lg); padding: 18px;
+  background: linear-gradient(135deg, var(--c-bg-tint), color-mix(in srgb, var(--c-primary-soft) 60%, var(--c-card)));
+  border: 1px solid var(--c-border);
 }
-.daily-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
-.daily-head h2 { font-size: 1.35rem; font-weight: 800; }
+.daily-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.daily-head h2 { font-size: 1.15rem; font-weight: 800; }
 .daily-head h2 small { font-size: 0.8rem; color: var(--c-text-soft); font-weight: 600; }
 .daily-meta { display: flex; align-items: center; gap: 14px; }
-.daily-meta .streak { font-weight: 800; color: #E65100; background: #FFE0B2; padding: 4px 12px; border-radius: 999px; }
-.daily-progress-link { font-weight: 700; color: var(--c-ta-dark); }
-.daily-banner { background: #FFFFFF; border-radius: var(--radius-md); padding: 12px 16px; font-weight: 600; margin-bottom: 14px; }
-.daily-banner.ok { background: var(--c-correct-soft); color: #2E7D32; }
+.daily-meta .streak { font-weight: 800; font-size: .82rem; padding: 5px 12px; border-radius: 999px; background: color-mix(in srgb, var(--c-star) 22%, var(--c-card)); color: color-mix(in srgb, var(--c-star) 60%, var(--c-text)); }
+.daily-progress-link { font-weight: 700; font-size: .85rem; color: var(--c-primary-dark); }
+.daily-banner { background: var(--c-card); border-radius: var(--radius-md); padding: 12px 16px; font-weight: 600; margin-bottom: 14px; }
+.daily-banner.ok { background: var(--c-correct-soft); color: var(--c-correct); }
 .daily-grade-tabs { display: flex; gap: 8px; margin-bottom: 14px; }
 .daily-grade-tab {
   font: inherit; font-weight: 700; cursor: pointer;
-  background: #fff; color: var(--c-text-soft);
-  border: 2px solid var(--c-border, #e0e0e0); border-radius: 999px;
+  background: var(--c-card); color: var(--c-text-soft);
+  border: 2px solid var(--c-border); border-radius: 999px;
   padding: 6px 18px; transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
-.daily-grade-tab:hover { border-color: var(--c-ta-dark); }
-.daily-grade-tab.active { background: var(--c-ta-dark); color: #fff; border-color: var(--c-ta-dark); }
-.daily-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
+.daily-grade-tab:hover { border-color: var(--c-primary); }
+.daily-grade-tab.active { background: var(--c-primary); color: #fff; border-color: var(--c-primary); }
+.daily-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 .daily-card {
-  background: #fff; border-radius: var(--radius-md); padding: 18px 12px;
+  background: var(--c-card); border-radius: var(--radius-sm); padding: 14px 8px;
   text-align: center; box-shadow: var(--shadow-sm);
-  display: flex; flex-direction: column; gap: 6px; align-items: center;
-  border: 3px solid transparent; transition: transform 0.15s, border-color 0.15s;
+  display: flex; flex-direction: column; gap: 4px; align-items: center;
+  border: 2px solid transparent; transition: transform 0.18s var(--bounce), border-color 0.18s;
 }
-.daily-card:hover { transform: translateY(-4px); border-color: var(--c-tv); }
-.daily-card.done { border-color: var(--c-correct); background: #F1FAF3; }
-.dc-icon { font-size: 2.4rem; line-height: 1; }
-.dc-name { font-weight: 800; font-size: 1.1rem; }
-.dc-status { font-size: 0.9rem; color: var(--c-text-soft); font-weight: 700; }
+.daily-card:hover { transform: translateY(-3px); border-color: var(--c-primary); }
+.daily-card.done { border-color: var(--c-correct); background: var(--c-correct-soft); }
+.dc-icon { font-size: 1.7rem; line-height: 1; }
+.dc-name { font-weight: 800; font-size: .92rem; }
+.dc-status { font-size: .76rem; color: var(--c-text-soft); font-weight: 700; }
 .daily-card.done .dc-status { color: var(--c-correct); }
 
 /* ===== Heatmap tiến trình ===== */
@@ -1006,8 +1007,8 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
 .hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
 .hero-chip {
   display: inline-flex; align-items: center; gap: 6px;
-  background: #fff; border: 2px solid var(--c-border); border-radius: 999px;
-  padding: 7px 16px; font-weight: 800; font-size: 0.9rem; color: var(--c-text);
+  background: var(--c-card); border: 1.5px solid var(--c-border); border-radius: 999px;
+  padding: 7px 14px; font-weight: 800; font-size: 0.82rem; color: var(--c-text);
   box-shadow: var(--shadow-sm);
 }
 .hero-chip b { color: var(--c-primary-dark); }
