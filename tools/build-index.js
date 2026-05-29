@@ -22,7 +22,7 @@ console.log(`✅ Đã sinh index.json (${index.exercises.length} bài) và cover
 const DOMAIN = 'https://behocvui.id.vn';
 const SITEMAP_OUT = path.resolve(__dirname, '..', 'sitemap.xml');
 const today = now.slice(0, 10);
-const seoPaths = new Set(['/', '/gioi-thieu', '/faq', '/chinh-sach', '/cap/tieu-hoc', '/cap/thcs', '/cap/thpt', '/mam-non']);
+const seoPaths = new Set(['/', '/gioi-thieu', '/faq', '/chinh-sach', '/phu-huynh', '/cap/tieu-hoc', '/cap/thcs', '/cap/thpt', '/mam-non']);
 for (const e of index.exercises) {
   const stage = e.stage || 'tieu-hoc';
   if (stage === 'mam-non') {
@@ -57,6 +57,7 @@ seo['/'] = { t: 'Bé Học Vui — Học & luyện thi miễn phí từ Mầm no
 seo['/gioi-thieu'] = { t: 'Giới thiệu | Bé Học Vui', d: 'Bé Học Vui — nền tảng học và luyện tập miễn phí bám chương trình GDPT 2018 cho học sinh từ Mầm non đến THPT.' };
 seo['/faq'] = { t: 'Câu hỏi thường gặp | Bé Học Vui', d: 'Giải đáp các thắc mắc thường gặp khi dùng Bé Học Vui: tài khoản, tiến trình, đề thi thử, quyền riêng tư.' };
 seo['/chinh-sach'] = { t: 'Chính sách & Điều khoản | Bé Học Vui', d: 'Chính sách quyền riêng tư và điều khoản sử dụng của Bé Học Vui — bảo vệ thông tin trẻ em, miễn phí, nội dung tham khảo.' };
+seo['/phu-huynh'] = { t: 'Theo dõi của phụ huynh | Bé Học Vui', d: 'Phụ huynh nhập biệt danh của con và mã PIN 6 chữ số để xem tiến trình học: số sao, chuỗi ngày học, kết quả theo môn. Chỉ xem, không sửa.' };
 seo['/mam-non'] = { t: 'Mầm non (3–5 tuổi) — Học qua hình ảnh & giọng đọc | Bé Học Vui', d: 'Trò chơi học tập cho bé 3–5 tuổi: màu sắc, con vật, đếm số, hình khối… qua hình ảnh và giọng đọc. Miễn phí, không cần biết chữ.' };
 for (const st of ['tieu-hoc', 'thcs', 'thpt']) {
   const s = STAGE_INFO[st];

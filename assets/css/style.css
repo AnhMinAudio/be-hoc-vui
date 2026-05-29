@@ -1344,3 +1344,36 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 @media (min-width: 720px) {
   .lb-view { max-width: 680px; margin: 0 auto; }
 }
+
+/* ===== Theo dõi của phụ huynh ===== */
+.pp-card { margin-top: 16px; }
+.pp-status { font-weight: 700; color: var(--c-text); }
+.pp-status.on { color: var(--c-correct); }
+.pp-status.off { color: var(--c-text-soft); font-weight: 600; }
+
+/* Biểu đồ cột sao 14 ngày */
+.pv-bars {
+  display: flex; align-items: flex-end; gap: 5px;
+  height: 132px; padding: 10px 8px 4px;
+  background: var(--c-bg-tint); border-radius: var(--radius-md);
+}
+.pv-bar {
+  flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;
+  height: 100%; gap: 4px;
+}
+.pv-bar-fill {
+  width: 100%; min-height: 3px; border-radius: 5px 5px 0 0;
+  background: var(--c-star, #FFC107);
+  transition: height .4s var(--bounce, ease);
+}
+.pv-bar-dom { font-size: .62rem; color: var(--c-text-soft); font-variant-numeric: tabular-nums; }
+
+/* Hoạt động gần đây */
+.pv-acts { display: flex; flex-direction: column; gap: 6px; }
+.pv-act {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; background: var(--c-bg-tint); border-radius: var(--radius-md);
+}
+.pv-act-name { flex: 1; font-weight: 600; color: var(--c-text); font-size: .92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pv-act-score { font-weight: 800; color: var(--c-primary-dark, var(--c-primary)); font-variant-numeric: tabular-nums; }
+.pv-act-date { font-size: .8rem; color: var(--c-text-soft); min-width: 34px; text-align: right; }

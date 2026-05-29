@@ -125,6 +125,8 @@ async function handleApi(request, env, url) {
     case '/api/me': return me(env, body);
     case '/api/sync': return sync(env, body);
     case '/api/leaderboard': return leaderboard(env, body);
+    case '/api/set-parent-pin': return setParentPin(env, body);
+    case '/api/parent-view': return parentView(env, body);
     default: return json({ ok: false, error: 'not_found' }, 404);
   }
 }
@@ -150,7 +152,7 @@ async function register(env, body) {
     createdAt: Date.now(),
   };
   await putAccount(env, acc, true);
-  return json({ ok: true, token, displayName: acc.displayName, grade, progress: acc.progress });
+  return json({ ok: true, token, displayName: acc.displayName, grade, progress: acc.progress, hasPin: false });
 }
 
 async function login(env, body) {
@@ -164,14 +166,14 @@ async function login(env, body) {
   acc.tokens[token] = Date.now();
   acc.tokens = Object.fromEntries(Object.entries(acc.tokens).sort((a, b) => b[1] - a[1]).slice(0, MAX_TOKENS));
   await putAccount(env, acc, false); // đăng nhập không gia hạn tuổi thọ
-  return json({ ok: true, token, displayName: acc.displayName, grade: acc.grade, progress: acc.progress });
+  return json({ ok: true, token, displayName: acc.displayName, grade: acc.grade, progress: acc.progress, hasPin: !!acc.pinHash });
 }
 
 async function me(env, body) {
   const acc = await getAccount(env, body.username);
   if (!acc) return json({ ok: false, error: 'not_found' });
   if (!acc.tokens || !acc.tokens[String(body.token || '')]) return json({ ok: false, error: 'auth' });
-  return json({ ok: true, displayName: acc.displayName, grade: acc.grade, progress: acc.progress });
+  return json({ ok: true, displayName: acc.displayName, grade: acc.grade, progress: acc.progress, hasPin: !!acc.pinHash });
 }
 
 async function sync(env, body) {
@@ -181,6 +183,57 @@ async function sync(env, body) {
   acc.progress = mergeProgress(acc.progress || emptyProgress(), body.progress || {});
   await putAccount(env, acc, true); // làm bài = có hoạt động → gia hạn 15 ngày
   return json({ ok: true, progress: acc.progress });
+}
+
+// ===== Theo dõi của phụ huynh (mã PIN xem tiến trình, CHỈ ĐỌC) =====
+const PV_MAX_FAIL = 5;                       // số lần nhập sai trước khi khóa
+const PV_LOCK_MS = 15 * 60 * 1000;           // khóa thử 15 phút sau khi vượt ngưỡng
+function pvFailKey(name) { return 'pv:fail:' + normName(name); }
+
+// Con (đang đăng nhập) đặt/đổi/xóa mã phụ huynh 6 chữ số. pin='' để tắt.
+async function setParentPin(env, body) {
+  const acc = await getAccount(env, body.username);
+  if (!acc) return json({ ok: false, error: 'not_found' });
+  if (!acc.tokens || !acc.tokens[String(body.token || '')]) return json({ ok: false, error: 'auth' });
+  const pin = String(body.pin || '');
+  if (pin === '') {
+    delete acc.pinHash; delete acc.pinSalt;
+    await putAccount(env, acc, false);
+    return json({ ok: true, hasPin: false });
+  }
+  if (!/^\d{6}$/.test(pin)) return json({ ok: false, error: 'pin_format' });
+  acc.pinSalt = randHex(16);
+  acc.pinHash = await hashPassword(pin, acc.pinSalt);
+  await putAccount(env, acc, false); // đặt PIN không tính là "làm bài"
+  return json({ ok: true, hasPin: true });
+}
+
+// Phụ huynh (không cần đăng nhập) nhập biệt danh con + PIN → trả dữ liệu CHỈ ĐỌC.
+async function parentView(env, body) {
+  const name = normName(body.username);
+  const fkey = pvFailKey(name);
+  const now = Date.now();
+  let fail = null;
+  try { const r = await env.PROGRESS.get(fkey); fail = r ? JSON.parse(r) : null; } catch { /* bỏ qua */ }
+  if (fail && fail.until && fail.until > now) {
+    return json({ ok: false, error: 'locked', retryInSec: Math.ceil((fail.until - now) / 1000) });
+  }
+
+  const acc = await getAccount(env, body.username);
+  const pin = String(body.pin || '');
+  if (acc && !acc.pinHash) return json({ ok: false, error: 'no_pin' }); // chưa bật tính năng
+  const ok = acc && acc.pinHash && /^\d{6}$/.test(pin)
+    && (await hashPassword(pin, acc.pinSalt)) === acc.pinHash;
+  if (!ok) {
+    const n = ((fail && fail.n) || 0) + 1;
+    const locked = n >= PV_MAX_FAIL;
+    await env.PROGRESS.put(fkey, JSON.stringify({ n, until: locked ? now + PV_LOCK_MS : 0 }),
+      { expirationTtl: Math.ceil(PV_LOCK_MS / 1000) });
+    return json({ ok: false, error: locked ? 'locked' : 'invalid', left: Math.max(0, PV_MAX_FAIL - n) });
+  }
+
+  await env.PROGRESS.delete(fkey).catch(() => {}); // đúng PIN → xóa bộ đếm sai
+  return json({ ok: true, displayName: acc.displayName, grade: acc.grade, progress: acc.progress || emptyProgress() });
 }
 
 // ===== Bảng xếp hạng =====

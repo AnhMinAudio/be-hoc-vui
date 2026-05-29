@@ -44,7 +44,7 @@ const Auth = (() => {
   async function register({ username, password, grade }) {
     const r = await api('/api/register', { username, password, grade });
     if (!r.ok) return r;
-    session = { username: norm(username), token: r.token, displayName: r.displayName, grade: r.grade };
+    session = { username: norm(username), token: r.token, displayName: r.displayName, grade: r.grade, hasPin: !!r.hasPin };
     persist(); activate(r.progress);
     return r;
   }
@@ -52,10 +52,20 @@ const Auth = (() => {
   async function login({ username, password }) {
     const r = await api('/api/login', { username, password });
     if (!r.ok) return r;
-    session = { username: norm(username), token: r.token, displayName: r.displayName, grade: r.grade };
+    session = { username: norm(username), token: r.token, displayName: r.displayName, grade: r.grade, hasPin: !!r.hasPin };
     persist(); activate(r.progress);
     return r;
   }
+
+  // Con đặt/đổi/xóa mã phụ huynh (6 chữ số). pin='' để tắt. Trả {ok, hasPin} hoặc {ok:false, error}.
+  async function setParentPin(pin) {
+    if (!session) return { ok: false, error: 'auth' };
+    const r = await api('/api/set-parent-pin', { username: session.username, token: session.token, pin })
+      .catch(() => ({ ok: false, error: 'network' }));
+    if (r && r.ok) { session.hasPin = !!r.hasPin; persist(); }
+    return r;
+  }
+  function hasParentPin() { return !!(session && session.hasPin); }
 
   function logout() {
     session = null; persist();
@@ -87,7 +97,7 @@ const Auth = (() => {
     if (!session) return;
     const r = await api('/api/me', { username: session.username, token: session.token }).catch(() => null);
     if (r && r.ok) {
-      session.displayName = r.displayName; session.grade = r.grade; persist();
+      session.displayName = r.displayName; session.grade = r.grade; session.hasPin = !!r.hasPin; persist();
       Progress.replaceAll(r.progress);
       if (window.route) window.route();
     } else if (r && (r.error === 'not_found' || r.error === 'auth')) {
@@ -110,5 +120,5 @@ const Auth = (() => {
       .catch(() => ({ ok: false, error: 'network' }));
   }
 
-  return { isLoggedIn, getUser, register, login, logout, syncUp, consumeDeletedNotice, countsForExercise, getLeaderboard };
+  return { isLoggedIn, getUser, register, login, logout, syncUp, consumeDeletedNotice, countsForExercise, getLeaderboard, setParentPin, hasParentPin };
 })();

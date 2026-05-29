@@ -127,6 +127,7 @@ async function route() {
   if (parts[0] === 'faq') return renderFAQ(view);
   if (parts[0] === 'tien-trinh') return renderProgress(view);
   if (parts[0] === 'tai-khoan') return renderAuth(view);
+  if (parts[0] === 'phu-huynh') return renderParent(view);
   if (parts[0] === 'doi-nhan-vat') return renderAvatarPicker(view, true);
   if (parts[0] === 'mam-non') {
     if (parts.length === 1) return renderPreschoolAges(view);
@@ -371,6 +372,11 @@ const AUTH_ERR = {
   not_found: 'Không tìm thấy tài khoản. Kiểm tra biệt danh hoặc đăng ký mới.',
   wrong_pass: 'Sai mật khẩu, thử lại nhé.',
   server_error: 'Lỗi máy chủ, vui lòng thử lại sau.',
+  network: 'Lỗi kết nối, kiểm tra mạng rồi thử lại.',
+  pin_format: 'Mã phụ huynh phải gồm đúng 6 chữ số.',
+  no_pin: 'Tài khoản này chưa bật mã phụ huynh. Nhờ con vào mục Tài khoản để bật nhé.',
+  invalid: 'Sai biệt danh hoặc mã phụ huynh.',
+  locked: 'Nhập sai quá nhiều lần. Vui lòng thử lại sau ít phút.',
 };
 
 function renderAuth(view) {
@@ -389,8 +395,15 @@ function renderAuth(view) {
             <button class="btn btn-secondary" id="logout-btn" style="color:#EF5350">Đăng xuất</button>
           </div>
         </div>
+
+        <div class="auth-card pp-card">
+          <h2 style="margin-top:0">👨‍👩‍👧 Theo dõi của phụ huynh</h2>
+          <p class="about-note" style="margin-top:6px">Đặt một <b>mã 6 chữ số</b> để bố mẹ xem được tiến trình học của con từ điện thoại của mình — vào <b>behocvui.id.vn/phu-huynh</b>, nhập biệt danh + mã. Phụ huynh <b>chỉ xem</b>, không sửa được gì.</p>
+          <div id="pp-state"></div>
+        </div>
       </div>`;
     view.querySelector('#logout-btn').onclick = () => { Auth.logout(); navTo('/'); };
+    refreshPinCard(view);
     return;
   }
 
@@ -468,6 +481,204 @@ function renderAuth(view) {
 
   loginForm.onsubmit = (e) => { e.preventDefault(); submit(loginForm, view.querySelector('#login-msg'), d => Auth.login(d)); };
   registerForm.onsubmit = (e) => { e.preventDefault(); submit(registerForm, view.querySelector('#register-msg'), d => Auth.register(d)); };
+}
+
+// ===== Mã phụ huynh: đặt/đổi/tắt trong trang Tài khoản =====
+function refreshPinCard(view) {
+  const box = view.querySelector('#pp-state');
+  if (!box) return;
+  const on = Auth.hasParentPin();
+  box.innerHTML = `
+    ${on
+      ? `<div class="pp-status on">🔓 Đang bật mã phụ huynh.</div>
+         <div class="action-bar" style="margin-top:10px">
+           <button class="btn btn-secondary" data-pp="change">Đổi mã</button>
+           <button class="btn btn-secondary" data-pp="off" style="color:#EF5350">Tắt mã</button>
+         </div>`
+      : `<div class="pp-status off">Chưa bật. Đặt mã để phụ huynh theo dõi từ xa.</div>
+         <div class="action-bar" style="margin-top:10px"><button class="btn btn-primary" data-pp="set">Đặt mã phụ huynh</button></div>`}
+    <form id="pp-form" class="auth-form" hidden style="margin-top:12px">
+      <label>Mã phụ huynh <small>(6 chữ số)</small>
+        <input type="password" inputmode="numeric" autocomplete="off" maxlength="6" id="pp-pin" placeholder="••••••" required>
+      </label>
+      <label>Nhập lại mã
+        <input type="password" inputmode="numeric" autocomplete="off" maxlength="6" id="pp-pin2" placeholder="••••••" required>
+      </label>
+      <div class="auth-msg" id="pp-msg"></div>
+      <div class="action-bar">
+        <button type="submit" class="btn btn-primary">Lưu mã</button>
+        <button type="button" class="btn btn-secondary" data-pp="cancel">Hủy</button>
+      </div>
+    </form>`;
+  box.querySelectorAll('[data-pp]').forEach(b => { b.onclick = () => handlePp(view, b.dataset.pp); });
+  box.querySelector('#pp-form').onsubmit = (e) => { e.preventDefault(); savePin(view); };
+}
+
+async function handlePp(view, action) {
+  const form = view.querySelector('#pp-form');
+  if (action === 'cancel') { form.hidden = true; return; }
+  if (action === 'off') {
+    if (!window.confirm('Tắt mã phụ huynh? Bố mẹ sẽ không xem được tiến trình từ xa cho đến khi bật lại.')) return;
+    const r = await Auth.setParentPin('');
+    if (r && r.ok) refreshPinCard(view);
+    else window.alert(AUTH_ERR[r && r.error] || 'Không tắt được, thử lại nhé.');
+    return;
+  }
+  // set | change → hiện form nhập
+  form.hidden = false;
+  form.querySelector('#pp-pin').value = '';
+  form.querySelector('#pp-pin2').value = '';
+  view.querySelector('#pp-msg').className = 'auth-msg';
+  view.querySelector('#pp-msg').textContent = '';
+  form.querySelector('#pp-pin').focus();
+}
+
+async function savePin(view) {
+  const msg = view.querySelector('#pp-msg');
+  const pin = view.querySelector('#pp-pin').value.trim();
+  const pin2 = view.querySelector('#pp-pin2').value.trim();
+  msg.className = 'auth-msg';
+  if (!/^\d{6}$/.test(pin)) { msg.className = 'auth-msg error'; msg.textContent = 'Mã phải gồm đúng 6 chữ số.'; return; }
+  if (pin !== pin2) { msg.className = 'auth-msg error'; msg.textContent = 'Hai lần nhập mã chưa khớp.'; return; }
+  msg.textContent = 'Đang lưu...';
+  const r = await Auth.setParentPin(pin);
+  if (r && r.ok) { view.querySelector('#pp-form').hidden = true; refreshPinCard(view); }
+  else { msg.className = 'auth-msg error'; msg.textContent = AUTH_ERR[r && r.error] || 'Không lưu được, thử lại nhé.'; }
+}
+
+// ===== Trang "Theo dõi của phụ huynh" (công khai, không cần đăng nhập) =====
+function renderParent(view) {
+  applyStageTheme(''); // chủ đề trung tính cho trang dành cho người lớn
+  view.innerHTML = `
+    <a href="/" class="back-btn">← Về trang chủ</a>
+    <div class="auth-wrap">
+      <div class="auth-card" style="text-align:center">
+        <div style="font-size:3.2rem">👨‍👩‍👧</div>
+        <h1>Theo dõi con học</h1>
+        <p class="auth-sub">Nhập biệt danh của con và <b>mã phụ huynh (6 chữ số)</b> để xem tiến trình học. Bạn chỉ xem, không thay đổi được gì.</p>
+        <form id="pv-form" class="auth-form" style="margin-top:8px">
+          <label>Biệt danh của con
+            <input type="text" id="pv-user" autocomplete="off" required placeholder="VD: Bé An 2A">
+          </label>
+          <label>Mã phụ huynh <small>(6 chữ số)</small>
+            <input type="password" id="pv-pin" inputmode="numeric" autocomplete="off" maxlength="6" required placeholder="••••••">
+          </label>
+          <div class="auth-msg" id="pv-msg"></div>
+          <button type="submit" class="btn btn-primary auth-submit">Xem tiến trình</button>
+        </form>
+        <p class="about-note">Chưa có mã? Nhờ con đăng nhập, vào mục <b>Tài khoản → Theo dõi của phụ huynh</b> để bật.</p>
+      </div>
+    </div>`;
+  const form = view.querySelector('#pv-form');
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const msg = view.querySelector('#pv-msg');
+    const username = view.querySelector('#pv-user').value.trim();
+    const pin = view.querySelector('#pv-pin').value.trim();
+    msg.className = 'auth-msg';
+    if (!username) { msg.className = 'auth-msg error'; msg.textContent = 'Hãy nhập biệt danh của con.'; return; }
+    if (!/^\d{6}$/.test(pin)) { msg.className = 'auth-msg error'; msg.textContent = 'Mã phụ huynh gồm 6 chữ số.'; return; }
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; msg.textContent = 'Đang kiểm tra...';
+    let r;
+    try {
+      r = await fetch('/api/parent-view', {
+        method: 'POST', headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ username, pin }),
+      }).then(x => x.json());
+    } catch { r = { ok: false, error: 'network' }; }
+    btn.disabled = false;
+    if (r && r.ok) { renderParentDashboard(view, r); return; }
+    msg.className = 'auth-msg error';
+    if (r && r.error === 'locked') msg.textContent = `Nhập sai quá nhiều lần. Thử lại sau ${r.retryInSec ? Math.ceil(r.retryInSec / 60) + ' phút' : 'ít phút'}.`;
+    else if (r && r.error === 'invalid' && typeof r.left === 'number') msg.textContent = `Sai biệt danh hoặc mã. Còn ${r.left} lần thử.`;
+    else msg.textContent = AUTH_ERR[r && r.error] || 'Không xem được, thử lại nhé.';
+  };
+}
+
+// Tính thống kê CHỈ ĐỌC từ progress của con (không đụng tới localStorage của thiết bị).
+function parentStats(p) {
+  const dayKey = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const dailyLog = p.dailyLog || {};
+  const has = k => dailyLog[k] && Object.keys(dailyLog[k].subjects || {}).length > 0;
+  // streak: chuỗi ngày liên tiếp có làm bài tính tới hôm nay
+  const d = new Date(); d.setHours(0, 0, 0, 0);
+  if (!has(dayKey(d))) d.setDate(d.getDate() - 1);
+  let streak = 0; while (has(dayKey(d))) { streak++; d.setDate(d.getDate() - 1); }
+  // 28 ngày gần nhất
+  const start = new Date(); start.setHours(0, 0, 0, 0); start.setDate(start.getDate() - 27);
+  const startKey = dayKey(start);
+  let activeDays = 0; const subjAcc = {};
+  for (const [k, day] of Object.entries(dailyLog)) {
+    if (k < startKey) continue;
+    if (Object.keys(day.subjects || {}).length) activeDays++;
+    for (const [s, r] of Object.entries(day.subjects || {})) {
+      if (!subjAcc[s]) subjAcc[s] = { score: 0, total: 0 };
+      subjAcc[s].score += r.score; subjAcc[s].total += r.total;
+    }
+  }
+  // sao 14 ngày gần nhất (cho biểu đồ cột)
+  const starLog = p.starLog || {};
+  const bars = []; const dd = new Date(); dd.setHours(0, 0, 0, 0); dd.setDate(dd.getDate() - 13);
+  for (let i = 0; i < 14; i++) { const k = dayKey(dd); bars.push({ k, dom: dd.getDate(), v: starLog[k] || 0 }); dd.setDate(dd.getDate() + 1); }
+  const completed = Object.values(p.completed || {});
+  return {
+    stars: p.stars || 0, streak, activeDays, subjAcc, bars,
+    completedCount: completed.length,
+    perfectCount: completed.filter(c => c.bestScore === c.total).length,
+  };
+}
+
+function renderParentDashboard(view, data) {
+  const p = data.progress || {};
+  const grade = data.grade;
+  applyStageTheme(stageFromGrade(grade));
+  const st = parentStats(p);
+  const maxBar = Math.max(1, ...st.bars.map(b => b.v));
+  const barsHtml = st.bars.map(b =>
+    `<div class="pv-bar" title="${b.k}: ${b.v} sao"><span class="pv-bar-fill" style="height:${Math.round(b.v / maxBar * 100)}%"></span><span class="pv-bar-dom">${b.dom}</span></div>`).join('');
+
+  const SUB = grade >= 6 ? { toan: 'Toán', 'ngu-van': 'Ngữ văn', 'tieng-anh': 'Tiếng Anh' }
+    : { toan: 'Toán', 'tieng-viet': 'Tiếng Việt', 'tieng-anh': 'Tiếng Anh' };
+  const subjRows = Object.entries(SUB).map(([k, name]) => {
+    const a = st.subjAcc[k];
+    const pct = a && a.total ? Math.round(a.score / a.total * 100) : null;
+    return `<div class="subj-row"><span class="sr-name">${name}</span><div class="sr-bar"><div class="sr-fill" style="width:${pct || 0}%"></div></div><span class="sr-pct">${pct !== null ? pct + '%' : '—'}</span></div>`;
+  }).join('');
+  const done = Object.entries(SUB).map(([k]) => st.subjAcc[k]).filter(a => a && a.total);
+
+  // hoạt động gần đây (map id → tên bài từ CATALOG nếu có)
+  const titleOf = id => {
+    const ex = CATALOG && CATALOG.exercises && CATALOG.exercises.find(e => e.id === id);
+    return ex ? `${(SUBJECTS[ex.subject] || {}).name || ''} · ${ex.topic || ex.title || id}` : id;
+  };
+  const fmtDate = ms => { const dt = new Date(ms); return `${dt.getDate()}/${dt.getMonth() + 1}`; };
+  const history = (p.history || []).slice(0, 8).map(h =>
+    `<div class="pv-act"><span class="pv-act-name">${escapeHtml(titleOf(h.exerciseId))}</span><span class="pv-act-score">${h.score}/${h.total}</span><span class="pv-act-date">${fmtDate(h.at)}</span></div>`).join('');
+
+  view.innerHTML = `
+    <a href="/phu-huynh" class="back-btn">← Xem tài khoản khác</a>
+    <div class="hero" style="padding:16px 10px 14px">
+      <h1>👨‍👩‍👧 Tiến trình của ${escapeHtml(data.displayName)}</h1>
+      <p>Lớp ${grade} · số liệu 28 ngày gần nhất (chỉ xem)</p>
+    </div>
+    <div class="achv-stats">
+      <div class="achv-stat"><div class="n">⭐ ${st.stars}</div><div class="l">Tổng sao</div></div>
+      <div class="achv-stat"><div class="n">🔥 ${st.streak}</div><div class="l">Ngày liên tiếp</div></div>
+      <div class="achv-stat"><div class="n">📅 ${st.activeDays}</div><div class="l">Ngày học (28n)</div></div>
+    </div>
+    <div class="achv-stats" style="margin-top:10px">
+      <div class="achv-stat"><div class="n">✅ ${st.completedCount}</div><div class="l">Bài đã làm</div></div>
+      <div class="achv-stat"><div class="n">💯 ${st.perfectCount}</div><div class="l">Bài điểm tối đa</div></div>
+    </div>
+    <h2 class="home-section">⭐ Sao 14 ngày gần nhất</h2>
+    <div class="pv-bars">${barsHtml}</div>
+    <h2 class="home-section">Kết quả theo môn <small style="font-weight:600;color:var(--c-text-soft)">(28 ngày)</small></h2>
+    <div class="subj-stats">${subjRows}</div>
+    ${st.activeDays === 0 ? `<p class="about-note">Bé chưa làm bài nào trong 28 ngày gần đây. Hãy động viên con học đều mỗi ngày nhé!</p>` : ''}
+    ${history ? `<h2 class="home-section">🕑 Hoạt động gần đây</h2><div class="pv-acts">${history}</div>` : ''}
+    <p class="about-note" style="margin-top:18px">Số liệu cập nhật khi con làm bài và thiết bị của con có mạng để đồng bộ.</p>
+  `;
 }
 
 // Màn yêu cầu đăng nhập (tường mềm) cho các tính năng cần tài khoản
