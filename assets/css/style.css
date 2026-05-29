@@ -896,6 +896,21 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
 .feedback.correct { background: var(--c-correct-soft); color: var(--c-correct); }
 .feedback.wrong { background: var(--c-wrong-soft); color: var(--c-wrong); }
 .feedback .emoji { font-size: 1.8rem; }
+
+/* Khối "Giải thích" hiện sau mỗi câu (đáp án đúng + lời giải) */
+.explain {
+  margin-top: 12px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  background: var(--c-bg-tint);
+  border-left: 4px solid var(--c-primary);
+  color: var(--c-text);
+  line-height: 1.55;
+  animation: slideUp 0.3s ease;
+}
+.explain .ex-ans { font-weight: 700; color: var(--c-primary-dark); }
+.explain .ex-why { margin-top: 6px; font-size: 0.96rem; }
+.explain .ex-why b { color: var(--c-text); }
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }

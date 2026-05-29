@@ -61,13 +61,7 @@ const FillBlank = {
         return;
       }
       input.classList.add(correct ? 'correct' : 'wrong');
-      if (!correct) {
-        const showAns = document.createElement('div');
-        showAns.style.cssText = 'text-align:center;margin-top:14px;color:#6B6B8C;';
-        showAns.innerHTML = `Đáp án đúng: <strong style="color:#4DB6AC">${q.answer}</strong>`;
-        wrap.appendChild(showAns);
-      }
-      window.__showFeedback(wrap, correct, q.hint);
+      window.__showFeedback(wrap, correct, q.hint, q.answer);
       onAnswer(correct);
     };
 

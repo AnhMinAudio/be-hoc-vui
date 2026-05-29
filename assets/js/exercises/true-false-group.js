@@ -72,7 +72,8 @@ const TrueFalseGroup = {
         setTimeout(() => onAnswer(allCorrect), 450);
         return;
       }
-      window.__showFeedback(wrap, allCorrect, allCorrect ? null : 'Cần đúng cả 4 ý mới được tính điểm câu này');
+      const keyAns = q.statements.map((s, i) => `(${i + 1}) ${s.answer ? 'Đúng' : 'Sai'}`).join('  ·  ');
+      window.__showFeedback(wrap, allCorrect, q.hint, keyAns);
       onAnswer(allCorrect);
     };
 

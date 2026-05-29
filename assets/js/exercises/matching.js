@@ -50,8 +50,8 @@ const Matching = {
         lEl.classList.add(cls);
         rEl.classList.add(cls);
       });
-      const fbMsg = allCorrect ? null : `Đúng ${correctCount}/${totalPairs} cặp. Lần sau cẩn thận hơn nhé!`;
-      window.__showFeedback(wrap, allCorrect, fbMsg);
+      const keyAns = (q.pairs || []).map(p => `${p[0]} → ${p[1]}`).join('  ·  ');
+      window.__showFeedback(wrap, allCorrect, q.hint, keyAns);
       onAnswer(allCorrect);
     };
 

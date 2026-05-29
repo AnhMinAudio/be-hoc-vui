@@ -40,7 +40,7 @@ const MultipleChoice = {
         } else {
           btn.classList.add(correct ? 'correct' : 'wrong');
           if (!correct) opts.children[q.answer].classList.add('correct');
-          showFeedback(wrap, correct, q.hint);
+          showFeedback(wrap, correct, q.hint, `${letters[q.answer]}. ${q.options[q.answer]}`);
           onAnswer(correct);
         }
       };
@@ -51,7 +51,9 @@ const MultipleChoice = {
   },
 };
 
-function showFeedback(wrap, correct, hint) {
+// Hiển thị phản hồi đúng/sai + khối "Giải thích" (đáp án đúng + lời giải) sau MỖI câu.
+// answerText: đáp án đúng dạng chữ (tùy chọn). hint: lời giải/cách làm (tùy chọn).
+function showFeedback(wrap, correct, hint, answerText) {
   const fb = document.createElement('div');
   fb.className = 'feedback ' + (correct ? 'correct' : 'wrong');
   const emoji = correct
@@ -59,10 +61,20 @@ function showFeedback(wrap, correct, hint) {
     : '💪';
   const msg = correct
     ? ['Tuyệt vời!', 'Giỏi quá!', 'Đúng rồi!', 'Xuất sắc!', 'Chính xác!'][Math.floor(Math.random() * 5)]
-    : (hint ? `Chưa đúng. Gợi ý: ${hint}` : 'Chưa đúng. Cố gắng lần sau nhé!');
+    : 'Chưa đúng rồi!';
   fb.innerHTML = `<span class="emoji">${emoji}</span><span>${msg}</span>`;
   wrap.appendChild(fb);
+
+  if (answerText || hint) {
+    const ex = document.createElement('div');
+    ex.className = 'explain';
+    ex.innerHTML =
+      (answerText ? `<div class="ex-ans">✅ Đáp án đúng: <b>${answerText}</b></div>` : '') +
+      (hint ? `<div class="ex-why"><b>💡 Giải thích:</b> ${hint}</div>` : '');
+    wrap.appendChild(ex);
+    if (window.Media && Media.renderMath) Media.renderMath(ex); // render công thức KaTeX (Toán THCS/THPT)
+  }
 }
 
-// Expose helper (dùng chung cho fill-blank)
+// Expose helper (dùng chung cho fill-blank, true-false, matching, true-false-group)
 window.__showFeedback = showFeedback;

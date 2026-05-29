@@ -38,7 +38,7 @@ const TrueFalse = {
           const right = q.answer ? opts.children[0] : opts.children[1];
           right.classList.add('correct');
         }
-        window.__showFeedback(wrap, correct, q.hint);
+        window.__showFeedback(wrap, correct, q.hint, q.answer ? 'Đúng' : 'Sai');
         onAnswer(correct);
       };
       opts.appendChild(btn);
