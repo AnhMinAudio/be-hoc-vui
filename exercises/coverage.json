@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T00:36:25.566Z",
+  "generatedAt": "2026-05-29T00:57:15.018Z",
   "coverage": {
     "toan": {
       "1": {
@@ -897,8 +897,8 @@
   "thcs": {
     "toan": {
       "6": {
-        "exerciseCount": 8,
-        "totalQuestions": 140,
+        "exerciseCount": 9,
+        "totalQuestions": 157,
         "topics": [
           {
             "id": "thcs-toan-l6-c1-so-tu-nhien",
@@ -947,13 +947,25 @@
             "topic": "Chương 9: Dữ liệu và xác suất thực nghiệm",
             "questionCount": 17,
             "difficulty": 1
+          },
+          {
+            "id": "thcs-toan-l6-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 6",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "7": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 35,
         "topics": [
+          {
+            "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Toán 7",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "thcs-toan-l7-so-huu-ti-va-bieu-thuc",
             "topic": "Số hữu tỉ, lũy thừa, tỉ lệ thức, biểu thức đại số và đường thẳng song song",
@@ -1007,9 +1019,15 @@
     },
     "ngu-van": {
       "6": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
+          {
+            "id": "thcs-tv-l6-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 6",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thcs-tv-l6-tu-loai-va-bien-phap-tu-tu",
             "topic": "Từ loại, cấu tạo từ và biện pháp tu từ so sánh, nhân hóa",
@@ -1019,9 +1037,15 @@
         ]
       },
       "7": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 33,
         "topics": [
+          {
+            "id": "thcs-tv-l7-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 7",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thcs-tv-l7-tu-han-viet-va-tu-tu",
             "topic": "Từ Hán Việt, từ đồng nghĩa - trái nghĩa và biện pháp điệp ngữ, ẩn dụ, hoán dụ",
@@ -1031,13 +1055,19 @@
         ]
       },
       "8": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 35,
         "topics": [
           {
             "id": "thcs-tv-l8-cau-va-bien-phap-tu-tu",
             "topic": "Câu ghép, dấu câu, trường từ vựng và biện pháp nói quá, nói giảm nói tránh",
             "questionCount": 18,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-tv-l8-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 8",
+            "questionCount": 17,
             "difficulty": 2
           }
         ]
@@ -1057,9 +1087,15 @@
     },
     "tieng-anh": {
       "6": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 33,
         "topics": [
+          {
+            "id": "thcs-ta-l6-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 6",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thcs-ta-l6-present-simple",
             "topic": "Present Simple, to be, there is/are & Daily routines (Thì hiện tại đơn, động từ to be, cấu trúc there is/are và thói quen hằng ngày)",
@@ -1069,9 +1105,15 @@
         ]
       },
       "7": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
+          {
+            "id": "thcs-ta-l7-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 7",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thcs-ta-l7-past-simple-comparatives",
             "topic": "Past Simple, Comparatives & Superlatives, Present Continuous (Thì quá khứ đơn, so sánh hơn và so sánh nhất, thì hiện tại tiếp diễn)",
@@ -1081,9 +1123,15 @@
         ]
       },
       "8": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 2,
+        "totalQuestions": 33,
         "topics": [
+          {
+            "id": "thcs-ta-l8-on-tap-cuoi-ky-1",
+            "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 8",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thcs-ta-l8-present-perfect",
             "topic": "Present Perfect, First Conditional & Basic Passive Voice (Thì hiện tại hoàn thành, câu điều kiện loại 1 và câu bị động cơ bản)",

@@ -1,0 +1,235 @@
+{
+  "id": "thcs-ta-l8-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 8,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 8",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Watching films and reading books are popular leisure ___.' (Chọn từ vựng đúng về hoạt động giải trí)",
+      "options": [
+        "activities",
+        "customs",
+        "villages",
+        "teenagers"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Life in the ___ is quiet, with green fields and fresh air.' (Chọn từ vựng đúng về cuộc sống nông thôn)",
+      "options": [
+        "countryside",
+        "library",
+        "internet",
+        "festival"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct comparative: 'The countryside is ___ than the city.' (Chọn dạng so sánh hơn đúng của tính từ ngắn 'quiet')",
+      "options": [
+        "quiet",
+        "quieter",
+        "quietest",
+        "more quiet"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct superlative: 'Tet is the ___ important festival in Vietnam.' (Chọn từ đúng để tạo so sánh nhất với tính từ dài 'important')",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
+      "answer": 1,
+      "hint": "Tính từ dài dùng 'the most'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb form: 'My sister loves ___ to traditional music.' (Chọn dạng động từ đúng sau 'love')",
+      "options": [
+        "listen",
+        "listens",
+        "listening",
+        "to listening"
+      ],
+      "answer": 2,
+      "hint": "Sau 'love' dùng V-ing hoặc to-V; ở đây chọn V-ing"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'During Tet, families follow many old ___ and traditions.' (Chọn từ vựng đúng về phong tục)",
+      "options": [
+        "customs",
+        "activities",
+        "subjects",
+        "machines"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the present continuous for the future: 'We ___ to my grandparents' village this weekend. Everything is booked.' (Chọn dạng hiện tại tiếp diễn diễn tả kế hoạch tương lai)",
+      "options": [
+        "go",
+        "goes",
+        "are going",
+        "went"
+      ],
+      "answer": 2,
+      "hint": "Hiện tại tiếp diễn dùng cho kế hoạch chắc chắn trong tương lai gần"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct verb: 'Last summer, my family ___ in the countryside for two weeks.' (Chọn động từ đúng ở thì quá khứ đơn)",
+      "options": [
+        "stay",
+        "stays",
+        "stayed",
+        "staying"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete with a comparative: 'A buffalo is ___ (strong) than a goat.' (Điền dạng so sánh hơn của tính từ ngắn 'strong'): ___",
+      "answer": "stronger",
+      "alternatives": [
+        "Stronger",
+        "STRONGER"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the present continuous for the future: 'They ___ (visit) the pagoda tomorrow morning.' (Điền 'visit' ở hiện tại tiếp diễn chỉ kế hoạch tương lai): ___",
+      "answer": "are visiting",
+      "alternatives": [
+        "Are visiting",
+        "ARE VISITING"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Match each adjective with its correct comparative form (Nối tính từ với dạng so sánh hơn đúng)",
+      "pairs": [
+        [
+          "big",
+          "bigger"
+        ],
+        [
+          "peaceful",
+          "more peaceful"
+        ],
+        [
+          "happy",
+          "happier"
+        ],
+        [
+          "far",
+          "farther"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "VD",
+      "question": "Match each verb of liking with what teenagers often say (Nối động từ chỉ sở thích với cách nói thường gặp của thanh thiếu niên)",
+      "pairs": [
+        [
+          "enjoy",
+          "enjoy chatting with friends"
+        ],
+        [
+          "hate",
+          "hate doing homework late"
+        ],
+        [
+          "would like",
+          "would like to travel abroad"
+        ],
+        [
+          "prefer",
+          "prefer playing sports outdoors"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete with a superlative: 'Of the three villages, this one is ___ (beautiful).' (Điền dạng so sánh nhất của tính từ dài 'beautiful', kèm 'the'): ___",
+      "answer": "the most beautiful",
+      "alternatives": [
+        "most beautiful",
+        "The most beautiful",
+        "THE MOST BEAUTIFUL"
+      ],
+      "hint": "Tính từ dài: the most + adjective"
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Read the passage and decide if each statement is True or False (Đọc đoạn văn và xác định mỗi nhận định Đúng hay Sai): 'Khang is a teenager living in a small village. In his free time, he enjoys flying kites and helping his parents on the farm. He thinks life in the countryside is more peaceful than life in the city. Next month, he is taking part in the village's harvest festival for the first time.'",
+      "statements": [
+        {
+          "text": "Khang lives in a big city. (Khang sống ở thành phố lớn.)",
+          "answer": false
+        },
+        {
+          "text": "Khang enjoys flying kites in his free time. (Khang thích thả diều lúc rảnh.)",
+          "answer": true
+        },
+        {
+          "text": "Khang thinks the countryside is more peaceful than the city. (Khang nghĩ nông thôn yên bình hơn thành phố.)",
+          "answer": true
+        },
+        {
+          "text": "Khang has joined the harvest festival many times before. (Khang đã tham gia lễ hội thu hoạch nhiều lần trước đây.)",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Choose the sentence with the SAME meaning as: 'No city in the region is as crowded as this one.' (Chọn câu có cùng nghĩa)",
+      "options": [
+        "This city is the most crowded in the region.",
+        "This city is the least crowded in the region.",
+        "This city is less crowded than the others.",
+        "All cities are as crowded as this one."
+      ],
+      "answer": 0,
+      "hint": "'No ... as crowded as X' nghĩa là 'X đông đúc nhất'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Rewrite without changing the meaning: 'The city is noisier than the countryside.' -> 'The countryside is ___ (quiet) than the city.' (Điền dạng so sánh hơn của 'quiet' để câu giữ nguyên nghĩa): ___",
+      "answer": "quieter",
+      "alternatives": [
+        "Quieter",
+        "QUIETER"
+      ],
+      "hint": "'thành phố ồn hơn' = 'nông thôn yên tĩnh hơn'"
+    }
+  ]
+}

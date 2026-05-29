@@ -1,0 +1,217 @@
+{
+  "id": "thcs-toan-l6-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Ôn tập cuối học kỳ 1 — Toán 6",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "T6-STN-4",
+    "T6-STN-5",
+    "T6-CH-2",
+    "T6-CH-3",
+    "T6-CH-4",
+    "T6-SN-2",
+    "T6-SN-3",
+    "T6-SN-4",
+    "T6-SN-5",
+    "T6-HH-1",
+    "T6-HH-3"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Viết gọn tích $3 \\times 3 \\times 3 \\times 3 \\times 3$ dưới dạng lũy thừa:",
+      "options": [
+        "$3^5$",
+        "$5^3$",
+        "$3^4$",
+        "$3 \\times 5$"
+      ],
+      "answer": 0,
+      "hint": "Cơ số là $3$, số mũ là số lần xuất hiện của $3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong các số sau, số nào chia hết cho $9$?",
+      "options": [
+        "$153$",
+        "$152$",
+        "$160$",
+        "$143$"
+      ],
+      "answer": 0,
+      "hint": "Số chia hết cho $9$ khi tổng các chữ số chia hết cho $9$: $1 + 5 + 3 = 9$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số nào sau đây là hợp số?",
+      "options": [
+        "$33$",
+        "$23$",
+        "$31$",
+        "$29$"
+      ],
+      "answer": 0,
+      "hint": "$33 = 3 \\times 11$ nên có nhiều hơn hai ước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "So sánh hai số nguyên $-5$ và $-9$, chọn kết quả đúng:",
+      "options": [
+        "$-5 > -9$",
+        "$-5 < -9$",
+        "$-5 = -9$",
+        "$-9 > -5$"
+      ],
+      "answer": 0,
+      "hint": "Trên trục số, số nằm bên phải thì lớn hơn; $-5$ nằm bên phải $-9$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Giá trị tuyệt đối $|-12|$ bằng:",
+      "options": [
+        "$12$",
+        "$-12$",
+        "$0$",
+        "$24$"
+      ],
+      "answer": 0,
+      "hint": "Giá trị tuyệt đối của một số là khoảng cách từ số đó đến $0$, luôn không âm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tam giác đều có số đo mỗi góc bằng:",
+      "options": [
+        "$60^\\circ$",
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$120^\\circ$"
+      ],
+      "answer": 0,
+      "hint": "Tam giác đều có ba góc bằng nhau, tổng ba góc là $180^\\circ$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Lục giác đều có số cạnh bằng:",
+      "options": [
+        "$6$",
+        "$5$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 0,
+      "hint": "\"Lục\" nghĩa là sáu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính giá trị của biểu thức $5 \\times 2^3 - 18 : 3^2$:",
+      "options": [
+        "$38$",
+        "$40$",
+        "$22$",
+        "$36$"
+      ],
+      "answer": 0,
+      "hint": "Tính lũy thừa trước: $2^3 = 8,\\ 3^2 = 9$; rồi $5 \\times 8 - 18 : 9 = 40 - 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phân tích số $90$ ra thừa số nguyên tố, kết quả là:",
+      "options": [
+        "$2 \\times 3^2 \\times 5$",
+        "$2^2 \\times 3 \\times 5$",
+        "$2 \\times 3 \\times 5^2$",
+        "$3^2 \\times 10$"
+      ],
+      "answer": 0,
+      "hint": "$90 = 2 \\times 45 = 2 \\times 9 \\times 5 = 2 \\times 3^2 \\times 5$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bỏ dấu ngoặc rồi tính $(-15) - (7 - 15)$:",
+      "options": [
+        "$-7$",
+        "$-23$",
+        "$7$",
+        "$23$"
+      ],
+      "answer": 0,
+      "hint": "$(-15) - (7 - 15) = -15 - 7 + 15 = -7$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về số nguyên:",
+      "statements": [
+        { "text": "$(-8) + (-5) = -13$.", "answer": true },
+        { "text": "$(-6) \\times (-4) = -24$.", "answer": false },
+        { "text": "Số đối của $-11$ là $11$.", "answer": true },
+        { "text": "$(-36) : 9 = -4$.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về tính chia hết:",
+      "statements": [
+        { "text": "Số $2{,}340$ chia hết cho cả $2$ và $5$.", "answer": true },
+        { "text": "Số $7$ là số nguyên tố.", "answer": true },
+        { "text": "$\\text{ƯCLN}(15, 25) = 10$.", "answer": false },
+        { "text": "$\\text{BCNN}(3, 4) = 12$.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tìm $\\text{ƯCLN}(18, 30)$. Kết quả là ___",
+      "answer": "6",
+      "hint": "$18 = 2 \\times 3^2$; $30 = 2 \\times 3 \\times 5$; lấy thừa số chung với số mũ nhỏ nhất: $2 \\times 3 = 6$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một số sách khi xếp thành từng bó $12$ quyển, $15$ quyển hay $18$ quyển đều vừa đủ. Tính số sách ít nhất, biết số sách trong khoảng từ $150$ đến $200$ quyển. Số sách là ___ quyển.",
+      "answer": "180",
+      "hint": "Số sách là bội chung của $12, 15, 18$; $\\text{BCNN}(12, 15, 18) = 180$, nằm trong khoảng $150$–$200$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một thợ lặn đang ở độ sâu $18$ m dưới mực nước biển (ứng với $-18$ m). Anh ấy lặn xuống thêm $7$ m rồi nổi lên $5$ m. Khi đó anh ở độ cao ___ m so với mực nước biển (ghi cả dấu).",
+      "answer": "-20",
+      "hint": "$-18 - 7 + 5 = -20$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một mảnh vườn hình chữ nhật có chiều dài $15$ m và chiều rộng $9$ m. Người ta lát gạch toàn bộ mảnh vườn bằng các viên gạch hình vuông cạnh $30$ cm. Hỏi cần bao nhiêu viên gạch?",
+      "options": [
+        "$1500$ viên",
+        "$150$ viên",
+        "$135$ viên",
+        "$450$ viên"
+      ],
+      "answer": 0,
+      "hint": "Diện tích vườn $= 1500 \\times 900 = 1\\,350\\,000\\ \\text{cm}^2$; mỗi viên gạch $30 \\times 30 = 900\\ \\text{cm}^2$; chia ra $1\\,350\\,000 : 900 = 1500$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Số học sinh khối $6$ của một trường khi xếp hàng $8$, hàng $10$ hay hàng $12$ đều thừa $3$ học sinh. Biết số học sinh trong khoảng từ $200$ đến $300$. Số học sinh khối $6$ là ___ học sinh.",
+      "answer": "243",
+      "hint": "Gọi số học sinh là $n$ thì $n - 3$ là bội chung của $8, 10, 12$; $\\text{BCNN} = 120$; $n - 3 = 240 \\Rightarrow n = 243$."
+    }
+  ]
+}

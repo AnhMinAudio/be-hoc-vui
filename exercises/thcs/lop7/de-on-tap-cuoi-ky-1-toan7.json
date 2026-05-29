@@ -1,0 +1,212 @@
+{
+  "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 7,
+  "topic": "Ôn tập cuối học kỳ 1 — Toán 7",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "Số hữu tỉ: cộng, trừ, nhân, chia, lũy thừa",
+    "Số thực: số vô tỉ, căn bậc hai số học, giá trị tuyệt đối, làm tròn",
+    "Góc ở vị trí đặc biệt và hai đường thẳng song song"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong các số sau, số nào là số vô tỉ?",
+      "options": [
+        "$\\sqrt{2}$",
+        "$\\frac{3}{5}$",
+        "$0{,}25$",
+        "$-7$"
+      ],
+      "answer": 0,
+      "hint": "Số vô tỉ là số thập phân vô hạn không tuần hoàn; $\\sqrt{2} = 1{,}41421\\ldots$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Căn bậc hai số học của $49$ là:",
+      "options": [
+        "$7$",
+        "$-7$",
+        "$\\pm 7$",
+        "$24{,}5$"
+      ],
+      "answer": 0,
+      "hint": "Căn bậc hai số học của một số không âm là số không âm có bình phương bằng nó: $7^2 = 49$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Giá trị tuyệt đối $\\left| -\\dfrac{5}{8} \\right|$ bằng:",
+      "options": [
+        "$\\dfrac{5}{8}$",
+        "$-\\dfrac{5}{8}$",
+        "$\\dfrac{8}{5}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "hint": "Giá trị tuyệt đối của một số luôn không âm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Kết quả của phép tính $\\dfrac{-3}{4} + \\dfrac{1}{4}$ là:",
+      "options": [
+        "$\\dfrac{-1}{2}$",
+        "$\\dfrac{-1}{4}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{-4}{4}$"
+      ],
+      "answer": 0,
+      "hint": "Cùng mẫu nên cộng tử: $\\dfrac{-3 + 1}{4} = \\dfrac{-2}{4} = \\dfrac{-1}{2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Làm tròn số $7{,}486$ đến chữ số thập phân thứ nhất (hàng phần mười) được:",
+      "options": [
+        "$7{,}5$",
+        "$7{,}4$",
+        "$7{,}48$",
+        "$8{,}0$"
+      ],
+      "answer": 0,
+      "hint": "Chữ số ở hàng phần trăm là $8 \\ge 5$ nên làm tròn lên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai góc đối đỉnh thì:",
+      "options": [
+        "bằng nhau",
+        "bù nhau",
+        "phụ nhau",
+        "kề nhau"
+      ],
+      "answer": 0,
+      "hint": "Đây là tính chất của hai góc đối đỉnh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Theo tiên đề Euclid, qua một điểm nằm ngoài một đường thẳng cho trước, có bao nhiêu đường thẳng song song với đường thẳng đó?",
+      "options": [
+        "Đúng một đường thẳng",
+        "Hai đường thẳng",
+        "Vô số đường thẳng",
+        "Không có đường thẳng nào"
+      ],
+      "answer": 0,
+      "hint": "Tiên đề Euclid khẳng định tính duy nhất của đường thẳng song song."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kết quả của phép tính $\\dfrac{-2}{3} \\times \\dfrac{9}{8}$ (rút gọn) là:",
+      "options": [
+        "$\\dfrac{-3}{4}$",
+        "$\\dfrac{-18}{24}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{-11}{11}$"
+      ],
+      "answer": 0,
+      "hint": "$\\dfrac{-2 \\times 9}{3 \\times 8} = \\dfrac{-18}{24} = \\dfrac{-3}{4}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của $\\sqrt{16} + \\sqrt{9}$ bằng:",
+      "options": [
+        "$7$",
+        "$5$",
+        "$25$",
+        "$\\sqrt{25}$"
+      ],
+      "answer": 0,
+      "hint": "$\\sqrt{16} = 4$ và $\\sqrt{9} = 3$, nên tổng bằng $7$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính giá trị của lũy thừa $\\left( \\dfrac{-2}{3} \\right)^3$:",
+      "options": [
+        "$\\dfrac{-8}{27}$",
+        "$\\dfrac{8}{27}$",
+        "$\\dfrac{-6}{9}$",
+        "$\\dfrac{-8}{9}$"
+      ],
+      "answer": 0,
+      "hint": "Lũy thừa bậc lẻ của số âm là số âm: $\\dfrac{(-2)^3}{3^3} = \\dfrac{-8}{27}$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về số thực:",
+      "statements": [
+        { "text": "$\\sqrt{0{,}04} = 0{,}2$.", "answer": true },
+        { "text": "Số $\\sqrt{25}$ là một số vô tỉ.", "answer": false },
+        { "text": "$\\left| 0 \\right| = 0$.", "answer": true },
+        { "text": "Mọi số hữu tỉ đều là số thực.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Cho hai đường thẳng $a$ và $b$ song song, bị cắt bởi đường thẳng $c$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        { "text": "Hai góc so le trong bằng nhau.", "answer": true },
+        { "text": "Hai góc đồng vị bằng nhau.", "answer": true },
+        { "text": "Hai góc trong cùng phía bằng nhau.", "answer": false },
+        { "text": "Hai góc trong cùng phía bù nhau (tổng bằng $180^\\circ$).", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tính: $\\dfrac{3}{5} : \\dfrac{6}{25} = $ ___ (viết phân số tối giản dạng a/b).",
+      "answer": "5/2",
+      "alternatives": ["2.5", "2,5"],
+      "hint": "Chia phân số là nhân với nghịch đảo: $\\dfrac{3}{5} \\times \\dfrac{25}{6} = \\dfrac{75}{30} = \\dfrac{5}{2}$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm $x$ biết $\\left| x \\right| = 3{,}5$ và $x < 0$. Khi đó $x = $ ___ (ghi cả dấu).",
+      "answer": "-3,5",
+      "alternatives": ["-3.5"],
+      "hint": "$\\left| x \\right| = 3{,}5$ cho $x = 3{,}5$ hoặc $x = -3{,}5$; chọn giá trị âm."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Hai góc kề bù, trong đó góc thứ nhất có số đo gấp $4$ lần góc thứ hai. Số đo góc thứ hai là ___ độ.",
+      "answer": "36",
+      "alternatives": ["36 độ", "$36^\\circ$"],
+      "hint": "Gọi góc thứ hai là $x$ thì $4x + x = 180^\\circ$, suy ra $x = 36^\\circ$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một mảnh đất hình vuông có diện tích $169\\ \\text{m}^2$. Độ dài cạnh của mảnh đất đó là:",
+      "options": [
+        "$13$ m",
+        "$84{,}5$ m",
+        "$26$ m",
+        "$12$ m"
+      ],
+      "answer": 0,
+      "hint": "Cạnh hình vuông $= \\sqrt{169} = 13$ vì $13^2 = 169$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Một người gửi tiết kiệm $30$ triệu đồng. Sau một năm, người đó rút ra $\\dfrac{2}{5}$ số tiền để mua sắm, rồi gửi thêm $8$ triệu đồng. Hỏi số tiền hiện có trong sổ là bao nhiêu triệu đồng? Đáp án: ___ (chỉ ghi số).",
+      "answer": "26",
+      "hint": "Số tiền còn lại sau khi rút: $30 \\times \\dfrac{3}{5} = 18$ triệu; gửi thêm $8$ triệu: $18 + 8 = 26$ triệu."
+    }
+  ]
+}

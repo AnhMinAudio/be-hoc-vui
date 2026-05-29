@@ -1,0 +1,243 @@
+{
+  "id": "thcs-tv-l6-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 6,
+  "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 6",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào dưới đây là từ đơn?",
+      "options": [
+        "Núi",
+        "Bàn ghế",
+        "Long lanh",
+        "Học sinh"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ đơn chỉ gồm một tiếng có nghĩa"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào dưới đây là từ ghép?",
+      "options": [
+        "Bàn học",
+        "Lấp lánh",
+        "Rì rào",
+        "Xanh xao"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ ghép gồm các tiếng có quan hệ về nghĩa"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các từ sau, từ nào là từ láy?",
+      "options": [
+        "Thì thầm",
+        "Quần áo",
+        "Sông núi",
+        "Cây cối"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ láy có sự lặp lại âm giữa các tiếng"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Từ phức gồm hai loại: từ ghép và từ ___.",
+      "answer": "láy",
+      "alternatives": [
+        "từ láy"
+      ],
+      "level": "NB",
+      "hint": "Loại từ phức mà các tiếng có quan hệ về âm"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ \"giang sơn\" có nguồn gốc từ đâu?",
+      "options": [
+        "Tiếng Hán (từ mượn Hán Việt)",
+        "Tiếng Pháp",
+        "Tiếng Anh",
+        "Thuần Việt"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"giang\" là sông, \"sơn\" là núi — gốc Hán"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ mượn của tiếng nước ngoài (không phải Hán Việt)?",
+      "options": [
+        "Ti vi",
+        "Phụ huynh",
+        "Quốc gia",
+        "Học sinh"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"Ti vi\" mượn từ tiếng Anh (television)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Mũi thuyền rẽ sóng lao đi\", từ \"mũi\" được dùng theo nghĩa nào?",
+      "options": [
+        "Nghĩa chuyển",
+        "Nghĩa gốc (bộ phận trên mặt người)",
+        "Từ đồng âm",
+        "Từ trái nghĩa"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"mũi\" gốc chỉ bộ phận cơ thể, ở đây chỉ phần đầu nhọn của thuyền"
+    },
+    {
+      "type": "true-false-group",
+      "question": "Đọc đoạn thơ và cho biết mỗi nhận định sau là Đúng hay Sai:",
+      "passage": "Cây dừa xanh tỏa nhiều tàu / Dang tay đón gió, gật đầu gọi trăng.",
+      "statements": [
+        {
+          "text": "Đoạn thơ sử dụng biện pháp nhân hóa.",
+          "answer": true
+        },
+        {
+          "text": "Các từ \"dang tay\", \"gật đầu\", \"gọi\" vốn dùng để tả hoạt động của con người.",
+          "answer": true
+        },
+        {
+          "text": "Đoạn thơ được viết theo thể thơ lục bát.",
+          "answer": true
+        },
+        {
+          "text": "Đoạn thơ chủ yếu sử dụng biện pháp so sánh.",
+          "answer": false
+        }
+      ],
+      "level": "TH",
+      "hint": "Cây dừa được tả bằng những từ ngữ vốn dùng cho con người"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê hương là chùm khế ngọt / Cho con trèo hái mỗi ngày.",
+      "question": "Hai câu thơ trên sử dụng biện pháp tu từ gì khi nói \"Quê hương là chùm khế ngọt\"?",
+      "options": [
+        "So sánh",
+        "Nhân hóa",
+        "Liệt kê",
+        "Điệp ngữ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Đối chiếu \"quê hương\" với \"chùm khế ngọt\" qua từ \"là\""
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê hương là chùm khế ngọt / Cho con trèo hái mỗi ngày.",
+      "question": "Hình ảnh \"chùm khế ngọt\" gợi cho em cảm nhận gì về quê hương?",
+      "options": [
+        "Quê hương bình dị, ngọt ngào, gắn bó thân thương",
+        "Quê hương xa lạ, đáng sợ",
+        "Quê hương chỉ có cây khế",
+        "Quê hương khô cằn, nghèo khó"
+      ],
+      "answer": 0,
+      "level": "VD",
+      "hint": "Khế ngọt gợi vị ngọt ngào, kỉ niệm tuổi thơ trèo hái"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp đối chiếu hai sự vật có nét tương đồng (thường dùng từ \"như\", \"là\", \"tựa\") được gọi là biện pháp ___.",
+      "answer": "so sánh",
+      "alternatives": [
+        "phép so sánh",
+        "biện pháp so sánh"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: hiền như đất"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trong gia đình loài kiến nhỏ, kiến thợ suốt ngày chăm chỉ tha mồi, kiến lính canh gác cẩn thận, còn kiến chúa thì ở yên trong tổ. Cả đàn sống đoàn kết, không ai lười biếng.",
+      "question": "Đoạn văn trên chủ yếu viết về điều gì?",
+      "options": [
+        "Cuộc sống đoàn kết, chăm chỉ của đàn kiến",
+        "Cách xây tổ của loài ong",
+        "Một trận đánh nhau giữa các loài vật",
+        "Vẻ đẹp của khu vườn"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Đọc câu cuối để thấy ý chính"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trong gia đình loài kiến nhỏ, kiến thợ suốt ngày chăm chỉ tha mồi, kiến lính canh gác cẩn thận, còn kiến chúa thì ở yên trong tổ. Cả đàn sống đoàn kết, không ai lười biếng.",
+      "question": "Theo đoạn văn, kiến lính làm công việc gì?",
+      "options": [
+        "Canh gác",
+        "Tha mồi",
+        "Ở yên trong tổ",
+        "Xây tổ"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Tìm cụm từ đi liền với \"kiến lính\""
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trong gia đình loài kiến nhỏ, kiến thợ suốt ngày chăm chỉ tha mồi, kiến lính canh gác cẩn thận, còn kiến chúa thì ở yên trong tổ. Cả đàn sống đoàn kết, không ai lười biếng.",
+      "question": "Bài học ý nghĩa nhất rút ra từ đoạn văn là gì?",
+      "options": [
+        "Sống đoàn kết và chăm chỉ làm việc thì cộng đồng vững mạnh",
+        "Nên sống một mình cho thoải mái",
+        "Loài vật không cần lao động",
+        "Chỉ kiến chúa mới quan trọng"
+      ],
+      "answer": 0,
+      "level": "VDC",
+      "hint": "Liên hệ tinh thần đoàn kết, chăm chỉ với cuộc sống của em"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với loại cấu tạo từ phù hợp:",
+      "pairs": [
+        [
+          "trời",
+          "từ đơn"
+        ],
+        [
+          "xe đạp",
+          "từ ghép"
+        ],
+        [
+          "lung linh",
+          "từ láy"
+        ]
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với biện pháp tu từ được sử dụng:",
+      "pairs": [
+        [
+          "Mặt trời xuống biển như hòn lửa",
+          "so sánh"
+        ],
+        [
+          "Ông mặt trời thức dậy vén mây",
+          "nhân hóa"
+        ],
+        [
+          "Hôm nay trời nắng to",
+          "không có biện pháp tu từ"
+        ]
+      ],
+      "level": "VD"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "thcs-tv-l8-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 8,
+  "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 8",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ tượng hình là từ:",
+      "options": [
+        "Gợi tả hình ảnh, dáng vẻ, trạng thái của sự vật",
+        "Mô phỏng âm thanh của tự nhiên, con người",
+        "Chỉ số lượng sự vật",
+        "Dùng để gọi đáp, bộc lộ cảm xúc"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Ví dụ: lom khom, lảo đảo, chót vót"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ tượng thanh?",
+      "options": [
+        "Róc rách",
+        "Lom khom",
+        "Chót vót",
+        "Lênh khênh"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ tượng thanh mô phỏng âm thanh"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Chính bạn Lan đã giúp tôi\", từ \"chính\" là:",
+      "options": [
+        "Trợ từ (nhấn mạnh đối tượng)",
+        "Thán từ",
+        "Phó từ chỉ thời gian",
+        "Số từ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Trợ từ dùng để nhấn mạnh sự vật, sự việc được nói đến"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Than ôi! Thời oanh liệt nay còn đâu?\", từ \"Than ôi\" là:",
+      "options": [
+        "Thán từ bộc lộ cảm xúc",
+        "Trợ từ",
+        "Quan hệ từ",
+        "Phó từ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Thán từ dùng để bộc lộ tình cảm, cảm xúc"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Những từ dùng để bộc lộ tình cảm, cảm xúc (ôi, than ôi, trời ơi) hoặc để gọi đáp (này, vâng, dạ) được gọi là ___.",
+      "answer": "thán từ",
+      "alternatives": [
+        "thán từ"
+      ],
+      "level": "NB",
+      "hint": "Thường đứng đầu câu, tách bằng dấu chấm than hoặc dấu phẩy"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Lom khom dưới núi tiều vài chú / Lác đác bên sông chợ mấy nhà.",
+      "question": "Hai câu thơ trên sử dụng biện pháp tu từ cú pháp nào?",
+      "options": [
+        "Đảo ngữ",
+        "Điệp ngữ",
+        "Nói quá",
+        "Câu hỏi tu từ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Vị ngữ \"lom khom\", \"lác đác\" được đảo lên đầu câu"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Lom khom dưới núi tiều vài chú / Lác đác bên sông chợ mấy nhà.",
+      "question": "Các từ \"lom khom\", \"lác đác\" thuộc loại từ nào?",
+      "options": [
+        "Từ tượng hình",
+        "Từ tượng thanh",
+        "Trợ từ",
+        "Thán từ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Chúng gợi tả dáng vẻ, sự thưa thớt của cảnh vật"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Lom khom dưới núi tiều vài chú / Lác đác bên sông chợ mấy nhà.",
+      "question": "Tác dụng của phép đảo ngữ trong hai câu thơ là gì?",
+      "options": [
+        "Nhấn mạnh sự nhỏ bé, thưa thớt, hoang vắng của cảnh vật",
+        "Liệt kê các loài vật",
+        "Tạo không khí vui tươi, náo nhiệt",
+        "Đặt câu hỏi cho người đọc"
+      ],
+      "answer": 0,
+      "level": "VDC",
+      "hint": "Đảo \"lom khom\", \"lác đác\" lên đầu để tô đậm sự ít ỏi, vắng vẻ"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu \"Trời ơi, sao em lại học giỏi đến thế?\" được dùng với mục đích gì?",
+      "options": [
+        "Câu hỏi tu từ nhằm bộc lộ sự ngạc nhiên, khen ngợi",
+        "Hỏi để lấy thông tin",
+        "Ra lệnh",
+        "Phủ định một sự việc"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Câu hỏi tu từ không nhằm tìm câu trả lời mà để bộc lộ cảm xúc"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp đặt câu dưới hình thức câu hỏi nhưng không nhằm tìm câu trả lời, mà để khẳng định hoặc bộc lộ cảm xúc, được gọi là câu hỏi ___.",
+      "answer": "tu từ",
+      "alternatives": [
+        "câu hỏi tu từ"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: \"Ai làm cho bể kia đầy?\""
+    },
+    {
+      "type": "true-false-group",
+      "question": "Cho câu nói: \"Trời cũng sắp tối rồi.\" (mẹ nói với con đang chơi ngoài sân). Cho biết mỗi nhận định sau là Đúng hay Sai:",
+      "statements": [
+        {
+          "text": "Nghĩa tường minh của câu là: trời sắp tối.",
+          "answer": true
+        },
+        {
+          "text": "Câu nói hàm ý nhắc con nên về nhà, dừng chơi.",
+          "answer": true
+        },
+        {
+          "text": "Hàm ý là phần thông báo không được diễn đạt trực tiếp bằng từ ngữ trong câu.",
+          "answer": true
+        },
+        {
+          "text": "Câu này hoàn toàn không chứa hàm ý nào.",
+          "answer": false
+        }
+      ],
+      "level": "VD",
+      "hint": "Nghĩa tường minh nói thẳng; hàm ý phải suy ra từ tình huống"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Phần thông báo tuy không được nói ra trực tiếp bằng từ ngữ nhưng có thể suy ra từ câu nói được gọi là ___.",
+      "answer": "hàm ý",
+      "alternatives": [
+        "nghĩa hàm ý",
+        "hàm ngôn"
+      ],
+      "level": "NB",
+      "hint": "Trái với nghĩa tường minh (nói thẳng)"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Cây tre là người bạn thân thiết của người nông dân Việt Nam. Tre giúp dựng nhà, đan rổ rá, làm cán cuốc, cán cày. Tre còn cùng con người đánh giặc giữ làng. Có thể nói, tre gắn bó với đời sống dân tộc ta từ bao đời nay.",
+      "question": "Đoạn văn trên được trình bày theo cách nào?",
+      "options": [
+        "Quy nạp (câu chủ đề ở cuối)",
+        "Diễn dịch (câu chủ đề ở đầu)",
+        "Song hành (không có câu chủ đề)",
+        "Móc xích"
+      ],
+      "answer": 0,
+      "level": "VD",
+      "hint": "Câu khái quát \"tre gắn bó với đời sống dân tộc\" nằm ở cuối đoạn"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Cây tre là người bạn thân thiết của người nông dân Việt Nam. Tre giúp dựng nhà, đan rổ rá, làm cán cuốc, cán cày. Tre còn cùng con người đánh giặc giữ làng. Có thể nói, tre gắn bó với đời sống dân tộc ta từ bao đời nay.",
+      "question": "Câu nào là câu chủ đề (mang ý khái quát) của đoạn văn?",
+      "options": [
+        "Có thể nói, tre gắn bó với đời sống dân tộc ta từ bao đời nay.",
+        "Tre giúp dựng nhà, đan rổ rá.",
+        "Tre còn cùng con người đánh giặc giữ làng.",
+        "Cây tre là người bạn thân thiết của người nông dân Việt Nam."
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Câu chủ đề của đoạn quy nạp nằm ở cuối, tổng kết các ý trên"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đoạn văn có câu chủ đề đặt ở đầu đoạn, các câu sau triển khai làm rõ, được gọi là đoạn văn ___.",
+      "answer": "diễn dịch",
+      "alternatives": [
+        "đoạn diễn dịch"
+      ],
+      "level": "NB",
+      "hint": "Trái với cách trình bày quy nạp (câu chủ đề ở cuối)"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với loại từ tượng hình / tượng thanh phù hợp:",
+      "pairs": [
+        [
+          "khúc khích",
+          "tượng thanh"
+        ],
+        [
+          "thướt tha",
+          "tượng hình"
+        ],
+        [
+          "ào ào",
+          "tượng thanh"
+        ],
+        [
+          "lả lướt",
+          "tượng hình"
+        ]
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với hiện tượng ngôn ngữ tương ứng:",
+      "pairs": [
+        [
+          "Ôi, đẹp quá!",
+          "thán từ"
+        ],
+        [
+          "Ngay cả em bé cũng làm được.",
+          "trợ từ"
+        ],
+        [
+          "Đẹp vô cùng Tổ quốc ta ơi!",
+          "đảo ngữ"
+        ]
+      ],
+      "level": "VD"
+    }
+  ]
+}

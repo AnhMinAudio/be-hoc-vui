@@ -1,0 +1,235 @@
+{
+  "id": "thcs-ta-l6-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 6,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 6",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'We study many ___ at our new school, such as Maths and English.' (Chọn từ vựng đúng về trường học)",
+      "options": [
+        "subjects",
+        "uniforms",
+        "playgrounds",
+        "neighbours"
+      ],
+      "answer": 0,
+      "hint": "Maths và English là các 'môn học'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'There is a sofa in the living ___.' (Chọn tên phòng đúng trong nhà)",
+      "options": [
+        "room",
+        "garden",
+        "school",
+        "street"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb: 'My brother ___ his teeth every morning.' (Chọn động từ chia đúng ở hiện tại đơn với ngôi thứ ba số ít)",
+      "options": [
+        "brush",
+        "brushes",
+        "brushing",
+        "to brush"
+      ],
+      "answer": 1,
+      "hint": "He/She/It + động từ thêm -es sau '-sh'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'There ___ two windows in my bedroom.' (Chọn từ đúng với danh từ số nhiều)",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the possessive adjective: '___ name is Lan. She is my new classmate.' (Chọn tính từ sở hữu đúng)",
+      "options": [
+        "She",
+        "Her",
+        "Hers",
+        "He"
+      ],
+      "answer": 1,
+      "hint": "Đứng trước danh từ 'name' cần tính từ sở hữu"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct preposition: 'The cat is ___ the table, not on it.' (Chọn giới từ chỉ vị trí 'phía dưới')",
+      "options": [
+        "on",
+        "in",
+        "under",
+        "behind"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct sentence: 'Listen! The students ___ a new song now.' (Chọn dạng đúng của thì hiện tại tiếp diễn với dấu hiệu 'now')",
+      "options": [
+        "sing",
+        "sings",
+        "are singing",
+        "sang"
+      ],
+      "answer": 2,
+      "hint": "Dấu hiệu 'Listen!' và 'now' báo hiệu hiện tại tiếp diễn"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct question word: '___ is your house? - It is next to the post office.' (Chọn từ để hỏi về vị trí)",
+      "options": [
+        "What",
+        "When",
+        "Where",
+        "Who"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the present simple: 'My friends ___ (not / live) near my house.' (Điền dạng phủ định hiện tại đơn của 'live' với chủ ngữ số nhiều): ___",
+      "answer": "don't live",
+      "alternatives": [
+        "do not live",
+        "Don't live",
+        "DON'T LIVE"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the present continuous: 'Look! My mother ___ (cook) in the kitchen.' (Điền 'cook' ở thì hiện tại tiếp diễn): ___",
+      "answer": "is cooking",
+      "alternatives": [
+        "Is cooking",
+        "IS COOKING"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Match each room with the right furniture (Nối phòng trong nhà với đồ vật phù hợp)",
+      "pairs": [
+        [
+          "bedroom",
+          "bed"
+        ],
+        [
+          "kitchen",
+          "fridge"
+        ],
+        [
+          "bathroom",
+          "shower"
+        ],
+        [
+          "living room",
+          "sofa"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "VD",
+      "question": "Match each subject with what students do in it (Nối môn học với hoạt động đặc trưng của môn đó)",
+      "pairs": [
+        [
+          "Maths",
+          "solve problems with numbers"
+        ],
+        [
+          "English",
+          "learn new words and grammar"
+        ],
+        [
+          "Physical Education",
+          "play sports and exercise"
+        ],
+        [
+          "Art",
+          "draw and paint pictures"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete with the correct preposition of place: 'My school is ___ the supermarket and the bank.' (Điền giới từ chỉ vị trí 'ở giữa hai nơi'): ___",
+      "answer": "between",
+      "alternatives": [
+        "Between",
+        "BETWEEN"
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Read the passage and decide if each statement is True or False (Đọc đoạn văn và xác định mỗi nhận định Đúng hay Sai): 'Minh lives in a small house in the countryside. There are four rooms in his house: two bedrooms, a living room and a kitchen. There is a big garden in front of his house. Minh loves his neighbourhood because it is quiet and the people are friendly.'",
+      "statements": [
+        {
+          "text": "Minh lives in a big city. (Minh sống ở thành phố lớn.)",
+          "answer": false
+        },
+        {
+          "text": "There are four rooms in Minh's house. (Nhà Minh có bốn phòng.)",
+          "answer": true
+        },
+        {
+          "text": "There is a garden behind his house. (Có một khu vườn phía sau nhà.)",
+          "answer": false
+        },
+        {
+          "text": "Minh loves his neighbourhood. (Minh yêu khu phố của mình.)",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Choose the sentence with the SAME meaning as: 'My house has a garden in front of it.' (Chọn câu có cùng nghĩa)",
+      "options": [
+        "There is a garden in front of my house.",
+        "There is a garden behind my house.",
+        "My house is in a garden.",
+        "There are no gardens near my house."
+      ],
+      "answer": 0,
+      "hint": "'has a garden in front of it' = 'There is a garden in front of...'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Rewrite using a possessive: 'The room of my sister is tidy.' -> 'My sister's ___ is tidy.' (Điền danh từ còn thiếu khi viết lại bằng sở hữu cách): ___",
+      "answer": "room",
+      "alternatives": [
+        "Room",
+        "ROOM"
+      ],
+      "hint": "'the room of my sister' = 'my sister's room'"
+    }
+  ]
+}

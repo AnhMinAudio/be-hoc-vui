@@ -1,0 +1,236 @@
+{
+  "id": "thcs-ta-l7-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 7,
+  "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 7",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Collecting stamps is an interesting ___.' (Chọn từ vựng đúng về sở thích)",
+      "options": [
+        "hobby",
+        "homework",
+        "subject",
+        "hospital"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'You should eat more fruit and ___ to stay healthy.' (Chọn từ vựng đúng về ăn uống lành mạnh)",
+      "options": [
+        "vegetables",
+        "instruments",
+        "stamps",
+        "volunteers"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb: 'I like ___ to music in my free time.' (Chọn dạng động từ đúng sau 'like')",
+      "options": [
+        "listen",
+        "listens",
+        "listening",
+        "to listening"
+      ],
+      "answer": 2,
+      "hint": "Sau 'like' thường dùng động từ thêm -ing (V-ing)"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct adverb of frequency: 'She ___ goes jogging in the morning — every single day.' (Chọn trạng từ chỉ tần suất nghĩa 'luôn luôn')",
+      "options": [
+        "never",
+        "always",
+        "rarely",
+        "sometimes"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Many young people do volunteer ___ to help their community.' (Chọn từ vựng đúng về hoạt động cộng đồng)",
+      "options": [
+        "work",
+        "homework",
+        "music",
+        "hobby"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'A guitar and a piano are musical ___.' (Chọn từ vựng đúng về âm nhạc)",
+      "options": [
+        "subjects",
+        "instruments",
+        "vegetables",
+        "communities"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct verb: 'Last weekend, we ___ trees in the park.' (Chọn động từ đúng ở thì quá khứ đơn)",
+      "options": [
+        "plant",
+        "plants",
+        "planted",
+        "planting"
+      ],
+      "answer": 2,
+      "hint": "'Last weekend' báo hiệu thì quá khứ đơn"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct tense: 'My father usually ___ to work by bus, but today he ___ his bike.' (Chọn cặp động từ đúng: hiện tại đơn cho thói quen, hiện tại tiếp diễn cho việc đang xảy ra)",
+      "options": [
+        "goes / is riding",
+        "is going / rides",
+        "go / rides",
+        "goes / rode"
+      ],
+      "answer": 0,
+      "hint": "'usually' đi với hiện tại đơn; 'today' (đang diễn ra) đi với hiện tại tiếp diễn"
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the past simple: 'They ___ (collect) rubbish on the beach yesterday.' (Điền 'collect' ở thì quá khứ đơn): ___",
+      "answer": "collected",
+      "alternatives": [
+        "Collected",
+        "COLLECTED"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete with a comparative: 'Doing yoga is ___ (relaxing) than playing video games.' (Điền dạng so sánh hơn của tính từ dài 'relaxing'): ___",
+      "answer": "more relaxing",
+      "alternatives": [
+        "More relaxing",
+        "MORE RELAXING"
+      ],
+      "hint": "Tính từ dài: more + adjective + than"
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Match each hobby with the right verb (Nối sở thích với động từ phù hợp)",
+      "pairs": [
+        [
+          "paintings",
+          "make"
+        ],
+        [
+          "the guitar",
+          "play"
+        ],
+        [
+          "stamps",
+          "collect"
+        ],
+        [
+          "photos",
+          "take"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "VD",
+      "question": "Match each healthy tip with its result (Nối lời khuyên về sức khỏe với kết quả của nó)",
+      "pairs": [
+        [
+          "Eat less sugar",
+          "have good teeth"
+        ],
+        [
+          "Sleep eight hours",
+          "feel less tired"
+        ],
+        [
+          "Drink enough water",
+          "have healthy skin"
+        ],
+        [
+          "Exercise regularly",
+          "have a strong body"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete with a superlative: 'Of all the activities, swimming is ___ (good) for my health.' (Điền dạng so sánh nhất của 'good', kèm 'the'): ___",
+      "answer": "the best",
+      "alternatives": [
+        "best",
+        "The best",
+        "THE BEST"
+      ],
+      "hint": "'good' là tính từ bất quy tắc: good - better - the best"
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Read the passage and decide if each statement is True or False (Đọc đoạn văn và xác định mỗi nhận định Đúng hay Sai): 'Hoa is a Grade 7 student. Her hobby is making pottery. Every Saturday, she joins a community group that helps elderly people in her area. The group also cleans the local park. Hoa says volunteer work makes her feel happy and useful.'",
+      "statements": [
+        {
+          "text": "Hoa's hobby is making pottery. (Sở thích của Hoa là làm gốm.)",
+          "answer": true
+        },
+        {
+          "text": "The community group helps young children. (Nhóm cộng đồng giúp đỡ trẻ nhỏ.)",
+          "answer": false
+        },
+        {
+          "text": "The group cleans the local park. (Nhóm dọn dẹp công viên trong vùng.)",
+          "answer": true
+        },
+        {
+          "text": "Volunteer work makes Hoa feel bored. (Công việc tình nguyện khiến Hoa thấy chán.)",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Choose the sentence with the SAME meaning as: 'No other instrument in the band is as old as this violin.' (Chọn câu có cùng nghĩa)",
+      "options": [
+        "This violin is the oldest instrument in the band.",
+        "This violin is the newest instrument in the band.",
+        "This violin is older than nothing in the band.",
+        "All instruments are as old as this violin."
+      ],
+      "answer": 0,
+      "hint": "'No other ... as old as X' nghĩa là 'X là cũ nhất'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Rewrite using 'enjoy': 'Lan likes painting pictures very much.' -> 'Lan ___ (enjoy) painting pictures.' (Điền 'enjoy' chia đúng ở hiện tại đơn với ngôi thứ ba số ít): ___",
+      "answer": "enjoys",
+      "alternatives": [
+        "Enjoys",
+        "ENJOYS"
+      ],
+      "hint": "Chủ ngữ 'Lan' là ngôi thứ ba số ít, theo sau là V-ing (painting)"
+    }
+  ]
+}

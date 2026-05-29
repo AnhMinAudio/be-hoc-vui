@@ -1,0 +1,243 @@
+{
+  "id": "thcs-tv-l7-on-tap-cuoi-ky-1",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 7,
+  "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 7",
+  "chapter": "Ôn tập cuối kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ ghép đẳng lập là từ ghép có các tiếng:",
+      "options": [
+        "Bình đẳng về nghĩa, không phân chính - phụ",
+        "Một tiếng chính, một tiếng phụ",
+        "Lặp lại âm với nhau",
+        "Đều vô nghĩa"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Ví dụ: nhà cửa, quần áo, sách vở"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ ghép chính phụ?",
+      "options": [
+        "Hoa hồng",
+        "Núi sông",
+        "Bàn ghế",
+        "Cha mẹ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"hoa\" là tiếng chính, \"hồng\" bổ nghĩa cho \"hoa\""
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ \"đèm đẹp\" thuộc loại từ láy nào?",
+      "options": [
+        "Láy bộ phận (láy âm đầu)",
+        "Láy toàn bộ",
+        "Từ ghép",
+        "Từ đơn"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Hai tiếng giống nhau phụ âm đầu \"đ\""
+    },
+    {
+      "type": "fill-blank",
+      "question": "Từ láy có hai loại: láy toàn bộ và láy ___.",
+      "answer": "bộ phận",
+      "alternatives": [
+        "láy bộ phận"
+      ],
+      "level": "NB",
+      "hint": "Loại láy lặp lại một phần âm thanh (âm đầu hoặc vần)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong cụm \"ba học sinh\", từ \"ba\" thuộc từ loại nào?",
+      "options": [
+        "Số từ",
+        "Danh từ",
+        "Động từ",
+        "Phó từ"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ chỉ số lượng đứng trước danh từ"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Trời đã sáng rồi\", từ \"đã\" là phó từ chỉ ý nghĩa gì?",
+      "options": [
+        "Quan hệ thời gian (việc đã xảy ra)",
+        "Mức độ",
+        "Số lượng",
+        "Sự phủ định"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"đã\" cho biết hành động/trạng thái xảy ra trong quá khứ"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Những từ chuyên đi kèm danh từ, động từ, tính từ để bổ sung ý nghĩa cho chúng (như: đã, đang, sẽ, rất, cũng) được gọi là ___.",
+      "answer": "phó từ",
+      "alternatives": [
+        "phụ từ"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: rất đẹp, đang chạy, sẽ đến"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Thành ngữ \"Chậm như rùa\" sử dụng biện pháp tu từ nào?",
+      "options": [
+        "So sánh",
+        "Nói giảm nói tránh",
+        "Điệp ngữ",
+        "Hoán dụ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Đối chiếu sự chậm chạp với con rùa qua từ \"như\""
+    },
+    {
+      "type": "true-false-group",
+      "question": "Đọc câu thơ và cho biết mỗi nhận định sau là Đúng hay Sai:",
+      "passage": "Anh đã nghìn lần ngóng đợi em / Đợi từ sáng sớm tới đêm thâu.",
+      "statements": [
+        {
+          "text": "Cụm \"nghìn lần\" là cách nói quá (phóng đại) để nhấn mạnh sự mong đợi.",
+          "answer": true
+        },
+        {
+          "text": "\"Đợi từ sáng sớm tới đêm thâu\" nhấn mạnh thời gian chờ đợi rất dài.",
+          "answer": true
+        },
+        {
+          "text": "Câu thơ sử dụng biện pháp nói giảm nói tránh.",
+          "answer": false
+        },
+        {
+          "text": "Từ \"đã\" trong câu là một phó từ.",
+          "answer": true
+        }
+      ],
+      "level": "VD",
+      "hint": "Nói quá là phóng đại mức độ, còn nói giảm nói tránh là làm nhẹ đi"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào sau đây sử dụng biện pháp nói giảm nói tránh?",
+      "options": [
+        "Bác sĩ bảo cụ ấy khó qua khỏi đêm nay.",
+        "Mệt đứt cả hơi.",
+        "Khỏe như voi.",
+        "Đẹp như tiên."
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"khó qua khỏi\" là cách nói tránh cho cái chết sắp đến"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp phóng đại mức độ, quy mô, tính chất của sự vật để nhấn mạnh, gây ấn tượng được gọi là ___.",
+      "answer": "nói quá",
+      "alternatives": [
+        "biện pháp nói quá",
+        "phóng đại",
+        "khoa trương"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: lo sốt vó, đen như cột nhà cháy"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Côn Sơn suối chảy rì rầm / Ta nghe như tiếng đàn cầm bên tai. / Côn Sơn có đá rêu phơi / Ta ngồi trên đá như ngồi chiếu êm.",
+      "question": "Tiếng suối chảy được so sánh với âm thanh nào?",
+      "options": [
+        "Tiếng đàn cầm",
+        "Tiếng mưa",
+        "Tiếng gió",
+        "Tiếng chim"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Đọc câu thơ thứ hai"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Côn Sơn suối chảy rì rầm / Ta nghe như tiếng đàn cầm bên tai. / Côn Sơn có đá rêu phơi / Ta ngồi trên đá như ngồi chiếu êm.",
+      "question": "Việc lặp lại từ \"Côn Sơn\" ở đầu hai cặp câu là biện pháp tu từ gì?",
+      "options": [
+        "Điệp ngữ",
+        "Nói quá",
+        "Nhân hóa",
+        "Hoán dụ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Lặp lại từ ngữ để nhấn mạnh và tạo nhịp điệu"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Côn Sơn suối chảy rì rầm / Ta nghe như tiếng đàn cầm bên tai. / Côn Sơn có đá rêu phơi / Ta ngồi trên đá như ngồi chiếu êm.",
+      "question": "Qua đoạn thơ, tác giả thể hiện tình cảm gì với cảnh Côn Sơn?",
+      "options": [
+        "Yêu mến, gắn bó, hòa hợp với thiên nhiên",
+        "Sợ hãi thiên nhiên hoang dã",
+        "Chán ghét cảnh núi rừng",
+        "Thờ ơ, không quan tâm"
+      ],
+      "answer": 0,
+      "level": "VDC",
+      "hint": "Suối như tiếng đàn, đá như chiếu êm — cảm giác thư thái, thân thuộc"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ Hán Việt với nghĩa tương ứng:",
+      "pairs": [
+        [
+          "sơn hà",
+          "núi sông (đất nước)"
+        ],
+        [
+          "thi nhân",
+          "nhà thơ"
+        ],
+        [
+          "hải đăng",
+          "đèn biển"
+        ],
+        [
+          "nhật kí",
+          "ghi chép hằng ngày"
+        ]
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối thành ngữ với ý nghĩa phù hợp:",
+      "pairs": [
+        [
+          "Học một biết mười",
+          "thông minh, tiếp thu nhanh"
+        ],
+        [
+          "Nhanh như chớp",
+          "rất nhanh"
+        ],
+        [
+          "Chậm như sên",
+          "rất chậm chạp"
+        ]
+      ],
+      "level": "VD"
+    }
+  ]
+}
