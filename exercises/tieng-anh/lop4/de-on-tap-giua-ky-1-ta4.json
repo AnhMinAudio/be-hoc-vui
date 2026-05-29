@@ -1,0 +1,228 @@
+{
+  "id": "ta-l4-on-tap-giua-ky-1",
+  "subject": "tieng-anh",
+  "grade": 4,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 4",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What do you say to ask where a friend is from? '___ are you from?' (Em hỏi bạn đến từ đâu thế nào?)",
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "When"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Vietnam' mean? (Từ 'Vietnam' nghĩa là gì?)",
+      "options": [
+        "Việt Nam",
+        "Nhật Bản",
+        "Anh Quốc",
+        "Hàn Quốc"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'thức dậy'? ('thức dậy' tiếng Anh là gì?)",
+      "options": [
+        "go to bed",
+        "get up",
+        "have lunch",
+        "do homework"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I get up ___ 6 o'clock. (Em thức dậy lúc 6 giờ. - điền giới từ thời gian 'at')",
+      "answer": "at",
+      "alternatives": [
+        "At",
+        "AT"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the country with its meaning (Nối tên nước với nghĩa)",
+      "pairs": [
+        [
+          "Vietnam",
+          "Việt Nam"
+        ],
+        [
+          "Japan",
+          "Nhật Bản"
+        ],
+        [
+          "America",
+          "Nước Mỹ"
+        ],
+        [
+          "Australia",
+          "Nước Úc"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
+      "pairs": [
+        [
+          "have lunch",
+          "ăn trưa"
+        ],
+        [
+          "have dinner",
+          "ăn tối"
+        ],
+        [
+          "go home",
+          "về nhà"
+        ],
+        [
+          "watch TV",
+          "xem ti vi"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What time is it? It is 8:00. (Mấy giờ rồi? Bây giờ là 8 giờ.)",
+      "options": [
+        "It's eight o'clock.",
+        "It's eight days.",
+        "It's August.",
+        "It's eighty."
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'về nhà' in English (Viết cụm 'về nhà' bằng tiếng Anh): go ___",
+      "answer": "home",
+      "alternatives": [
+        "Home",
+        "HOME"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'I ___ from Vietnam.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Complete: 'My brother ___ up at 6 every day.' (Hoàn thành câu với động từ 'get' chia đúng cho 'he'): ___",
+      "answer": "gets",
+      "alternatives": [
+        "Gets",
+        "GETS"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the question with its answer (Nối câu hỏi với câu trả lời)",
+      "pairs": [
+        [
+          "What's your name?",
+          "My name is Tom."
+        ],
+        [
+          "Where are you from?",
+          "I'm from Japan."
+        ],
+        [
+          "How are you?",
+          "I'm fine, thanks."
+        ],
+        [
+          "What time is it?",
+          "It's seven o'clock."
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question: '___ time do you get up?' — 'At six.' (Chọn từ hỏi đúng để hỏi giờ)",
+      "options": [
+        "What",
+        "Where",
+        "Who",
+        "How many"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: Where are you from? B: I'm from ___. (Trả lời: Mình đến từ Việt Nam. - điền 'Vietnam')",
+      "answer": "Vietnam",
+      "alternatives": [
+        "vietnam",
+        "VIETNAM",
+        "Viet Nam"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A new classmate asks 'Where are you from?'. Which is a good answer? (Bạn mới hỏi em đến từ đâu. Câu trả lời nào hợp lý?)",
+      "options": [
+        "It's eight o'clock.",
+        "I'm from Hue, Vietnam.",
+        "I get up at six.",
+        "Nice to meet you."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to ask a friend what time she has dinner. What do you say? (Em muốn hỏi bạn ăn tối lúc mấy giờ. Em nói thế nào?)",
+      "options": [
+        "Where are you from?",
+        "What time do you have dinner?",
+        "How old are you?",
+        "What is your name?"
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend says 'I have breakfast, then I go to school.'. What does she do second? (Bạn nói câu trên. Bạn ấy làm việc gì sau đó?)",
+      "options": [
+        "have breakfast",
+        "go to school",
+        "go to bed",
+        "have dinner"
+      ],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

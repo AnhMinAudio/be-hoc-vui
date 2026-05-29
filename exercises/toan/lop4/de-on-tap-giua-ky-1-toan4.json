@@ -1,0 +1,199 @@
+{
+  "id": "toan-l4-on-tap-giua-ky-1",
+  "subject": "toan",
+  "grade": 4,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 4",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 230 504 đọc là gì?",
+      "options": [
+        "Hai trăm ba mươi nghìn năm trăm linh bốn",
+        "Hai trăm ba nghìn năm trăm bốn mươi",
+        "Hai mươi ba nghìn năm trăm linh bốn",
+        "Hai trăm ba mươi nghìn năm trăm bốn mươi"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Viết số gồm: 5 trăm nghìn, 4 nghìn, 2 trăm và 6 đơn vị: ___",
+      "answer": "504206",
+      "alternatives": [
+        "504 206"
+      ],
+      "level": "M1",
+      "hint": "Hàng nào không có thì viết chữ số 0."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong số 582 619, chữ số 8 thuộc hàng nào?",
+      "options": [
+        "Hàng nghìn",
+        "Hàng chục nghìn",
+        "Hàng trăm nghìn",
+        "Hàng triệu"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Đếm các hàng từ phải sang trái: đơn vị, chục, trăm, nghìn, chục nghìn..."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Giá trị của chữ số 3 trong số 437 825 là ___",
+      "answer": "30000",
+      "alternatives": [
+        "30 000"
+      ],
+      "level": "M1",
+      "hint": "Chữ số 3 đứng ở hàng chục nghìn."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn nhất trong các số sau?",
+      "options": [
+        "709 999",
+        "710 000",
+        "699 999",
+        "708 888"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 99 999 là ___",
+      "answer": "100000",
+      "alternatives": [
+        "100 000"
+      ],
+      "level": "M1",
+      "hint": "Thêm 1 đơn vị nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "34 271 + 52 615 = ___",
+      "answer": "86886",
+      "alternatives": [
+        "86 886"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 70 000 + 5 000 + 300 + 20 viết gọn là số nào?",
+      "options": [
+        "75 320",
+        "70 532",
+        "75 032",
+        "70 053"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "60 000 - 38 475 = ___",
+      "answer": "21525",
+      "alternatives": [
+        "21 525"
+      ],
+      "level": "M2",
+      "hint": "Trừ có nhớ qua nhiều hàng, đặt tính cho thẳng cột."
+    },
+    {
+      "type": "fill-blank",
+      "question": "125 380 + 47 629 = ___",
+      "answer": "173009",
+      "alternatives": [
+        "173 009"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 45 600 ... 45 060",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "So sánh lần lượt từng hàng từ trái sang phải."
+    },
+    {
+      "type": "matching",
+      "question": "Nối số với cách đọc đúng",
+      "pairs": [
+        [
+          "40 005",
+          "Bốn mươi nghìn không trăm linh năm"
+        ],
+        [
+          "40 050",
+          "Bốn mươi nghìn không trăm năm mươi"
+        ],
+        [
+          "40 500",
+          "Bốn mươi nghìn năm trăm"
+        ],
+        [
+          "45 000",
+          "Bốn mươi lăm nghìn"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sắp xếp các số 32 100, 31 200, 32 010 theo thứ tự từ bé đến lớn:",
+      "options": [
+        "31 200, 32 010, 32 100",
+        "32 100, 32 010, 31 200",
+        "31 200, 32 100, 32 010",
+        "32 010, 31 200, 32 100"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "So sánh hàng chục nghìn, rồi nghìn, rồi trăm..."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một nhà máy tháng Một sản xuất được 28 750 sản phẩm, tháng Hai sản xuất được 31 480 sản phẩm. Hỏi cả hai tháng nhà máy sản xuất được bao nhiêu sản phẩm? Đáp số: 28750 + 31480 = ___ sản phẩm",
+      "answer": "60230",
+      "alternatives": [
+        "60 230"
+      ],
+      "level": "M3",
+      "hint": "Cả hai tháng thì làm phép cộng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một kho có 95 000 kg xi măng, đã xuất đi 47 250 kg. Hỏi trong kho còn lại bao nhiêu ki-lô-gam xi măng? Đáp số: 95000 - 47250 = ___ kg",
+      "answer": "47750",
+      "alternatives": [
+        "47 750"
+      ],
+      "level": "M3",
+      "hint": "Xuất đi thì bớt đi, em làm phép trừ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hai thư viện có tất cả 64 500 quyển sách. Thư viện thứ nhất có 35 800 quyển. Hỏi thư viện thứ hai có bao nhiêu quyển sách?",
+      "options": [
+        "28 700 quyển",
+        "29 700 quyển",
+        "100 300 quyển",
+        "28 300 quyển"
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Lấy tổng số sách trừ đi số sách của thư viện thứ nhất: 64500 - 35800."
+    }
+  ]
+}

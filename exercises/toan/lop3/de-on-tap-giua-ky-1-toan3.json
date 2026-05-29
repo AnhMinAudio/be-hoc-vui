@@ -1,0 +1,155 @@
+{
+  "id": "toan-l3-on-tap-giua-ky-1",
+  "subject": "toan",
+  "grade": 3,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 3",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "3 × 4 = ___",
+      "answer": "12",
+      "level": "M1",
+      "hint": "Đọc lại bảng nhân 3 nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "5 × 7 = ___",
+      "answer": "35",
+      "level": "M1",
+      "hint": "Đọc lại bảng nhân 5 nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "16 : 4 = ___",
+      "answer": "4",
+      "level": "M1",
+      "hint": "Đọc lại bảng chia 4 nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "18 : 2 = ___",
+      "answer": "9",
+      "level": "M1",
+      "hint": "Đọc lại bảng chia 2 nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phép nhân 2 × 6 còn được viết dưới dạng phép cộng nào?",
+      "options": [
+        "2 + 6",
+        "6 + 6",
+        "2 + 2 + 2 + 2 + 2 + 2",
+        "2 × 2 × 2"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "2 × 6 nghĩa là 2 được lấy 6 lần."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm số còn thiếu: 4 × ___ = 24",
+      "answer": "6",
+      "level": "M2",
+      "hint": "4 nhân mấy thì bằng 24?"
+    },
+    {
+      "type": "fill-blank",
+      "question": "3 × 5 + 9 = ___",
+      "answer": "24",
+      "level": "M2",
+      "hint": "Thực hiện phép nhân trước, phép cộng sau."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 5 × 4 ... 3 × 6",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "×"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Tính 5 × 4 và 3 × 6 rồi so sánh hai kết quả."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm số còn thiếu: ___ × 5 = 45",
+      "answer": "9",
+      "level": "M2",
+      "hint": "Lấy 45 chia cho 5."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        [
+          "4 × 6",
+          "24"
+        ],
+        [
+          "5 × 8",
+          "40"
+        ],
+        [
+          "21 : 3",
+          "7"
+        ],
+        [
+          "20 : 5",
+          "4"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mỗi bàn học có 2 bạn ngồi. Hỏi 7 bàn học như vậy có bao nhiêu bạn? Trả lời: ___ bạn. (2 × 7 = ?)",
+      "answer": "14",
+      "level": "M3",
+      "hint": "Mỗi bàn 2 bạn, có 7 bàn như nhau, em làm phép nhân."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 24 cái bánh xếp đều vào 4 đĩa. Hỏi mỗi đĩa có bao nhiêu cái bánh? Trả lời: ___ cái. (24 : 4 = ?)",
+      "answer": "6",
+      "level": "M3",
+      "hint": "Xếp đều vào 4 đĩa, em làm phép chia."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một bó hoa có 5 bông. Hỏi 5 bó hoa như vậy có tất cả bao nhiêu bông hoa?",
+      "options": [
+        "10 bông",
+        "20 bông",
+        "25 bông",
+        "30 bông"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Mỗi bó 5 bông, có 5 bó như nhau: 5 × 5."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mẹ chia đều 30 quả quýt cho 5 anh em. Hỏi mỗi người được bao nhiêu quả quýt? Trả lời: ___ quả. (30 : 5 = ?)",
+      "answer": "6",
+      "level": "M3",
+      "hint": "Chia đều cho 5 người, em làm phép chia."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lớp 3A có 4 tổ, mỗi tổ có 8 bạn. Hỏi lớp 3A có tất cả bao nhiêu bạn?",
+      "options": [
+        "12 bạn",
+        "24 bạn",
+        "32 bạn",
+        "36 bạn"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Mỗi tổ 8 bạn, có 4 tổ như nhau: 4 × 8."
+    }
+  ]
+}

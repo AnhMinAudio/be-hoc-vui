@@ -1,0 +1,196 @@
+{
+  "id": "tv-l1-on-tap-giua-ky-1",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 1",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'nơ' bắt đầu bằng âm nào?",
+      "options": [
+        "l",
+        "n",
+        "m",
+        "h"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'gà' mang dấu thanh gì?",
+      "options": [
+        "thanh sắc",
+        "thanh huyền",
+        "thanh hỏi",
+        "thanh nặng"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Dấu huyền là dấu nghiêng xuống."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có vần 'an'?",
+      "options": [
+        "bàn",
+        "bè",
+        "cá",
+        "no"
+      ],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Đọc to: bàn có vần 'an'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chữ cái nào sau đây là nguyên âm?",
+      "options": [
+        "h",
+        "o",
+        "n",
+        "v"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền âm đầu còn thiếu: ___ò (con vật ăn cỏ, kêu 'ụm bò')",
+      "answer": "b",
+      "hint": "Con bò.",
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với âm đầu của tiếng đó",
+      "pairs": [
+        [
+          "vịt",
+          "v"
+        ],
+        [
+          "hổ",
+          "h"
+        ],
+        [
+          "dê",
+          "d"
+        ],
+        [
+          "gấu",
+          "g"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ghép âm 'c' với vần 'o' rồi thêm dấu huyền được tiếng nào?",
+      "options": [
+        "có",
+        "cò",
+        "cỏ",
+        "cọ"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "c + o + dấu huyền = cò (con cò)."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền vần còn thiếu: con ng___ (con vật cổ dài, kêu 'cạc cạc', biết bơi)",
+      "answer": "an",
+      "alternatives": [
+        "ang"
+      ],
+      "hint": "Con ngan.",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có vần 'am'?",
+      "options": [
+        "cám",
+        "cá",
+        "cò",
+        "bê"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Cám có vần 'am'."
+    },
+    {
+      "type": "matching",
+      "question": "Nối tiếng với dấu thanh của tiếng đó",
+      "pairs": [
+        [
+          "mỡ",
+          "thanh ngã"
+        ],
+        [
+          "thỏ",
+          "thanh hỏi"
+        ],
+        [
+          "cú",
+          "thanh sắc"
+        ],
+        [
+          "vẹt",
+          "thanh nặng"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'na' (quả na) không mang dấu thanh nào (thanh ngang). Đúng hay sai?",
+      "answer": true,
+      "level": "M2",
+      "hint": "Tiếng đọc giọng bình thường, không có dấu là thanh ngang."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Thêm dấu thanh vào tiếng 'co' để được tiếng chỉ con vật cổ dài, hay đứng một chân ở đồng ruộng.",
+      "answer": "cò",
+      "hint": "Con cò — thêm dấu huyền vào 'co'.",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'lửa' và tiếng 'nửa' khác nhau ở đâu?",
+      "options": [
+        "ở vần",
+        "ở dấu thanh",
+        "ở âm đầu",
+        "không khác gì"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Hai tiếng cùng vần 'ưa', cùng dấu hỏi, chỉ khác âm đầu l và n."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn An muốn viết tên con vật 'mèo'. Tiếng 'mèo' gồm âm đầu nào?",
+      "options": [
+        "n",
+        "m",
+        "b",
+        "v"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Đọc chậm 'mèo', âm đầu tiên là 'm'."
+    },
+    {
+      "type": "true-false",
+      "question": "Tiếng 'bé' và tiếng 'bè' chỉ khác nhau ở dấu thanh. Đúng hay sai?",
+      "answer": true,
+      "level": "M3",
+      "hint": "Cùng âm đầu 'b', cùng vần 'e'; 'bé' dấu sắc, 'bè' dấu huyền."
+    }
+  ]
+}

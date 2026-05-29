@@ -1,0 +1,167 @@
+{
+  "id": "toan-l5-on-tap-giua-ky-1",
+  "subject": "toan",
+  "grade": 5,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 5",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Phân số 3/5 đọc là gì?",
+      "options": [
+        "Ba năm",
+        "Ba phần năm",
+        "Năm phần ba",
+        "Ba trên năm mươi"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Rút gọn phân số 6/8 ta được phân số tối giản ___ (viết dạng a/b)",
+      "answer": "3/4",
+      "level": "M1",
+      "hint": "Chia cả tử và mẫu cho 2."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Rút gọn phân số 20/24 ta được phân số tối giản ___ (viết dạng a/b)",
+      "answer": "5/6",
+      "level": "M1",
+      "hint": "Chia cả tử và mẫu cho 4."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số nào dưới đây bằng phân số 2/3?",
+      "options": [
+        "3/4",
+        "4/9",
+        "8/12",
+        "2/6"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "Nhân cả tử và mẫu với cùng một số: 2/3 = (2×4)/(3×4)."
+    },
+    {
+      "type": "fill-blank",
+      "question": "2/5 + 1/5 = ___ (viết dạng a/b)",
+      "answer": "3/5",
+      "level": "M1",
+      "hint": "Cùng mẫu số thì cộng hai tử số, giữ nguyên mẫu."
+    },
+    {
+      "type": "fill-blank",
+      "question": "7/9 - 2/9 = ___ (viết dạng a/b)",
+      "answer": "5/9",
+      "level": "M1",
+      "hint": "Cùng mẫu số thì trừ hai tử số, giữ nguyên mẫu."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các phân số 2/7, 5/7, 1/7, 4/7 phân số nào lớn nhất?",
+      "options": [
+        "2/7",
+        "5/7",
+        "1/7",
+        "4/7"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Cùng mẫu số, tử số nào lớn hơn thì phân số lớn hơn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Quy đồng mẫu số hai phân số 2/3 và 1/4 (mẫu số chung là 12). Phân số 2/3 trở thành ___ (viết dạng a/b)",
+      "answer": "8/12",
+      "level": "M1",
+      "hint": "Nhân cả tử và mẫu của 2/3 với 4."
+    },
+    {
+      "type": "fill-blank",
+      "question": "1/2 + 1/3 = ___ (viết dạng a/b)",
+      "answer": "5/6",
+      "level": "M2",
+      "hint": "Quy đồng về mẫu số chung 6: 3/6 + 2/6."
+    },
+    {
+      "type": "fill-blank",
+      "question": "3/4 - 1/3 = ___ (viết dạng a/b)",
+      "answer": "5/12",
+      "level": "M2",
+      "hint": "Quy đồng về mẫu số chung 12: 9/12 - 4/12."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 2/3 ... 3/4",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Quy đồng về mẫu 12: 8/12 và 9/12 rồi so sánh."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng (phân số tối giản)",
+      "pairs": [
+        [
+          "1/4 + 1/4",
+          "1/2"
+        ],
+        [
+          "5/6 - 1/2",
+          "1/3"
+        ],
+        [
+          "2/5 + 1/3",
+          "11/15"
+        ],
+        [
+          "3/8 + 1/4",
+          "5/8"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "So sánh và sắp xếp: trong hai phân số 5/8 và 3/8, phân số bé hơn là ___ (viết dạng a/b)",
+      "answer": "3/8",
+      "level": "M2",
+      "hint": "Cùng mẫu số, tử số nào bé hơn thì phân số bé hơn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một vòi nước giờ đầu chảy được 2/7 bể, giờ thứ hai chảy được 3/7 bể. Hỏi sau hai giờ vòi chảy được bao nhiêu phần của bể? Đáp số: 2/7 + 3/7 = ___ bể (viết dạng a/b)",
+      "answer": "5/7",
+      "level": "M3",
+      "hint": "Cùng mẫu số thì cộng hai tử số."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một sợi dây dài 5/6 m, mẹ cắt đi 1/3 m. Hỏi sợi dây còn lại dài bao nhiêu mét? Đáp số: 5/6 - 1/3 = ___ m (viết dạng a/b)",
+      "answer": "1/2",
+      "level": "M3",
+      "hint": "Quy đồng về mẫu 6: 5/6 - 2/6 = 3/6, rồi rút gọn."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lan ăn 1/4 cái bánh, Mai ăn 2/4 cái bánh đó. Hỏi cả hai bạn đã ăn bao nhiêu phần của cái bánh?",
+      "options": [
+        "1/4 cái",
+        "2/4 cái",
+        "3/4 cái",
+        "3/8 cái"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Cùng mẫu số 4 thì cộng hai tử số: 1/4 + 2/4."
+    }
+  ]
+}

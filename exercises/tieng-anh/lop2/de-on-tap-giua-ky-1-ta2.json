@@ -1,0 +1,216 @@
+{
+  "id": "ta-l2-on-tap-giua-ky-1",
+  "subject": "tieng-anh",
+  "grade": 2,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 2",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "TA2-VOCAB",
+    "TA2-NUM",
+    "TA2-COLOR",
+    "TA2-PATTERN"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'quả bóng bay'? ('quả bóng bay' tiếng Anh là gì?)",
+      "options": [
+        "present",
+        "balloon",
+        "candle",
+        "cake"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'cái cây' in English? (Từ nào nghĩa là 'cái cây'?)",
+      "options": [
+        "tree",
+        "flower",
+        "bird",
+        "cat"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word do you find at the seaside? (Từ nào em thấy ở bãi biển?)",
+      "options": [
+        "shell",
+        "desk",
+        "candle",
+        "pig"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'con vịt'? ('con vịt' tiếng Anh là gì?)",
+      "options": [
+        "cow",
+        "duck",
+        "bird",
+        "crab"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'bông hoa' in English? (Từ nào nghĩa là 'bông hoa'?)",
+      "options": [
+        "flower",
+        "tree",
+        "shell",
+        "bird"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the English word with its Vietnamese meaning (Nối từ tiếng Anh với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "present",
+          "món quà"
+        ],
+        [
+          "sand",
+          "cát"
+        ],
+        [
+          "crab",
+          "con cua"
+        ],
+        [
+          "bird",
+          "con chim"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal do you see in the countryside? (Con vật nào em thấy ở miền quê?)",
+      "options": [
+        "shark",
+        "lion",
+        "cow",
+        "monkey"
+      ],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'biển' in English? (Từ nào nghĩa là 'biển'?)",
+      "options": [
+        "sea",
+        "sand",
+        "hill",
+        "river"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the color with its Vietnamese meaning (Nối màu sắc với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "red",
+          "màu đỏ"
+        ],
+        [
+          "blue",
+          "màu xanh dương"
+        ],
+        [
+          "green",
+          "màu xanh lá"
+        ],
+        [
+          "pink",
+          "màu hồng"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many flowers? 🌸🌸🌸 (Có mấy bông hoa?)",
+      "options": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "What color is a balloon? It's ___. (Quả bóng bay màu đỏ. - điền màu 'red')",
+      "answer": "red",
+      "alternatives": [
+        "Red",
+        "RED"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence for a flower (Chọn câu đúng để nói về bông hoa)",
+      "options": [
+        "It's a flower.",
+        "I'm a flower.",
+        "You flower.",
+        "Flower is me."
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend points at a hill and asks 'What is it?'. What do you say? (Bạn chỉ vào ngọn đồi và hỏi 'What is it?'. Em trả lời thế nào?)",
+      "options": [
+        "I'm a hill.",
+        "It's a hill.",
+        "Hill you are.",
+        "You hill have."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "It is your friend's birthday party. What is a kind thing to say? (Em đến dự sinh nhật bạn. Em nói câu thân thiện nào?)",
+      "options": [
+        "Goodbye.",
+        "Happy birthday!",
+        "Sit down.",
+        "It's green."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to tell a friend you have a shell from the seaside. What do you say? (Em muốn khoe với bạn rằng em có một cái vỏ sò. Em nói thế nào?)",
+      "options": [
+        "I have a shell.",
+        "Shell I am.",
+        "It's shell you.",
+        "You shell have."
+      ],
+      "answer": 0,
+      "level": "M3"
+    }
+  ]
+}

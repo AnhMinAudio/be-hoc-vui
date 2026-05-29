@@ -1,0 +1,224 @@
+{
+  "id": "ta-l1-on-tap-giua-ky-1",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 1",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "TA1-GREET",
+    "TA1-NUM",
+    "TA1-COLOR",
+    "TA1-SCHOOL",
+    "TA1-PATTERN"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'Chào buổi sáng' in English? (Từ nào nghĩa là 'Chào buổi sáng'?)",
+      "options": [
+        "Hi",
+        "Good morning",
+        "Goodbye",
+        "Thank you"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What number is 'two'? (Số nào là 'two'?)",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'số một'? ('số một' tiếng Anh là gì?)",
+      "options": [
+        "one",
+        "three",
+        "five",
+        "ten"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What color is the sky on a sunny day? It is ___. (Bầu trời ngày nắng màu gì? Nó màu xanh dương.)",
+      "options": [
+        "green",
+        "red",
+        "blue",
+        "black"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a classroom thing? (Từ nào là một đồ dùng lớp học?)",
+      "options": [
+        "ruler",
+        "happy",
+        "dog",
+        "blue"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I read a ___. (Em đọc một quyển sách. - điền tên đồ dùng học tập)",
+      "answer": "book",
+      "alternatives": [
+        "Book",
+        "BOOK"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the number word with its number (Nối từ chỉ số với chữ số)",
+      "pairs": [
+        [
+          "three",
+          "3"
+        ],
+        [
+          "six",
+          "6"
+        ],
+        [
+          "seven",
+          "7"
+        ],
+        [
+          "ten",
+          "10"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the color with its Vietnamese meaning (Nối màu sắc với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "red",
+          "màu đỏ"
+        ],
+        [
+          "green",
+          "màu xanh lá"
+        ],
+        [
+          "orange",
+          "màu cam"
+        ],
+        [
+          "pink",
+          "màu hồng"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the classroom thing with its Vietnamese meaning (Nối đồ dùng lớp học với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "pencil",
+          "bút chì"
+        ],
+        [
+          "ruler",
+          "cái thước"
+        ],
+        [
+          "eraser",
+          "cục tẩy"
+        ],
+        [
+          "desk",
+          "cái bàn học"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count the stars: ⭐⭐⭐⭐⭐⭐. How many? (Đếm số ngôi sao. Có mấy ngôi sao?)",
+      "options": [
+        "five",
+        "six",
+        "seven",
+        "eight"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái cặp' in English (Viết 'cái cặp' bằng tiếng Anh): ___",
+      "answer": "bag",
+      "alternatives": [
+        "Bag",
+        "BAG"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "What color is the grass? It's ___. (Cỏ màu gì? Nó màu xanh lá. - điền màu tiếng Anh)",
+      "answer": "green",
+      "alternatives": [
+        "Green",
+        "GREEN"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The teacher points at a pen and asks 'What is it?'. What do you say? (Cô chỉ vào cái bút và hỏi 'What is it?'. Em trả lời thế nào?)",
+      "options": [
+        "It's a pen.",
+        "I'm a pen.",
+        "Pen you are.",
+        "Hello pen."
+      ],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You come to class in the morning and see your teacher. What do you say? (Buổi sáng em đến lớp và gặp cô giáo. Em nói gì?)",
+      "options": [
+        "Goodbye.",
+        "Good morning, teacher.",
+        "It's a book.",
+        "I'm five."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A new friend says 'Hello! I'm Mai.'. What can you say back? (Một bạn mới nói 'Hello! I'm Mai.'. Em có thể đáp lại thế nào?)",
+      "options": [
+        "Sit down.",
+        "It's green.",
+        "Hi, Mai! I'm Nam.",
+        "Three, four, five."
+      ],
+      "answer": 2,
+      "level": "M3"
+    }
+  ]
+}

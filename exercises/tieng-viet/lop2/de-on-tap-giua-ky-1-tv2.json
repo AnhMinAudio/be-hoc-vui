@@ -1,0 +1,211 @@
+{
+  "id": "tv-l2-on-tap-giua-ky-1",
+  "subject": "tieng-viet",
+  "grade": 2,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 2",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": [
+        "chạy nhảy",
+        "quyển vở",
+        "vui vẻ",
+        "hát"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": [
+        "con gà",
+        "đỏ tươi",
+        "rửa tay",
+        "ngôi sao"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Cô giáo là người dạy em học.', từ nào chỉ người?",
+      "options": [
+        "dạy",
+        "cô giáo",
+        "học",
+        "người"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Tìm từ gọi tên một người."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Hôm nay bạn có đi học không?' nên kết thúc bằng dấu gì?",
+      "options": [
+        "dấu chấm",
+        "dấu chấm hỏi",
+        "dấu phẩy",
+        "không cần dấu"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Đây là câu hỏi nên dùng dấu chấm hỏi."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu cuối câu kể: Buổi sáng, em dậy sớm tập thể dục___",
+      "answer": ".",
+      "alternatives": [
+        "dấu chấm"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với nhóm từ loại đúng",
+      "pairs": [
+        [
+          "ngôi trường",
+          "chỉ sự vật"
+        ],
+        [
+          "đọc bài",
+          "chỉ hoạt động"
+        ],
+        [
+          "con thỏ",
+          "chỉ sự vật"
+        ],
+        [
+          "nhảy dây",
+          "chỉ hoạt động"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào thuộc kiểu 'Ai là gì?'",
+      "options": [
+        "Em tưới cây trong vườn.",
+        "Bố em là bác sĩ.",
+        "Con mèo đang ngủ.",
+        "Lá cây xanh mướt."
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào thuộc kiểu 'Ai làm gì?'",
+      "options": [
+        "Bà em là nông dân.",
+        "Bầu trời rất cao.",
+        "Em quét nhà giúp mẹ.",
+        "Hoa hồng rất đẹp."
+      ],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu cuối câu hỏi: Mẹ ơi, bao giờ nhà mình về quê___",
+      "answer": "?",
+      "alternatives": [
+        "dấu hỏi",
+        "dấu chấm hỏi"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối bộ phận trả lời cho câu hỏi 'Ai?' với bộ phận trả lời cho câu hỏi 'làm gì?' để được câu đúng",
+      "pairs": [
+        [
+          "Bạn Lan",
+          "tưới rau"
+        ],
+        [
+          "Chú gà trống",
+          "gáy vang"
+        ],
+        [
+          "Ông em",
+          "đọc báo"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào điền vào chỗ trống để được câu kiểu 'Ai làm gì?': 'Đàn chim ___ trên bầu trời.'",
+      "options": [
+        "xanh",
+        "bay lượn",
+        "cao",
+        "đẹp"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Chỗ trống cần một từ chỉ hoạt động."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào được đặt dấu câu đúng?",
+      "options": [
+        "Bạn tên là gì.",
+        "Bạn tên là gì?",
+        "Em đi học không.",
+        "Trời đẹp quá?"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Câu hỏi 'Bạn tên là gì' phải kết thúc bằng dấu chấm hỏi."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Minh muốn đặt một câu giới thiệu theo kiểu 'Ai là gì?'. Câu nào đúng?",
+      "options": [
+        "Minh học rất giỏi.",
+        "Minh là học sinh lớp 2A.",
+        "Minh chạy rất nhanh.",
+        "Minh ăn cơm."
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Câu 'Ai là gì?' dùng từ 'là' để giới thiệu."
+    },
+    {
+      "type": "true-false",
+      "question": "Trong câu 'Em bé cười rất tươi.', từ 'cười' là từ chỉ hoạt động. Đúng hay sai?",
+      "answer": true,
+      "level": "M3",
+      "hint": "'Cười' là việc em bé làm, nên là từ chỉ hoạt động."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ chỉ sự vật điền vào chỗ trống cho hợp: 'Trên sân trường có một cây ___ to, tỏa bóng mát.'",
+      "options": [
+        "chạy",
+        "bàng",
+        "xanh",
+        "vui"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Cần một từ gọi tên loài cây (sự vật)."
+    },
+    {
+      "type": "true-false",
+      "question": "Câu 'Cảm ơn bạn rất nhiều' là một câu hỏi nên phải dùng dấu chấm hỏi. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "Đây là câu nói lời cảm ơn, không phải câu hỏi, nên dùng dấu chấm."
+    }
+  ]
+}

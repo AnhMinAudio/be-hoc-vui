@@ -1,0 +1,212 @@
+{
+  "id": "tv-l3-on-tap-giua-ky-1",
+  "subject": "tieng-viet",
+  "grade": 3,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 3",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ chỉ sự vật?",
+      "options": [
+        "chăm chỉ",
+        "cái trống",
+        "viết",
+        "nhanh nhẹn"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ chỉ đặc điểm?",
+      "options": [
+        "đỏ thắm",
+        "con đường",
+        "leo núi",
+        "ngôi sao"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ người trong gia đình?",
+      "options": [
+        "thầy giáo",
+        "bác sĩ",
+        "ông bà",
+        "công nhân"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "Tìm từ chỉ người thân trong gia đình."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong nhóm từ chủ điểm 'gia đình', từ nào KHÔNG cùng nhóm?",
+      "options": [
+        "cha mẹ",
+        "anh chị",
+        "ông bà",
+        "lớp trưởng"
+      ],
+      "answer": 3,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu cuối câu hỏi: Bạn có muốn cùng em trồng cây không___",
+      "answer": "?",
+      "alternatives": [
+        "dấu hỏi",
+        "dấu chấm hỏi"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với nhóm từ loại đúng",
+      "pairs": [
+        [
+          "bông cúc",
+          "chỉ sự vật"
+        ],
+        [
+          "vàng rực",
+          "chỉ đặc điểm"
+        ],
+        [
+          "chăm sóc",
+          "chỉ hoạt động"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào tả đặc điểm tính nết của một người tốt?",
+      "options": [
+        "cao lớn",
+        "hiền lành",
+        "gầy gò",
+        "trắng trẻo"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Tìm từ nói về tính nết, không phải hình dáng bên ngoài."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm từ chỉ đặc điểm trong câu 'Mái tóc của bà em đã bạc trắng': ___",
+      "answer": "bạc trắng",
+      "alternatives": [
+        "bạc",
+        "trắng"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Bạn Hà là tổ trưởng tổ em.' thuộc mẫu câu nào?",
+      "options": [
+        "Ai là gì?",
+        "Ai làm gì?",
+        "Ai thế nào?",
+        "Khi nào?"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với chủ điểm phù hợp",
+      "pairs": [
+        [
+          "bảng con",
+          "trường học"
+        ],
+        [
+          "mẹ hiền",
+          "gia đình"
+        ],
+        [
+          "kết bạn",
+          "bạn bè"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ chỉ đặc điểm thích hợp: 'Bầu trời đêm rằm sáng ___ ánh trăng.' (gợi ý: rất sáng, trong trẻo)",
+      "answer": "vằng vặc",
+      "alternatives": [
+        "trong veo",
+        "trong"
+      ],
+      "level": "M2",
+      "hint": "Ánh trăng rằm sáng rõ, người ta hay nói 'sáng vằng vặc'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Em yêu ngôi trường của em biết bao!' bộc lộ điều gì?",
+      "options": [
+        "hỏi một điều chưa biết",
+        "bộc lộ cảm xúc",
+        "yêu cầu, ra lệnh",
+        "kể lại sự việc"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Câu kết thúc bằng dấu chấm than thường bộc lộ cảm xúc."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ chỉ đặc điểm trái nghĩa với 'siêng năng' để hoàn thành câu: 'Bạn ấy không chịu học bài, thật ___.'",
+      "options": [
+        "chăm chỉ",
+        "lười biếng",
+        "ngoan ngoãn",
+        "cần cù"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Trái nghĩa với siêng năng là lười biếng."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn câu hỏi đặt đúng để hỏi về NƠI CHỐN của việc: 'Các bạn nhỏ vui chơi ở sân trường.'",
+      "options": [
+        "Ai vui chơi?",
+        "Các bạn nhỏ làm gì?",
+        "Các bạn nhỏ vui chơi ở đâu?",
+        "Các bạn nhỏ vui chơi khi nào?"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Hỏi về nơi chốn thì dùng từ 'ở đâu'."
+    },
+    {
+      "type": "true-false",
+      "question": "Trong câu 'Dòng suối nhỏ chảy róc rách', từ 'róc rách' là từ chỉ sự vật. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "'Róc rách' tả tiếng nước chảy (đặc điểm âm thanh), không phải tên một sự vật."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ ngữ thích hợp nhất điền vào chỗ trống: 'Vào ngày khai trường, ai cũng cảm thấy ___ và rộn ràng.'",
+      "options": [
+        "buồn bã",
+        "náo nức",
+        "mệt mỏi",
+        "lo sợ"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Ngày khai trường thường vui, mong chờ — đó là cảm giác náo nức."
+    }
+  ]
+}

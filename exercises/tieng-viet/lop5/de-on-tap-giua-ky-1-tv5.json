@@ -1,0 +1,217 @@
+{
+  "id": "tv-l5-on-tap-giua-ky-1",
+  "subject": "tieng-viet",
+  "grade": 5,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 5",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với 'xinh đẹp'?",
+      "options": [
+        "xấu xí",
+        "duyên dáng",
+        "gầy gò",
+        "lười nhác"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào đồng nghĩa với 'vui mừng'?",
+      "options": [
+        "buồn rầu",
+        "phấn khởi",
+        "lo lắng",
+        "giận dữ"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào KHÔNG cùng nhóm nghĩa với các từ còn lại?",
+      "options": [
+        "biển",
+        "sông",
+        "hồ",
+        "núi"
+      ],
+      "answer": 3,
+      "level": "M1",
+      "hint": "Ba từ chỉ vùng nước, một từ chỉ địa hình cao."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'mũi' trong cụm nào được dùng theo nghĩa gốc?",
+      "options": [
+        "mũi thuyền",
+        "mũi dao",
+        "mũi của em bé",
+        "mũi đất"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "Nghĩa gốc của 'mũi' là bộ phận trên mặt dùng để thở, ngửi."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm một từ đồng nghĩa với 'to lớn': ___",
+      "answer": "khổng lồ",
+      "alternatives": [
+        "vĩ đại",
+        "đồ sộ",
+        "rộng lớn",
+        "mênh mông"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm một từ đồng nghĩa với 'nhanh': ___",
+      "answer": "mau",
+      "alternatives": [
+        "lẹ",
+        "lẹ làng",
+        "nhanh nhẹn",
+        "vội"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ đồng nghĩa",
+      "pairs": [
+        [
+          "chăm chú",
+          "tập trung"
+        ],
+        [
+          "rộng rãi",
+          "thênh thang"
+        ],
+        [
+          "yên tĩnh",
+          "tĩnh lặng"
+        ],
+        [
+          "thông minh",
+          "sáng dạ"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Nhóm từ nào cùng nói về chủ điểm 'thiên nhiên'?",
+      "options": [
+        "bút, vở, thước",
+        "sông, núi, biển",
+        "ông, bà, cha",
+        "bác sĩ, kĩ sư"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'lá' trong câu nào được dùng theo nghĩa chuyển?",
+      "options": [
+        "Lá bàng rụng đầy sân.",
+        "Mùa thu, lá vàng rơi.",
+        "Em nhận được một lá thư.",
+        "Gió thổi làm lá cây xào xạc."
+      ],
+      "answer": 2,
+      "level": "M2",
+      "hint": "'Lá thư' không phải lá cây — đây là nghĩa chuyển."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Chọn từ đồng nghĩa thích hợp điền vào chỗ trống cho trang trọng: 'Toàn dân ___ ơn các anh hùng liệt sĩ.' (gợi ý: từ trang trọng nghĩa là nhớ ơn)",
+      "answer": "biết ơn",
+      "alternatives": [
+        "ghi ơn",
+        "tri ân"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các từ sau, từ nào là từ nhiều nghĩa (các nghĩa có liên quan với nhau)?",
+      "options": [
+        "đá (hòn đá) và đá (đá bóng)",
+        "chân (chân người) và chân (chân bàn)",
+        "ba (số ba) và ba (bố)",
+        "đường (con đường) và đường (đường ăn)"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Từ nhiều nghĩa có các nghĩa LIÊN QUAN; 'chân người' và 'chân bàn' đều chỉ bộ phận đỡ phía dưới."
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ 'mắt' với nghĩa của nó trong từng cụm từ",
+      "pairs": [
+        [
+          "mắt của em",
+          "bộ phận để nhìn (nghĩa gốc)"
+        ],
+        [
+          "mắt lưới",
+          "lỗ hổng đan thành ô"
+        ],
+        [
+          "mắt dứa",
+          "phần nổi trên vỏ quả dứa"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đặt một từ đồng nghĩa với 'chết' nhưng trang trọng, dùng cho người có công với đất nước: Các chiến sĩ đã ___ vì Tổ quốc.",
+      "answer": "hi sinh",
+      "alternatives": [
+        "hy sinh",
+        "ngã xuống"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào dùng từ 'ngọt' theo nghĩa chuyển?",
+      "options": [
+        "Chiếc kéo này cắt rất ngọt.",
+        "Quả nho chín ăn rất ngọt.",
+        "Em thích chè đậu xanh ngọt.",
+        "Nước mía ngọt lịm."
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "'Kéo cắt ngọt' nghĩa là cắt nhẹ, gọn — không phải vị ngọt, nên là nghĩa chuyển."
+    },
+    {
+      "type": "true-false",
+      "question": "Hai từ 'bàn' trong 'cái bàn' và 'bàn bạc' là một cặp từ nhiều nghĩa. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "'Cái bàn' (đồ vật) và 'bàn bạc' (trao đổi) nghĩa khác hẳn, không liên quan, nên là từ ĐỒNG ÂM."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn từ đồng nghĩa thích hợp nhất thay cho từ 'nhìn' để câu thêm sinh động: 'Em bé ___ chăm chú vào màn ảo thuật.'",
+      "options": [
+        "liếc",
+        "ngắm",
+        "ngó",
+        "chăm chú nhìn"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Khi xem một điều thú vị một cách say mê, ta thường dùng từ 'ngắm'."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "toan-l2-on-tap-giua-ky-1",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 2",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 83 gồm:",
+      "options": [
+        "3 chục và 8 đơn vị",
+        "8 chục và 3 đơn vị",
+        "83 đơn vị và 0 chục",
+        "8 đơn vị và 3 chục"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền sau của 49 là ___",
+      "answer": "50",
+      "level": "M1",
+      "hint": "Thêm 1 đơn vị nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "8 + 5 = ___",
+      "answer": "13",
+      "level": "M1",
+      "hint": "Cộng qua 10: 8 + 2 = 10, còn thừa 3 nữa."
+    },
+    {
+      "type": "fill-blank",
+      "question": "14 - 6 = ___",
+      "answer": "8",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một đoạn thẳng được xác định bởi:",
+      "options": [
+        "Một điểm",
+        "Hai điểm (hai đầu mút)",
+        "Ba điểm",
+        "Một đường tròn"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Đoạn thẳng nối hai điểm với nhau."
+    },
+    {
+      "type": "fill-blank",
+      "question": "9 + 7 = ___",
+      "answer": "16",
+      "level": "M1",
+      "hint": "9 + 1 = 10, còn thừa 6 nữa."
+    },
+    {
+      "type": "fill-blank",
+      "question": "26 + 38 = ___",
+      "answer": "64",
+      "level": "M2",
+      "hint": "Cộng có nhớ: 6 + 8 = 14, viết 4 nhớ 1."
+    },
+    {
+      "type": "fill-blank",
+      "question": "52 - 17 = ___",
+      "answer": "35",
+      "level": "M2",
+      "hint": "Trừ có nhớ: 2 không trừ được 7, mượn 1 chục."
+    },
+    {
+      "type": "fill-blank",
+      "question": "7 + 9 + 4 = ___",
+      "answer": "20",
+      "level": "M2",
+      "hint": "Cộng hai số đầu trước rồi cộng tiếp số còn lại."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 16 - 9 ... 6",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "-"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Tính 16 - 9 trước rồi mới so sánh với 6."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        [
+          "6 + 8",
+          "14"
+        ],
+        [
+          "15 - 7",
+          "8"
+        ],
+        [
+          "47 + 25",
+          "72"
+        ],
+        [
+          "61 - 28",
+          "33"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào lớn nhất trong các số 78, 87, 70, 80?",
+      "options": [
+        "78",
+        "87",
+        "70",
+        "80"
+      ],
+      "answer": 1,
+      "level": "M2",
+      "hint": "So sánh hàng chục trước, rồi đến hàng đơn vị."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trong vườn có 8 cây cam, bố trồng thêm 6 cây cam nữa. Hỏi trong vườn có tất cả bao nhiêu cây cam? Trả lời: ___ cây. (8 + 6 = ?)",
+      "answer": "14",
+      "level": "M3",
+      "hint": "Trồng thêm thì làm phép cộng nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Hộp bút có 15 chiếc bút, Nam lấy ra 8 chiếc để dùng. Hỏi trong hộp còn lại bao nhiêu chiếc bút? Trả lời: ___ chiếc. (15 - 8 = ?)",
+      "answer": "7",
+      "level": "M3",
+      "hint": "Lấy ra thì bớt đi, em làm phép trừ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "An có 9 viên bi, Bình có ít hơn An 4 viên bi. Hỏi Bình có bao nhiêu viên bi?",
+      "options": [
+        "5 viên",
+        "6 viên",
+        "13 viên",
+        "4 viên"
+      ],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Ít hơn thì làm phép trừ: 9 - 4."
+    }
+  ]
+}

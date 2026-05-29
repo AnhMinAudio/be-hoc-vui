@@ -1,0 +1,228 @@
+{
+  "id": "tv-l4-on-tap-giua-ky-1",
+  "subject": "tieng-viet",
+  "grade": 4,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 4",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ?",
+      "options": [
+        "chạy nhảy",
+        "ngọn núi",
+        "thông minh",
+        "vui vẻ"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là động từ?",
+      "options": [
+        "bầu trời",
+        "mềm mại",
+        "đọc sách",
+        "cao lớn"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ đơn (chỉ có một tiếng)?",
+      "options": [
+        "học sinh",
+        "nhà",
+        "bàn ghế",
+        "long lanh"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Từ đơn chỉ gồm một tiếng có nghĩa."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là từ phức (gồm hai tiếng trở lên)?",
+      "options": [
+        "cây",
+        "núi",
+        "trường học",
+        "hoa"
+      ],
+      "answer": 2,
+      "level": "M1",
+      "hint": "Từ phức gồm từ hai tiếng trở lên."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ chỉ khái niệm (không thể sờ thấy)?",
+      "options": [
+        "cái cặp",
+        "đạo đức",
+        "con sông",
+        "quyển sách"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Danh từ chỉ khái niệm như: đạo đức, tình bạn, lòng dũng cảm..."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm danh từ chỉ người trong câu 'Bác nông dân đang cày ruộng': ___",
+      "answer": "bác nông dân",
+      "alternatives": [
+        "nông dân",
+        "bác"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Phân loại các từ sau cho đúng từ loại",
+      "pairs": [
+        [
+          "cánh đồng",
+          "danh từ"
+        ],
+        [
+          "gặt lúa",
+          "động từ"
+        ],
+        [
+          "ngôi sao",
+          "danh từ"
+        ],
+        [
+          "nhảy múa",
+          "động từ"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Phân loại từ đơn và từ phức",
+      "pairs": [
+        [
+          "sách",
+          "từ đơn"
+        ],
+        [
+          "bàn",
+          "từ đơn"
+        ],
+        [
+          "máy bay",
+          "từ phức"
+        ],
+        [
+          "xinh đẹp",
+          "từ phức"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu 'Đàn trâu thung thăng gặm cỏ', từ nào là động từ?",
+      "options": [
+        "đàn trâu",
+        "thung thăng",
+        "gặm",
+        "cỏ"
+      ],
+      "answer": 2,
+      "level": "M2",
+      "hint": "Tìm từ chỉ hoạt động của đàn trâu."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Câu 'Học sinh chăm chỉ ôn bài' có mấy từ phức? (viết số)",
+      "answer": "2",
+      "alternatives": [
+        "hai"
+      ],
+      "level": "M2",
+      "hint": "Các từ phức là: học sinh, chăm chỉ; còn 'ôn', 'bài' là từ đơn."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Danh từ riêng nào dưới đây được viết đúng quy tắc?",
+      "options": [
+        "sông hồng",
+        "Sông Hồng",
+        "Sông hồng",
+        "sông Hồng"
+      ],
+      "answer": 3,
+      "level": "M2",
+      "hint": "'Sông' là danh từ chung, chỉ viết hoa tên riêng 'Hồng'."
+    },
+    {
+      "type": "matching",
+      "question": "Nối danh từ với loại danh từ phù hợp",
+      "pairs": [
+        [
+          "Hà Nội",
+          "danh từ riêng"
+        ],
+        [
+          "thành phố",
+          "danh từ chung"
+        ],
+        [
+          "Lan",
+          "danh từ riêng"
+        ],
+        [
+          "học sinh",
+          "danh từ chung"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "true-false",
+      "question": "Trong câu 'Mặt trời tỏa nắng', từ 'tỏa' là động từ. Đúng hay sai?",
+      "answer": true,
+      "level": "M2",
+      "hint": "'Tỏa' chỉ hoạt động (lan ra) của mặt trời nên là động từ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chọn động từ thích hợp điền vào chỗ trống: 'Mỗi sáng, bà em ___ vườn rau trước nhà.'",
+      "options": [
+        "xanh",
+        "tưới",
+        "đẹp",
+        "rộng"
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Chỗ trống cần một từ chỉ hoạt động chăm sóc vườn rau."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào có CẢ danh từ riêng và danh từ chung?",
+      "options": [
+        "Em rất chăm chỉ học tập.",
+        "Bạn Hương học ở trường Tiểu học Lê Lợi.",
+        "Trời hôm nay nắng đẹp.",
+        "Cả lớp cùng hát vang."
+      ],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Tìm câu có cả tên riêng (Hương, Lê Lợi) và danh từ chung (bạn, trường)."
+    },
+    {
+      "type": "true-false",
+      "question": "Từ 'bánh chưng' là từ đơn vì nó chỉ một loại bánh. Đúng hay sai?",
+      "answer": false,
+      "level": "M3",
+      "hint": "'Bánh chưng' gồm hai tiếng 'bánh' và 'chưng' nên là từ phức, không phải từ đơn."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "ta-l3-on-tap-giua-ky-1",
+  "subject": "tieng-anh",
+  "grade": 3,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 3",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What do you say to introduce yourself? '___ Nam.' (Em giới thiệu bản thân thế nào?)",
+      "options": [
+        "I'm",
+        "It's",
+        "They're",
+        "He's"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'arm' mean? (Từ 'arm' nghĩa là gì?)",
+      "options": [
+        "cánh tay",
+        "cái chân",
+        "cái đầu",
+        "bàn tay"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a part of the body? (Từ nào là một bộ phận cơ thể?)",
+      "options": [
+        "finger",
+        "pencil",
+        "window",
+        "chair"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I walk with my ___. (Em đi bằng đôi chân. - điền tên bộ phận cơ thể)",
+      "answer": "legs",
+      "alternatives": [
+        "leg",
+        "Legs",
+        "Leg",
+        "LEGS"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the body part with its meaning (Nối bộ phận cơ thể với nghĩa)",
+      "pairs": [
+        [
+          "arm",
+          "cánh tay"
+        ],
+        [
+          "foot",
+          "bàn chân"
+        ],
+        [
+          "hair",
+          "tóc"
+        ],
+        [
+          "mouth",
+          "cái miệng"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the greeting with its meaning (Nối lời chào với nghĩa)",
+      "pairs": [
+        [
+          "Good morning",
+          "Chào buổi sáng"
+        ],
+        [
+          "Good afternoon",
+          "Chào buổi chiều"
+        ],
+        [
+          "Nice to meet you",
+          "Rất vui được gặp bạn"
+        ],
+        [
+          "See you later",
+          "Hẹn gặp lại sau"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'người bạn'? ('người bạn' tiếng Anh là gì?)",
+      "options": [
+        "friend",
+        "teacher",
+        "school",
+        "name"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'These ___ my friends.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái miệng' in English (Viết 'cái miệng' bằng tiếng Anh): ___",
+      "answer": "mouth",
+      "alternatives": [
+        "Mouth",
+        "MOUTH"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the body part with its meaning (Nối bộ phận cơ thể với nghĩa)",
+      "pairs": [
+        [
+          "finger",
+          "ngón tay"
+        ],
+        [
+          "knee",
+          "đầu gối"
+        ],
+        [
+          "shoulder",
+          "vai"
+        ],
+        [
+          "tooth",
+          "cái răng"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you spell the name 'Mai'? (Em đánh vần tên 'Mai' thế nào?)",
+      "options": [
+        "M-A-I",
+        "M-I-A",
+        "A-M-I",
+        "I-A-M"
+      ],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: Hello! ___ name is Linh. (Hoàn thành: Tên mình là Linh. - điền 'My')",
+      "answer": "My",
+      "alternatives": [
+        "my",
+        "MY"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question: '___ is your name?' — 'My name is Hoa.' (Chọn từ hỏi đúng để hỏi tên)",
+      "options": [
+        "How",
+        "What",
+        "Where",
+        "Who"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Someone says 'Nice to meet you.'. What is the best reply? (Có người nói 'Nice to meet you.'. Câu đáp nào hay nhất?)",
+      "options": [
+        "Goodbye.",
+        "Nice to meet you, too.",
+        "It's a pen.",
+        "I'm seven."
+      ],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to introduce your friend Lan to your teacher. What do you say? (Em muốn giới thiệu bạn Lan với cô giáo. Em nói thế nào?)",
+      "options": [
+        "This is my friend, Lan.",
+        "I have a friend arm.",
+        "Lan you are friend.",
+        "She is a desk."
+      ],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In a song, you touch your head and your toes. Which part is at the bottom? (Trong bài hát, em chạm đầu rồi chạm ngón chân. Bộ phận nào ở dưới cùng?)",
+      "options": [
+        "head",
+        "toes",
+        "hair",
+        "ear"
+      ],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

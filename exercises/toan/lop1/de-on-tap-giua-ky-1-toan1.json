@@ -1,0 +1,171 @@
+{
+  "id": "toan-l1-on-tap-giua-ky-1",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 1",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 6 đọc là gì?",
+      "options": [
+        "Bốn",
+        "Năm",
+        "Sáu",
+        "Bảy"
+      ],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Đếm: 🌼 🌼 🌼 🌼 🌼. Có mấy bông hoa?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "level": "M1",
+      "hint": "Em chỉ tay vào từng bông hoa và đếm nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Số liền trước của 7 là ___",
+      "answer": "6",
+      "alternatives": [
+        "sáu"
+      ],
+      "level": "M1",
+      "hint": "Bớt đi 1 đơn vị nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số nào bé hơn: 3 hay 9?",
+      "options": [
+        "9",
+        "3",
+        "Bằng nhau",
+        "Không so sánh được"
+      ],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "4 + 3 = ___",
+      "answer": "7",
+      "level": "M1",
+      "hint": "Đếm thêm 3 từ số 4 nhé!"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9 - 4 = ___",
+      "answer": "5",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "6 + ___ = 9",
+      "answer": "3",
+      "level": "M2",
+      "hint": "9 trừ 6 bằng mấy?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp: 7 ... 4",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Số nào đứng sau khi đếm thì lớn hơn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "10 - 7 = ___",
+      "answer": "3",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "1 + 2 + 4 = ___",
+      "answer": "7",
+      "level": "M2",
+      "hint": "Cộng hai số đầu trước, rồi cộng tiếp số còn lại."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sắp xếp các số 5, 1, 8 theo thứ tự từ lớn đến bé:",
+      "options": [
+        "1, 5, 8",
+        "8, 5, 1",
+        "5, 8, 1",
+        "8, 1, 5"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        [
+          "2 + 6",
+          "8"
+        ],
+        [
+          "7 - 4",
+          "3"
+        ],
+        [
+          "5 + 5",
+          "10"
+        ],
+        [
+          "9 - 3",
+          "6"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bạn Bin có 4 quả bóng bay, bạn được tặng thêm 2 quả nữa. Hỏi bạn Bin có tất cả bao nhiêu quả bóng bay?",
+      "options": [
+        "2 quả",
+        "5 quả",
+        "6 quả",
+        "8 quả"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Muốn biết có tất cả, em làm phép cộng: 4 + 2."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trong rổ có 8 quả trứng, mẹ lấy ra 5 quả để luộc. Hỏi trong rổ còn lại mấy quả trứng? Trả lời: còn ___ quả. (8 - 5 = ?)",
+      "answer": "3",
+      "level": "M3",
+      "hint": "Lấy ra thì bớt đi, em làm phép trừ nhé!"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có 5 bạn đang xếp thành một hàng dọc. Bạn Lan đứng cuối hàng. Vậy phía trước bạn Lan có mấy bạn?",
+      "options": [
+        "2 bạn",
+        "3 bạn",
+        "4 bạn",
+        "5 bạn"
+      ],
+      "answer": 2,
+      "level": "M3",
+      "hint": "Cả hàng có 5 bạn, Lan đứng cuối nên các bạn còn lại đều ở phía trước: 5 - 1."
+    }
+  ]
+}

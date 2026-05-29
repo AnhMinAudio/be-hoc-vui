@@ -1,0 +1,229 @@
+{
+  "id": "ta-l5-on-tap-giua-ky-1",
+  "subject": "tieng-anh",
+  "grade": 5,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 5",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'street' mean? (Từ 'street' nghĩa là gì?)",
+      "options": [
+        "con đường phố",
+        "thành phố",
+        "ngôi làng",
+        "ngôi nhà"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place at school? (Từ nào là một nơi ở trường?)",
+      "options": [
+        "music room",
+        "Sunday",
+        "always",
+        "dinner"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'thành phố'? ('thành phố' tiếng Anh là gì?)",
+      "options": [
+        "city",
+        "village",
+        "street",
+        "house"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "I ___ go to school by bike. (Em thường thường đi học bằng xe đạp. - điền trạng từ tần suất 'usually')",
+      "answer": "usually",
+      "alternatives": [
+        "Usually",
+        "USUALLY"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the place at school with its meaning (Nối nơi chốn ở trường với nghĩa)",
+      "pairs": [
+        [
+          "classroom",
+          "phòng học"
+        ],
+        [
+          "music room",
+          "phòng âm nhạc"
+        ],
+        [
+          "art room",
+          "phòng mỹ thuật"
+        ],
+        [
+          "office",
+          "văn phòng"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the address word with its meaning (Nối từ về địa chỉ với nghĩa)",
+      "pairs": [
+        [
+          "street",
+          "đường phố"
+        ],
+        [
+          "city",
+          "thành phố"
+        ],
+        [
+          "village",
+          "ngôi làng"
+        ],
+        [
+          "town",
+          "thị trấn"
+        ]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase means 'ăn sáng'? (Cụm nào nghĩa là 'ăn sáng'?)",
+      "options": [
+        "have breakfast",
+        "go to school",
+        "get up",
+        "do homework"
+      ],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'ngôi làng' in English (Viết 'ngôi làng' bằng tiếng Anh): ___",
+      "answer": "village",
+      "alternatives": [
+        "Village",
+        "VILLAGE"
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: 'My brother ___ up early every morning.' (Chọn từ đúng điền vào chỗ trống)",
+      "options": [
+        "get",
+        "gets",
+        "getting",
+        "to get"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Complete: 'She ___ to school on foot.' (Hoàn thành câu với động từ 'go' chia đúng cho 'she'): ___",
+      "answer": "goes",
+      "alternatives": [
+        "Goes",
+        "GOES"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question: '___ is your address?' — 'It's 9 Hoa Binh Street.' (Chọn từ hỏi đúng để hỏi địa chỉ)",
+      "options": [
+        "How",
+        "What",
+        "Where",
+        "When"
+      ],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the adverb of frequency with its meaning (Nối trạng từ tần suất với nghĩa)",
+      "pairs": [
+        [
+          "always",
+          "luôn luôn"
+        ],
+        [
+          "often",
+          "thường"
+        ],
+        [
+          "sometimes",
+          "thỉnh thoảng"
+        ],
+        [
+          "never",
+          "không bao giờ"
+        ]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "A: Where do you live? B: I live in a small ___ near Hue. (Trả lời: Mình sống ở một ngôi làng nhỏ. - điền 'village')",
+      "answer": "village",
+      "alternatives": [
+        "Village",
+        "VILLAGE"
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hi, I'm Long. I live at 15 Le Loi Street in Da Nang city. I go to Hoa Binh Primary School. I usually walk to school with my friend Nam. My favourite place at school is the library.",
+      "question": "Read the passage. Where does Long live? (Đọc đoạn văn. Long sống ở đâu?)",
+      "options": [
+        "At 15 Le Loi Street.",
+        "At Hoa Binh School.",
+        "In the library.",
+        "Near Nam's house."
+      ],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hi, I'm Long. I live at 15 Le Loi Street in Da Nang city. I go to Hoa Binh Primary School. I usually walk to school with my friend Nam. My favourite place at school is the library.",
+      "question": "Read the passage. How does Long go to school? (Đọc đoạn văn. Long đi học bằng cách nào?)",
+      "options": [
+        "By bike.",
+        "By bus.",
+        "He walks.",
+        "By car."
+      ],
+      "answer": 2,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A new friend asks 'Where do you live?'. Which is the best answer? (Bạn mới hỏi em sống ở đâu. Câu trả lời nào hợp lý nhất?)",
+      "options": [
+        "It's seven o'clock.",
+        "I live in Hanoi city.",
+        "I'm fine, thanks.",
+        "It's the music room."
+      ],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}
