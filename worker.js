@@ -169,35 +169,44 @@ function nextMondayISO(ms) {
   d.setUTCDate(d.getUTCDate() + (7 - dow));
   return `${d.getUTCFullYear()}-${pad2(d.getUTCMonth() + 1)}-${pad2(d.getUTCDate())}T00:00:00+07:00`;
 }
-// Tổng "sao" trong tuần (gần đúng: tổng điểm đề hôm nay theo ngày, từ thứ Hai)
-function weekStars(dailyLog, ms) {
-  const monday = vnMondayKey(ms);
+// Tổng "sao" trong khoảng [fromKey, toKey) theo nhật ký ngày (toKey=null → tới nay)
+function starsBetween(dailyLog, fromKey, toKey) {
   let sum = 0;
   for (const [k, day] of Object.entries(dailyLog || {})) {
-    if (k >= monday) for (const r of Object.values((day && day.subjects) || {})) sum += (r.score || 0);
+    if (k >= fromKey && (toKey === null || k < toKey)) for (const r of Object.values((day && day.subjects) || {})) sum += (r.score || 0);
   }
   return sum;
 }
-// Chuỗi ngày liên tiếp có làm bài (theo giờ VN), giống Progress.getStreak phía client
-function computeStreak(dailyLog, ms) {
-  const has = key => dailyLog[key] && dailyLog[key].subjects && Object.keys(dailyLog[key].subjects).length > 0;
-  const probe = new Date(ms + 7 * 3600 * 1000); probe.setUTCHours(0, 0, 0, 0);
-  const keyOf = dt => `${dt.getUTCFullYear()}-${pad2(dt.getUTCMonth() + 1)}-${pad2(dt.getUTCDate())}`;
-  if (!has(keyOf(probe))) probe.setUTCDate(probe.getUTCDate() - 1);
-  let streak = 0;
-  while (has(keyOf(probe))) { streak++; probe.setUTCDate(probe.getUTCDate() - 1); }
-  return streak;
+function prevDateKey(key) {
+  const [y, m, d] = key.split('-').map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d)); dt.setUTCDate(dt.getUTCDate() - 1);
+  return `${dt.getUTCFullYear()}-${pad2(dt.getUTCMonth() + 1)}-${pad2(dt.getUTCDate())}`;
 }
+// Chuỗi ngày liên tiếp có làm bài, tính tới ngày mốc endKey (YYYY-MM-DD)
+function streakEndingAt(dailyLog, endKey) {
+  const has = k => dailyLog[k] && dailyLog[k].subjects && Object.keys(dailyLog[k].subjects).length > 0;
+  let k = endKey;
+  if (!has(k)) k = prevDateKey(k); // ngày mốc chưa làm → tính từ hôm trước
+  let s = 0;
+  while (has(k)) { s++; k = prevDateKey(k); }
+  return s;
+}
+// Tóm tắt 1 tài khoản kèm số liệu "tuần trước" để tính delta tăng/giảm bậc
 function summarize(acc, ms) {
   const p = acc.progress || {};
+  const log = p.dailyLog || {};
+  const thisMon = vnMondayKey(ms);
+  const lastMon = vnMondayKey(ms - 7 * 86400 * 1000);
   return {
     name: acc.name,
     displayName: acc.displayName || acc.name,
     grade: acc.grade,
     avatar: p.avatar || '🐣',
     starsAll: p.stars || 0,
-    starsWeek: weekStars(p.dailyLog, ms),
-    streak: computeStreak(p.dailyLog || {}, ms),
+    starsWeek: starsBetween(log, thisMon, null),
+    starsPrevWeek: starsBetween(log, lastMon, thisMon),
+    streak: streakEndingAt(log, vnDate(ms).key),
+    streakPrev: streakEndingAt(log, prevDateKey(thisMon)), // tính tới hết tuần trước
     optOut: !!acc.lbOptOut,
   };
 }
@@ -227,13 +236,15 @@ async function getIndex(env) {
   await env.PROGRESS.put(LB_INDEX_KEY, JSON.stringify({ at: now, accounts }), { expirationTtl: 300 });
   return accounts;
 }
-function scoreOf(s, metric, period) {
-  if (metric === 'streak') return s.streak || 0;
-  return period === 'all' ? (s.starsAll || 0) : (s.starsWeek || 0);
+// Giá trị xếp hạng: when='now' (hiện tại) | 'prev' (tính tới hết tuần trước, để ra delta)
+function lbValue(s, metric, period, when) {
+  if (metric === 'streak') return when === 'prev' ? (s.streakPrev || 0) : (s.streak || 0);
+  if (period === 'all') return when === 'prev' ? Math.max(0, (s.starsAll || 0) - (s.starsWeek || 0)) : (s.starsAll || 0);
+  return when === 'prev' ? (s.starsPrevWeek || 0) : (s.starsWeek || 0);
 }
 // Sắp xếp ổn định: điểm giảm dần → phá hòa bằng tổng sao → tên
-function lbSort(metric, period) {
-  return (a, b) => (scoreOf(b, metric, period) - scoreOf(a, metric, period))
+function lbSort(metric, period, when) {
+  return (a, b) => (lbValue(b, metric, period, when) - lbValue(a, metric, period, when))
     || ((b.starsAll || 0) - (a.starsAll || 0))
     || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0);
 }
@@ -263,14 +274,25 @@ async function leaderboard(env, body) {
   const inScope = s => scope === 'lop' ? s.grade === grade : stageOf(s.grade) === stage;
   const list = index.filter(s => inScope(s) && !s.optOut && s.name !== acc.name);
   if (!meFresh.optOut) list.push(meFresh);
-  list.sort(lbSort(metric, period));
+  list.sort(lbSort(metric, period, 'now'));
+
+  // Hạng "tuần trước" trên cùng nhóm để ra delta (hạng trước − hạng nay; dương = tăng)
+  const prevRank = new Map();
+  [...list].sort(lbSort(metric, period, 'prev')).forEach((s, i) => prevRank.set(s.name, i + 1));
+  const curRank = new Map();
+  list.forEach((s, i) => curRank.set(s.name, i + 1));
+  const deltaOf = name => {
+    const pr = prevRank.get(name), cr = curRank.get(name);
+    return (pr == null || cr == null) ? null : (pr - cr);
+  };
 
   const meIdx = meFresh.optOut ? -1 : list.findIndex(s => s.name === acc.name);
   const top = list.slice(0, LB_TOP).map((s, i) => ({
     rank: i + 1,
     name: s.displayName,
     avatar: s.avatar,
-    score: scoreOf(s, metric, period),
+    score: lbValue(s, metric, period, 'now'),
+    delta: deltaOf(s.name),
     isMe: s.name === acc.name,
   }));
 
@@ -281,7 +303,8 @@ async function leaderboard(env, body) {
     total: list.length,
     me: {
       rank: meIdx >= 0 ? meIdx + 1 : null,
-      score: scoreOf(meFresh, metric, period),
+      score: lbValue(meFresh, metric, period, 'now'),
+      delta: meFresh.optOut ? null : deltaOf(meFresh.name),
       name: meFresh.displayName,
       avatar: meFresh.avatar,
       hidden: !!meFresh.optOut,

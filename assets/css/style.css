@@ -1242,7 +1242,7 @@ body[data-stage="mam-non"] .p1 .ps-avatar, body[data-stage="tieu-hoc"] .p1 .ps-a
 .lb-list-title::before, .lb-list-title::after { content: ''; flex: 1; height: 1px; background: var(--c-border); }
 .lb-list { display: flex; flex-direction: column; background: var(--c-card); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); overflow: hidden; }
 .lb-row {
-  display: grid; grid-template-columns: 40px 44px 1fr auto; align-items: center; gap: 12px;
+  display: grid; grid-template-columns: 40px 44px 1fr auto auto; align-items: center; gap: 12px;
   padding: 12px 16px; border-bottom: 1px solid var(--c-border);
 }
 .lb-row:last-child { border-bottom: none; }
@@ -1253,6 +1253,14 @@ body[data-stage="mam-non"] .p1 .ps-avatar, body[data-stage="tieu-hoc"] .p1 .ps-a
 .lb-name { font-weight: 700; font-size: 1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lb-score { font-family: var(--font-num); font-weight: 800; font-size: 1rem; display: flex; align-items: center; gap: 5px; justify-content: flex-end; min-width: 64px; }
 .lb-score .lb-star { color: var(--c-star); display: inline-flex; }
+.lb-delta {
+  font-family: var(--font-num); font-weight: 800; font-size: .78rem;
+  display: inline-flex; align-items: center; gap: 2px; padding: 3px 8px; border-radius: var(--radius-pill);
+  min-width: 44px; justify-content: center;
+}
+.lb-delta.up { background: var(--c-correct-soft); color: var(--c-correct); }
+.lb-delta.down { background: var(--c-wrong-soft); color: var(--c-wrong); }
+.lb-delta.same { background: var(--c-surface-2); color: var(--c-text-soft); }
 .lb-row.lb-me { background: var(--c-primary-soft); }
 .lb-row.lb-me .lb-name { color: var(--c-primary-dark); }
 .lb-row.lb-me .lb-name::after { content: ' (bạn)'; font-weight: 800; color: var(--c-primary-dark); font-size: .82rem; }
@@ -1262,7 +1270,7 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 /* ----- Hàng ghim đáy ----- */
 .lb-sticky-me {
   position: sticky; bottom: 0; z-index: 30; margin: 0 -18px -40px;
-  display: grid; grid-template-columns: 40px 44px 1fr auto; align-items: center; gap: 12px;
+  display: grid; grid-template-columns: 40px 44px 1fr auto auto; align-items: center; gap: 12px;
   padding: 14px 18px calc(14px + env(safe-area-inset-bottom));
   background: color-mix(in srgb, var(--c-primary-soft) 88%, var(--c-card));
   border-top: 2px solid var(--c-primary);

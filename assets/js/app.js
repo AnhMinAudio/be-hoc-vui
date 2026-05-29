@@ -871,6 +871,17 @@ const LB_METRIC = {
   streak: { icon: '🔥', unit: 'ngày' },
 };
 const STAGE_LABEL = { 'mam-non': 'Mầm non', 'tieu-hoc': 'Tiểu học', 'thcs': 'THCS', 'thpt': 'THPT' };
+// Nhãn tăng/giảm bậc: dương = lên hạng (▲), âm = xuống (▼), 0 = giữ (—), null = không có
+function lbDeltaTag(d) {
+  if (d > 0) return { cls: 'up', sym: '▲', t: String(d) };
+  if (d < 0) return { cls: 'down', sym: '▼', t: String(-d) };
+  if (d === 0) return { cls: 'same', sym: '—', t: '' };
+  return { cls: 'same', sym: '', t: '' };
+}
+function lbDeltaChip(d) {
+  const x = lbDeltaTag(d);
+  return `<span class="lb-delta ${x.cls}">${x.sym}${x.t ? `<span class="num">${x.t}</span>` : ''}</span>`;
+}
 
 function renderLeaderboard(view) {
   if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để xem Bảng xếp hạng', 'Đăng nhập để đua hạng cùng các bạn cùng lớp nhé!');
@@ -931,8 +942,11 @@ function renderLeaderboard(view) {
       <div class="lbm-cta-text">${play ? '⭐ ' : ''}Chưa có ${mi.unit} ${LB_FILTER.period === 'week' ? 'tuần này' : ''} — làm 1 bài để lên bảng nhé!<small>Hạng của bé sẽ hiện ở đây ngay khi có điểm.</small></div>
       <a href="#/" class="btn btn-primary">Làm bài ngay</a></div>`;
     const top3 = me.rank <= 3;
-    const subCls = top3 ? 'up' : 'same';
-    const subTxt = top3 ? 'Trong nhóm dẫn đầu! 🎉' : 'Cố lên để tiến hạng nhé!';
+    const dt = lbDeltaTag(me.delta);
+    const subTxt = me.delta == null ? 'Chào mừng lên bảng! 🎉'
+      : me.delta > 0 ? `Tăng ${me.delta} bậc tuần này`
+      : me.delta < 0 ? `Giảm ${-me.delta} bậc tuần này`
+      : 'Giữ hạng tuần này';
     const right = top3
       ? `<div class="lbm-medal">${['🥇', '🥈', '🥉'][me.rank - 1]}</div>`
       : `<div class="lbm-rank num" data-count="${me.rank}" data-prefix="#">#${me.rank}</div>`;
@@ -941,7 +955,7 @@ function renderLeaderboard(view) {
       <div class="lbm-info">
         <div class="lbm-label">Hạng của bé</div>
         <div class="lbm-name">${escapeHtml(me.name)}</div>
-        <div class="lbm-sub ${subCls}">${subTxt}</div>
+        <div class="lbm-sub ${dt.cls}">${dt.sym} ${subTxt}</div>
       </div>
       <div class="lbm-right">${right}<div class="lbm-score">${mi.icon} ${me.score} ${mi.unit}</div></div>
     </div>`;
@@ -951,7 +965,8 @@ function renderLeaderboard(view) {
     <span class="lb-rank">${medalOrRank(r.rank)}</span>
     <span class="lb-avatar">${escapeHtml(r.avatar)}</span>
     <span class="lb-name">${escapeHtml(r.name)}</span>
-    <span class="lb-score"><span class="lb-star">${mi.icon}</span><span class="num">${r.score}</span></span></div>`;
+    <span class="lb-score"><span class="lb-star">${mi.icon}</span><span class="num">${r.score}</span></span>
+    ${lbDeltaChip(r.delta)}</div>`;
 
   const paintLoading = () => {
     view.innerHTML = back + hero('Đang tải…') + `
@@ -1020,7 +1035,7 @@ function renderLeaderboard(view) {
     const listRows = top.slice(3);
     const meInList = listRows.some(r => r.isMe);
     if (!hidden && !noScore && me.rank && me.rank > 3 && !meInList) {
-      html += `<div class="lb-sticky-me lb-row"><span class="lb-rank num">${me.rank}</span><span class="lb-avatar">${escapeHtml(me.avatar)}</span><span class="lb-name">${escapeHtml(me.name)}</span><span class="lb-score"><span class="lb-star">${mi.icon}</span><span class="num">${me.score}</span></span></div>`;
+      html += `<div class="lb-sticky-me lb-row"><span class="lb-rank num">${me.rank}</span><span class="lb-avatar">${escapeHtml(me.avatar)}</span><span class="lb-name">${escapeHtml(me.name)}</span><span class="lb-score"><span class="lb-star">${mi.icon}</span><span class="num">${me.score}</span></span>${lbDeltaChip(me.delta)}</div>`;
     }
 
     view.innerHTML = html;
