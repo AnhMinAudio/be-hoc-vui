@@ -62,12 +62,17 @@ async function route() {
   }
 
   const parts = hash.split('/').filter(Boolean);
-  // Chủ đề theo cấp (đề/bài sẽ tự đặt trong renderExercise)
-  if (parts[0] === 'mam-non') applyStageTheme('mam-non');
-  else if (parts[0] && parts[0].startsWith('lop')) applyStageTheme(stageFromGrade(parseInt(parts[0].replace('lop', ''))));
-  else if (parts[0] !== 'bai') applyStageTheme('');
+  // Xác định "thế giới" (cấp học) để áp chủ đề + đánh dấu tab cấp ở đầu trang
+  const world = parts[0] === 'cap' ? (parts[1] || '')
+    : parts[0] === 'mam-non' ? 'mam-non'
+    : (parts[0] && parts[0].startsWith('lop')) ? stageFromGrade(parseInt(parts[0].replace('lop', '')))
+    : parts.length === 0 ? 'tieu-hoc'
+    : '';
+  if (parts[0] !== 'bai') applyStageTheme(world); // 'bai' tự đặt trong renderExercise
+  updateWorldTabs(world);
 
-  if (parts.length === 0) return renderHome(view);
+  if (parts.length === 0) return renderWorldHome(view, 'tieu-hoc');
+  if (parts[0] === 'cap' && parts[1]) return renderWorldHome(view, parts[1]);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
   if (parts[0] === 'chinh-sach') return renderPolicy(view);
@@ -87,7 +92,7 @@ async function route() {
     return renderTopicList(view, grade, parts[1]);
   }
   if (parts[0] === 'bai' && parts[1]) return renderExercise(view, parts[1]);
-  return renderHome(view);
+  return renderWorldHome(view, 'tieu-hoc');
 }
 
 window.addEventListener('hashchange', route);
@@ -192,8 +197,13 @@ function updateHeader() {
 // Đánh dấu tab đang mở ở thanh tab dưới (mobile)
 function updateTabbar(hash) {
   const parts = (hash || '').split('/').filter(Boolean);
-  const key = parts.length === 0 ? 'home' : parts[0];
+  const key = (parts.length === 0 || parts[0] === 'cap') ? 'home' : parts[0];
   document.querySelectorAll('#tabbar a').forEach(a => a.classList.toggle('active', a.dataset.tabkey === key));
+}
+
+// Đánh dấu tab cấp học (4 thế giới) đang chọn
+function updateWorldTabs(world) {
+  document.querySelectorAll('#world-tabs a').forEach(a => a.classList.toggle('active', a.dataset.world === world));
 }
 
 function renderAccountArea() {
@@ -352,9 +362,25 @@ function loginRequiredView(view, title, desc) {
 }
 
 // ===== Views =====
-function renderHome(view) {
-  const total = CATALOG.exercises.length;
-  const av = Progress.getAvatar();
+const WORLD_HERO = {
+  'tieu-hoc': { a: 'Học vui mỗi ngày,', b: 'giỏi hơn mỗi tuần', sub: 'Bài tập & đề thi thử bám sát chương trình, chấm điểm ngay tức thì.', label: '🎒 Lớp 1–5' },
+  'thcs': { a: 'Vững kiến thức,', b: 'tự tin vào cấp 3', sub: 'Luyện theo chủ đề và đề thi thử đúng cấu trúc, theo dõi tiến bộ từng môn.', label: '📐 Lớp 6–9' },
+  'thpt': { a: 'Ôn luyện thông minh,', b: 'bứt phá kỳ thi', sub: 'Đề thi thử bấm giờ chuẩn tốt nghiệp & ĐGNL. Phân tích điểm mạnh – yếu theo môn.', label: '🎓 Lớp 10–12' },
+};
+const WORLD_FEATURES = {
+  'tieu-hoc': [['📋', 'Bám chương trình', 'Theo GDPT 2018 (Kết nối tri thức)'], ['🎯', 'Chấm điểm ngay', 'Biết đúng/sai từng câu, có gợi ý'], ['⭐', 'Vui & có thưởng', 'Sao, huy hiệu, nhân vật đồng hành'], ['📅', 'Đề mỗi ngày', 'Giữ thói quen học đều đặn']],
+  'thcs': [['📋', 'Bám chương trình', 'Yêu cầu cần đạt GDPT 2018'], ['📝', 'Đề thi thử', 'Bấm giờ, đúng cấu trúc đề thật'], ['📈', 'Theo dõi tiến bộ', 'Thống kê đúng/sai theo môn'], ['🎯', 'Chấm điểm ngay', 'Xem lại lời giải từng câu']],
+  'thpt': [['📝', 'Đề chuẩn kỳ thi', 'Tốt nghiệp THPT & ĐGNL'], ['⏱️', 'Bấm giờ như thi', 'Đồng hồ đếm ngược, tự nộp'], ['📈', 'Phân tích năng lực', 'Điểm mạnh – yếu từng môn'], ['🎯', 'Lời giải chi tiết', 'Hiểu sâu sau mỗi câu sai']],
+};
+const WORLD_GRADES = { 'tieu-hoc': [1, 2, 3, 4, 5], 'thcs': [6, 7, 8, 9], 'thpt': [10, 11, 12] };
+
+function renderWorldHome(view, world) {
+  if (world === 'mam-non') { window.location.hash = '#/mam-non'; return; }
+  if (!WORLD_GRADES[world]) world = 'tieu-hoc';
+  applyStageTheme(world);
+  updateWorldTabs(world);
+  const hero = WORLD_HERO[world];
+  const gcls = world === 'thcs' ? ' thcs' : world === 'thpt' ? ' thpt' : '';
   const u = Auth.getUser();
   const deleted = Auth.consumeDeletedNotice();
   view.innerHTML = `
@@ -362,58 +388,28 @@ function renderHome(view) {
     <section class="hero-pro">
       ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
       ${mascotSVG()}
-      <h1>Học vui mỗi ngày, <span class="accent">vững vàng mỗi kỳ thi</span></h1>
-      <p class="hero-sub">Bài tập &amp; đề thi thử bám sát chương trình GDPT 2018 — từ Mầm non đến THPT, chấm điểm tức thì.</p>
+      <h1>${hero.a} <span class="accent">${hero.b}</span></h1>
+      <p class="hero-sub">${hero.sub}</p>
       <div class="hero-cta">
-        <button class="btn btn-primary" onclick="document.getElementById('cap-hoc').scrollIntoView({behavior:'smooth'})">Bắt đầu học ngay</button>
+        <button class="btn btn-primary" onclick="document.getElementById('chon-cap').scrollIntoView({behavior:'smooth'})">Bắt đầu học</button>
         <a href="#/gioi-thieu" class="btn btn-secondary">Tìm hiểu thêm</a>
       </div>
       <div class="hero-chips">
-        <span class="hero-chip">📚 <b>${total}</b> bộ đề</span>
-        <span class="hero-chip">🎓 Mầm non → THPT</span>
+        <span class="hero-chip">📚 <b>${CATALOG.exercises.length}</b> bộ đề</span>
+        <span class="hero-chip">${hero.label}</span>
         <span class="hero-chip">💚 100% miễn phí</span>
       </div>
-      ${u || av ? '' : '<a href="#/doi-nhan-vat" class="avatar-hint">🐾 Chọn một nhân vật học tập đồng hành cùng bạn</a>'}
     </section>
 
     ${renderDailyHomeSection()}
 
     <section class="features" aria-label="Điểm nổi bật">
-      <div class="feature"><div class="f-icon">📋</div><div class="f-text"><b>Bám chương trình</b><span>Theo yêu cầu cần đạt GDPT 2018 (Kết nối tri thức)</span></div></div>
-      <div class="feature"><div class="f-icon">📝</div><div class="f-text"><b>Luyện thi thật</b><span>Đề thi thử bấm giờ, đúng cấu trúc thi tốt nghiệp &amp; ĐGNL</span></div></div>
-      <div class="feature"><div class="f-icon">🎯</div><div class="f-text"><b>Chấm điểm ngay</b><span>Trắc nghiệm, điền đáp án, đúng/sai, ghép cặp</span></div></div>
-      <div class="feature"><div class="f-icon">⭐</div><div class="f-text"><b>Vui &amp; có thưởng</b><span>Sao, huy hiệu, nhân vật đồng hành</span></div></div>
+      ${WORLD_FEATURES[world].map(f => `<div class="feature"><div class="f-icon">${f[0]}</div><div class="f-text"><b>${f[1]}</b><span>${f[2]}</span></div></div>`).join('')}
     </section>
 
-    <h2 class="home-section" id="cap-hoc">Chọn cấp học</h2>
-    <a href="#/mam-non" class="preschool-banner">
-      <span class="pb-icon">🧸</span>
-      <span class="pb-text"><b>Khu Mầm Non</b><small>Cho bé 3 – 5 tuổi · chạm tranh, nghe đọc</small></span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <h3 class="home-subsection">🎒 Tiểu học</h3>
+    <h2 class="home-section" id="chon-cap">Chọn lớp của bạn</h2>
     <div class="grade-grid">
-      ${[1, 2, 3, 4, 5].map(g => `
-        <a href="#/lop${g}" class="grade-card">
-          <div class="num">${g}</div>
-          <div class="label">Lớp ${g}</div>
-        </a>`).join('')}
-    </div>
-    <h3 class="home-subsection">📚 Trung học cơ sở</h3>
-    <div class="grade-grid">
-      ${[6, 7, 8, 9].map(g => `
-        <a href="#/lop${g}" class="grade-card thcs">
-          <div class="num">${g}</div>
-          <div class="label">Lớp ${g}</div>
-        </a>`).join('')}
-    </div>
-    <h3 class="home-subsection">🎓 Trung học phổ thông</h3>
-    <div class="grade-grid">
-      ${[10, 11, 12].map(g => `
-        <a href="#/lop${g}" class="grade-card thpt">
-          <div class="num">${g}</div>
-          <div class="label">Lớp ${g}</div>
-        </a>`).join('')}
+      ${WORLD_GRADES[world].map(g => `<a href="#/lop${g}" class="grade-card${gcls}"><div class="num">${g}</div><div class="label">Lớp ${g}</div></a>`).join('')}
     </div>
   `;
 }

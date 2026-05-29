@@ -423,6 +423,23 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
 .main-nav a:hover { background: var(--c-surface-2); color: var(--c-text); }
 .site-header .header-right { display: flex; align-items: center; }
 
+/* Thanh chọn cấp học (4 thế giới) dưới tiêu đề */
+.world-tabs {
+  max-width: 1000px; margin: 12px auto 0; padding: 0 16px;
+  display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.world-tabs::-webkit-scrollbar { height: 0; }
+.world-tabs a {
+  display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+  font-weight: 800; font-size: .9rem; color: var(--c-text-soft);
+  padding: 9px 16px; border-radius: 999px; background: var(--c-card);
+  border: 2px solid var(--c-border); transition: background .15s, color .15s, border-color .15s;
+}
+.world-tabs a .wt-ic { font-size: 1.05rem; line-height: 1; }
+.world-tabs a:hover { border-color: var(--c-primary); color: var(--c-text); }
+.world-tabs a.active { background: var(--c-primary); color: #fff; border-color: var(--c-primary); }
+@media (max-width: 760px) { .world-tabs a { flex: 1; justify-content: center; padding: 9px 6px; font-size: .82rem; } }
+
 @media (max-width: 640px) {
   .logo-text small { display: none; }
   .site-header-inner { flex-wrap: wrap; padding: 8px 14px; }
