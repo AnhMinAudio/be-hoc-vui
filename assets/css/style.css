@@ -437,7 +437,7 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
 .main-nav { display: flex; gap: 4px; margin-left: auto; }
 .main-nav a { padding: 8px 14px; border-radius: 999px; font-weight: 700; color: var(--c-text-soft); }
 .main-nav a:hover { background: var(--c-surface-2); color: var(--c-text); }
-.site-header .header-right { display: flex; align-items: center; }
+.site-header .header-right { display: flex; align-items: center; margin-left: auto; }
 
 /* Thanh chọn cấp học (4 thế giới) dưới tiêu đề */
 .world-tabs {
@@ -490,23 +490,15 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
 
 .home-subsection { margin: 18px 4px 10px; font-size: .96rem; font-weight: 800; color: var(--c-text-soft); }
 
-/* Footer */
-.site-footer { background: #2E2E44; color: #D8D8E8; margin-top: 48px; }
-.footer-inner {
-  max-width: 1000px; margin: 0 auto;
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 28px; padding: 36px 24px;
-}
-.footer-brand { font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 8px; }
-.footer-col h4 { font-size: 1rem; margin-bottom: 10px; color: #fff; }
-.footer-col p { font-size: 0.9rem; line-height: 1.7; color: #B8B8CC; }
-.footer-col a { display: block; color: #C9C9DD; padding: 3px 0; font-weight: 600; }
-.footer-col a:hover { color: #fff; }
-.footer-col p a { display: inline; text-decoration: underline; }
-.footer-bottom {
-  border-top: 1px solid #44445E; padding: 16px 24px; text-align: center;
-  font-size: 0.82rem; color: #9C9CB5; line-height: 1.6;
-}
+/* Footer gọn */
+.site-footer { background: #2E2E44; color: #C9C9DD; margin-top: 40px; }
+.footer-compact { max-width: 900px; margin: 0 auto; padding: 22px 20px 92px; text-align: center; line-height: 1.7; }
+.footer-links { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-bottom: 10px; }
+.footer-links a { color: #C9C9DD; font-weight: 700; font-size: 0.86rem; }
+.footer-links a:hover { color: #fff; }
+.footer-credit { color: #9C9CB5; font-size: 0.74rem; margin-bottom: 8px; }
+.footer-credit a { color: #C9C9DD; text-decoration: underline; }
+.footer-bottom { color: #9C9CB5; font-size: 0.76rem; line-height: 1.6; }
 
 /* Trang Giới thiệu */
 .about {
@@ -1097,23 +1089,23 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
 .empty-state .es-desc { font-size: 1rem; margin-top: 6px; max-width: 360px; }
 
 /* ===== Redesign GĐ2: tab bar, thẻ ngang THCS/THPT, hero canh trái ===== */
-.tabbar { display: none; }
-@media (max-width: 760px) {
-  .main-nav { display: none; }
-  .tabbar {
-    display: grid; grid-template-columns: repeat(4, 1fr);
-    position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000;
-    background: color-mix(in srgb, var(--c-card) 94%, transparent);
-    -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
-    border-top: 1px solid var(--c-border);
-    padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
-  }
-  .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; color: var(--c-text-soft); border-radius: var(--radius-sm); }
-  .tabbar .tab-ic { font-size: 1.2rem; line-height: 1; }
-  .tabbar .tab-lb { font-size: .66rem; font-weight: 800; }
-  .tabbar a.active { color: var(--c-primary-dark); }
-  .container { padding-bottom: 80px; }
+/* Điều hướng chính = thanh tab dưới (luôn hiện, dạng pill nổi); ẩn menu trên */
+.main-nav { display: none; }
+.tabbar {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: 12px; z-index: 1000;
+  width: calc(100% - 24px); max-width: 480px;
+  background: color-mix(in srgb, var(--c-card) 94%, transparent);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  border: 1px solid var(--c-border); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 8px 8px calc(8px + env(safe-area-inset-bottom));
 }
+.tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; color: var(--c-text-soft); border-radius: var(--radius-sm); }
+.tabbar .tab-ic { font-size: 1.2rem; line-height: 1; }
+.tabbar .tab-lb { font-size: .68rem; font-weight: 800; }
+.tabbar a.active { color: var(--c-primary-dark); }
+.container { padding-bottom: 96px; }
 
 /* Hero trang lớp/môn canh trái cho THCS/THPT (cảm giác EdTech) */
 body[data-stage="thcs"] .hero, body[data-stage="thpt"] .hero { text-align: left; }

@@ -128,6 +128,7 @@ function mascotSVG(mood) {
     <circle cx="84" cy="74" r="7" fill="#FF8FA3" opacity=".5"/>
     ${eyes}
     ${mouths[m] || mouths.happy}
+    <path d="M101 70 q12 -6 14 4 q1 7 -8 8" fill="var(--c-primary-soft)" stroke="var(--c-primary-dark)" stroke-width="3" stroke-linecap="round"/>
     ${extra}
   </svg>`;
 }
@@ -153,6 +154,8 @@ function applyStageTheme(stage) {
   if (tg) { tg.hidden = !darkAllowed; tg.textContent = (darkAllowed && pref) ? '☀️' : '🌙'; }
   const bm = document.getElementById('brand-mark');
   if (bm) bm.innerHTML = brandMarkSVG(stage || '');
+  const tag = document.getElementById('brand-tag');
+  if (tag) tag.textContent = ({ 'mam-non': 'Bé 3–5 tuổi', 'tieu-hoc': 'Lớp 1–5', 'thcs': 'Lớp 6–9', 'thpt': 'Lớp 10–12' }[stage]) || 'Học & luyện thi · Mầm non → THPT';
 }
 window.toggleDark = function () {
   const cur = localStorage.getItem(DARK_KEY) === '1';
@@ -644,6 +647,16 @@ function renderPreschoolAges(view) {
           <div class="a-label">tuổi</div>
         </a>`).join('')}
     </div>
+    <section class="daily-section" style="margin-top:22px">
+      <div class="daily-head"><h2>🌈 Hôm nay chơi gì?</h2></div>
+      <div class="daily-grid">
+        ${['mau-sac', 'con-vat', 'dem-so'].filter(k => PRESCHOOL[k]).map(k => `
+          <a href="#/mam-non/age4/${k}" class="daily-card">
+            <span class="dc-icon">${PRESCHOOL[k].icon}</span>
+            <span class="dc-name">${PRESCHOOL[k].name}</span>
+          </a>`).join('')}
+      </div>
+    </section>
   `;
 }
 
