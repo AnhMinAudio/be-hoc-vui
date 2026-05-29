@@ -18,9 +18,45 @@ export default {
     }
     // Đường dẫn ảo của router (vd /lop3/toan) không có file → Cloudflare tự trả index.html
     // (assets.not_found_handling = "single-page-application"), KHÔNG redirect, giữ nguyên URL.
-    return env.ASSETS.fetch(request);
+    const res = await env.ASSETS.fetch(request);
+    // Chèn tiêu đề/mô tả RIÊNG cho từng URL (SEO) — chỉ với trang HTML, request GET.
+    const ct = res.headers.get('content-type') || '';
+    if (request.method === 'GET' && ct.includes('text/html')) {
+      return injectSeo(res, env, url);
+    }
+    return res;
   },
 };
+
+// ===== SEO: chèn title/description/canonical riêng cho từng đường dẫn =====
+const SEO_DOMAIN = 'https://behocvui.id.vn';
+let SEO_MAP = null;
+async function loadSeo(env, url) {
+  if (SEO_MAP) return SEO_MAP;
+  try {
+    const r = await env.ASSETS.fetch(new URL('/seo-meta.json', url));
+    SEO_MAP = r.ok ? await r.json() : {};
+  } catch { SEO_MAP = {}; }
+  return SEO_MAP;
+}
+async function injectSeo(res, env, url) {
+  const seo = await loadSeo(env, url);
+  const key = url.pathname.replace(/\/+$/, '') || '/';
+  const m = seo[key];
+  if (!m) return res; // đường dẫn không có mô tả riêng → giữ mặc định
+  const canonical = SEO_DOMAIN + (key === '/' ? '/' : key);
+  const content = (val) => ({ element(e) { e.setAttribute('content', val); } });
+  return new HTMLRewriter()
+    .on('title', { element(e) { e.setInnerContent(m.t); } })
+    .on('meta[name="description"]', content(m.d))
+    .on('meta[property="og:title"]', content(m.t))
+    .on('meta[property="og:description"]', content(m.d))
+    .on('meta[name="twitter:title"]', content(m.t))
+    .on('meta[name="twitter:description"]', content(m.d))
+    .on('meta[property="og:url"]', content(canonical))
+    .on('link[rel="canonical"]', { element(e) { e.setAttribute('href', canonical); } })
+    .transform(res);
+}
 
 function json(obj, status = 200) {
   return new Response(JSON.stringify(obj), {

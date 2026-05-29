@@ -41,6 +41,49 @@ const urlsXml = [...seoPaths].sort().map(p => {
 fs.writeFileSync(SITEMAP_OUT, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlsXml}\n</urlset>\n`, 'utf8');
 console.log(`🗺️  Đã sinh sitemap.xml (${seoPaths.size} URL)`);
 
+// ===== Sinh seo-meta.json (tiêu đề + mô tả RIÊNG cho từng trang) =====
+// Worker chèn title/description/canonical theo bảng này; client cũng đọc để cập nhật khi chuyển trang.
+const SEO_OUT = path.resolve(__dirname, '..', 'seo-meta.json');
+const SUBJ = { toan: 'Toán', 'tieng-viet': 'Tiếng Việt', 'tieng-anh': 'Tiếng Anh', 'ngu-van': 'Ngữ văn', 'vat-li': 'Vật lí', 'hoa-hoc': 'Hóa học', 'sinh-hoc': 'Sinh học', 'lich-su': 'Lịch sử', 'dia-li': 'Địa lí', 'gdkt-pl': 'Giáo dục KT & Pháp luật' };
+const MN_DOMAIN = { 'mau-sac': 'Màu sắc', 'con-vat': 'Con vật', 'dem-so': 'Đếm số', 'hinh-khoi': 'Hình khối', 'chu-cai': 'Chữ cái', 'cam-xuc': 'Cảm xúc', 'do-vat': 'Đồ vật' };
+const STAGE_INFO = {
+  'tieu-hoc': { label: 'Tiểu học', range: 'lớp 1–5', subs: 'Toán, Tiếng Việt, Tiếng Anh' },
+  'thcs': { label: 'THCS', range: 'lớp 6–9', subs: 'Toán, Ngữ văn, Tiếng Anh' },
+  'thpt': { label: 'THPT', range: 'lớp 10–12', subs: 'Toán, Ngữ văn, Tiếng Anh và các môn' },
+};
+const stageOfGrade = g => (g >= 10 ? 'thpt' : g >= 6 ? 'thcs' : 'tieu-hoc');
+const seo = {};
+seo['/'] = { t: 'Bé Học Vui — Học & luyện thi miễn phí từ Mầm non đến THPT', d: 'Nền tảng học và luyện tập miễn phí bám chương trình GDPT 2018, từ Mầm non đến THPT. Bài tập theo chủ đề và đề thi thử chấm điểm tức thì.' };
+seo['/gioi-thieu'] = { t: 'Giới thiệu | Bé Học Vui', d: 'Bé Học Vui — nền tảng học và luyện tập miễn phí bám chương trình GDPT 2018 cho học sinh từ Mầm non đến THPT.' };
+seo['/faq'] = { t: 'Câu hỏi thường gặp | Bé Học Vui', d: 'Giải đáp các thắc mắc thường gặp khi dùng Bé Học Vui: tài khoản, tiến trình, đề thi thử, quyền riêng tư.' };
+seo['/chinh-sach'] = { t: 'Chính sách & Điều khoản | Bé Học Vui', d: 'Chính sách quyền riêng tư và điều khoản sử dụng của Bé Học Vui — bảo vệ thông tin trẻ em, miễn phí, nội dung tham khảo.' };
+seo['/mam-non'] = { t: 'Mầm non (3–5 tuổi) — Học qua hình ảnh & giọng đọc | Bé Học Vui', d: 'Trò chơi học tập cho bé 3–5 tuổi: màu sắc, con vật, đếm số, hình khối… qua hình ảnh và giọng đọc. Miễn phí, không cần biết chữ.' };
+for (const st of ['tieu-hoc', 'thcs', 'thpt']) {
+  const s = STAGE_INFO[st];
+  seo[`/cap/${st}`] = { t: `${s.label} (${s.range}) — Bài tập & đề ôn tập | Bé Học Vui`, d: `Bài tập và đề ôn tập ${s.subs} ${s.range} bám chương trình GDPT 2018. Đề giữa kỳ, cuối kỳ và thi thử chấm điểm ngay, miễn phí.` };
+}
+for (const p of seoPaths) {
+  if (seo[p]) continue;
+  let m = p.match(/^\/lop(\d+)\/([a-z-]+)$/);
+  if (m) { const g = +m[1], sn = SUBJ[m[2]] || m[2]; seo[p] = { t: `${sn} lớp ${g} — Bài tập, đề ôn tập & thi thử | Bé Học Vui`, d: `Bài tập và đề ôn tập ${sn} lớp ${g} bám chương trình GDPT 2018 (Kết nối tri thức). Đề giữa kỳ, cuối kỳ và thi thử, chấm điểm tức thì, miễn phí.` }; continue; }
+  m = p.match(/^\/lop(\d+)$/);
+  if (m) { const g = +m[1]; seo[p] = { t: `Lớp ${g} — Bài tập & đề ôn tập các môn | Bé Học Vui`, d: `Tổng hợp bài tập và đề ôn tập lớp ${g} (${STAGE_INFO[stageOfGrade(g)].subs}) bám chương trình GDPT 2018. Đề giữa kỳ, cuối kỳ, thi thử chấm điểm tức thì.` }; continue; }
+  m = p.match(/^\/mam-non\/age(\d+)\/([a-z-]+)$/);
+  if (m) { const a = +m[1], dn = MN_DOMAIN[m[2]] || m[2]; seo[p] = { t: `${dn} cho bé ${a} tuổi | Bé Học Vui`, d: `Bé ${a} tuổi học ${dn} qua tranh và giọng đọc — vui, dễ hiểu, miễn phí.` }; continue; }
+  m = p.match(/^\/mam-non\/age(\d+)$/);
+  if (m) { const a = +m[1]; seo[p] = { t: `Bé ${a} tuổi — Học mà chơi | Bé Học Vui`, d: `Hoạt động học tập cho bé ${a} tuổi qua hình ảnh và giọng đọc: màu sắc, con vật, đếm số, hình khối… miễn phí.` }; continue; }
+}
+for (const e of index.exercises) {
+  const topic = e.topic || 'Bài tập';
+  const t = `${topic} | Bé Học Vui`;
+  let d;
+  if ((e.stage || 'tieu-hoc') === 'mam-non') d = `${topic} cho bé ${e.grade} tuổi — học qua tranh và giọng đọc, miễn phí.`;
+  else d = `${topic} — ${e.questionCount} câu môn ${SUBJ[e.subject] || e.subject} lớp ${e.grade}, bám chương trình GDPT 2018, chấm điểm tức thì.`;
+  seo[`/bai/${e.id}`] = { t: t.length > 65 ? topic.slice(0, 60) + '… | Bé Học Vui' : t, d: d.slice(0, 165) };
+}
+fs.writeFileSync(SEO_OUT, JSON.stringify(seo), 'utf8');
+console.log(`🔎 Đã sinh seo-meta.json (${Object.keys(seo).length} trang)`);
+
 if (coverage.gaps.length) {
   console.log(`\n📍 Chỗ còn thiếu (${coverage.gaps.length}): ${coverage.gaps.join(' · ')}`);
 }

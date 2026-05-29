@@ -71,6 +71,22 @@ function goTo(path) {
   navTo(path);
 }
 
+// ===== SEO: tiêu đề + mô tả riêng cho từng trang (đồng bộ với seo-meta.json do Worker dùng) =====
+let SEO_META = null;
+let currentPageSeo = null;
+async function applySeo(path) {
+  const key = ('/' + (path || '')).replace(/\/+$/, '') || '/';
+  if (!SEO_META) { try { SEO_META = await (await fetch('/seo-meta.json')).json(); } catch { SEO_META = {}; } }
+  const m = SEO_META[key] || null;
+  currentPageSeo = m;
+  document.title = m ? m.t : 'Bé Học Vui — Học & luyện thi từ Mầm non đến THPT';
+  const md = document.querySelector('meta[name="description"]');
+  if (md && m) md.setAttribute('content', m.d);
+  const cn = document.querySelector('link[rel="canonical"]');
+  if (cn) cn.setAttribute('href', 'https://behocvui.id.vn' + (key === '/' ? '/' : key));
+  return m;
+}
+
 // ===== Routing =====
 async function route() {
   const path = (location.pathname || '/').replace(/^\/+|\/+$/g, '');
@@ -89,6 +105,7 @@ async function route() {
     }
   }
 
+  await applySeo(path); // cập nhật tiêu đề + mô tả + canonical theo trang
   const parts = path.split('/').filter(Boolean);
   // Xác định "thế giới" (cấp học) để áp chủ đề + đánh dấu tab cấp ở đầu trang
   const PERSONAL = ['tien-trinh', 'thanh-tich', 'tai-khoan', 'doi-nhan-vat', 'bang-xep-hang'];
@@ -814,6 +831,7 @@ function renderSubjects(view, grade) {
   view.innerHTML = `
     <a href="/" class="back-btn">← Quay lại chọn lớp</a>
     <div class="hero" style="padding:14px 10px 18px"><h1>Lớp ${grade}</h1><p class="hero-sub">Chọn môn học để bắt đầu</p></div>
+    ${currentPageSeo ? `<p class="seo-desc">${currentPageSeo.d}</p>` : ''}
     <div class="subject-grid">
       ${keys.map(key => { const s = SUBJECTS[key]; return `
         <a href="/lop${grade}/${key}" class="subject-card ${s.cls}">
@@ -896,6 +914,7 @@ function renderTopicList(view, grade, subject) {
   view.innerHTML = `
     <a href="/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
+    ${currentPageSeo ? `<p class="seo-desc">${currentPageSeo.d}</p>` : ''}
     ${all.length === 0
       ? emptyState('Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
       : sections.join('')}

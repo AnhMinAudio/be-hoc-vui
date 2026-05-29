@@ -911,6 +911,17 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
 .explain .ex-ans { font-weight: 700; color: var(--c-primary-dark); }
 .explain .ex-why { margin-top: 6px; font-size: 0.96rem; }
 .explain .ex-why b { color: var(--c-text); }
+
+/* Đoạn mô tả SEO trên trang lớp/môn (cho người đọc + Google hiểu nội dung) */
+.seo-desc {
+  max-width: 640px;
+  margin: -6px auto 18px;
+  padding: 0 6px;
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--c-text-soft);
+}
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
