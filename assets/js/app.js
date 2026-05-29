@@ -692,13 +692,16 @@ function renderSubjects(view, grade) {
     counts[key] = CATALOG.exercises.filter(e => e.subject === key && e.grade === grade).length;
   view.innerHTML = `
     <a href="#/" class="back-btn">← Quay lại chọn lớp</a>
-    <div class="hero" style="padding:20px 10px 30px"><h1>Lớp ${grade}</h1><p>Chọn môn học để bắt đầu</p></div>
+    <div class="hero" style="padding:14px 10px 18px"><h1>Lớp ${grade}</h1><p class="hero-sub">Chọn môn học để bắt đầu</p></div>
     <div class="subject-grid">
       ${keys.map(key => { const s = SUBJECTS[key]; return `
         <a href="#/lop${grade}/${key}" class="subject-card ${s.cls}">
-          <div class="icon">${s.icon}</div>
-          <div class="name">${s.name}</div>
-          <div class="count">${counts[key]} bài tập</div>
+          <span class="sc-ic">${s.icon}</span>
+          <span class="sc-body">
+            <span class="sc-name">${s.name}</span>
+            <span class="sc-count">${counts[key]} bài tập</span>
+          </span>
+          <span class="sc-arrow">›</span>
         </a>`; }).join('')}
     </div>
   `;
@@ -720,9 +723,12 @@ function chapterRank(ch) {
 function topicItemHTML(ex) {
   const done = Progress.getCompletion(ex.id);
   return `<a href="#/bai/${ex.id}" class="topic-item">
-      <div><div class="title">${ex.timeLimit ? '📝 ' : ''}${ex.topic}</div>
-      <div class="meta">${ex.questionCount} câu · Độ khó ${'⭐'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút` : ''}</div></div>
-      ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
+      <span class="ti-dot">${ex.timeLimit ? '📝' : '✏️'}</span>
+      <span class="ti-body">
+        <span class="ti-title">${ex.topic}</span>
+        <span class="ti-meta">${ex.questionCount} câu · Độ khó ${'★'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút` : ''}</span>
+      </span>
+      ${done ? `<span class="ti-badge">★ ${done.bestScore}/${done.total}</span>` : ''}
     </a>`;
 }
 function renderTopicList(view, grade, subject) {
