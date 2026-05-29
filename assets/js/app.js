@@ -104,6 +104,7 @@ async function route() {
       return;
     }
   }
+  await Daily.loadManifest(); // biết lớp/môn nào có "đề hôm nay" (có cache, fetch 1 lần)
 
   await applySeo(path); // cập nhật tiêu đề + mô tả + canonical theo trang
   const parts = path.split('/').filter(Boolean);
@@ -777,13 +778,15 @@ function renderDailyHomeSection() {
 
   if (u) {
     const grade = u.grade;
-    const hasMain = Daily.GRADES.includes(grade);
+    const subs = Daily.subjectsForGrade(grade);
+    const belowSubs = Daily.subjectsForGrade(grade - 1);
+    const hasMain = Daily.hasGrade(grade);
     const below = grade - 1;
-    const hasBelow = Daily.GRADES.includes(below);
-    const mainCards = hasMain ? Daily.SUBJECTS.map(s => dailyCard(grade, s, today, false)).join('') : '';
-    const belowCards = hasBelow ? Daily.SUBJECTS.map(s => dailyCard(below, s, today, true)).join('') : '';
-    const totalSubs = Daily.SUBJECTS.length;
-    const doneCount = hasMain ? Daily.SUBJECTS.filter(s => today[s.key]).length : 0;
+    const hasBelow = Daily.hasGrade(below);
+    const mainCards = hasMain ? subs.map(s => dailyCard(grade, s, today, false)).join('') : '';
+    const belowCards = hasBelow ? belowSubs.map(s => dailyCard(below, s, today, true)).join('') : '';
+    const totalSubs = subs.length;
+    const doneCount = hasMain ? subs.filter(s => today[s.key]).length : 0;
     const allDone = hasMain && doneCount === totalSubs;
     const summary = hasMain
       ? `<div class="daily-summary">

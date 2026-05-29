@@ -85,6 +85,55 @@ for (const e of index.exercises) {
 fs.writeFileSync(SEO_OUT, JSON.stringify(seo), 'utf8');
 console.log(`🔎 Đã sinh seo-meta.json (${Object.keys(seo).length} trang)`);
 
+// ===== Sinh ngân hàng câu hỏi "Đề hôm nay" cho THCS/THPT =====
+// Gom câu từ các đề LUYỆN TẬP (bỏ đề thi thử + đề ôn tập định kỳ) theo lớp + môn cốt lõi.
+// Tiểu học (lớp 1–5) dùng bank tự soạn sẵn trong /banks/, KHÔNG đụng tới.
+const BANKS_DIR = path.resolve(__dirname, '..', 'banks');
+const DAILY_CORE = ['toan', 'ngu-van', 'tieng-anh']; // 3 môn cốt lõi
+const DAILY_MIN = 12;                                // tối thiểu số câu để mở "đề hôm nay"
+const isExamLike = (d) => {
+  if (typeof d.timeLimit === 'number' && d.timeLimit > 0) return true;
+  const ch = (d.chapter || '').toLowerCase(), tp = (d.topic || '').toLowerCase();
+  return ch.includes('ôn tập') || ch.includes('on tap') || tp.includes('thi thử') || tp.includes('thi thu');
+};
+// Xóa bank THCS/THPT cũ (sinh tự động) để tránh bank lỗi thời; giữ bank tiểu học tự soạn.
+for (const f of fs.readdirSync(BANKS_DIR)) {
+  if (/^(thcs|thpt)-lop\d+-.+\.json$/.test(f)) fs.unlinkSync(path.join(BANKS_DIR, f));
+}
+const pools = {}; // `${stage}-lop${grade}-${subject}` -> {stage,grade,subject,questions,seen}
+for (const { data: d } of ok) {
+  if (d.stage !== 'thcs' && d.stage !== 'thpt') continue;
+  if (!DAILY_CORE.includes(d.subject) || isExamLike(d)) continue;
+  const key = `${d.stage}-lop${d.grade}-${d.subject}`;
+  if (!pools[key]) pools[key] = { stage: d.stage, grade: d.grade, subject: d.subject, questions: [], seen: new Set() };
+  const p = pools[key];
+  for (const q of (d.questions || [])) {
+    const sig = (q.question || '') + '|' + (q.type || '');
+    if (p.seen.has(sig)) continue; // khử trùng câu giữa các đề
+    p.seen.add(sig); p.questions.push(q);
+  }
+}
+let bankCount = 0;
+for (const key of Object.keys(pools)) {
+  const p = pools[key];
+  if (p.questions.length < DAILY_MIN) continue;
+  fs.writeFileSync(path.join(BANKS_DIR, key + '.json'),
+    JSON.stringify({ stage: p.stage, grade: p.grade, subject: p.subject, count: p.questions.length, questions: p.questions }), 'utf8');
+  bankCount++;
+}
+// Manifest: quét mọi bank (kể cả tiểu học tự soạn) → { `${grade}-${subject}`: số câu }
+const manifest = {};
+for (const f of fs.readdirSync(BANKS_DIR)) {
+  const m = f.match(/^(?:tieu-hoc|thcs|thpt)-lop(\d+)-(.+)\.json$/);
+  if (!m) continue;
+  try {
+    const b = JSON.parse(fs.readFileSync(path.join(BANKS_DIR, f), 'utf8'));
+    manifest[`${+m[1]}-${m[2]}`] = b.count || (b.questions || []).length;
+  } catch { /* bỏ qua file lỗi */ }
+}
+fs.writeFileSync(path.join(BANKS_DIR, 'manifest.json'), JSON.stringify(manifest), 'utf8');
+console.log(`📚 Đã sinh ${bankCount} bank THCS/THPT + manifest.json (${Object.keys(manifest).length} lớp-môn có "đề hôm nay")`);
+
 if (coverage.gaps.length) {
   console.log(`\n📍 Chỗ còn thiếu (${coverage.gaps.length}): ${coverage.gaps.join(' · ')}`);
 }
