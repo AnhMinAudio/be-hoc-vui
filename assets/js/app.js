@@ -82,7 +82,7 @@ async function route() {
 
   if (!CATALOG) {
     try {
-      CATALOG = await (await fetch('exercises/index.json')).json();
+      CATALOG = await (await fetch('/exercises/index.json')).json();
     } catch (e) {
       view.innerHTML = `<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có đề bài. Chạy <code>node tools/build-index.js</code>.</div></div>`;
       return;
@@ -1142,7 +1142,7 @@ async function renderExercise(view, id) {
     const meta = CATALOG.exercises.find(e => e.id === id);
     if (!meta) { view.innerHTML = emptyState('Không tìm thấy bài này', 'Có thể đường dẫn đã thay đổi.', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
     try {
-      exercise = await (await fetch(`exercises/${meta.path}`)).json();
+      exercise = await (await fetch(`/exercises/${meta.path}`)).json();
     } catch (e) {
       view.innerHTML = emptyState('Không tải được bài', 'Kiểm tra kết nối mạng rồi thử lại nhé.', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
       return;

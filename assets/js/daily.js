@@ -41,7 +41,7 @@ const Daily = (() => {
     const k = `${grade}-${subject}`;
     if (banks[k]) return banks[k];
     try {
-      const data = await (await fetch(`banks/tieu-hoc-lop${grade}-${subject}.json`)).json();
+      const data = await (await fetch(`/banks/tieu-hoc-lop${grade}-${subject}.json`)).json();
       banks[k] = data.questions || [];
     } catch { banks[k] = []; }
     return banks[k];
