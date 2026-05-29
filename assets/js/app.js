@@ -675,9 +675,18 @@ function renderSubjects(view, grade) {
   `;
 }
 
-function chapterOrderKey(ch) {
+// Thứ tự nhóm: (1) đề theo SGK (chương/chủ đề) theo số tăng dần →
+// (2) ôn tập giữa kỳ 1 → cuối kỳ 1 → giữa kỳ 2 → cuối kỳ 2. (Đề thi thử nằm ở mục riêng phía sau.)
+function chapterRank(ch) {
+  const lower = (ch || '').toLowerCase();
+  if (lower.includes('ôn tập') || lower.includes('on tap')) {
+    const ky2 = /k[ỳìy]\s*2/.test(lower);
+    const cuoi = lower.includes('cuối') || lower.includes('cuoi');
+    // giữa kỳ 1 = 0, cuối kỳ 1 = 1, giữa kỳ 2 = 2, cuối kỳ 2 = 3
+    return [1, (ky2 ? 2 : 0) + (cuoi ? 1 : 0)];
+  }
   const m = (ch || '').match(/\d+/);
-  return m ? parseInt(m[0], 10) : 9999;
+  return [0, m ? parseInt(m[0], 10) : 9999];
 }
 function topicItemHTML(ex) {
   const done = Progress.getCompletion(ex.id);
@@ -703,7 +712,7 @@ function renderTopicList(view, grade, subject) {
       const groups = {};
       for (const e of practice) (groups[e.chapter || 'Khác'] = groups[e.chapter || 'Khác'] || []).push(e);
       practiceHTML = Object.keys(groups)
-        .sort((a, b) => (chapterOrderKey(a) - chapterOrderKey(b)) || a.localeCompare(b, 'vi'))
+        .sort((a, b) => { const ra = chapterRank(a), rb = chapterRank(b); return (ra[0] - rb[0]) || (ra[1] - rb[1]) || a.localeCompare(b, 'vi'); })
         .map(k => `<h3 class="topic-group">${k === 'Khác' ? '📦 Bài khác' : '📘 ' + escapeHtml(k)}</h3>
           <div class="topic-list">${groups[k].map(topicItemHTML).join('')}</div>`).join('');
     } else {
