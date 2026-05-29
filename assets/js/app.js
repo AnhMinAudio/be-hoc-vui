@@ -138,6 +138,49 @@ function escapeHtml(s) {
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+// ===== Xáo trộn đề (chống học thuộc thứ tự câu/đáp án qua nhiều lần làm) =====
+function shuffleArr(a) { // Fisher–Yates, đổi tại chỗ
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+const LEVEL_RANK = { M1: 0, NB: 0, M2: 1, TH: 1, M3: 2, VD: 2, VDC: 3 };
+// Đáp án phụ thuộc vị trí ("Tất cả đáp án trên", "Cả A và B"...) → KHÔNG xáo đáp án câu đó
+function isPositionalOption(text) {
+  return /tất cả|cả (a|b|c|d|hai|ba)\b|\b[abcd]\b\s*(,|và|&)\s*\b[abcd]\b|không\s*(có)?\s*đáp án|đều (đúng|sai)/i.test(String(text || ''));
+}
+// Xáo đáp án 1 câu trắc nghiệm + đổi lại chỉ số đáp án đúng (trả bản sao, không đụng đề gốc)
+function shuffleMcOptions(q) {
+  if (q.type !== 'multiple-choice' || !Array.isArray(q.options) || typeof q.answer !== 'number') return q;
+  if (q.options.some(isPositionalOption)) return q;
+  const order = q.options.map((_, i) => i);
+  shuffleArr(order);
+  return { ...q, options: order.map(i => q.options[i]), answer: order.indexOf(q.answer) };
+}
+// Danh sách câu cho 1 lần làm: gom câu chung đoạn văn thành cụm; xáo trong từng mức độ
+// (giữ dễ→khó) nếu đề có gắn mức, ngược lại xáo phẳng; rồi xáo đáp án từng câu.
+function prepareQuestions(exercise) {
+  const src = Array.isArray(exercise.questions) ? exercise.questions : [];
+  const groups = [];
+  for (const q of src) {
+    const prev = groups[groups.length - 1];
+    if (q.passage && prev && prev.passage === q.passage) prev.items.push(q);
+    else groups.push({ passage: q.passage || null, level: q.level, items: [q] });
+  }
+  if (groups.every(g => LEVEL_RANK[g.level] != null)) {
+    const bands = new Map();
+    groups.forEach(g => { const r = LEVEL_RANK[g.level]; if (!bands.has(r)) bands.set(r, []); bands.get(r).push(g); });
+    const ordered = [];
+    [...bands.keys()].sort((a, b) => a - b).forEach(r => ordered.push(...shuffleArr(bands.get(r))));
+    groups.length = 0; groups.push(...ordered);
+  } else {
+    shuffleArr(groups);
+  }
+  return groups.flatMap(g => g.items).map(shuffleMcOptions);
+}
+
 // Linh vật "Bé Học Vui" — màu theo chủ đề (--c-primary*); mood đổi biểu cảm: 'celebrate' | 'happy' | 'try'
 function mascotSVG(mood) {
   const m = mood || 'happy';
@@ -1120,7 +1163,9 @@ async function renderExercise(view, id) {
   // Bước 2: làm bài
   function startQuestions(mode) {
     let currentIdx = 0, score = 0;
-    const total = exercise.questions.length;
+    // Mỗi lần vào làm: xáo câu + đáp án (chống học thuộc thứ tự). Bản sao, không đụng đề gốc.
+    const questions = prepareQuestions(exercise);
+    const total = questions.length;
     const answers = [];
     const timed = typeof exercise.timeLimit === 'number' && exercise.timeLimit > 0;
     const deadline = Date.now() + (exercise.timeLimit || 0) * 60000;
@@ -1131,7 +1176,7 @@ async function renderExercise(view, id) {
     let elapsedInterval = null;
 
     const renderQuestion = () => {
-      const q = exercise.questions[currentIdx];
+      const q = questions[currentIdx];
       const modeLabel = timed ? '⏱ Đề thi thử' : (isPreschool ? '🧸 Chơi mà học' : (mode === 'exam' ? '📝 Làm bài thi' : '🎯 Luyện tập'));
       view.innerHTML = `
         <a href="${backHref}" class="back-btn">← Thoát</a>
