@@ -868,12 +868,12 @@ async function renderExercise(view, id) {
     </div>
     <div class="mode-grid">
       <button class="mode-card practice" data-mode="practice">
-        <div class="icon">🎯</div><div class="name">Luyện tập</div>
-        <div class="desc">Biết đúng/sai ngay sau mỗi câu, có gợi ý</div>
+        <span class="m-ic">🎯</span>
+        <span class="m-body"><span class="name">Luyện tập</span><span class="desc">Biết đúng/sai ngay sau mỗi câu, có gợi ý</span></span>
       </button>
       <button class="mode-card exam" data-mode="exam">
-        <div class="icon">📝</div><div class="name">Làm bài thi</div>
-        <div class="desc">Làm hết rồi mới chấm điểm, giống thi thật</div>
+        <span class="m-ic">📝</span>
+        <span class="m-body"><span class="name">Làm bài thi</span><span class="desc">Làm hết rồi mới chấm điểm, giống thi thật</span></span>
       </button>
     </div>
   `;
