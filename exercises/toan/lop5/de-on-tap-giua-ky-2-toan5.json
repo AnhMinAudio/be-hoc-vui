@@ -1,0 +1,130 @@
+{
+  "id": "toan-l5-on-tap-giua-ky-2",
+  "subject": "toan",
+  "grade": 5,
+  "topic": "Ôn tập giữa học kỳ 2 — Toán 5",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 'ba phẩy bảy' được viết là:",
+      "options": ["3,7", "7,3", "3,07", "37"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2,4 + 1,3 = ___",
+      "answer": "3,7",
+      "alternatives": ["3.7"],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "5,6 - 2,1 = ___",
+      "answer": "3,5",
+      "alternatives": ["3.5"],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong số 4,18 chữ số 8 ở hàng nào?",
+      "options": ["hàng phần trăm", "hàng phần mười", "hàng đơn vị", "hàng chục"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "So sánh 0,5 và 0,45:",
+      "options": ["0,5 > 0,45", "0,5 < 0,45", "0,5 = 0,45", "Không so sánh được"],
+      "answer": 0,
+      "level": "M1",
+      "hint": "0,5 = 0,50 nên 0,50 > 0,45."
+    },
+    {
+      "type": "fill-blank",
+      "question": "3,5 × 2 = ___",
+      "answer": "7",
+      "alternatives": ["7,0", "7.0"],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "12,8 + 7,5 = ___",
+      "answer": "20,3",
+      "alternatives": ["20.3"],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "10 - 3,6 = ___",
+      "answer": "6,4",
+      "alternatives": ["6.4"],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "4,5 × 3 = ___",
+      "answer": "13,5",
+      "alternatives": ["13.5"],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9,6 : 2 = ___",
+      "answer": "4,8",
+      "alternatives": ["4.8"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số thập phân 0,75 bằng phân số nào?",
+      "options": ["3/4", "7/5", "75/10", "3/5"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "0,75 = 75/100 = 3/4."
+    },
+    {
+      "type": "matching",
+      "question": "Nối số thập phân với cách đọc",
+      "pairs": [
+        ["1,5", "một phẩy năm"],
+        ["0,25", "không phẩy hai mươi lăm"],
+        ["2,7", "hai phẩy bảy"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một mảnh vải dài 8,5 m, người ta cắt đi 3,2 m. Hỏi còn lại bao nhiêu mét vải? Trả lời: ___ m. (8,5 - 3,2 = ?)",
+      "answer": "5,3",
+      "alternatives": ["5.3"],
+      "level": "M3",
+      "hint": "Cắt đi thì làm phép trừ."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một can đựng 3,5 lít dầu, một can khác đựng 2,8 lít dầu. Hỏi cả hai can đựng bao nhiêu lít dầu? Trả lời: ___ lít. (3,5 + 2,8 = ?)",
+      "answer": "6,3",
+      "alternatives": ["6.3"],
+      "level": "M3",
+      "hint": "Cả hai can thì cộng lại."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một sợi dây dài 6 m được chia thành 4 phần bằng nhau. Mỗi phần dài bao nhiêu mét?",
+      "options": ["1,5 m", "2 m", "1,2 m", "2,4 m"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Lấy 6 : 4 = 1,5."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tổng của 4,2 và 5,8 là:",
+      "options": ["10", "9,10", "8", "10,10"],
+      "answer": 0,
+      "level": "M2"
+    }
+  ]
+}

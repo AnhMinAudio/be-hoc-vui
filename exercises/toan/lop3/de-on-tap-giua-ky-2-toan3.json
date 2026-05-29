@@ -1,0 +1,121 @@
+{
+  "id": "toan-l3-on-tap-giua-ky-2",
+  "subject": "toan",
+  "grade": 3,
+  "topic": "Ôn tập giữa học kỳ 2 — Toán 3",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "8 × 6 = ___",
+      "answer": "48",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "72 : 8 = ___",
+      "answer": "9",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 4 027 đọc là:",
+      "options": ["Bốn nghìn không trăm hai mươi bảy", "Bốn nghìn hai trăm bảy mươi", "Bốn trăm hai mươi bảy", "Bốn nghìn hai mươi"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số liền sau của 2 999 là số nào?",
+      "options": ["3 000", "2 998", "2 990", "3 009"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "214 × 2 = ___",
+      "answer": "428",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "639 : 3 = ___",
+      "answer": "213",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "1234 + 2345 = ___",
+      "answer": "3579",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "5678 - 2345 = ___",
+      "answer": "3333",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính 6 × 100 = ?",
+      "options": ["600", "60", "6000", "160"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["9 × 7", "63"],
+        ["48 : 6", "8"],
+        ["132 × 2", "264"],
+        ["88 : 4", "22"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các số 3 500, 3 050, 3 005, số nào bé nhất?",
+      "options": ["3 005", "3 050", "3 500", "Ba số bằng nhau"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "9 nghìn bằng bao nhiêu đơn vị?",
+      "options": ["900", "9 000", "90 000", "90"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một cửa hàng có 1 450 kg gạo, nhập thêm 320 kg. Hỏi cửa hàng có tất cả bao nhiêu ki-lô-gam gạo? Trả lời: ___ kg. (1450 + 320 = ?)",
+      "answer": "1770",
+      "level": "M3",
+      "hint": "Nhập thêm thì làm phép cộng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 246 quyển vở chia đều cho 2 lớp. Hỏi mỗi lớp được bao nhiêu quyển vở? Trả lời: ___ quyển. (246 : 2 = ?)",
+      "answer": "123",
+      "level": "M3",
+      "hint": "Chia đều thì làm phép chia."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mỗi xe chở 125 kg hàng. Hỏi 3 xe chở tất cả bao nhiêu ki-lô-gam hàng? Trả lời: ___ kg. (125 × 3 = ?)",
+      "answer": "375",
+      "level": "M3",
+      "hint": "Các xe chở như nhau thì làm phép nhân."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lan có 5 hộp bi, mỗi hộp 8 viên. Hỏi Lan có tất cả bao nhiêu viên bi?",
+      "options": ["40 viên", "13 viên", "85 viên", "48 viên"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Số bi bằng số hộp nhân số bi mỗi hộp: 5 × 8."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "toan-l2-on-tap-giua-ky-2",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Ôn tập giữa học kỳ 2 — Toán 2",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "2 × 7 = ___",
+      "answer": "14",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "18 : 3 = ___",
+      "answer": "6",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "4 × 6 = ___",
+      "answer": "24",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "30 : 5 = ___",
+      "answer": "6",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phép nhân 3 × 4 bằng tổng nào dưới đây?",
+      "options": ["3 + 3 + 3 + 3", "4 + 4 + 4 + 4", "3 + 4", "3 + 3 + 3"],
+      "answer": 0,
+      "level": "M1",
+      "hint": "3 × 4 nghĩa là 3 được lấy 4 lần."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một phần ba của 9 là bao nhiêu?",
+      "options": ["3", "6", "2", "9"],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Một phần ba của 9 là 9 : 3."
+    },
+    {
+      "type": "fill-blank",
+      "question": "5 × 9 = ___",
+      "answer": "45",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "28 : 4 = ___",
+      "answer": "7",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền số thích hợp vào chỗ trống: ___ × 5 = 25",
+      "answer": "5",
+      "level": "M2",
+      "hint": "Số nào nhân với 5 được 25?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một phần tư của 16 là bao nhiêu?",
+      "options": ["4", "8", "2", "16"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Một phần tư của 16 là 16 : 4."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["3 × 5", "15"],
+        ["16 : 2", "8"],
+        ["4 × 7", "28"],
+        ["45 : 5", "9"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tính 5 × 2 + 3 = ?",
+      "options": ["13", "10", "16", "25"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Làm phép nhân trước: 5 × 2 = 10, rồi cộng 3."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mỗi bàn có 2 học sinh. Hỏi 9 bàn có tất cả bao nhiêu học sinh? Trả lời: ___ học sinh. (2 × 9 = ?)",
+      "answer": "18",
+      "level": "M3",
+      "hint": "Các bàn như nhau thì làm phép nhân."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 20 cái kẹo chia đều cho 5 bạn. Hỏi mỗi bạn được bao nhiêu cái kẹo? Trả lời: ___ cái. (20 : 5 = ?)",
+      "answer": "4",
+      "level": "M3",
+      "hint": "Chia đều thì làm phép chia."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có 15 quả cam xếp vào các đĩa, mỗi đĩa 3 quả. Hỏi xếp được bao nhiêu đĩa?",
+      "options": ["5 đĩa", "3 đĩa", "45 đĩa", "12 đĩa"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Lấy tổng số cam chia cho số quả mỗi đĩa: 15 : 3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phép chia 24 : 4 có kết quả bằng:",
+      "options": ["6", "8", "4", "28"],
+      "answer": 0,
+      "level": "M1"
+    }
+  ]
+}

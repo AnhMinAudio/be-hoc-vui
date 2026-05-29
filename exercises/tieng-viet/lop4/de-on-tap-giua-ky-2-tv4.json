@@ -1,0 +1,127 @@
+{
+  "id": "tv-l4-on-tap-giua-ky-2",
+  "subject": "tieng-viet",
+  "grade": 4,
+  "topic": "Ôn tập giữa học kỳ 2 — Tiếng Việt 4",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ?",
+      "options": ["dòng sông", "chảy", "xanh", "nhanh"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là động từ?",
+      "options": ["bơi", "đẹp", "cái cây", "cao"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là tính từ?",
+      "options": ["rực rỡ", "học sinh", "viết", "con mèo"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Cô giáo là người mẹ thứ hai của em.' thuộc kiểu câu kể nào?",
+      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Bầu trời cao và trong xanh.' thuộc kiểu câu kể nào?",
+      "options": ["Ai thế nào?", "Ai làm gì?", "Ai là gì?", "Khi nào?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm chủ ngữ trong câu 'Những chú chim non ríu rít trong tổ.': ___",
+      "answer": "Những chú chim non",
+      "alternatives": ["những chú chim non", "Những chú chim", "những chú chim"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Vị ngữ trong câu 'Em học bài rất chăm chỉ.' là bộ phận nào?",
+      "options": ["học bài rất chăm chỉ", "Em", "chăm chỉ", "học"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Bác nông dân cấy lúa trên đồng.' thuộc kiểu câu kể nào?",
+      "options": ["Ai làm gì?", "Ai là gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ loại của nó",
+      "pairs": [
+        ["quyển sách", "danh từ"],
+        ["chạy", "động từ"],
+        ["đỏ thắm", "tính từ"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm một động từ trong câu 'Bé vẽ tranh rất đẹp.': ___",
+      "answer": "vẽ",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ chỉ hiện tượng tự nhiên?",
+      "options": ["mưa", "chạy", "đẹp", "viết"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào là câu kể 'Ai làm gì?'",
+      "options": ["Bác nông dân gặt lúa.", "Trời nắng đẹp.", "Lan là lớp trưởng.", "Hoa rất thơm."],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Mùa xuân đến, cây cối đâm chồi nảy lộc. Trong vườn, muôn hoa đua nhau khoe sắc. Đàn ong chăm chỉ bay đi hút mật, đem lại sự sống cho cả khu vườn.",
+      "question": "Mùa xuân đến, cây cối như thế nào?",
+      "options": ["đâm chồi nảy lộc", "rụng hết lá", "khô héo", "ngừng phát triển"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Mùa xuân đến, cây cối đâm chồi nảy lộc. Trong vườn, muôn hoa đua nhau khoe sắc. Đàn ong chăm chỉ bay đi hút mật, đem lại sự sống cho cả khu vườn.",
+      "question": "Đàn ong làm gì?",
+      "options": ["bay đi hút mật", "nằm ngủ", "xây tổ trên cây", "đậu yên một chỗ"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Mùa xuân đến, cây cối đâm chồi nảy lộc. Trong vườn, muôn hoa đua nhau khoe sắc. Đàn ong chăm chỉ bay đi hút mật, đem lại sự sống cho cả khu vườn.",
+      "question": "Câu 'Muôn hoa đua nhau khoe sắc.' thuộc kiểu câu kể nào?",
+      "options": ["Ai làm gì?", "Ai là gì?", "Ai thế nào?", "Khi nào?"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'chăm chỉ' trong bài thuộc loại từ nào?",
+      "options": ["tính từ", "danh từ", "động từ", "số từ"],
+      "answer": 0,
+      "level": "M2"
+    }
+  ]
+}

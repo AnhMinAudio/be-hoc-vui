@@ -1,0 +1,122 @@
+{
+  "id": "toan-l1-on-tap-giua-ky-2",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Ôn tập giữa học kỳ 2 — Toán 1",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 63 gồm mấy chục và mấy đơn vị?",
+      "options": ["6 chục và 3 đơn vị", "3 chục và 6 đơn vị", "63 chục", "6 đơn vị và 3 chục"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "40 + 6 = ___",
+      "answer": "46",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "70 + 20 = ___",
+      "answer": "90",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "80 - 30 = ___",
+      "answer": "50",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số liền trước của 50 là số nào?",
+      "options": ["49", "51", "40", "59"],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Liền trước là bớt đi 1 đơn vị."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các số 38, 83, 19, số nào lớn nhất?",
+      "options": ["38", "83", "19", "Ba số bằng nhau"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "52 + 36 = ___",
+      "answer": "88",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "75 - 43 = ___",
+      "answer": "32",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "60 + 27 = ___",
+      "answer": "87",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp vào chỗ trống: 29 ... 92",
+      "options": [">", "<", "=", "+"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["41 + 8", "49"],
+        ["66 - 5", "61"],
+        ["30 + 50", "80"],
+        ["95 - 5", "90"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sắp xếp các số 27, 72, 17 theo thứ tự từ bé đến lớn:",
+      "options": ["17, 27, 72", "72, 27, 17", "27, 17, 72", "17, 72, 27"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "An có 34 que tính, An lấy thêm 5 que tính nữa. Hỏi An có tất cả bao nhiêu que tính? Trả lời: ___ que. (34 + 5 = ?)",
+      "answer": "39",
+      "level": "M3",
+      "hint": "Lấy thêm thì làm phép cộng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trên cây có 48 bông hoa, hái đi 6 bông. Hỏi còn lại bao nhiêu bông hoa? Trả lời: ___ bông. (48 - 6 = ?)",
+      "answer": "42",
+      "level": "M3",
+      "hint": "Hái đi thì bớt, em làm phép trừ."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Lớp 1A có 20 bạn nam và 15 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu bạn?",
+      "options": ["35 bạn", "25 bạn", "5 bạn", "30 bạn"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Tất cả thì cộng lại: 20 + 15."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số gồm 9 chục và 0 đơn vị là số nào?",
+      "options": ["90", "9", "19", "99"],
+      "answer": 0,
+      "level": "M1"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "ta-l2-on-tap-giua-ky-2",
+  "subject": "tieng-anh",
+  "grade": 2,
+  "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh lớp 2",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'book' mean? (Từ 'book' nghĩa là gì?)",
+      "options": ["quyển sách", "cây bút", "cái cặp", "cái bàn"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'cái bút'? ('cái bút' tiếng Anh là gì?)",
+      "options": ["pen", "book", "bag", "ruler"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one is a school thing? (Đâu là đồ dùng học tập?)",
+      "options": ["ruler", "banana", "dog", "sun"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Monday' mean? (Từ 'Monday' nghĩa là gì?)",
+      "options": ["thứ Hai", "Chủ nhật", "thứ Sáu", "thứ Tư"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái cặp sách' in English (Viết 'cặp sách' bằng tiếng Anh): ___",
+      "answer": "bag",
+      "alternatives": ["schoolbag", "Bag"],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the school thing with its meaning (Nối đồ dùng học tập với nghĩa)",
+      "pairs": [
+        ["pen", "cây bút"],
+        ["book", "quyển sách"],
+        ["ruler", "cái thước"],
+        ["bag", "cái cặp"]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'hungry' mean? (Từ 'hungry' nghĩa là gì?)",
+      "options": ["đói", "no", "khát", "buồn ngủ"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many days are there in a week? (Một tuần có mấy ngày?)",
+      "options": ["five", "six", "seven", "eight"],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái thước kẻ' in English (Viết 'thước kẻ' bằng tiếng Anh): ___",
+      "answer": "ruler",
+      "alternatives": ["Ruler", "RULER"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence: 'This is my ___.' (Đây là cây bút của tôi)",
+      "options": ["pen", "run", "blue", "happy"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What do you say when you are thirsty? (Khi khát em nói gì?)",
+      "options": ["I'm thirsty.", "I'm happy.", "I'm a book.", "I'm Monday."],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the day with its meaning (Nối thứ trong tuần với nghĩa)",
+      "pairs": [
+        ["Monday", "thứ Hai"],
+        ["Sunday", "Chủ nhật"],
+        ["Friday", "thứ Sáu"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your teacher gives you a book. You say: (Cô giáo đưa em quyển sách. Em nói:)",
+      "options": ["Thank you, teacher.", "Goodbye.", "No book.", "Sorry book."],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'quả cam'? ('quả cam' tiếng Anh là gì?)",
+      "options": ["orange", "apple", "milk", "rice"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which day comes right after Monday? (Ngày nào ngay sau thứ Hai?)",
+      "options": ["Tuesday", "Sunday", "Friday", "Saturday"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count the books: 📚 📚 📚 (Đếm số quyển sách)",
+      "options": ["two", "three", "four", "five"],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

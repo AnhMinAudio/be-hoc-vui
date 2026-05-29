@@ -1,0 +1,128 @@
+{
+  "id": "tv-l2-on-tap-giua-ky-2",
+  "subject": "tieng-viet",
+  "grade": 2,
+  "topic": "Ôn tập giữa học kỳ 2 — Tiếng Việt 2",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": ["dòng sông", "bơi lội", "nhanh nhẹn", "chăm chỉ"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": ["leo trèo", "con khỉ", "cao to", "rậm rạp"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đặc điểm?",
+      "options": ["hiền lành", "đọc sách", "con voi", "ngôi trường"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Con vật nào sống dưới nước?",
+      "options": ["cá heo", "con hổ", "con khỉ", "con voi"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Sư tử là chúa tể rừng xanh.' thuộc mẫu câu nào?",
+      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu thích hợp vào cuối câu: Con cá bơi nhanh quá___",
+      "answer": "!",
+      "alternatives": ["dấu chấm than"],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào thuộc mẫu 'Ai làm gì?'",
+      "options": ["Đàn cá bơi tung tăng.", "Biển rất rộng.", "Cá heo rất thông minh.", "Trời trong xanh."],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào KHÔNG cùng nhóm với 'sông, suối, biển, hồ'?",
+      "options": ["ngọn núi", "cái ao", "con kênh", "dòng rạch"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ so sánh thích hợp: Đàn cá bơi nhanh ___ tên bắn.",
+      "answer": "như",
+      "alternatives": ["tựa", "như là"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ trái nghĩa với 'rộng' là:",
+      "options": ["hẹp", "to", "dài", "sâu"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối con vật với đặc điểm thường thấy",
+      "pairs": [
+        ["con voi", "to lớn"],
+        ["con thỏ", "nhanh nhẹn"],
+        ["con rùa", "chậm chạp"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Cá voi rất to lớn.' thuộc mẫu câu nào?",
+      "options": ["Ai thế nào?", "Ai làm gì?", "Ai là gì?", "Khi nào?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Biển rộng mênh mông. Từng đàn cá bơi lội tung tăng dưới làn nước trong xanh. Trên mặt biển, những chú hải âu chao liệng tìm mồi.",
+      "question": "Đàn cá bơi lội ở đâu?",
+      "options": ["dưới làn nước trong xanh", "trên bầu trời", "trong cái ao", "trên bãi cát"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Biển rộng mênh mông. Từng đàn cá bơi lội tung tăng dưới làn nước trong xanh. Trên mặt biển, những chú hải âu chao liệng tìm mồi.",
+      "question": "Những chú hải âu làm gì trên mặt biển?",
+      "options": ["chao liệng tìm mồi", "đứng yên ngủ", "bơi dưới nước", "xây tổ"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Biển rộng mênh mông. Từng đàn cá bơi lội tung tăng dưới làn nước trong xanh. Trên mặt biển, những chú hải âu chao liệng tìm mồi.",
+      "question": "Biển được tả như thế nào?",
+      "options": ["rộng mênh mông", "nhỏ hẹp", "khô cạn", "đầy rác"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'mênh mông' chỉ điều gì?",
+      "options": ["rộng lớn", "nhỏ bé", "sâu thẳm", "cao vút"],
+      "answer": 0,
+      "level": "M2"
+    }
+  ]
+}

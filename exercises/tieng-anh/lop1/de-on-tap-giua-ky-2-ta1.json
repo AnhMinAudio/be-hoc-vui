@@ -1,0 +1,128 @@
+{
+  "id": "ta-l1-on-tap-giua-ky-2",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh lớp 1",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 1,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'sun' mean? (Từ 'sun' nghĩa là gì?)",
+      "options": ["mặt trời", "mặt trăng", "ngôi sao", "đám mây"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'số ba'? ('số ba' tiếng Anh là gì?)",
+      "options": ["three", "two", "four", "five"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'eye' mean? (Từ 'eye' nghĩa là gì?)",
+      "options": ["mắt", "tai", "mũi", "miệng"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means a family member? (Từ nào chỉ thành viên gia đình?)",
+      "options": ["mother", "table", "apple", "blue"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'số một' in English (Viết 'số một' bằng tiếng Anh): ___",
+      "answer": "one",
+      "alternatives": ["One", "ONE"],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the family word with its meaning (Nối từ gia đình với nghĩa)",
+      "pairs": [
+        ["mother", "mẹ"],
+        ["father", "bố"],
+        ["sister", "chị/em gái"]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'rainy' mean? (Từ 'rainy' nghĩa là gì?)",
+      "options": ["có mưa", "có nắng", "có gió", "có tuyết"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count the stars: 🌟 🌟 🌟 🌟 (Đếm số ngôi sao)",
+      "options": ["three", "four", "five", "two"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'cái tai' in English (Viết 'cái tai' bằng tiếng Anh): ___",
+      "answer": "ear",
+      "alternatives": ["Ear", "EAR"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you greet someone in the morning? (Chào buổi sáng nói thế nào?)",
+      "options": ["Good morning!", "Good night!", "Goodbye!", "Sorry!"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one is a part of the body? (Đâu là một bộ phận cơ thể?)",
+      "options": ["nose", "car", "sun", "tree"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the number with its meaning (Nối số với nghĩa)",
+      "pairs": [
+        ["one", "một"],
+        ["two", "hai"],
+        ["three", "ba"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You meet your mother and say: (Em gặp mẹ và nói:)",
+      "options": ["Hello, Mum!", "Goodbye, Mum.", "Sorry, Mum.", "No, Mum."],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the weather like when you see the sun? (Khi thấy mặt trời, thời tiết thế nào?)",
+      "options": ["sunny", "rainy", "snowy", "windy"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'father' mean? (Từ 'father' nghĩa là gì?)",
+      "options": ["bố", "mẹ", "anh trai", "chị gái"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count the strawberries: 🍓 🍓 (Đếm số quả dâu)",
+      "options": ["one", "two", "three", "four"],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}
