@@ -632,12 +632,16 @@ function renderFAQ(view) {
 function renderPreschoolAges(view) {
   view.innerHTML = `
     <a href="#/" class="back-btn">← Về trang chủ</a>
-    <div class="hero"><h1>🧸 Khu Mầm Non</h1><p>Bé mấy tuổi nào?</p></div>
-    <div class="grade-grid">
+    <section class="hero-pro">
+      ${mascotSVG()}
+      <h1>Khu Mầm Non 🧸</h1>
+      <p class="hero-sub">Bé mấy tuổi nào? Chạm để chọn nhé!</p>
+    </section>
+    <div class="mn-ages">
       ${PRESCHOOL_AGES.map(a => `
-        <a href="#/mam-non/age${a}" class="grade-card mn">
-          <div class="num">${a}</div>
-          <div class="label">${a} tuổi</div>
+        <a href="#/mam-non/age${a}" class="mn-age">
+          <div class="a-num">${a}</div>
+          <div class="a-label">tuổi</div>
         </a>`).join('')}
     </div>
   `;
@@ -650,13 +654,13 @@ function renderPreschoolDomains(view, age) {
     counts[k] = CATALOG.exercises.filter(e => e.stage === 'mam-non' && e.subject === k && e.grade === age).length;
   view.innerHTML = `
     <a href="#/mam-non" class="back-btn">← Chọn tuổi khác</a>
-    <div class="hero" style="padding:20px 10px 30px"><h1>Bé ${age} tuổi</h1><p>Chọn trò chơi nhé!</p></div>
-    <div class="subject-grid">
+    <section class="hero-pro"><h1>Bé ${age} tuổi 🎈</h1><p class="hero-sub">Chọn trò chơi nhé!</p></section>
+    <div class="mn-domains">
       ${Object.entries(PRESCHOOL).map(([k, d]) => `
-        <a href="#/mam-non/age${age}/${k}" class="subject-card mn">
-          <div class="icon">${d.icon}</div>
-          <div class="name">${d.name}</div>
-          <div class="count">${counts[k]} trò chơi</div>
+        <a href="#/mam-non/age${age}/${k}" class="mn-domain">
+          <div class="d-ic">${d.icon}</div>
+          <div class="d-name">${d.name}</div>
+          <div class="d-count">${counts[k]} trò chơi</div>
         </a>`).join('')}
     </div>
   `;
@@ -674,8 +678,9 @@ function renderPreschoolTopics(view, age, domain) {
       : `<div class="topic-list">${list.map(ex => {
           const done = Progress.getCompletion(ex.id);
           return `<a href="#/bai/${ex.id}" class="topic-item">
-            <div><div class="title">${ex.topic}</div><div class="meta">${ex.questionCount} câu</div></div>
-            ${done ? `<span class="badge">★ ${done.bestScore}/${done.total}</span>` : ''}
+            <span class="ti-dot">${d.icon}</span>
+            <span class="ti-body"><span class="ti-title">${ex.topic}</span><span class="ti-meta">${ex.questionCount} câu</span></span>
+            ${done ? `<span class="ti-badge">★ ${done.bestScore}/${done.total}</span>` : ''}
           </a>`;
         }).join('')}</div>`}
   `;

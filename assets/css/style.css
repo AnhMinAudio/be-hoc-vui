@@ -257,6 +257,22 @@ a { color: inherit; text-decoration: none; }
 .preschool-banner .pb-text small { color: #9C4668; font-weight: 600; }
 .preschool-banner .pb-arrow { font-size: 1.8rem; font-weight: 800; color: #C2185B; }
 
+/* ===== Khu Mầm non: chọn tuổi + lĩnh vực (theo components.css) ===== */
+.mn-ages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.mn-age { border-radius: var(--radius-lg); padding: 24px 8px; text-align: center; box-shadow: var(--shadow-sm); color: #fff; transition: transform .18s var(--bounce); }
+.mn-age:hover { transform: translateY(-5px) rotate(-2deg); }
+.mn-age:nth-child(1) { background: linear-gradient(150deg, #FF8FB0, #E8487A); }
+.mn-age:nth-child(2) { background: linear-gradient(150deg, #6FD3F5, #2BA7E0); }
+.mn-age:nth-child(3) { background: linear-gradient(150deg, #FFD45E, #FF9E2C); }
+.mn-age .a-num { font-family: var(--font-display); font-weight: 800; font-size: 2.6rem; line-height: 1; }
+.mn-age .a-label { font-weight: 800; }
+.mn-domains { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 4px; }
+.mn-domain { border-radius: var(--radius-lg); padding: 22px 12px; text-align: center; box-shadow: var(--shadow-sm); background: var(--c-card); border: 3px solid transparent; transition: transform .15s var(--bounce); }
+.mn-domain:hover { transform: scale(1.04); border-color: var(--c-primary); }
+.mn-domain .d-ic { font-size: 3rem; line-height: 1; }
+.mn-domain .d-name { font-family: var(--font-display); font-weight: 800; font-size: 1.2rem; margin-top: 6px; }
+.mn-domain .d-count { font-size: .78rem; color: var(--c-text-soft); font-weight: 700; }
+
 .grade-card.mn .num { background: linear-gradient(135deg, #FF8FA3, #C9A3FF); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .grade-card.mn:hover { border-color: #FFB3C6; }
 
@@ -264,7 +280,7 @@ a { color: inherit; text-decoration: none; }
 .kid-card { padding: 28px 22px; }
 .kid-question {
   display: flex; align-items: center; justify-content: center; gap: 12px;
-  font-size: 1.7rem; font-weight: 800; text-align: center;
+  font-family: var(--font-display); font-size: 1.7rem; font-weight: 800; text-align: center;
   margin-bottom: 20px; line-height: 1.35;
 }
 .speak-btn {
