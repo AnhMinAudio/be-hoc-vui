@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://behocvui.id.vn/sitemap.xml
