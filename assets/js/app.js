@@ -44,6 +44,19 @@ const BADGES = [
 
 let CATALOG = null;
 
+// ===== Chống thoát nhầm khi đang làm bài =====
+// Khi vào màn làm câu hỏi: ẩn chrome điều hướng + chặn rời trang giữa chừng.
+let exerciseGuard = null;   // { hash } của màn làm bài đang dở; null khi không làm bài
+let revertingHash = false;  // bỏ qua hashchange do ta tự đặt lại hash khi người dùng "ở lại"
+function beginExerciseFocus() {
+  exerciseGuard = { hash: window.location.hash };
+  document.body.classList.add('in-exercise');
+}
+function endExerciseFocus() {
+  exerciseGuard = null;
+  document.body.classList.remove('in-exercise');
+}
+
 // ===== Routing =====
 async function route() {
   const hash = window.location.hash.slice(1) || '/';
@@ -51,6 +64,7 @@ async function route() {
   view.innerHTML = '<div class="empty"><div class="emoji">⏳</div><div class="msg">Đang tải...</div></div>';
   updateHeader();
   updateTabbar(hash);
+  document.body.classList.remove('in-exercise'); // rời màn làm bài thì hiện lại chrome
 
   if (!CATALOG) {
     try {
@@ -97,8 +111,26 @@ async function route() {
   return renderWorldHome(view, homeWorld());
 }
 
-window.addEventListener('hashchange', route);
+function onHashChange() {
+  // Đang làm bài dở mà điều hướng đi nơi khác (Trang chủ, cấp học, Thoát...) → hỏi xác nhận
+  if (exerciseGuard && !revertingHash && window.location.hash !== exerciseGuard.hash) {
+    const leave = window.confirm('Bạn đang làm bài dở. Thoát ra bây giờ sẽ KHÔNG lưu kết quả. Thoát không?');
+    if (!leave) {
+      revertingHash = true;
+      window.location.hash = exerciseGuard.hash; // quay lại đúng màn làm bài, không vẽ lại
+      return;
+    }
+    endExerciseFocus(); // người dùng đồng ý thoát
+  }
+  if (revertingHash) { revertingHash = false; return; }
+  route();
+}
+window.addEventListener('hashchange', onHashChange);
 window.addEventListener('DOMContentLoaded', route);
+// Chặn tải lại trang / đóng tab khi đang làm bài dở
+window.addEventListener('beforeunload', (e) => {
+  if (exerciseGuard) { e.preventDefault(); e.returnValue = ''; }
+});
 
 function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
@@ -970,6 +1002,7 @@ async function renderExercise(view, id) {
     const showResult = () => {
       if (done) return;
       done = true;
+      endExerciseFocus(); // bài đã xong → cho điều hướng tự do, hiện lại chrome
       if (timerInterval) clearInterval(timerInterval);
       if (elapsedInterval) clearInterval(elapsedInterval);
       const elapsedMs = Date.now() - startTime;
@@ -1037,6 +1070,7 @@ async function renderExercise(view, id) {
       if (percent >= 80) confetti();
     };
 
+    beginExerciseFocus(); // ẩn chrome điều hướng + chặn thoát nhầm
     renderQuestion();
     if (timed) startTimer();
     if (showCountUp) startElapsedTimer();

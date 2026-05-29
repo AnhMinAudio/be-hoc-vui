@@ -1118,6 +1118,12 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
 .tabbar a.active { color: var(--c-primary-dark); }
 .container { padding-bottom: 96px; }
 
+/* Chế độ tập trung: đang làm bài thì ẩn thanh cấp học + thanh điều hướng dưới
+   (tránh bấm nhầm thoát giữa chừng); chỉ còn nút "← Thoát" trong bài. */
+body.in-exercise .world-tabs,
+body.in-exercise .tabbar { display: none; }
+body.in-exercise .container { padding-bottom: 28px; }
+
 /* Hero trang lớp/môn canh trái cho THCS/THPT (cảm giác EdTech) */
 body[data-stage="thcs"] .hero, body[data-stage="thpt"] .hero { text-align: left; }
 
