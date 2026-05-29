@@ -46,10 +46,9 @@ let CATALOG = null;
 
 // ===== Chống thoát nhầm khi đang làm bài =====
 // Khi vào màn làm câu hỏi: ẩn chrome điều hướng + chặn rời trang giữa chừng.
-let exerciseGuard = null;   // { hash } của màn làm bài đang dở; null khi không làm bài
-let revertingHash = false;  // bỏ qua hashchange do ta tự đặt lại hash khi người dùng "ở lại"
+let exerciseGuard = null;   // { path } của màn làm bài đang dở; null khi không làm bài
 function beginExerciseFocus() {
-  exerciseGuard = { hash: window.location.hash };
+  exerciseGuard = { path: location.pathname };
   document.body.classList.add('in-exercise');
 }
 function endExerciseFocus() {
@@ -57,13 +56,28 @@ function endExerciseFocus() {
   document.body.classList.remove('in-exercise');
 }
 
+// ===== Điều hướng bằng URL thật (History API, không dùng dấu #) =====
+// navTo: điều hướng có chủ đích (lập trình). goTo: do người dùng bấm link (có kiểm tra "đang làm bài dở").
+function navTo(path) {
+  if (path !== location.pathname) history.pushState(null, '', path);
+  route();
+}
+window.navTo = navTo;
+function goTo(path) {
+  if (exerciseGuard && path !== exerciseGuard.path) {
+    if (!window.confirm('Bạn đang làm bài dở. Thoát ra bây giờ sẽ KHÔNG lưu kết quả. Thoát không?')) return;
+    endExerciseFocus();
+  }
+  navTo(path);
+}
+
 // ===== Routing =====
 async function route() {
-  const hash = window.location.hash.slice(1) || '/';
+  const path = (location.pathname || '/').replace(/^\/+|\/+$/g, '');
   const view = document.getElementById('view');
   view.innerHTML = '<div class="empty"><div class="emoji">⏳</div><div class="msg">Đang tải...</div></div>';
   updateHeader();
-  updateTabbar(hash);
+  updateTabbar(path);
   document.body.classList.remove('in-exercise'); // rời màn làm bài thì hiện lại chrome
 
   if (!CATALOG) {
@@ -75,7 +89,7 @@ async function route() {
     }
   }
 
-  const parts = hash.split('/').filter(Boolean);
+  const parts = path.split('/').filter(Boolean);
   // Xác định "thế giới" (cấp học) để áp chủ đề + đánh dấu tab cấp ở đầu trang
   const PERSONAL = ['tien-trinh', 'thanh-tich', 'tai-khoan', 'doi-nhan-vat', 'bang-xep-hang'];
   const world = parts[0] === 'cap' ? (parts[1] || '')
@@ -112,22 +126,35 @@ async function route() {
   return renderWorldHome(view, homeWorld());
 }
 
-function onHashChange() {
-  // Đang làm bài dở mà điều hướng đi nơi khác (Trang chủ, cấp học, Thoát...) → hỏi xác nhận
-  if (exerciseGuard && !revertingHash && window.location.hash !== exerciseGuard.hash) {
-    const leave = window.confirm('Bạn đang làm bài dở. Thoát ra bây giờ sẽ KHÔNG lưu kết quả. Thoát không?');
-    if (!leave) {
-      revertingHash = true;
-      window.location.hash = exerciseGuard.hash; // quay lại đúng màn làm bài, không vẽ lại
+// Bắt click trên link nội bộ (href bắt đầu bằng "/") → điều hướng SPA, không tải lại trang
+document.addEventListener('click', (e) => {
+  if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const a = e.target.closest && e.target.closest('a');
+  if (!a) return;
+  const href = a.getAttribute('href');
+  if (!href || href[0] !== '/' || a.target === '_blank' || a.hasAttribute('download')) return;
+  e.preventDefault();
+  goTo(href);
+});
+// Nút Back/Forward của trình duyệt
+window.addEventListener('popstate', () => {
+  // Đang làm bài dở mà điều hướng đi nơi khác → hỏi xác nhận
+  if (exerciseGuard && location.pathname !== exerciseGuard.path) {
+    if (!window.confirm('Bạn đang làm bài dở. Thoát ra bây giờ sẽ KHÔNG lưu kết quả. Thoát không?')) {
+      history.pushState(null, '', exerciseGuard.path); // ở lại: đẩy lại đúng màn làm bài
       return;
     }
-    endExerciseFocus(); // người dùng đồng ý thoát
+    endExerciseFocus();
   }
-  if (revertingHash) { revertingHash = false; return; }
   route();
-}
-window.addEventListener('hashchange', onHashChange);
-window.addEventListener('DOMContentLoaded', route);
+});
+window.addEventListener('DOMContentLoaded', () => {
+  // Tương thích link cũ dạng "#/..." (đã chia sẻ trước đây) → chuyển sang URL thật
+  if ((location.pathname === '/' || location.pathname === '') && location.hash.indexOf('#/') === 0) {
+    history.replaceState(null, '', location.hash.slice(1));
+  }
+  route();
+});
 // Chặn tải lại trang / đóng tab khi đang làm bài dở
 window.addEventListener('beforeunload', (e) => {
   if (exerciseGuard) { e.preventDefault(); e.returnValue = ''; }
@@ -294,8 +321,8 @@ function renderAccountArea() {
   if (!el) return;
   const u = Auth.getUser();
   el.innerHTML = u
-    ? `<a href="#/tai-khoan" class="acct-chip" title="Tài khoản"><span class="acct-name">👤 ${escapeHtml(u.displayName)}</span><span class="acct-grade">Lớp ${u.grade}</span></a>`
-    : `<a href="#/tai-khoan" class="acct-login">Đăng nhập</a>`;
+    ? `<a href="/tai-khoan" class="acct-chip" title="Tài khoản"><span class="acct-name">👤 ${escapeHtml(u.displayName)}</span><span class="acct-grade">Lớp ${u.grade}</span></a>`
+    : `<a href="/tai-khoan" class="acct-login">Đăng nhập</a>`;
 }
 
 // ===== Avatar =====
@@ -313,7 +340,7 @@ function renderAvatarPicker(view, isChanging) {
     btn.onclick = () => {
       Progress.setAvatar(btn.dataset.a);
       updateHeader();
-      window.location.hash = isChanging ? '#/thanh-tich' : '#/';
+      navTo(isChanging ? '/thanh-tich' : '/');
     };
   });
 }
@@ -333,7 +360,7 @@ function renderAuth(view) {
   const u = Auth.getUser();
   if (u) {
     view.innerHTML = `
-      <a href="#/" class="back-btn">← Về trang chủ</a>
+      <a href="/" class="back-btn">← Về trang chủ</a>
       <div class="auth-wrap">
         <div class="auth-card">
           <h1>👤 ${escapeHtml(u.displayName)}</h1>
@@ -341,19 +368,19 @@ function renderAuth(view) {
           <p class="about-note">Tiến trình của bạn được lưu trên máy chủ và đồng bộ trên mọi thiết bị khi đăng nhập cùng biệt danh.</p>
           <p class="about-note">⚠️ Tài khoản sẽ tự xóa nếu <b>15 ngày liên tiếp không làm bài</b>. Cứ làm bài đều đặn để giữ tài khoản nhé!</p>
           <div class="action-bar" style="justify-content:center;margin-top:18px">
-            <a href="#/" class="btn btn-primary">Vào học</a>
+            <a href="/" class="btn btn-primary">Vào học</a>
             <button class="btn btn-secondary" id="logout-btn" style="color:#EF5350">Đăng xuất</button>
           </div>
         </div>
       </div>`;
-    view.querySelector('#logout-btn').onclick = () => { Auth.logout(); window.location.hash = '#/'; };
+    view.querySelector('#logout-btn').onclick = () => { Auth.logout(); navTo('/'); };
     return;
   }
 
   const gradeOpts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     .map(g => `<option value="${g}">Lớp ${g}</option>`).join('');
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <div class="auth-wrap">
       <div class="auth-card">
         <div class="auth-tabs">
@@ -389,7 +416,7 @@ function renderAuth(view) {
           <button type="submit" class="btn btn-primary auth-submit">Đăng ký &amp; dùng ngay</button>
         </form>
 
-        <p class="about-note">Không cần email. Chỉ lưu biệt danh + lớp + tiến trình học (mật khẩu được mã hóa). Tài khoản tự xóa sau 15 ngày không làm bài. Xem <a href="#/chinh-sach">Chính sách</a>.</p>
+        <p class="about-note">Không cần email. Chỉ lưu biệt danh + lớp + tiến trình học (mật khẩu được mã hóa). Tài khoản tự xóa sau 15 ngày không làm bài. Xem <a href="/chinh-sach">Chính sách</a>.</p>
       </div>
     </div>`;
 
@@ -415,7 +442,7 @@ function renderAuth(view) {
     try { r = await fn(data); } catch { r = { ok: false, error: 'server_error' }; }
     btn.disabled = false;
     if (r && r.ok) {
-      window.location.hash = '#/';
+      navTo('/');
     } else {
       msgEl.className = 'auth-msg error';
       msgEl.textContent = AUTH_ERR[r && r.error] || 'Có lỗi xảy ra, thử lại nhé.';
@@ -429,15 +456,15 @@ function renderAuth(view) {
 // Màn yêu cầu đăng nhập (tường mềm) cho các tính năng cần tài khoản
 function loginRequiredView(view, title, desc) {
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <div class="auth-wrap">
       <div class="auth-card" style="text-align:center">
         <div style="font-size:3.4rem">🔐</div>
         <h1>${title}</h1>
         <p class="auth-sub">${desc}</p>
         <div class="action-bar" style="justify-content:center;margin-top:16px">
-          <a href="#/tai-khoan" class="btn btn-primary">Đăng nhập / Đăng ký</a>
-          <a href="#/" class="btn btn-secondary">Về trang chủ</a>
+          <a href="/tai-khoan" class="btn btn-primary">Đăng nhập / Đăng ký</a>
+          <a href="/" class="btn btn-secondary">Về trang chủ</a>
         </div>
         <p class="about-note">Bạn vẫn luyện tập tự do ở từng môn mà không cần đăng nhập. Đăng nhập để lưu &amp; đồng bộ kết quả trên mọi thiết bị.</p>
       </div>
@@ -458,7 +485,7 @@ const WORLD_FEATURES = {
 const WORLD_GRADES = { 'tieu-hoc': [1, 2, 3, 4, 5], 'thcs': [6, 7, 8, 9], 'thpt': [10, 11, 12] };
 
 function renderWorldHome(view, world) {
-  if (world === 'mam-non') { window.location.hash = '#/mam-non'; return; }
+  if (world === 'mam-non') { navTo('/mam-non'); return; }
   if (!WORLD_GRADES[world]) world = 'tieu-hoc';
   applyStageTheme(world);
   updateWorldTabs(world);
@@ -467,7 +494,7 @@ function renderWorldHome(view, world) {
   const u = Auth.getUser();
   const deleted = Auth.consumeDeletedNotice();
   view.innerHTML = `
-    ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="#/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
+    ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
     <section class="hero-pro">
       ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
       ${mascotSVG()}
@@ -475,7 +502,7 @@ function renderWorldHome(view, world) {
       <p class="hero-sub">${hero.sub}</p>
       <div class="hero-cta">
         <button class="btn btn-primary" onclick="document.getElementById('chon-cap').scrollIntoView({behavior:'smooth'})">Bắt đầu học</button>
-        <a href="#/gioi-thieu" class="btn btn-secondary">Tìm hiểu thêm</a>
+        <a href="/gioi-thieu" class="btn btn-secondary">Tìm hiểu thêm</a>
       </div>
       <div class="hero-chips">
         <span class="hero-chip">📚 <b>${CATALOG.exercises.length}</b> bộ đề</span>
@@ -492,14 +519,14 @@ function renderWorldHome(view, world) {
 
     <h2 class="home-section" id="chon-cap">Chọn lớp của bạn</h2>
     <div class="grade-grid">
-      ${WORLD_GRADES[world].map(g => `<a href="#/lop${g}" class="grade-card${gcls}"><div class="num">${g}</div><div class="label">Lớp ${g}</div></a>`).join('')}
+      ${WORLD_GRADES[world].map(g => `<a href="/lop${g}" class="grade-card${gcls}"><div class="num">${g}</div><div class="label">Lớp ${g}</div></a>`).join('')}
     </div>
   `;
 }
 
 function dailyCard(grade, s, today, review) {
   const r = !review && today[s.key];
-  return `<a href="#/bai/daily-${grade}-${s.key}" class="daily-card ${r ? 'done' : ''} ${review ? 'review' : ''}">
+  return `<a href="/bai/daily-${grade}-${s.key}" class="daily-card ${r ? 'done' : ''} ${review ? 'review' : ''}">
       <span class="dc-icon">${s.icon}</span>
       <span class="dc-name">${s.name}</span>
       <span class="dc-status">${review ? 'Ôn tập' : (r ? `✓ ${r.score}/${r.total}` : 'Chưa làm')}</span>
@@ -516,7 +543,7 @@ function renderDailyHomeSection() {
       <h2>📅 Đề hôm nay <small>· Lớp ${grade}</small></h2>
       <div class="daily-meta">
         ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
-        <a href="#/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
+        <a href="/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
       </div>
     </div>${extra || ''}`;
 
@@ -558,7 +585,7 @@ function renderDailyHomeSection() {
           <b>Đăng nhập để làm "Đề hôm nay"</b>
           <small>Mỗi ngày một bộ đề theo đúng lớp của bạn, có chuỗi ngày học &amp; tiến trình — lưu trên mọi thiết bị.</small>
         </span>
-        <a href="#/tai-khoan" class="btn btn-primary">Đăng nhập / Đăng ký</a>
+        <a href="/tai-khoan" class="btn btn-primary">Đăng nhập / Đăng ký</a>
       </div>
     </section>`;
 }
@@ -602,7 +629,7 @@ function renderProgress(view) {
   const avgSpeed = Progress.getAvgSecPerQ();
 
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <div class="hero" style="padding:16px 10px 14px"><h1>📈 Tiến trình</h1><p>Lịch tháng này · số liệu phân tích theo 28 ngày gần nhất</p></div>
     <div class="achv-stats">
       <div class="achv-stat"><div class="n">🔥 ${streak}</div><div class="l">Ngày liên tiếp</div></div>
@@ -618,13 +645,13 @@ function renderProgress(view) {
       ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span><span class="sr-spd">${r.spd !== null ? Math.round(r.spd) + 's/câu' : ''}</span></div>`).join('')}
     </div>
     ${weak && done.length > 1 ? `<p class="about-note">💡 Nên ôn thêm môn <b>${weak.name}</b> (đang ${weak.pct}%).</p>` : ''}
-    ${activeDays === 0 ? emptyState('Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
+    ${activeDays === 0 ? emptyState('Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
   `;
 }
 
 function renderAbout(view) {
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <article class="about">
       <h1>Giới thiệu Bé Học Vui</h1>
       <p><b>Bé Học Vui</b> là nền tảng học và luyện tập <b>miễn phí</b>, giúp học sinh ôn luyện đúng chương trình và chuẩn bị cho các kỳ thi — từ Mầm non đến THPT.</p>
@@ -648,7 +675,7 @@ function renderAbout(view) {
 
 function renderPolicy(view) {
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <article class="about">
       <h1>Chính sách & Điều khoản</h1>
 
@@ -697,7 +724,7 @@ function renderFAQ(view) {
     ['Tôi muốn góp ý hoặc báo lỗi trong đề thì làm thế nào?', 'Xin gửi góp ý tới quản trị viên qua thông tin ở trang Giới thiệu. Mọi phản hồi giúp hoàn thiện nội dung.'],
   ];
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <article class="about">
       <h1>Câu hỏi thường gặp (FAQ)</h1>
       <div class="faq-list">
@@ -714,7 +741,7 @@ function renderFAQ(view) {
 // ===== Mầm non =====
 function renderPreschoolAges(view) {
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <section class="hero-pro">
       ${mascotSVG()}
       <h1>Khu Mầm Non 🧸</h1>
@@ -722,7 +749,7 @@ function renderPreschoolAges(view) {
     </section>
     <div class="mn-ages">
       ${PRESCHOOL_AGES.map(a => `
-        <a href="#/mam-non/age${a}" class="mn-age">
+        <a href="/mam-non/age${a}" class="mn-age">
           <div class="a-num">${a}</div>
           <div class="a-label">tuổi</div>
         </a>`).join('')}
@@ -731,7 +758,7 @@ function renderPreschoolAges(view) {
       <div class="daily-head"><h2>🌈 Hôm nay chơi gì?</h2></div>
       <div class="daily-grid">
         ${['mau-sac', 'con-vat', 'dem-so'].filter(k => PRESCHOOL[k]).map(k => `
-          <a href="#/mam-non/age4/${k}" class="daily-card">
+          <a href="/mam-non/age4/${k}" class="daily-card">
             <span class="dc-icon">${PRESCHOOL[k].icon}</span>
             <span class="dc-name">${PRESCHOOL[k].name}</span>
           </a>`).join('')}
@@ -741,16 +768,16 @@ function renderPreschoolAges(view) {
 }
 
 function renderPreschoolDomains(view, age) {
-  if (!PRESCHOOL_AGES.includes(age)) { window.location.hash = '#/mam-non'; return; }
+  if (!PRESCHOOL_AGES.includes(age)) { navTo('/mam-non'); return; }
   const counts = {};
   for (const k of Object.keys(PRESCHOOL))
     counts[k] = CATALOG.exercises.filter(e => e.stage === 'mam-non' && e.subject === k && e.grade === age).length;
   view.innerHTML = `
-    <a href="#/mam-non" class="back-btn">← Chọn tuổi khác</a>
+    <a href="/mam-non" class="back-btn">← Chọn tuổi khác</a>
     <section class="hero-pro"><h1>Bé ${age} tuổi 🎈</h1><p class="hero-sub">Chọn trò chơi nhé!</p></section>
     <div class="mn-domains">
       ${Object.entries(PRESCHOOL).map(([k, d]) => `
-        <a href="#/mam-non/age${age}/${k}" class="mn-domain">
+        <a href="/mam-non/age${age}/${k}" class="mn-domain">
           <div class="d-ic">${d.icon}</div>
           <div class="d-name">${d.name}</div>
           <div class="d-count">${counts[k]} trò chơi</div>
@@ -761,16 +788,16 @@ function renderPreschoolDomains(view, age) {
 
 function renderPreschoolTopics(view, age, domain) {
   const d = PRESCHOOL[domain];
-  if (!d) { window.location.hash = '#/mam-non'; return; }
+  if (!d) { navTo('/mam-non'); return; }
   const list = CATALOG.exercises.filter(e => e.stage === 'mam-non' && e.grade === age && e.subject === domain);
   view.innerHTML = `
-    <a href="#/mam-non/age${age}" class="back-btn">← Quay lại</a>
+    <a href="/mam-non/age${age}" class="back-btn">← Quay lại</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>${d.icon} ${d.name}</h1><p>Bé ${age} tuổi</p></div>
     ${list.length === 0
       ? emptyState('Sắp có trò chơi mới nhé!', 'Bé quay lại sau để khám phá thêm nha!')
       : `<div class="topic-list">${list.map(ex => {
           const done = Progress.getCompletion(ex.id);
-          return `<a href="#/bai/${ex.id}" class="topic-item">
+          return `<a href="/bai/${ex.id}" class="topic-item">
             <span class="ti-dot">${d.icon}</span>
             <span class="ti-body"><span class="ti-title">${ex.topic}</span><span class="ti-meta">${ex.questionCount} câu</span></span>
             ${done ? `<span class="ti-badge">★ ${done.bestScore}/${done.total}</span>` : ''}
@@ -785,11 +812,11 @@ function renderSubjects(view, grade) {
   for (const key of keys)
     counts[key] = CATALOG.exercises.filter(e => e.subject === key && e.grade === grade).length;
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Quay lại chọn lớp</a>
+    <a href="/" class="back-btn">← Quay lại chọn lớp</a>
     <div class="hero" style="padding:14px 10px 18px"><h1>Lớp ${grade}</h1><p class="hero-sub">Chọn môn học để bắt đầu</p></div>
     <div class="subject-grid">
       ${keys.map(key => { const s = SUBJECTS[key]; return `
-        <a href="#/lop${grade}/${key}" class="subject-card ${s.cls}">
+        <a href="/lop${grade}/${key}" class="subject-card ${s.cls}">
           <span class="sc-ic">${s.icon}</span>
           <span class="sc-body">
             <span class="sc-name">${s.name}</span>
@@ -816,7 +843,7 @@ function chapterRank(ch) {
 }
 function topicItemHTML(ex) {
   const done = Progress.getCompletion(ex.id);
-  return `<a href="#/bai/${ex.id}" class="topic-item">
+  return `<a href="/bai/${ex.id}" class="topic-item">
       <span class="ti-dot">${ex.timeLimit ? '📝' : '✏️'}</span>
       <span class="ti-body">
         <span class="ti-title">${ex.topic}</span>
@@ -827,7 +854,7 @@ function topicItemHTML(ex) {
 }
 function renderTopicList(view, grade, subject) {
   const s = SUBJECTS[subject];
-  if (!s) { window.location.hash = '#/'; return; }
+  if (!s) { navTo('/'); return; }
   const all = CATALOG.exercises.filter(e => e.grade === grade && e.subject === subject);
   const byDiff = (a, b) => (a.difficulty || 1) - (b.difficulty || 1);
   const practice = all.filter(e => !e.timeLimit).sort(byDiff);
@@ -859,7 +886,7 @@ function renderTopicList(view, grade, subject) {
   }
 
   view.innerHTML = `
-    <a href="#/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
+    <a href="/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
     <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
     ${all.length === 0
       ? emptyState('Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
@@ -873,7 +900,7 @@ function renderAchievements(view) {
   const av = Progress.getAvatar() || '📚';
   const earnedCount = BADGES.filter(b => b.earned(stats)).length;
   view.innerHTML = `
-    <a href="#/" class="back-btn">← Về trang chủ</a>
+    <a href="/" class="back-btn">← Về trang chủ</a>
     <div class="result-card" style="margin-bottom:20px">
       <div style="font-size:4.5rem">${av}</div>
       <div class="result-title">Thành tích của bé</div>
@@ -895,14 +922,14 @@ function renderAchievements(view) {
       }).join('')}
     </div>
     <div class="action-bar" style="justify-content:center;margin-top:24px">
-      <a href="#/doi-nhan-vat" class="btn btn-secondary">🎭 Đổi nhân vật</a>
+      <a href="/doi-nhan-vat" class="btn btn-secondary">🎭 Đổi nhân vật</a>
       <button class="btn btn-secondary" id="reset-btn" style="color:#EF5350">🗑️ Xóa tiến độ</button>
     </div>
   `;
   view.querySelector('#reset-btn').onclick = () => {
     if (confirm('Bạn có chắc muốn xóa toàn bộ tiến độ và sao không?')) {
       Progress.reset();
-      window.location.hash = '#/';
+      navTo('/');
     }
   };
 }
@@ -931,7 +958,7 @@ function renderLeaderboard(view) {
   const grade = Auth.getUser().grade;
   const stage = stageFromGrade(grade);
   const play = stage === 'mam-non' || stage === 'tieu-hoc';
-  const back = '<a href="#/" class="back-btn">← Về trang chủ</a>';
+  const back = '<a href="/" class="back-btn">← Về trang chủ</a>';
   const reduceMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const hero = (sub) => `
@@ -983,7 +1010,7 @@ function renderLeaderboard(view) {
       <div class="lbm-cta-text">Bạn đang ẩn khỏi bảng xếp hạng.<small>Bật công tắc bên dưới để cùng đua với các bạn nhé.</small></div></div>`;
     if (noScore) return `<div class="lb-me-card cta">
       <div class="lbm-cta-text">${play ? '⭐ ' : ''}Chưa có ${mi.unit} ${LB_FILTER.period === 'week' ? 'tuần này' : ''} — làm 1 bài để lên bảng nhé!<small>Hạng của bé sẽ hiện ở đây ngay khi có điểm.</small></div>
-      <a href="#/" class="btn btn-primary">Làm bài ngay</a></div>`;
+      <a href="/" class="btn btn-primary">Làm bài ngay</a></div>`;
     const top3 = me.rank <= 3;
     const dt = lbDeltaTag(me.delta);
     const subTxt = me.delta == null ? 'Chào mừng lên bảng! 🎉'
@@ -1062,7 +1089,7 @@ function renderLeaderboard(view) {
 
     if (top.length === 0) {
       html += emptyState('Chưa có ai trên bảng.', 'Hãy là người đầu tiên ghi tên lên bảng nhé!',
-        '<a href="#/" class="btn btn-primary" style="margin-top:12px">Làm bài ngay</a>');
+        '<a href="/" class="btn btn-primary" style="margin-top:12px">Làm bài ngay</a>');
     } else {
       html += `<div class="lb-podium">${podiumSpot(top[1], 2, mi)}${podiumSpot(top[0], 1, mi)}${podiumSpot(top[2], 3, mi)}</div>`;
       if (solo) html += '<p class="lb-note solo">Bé đang dẫn đầu! Rủ bạn cùng học để đua nào 🎉</p>';
@@ -1097,9 +1124,9 @@ function renderLeaderboard(view) {
 
   const load = async () => {
     paintLoading();
-    const guard = window.location.hash;
+    const guard = location.pathname;
     const data = await Auth.getLeaderboard(LB_FILTER);
-    if (window.location.hash !== guard) return; // người dùng đã rời màn
+    if (location.pathname !== guard) return; // người dùng đã rời màn
     paint(data);
   };
 
@@ -1110,14 +1137,14 @@ async function renderExercise(view, id) {
   let exercise;
   if (id.indexOf('daily-') === 0) {
     exercise = await Daily.getExercise(id);
-    if (!exercise) { view.innerHTML = emptyState('Chưa có đề hôm nay cho mục này', 'Hãy chọn môn khác hoặc quay lại sau nhé!', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
+    if (!exercise) { view.innerHTML = emptyState('Chưa có đề hôm nay cho mục này', 'Hãy chọn môn khác hoặc quay lại sau nhé!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
   } else {
     const meta = CATALOG.exercises.find(e => e.id === id);
-    if (!meta) { view.innerHTML = emptyState('Không tìm thấy bài này', 'Có thể đường dẫn đã thay đổi.', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
+    if (!meta) { view.innerHTML = emptyState('Không tìm thấy bài này', 'Có thể đường dẫn đã thay đổi.', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
     try {
       exercise = await (await fetch(`exercises/${meta.path}`)).json();
     } catch (e) {
-      view.innerHTML = emptyState('Không tải được bài', 'Kiểm tra kết nối mạng rồi thử lại nhé.', '<a href="#/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
+      view.innerHTML = emptyState('Không tải được bài', 'Kiểm tra kết nối mạng rồi thử lại nhé.', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
       return;
     }
   }
@@ -1125,10 +1152,10 @@ async function renderExercise(view, id) {
   applyStageTheme(isPreschool ? 'mam-non' : stageFromGrade(exercise.grade));
   const subject = isPreschool ? PRESCHOOL[exercise.subject] : SUBJECTS[exercise.subject];
   const backHref = exercise.daily
-    ? '#/'
+    ? '/'
     : isPreschool
-      ? `#/mam-non/age${exercise.grade}/${exercise.subject}`
-      : `#/lop${exercise.grade}/${exercise.subject}`;
+      ? `/mam-non/age${exercise.grade}/${exercise.subject}`
+      : `/lop${exercise.grade}/${exercise.subject}`;
   const levelLabel = isPreschool ? `Bé ${exercise.grade} tuổi` : `Lớp ${exercise.grade}`;
 
   const isTimed = typeof exercise.timeLimit === 'number' && exercise.timeLimit > 0;
@@ -1269,7 +1296,7 @@ async function renderExercise(view, id) {
         ? `Bạn được +${score} ⭐`
         : (loggedIn
           ? '📖 Đề ôn (khác lớp) — không tính sao &amp; thành tích'
-          : '🔐 <a href="#/tai-khoan">Đăng nhập</a> để lưu kết quả &amp; nhận sao');
+          : '🔐 <a href="/tai-khoan">Đăng nhập</a> để lưu kết quả &amp; nhận sao');
 
       let emoji, title;
       if (percent === 100) { emoji = '🏆'; title = 'XUẤT SẮC!'; }
@@ -1307,7 +1334,7 @@ async function renderExercise(view, id) {
           <div style="color:#6B6B8C;margin:10px 0 16px">${earnNote}</div>
           <div class="recap">${recap}</div>
           <div class="action-bar" style="justify-content:center;margin-top:22px">
-            <button class="btn btn-secondary" onclick="location.hash='${backHref}'">Bài khác</button>
+            <button class="btn btn-secondary" onclick="navTo('${backHref}')">Bài khác</button>
             <button class="btn btn-primary" id="retry-btn">Làm lại</button>
           </div>
         </div>`;

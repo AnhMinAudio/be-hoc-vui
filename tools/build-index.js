@@ -18,6 +18,29 @@ fs.writeFileSync(COVERAGE_OUT, JSON.stringify({ generatedAt: now, ...coverage },
 
 console.log(`✅ Đã sinh index.json (${index.exercises.length} bài) và coverage.json`);
 
+// ===== Sinh sitemap.xml (URL thật cho SEO) — luôn đồng bộ với danh sách đề =====
+const DOMAIN = 'https://behocvui.id.vn';
+const SITEMAP_OUT = path.resolve(__dirname, '..', 'sitemap.xml');
+const today = now.slice(0, 10);
+const seoPaths = new Set(['/', '/gioi-thieu', '/faq', '/chinh-sach', '/cap/tieu-hoc', '/cap/thcs', '/cap/thpt', '/mam-non']);
+for (const e of index.exercises) {
+  const stage = e.stage || 'tieu-hoc';
+  if (stage === 'mam-non') {
+    seoPaths.add(`/mam-non/age${e.grade}`);
+    seoPaths.add(`/mam-non/age${e.grade}/${e.subject}`);
+  } else {
+    seoPaths.add(`/lop${e.grade}`);
+    seoPaths.add(`/lop${e.grade}/${e.subject}`);
+  }
+  seoPaths.add(`/bai/${e.id}`);
+}
+const urlsXml = [...seoPaths].sort().map(p => {
+  const pr = p === '/' ? '1.0' : (p.startsWith('/bai/') ? '0.6' : '0.8');
+  return `  <url>\n    <loc>${DOMAIN}${p}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${pr}</priority>\n  </url>`;
+}).join('\n');
+fs.writeFileSync(SITEMAP_OUT, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlsXml}\n</urlset>\n`, 'utf8');
+console.log(`🗺️  Đã sinh sitemap.xml (${seoPaths.size} URL)`);
+
 if (coverage.gaps.length) {
   console.log(`\n📍 Chỗ còn thiếu (${coverage.gaps.length}): ${coverage.gaps.join(' · ')}`);
 }
