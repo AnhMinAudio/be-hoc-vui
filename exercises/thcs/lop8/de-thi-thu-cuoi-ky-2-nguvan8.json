@@ -1,0 +1,32 @@
+{
+  "id": "thcs-nguvan-l8-de-thi-thu-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 8,
+  "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 8 (bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 90,
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "passage": "Môi trường sống của chúng ta đang bị ô nhiễm nghiêm trọng. Rác thải, khói bụi và nước thải làm hại sức khỏe con người và muôn loài. Bảo vệ môi trường chính là bảo vệ cuộc sống của chúng ta. Mỗi người hãy hành động ngay từ những việc nhỏ nhất.", "question": "Theo đoạn văn, điều gì đang bị ô nhiễm nghiêm trọng?", "options": ["môi trường sống", "bầu trời ngoài vũ trụ", "lòng đại dương sâu", "mặt trăng"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "passage": "Môi trường sống của chúng ta đang bị ô nhiễm nghiêm trọng. Rác thải, khói bụi và nước thải làm hại sức khỏe con người và muôn loài. Bảo vệ môi trường chính là bảo vệ cuộc sống của chúng ta. Mỗi người hãy hành động ngay từ những việc nhỏ nhất.", "question": "Những gì làm hại sức khỏe con người và muôn loài?", "options": ["rác thải, khói bụi, nước thải", "cây xanh", "ánh nắng", "gió mát"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "passage": "Môi trường sống của chúng ta đang bị ô nhiễm nghiêm trọng. Rác thải, khói bụi và nước thải làm hại sức khỏe con người và muôn loài. Bảo vệ môi trường chính là bảo vệ cuộc sống của chúng ta. Mỗi người hãy hành động ngay từ những việc nhỏ nhất.", "question": "Câu cuối đoạn văn xét theo mục đích nói là câu gì?", "options": ["câu cầu khiến", "câu nghi vấn", "câu cảm thán", "câu kể đơn thuần"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VD", "passage": "Môi trường sống của chúng ta đang bị ô nhiễm nghiêm trọng. Rác thải, khói bụi và nước thải làm hại sức khỏe con người và muôn loài. Bảo vệ môi trường chính là bảo vệ cuộc sống của chúng ta. Mỗi người hãy hành động ngay từ những việc nhỏ nhất.", "question": "Đoạn văn trên thuộc kiểu văn bản nào?", "options": ["nghị luận", "tự sự", "miêu tả", "thuyết minh"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Từ nào sau đây là từ Hán Việt?", "options": ["ô nhiễm", "rác thải", "khói bụi", "nước thải"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Từ nào sau đây là từ tượng hình?", "options": ["lởm chởm", "ào ào", "leng keng", "rì rào"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong câu 'Chính chúng ta phải bảo vệ môi trường.', từ 'Chính' là:", "options": ["trợ từ", "thán từ", "quan hệ từ", "số từ"], "answer": 0 },
+    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "Câu 'Chúng ta không nên xả rác bừa bãi.' là câu phủ định.", "answer": true },
+      { "text": "Từ 'bảo vệ' là động từ.", "answer": true },
+      { "text": "Thán từ dùng để bộc lộ cảm xúc hoặc dùng để gọi đáp.", "answer": true },
+      { "text": "Câu hỏi tu từ luôn cần một câu trả lời.", "answer": false }
+    ] },
+    { "type": "multiple-choice", "level": "NB", "question": "Câu 'Ôi, môi trường ô nhiễm quá!' chứa thán từ nào?", "options": ["Ôi", "môi trường", "ô nhiễm", "quá"], "answer": 0 },
+    { "type": "fill-blank", "level": "VD", "question": "Tìm một từ trái nghĩa với 'ô nhiễm': ___", "answer": "trong lành", "alternatives": ["sạch sẽ", "trong sạch"] },
+    { "type": "multiple-choice", "level": "TH", "question": "Câu 'Lẽ nào chúng ta lại làm ngơ trước ô nhiễm?' là câu gì?", "options": ["câu hỏi tu từ", "câu cầu khiến", "câu kể đơn thuần", "câu cảm thán"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Câu 'Sạch sẽ thay khu phố của chúng ta!' sử dụng biện pháp tu từ nào?", "options": ["đảo ngữ", "điệp ngữ", "hoán dụ", "nói giảm nói tránh"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Từ 'nghiêm trọng' thuộc loại từ nào?", "options": ["tính từ", "danh từ", "động từ", "số từ"], "answer": 0 },
+    { "type": "fill-blank", "level": "TH", "question": "Điền quan hệ từ thích hợp: 'Nếu mỗi người cùng hành động ___ môi trường sẽ sạch đẹp hơn.'", "answer": "thì", "alternatives": ["thì sẽ"] },
+    { "type": "multiple-choice", "level": "TH", "question": "Hai từ 'bảo vệ' và 'giữ gìn' có quan hệ với nhau như thế nào?", "options": ["gần nghĩa (đồng nghĩa)", "trái nghĩa", "đồng âm", "không liên quan"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VDC", "question": "Là học sinh, em nên làm gì để bảo vệ môi trường?", "options": ["bỏ rác đúng nơi, trồng cây, tiết kiệm điện nước", "xả rác bừa bãi", "chặt phá cây xanh", "lãng phí nước"], "answer": 0 }
+  ]
+}

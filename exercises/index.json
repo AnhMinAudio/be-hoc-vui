@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T08:36:37.907Z",
+  "generatedAt": "2026-05-29T09:07:09.634Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -779,6 +779,19 @@
       "path": "mam-non/age5/mau-sac-3.json"
     },
     {
+      "id": "thcs-nguvan-l6-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 6,
+      "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 6 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 90,
+      "path": "thcs/lop6/de-thi-thu-cuoi-ky-2-nguvan6.json"
+    },
+    {
       "id": "thcs-tv-l6-on-tap-cuoi-ky-1",
       "stage": "thcs",
       "subject": "ngu-van",
@@ -842,6 +855,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop6/ngu-van-tu-loai-va-bien-phap-tu-tu.json"
+    },
+    {
+      "id": "thcs-nguvan-l7-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 7,
+      "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 7 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 90,
+      "path": "thcs/lop7/de-thi-thu-cuoi-ky-2-nguvan7.json"
     },
     {
       "id": "thcs-tv-l7-on-tap-cuoi-ky-1",
@@ -920,6 +946,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop8/ngu-van-cau-va-bien-phap-tu-tu.json"
+    },
+    {
+      "id": "thcs-nguvan-l8-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 8,
+      "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 8 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 90,
+      "path": "thcs/lop8/de-thi-thu-cuoi-ky-2-nguvan8.json"
     },
     {
       "id": "thcs-tv-l8-on-tap-cuoi-ky-1",
@@ -1069,6 +1108,19 @@
       "path": "tieng-anh/lop1/colors-and-numbers.json"
     },
     {
+      "id": "ta-l1-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 1,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 1 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 30,
+      "path": "tieng-anh/lop1/de-thi-thu-cuoi-ky-2-ta1.json"
+    },
+    {
       "id": "ta-l1-greetings-and-names",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1210,6 +1262,19 @@
       "path": "tieng-anh/lop2/animals-family-school.json"
     },
     {
+      "id": "ta-l2-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 2,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 2 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 35,
+      "path": "tieng-anh/lop2/de-thi-thu-cuoi-ky-2-ta2.json"
+    },
+    {
       "id": "ta-l2-on-luyen-1",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1326,6 +1391,19 @@
       "path": "tieng-anh/lop2/de-on-tap-giua-ky-2-ta2.json"
     },
     {
+      "id": "ta-l3-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 3,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 3 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 35,
+      "path": "tieng-anh/lop3/de-thi-thu-cuoi-ky-2-ta3.json"
+    },
+    {
       "id": "ta-l3-numbers-and-days",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1389,6 +1467,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-anh/lop3/de-on-tap-giua-ky-2-ta3.json"
+    },
+    {
+      "id": "ta-l4-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 4,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 4 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 40,
+      "path": "tieng-anh/lop4/de-thi-thu-cuoi-ky-2-ta4.json"
     },
     {
       "id": "ta-l4-jobs-and-hobbies",
@@ -1469,6 +1560,19 @@
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
     },
     {
+      "id": "ta-l5-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-anh",
+      "grade": 5,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 5 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 40,
+      "path": "tieng-anh/lop5/de-thi-thu-cuoi-ky-2-ta5.json"
+    },
+    {
       "id": "ta-l5-on-tap-cuoi-ky-1",
       "stage": "tieu-hoc",
       "subject": "tieng-anh",
@@ -1519,6 +1623,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-anh/lop5/de-on-tap-giua-ky-2-ta5.json"
+    },
+    {
+      "id": "thcs-tienganh-l6-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 6,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 6 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 60,
+      "path": "thcs/lop6/de-thi-thu-cuoi-ky-2-tienganh6.json"
     },
     {
       "id": "thcs-ta-l6-on-tap-cuoi-ky-1",
@@ -1586,6 +1703,19 @@
       "path": "thcs/lop6/tieng-anh-present-simple.json"
     },
     {
+      "id": "thcs-tienganh-l7-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 7,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 7 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 60,
+      "path": "thcs/lop7/de-thi-thu-cuoi-ky-2-tienganh7.json"
+    },
+    {
       "id": "thcs-ta-l7-on-tap-cuoi-ky-1",
       "stage": "thcs",
       "subject": "tieng-anh",
@@ -1649,6 +1779,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop7/tieng-anh-past-simple-comparatives.json"
+    },
+    {
+      "id": "thcs-tienganh-l8-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 8,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 8 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 60,
+      "path": "thcs/lop8/de-thi-thu-cuoi-ky-2-tienganh8.json"
     },
     {
       "id": "thcs-ta-l8-on-tap-cuoi-ky-1",
@@ -1793,6 +1936,19 @@
       "path": "tieng-viet/lop1/dau-thanh-va-ghep-tieng.json"
     },
     {
+      "id": "tv-l1-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 1,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 1 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 30,
+      "path": "tieng-viet/lop1/de-thi-thu-cuoi-ky-2-tv1.json"
+    },
+    {
       "id": "tv-l1-dien-van-chu-va-doc-hieu",
       "stage": "tieu-hoc",
       "subject": "tieng-viet",
@@ -1909,6 +2065,19 @@
       ],
       "timeLimit": null,
       "path": "tieng-viet/lop1/van-thong-dung.json"
+    },
+    {
+      "id": "tv-l2-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 2,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 2 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 35,
+      "path": "tieng-viet/lop2/de-thi-thu-cuoi-ky-2-tv2.json"
     },
     {
       "id": "tv-l2-on-luyen-1",
@@ -2048,6 +2217,19 @@
       "path": "tieng-viet/lop2/tu-loai-va-cau.json"
     },
     {
+      "id": "tv-l3-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 3,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 3 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 35,
+      "path": "tieng-viet/lop3/de-thi-thu-cuoi-ky-2-tv3.json"
+    },
+    {
       "id": "tv-l3-on-tap-cuoi-ky-1",
       "stage": "tieu-hoc",
       "subject": "tieng-viet",
@@ -2126,6 +2308,19 @@
       "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
     },
     {
+      "id": "tv-l4-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 4,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 4 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 40,
+      "path": "tieng-viet/lop4/de-thi-thu-cuoi-ky-2-tv4.json"
+    },
+    {
       "id": "tv-l4-on-tap-cuoi-ky-1",
       "stage": "tieu-hoc",
       "subject": "tieng-viet",
@@ -2176,6 +2371,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "tieng-viet/lop4/de-on-tap-giua-ky-2-tv4.json"
+    },
+    {
+      "id": "tv-l5-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "tieng-viet",
+      "grade": 5,
+      "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 5 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 40,
+      "path": "tieng-viet/lop5/de-thi-thu-cuoi-ky-2-tv5.json"
     },
     {
       "id": "tv-l5-on-tap-cuoi-ky-1",
@@ -2257,6 +2465,19 @@
       ],
       "timeLimit": null,
       "path": "toan/lop1/cong-tru-trong-20.json"
+    },
+    {
+      "id": "toan-l1-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 1,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 1 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 30,
+      "path": "toan/lop1/de-thi-thu-cuoi-ky-2-toan1.json"
     },
     {
       "id": "toan-l1-hinh-hoc-do-luong-vi-tri",
@@ -2477,6 +2698,19 @@
       "path": "toan/lop2/cong-tru-va-bang-nhan.json"
     },
     {
+      "id": "toan-l2-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 2,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 2 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 35,
+      "path": "toan/lop2/de-thi-thu-cuoi-ky-2-toan2.json"
+    },
+    {
       "id": "toan-l2-don-vi-do-do-dai",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -2607,6 +2841,19 @@
       "path": "toan/lop2/xem-dong-ho.json"
     },
     {
+      "id": "toan-l3-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 3,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 3 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 35,
+      "path": "toan/lop3/de-thi-thu-cuoi-ky-2-toan3.json"
+    },
+    {
       "id": "toan-l3-nhan-chia-trong-bang",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -2672,6 +2919,19 @@
       "path": "toan/lop3/de-on-tap-giua-ky-2-toan3.json"
     },
     {
+      "id": "toan-l4-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 4,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 4 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 40,
+      "path": "toan/lop4/de-thi-thu-cuoi-ky-2-toan4.json"
+    },
+    {
       "id": "toan-l4-on-tap-cuoi-ky-1",
       "stage": "tieu-hoc",
       "subject": "toan",
@@ -2735,6 +2995,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
+    },
+    {
+      "id": "toan-l5-de-thi-thu-cuoi-ky-2",
+      "stage": "tieu-hoc",
+      "subject": "toan",
+      "grade": 5,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 5 (bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": 40,
+      "path": "toan/lop5/de-thi-thu-cuoi-ky-2-toan5.json"
     },
     {
       "id": "toan-l5-on-tap-cuoi-ky-1",
@@ -2950,6 +3223,24 @@
       "path": "thcs/lop6/c9-du-lieu-xac-suat.json"
     },
     {
+      "id": "thcs-toan-l6-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 6 (cấu trúc mới, bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Phân số",
+        "Số thập phân",
+        "Điểm, đường thẳng, góc",
+        "Dữ liệu và xác suất"
+      ],
+      "timeLimit": 90,
+      "path": "thcs/lop6/de-thi-thu-cuoi-ky-2-toan6.json"
+    },
+    {
       "id": "thcs-toan-l6-on-tap-cuoi-ky-1",
       "stage": "thcs",
       "subject": "toan",
@@ -3023,6 +3314,24 @@
       "path": "thcs/lop6/de-on-tap-giua-ky-2-toan6.json"
     },
     {
+      "id": "thcs-toan-l7-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 7,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 7 (cấu trúc mới, bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Tỉ lệ thức & đại lượng tỉ lệ",
+        "Biểu thức đại số & đa thức một biến",
+        "Quan hệ giữa các yếu tố trong tam giác",
+        "Xác suất"
+      ],
+      "timeLimit": 90,
+      "path": "thcs/lop7/de-thi-thu-cuoi-ky-2-toan7.json"
+    },
+    {
       "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
       "stage": "thcs",
       "subject": "toan",
@@ -3094,6 +3403,24 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop7/toan-so-huu-ti-va-bieu-thuc.json"
+    },
+    {
+      "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-2",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 8,
+      "topic": "Đề thi thử cuối học kỳ 2 — Toán 8 (cấu trúc mới, bấm giờ)",
+      "chapter": null,
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Phân thức đại số",
+        "Phương trình bậc nhất một ẩn",
+        "Hàm số bậc nhất & đồ thị",
+        "Tam giác đồng dạng"
+      ],
+      "timeLimit": 90,
+      "path": "thcs/lop8/de-thi-thu-cuoi-ky-2-toan8.json"
     },
     {
       "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-1",

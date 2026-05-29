@@ -1,0 +1,32 @@
+{
+  "id": "thcs-nguvan-l7-de-thi-thu-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 7,
+  "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 7 (bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 90,
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "passage": "Tục ngữ có câu 'Học thầy không tày học bạn'. Câu nói đề cao vai trò của việc học hỏi từ bạn bè. Bên cạnh thầy cô, bạn bè cũng là một nguồn tri thức quý giá. Vì thế, ta cần khiêm tốn học hỏi những người xung quanh.", "question": "Câu tục ngữ được nhắc tới trong bài là gì?", "options": ["Học thầy không tày học bạn", "Ăn quả nhớ kẻ trồng cây", "Có công mài sắt, có ngày nên kim", "Đi một ngày đàng, học một sàng khôn"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "passage": "Tục ngữ có câu 'Học thầy không tày học bạn'. Câu nói đề cao vai trò của việc học hỏi từ bạn bè. Bên cạnh thầy cô, bạn bè cũng là một nguồn tri thức quý giá. Vì thế, ta cần khiêm tốn học hỏi những người xung quanh.", "question": "Câu tục ngữ đề cao điều gì?", "options": ["vai trò của việc học hỏi từ bạn bè", "việc kiếm tiền", "việc đi du lịch", "việc nghỉ ngơi"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "passage": "Tục ngữ có câu 'Học thầy không tày học bạn'. Câu nói đề cao vai trò của việc học hỏi từ bạn bè. Bên cạnh thầy cô, bạn bè cũng là một nguồn tri thức quý giá. Vì thế, ta cần khiêm tốn học hỏi những người xung quanh.", "question": "Theo bài, ngoài thầy cô, ai cũng là một nguồn tri thức quý giá?", "options": ["bạn bè", "người lạ", "máy tính", "ti vi"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VD", "passage": "Tục ngữ có câu 'Học thầy không tày học bạn'. Câu nói đề cao vai trò của việc học hỏi từ bạn bè. Bên cạnh thầy cô, bạn bè cũng là một nguồn tri thức quý giá. Vì thế, ta cần khiêm tốn học hỏi những người xung quanh.", "question": "Đoạn văn trên thuộc kiểu văn bản nào?", "options": ["nghị luận", "tự sự", "miêu tả", "biểu cảm"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Tục ngữ là gì?", "options": ["câu nói ngắn gọn, đúc kết kinh nghiệm dân gian", "một bài thơ dài", "một câu chuyện", "một lời bài hát"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Từ 'tri thức' là loại từ nào?", "options": ["từ Hán Việt", "từ láy", "từ đơn thuần Việt", "số từ"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong câu 'Bạn bè cũng rất quan trọng.', từ 'rất' là:", "options": ["phó từ chỉ mức độ", "danh từ", "số từ", "động từ"], "answer": 0 },
+    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "Tục ngữ thường ngắn gọn, dễ nhớ.", "answer": true },
+      { "text": "'Khiêm tốn' trái nghĩa với 'kiêu căng'.", "answer": true },
+      { "text": "Số từ là từ chỉ hành động.", "answer": false },
+      { "text": "Nói giảm nói tránh giúp diễn đạt tế nhị.", "answer": true }
+    ] },
+    { "type": "multiple-choice", "level": "NB", "question": "Trong câu 'Em có ba người bạn thân.', từ nào là số từ?", "options": ["ba", "người", "bạn", "thân"], "answer": 0 },
+    { "type": "fill-blank", "level": "VD", "question": "Tìm một từ đồng nghĩa với 'khiêm tốn': ___", "answer": "nhún nhường", "alternatives": ["khiêm nhường"] },
+    { "type": "multiple-choice", "level": "TH", "question": "Câu 'Hãy khiêm tốn học hỏi!' xét theo mục đích nói là câu:", "options": ["cầu khiến", "nghi vấn", "cảm thán", "trần thuật"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VD", "question": "Biện pháp tu từ trong câu 'Học, học nữa, học mãi' là:", "options": ["điệp ngữ", "so sánh", "nhân hóa", "hoán dụ"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Dấu ngoặc kép trong 'Học thầy không tày học bạn' được dùng để:", "options": ["đánh dấu câu tục ngữ được trích dẫn", "kết thúc câu hỏi", "ngăn cách các vế", "bộc lộ cảm xúc"], "answer": 0 },
+    { "type": "fill-blank", "level": "TH", "question": "Điền quan hệ từ thích hợp: 'Học hỏi từ thầy ___ học hỏi từ bạn đều quan trọng.'", "answer": "và", "alternatives": ["lẫn", "cùng"] },
+    { "type": "multiple-choice", "level": "TH", "question": "Từ 'quý giá' gần nghĩa với:", "options": ["quý báu, có giá trị", "rẻ tiền", "vô dụng", "tầm thường"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VDC", "question": "Bài học rút ra từ câu tục ngữ 'Học thầy không tày học bạn' là gì?", "options": ["cần học hỏi cả từ thầy cô và bạn bè", "không cần học thầy", "chỉ học một mình", "không cần học hỏi ai"], "answer": 0 }
+  ]
+}

@@ -1,16 +1,22 @@
 {
-  "generatedAt": "2026-05-29T08:36:37.907Z",
+  "generatedAt": "2026-05-29T09:07:09.634Z",
   "coverage": {
     "toan": {
       "1": {
-        "exerciseCount": 11,
-        "totalQuestions": 177,
+        "exerciseCount": 12,
+        "totalQuestions": 193,
         "topics": [
           {
             "id": "toan-l1-cong-tru-trong-20",
             "topic": "Cộng - trừ trong phạm vi 20",
             "questionCount": 16,
             "difficulty": 1
+          },
+          {
+            "id": "toan-l1-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 1 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
           },
           {
             "id": "toan-l1-hinh-hoc-do-luong-vi-tri",
@@ -75,8 +81,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 15,
-        "totalQuestions": 247,
+        "exerciseCount": 16,
+        "totalQuestions": 263,
         "topics": [
           {
             "id": "toan-l2-bang-chia-2-va-3",
@@ -107,6 +113,12 @@
             "topic": "Cộng trừ trong 100 và bảng nhân",
             "questionCount": 16,
             "difficulty": 1
+          },
+          {
+            "id": "toan-l2-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 2 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
           },
           {
             "id": "toan-l2-don-vi-do-do-dai",
@@ -171,9 +183,15 @@
         ]
       },
       "3": {
-        "exerciseCount": 5,
-        "totalQuestions": 81,
+        "exerciseCount": 6,
+        "totalQuestions": 97,
         "topics": [
+          {
+            "id": "toan-l3-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 3 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "toan-l3-nhan-chia-trong-bang",
             "topic": "Nhân chia trong bảng và phép tính trong 1000",
@@ -207,9 +225,15 @@
         ]
       },
       "4": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
+          {
+            "id": "toan-l4-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 4 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "toan-l4-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 4",
@@ -243,9 +267,15 @@
         ]
       },
       "5": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
+          {
+            "id": "toan-l5-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 5 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "toan-l5-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 5",
@@ -281,8 +311,8 @@
     },
     "tieng-viet": {
       "1": {
-        "exerciseCount": 11,
-        "totalQuestions": 176,
+        "exerciseCount": 12,
+        "totalQuestions": 192,
         "topics": [
           {
             "id": "tv-l1-am-va-chu-cai-nang-cao",
@@ -301,6 +331,12 @@
             "topic": "Dấu thanh và ghép tiếng",
             "questionCount": 16,
             "difficulty": 1
+          },
+          {
+            "id": "tv-l1-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 1 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
           },
           {
             "id": "tv-l1-dien-van-chu-va-doc-hieu",
@@ -353,9 +389,15 @@
         ]
       },
       "2": {
-        "exerciseCount": 8,
-        "totalQuestions": 132,
+        "exerciseCount": 9,
+        "totalQuestions": 148,
         "topics": [
+          {
+            "id": "tv-l2-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 2 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "tv-l2-on-luyen-1",
             "topic": "Ôn luyện Tiếng Việt 2 (số 1)",
@@ -407,9 +449,15 @@
         ]
       },
       "3": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
+          {
+            "id": "tv-l3-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 3 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "tv-l3-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 3",
@@ -443,13 +491,19 @@
         ]
       },
       "4": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
           {
             "id": "tv-l4-danh-dong-tinh-tu",
             "topic": "Danh từ, động từ, tính từ và từ ghép từ láy",
             "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "tv-l4-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 4 (bấm giờ)",
+            "questionCount": 16,
             "difficulty": 2
           },
           {
@@ -479,9 +533,15 @@
         ]
       },
       "5": {
-        "exerciseCount": 5,
-        "totalQuestions": 83,
+        "exerciseCount": 6,
+        "totalQuestions": 99,
         "topics": [
+          {
+            "id": "tv-l5-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 5 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "tv-l5-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 5",
@@ -517,8 +577,8 @@
     },
     "tieng-anh": {
       "1": {
-        "exerciseCount": 11,
-        "totalQuestions": 173,
+        "exerciseCount": 12,
+        "totalQuestions": 189,
         "topics": [
           {
             "id": "ta-l1-animals-and-pets",
@@ -537,6 +597,12 @@
             "topic": "Colors & Numbers (Màu sắc và số đếm)",
             "questionCount": 17,
             "difficulty": 1
+          },
+          {
+            "id": "ta-l1-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 1 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
           },
           {
             "id": "ta-l1-greetings-and-names",
@@ -589,14 +655,20 @@
         ]
       },
       "2": {
-        "exerciseCount": 8,
-        "totalQuestions": 130,
+        "exerciseCount": 9,
+        "totalQuestions": 146,
         "topics": [
           {
             "id": "ta-l2-animals-family-school",
             "topic": "Animals, Family & School (Con vật, gia đình, đồ dùng học tập)",
             "questionCount": 17,
             "difficulty": 1
+          },
+          {
+            "id": "ta-l2-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 2 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
           },
           {
             "id": "ta-l2-on-luyen-1",
@@ -643,9 +715,15 @@
         ]
       },
       "3": {
-        "exerciseCount": 5,
-        "totalQuestions": 80,
+        "exerciseCount": 6,
+        "totalQuestions": 96,
         "topics": [
+          {
+            "id": "ta-l3-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 3 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "ta-l3-numbers-and-days",
             "topic": "Numbers & Days of the week (Số đếm và các ngày trong tuần)",
@@ -679,9 +757,15 @@
         ]
       },
       "4": {
-        "exerciseCount": 5,
-        "totalQuestions": 81,
+        "exerciseCount": 6,
+        "totalQuestions": 97,
         "topics": [
+          {
+            "id": "ta-l4-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 4 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "ta-l4-jobs-and-hobbies",
             "topic": "Jobs & Hobbies (Nghề nghiệp và sở thích)",
@@ -715,13 +799,19 @@
         ]
       },
       "5": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
           {
             "id": "ta-l5-routines-places-comparatives",
             "topic": "Daily routines, Places & Comparatives (Thói quen, địa điểm, so sánh hơn)",
             "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "ta-l5-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 5 (bấm giờ)",
+            "questionCount": 16,
             "difficulty": 3
           },
           {
@@ -1167,8 +1257,8 @@
   "thcs": {
     "toan": {
       "6": {
-        "exerciseCount": 12,
-        "totalQuestions": 206,
+        "exerciseCount": 13,
+        "totalQuestions": 222,
         "topics": [
           {
             "id": "thcs-toan-l6-c1-so-tu-nhien",
@@ -1219,6 +1309,12 @@
             "difficulty": 1
           },
           {
+            "id": "thcs-toan-l6-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 6 (cấu trúc mới, bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
             "id": "thcs-toan-l6-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 6",
             "questionCount": 17,
@@ -1245,9 +1341,15 @@
         ]
       },
       "7": {
-        "exerciseCount": 5,
-        "totalQuestions": 84,
+        "exerciseCount": 6,
+        "totalQuestions": 100,
         "topics": [
+          {
+            "id": "thcs-toan-l7-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 7 (cấu trúc mới, bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 7",
@@ -1281,9 +1383,15 @@
         ]
       },
       "8": {
-        "exerciseCount": 5,
-        "totalQuestions": 86,
+        "exerciseCount": 6,
+        "totalQuestions": 102,
         "topics": [
+          {
+            "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Toán 8 (cấu trúc mới, bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-1",
             "topic": "Đề thi thử cuối kỳ 1 — Toán 8 (cấu trúc mới)",
@@ -1337,9 +1445,15 @@
     },
     "ngu-van": {
       "6": {
-        "exerciseCount": 5,
-        "totalQuestions": 83,
+        "exerciseCount": 6,
+        "totalQuestions": 99,
         "topics": [
+          {
+            "id": "thcs-nguvan-l6-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 6 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-tv-l6-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 6",
@@ -1373,9 +1487,15 @@
         ]
       },
       "7": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
+          {
+            "id": "thcs-nguvan-l7-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 7 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-tv-l7-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 7",
@@ -1409,14 +1529,20 @@
         ]
       },
       "8": {
-        "exerciseCount": 5,
-        "totalQuestions": 85,
+        "exerciseCount": 6,
+        "totalQuestions": 101,
         "topics": [
           {
             "id": "thcs-tv-l8-cau-va-bien-phap-tu-tu",
             "topic": "Câu ghép, dấu câu, trường từ vựng và biện pháp nói quá, nói giảm nói tránh",
             "questionCount": 18,
             "difficulty": 2
+          },
+          {
+            "id": "thcs-nguvan-l8-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 8 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
           },
           {
             "id": "thcs-tv-l8-on-tap-cuoi-ky-1",
@@ -1459,9 +1585,15 @@
     },
     "tieng-anh": {
       "6": {
-        "exerciseCount": 5,
-        "totalQuestions": 81,
+        "exerciseCount": 6,
+        "totalQuestions": 97,
         "topics": [
+          {
+            "id": "thcs-tienganh-l6-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 6 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-ta-l6-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 6",
@@ -1495,9 +1627,15 @@
         ]
       },
       "7": {
-        "exerciseCount": 5,
-        "totalQuestions": 82,
+        "exerciseCount": 6,
+        "totalQuestions": 98,
         "topics": [
+          {
+            "id": "thcs-tienganh-l7-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 7 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-ta-l7-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 7",
@@ -1531,9 +1669,15 @@
         ]
       },
       "8": {
-        "exerciseCount": 5,
-        "totalQuestions": 81,
+        "exerciseCount": 6,
+        "totalQuestions": 97,
         "topics": [
+          {
+            "id": "thcs-tienganh-l8-de-thi-thu-cuoi-ky-2",
+            "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 8 (bấm giờ)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thcs-ta-l8-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 8",

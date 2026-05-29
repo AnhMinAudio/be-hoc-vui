@@ -1,0 +1,128 @@
+{
+  "id": "tv-l4-de-thi-thu-cuoi-ky-2",
+  "subject": "tieng-viet",
+  "grade": 4,
+  "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 4 (bấm giờ)",
+  "difficulty": 2,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là danh từ?",
+      "options": ["bầu trời", "bay", "xanh", "nhanh"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là động từ?",
+      "options": ["gặt", "đẹp", "cánh đồng", "vàng"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào là tính từ?",
+      "options": ["mênh mông", "học sinh", "chạy", "quyển vở"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Mặt trời là nguồn sáng của Trái Đất.' thuộc kiểu câu kể nào?",
+      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trạng ngữ trong câu 'Ngoài đồng, lúa chín vàng.' là bộ phận nào?",
+      "options": ["Ngoài đồng", "lúa", "chín vàng", "vàng"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trạng ngữ 'Ngoài đồng' bổ sung ý nghĩa gì cho câu?",
+      "options": ["nơi chốn", "thời gian", "nguyên nhân", "mục đích"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tìm chủ ngữ trong câu 'Đàn bướm bay rập rờn quanh khóm hoa.': ___",
+      "answer": "Đàn bướm",
+      "alternatives": ["đàn bướm"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào sử dụng biện pháp nhân hóa?",
+      "options": ["Chị gió dạo chơi khắp cánh đồng.", "Gió thổi rất mạnh.", "Em đi học sớm.", "Lá rụng đầy sân."],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào là câu cảm?",
+      "options": ["Ôi, cảnh đồng quê đẹp quá!", "Em đang đi học.", "Bạn tên là gì?", "Hãy giữ trật tự."],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền trạng ngữ chỉ thời gian (gợi ý: mùa thu): '___, lá vàng rơi đầy sân.'",
+      "answer": "Mùa thu",
+      "alternatives": ["mùa thu"],
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với từ loại của nó",
+      "pairs": [
+        ["con sông", "danh từ"],
+        ["chảy", "động từ"],
+        ["trong xanh", "tính từ"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê em có dòng sông hiền hòa chảy quanh làng. Hai bên bờ, những hàng tre xanh nghiêng mình soi bóng xuống mặt nước. Chiều chiều, lũ trẻ ra sông tắm mát, tiếng cười vang cả khúc sông.",
+      "question": "Dòng sông quê em được tả như thế nào?",
+      "options": ["hiền hòa, chảy quanh làng", "dữ dội, cuồn cuộn", "khô cạn", "đầy rác"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê em có dòng sông hiền hòa chảy quanh làng. Hai bên bờ, những hàng tre xanh nghiêng mình soi bóng xuống mặt nước. Chiều chiều, lũ trẻ ra sông tắm mát, tiếng cười vang cả khúc sông.",
+      "question": "Hai bên bờ sông có gì?",
+      "options": ["những hàng tre xanh", "nhà cao tầng", "những cánh đồng lúa", "rừng cây rậm rạp"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê em có dòng sông hiền hòa chảy quanh làng. Hai bên bờ, những hàng tre xanh nghiêng mình soi bóng xuống mặt nước. Chiều chiều, lũ trẻ ra sông tắm mát, tiếng cười vang cả khúc sông.",
+      "question": "Câu 'Hàng tre nghiêng mình soi bóng.' sử dụng biện pháp gì?",
+      "options": ["nhân hóa", "so sánh", "liệt kê", "không có biện pháp"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Dòng sông chảy quanh làng.' thuộc kiểu câu kể nào?",
+      "options": ["Ai làm gì?", "Ai là gì?", "Ai thế nào?", "Khi nào?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'hiền hòa' thuộc loại từ nào?",
+      "options": ["tính từ", "danh từ", "động từ", "số từ"],
+      "answer": 0,
+      "level": "M1"
+    }
+  ]
+}

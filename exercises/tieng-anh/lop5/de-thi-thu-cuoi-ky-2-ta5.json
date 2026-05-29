@@ -1,0 +1,131 @@
+{
+  "id": "ta-l5-de-thi-thu-cuoi-ky-2",
+  "subject": "tieng-anh",
+  "grade": 5,
+  "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh lớp 5 (bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'doctor' mean? (Từ 'doctor' nghĩa là gì?)",
+      "options": ["bác sĩ", "giáo viên", "nông dân", "tài xế"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English for 'thức dậy'? ('thức dậy' tiếng Anh là gì?)",
+      "options": ["get up", "go to bed", "have lunch", "go home"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'library' mean? (Từ 'library' nghĩa là gì?)",
+      "options": ["thư viện", "bệnh viện", "công viên", "chợ"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete: 'I get up ___ 6 o'clock.' (lúc — điền giới từ chỉ giờ)",
+      "options": ["at", "in", "on", "to"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'giáo viên' in English (Viết 'giáo viên' bằng tiếng Anh): ___",
+      "answer": "teacher",
+      "alternatives": ["Teacher", "a teacher"],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
+      "pairs": [
+        ["get up", "thức dậy"],
+        ["have breakfast", "ăn sáng"],
+        ["go to bed", "đi ngủ"]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete: 'She ___ to school every day.' (đi — ngôi thứ ba số ít)",
+      "options": ["goes", "go", "going", "to go"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete (future): 'I ___ visit my grandma next week.' (sẽ)",
+      "options": ["will", "am", "did", "was"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Complete: 'What's the matter?' - 'I have a ___.' (đau đầu — điền 'headache')",
+      "answer": "headache",
+      "alternatives": ["Headache"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Where do you buy food? (Em mua thức ăn ở đâu?)",
+      "options": ["at the market", "at the library", "at the cinema", "at school"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question about time (Chọn câu hỏi đúng về giờ giấc)",
+      "options": ["What time do you get up?", "Time you what get up?", "You get up what time?", "Get up you what time?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the job with its meaning (Nối nghề nghiệp với nghĩa)",
+      "pairs": [
+        ["doctor", "bác sĩ"],
+        ["teacher", "giáo viên"],
+        ["farmer", "nông dân"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hoa gets up at 6 o'clock every morning. She has breakfast and goes to school at 7. In the future, she wants to be a teacher because she loves children.",
+      "question": "What time does Hoa get up? (Hoa thức dậy lúc mấy giờ?)",
+      "options": ["at 6 o'clock", "at 7 o'clock", "at 8 o'clock", "at 9 o'clock"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hoa gets up at 6 o'clock every morning. She has breakfast and goes to school at 7. In the future, she wants to be a teacher because she loves children.",
+      "question": "What does Hoa want to be in the future? (Trong tương lai Hoa muốn làm nghề gì?)",
+      "options": ["a teacher", "a doctor", "a nurse", "a farmer"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hoa gets up at 6 o'clock every morning. She has breakfast and goes to school at 7. In the future, she wants to be a teacher because she loves children.",
+      "question": "Why does Hoa want that job? (Vì sao Hoa muốn làm nghề đó?)",
+      "options": ["because she loves children", "because of the money", "because it is easy", "because it is famous"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ask a friend what she wants to be in the future (Hỏi bạn muốn làm nghề gì trong tương lai)",
+      "options": ["What do you want to be in the future?", "You future what be want?", "Be you what future?", "Future you want what be?"],
+      "answer": 0,
+      "level": "M2"
+    }
+  ]
+}

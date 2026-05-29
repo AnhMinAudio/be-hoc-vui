@@ -1,0 +1,120 @@
+{
+  "id": "toan-l1-de-thi-thu-cuoi-ky-2",
+  "subject": "toan",
+  "grade": 1,
+  "topic": "Đề thi thử cuối học kỳ 2 — Toán 1 (bấm giờ)",
+  "difficulty": 2,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 75 gồm mấy chục và mấy đơn vị?",
+      "options": ["7 chục và 5 đơn vị", "5 chục và 7 đơn vị", "75 chục", "7 đơn vị và 5 chục"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "20 + 7 = ___",
+      "answer": "27",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "50 + 40 = ___",
+      "answer": "90",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "67 - 5 = ___",
+      "answer": "62",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số lớn nhất có hai chữ số là số nào?",
+      "options": ["99", "100", "90", "98"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Kim ngắn chỉ số 3, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?",
+      "options": ["3 giờ", "12 giờ", "9 giờ", "6 giờ"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "43 + 25 = ___",
+      "answer": "68",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "89 - 34 = ___",
+      "answer": "55",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp vào chỗ trống: 56 ... 65",
+      "options": [">", "<", "=", "+"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "30 + 30 = ___",
+      "answer": "60",
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["24 + 3", "27"],
+        ["58 - 4", "54"],
+        ["40 + 20", "60"],
+        ["77 - 7", "70"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số liền trước của 60 là số nào?",
+      "options": ["59", "61", "50", "70"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một băng giấy dài 18 cm, cắt đi 6 cm. Hỏi còn lại bao nhiêu xăng-ti-mét? Trả lời: ___ cm. (18 - 6 = ?)",
+      "answer": "12",
+      "level": "M3",
+      "hint": "Cắt đi thì làm phép trừ."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 35 cái kẹo, mẹ cho thêm 4 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo? Trả lời: ___ cái. (35 + 4 = ?)",
+      "answer": "39",
+      "level": "M3",
+      "hint": "Cho thêm thì làm phép cộng."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hùng có 22 viên bi, Hùng có thêm 16 viên bi nữa. Hỏi Hùng có tất cả bao nhiêu viên bi?",
+      "options": ["38 viên", "6 viên", "16 viên", "42 viên"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Có thêm thì cộng lại: 22 + 16."
+    },
+    {
+      "type": "fill-blank",
+      "question": "90 - 50 = ___",
+      "answer": "40",
+      "level": "M2"
+    }
+  ]
+}

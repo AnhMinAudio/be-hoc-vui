@@ -1,0 +1,32 @@
+{
+  "id": "thcs-nguvan-l6-de-thi-thu-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 6,
+  "topic": "Đề thi thử cuối học kỳ 2 — Ngữ văn 6 (bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 90,
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "passage": "Ngày xưa, có hai chị em cùng cha khác mẹ. Cô em tên Cám được mẹ nuông chiều nên lười biếng. Cô chị tên Tấm hiền lành, chăm chỉ nhưng thường bị mẹ con Cám hắt hủi. Nhờ tốt bụng, Tấm được Bụt giúp đỡ và cuối cùng có được cuộc sống hạnh phúc.", "question": "Cô chị trong câu chuyện tên là gì?", "options": ["Tấm", "Cám", "Bụt", "Mây"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "passage": "Ngày xưa, có hai chị em cùng cha khác mẹ. Cô em tên Cám được mẹ nuông chiều nên lười biếng. Cô chị tên Tấm hiền lành, chăm chỉ nhưng thường bị mẹ con Cám hắt hủi. Nhờ tốt bụng, Tấm được Bụt giúp đỡ và cuối cùng có được cuộc sống hạnh phúc.", "question": "Tấm có tính cách như thế nào?", "options": ["hiền lành, chăm chỉ", "lười biếng, gian dối", "kiêu căng", "tham lam"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "passage": "Ngày xưa, có hai chị em cùng cha khác mẹ. Cô em tên Cám được mẹ nuông chiều nên lười biếng. Cô chị tên Tấm hiền lành, chăm chỉ nhưng thường bị mẹ con Cám hắt hủi. Nhờ tốt bụng, Tấm được Bụt giúp đỡ và cuối cùng có được cuộc sống hạnh phúc.", "question": "Ai đã giúp đỡ Tấm?", "options": ["Bụt", "Cám", "mẹ của Cám", "nhà vua"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VD", "passage": "Ngày xưa, có hai chị em cùng cha khác mẹ. Cô em tên Cám được mẹ nuông chiều nên lười biếng. Cô chị tên Tấm hiền lành, chăm chỉ nhưng thường bị mẹ con Cám hắt hủi. Nhờ tốt bụng, Tấm được Bụt giúp đỡ và cuối cùng có được cuộc sống hạnh phúc.", "question": "Câu chuyện trên thuộc thể loại nào?", "options": ["truyện cổ tích", "truyền thuyết", "truyện cười", "văn bản thông tin"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Từ nào sau đây là từ ghép?", "options": ["nhà cửa", "lấp lánh", "long lanh", "rì rào"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Biện pháp tu từ trong câu 'Cô ấy hiền như Bụt' là:", "options": ["so sánh", "nhân hóa", "ẩn dụ", "hoán dụ"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Từ 'nuông chiều' là loại từ nào?", "options": ["từ ghép", "từ láy", "từ đơn", "số từ"], "answer": 0 },
+    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "Truyện cổ tích thường có yếu tố kì ảo (Bụt, Tiên).", "answer": true },
+      { "text": "Từ 'hạnh phúc' là từ Hán Việt.", "answer": true },
+      { "text": "Câu 'Tấm rất chăm chỉ.' là câu kể.", "answer": true },
+      { "text": "Từ láy là từ có các tiếng giống nhau hoàn toàn về nghĩa.", "answer": false }
+    ] },
+    { "type": "multiple-choice", "level": "NB", "question": "Từ nào sau đây là từ láy?", "options": ["long lanh", "nhà cửa", "sách vở", "bàn ghế"], "answer": 0 },
+    { "type": "fill-blank", "level": "VD", "question": "Tìm một từ trái nghĩa với 'chăm chỉ': ___", "answer": "lười biếng", "alternatives": ["lười", "biếng nhác"] },
+    { "type": "multiple-choice", "level": "TH", "question": "Trong câu 'Nhờ tốt bụng, Tấm được Bụt giúp đỡ.', bộ phận 'Nhờ tốt bụng' là trạng ngữ chỉ:", "options": ["nguyên nhân", "thời gian", "nơi chốn", "mục đích"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Câu 'Ôi, Tấm thật đáng thương!' là câu gì?", "options": ["câu cảm thán", "câu nghi vấn", "câu cầu khiến", "câu kể"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Dấu phẩy trong câu được dùng để làm gì?", "options": ["ngăn cách các bộ phận trong câu", "kết thúc câu", "dùng để hỏi", "thay cho dấu chấm than"], "answer": 0 },
+    { "type": "fill-blank", "level": "NB", "question": "Điền dấu câu thích hợp vào cuối câu: Vì sao Tấm được Bụt giúp đỡ___", "answer": "?", "alternatives": ["dấu chấm hỏi"] },
+    { "type": "multiple-choice", "level": "TH", "question": "Từ 'hắt hủi' gần nghĩa với:", "options": ["ghẻ lạnh, đối xử không tốt", "yêu thương, chăm sóc", "khen ngợi", "giúp đỡ"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VDC", "question": "Câu chuyện Tấm Cám gửi gắm bài học gì?", "options": ["ở hiền gặp lành, cái thiện thắng cái ác", "phải biết nuông chiều bản thân", "không nên giúp đỡ ai", "tiền bạc là quan trọng nhất"], "answer": 0 }
+  ]
+}

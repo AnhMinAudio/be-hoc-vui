@@ -1,0 +1,122 @@
+{
+  "id": "toan-l3-de-thi-thu-cuoi-ky-2",
+  "subject": "toan",
+  "grade": 3,
+  "topic": "Đề thi thử cuối học kỳ 2 — Toán 3 (bấm giờ)",
+  "difficulty": 2,
+  "timeLimit": 35,
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "7 × 8 = ___",
+      "answer": "56",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "56 : 7 = ___",
+      "answer": "8",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 25 600 đọc là:",
+      "options": ["Hai mươi lăm nghìn sáu trăm", "Hai mươi lăm nghìn sáu", "Hai nghìn năm trăm sáu mươi", "Hai mươi lăm nghìn sáu mươi"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "312 × 3 = ___",
+      "answer": "936",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "848 : 4 = ___",
+      "answer": "212",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "3456 + 2412 = ___",
+      "answer": "5868",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chu vi hình chữ nhật có chiều dài 10 cm, chiều rộng 4 cm là:",
+      "options": ["28 cm", "40 cm", "14 cm", "48 cm"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Chu vi = (dài + rộng) × 2 = (10 + 4) × 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Diện tích hình vuông có cạnh 5 cm là:",
+      "options": ["25 cm²", "20 cm²", "10 cm²", "55 cm²"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Diện tích hình vuông = cạnh × cạnh = 5 × 5."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["6 × 9", "54"],
+        ["64 : 8", "8"],
+        ["111 × 3", "333"],
+        ["96 : 3", "32"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tính chu vi hình tam giác có ba cạnh dài 3 cm, 4 cm và 5 cm. Trả lời: ___ cm. (3 + 4 + 5 = ?)",
+      "answer": "12",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một ngày có bao nhiêu giờ?",
+      "options": ["24 giờ", "12 giờ", "60 giờ", "30 giờ"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một trường có 1280 học sinh, trong đó có 640 học sinh nữ. Hỏi trường đó có bao nhiêu học sinh nam? Trả lời: ___ học sinh. (1280 - 640 = ?)",
+      "answer": "640",
+      "level": "M3",
+      "hint": "Lấy tổng số học sinh trừ số học sinh nữ."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mỗi lớp được phát 105 quyển sách. Hỏi 3 lớp được phát bao nhiêu quyển sách? Trả lời: ___ quyển. (105 × 3 = ?)",
+      "answer": "315",
+      "level": "M3",
+      "hint": "Các lớp như nhau thì làm phép nhân."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Có 84 cái bánh chia đều cho 4 hộp. Hỏi mỗi hộp có bao nhiêu cái bánh?",
+      "options": ["21 cái", "80 cái", "88 cái", "24 cái"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Chia đều thì làm phép chia: 84 : 4."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số gồm 5 chục nghìn là số nào?",
+      "options": ["50 000", "5 000", "500 000", "5 chục"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9 × 6 = ___",
+      "answer": "54",
+      "level": "M1"
+    }
+  ]
+}

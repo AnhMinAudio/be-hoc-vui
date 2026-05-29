@@ -1,0 +1,32 @@
+{
+  "id": "thcs-tienganh-l8-de-thi-thu-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 8,
+  "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Anh 8 (bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 60,
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "What does 'pollution' mean? (Từ 'pollution' nghĩa là gì?)", "options": ["sự ô nhiễm", "năng lượng", "thiên tai", "giao thông"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "What is the English word for 'lũ lụt'? ('lũ lụt' tiếng Anh là gì?)", "options": ["flood", "earthquake", "storm", "drought"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Which is a renewable energy source? (Đâu là nguồn năng lượng tái tạo?)", "options": ["wind energy", "coal", "oil", "natural gas"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Choose the passive form: 'Rice ___ in Vietnam.' (được trồng)", "options": ["is grown", "grow", "grows", "growing"], "answer": 0 },
+    { "type": "fill-blank", "level": "NB", "question": "Complete (first conditional): 'If we plant trees, the air ___ be cleaner.' (điền 'will')", "answer": "will", "alternatives": ["Will"] },
+    { "type": "matching", "level": "NB", "question": "Match the natural disaster with its meaning (Nối thiên tai với nghĩa)", "pairs": [["flood", "lũ lụt"], ["earthquake", "động đất"], ["storm", "bão"]] },
+    { "type": "multiple-choice", "level": "TH", "question": "Past continuous: 'They ___ football when it rained.' (đang chơi)", "options": ["were playing", "play", "played", "are playing"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Choose the superlative: 'Russia is the ___ country in the world.' (lớn nhất)", "options": ["largest", "larger", "large", "more large"], "answer": 0 },
+    { "type": "true-false-group", "level": "TH", "question": "Decide True or False (Xét đúng/sai):", "statements": [
+      { "text": "Solar and wind are renewable energy sources.", "answer": true },
+      { "text": "'was built' is a passive form.", "answer": true },
+      { "text": "An earthquake is a natural disaster.", "answer": true },
+      { "text": "Burning coal is good for the air.", "answer": false }
+    ] },
+    { "type": "fill-blank", "level": "TH", "question": "Write the past participle of 'make' (Viết quá khứ phân từ của 'make'): It is ___.", "answer": "made", "alternatives": ["Made"] },
+    { "type": "multiple-choice", "level": "TH", "question": "What is the best way to save energy? (Cách tốt nhất để tiết kiệm năng lượng?)", "options": ["turn off lights when not in use", "leave all lights on", "open the fridge often", "use more machines"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VD", "question": "What is the capital of England? (Thủ đô của nước Anh là gì?)", "options": ["London", "Paris", "Sydney", "Tokyo"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "passage": "Natural disasters such as floods and storms cause great damage every year. They destroy houses and crops. People should prepare carefully to stay safe when disasters happen.", "question": "What do natural disasters destroy, according to the passage? (Thiên tai phá hủy những gì?)", "options": ["houses and crops", "books and pens", "films and songs", "festivals"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "passage": "Natural disasters such as floods and storms cause great damage every year. They destroy houses and crops. People should prepare carefully to stay safe when disasters happen.", "question": "What should people do to stay safe? (Người ta nên làm gì để an toàn?)", "options": ["prepare carefully", "do nothing", "go outside in the storm", "ignore the warnings"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "passage": "Natural disasters such as floods and storms cause great damage every year. They destroy houses and crops. People should prepare carefully to stay safe when disasters happen.", "question": "Which are examples of natural disasters in the passage? (Ví dụ về thiên tai trong bài là gì?)", "options": ["floods and storms", "cars and bikes", "books and films", "lights and fans"], "answer": 0 },
+    { "type": "multiple-choice", "level": "VDC", "question": "Say that you have never been to England (Nói rằng em chưa từng đến nước Anh)", "options": ["I have never been to England.", "I never go England yesterday.", "I am never been England.", "England I never have go."], "answer": 0 }
+  ]
+}

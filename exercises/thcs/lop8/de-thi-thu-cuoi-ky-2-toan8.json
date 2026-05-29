@@ -1,0 +1,33 @@
+{
+  "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-2",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 8,
+  "topic": "Đề thi thử cuối học kỳ 2 — Toán 8 (cấu trúc mới, bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 90,
+  "outcomes": ["Phân thức đại số", "Phương trình bậc nhất một ẩn", "Hàm số bậc nhất & đồ thị", "Tam giác đồng dạng"],
+  "questions": [
+    { "type": "multiple-choice", "level": "NB", "question": "Nghiệm của phương trình $3x - 9 = 0$ là:", "options": ["$x = 3$", "$x = -3$", "$x = 9$", "$x = 6$"], "answer": 0, "hint": "$3x = 9 \\Rightarrow x = 3$." },
+    { "type": "multiple-choice", "level": "NB", "question": "Điều kiện xác định của phân thức $\\dfrac{2}{x-4}$ là:", "options": ["$x \\neq 4$", "$x \\neq -4$", "$x \\neq 0$", "$x \\neq 2$"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Hàm số bậc nhất có dạng:", "options": ["$y = ax + b$ ($a \\neq 0$)", "$y = ax^2$", "$y = \\dfrac{a}{x}$", "$y = a$"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Hệ số góc của đường thẳng $y = 5x - 1$ là:", "options": ["$5$", "$-1$", "$1$", "$-5$"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Rút gọn phân thức $\\dfrac{3x}{6}$:", "options": ["$\\dfrac{x}{2}$", "$\\dfrac{3}{6}$", "$\\dfrac{2}{x}$", "$3x$"], "answer": 0 },
+    { "type": "multiple-choice", "level": "NB", "question": "Nếu hai tam giác đồng dạng thì các cạnh tương ứng:", "options": ["tỉ lệ với nhau", "bằng nhau", "vuông góc với nhau", "song song với nhau"], "answer": 0 },
+    { "type": "multiple-choice", "level": "TH", "question": "Giải phương trình $4x - 7 = 2x + 1$. Nghiệm là:", "options": ["$x = 4$", "$x = 3$", "$x = -4$", "$x = 2$"], "answer": 0, "hint": "$4x - 2x = 1 + 7 \\Rightarrow 2x = 8 \\Rightarrow x = 4$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Tính $\\dfrac{3}{x} + \\dfrac{4}{x}$ (với $x \\neq 0$):", "options": ["$\\dfrac{7}{x}$", "$\\dfrac{7}{2x}$", "$\\dfrac{12}{x}$", "$\\dfrac{7}{x^2}$"], "answer": 0 },
+    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định:", "statements": [
+      { "text": "$x = 2$ là nghiệm của phương trình $x - 2 = 0$.", "answer": true },
+      { "text": "Đường thẳng $y = 3x$ đi qua gốc tọa độ.", "answer": true },
+      { "text": "Phương trình $0x = 7$ có nghiệm.", "answer": false },
+      { "text": "Hàm số $y = 2x + 1$ là hàm số đồng biến.", "answer": true }
+    ] },
+    { "type": "fill-blank", "level": "TH", "question": "Giải phương trình $2(x + 3) = 16$. Nghiệm $x = $ ___", "answer": "5", "hint": "$2x + 6 = 16 \\Rightarrow 2x = 10 \\Rightarrow x = 5$." },
+    { "type": "multiple-choice", "level": "TH", "question": "Cho $\\triangle ABC \\sim \\triangle MNP$ với $\\dfrac{AB}{MN} = 3$. Nếu $AB = 9$ cm thì $MN = $", "options": ["$3$ cm", "$27$ cm", "$6$ cm", "$12$ cm"], "answer": 0, "hint": "$MN = \\dfrac{AB}{3} = 3$ cm." },
+    { "type": "fill-blank", "level": "VD", "question": "Một xe đi $180$ km với vận tốc $60$ km/h. Thời gian đi hết quãng đường là ___ giờ. (180 : 60 = ?)", "answer": "3", "hint": "$t = \\dfrac{s}{v} = \\dfrac{180}{60} = 3$." },
+    { "type": "multiple-choice", "level": "VD", "question": "Đường thẳng $y = 2x - 3$ cắt trục tung tại điểm có tung độ bằng:", "options": ["$-3$", "$2$", "$3$", "$0$"], "answer": 0, "hint": "Cho $x = 0$ thì $y = -3$." },
+    { "type": "fill-blank", "level": "VD", "question": "Theo định lí Thalès: $\\dfrac{x}{10} = \\dfrac{3}{5}$. Giá trị của $x$ là ___", "answer": "6", "hint": "$x = \\dfrac{10 \\times 3}{5} = 6$." },
+    { "type": "fill-blank", "level": "VDC", "question": "Hai số có tổng bằng $40$, biết số lớn gấp $3$ lần số bé. Số bé là ___", "answer": "10", "hint": "Gọi số bé là $a$; $a + 3a = 40 \\Rightarrow a = 10$." },
+    { "type": "multiple-choice", "level": "VDC", "question": "Đường thẳng $y = ax + b$ đi qua hai điểm $(0; -1)$ và $(2; 3)$. Giá trị của $a$ và $b$ là:", "options": ["$a = 2,\\ b = -1$", "$a = -1,\\ b = 2$", "$a = 3,\\ b = -1$", "$a = 2,\\ b = 1$"], "answer": 0, "hint": "Tại $(0; -1)$: $b = -1$; tại $(2; 3)$: $2a + b = 3 \\Rightarrow a = 2$." }
+  ]
+}

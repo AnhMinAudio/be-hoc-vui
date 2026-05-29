@@ -1,0 +1,128 @@
+{
+  "id": "tv-l2-de-thi-thu-cuoi-ky-2",
+  "subject": "tieng-viet",
+  "grade": 2,
+  "topic": "Đề thi thử cuối học kỳ 2 — Tiếng Việt 2 (bấm giờ)",
+  "difficulty": 2,
+  "timeLimit": 35,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": ["cánh đồng", "gặt hái", "vàng óng", "chăm chỉ"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": ["cày ruộng", "bác nông dân", "mệt nhọc", "to lớn"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đặc điểm?",
+      "options": ["thơm ngát", "trồng cây", "bông lúa", "con bò"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Bác nông dân chăm chỉ làm việc.' thuộc mẫu câu nào?",
+      "options": ["Ai làm gì?", "Ai là gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu thích hợp vào cuối câu: Cánh đồng đẹp quá___",
+      "answer": "!",
+      "alternatives": ["dấu chấm than"],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Lúa chín vàng cả cánh đồng.' thuộc mẫu câu nào?",
+      "options": ["Ai thế nào?", "Ai làm gì?", "Ai là gì?", "Khi nào?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào KHÔNG cùng nhóm với 'cuốc, cày, liềm, bừa'?",
+      "options": ["bút mực", "cái cào", "cái xẻng", "cái cuốc"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ so sánh thích hợp: Cánh đồng rộng ___ một tấm thảm vàng.",
+      "answer": "như",
+      "alternatives": ["tựa", "như là"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ trái nghĩa với 'chăm chỉ' là:",
+      "options": ["lười biếng", "siêng năng", "cần cù", "chịu khó"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối mùa với đặc điểm thời tiết",
+      "pairs": [
+        ["mùa xuân", "ấm áp"],
+        ["mùa hè", "nóng bức"],
+        ["mùa đông", "lạnh giá"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dấu chấm được dùng để làm gì?",
+      "options": ["kết thúc câu kể", "dùng để hỏi", "ngăn cách các từ", "bộc lộ cảm xúc"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Em là học sinh lớp 2.' thuộc mẫu câu nào?",
+      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trên cánh đồng, bác nông dân đang gặt lúa. Những bông lúa chín vàng trĩu hạt. Đàn cò trắng bay lượn trên bầu trời xanh.",
+      "question": "Bác nông dân đang làm gì?",
+      "options": ["gặt lúa", "cấy lúa", "tưới rau", "bắt cá"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trên cánh đồng, bác nông dân đang gặt lúa. Những bông lúa chín vàng trĩu hạt. Đàn cò trắng bay lượn trên bầu trời xanh.",
+      "question": "Những bông lúa như thế nào?",
+      "options": ["chín vàng trĩu hạt", "còn xanh non", "khô héo", "vừa mới cấy"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trên cánh đồng, bác nông dân đang gặt lúa. Những bông lúa chín vàng trĩu hạt. Đàn cò trắng bay lượn trên bầu trời xanh.",
+      "question": "Đàn cò có màu gì?",
+      "options": ["trắng", "đen", "vàng", "nâu"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ 'trĩu' (trĩu hạt) gợi tả điều gì?",
+      "options": ["nặng, sai hạt", "nhẹ tênh", "khô cằn", "xanh tươi"],
+      "answer": 0,
+      "level": "M2"
+    }
+  ]
+}

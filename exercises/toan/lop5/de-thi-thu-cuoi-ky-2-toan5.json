@@ -1,0 +1,131 @@
+{
+  "id": "toan-l5-de-thi-thu-cuoi-ky-2",
+  "subject": "toan",
+  "grade": 5,
+  "topic": "Đề thi thử cuối học kỳ 2 — Toán 5 (bấm giờ)",
+  "difficulty": 3,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Số 'mười hai phẩy năm' được viết là:",
+      "options": ["12,5", "12,05", "125", "1,25"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "3,6 + 2,5 = ___",
+      "answer": "6,1",
+      "alternatives": ["6.1"],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "9,8 - 4,3 = ___",
+      "answer": "5,5",
+      "alternatives": ["5.5"],
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "2,5 × 4 = ___",
+      "answer": "10",
+      "alternatives": ["10,0", "10.0"],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "7,2 : 3 = ___",
+      "answer": "2,4",
+      "alternatives": ["2.4"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "25% của 200 là bao nhiêu?",
+      "options": ["50", "25", "75", "100"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "25% của 200 là 200 × 25 : 100."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Diện tích hình tam giác có đáy 8 cm, chiều cao 5 cm là:",
+      "options": ["20 cm²", "40 cm²", "13 cm²", "26 cm²"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Diện tích tam giác = đáy × chiều cao : 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Thể tích hình hộp chữ nhật có chiều dài 4 cm, rộng 3 cm, cao 2 cm là:",
+      "options": ["24 cm³", "9 cm³", "12 cm³", "48 cm³"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Thể tích = dài × rộng × cao = 4 × 3 × 2."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Đổi đơn vị đo: 3 m = ___ cm",
+      "answer": "300",
+      "level": "M1",
+      "hint": "1 m = 100 cm."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "So sánh 0,9 và 0,89:",
+      "options": ["0,9 > 0,89", "0,9 < 0,89", "0,9 = 0,89", "Không so sánh được"],
+      "answer": 0,
+      "level": "M1",
+      "hint": "0,9 = 0,90 nên 0,90 > 0,89."
+    },
+    {
+      "type": "matching",
+      "question": "Nối số thập phân với phân số tương ứng",
+      "pairs": [
+        ["0,5", "một nửa"],
+        ["0,25", "một phần tư"],
+        ["0,1", "một phần mười"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một ô tô đi được 150 km trong 3 giờ. Vận tốc của ô tô là ___ km/giờ. (150 : 3 = ?)",
+      "answer": "50",
+      "level": "M3",
+      "hint": "Vận tốc = quãng đường : thời gian."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một thửa ruộng hình chữ nhật dài 30 m, rộng 20 m. Diện tích thửa ruộng là ___ m². (30 × 20 = ?)",
+      "answer": "600",
+      "level": "M3",
+      "hint": "Diện tích hình chữ nhật bằng dài nhân rộng."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chu vi hình tròn có đường kính 10 cm (lấy π = 3,14) là:",
+      "options": ["31,4 cm", "15,7 cm", "314 cm", "10 cm"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Chu vi hình tròn = đường kính × 3,14."
+    },
+    {
+      "type": "fill-blank",
+      "question": "6,5 + 3,5 = ___",
+      "answer": "10",
+      "alternatives": ["10,0", "10.0"],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một lớp có 40 học sinh, trong đó 60% đạt khá, giỏi. Số học sinh khá, giỏi là:",
+      "options": ["24 học sinh", "60 học sinh", "40 học sinh", "20 học sinh"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Tìm 60% của 40: lấy 40 × 60 : 100."
+    }
+  ]
+}
