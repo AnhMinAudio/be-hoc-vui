@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T01:11:19.647Z",
+  "generatedAt": "2026-05-29T01:46:24.732Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -792,6 +792,19 @@
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-nguvan6.json"
     },
     {
+      "id": "thcs-tv-l6-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 6,
+      "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 6",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop6/de-on-tap-giua-ky-1-nguvan6.json"
+    },
+    {
       "id": "thcs-tv-l6-tu-loai-va-bien-phap-tu-tu",
       "stage": "thcs",
       "subject": "ngu-van",
@@ -816,6 +829,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-nguvan7.json"
+    },
+    {
+      "id": "thcs-tv-l7-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 7,
+      "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 7",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop7/de-on-tap-giua-ky-1-nguvan7.json"
     },
     {
       "id": "thcs-tv-l7-tu-han-viet-va-tu-tu",
@@ -855,6 +881,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-1-nguvan8.json"
+    },
+    {
+      "id": "thcs-tv-l8-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "ngu-van",
+      "grade": 8,
+      "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 8",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 18,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop8/de-on-tap-giua-ky-1-nguvan8.json"
     },
     {
       "id": "thcs-tv-l9-hoi-thoai-va-nghia",
@@ -1287,6 +1326,19 @@
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-tienganh6.json"
     },
     {
+      "id": "thcs-ta-l6-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 6,
+      "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 6",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop6/de-on-tap-giua-ky-1-tienganh6.json"
+    },
+    {
       "id": "thcs-ta-l6-present-simple",
       "stage": "thcs",
       "subject": "tieng-anh",
@@ -1313,6 +1365,19 @@
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-tienganh7.json"
     },
     {
+      "id": "thcs-ta-l7-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 7,
+      "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 7",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop7/de-on-tap-giua-ky-1-tienganh7.json"
+    },
+    {
       "id": "thcs-ta-l7-past-simple-comparatives",
       "stage": "thcs",
       "subject": "tieng-anh",
@@ -1337,6 +1402,19 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-1-tienganh8.json"
+    },
+    {
+      "id": "thcs-ta-l8-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "tieng-anh",
+      "grade": 8,
+      "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 8",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop8/de-on-tap-giua-ky-1-tienganh8.json"
     },
     {
       "id": "thcs-ta-l8-present-perfect",
@@ -2351,6 +2429,28 @@
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-toan6.json"
     },
     {
+      "id": "thcs-toan-l6-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 6,
+      "topic": "Ôn tập giữa học kỳ 1 — Toán 6",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "T6-STN-1",
+        "T6-STN-2",
+        "T6-STN-4",
+        "T6-STN-5",
+        "T6-CH-1",
+        "T6-CH-2",
+        "T6-CH-3",
+        "T6-CH-4"
+      ],
+      "timeLimit": null,
+      "path": "thcs/lop6/de-on-tap-giua-ky-1-toan6.json"
+    },
+    {
       "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
       "stage": "thcs",
       "subject": "toan",
@@ -2366,6 +2466,23 @@
       ],
       "timeLimit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-toan7.json"
+    },
+    {
+      "id": "thcs-toan-l7-on-tap-giua-ky-1",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 7,
+      "topic": "Ôn tập giữa học kỳ 1 — Toán 7",
+      "chapter": "Ôn tập giữa kỳ 1",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Số hữu tỉ: biểu diễn, so sánh, cộng, trừ, nhân, chia",
+        "Lũy thừa của một số hữu tỉ, thứ tự thực hiện phép tính",
+        "Góc kề bù, góc đối đỉnh"
+      ],
+      "timeLimit": null,
+      "path": "thcs/lop7/de-on-tap-giua-ky-1-toan7.json"
     },
     {
       "id": "thcs-toan-l7-so-huu-ti-va-bieu-thuc",

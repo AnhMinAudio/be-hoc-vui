@@ -1,0 +1,253 @@
+{
+  "id": "thcs-tv-l7-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 7,
+  "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 7",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Thơ bốn chữ là thể thơ có đặc điểm nào sau đây?",
+      "options": [
+        "Mỗi dòng thơ gồm bốn chữ (bốn tiếng)",
+        "Mỗi dòng thơ gồm năm chữ",
+        "Mỗi dòng thơ gồm sáu chữ",
+        "Số chữ trong mỗi dòng không cố định"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Tên gọi cho biết số tiếng trên mỗi dòng"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hạt mưa rơi nhẹ\nGõ cửa từng nhà\nLá xanh reo ca\nChào ngày nắng mới.",
+      "question": "Đoạn thơ trên được viết theo thể thơ nào?",
+      "options": [
+        "Bốn chữ",
+        "Năm chữ",
+        "Lục bát",
+        "Tự do"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Hãy đếm số tiếng trong mỗi dòng"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hạt mưa rơi nhẹ\nGõ cửa từng nhà\nLá xanh reo ca\nChào ngày nắng mới.",
+      "question": "Trong đoạn thơ, các sự vật \"hạt mưa\", \"lá xanh\" được miêu tả bằng biện pháp tu từ nào?",
+      "options": [
+        "Nhân hóa",
+        "So sánh",
+        "Nói quá",
+        "Hoán dụ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Mưa biết \"gõ cửa\", lá biết \"reo ca\", \"chào\" như con người"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hạt mưa rơi nhẹ\nGõ cửa từng nhà\nLá xanh reo ca\nChào ngày nắng mới.",
+      "question": "Cảm xúc chủ đạo mà đoạn thơ gợi lên là gì?",
+      "options": [
+        "Niềm vui tươi, trong trẻo trước thiên nhiên buổi sáng",
+        "Nỗi buồn cô đơn, lạnh lẽo",
+        "Sự sợ hãi trước cơn bão",
+        "Sự tức giận, bực bội"
+      ],
+      "answer": 0,
+      "level": "VDC",
+      "hint": "Hình ảnh mưa nhẹ, lá reo ca, ngày nắng mới đều tươi sáng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ ghép?",
+      "options": [
+        "Bàn ghế",
+        "Lung linh",
+        "Thì thầm",
+        "Lác đác"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ ghép gồm các tiếng có quan hệ về nghĩa"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ láy?",
+      "options": [
+        "Mênh mông",
+        "Sách vở",
+        "Nhà cửa",
+        "Cây cối"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ láy có sự lặp lại âm giữa các tiếng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ láy \"xanh xanh\" thuộc loại từ láy nào?",
+      "options": [
+        "Láy toàn bộ",
+        "Láy bộ phận (láy âm đầu)",
+        "Láy bộ phận (láy vần)",
+        "Từ ghép"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Hai tiếng lặp lại hoàn toàn giống nhau"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Từ phức được tạo ra bằng cách ghép các tiếng có quan hệ với nhau về nghĩa được gọi là từ ___.",
+      "answer": "ghép",
+      "alternatives": [
+        "từ ghép"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: bàn ghế, hoa hồng, ông bà"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Em vẫn đang làm bài tập\", từ \"đang\" là phó từ chỉ ý nghĩa gì?",
+      "options": [
+        "Quan hệ thời gian (hành động đang diễn ra)",
+        "Mức độ",
+        "Sự phủ định",
+        "Sự cầu khiến"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"đang\" cho biết việc làm bài còn đang tiếp diễn"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Bức tranh này rất đẹp\", phó từ \"rất\" bổ sung ý nghĩa gì cho từ \"đẹp\"?",
+      "options": [
+        "Mức độ",
+        "Thời gian",
+        "Số lượng",
+        "Sự tiếp diễn"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"rất\" cho biết mức độ đẹp cao"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trong câu \"Trời chưa sáng hẳn\", từ \"chưa\" là một ___ từ chỉ sự phủ định.",
+      "answer": "phó",
+      "alternatives": [
+        "phó từ"
+      ],
+      "level": "NB",
+      "hint": "Loại từ chuyên đi kèm động từ, tính từ để bổ sung ý nghĩa"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê hương mỗi người chỉ một\nNhư là chỉ một mẹ thôi\nQuê hương nếu ai không nhớ\nSẽ không lớn nổi thành người.",
+      "question": "Hai dòng thơ đầu sử dụng biện pháp tu từ nào khi nói \"Quê hương... Như là chỉ một mẹ thôi\"?",
+      "options": [
+        "So sánh",
+        "Điệp ngữ",
+        "Nói quá",
+        "Hoán dụ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Chú ý từ \"như là\" nối hai sự vật"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Quê hương mỗi người chỉ một\nNhư là chỉ một mẹ thôi\nQuê hương nếu ai không nhớ\nSẽ không lớn nổi thành người.",
+      "question": "Việc lặp lại từ \"quê hương\" ở đầu các dòng thơ là biện pháp tu từ gì?",
+      "options": [
+        "Điệp ngữ",
+        "So sánh",
+        "Nhân hóa",
+        "Ẩn dụ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Lặp lại từ ngữ nhằm nhấn mạnh và tạo nhịp điệu"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp tu từ lặp đi lặp lại một từ ngữ nhằm làm nổi bật ý, gây cảm xúc mạnh được gọi là ___.",
+      "answer": "điệp ngữ",
+      "alternatives": [
+        "phép điệp ngữ",
+        "biện pháp điệp ngữ",
+        "điệp từ"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: \"Học, học nữa, học mãi\""
+    },
+    {
+      "type": "true-false-group",
+      "question": "Đọc đoạn thơ sau và cho biết mỗi nhận định là Đúng hay Sai: \"Trăng ơi từ đâu đến? / Hay từ cánh rừng xa / Trăng hồng như quả chín / Lửng lơ lên trước nhà.\"",
+      "statements": [
+        {
+          "text": "Đoạn thơ được viết theo thể thơ năm chữ.",
+          "answer": true
+        },
+        {
+          "text": "Câu \"Trăng hồng như quả chín\" sử dụng biện pháp so sánh.",
+          "answer": true
+        },
+        {
+          "text": "Cách gọi \"Trăng ơi\" và hỏi trăng thể hiện biện pháp nhân hóa.",
+          "answer": true
+        },
+        {
+          "text": "Đoạn thơ chủ yếu sử dụng biện pháp nói quá.",
+          "answer": false
+        }
+      ],
+      "level": "VD",
+      "hint": "Đếm số tiếng mỗi dòng; trò chuyện với trăng như với người là nhân hóa"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với loại cấu tạo từ phù hợp:",
+      "pairs": [
+        [
+          "ông bà",
+          "từ ghép"
+        ],
+        [
+          "rì rào",
+          "từ láy"
+        ],
+        [
+          "núi",
+          "từ đơn"
+        ]
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với biện pháp tu từ được sử dụng:",
+      "pairs": [
+        [
+          "Cánh diều no gió bay cao",
+          "nhân hóa"
+        ],
+        [
+          "Tóc bà trắng như mây",
+          "so sánh"
+        ],
+        [
+          "Nhớ ai, nhớ mãi, nhớ hoài",
+          "điệp ngữ"
+        ]
+      ],
+      "level": "VD"
+    }
+  ]
+}

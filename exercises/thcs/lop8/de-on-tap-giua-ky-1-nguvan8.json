@@ -1,0 +1,265 @@
+{
+  "id": "thcs-tv-l8-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 8,
+  "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 8",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Thơ trào phúng là loại thơ chủ yếu nhằm mục đích gì?",
+      "options": [
+        "Dùng tiếng cười để châm biếm, phê phán thói hư tật xấu",
+        "Ca ngợi vẻ đẹp thiên nhiên",
+        "Bày tỏ tình yêu đôi lứa",
+        "Ghi lại sự kiện lịch sử một cách trang trọng"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "\"Trào phúng\" gắn với tiếng cười phê phán, mỉa mai"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Yếu tố nào dưới đây thường tạo nên tiếng cười trong văn, thơ trào phúng?",
+      "options": [
+        "Sự đối lập, mâu thuẫn giữa cái đáng cười và cái chuẩn mực",
+        "Lời lẽ trang nghiêm, mực thước",
+        "Hình ảnh thiên nhiên hùng vĩ",
+        "Nhịp thơ chậm rãi, du dương"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Tiếng cười bật ra khi cái lố bịch bị phơi bày trái với lẽ thường"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Ngay cả em bé cũng giải được bài toán này\", từ \"ngay cả\" là gì?",
+      "options": [
+        "Trợ từ (nhấn mạnh)",
+        "Thán từ",
+        "Quan hệ từ",
+        "Phó từ chỉ thời gian"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Trợ từ dùng để nhấn mạnh, biểu thị thái độ đánh giá"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ \"những\" trong câu \"Nó ăn những ba bát cơm\" có vai trò gì?",
+      "options": [
+        "Trợ từ nhấn mạnh, đánh giá số lượng là nhiều",
+        "Thán từ bộc lộ cảm xúc",
+        "Số từ chỉ số lượng chính xác",
+        "Quan hệ từ"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"những\" ở đây tỏ ý ngạc nhiên vì ăn nhiều"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Những từ chuyên đi kèm một từ ngữ trong câu để nhấn mạnh hoặc biểu thị thái độ đánh giá (như: chính, ngay, những, đích thị) được gọi là ___.",
+      "answer": "trợ từ",
+      "alternatives": [
+        "trợ từ"
+      ],
+      "level": "NB",
+      "hint": "Khác với thán từ (bộc lộ cảm xúc, gọi đáp)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Này, cậu có nghe thấy gì không?\", từ \"Này\" là thán từ dùng để làm gì?",
+      "options": [
+        "Gọi đáp (gây sự chú ý)",
+        "Bộc lộ sự đau buồn",
+        "Nhấn mạnh số lượng",
+        "Phủ định sự việc"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Thán từ gồm hai nhóm: bộc lộ cảm xúc và gọi đáp"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Những từ dùng để bộc lộ cảm xúc (ôi, chao ôi, trời ơi) hoặc để gọi đáp (này, vâng, dạ) được gọi là ___.",
+      "answer": "thán từ",
+      "alternatives": [
+        "thán từ"
+      ],
+      "level": "NB",
+      "hint": "Thường đứng đầu câu, có thể tách thành câu riêng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ tượng hình?",
+      "options": [
+        "Khẳng khiu",
+        "Ríu rít",
+        "Ầm ầm",
+        "Leng keng"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ tượng hình gợi tả hình ảnh, dáng vẻ"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào sau đây là từ tượng thanh?",
+      "options": [
+        "Tích tắc",
+        "Khẳng khiu",
+        "Lênh khênh",
+        "Mấp mô"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ tượng thanh mô phỏng âm thanh"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Những từ mô phỏng âm thanh của tự nhiên, của con người (như: ào ào, tích tắc, róc rách) được gọi là từ ___.",
+      "answer": "tượng thanh",
+      "alternatives": [
+        "từ tượng thanh"
+      ],
+      "level": "NB",
+      "hint": "Khác với từ tượng hình (gợi tả hình ảnh, dáng vẻ)"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Đẹp vô cùng, Tổ quốc ta ơi!\nRừng cọ đồi chè, đồng xanh ngào ngạt.",
+      "question": "Câu thơ \"Đẹp vô cùng, Tổ quốc ta ơi!\" sử dụng biện pháp tu từ cú pháp nào?",
+      "options": [
+        "Đảo ngữ",
+        "Điệp ngữ",
+        "Liệt kê",
+        "Nói giảm nói tránh"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Bộ phận vị ngữ \"đẹp vô cùng\" được đảo lên trước chủ ngữ"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Đẹp vô cùng, Tổ quốc ta ơi!\nRừng cọ đồi chè, đồng xanh ngào ngạt.",
+      "question": "Tác dụng của phép đảo ngữ trong câu thơ đầu là gì?",
+      "options": [
+        "Nhấn mạnh, bộc lộ trực tiếp niềm tự hào về vẻ đẹp Tổ quốc",
+        "Liệt kê các loài cây",
+        "Tạo cảm giác buồn bã",
+        "Đặt câu hỏi cho người đọc"
+      ],
+      "answer": 0,
+      "level": "VDC",
+      "hint": "Đưa \"đẹp vô cùng\" lên đầu để tô đậm cảm xúc ngợi ca"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp tu từ thay đổi trật tự thông thường của các thành phần câu (ví dụ đưa vị ngữ lên trước chủ ngữ) nhằm nhấn mạnh được gọi là ___.",
+      "answer": "đảo ngữ",
+      "alternatives": [
+        "phép đảo ngữ",
+        "biện pháp đảo ngữ"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: \"Lom khom dưới núi tiều vài chú\""
+    },
+    {
+      "type": "true-false-group",
+      "question": "Đọc câu văn sau và cho biết mỗi nhận định là Đúng hay Sai: \"Chao ôi, con đường gập ghềnh, lầy lội kéo dài hun hút trước mắt!\"",
+      "statements": [
+        {
+          "text": "Từ \"Chao ôi\" trong câu là một thán từ bộc lộ cảm xúc.",
+          "answer": true
+        },
+        {
+          "text": "Các từ \"gập ghềnh\", \"lầy lội\", \"hun hút\" là từ tượng hình.",
+          "answer": true
+        },
+        {
+          "text": "Câu văn không sử dụng từ tượng thanh nào.",
+          "answer": true
+        },
+        {
+          "text": "Từ \"Chao ôi\" trong câu là một trợ từ.",
+          "answer": false
+        }
+      ],
+      "level": "VD",
+      "hint": "Phân biệt thán từ (cảm xúc) với trợ từ (nhấn mạnh); các từ gợi hình là tượng hình"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Nhà thơ Tú Xương viết về cảnh học hành thi cử đương thời bằng giọng điệu mỉa mai. Ông cười chính mình, cười cả cái xã hội trọng đồng tiền mà coi nhẹ tài năng. Tiếng cười ấy chua chát mà thấm thía.",
+      "question": "Đoạn văn cho biết giọng điệu chủ đạo trong thơ Tú Xương được nói tới là gì?",
+      "options": [
+        "Mỉa mai, trào phúng",
+        "Trang trọng, ngợi ca",
+        "Buồn thương, bi lụy",
+        "Hồn nhiên, vui tươi"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Đọc câu đầu và cụm từ \"giọng điệu mỉa mai\""
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Nhà thơ Tú Xương viết về cảnh học hành thi cử đương thời bằng giọng điệu mỉa mai. Ông cười chính mình, cười cả cái xã hội trọng đồng tiền mà coi nhẹ tài năng. Tiếng cười ấy chua chát mà thấm thía.",
+      "question": "Vì sao đoạn văn nói tiếng cười của Tú Xương \"chua chát mà thấm thía\"?",
+      "options": [
+        "Vì đằng sau tiếng cười là nỗi đau và sự phê phán xã hội sâu sắc",
+        "Vì nhà thơ cười vô cớ, không có ý nghĩa",
+        "Vì đó là tiếng cười vui vẻ, sảng khoái",
+        "Vì nhà thơ chỉ muốn gây cười giải trí"
+      ],
+      "answer": 0,
+      "level": "VD",
+      "hint": "Tiếng cười trào phúng thường ẩn chứa thái độ phê phán và nỗi niềm"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với loại từ tượng hình / tượng thanh phù hợp:",
+      "pairs": [
+        [
+          "lảo đảo",
+          "tượng hình"
+        ],
+        [
+          "ục ục",
+          "tượng thanh"
+        ],
+        [
+          "chót vót",
+          "tượng hình"
+        ],
+        [
+          "rì rầm",
+          "tượng thanh"
+        ]
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối câu với hiện tượng ngôn ngữ tương ứng:",
+      "pairs": [
+        [
+          "Chao ôi, cảnh đẹp quá!",
+          "thán từ"
+        ],
+        [
+          "Chính nó đã nói với tôi điều đó.",
+          "trợ từ"
+        ],
+        [
+          "Sừng sững giữa trời một ngọn núi.",
+          "đảo ngữ"
+        ]
+      ],
+      "level": "VD"
+    }
+  ]
+}

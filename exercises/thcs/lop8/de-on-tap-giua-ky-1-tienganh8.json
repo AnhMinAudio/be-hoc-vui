@@ -1,0 +1,237 @@
+{
+  "id": "thcs-ta-l8-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 8,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 8",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Many teenagers spend their free time ___ social media on their phones.' (Chọn từ vựng đúng về hoạt động giải trí)",
+      "options": [
+        "using",
+        "growing",
+        "feeding",
+        "ploughing"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'In the countryside, farmers grow rice in large green ___.' (Chọn từ vựng đúng về nông thôn)",
+      "options": [
+        "fields",
+        "screens",
+        "cinemas",
+        "websites"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb form: 'My friends adore ___ board games together at the weekend.' (Chọn dạng động từ đúng sau 'adore')",
+      "options": [
+        "play",
+        "plays",
+        "playing",
+        "to playing"
+      ],
+      "answer": 2,
+      "hint": "Sau adore/enjoy/love dùng V-ing"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct comparative: 'A buffalo works ___ than a small dog on the farm.' (Chọn dạng so sánh hơn đúng của trạng từ 'hard')",
+      "options": [
+        "hard",
+        "harder",
+        "hardest",
+        "more hard"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Children in the village like ___ kites on windy afternoons.' (Chọn động từ đúng nghĩa 'thả diều')",
+      "options": [
+        "flying",
+        "reading",
+        "writing",
+        "cooking"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb form: 'We have decided ___ a vegetable garden behind the house.' (Chọn dạng động từ đúng sau 'decide')",
+      "options": [
+        "grow",
+        "growing",
+        "to grow",
+        "grew"
+      ],
+      "answer": 2,
+      "hint": "Sau 'decide' dùng to-V"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct verb form: 'My father prefers ___ in the garden to watching TV.' (Chọn dạng động từ đúng sau 'prefer ... to ...')",
+      "options": [
+        "work",
+        "working",
+        "to work",
+        "works"
+      ],
+      "answer": 1,
+      "hint": "Cấu trúc 'prefer V-ing to V-ing'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct comparative adverb: 'In the countryside, people often live ___ than in the city.' (Chọn dạng so sánh hơn đúng của trạng từ 'happily')",
+      "options": [
+        "happily",
+        "happier",
+        "more happily",
+        "most happily"
+      ],
+      "answer": 2,
+      "hint": "Trạng từ tận cùng '-ly' dùng 'more ... than'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete with a comparative: 'Riding a horse is ___ (exciting) than walking.' (Điền dạng so sánh hơn của tính từ dài 'exciting'): ___",
+      "answer": "more exciting",
+      "alternatives": [
+        "More exciting",
+        "MORE EXCITING"
+      ],
+      "hint": "Tính từ dài: more + adjective + than"
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete with the correct verb form: 'She avoids ___ (eat) too much fast food.' (Điền dạng đúng của 'eat' sau 'avoid'): ___",
+      "answer": "eating",
+      "alternatives": [
+        "Eating",
+        "EATING"
+      ],
+      "hint": "Sau 'avoid' dùng V-ing"
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Match each leisure activity with its Vietnamese meaning (Nối hoạt động giải trí với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "window shopping",
+          "đi ngắm đồ trong cửa hàng"
+        ],
+        [
+          "people-watching",
+          "ngắm người qua lại"
+        ],
+        [
+          "doing DIY",
+          "tự làm đồ thủ công"
+        ],
+        [
+          "hanging out",
+          "đi chơi cùng bạn bè"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "VD",
+      "question": "Match each verb of liking with the correct verb form after it (Nối động từ chỉ sở thích/ý muốn với dạng động từ đúng theo sau)",
+      "pairs": [
+        [
+          "want",
+          "to relax"
+        ],
+        [
+          "enjoy",
+          "relaxing"
+        ],
+        [
+          "would like",
+          "to relax"
+        ],
+        [
+          "fancy",
+          "relaxing"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete the comparison of nouns: 'The village has ___ (few) factories than the town.' (Điền dạng so sánh 'ít hơn' của 'few' với danh từ đếm được số nhiều): ___",
+      "answer": "fewer",
+      "alternatives": [
+        "Fewer",
+        "FEWER"
+      ],
+      "hint": "Danh từ đếm được số nhiều dùng 'fewer ... than'"
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Read the passage and decide if each statement is True or False (Đọc đoạn văn và xác định mỗi nhận định Đúng hay Sai): 'Minh is a city boy who visits his grandparents' farm every summer. He loves feeding the chickens and riding the buffalo. He thinks farm work is harder than his hobbies at home, but it is more interesting. Minh believes the air in the countryside is fresher than in the city, so he sleeps better there.'",
+      "statements": [
+        {
+          "text": "Minh visits the farm every summer. (Minh về thăm trang trại mỗi mùa hè.)",
+          "answer": true
+        },
+        {
+          "text": "Minh dislikes feeding the chickens. (Minh ghét cho gà ăn.)",
+          "answer": false
+        },
+        {
+          "text": "Minh thinks farm work is more interesting. (Minh thấy việc nhà nông thú vị hơn.)",
+          "answer": true
+        },
+        {
+          "text": "Minh sleeps worse in the countryside. (Minh ngủ tệ hơn ở nông thôn.)",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Choose the sentence with the SAME meaning as: 'The town is not as peaceful as the village.' (Chọn câu có cùng nghĩa)",
+      "options": [
+        "The village is more peaceful than the town.",
+        "The village is less peaceful than the town.",
+        "The town is the most peaceful place.",
+        "The town and the village are equally peaceful."
+      ],
+      "answer": 0,
+      "hint": "'A is not as ... as B' nghĩa là 'B hơn A'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Rewrite without changing the meaning: 'Living in the city is more stressful than living in the countryside.' -> 'Living in the countryside is ___ (stressful) than living in the city.' (Điền dạng so sánh 'ít ... hơn' của tính từ dài 'stressful'): ___",
+      "answer": "less stressful",
+      "alternatives": [
+        "Less stressful",
+        "LESS STRESSFUL"
+      ],
+      "hint": "'thành phố căng thẳng hơn' = 'nông thôn ít căng thẳng hơn' → less + adjective"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "thcs-ta-l6-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 6,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 6",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'I wear a school ___ with a blue shirt every day.' (Chọn từ vựng đúng về trường học)",
+      "options": [
+        "uniform",
+        "fridge",
+        "garden",
+        "village"
+      ],
+      "answer": 0,
+      "hint": "'school ___' là bộ đồng phục đi học"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Students play and run in the ___ during the break.' (Chọn từ vựng đúng về khu vực trong trường)",
+      "options": [
+        "kitchen",
+        "playground",
+        "wardrobe",
+        "balcony"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct demonstrative: '___ books here are mine.' (Chọn từ chỉ định đúng cho danh từ số nhiều ở gần)",
+      "options": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
+      "answer": 2,
+      "hint": "Số nhiều + ở gần dùng 'these'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct demonstrative: '___ house over there is very big.' (Chọn từ chỉ định đúng cho danh từ số ít ở xa)",
+      "options": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
+      "answer": 1,
+      "hint": "Số ít + ở xa ('over there') dùng 'that'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb: 'My new school ___ a large library and a gym.' (Chọn động từ đúng ở hiện tại đơn với chủ ngữ số ít)",
+      "options": [
+        "have",
+        "has",
+        "having",
+        "to have"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct preposition: 'The lamp is ___ the desk, next to the books.' (Chọn giới từ chỉ vị trí 'phía trên/trên mặt')",
+      "options": [
+        "under",
+        "on",
+        "between",
+        "behind"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct word: 'How many ___ are there in your classroom?' (Chọn dạng danh từ đúng sau 'How many')",
+      "options": [
+        "desk",
+        "a desk",
+        "desks",
+        "the desk"
+      ],
+      "answer": 2,
+      "hint": "Sau 'How many' dùng danh từ số nhiều"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct sentence: 'My sister ___ her bedroom every Sunday.' (Chọn dạng động từ đúng ở hiện tại đơn, ngôi thứ ba số ít với '-y')",
+      "options": [
+        "tidy",
+        "tidys",
+        "tidies",
+        "tidying"
+      ],
+      "answer": 2,
+      "hint": "Phụ âm + 'y' đổi thành 'ies'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete with 'is' or 'are': 'There ___ a poster and two clocks on the wall.' (Điền 'is' hoặc 'are' — chia theo danh từ đứng ngay sau 'there'): ___",
+      "answer": "is",
+      "alternatives": [
+        "Is",
+        "IS"
+      ],
+      "hint": "Khi liệt kê, 'there' chia theo danh từ đầu tiên ('a poster')"
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the question: '___ does your school start? - At seven o'clock.' (Điền từ để hỏi về thời gian): ___",
+      "answer": "When",
+      "alternatives": [
+        "when",
+        "WHEN",
+        "What time"
+      ],
+      "hint": "Hỏi về thời điểm dùng 'When' (hoặc 'What time')"
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Match each place at school with the right activity (Nối nơi ở trường với hoạt động phù hợp)",
+      "pairs": [
+        [
+          "library",
+          "read and borrow books"
+        ],
+        [
+          "computer room",
+          "use computers"
+        ],
+        [
+          "gym",
+          "do exercise"
+        ],
+        [
+          "canteen",
+          "buy food and drinks"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "VD",
+      "question": "Match each piece of furniture with the room it usually belongs to (Nối đồ vật với căn phòng thường đặt nó)",
+      "pairs": [
+        [
+          "wardrobe",
+          "bedroom"
+        ],
+        [
+          "cooker",
+          "kitchen"
+        ],
+        [
+          "armchair",
+          "living room"
+        ],
+        [
+          "mirror",
+          "bathroom"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete with the correct preposition of place: 'The school gate is ___ to the bus stop, so it is very easy to find.' (Điền giới từ chỉ vị trí 'ngay cạnh/kế bên'): ___",
+      "answer": "next",
+      "alternatives": [
+        "Next",
+        "NEXT"
+      ],
+      "hint": "'___ to' nghĩa là 'kế bên', ví dụ 'next to'"
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Read the passage and decide if each statement is True or False (Đọc đoạn văn và xác định mỗi nhận định Đúng hay Sai): 'An is in Grade 6 at a new school in the city. There are twenty classrooms and a big sports yard. An walks to school because it is near her flat. Her flat has three rooms: a living room, a kitchen and one bedroom. She shares the bedroom with her younger sister.'",
+      "statements": [
+        {
+          "text": "An's school has twenty classrooms. (Trường của An có hai mươi phòng học.)",
+          "answer": true
+        },
+        {
+          "text": "An goes to school by bus. (An đi học bằng xe buýt.)",
+          "answer": false
+        },
+        {
+          "text": "An's flat has three rooms. (Căn hộ của An có ba phòng.)",
+          "answer": true
+        },
+        {
+          "text": "An has her own bedroom alone. (An có phòng ngủ riêng một mình.)",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Choose the sentence with the SAME meaning as: 'There are four rooms in my house.' (Chọn câu có cùng nghĩa)",
+      "options": [
+        "My house has four rooms.",
+        "My house is in four rooms.",
+        "There is a house with no rooms.",
+        "My four rooms have a house."
+      ],
+      "answer": 0,
+      "hint": "'There are four rooms in...' = '... has four rooms'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Rewrite using the present simple negative: 'My brother goes to school by bike.' (true) -> 'My brother ___ to school on foot.' (Điền cụm phủ định đúng của 'go' ở ngôi thứ ba số ít): ___",
+      "answer": "doesn't go",
+      "alternatives": [
+        "does not go",
+        "Doesn't go",
+        "DOESN'T GO"
+      ],
+      "hint": "Ngôi thứ ba số ít: 'doesn't' + động từ nguyên thể"
+    }
+  ]
+}

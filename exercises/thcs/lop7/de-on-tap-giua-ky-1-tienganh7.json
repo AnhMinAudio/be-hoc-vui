@@ -1,0 +1,237 @@
+{
+  "id": "thcs-ta-l7-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 7,
+  "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 7",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Gardening means growing flowers and ___ in your free time.' (Chọn từ vựng đúng về sở thích làm vườn)",
+      "options": [
+        "plants",
+        "stamps",
+        "lessons",
+        "buses"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb form: 'My brother loves ___ model planes at the weekend.' (Chọn dạng động từ đúng sau 'love')",
+      "options": [
+        "make",
+        "makes",
+        "making",
+        "to making"
+      ],
+      "answer": 2,
+      "hint": "Sau love/like/enjoy thường dùng V-ing"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'You should brush your ___ twice a day to keep them healthy.' (Chọn từ vựng đúng về vệ sinh răng miệng)",
+      "options": [
+        "teeth",
+        "hobbies",
+        "rooms",
+        "stamps"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct adverb of frequency: 'I ___ eat fast food — only once or twice a year.' (Chọn trạng từ chỉ tần suất nghĩa 'hiếm khi')",
+      "options": [
+        "always",
+        "usually",
+        "rarely",
+        "often"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct modal verb: 'You ___ skip breakfast; it is bad for your health.' (Chọn động từ khuyết thiếu để khuyên KHÔNG nên làm)",
+      "options": [
+        "should",
+        "shouldn't",
+        "can",
+        "must"
+      ],
+      "answer": 1,
+      "hint": "Khuyên không nên làm dùng 'shouldn't'"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct word: 'Doing exercise every day helps you stay ___.' (Chọn từ vựng đúng về sức khỏe)",
+      "options": [
+        "fit",
+        "bored",
+        "late",
+        "noisy"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct position of the adverb: 'She ___ does morning exercise before school.' (Chọn vị trí đúng cho 'always' — đứng trước động từ thường)",
+      "options": [
+        "always",
+        "is always",
+        "always is",
+        "does always"
+      ],
+      "answer": 0,
+      "hint": "Trạng từ tần suất đứng trước động từ thường"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct verb: 'My grandparents ___ gardening because it is good for their health.' (Chọn động từ đúng ở hiện tại đơn với chủ ngữ số nhiều, theo sau là V-ing)",
+      "options": [
+        "enjoys",
+        "enjoy",
+        "is enjoying",
+        "to enjoy"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the present simple negative: 'Tom ___ (not / like) playing board games.' (Điền dạng phủ định của 'like' với chủ ngữ ngôi thứ ba số ít): ___",
+      "answer": "doesn't like",
+      "alternatives": [
+        "does not like",
+        "Doesn't like",
+        "DOESN'T LIKE"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the advice with 'should' or 'shouldn't': 'If you want to be healthy, you ___ drink a lot of soft drinks.' (Điền dạng khuyên KHÔNG nên): ___",
+      "answer": "shouldn't",
+      "alternatives": [
+        "should not",
+        "Shouldn't",
+        "SHOULDN'T"
+      ],
+      "hint": "Nhiều nước ngọt không tốt → khuyên không nên"
+    },
+    {
+      "type": "matching",
+      "level": "TH",
+      "question": "Match each hobby with its Vietnamese meaning (Nối sở thích với nghĩa tiếng Việt)",
+      "pairs": [
+        [
+          "gardening",
+          "làm vườn"
+        ],
+        [
+          "bird-watching",
+          "ngắm chim"
+        ],
+        [
+          "cooking",
+          "nấu ăn"
+        ],
+        [
+          "skating",
+          "trượt pa-tanh"
+        ]
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "VD",
+      "question": "Match each health problem with the right piece of advice (Nối vấn đề sức khỏe với lời khuyên phù hợp)",
+      "pairs": [
+        [
+          "You feel tired",
+          "You should sleep more"
+        ],
+        [
+          "You have toothache",
+          "You should eat less sugar"
+        ],
+        [
+          "You are unfit",
+          "You should exercise more"
+        ],
+        [
+          "You catch a cold",
+          "You should drink warm water"
+        ]
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete with the correct verb form: 'Nam doesn't mind ___ (help) his mother in the kitchen.' (Điền dạng đúng của 'help' sau 'mind'): ___",
+      "answer": "helping",
+      "alternatives": [
+        "Helping",
+        "HELPING"
+      ],
+      "hint": "Sau 'mind' dùng V-ing"
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Read the passage and decide if each statement is True or False (Đọc đoạn văn và xác định mỗi nhận định Đúng hay Sai): 'Linh is a Grade 7 student. Her favourite hobby is making dolls from old clothes. She does it every evening after homework. Linh also cares about her health, so she always eats breakfast and drinks enough water. However, she sometimes goes to bed very late.'",
+      "statements": [
+        {
+          "text": "Linh's hobby is making dolls from old clothes. (Sở thích của Linh là làm búp bê từ quần áo cũ.)",
+          "answer": true
+        },
+        {
+          "text": "Linh makes dolls before doing her homework. (Linh làm búp bê trước khi làm bài tập.)",
+          "answer": false
+        },
+        {
+          "text": "Linh always eats breakfast. (Linh luôn ăn sáng.)",
+          "answer": true
+        },
+        {
+          "text": "Linh always goes to bed early. (Linh luôn đi ngủ sớm.)",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Choose the sentence with the SAME meaning as: 'Lan is interested in collecting coins.' (Chọn câu có cùng nghĩa)",
+      "options": [
+        "Lan likes collecting coins.",
+        "Lan hates collecting coins.",
+        "Lan never collects coins.",
+        "Lan wants to sell her coins."
+      ],
+      "answer": 0,
+      "hint": "'be interested in V-ing' = 'like V-ing'"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Rewrite using 'enjoy': 'My sister thinks dancing is fun, so she does it a lot.' -> 'My sister ___ (enjoy) dancing.' (Điền 'enjoy' chia đúng ở hiện tại đơn, ngôi thứ ba số ít): ___",
+      "answer": "enjoys",
+      "alternatives": [
+        "Enjoys",
+        "ENJOYS"
+      ],
+      "hint": "Chủ ngữ 'My sister' là ngôi thứ ba số ít → enjoy thêm '-s'"
+    }
+  ]
+}

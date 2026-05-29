@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T01:11:19.647Z",
+  "generatedAt": "2026-05-29T01:46:24.732Z",
   "coverage": {
     "toan": {
       "1": {
@@ -987,8 +987,8 @@
   "thcs": {
     "toan": {
       "6": {
-        "exerciseCount": 9,
-        "totalQuestions": 157,
+        "exerciseCount": 10,
+        "totalQuestions": 174,
         "topics": [
           {
             "id": "thcs-toan-l6-c1-so-tu-nhien",
@@ -1043,16 +1043,28 @@
             "topic": "Ôn tập cuối học kỳ 1 — Toán 6",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "thcs-toan-l6-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Toán 6",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "7": {
-        "exerciseCount": 2,
-        "totalQuestions": 35,
+        "exerciseCount": 3,
+        "totalQuestions": 52,
         "topics": [
           {
             "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 7",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-toan-l7-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Toán 7",
             "questionCount": 17,
             "difficulty": 2
           },
@@ -1109,13 +1121,19 @@
     },
     "ngu-van": {
       "6": {
-        "exerciseCount": 2,
-        "totalQuestions": 34,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
           {
             "id": "thcs-tv-l6-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 6",
             "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-tv-l6-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 6",
+            "questionCount": 17,
             "difficulty": 2
           },
           {
@@ -1127,13 +1145,19 @@
         ]
       },
       "7": {
-        "exerciseCount": 2,
-        "totalQuestions": 33,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
           {
             "id": "thcs-tv-l7-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 7",
             "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-tv-l7-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 7",
+            "questionCount": 17,
             "difficulty": 2
           },
           {
@@ -1145,8 +1169,8 @@
         ]
       },
       "8": {
-        "exerciseCount": 2,
-        "totalQuestions": 35,
+        "exerciseCount": 3,
+        "totalQuestions": 53,
         "topics": [
           {
             "id": "thcs-tv-l8-cau-va-bien-phap-tu-tu",
@@ -1158,6 +1182,12 @@
             "id": "thcs-tv-l8-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Ngữ văn 8",
             "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-tv-l8-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 8",
+            "questionCount": 18,
             "difficulty": 2
           }
         ]
@@ -1177,12 +1207,18 @@
     },
     "tieng-anh": {
       "6": {
-        "exerciseCount": 2,
-        "totalQuestions": 33,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
           {
             "id": "thcs-ta-l6-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 6",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-ta-l6-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 6",
             "questionCount": 16,
             "difficulty": 2
           },
@@ -1195,12 +1231,18 @@
         ]
       },
       "7": {
-        "exerciseCount": 2,
-        "totalQuestions": 34,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
           {
             "id": "thcs-ta-l7-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 7",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-ta-l7-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 7",
             "questionCount": 16,
             "difficulty": 2
           },
@@ -1213,12 +1255,18 @@
         ]
       },
       "8": {
-        "exerciseCount": 2,
-        "totalQuestions": 33,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
           {
             "id": "thcs-ta-l8-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh 8",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thcs-ta-l8-on-tap-giua-ky-1",
+            "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 8",
             "questionCount": 16,
             "difficulty": 2
           },

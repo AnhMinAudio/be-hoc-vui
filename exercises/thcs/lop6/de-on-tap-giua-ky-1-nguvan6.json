@@ -1,0 +1,250 @@
+{
+  "id": "thcs-tv-l6-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 6,
+  "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 6",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Truyền thuyết là loại truyện dân gian kể về điều gì?",
+      "options": [
+        "Nhân vật, sự kiện liên quan đến lịch sử, thường có yếu tố kì ảo",
+        "Cuộc đời của các nhân vật bất hạnh, có kết thúc có hậu",
+        "Loài vật, đồ vật được nhân hóa để nêu bài học",
+        "Những câu chuyện cười nhằm giải trí, phê phán"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Truyền thuyết gắn với nhân vật, sự kiện lịch sử của cộng đồng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Truyện cổ tích thường có đặc điểm nổi bật nào sau đây?",
+      "options": [
+        "Kể về số phận người bất hạnh, thường kết thúc có hậu",
+        "Ghi chép chính xác sự thật lịch sử",
+        "Chỉ có nhân vật là loài vật biết nói",
+        "Không bao giờ có yếu tố thần kì"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Cô Tấm, chàng mồ côi... thường được đền đáp xứng đáng"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong các truyện sau, truyện nào là truyền thuyết?",
+      "options": [
+        "Thánh Gióng",
+        "Tấm Cám",
+        "Cây khế",
+        "Sọ Dừa"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Truyện nào gắn với việc đánh giặc giữ nước thời Hùng Vương?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Chi tiết nào dưới đây là chi tiết kì ảo (hoang đường) trong truyện truyền thuyết?",
+      "options": [
+        "Cậu bé ba tuổi bỗng lớn nhanh như thổi, vươn vai thành tráng sĩ",
+        "Người nông dân ra đồng cày ruộng buổi sáng",
+        "Mẹ nấu cơm cho con ăn mỗi ngày",
+        "Dân làng họp bàn việc chung"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Chi tiết kì ảo là điều không có thật, vượt ngoài đời thường"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Loại truyện dân gian kể về cuộc đời của một số kiểu nhân vật như người mồ côi, người em út, người mang lốt vật... và thường kết thúc có hậu được gọi là truyện ___.",
+      "answer": "cổ tích",
+      "alternatives": [
+        "truyện cổ tích"
+      ],
+      "level": "NB",
+      "hint": "Mở đầu thường bằng \"Ngày xửa ngày xưa...\""
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào dưới đây là từ đơn?",
+      "options": [
+        "Gió",
+        "Mưa nắng",
+        "Bập bùng",
+        "Cây cối"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ đơn chỉ gồm một tiếng có nghĩa"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào dưới đây là từ phức?",
+      "options": [
+        "Đất nước",
+        "Sông",
+        "Trời",
+        "Mây"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Từ phức gồm hai tiếng trở lên"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Từ chỉ gồm một tiếng có nghĩa được gọi là từ ___.",
+      "answer": "đơn",
+      "alternatives": [
+        "từ đơn"
+      ],
+      "level": "NB",
+      "hint": "Trái với từ phức (gồm hai tiếng trở lên)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Trong câu \"Đôi mắt sáng của em bé long lanh như hai giọt sương\", từ \"mắt\" được dùng theo nghĩa nào?",
+      "options": [
+        "Nghĩa gốc (bộ phận cơ thể dùng để nhìn)",
+        "Nghĩa chuyển",
+        "Từ đồng âm",
+        "Từ trái nghĩa"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Ở đây \"mắt\" chỉ đúng bộ phận trên khuôn mặt"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ \"mắt\" trong cụm nào sau đây được dùng theo nghĩa chuyển?",
+      "options": [
+        "Mắt lưới",
+        "Mắt em bé",
+        "Đau mắt",
+        "Nhắm mắt lại"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "\"Mắt lưới\" là những lỗ nhỏ trên tấm lưới, không phải bộ phận cơ thể"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trời nóng như đổ lửa. Trên cánh đồng, lúa chín vàng như một tấm thảm khổng lồ trải dài tới chân trời. Mấy chú trâu hiền lành như những hòn đá đen nằm im dưới bóng cây.",
+      "question": "Đoạn văn trên sử dụng nhiều lần biện pháp tu từ nào?",
+      "options": [
+        "So sánh",
+        "Nhân hóa",
+        "Điệp ngữ",
+        "Liệt kê"
+      ],
+      "answer": 0,
+      "level": "TH",
+      "hint": "Chú ý các từ \"như\" lặp lại nhiều lần"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trời nóng như đổ lửa. Trên cánh đồng, lúa chín vàng như một tấm thảm khổng lồ trải dài tới chân trời. Mấy chú trâu hiền lành như những hòn đá đen nằm im dưới bóng cây.",
+      "question": "Trong đoạn văn, cánh đồng lúa chín được so sánh với sự vật nào?",
+      "options": [
+        "Một tấm thảm khổng lồ",
+        "Đổ lửa",
+        "Những hòn đá đen",
+        "Bóng cây"
+      ],
+      "answer": 0,
+      "level": "NB",
+      "hint": "Đọc kĩ câu thứ hai của đoạn"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Trời nóng như đổ lửa. Trên cánh đồng, lúa chín vàng như một tấm thảm khổng lồ trải dài tới chân trời. Mấy chú trâu hiền lành như những hòn đá đen nằm im dưới bóng cây.",
+      "question": "Việc so sánh \"trời nóng như đổ lửa\" giúp người đọc cảm nhận điều gì?",
+      "options": [
+        "Cái nắng gay gắt, oi bức của buổi trưa hè",
+        "Trời đang mưa to",
+        "Không khí mát mẻ, dễ chịu",
+        "Một đám cháy thật trên bầu trời"
+      ],
+      "answer": 0,
+      "level": "VD",
+      "hint": "\"Đổ lửa\" gợi sự nóng bức dữ dội"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Biện pháp tu từ đối chiếu sự vật, sự việc này với sự vật, sự việc khác có nét tương đồng (thường có từ \"như\", \"tựa\", \"là\") được gọi là biện pháp ___.",
+      "answer": "so sánh",
+      "alternatives": [
+        "phép so sánh",
+        "biện pháp so sánh"
+      ],
+      "level": "NB",
+      "hint": "Ví dụ: trắng như tuyết"
+    },
+    {
+      "type": "true-false-group",
+      "question": "Đọc câu văn sau và cho biết mỗi nhận định là Đúng hay Sai: \"Cô bé có làn da trắng như tuyết, đôi má hồng như hai bông hoa và giọng nói trong như tiếng chuông.\"",
+      "statements": [
+        {
+          "text": "Câu văn sử dụng biện pháp so sánh.",
+          "answer": true
+        },
+        {
+          "text": "Trong câu có ba hình ảnh so sánh khác nhau.",
+          "answer": true
+        },
+        {
+          "text": "Làn da được so sánh với tuyết.",
+          "answer": true
+        },
+        {
+          "text": "Từ \"hồng\" trong câu là một danh từ.",
+          "answer": false
+        }
+      ],
+      "level": "VD",
+      "hint": "Đếm số lần xuất hiện từ \"như\"; \"hồng\" chỉ đặc điểm màu sắc nên là tính từ"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với loại cấu tạo từ phù hợp:",
+      "pairs": [
+        [
+          "biển",
+          "từ đơn"
+        ],
+        [
+          "máy bay",
+          "từ ghép"
+        ],
+        [
+          "lấp lánh",
+          "từ láy"
+        ]
+      ],
+      "level": "TH"
+    },
+    {
+      "type": "matching",
+      "question": "Nối tên truyện với thể loại truyện dân gian phù hợp:",
+      "pairs": [
+        [
+          "Sơn Tinh, Thủy Tinh",
+          "truyền thuyết"
+        ],
+        [
+          "Thạch Sanh",
+          "cổ tích"
+        ],
+        [
+          "Bánh chưng, bánh giầy",
+          "truyền thuyết"
+        ]
+      ],
+      "level": "VDC"
+    }
+  ]
+}

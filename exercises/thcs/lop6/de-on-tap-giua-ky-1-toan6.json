@@ -1,0 +1,218 @@
+{
+  "id": "thcs-toan-l6-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 6,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 6",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "T6-STN-1",
+    "T6-STN-2",
+    "T6-STN-4",
+    "T6-STN-5",
+    "T6-CH-1",
+    "T6-CH-2",
+    "T6-CH-3",
+    "T6-CH-4"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cho tập hợp $M = \\{2; 4; 6; 8; 10\\}$. Khẳng định nào sau đây sai?",
+      "options": [
+        "$5 \\in M$",
+        "$4 \\in M$",
+        "$7 \\notin M$",
+        "$10 \\in M$"
+      ],
+      "answer": 0,
+      "hint": "Số $5$ không phải là phần tử của $M$ nên phải dùng kí hiệu $\\notin$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tập hợp các số tự nhiên lớn hơn $3$ và không vượt quá $7$ được viết là:",
+      "options": [
+        "$\\{4; 5; 6; 7\\}$",
+        "$\\{3; 4; 5; 6; 7\\}$",
+        "$\\{4; 5; 6\\}$",
+        "$\\{3; 4; 5; 6\\}$"
+      ],
+      "answer": 0,
+      "hint": "\"Lớn hơn $3$\" nên không lấy $3$; \"không vượt quá $7$\" nghĩa là nhỏ hơn hoặc bằng $7$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số La Mã XXIX biểu diễn số tự nhiên nào?",
+      "options": [
+        "$29$",
+        "$31$",
+        "$21$",
+        "$19$"
+      ],
+      "answer": 0,
+      "hint": "$XX = 20$ và $IX = 9$, nên $XXIX = 29$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Lũy thừa $3^4$ có giá trị bằng:",
+      "options": [
+        "$81$",
+        "$12$",
+        "$64$",
+        "$27$"
+      ],
+      "answer": 0,
+      "hint": "$3^4 = 3 \\times 3 \\times 3 \\times 3 = 81$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số nào sau đây chia hết cho $5$ nhưng không chia hết cho $2$?",
+      "options": [
+        "$135$",
+        "$130$",
+        "$124$",
+        "$120$"
+      ],
+      "answer": 0,
+      "hint": "Số chia hết cho $5$ có tận cùng $0$ hoặc $5$; muốn không chia hết cho $2$ thì tận cùng phải là $5$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong các số sau, số nào là số nguyên tố?",
+      "options": [
+        "$19$",
+        "$27$",
+        "$33$",
+        "$49$"
+      ],
+      "answer": 0,
+      "hint": "$27 = 3^3$, $33 = 3 \\times 11$, $49 = 7^2$; chỉ $19$ chỉ có hai ước là $1$ và $19$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Viết gọn tích $5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 5$ dưới dạng lũy thừa ___",
+      "answer": "5^6",
+      "alternatives": ["$5^6$"],
+      "hint": "Cơ số là $5$, số $5$ xuất hiện $6$ lần."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Viết tích $10^4$ dưới dạng số tự nhiên:",
+      "options": [
+        "$10\\,000$",
+        "$1\\,000$",
+        "$40$",
+        "$100\\,000$"
+      ],
+      "answer": 0,
+      "hint": "$10^4$ là số $1$ kèm theo $4$ chữ số $0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính giá trị của biểu thức $72 : 8 + 5 \\times 6$:",
+      "options": [
+        "$39$",
+        "$54$",
+        "$84$",
+        "$48$"
+      ],
+      "answer": 0,
+      "hint": "Nhân chia trước: $72 : 8 = 9$ và $5 \\times 6 = 30$, rồi $9 + 30 = 39$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính giá trị của biểu thức $5^2 - 3 \\times (8 - 2^2)$:",
+      "options": [
+        "$13$",
+        "$1$",
+        "$37$",
+        "$19$"
+      ],
+      "answer": 0,
+      "hint": "Trong ngoặc trước: $8 - 4 = 4$; rồi $25 - 3 \\times 4 = 25 - 12 = 13$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kết quả phân tích số $84$ ra thừa số nguyên tố là:",
+      "options": [
+        "$2^2 \\times 3 \\times 7$",
+        "$2^3 \\times 3 \\times 7$",
+        "$2^2 \\times 7^2$",
+        "$2 \\times 3^2 \\times 7$"
+      ],
+      "answer": 0,
+      "hint": "$84 = 2 \\times 42 = 2 \\times 2 \\times 21 = 2^2 \\times 3 \\times 7$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về dấu hiệu chia hết:",
+      "statements": [
+        { "text": "Số $2\\,358$ chia hết cho $3$.", "answer": true },
+        { "text": "Số $645$ chia hết cho $9$.", "answer": false },
+        { "text": "Số $1\\,470$ chia hết cho cả $2$ và $5$.", "answer": true },
+        { "text": "Số $216$ chia hết cho $9$.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định sau:",
+      "statements": [
+        { "text": "Số $2$ là số nguyên tố chẵn duy nhất.", "answer": true },
+        { "text": "Mọi hợp số đều là số chẵn.", "answer": false },
+        { "text": "$\\text{ƯCLN}(a, b) = 1$ thì $a$ và $b$ là hai số nguyên tố cùng nhau.", "answer": true },
+        { "text": "Số $0$ là bội của mọi số tự nhiên khác $0$.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tìm $\\text{ƯCLN}(28, 42)$. Kết quả là ___",
+      "answer": "14",
+      "alternatives": ["$14$"],
+      "hint": "$28 = 2^2 \\times 7$; $42 = 2 \\times 3 \\times 7$; lấy thừa số chung số mũ nhỏ nhất: $2 \\times 7 = 14$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm $\\text{BCNN}(9, 12, 18)$. Kết quả là ___",
+      "answer": "36",
+      "alternatives": ["$36$"],
+      "hint": "$9 = 3^2$; $12 = 2^2 \\times 3$; $18 = 2 \\times 3^2$; BCNN $= 2^2 \\times 3^2 = 36$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một đội văn nghệ có $18$ bạn nữ và $24$ bạn nam. Cô giáo muốn chia đội thành các nhóm sao cho số nữ và số nam ở mỗi nhóm đều bằng nhau. Hỏi chia được nhiều nhất bao nhiêu nhóm?",
+      "options": [
+        "$6$ nhóm",
+        "$3$ nhóm",
+        "$12$ nhóm",
+        "$42$ nhóm"
+      ],
+      "answer": 0,
+      "hint": "Số nhóm nhiều nhất là $\\text{ƯCLN}(18, 24) = 6$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Số học sinh của một khối khi xếp hàng $6$, hàng $8$ hay hàng $9$ đều vừa đủ, không thừa bạn nào. Biết số học sinh trong khoảng từ $130$ đến $200$. Số học sinh của khối đó là ___ học sinh.",
+      "answer": "144",
+      "alternatives": ["$144$"],
+      "hint": "Số học sinh là bội chung của $6, 8, 9$; $\\text{BCNN}(6, 8, 9) = 72$; bội của $72$ trong khoảng $130$–$200$ là $144$."
+    }
+  ]
+}

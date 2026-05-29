@@ -1,0 +1,208 @@
+{
+  "id": "thcs-toan-l7-on-tap-giua-ky-1",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 7,
+  "topic": "Ôn tập giữa học kỳ 1 — Toán 7",
+  "chapter": "Ôn tập giữa kỳ 1",
+  "difficulty": 2,
+  "outcomes": [
+    "Số hữu tỉ: biểu diễn, so sánh, cộng, trừ, nhân, chia",
+    "Lũy thừa của một số hữu tỉ, thứ tự thực hiện phép tính",
+    "Góc kề bù, góc đối đỉnh"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số $0{,}75$ được viết dưới dạng phân số tối giản là:",
+      "options": [
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{7}{5}$",
+        "$\\dfrac{75}{10}$",
+        "$\\dfrac{4}{3}$"
+      ],
+      "answer": 0,
+      "hint": "$0{,}75 = \\dfrac{75}{100} = \\dfrac{3}{4}$ sau khi rút gọn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong các số hữu tỉ sau, số nào lớn nhất?",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$-\\dfrac{1}{3}$",
+        "$0$",
+        "$-\\dfrac{5}{4}$"
+      ],
+      "answer": 0,
+      "hint": "Số dương lớn hơn $0$, $0$ lớn hơn số âm; trong các số dương chỉ có $\\dfrac{1}{2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số đối của số hữu tỉ $\\dfrac{4}{9}$ là:",
+      "options": [
+        "$-\\dfrac{4}{9}$",
+        "$\\dfrac{9}{4}$",
+        "$\\dfrac{4}{9}$",
+        "$-\\dfrac{9}{4}$"
+      ],
+      "answer": 0,
+      "hint": "Số đối của một số là số trái dấu với nó (đừng nhầm với số nghịch đảo)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Kết quả của phép tính $\\dfrac{2}{5} + \\dfrac{1}{10}$ là:",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{3}{15}$",
+        "$\\dfrac{3}{10}$",
+        "$\\dfrac{2}{15}$"
+      ],
+      "answer": 0,
+      "hint": "Quy đồng mẫu là $10$: $\\dfrac{4}{10} + \\dfrac{1}{10} = \\dfrac{5}{10} = \\dfrac{1}{2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Kết quả của $2^4 \\cdot 2^3$ là:",
+      "options": [
+        "$2^7$",
+        "$2^{12}$",
+        "$4^7$",
+        "$2^1$"
+      ],
+      "answer": 0,
+      "hint": "Nhân hai lũy thừa cùng cơ số: giữ nguyên cơ số, cộng các số mũ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai góc kề bù có tổng số đo bằng:",
+      "options": [
+        "$180^\\circ$",
+        "$90^\\circ$",
+        "$360^\\circ$",
+        "$45^\\circ$"
+      ],
+      "answer": 0,
+      "hint": "\"Bù\" nghĩa là tổng bằng $180^\\circ$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Một góc có số đo $110^\\circ$. Số đo góc kề bù với nó là ___ độ.",
+      "answer": "70",
+      "alternatives": ["70 độ", "$70^\\circ$"],
+      "hint": "Hai góc kề bù có tổng $180^\\circ$, nên góc còn lại là $180^\\circ - 110^\\circ$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kết quả của phép tính $\\dfrac{-1}{6} - \\dfrac{1}{3}$ (rút gọn) là:",
+      "options": [
+        "$-\\dfrac{1}{2}$",
+        "$-\\dfrac{1}{6}$",
+        "$\\dfrac{1}{2}$",
+        "$-\\dfrac{2}{9}$"
+      ],
+      "answer": 0,
+      "hint": "Quy đồng mẫu $6$: $\\dfrac{-1}{6} - \\dfrac{2}{6} = \\dfrac{-3}{6} = -\\dfrac{1}{2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kết quả của phép tính $\\dfrac{-3}{4} \\times \\dfrac{8}{9}$ (rút gọn) là:",
+      "options": [
+        "$-\\dfrac{2}{3}$",
+        "$\\dfrac{-24}{36}$",
+        "$\\dfrac{2}{3}$",
+        "$-\\dfrac{3}{4}$"
+      ],
+      "answer": 0,
+      "hint": "$\\dfrac{-3 \\times 8}{4 \\times 9} = \\dfrac{-24}{36} = -\\dfrac{2}{3}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của lũy thừa $\\left( \\dfrac{3}{2} \\right)^3$ là:",
+      "options": [
+        "$\\dfrac{27}{8}$",
+        "$\\dfrac{9}{8}$",
+        "$\\dfrac{6}{8}$",
+        "$\\dfrac{9}{6}$"
+      ],
+      "answer": 0,
+      "hint": "$\\left( \\dfrac{3}{2} \\right)^3 = \\dfrac{3^3}{2^3} = \\dfrac{27}{8}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ tỉ lệ thức $\\dfrac{x}{6} = \\dfrac{10}{15}$, giá trị của $x$ là:",
+      "options": [
+        "$4$",
+        "$9$",
+        "$25$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "answer": 0,
+      "hint": "Tích chéo: $15x = 6 \\times 10 = 60$, suy ra $x = 4$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về số hữu tỉ:",
+      "statements": [
+        { "text": "Mọi số nguyên đều là số hữu tỉ.", "answer": true },
+        { "text": "$\\left( \\dfrac{-1}{2} \\right)^4 = \\dfrac{1}{16}$.", "answer": true },
+        { "text": "$\\dfrac{-2}{3} = \\dfrac{2}{-3}$.", "answer": true },
+        { "text": "Số nghịch đảo của $\\dfrac{2}{5}$ là $-\\dfrac{2}{5}$.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Cho hai đường thẳng cắt nhau tạo thành bốn góc, trong đó có một góc bằng $65^\\circ$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        { "text": "Góc đối đỉnh với góc $65^\\circ$ cũng bằng $65^\\circ$.", "answer": true },
+        { "text": "Góc kề bù với góc $65^\\circ$ bằng $115^\\circ$.", "answer": true },
+        { "text": "Hai góc đối đỉnh thì bằng nhau.", "answer": true },
+        { "text": "Hai góc kề bù thì luôn bằng nhau.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tính: $\\dfrac{5}{8} : \\dfrac{15}{16} = $ ___ (viết phân số tối giản dạng a/b).",
+      "answer": "2/3",
+      "alternatives": ["$\\dfrac{2}{3}$"],
+      "hint": "Chia phân số là nhân với nghịch đảo: $\\dfrac{5}{8} \\times \\dfrac{16}{15} = \\dfrac{80}{120} = \\dfrac{2}{3}$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tính giá trị của biểu thức $\\dfrac{1}{3} + \\dfrac{2}{3} \\times \\dfrac{3}{4}$. Đáp án: ___ (viết phân số tối giản dạng a/b).",
+      "answer": "5/6",
+      "alternatives": ["$\\dfrac{5}{6}$"],
+      "hint": "Nhân trước: $\\dfrac{2}{3} \\times \\dfrac{3}{4} = \\dfrac{1}{2}$; rồi $\\dfrac{1}{3} + \\dfrac{1}{2} = \\dfrac{2}{6} + \\dfrac{3}{6} = \\dfrac{5}{6}$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Hai góc kề bù, trong đó góc lớn hơn góc nhỏ $30^\\circ$. Số đo góc lớn là ___ độ.",
+      "answer": "105",
+      "alternatives": ["105 độ", "$105^\\circ$"],
+      "hint": "Gọi góc nhỏ là $x$ thì $x + (x + 30^\\circ) = 180^\\circ$, suy ra $x = 75^\\circ$ và góc lớn $= 105^\\circ$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Một cửa hàng có $120$ kg gạo. Ngày thứ nhất bán được $\\dfrac{2}{5}$ số gạo, ngày thứ hai bán được $\\dfrac{1}{3}$ số gạo còn lại sau ngày thứ nhất. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo? Đáp án: ___ (chỉ ghi số).",
+      "answer": "48",
+      "alternatives": ["48 kg"],
+      "hint": "Sau ngày 1 còn $120 \\times \\dfrac{3}{5} = 72$ kg; ngày 2 bán $72 \\times \\dfrac{1}{3} = 24$ kg; còn lại $72 - 24 = 48$ kg."
+    }
+  ]
+}
