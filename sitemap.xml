@@ -967,6 +967,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-hoa-hoc-l12-huu-co</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://behocvui.id.vn/bai/thpt-hoa-hoc-l12-kim-loai</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-hoa-hoc-l12-on-tap</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -985,7 +997,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-sinh-hoc-l12-di-truyen</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-sinh-hoc-l12-on-tap</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://behocvui.id.vn/bai/thpt-sinh-hoc-l12-tien-hoa-sinh-thai</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1039,7 +1063,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-vat-li-l12-nhiet-khi-li-tuong</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-vat-li-l12-on-tap</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://behocvui.id.vn/bai/thpt-vat-li-l12-tu-truong-hat-nhan</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T17:28:56.961Z",
+  "generatedAt": "2026-05-29T17:46:56.420Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1845,14 +1845,26 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
           {
             "id": "thpt-vat-li-l12-on-tap",
             "topic": "Ôn tập Vật lí 12",
             "questionCount": 18,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-vat-li-l12-tu-truong-hat-nhan",
+            "topic": "Từ trường & Vật lí hạt nhân",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-vat-li-l12-nhiet-khi-li-tuong",
+            "topic": "Vật lí nhiệt & Khí lí tưởng",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       }
@@ -1869,9 +1881,21 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-hoa-hoc-l12-kim-loai",
+            "topic": "Đại cương kim loại – Pin điện & Điện phân – Kim loại nhóm IA, IIA",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-hoa-hoc-l12-huu-co",
+            "topic": "Hóa học hữu cơ: Ester – Carbohydrate – Nitrogen – Polymer",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thpt-hoa-hoc-l12-on-tap",
             "topic": "Ôn tập Hóa học 12",
@@ -1893,14 +1917,26 @@
         "topics": []
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 19,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
+          {
+            "id": "thpt-sinh-hoc-l12-di-truyen",
+            "topic": "Di truyền học: Gene, nhiễm sắc thể và các quy luật di truyền",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thpt-sinh-hoc-l12-on-tap",
             "topic": "Ôn tập Sinh học 12",
             "questionCount": 19,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-sinh-hoc-l12-tien-hoa-sinh-thai",
+            "topic": "Tiến hóa và Sinh thái học",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       }

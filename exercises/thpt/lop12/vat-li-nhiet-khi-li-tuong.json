@@ -1,0 +1,204 @@
+{
+  "id": "thpt-vat-li-l12-nhiet-khi-li-tuong",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 12,
+  "topic": "Vật lí nhiệt & Khí lí tưởng",
+  "chapter": "Chương 1–2: Vật lí nhiệt và Khí lí tưởng",
+  "difficulty": 2,
+  "outcomes": [
+    "Nội năng - Định luật I nhiệt động lực học",
+    "Nhiệt dung riêng, nhiệt nóng chảy, nhiệt hóa hơi",
+    "Thuyết động học phân tử chất khí",
+    "Các định luật chất khí - Phương trình trạng thái"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Theo định luật I của nhiệt động lực học, độ biến thiên nội năng $\\Delta U$ của hệ bằng:",
+      "options": [
+        "Tổng công và nhiệt lượng mà hệ nhận được: $\\Delta U = A + Q$",
+        "Hiệu giữa công và nhiệt lượng: $\\Delta U = A - Q$",
+        "Tích của công và nhiệt lượng: $\\Delta U = A \\cdot Q$",
+        "Chỉ bằng nhiệt lượng hệ tỏa ra"
+      ],
+      "answer": 0,
+      "hint": "Nội năng của hệ thay đổi do trao đổi cả công và nhiệt: $\\Delta U = A + Q$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhiệt nóng chảy riêng của một chất cho biết:",
+      "options": [
+        "Nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn 1 kg chất đó ở nhiệt độ nóng chảy",
+        "Nhiệt lượng tỏa ra khi 1 kg chất đông đặc rồi nguội đi",
+        "Nhiệt lượng cần để tăng nhiệt độ 1 kg chất lên 1 K",
+        "Nhiệt lượng cần để làm bay hơi 1 kg chất lỏng"
+      ],
+      "answer": 0,
+      "hint": "Nhiệt nóng chảy: $Q = \\lambda m$, với $\\lambda$ là nhiệt nóng chảy riêng (J/kg)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đại lượng cho biết nhiệt lượng cần cung cấp để làm cho 1 kg chất lỏng hóa hơi hoàn toàn ở nhiệt độ sôi gọi là:",
+      "options": [
+        "Nhiệt hóa hơi riêng",
+        "Nhiệt nóng chảy riêng",
+        "Nhiệt dung riêng",
+        "Nội năng riêng"
+      ],
+      "answer": 0,
+      "hint": "Nhiệt hóa hơi: $Q = L m$, với $L$ là nhiệt hóa hơi riêng (J/kg)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Mối liên hệ giữa nhiệt độ Celsius $t$ ($^\\circ$C) và nhiệt độ tuyệt đối $T$ (K) là:",
+      "options": [
+        "$T = t + 273$",
+        "$T = t - 273$",
+        "$T = 273 - t$",
+        "$T = 273t$"
+      ],
+      "answer": 0,
+      "hint": "Cộng thêm 273: ví dụ $0\\ ^\\circ$C ứng với $273$ K."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phát biểu nào sau đây ĐÚNG theo thuyết động học phân tử chất khí?",
+      "options": [
+        "Các phân tử khí chuyển động nhiệt hỗn loạn không ngừng; nhiệt độ càng cao thì chuyển động càng nhanh",
+        "Các phân tử khí đứng yên khi nhiệt độ giảm",
+        "Các phân tử khí chỉ chuyển động theo một phương xác định",
+        "Giữa các phân tử khí không có khoảng cách"
+      ],
+      "answer": 0,
+      "hint": "Nhiệt độ là số đo động năng chuyển động hỗn loạn của các phân tử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Với một lượng khí lí tưởng xác định ở nhiệt độ không đổi, nếu áp suất tăng gấp đôi thì thể tích của khí sẽ:",
+      "options": [
+        "Giảm còn một nửa",
+        "Tăng gấp đôi",
+        "Không đổi",
+        "Giảm còn một phần tư"
+      ],
+      "answer": 0,
+      "hint": "Định luật Boyle (đẳng nhiệt): $pV =$ hằng số, nên $p$ và $V$ tỉ lệ nghịch."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Động năng tịnh tiến trung bình của các phân tử khí lí tưởng phụ thuộc vào yếu tố nào sau đây?",
+      "options": [
+        "Nhiệt độ tuyệt đối của khí",
+        "Thể tích của bình chứa",
+        "Khối lượng riêng của khí",
+        "Màu sắc của bình chứa"
+      ],
+      "answer": 0,
+      "hint": "Động năng trung bình tỉ lệ thuận với nhiệt độ tuyệt đối $T$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cần cung cấp nhiệt lượng bao nhiêu để tăng nhiệt độ $0,5$ kg nhôm từ $25\\ ^\\circ$C lên $75\\ ^\\circ$C? Cho nhiệt dung riêng của nhôm $c = 880$ J/(kg·K).",
+      "options": [
+        "$22\\,000$ J",
+        "$44\\,000$ J",
+        "$11\\,000$ J",
+        "$2\\,200$ J"
+      ],
+      "answer": 0,
+      "hint": "$Q = mc\\Delta t = 0,5 \\cdot 880 \\cdot (75 - 25) = 22\\,000$ J."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một lượng khí lí tưởng ở áp suất $1,5 \\cdot 10^5$ Pa có thể tích $4$ lít. Giữ nhiệt độ không đổi, nén khí đến thể tích $2$ lít thì áp suất của khí bằng:",
+      "options": [
+        "$3 \\cdot 10^5$ Pa",
+        "$0,75 \\cdot 10^5$ Pa",
+        "$6 \\cdot 10^5$ Pa",
+        "$1,5 \\cdot 10^5$ Pa"
+      ],
+      "answer": 0,
+      "hint": "Đẳng nhiệt: $p_1V_1 = p_2V_2 \\Rightarrow p_2 = \\dfrac{1,5 \\cdot 10^5 \\cdot 4}{2} = 3 \\cdot 10^5$ Pa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một lượng khí lí tưởng có thể tích $2$ lít ở nhiệt độ $300$ K. Giữ áp suất không đổi, nung nóng khí đến $450$ K thì thể tích của khí bằng:",
+      "options": [
+        "$3$ lít",
+        "$1,33$ lít",
+        "$4,5$ lít",
+        "$2$ lít"
+      ],
+      "answer": 0,
+      "hint": "Đẳng áp: $\\dfrac{V_1}{T_1} = \\dfrac{V_2}{T_2} \\Rightarrow V_2 = 2 \\cdot \\dfrac{450}{300} = 3$ lít."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Một bình kín có thể tích không đổi chứa khí lí tưởng ở $27\\ ^\\circ$C ($300$ K), áp suất $1 \\cdot 10^5$ Pa. Đun nóng khí đến $87\\ ^\\circ$C ($360$ K) thì áp suất của khí trong bình bằng:",
+      "options": [
+        "$1,2 \\cdot 10^5$ Pa",
+        "$0,83 \\cdot 10^5$ Pa",
+        "$3,22 \\cdot 10^5$ Pa",
+        "$2 \\cdot 10^5$ Pa"
+      ],
+      "answer": 0,
+      "hint": "Đẳng tích: $\\dfrac{p_1}{T_1} = \\dfrac{p_2}{T_2} \\Rightarrow p_2 = 1 \\cdot 10^5 \\cdot \\dfrac{360}{300} = 1,2 \\cdot 10^5$ Pa."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về nội năng và định luật I nhiệt động lực học (áp dụng cho khí lí tưởng):",
+      "statements": [
+        { "text": "Khi hệ nhận nhiệt lượng từ bên ngoài thì $Q > 0$.", "answer": true },
+        { "text": "Nội năng của một lượng khí lí tưởng chỉ phụ thuộc vào nhiệt độ của nó.", "answer": true },
+        { "text": "Trong quá trình đẳng nhiệt của khí lí tưởng, nội năng của khí không đổi.", "answer": true },
+        { "text": "Khi khí dãn nở và thực hiện công lên môi trường ngoài thì công $A$ mà khí nhận được mang giá trị dương.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các quá trình biến đổi trạng thái của một lượng khí lí tưởng xác định:",
+      "statements": [
+        { "text": "Trong quá trình đẳng nhiệt, tích áp suất và thể tích là một hằng số ($pV =$ hằng số).", "answer": true },
+        { "text": "Trong quá trình đẳng áp, thể tích tỉ lệ thuận với nhiệt độ tuyệt đối.", "answer": true },
+        { "text": "Trong quá trình đẳng tích, áp suất tỉ lệ thuận với nhiệt độ tuyệt đối.", "answer": true },
+        { "text": "Ở nhiệt độ $0\\ ^\\circ$C, chuyển động nhiệt của các phân tử khí hoàn toàn dừng lại.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Nhiệt độ $100\\ ^\\circ$C ứng với nhiệt độ tuyệt đối là ___ K",
+      "answer": "373",
+      "hint": "$T = t + 273 = 100 + 273 = 373$ K."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Cần cung cấp nhiệt lượng để làm nóng chảy hoàn toàn $2$ kg nước đá ở $0\\ ^\\circ$C. Cho nhiệt nóng chảy riêng của nước đá $\\lambda = 3,4 \\cdot 10^5$ J/kg. Nhiệt lượng cần cung cấp là ___ J",
+      "answer": "680000",
+      "alternatives": ["680 000", "6,8.10^5", "6,8·10^5"],
+      "hint": "$Q = \\lambda m = 3,4 \\cdot 10^5 \\cdot 2 = 6,8 \\cdot 10^5 = 680\\,000$ J."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trong thang nhiệt độ Kelvin (nhiệt độ tuyệt đối), không tồn tại giá trị nhiệt độ âm.",
+      "answer": true,
+      "hint": "$0$ K là độ không tuyệt đối — nhiệt độ thấp nhất có thể có."
+    }
+  ]
+}

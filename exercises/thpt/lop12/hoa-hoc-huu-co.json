@@ -1,0 +1,204 @@
+{
+  "id": "thpt-hoa-hoc-l12-huu-co",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 12,
+  "topic": "Hóa học hữu cơ: Ester – Carbohydrate – Nitrogen – Polymer",
+  "chapter": "Hóa hữu cơ 12",
+  "difficulty": 2,
+  "outcomes": [
+    "Ester - Lipid",
+    "Carbohydrate",
+    "Amine - Amino acid - Protein",
+    "Polymer và vật liệu polymer"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ester $CH_3COOCH_3$ có tên gọi là:",
+      "options": [
+        "Methyl acetate",
+        "Ethyl acetate",
+        "Methyl formate",
+        "Methyl propionate"
+      ],
+      "answer": 0,
+      "hint": "Gốc acetate (từ $CH_3COOH$) + gốc methyl ($CH_3$) → methyl acetate."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phản ứng thủy phân chất béo trong môi trường kiềm (NaOH, KOH) tạo ra glycerol và muối của acid béo được gọi là phản ứng:",
+      "options": [
+        "Xà phòng hóa",
+        "Trùng hợp",
+        "Tráng bạc",
+        "Ester hóa"
+      ],
+      "answer": 0,
+      "hint": "Muối của acid béo (như sodium stearate) chính là thành phần của xà phòng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Carbohydrate nào sau đây thuộc loại disaccharide (đisaccarit)?",
+      "options": [
+        "Saccharose",
+        "Glucose",
+        "Fructose",
+        "Cellulose"
+      ],
+      "answer": 0,
+      "hint": "Saccharose được tạo từ 1 gốc glucose và 1 gốc fructose; glucose và fructose là monosaccharide."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Amino acid đơn giản nhất là glycine, có công thức cấu tạo:",
+      "options": [
+        "$H_2N-CH_2-COOH$",
+        "$CH_3-COOH$",
+        "$C_2H_5-OH$",
+        "$CH_3-NH_2$"
+      ],
+      "answer": 0,
+      "hint": "Glycine có 1 nhóm amino ($-NH_2$) và 1 nhóm carboxyl ($-COOH$) gắn vào cùng nguyên tử carbon."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Carbohydrate nào sau đây có phản ứng tráng bạc (tráng gương)?",
+      "options": [
+        "Glucose",
+        "Saccharose",
+        "Tinh bột",
+        "Cellulose"
+      ],
+      "answer": 0,
+      "hint": "Glucose ở dạng mạch hở có nhóm chức aldehyde ($-CHO$) nên tham gia phản ứng tráng bạc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Polymer nào sau đây thuộc loại polymer thiên nhiên?",
+      "options": [
+        "Cellulose (xenlulozơ)",
+        "Polyethylene (PE)",
+        "Poly(vinyl chloride) (PVC)",
+        "Nylon-6,6"
+      ],
+      "answer": 0,
+      "hint": "Cellulose có sẵn trong thực vật (bông, gỗ); PE, PVC, nylon-6,6 là polymer tổng hợp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Polyethylene (PE) được điều chế bằng phản ứng trùng hợp từ monomer nào sau đây?",
+      "options": [
+        "Ethylene $CH_2{=}CH_2$",
+        "Acetylene $CH{\\equiv}CH$",
+        "Benzene $C_6H_6$",
+        "Methane $CH_4$"
+      ],
+      "answer": 0,
+      "hint": "Nhiều phân tử ethylene $CH_2{=}CH_2$ kết hợp tạo mạch $(-CH_2-CH_2-)_n$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính chất hóa học đặc trưng của amine là:",
+      "options": [
+        "Tính base (bazơ)",
+        "Tính acid mạnh",
+        "Tính oxi hóa mạnh",
+        "Không tham gia phản ứng hóa học"
+      ],
+      "answer": 0,
+      "hint": "Nguyên tử nitrogen còn cặp electron chưa liên kết nên amine thể hiện tính base, làm quỳ tím ẩm hóa xanh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Thủy phân ester ethyl acetate ($CH_3COOC_2H_5$) trong môi trường acid (xúc tác $H_2SO_4$ loãng, đun nóng) thu được:",
+      "options": [
+        "Acetic acid và ethanol",
+        "Acetic acid và methanol",
+        "Formic acid và ethanol",
+        "Sodium acetate và ethanol"
+      ],
+      "answer": 0,
+      "hint": "$CH_3COOC_2H_5 + H_2O \\rightleftharpoons CH_3COOH + C_2H_5OH$ (thủy phân acid tạo lại acid và alcohol)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Lên men hoàn toàn $18$ gam glucose ($C_6H_{12}O_6$, $M = 180$ g/mol) thành ethanol (hiệu suất $100\\%$). Khối lượng ethanol ($C_2H_5OH$, $M = 46$ g/mol) thu được là:",
+      "options": [
+        "$9,2$ gam",
+        "$4,6$ gam",
+        "$18,4$ gam",
+        "$46$ gam"
+      ],
+      "answer": 0,
+      "hint": "$C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2$. $n_{glucose} = \\dfrac{18}{180} = 0,1$ mol $\\Rightarrow n_{ethanol} = 0,2$ mol $\\Rightarrow m = 0,2 \\cdot 46 = 9,2$ g."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho $0,1$ mol glycine ($H_2N-CH_2-COOH$, $M = 75$ g/mol) phản ứng vừa đủ với dung dịch HCl. Khối lượng muối thu được là:",
+      "options": [
+        "$11,15$ gam",
+        "$7,5$ gam",
+        "$3,65$ gam",
+        "$14,8$ gam"
+      ],
+      "answer": 0,
+      "hint": "Glycine $+ HCl \\rightarrow ClH_3N-CH_2-COOH$ ($M = 75 + 36,5 = 111,5$). $m = 0,1 \\cdot 111,5 = 11,15$ g."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về carbohydrate:",
+      "statements": [
+        { "text": "Glucose và fructose là đồng phân của nhau, cùng có công thức phân tử $C_6H_{12}O_6$.", "answer": true },
+        { "text": "Thủy phân hoàn toàn saccharose thu được glucose và fructose.", "answer": true },
+        { "text": "Tinh bột và cellulose là đồng phân của nhau.", "answer": false },
+        { "text": "Cellulose được dùng làm nguyên liệu sản xuất tơ visco và tơ acetate.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về ester, lipid, amine và polymer:",
+      "statements": [
+        { "text": "Nhiều ester có mùi thơm đặc trưng của hoa quả.", "answer": true },
+        { "text": "Chất béo lỏng (dầu thực vật) chứa chủ yếu các gốc acid béo không no.", "answer": true },
+        { "text": "Phản ứng trùng ngưng đòi hỏi monomer có ít nhất hai nhóm chức có khả năng phản ứng.", "answer": true },
+        { "text": "Tất cả các amine đều ở thể khí ở điều kiện thường.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Số nguyên tử oxygen trong một phân tử ester đơn chức (dạng $RCOOR'$) là ___",
+      "answer": "2",
+      "hint": "Nhóm chức ester $-COO-$ chứa 2 nguyên tử oxygen."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Đốt cháy hoàn toàn $0,1$ mol glucose $C_6H_{12}O_6$ thu được ___ mol khí $CO_2$",
+      "answer": "0,6",
+      "alternatives": ["0.6"],
+      "hint": "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$. Mỗi mol glucose tạo 6 mol $CO_2$ → $0,1 \\cdot 6 = 0,6$ mol."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Tơ nylon-6,6 được điều chế bằng phản ứng trùng ngưng.",
+      "answer": true,
+      "hint": "Nylon-6,6 tạo từ hexamethylenediamine và adipic acid bằng phản ứng trùng ngưng."
+    }
+  ]
+}

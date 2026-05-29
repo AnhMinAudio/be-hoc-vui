@@ -1,0 +1,205 @@
+{
+  "id": "thpt-hoa-hoc-l12-kim-loai",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 12,
+  "topic": "Đại cương kim loại – Pin điện & Điện phân – Kim loại nhóm IA, IIA",
+  "chapter": "Hóa vô cơ & Kim loại 12",
+  "difficulty": 3,
+  "outcomes": [
+    "Đại cương về kim loại",
+    "Pin điện - Điện phân - Ăn mòn kim loại",
+    "Kim loại nhóm IA, IIA",
+    "Điều chế kim loại"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tính chất vật lí chung của kim loại (tính dẻo, dẫn điện, dẫn nhiệt, ánh kim) chủ yếu do yếu tố nào gây ra?",
+      "options": [
+        "Các electron tự do trong mạng tinh thể kim loại",
+        "Các ion âm trong mạng tinh thể",
+        "Liên kết cộng hóa trị giữa các nguyên tử",
+        "Số lớp electron của nguyên tử"
+      ],
+      "answer": 0,
+      "hint": "Electron tự do chuyển động trong mạng tinh thể kim loại tạo nên các tính chất vật lí chung."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tính chất hóa học đặc trưng của kim loại là:",
+      "options": [
+        "Tính khử (dễ nhường electron)",
+        "Tính oxi hóa (dễ nhận electron)",
+        "Tính acid",
+        "Tính lưỡng tính"
+      ],
+      "answer": 0,
+      "hint": "Nguyên tử kim loại có ít electron lớp ngoài cùng, dễ nhường electron → thể hiện tính khử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Kim loại nào sau đây dẫn điện tốt nhất?",
+      "options": [
+        "Ag (bạc)",
+        "Cu (đồng)",
+        "Al (nhôm)",
+        "Fe (sắt)"
+      ],
+      "answer": 0,
+      "hint": "Thứ tự dẫn điện giảm dần thường gặp: Ag > Cu > Au > Al > Fe."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Kim loại nào sau đây thuộc nhóm IIA (kim loại kiềm thổ)?",
+      "options": [
+        "Ca (calcium)",
+        "Na (sodium)",
+        "Al (aluminium)",
+        "Fe (iron)"
+      ],
+      "answer": 0,
+      "hint": "Nhóm IIA gồm Be, Mg, Ca, Sr, Ba; Na thuộc nhóm IA."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kim loại nào sau đây phản ứng được với dung dịch HCl giải phóng khí $H_2$?",
+      "options": [
+        "Zn (kẽm)",
+        "Cu (đồng)",
+        "Ag (bạc)",
+        "Au (vàng)"
+      ],
+      "answer": 0,
+      "hint": "Chỉ kim loại đứng trước H trong dãy hoạt động hóa học mới đẩy được H ra khỏi dung dịch acid; Cu, Ag, Au đứng sau H."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong quá trình ăn mòn điện hóa học, tại cực âm (anode) xảy ra quá trình:",
+      "options": [
+        "Kim loại bị oxi hóa (nhường electron)",
+        "Kim loại bị khử (nhận electron)",
+        "Khí oxygen thoát ra",
+        "Không có quá trình hóa học nào"
+      ],
+      "answer": 0,
+      "hint": "Ở cực âm (anode), kim loại hoạt động hơn bị oxi hóa và mòn dần."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi điện phân dung dịch $CuSO_4$ với điện cực trơ, tại catot (cathode) xảy ra quá trình:",
+      "options": [
+        "$Cu^{2+} + 2e \\rightarrow Cu$ (ion $Cu^{2+}$ bị khử)",
+        "$Cu \\rightarrow Cu^{2+} + 2e$ (Cu bị oxi hóa)",
+        "$2H_2O \\rightarrow O_2 + 4H^+ + 4e$",
+        "$SO_4^{2-}$ bị khử"
+      ],
+      "answer": 0,
+      "hint": "Tại catot xảy ra sự khử: ion $Cu^{2+}$ nhận electron tạo Cu bám vào điện cực."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nước cứng là nước có chứa nhiều ion nào sau đây?",
+      "options": [
+        "$Ca^{2+}$ và $Mg^{2+}$",
+        "$Na^+$ và $K^+$",
+        "$Cl^-$ và $NO_3^-$",
+        "$H^+$ và $OH^-$"
+      ],
+      "answer": 0,
+      "hint": "Nước cứng chứa nhiều cation $Ca^{2+}$, $Mg^{2+}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho $4,6$ gam Na ($M = 23$ g/mol) tác dụng hết với nước. Thể tích khí $H_2$ thu được (ở điều kiện tiêu chuẩn, $1$ mol khí chiếm $22,4$ lít) là:",
+      "options": [
+        "$2,24$ lít",
+        "$4,48$ lít",
+        "$1,12$ lít",
+        "$22,4$ lít"
+      ],
+      "answer": 0,
+      "hint": "$2Na + 2H_2O \\rightarrow 2NaOH + H_2$. $n_{Na} = \\dfrac{4,6}{23} = 0,2$ mol $\\Rightarrow n_{H_2} = 0,1$ mol $\\Rightarrow V = 0,1 \\cdot 22,4 = 2,24$ lít."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ngâm một lá sắt (Fe) sạch vào dung dịch $CuSO_4$ một thời gian. Hiện tượng quan sát được là:",
+      "options": [
+        "Có lớp kim loại màu đỏ (Cu) bám lên lá sắt, màu xanh của dung dịch nhạt dần",
+        "Lá sắt tan hết, dung dịch chuyển sang màu vàng",
+        "Có khí không màu thoát ra, dung dịch không đổi màu",
+        "Không có hiện tượng gì xảy ra"
+      ],
+      "answer": 0,
+      "hint": "$Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$. Cu (màu đỏ) sinh ra bám lên lá sắt; ion $Cu^{2+}$ (xanh) giảm dần."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho $0,2$ mol Mg phản ứng hết với dung dịch HCl dư. Số mol khí $H_2$ thoát ra là:",
+      "options": [
+        "$0,2$ mol",
+        "$0,1$ mol",
+        "$0,4$ mol",
+        "$0,3$ mol"
+      ],
+      "answer": 0,
+      "hint": "$Mg + 2HCl \\rightarrow MgCl_2 + H_2$. $1$ mol Mg tạo $1$ mol $H_2$ → $0,2$ mol Mg cho $0,2$ mol $H_2$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về đại cương kim loại:",
+      "statements": [
+        { "text": "Trong một chu kì, theo chiều tăng dần điện tích hạt nhân, tính kim loại giảm dần.", "answer": true },
+        { "text": "Kim loại có tính khử càng mạnh thì càng dễ bị oxi hóa.", "answer": true },
+        { "text": "Các kim loại kiềm (nhóm IA) đều tác dụng mạnh với nước ở nhiệt độ thường.", "answer": true },
+        { "text": "Tất cả các kim loại đều ở thể rắn ở điều kiện thường.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về pin điện, điện phân và bảo vệ kim loại:",
+      "statements": [
+        { "text": "Trong pin điện hóa (pin Galvani), điện cực âm (anode) là nơi xảy ra quá trình oxi hóa.", "answer": true },
+        { "text": "Nguyên tắc điều chế kim loại là khử ion kim loại thành nguyên tử kim loại.", "answer": true },
+        { "text": "Phương pháp điện phân nóng chảy được dùng để điều chế các kim loại hoạt động mạnh như Na, Al.", "answer": true },
+        { "text": "Gắn một thanh kẽm (Zn) vào vỏ tàu biển bằng thép là cách dùng kim loại kém hoạt động hơn sắt để bảo vệ vỏ tàu.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Khi tạo thành ion, mỗi nguyên tử kim loại nhóm IA (kim loại kiềm) nhường đi ___ electron",
+      "answer": "1",
+      "alternatives": ["một"],
+      "hint": "Kim loại kiềm có 1 electron lớp ngoài cùng nên nhường 1 electron tạo ion $M^+$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Cho $5,4$ gam Al ($M = 27$ g/mol) tác dụng hết với dung dịch HCl dư. Số mol khí $H_2$ thu được là ___ mol",
+      "answer": "0,3",
+      "alternatives": ["0.3"],
+      "hint": "$2Al + 6HCl \\rightarrow 2AlCl_3 + 3H_2$. $n_{Al} = \\dfrac{5,4}{27} = 0,2$ mol $\\Rightarrow n_{H_2} = 0,2 \\cdot \\dfrac{3}{2} = 0,3$ mol."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Sắt (Fe) là kim loại có tính nhiễm từ (bị nam châm hút).",
+      "answer": true,
+      "hint": "Fe, Co, Ni là các kim loại có tính nhiễm từ."
+    }
+  ]
+}

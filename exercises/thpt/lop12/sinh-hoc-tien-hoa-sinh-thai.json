@@ -1,0 +1,204 @@
+{
+  "id": "thpt-sinh-hoc-l12-tien-hoa-sinh-thai",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 12,
+  "topic": "Tiến hóa và Sinh thái học",
+  "chapter": "Tiến hóa & Sinh thái học 12",
+  "difficulty": 2,
+  "outcomes": [
+    "Bằng chứng và cơ chế tiến hóa",
+    "Học thuyết tiến hóa hiện đại - Nhân tố tiến hóa",
+    "Quần thể - Quần xã - Hệ sinh thái",
+    "Chuỗi và lưới thức ăn - Bảo vệ môi trường"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cánh chim, cánh dơi và tay người là ví dụ về cơ quan:",
+      "options": [
+        "Tương đồng (cùng nguồn gốc)",
+        "Tương tự (khác nguồn gốc)",
+        "Thoái hóa hoàn toàn",
+        "Không liên quan tiến hóa"
+      ],
+      "answer": 0,
+      "hint": "Chúng có cùng nguồn gốc (chi trước) nhưng đảm nhận chức năng khác nhau → cơ quan tương đồng, phản ánh tiến hóa phân li."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cánh chim và cánh côn trùng (sâu bọ) là ví dụ về cơ quan:",
+      "options": [
+        "Tương tự (cùng chức năng, khác nguồn gốc)",
+        "Tương đồng (cùng nguồn gốc)",
+        "Thoái hóa",
+        "Cùng một loài"
+      ],
+      "answer": 0,
+      "hint": "Cùng làm nhiệm vụ bay nhưng nguồn gốc khác nhau → cơ quan tương tự, phản ánh tiến hóa đồng quy."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo quan niệm tiến hóa hiện đại, nguồn nguyên liệu sơ cấp chủ yếu cho quá trình tiến hóa là:",
+      "options": [
+        "Đột biến (đặc biệt là đột biến gene)",
+        "Biến dị tổ hợp",
+        "Thường biến",
+        "Tập tính của sinh vật"
+      ],
+      "answer": 0,
+      "hint": "Đột biến là nguyên liệu sơ cấp; biến dị tổ hợp là nguyên liệu thứ cấp của tiến hóa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nhân tố tiến hóa nào sau đây làm thay đổi tần số allele của quần thể một cách vô hướng (ngẫu nhiên)?",
+      "options": [
+        "Các yếu tố ngẫu nhiên (phiêu bạt di truyền)",
+        "Chọn lọc tự nhiên",
+        "Giao phối có chọn lọc",
+        "Cách li địa lí đơn thuần"
+      ],
+      "answer": 0,
+      "hint": "Chọn lọc tự nhiên làm thay đổi tần số allele theo hướng xác định; các yếu tố ngẫu nhiên thì vô hướng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tiêu chuẩn quan trọng nhất để phân biệt hai loài thân thuộc (sinh sản hữu tính) khác nhau là:",
+      "options": [
+        "Cách li sinh sản (không giao phối được, hoặc giao phối cho đời con bất thụ)",
+        "Khác nhau về kích thước cơ thể",
+        "Sống ở hai khu vực khác nhau",
+        "Khác nhau về màu sắc"
+      ],
+      "answer": 0,
+      "hint": "Cách li sinh sản là tiêu chuẩn cốt lõi để phân biệt loài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tập hợp nhiều quần thể sinh vật thuộc các loài khác nhau cùng sống trong một khoảng không gian và thời gian nhất định được gọi là:",
+      "options": [
+        "Quần xã sinh vật",
+        "Quần thể sinh vật",
+        "Hệ sinh thái",
+        "Sinh quyển"
+      ],
+      "answer": 0,
+      "hint": "Quần thể = một loài; quần xã = nhiều quần thể (nhiều loài) cùng sống trong một sinh cảnh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong một hệ sinh thái, sinh vật nào sau đây thuộc nhóm sinh vật sản xuất?",
+      "options": [
+        "Cây xanh (thực vật)",
+        "Thỏ",
+        "Hổ",
+        "Nấm hoại sinh"
+      ],
+      "answer": 0,
+      "hint": "Sinh vật sản xuất là sinh vật tự dưỡng (cây xanh quang hợp); thỏ và hổ là sinh vật tiêu thụ; nấm là sinh vật phân giải."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong chuỗi thức ăn: Cỏ → Châu chấu → Ếch → Rắn, sinh vật tiêu thụ bậc 1 là:",
+      "options": [
+        "Châu chấu",
+        "Cỏ",
+        "Ếch",
+        "Rắn"
+      ],
+      "answer": 0,
+      "hint": "Sinh vật tiêu thụ bậc 1 là loài ăn trực tiếp sinh vật sản xuất (cỏ) → châu chấu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi đi qua mỗi bậc dinh dưỡng trong chuỗi thức ăn, phần lớn năng lượng bị:",
+      "options": [
+        "Tiêu hao qua hô hấp, bài tiết, rơi rụng; chỉ một phần nhỏ tích lũy chuyển lên bậc trên",
+        "Tích lũy toàn bộ và truyền nguyên vẹn lên bậc trên",
+        "Biến mất hoàn toàn không theo quy luật",
+        "Chuyển ngược lại cho sinh vật sản xuất"
+      ],
+      "answer": 0,
+      "hint": "Trung bình chỉ khoảng 10% năng lượng được chuyển lên bậc dinh dưỡng kế tiếp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Quan hệ giữa cây tầm gửi sống bám và hút chất dinh dưỡng từ cây thân gỗ là quan hệ:",
+      "options": [
+        "Kí sinh",
+        "Cộng sinh",
+        "Hội sinh",
+        "Cạnh tranh cùng loài"
+      ],
+      "answer": 0,
+      "hint": "Một loài (tầm gửi) có lợi, loài kia (cây gỗ) bị hại → quan hệ kí sinh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Nguyên nhân chủ yếu làm gia tăng hiệu ứng nhà kính khiến Trái Đất nóng lên là sự gia tăng nồng độ khí nào trong khí quyển?",
+      "options": [
+        "$CO_2$ (carbon dioxide)",
+        "$O_2$ (oxygen)",
+        "$N_2$ (nitrogen)",
+        "He (helium)"
+      ],
+      "answer": 0,
+      "hint": "$CO_2$ từ đốt nhiên liệu hóa thạch là khí nhà kính chủ yếu do hoạt động của con người tạo ra."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về tiến hóa:",
+      "statements": [
+        { "text": "Theo thuyết tiến hóa tổng hợp hiện đại, đột biến và biến dị tổ hợp tạo nguồn nguyên liệu cho tiến hóa.", "answer": true },
+        { "text": "Chọn lọc tự nhiên tác động trực tiếp lên kiểu hình của cá thể.", "answer": true },
+        { "text": "Cơ quan tương đồng phản ánh hướng tiến hóa phân li từ một nguồn gốc chung.", "answer": true },
+        { "text": "Chọn lọc tự nhiên trực tiếp tạo ra các đột biến thích nghi cho sinh vật.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về sinh thái học:",
+      "statements": [
+        { "text": "Quần thể là tập hợp các cá thể cùng loài, cùng sống trong một sinh cảnh và có khả năng giao phối sinh ra con cái.", "answer": true },
+        { "text": "Trong hệ sinh thái, năng lượng truyền theo một chiều từ sinh vật sản xuất qua các bậc dinh dưỡng.", "answer": true },
+        { "text": "Sinh vật phân giải (vi khuẩn, nấm) phân hủy chất hữu cơ thành chất vô cơ trả lại môi trường.", "answer": true },
+        { "text": "Chuỗi thức ăn trong tự nhiên thường có rất nhiều mắt xích (trên 10 bậc) vì năng lượng được bảo toàn hoàn toàn.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Theo quy luật hình tháp năng lượng, trung bình chỉ khoảng ___ % năng lượng được chuyển từ một bậc dinh dưỡng lên bậc dinh dưỡng liền kề cao hơn.",
+      "answer": "10",
+      "hint": "Quy luật ~10%: phần lớn năng lượng bị hao phí qua hô hấp, bài tiết, rơi rụng."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Trong quần xã có các loài: cỏ, thỏ, cáo, sắp xếp thành một chuỗi thức ăn thì sinh vật đứng đầu chuỗi (sinh vật sản xuất) là ___",
+      "answer": "cỏ",
+      "alternatives": ["cây cỏ"],
+      "hint": "Chuỗi thức ăn: Cỏ → Thỏ → Cáo; cỏ là sinh vật tự dưỡng nên đứng đầu chuỗi."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Sinh quyển là toàn bộ sinh vật sống trên Trái Đất cùng với môi trường sống của chúng.",
+      "answer": true,
+      "hint": "Sinh quyển là hệ sinh thái lớn nhất, bao gồm mọi sinh vật và môi trường sống của chúng."
+    }
+  ]
+}

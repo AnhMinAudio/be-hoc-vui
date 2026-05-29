@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T17:28:56.961Z",
+  "generatedAt": "2026-05-29T17:46:56.420Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -624,6 +624,42 @@
       "path": "mam-non/age5/hinh-khoi-2.json"
     },
     {
+      "id": "thpt-hoa-hoc-l12-kim-loai",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 12,
+      "topic": "Đại cương kim loại – Pin điện & Điện phân – Kim loại nhóm IA, IIA",
+      "chapter": "Hóa vô cơ & Kim loại 12",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Đại cương về kim loại",
+        "Pin điện - Điện phân - Ăn mòn kim loại",
+        "Kim loại nhóm IA, IIA",
+        "Điều chế kim loại"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/hoa-hoc-kim-loai.json"
+    },
+    {
+      "id": "thpt-hoa-hoc-l12-huu-co",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 12,
+      "topic": "Hóa học hữu cơ: Ester – Carbohydrate – Nitrogen – Polymer",
+      "chapter": "Hóa hữu cơ 12",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Ester - Lipid",
+        "Carbohydrate",
+        "Amine - Amino acid - Protein",
+        "Polymer và vật liệu polymer"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/hoa-hoc-huu-co.json"
+    },
+    {
       "id": "thpt-hoa-hoc-l12-on-tap",
       "stage": "thpt",
       "subject": "hoa-hoc",
@@ -1044,6 +1080,24 @@
       "path": "thpt/lop12/ngu-van.json"
     },
     {
+      "id": "thpt-sinh-hoc-l12-di-truyen",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 12,
+      "topic": "Di truyền học: Gene, nhiễm sắc thể và các quy luật di truyền",
+      "chapter": "Di truyền học 12",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Cơ sở phân tử của hiện tượng di truyền",
+        "Phiên mã - Dịch mã - Mã di truyền",
+        "Các quy luật di truyền của Mendel",
+        "Đột biến gene và đột biến nhiễm sắc thể"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/sinh-hoc-di-truyen.json"
+    },
+    {
       "id": "thpt-sinh-hoc-l12-on-tap",
       "stage": "thpt",
       "subject": "sinh-hoc",
@@ -1061,6 +1115,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/sinh-hoc.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l12-tien-hoa-sinh-thai",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 12,
+      "topic": "Tiến hóa và Sinh thái học",
+      "chapter": "Tiến hóa & Sinh thái học 12",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Bằng chứng và cơ chế tiến hóa",
+        "Học thuyết tiến hóa hiện đại - Nhân tố tiến hóa",
+        "Quần thể - Quần xã - Hệ sinh thái",
+        "Chuỗi và lưới thức ăn - Bảo vệ môi trường"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/sinh-hoc-tien-hoa-sinh-thai.json"
     },
     {
       "id": "ta-l1-animals-and-pets",
@@ -3668,6 +3740,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/vat-li.json"
+    },
+    {
+      "id": "thpt-vat-li-l12-tu-truong-hat-nhan",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 12,
+      "topic": "Từ trường & Vật lí hạt nhân",
+      "chapter": "Chương 3–4: Từ trường và Vật lí hạt nhân",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Từ trường - Lực từ - Cảm ứng từ",
+        "Từ thông - Cảm ứng điện từ",
+        "Cấu tạo hạt nhân - Năng lượng liên kết",
+        "Phóng xạ - Phản ứng hạt nhân"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/vat-li-tu-truong-hat-nhan.json"
+    },
+    {
+      "id": "thpt-vat-li-l12-nhiet-khi-li-tuong",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 12,
+      "topic": "Vật lí nhiệt & Khí lí tưởng",
+      "chapter": "Chương 1–2: Vật lí nhiệt và Khí lí tưởng",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Nội năng - Định luật I nhiệt động lực học",
+        "Nhiệt dung riêng, nhiệt nóng chảy, nhiệt hóa hơi",
+        "Thuyết động học phân tử chất khí",
+        "Các định luật chất khí - Phương trình trạng thái"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/vat-li-nhiet-khi-li-tuong.json"
     }
   ]
 }
