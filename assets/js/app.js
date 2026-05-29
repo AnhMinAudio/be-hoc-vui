@@ -68,12 +68,12 @@ async function route() {
     : parts[0] === 'mam-non' ? 'mam-non'
     : (parts[0] && parts[0].startsWith('lop')) ? stageFromGrade(parseInt(parts[0].replace('lop', '')))
     : (PERSONAL.includes(parts[0]) && Auth.isLoggedIn()) ? stageFromGrade(Auth.getUser().grade)
-    : parts.length === 0 ? 'tieu-hoc'
+    : parts.length === 0 ? homeWorld()
     : '';
   if (parts[0] !== 'bai') applyStageTheme(world); // 'bai' tự đặt trong renderExercise
   updateWorldTabs(world);
 
-  if (parts.length === 0) return renderWorldHome(view, 'tieu-hoc');
+  if (parts.length === 0) return renderWorldHome(view, homeWorld());
   if (parts[0] === 'cap' && parts[1]) return renderWorldHome(view, parts[1]);
   if (parts[0] === 'thanh-tich') return renderAchievements(view);
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
@@ -94,7 +94,7 @@ async function route() {
     return renderTopicList(view, grade, parts[1]);
   }
   if (parts[0] === 'bai' && parts[1]) return renderExercise(view, parts[1]);
-  return renderWorldHome(view, 'tieu-hoc');
+  return renderWorldHome(view, homeWorld());
 }
 
 window.addEventListener('hashchange', route);
@@ -144,6 +144,8 @@ function brandMarkSVG(stage) {
 }
 
 function stageFromGrade(g) { return g >= 10 ? 'thpt' : g >= 6 ? 'thcs' : 'tieu-hoc'; }
+// Trang chủ hiển thị "thế giới" theo lớp của tài khoản đang đăng nhập (mặc định Tiểu học)
+function homeWorld() { return Auth.isLoggedIn() ? stageFromGrade(Auth.getUser().grade) : 'tieu-hoc'; }
 const DARK_KEY = 'be-hoc-vui-theme-dark';
 function applyStageTheme(stage) {
   if (stage) document.body.dataset.stage = stage;
