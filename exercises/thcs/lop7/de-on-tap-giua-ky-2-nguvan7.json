@@ -1,0 +1,131 @@
+{
+  "id": "thcs-nguvan-l7-on-tap-giua-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 7,
+  "topic": "Ôn tập giữa học kỳ 2 — Ngữ văn 7",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra. Câu ca dao ca ngợi công lao to lớn của cha mẹ đối với con cái. Mỗi người con cần biết hiếu thảo, kính trọng và yêu thương cha mẹ của mình.",
+      "question": "Câu ca dao ca ngợi điều gì?",
+      "options": ["công lao to lớn của cha mẹ", "cảnh núi non hùng vĩ", "dòng nước trong nguồn", "tình bạn"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra. Câu ca dao ca ngợi công lao to lớn của cha mẹ đối với con cái. Mỗi người con cần biết hiếu thảo, kính trọng và yêu thương cha mẹ của mình.",
+      "question": "Công cha được so sánh với hình ảnh nào?",
+      "options": ["núi Thái Sơn", "nước trong nguồn", "biển cả", "bầu trời"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra. Câu ca dao ca ngợi công lao to lớn của cha mẹ đối với con cái. Mỗi người con cần biết hiếu thảo, kính trọng và yêu thương cha mẹ của mình.",
+      "question": "Câu ca dao khuyên người con điều gì?",
+      "options": ["hiếu thảo, kính trọng, yêu thương cha mẹ", "chăm đi du lịch", "học giỏi để nổi tiếng", "tiết kiệm tiền"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra. Câu ca dao ca ngợi công lao to lớn của cha mẹ đối với con cái. Mỗi người con cần biết hiếu thảo, kính trọng và yêu thương cha mẹ của mình.",
+      "question": "Hai dòng đầu của câu ca dao sử dụng biện pháp tu từ nào?",
+      "options": ["so sánh", "hoán dụ", "nói quá", "điệp ngữ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thành ngữ là gì?",
+      "options": ["cụm từ cố định, quen dùng, có nghĩa hoàn chỉnh", "một câu hỏi", "một đoạn văn dài", "một bài thơ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ 'hiếu thảo' là loại từ nào?",
+      "options": ["từ ghép Hán Việt", "từ láy", "từ đơn", "số từ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Biện pháp điệp ngữ là biện pháp:",
+      "options": ["lặp lại từ ngữ để nhấn mạnh", "so sánh hai sự vật", "gọi vật như gọi người", "phóng đại sự việc"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về tiếng Việt:",
+      "statements": [
+        { "text": "Ca dao thường dùng để bộc lộ tình cảm, cảm xúc.", "answer": true },
+        { "text": "Từ 'như' thường dùng trong phép so sánh.", "answer": true },
+        { "text": "Số từ chỉ số lượng hoặc thứ tự của sự vật.", "answer": true },
+        { "text": "Phó từ là từ dùng để gọi đáp.", "answer": false }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong câu 'Mẹ rất yêu thương con.', từ 'rất' là:",
+      "options": ["phó từ chỉ mức độ", "danh từ", "số từ", "động từ"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm một từ đồng nghĩa với 'yêu thương': ___",
+      "answer": "thương yêu",
+      "alternatives": ["quý mến", "yêu quý"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu 'Hãy hiếu thảo với cha mẹ!' xét theo mục đích nói là câu:",
+      "options": ["cầu khiến", "nghi vấn", "cảm thán", "trần thuật đơn thuần"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Phép so sánh trong 'Nghĩa mẹ như nước trong nguồn' có tác dụng gì?",
+      "options": ["làm nổi bật, cụ thể hóa công lao to lớn của mẹ", "miêu tả dòng nước", "kể một câu chuyện", "đặt một câu hỏi"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Dấu chấm phẩy (;) thường được dùng để:",
+      "options": ["ngăn cách các vế trong câu ghép có cấu tạo phức tạp", "kết thúc câu hỏi", "bộc lộ cảm xúc", "thay cho dấu chấm hỏi"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền quan hệ từ thích hợp: 'Chúng ta phải biết ơn cha mẹ ___ thầy cô.'",
+      "answer": "và",
+      "alternatives": ["lẫn", "cùng"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ 'Thái Sơn' trong câu ca dao là:",
+      "options": ["tên riêng (tên một ngọn núi)", "động từ", "tính từ", "số từ"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Để thể hiện lòng hiếu thảo, là con em nên làm gì?",
+      "options": ["vâng lời, giúp đỡ và chăm sóc cha mẹ", "đòi hỏi cha mẹ nhiều thứ", "thờ ơ với gia đình", "chỉ lo chơi game"],
+      "answer": 0
+    }
+  ]
+}

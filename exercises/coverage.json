@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T08:27:59.707Z",
+  "generatedAt": "2026-05-29T08:36:37.907Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1167,8 +1167,8 @@
   "thcs": {
     "toan": {
       "6": {
-        "exerciseCount": 11,
-        "totalQuestions": 190,
+        "exerciseCount": 12,
+        "totalQuestions": 206,
         "topics": [
           {
             "id": "thcs-toan-l6-c1-so-tu-nhien",
@@ -1235,12 +1235,18 @@
             "topic": "Ôn tập giữa học kỳ 1 — Toán 6",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "thcs-toan-l6-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Toán 6",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       },
       "7": {
-        "exerciseCount": 4,
-        "totalQuestions": 68,
+        "exerciseCount": 5,
+        "totalQuestions": 84,
         "topics": [
           {
             "id": "thcs-toan-l7-on-tap-cuoi-ky-1",
@@ -1261,6 +1267,12 @@
             "difficulty": 2
           },
           {
+            "id": "thcs-toan-l7-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Toán 7",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "thcs-toan-l7-so-huu-ti-va-bieu-thuc",
             "topic": "Số hữu tỉ, lũy thừa, tỉ lệ thức, biểu thức đại số và đường thẳng song song",
             "questionCount": 18,
@@ -1269,8 +1281,8 @@
         ]
       },
       "8": {
-        "exerciseCount": 4,
-        "totalQuestions": 70,
+        "exerciseCount": 5,
+        "totalQuestions": 86,
         "topics": [
           {
             "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-1",
@@ -1287,6 +1299,12 @@
           {
             "id": "thcs-toan-l8-on-tap-cuoi-ky-2",
             "topic": "Ôn tập cuối học kỳ 2 — Toán 8",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thcs-toan-l8-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Toán 8",
             "questionCount": 16,
             "difficulty": 3
           },
@@ -1319,8 +1337,8 @@
     },
     "ngu-van": {
       "6": {
-        "exerciseCount": 4,
-        "totalQuestions": 67,
+        "exerciseCount": 5,
+        "totalQuestions": 83,
         "topics": [
           {
             "id": "thcs-tv-l6-on-tap-cuoi-ky-1",
@@ -1341,6 +1359,12 @@
             "difficulty": 2
           },
           {
+            "id": "thcs-nguvan-l6-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Ngữ văn 6",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "thcs-tv-l6-tu-loai-va-bien-phap-tu-tu",
             "topic": "Từ loại, cấu tạo từ và biện pháp tu từ so sánh, nhân hóa",
             "questionCount": 18,
@@ -1349,8 +1373,8 @@
         ]
       },
       "7": {
-        "exerciseCount": 4,
-        "totalQuestions": 66,
+        "exerciseCount": 5,
+        "totalQuestions": 82,
         "topics": [
           {
             "id": "thcs-tv-l7-on-tap-cuoi-ky-1",
@@ -1371,6 +1395,12 @@
             "difficulty": 2
           },
           {
+            "id": "thcs-nguvan-l7-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Ngữ văn 7",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "thcs-tv-l7-tu-han-viet-va-tu-tu",
             "topic": "Từ Hán Việt, từ đồng nghĩa - trái nghĩa và biện pháp điệp ngữ, ẩn dụ, hoán dụ",
             "questionCount": 17,
@@ -1379,8 +1409,8 @@
         ]
       },
       "8": {
-        "exerciseCount": 4,
-        "totalQuestions": 69,
+        "exerciseCount": 5,
+        "totalQuestions": 85,
         "topics": [
           {
             "id": "thcs-tv-l8-cau-va-bien-phap-tu-tu",
@@ -1405,6 +1435,12 @@
             "topic": "Ôn tập giữa học kỳ 1 — Ngữ văn 8",
             "questionCount": 18,
             "difficulty": 2
+          },
+          {
+            "id": "thcs-nguvan-l8-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Ngữ văn 8",
+            "questionCount": 16,
+            "difficulty": 3
           }
         ]
       },
@@ -1423,8 +1459,8 @@
     },
     "tieng-anh": {
       "6": {
-        "exerciseCount": 4,
-        "totalQuestions": 65,
+        "exerciseCount": 5,
+        "totalQuestions": 81,
         "topics": [
           {
             "id": "thcs-ta-l6-on-tap-cuoi-ky-1",
@@ -1445,6 +1481,12 @@
             "difficulty": 2
           },
           {
+            "id": "thcs-tienganh-l6-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh 6",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "thcs-ta-l6-present-simple",
             "topic": "Present Simple, to be, there is/are & Daily routines (Thì hiện tại đơn, động từ to be, cấu trúc there is/are và thói quen hằng ngày)",
             "questionCount": 17,
@@ -1453,8 +1495,8 @@
         ]
       },
       "7": {
-        "exerciseCount": 4,
-        "totalQuestions": 66,
+        "exerciseCount": 5,
+        "totalQuestions": 82,
         "topics": [
           {
             "id": "thcs-ta-l7-on-tap-cuoi-ky-1",
@@ -1475,6 +1517,12 @@
             "difficulty": 2
           },
           {
+            "id": "thcs-tienganh-l7-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh 7",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "thcs-ta-l7-past-simple-comparatives",
             "topic": "Past Simple, Comparatives & Superlatives, Present Continuous (Thì quá khứ đơn, so sánh hơn và so sánh nhất, thì hiện tại tiếp diễn)",
             "questionCount": 18,
@@ -1483,8 +1531,8 @@
         ]
       },
       "8": {
-        "exerciseCount": 4,
-        "totalQuestions": 65,
+        "exerciseCount": 5,
+        "totalQuestions": 81,
         "topics": [
           {
             "id": "thcs-ta-l8-on-tap-cuoi-ky-1",
@@ -1503,6 +1551,12 @@
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh 8",
             "questionCount": 16,
             "difficulty": 2
+          },
+          {
+            "id": "thcs-tienganh-l8-on-tap-giua-ky-2",
+            "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh 8",
+            "questionCount": 16,
+            "difficulty": 3
           },
           {
             "id": "thcs-ta-l8-present-perfect",

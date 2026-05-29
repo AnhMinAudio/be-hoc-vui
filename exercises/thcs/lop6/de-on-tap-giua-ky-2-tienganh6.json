@@ -1,0 +1,133 @@
+{
+  "id": "thcs-tienganh-l6-on-tap-giua-ky-2",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 6,
+  "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh 6",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'cartoon' mean? (Từ 'cartoon' nghĩa là gì?)",
+      "options": ["phim hoạt hình", "bản tin", "quảng cáo", "trò chơi"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'bóng rổ'? ('bóng rổ' tiếng Anh là gì?)",
+      "options": ["basketball", "football", "tennis", "badminton"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the correct verb: '___ football' (chơi bóng đá)",
+      "options": ["play", "do", "go", "make"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the comparative form of 'tall'. (Dạng so sánh hơn của 'tall')",
+      "options": ["taller", "more tall", "tallest", "tall"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Complete: 'I watch ___ every evening.' (xem ti vi — điền 'TV')",
+      "answer": "TV",
+      "alternatives": ["television", "tv"]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the TV programme with its meaning (Nối chương trình ti vi với nghĩa)",
+      "pairs": [
+        ["news", "bản tin"],
+        ["cartoon", "phim hoạt hình"],
+        ["sports", "thể thao"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the superlative: 'Tokyo is one of the ___ cities in the world.' (lớn nhất)",
+      "options": ["biggest", "bigger", "big", "more big"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct verb: '___ swimming' (đi bơi)",
+      "options": ["go", "play", "do", "make"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Decide True or False (Xét đúng/sai):",
+      "statements": [
+        { "text": "We use 'play' with 'football'.", "answer": true },
+        { "text": "A cartoon is a TV programme for children.", "answer": true },
+        { "text": "'bigger' is the comparative of 'big'.", "answer": true },
+        { "text": "We say 'play swimming'.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete with the comparative of 'big': 'My city is ___ than your village.'",
+      "answer": "bigger",
+      "alternatives": ["Bigger"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which one is a sport? (Đâu là một môn thể thao?)",
+      "options": ["badminton", "cartoon", "news", "city"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the correct sentence (Chọn câu đúng)",
+      "options": ["Ha Noi is bigger than Hue.", "Ha Noi bigger Hue.", "Ha Noi more big Hue.", "Ha Noi big than Hue."],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Tom likes watching TV. His favourite programme is a cartoon called Tom and Jerry. He watches it every Sunday morning. He also likes playing football with his friends after school.",
+      "question": "What is Tom's favourite TV programme? (Chương trình ti vi yêu thích của Tom là gì?)",
+      "options": ["a cartoon", "the news", "a sports show", "a film"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Tom likes watching TV. His favourite programme is a cartoon called Tom and Jerry. He watches it every Sunday morning. He also likes playing football with his friends after school.",
+      "question": "When does Tom watch his favourite programme? (Tom xem chương trình đó khi nào?)",
+      "options": ["every Sunday morning", "every night", "on Monday", "after dinner"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Tom likes watching TV. His favourite programme is a cartoon called Tom and Jerry. He watches it every Sunday morning. He also likes playing football with his friends after school.",
+      "question": "What does Tom do after school? (Tom làm gì sau giờ học?)",
+      "options": ["plays football with his friends", "watches the news", "goes swimming", "sleeps"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "You want to ask your friend's favourite sport (Em muốn hỏi môn thể thao yêu thích của bạn)",
+      "options": ["What is your favourite sport?", "You sport favourite what?", "Favourite you what sport?", "Sport what you favourite?"],
+      "answer": 0
+    }
+  ]
+}

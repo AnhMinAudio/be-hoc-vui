@@ -1,0 +1,133 @@
+{
+  "id": "thcs-toan-l7-on-tap-giua-ky-2",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 7,
+  "topic": "Ôn tập giữa học kỳ 2 — Toán 7",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tỉ lệ thức là đẳng thức của:",
+      "options": ["hai tỉ số", "hai tổng", "hai tích", "hai hiệu"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ $\\dfrac{x}{5} = \\dfrac{6}{15}$, giá trị của $x$ là:",
+      "options": ["$2$", "$3$", "$18$", "$\\dfrac{1}{2}$"],
+      "answer": 0,
+      "hint": "$x = \\dfrac{5 \\times 6}{15} = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nếu $y$ tỉ lệ nghịch với $x$ theo hệ số $a = 12$ thì:",
+      "options": ["$y = \\dfrac{12}{x}$", "$y = 12x$", "$y = x + 12$", "$y = x - 12$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai đại lượng $x, y$ tỉ lệ thuận với nhau khi:",
+      "options": ["$y = kx$ (với $k \\neq 0$)", "$xy = k$", "$y = x + k$", "$y = \\dfrac{k}{x}$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong tỉ lệ thức $\\dfrac{a}{b} = \\dfrac{c}{d}$, $a$ và $d$ được gọi là:",
+      "options": ["các số hạng ngoại tỉ", "các số hạng trung tỉ", "các tử số", "các mẫu số"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cho $\\dfrac{3}{4} = \\dfrac{x}{8}$. Giá trị của $x$ là:",
+      "options": ["$6$", "$8$", "$4$", "$2$"],
+      "answer": 0,
+      "hint": "$x = \\dfrac{3 \\times 8}{4} = 6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ đẳng thức $2 \\times 6 = 3 \\times 4$, lập được tỉ lệ thức nào?",
+      "options": ["$\\dfrac{2}{3} = \\dfrac{4}{6}$", "$\\dfrac{2}{4} = \\dfrac{6}{3}$", "$\\dfrac{2}{6} = \\dfrac{4}{3}$", "$\\dfrac{3}{2} = \\dfrac{4}{6}$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho $y$ tỉ lệ thuận với $x$, khi $x = 2$ thì $y = 6$. Hệ số tỉ lệ là:",
+      "options": ["$3$", "$2$", "$12$", "$\\dfrac{1}{3}$"],
+      "answer": 0,
+      "hint": "$k = \\dfrac{y}{x} = \\dfrac{6}{2} = 3$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về đại lượng tỉ lệ:",
+      "statements": [
+        { "text": "Nếu $y = 5x$ thì $y$ tỉ lệ thuận với $x$.", "answer": true },
+        { "text": "Nếu $xy = 10$ thì $y$ tỉ lệ nghịch với $x$.", "answer": true },
+        { "text": "Trong tỉ lệ thức, tích trung tỉ bằng tích ngoại tỉ.", "answer": true },
+        { "text": "Đồ thị của đại lượng tỉ lệ nghịch là một đường thẳng đi qua gốc tọa độ.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Cho $\\dfrac{x}{3} = \\dfrac{12}{9}$. Giá trị của $x$ là ___",
+      "answer": "4",
+      "hint": "$x = \\dfrac{3 \\times 12}{9} = 4$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai đại lượng tỉ lệ nghịch, khi $x = 4$ thì $y = 6$. Khi $x = 8$ thì $y$ bằng:",
+      "options": ["$3$", "$12$", "$2$", "$48$"],
+      "answer": 0,
+      "hint": "$xy = 4 \\times 6 = 24$; khi $x = 8$ thì $y = 24 : 8 = 3$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Chia số $63$ thành ba phần tỉ lệ với $2, 3, 4$. Phần lớn nhất là ___",
+      "answer": "28",
+      "hint": "Phần lớn nhất $= 63 \\times \\dfrac{4}{2 + 3 + 4} = 28$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Năm công nhân làm xong một công việc trong $12$ ngày. Hỏi $10$ công nhân (cùng năng suất) làm xong công việc đó trong bao nhiêu ngày? Trả lời: ___ ngày.",
+      "answer": "6",
+      "hint": "Số người và số ngày tỉ lệ nghịch: $5 \\times 12 = 10 \\times t \\Rightarrow t = 6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cứ $3$ kg gạo nấu được $9$ bát cơm. Hỏi $5$ kg gạo nấu được bao nhiêu bát cơm (theo tỉ lệ thuận)?",
+      "options": ["$15$ bát", "$12$ bát", "$27$ bát", "$45$ bát"],
+      "answer": 0,
+      "hint": "$1$ kg nấu được $9 : 3 = 3$ bát; $5$ kg nấu được $3 \\times 5 = 15$ bát."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tìm hai số $x, y$ biết $\\dfrac{x}{2} = \\dfrac{y}{7}$ và $y - x = 15$. Giá trị của $x$ là ___",
+      "answer": "6",
+      "hint": "Đặt $\\dfrac{x}{2} = \\dfrac{y}{7} = k$; $7k - 2k = 15 \\Rightarrow k = 3 \\Rightarrow x = 6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Ba lớp 7A, 7B, 7C trồng cây tỉ lệ với $3, 4, 5$. Biết cả ba lớp trồng được $96$ cây. Lớp 7C trồng được:",
+      "options": ["$40$ cây", "$32$ cây", "$24$ cây", "$48$ cây"],
+      "answer": 0,
+      "hint": "Lớp 7C $= 96 \\times \\dfrac{5}{3 + 4 + 5} = 40$ cây."
+    }
+  ]
+}

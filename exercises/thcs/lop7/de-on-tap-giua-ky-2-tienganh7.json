@@ -1,0 +1,134 @@
+{
+  "id": "thcs-tienganh-l7-on-tap-giua-ky-2",
+  "stage": "thcs",
+  "subject": "tieng-anh",
+  "grade": 7,
+  "topic": "Ôn tập giữa học kỳ 2 — Tiếng Anh 7",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'traffic jam' mean? (Cụm 'traffic jam' nghĩa là gì?)",
+      "options": ["tắc đường", "đèn giao thông", "ngã tư", "vỉa hè"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'xe máy'? ('xe máy' tiếng Anh là gì?)",
+      "options": ["motorbike", "bicycle", "bus", "train"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does a red traffic light mean? (Đèn giao thông màu đỏ nghĩa là gì?)",
+      "options": ["stop", "go", "slow down", "turn left"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Complete: 'You ___ stop at a red light.' (bắt buộc — điền từ chỉ sự bắt buộc)",
+      "options": ["must", "can", "might", "may"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Complete: 'We ___ wear a helmet when riding a motorbike.' (phải — điền 'must')",
+      "answer": "must",
+      "alternatives": ["Must"]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the means of transport with its meaning (Nối phương tiện với nghĩa)",
+      "pairs": [
+        ["bus", "xe buýt"],
+        ["train", "tàu hỏa"],
+        ["plane", "máy bay"],
+        ["bicycle", "xe đạp"]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which word is an adjective to describe a film? (Từ nào là tính từ tả một bộ phim?)",
+      "options": ["boring", "slowly", "quickly", "carefully"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'A horror film is ___.' (đáng sợ)",
+      "options": ["scary", "delicious", "sunny", "tall"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Decide True or False (Xét đúng/sai):",
+      "statements": [
+        { "text": "A red traffic light means 'stop'.", "answer": true },
+        { "text": "We must wear a helmet when riding a motorbike.", "answer": true },
+        { "text": "A comedy is a funny film.", "answer": true },
+        { "text": "A bicycle has an engine.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "What kind of film makes you laugh? It is a ___ film. (phim hài — điền 'comedy')",
+      "answer": "comedy",
+      "alternatives": ["funny"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which word means a place where two roads cross? (Từ nào chỉ nơi hai con đường cắt nhau?)",
+      "options": ["crossroads", "pavement", "traffic light", "helmet"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the correct sentence (Chọn câu đúng)",
+      "options": ["You must not run a red light.", "You must not running red.", "You no must red light.", "Must you not red."],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "In big cities, there are often traffic jams in the morning. To stay safe, people must obey the traffic rules. They must stop at red lights and wear helmets when riding motorbikes.",
+      "question": "When are there often traffic jams? (Khi nào thường có tắc đường?)",
+      "options": ["in the morning", "at midnight", "on Sunday", "in winter"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "In big cities, there are often traffic jams in the morning. To stay safe, people must obey the traffic rules. They must stop at red lights and wear helmets when riding motorbikes.",
+      "question": "What must people do at red lights? (Người ta phải làm gì khi đèn đỏ?)",
+      "options": ["stop", "go faster", "turn around", "sing a song"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "In big cities, there are often traffic jams in the morning. To stay safe, people must obey the traffic rules. They must stop at red lights and wear helmets when riding motorbikes.",
+      "question": "What must people wear when riding motorbikes? (Phải đội gì khi đi xe máy?)",
+      "options": ["helmets", "hats", "shoes", "gloves"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "You want to advise a friend to obey the traffic rules (Em muốn khuyên bạn tuân thủ luật giao thông)",
+      "options": ["You should obey the traffic rules.", "You traffic rules obey.", "Obey you rules traffic?", "Rules you should obey traffic is."],
+      "answer": 0
+    }
+  ]
+}

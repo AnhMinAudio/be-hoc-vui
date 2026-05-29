@@ -1,0 +1,131 @@
+{
+  "id": "thcs-nguvan-l8-on-tap-giua-ky-2",
+  "stage": "thcs",
+  "subject": "ngu-van",
+  "grade": 8,
+  "topic": "Ôn tập giữa học kỳ 2 — Ngữ văn 8",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Thời gian là thứ quý giá nhất mà mỗi người đều có như nhau. Một ngày của ai cũng chỉ có hai mươi tư giờ. Người biết quý trọng thời gian, sử dụng nó hợp lí thì sẽ gặt hái được nhiều thành công. Vì thế, chúng ta đừng để thời gian trôi qua một cách lãng phí.",
+      "question": "Theo đoạn văn, thứ quý giá nhất mà ai cũng có như nhau là gì?",
+      "options": ["thời gian", "tiền bạc", "sức khỏe", "may mắn"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Thời gian là thứ quý giá nhất mà mỗi người đều có như nhau. Một ngày của ai cũng chỉ có hai mươi tư giờ. Người biết quý trọng thời gian, sử dụng nó hợp lí thì sẽ gặt hái được nhiều thành công. Vì thế, chúng ta đừng để thời gian trôi qua một cách lãng phí.",
+      "question": "Người biết quý trọng thời gian sẽ như thế nào?",
+      "options": ["gặt hái được nhiều thành công", "luôn mệt mỏi", "gặp nhiều khó khăn", "không có gì thay đổi"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Thời gian là thứ quý giá nhất mà mỗi người đều có như nhau. Một ngày của ai cũng chỉ có hai mươi tư giờ. Người biết quý trọng thời gian, sử dụng nó hợp lí thì sẽ gặt hái được nhiều thành công. Vì thế, chúng ta đừng để thời gian trôi qua một cách lãng phí.",
+      "question": "Câu cuối đoạn văn xét theo mục đích nói là câu gì?",
+      "options": ["câu cầu khiến", "câu nghi vấn", "câu cảm thán", "câu trần thuật kể sự việc"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Thời gian là thứ quý giá nhất mà mỗi người đều có như nhau. Một ngày của ai cũng chỉ có hai mươi tư giờ. Người biết quý trọng thời gian, sử dụng nó hợp lí thì sẽ gặt hái được nhiều thành công. Vì thế, chúng ta đừng để thời gian trôi qua một cách lãng phí.",
+      "question": "Đoạn văn trên thuộc kiểu văn bản nào?",
+      "options": ["nghị luận", "tự sự", "miêu tả", "thuyết minh"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Từ nào sau đây là từ tượng thanh?",
+      "options": ["róc rách", "xanh xanh", "cao cao", "tim tím"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ nào sau đây là từ tượng hình?",
+      "options": ["lom khom", "ào ào", "leng keng", "rì rào"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong câu 'Ngay cả trẻ em cũng biết quý thời gian.', từ 'Ngay cả' là:",
+      "options": ["trợ từ", "thán từ", "quan hệ từ", "số từ"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về tiếng Việt:",
+      "statements": [
+        { "text": "Từ tượng thanh mô phỏng âm thanh của tự nhiên, con người.", "answer": true },
+        { "text": "Từ tượng hình gợi tả hình ảnh, dáng vẻ của sự vật.", "answer": true },
+        { "text": "Câu 'Tôi không lãng phí thời gian.' là câu phủ định.", "answer": true },
+        { "text": "Trợ từ luôn đứng ở cuối câu.", "answer": false }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Câu 'Ôi, thời gian trôi nhanh quá!' chứa thán từ nào?",
+      "options": ["Ôi", "thời gian", "nhanh", "quá"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm một từ trái nghĩa với 'lãng phí': ___",
+      "answer": "tiết kiệm",
+      "alternatives": ["tằn tiện"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu nào sau đây là câu phủ định?",
+      "options": ["Em chưa làm xong bài tập.", "Em đã làm xong bài tập.", "Em làm bài rất nhanh.", "Hãy làm bài đi!"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu 'Chẳng lẽ ta lại lãng phí thời gian quý báu?' là câu:",
+      "options": ["câu hỏi tu từ", "câu cầu khiến", "câu kể đơn thuần", "câu cảm thán"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Câu 'Thời gian là vàng bạc.' ngầm so sánh thời gian với vàng bạc. Đó là biện pháp tu từ:",
+      "options": ["ẩn dụ", "hoán dụ", "nói quá", "điệp ngữ"],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Điền quan hệ từ thích hợp: 'Nếu biết quý thời gian ___ ta sẽ thành công.'",
+      "answer": "thì",
+      "alternatives": ["thì sẽ"]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Từ 'lãng phí' trái nghĩa với từ nào?",
+      "options": ["tiết kiệm", "tốn kém", "hoang phí", "phung phí"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Là học sinh, em nên sử dụng thời gian như thế nào?",
+      "options": ["lập thời gian biểu, học và nghỉ ngơi hợp lí", "thức suốt đêm để học", "chỉ chơi, không học", "để thời gian trôi qua tùy ý"],
+      "answer": 0
+    }
+  ]
+}

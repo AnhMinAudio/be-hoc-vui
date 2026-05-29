@@ -1,0 +1,130 @@
+{
+  "id": "thcs-toan-l8-on-tap-giua-ky-2",
+  "stage": "thcs",
+  "subject": "toan",
+  "grade": 8,
+  "topic": "Ôn tập giữa học kỳ 2 — Toán 8",
+  "chapter": "Ôn tập giữa kỳ 2",
+  "difficulty": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phân thức $\\dfrac{A}{B}$ xác định khi nào?",
+      "options": ["$B \\neq 0$", "$A \\neq 0$", "$A = 0$", "$B = 0$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Điều kiện xác định của phân thức $\\dfrac{3}{x+1}$ là:",
+      "options": ["$x \\neq -1$", "$x \\neq 1$", "$x \\neq 0$", "$x \\neq 3$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phân thức nào sau đây bằng $\\dfrac{x}{2}$?",
+      "options": ["$\\dfrac{2x}{4}$", "$\\dfrac{x}{4}$", "$\\dfrac{2}{x}$", "$\\dfrac{x+2}{2}$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Rút gọn phân thức $\\dfrac{6x}{9}$:",
+      "options": ["$\\dfrac{2x}{3}$", "$\\dfrac{6x}{9}$", "$\\dfrac{3x}{2}$", "$\\dfrac{2}{3x}$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phân thức đối của $\\dfrac{x}{y}$ là:",
+      "options": ["$\\dfrac{-x}{y}$", "$\\dfrac{y}{x}$", "$\\dfrac{x}{y}$", "$\\dfrac{y}{-x}$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Mẫu thức chung của hai phân thức $\\dfrac{1}{x}$ và $\\dfrac{1}{y}$ là:",
+      "options": ["$xy$", "$x + y$", "$x$", "$y$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Rút gọn phân thức $\\dfrac{x^2}{x}$ (với $x \\neq 0$):",
+      "options": ["$x$", "$x^2$", "$\\dfrac{1}{x}$", "$1$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính $\\dfrac{2}{x} + \\dfrac{3}{x}$ (với $x \\neq 0$):",
+      "options": ["$\\dfrac{5}{x}$", "$\\dfrac{5}{2x}$", "$\\dfrac{6}{x}$", "$\\dfrac{5}{x^2}$"],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về phân thức:",
+      "statements": [
+        { "text": "$\\dfrac{x}{x} = 1$ với $x \\neq 0$.", "answer": true },
+        { "text": "$\\dfrac{2x}{6} = \\dfrac{x}{3}$.", "answer": true },
+        { "text": "Phân thức $\\dfrac{5}{x-2}$ xác định khi $x = 2$.", "answer": false },
+        { "text": "$\\dfrac{a}{b} \\times \\dfrac{b}{a} = 1$ (với $a, b \\neq 0$).", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Rút gọn phân thức $\\dfrac{4x}{8x^2}$ (với $x \\neq 0$) được kết quả dạng $\\dfrac{1}{kx}$. Giá trị của $k$ là ___",
+      "answer": "2",
+      "hint": "$\\dfrac{4x}{8x^2} = \\dfrac{1}{2x}$ nên $k = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính $\\dfrac{x}{3} \\times \\dfrac{6}{x}$ (với $x \\neq 0$):",
+      "options": ["$2$", "$\\dfrac{x}{2}$", "$\\dfrac{6}{3}$", "$\\dfrac{2}{x}$"],
+      "answer": 0,
+      "hint": "$\\dfrac{x \\times 6}{3 \\times x} = \\dfrac{6x}{3x} = 2$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tìm điều kiện xác định của phân thức $\\dfrac{x+3}{x-5}$: $x \\neq$ ___",
+      "answer": "5",
+      "hint": "Mẫu khác $0$: $x - 5 \\neq 0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tính $\\dfrac{5}{x} - \\dfrac{2}{x}$ (với $x \\neq 0$):",
+      "options": ["$\\dfrac{3}{x}$", "$\\dfrac{3}{2x}$", "$\\dfrac{7}{x}$", "$\\dfrac{3}{x^2}$"],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Rút gọn phân thức $\\dfrac{2(x+1)}{4(x+1)}$ (với $x \\neq -1$):",
+      "options": ["$\\dfrac{1}{2}$", "$2$", "$\\dfrac{x+1}{2}$", "$\\dfrac{1}{4}$"],
+      "answer": 0,
+      "hint": "Chia cả tử và mẫu cho $2(x+1)$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tính giá trị của phân thức $\\dfrac{x+2}{x}$ tại $x = 2$. Kết quả là ___",
+      "answer": "2",
+      "hint": "$\\dfrac{2+2}{2} = \\dfrac{4}{2} = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Thực hiện phép tính $\\dfrac{x+1}{x} + \\dfrac{x-1}{x}$ (với $x \\neq 0$):",
+      "options": ["$2$", "$\\dfrac{2}{x}$", "$2x$", "$0$"],
+      "answer": 0,
+      "hint": "$\\dfrac{(x+1) + (x-1)}{x} = \\dfrac{2x}{x} = 2$."
+    }
+  ]
+}
