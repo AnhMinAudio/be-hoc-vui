@@ -63,9 +63,11 @@ async function route() {
 
   const parts = hash.split('/').filter(Boolean);
   // Xác định "thế giới" (cấp học) để áp chủ đề + đánh dấu tab cấp ở đầu trang
+  const PERSONAL = ['tien-trinh', 'thanh-tich', 'tai-khoan', 'doi-nhan-vat'];
   const world = parts[0] === 'cap' ? (parts[1] || '')
     : parts[0] === 'mam-non' ? 'mam-non'
     : (parts[0] && parts[0].startsWith('lop')) ? stageFromGrade(parseInt(parts[0].replace('lop', '')))
+    : (PERSONAL.includes(parts[0]) && Auth.isLoggedIn()) ? stageFromGrade(Auth.getUser().grade)
     : parts.length === 0 ? 'tieu-hoc'
     : '';
   if (parts[0] !== 'bai') applyStageTheme(world); // 'bai' tự đặt trong renderExercise
