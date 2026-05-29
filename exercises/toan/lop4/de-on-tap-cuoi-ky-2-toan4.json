@@ -1,0 +1,123 @@
+{
+  "id": "toan-l4-on-tap-cuoi-ky-2",
+  "subject": "toan",
+  "grade": 4,
+  "topic": "Ôn tập cuối học kỳ 2 — Toán 4",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "Rút gọn phân số 6/8 thành phân số tối giản: ___",
+      "answer": "3/4",
+      "level": "M1",
+      "hint": "Cùng chia tử và mẫu cho 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số 3/4 đọc là:",
+      "options": ["ba phần tư", "bốn phần ba", "ba phần bốn mươi", "ba bốn"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "1/5 + 2/5 = ___",
+      "answer": "3/5",
+      "level": "M1",
+      "hint": "Cùng mẫu thì cộng tử số."
+    },
+    {
+      "type": "fill-blank",
+      "question": "4/7 - 1/7 = ___",
+      "answer": "3/7",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 tấn bằng bao nhiêu ki-lô-gam?",
+      "options": ["100 kg", "1000 kg", "10 kg", "10000 kg"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số nào lớn hơn: 2/3 hay 1/3?",
+      "options": ["2/3", "1/3", "Hai phân số bằng nhau", "Không so sánh được"],
+      "answer": 0,
+      "level": "M1",
+      "hint": "Cùng mẫu, tử số nào lớn hơn thì phân số lớn hơn."
+    },
+    {
+      "type": "fill-blank",
+      "question": "2/9 + 5/9 = ___",
+      "answer": "7/9",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 thế kỉ bằng bao nhiêu năm?",
+      "options": ["10 năm", "100 năm", "1000 năm", "50 năm"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Quy đồng rồi tính: 1/2 + 1/4 = ___",
+      "answer": "3/4",
+      "level": "M2",
+      "hint": "Quy đồng: 1/2 = 2/4, rồi cộng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "1/2 - 1/6 = ___",
+      "answer": "1/3",
+      "alternatives": ["2/6"],
+      "level": "M2",
+      "hint": "Quy đồng về mẫu 6: 1/2 = 3/6."
+    },
+    {
+      "type": "fill-blank",
+      "question": "2/3 × 3 = ___",
+      "answer": "2",
+      "level": "M2",
+      "hint": "2/3 × 3 = 6/3 = 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Phân số tối giản bằng 10/15 là:",
+      "options": ["2/3", "5/3", "1/2", "10/15"],
+      "answer": 0,
+      "level": "M2",
+      "hint": "Chia cả tử và mẫu cho 5."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Trung bình cộng của 24 và 36: (24 + 36) : 2 = ___",
+      "answer": "30",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Một hình chữ nhật có chiều dài 12 m, chiều rộng 7 m. Diện tích hình chữ nhật đó là ___ m². (12 × 7 = ?)",
+      "answer": "84",
+      "level": "M3",
+      "hint": "Diện tích hình chữ nhật bằng dài nhân rộng."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Tổng của hai số là 48, hiệu của chúng là 12. Số lớn là ___. ((48 + 12) : 2 = ?)",
+      "answer": "30",
+      "level": "M3",
+      "hint": "Số lớn = (tổng + hiệu) : 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một mảnh vườn hình vuông cạnh 8 m. Chu vi mảnh vườn là:",
+      "options": ["16 m", "32 m", "64 m", "24 m"],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Chu vi hình vuông bằng cạnh nhân 4: 8 × 4."
+    }
+  ]
+}

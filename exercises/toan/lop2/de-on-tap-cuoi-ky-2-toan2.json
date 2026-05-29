@@ -1,0 +1,123 @@
+{
+  "id": "toan-l2-on-tap-cuoi-ky-2",
+  "subject": "toan",
+  "grade": 2,
+  "topic": "Ôn tập cuối học kỳ 2 — Toán 2",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "fill-blank",
+      "question": "5 × 8 = ___",
+      "answer": "40",
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "20 : 4 = ___",
+      "answer": "5",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Số 305 đọc là:",
+      "options": ["Ba trăm năm", "Ba trăm linh năm", "Ba trăm năm mươi", "Ba mươi lăm"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "3 × 8 = ___",
+      "answer": "24",
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "1 km bằng bao nhiêu mét?",
+      "options": ["10 m", "100 m", "1000 m", "1 m"],
+      "answer": 2,
+      "level": "M1",
+      "hint": "ki-lô-mét là đơn vị lớn dùng để đo quãng đường dài."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Hình nào có 4 cạnh?",
+      "options": ["hình tam giác", "hình tứ giác", "hình tròn", "đoạn thẳng"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "4 × 9 = ___",
+      "answer": "36",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "35 : 5 = ___",
+      "answer": "7",
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "423 + 156 = ___",
+      "answer": "579",
+      "level": "M2",
+      "hint": "Đặt tính rồi cộng từ hàng đơn vị."
+    },
+    {
+      "type": "fill-blank",
+      "question": "768 - 245 = ___",
+      "answer": "523",
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Một phần tư của 12 là bao nhiêu?",
+      "options": ["2", "3", "4", "8"],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Một phần tư của 12 là 12 : 4."
+    },
+    {
+      "type": "matching",
+      "question": "Nối phép tính với kết quả đúng",
+      "pairs": [
+        ["2 × 9", "18"],
+        ["24 : 3", "8"],
+        ["5 × 7", "35"],
+        ["40 : 4", "10"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Điền dấu thích hợp vào chỗ trống: 500 ... 498",
+      "options": [">", "<", "=", "-"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Mỗi hộp có 5 chiếc bút. Hỏi 6 hộp có tất cả bao nhiêu chiếc bút? Trả lời: ___ chiếc. (5 × 6 = ?)",
+      "answer": "30",
+      "level": "M3",
+      "hint": "Mỗi hộp như nhau thì làm phép nhân."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Có 24 quả cam chia đều vào 4 đĩa. Hỏi mỗi đĩa có bao nhiêu quả cam? Trả lời: ___ quả. (24 : 4 = ?)",
+      "answer": "6",
+      "level": "M3",
+      "hint": "Chia đều thì làm phép chia."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Cửa hàng có 250 kg gạo, đã bán 130 kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?",
+      "options": ["120 kg", "380 kg", "130 kg", "110 kg"],
+      "answer": 0,
+      "level": "M3",
+      "hint": "Còn lại thì lấy số gạo ban đầu trừ đi số đã bán: 250 - 130."
+    }
+  ]
+}

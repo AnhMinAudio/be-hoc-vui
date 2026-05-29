@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-29T01:46:24.732Z",
+  "generatedAt": "2026-05-29T07:54:46.245Z",
   "coverage": {
     "toan": {
       "1": {
-        "exerciseCount": 9,
-        "totalQuestions": 145,
+        "exerciseCount": 10,
+        "totalQuestions": 161,
         "topics": [
           {
             "id": "toan-l1-cong-tru-trong-20",
@@ -22,6 +22,12 @@
             "id": "toan-l1-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 1",
             "questionCount": 15,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l1-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Toán 1",
+            "questionCount": 16,
             "difficulty": 2
           },
           {
@@ -63,8 +69,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 13,
-        "totalQuestions": 215,
+        "exerciseCount": 14,
+        "totalQuestions": 231,
         "topics": [
           {
             "id": "toan-l2-bang-chia-2-va-3",
@@ -115,6 +121,12 @@
             "difficulty": 2
           },
           {
+            "id": "toan-l2-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Toán 2",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "toan-l2-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Toán 2",
             "questionCount": 15,
@@ -147,8 +159,8 @@
         ]
       },
       "3": {
-        "exerciseCount": 3,
-        "totalQuestions": 49,
+        "exerciseCount": 4,
+        "totalQuestions": 65,
         "topics": [
           {
             "id": "toan-l3-nhan-chia-trong-bang",
@@ -163,6 +175,12 @@
             "difficulty": 2
           },
           {
+            "id": "toan-l3-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Toán 3",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "toan-l3-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Toán 3",
             "questionCount": 15,
@@ -171,13 +189,19 @@
         ]
       },
       "4": {
-        "exerciseCount": 3,
-        "totalQuestions": 50,
+        "exerciseCount": 4,
+        "totalQuestions": 66,
         "topics": [
           {
             "id": "toan-l4-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 4",
             "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l4-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Toán 4",
+            "questionCount": 16,
             "difficulty": 2
           },
           {
@@ -195,14 +219,20 @@
         ]
       },
       "5": {
-        "exerciseCount": 3,
-        "totalQuestions": 50,
+        "exerciseCount": 4,
+        "totalQuestions": 66,
         "topics": [
           {
             "id": "toan-l5-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Toán 5",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "toan-l5-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Toán 5",
+            "questionCount": 16,
+            "difficulty": 3
           },
           {
             "id": "toan-l5-on-tap-giua-ky-1",
@@ -221,8 +251,8 @@
     },
     "tieng-viet": {
       "1": {
-        "exerciseCount": 9,
-        "totalQuestions": 144,
+        "exerciseCount": 10,
+        "totalQuestions": 160,
         "topics": [
           {
             "id": "tv-l1-am-va-chu-cai-nang-cao",
@@ -261,6 +291,12 @@
             "difficulty": 2
           },
           {
+            "id": "tv-l1-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 1",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "tv-l1-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 1",
             "questionCount": 15,
@@ -281,8 +317,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 6,
-        "totalQuestions": 100,
+        "exerciseCount": 7,
+        "totalQuestions": 116,
         "topics": [
           {
             "id": "tv-l2-on-luyen-1",
@@ -309,6 +345,12 @@
             "difficulty": 2
           },
           {
+            "id": "tv-l2-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 2",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "tv-l2-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 2",
             "questionCount": 16,
@@ -323,13 +365,19 @@
         ]
       },
       "3": {
-        "exerciseCount": 3,
-        "totalQuestions": 50,
+        "exerciseCount": 4,
+        "totalQuestions": 66,
         "topics": [
           {
             "id": "tv-l3-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 3",
             "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "tv-l3-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 3",
+            "questionCount": 16,
             "difficulty": 2
           },
           {
@@ -347,8 +395,8 @@
         ]
       },
       "4": {
-        "exerciseCount": 3,
-        "totalQuestions": 50,
+        "exerciseCount": 4,
+        "totalQuestions": 66,
         "topics": [
           {
             "id": "tv-l4-danh-dong-tinh-tu",
@@ -363,6 +411,12 @@
             "difficulty": 2
           },
           {
+            "id": "tv-l4-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 4",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "tv-l4-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Việt 4",
             "questionCount": 16,
@@ -371,14 +425,20 @@
         ]
       },
       "5": {
-        "exerciseCount": 3,
-        "totalQuestions": 51,
+        "exerciseCount": 4,
+        "totalQuestions": 67,
         "topics": [
           {
             "id": "tv-l5-on-tap-cuoi-ky-1",
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Việt 5",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "tv-l5-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 5",
+            "questionCount": 16,
+            "difficulty": 3
           },
           {
             "id": "tv-l5-on-tap-giua-ky-1",
@@ -397,8 +457,8 @@
     },
     "tieng-anh": {
       "1": {
-        "exerciseCount": 9,
-        "totalQuestions": 141,
+        "exerciseCount": 10,
+        "totalQuestions": 157,
         "topics": [
           {
             "id": "ta-l1-animals-and-pets",
@@ -443,6 +503,12 @@
             "difficulty": 2
           },
           {
+            "id": "ta-l1-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 1",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "ta-l1-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 1",
             "questionCount": 15,
@@ -457,8 +523,8 @@
         ]
       },
       "2": {
-        "exerciseCount": 6,
-        "totalQuestions": 98,
+        "exerciseCount": 7,
+        "totalQuestions": 114,
         "topics": [
           {
             "id": "ta-l2-animals-family-school",
@@ -491,6 +557,12 @@
             "difficulty": 2
           },
           {
+            "id": "ta-l2-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 2",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
             "id": "ta-l2-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 2",
             "questionCount": 15,
@@ -499,8 +571,8 @@
         ]
       },
       "3": {
-        "exerciseCount": 3,
-        "totalQuestions": 49,
+        "exerciseCount": 4,
+        "totalQuestions": 64,
         "topics": [
           {
             "id": "ta-l3-numbers-and-days",
@@ -515,6 +587,12 @@
             "difficulty": 2
           },
           {
+            "id": "ta-l3-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 3",
+            "questionCount": 15,
+            "difficulty": 2
+          },
+          {
             "id": "ta-l3-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 3",
             "questionCount": 16,
@@ -523,8 +601,8 @@
         ]
       },
       "4": {
-        "exerciseCount": 3,
-        "totalQuestions": 50,
+        "exerciseCount": 4,
+        "totalQuestions": 65,
         "topics": [
           {
             "id": "ta-l4-jobs-and-hobbies",
@@ -539,6 +617,12 @@
             "difficulty": 2
           },
           {
+            "id": "ta-l4-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 4",
+            "questionCount": 15,
+            "difficulty": 2
+          },
+          {
             "id": "ta-l4-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa học kỳ 1 — Tiếng Anh lớp 4",
             "questionCount": 16,
@@ -547,8 +631,8 @@
         ]
       },
       "5": {
-        "exerciseCount": 3,
-        "totalQuestions": 50,
+        "exerciseCount": 4,
+        "totalQuestions": 66,
         "topics": [
           {
             "id": "ta-l5-routines-places-comparatives",
@@ -561,6 +645,12 @@
             "topic": "Ôn tập cuối học kỳ 1 — Tiếng Anh lớp 5",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "ta-l5-on-tap-cuoi-ky-2",
+            "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 5",
+            "questionCount": 16,
+            "difficulty": 3
           },
           {
             "id": "ta-l5-on-tap-giua-ky-1",

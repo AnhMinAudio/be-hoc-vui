@@ -1,0 +1,130 @@
+{
+  "id": "tv-l1-on-tap-cuoi-ky-2",
+  "subject": "tieng-viet",
+  "grade": 1,
+  "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 1",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng 'trường' có vần gì?",
+      "options": ["ương", "uông", "ươn", "uôn"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào viết đúng chính tả?",
+      "options": ["nghe nhạc", "nge nhạc", "ngke nhạc", "nghê nhạc"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ con vật?",
+      "options": ["bông hoa", "con mèo", "cái bàn", "quả cam"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'ng' hoặc 'ngh' vào chỗ trống: ___e kể chuyện",
+      "answer": "ngh",
+      "level": "M1",
+      "hint": "Trước e, ê, i thì viết 'ngh'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Bạn có khỏe không' nên kết thúc bằng dấu gì?",
+      "options": ["dấu chấm", "dấu chấm hỏi", "dấu phẩy", "dấu chấm than"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ màu sắc?",
+      "options": ["chạy", "đỏ", "ăn", "cao"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Tiếng nào có thanh sắc?",
+      "options": ["bàn", "má", "mả", "mà"],
+      "answer": 1,
+      "level": "M2",
+      "hint": "Thanh sắc là dấu ́ đi lên."
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền 'c' hoặc 'k' vào chỗ trống: ___ái kéo",
+      "answer": "c",
+      "level": "M2",
+      "hint": "Trước a, o, ô, ơ, u, ư thì viết 'c'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Sắp xếp các tiếng thành câu đúng: 'đi / em / học'",
+      "options": ["Em đi học.", "Học đi em.", "Đi học em.", "Em học đi."],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào trái nghĩa với 'cao'?",
+      "options": ["lớn", "thấp", "to", "dài"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối từ với nhóm thích hợp",
+      "pairs": [
+        ["con gà", "con vật"],
+        ["cái ghế", "đồ vật"],
+        ["hoa hồng", "loài hoa"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": ["bút", "viết", "sách", "đẹp"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Mùa hè, em được về quê thăm bà. Bà có một khu vườn nhỏ trồng nhiều rau xanh. Em rất thích tưới rau cùng bà mỗi buổi sáng.",
+      "question": "Mùa hè, em về quê thăm ai?",
+      "options": ["thăm ông", "thăm bà", "thăm cô", "thăm bạn"],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Mùa hè, em được về quê thăm bà. Bà có một khu vườn nhỏ trồng nhiều rau xanh. Em rất thích tưới rau cùng bà mỗi buổi sáng.",
+      "question": "Khu vườn của bà trồng gì?",
+      "options": ["hoa hồng", "rau xanh", "cây ăn quả", "lúa"],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Mùa hè, em được về quê thăm bà. Bà có một khu vườn nhỏ trồng nhiều rau xanh. Em rất thích tưới rau cùng bà mỗi buổi sáng.",
+      "question": "Mỗi buổi sáng, em thích làm gì cùng bà?",
+      "options": ["nấu cơm", "tưới rau", "đi chợ", "quét nhà"],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Em yêu trường em.' có mấy tiếng?",
+      "options": ["3", "4", "5", "2"],
+      "answer": 1,
+      "level": "M3",
+      "hint": "Đếm: Em / yêu / trường / em."
+    }
+  ]
+}

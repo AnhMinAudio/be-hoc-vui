@@ -1,0 +1,128 @@
+{
+  "id": "tv-l2-on-tap-cuoi-ky-2",
+  "subject": "tieng-viet",
+  "grade": 2,
+  "topic": "Ôn tập cuối học kỳ 2 — Tiếng Việt 2",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ sự vật?",
+      "options": ["chạy nhảy", "ngôi nhà", "xanh tươi", "vui vẻ"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ hoạt động?",
+      "options": ["bông hoa", "quét nhà", "đỏ thắm", "con mèo"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào chỉ đặc điểm?",
+      "options": ["học bài", "cái bàn", "cao lớn", "con cá"],
+      "answer": 2,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mùa nào có hoa mai, hoa đào nở và đón Tết?",
+      "options": ["mùa hạ", "mùa xuân", "mùa thu", "mùa đông"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Con trâu là bạn của nhà nông.' thuộc mẫu câu nào?",
+      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền dấu câu thích hợp vào cuối câu: Bạn tên là gì___",
+      "answer": "?",
+      "alternatives": ["dấu chấm hỏi", "dấu hỏi"],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu nào thuộc mẫu 'Ai làm gì?'",
+      "options": ["Hoa hồng rất đẹp.", "Em tưới cây trong vườn.", "Mẹ là cô giáo.", "Trời nắng to."],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ nào KHÔNG cùng nhóm với 'chim sẻ, chim sâu, chào mào'?",
+      "options": ["chim én", "cá heo", "chim công", "chim sáo"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Điền từ so sánh thích hợp: Mặt trời đỏ rực ___ một quả cầu lửa.",
+      "answer": "như",
+      "alternatives": ["tựa", "như là"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dấu phẩy trong câu thường dùng để làm gì?",
+      "options": ["kết thúc câu", "ngăn cách các từ ngữ cùng loại", "dùng để hỏi", "bộc lộ cảm xúc"],
+      "answer": 1,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Nối con vật với nơi sống thích hợp",
+      "pairs": [
+        ["con cá", "sông, biển"],
+        ["con chim", "bầu trời"],
+        ["con trâu", "đồng ruộng"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Câu 'Vườn cây xanh tốt.' thuộc mẫu câu nào?",
+      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Khi nào?"],
+      "answer": 2,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Sáng sớm, ông mặt trời từ từ nhô lên sau rặng tre. Những giọt sương đêm còn đọng trên lá cỏ long lanh như hạt ngọc. Đàn chim ríu rít chuyền cành, đón chào ngày mới.",
+      "question": "Ông mặt trời nhô lên ở đâu?",
+      "options": ["sau rặng tre", "trên mặt biển", "sau ngọn núi", "trên cánh đồng"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Sáng sớm, ông mặt trời từ từ nhô lên sau rặng tre. Những giọt sương đêm còn đọng trên lá cỏ long lanh như hạt ngọc. Đàn chim ríu rít chuyền cành, đón chào ngày mới.",
+      "question": "Những giọt sương được so sánh với gì?",
+      "options": ["ngôi sao", "hạt ngọc", "bông hoa", "giọt mưa"],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Sáng sớm, ông mặt trời từ từ nhô lên sau rặng tre. Những giọt sương đêm còn đọng trên lá cỏ long lanh như hạt ngọc. Đàn chim ríu rít chuyền cành, đón chào ngày mới.",
+      "question": "Đàn chim làm gì?",
+      "options": ["bay đi nơi khác", "ríu rít chuyền cành", "đứng yên ngủ", "kiếm mồi dưới đất"],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Từ trái nghĩa với 'sáng sớm' là:",
+      "options": ["bình minh", "chiều tối", "ban ngày", "buổi trưa"],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "ta-l5-on-tap-cuoi-ky-2",
+  "subject": "tieng-anh",
+  "grade": 5,
+  "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 5",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'hospital' mean? (Từ 'hospital' nghĩa là gì?)",
+      "options": ["bệnh viện", "trường học", "công viên", "chợ"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'bác sĩ'? ('bác sĩ' tiếng Anh là gì?)",
+      "options": ["doctor", "teacher", "farmer", "driver"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'by bus' mean? (Cụm 'by bus' nghĩa là gì?)",
+      "options": ["bằng xe buýt", "bằng xe đạp", "đi bộ", "bằng tàu hỏa"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'giáo viên' in English (Viết 'giáo viên' bằng tiếng Anh): ___",
+      "answer": "teacher",
+      "alternatives": ["Teacher", "a teacher"],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Where can you borrow books? (Em có thể mượn sách ở đâu?)",
+      "options": ["at the library", "at the hospital", "at the cinema", "at the market"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the job with its meaning (Nối nghề nghiệp với nghĩa)",
+      "pairs": [
+        ["farmer", "nông dân"],
+        ["doctor", "bác sĩ"],
+        ["pilot", "phi công"],
+        ["nurse", "y tá"]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete: 'What's the matter?' - 'I have a ___.' (Em bị đau đầu)",
+      "options": ["headache", "book", "ball", "car"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question about a future plan (Chọn câu hỏi về dự định tương lai)",
+      "options": ["What will you do this weekend?", "What you weekend do?", "Weekend you will what?", "Will what weekend you?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete: 'I will ___ my grandparents next week.' (Em sẽ thăm ông bà tuần tới)",
+      "options": ["visit", "visited", "visiting", "visits"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'công viên' in English (Viết 'công viên' bằng tiếng Anh): ___",
+      "answer": "park",
+      "alternatives": ["Park", "a park"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask the way to the post office? (Hỏi đường đến bưu điện thế nào?)",
+      "options": ["How can I get to the post office?", "Where you post office?", "Post office how you?", "I get post office?"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the place with its meaning (Nối địa điểm với nghĩa)",
+      "pairs": [
+        ["cinema", "rạp chiếu phim"],
+        ["market", "chợ"],
+        ["station", "nhà ga"],
+        ["zoo", "sở thú"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hello. I am Nam. I want to be a doctor in the future. I think it is a great job because doctors help sick people. I will study hard to make my dream come true.",
+      "question": "What does Nam want to be? (Nam muốn trở thành gì?)",
+      "options": ["a teacher", "a doctor", "a pilot", "a farmer"],
+      "answer": 1,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hello. I am Nam. I want to be a doctor in the future. I think it is a great job because doctors help sick people. I will study hard to make my dream come true.",
+      "question": "Why does Nam like that job? (Vì sao Nam thích nghề đó?)",
+      "options": ["because doctors help sick people", "because it is easy", "because of the money", "because it is fun"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "passage": "Hello. I am Nam. I want to be a doctor in the future. I think it is a great job because doctors help sick people. I will study hard to make my dream come true.",
+      "question": "What will Nam do to reach his dream? (Nam sẽ làm gì để đạt được ước mơ?)",
+      "options": ["study hard", "play games", "sleep a lot", "watch TV"],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend looks sad. How do you ask what is wrong? (Bạn trông buồn. Em hỏi có chuyện gì thế nào?)",
+      "options": ["What's the matter?", "You sad what?", "Matter you what?", "Are you matter?"],
+      "answer": 0,
+      "level": "M3"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "ta-l1-on-tap-cuoi-ky-2",
+  "subject": "tieng-anh",
+  "grade": 1,
+  "topic": "Ôn tập cuối học kỳ 2 — Tiếng Anh lớp 1",
+  "chapter": "Ôn tập cuối kỳ 2",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cat' mean? (Từ 'cat' nghĩa là gì?)",
+      "options": ["con chó", "con mèo", "con cá", "con chim"],
+      "answer": 1,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the English word for 'quả táo'? ('quả táo' tiếng Anh là gì?)",
+      "options": ["apple", "banana", "orange", "milk"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'red' mean? (Từ 'red' nghĩa là gì?)",
+      "options": ["đỏ", "xanh", "vàng", "đen"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which one is a toy? (Đâu là một món đồ chơi?)",
+      "options": ["ball", "rice", "tree", "rain"],
+      "answer": 0,
+      "level": "M1"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'con chó' in English (Viết 'con chó' bằng tiếng Anh): ___",
+      "answer": "dog",
+      "alternatives": ["Dog", "DOG"],
+      "level": "M1"
+    },
+    {
+      "type": "matching",
+      "question": "Match the word with its meaning (Nối từ với nghĩa)",
+      "pairs": [
+        ["fish", "con cá"],
+        ["bird", "con chim"],
+        ["dog", "con chó"]
+      ],
+      "level": "M1"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'big' mean? (Từ 'big' nghĩa là gì?)",
+      "options": ["to, lớn", "nhỏ", "cao", "đỏ"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct word: It is a ___. (Đây là quả chuối)",
+      "options": ["banana", "table", "cat", "blue"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Write 'màu xanh dương' in English (Viết 'màu xanh dương' bằng tiếng Anh): ___",
+      "answer": "blue",
+      "alternatives": ["Blue", "BLUE"],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'xin chào' in English? ('xin chào' nói thế nào?)",
+      "options": ["Hello", "Bye", "Sorry", "Thanks"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which animal can fly? (Con vật nào biết bay?)",
+      "options": ["bird", "fish", "dog", "cat"],
+      "answer": 0,
+      "level": "M2"
+    },
+    {
+      "type": "matching",
+      "question": "Match the color with its meaning (Nối màu sắc với nghĩa)",
+      "pairs": [
+        ["green", "xanh lá"],
+        ["yellow", "vàng"],
+        ["black", "đen"]
+      ],
+      "level": "M2"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Your friend says 'Hello!'. What do you say? (Bạn chào 'Hello!'. Em đáp lại thế nào?)",
+      "options": ["Hello!", "Sorry.", "No.", "Cat."],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You want to say goodbye. What do you say? (Em muốn tạm biệt. Em nói gì?)",
+      "options": ["Goodbye!", "Apple.", "Red.", "Three."],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Point at a dog and say: (Chỉ vào con chó và nói:)",
+      "options": ["It's a dog.", "I'm a dog you.", "Dog am.", "You dog."],
+      "answer": 0,
+      "level": "M3"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Count the apples: 🍎 🍎 🍎 (Đếm số quả táo)",
+      "options": ["two", "three", "four", "five"],
+      "answer": 1,
+      "level": "M3"
+    }
+  ]
+}
