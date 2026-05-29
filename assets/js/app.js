@@ -841,13 +841,21 @@ function chapterRank(ch) {
   const m = (ch || '').match(/\d+/);
   return [0, m ? parseInt(m[0], 10) : 9999];
 }
+// Đề kiểm tra định kỳ (ôn tập giữa/cuối kỳ) và đề thi thử bấm giờ → bắt buộc đăng nhập mới làm.
+function isLockedExercise(ex) {
+  if (!ex) return false;
+  const ch = (ex.chapter || '').toLowerCase();
+  return ch.includes('ôn tập') || ch.includes('on tap') || (typeof ex.timeLimit === 'number' && ex.timeLimit > 0);
+}
 function topicItemHTML(ex) {
   const done = Progress.getCompletion(ex.id);
-  return `<a href="/bai/${ex.id}" class="topic-item">
-      <span class="ti-dot">${ex.timeLimit ? '📝' : '✏️'}</span>
+  const locked = isLockedExercise(ex) && !Auth.isLoggedIn();
+  const icon = locked ? '🔒' : (ex.timeLimit ? '📝' : '✏️');
+  return `<a href="/bai/${ex.id}" class="topic-item${locked ? ' locked' : ''}">
+      <span class="ti-dot">${icon}</span>
       <span class="ti-body">
         <span class="ti-title">${ex.topic}</span>
-        <span class="ti-meta">${ex.questionCount} câu · Độ khó ${'★'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút` : ''}</span>
+        <span class="ti-meta">${ex.questionCount} câu · Độ khó ${'★'.repeat(ex.difficulty || 1)}${ex.timeLimit ? ` · ⏱ ${ex.timeLimit} phút` : ''}${locked ? ' · 🔒 cần đăng nhập' : ''}</span>
       </span>
       ${done ? `<span class="ti-badge">★ ${done.bestScore}/${done.total}</span>` : ''}
     </a>`;
@@ -1141,6 +1149,12 @@ async function renderExercise(view, id) {
   } else {
     const meta = CATALOG.exercises.find(e => e.id === id);
     if (!meta) { view.innerHTML = emptyState('Không tìm thấy bài này', 'Có thể đường dẫn đã thay đổi.', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
+    // Đề ôn tập định kỳ + đề thi thử: bắt buộc đăng nhập mới làm
+    if (isLockedExercise(meta) && !Auth.isLoggedIn()) {
+      applyStageTheme(stageFromGrade(meta.grade));
+      return loginRequiredView(view, 'Đăng nhập để làm đề kiểm tra',
+        'Các đề ôn tập giữa kỳ, cuối kỳ và đề thi thử cần đăng nhập để lưu kết quả. Bạn đăng nhập rồi quay lại làm nhé!');
+    }
     try {
       exercise = await (await fetch(`/exercises/${meta.path}`)).json();
     } catch (e) {
