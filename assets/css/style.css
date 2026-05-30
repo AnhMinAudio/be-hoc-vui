@@ -979,6 +979,126 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
 .result-score { font-family: var(--font-num); font-size: 2.8rem; font-weight: 800; color: var(--c-primary-dark); margin: 12px 0; }
 .result-stars { font-size: 2.5rem; margin: 16px 0; letter-spacing: 6px; }
 
+/* === Màn kết quả "WOW" — 3 vùng cảm xúc (UX 4A.2) === */
+.wow-card { padding: 28px 18px 22px; }
+.wow-zone { padding: 14px 4px; }
+.wow-zone-title {
+  font-family: var(--font-display); font-weight: 800;
+  font-size: 1.05rem; margin-bottom: 12px; text-align: left;
+}
+.wow-zone-1 { padding-top: 4px; }
+.wow-rating {
+  font-size: 1.7rem; letter-spacing: 4px;
+  margin: 4px 0 10px;
+  animation: pop-in .5s .1s cubic-bezier(0.18, 1.4, 0.5, 1) both;
+}
+.wow-score-big {
+  font-family: var(--font-num); font-weight: 900;
+  font-size: 3.6rem; line-height: 1;
+  color: var(--c-primary-dark);
+  margin: 6px 0 10px;
+}
+.wow-score-big .of { font-size: 1.6rem; color: var(--c-text-soft); font-weight: 700; }
+.wow-newbest {
+  display: inline-block;
+  background: linear-gradient(90deg, #FFE082, #FFAB40);
+  color: #4E342E; font-weight: 800;
+  padding: 4px 14px; border-radius: 999px;
+  margin: 6px 0 4px;
+  animation: pop-in .5s .25s cubic-bezier(0.18, 1.4, 0.5, 1) both;
+}
+.wow-earn { color: var(--c-text-soft); margin: 10px 0 0; font-size: .95rem; }
+
+/* Vùng 2: phân tích theo mức độ */
+.breakdown { display: flex; flex-direction: column; gap: 10px; }
+.bd-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 56px;
+  align-items: center; gap: 10px;
+}
+.bd-label { font-weight: 700; font-size: .9rem; text-align: left; color: var(--c-text); }
+.bd-bar {
+  height: 10px; background: var(--c-surface-2);
+  border-radius: 999px; overflow: hidden;
+}
+.bd-bar-fill {
+  height: 100%; border-radius: 999px;
+  transition: width .8s var(--bounce);
+}
+.bd-bar-fill.good { background: linear-gradient(90deg, var(--c-correct), #66BB6A); }
+.bd-bar-fill.mid  { background: linear-gradient(90deg, #FFB74D, #FFA726); }
+.bd-bar-fill.low  { background: linear-gradient(90deg, var(--c-wrong), #E57373); }
+.bd-meta {
+  font-family: var(--font-num); font-weight: 700;
+  text-align: right; font-size: .9rem; color: var(--c-text-soft);
+}
+.wow-advice {
+  margin-top: 14px; padding: 12px 14px;
+  background: color-mix(in srgb, #FFD54F 18%, var(--c-card));
+  border-left: 4px solid #FFA726;
+  border-radius: 8px; text-align: left; font-size: .95rem;
+}
+
+/* Vùng 3: CTA — primary nổi bật, 3 phụ chia hàng */
+.wow-cta { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.wow-cta-main { width: 100%; font-size: 1.05rem; font-weight: 800; padding: 14px 16px; }
+.wow-cta-main:disabled { opacity: .55; cursor: not-allowed; }
+.wow-cta-row {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+}
+.wow-cta-row .btn { padding: 11px 8px; font-size: .9rem; }
+
+/* Xem lại từng câu (toggle) */
+.review-list {
+  margin-top: 16px; display: flex; flex-direction: column; gap: 10px;
+  text-align: left;
+}
+.rv {
+  padding: 12px 14px; border-radius: 10px;
+  border-left: 4px solid var(--c-border);
+  background: var(--c-surface-2);
+}
+.rv.ok { border-left-color: var(--c-correct); }
+.rv.no { border-left-color: var(--c-wrong); }
+.rv-h { font-weight: 800; font-size: .95rem; margin-bottom: 6px; }
+.rv-lv {
+  display: inline-block; margin-left: 4px;
+  font-size: .7rem; font-weight: 700;
+  padding: 1px 6px; border-radius: 6px;
+  background: var(--c-primary-soft); color: var(--c-primary-dark);
+}
+.rv-q { font-size: .92rem; margin-bottom: 6px; color: var(--c-text); }
+.rv-a { font-size: .9rem; color: var(--c-text); margin-bottom: 4px; }
+.rv-hint {
+  font-size: .85rem; color: var(--c-text-soft);
+  background: var(--c-card); padding: 6px 10px; border-radius: 6px;
+  margin-top: 6px;
+}
+
+/* Toast cho Chia sẻ + thông báo nhẹ */
+.toast {
+  position: fixed; left: 50%; bottom: 30px;
+  transform: translate(-50%, 20px);
+  background: var(--c-text); color: var(--c-card);
+  padding: 10px 18px; border-radius: 999px;
+  font-size: .9rem; font-weight: 600;
+  opacity: 0; transition: opacity .25s, transform .25s;
+  z-index: 9999; box-shadow: var(--shadow-md);
+  pointer-events: none;
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+@media (prefers-reduced-motion: reduce) {
+  .wow-rating, .wow-newbest, .wow-score-big { animation: none; }
+  .bd-bar-fill { transition: none; }
+  .toast { transition: none; }
+}
+@media (max-width: 360px) {
+  .bd-row { grid-template-columns: 80px 1fr 48px; gap: 8px; }
+  .wow-score-big { font-size: 3rem; }
+  .wow-cta-row { grid-template-columns: 1fr; }
+}
+
 /* Breadcrumb / back */
 .breadcrumb {
   display: flex;

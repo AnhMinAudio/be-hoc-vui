@@ -311,6 +311,84 @@ function progressRing(done, total) {
   </svg>`;
 }
 
+// Animate đếm số 0 → to trong ms (ease-out cubic). Tôn trọng reduce-motion.
+function animateCount(el, to, ms = 700) {
+  if (!el) return;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced || to <= 0) { el.textContent = String(to); return; }
+  const start = performance.now();
+  const tick = (now) => {
+    const t = Math.min(1, (now - start) / ms);
+    const v = Math.round(to * (1 - Math.pow(1 - t, 3))); // ease-out cubic
+    el.textContent = String(v);
+    if (t < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
+
+// Thống kê theo mức độ NB/TH/VD/VDC trong 1 đề. Trả [] nếu không có level.
+function levelBreakdown(questions, answers) {
+  const buckets = {}, order = ['NB', 'TH', 'VD', 'VDC'];
+  const labels = { NB: 'Nhận biết', TH: 'Thông hiểu', VD: 'Vận dụng', VDC: 'Vận dụng cao' };
+  questions.forEach((q, i) => {
+    const lv = q.level; if (!lv) return;
+    if (!buckets[lv]) buckets[lv] = { ok: 0, total: 0 };
+    buckets[lv].total++;
+    if (answers[i] && answers[i].correct) buckets[lv].ok++;
+  });
+  return order.filter(lv => buckets[lv]).map(lv => ({
+    lv, label: labels[lv], ...buckets[lv],
+    pct: Math.round(buckets[lv].ok / buckets[lv].total * 100),
+  }));
+}
+
+// Tìm đề kế tiếp cùng stage/subject/grade (sắp theo id). null nếu không có đề khác.
+function findNextExercise(currentEx) {
+  if (!CATALOG) return null;
+  const peers = CATALOG.filter(e =>
+    e.stage === currentEx.stage && e.subject === currentEx.subject &&
+    e.grade === currentEx.grade && e.id !== currentEx.id
+  );
+  if (!peers.length) return null;
+  const all = peers.concat([currentEx]).sort((a, b) => a.id.localeCompare(b.id));
+  const idx = all.findIndex(e => e.id === currentEx.id);
+  return all[(idx + 1) % all.length];
+}
+
+// Đáp án dạng text để hiển thị trong "Xem lại". Trả '' nếu không xác định.
+function questionAnswerText(q) {
+  if (q.type === 'multiple-choice' && Array.isArray(q.options) && typeof q.answer === 'number')
+    return q.options[q.answer] || '';
+  if (q.type === 'fill-blank') return q.answer || '';
+  if (q.type === 'true-false') return q.answer ? 'Đúng' : 'Sai';
+  if (q.type === 'image-choice' && Array.isArray(q.options) && typeof q.answer === 'number')
+    return q.options[q.answer] ? (q.options[q.answer].label || '✓') : '';
+  return '';
+}
+
+// Chia sẻ kết quả: Web Share API hoặc fallback copy clipboard
+async function shareResult(exercise, score, total) {
+  const text = `Mình vừa làm đề "${exercise.topic}" được ${score}/${total} điểm tại Bé Học Vui! 🎓`;
+  const url = location.origin + '/bai/' + exercise.id;
+  if (navigator.share) {
+    try { await navigator.share({ title: 'Bé Học Vui', text, url }); return; } catch (_) { /* user huỷ */ }
+  }
+  try {
+    await navigator.clipboard.writeText(`${text} ${url}`);
+    showToast('Đã chép kết quả vào clipboard!');
+  } catch (_) {
+    showToast('Không thể chia sẻ — trình duyệt không hỗ trợ.');
+  }
+}
+
+function showToast(msg, ms = 2500) {
+  const t = document.createElement('div');
+  t.className = 'toast'; t.textContent = msg;
+  document.body.appendChild(t);
+  requestAnimationFrame(() => t.classList.add('show'));
+  setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 300); }, ms);
+}
+
 // Dải dot tiến trình câu hỏi: trắng=chưa làm, xanh nét=hiện tại, xanh đầy/đỏ=đã làm
 // Trong đề thi thử (timed) hoặc mode='exam' → chỉ "đã trả lời" (neutral), không lộ đúng/sai
 function renderDotStrip(currentIdx, total, answers, mode, timed) {
@@ -1689,23 +1767,96 @@ async function renderExercise(view, id) {
         else timeNote = 'Cứ bình tĩnh, làm cẩn thận rồi sẽ tiến bộ!';
       }
 
-      view.innerHTML = `
-        <div class="result-card">
-          <div class="result-mascot">${mascotSVG(mascotMood)}</div>
-          <div class="result-title">${emoji} ${title}</div>
-          <div class="result-score">${score}/${total}</div>
-          <div class="result-stars">${'⭐'.repeat(Math.min(score, 10))}</div>
-          ${isNewBest ? '<div style="color:#FF8A65;font-weight:700;margin-bottom:10px">🎉 Kỷ lục mới!</div>' : ''}
-          <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
-          ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
-          <div style="color:#6B6B8C;margin:10px 0 16px">${earnNote}</div>
-          <div class="recap">${recap}</div>
-          <div class="action-bar" style="justify-content:center;margin-top:22px">
-            <button class="btn btn-secondary" onclick="navTo('${backHref}')">Bài khác</button>
-            <button class="btn btn-primary" id="retry-btn">Làm lại</button>
+      // === Vùng 2: phân tích theo mức độ NB/TH/VD/VDC (nếu có) ===
+      const stats = levelBreakdown(questions, answers);
+      const weakest = stats.length > 1
+        ? stats.slice().sort((a, b) => a.pct - b.pct)[0] : null;
+      const showAdvice = weakest && weakest.pct < 70 && weakest.total >= 2;
+      const breakdownHTML = stats.length ? `
+        <div class="wow-zone">
+          <div class="wow-zone-title">📊 Kết quả theo mức độ</div>
+          <div class="breakdown">
+            ${stats.map(s => `
+              <div class="bd-row">
+                <div class="bd-label">${s.label}</div>
+                <div class="bd-bar"><div class="bd-bar-fill ${s.pct>=80?'good':s.pct>=50?'mid':'low'}" style="width:${s.pct}%"></div></div>
+                <div class="bd-meta">${s.ok}/${s.total}</div>
+              </div>`).join('')}
+          </div>
+          ${showAdvice ? `<div class="wow-advice">💡 Gợi ý: bạn còn yếu mức <b>${weakest.label}</b> (${weakest.ok}/${weakest.total}) — hãy luyện thêm vài đề cùng chủ đề nhé!</div>` : ''}
+        </div>` : '';
+
+      // === Vùng 3: CTA ===
+      const nextEx = findNextExercise(exercise);
+      const ctaHTML = `
+        <div class="wow-cta">
+          <button class="btn btn-primary wow-cta-main" id="next-btn" ${nextEx ? '' : 'disabled'}>
+            ➡️ Đề tiếp theo${nextEx ? '' : ' (hết)'}
+          </button>
+          <div class="wow-cta-row">
+            <button class="btn btn-secondary" id="retry-btn">🔁 Làm lại</button>
+            <button class="btn btn-secondary" id="review-btn">📖 Xem lại</button>
+            <button class="btn btn-secondary" id="share-btn">📤 Chia sẻ</button>
           </div>
         </div>`;
+
+      // Xếp hạng sao 5 mức (trực quan hơn 10⭐ rải đều)
+      const ratingStars = (() => {
+        const filled = percent >= 90 ? 5 : percent >= 75 ? 4 : percent >= 60 ? 3 : percent >= 40 ? 2 : 1;
+        return Array.from({ length: 5 }, (_, i) => i < filled ? '⭐' : '☆').join('');
+      })();
+
+      view.innerHTML = `
+        <div class="result-card wow-card">
+          <div class="result-mascot">${mascotSVG(mascotMood)}</div>
+          <div class="wow-zone wow-zone-1">
+            <div class="wow-rating" aria-label="${percent}/100">${ratingStars}</div>
+            <div class="wow-score-big"><span id="wow-num">0</span><span class="of">/${total}</span></div>
+            <div class="result-title">${emoji} ${title}</div>
+            ${isNewBest ? '<div class="wow-newbest">🎉 Kỷ lục mới!</div>' : ''}
+            <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
+            ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
+            <div class="wow-earn">${earnNote}</div>
+          </div>
+          ${breakdownHTML}
+          ${ctaHTML}
+          <div class="review-list" id="review-list" hidden></div>
+          <div class="recap" aria-label="Tóm tắt câu">${recap}</div>
+        </div>`;
+
+      // Animate đếm điểm 0 → score
+      animateCount(view.querySelector('#wow-num'), score, 800);
+
+      // CTA wiring
       view.querySelector('#retry-btn').onclick = () => renderExercise(view, id);
+      view.querySelector('#share-btn').onclick = () => shareResult(exercise, score, total);
+      const nextBtn = view.querySelector('#next-btn');
+      if (nextEx) nextBtn.onclick = () => navTo('/bai/' + nextEx.id);
+      // Xem lại: toggle hiển thị đáp án + hint từng câu (không có lựa chọn của user vì chưa track)
+      const reviewBtn = view.querySelector('#review-btn');
+      const reviewList = view.querySelector('#review-list');
+      let reviewBuilt = false;
+      reviewBtn.onclick = () => {
+        if (!reviewBuilt) {
+          const items = questions.map((q, i) => {
+            const ok = answers[i] && answers[i].correct;
+            const ans = questionAnswerText(q);
+            return `<div class="rv ${ok ? 'ok' : 'no'}">
+              <div class="rv-h">Câu ${i + 1} ${ok ? '✓' : '✗'}${q.level ? ` <span class="rv-lv">${q.level}</span>` : ''}</div>
+              ${q.question ? `<div class="rv-q">${q.question}</div>` : ''}
+              ${ans ? `<div class="rv-a">Đáp án: <b>${ans}</b></div>` : ''}
+              ${q.hint ? `<div class="rv-hint">💡 ${q.hint}</div>` : ''}
+            </div>`;
+          }).join('');
+          reviewList.innerHTML = items;
+          Media.renderMath(reviewList);
+          reviewBuilt = true;
+        }
+        const willShow = reviewList.hasAttribute('hidden');
+        if (willShow) { reviewList.removeAttribute('hidden'); reviewBtn.textContent = '📖 Ẩn xem lại'; }
+        else { reviewList.setAttribute('hidden', ''); reviewBtn.textContent = '📖 Xem lại'; }
+      };
+
       if (percent >= 80) confetti();
     };
 
