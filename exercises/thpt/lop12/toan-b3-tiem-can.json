@@ -1,0 +1,213 @@
+{
+  "id": "thpt-toan-l12-b3-tiem-can",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 12,
+  "topic": "Bài 3: Đường tiệm cận của đồ thị hàm số",
+  "chapter": "Chương 1: Ứng dụng đạo hàm",
+  "examType": "practice",
+  "bookUnit": { "chapter": 1, "lesson": 3 },
+  "difficulty": 2,
+  "outcomes": ["T12-DH-4"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường thẳng $y = b$ được gọi là TIỆM CẬN NGANG của đồ thị $y = f(x)$ khi:",
+      "options": [
+        "$\\lim_{x \\to +\\infty} f(x) = b$ hoặc $\\lim_{x \\to -\\infty} f(x) = b$",
+        "$\\lim_{x \\to b} f(x) = +\\infty$",
+        "$f(b) = 0$",
+        "$f'(b) = 0$"
+      ],
+      "answer": 0,
+      "hint": "Tiệm cận NGANG: giới hạn khi $x \\to \\pm\\infty$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường thẳng $x = a$ là TIỆM CẬN ĐỨNG của đồ thị $y = f(x)$ khi:",
+      "options": [
+        "Ít nhất một trong các giới hạn $\\lim_{x \\to a^+} f(x), \\lim_{x \\to a^-} f(x)$ bằng $\\pm\\infty$",
+        "$f(a) = 0$",
+        "$\\lim_{x \\to a} f(x) = 0$",
+        "$f(a) = +\\infty$ (giá trị tại điểm)"
+      ],
+      "answer": 0,
+      "hint": "Tiệm cận ĐỨNG: giới hạn 1 phía tại $x = a$ ra $\\pm\\infty$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồ thị hàm số $y = \\dfrac{2x + 1}{x - 3}$ có tiệm cận ngang là:",
+      "options": [
+        "$y = 2$",
+        "$y = -3$",
+        "$y = \\dfrac{1}{3}$",
+        "$y = 1$"
+      ],
+      "answer": 0,
+      "hint": "$\\lim_{x \\to \\pm\\infty} \\dfrac{2x+1}{x-3} = 2$ (tỉ số hệ số cao nhất)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồ thị hàm số $y = \\dfrac{2x + 1}{x - 3}$ có tiệm cận đứng là:",
+      "options": [
+        "$x = 3$",
+        "$x = -\\dfrac{1}{2}$",
+        "$x = -3$",
+        "$x = 2$"
+      ],
+      "answer": 0,
+      "hint": "Tiệm cận đứng: nghiệm của mẫu mà không phải nghiệm của tử → $x - 3 = 0 \\Leftrightarrow x = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\dfrac{x - 1}{x^2 - 4}$ là:",
+      "options": [
+        "3 (1 ngang + 2 đứng)",
+        "2 (1 ngang + 1 đứng)",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "hint": "Mẫu $= (x-2)(x+2) = 0 \\Rightarrow x = \\pm 2$ (2 TCĐ). $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow y = 0$ (1 TCN). Tổng 3 đường."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hàm số $y = \\dfrac{x^2 + 1}{x - 1}$ có bao nhiêu tiệm cận ngang?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "hint": "$\\lim_{x \\to \\pm\\infty} \\dfrac{x^2+1}{x-1} = \\pm\\infty$ (bậc tử > bậc mẫu) → KHÔNG có tiệm cận ngang."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đồ thị hàm số $y = \\dfrac{x^2 - 3x + 2}{x^2 - 1}$ có tổng số tiệm cận đứng và ngang là:",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "hint": "Tử $= (x-1)(x-2)$, mẫu $= (x-1)(x+1)$. Rút gọn: $\\dfrac{x-2}{x+1}$ (với $x \\neq 1$). TCĐ: $x = -1$. TCN: $y = 1$. Tổng 2."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đồ thị $y = \\sqrt{x^2 + 1} - x$ có tiệm cận ngang là:",
+      "options": [
+        "$y = 0$",
+        "$y = 1$",
+        "$y = -1$",
+        "Không có"
+      ],
+      "answer": 0,
+      "hint": "$\\lim_{x \\to +\\infty} (\\sqrt{x^2+1} - x) = \\lim \\dfrac{1}{\\sqrt{x^2+1} + x} = 0$. $\\lim_{x \\to -\\infty}$ ra $+\\infty$ → chỉ có TCN $y = 0$ về $+\\infty$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tìm $m$ để đồ thị hàm số $y = \\dfrac{mx + 2}{x - 1}$ có tiệm cận đứng là $x = 1$ và TCN là $y = 3$.",
+      "options": [
+        "$m = 3$",
+        "$m = 1$",
+        "$m = 2$",
+        "$m = -3$"
+      ],
+      "answer": 0,
+      "hint": "TCĐ luôn $x = 1$ (với $m$ sao cho $m \\cdot 1 + 2 \\neq 0$ → $m \\neq -2$). TCN $= m / 1 = m = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Tìm $m$ để đồ thị hàm số $y = \\dfrac{x + 2}{x^2 - 2x + m}$ có đúng 1 tiệm cận đứng.",
+      "options": [
+        "$m = 1$ hoặc $m = -8$",
+        "$m = 1$",
+        "$m > 1$",
+        "$m < 1$"
+      ],
+      "answer": 0,
+      "hint": "Mẫu có 1 nghiệm kép HOẶC 2 nghiệm, trong đó 1 trùng với nghiệm tử ($x = -2$). Δ mẫu $= 4 - 4m = 0 \\Rightarrow m = 1$ (nghiệm kép $x = 1 \\neq -2$ → 1 TCĐ ✓). Hoặc $x = -2$ là nghiệm mẫu: $4 + 4 + m = 0 \\Rightarrow m = -8$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai về tiệm cận:",
+      "statements": [
+        { "text": "Đồ thị hàm số bậc nhất $y = ax + b$ với $a \\neq 0$ luôn có 1 tiệm cận ngang.", "answer": false },
+        { "text": "Đồ thị hàm số $y = \\dfrac{1}{x}$ có 2 tiệm cận: $x = 0$ (đứng) và $y = 0$ (ngang).", "answer": true },
+        { "text": "Mỗi đồ thị có nhiều nhất 2 tiệm cận ngang.", "answer": true },
+        { "text": "Đồ thị có vô số tiệm cận đứng.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho hàm số $y = \\dfrac{2x - 1}{x + 3}$. Xét:",
+      "statements": [
+        { "text": "Tiệm cận đứng của đồ thị là $x = -3$.", "answer": true },
+        { "text": "Tiệm cận ngang của đồ thị là $y = 2$.", "answer": true },
+        { "text": "Đồ thị cắt trục tung tại điểm có tung độ $-\\dfrac{1}{3}$.", "answer": true },
+        { "text": "Đồ thị đối xứng qua giao 2 tiệm cận tại $I(-3; 2)$.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đồ thị hàm số $y = \\dfrac{3x - 1}{x + 2}$ có tiệm cận ngang $y = $___",
+      "answer": "3",
+      "hint": "Tỉ số hệ số cao nhất $3/1 = 3$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đồ thị hàm số $y = \\dfrac{2x - 5}{x + 4}$ có tiệm cận đứng $x = $___",
+      "answer": "-4",
+      "hint": "Mẫu $x + 4 = 0 \\Leftrightarrow x = -4$ (kiểm tra tử khác 0 tại điểm này: $-13 \\neq 0$ ✓)."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Số đường tiệm cận của đồ thị hàm số $y = \\dfrac{x + 1}{x^2 - 4x + 3}$ là ___",
+      "answer": "3",
+      "hint": "Mẫu $= (x-1)(x-3) \\Rightarrow 2$ TCĐ ($x = 1$ và $x = 3$, tử khác 0 tại 2 điểm). $\\lim y = 0 \\Rightarrow 1$ TCN. Tổng 3."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đồ thị hàm số $y = \\dfrac{x^2 - 4}{x - 2}$ có:",
+      "options": [
+        "Không có tiệm cận (hàm rút gọn thành $y = x + 2$)",
+        "1 TCĐ tại $x = 2$",
+        "1 TCN tại $y = 0$",
+        "Cả TCĐ và TCN"
+      ],
+      "answer": 0,
+      "hint": "Tử $= (x-2)(x+2)$. Rút gọn (với $x \\neq 2$): $y = x + 2$ → đường thẳng, không có tiệm cận."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Đồ thị hàm số $y = \\dfrac{\\sqrt{x^2 + 4}}{x - 1}$ có tổng số tiệm cận đứng + ngang bằng:",
+      "options": [
+        "3 (1 đứng + 2 ngang)",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "hint": "TCĐ: $x = 1$ (1 đường). TCN: $\\lim_{x \\to +\\infty} \\dfrac{\\sqrt{x^2+4}}{x-1} = \\lim \\dfrac{|x|\\sqrt{1+4/x^2}}{x-1} = 1$ (về $+\\infty$) và $= -1$ (về $-\\infty$) → 2 TCN. Tổng 3."
+    }
+  ]
+}

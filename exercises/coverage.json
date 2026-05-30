@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T17:43:10.417Z",
+  "generatedAt": "2026-05-30T17:59:18.029Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1799,9 +1799,33 @@
         ]
       },
       "12": {
-        "exerciseCount": 8,
-        "totalQuestions": 133,
+        "exerciseCount": 12,
+        "totalQuestions": 201,
         "topics": [
+          {
+            "id": "thpt-toan-l12-b1-don-dieu-cuc-tri",
+            "topic": "Bài 1: Tính đơn điệu và cực trị của hàm số",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-toan-l12-b2-gtln-gtnn",
+            "topic": "Bài 2: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-toan-l12-b3-tiem-can",
+            "topic": "Bài 3: Đường tiệm cận của đồ thị hàm số",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-toan-l12-b4-khao-sat-do-thi",
+            "topic": "Bài 4: Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-toan-l12-c1-ung-dung-dao-ham",
             "topic": "Chương 1: Ứng dụng đạo hàm để khảo sát hàm số",

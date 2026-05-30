@@ -1,0 +1,213 @@
+{
+  "id": "thpt-toan-l12-b4-khao-sat-do-thi",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 12,
+  "topic": "Bài 4: Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+  "chapter": "Chương 1: Ứng dụng đạo hàm",
+  "examType": "practice",
+  "bookUnit": { "chapter": 1, "lesson": 4 },
+  "difficulty": 3,
+  "outcomes": ["T12-DH-5", "T12-DH-6"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong các bước khảo sát hàm số, bước nào KHÔNG bắt buộc?",
+      "options": [
+        "Vẽ tiếp tuyến tại điểm cực trị",
+        "Tìm tập xác định",
+        "Lập bảng biến thiên",
+        "Tính giới hạn tại biên TXĐ"
+      ],
+      "answer": 0,
+      "hint": "5 bước chính: TXĐ → BBT → cực trị/đơn điệu → tiệm cận → vẽ đồ thị. Tiếp tuyến tại cực trị KHÔNG bắt buộc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồ thị hàm số bậc 3 $y = ax^3 + bx^2 + cx + d$ (với $a > 0$, có 2 cực trị) có hình dạng:",
+      "options": [
+        "Tăng → giảm → tăng (chữ N ngược)",
+        "Giảm → tăng → giảm",
+        "Tăng đơn điệu",
+        "Hình parabol"
+      ],
+      "answer": 0,
+      "hint": "$a > 0$ + 2 cực trị → CĐ trước, CT sau. Hàm tăng vô cực hai biên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồ thị hàm số $y = x^3 - 3x + 1$ có đặc điểm:",
+      "options": [
+        "Có 2 cực trị, cắt trục hoành 3 điểm",
+        "Có 1 cực trị, cắt trục hoành 1 điểm",
+        "Không có cực trị, là đường đơn điệu",
+        "Có 2 cực trị, không cắt trục hoành"
+      ],
+      "answer": 0,
+      "hint": "$y' = 3x^2 - 3$ có 2 nghiệm $\\pm 1$ → 2 cực trị. $y(-1) = 3 > 0$, $y(1) = -1 < 0$ → cắt trục hoành 3 lần (3 nghiệm)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồ thị hàm số bậc 4 trùng phương $y = ax^4 + bx^2 + c$ với $a > 0$ và $b > 0$ có:",
+      "options": [
+        "1 cực trị duy nhất tại $x = 0$",
+        "3 cực trị",
+        "2 cực trị",
+        "Không có cực trị"
+      ],
+      "answer": 0,
+      "hint": "$y' = 4ax^3 + 2bx = 2x(2ax^2 + b)$. Với $a, b > 0$: $2ax^2 + b > 0 \\forall x$ → $y' = 0 \\Leftrightarrow x = 0$ → 1 cực trị."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồ thị hàm số $y = -x^4 + 2x^2 + 1$ có:",
+      "options": [
+        "3 cực trị: cực đại tại $x = \\pm 1$, cực tiểu tại $x = 0$",
+        "1 cực trị tại $x = 0$",
+        "2 cực trị tại $x = \\pm 1$",
+        "Không có cực trị"
+      ],
+      "answer": 0,
+      "hint": "$y' = -4x^3 + 4x = -4x(x^2 - 1) = 0 \\Leftrightarrow x = 0, \\pm 1$. $a = -1 < 0$ → CĐ tại $\\pm 1$, CT tại $0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đồ thị hàm số $y = \\dfrac{x + 2}{x - 1}$ là một:",
+      "options": [
+        "Hyperbol với 2 nhánh, đối xứng qua giao 2 tiệm cận $I(1; 1)$",
+        "Parabol",
+        "Đường thẳng",
+        "Đường tròn"
+      ],
+      "answer": 0,
+      "hint": "Hàm phân thức bậc nhất / bậc nhất → đồ thị là HYPERBOL (2 nhánh đối xứng qua tâm giao tiệm cận)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho hàm số $y = x^3 - 3x^2$. Phương trình tiếp tuyến với đồ thị tại điểm có hoành độ $x = 1$ là:",
+      "options": [
+        "$y = -3x + 1$",
+        "$y = -3x - 1$",
+        "$y = 3x - 5$",
+        "$y = x - 3$"
+      ],
+      "answer": 0,
+      "hint": "$y'(1) = 3 - 6 = -3$ (hệ số góc). $y(1) = 1 - 3 = -2$. Tiếp tuyến: $y = -3(x - 1) + (-2) = -3x + 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Số nghiệm của phương trình $x^3 - 3x = 1$ là:",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": 0,
+      "hint": "Xét hàm $f(x) = x^3 - 3x$: cực đại $f(-1) = 2$, cực tiểu $f(1) = -2$. Đường thẳng $y = 1$ cắt đồ thị 3 lần (vì $-2 < 1 < 2$)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tìm $m$ để phương trình $x^3 - 3x + 1 = m$ có 3 nghiệm phân biệt.",
+      "options": [
+        "$-1 < m < 3$",
+        "$m > 3$",
+        "$m < -1$",
+        "$m = 0$"
+      ],
+      "answer": 0,
+      "hint": "Xét $f(x) = x^3 - 3x + 1$: cực đại $f(-1) = 3$, cực tiểu $f(1) = -1$. Đường thẳng $y = m$ cắt 3 lần khi $-1 < m < 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Cho hàm số $y = \\dfrac{x - 1}{x + 2}$ có đồ thị $(C)$. Phương trình tiếp tuyến của $(C)$ tại giao điểm với trục tung là:",
+      "options": [
+        "$y = \\dfrac{3}{4}x - \\dfrac{1}{2}$",
+        "$y = \\dfrac{3}{4}x + \\dfrac{1}{2}$",
+        "$y = -\\dfrac{1}{2}x + \\dfrac{3}{4}$",
+        "$y = -\\dfrac{1}{2}$"
+      ],
+      "answer": 0,
+      "hint": "Giao trục tung: $x = 0$, $y(0) = -1/2$. $y' = \\dfrac{(x+2) - (x-1)}{(x+2)^2} = \\dfrac{3}{(x+2)^2}$; $y'(0) = 3/4$. Tiếp tuyến: $y = (3/4)x - 1/2$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai về đồ thị hàm số bậc 3:",
+      "statements": [
+        { "text": "Hàm số bậc 3 luôn có ít nhất 1 cực trị.", "answer": false },
+        { "text": "Đồ thị hàm số bậc 3 có tâm đối xứng là điểm uốn.", "answer": true },
+        { "text": "Hàm số bậc 3 với $a > 0$ luôn $\\lim_{x \\to +\\infty} y = +\\infty$.", "answer": true },
+        { "text": "Hàm số bậc 3 có thể có 4 nghiệm phân biệt.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho hàm số $y = -x^3 + 3x^2 + 1$:",
+      "statements": [
+        { "text": "Hàm số đồng biến trên khoảng $(0; 2)$.", "answer": true },
+        { "text": "Hàm số có giá trị cực đại bằng $5$.", "answer": true },
+        { "text": "Đồ thị có 1 điểm uốn tại $x = 1$.", "answer": true },
+        { "text": "Đồ thị cắt trục hoành tại đúng 1 điểm.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Hàm số $y = x^4 - 2x^2$ có ___ cực trị.",
+      "answer": "3",
+      "hint": "$y' = 4x^3 - 4x = 4x(x^2 - 1) = 0$ có 3 nghiệm $0, \\pm 1$ → 3 cực trị."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Hoành độ điểm uốn của đồ thị $y = x^3 - 6x^2 + 9x - 2$ là ___",
+      "answer": "2",
+      "hint": "Điểm uốn: $y'' = 0$. $y'' = 6x - 12 = 0 \\Leftrightarrow x = 2$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Số giá trị nguyên của $m \\in [-5; 5]$ để phương trình $x^3 - 3x^2 + m = 0$ có 3 nghiệm phân biệt là ___",
+      "answer": "3",
+      "hint": "Xét $f(x) = -x^3 + 3x^2$: cực tiểu $f(0) = 0$, cực đại $f(2) = 4$. Có 3 nghiệm khi $0 < m < 4$ → $m \\in \\{1, 2, 3\\}$ → 3 giá trị."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tiếp tuyến của đồ thị $y = x^3 - 3x + 2$ song song với đường thẳng $y = 9x + 7$ có hoành độ tiếp điểm là:",
+      "options": [
+        "$x = \\pm 2$",
+        "$x = 1$",
+        "$x = -1$",
+        "$x = 0$"
+      ],
+      "answer": 0,
+      "hint": "Song song: cùng hệ số góc $9$. $y' = 3x^2 - 3 = 9 \\Leftrightarrow x^2 = 4 \\Leftrightarrow x = \\pm 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Đồ thị hàm số $y = x^4 - 2mx^2 + m^2 - 1$ có 3 cực trị tạo thành tam giác đều khi $m$ bằng:",
+      "options": [
+        "$m = \\sqrt[3]{3}$",
+        "$m = 1$",
+        "$m = 2$",
+        "$m = \\sqrt{2}$"
+      ],
+      "answer": 0,
+      "hint": "Điều kiện 3 cực trị: $m > 0$. 3 đỉnh tam giác: $(0; m^2 - 1)$ và $(\\pm\\sqrt{m}; -1)$. Tam giác đều khi $2\\sqrt{m} \\cdot \\dfrac{\\sqrt{3}}{2} = m^2 \\Leftrightarrow m^3 = 3 \\Leftrightarrow m = \\sqrt[3]{3}$."
+    }
+  ]
+}

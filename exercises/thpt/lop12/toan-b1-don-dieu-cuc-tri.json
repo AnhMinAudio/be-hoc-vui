@@ -1,0 +1,214 @@
+{
+  "id": "thpt-toan-l12-b1-don-dieu-cuc-tri",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 12,
+  "topic": "Bài 1: Tính đơn điệu và cực trị của hàm số",
+  "chapter": "Chương 1: Ứng dụng đạo hàm",
+  "examType": "practice",
+  "bookUnit": { "chapter": 1, "lesson": 1 },
+  "difficulty": 2,
+  "outcomes": ["T12-DH-1", "T12-DH-2"],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hàm số $y = f(x)$ được gọi là ĐỒNG BIẾN trên khoảng $(a; b)$ khi:",
+      "options": [
+        "Với mọi $x_1, x_2 \\in (a; b)$, $x_1 < x_2$ thì $f(x_1) < f(x_2)$",
+        "$f'(x) < 0$ trên $(a; b)$",
+        "$f(x) > 0$ trên $(a; b)$",
+        "$f''(x) > 0$ trên $(a; b)$"
+      ],
+      "answer": 0,
+      "hint": "Định nghĩa: $f$ đồng biến khi $x$ tăng thì $f(x)$ tăng theo."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Để hàm số $y = f(x)$ đồng biến trên $(a; b)$ (điều kiện đủ), ta cần:",
+      "options": [
+        "$f'(x) \\geq 0$ trên $(a; b)$ và $f'(x) = 0$ chỉ tại hữu hạn điểm",
+        "$f'(x) < 0$ trên $(a; b)$",
+        "$f(x) > 0$ trên $(a; b)$",
+        "$f''(x) = 0$ trên $(a; b)$"
+      ],
+      "answer": 0,
+      "hint": "Điều kiện đủ về dấu của đạo hàm bậc nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho hàm số $y = x^3 - 3x + 2$. Đạo hàm $y' = ?$",
+      "options": [
+        "$3x^2 - 3$",
+        "$3x^2 + 3$",
+        "$x^2 - 3$",
+        "$3x^2 - 3x$"
+      ],
+      "answer": 0,
+      "hint": "Đạo hàm $(x^n)' = nx^{n-1}$; $(C)' = 0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hàm số $y = x^3 - 3x + 2$ ĐỒNG BIẾN trên khoảng nào?",
+      "options": [
+        "$(-\\infty; -1)$ và $(1; +\\infty)$",
+        "$(-1; 1)$",
+        "$(0; +\\infty)$",
+        "$\\mathbb{R}$"
+      ],
+      "answer": 0,
+      "hint": "$y' = 3x^2 - 3 \\geq 0 \\Leftrightarrow x \\leq -1$ hoặc $x \\geq 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hàm số $y = -x^3 + 3x^2 - 4$ NGHỊCH BIẾN trên khoảng nào?",
+      "options": [
+        "$(-\\infty; 0)$ và $(2; +\\infty)$",
+        "$(0; 2)$",
+        "$(-2; 2)$",
+        "$(0; +\\infty)$"
+      ],
+      "answer": 0,
+      "hint": "$y' = -3x^2 + 6x = -3x(x - 2) \\leq 0 \\Leftrightarrow x \\leq 0$ hoặc $x \\geq 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Điểm $x_0$ được gọi là điểm CỰC ĐẠI của hàm số $y = f(x)$ nếu:",
+      "options": [
+        "Tồn tại lân cận của $x_0$ sao cho $f(x) < f(x_0)$ với mọi $x \\neq x_0$ trong lân cận đó",
+        "$f(x_0) > 0$",
+        "$f'(x_0) > 0$",
+        "$f(x_0)$ là giá trị lớn nhất trên toàn miền xác định"
+      ],
+      "answer": 0,
+      "hint": "Cực đại là cực trị LOCAL (so với lân cận), không phải GTLN toàn miền."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hàm số $y = x^3 - 3x^2 + 2$ có cực trị tại:",
+      "options": [
+        "$x = 0$ (cực đại) và $x = 2$ (cực tiểu)",
+        "$x = 0$ (cực tiểu) và $x = 2$ (cực đại)",
+        "Chỉ $x = 0$",
+        "Không có cực trị"
+      ],
+      "answer": 0,
+      "hint": "$y' = 3x^2 - 6x = 3x(x - 2) = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$. Bảng dấu: $y'$ đổi từ $+$ sang $-$ tại $x = 0$ (CĐ), từ $-$ sang $+$ tại $x = 2$ (CT)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị CỰC ĐẠI của hàm số $y = x^3 - 3x^2 + 2$ là:",
+      "options": [
+        "$2$",
+        "$-2$",
+        "$0$",
+        "$3$"
+      ],
+      "answer": 0,
+      "hint": "Cực đại tại $x = 0$, giá trị $y(0) = 0 - 0 + 2 = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho hàm số $y = \\dfrac{x^2 - 2x + 3}{x - 1}$. Hàm số đạt cực trị tại:",
+      "options": [
+        "$x = -1$ (CĐ) và $x = 3$ (CT)",
+        "Hai điểm $x = 1 \\pm \\sqrt{2}$",
+        "$x = 0$",
+        "Không có cực trị"
+      ],
+      "answer": 0,
+      "hint": "$y' = \\dfrac{(x-1)^2 \\cdot (...) }{(x-1)^2}$ — đặt tử của $y'$ bằng 0: $(2x-2)(x-1) - (x^2-2x+3) = 0 \\Leftrightarrow x^2 - 2x - 3 = 0 \\Leftrightarrow x = -1$ hoặc $x = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Hàm số $y = \\dfrac{1}{3}x^3 - mx^2 + (m^2 - 1)x + 1$ ĐỒNG BIẾN trên $\\mathbb{R}$ khi:",
+      "options": [
+        "Không có giá trị $m$ nào",
+        "$m = 0$",
+        "$m \\geq 1$",
+        "$-1 \\leq m \\leq 1$"
+      ],
+      "answer": 0,
+      "hint": "$y' = x^2 - 2mx + m^2 - 1$. Đồng biến trên $\\mathbb{R}$ khi $y' \\geq 0 \\forall x \\Leftrightarrow \\Delta' \\leq 0 \\Leftrightarrow m^2 - (m^2-1) \\leq 0 \\Leftrightarrow 1 \\leq 0$ — SAI. Vậy không có $m$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tìm $m$ để hàm số $y = -x^3 + 3x^2 + mx$ có hai cực trị trái dấu (1 dương, 1 âm về hoành độ).",
+      "options": [
+        "$m > 0$",
+        "$m < 0$",
+        "$m = 0$",
+        "Mọi $m \\neq 0$"
+      ],
+      "answer": 0,
+      "hint": "$y' = -3x^2 + 6x + m = 0$. Hai nghiệm trái dấu $\\Leftrightarrow$ tích nghiệm $< 0 \\Leftrightarrow \\dfrac{m}{-3} < 0 \\Leftrightarrow m > 0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Tìm $m$ để hàm số $y = x^3 - 3mx^2 + 3(m^2 - 1)x + m$ đạt cực đại tại $x = 1$.",
+      "options": [
+        "$m = 2$",
+        "$m = 0$",
+        "$m = 1$",
+        "$m = -1$"
+      ],
+      "answer": 0,
+      "hint": "$y' = 3x^2 - 6mx + 3(m^2-1)$; $y'' = 6x - 6m$. Cực đại tại $x=1$: $y'(1)=0$ và $y''(1)<0$. $y'(1) = 3 - 6m + 3m^2 - 3 = 3m(m-2) = 0 \\Rightarrow m = 0$ hoặc $m = 2$. $y''(1) = 6 - 6m < 0 \\Rightarrow m > 1$. Vậy $m = 2$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai về tính đơn điệu và cực trị:",
+      "statements": [
+        { "text": "Nếu $f'(x_0) = 0$ thì $x_0$ chắc chắn là điểm cực trị của $f$.", "answer": false },
+        { "text": "Nếu $f$ đồng biến trên $(a; b)$ thì $f'(x) \\geq 0$ với mọi $x \\in (a; b)$.", "answer": true },
+        { "text": "Hàm số $y = x^4$ có một điểm cực tiểu tại $x = 0$.", "answer": true },
+        { "text": "Hàm số bậc nhất $y = ax + b$ với $a \\neq 0$ có ít nhất một cực trị.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho hàm số $y = x^3 - 3x + 1$. Xét các khẳng định:",
+      "statements": [
+        { "text": "Hàm số đạt cực đại tại $x = -1$, giá trị cực đại bằng $3$.", "answer": true },
+        { "text": "Hàm số đạt cực tiểu tại $x = 1$, giá trị cực tiểu bằng $-1$.", "answer": true },
+        { "text": "Hàm số đồng biến trên khoảng $(-1; 1)$.", "answer": false },
+        { "text": "Đồ thị hàm số cắt trục hoành tại đúng 3 điểm phân biệt.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Số điểm cực trị của hàm số $y = x^4 - 2x^2 + 3$ là ___",
+      "answer": "3",
+      "alternatives": ["ba"],
+      "hint": "$y' = 4x^3 - 4x = 4x(x^2 - 1) = 0 \\Leftrightarrow x = 0, \\pm 1$ → 3 nghiệm phân biệt → 3 cực trị."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Cho $y = x^3 - 3x^2 - 9x + 1$. Hoành độ điểm cực đại là $x_0$. Giá trị $x_0$ bằng ___",
+      "answer": "-1",
+      "hint": "$y' = 3x^2 - 6x - 9 = 3(x-3)(x+1) = 0 \\Leftrightarrow x = 3$ hoặc $x = -1$. $y'$ đổi dấu $+$→$-$ tại $x = -1$ → cực đại."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tìm số nguyên $m \\in [-10; 10]$ để hàm số $y = x^3 - 3mx + 2$ có hai cực trị. Số giá trị $m$ thỏa mãn là ___",
+      "answer": "10",
+      "hint": "$y' = 3x^2 - 3m = 0 \\Leftrightarrow x^2 = m$ có 2 nghiệm phân biệt khi $m > 0$. $m$ nguyên trong $[-10; 10]$ và $m > 0$ → $m \\in \\{1, 2, ..., 10\\}$ → 10 giá trị."
+    }
+  ]
+}
