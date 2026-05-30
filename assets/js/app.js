@@ -1754,9 +1754,20 @@ const GUIDE_CONTENT = {
       <h2>🔥 Streak — chuỗi ngày học liên tiếp</h2>
       <ul class="guide-list">
         <li><b>Cách giữ:</b> làm ít nhất 1 đề/ngày (bất kỳ đề nào — Đề hôm nay, luyện tập, ôn lại đều tính).</li>
-        <li><b>Reset:</b> bỏ 1 ngày là về 0 — cố gắng đừng để mất nhé!</li>
+        <li><b>🛡️ Bùa cứu streak:</b> nếu lỡ quên 1 ngày, app TỰ DÙNG 1 bùa để giữ streak — <b>3 bùa/tháng</b>, reset đầu tháng. Số bùa còn lại hiện trên trang chủ.</li>
+        <li><b>Reset thật:</b> hết bùa + lại quên 1 ngày → streak về 0.</li>
         <li><b>Phần thưởng đặc biệt:</b> streak 7/14/30/100 ngày → tự nhận 1 sticker legendary.</li>
       </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🏅 Thử thách tuần</h2>
+      <p>Mỗi tuần app chọn 1 đề <b>khó nhất</b> đúng lớp bé. Làm xong + đúng <b>≥ 80%</b> → nhận <b>+50 sao bonus</b> (chỉ 1 lần/tuần). Banner gradient vàng trên trang chủ.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🏆 Huy hiệu — sưu tập 22 cái</h2>
+      <p>Mở khóa tự động khi đạt mốc: số đề hoàn thành, số sao, perfect, streak, sticker. Xem ở <a href="/thanh-tich">Thành tích</a>.</p>
     </section>
 
     <section class="guide-sec">
@@ -1773,6 +1784,7 @@ const GUIDE_CONTENT = {
       <details><summary>Mất pass thì sao?</summary><p>Hiện chưa có chức năng khôi phục — phải đăng ký lại với biệt danh khác.</p></details>
       <details><summary>Pet của em đâu rồi?</summary><p>Cần đăng nhập + làm ít nhất 1 đề. Pet sẽ hiện ở trang chủ + Thành tích.</p></details>
       <details><summary>Có thể làm đề khác lớp không?</summary><p>Được, nhưng đề khác lớp KHÔNG tính sao + sticker (chỉ để ôn).</p></details>
+      <details><summary>Bùa cứu streak hoạt động sao?</summary><p>App tự kích hoạt khi hôm qua bị bỏ + hôm kia có học. Bạn không cần làm gì — chỉ thấy thông báo "🛡️ Đã dùng 1 bùa cứu streak..." khi vào app.</p></details>
     </section>
   `,
 
@@ -1790,7 +1802,7 @@ const GUIDE_CONTENT = {
       <h2>⭐ Sao &amp; Huy hiệu</h2>
       <ul class="guide-list">
         <li><b>Sao:</b> mỗi câu đúng = 1 sao. Tích lũy vào tổng sao của tài khoản.</li>
-        <li><b>Huy hiệu:</b> mở khóa theo số đề hoàn thành / điểm tuyệt đối. Xem ở <a href="/thanh-tich">Thành tích</a>.</li>
+        <li><b>Huy hiệu:</b> 22 huy hiệu mở khóa tự động theo: số đề / số sao / perfect / streak / sticker. Xem ở <a href="/thanh-tich">Thành tích</a>.</li>
         <li><b>Sticker:</b> 14 sticker theo 3 tier (xem bộ sưu tập ở Thành tích) — cùng quy tắc như tiểu học.</li>
       </ul>
       <p class="guide-note">THCS chưa có rank Đồng/Bạc/Vàng (đó là tính năng THPT). Chỉ tổng sao + huy hiệu.</p>
@@ -1805,8 +1817,14 @@ const GUIDE_CONTENT = {
       <h2>🔥 Streak — chuỗi ngày học</h2>
       <ul class="guide-list">
         <li>Làm ít nhất 1 đề/ngày để giữ streak.</li>
+        <li><b>🛡️ Bùa cứu streak:</b> 3 bùa/tháng — tự dùng khi lỡ quên 1 ngày. Reset đầu tháng.</li>
         <li>Streak 7/14/30/100 ngày → sticker legendary đặc biệt.</li>
       </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🏅 Thử thách tuần</h2>
+      <p>Mỗi tuần app chọn 1 đề <b>khó nhất</b> đúng lớp bạn (thường là đề thi thử bấm giờ). Đạt <b>≥ 80%</b> → nhận <b>+50 sao bonus</b>. Mở banner gradient vàng trên trang chủ.</p>
     </section>
 
     <section class="guide-sec">
@@ -1900,11 +1918,18 @@ const GUIDE_CONTENT = {
     </section>
 
     <section class="guide-sec">
-      <h2>🎁 Sticker (14 cái) + Streak</h2>
+      <h2>🎁 Sticker (14) + Huy hiệu (22) + Streak</h2>
       <ul class="guide-list">
-        <li>Sticker: common (5) cho lần đầu hoàn thành đề; rare (5) cho 100% lần đầu; legendary (4) cho streak 7/14/30/100.</li>
-        <li>Xem bộ sưu tập + huy hiệu ở <a href="/thanh-tich">Thành tích</a>.</li>
+        <li><b>Sticker:</b> common (5) cho lần đầu hoàn thành đề; rare (5) cho 100% lần đầu; legendary (4) cho streak 7/14/30/100.</li>
+        <li><b>22 huy hiệu</b> mở khóa tự động theo: số đề / số sao / perfect / streak / sticker. Xem ở <a href="/thanh-tich">Thành tích</a>.</li>
+        <li><b>🛡️ Bùa cứu streak:</b> 3 bùa/tháng — tự dùng khi lỡ quên 1 ngày + còn bùa. Reset đầu tháng. Số bùa còn lại hiện cạnh streak chip trên trang chủ.</li>
       </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🏅 Thử thách tuần — đề khó + 50 sao bonus</h2>
+      <p>Mỗi tuần app chọn 1 đề <b>khó nhất</b> cùng lớp bạn (thường là đề thi thử bấm giờ). Đạt <b>≥ 80%</b> → +50 sao bonus ngay (chỉ 1 lần/tuần). Banner gradient vàng trên trang chủ.</p>
+      <p class="guide-note">Đề challenge giống nhau cho cả tuần (deterministic) → bạn có thể làm bất kỳ ngày nào trong tuần.</p>
     </section>
 
     <section class="guide-sec">
@@ -1931,6 +1956,8 @@ const GUIDE_CONTENT = {
       <h2>❓ Câu hỏi thường gặp</h2>
       <details><summary>Sao tài khoản bị mất sau 15 ngày?</summary><p>Để giải phóng KV storage. Cứ làm bài đều là không bị xoá. Streak giữ luôn.</p></details>
       <details><summary>Có thể đăng nhập trên nhiều thiết bị không?</summary><p>Được — tiến trình đồng bộ qua server. Setting "Ngày thi" thay đổi ở máy nào sẽ ghi đè máy khác (last-write-wins).</p></details>
+      <details><summary>🛡️ Bùa cứu streak hoạt động sao?</summary><p>Khi mở app: nếu hôm qua không có ghi nhận học + hôm kia có học (streak vừa đứt 1d) + còn bùa → app TỰ dùng 1 bùa, đánh dấu hôm qua đã học, streak tiếp tục. Bạn chỉ thấy thông báo "🛡️ Đã dùng 1 bùa cứu streak..." khi vừa được cứu.</p></details>
+      <details><summary>Thử thách tuần đổi khi nào?</summary><p>Mỗi tuần 1 lần — theo ISO week (thứ Hai bắt đầu tuần mới). Đề mới được app pick deterministic, cùng đề cho tất cả user cùng lớp trong cùng tuần.</p></details>
       <details><summary>"Đề tiếp theo" trên màn kết quả lấy ở đâu?</summary><p>Đề kế tiếp cùng môn cùng lớp, sắp xếp theo id alphabet.</p></details>
       <details><summary>Social proof "N người đã làm" sao chưa thấy?</summary><p>Chỉ hiện khi ≥30 người đã hoàn thành đề đó. Đợi thêm bạn bè làm.</p></details>
       <details><summary>Chế độ vẽ nháp đâu rồi?</summary><p>FAB ✏️ góc dưới trong đề Toán/Lý THPT.</p></details>
