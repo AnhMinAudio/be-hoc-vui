@@ -2754,3 +2754,13 @@ body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circl
   .tour-overlay { transition: none; }
   .tour-card { animation: none; transform: none; }
 }
+
+/* Ghi chú khi user xem cấp khác (đi khám phá) */
+.hero-explore-note {
+  background: color-mix(in srgb, var(--c-primary) 10%, var(--c-card));
+  border: 1px dashed color-mix(in srgb, var(--c-primary) 40%, transparent);
+  color: var(--c-text);
+  padding: 8px 14px; border-radius: 10px;
+  font-size: .88rem; margin: 8px auto; max-width: 480px;
+}
+.hero-explore-note a { color: var(--c-primary-dark); font-weight: 700; }

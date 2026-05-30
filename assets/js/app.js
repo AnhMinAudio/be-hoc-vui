@@ -1110,17 +1110,22 @@ function renderWorldHome(view, world) {
   const gcls = world === 'thcs' ? ' thcs' : world === 'thpt' ? ' thpt' : '';
   const u = Auth.getUser();
   const deleted = Auth.consumeDeletedNotice();
+  // Tab cấp đang xem CÓ KHỚP cấp thực của user không?
+  // Daily/Challenge/Pet/Onboarding/Banner cá nhân CHỈ render khi user xem cấp của mình.
+  // Khi user lớp 12 vào /cap/tieu-hoc → chỉ xem hero + features khám phá; không hiện nội dung cá nhân.
+  const isOwnHome = !!u && world === homeWorld();
   view.innerHTML = `
     ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
     <section class="hero-pro">
       ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
-      ${u && Object.keys(Progress.load().completed || {}).length === 0
+      ${isOwnHome && Object.keys(Progress.load().completed || {}).length === 0
         ? `<a href="/huong-dan" class="hero-onboard">📘 Lần đầu dùng app? Xem hướng dẫn các tính năng → </a>` : ''}
-      ${world === 'tieu-hoc' && u
+      ${isOwnHome && world === 'tieu-hoc'
         ? `<div class="hero-pet" id="hero-pet">${mascotSVG()}</div>`
         : mascotSVG()}
       <h1>${hero.a} <span class="accent">${hero.b}</span></h1>
       <p class="hero-sub">${hero.sub}</p>
+      ${u && !isOwnHome ? `<p class="hero-explore-note">👀 Bạn đang xem cấp <b>${({'tieu-hoc':'Tiểu học','thcs':'THCS','thpt':'THPT'})[world]}</b> để khám phá. Cấp của bạn là <a href="/">Lớp ${u.grade}</a>.</p>` : ''}
       <div class="hero-cta">
         <button class="btn btn-primary" onclick="document.getElementById('chon-cap').scrollIntoView({behavior:'smooth'})">Bắt đầu học</button>
         <a href="/gioi-thieu" class="btn btn-secondary">Tìm hiểu thêm</a>
@@ -1132,7 +1137,7 @@ function renderWorldHome(view, world) {
       </div>
     </section>
 
-    ${renderDailyHomeSection()}
+    ${isOwnHome || !u ? renderDailyHomeSection() : ''}
 
     <section class="features" aria-label="Điểm nổi bật">
       ${WORLD_FEATURES[world].map(f => `<div class="feature"><div class="f-icon">${f[0]}</div><div class="f-text"><b>${f[1]}</b><span>${f[2]}</span></div></div>`).join('')}
@@ -1143,15 +1148,14 @@ function renderWorldHome(view, world) {
       ${WORLD_GRADES[world].map(g => `<a href="/lop${g}" class="grade-card${gcls}"><div class="num">${g}</div><div class="label">Lớp ${g}</div></a>`).join('')}
     </div>
   `;
-  // Pet hero cho tiểu học (4C.1) — chèn SVG inline sau khi DOM dựng xong
-  if (world === 'tieu-hoc' && u) {
+  // Pet hero cho tiểu học (4C.1) — chỉ render khi user là tiểu học + đang xem home của mình
+  if (isOwnHome && world === 'tieu-hoc') {
     const heroPet = view.querySelector('#hero-pet');
     if (heroPet) mountPet(heroPet, petTierFor(Progress.getStars()).tier, 'happy');
   }
-  // Onboarding tour (4D.1) — chỉ chạy 1 lần với user mới đăng nhập + chưa làm đề + chưa xem
-  if (u && window.Tour && !Progress.getSetting('onboardingDone')
-      && Object.keys(Progress.load().completed || {}).length === 0
-      && world !== 'mam-non') {
+  // Onboarding tour (4D.1) — chỉ chạy trên home của chính user (isOwnHome) + chưa làm đề + chưa xem
+  if (isOwnHome && window.Tour && !Progress.getSetting('onboardingDone')
+      && Object.keys(Progress.load().completed || {}).length === 0) {
     setTimeout(() => {
       Tour.show(Tour.defaultSteps(world), () => Progress.setSetting('onboardingDone', '1'));
     }, 900);
