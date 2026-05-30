@@ -311,6 +311,24 @@ function progressRing(done, total) {
   </svg>`;
 }
 
+// Dải dot tiến trình câu hỏi: trắng=chưa làm, xanh nét=hiện tại, xanh đầy/đỏ=đã làm
+// Trong đề thi thử (timed) hoặc mode='exam' → chỉ "đã trả lời" (neutral), không lộ đúng/sai
+function renderDotStrip(currentIdx, total, answers, mode, timed) {
+  const hideCorrectness = timed || mode === 'exam';
+  const dots = [];
+  for (let i = 0; i < total; i++) {
+    let cls = 'qdot', label = `Câu ${i + 1}`;
+    if (i < currentIdx) {
+      if (hideCorrectness) { cls += ' done'; label += ' — đã làm'; }
+      else if (answers[i] && answers[i].correct) { cls += ' ok'; label += ' — đúng'; }
+      else { cls += ' no'; label += ' — sai'; }
+    } else if (i === currentIdx) { cls += ' cur'; label += ' — hiện tại'; }
+    else { label += ' — chưa làm'; }
+    dots.push(`<span class="${cls}" aria-label="${label}">${i + 1}</span>`);
+  }
+  return `<div class="qdots" role="group" aria-label="Tiến trình ${currentIdx + 1}/${total}">${dots.join('')}</div>`;
+}
+
 // Trạng thái trống có linh vật — đồng bộ phong cách
 function emptyState(title, desc, actionHtml) {
   return `<div class="empty-state">
@@ -1556,8 +1574,15 @@ async function renderExercise(view, id) {
               <span style="font-weight:700;color:#6B6B8C">Câu ${currentIdx + 1}/${total}</span>
             </div>
           </div>
-          <div class="progress-bar"><div class="progress-fill" style="width:${(currentIdx / total) * 100}%"></div></div>
+          ${renderDotStrip(currentIdx, total, answers, mode, timed)}
         </div>`;
+      // Auto-scroll dot hiện tại vào tầm nhìn (mượt nếu được, không thì nhảy thẳng)
+      requestAnimationFrame(() => {
+        const cur = view.querySelector('.qdot.cur');
+        if (!cur) return;
+        const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        cur.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduced ? 'auto' : 'smooth' });
+      });
 
       const onAnswer = (correct) => {
         answers.push({ correct });

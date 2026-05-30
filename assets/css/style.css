@@ -740,6 +740,45 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
   border-radius: 999px;
   transition: width 0.4s var(--bounce);
 }
+/* Dải dot tiến trình câu hỏi (thay progress-bar cũ trong màn làm bài) */
+.qdots {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 12px;
+  padding: 4px 2px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.qdots::-webkit-scrollbar { height: 4px; }
+.qdots::-webkit-scrollbar-thumb { background: var(--c-border); border-radius: 999px; }
+.qdot {
+  flex: 0 0 auto;
+  width: 28px; height: 28px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: var(--c-surface-2);
+  color: var(--c-text-soft);
+  font-size: 0.78rem; font-weight: 700;
+  border: 2px solid transparent;
+  transition: transform .25s var(--bounce), background-color .2s, color .2s;
+  user-select: none;
+}
+.qdot.cur {
+  background: var(--c-card);
+  color: var(--c-primary);
+  border-color: var(--c-primary);
+  transform: scale(1.18);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-primary) 18%, transparent);
+}
+.qdot.done { background: var(--c-primary); color: #fff; }
+.qdot.ok   { background: var(--c-correct, #4CAF50); color: #fff; }
+.qdot.no   { background: var(--c-wrong, #EF5350); color: #fff; }
+@media (prefers-reduced-motion: reduce) {
+  .qdot { transition: none; }
+  .qdot.cur { transform: none; }
+}
 
 .question-card {
   background: var(--c-card);
