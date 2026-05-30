@@ -1516,7 +1516,7 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 
 /* ===== Scrim (chỉ chế độ sheet/mobile) ===== */
 .scratch-scrim {
-  position: fixed; inset: 0; z-index: 64;
+  position: fixed; inset: 0; z-index: 1010;
   background: rgba(10,12,20,.42);
   opacity: 0; pointer-events: none;
   transition: opacity 0.18s ease;
@@ -1525,7 +1525,7 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 
 /* ===== Panel ===== */
 .scratch-panel {
-  position: fixed; z-index: 65;
+  position: fixed; z-index: 1011;
   display: flex; flex-direction: column;
   background: var(--c-card); color: var(--c-text);
   box-shadow: var(--shadow-lg);
