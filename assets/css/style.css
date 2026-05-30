@@ -1489,3 +1489,148 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
   background: rgba(255,255,255,0.95); color: #475569;
   padding: 6px 14px; border-radius: 999px; font-size: .85rem; font-weight: 600;
 }
+/* ===== Feature A — Vẽ nháp (Drawing Pad) — Đợt 3 · Bé Học Vui =====
+   Dùng token sẵn có trong style.css. Append vào cuối style.css (hoặc giữ riêng scratchpad.css).
+   Layout do JS đặt qua [data-mode="side"|"sheet"] (auto theo bề rộng). */
+
+/* ===== FAB ===== */
+.scratch-fab {
+  position: fixed; right: 18px; bottom: 18px; z-index: 60;
+  display: none; align-items: center; gap: 10px;
+  height: 56px; padding: 0 20px 0 16px;
+  border-radius: 999px;
+  background: var(--c-primary-dark); color: #fff;
+  font-family: var(--font-display); font-weight: 800; font-size: 1rem;
+  box-shadow: 0 8px 22px color-mix(in srgb, var(--c-primary-dark) 50%, transparent);
+  transition: transform 0.15s var(--bounce), box-shadow 0.2s;
+}
+.scratch-fab.show { display: inline-flex; }
+.scratch-fab .ico { font-size: 1.45rem; line-height: 1; }
+.scratch-fab:hover, .scratch-fab:focus-visible { transform: scale(1.05); outline: none; }
+.scratch-fab:active { transform: scale(0.97); }
+.scratch-fab.hidden { display: none !important; } /* khi panel mở */
+@media (max-width: 560px) {
+  .scratch-fab { width: 56px; padding: 0; justify-content: center; }
+  .scratch-fab .lbl { display: none; }
+}
+
+/* ===== Scrim (chỉ chế độ sheet/mobile) ===== */
+.scratch-scrim {
+  position: fixed; inset: 0; z-index: 64;
+  background: rgba(10,12,20,.42);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+.scratch-scrim.show { opacity: 1; pointer-events: auto; }
+
+/* ===== Panel ===== */
+.scratch-panel {
+  position: fixed; z-index: 65;
+  display: flex; flex-direction: column;
+  background: var(--c-card); color: var(--c-text);
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.22s ease-out;
+}
+.scratch-panel[hidden] { display: none; }
+
+/* Desktop: side panel phải */
+.scratch-panel[data-mode="side"] {
+  top: 0; right: 0; height: 100dvh; width: min(420px, 92vw);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+  transform: translateX(100%);
+}
+.scratch-panel[data-mode="side"].open { transform: translateX(0); }
+
+/* Mobile: bottom sheet */
+.scratch-panel[data-mode="sheet"] {
+  left: 0; right: 0; bottom: 0; height: 72dvh;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  transform: translateY(100%);
+}
+.scratch-panel[data-mode="sheet"].open { transform: translateY(0); }
+.scratch-panel[data-mode="side"] .scratch-grip { display: none; }
+
+.scratch-grip { padding: 8px 0 2px; display: flex; justify-content: center; cursor: grab; touch-action: none; }
+.scratch-grip::before { content: ""; width: 44px; height: 5px; border-radius: 999px; background: var(--c-border); }
+
+.scratch-head {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 14px 10px 18px;
+  border-bottom: 1px solid var(--c-border);
+}
+.scratch-head .ttl { font-family: var(--font-display); font-weight: 800; font-size: 1.05rem; margin-right: auto; display: flex; align-items: center; gap: 8px; }
+.scratch-close {
+  width: 38px; height: 38px; border-radius: var(--radius-sm);
+  background: var(--c-surface-2); color: var(--c-text-soft);
+  display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+}
+.scratch-close:hover { color: var(--c-text); background: var(--c-bg-tint); }
+
+/* ===== Board (lưới ô ly + canvas) ===== */
+.scratch-board {
+  flex: 1; position: relative; margin: 12px; border-radius: var(--radius-md);
+  overflow: hidden; background: #fff;
+  /* lưới ô ly 20px */
+  background-image:
+    linear-gradient(to right, rgba(0,0,0,.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,.06) 1px, transparent 1px);
+  background-size: 20px 20px;
+  box-shadow: inset 0 0 0 1px var(--c-border);
+  touch-action: none; /* canvas tự xử lý vẽ; không cuộn/zoom khi chạm trong board */
+}
+.scratch-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; }
+.scratch-board.erasing .scratch-canvas { cursor: cell; }
+
+/* ===== Toolbar ===== */
+.scratch-tools {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--c-border);
+}
+.scratch-group { display: flex; align-items: center; gap: 6px; }
+.scratch-sep { width: 1px; align-self: stretch; background: var(--c-border); margin: 2px 4px; }
+
+.sp-swatch {
+  width: 30px; height: 30px; border-radius: 50%;
+  border: 2px solid var(--c-card); box-shadow: 0 0 0 1.5px var(--c-border);
+  transition: transform 0.12s;
+}
+.sp-swatch:hover { transform: scale(1.12); }
+.sp-swatch.on { box-shadow: 0 0 0 2.5px var(--c-primary); transform: scale(1.1); }
+
+.sp-btn {
+  min-width: 38px; height: 38px; padding: 0 8px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--c-surface-2); color: var(--c-text);
+  font-size: 1.05rem; line-height: 1;
+  transition: background 0.12s, transform 0.12s;
+}
+.sp-btn:hover:not(:disabled) { background: var(--c-bg-tint); }
+.sp-btn:active:not(:disabled) { transform: scale(0.92); }
+.sp-btn.on { background: var(--c-primary-soft); color: var(--c-primary-dark); box-shadow: inset 0 0 0 1.5px var(--c-primary); }
+.sp-btn:disabled { opacity: 0.32; cursor: not-allowed; }
+
+/* nút cỡ bút: chấm tròn to nhỏ */
+.sp-size { background: transparent; }
+.sp-size .dot { background: var(--c-text); border-radius: 50%; }
+.sp-size[data-size="thin"] .dot { width: 5px; height: 5px; }
+.sp-size[data-size="med"] .dot { width: 9px; height: 9px; }
+.sp-size[data-size="bold"] .dot { width: 14px; height: 14px; }
+.sp-size.on { background: var(--c-primary-soft); box-shadow: inset 0 0 0 1.5px var(--c-primary); }
+
+.sp-clear { margin-left: auto; color: var(--c-wrong); }
+.sp-clear:hover:not(:disabled) { background: var(--c-wrong-soft); }
+
+/* confirm xóa hết */
+.sp-confirm {
+  display: flex; align-items: center; gap: 8px; margin-left: auto;
+  font-size: .9rem; font-weight: 700; color: var(--c-text-soft);
+}
+.sp-confirm button { height: 32px; padding: 0 12px; border-radius: var(--radius-sm); font-weight: 700; font-size: .88rem; }
+.sp-confirm .yes { background: var(--c-wrong); color: #fff; }
+.sp-confirm .no { background: var(--c-surface-2); color: var(--c-text); }
+
+@media (prefers-reduced-motion: reduce) {
+  .scratch-panel, .scratch-fab, .scratch-scrim { transition: none; }
+}

@@ -54,6 +54,7 @@ function beginExerciseFocus() {
 function endExerciseFocus() {
   exerciseGuard = null;
   document.body.classList.remove('in-exercise');
+  if (window.Scratchpad) Scratchpad.unmount(); // rời đề → xóa nháp + ẩn FAB
 }
 
 // ===== Điều hướng bằng URL thật (History API, không dùng dấu #) =====
@@ -98,6 +99,7 @@ async function route() {
   updateHeader();
   updateTabbar(path);
   document.body.classList.remove('in-exercise'); // rời màn làm bài thì hiện lại chrome
+  if (window.Scratchpad) Scratchpad.unmount();   // an toàn idempotent — ẩn FAB nếu còn sót
 
   if (!CATALOG) {
     try {
@@ -1682,6 +1684,7 @@ async function renderExercise(view, id) {
     };
 
     beginExerciseFocus(); // ẩn chrome điều hướng + chặn thoát nhầm
+    if (window.Scratchpad) Scratchpad.mount(exercise); // hiện FAB vẽ nháp nếu Toán/Lý + THCS/THPT
     renderQuestion();
     if (timed) startTimer();
     if (showCountUp) startElapsedTimer();
