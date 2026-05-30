@@ -97,7 +97,7 @@ async function readBody(request) {
   try { return await request.json(); } catch { return {}; }
 }
 function emptyProgress() {
-  return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, studyDays: {}, settings: {}, stickers: {}, speed: { questions: 0, timeMs: 0 } };
+  return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, studyDays: {}, settings: {}, stickers: {}, wrongQueue: {}, speed: { questions: 0, timeMs: 0 } };
 }
 
 async function getAccount(env, name) {
@@ -487,6 +487,10 @@ function mergeProgress(a, b) {
     if (da && db) out.stickers[k] = da < db ? da : db;
     else out.stickers[k] = da || db;
   }
+
+  // wrongQueue: client (b) là nguồn sự thật — REPLACE toàn bộ. Lý do giống settings:
+  // client mới biết câu nào đã được làm lại đúng (cần XÓA), spread merge không truyền xóa.
+  out.wrongQueue = { ...(b.wrongQueue || {}) };
 
   return out;
 }

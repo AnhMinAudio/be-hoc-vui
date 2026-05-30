@@ -147,6 +147,7 @@ async function route() {
     if (parts.length === 1) return renderSubjects(view, grade);
     return renderTopicList(view, grade, parts[1]);
   }
+  if (parts[0] === 'on-tap-cau-sai') return renderExercise(view, '_review');
   if (parts[0] === 'bai' && parts[1]) return renderExercise(view, parts[1]);
   return renderWorldHome(view, homeWorld());
 }
@@ -215,6 +216,12 @@ function shuffleMcOptions(q) {
 // (giữ dễ→khó) nếu đề có gắn mức, ngược lại xáo phẳng; rồi xáo đáp án từng câu.
 function prepareQuestions(exercise) {
   const src = Array.isArray(exercise.questions) ? exercise.questions : [];
+  // Gán _qIdx (vị trí gốc) + _exId (id đề gốc) để định danh ổn định cho hàng đợi câu sai.
+  // Câu nào đã có sẵn (vd: review session đã set rồi) thì giữ nguyên — không override.
+  src.forEach((q, i) => {
+    if (q._qIdx == null) q._qIdx = i;
+    if (q._exId == null) q._exId = exercise.id;
+  });
   const groups = [];
   for (const q of src) {
     const prev = groups[groups.length - 1];
@@ -342,8 +349,47 @@ function levelBreakdown(questions, answers) {
   }));
 }
 
+// Dựng đề "ôn câu sai" động từ hàng đợi (UX 4B.1).
+// Lấy tối đa 10 câu — ưu tiên câu sai NHIỀU lần + lâu (addedAt cũ).
+// Trả null nếu không có gì để ôn. Async vì cần fetch nội dung từng đề gốc.
+async function buildReviewExercise() {
+  const queue = Progress.getWrongQueue();
+  if (!queue.length || !CATALOG || !Array.isArray(CATALOG.exercises)) return null;
+  const sorted = queue.slice().sort((a, b) =>
+    (b.wrongCount || 0) - (a.wrongCount || 0) ||
+    (a.addedAt || '').localeCompare(b.addedAt || ''));
+  const picks = sorted.slice(0, 10);
+  const exIds = [...new Set(picks.map(p => p.exId))];
+  const fetched = {};
+  await Promise.all(exIds.map(async exId => {
+    const meta = CATALOG.exercises.find(e => e.id === exId);
+    if (!meta) return;
+    try { fetched[exId] = await (await fetch('/exercises/' + meta.path)).json(); } catch (_) { }
+  }));
+  const questions = []; const subjects = new Set();
+  for (const item of picks) {
+    const ex = fetched[item.exId]; if (!ex || !ex.questions || !ex.questions[item.qIdx]) continue;
+    const q = ex.questions[item.qIdx];
+    questions.push({ ...q, _qIdx: item.qIdx, _exId: item.exId });
+    subjects.add(ex.subject);
+  }
+  if (!questions.length) return null;
+  const user = Auth.getUser();
+  return {
+    id: '_review',
+    topic: 'Ôn ' + questions.length + ' câu sai',
+    chapter: 'Tổng hợp các câu bạn từng sai',
+    stage: user ? stageFromGrade(user.grade) : 'thpt',
+    subject: subjects.size === 1 ? [...subjects][0] : 'toan',
+    grade: user ? user.grade : 11,
+    questions,
+    isReviewSession: true,
+  };
+}
+
 // Tìm đề kế tiếp cùng stage/subject/grade (sắp theo id). null nếu không có đề khác.
 function findNextExercise(currentEx) {
+  if (currentEx.isReviewSession) return null; // review không có "đề tiếp theo"
   const list = CATALOG && CATALOG.exercises;
   if (!Array.isArray(list)) return null;
   const peers = list.filter(e =>
@@ -923,6 +969,7 @@ function renderDailyHomeSection() {
   const daysLeft = Progress.daysUntilExam ? Progress.daysUntilExam() : null;
   // Hiển thị countdown khi: có ngày thi + còn ≤ 365 ngày + chưa qua quá 1 ngày
   const showExam = daysLeft !== null && daysLeft >= -1 && daysLeft <= 365;
+  const wrongCount = u && Progress.getWrongQueue ? Progress.getWrongQueue().length : 0;
 
   const head = (grade, extra) => `
     <div class="daily-head">
@@ -934,6 +981,7 @@ function renderDailyHomeSection() {
           daysLeft === 0 ? '🎯 Hôm nay thi!' :
           `🎯 Thi còn ${daysLeft} ngày`
         }</span>` : ''}
+        ${wrongCount > 0 ? `<a href="/on-tap-cau-sai" class="wrong-chip" title="Ôn lại các câu bạn từng sai">🔁 Ôn ${Math.min(wrongCount, 10)} câu sai</a>` : ''}
         <a href="/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
       </div>
     </div>${extra || ''}`;
@@ -1621,7 +1669,16 @@ function renderLeaderboard(view) {
 
 async function renderExercise(view, id) {
   let exercise;
-  if (id.indexOf('daily-') === 0) {
+  if (id === '_review') {
+    if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để ôn câu sai', 'Mình cần biết bạn là ai để lưu các câu hỏi bạn từng sai và ôn lại sau.');
+    exercise = await buildReviewExercise();
+    if (!exercise) {
+      view.innerHTML = emptyState('Chưa có câu sai để ôn 🎉',
+        'Cứ làm bài bình thường nhé — câu nào sai mình sẽ ghi nhớ giúp để ôn lại sau.',
+        '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
+      return;
+    }
+  } else if (id.indexOf('daily-') === 0) {
     exercise = await Daily.getExercise(id);
     if (!exercise) { view.innerHTML = emptyState('Chưa có đề hôm nay cho mục này', 'Hãy chọn môn khác hoặc quay lại sau nhé!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>'); return; }
   } else {
@@ -1720,7 +1777,7 @@ async function renderExercise(view, id) {
       });
 
       const onAnswer = (correct) => {
-        answers.push({ correct });
+        answers.push({ correct, qIdx: q._qIdx, exId: q._exId });
         if (correct) score++;
         const delay = isPreschool ? 1700 : (mode === 'exam' ? 250 : 1500);
         setTimeout(() => {
@@ -1787,7 +1844,19 @@ async function renderExercise(view, id) {
       const loggedIn = Auth.isLoggedIn();
       const counts = loggedIn && Auth.countsForExercise(exercise);
       let isNewBest = false, currentStreak = 0, streakTicked = false, earnedStickers = [];
-      if (counts) {
+      // Cập nhật hàng đợi câu sai (chỉ khi đăng nhập — không phụ thuộc đúng-lớp).
+      // Áp dụng cho cả review session: câu đúng → xóa, câu sai → cộng dồn.
+      if (loggedIn) {
+        try {
+          answers.forEach(a => {
+            if (!a || typeof a.qIdx !== 'number' || !a.exId) return;
+            if (a.exId.indexOf('_') === 0) return; // bỏ qua exId nội bộ "_review", "_ad-hoc"...
+            if (a.correct) Progress.clearWrong(a.exId, a.qIdx);
+            else Progress.recordWrong(a.exId, a.qIdx);
+          });
+        } catch (err) { console.error('[wrongQueue]', err); }
+      }
+      if (counts && !exercise.isReviewSession) {
         try {
           const prevStreak = Progress.getStreak();
           const meta = Progress.markCompleted(exercise.id, score, total);
@@ -1860,11 +1929,14 @@ async function renderExercise(view, id) {
 
       // === Vùng 3: CTA ===
       const nextEx = findNextExercise(exercise);
+      const isReview = !!exercise.isReviewSession;
       const ctaHTML = `
         <div class="wow-cta">
-          <button class="btn btn-primary wow-cta-main" id="next-btn" ${nextEx ? '' : 'disabled'}>
-            ➡️ Đề tiếp theo${nextEx ? '' : ' (hết)'}
-          </button>
+          ${isReview
+            ? `<a class="btn btn-primary wow-cta-main" href="/">🏠 Về trang chủ</a>`
+            : `<button class="btn btn-primary wow-cta-main" id="next-btn" ${nextEx ? '' : 'disabled'}>
+                 ➡️ Đề tiếp theo${nextEx ? '' : ' (hết)'}
+               </button>`}
           <div class="wow-cta-row">
             <button class="btn btn-secondary" id="retry-btn">🔁 Làm lại</button>
             <button class="btn btn-secondary" id="review-btn">📖 Xem lại</button>
@@ -1909,7 +1981,7 @@ async function renderExercise(view, id) {
       view.querySelector('#retry-btn').onclick = () => renderExercise(view, id);
       view.querySelector('#share-btn').onclick = () => shareResult(exercise, score, total);
       const nextBtn = view.querySelector('#next-btn');
-      if (nextEx) nextBtn.onclick = () => navTo('/bai/' + nextEx.id);
+      if (nextBtn && nextEx) nextBtn.onclick = () => navTo('/bai/' + nextEx.id);
       // Xem lại: toggle hiển thị đáp án + hint từng câu (không có lựa chọn của user vì chưa track)
       const reviewBtn = view.querySelector('#review-btn');
       const reviewList = view.querySelector('#review-list');

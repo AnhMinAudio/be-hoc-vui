@@ -252,6 +252,42 @@ const Progress = (() => {
     return diff; // có thể âm nếu đã qua
   }
 
+  // ===== Hàng đợi câu sai (UX 4B.1) =====
+  // wrongQueue: { "exId|qIdx" → { exId, qIdx, addedAt, lastWrong, wrongCount } }
+  // - recordWrong: cộng dồn lần sai + cập nhật lastWrong
+  // - clearWrong: gỡ khi câu đã làm đúng
+  // - getWrongQueue: trả mảng phẳng, đã prune câu cũ quá 60 ngày
+  function recordWrong(exId, qIdx) {
+    if (!exId || typeof qIdx !== 'number') return;
+    const data = load();
+    if (!data.wrongQueue) data.wrongQueue = {};
+    const k = exId + '|' + qIdx;
+    const cur = data.wrongQueue[k];
+    const today = todayKey();
+    data.wrongQueue[k] = {
+      exId, qIdx,
+      addedAt: cur ? cur.addedAt : today,
+      lastWrong: today,
+      wrongCount: (cur ? cur.wrongCount : 0) + 1,
+    };
+    save(data);
+  }
+  function clearWrong(exId, qIdx) {
+    if (!exId || typeof qIdx !== 'number') return;
+    const data = load();
+    if (!data.wrongQueue) return;
+    const k = exId + '|' + qIdx;
+    if (data.wrongQueue[k]) { delete data.wrongQueue[k]; save(data); }
+  }
+  function getWrongQueue() {
+    const data = load();
+    const q = data.wrongQueue || {};
+    const cutoff = new Date(); cutoff.setHours(0, 0, 0, 0);
+    cutoff.setDate(cutoff.getDate() - 60);
+    const cutoffKey = dateKey(cutoff);
+    return Object.values(q).filter(it => (it.lastWrong || it.addedAt) >= cutoffKey);
+  }
+
   // ===== Sticker collection (UX 4A.5) =====
   // Catalog cố định — earn ngẫu nhiên từ tier phù hợp. Lưu dạng map key→ngày YYYY-MM-DD.
   const STICKERS = [
@@ -318,6 +354,7 @@ const Progress = (() => {
     recordDaily, getDailyLog, getTodayDaily, getStreak, markStudyDay, getSubjectStats, last28Days, todayKey,
     getSetting, setSetting, getExamDate, setExamDate, daysUntilExam,
     getStickerCatalog, getStickers, maybeEarnStickers,
+    recordWrong, clearWrong, getWrongQueue,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
     setActiveKey, onSave, replaceAll,
