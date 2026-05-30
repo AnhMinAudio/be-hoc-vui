@@ -1688,6 +1688,32 @@ async function renderExercise(view, id) {
   }
 }
 
+// ===== Zoom ảnh (Đợt 2) =====
+// Mở ảnh phóng to trong overlay; mobile pinch-zoom native (touch-action: pinch-zoom).
+// Đóng bằng: bấm nút X, bấm nền, hoặc phím Esc.
+window.__openImageZoom = function (src, alt) {
+  if (!src) return;
+  const old = document.getElementById('img-zoom-overlay');
+  if (old) old.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'img-zoom-overlay';
+  overlay.className = 'img-zoom-overlay';
+  overlay.innerHTML = `
+    <button class="img-zoom-close" aria-label="Đóng">×</button>
+    <img src="${src}" alt="${alt || ''}" draggable="false">
+    <div class="img-zoom-hint">Kẹp 2 ngón để phóng to · Bấm nền hoặc ESC để đóng</div>`;
+  const close = () => {
+    overlay.remove();
+    document.removeEventListener('keydown', onKey);
+  };
+  const onKey = (e) => { if (e.key === 'Escape') close(); };
+  overlay.querySelector('.img-zoom-close').onclick = (e) => { e.stopPropagation(); close(); };
+  overlay.querySelector('img').onclick = (e) => e.stopPropagation(); // bấm vào ảnh KHÔNG đóng
+  overlay.onclick = close; // bấm nền (ngoài ảnh) thì đóng
+  document.addEventListener('keydown', onKey);
+  document.body.appendChild(overlay);
+};
+
 // ===== Confetti =====
 function confetti() {
   const colors = ['#A8E6CF', '#FFD3B6', '#FFAAA5', '#C9A3FF', '#FFC107'];

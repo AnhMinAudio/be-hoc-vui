@@ -183,7 +183,9 @@
     {
       "type": "true-false-group",
       "level": "VD",
-      "question": "Xét tính đúng/sai của các khẳng định sau về các bào quan:",
+      "image": "/assets/img/diagrams/te-bao-nhan-thuc.svg",
+      "imageAlt": "Sơ đồ tế bào nhân thực với các bào quan: nhân, ti thể, lục lạp, ribosome, lưới nội chất, Golgi",
+      "question": "Quan sát sơ đồ tế bào nhân thực sau và xét tính đúng/sai các khẳng định về các bào quan:",
       "statements": [
         { "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cho tế bào.", "answer": true },
         { "text": "Lục lạp chỉ có ở tế bào thực vật và một số tảo.", "answer": true },

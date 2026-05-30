@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" font-family="Arial, sans-serif">
+  <title>Tam giác ABC — quy ước cạnh đối diện đỉnh</title>
+  <!-- Tam giác: A(60,40), B(40,200), C(280,200) — vuông tại B-->
+  <polygon points="60,40 40,200 280,200" fill="#E3F2FD" stroke="#0D47A1" stroke-width="2.5"/>
+  <!-- Đỉnh -->
+  <circle cx="60" cy="40" r="4" fill="#0D47A1"/>
+  <text x="50" y="32" font-size="18" font-weight="800" fill="#0D47A1">A</text>
+  <circle cx="40" cy="200" r="4" fill="#0D47A1"/>
+  <text x="20" y="220" font-size="18" font-weight="800" fill="#0D47A1">B</text>
+  <circle cx="280" cy="200" r="4" fill="#0D47A1"/>
+  <text x="288" y="220" font-size="18" font-weight="800" fill="#0D47A1">C</text>
+  <!-- Cạnh a = BC -->
+  <text x="160" y="220" text-anchor="middle" font-size="15" fill="#C62828" font-weight="700">a</text>
+  <!-- Cạnh b = CA -->
+  <text x="180" y="115" font-size="15" fill="#C62828" font-weight="700">b</text>
+  <!-- Cạnh c = AB -->
+  <text x="35" y="115" font-size="15" fill="#C62828" font-weight="700">c</text>
+  <!-- Chú thích quy ước -->
+  <text x="160" y="20" text-anchor="middle" font-size="11" fill="#546E7A">Quy ước: a = BC (đối A), b = CA (đối B), c = AB (đối C)</text>
+</svg>

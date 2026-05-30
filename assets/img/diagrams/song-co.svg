@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" font-family="Arial, sans-serif">
+  <title>Sóng cơ — bước sóng λ, biên độ A</title>
+  <!-- Trục x -->
+  <line x1="20" y1="100" x2="370" y2="100" stroke="#90A4AE" stroke-width="1.5"/>
+  <polygon points="370,100 360,96 360,104" fill="#90A4AE"/>
+  <text x="368" y="120" font-size="11" fill="#546E7A">x</text>
+  <!-- Trục y -->
+  <line x1="40" y1="180" x2="40" y2="20" stroke="#90A4AE" stroke-width="1.5"/>
+  <polygon points="40,20 36,30 44,30" fill="#90A4AE"/>
+  <text x="22" y="28" font-size="11" fill="#546E7A">y</text>
+  <!-- Sóng sin: y = A sin(2πx/λ) — A=40, λ=120 -->
+  <path d="M 40,100 Q 70,20 100,100 T 160,100 T 220,100 T 280,100 T 340,100"
+        fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <!-- Đánh dấu biên độ A -->
+  <line x1="70" y1="100" x2="70" y2="40" stroke="#C62828" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="65" y1="40" x2="75" y2="40" stroke="#C62828" stroke-width="1.5"/>
+  <text x="80" y="60" font-size="13" fill="#C62828" font-weight="700">A</text>
+  <!-- Đánh dấu bước sóng λ (giữa 2 đỉnh: x=70 và x=190) -->
+  <line x1="70" y1="170" x2="190" y2="170" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="70" y1="165" x2="70" y2="175" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="190" y1="165" x2="190" y2="175" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="125" y="190" text-anchor="middle" font-size="14" fill="#2E7D32" font-weight="700">λ (bước sóng)</text>
+  <!-- Đường nối từ đỉnh xuống nhãn λ -->
+  <line x1="70" y1="40" x2="70" y2="170" stroke="#2E7D32" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6"/>
+  <line x1="190" y1="40" x2="190" y2="170" stroke="#2E7D32" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6"/>
+</svg>

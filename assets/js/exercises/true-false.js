@@ -10,6 +10,7 @@ const TrueFalse = {
     text.className = 'question-text';
     text.textContent = `Câu ${idx + 1}. ${q.question}`;
     wrap.appendChild(text);
+    if (q.image && window.__renderImage) window.__renderImage(wrap, q);
 
     const opts = document.createElement('div');
     opts.className = 'options tf-options';
@@ -63,3 +64,17 @@ function makePassage(text) {
   return box;
 }
 window.__makePassage = makePassage;
+
+// Render ảnh minh họa cho câu hỏi — click vào ảnh để mở zoom modal (Đợt 2).
+// Dùng chung cho MC / TF / TFG / fill-blank: bất kì câu nào có q.image đều render.
+function renderImage(wrap, q) {
+  if (!q || !q.image) return;
+  const img = document.createElement('img');
+  img.src = q.image;
+  img.alt = q.imageAlt || '';
+  img.className = 'q-image';
+  img.loading = 'lazy';
+  img.onclick = () => window.__openImageZoom && window.__openImageZoom(q.image, img.alt);
+  wrap.appendChild(img);
+}
+window.__renderImage = renderImage;

@@ -29,7 +29,9 @@
     {
       "type": "multiple-choice",
       "level": "NB",
-      "question": "Chu kì $T$ của con lắc lò xo (khối lượng $m$, độ cứng $k$) là:",
+      "image": "/assets/img/diagrams/con-lac-lo-xo.svg",
+      "imageAlt": "Con lắc lò xo treo thẳng đứng: vật khối lượng m gắn vào lò xo độ cứng k, dao động lên xuống",
+      "question": "Chu kì $T$ của con lắc lò xo (khối lượng $m$, độ cứng $k$) như hình là:",
       "options": [
         "$T = 2\\pi\\sqrt{\\dfrac{m}{k}}$",
         "$T = 2\\pi\\sqrt{\\dfrac{k}{m}}$",
@@ -81,7 +83,9 @@
     {
       "type": "multiple-choice",
       "level": "TH",
-      "question": "Trong dao động sóng, mối quan hệ giữa bước sóng $\\lambda$, tốc độ truyền $v$ và chu kì $T$ là:",
+      "image": "/assets/img/diagrams/song-co.svg",
+      "imageAlt": "Đồ thị sóng cơ hình sin với biên độ A và bước sóng λ (khoảng cách giữa hai đỉnh liền kề)",
+      "question": "Quan sát đồ thị sóng cơ hình sin (bước sóng $\\lambda$, biên độ $A$). Mối quan hệ giữa $\\lambda$, tốc độ truyền $v$ và chu kì $T$ là:",
       "options": [
         "$\\lambda = v T$",
         "$\\lambda = \\dfrac{v}{T}$",

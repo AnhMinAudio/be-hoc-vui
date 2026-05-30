@@ -11,6 +11,7 @@ const TrueFalseGroup = {
     text.className = 'question-text';
     text.textContent = `Câu ${idx + 1}. ${q.question}`;
     wrap.appendChild(text);
+    if (q.image && window.__renderImage) window.__renderImage(wrap, q);
 
     const note = document.createElement('div');
     note.style.cssText = 'color:#6B6B8C;font-size:0.9rem;margin-bottom:12px;';

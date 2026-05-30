@@ -1447,3 +1447,45 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 .help-table th { background: var(--c-bg-tint); font-weight: 700; color: var(--c-text); }
 .help-table tr:last-child td { border-bottom: none; }
 .help-table td:first-child { font-weight: 700; white-space: nowrap; color: var(--c-primary-dark); }
+
+/* ===== Hình ảnh trong câu hỏi + Modal phóng to (Đợt 2) ===== */
+.q-image {
+  display: block; max-width: 100%; max-height: 360px;
+  margin: 0 auto 18px; border-radius: 14px;
+  background: var(--c-bg-tint); cursor: zoom-in;
+  transition: transform 0.15s;
+}
+.q-image:hover { transform: scale(1.01); }
+
+.img-zoom-overlay {
+  position: fixed; inset: 0;
+  background: rgba(15, 23, 42, 0.92);
+  z-index: 9999;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;
+  cursor: zoom-out;
+  overflow: auto;                 /* cho phép kéo khi ảnh vượt khung */
+  touch-action: pinch-zoom;       /* iOS/Android pinch-zoom native */
+  -webkit-overflow-scrolling: touch;
+  animation: zoom-fade 0.18s ease-out;
+}
+@keyframes zoom-fade { from { opacity: 0; } to { opacity: 1; } }
+.img-zoom-overlay img {
+  max-width: 95vw; max-height: 92vh;
+  background: #fff; border-radius: 8px; padding: 8px;
+  user-select: none; -webkit-user-drag: none;
+  touch-action: pinch-zoom;
+}
+.img-zoom-close {
+  position: fixed; top: 14px; right: 14px;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: rgba(255,255,255,0.95); color: #1f2937;
+  border: 0; font-size: 1.4rem; font-weight: 900; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.img-zoom-hint {
+  position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+  background: rgba(255,255,255,0.95); color: #475569;
+  padding: 6px 14px; border-radius: 999px; font-size: .85rem; font-weight: 600;
+}

@@ -10,6 +10,7 @@ const FillBlank = {
     text.className = 'question-text';
     text.textContent = `Câu ${idx + 1}.`;
     wrap.appendChild(text);
+    if (q.image && window.__renderImage) window.__renderImage(wrap, q);
 
     // Tách "___" trong câu hỏi để chèn input vào giữa
     const fq = document.createElement('div');

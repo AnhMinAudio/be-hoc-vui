@@ -12,13 +12,7 @@ const MultipleChoice = {
     text.textContent = `Câu ${idx + 1}. ${q.question}`;
     wrap.appendChild(text);
 
-    if (q.image) {
-      const img = document.createElement('img');
-      img.src = q.image;
-      img.alt = '';
-      img.style.cssText = 'max-width:100%;border-radius:14px;margin-bottom:20px;';
-      wrap.appendChild(img);
-    }
+    if (q.image && window.__renderImage) window.__renderImage(wrap, q);
 
     const opts = document.createElement('div');
     opts.className = 'options';

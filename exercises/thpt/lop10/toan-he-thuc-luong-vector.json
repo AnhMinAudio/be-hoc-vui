@@ -16,7 +16,9 @@
     {
       "type": "multiple-choice",
       "level": "NB",
-      "question": "Trong tam giác $ABC$ có $BC = a$, $CA = b$, $AB = c$. Định lí cosin viết cho cạnh $a$ là:",
+      "image": "/assets/img/diagrams/tam-giac-abc.svg",
+      "imageAlt": "Tam giác ABC với 3 đỉnh A, B, C và 3 cạnh a, b, c — quy ước cạnh đối diện đỉnh",
+      "question": "Tam giác $ABC$ có 3 cạnh $a = BC$, $b = CA$, $c = AB$ như hình. Định lí cosin viết cho cạnh $a$ là:",
       "options": [
         "$a^2 = b^2 + c^2 - 2bc\\cos A$",
         "$a^2 = b^2 + c^2 + 2bc\\cos A$",
