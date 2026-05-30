@@ -129,6 +129,7 @@ async function route() {
   if (parts[0] === 'gioi-thieu') return renderAbout(view);
   if (parts[0] === 'chinh-sach') return renderPolicy(view);
   if (parts[0] === 'faq') return renderFAQ(view);
+  if (parts[0] === 'huong-dan-cai-dat') return renderHelpSettings(view);
   if (parts[0] === 'tien-trinh') return renderProgress(view);
   if (parts[0] === 'tai-khoan') return renderAuth(view);
   if (parts[0] === 'phu-huynh') return renderParent(view);
@@ -402,11 +403,12 @@ function renderAuth(view) {
 
         <div class="auth-card pp-card">
           <h2 style="margin-top:0">⚙️ Hiệu ứng khi làm bài</h2>
-          <p class="about-note" style="margin-top:6px">Bật/tắt âm thanh phản hồi đúng-sai và rung nhẹ khi sai (chỉ trên điện thoại). Cài đặt lưu trên trình duyệt này.</p>
+          <p class="about-note" style="margin-top:6px">Bật/tắt âm thanh phản hồi đúng-sai và rung nhẹ khi sai (chỉ trên điện thoại Android). Cài đặt lưu trên trình duyệt này.</p>
           <div class="action-bar" style="gap:10px;margin-top:8px">
             <label class="acct-toggle"><input type="checkbox" id="opt-sound"> 🔊 Âm thanh</label>
             <label class="acct-toggle"><input type="checkbox" id="opt-vibrate"> 📳 Rung khi sai</label>
           </div>
+          <p class="about-note" style="margin-top:10px"><a href="/huong-dan-cai-dat">📖 Hướng dẫn chi tiết: cách tắt trên Windows, macOS, Android, iPhone →</a></p>
         </div>
 
         <div class="auth-card pp-card">
@@ -988,6 +990,71 @@ function renderFAQ(view) {
             <div class="faq-answer">${a}</div>
           </details>`).join('')}
       </div>
+    </article>
+  `;
+}
+
+// ===== Hướng dẫn cài đặt âm thanh, rung, hiệu ứng =====
+function renderHelpSettings(view) {
+  view.innerHTML = `
+    <a href="/" class="back-btn">← Về trang chủ</a>
+    <article class="about">
+      <h1>Hướng dẫn cài đặt âm thanh, rung và hiệu ứng</h1>
+      <p>Bé Học Vui có 3 mức kiểm soát: tắt riêng trong <b>app</b>, tắt <b>chuyển động</b> ở hệ điều hành, và tắt <b>âm lượng/rung</b> ở thiết bị. Mỗi mức phù hợp một nhu cầu khác nhau.</p>
+
+      <h2>1. Trong app Bé Học Vui (nhanh nhất, chỉ áp dụng cho app này)</h2>
+      <p>Cần đăng nhập. Vào <b>Tài khoản</b> → thẻ <b>"⚙️ Hiệu ứng khi làm bài"</b> → 2 toggle:</p>
+      <ul>
+        <li>🔊 <b>Âm thanh</b> — bật/tắt tiếng "ding" (đúng) và "buzz" (sai). Bấm vào nghe ngay một phát để xác nhận.</li>
+        <li>📳 <b>Rung khi sai</b> — chỉ có tác dụng trên điện thoại Android (xem mục 4).</li>
+      </ul>
+      <p class="about-note">Cài đặt lưu trên trình duyệt của thiết bị đó. Đổi máy/đổi trình duyệt phải cài lại.</p>
+
+      <h2>2. Giảm hiệu ứng chuyển động (Reduce motion)</h2>
+      <p>Tắt mọi animation: shake khi sai, skeleton chạy lúc tải, mascot bay, confetti khi điểm cao… App tự đọc cài đặt này qua chuẩn web — không cần làm gì thêm trong app.</p>
+      <div class="table-wrap"><table class="help-table">
+        <thead><tr><th>Thiết bị</th><th>Đường dẫn</th></tr></thead>
+        <tbody>
+          <tr><td>Windows 11</td><td>Cài đặt → <b>Trợ năng</b> (Accessibility) → <b>Hiệu ứng hình ảnh</b> → tắt <b>Hiệu ứng động</b></td></tr>
+          <tr><td>Windows 10</td><td>Cài đặt → <b>Dễ truy cập</b> → <b>Màn hình</b> → tắt <b>Hiện hoạt ảnh trong Windows</b></td></tr>
+          <tr><td>macOS</td><td>Cài đặt hệ thống → <b>Trợ năng</b> → <b>Hiển thị</b> → bật <b>Giảm chuyển động</b></td></tr>
+          <tr><td>iPhone / iPad</td><td>Cài đặt → <b>Trợ năng</b> → <b>Chuyển động</b> → bật <b>Giảm chuyển động</b></td></tr>
+          <tr><td>Android (Samsung)</td><td>Cài đặt → <b>Trợ năng</b> → <b>Cải thiện hiển thị</b> → bật <b>Xóa hoạt ảnh</b></td></tr>
+          <tr><td>Android (Pixel/khác)</td><td>Cài đặt → <b>Trợ năng</b> → bật <b>Xóa hoạt ảnh</b> (hoặc tìm trong "Hiển thị")</td></tr>
+        </tbody>
+      </table></div>
+
+      <h2>3. Tắt âm thanh ở mức hệ điều hành</h2>
+      <p>Nếu không muốn vào Tài khoản, có thể tắt nhanh ở hệ điều hành. Cách này sẽ tắt mọi tiếng trên thiết bị (toggle trong app chỉ tắt tiếng riêng của app).</p>
+      <div class="table-wrap"><table class="help-table">
+        <thead><tr><th>Thiết bị</th><th>Cách nhanh</th></tr></thead>
+        <tbody>
+          <tr><td>Windows</td><td>Bấm biểu tượng loa 🔊 góc dưới phải taskbar → kéo về 0, hoặc bấm phím <b>mute</b> trên bàn phím</td></tr>
+          <tr><td>macOS</td><td>Biểu tượng loa trên menubar → kéo về 0, hoặc phím <b>F10</b> (mute)</td></tr>
+          <tr><td>iPhone</td><td>Gạt <b>công tắc cứng bên trái máy</b> sang đỏ (Silent), hoặc Control Center → kéo âm lượng về 0</td></tr>
+          <tr><td>iPad</td><td>Control Center (vuốt từ góc trên phải) → kéo âm lượng về 0</td></tr>
+          <tr><td>Android</td><td>Bấm <b>phím âm lượng cứng</b> giảm về 0, hoặc kéo thanh thông báo xuống → nhấn biểu tượng âm lượng</td></tr>
+        </tbody>
+      </table></div>
+
+      <h2>4. Rung — lưu ý quan trọng ⚠️</h2>
+      <p>Rung từ web <b>chỉ hoạt động trên Android</b> (Chrome/Edge/Firefox). <b>iPhone (Safari iOS) KHÔNG hỗ trợ rung từ web</b> dù bật mọi thứ — đây là giới hạn của Apple, không phải lỗi app.</p>
+      <div class="table-wrap"><table class="help-table">
+        <thead><tr><th>Thiết bị</th><th>Hỗ trợ rung?</th><th>Cách bật/tắt</th></tr></thead>
+        <tbody>
+          <tr><td>Android</td><td>✅ Có</td><td>Cài đặt → <b>Âm thanh & rung</b> → bật/tắt <b>Rung</b> và <b>Phản hồi xúc giác</b></td></tr>
+          <tr><td>iPhone / iPad</td><td>❌ Không (web Safari không có API)</td><td>Toggle 📳 trong app sẽ không có hiệu lực</td></tr>
+          <tr><td>Windows / macOS</td><td>❌ Không (máy tính không có cơ chế rung)</td><td>Không áp dụng</td></tr>
+        </tbody>
+      </table></div>
+      <p class="about-note">Nếu dùng iPhone và không thấy rung dù đã bật → là bình thường. Vẫn còn âm thanh "buzz" báo trả lời sai.</p>
+
+      <h2>5. Tóm tắt nhanh</h2>
+      <ul>
+        <li>Muốn tắt nhanh chỉ cho app này → vào <b>Tài khoản → tắt toggle</b>.</li>
+        <li>Muốn tắt toàn bộ chuyển động (chống chóng mặt, tiết kiệm pin) → bật <b>Reduce motion</b> ở Hệ điều hành.</li>
+        <li>iPhone không rung khi sai = chuẩn (giới hạn Safari iOS, không phải lỗi app).</li>
+      </ul>
     </article>
   `;
 }
