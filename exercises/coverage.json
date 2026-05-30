@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:29:38.909Z",
+  "generatedAt": "2026-05-30T01:41:09.461Z",
   "coverage": {
     "toan": {
       "1": {
@@ -2033,9 +2033,21 @@
         ]
       },
       "11": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-vat-li-l11-dao-dong-song",
+            "topic": "Dao động cơ và Sóng cơ",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-vat-li-l11-dien-truong-dong-dien",
+            "topic": "Điện trường và Dòng điện",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-vat-li-l11-on-tap",
             "topic": "Ôn tập Vật lí 11",
@@ -2095,9 +2107,21 @@
         ]
       },
       "11": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-hoa-hoc-l11-can-bang-nitrogen",
+            "topic": "Cân bằng hóa học và các hợp chất nitrogen, sulfur",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-hoa-hoc-l11-huu-co",
+            "topic": "Hóa học hữu cơ: Hydrocarbon, Alcohol và Acid carboxylic",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-hoa-hoc-l11-on-tap",
             "topic": "Ôn tập Hóa học 11",
@@ -2157,14 +2181,26 @@
         ]
       },
       "11": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
+          {
+            "id": "thpt-sinh-hoc-l11-cam-ung-sinh-san",
+            "topic": "Cảm ứng, sinh trưởng - phát triển và sinh sản ở sinh vật",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-sinh-hoc-l11-on-tap",
             "topic": "Ôn tập Sinh học 11",
             "questionCount": 16,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-sinh-hoc-l11-trao-doi-chat",
+            "topic": "Trao đổi chất và chuyển hóa năng lượng ở thực vật và động vật",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       },
@@ -2219,14 +2255,26 @@
         ]
       },
       "11": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
+          {
+            "id": "thpt-lich-su-l11-cach-mang-tu-san-cnxh",
+            "topic": "Các cuộc cách mạng tư sản và chủ nghĩa xã hội từ 1917 đến nay",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "thpt-lich-su-l11-on-tap",
             "topic": "Ôn tập Lịch sử 11",
             "questionCount": 16,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-lich-su-l11-dong-nam-a-viet-nam",
+            "topic": "Quá trình giành độc lập của Đông Nam Á và lịch sử bảo vệ Tổ quốc Việt Nam",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       },
@@ -2281,14 +2329,26 @@
         ]
       },
       "11": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
+          {
+            "id": "thpt-dia-li-l11-hoa-ky-trung-quoc",
+            "topic": "Hoa Kỳ và Trung Quốc - hai nền kinh tế lớn nhất thế giới",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thpt-dia-li-l11-on-tap",
             "topic": "Ôn tập Địa lí 11",
             "questionCount": 16,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-dia-li-l11-toan-cau-hoa-eu-asean",
+            "topic": "Toàn cầu hóa, Liên minh châu Âu (EU) và ASEAN",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
@@ -2343,12 +2403,24 @@
         ]
       },
       "11": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 48,
         "topics": [
+          {
+            "id": "thpt-gdkt-pl-l11-kinh-te",
+            "topic": "Cạnh tranh, cung - cầu, lạm phát, thị trường lao động",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thpt-gdkt-pl-l11-on-tap",
             "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 11",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-gdkt-pl-l11-phap-luat",
+            "topic": "Pháp luật và quyền - nghĩa vụ công dân trong các lĩnh vực",
             "questionCount": 16,
             "difficulty": 3
           }

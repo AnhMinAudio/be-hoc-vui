@@ -1,0 +1,217 @@
+{
+  "id": "thpt-vat-li-l11-dien-truong-dong-dien",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 11,
+  "topic": "Điện trường và Dòng điện",
+  "chapter": "Điện trường - Dòng điện 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Điện tích - Định luật Coulomb",
+    "Điện trường - Cường độ điện trường - Điện thế",
+    "Dòng điện không đổi - Định luật Ohm",
+    "Công - công suất điện"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật Coulomb cho lực tương tác giữa hai điện tích điểm $q_1, q_2$ đặt cách nhau khoảng $r$ trong chân không là:",
+      "options": [
+        "$F = k\\dfrac{|q_1 q_2|}{r^2}$",
+        "$F = k\\dfrac{|q_1 q_2|}{r}$",
+        "$F = k \\cdot |q_1 q_2| \\cdot r^2$",
+        "$F = \\dfrac{k}{|q_1 q_2| r^2}$"
+      ],
+      "answer": 0,
+      "hint": "Định luật Coulomb: $F = k\\dfrac{|q_1 q_2|}{r^2}$, với $k \\approx 9 \\cdot 10^9$ N·m$^2$/C$^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đơn vị của điện tích trong hệ SI là:",
+      "options": [
+        "Coulomb (C)",
+        "Vôn (V)",
+        "Ampe (A)",
+        "Ôm (Ω)"
+      ],
+      "answer": 0,
+      "hint": "Coulomb (C) là đơn vị điện tích; $1$ C = $1$ A·s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cường độ điện trường $E$ tại một điểm do điện tích điểm $Q$ gây ra (trong chân không) là:",
+      "options": [
+        "$E = k\\dfrac{|Q|}{r^2}$",
+        "$E = k|Q| \\cdot r$",
+        "$E = \\dfrac{|Q|}{r}$",
+        "$E = k \\cdot |Q|^2$"
+      ],
+      "answer": 0,
+      "hint": "Cường độ điện trường tỉ lệ thuận với điện tích nguồn và nghịch với bình phương khoảng cách."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Dòng điện trong dây dẫn kim loại là dòng dịch chuyển có hướng của các:",
+      "options": [
+        "Electron tự do",
+        "Proton",
+        "Neutron",
+        "Ion dương"
+      ],
+      "answer": 0,
+      "hint": "Trong kim loại, hạt mang điện tự do chính là electron — di chuyển ngược chiều dòng điện quy ước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cường độ dòng điện $I$ được định nghĩa là:",
+      "options": [
+        "Điện lượng $q$ chuyển qua tiết diện thẳng của dây trong một đơn vị thời gian: $I = \\dfrac{q}{t}$",
+        "Tổng điện tích trong mạch",
+        "Hiệu điện thế giữa hai đầu mạch",
+        "Năng lượng do mạch sinh ra"
+      ],
+      "answer": 0,
+      "hint": "Cường độ dòng điện: $I = \\dfrac{q}{t}$, đơn vị Ampe (A)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đơn vị của cường độ dòng điện trong hệ SI là:",
+      "options": [
+        "Ampe (A)",
+        "Vôn (V)",
+        "Ôm (Ω)",
+        "Oát (W)"
+      ],
+      "answer": 0,
+      "hint": "Ampe (A) là đơn vị cơ bản của dòng điện trong hệ SI."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật Ohm cho đoạn mạch chỉ chứa điện trở $R$:",
+      "options": [
+        "$I = \\dfrac{U}{R}$",
+        "$I = U \\cdot R$",
+        "$U = \\dfrac{I}{R}$",
+        "$R = U \\cdot I$"
+      ],
+      "answer": 0,
+      "hint": "Định luật Ohm: $U = IR$ hay $I = \\dfrac{U}{R}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Công suất điện $P$ tiêu thụ trên một đoạn mạch có hiệu điện thế $U$ và cường độ dòng điện $I$ là:",
+      "options": [
+        "$P = U \\cdot I$",
+        "$P = \\dfrac{U}{I}$",
+        "$P = U + I$",
+        "$P = U - I$"
+      ],
+      "answer": 0,
+      "hint": "Công suất điện: $P = UI$, đơn vị Oát (W)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Công của dòng điện $A$ thực hiện trong thời gian $t$ trên đoạn mạch có công suất $P$ là:",
+      "options": [
+        "$A = P \\cdot t$",
+        "$A = \\dfrac{P}{t}$",
+        "$A = P + t$",
+        "$A = P - t$"
+      ],
+      "answer": 0,
+      "hint": "Công của dòng điện: $A = P t = UIt$, đơn vị Jun (J)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đặt hiệu điện thế $U = 12$ V vào hai đầu điện trở $R = 4$ Ω. Cường độ dòng điện qua điện trở bằng:",
+      "options": [
+        "$3$ A",
+        "$0{,}33$ A",
+        "$48$ A",
+        "$8$ A"
+      ],
+      "answer": 0,
+      "hint": "$I = \\dfrac{U}{R} = \\dfrac{12}{4} = 3$ A."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một bóng đèn có hiệu điện thế định mức $220$ V và công suất $44$ W. Cường độ dòng điện định mức qua đèn là:",
+      "options": [
+        "$0{,}2$ A",
+        "$5$ A",
+        "$9\\,680$ A",
+        "$176$ A"
+      ],
+      "answer": 0,
+      "hint": "$I = \\dfrac{P}{U} = \\dfrac{44}{220} = 0{,}2$ A."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Một thiết bị điện có công suất $P = 100$ W hoạt động liên tục trong $5$ giờ. Điện năng tiêu thụ bằng:",
+      "options": [
+        "$0{,}5$ kWh",
+        "$500$ kWh",
+        "$20$ kWh",
+        "$0{,}05$ kWh"
+      ],
+      "answer": 0,
+      "hint": "$A = P t = 100 \\cdot 5 = 500$ Wh = $0{,}5$ kWh."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về điện tích và điện trường:",
+      "statements": [
+        { "text": "Lực tương tác giữa hai điện tích điểm tỉ lệ thuận với tích độ lớn các điện tích và tỉ lệ nghịch với bình phương khoảng cách giữa chúng.", "answer": true },
+        { "text": "Hai điện tích cùng dấu thì đẩy nhau; hai điện tích trái dấu thì hút nhau.", "answer": true },
+        { "text": "Cường độ điện trường $E$ tại một điểm là đại lượng đặc trưng cho điện trường tại điểm đó.", "answer": true },
+        { "text": "Đơn vị của điện tích trong hệ SI là Vôn (V).", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về dòng điện không đổi:",
+      "statements": [
+        { "text": "Định luật Ohm cho đoạn mạch chỉ có điện trở $R$: $U = IR$.", "answer": true },
+        { "text": "Cường độ dòng điện đo bằng điện lượng chuyển qua tiết diện thẳng trong một đơn vị thời gian.", "answer": true },
+        { "text": "Công suất điện $P = UI$, đơn vị Oát (W).", "answer": true },
+        { "text": "Đơn vị của điện trở trong hệ SI là Ampe (A).", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đặt hiệu điện thế $U = 20$ V vào hai đầu điện trở $R = 10$ Ω. Cường độ dòng điện bằng ___ A",
+      "answer": "2",
+      "hint": "$I = \\dfrac{U}{R} = \\dfrac{20}{10} = 2$ A."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một bóng đèn $U = 220$ V, $P = 110$ W. Cường độ dòng điện qua đèn là ___ A (với $0{,}5$ là $0{,}5$)",
+      "answer": "0,5",
+      "alternatives": ["0.5", "1/2"],
+      "hint": "$I = \\dfrac{P}{U} = \\dfrac{110}{220} = 0{,}5$ A."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đơn vị của điện trở trong hệ SI là ôm (Ω); $1$ Ω = $1$ V/A.",
+      "answer": true,
+      "hint": "Định luật Ohm: $R = \\dfrac{U}{I}$ → đơn vị V/A = Ω."
+    }
+  ]
+}

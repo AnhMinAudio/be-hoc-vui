@@ -1,0 +1,205 @@
+{
+  "id": "thpt-lich-su-l11-dong-nam-a-viet-nam",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 11,
+  "topic": "Quá trình giành độc lập của Đông Nam Á và lịch sử bảo vệ Tổ quốc Việt Nam",
+  "chapter": "Đông Nam Á & Việt Nam 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Đông Nam Á: từ thuộc địa đến độc lập",
+    "Các cuộc kháng chiến chống ngoại xâm của dân tộc Việt Nam",
+    "Quang Trung và đại phá quân Thanh",
+    "Một số cuộc cải cách trong lịch sử Việt Nam"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trước Chiến tranh thế giới thứ hai, phần lớn các nước Đông Nam Á (trừ Xiêm/Thái Lan) ở vào tình trạng nào?",
+      "options": [
+        "Thuộc địa hoặc nửa thuộc địa của các nước thực dân phương Tây",
+        "Các quốc gia độc lập, phát triển công nghiệp",
+        "Một liên bang chung",
+        "Các nước trung lập, không bị ai can thiệp"
+      ],
+      "answer": 0,
+      "hint": "Đông Nam Á trước 1945 chủ yếu là thuộc địa của Anh, Pháp, Hà Lan, Mỹ, Tây Ban Nha; chỉ Xiêm giữ được độc lập tương đối."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sau Chiến tranh thế giới thứ hai (1945), làn sóng đấu tranh ở Đông Nam Á đã dẫn đến kết quả nổi bật nào?",
+      "options": [
+        "Hàng loạt quốc gia ở Đông Nam Á giành được độc lập, thoát khỏi ách thực dân",
+        "Toàn bộ Đông Nam Á trở lại làm thuộc địa cũ",
+        "Đông Nam Á sáp nhập thành một quốc gia",
+        "Không có thay đổi gì về chính trị"
+      ],
+      "answer": 0,
+      "hint": "Sau 1945, các nước Đông Nam Á lần lượt giành độc lập."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cuộc kháng chiến chống quân NGUYÊN - MÔNG (thế kỉ XIII) gắn liền với vị tướng kiệt xuất nào?",
+      "options": [
+        "Trần Quốc Tuấn (Hưng Đạo Đại Vương)",
+        "Lý Thường Kiệt",
+        "Nguyễn Trãi",
+        "Quang Trung"
+      ],
+      "answer": 0,
+      "hint": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống Nguyên - Mông."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cuộc kháng chiến chống quân THANH năm 1789 gắn liền với người anh hùng dân tộc nào?",
+      "options": [
+        "Quang Trung (Nguyễn Huệ)",
+        "Trần Quốc Tuấn",
+        "Lý Thường Kiệt",
+        "Nguyễn Trãi"
+      ],
+      "answer": 0,
+      "hint": "Quang Trung Nguyễn Huệ chỉ huy chiến thắng Ngọc Hồi - Đống Đa (mùa xuân Kỉ Dậu 1789)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chiến thắng \"thần tốc\" mùa xuân Kỉ Dậu (1789) của Quang Trung gắn với địa danh nổi tiếng nào?",
+      "options": [
+        "Ngọc Hồi - Đống Đa (Hà Nội)",
+        "Bạch Đằng",
+        "Điện Biên Phủ",
+        "Chi Lăng - Xương Giang"
+      ],
+      "answer": 0,
+      "hint": "Trận quyết chiến Ngọc Hồi - Đống Đa đập tan đạo quân Tôn Sĩ Nghị."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chiến thắng BẠCH ĐẰNG năm 938 do ai chỉ huy, có ý nghĩa lịch sử gì?",
+      "options": [
+        "Ngô Quyền chỉ huy; đánh tan quân Nam Hán, chấm dứt hơn một nghìn năm Bắc thuộc",
+        "Trần Hưng Đạo chỉ huy; đánh tan quân Nguyên - Mông",
+        "Lê Lợi chỉ huy; chấm dứt ách đô hộ của nhà Minh",
+        "Quang Trung chỉ huy; đánh tan quân Thanh"
+      ],
+      "answer": 0,
+      "hint": "Chiến thắng Bạch Đằng 938 do Ngô Quyền lãnh đạo, mở ra kỉ nguyên độc lập của dân tộc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cải cách thời LÊ SƠ — với bộ Quốc triều hình luật (Luật Hồng Đức) — gắn liền với vị vua nào?",
+      "options": [
+        "Vua Lê Thánh Tông",
+        "Vua Lê Lợi",
+        "Vua Lê Hiển Tông",
+        "Vua Lê Chiêu Thống"
+      ],
+      "answer": 0,
+      "hint": "Vua Lê Thánh Tông (niên hiệu Hồng Đức, 1470-1497) cải cách quy mô lớn về hành chính, pháp luật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cuộc cải cách của HỒ QUÝ LY (cuối thế kỉ XIV - đầu XV) diễn ra trong hoàn cảnh nào?",
+      "options": [
+        "Triều Trần suy yếu, đất nước gặp nhiều khó khăn về kinh tế, xã hội",
+        "Đất nước thái bình, thịnh trị",
+        "Sau khi giành độc lập từ nhà Minh",
+        "Sau Cách mạng tháng Tám"
+      ],
+      "answer": 0,
+      "hint": "Hồ Quý Ly cải cách trong bối cảnh nhà Trần suy yếu; tuy có nhiều ý tưởng tiến bộ nhưng không thành công trọn vẹn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khởi nghĩa LAM SƠN (1418-1427) do ai lãnh đạo và kết thúc với sự kiện nào?",
+      "options": [
+        "Lê Lợi và Nguyễn Trãi lãnh đạo; kết thúc với chiến thắng cuối, đánh đuổi quân Minh, lập triều Lê sơ; Nguyễn Trãi soạn \"Đại cáo bình Ngô\"",
+        "Trần Quốc Tuấn lãnh đạo; đánh tan quân Nguyên",
+        "Quang Trung lãnh đạo; đánh tan quân Thanh",
+        "Ngô Quyền lãnh đạo; đánh tan quân Nam Hán"
+      ],
+      "answer": 0,
+      "hint": "Khởi nghĩa Lam Sơn do Lê Lợi khởi xướng, Nguyễn Trãi là quân sư; thắng lợi 1427 → \"Đại cáo bình Ngô\" 1428."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ý nghĩa LỚN NHẤT của các cuộc kháng chiến chống ngoại xâm trong lịch sử Việt Nam là:",
+      "options": [
+        "Bảo vệ độc lập, chủ quyền và toàn vẹn lãnh thổ; khẳng định ý chí, sức mạnh đoàn kết và truyền thống yêu nước của dân tộc",
+        "Mở rộng lãnh thổ ra ngoài Việt Nam",
+        "Khôi phục chế độ phong kiến",
+        "Không có ý nghĩa lịch sử"
+      ],
+      "answer": 0,
+      "hint": "Các cuộc kháng chiến bảo vệ độc lập và khẳng định bản lĩnh dân tộc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Bài học LỚN NHẤT từ các cuộc kháng chiến chống ngoại xâm trong lịch sử dân tộc Việt Nam là gì?",
+      "options": [
+        "Sức mạnh đoàn kết toàn dân, kết hợp giữa chiến lược - chiến thuật quân sự đúng đắn với ý chí, lòng yêu nước của Nhân dân",
+        "Chỉ dựa vào số lượng quân đội đông để chiến thắng",
+        "Dựa hoàn toàn vào sự giúp đỡ của bên ngoài",
+        "Đầu hàng để tránh thiệt hại"
+      ],
+      "answer": 0,
+      "hint": "Bài học cốt lõi: đoàn kết toàn dân + chiến lược đúng đắn + ý chí, lòng yêu nước."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á và Việt Nam:",
+      "statements": [
+        { "text": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á đều là thuộc địa hoặc nửa thuộc địa.", "answer": true },
+        { "text": "Sau 1945, hàng loạt nước Đông Nam Á giành được độc lập.", "answer": true },
+        { "text": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống Nguyên - Mông thế kỉ XIII.", "answer": true },
+        { "text": "Cuộc cải cách của Hồ Quý Ly thành công trọn vẹn, đưa Đại Việt phát triển vượt bậc.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các cuộc kháng chiến của dân tộc Việt Nam:",
+      "statements": [
+        { "text": "Ngô Quyền chỉ huy chiến thắng Bạch Đằng năm 938, chấm dứt hơn 1 000 năm Bắc thuộc.", "answer": true },
+        { "text": "Khởi nghĩa Lam Sơn (1418-1427) do Lê Lợi lãnh đạo, đánh đuổi quân Minh ra khỏi đất nước.", "answer": true },
+        { "text": "Quang Trung Nguyễn Huệ chỉ huy đại phá quân Thanh xâm lược năm 1789.", "answer": true },
+        { "text": "Trận Bạch Đằng năm 938 do Lê Lợi chỉ huy chống quân Minh.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Mùa xuân năm Kỉ Dậu (1789), Quang Trung Nguyễn Huệ đại phá quân ___ xâm lược.",
+      "answer": "Thanh",
+      "alternatives": ["quân Thanh", "nhà Thanh"],
+      "hint": "Quân Thanh do Tôn Sĩ Nghị chỉ huy bị Quang Trung đánh tan trong chiến dịch thần tốc."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Khởi nghĩa Lam Sơn (1418-1427) do ___ lãnh đạo, đánh đuổi quân Minh xâm lược.",
+      "answer": "Lê Lợi",
+      "alternatives": ["le loi"],
+      "hint": "Lê Lợi khởi xướng khởi nghĩa Lam Sơn từ rừng núi Thanh Hóa."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trận Bạch Đằng năm 938 do Ngô Quyền chỉ huy đã đánh tan quân Nam Hán, mở ra kỉ nguyên độc lập của dân tộc Việt Nam.",
+      "answer": true,
+      "hint": "Bạch Đằng 938 — mốc son chấm dứt hơn 1 000 năm Bắc thuộc."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "thpt-sinh-hoc-l11-trao-doi-chat",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 11,
+  "topic": "Trao đổi chất và chuyển hóa năng lượng ở thực vật và động vật",
+  "chapter": "Trao đổi chất 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Hấp thụ nước và muối khoáng ở thực vật",
+    "Quang hợp ở thực vật",
+    "Tiêu hóa, hô hấp, tuần hoàn ở động vật",
+    "Bài tiết và cân bằng nội môi"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cơ quan chủ yếu hấp thụ nước và muối khoáng của thực vật trên cạn là:",
+      "options": [
+        "Rễ (đặc biệt qua các lông hút)",
+        "Lá",
+        "Thân",
+        "Hoa"
+      ],
+      "answer": 0,
+      "hint": "Lông hút ở rễ là nơi chính hấp thụ nước và khoáng từ đất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quá trình THOÁT HƠI NƯỚC ở lá thực vật diễn ra chủ yếu qua bộ phận nào?",
+      "options": [
+        "Khí khổng (stoma) trên bề mặt lá",
+        "Rễ",
+        "Hoa",
+        "Vỏ cây"
+      ],
+      "answer": 0,
+      "hint": "Khí khổng đóng/mở điều tiết thoát hơi nước và trao đổi khí ở lá."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quá trình QUANG HỢP ở thực vật xanh có phương trình tổng quát:",
+      "options": [
+        "$6CO_2 + 6H_2O \\xrightarrow{\\text{ánh sáng, diệp lục}} C_6H_{12}O_6 + 6O_2$",
+        "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$",
+        "$N_2 + 3H_2 \\rightarrow 2NH_3$",
+        "$2H_2 + O_2 \\rightarrow 2H_2O$"
+      ],
+      "answer": 0,
+      "hint": "Quang hợp: tổng hợp glucose từ $CO_2$ và $H_2O$, giải phóng $O_2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sản phẩm chính của quang hợp ở thực vật là:",
+      "options": [
+        "Glucose ($C_6H_{12}O_6$) và khí oxygen ($O_2$)",
+        "Carbon dioxide ($CO_2$) và nước",
+        "Protein và lipid",
+        "Muối khoáng"
+      ],
+      "answer": 0,
+      "hint": "Sản phẩm cuối: chất hữu cơ (glucose) + $O_2$ giải phóng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ở động vật có vú, cơ quan nào thực hiện chức năng TIÊU HÓA HÓA HỌC chủ yếu (chứa nhiều enzyme tiêu hóa)?",
+      "options": [
+        "Ruột non",
+        "Thực quản",
+        "Khoang miệng",
+        "Đại tràng"
+      ],
+      "answer": 0,
+      "hint": "Ruột non là nơi tập trung nhiều enzyme tiêu hóa và là nơi hấp thụ chất dinh dưỡng chính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hô hấp ở động vật có vú diễn ra trực tiếp tại cơ quan trao đổi khí nào?",
+      "options": [
+        "Phổi (qua các phế nang)",
+        "Da",
+        "Mang",
+        "Khí quản (chỉ là đường dẫn khí)"
+      ],
+      "answer": 0,
+      "hint": "Ở thú, trao đổi khí diễn ra tại phế nang trong phổi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hệ TUẦN HOÀN KÍN có đặc điểm gì?",
+      "options": [
+        "Máu chảy trong hệ mạch (động mạch - mao mạch - tĩnh mạch), không trộn lẫn với dịch mô",
+        "Máu chảy tự do trong khoang cơ thể, tiếp xúc trực tiếp với mô",
+        "Không có tim",
+        "Chỉ có ở thực vật"
+      ],
+      "answer": 0,
+      "hint": "Hệ tuần hoàn kín có ở giun đốt, mực, động vật có xương sống."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ở người, vai trò chủ yếu của thận trong cân bằng nội môi là:",
+      "options": [
+        "Lọc máu, bài tiết các chất thải (như urea) và điều hòa cân bằng nước - muối",
+        "Tiêu hóa thức ăn",
+        "Vận chuyển oxygen đi khắp cơ thể",
+        "Sản xuất hormone giới tính"
+      ],
+      "answer": 0,
+      "hint": "Thận là cơ quan bài tiết chính, lọc máu và điều hòa cân bằng nước - chất khoáng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phương trình tổng quát của HÔ HẤP TẾ BÀO (hiếu khí) là:",
+      "options": [
+        "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{năng lượng (ATP)}$",
+        "$6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2$",
+        "$N_2 + 3H_2 \\rightarrow 2NH_3$",
+        "$2H_2O \\rightarrow 2H_2 + O_2$"
+      ],
+      "answer": 0,
+      "hint": "Hô hấp tế bào là quá trình ngược với quang hợp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khi cây thiếu nước (hạn hán), khí khổng có xu hướng:",
+      "options": [
+        "Đóng lại để hạn chế thoát hơi nước, giúp cây giữ nước",
+        "Mở rộng để thoát nước nhanh hơn",
+        "Hoàn toàn biến mất khỏi lá",
+        "Không có thay đổi gì"
+      ],
+      "answer": 0,
+      "hint": "Khi thiếu nước, khí khổng đóng → giảm thoát hơi nước → cây tiết kiệm nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tại sao khi vận động mạnh, nhịp tim và nhịp thở của con người tăng lên?",
+      "options": [
+        "Vì cơ thể cần nhiều oxygen và chất dinh dưỡng hơn cho cơ bắp; đồng thời cần thải nhiều $CO_2$ và nhiệt hơn",
+        "Vì cơ thể muốn nghỉ ngơi",
+        "Vì cơ thể bị mất nước",
+        "Vì nhiệt độ môi trường giảm"
+      ],
+      "answer": 0,
+      "hint": "Vận động mạnh → tăng nhu cầu năng lượng → tăng cung cấp oxygen và đào thải $CO_2$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về trao đổi chất ở thực vật:",
+      "statements": [
+        { "text": "Rễ là cơ quan chủ yếu hấp thụ nước và muối khoáng ở thực vật trên cạn.", "answer": true },
+        { "text": "Quang hợp ở thực vật xanh tổng hợp glucose từ $CO_2$ và $H_2O$, giải phóng $O_2$.", "answer": true },
+        { "text": "Khí khổng ở lá thực vật có vai trò chủ yếu là quang hợp, không liên quan đến thoát hơi nước.", "answer": false },
+        { "text": "Khi thiếu nước, khí khổng thường đóng lại để hạn chế thoát hơi nước.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về trao đổi chất ở động vật:",
+      "statements": [
+        { "text": "Ở thú, trao đổi khí diễn ra tại các phế nang trong phổi.", "answer": true },
+        { "text": "Ruột non là nơi diễn ra tiêu hóa hóa học chủ yếu và hấp thụ chất dinh dưỡng.", "answer": true },
+        { "text": "Thận có vai trò lọc máu, bài tiết chất thải và điều hòa cân bằng nước - muối.", "answer": true },
+        { "text": "Hô hấp tế bào và hô hấp ngoài (hít thở) là cùng một quá trình.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Cơ quan hấp thụ nước và muối khoáng chủ yếu ở thực vật trên cạn là ___",
+      "answer": "rễ",
+      "alternatives": ["re", "rễ cây"],
+      "hint": "Rễ với các lông hút là cơ quan hấp thụ chính."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Quá trình thoát hơi nước ở lá thực vật diễn ra chủ yếu qua bộ phận ___ trên bề mặt lá.",
+      "answer": "khí khổng",
+      "alternatives": ["khi khong", "stoma"],
+      "hint": "Khí khổng (stoma) đóng/mở để điều tiết thoát hơi nước."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Quang hợp ở thực vật xanh là quá trình tổng hợp chất hữu cơ từ chất vô cơ ($CO_2$, $H_2O$) nhờ năng lượng ánh sáng.",
+      "answer": true,
+      "hint": "Quang hợp là quá trình tự dưỡng đặc trưng của thực vật xanh."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "thpt-dia-li-l11-hoa-ky-trung-quoc",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 11,
+  "topic": "Hoa Kỳ và Trung Quốc - hai nền kinh tế lớn nhất thế giới",
+  "chapter": "Hoa Kỳ - Trung Quốc 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Hoa Kỳ: vị trí, dân cư và đặc điểm kinh tế",
+    "Trung Quốc: vị trí, dân cư và đặc điểm kinh tế",
+    "Vai trò của Hoa Kỳ và Trung Quốc trong nền kinh tế thế giới",
+    "Quan hệ kinh tế với Việt Nam"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quốc gia nào sau đây có nền kinh tế lớn nhất thế giới (theo GDP danh nghĩa) trong nhiều thập kỉ qua?",
+      "options": [
+        "Hoa Kỳ (Mỹ)",
+        "Nhật Bản",
+        "Brazil",
+        "Nga"
+      ],
+      "answer": 0,
+      "hint": "Hoa Kỳ là nền kinh tế lớn nhất thế giới theo GDP danh nghĩa trong thời gian dài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hoa Kỳ nằm ở châu lục nào?",
+      "options": [
+        "Bắc Mỹ (giáp Canada ở phía bắc, Mexico ở phía nam; phía đông giáp Đại Tây Dương, phía tây giáp Thái Bình Dương)",
+        "Châu Âu",
+        "Châu Á",
+        "Châu Phi"
+      ],
+      "answer": 0,
+      "hint": "Hoa Kỳ ở Bắc Mỹ, là một trong những quốc gia có diện tích lớn nhất thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đặc điểm dân cư Hoa Kỳ:",
+      "options": [
+        "Đa dạng về nguồn gốc (gồm người bản địa, người gốc Âu, châu Phi, châu Á, châu Mỹ Latin...); là một \"xã hội nhập cư\"",
+        "Hoàn toàn đồng nhất về chủng tộc",
+        "Chỉ có người bản địa",
+        "Hoàn toàn không có người nhập cư"
+      ],
+      "answer": 0,
+      "hint": "Hoa Kỳ là quốc gia của người nhập cư từ khắp thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cơ cấu kinh tế của Hoa Kỳ hiện nay có đặc điểm nổi bật là:",
+      "options": [
+        "Ngành dịch vụ chiếm tỉ trọng RẤT LỚN (khoảng 80% GDP); công nghiệp - xây dựng và nông nghiệp chiếm tỉ trọng nhỏ hơn",
+        "Nông nghiệp chiếm tỉ trọng lớn nhất",
+        "Khai khoáng là ngành chủ đạo",
+        "Không có ngành dịch vụ"
+      ],
+      "answer": 0,
+      "hint": "Các nước phát triển như Hoa Kỳ có dịch vụ chiếm tỉ trọng lớn nhất trong GDP."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quốc gia nào sau đây có dân số ĐÔNG NHẤT thế giới (cùng với Ấn Độ)?",
+      "options": [
+        "Trung Quốc",
+        "Hoa Kỳ",
+        "Việt Nam",
+        "Nga"
+      ],
+      "answer": 0,
+      "hint": "Trung Quốc và Ấn Độ là hai quốc gia có dân số đông nhất thế giới (mỗi nước trên 1,4 tỉ người)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đặc điểm nổi bật của nền kinh tế Trung Quốc trong những thập kỉ gần đây là:",
+      "options": [
+        "Tăng trưởng nhanh, trở thành \"công xưởng của thế giới\" và là một trong những nền kinh tế lớn nhất",
+        "Tăng trưởng âm liên tục, suy thoái sâu",
+        "Hoàn toàn không có công nghiệp",
+        "Chỉ phát triển nông nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Từ cuối thế kỉ XX, Trung Quốc tăng trưởng kinh tế nhanh; hiện là nền kinh tế lớn thứ hai thế giới theo GDP danh nghĩa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trung Quốc tiến hành công cuộc CẢI CÁCH - MỞ CỬA từ năm nào?",
+      "options": [
+        "1978 (dưới sự lãnh đạo của Đặng Tiểu Bình)",
+        "1949",
+        "1989",
+        "2001"
+      ],
+      "answer": 0,
+      "hint": "Cải cách mở cửa của Trung Quốc bắt đầu năm 1978, do Đặng Tiểu Bình khởi xướng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đặc điểm về dân số TRUNG QUỐC trong nhiều năm qua là:",
+      "options": [
+        "Dân số đông nhưng đang đối mặt với vấn đề già hóa nhanh và mất cân bằng giới tính",
+        "Dân số rất ít, chỉ vài triệu người",
+        "Hoàn toàn không có người trẻ tuổi",
+        "Dân số đang giảm xuống dưới 100 triệu"
+      ],
+      "answer": 0,
+      "hint": "Trung Quốc đông dân nhưng đang già hóa nhanh; chính sách \"một con\" trước đây để lại hệ quả mất cân bằng giới tính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đặc khu kinh tế nổi tiếng nào của Trung Quốc nằm gần Hồng Kông, trở thành biểu tượng của cải cách - mở cửa?",
+      "options": [
+        "Thâm Quyến (Shenzhen)",
+        "Tây Tạng",
+        "Tân Cương",
+        "Vân Nam"
+      ],
+      "answer": 0,
+      "hint": "Thâm Quyến từ một làng chài đã trở thành thành phố công nghệ hiện đại, biểu tượng của cải cách Trung Quốc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Quan hệ kinh tế giữa Việt Nam và Trung Quốc, Hoa Kỳ có đặc điểm gì?",
+      "options": [
+        "Trung Quốc và Hoa Kỳ đều là những đối tác thương mại quan trọng hàng đầu của Việt Nam; quan hệ song phương rất đa dạng",
+        "Việt Nam không có quan hệ thương mại với hai nước này",
+        "Chỉ có Trung Quốc là đối tác thương mại, Hoa Kỳ thì không",
+        "Chỉ có Hoa Kỳ là đối tác thương mại, Trung Quốc thì không"
+      ],
+      "answer": 0,
+      "hint": "Cả Trung Quốc và Hoa Kỳ đều là đối tác thương mại lớn của Việt Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Một trong những đặc trưng nổi bật về cơ cấu CÔNG NGHIỆP Hoa Kỳ hiện nay là:",
+      "options": [
+        "Các ngành công nghệ cao (điện tử, máy tính, hàng không vũ trụ, công nghệ sinh học...) phát triển mạnh, dẫn đầu thế giới",
+        "Chỉ tập trung vào khai khoáng",
+        "Chỉ tập trung vào dệt may",
+        "Không có công nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Hoa Kỳ dẫn đầu thế giới về công nghệ cao và đổi mới sáng tạo."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Hoa Kỳ:",
+      "statements": [
+        { "text": "Hoa Kỳ nằm ở Bắc Mỹ, giáp Canada (Bắc) và Mexico (Nam).", "answer": true },
+        { "text": "Hoa Kỳ là một trong những nền kinh tế lớn nhất thế giới theo GDP danh nghĩa.", "answer": true },
+        { "text": "Ngành dịch vụ chiếm tỉ trọng lớn nhất trong GDP của Hoa Kỳ.", "answer": true },
+        { "text": "Hoa Kỳ không có dân nhập cư, dân số hoàn toàn đồng nhất.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Trung Quốc:",
+      "statements": [
+        { "text": "Trung Quốc là một trong những quốc gia có dân số đông nhất thế giới.", "answer": true },
+        { "text": "Trung Quốc tiến hành công cuộc cải cách - mở cửa từ năm 1978.", "answer": true },
+        { "text": "Trung Quốc hiện là nền kinh tế lớn thứ hai thế giới (theo GDP danh nghĩa).", "answer": true },
+        { "text": "Trung Quốc hiện nay chỉ phát triển nông nghiệp, không có công nghiệp đáng kể.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Trung Quốc tiến hành công cuộc cải cách - mở cửa từ năm ___",
+      "answer": "1978",
+      "hint": "Đặng Tiểu Bình khởi xướng cải cách - mở cửa năm 1978."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Quốc gia có nền kinh tế lớn nhất thế giới theo GDP danh nghĩa trong nhiều thập kỉ qua là ___",
+      "answer": "Hoa Kỳ",
+      "alternatives": ["hoa ky", "Mỹ", "Hoa Kì", "USA"],
+      "hint": "Hoa Kỳ (Mỹ) là nền kinh tế lớn nhất thế giới."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Hoa Kỳ và Trung Quốc là hai nền kinh tế lớn nhất thế giới hiện nay.",
+      "answer": true,
+      "hint": "Theo GDP danh nghĩa: Hoa Kỳ thứ nhất, Trung Quốc thứ hai."
+    }
+  ]
+}

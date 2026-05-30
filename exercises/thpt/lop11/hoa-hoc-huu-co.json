@@ -1,0 +1,218 @@
+{
+  "id": "thpt-hoa-hoc-l11-huu-co",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 11,
+  "topic": "Hóa học hữu cơ: Hydrocarbon, Alcohol và Acid carboxylic",
+  "chapter": "Hóa hữu cơ 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Hydrocarbon: alkane, alkene, alkyne, arene",
+    "Alcohol, phenol",
+    "Aldehyde, ketone",
+    "Carboxylic acid"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử CHUNG của dãy đồng đẳng ALKANE là:",
+      "options": [
+        "$C_nH_{2n+2}$ ($n \\geq 1$)",
+        "$C_nH_{2n}$",
+        "$C_nH_{2n-2}$",
+        "$C_nH_{2n-6}$"
+      ],
+      "answer": 0,
+      "hint": "Alkane: hydrocarbon no, mạch hở, công thức $C_nH_{2n+2}$. Ví dụ $CH_4$, $C_2H_6$..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử chung của dãy ALKENE (mạch hở, có 1 liên kết đôi C=C) là:",
+      "options": [
+        "$C_nH_{2n}$ ($n \\geq 2$)",
+        "$C_nH_{2n+2}$",
+        "$C_nH_{2n-2}$",
+        "$C_nH_{2n-6}$"
+      ],
+      "answer": 0,
+      "hint": "Alkene: hydrocarbon không no có 1 nối đôi, mạch hở: $C_nH_{2n}$. Ví dụ $C_2H_4$ (ethylene)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử của benzene là:",
+      "options": [
+        "$C_6H_6$",
+        "$C_6H_{12}$",
+        "$C_6H_{14}$",
+        "$C_2H_6$"
+      ],
+      "answer": 0,
+      "hint": "Benzene là hydrocarbon thơm đơn giản nhất, vòng 6 cạnh, công thức $C_6H_6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhóm CHỨC ĐẶC TRƯNG của ALCOHOL (đơn chức, no, mạch hở) là:",
+      "options": [
+        "$-OH$ (hydroxyl) gắn vào nguyên tử carbon NO",
+        "$-COOH$",
+        "$-CHO$",
+        "$-NH_2$"
+      ],
+      "answer": 0,
+      "hint": "Alcohol có $-OH$ gắn vào C no. Phenol cũng có $-OH$ nhưng gắn vào vòng benzene."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhóm chức đặc trưng của CARBOXYLIC ACID là:",
+      "options": [
+        "$-COOH$",
+        "$-OH$",
+        "$-CHO$",
+        "$-NH_2$"
+      ],
+      "answer": 0,
+      "hint": "Carboxyl group: $-COOH$. Vd: $CH_3COOH$ (acetic acid)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhóm chức đặc trưng của ALDEHYDE là:",
+      "options": [
+        "$-CHO$",
+        "$-OH$",
+        "$-COOH$",
+        "$-NH_2$"
+      ],
+      "answer": 0,
+      "hint": "Aldehyde: $R-CHO$. Vd: $HCHO$ (formaldehyde), $CH_3CHO$ (acetaldehyde)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chất nào sau đây là một ALKANE?",
+      "options": [
+        "$CH_4$ (methane)",
+        "$CH_2{=}CH_2$ (ethylene)",
+        "$CH{\\equiv}CH$ (acetylene)",
+        "$C_6H_6$ (benzene)"
+      ],
+      "answer": 0,
+      "hint": "Methane $CH_4$ là alkane đơn giản nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chất nào sau đây là một ALKENE?",
+      "options": [
+        "$CH_2{=}CH_2$ (ethylene)",
+        "$CH_3-CH_3$ (ethane)",
+        "$CH{\\equiv}CH$ (acetylene)",
+        "$C_6H_6$ (benzene)"
+      ],
+      "answer": 0,
+      "hint": "Alkene có nối đôi C=C; ethylene là alkene đơn giản nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "ETHANOL ($C_2H_5OH$ hay $CH_3CH_2OH$) thuộc loại hợp chất hữu cơ nào?",
+      "options": [
+        "Alcohol (no, đơn chức, mạch hở)",
+        "Alkene",
+        "Aldehyde",
+        "Carboxylic acid"
+      ],
+      "answer": 0,
+      "hint": "Ethanol có nhóm $-OH$ gắn vào C no → alcohol đơn chức no."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Acetic acid ($CH_3COOH$) làm quỳ tím chuyển sang màu:",
+      "options": [
+        "Đỏ (do là acid)",
+        "Xanh (do là base)",
+        "Không đổi màu",
+        "Vàng"
+      ],
+      "answer": 0,
+      "hint": "Acetic acid (giấm) là acid yếu nhưng vẫn làm quỳ tím chuyển đỏ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Phản ứng ESTER HÓA giữa acetic acid ($CH_3COOH$) và ethanol ($C_2H_5OH$), xúc tác $H_2SO_4$ đặc, tạo ra:",
+      "options": [
+        "Ester ethyl acetate ($CH_3COOC_2H_5$) và nước",
+        "Acetone và oxygen",
+        "Methane và nước",
+        "Carbon dioxide và glucose"
+      ],
+      "answer": 0,
+      "hint": "Acid + alcohol $\\xrightarrow{H_2SO_4 đặc, t°}$ ester + nước. $CH_3COOH + C_2H_5OH \\rightleftharpoons CH_3COOC_2H_5 + H_2O$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Cho $1$ mol ethanol ($C_2H_5OH$, $M = 46$ g/mol) đem đốt cháy hoàn toàn. Số mol khí $CO_2$ thu được là:",
+      "options": [
+        "$2$ mol",
+        "$1$ mol",
+        "$3$ mol",
+        "$0{,}5$ mol"
+      ],
+      "answer": 0,
+      "hint": "$C_2H_5OH + 3O_2 \\rightarrow 2CO_2 + 3H_2O$. $1$ mol ethanol → $2$ mol $CO_2$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hydrocarbon:",
+      "statements": [
+        { "text": "Hợp chất hữu cơ là hợp chất của carbon (trừ một số ngoại lệ như $CO_2$, $CO$, các muối carbonate...).", "answer": true },
+        { "text": "Alkane có công thức tổng quát $C_nH_{2n+2}$ và là hydrocarbon no.", "answer": true },
+        { "text": "Benzene ($C_6H_6$) là hydrocarbon thơm đơn giản nhất.", "answer": true },
+        { "text": "Alkene là hydrocarbon no có công thức tổng quát $C_nH_{2n+2}$.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về alcohol, aldehyde và carboxylic acid:",
+      "statements": [
+        { "text": "Alcohol có nhóm chức $-OH$ gắn vào nguyên tử C no.", "answer": true },
+        { "text": "Aldehyde có nhóm chức $-CHO$.", "answer": true },
+        { "text": "Acetic acid ($CH_3COOH$) là một acid yếu, làm quỳ tím chuyển đỏ.", "answer": true },
+        { "text": "Carboxylic acid có nhóm chức đặc trưng là $-NH_2$.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Công thức phân tử của benzene là ___",
+      "answer": "C6H6",
+      "alternatives": ["C₆H₆", "c6h6"],
+      "hint": "Benzene: 6 carbon + 6 hydrogen, vòng 6 cạnh."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Nhóm chức đặc trưng của carboxylic acid là ___ (viết kí hiệu nhóm)",
+      "answer": "-COOH",
+      "alternatives": ["COOH", "carboxyl"],
+      "hint": "$-COOH$ = $-C(=O)-OH$ (carboxyl)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Ethanol ($C_2H_5OH$) là một alcohol no, đơn chức, mạch hở.",
+      "answer": true,
+      "hint": "Ethanol có 1 nhóm $-OH$ gắn vào C no → alcohol no đơn chức."
+    }
+  ]
+}

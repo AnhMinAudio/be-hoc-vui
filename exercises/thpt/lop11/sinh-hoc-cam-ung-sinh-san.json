@@ -1,0 +1,218 @@
+{
+  "id": "thpt-sinh-hoc-l11-cam-ung-sinh-san",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 11,
+  "topic": "Cảm ứng, sinh trưởng - phát triển và sinh sản ở sinh vật",
+  "chapter": "Cảm ứng & Sinh sản 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Cảm ứng ở thực vật",
+    "Cảm ứng ở động vật - Phản xạ - Hệ thần kinh",
+    "Sinh trưởng và phát triển - Hormone",
+    "Sinh sản hữu tính và vô tính"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cảm ứng ở sinh vật là gì?",
+      "options": [
+        "Phản ứng của sinh vật trả lời lại các kích thích từ môi trường bên trong hoặc bên ngoài",
+        "Quá trình sinh sản",
+        "Sự lớn lên về kích thước",
+        "Sự trao đổi chất"
+      ],
+      "answer": 0,
+      "hint": "Cảm ứng là một trong những đặc trưng cơ bản của sự sống."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "PHẢN XẠ là gì?",
+      "options": [
+        "Phản ứng của cơ thể trả lời các kích thích từ môi trường, được thực hiện thông qua hệ thần kinh",
+        "Sự lớn lên của tế bào",
+        "Quá trình tiêu hóa thức ăn",
+        "Quá trình hô hấp tế bào"
+      ],
+      "answer": 0,
+      "hint": "Phản xạ = hình thức cảm ứng của động vật có hệ thần kinh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "CUNG PHẢN XẠ gồm các thành phần nào?",
+      "options": [
+        "Thụ thể - dây thần kinh hướng tâm - trung ương thần kinh - dây thần kinh li tâm - cơ quan đáp ứng",
+        "Chỉ có cơ quan đáp ứng",
+        "Chỉ có thụ thể",
+        "Chỉ gồm não"
+      ],
+      "answer": 0,
+      "hint": "Cung phản xạ có 5 thành phần — đường đi của xung thần kinh trong một phản xạ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ở thực vật, hiện tượng RỄ cây vươn về phía có chất dinh dưỡng và nước được gọi là:",
+      "options": [
+        "Tính hướng (hướng hóa, hướng nước - hướng dương ở rễ)",
+        "Tính phản xạ",
+        "Tính cảm ứng tức thời",
+        "Tính bài tiết"
+      ],
+      "answer": 0,
+      "hint": "Cảm ứng ở thực vật chủ yếu là vận động hướng (tropism) chậm chạp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "HORMONE là chất hóa học do các tuyến NỘI TIẾT tiết ra, có vai trò chính là:",
+      "options": [
+        "Điều hòa các quá trình sinh lí trong cơ thể (sinh trưởng, sinh sản, trao đổi chất...)",
+        "Tiêu hóa thức ăn trong dạ dày",
+        "Vận chuyển oxygen trong máu",
+        "Bảo vệ cơ thể khỏi vi khuẩn (kháng thể)"
+      ],
+      "answer": 0,
+      "hint": "Hormone là tín hiệu hóa học điều hòa hoạt động sinh lí từ xa qua đường máu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ở thực vật, AUXIN là một hormone có vai trò chủ yếu nào?",
+      "options": [
+        "Kích thích sinh trưởng kéo dài của tế bào, điều khiển hướng động (hướng quang...)",
+        "Ức chế hoàn toàn sinh trưởng",
+        "Quang hợp",
+        "Tiêu diệt sâu bọ"
+      ],
+      "answer": 0,
+      "hint": "Auxin (IAA) là phytohormone đầu tiên được phát hiện, điều khiển sinh trưởng và hướng động."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "SINH TRƯỞNG ở sinh vật là quá trình:",
+      "options": [
+        "Sự tăng lên về kích thước, khối lượng của cơ thể (do tăng số lượng và kích thước tế bào)",
+        "Sự thay đổi về cấu trúc cơ thể",
+        "Sự giảm về kích thước",
+        "Sự sinh ra cá thể mới"
+      ],
+      "answer": 0,
+      "hint": "Sinh trưởng = lớn lên về kích thước/khối lượng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "PHÁT TRIỂN ở sinh vật bao gồm:",
+      "options": [
+        "Sinh trưởng + phân hóa tế bào + phát sinh hình thái các cơ quan",
+        "Chỉ là sự lớn lên",
+        "Chỉ là sự sinh sản",
+        "Chỉ là chuyển hóa năng lượng"
+      ],
+      "answer": 0,
+      "hint": "Phát triển = sinh trưởng + phân hóa tế bào + phát sinh hình thái → cơ thể hoàn chỉnh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "SINH SẢN VÔ TÍNH là hình thức sinh sản:",
+      "options": [
+        "Không có sự kết hợp giữa giao tử đực và giao tử cái; cá thể con giống hệt cá thể mẹ về mặt di truyền",
+        "Có sự kết hợp giữa giao tử đực và giao tử cái",
+        "Chỉ có ở động vật bậc cao",
+        "Tạo ra cá thể con khác hoàn toàn cá thể mẹ"
+      ],
+      "answer": 0,
+      "hint": "Vô tính: không có giao tử kết hợp → con giống mẹ về di truyền."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hình thức nào sau đây là SINH SẢN VÔ TÍNH ở thực vật?",
+      "options": [
+        "Giâm cành, chiết cành, ghép cây, nuôi cấy mô",
+        "Sinh sản bằng hạt sau khi thụ phấn, thụ tinh",
+        "Sinh sản qua hợp tử",
+        "Sinh sản qua giao tử"
+      ],
+      "answer": 0,
+      "hint": "Sinh sản vô tính ở thực vật: dùng các bộ phận sinh dưỡng (cành, lá, rễ) để tạo cây mới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ở thực vật có HOA, THỤ TINH KÉP là hiện tượng:",
+      "options": [
+        "Một tinh tử kết hợp với trứng tạo hợp tử ($2n$); tinh tử thứ hai kết hợp với nhân lưỡng cực tạo nội nhũ ($3n$)",
+        "Hai trứng cùng được thụ tinh bởi một tinh tử",
+        "Sự thụ tinh chỉ tạo nội nhũ, không tạo hợp tử",
+        "Sự nảy mầm của hạt"
+      ],
+      "answer": 0,
+      "hint": "Đặc điểm độc đáo của thực vật hạt kín: hai tinh tử cùng tham gia thụ tinh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Tại sao sinh sản HỮU TÍNH ưu việt hơn sinh sản vô tính về mặt tiến hóa và thích nghi?",
+      "options": [
+        "Vì tạo ra cá thể con có sự đa dạng di truyền (do tổ hợp gen), giúp loài thích nghi tốt hơn với điều kiện môi trường thay đổi",
+        "Vì sinh sản hữu tính nhanh hơn vô tính",
+        "Vì không cần đến hai cá thể bố mẹ",
+        "Vì không tốn năng lượng"
+      ],
+      "answer": 0,
+      "hint": "Ưu thế của hữu tính: đa dạng di truyền → tăng khả năng thích nghi trong môi trường thay đổi."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cảm ứng:",
+      "statements": [
+        { "text": "Cảm ứng là phản ứng của sinh vật trả lời các kích thích từ môi trường.", "answer": true },
+        { "text": "Phản xạ là một hình thức cảm ứng đặc trưng của động vật có hệ thần kinh.", "answer": true },
+        { "text": "Cảm ứng ở thực vật diễn ra nhanh và mạnh giống hệt phản xạ ở động vật.", "answer": false },
+        { "text": "Cung phản xạ gồm thụ thể, dây thần kinh hướng tâm, trung ương, dây li tâm và cơ quan đáp ứng.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về sinh trưởng, phát triển và sinh sản:",
+      "statements": [
+        { "text": "Hormone do các tuyến nội tiết tiết ra, có vai trò điều hòa các hoạt động sinh lí của cơ thể.", "answer": true },
+        { "text": "Giâm cành, chiết cành là các hình thức sinh sản vô tính ở thực vật.", "answer": true },
+        { "text": "Sinh sản hữu tính tạo ra đời con có sự đa dạng di truyền hơn sinh sản vô tính.", "answer": true },
+        { "text": "Sinh sản hữu tính ở động vật không cần có sự kết hợp giữa giao tử đực và giao tử cái.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đường đi của xung thần kinh trong một phản xạ được gọi là cung ___",
+      "answer": "phản xạ",
+      "alternatives": ["phan xa", "cung phản xạ"],
+      "hint": "Cung phản xạ có 5 thành phần."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Hình thức sinh sản nào ở thực vật KHÔNG có sự kết hợp giữa giao tử đực và cái được gọi là sinh sản ___",
+      "answer": "vô tính",
+      "alternatives": ["vo tinh"],
+      "hint": "Vô tính: con sinh ra giống hệt mẹ về di truyền."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Phản xạ là hình thức cảm ứng đặc trưng của động vật có hệ thần kinh.",
+      "answer": true,
+      "hint": "Phản xạ thực hiện qua cung phản xạ trong hệ thần kinh."
+    }
+  ]
+}

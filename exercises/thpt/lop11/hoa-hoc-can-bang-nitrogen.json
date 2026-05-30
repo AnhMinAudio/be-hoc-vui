@@ -1,0 +1,218 @@
+{
+  "id": "thpt-hoa-hoc-l11-can-bang-nitrogen",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 11,
+  "topic": "Cân bằng hóa học và các hợp chất nitrogen, sulfur",
+  "chapter": "Cân bằng & Nitrogen-Sulfur 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Cân bằng hóa học và nguyên lí Le Chatelier",
+    "Ammonia ($NH_3$) và hợp chất nitrogen ($HNO_3$)",
+    "Sulfur và hợp chất ($H_2SO_4$)",
+    "Ứng dụng trong sản xuất"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phản ứng hóa học thuận nghịch đạt trạng thái CÂN BẰNG khi:",
+      "options": [
+        "Tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch",
+        "Phản ứng dừng hoàn toàn",
+        "Chỉ phản ứng thuận xảy ra",
+        "Nồng độ các chất phản ứng giảm về $0$"
+      ],
+      "answer": 0,
+      "hint": "Cân bằng động: thuận = nghịch; phản ứng vẫn diễn ra theo cả hai chiều."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo nguyên lí Le Chatelier, khi tăng nồng độ của một chất phản ứng trong hệ thuận nghịch đang ở cân bằng, cân bằng sẽ chuyển dịch theo chiều:",
+      "options": [
+        "Làm GIẢM nồng độ chất đó (chiều phản ứng tiêu thụ chất đó — chiều thuận nếu chất đó là chất phản ứng)",
+        "Làm tăng nồng độ chất đó",
+        "Không thay đổi",
+        "Luôn về phía chất phản ứng"
+      ],
+      "answer": 0,
+      "hint": "Nguyên lí Le Chatelier: hệ chống lại sự thay đổi → tăng nồng độ → chuyển dịch theo chiều tiêu thụ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo nguyên lí Le Chatelier, khi TĂNG ÁP SUẤT của hệ khí thuận nghịch, cân bằng sẽ chuyển dịch theo chiều:",
+      "options": [
+        "Làm GIẢM số mol khí (chiều giảm áp suất của hệ)",
+        "Làm tăng số mol khí",
+        "Không thay đổi",
+        "Tách hệ ra hai phần"
+      ],
+      "answer": 0,
+      "hint": "Tăng áp suất → cân bằng chuyển dịch theo chiều có ít mol khí hơn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khí NITROGEN ($N_2$) chiếm khoảng bao nhiêu phần trăm thể tích không khí?",
+      "options": [
+        "Khoảng $78\\%$",
+        "Khoảng $21\\%$",
+        "Khoảng $1\\%$",
+        "Khoảng $50\\%$"
+      ],
+      "answer": 0,
+      "hint": "Không khí: $N_2$ ≈ 78%, $O_2$ ≈ 21%, còn lại các khí khác."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử của ammonia (amoniac) là:",
+      "options": [
+        "$NH_3$",
+        "$N_2H_4$",
+        "$HNO_3$",
+        "$NO_2$"
+      ],
+      "answer": 0,
+      "hint": "Ammonia $NH_3$: khí không màu, mùi khai, tan tốt trong nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Dung dịch ammonia ($NH_3$) làm quỳ tím:",
+      "options": [
+        "Chuyển sang màu xanh (do tính base)",
+        "Chuyển sang màu đỏ (do tính acid)",
+        "Không đổi màu",
+        "Chuyển sang màu vàng"
+      ],
+      "answer": 0,
+      "hint": "$NH_3$ là base yếu → quỳ tím ẩm hóa xanh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nitric acid ($HNO_3$) là một acid:",
+      "options": [
+        "Mạnh và có tính oxi hóa mạnh",
+        "Yếu và không có tính oxi hóa",
+        "Trung tính",
+        "Lưỡng tính"
+      ],
+      "answer": 0,
+      "hint": "$HNO_3$ vừa là acid mạnh, vừa là chất oxi hóa mạnh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi cho kim loại Cu tác dụng với dung dịch $HNO_3$ loãng, sản phẩm khí thoát ra chủ yếu là:",
+      "options": [
+        "Khí NO (không màu, hóa nâu trong không khí)",
+        "Khí $H_2$",
+        "Khí $CO_2$",
+        "Khí $O_2$"
+      ],
+      "answer": 0,
+      "hint": "$HNO_3$ loãng + kim loại thường tạo NO; $HNO_3$ đặc tạo $NO_2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử của sulfuric acid là:",
+      "options": [
+        "$H_2SO_4$",
+        "$H_2S$",
+        "$SO_2$",
+        "$H_2SO_3$"
+      ],
+      "answer": 0,
+      "hint": "$H_2SO_4$ — \"acid mạnh nhất trong các acid thường gặp\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sulfuric acid ($H_2SO_4$) ĐẶC có tính chất nào sau đây?",
+      "options": [
+        "Tính háo nước rất mạnh và tính oxi hóa mạnh",
+        "Không phải là acid",
+        "Là một base mạnh",
+        "Có thể uống trực tiếp"
+      ],
+      "answer": 0,
+      "hint": "$H_2SO_4$ đặc nóng có tính oxi hóa mạnh; $H_2SO_4$ đặc nguội thì háo nước mạnh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ammonia ($NH_3$) là nguyên liệu để sản xuất nhiều loại phân đạm. Một trong những phân đạm phổ biến là:",
+      "options": [
+        "Đạm urea ($(NH_2)_2CO$) hoặc đạm ammonium nitrate ($NH_4NO_3$)",
+        "Phân lân ($P$)",
+        "Phân kali ($K$)",
+        "Vôi sống ($CaO$)"
+      ],
+      "answer": 0,
+      "hint": "Phân đạm chứa nitrogen (N) thường dùng: urea, ammonium nitrate, ammonium sulfate..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Theo nguyên lí Le Chatelier, khi tăng NHIỆT ĐỘ của phản ứng thuận nghịch TỎA NHIỆT, cân bằng chuyển dịch theo chiều:",
+      "options": [
+        "Phản ứng nghịch (chiều thu nhiệt, chống lại sự tăng nhiệt độ)",
+        "Phản ứng thuận (chiều tỏa nhiệt)",
+        "Không thay đổi",
+        "Theo chiều giảm số mol khí"
+      ],
+      "answer": 0,
+      "hint": "Tăng nhiệt → hệ \"chống lại\" → chuyển dịch theo chiều thu nhiệt (nghịch nếu thuận là tỏa nhiệt)."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cân bằng hóa học:",
+      "statements": [
+        { "text": "Khi đạt trạng thái cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.", "answer": true },
+        { "text": "Cân bằng hóa học là cân bằng động, phản ứng vẫn diễn ra theo cả hai chiều.", "answer": true },
+        { "text": "Theo nguyên lí Le Chatelier, hệ phản ứng có xu hướng chống lại sự thay đổi do tác động bên ngoài.", "answer": true },
+        { "text": "Sau khi đạt cân bằng, phản ứng hoàn toàn dừng lại, không còn diễn ra theo bất kì chiều nào.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về nitrogen, sulfur và hợp chất:",
+      "statements": [
+        { "text": "$NH_3$ là một base yếu, làm quỳ tím ẩm hóa xanh.", "answer": true },
+        { "text": "$HNO_3$ là acid mạnh và có tính oxi hóa mạnh.", "answer": true },
+        { "text": "$H_2SO_4$ đặc có tính oxi hóa mạnh và tính háo nước rất mạnh.", "answer": true },
+        { "text": "$NH_3$ làm quỳ tím chuyển sang màu đỏ do có tính acid.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Công thức phân tử của ammonia là ___",
+      "answer": "NH3",
+      "alternatives": ["NH₃", "nh3"],
+      "hint": "Ammonia: $NH_3$ (1 nitrogen + 3 hydrogen)."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Acid có công thức $H_2SO_4$ tên là ___ (tên gọi quen thuộc).",
+      "answer": "sulfuric acid",
+      "alternatives": ["acid sulfuric", "axit sunfuric", "H2SO4 (sulfuric acid)"],
+      "hint": "$H_2SO_4$ — sulfuric acid (axit sunfuric)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Sulfuric acid ($H_2SO_4$) là một trong những acid mạnh được sử dụng nhiều nhất trong công nghiệp hóa chất.",
+      "answer": true,
+      "hint": "$H_2SO_4$ được gọi là \"máu của ngành công nghiệp hóa chất\"."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "thpt-lich-su-l11-cach-mang-tu-san-cnxh",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 11,
+  "topic": "Các cuộc cách mạng tư sản và chủ nghĩa xã hội từ 1917 đến nay",
+  "chapter": "Cách mạng tư sản & CNXH 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Cách mạng tư sản Anh, Mỹ, Pháp",
+    "Sự phát triển của chủ nghĩa tư bản",
+    "Cách mạng tháng Mười Nga 1917",
+    "Chủ nghĩa xã hội từ 1917 đến nay"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cuộc cách mạng tư sản nào sau đây diễn ra vào thế kỉ XVII?",
+      "options": [
+        "Cách mạng tư sản Anh (giữa thế kỉ XVII)",
+        "Cách mạng tư sản Pháp (cuối thế kỉ XVIII)",
+        "Cách mạng tháng Mười Nga (1917)",
+        "Cách mạng Cuba (1959)"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tư sản Anh diễn ra khoảng 1640-1689."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cách mạng tư sản Pháp bùng nổ vào năm nào?",
+      "options": [
+        "1789",
+        "1640",
+        "1776",
+        "1848"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng Pháp bắt đầu năm 1789 với sự kiện phá ngục Bastille (14/7/1789)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bản Tuyên ngôn Độc lập của Hợp chúng quốc Hoa Kỳ được công bố vào ngày nào?",
+      "options": [
+        "4/7/1776",
+        "14/7/1789",
+        "7/11/1917",
+        "1/1/1959"
+      ],
+      "answer": 0,
+      "hint": "Ngày 4/7/1776 là Quốc khánh Hoa Kỳ — ngày Tuyên ngôn Độc lập."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ý nghĩa LỚN NHẤT của các cuộc cách mạng tư sản (Anh, Mỹ, Pháp) là:",
+      "options": [
+        "Lật đổ chế độ phong kiến, mở đường cho chủ nghĩa tư bản phát triển",
+        "Khôi phục chế độ phong kiến trên toàn thế giới",
+        "Đưa giai cấp công nhân lên nắm chính quyền ngay lập tức",
+        "Không có ý nghĩa lịch sử quan trọng"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tư sản: lật đổ phong kiến, thiết lập nhà nước tư sản, mở đường CNTB."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khẩu hiệu nổi tiếng \"Tự do - Bình đẳng - Bác ái\" gắn liền với cuộc cách mạng tư sản nào?",
+      "options": [
+        "Cách mạng tư sản Pháp 1789",
+        "Cách mạng tư sản Anh",
+        "Cách mạng tháng Mười Nga",
+        "Cách mạng văn hóa Trung Quốc"
+      ],
+      "answer": 0,
+      "hint": "\"Liberté, Égalité, Fraternité\" là khẩu hiệu của Cách mạng Pháp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cách mạng tháng Mười Nga năm 1917 do giai cấp nào lãnh đạo?",
+      "options": [
+        "Giai cấp vô sản (công nhân), do Đảng Bolshevik của Lê-nin lãnh đạo",
+        "Giai cấp tư sản",
+        "Giai cấp địa chủ phong kiến",
+        "Tầng lớp quý tộc"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tháng Mười: cách mạng XHCN đầu tiên, do giai cấp vô sản và Đảng Bolshevik lãnh đạo."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cách mạng tháng Mười Nga (1917) có ý nghĩa lịch sử thế giới nổi bật:",
+      "options": [
+        "Mở ra thời đại mới — thời đại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội trên phạm vi thế giới",
+        "Khôi phục chế độ Nga hoàng",
+        "Làm cho chủ nghĩa thực dân trở nên vững mạnh hơn",
+        "Không ảnh hưởng đến phong trào giải phóng dân tộc"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tháng Mười: mở ra thời đại quá độ lên CNXH, cổ vũ phong trào giải phóng dân tộc thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Liên bang Cộng hòa xã hội chủ nghĩa Xô viết (Liên Xô) được thành lập vào năm nào?",
+      "options": [
+        "1922",
+        "1917",
+        "1945",
+        "1991"
+      ],
+      "answer": 0,
+      "hint": "Liên Xô (USSR) chính thức được thành lập ngày 30/12/1922."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Liên Xô tan rã vào năm nào, đánh dấu sự thay đổi lớn trong cục diện thế giới?",
+      "options": [
+        "1991",
+        "1945",
+        "1989",
+        "2000"
+      ],
+      "answer": 0,
+      "hint": "Cuối năm 1991, Liên bang Xô viết chính thức tan rã."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sau khi Liên Xô tan rã, các nước theo định hướng XHCN còn lại đã làm gì để duy trì và phát triển?",
+      "options": [
+        "Tiến hành cải cách, đổi mới nhằm xây dựng chủ nghĩa xã hội phù hợp với điều kiện cụ thể của mỗi nước",
+        "Hoàn toàn từ bỏ con đường XHCN",
+        "Quay lại chế độ phong kiến",
+        "Không có thay đổi gì"
+      ],
+      "answer": 0,
+      "hint": "Trung Quốc cải cách - mở cửa (1978); Việt Nam Đổi mới (1986); Cuba, Lào... đều có những cải cách riêng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Phong trào CÔNG XÃ PARI (1871) ở Pháp có ý nghĩa lịch sử quan trọng vì:",
+      "options": [
+        "Là cuộc cách mạng vô sản đầu tiên trên thế giới, dù chỉ tồn tại trong thời gian ngắn",
+        "Là cuộc cách mạng tư sản đầu tiên ở châu Âu",
+        "Là cuộc nội chiến giữa hai phái tư sản",
+        "Không có ý nghĩa gì đặc biệt"
+      ],
+      "answer": 0,
+      "hint": "Công xã Pa-ri (1871) tồn tại 72 ngày nhưng là cuộc cách mạng vô sản đầu tiên trên thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Lê-nin là người sáng lập Đảng Bolshevik và lãnh đạo Cách mạng tháng Mười Nga. Đóng góp lí luận quan trọng của Lê-nin là:",
+      "options": [
+        "Phát triển chủ nghĩa Mác trong điều kiện mới, đặc biệt về cách mạng vô sản và xây dựng nhà nước XHCN ở Nga",
+        "Phát minh ra máy hơi nước",
+        "Soạn thảo Tuyên ngôn Độc lập của Hoa Kỳ",
+        "Đề ra học thuyết tiến hóa"
+      ],
+      "answer": 0,
+      "hint": "Lê-nin phát triển chủ nghĩa Mác thành chủ nghĩa Mác - Lê-nin, áp dụng vào điều kiện cụ thể của Nga."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các cuộc cách mạng tư sản:",
+      "statements": [
+        { "text": "Cách mạng tư sản Anh diễn ra vào thế kỉ XVII.", "answer": true },
+        { "text": "Cách mạng tư sản Pháp bùng nổ năm 1789.", "answer": true },
+        { "text": "Tuyên ngôn Độc lập Hoa Kỳ được công bố ngày 4/7/1776.", "answer": true },
+        { "text": "Cách mạng tư sản nhằm khôi phục chế độ phong kiến.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về CNXH từ 1917:",
+      "statements": [
+        { "text": "Cách mạng tháng Mười Nga 1917 là cuộc cách mạng XHCN đầu tiên giành thắng lợi trên thế giới.", "answer": true },
+        { "text": "Liên bang Cộng hòa XHCN Xô viết (Liên Xô) được thành lập năm 1922.", "answer": true },
+        { "text": "Liên Xô tan rã vào năm 1991.", "answer": true },
+        { "text": "Sau khi Liên Xô tan rã, mọi nước XHCN đều ngừng tồn tại.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Cách mạng tháng Mười Nga diễn ra vào năm ___",
+      "answer": "1917",
+      "hint": "Tháng 10/1917 (theo lịch Nga cũ) — cách mạng vô sản đầu tiên thắng lợi."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Liên bang Cộng hòa Xô viết (Liên Xô) tan rã vào năm ___",
+      "answer": "1991",
+      "hint": "Cuối năm 1991, các nước cộng hòa thuộc Liên Xô tuyên bố độc lập."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Cách mạng tháng Mười Nga đã mở ra một thời đại mới trong lịch sử nhân loại — thời đại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội.",
+      "answer": true,
+      "hint": "Đây là ý nghĩa lịch sử quan trọng nhất của Cách mạng tháng Mười."
+    }
+  ]
+}

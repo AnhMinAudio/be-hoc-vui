@@ -1,0 +1,203 @@
+{
+  "id": "thpt-vat-li-l11-dao-dong-song",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 11,
+  "topic": "Dao động cơ và Sóng cơ",
+  "chapter": "Dao động & Sóng 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Dao động điều hòa - Con lắc lò xo",
+    "Con lắc đơn",
+    "Sóng cơ - Bước sóng - Tốc độ truyền sóng",
+    "Sóng âm"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình dao động điều hòa có dạng:",
+      "options": [
+        "$x = A\\cos(\\omega t + \\varphi)$",
+        "$x = A + \\omega t$",
+        "$x = A \\cdot t^2$",
+        "$x = \\dfrac{A}{\\omega t}$"
+      ],
+      "answer": 0,
+      "hint": "Dao động điều hòa: $x = A\\cos(\\omega t + \\varphi)$ với $A$ biên độ, $\\omega$ tần số góc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chu kì $T$ của con lắc lò xo (khối lượng $m$, độ cứng $k$) là:",
+      "options": [
+        "$T = 2\\pi\\sqrt{\\dfrac{m}{k}}$",
+        "$T = 2\\pi\\sqrt{\\dfrac{k}{m}}$",
+        "$T = \\dfrac{m}{k}$",
+        "$T = \\dfrac{1}{2\\pi}\\sqrt{mk}$"
+      ],
+      "answer": 0,
+      "hint": "Chu kì con lắc lò xo: $T = 2\\pi\\sqrt{\\dfrac{m}{k}}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chu kì $T$ của con lắc đơn dao động với góc lệch nhỏ (chiều dài $l$, gia tốc rơi $g$) là:",
+      "options": [
+        "$T = 2\\pi\\sqrt{\\dfrac{l}{g}}$",
+        "$T = 2\\pi\\sqrt{\\dfrac{g}{l}}$",
+        "$T = \\dfrac{l}{g}$",
+        "$T = \\sqrt{lg}$"
+      ],
+      "answer": 0,
+      "hint": "Con lắc đơn (góc nhỏ): $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong dao động điều hòa, đại lượng nào ĐẶC TRƯNG cho mức độ dao động \"mạnh hay yếu\"?",
+      "options": [
+        "Biên độ $A$",
+        "Chu kì $T$",
+        "Tần số $f$",
+        "Pha ban đầu $\\varphi$"
+      ],
+      "answer": 0,
+      "hint": "Biên độ $A$ là giá trị li độ cực đại; đặc trưng cho \"độ lớn\" của dao động."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "SÓNG CƠ là:",
+      "options": [
+        "Dao động cơ lan truyền trong một môi trường vật chất (rắn, lỏng, khí)",
+        "Sóng có thể truyền trong chân không",
+        "Dòng các hạt mang điện chuyển động",
+        "Một loại dao động không có chu kì"
+      ],
+      "answer": 0,
+      "hint": "Sóng cơ cần môi trường vật chất; không truyền được trong chân không."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong dao động sóng, mối quan hệ giữa bước sóng $\\lambda$, tốc độ truyền $v$ và chu kì $T$ là:",
+      "options": [
+        "$\\lambda = v T$",
+        "$\\lambda = \\dfrac{v}{T}$",
+        "$\\lambda = v + T$",
+        "$\\lambda = v \\cdot T^2$"
+      ],
+      "answer": 0,
+      "hint": "$\\lambda = vT = \\dfrac{v}{f}$ với $f$ là tần số."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "SÓNG ÂM có thể truyền được trong môi trường nào?",
+      "options": [
+        "Trong rắn, lỏng, khí (KHÔNG truyền được trong chân không)",
+        "Chỉ truyền trong không khí",
+        "Truyền được cả trong chân không",
+        "Chỉ truyền trong chất rắn"
+      ],
+      "answer": 0,
+      "hint": "Sóng âm là sóng cơ → cần môi trường vật chất. Không truyền được trong chân không."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong dao động điều hòa, vận tốc $v$ của vật:",
+      "options": [
+        "Đạt giá trị cực đại khi vật qua vị trí cân bằng ($x = 0$)",
+        "Đạt giá trị cực đại khi vật ở vị trí biên",
+        "Không thay đổi theo thời gian",
+        "Luôn bằng $0$"
+      ],
+      "answer": 0,
+      "hint": "Tại VTCB: $v_{max} = \\omega A$; tại biên: $v = 0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một con lắc lò xo có khối lượng $m = 0{,}1$ kg và độ cứng $k = 40$ N/m. Chu kì dao động bằng (lấy $\\pi^2 \\approx 10$):",
+      "options": [
+        "$0{,}1\\pi$ s",
+        "$0{,}2\\pi$ s",
+        "$2\\pi$ s",
+        "$\\pi$ s"
+      ],
+      "answer": 0,
+      "hint": "$T = 2\\pi\\sqrt{\\dfrac{m}{k}} = 2\\pi\\sqrt{\\dfrac{0{,}1}{40}} = 2\\pi \\cdot \\dfrac{1}{20} = 0{,}1\\pi$ s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Sóng cơ truyền với tốc độ $v = 4$ m/s và chu kì $T = 0{,}5$ s. Bước sóng $\\lambda$ là:",
+      "options": [
+        "$2$ m",
+        "$8$ m",
+        "$0{,}5$ m",
+        "$2{,}5$ m"
+      ],
+      "answer": 0,
+      "hint": "$\\lambda = vT = 4 \\cdot 0{,}5 = 2$ m."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Sóng âm trong không khí có tần số $f = 170$ Hz, tốc độ truyền $v = 340$ m/s. Bước sóng bằng:",
+      "options": [
+        "$2$ m",
+        "$0{,}5$ m",
+        "$340 \\cdot 170$ m",
+        "$57\\,800$ m"
+      ],
+      "answer": 0,
+      "hint": "$\\lambda = \\dfrac{v}{f} = \\dfrac{340}{170} = 2$ m."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về dao động:",
+      "statements": [
+        { "text": "Dao động điều hòa là dao động trong đó li độ là hàm cosin (hoặc sin) của thời gian.", "answer": true },
+        { "text": "Chu kì con lắc đơn (góc nhỏ) là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.", "answer": true },
+        { "text": "Trong dao động điều hòa, vận tốc của vật đạt cực đại khi vật ở vị trí biên.", "answer": false },
+        { "text": "Biên độ $A$ là giá trị cực đại của li độ trong dao động điều hòa.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về sóng cơ:",
+      "statements": [
+        { "text": "Sóng cơ cần môi trường vật chất để truyền, không truyền được trong chân không.", "answer": true },
+        { "text": "Bước sóng $\\lambda$ bằng tích của tốc độ truyền $v$ và chu kì $T$.", "answer": true },
+        { "text": "Sóng âm là một loại sóng cơ.", "answer": true },
+        { "text": "Sóng âm có thể truyền được trong chân không.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Một con lắc đơn có chiều dài $l = 1$ m, ở nơi có $g = \\pi^2$ m/s$^2$. Chu kì dao động là ___ s",
+      "answer": "2",
+      "hint": "$T = 2\\pi\\sqrt{\\dfrac{l}{g}} = 2\\pi\\sqrt{\\dfrac{1}{\\pi^2}} = 2\\pi \\cdot \\dfrac{1}{\\pi} = 2$ s."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Sóng cơ có tốc độ $v = 10$ m/s, chu kì $T = 0{,}2$ s. Bước sóng bằng ___ m",
+      "answer": "2",
+      "hint": "$\\lambda = vT = 10 \\cdot 0{,}2 = 2$ m."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Sóng cơ không truyền được trong chân không.",
+      "answer": true,
+      "hint": "Sóng cơ cần môi trường vật chất (rắn, lỏng, khí) để truyền."
+    }
+  ]
+}

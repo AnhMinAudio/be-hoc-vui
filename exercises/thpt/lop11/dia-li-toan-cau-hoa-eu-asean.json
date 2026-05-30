@@ -1,0 +1,217 @@
+{
+  "id": "thpt-dia-li-l11-toan-cau-hoa-eu-asean",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 11,
+  "topic": "Toàn cầu hóa, Liên minh châu Âu (EU) và ASEAN",
+  "chapter": "Toàn cầu hóa - EU - ASEAN 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Toàn cầu hóa và hội nhập kinh tế",
+    "An ninh toàn cầu",
+    "Liên minh châu Âu (EU)",
+    "Khu vực Đông Nam Á và ASEAN"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Toàn cầu hóa kinh tế được hiểu là:",
+      "options": [
+        "Quá trình liên kết, hợp tác kinh tế ngày càng chặt chẽ giữa các quốc gia, các khu vực trên toàn thế giới",
+        "Quá trình các nước đóng cửa, ngừng giao thương với bên ngoài",
+        "Sự sáp nhập toàn bộ các quốc gia thành một nước duy nhất",
+        "Việc xóa bỏ hoàn toàn ranh giới giữa các nước"
+      ],
+      "answer": 0,
+      "hint": "Toàn cầu hóa = gia tăng liên kết, phụ thuộc lẫn nhau giữa các nền kinh tế."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tổ chức Thương mại Thế giới được viết tắt là:",
+      "options": [
+        "WTO",
+        "ASEAN",
+        "EU",
+        "NATO"
+      ],
+      "answer": 0,
+      "hint": "WTO = World Trade Organization."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Việt Nam gia nhập WTO vào năm:",
+      "options": [
+        "2007",
+        "1995",
+        "1986",
+        "2015"
+      ],
+      "answer": 0,
+      "hint": "Việt Nam chính thức là thành viên WTO từ ngày 11/01/2007."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "An ninh toàn cầu hiện nay bao gồm nhiều vấn đề quan trọng, KHÔNG kể đến:",
+      "options": [
+        "Sản xuất nông nghiệp hữu cơ tại các trang trại",
+        "An ninh lương thực, năng lượng, nguồn nước",
+        "An ninh mạng, biến đổi khí hậu",
+        "Khủng bố quốc tế và dịch bệnh"
+      ],
+      "answer": 0,
+      "hint": "An ninh toàn cầu: lương thực, năng lượng, nguồn nước, mạng, khí hậu, dịch bệnh, khủng bố..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Liên minh châu Âu (EU) là:",
+      "options": [
+        "Một tổ chức liên kết kinh tế - chính trị của nhiều quốc gia châu Âu",
+        "Một quốc gia thống nhất ở châu Âu",
+        "Một tổ chức quân sự ở châu Á",
+        "Một câu lạc bộ thể thao quốc tế"
+      ],
+      "answer": 0,
+      "hint": "EU là liên minh kinh tế và chính trị của nhiều nước châu Âu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đồng tiền chung của nhiều quốc gia thành viên Liên minh châu Âu là:",
+      "options": [
+        "Euro (EUR, €)",
+        "Đô la Mỹ (USD)",
+        "Bảng Anh (GBP)",
+        "Yên Nhật (JPY)"
+      ],
+      "answer": 0,
+      "hint": "Đồng Euro được sử dụng bởi phần lớn (không phải tất cả) các nước EU - khu vực Eurozone."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "ASEAN — Hiệp hội các quốc gia Đông Nam Á — được thành lập vào năm nào?",
+      "options": [
+        "1967",
+        "1945",
+        "1995",
+        "2015"
+      ],
+      "answer": 0,
+      "hint": "ASEAN được thành lập 8/8/1967 tại Bangkok (Thái Lan)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hiện nay ASEAN có bao nhiêu quốc gia thành viên?",
+      "options": [
+        "10 nước",
+        "5 nước",
+        "7 nước",
+        "12 nước"
+      ],
+      "answer": 0,
+      "hint": "Từ 5 nước ban đầu (1967), ASEAN hiện có 10 thành viên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Việt Nam chính thức gia nhập ASEAN vào năm:",
+      "options": [
+        "1995",
+        "1967",
+        "1986",
+        "2007"
+      ],
+      "answer": 0,
+      "hint": "Việt Nam gia nhập ASEAN ngày 28/7/1995, trở thành thành viên thứ 7."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cộng đồng ASEAN chính thức được thành lập vào năm nào, gồm mấy trụ cột?",
+      "options": [
+        "Năm 2015, gồm 3 trụ cột: Chính trị - An ninh, Kinh tế, Văn hóa - Xã hội",
+        "Năm 1967, gồm 5 trụ cột",
+        "Năm 1995, gồm 1 trụ cột duy nhất",
+        "Năm 2007, gồm 2 trụ cột"
+      ],
+      "answer": 0,
+      "hint": "Cộng đồng ASEAN chính thức ra đời cuối năm 2015 với 3 trụ cột."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đông Nam Á có vị trí địa lí quan trọng trên thế giới chủ yếu vì:",
+      "options": [
+        "Nằm trên tuyến hàng hải quốc tế (cầu nối Ấn Độ Dương và Thái Bình Dương), giàu tài nguyên thiên nhiên",
+        "Có khí hậu lạnh quanh năm",
+        "Nằm hoàn toàn ở Bắc Cực",
+        "Không có biển và đại dương bao quanh"
+      ],
+      "answer": 0,
+      "hint": "Đông Nam Á là cầu nối giữa hai đại dương lớn và các châu lục."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Tại sao Đông Nam Á được xem là khu vực có nhiều TIỀM NĂNG phát triển kinh tế?",
+      "options": [
+        "Vị trí địa lí thuận lợi, tài nguyên thiên nhiên phong phú, dân số đông và trẻ, hội nhập sâu rộng qua ASEAN",
+        "Vì khí hậu ôn đới lạnh quanh năm",
+        "Vì nằm cách xa các tuyến giao thông quốc tế",
+        "Vì không có dân cư sinh sống"
+      ],
+      "answer": 0,
+      "hint": "Đông Nam Á: vị trí cầu nối + tài nguyên + lao động đông trẻ + hội nhập ASEAN."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về toàn cầu hóa và EU:",
+      "statements": [
+        { "text": "Toàn cầu hóa kinh tế là xu thế tất yếu, làm gia tăng liên kết và phụ thuộc lẫn nhau giữa các nền kinh tế.", "answer": true },
+        { "text": "Tổ chức Thương mại Thế giới (WTO) có vai trò điều phối thương mại toàn cầu.", "answer": true },
+        { "text": "Liên minh châu Âu (EU) là liên kết kinh tế - chính trị của nhiều quốc gia châu Âu.", "answer": true },
+        { "text": "Đồng Euro là đồng tiền chung của TẤT CẢ các quốc gia trên thế giới.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á và ASEAN:",
+      "statements": [
+        { "text": "ASEAN được thành lập năm 1967 với 5 nước thành viên ban đầu.", "answer": true },
+        { "text": "Việt Nam gia nhập ASEAN năm 1995.", "answer": true },
+        { "text": "Cộng đồng ASEAN ra đời cuối năm 2015 gồm 3 trụ cột.", "answer": true },
+        { "text": "ASEAN hiện chỉ có 5 quốc gia thành viên.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Việt Nam chính thức gia nhập ASEAN vào năm ___",
+      "answer": "1995",
+      "hint": "28/7/1995 — Việt Nam là thành viên thứ 7 của ASEAN."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đồng tiền chung của nhiều quốc gia trong Liên minh châu Âu (EU) là đồng ___",
+      "answer": "Euro",
+      "alternatives": ["euro", "EUR", "€"],
+      "hint": "Euro là đồng tiền của khu vực Eurozone."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đông Nam Á có vị trí địa lí được ví như cầu nối giữa Ấn Độ Dương và Thái Bình Dương.",
+      "answer": true,
+      "hint": "Vị trí cầu nối hai đại dương là một trong những lợi thế nổi bật của Đông Nam Á."
+    }
+  ]
+}

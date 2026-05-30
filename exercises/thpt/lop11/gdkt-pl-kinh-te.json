@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l11-kinh-te",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 11,
+  "topic": "Cạnh tranh, cung - cầu, lạm phát, thị trường lao động",
+  "chapter": "Kinh tế thị trường 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Cạnh tranh trong kinh tế thị trường",
+    "Cung - cầu và giá cả",
+    "Lạm phát - Thất nghiệp",
+    "Thị trường lao động và việc làm"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "CẠNH TRANH trong nền kinh tế thị trường được hiểu là:",
+      "options": [
+        "Sự ganh đua giữa các chủ thể kinh tế nhằm giành lấy điều kiện thuận lợi để sản xuất, tiêu thụ và thu lợi nhuận",
+        "Việc các doanh nghiệp hợp tác hoàn toàn, không có sự ganh đua",
+        "Hoạt động của các cơ quan Nhà nước",
+        "Việc tặng cho hàng hóa miễn phí"
+      ],
+      "answer": 0,
+      "hint": "Cạnh tranh = ganh đua giữa các chủ thể trên thị trường."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi CUNG lớn hơn CẦU, trên thị trường thường xảy ra hiện tượng:",
+      "options": [
+        "Giá cả có xu hướng giảm xuống",
+        "Giá cả có xu hướng tăng cao",
+        "Giá cả không thay đổi",
+        "Hàng hóa hoàn toàn biến mất"
+      ],
+      "answer": 0,
+      "hint": "Cung > cầu → hàng hóa nhiều hơn nhu cầu → giá giảm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi CẦU lớn hơn CUNG, giá cả thường có xu hướng:",
+      "options": [
+        "Tăng lên",
+        "Giảm xuống",
+        "Không thay đổi",
+        "Giảm về $0$"
+      ],
+      "answer": 0,
+      "hint": "Cầu > cung → khan hiếm → giá tăng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "LẠM PHÁT được hiểu là hiện tượng:",
+      "options": [
+        "Mức giá chung của hàng hóa và dịch vụ tăng lên liên tục trong một thời gian nhất định, làm giảm sức mua của đồng tiền",
+        "Mức giá chung giảm xuống liên tục",
+        "Sản lượng hàng hóa giảm sút",
+        "Số việc làm tăng nhanh"
+      ],
+      "answer": 0,
+      "hint": "Lạm phát: giá cả chung tăng liên tục → đồng tiền mất giá."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Lạm phát quá CAO có thể gây ra HẬU QUẢ nào cho nền kinh tế?",
+      "options": [
+        "Làm giảm sức mua của đồng tiền, ảnh hưởng đến đời sống người dân và sự ổn định của nền kinh tế",
+        "Làm tăng sức mua của đồng tiền",
+        "Hoàn toàn không ảnh hưởng gì",
+        "Làm cho mọi người trở nên giàu hơn"
+      ],
+      "answer": 0,
+      "hint": "Lạm phát cao gây hậu quả nghiêm trọng: giảm sức mua, bất ổn kinh tế - xã hội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "THẤT NGHIỆP là tình trạng người trong độ tuổi lao động:",
+      "options": [
+        "Có khả năng lao động, muốn làm việc nhưng không tìm được việc làm",
+        "Không muốn làm việc và không tìm việc",
+        "Đang đi học toàn thời gian",
+        "Đã nghỉ hưu hoàn toàn"
+      ],
+      "answer": 0,
+      "hint": "Thất nghiệp: có khả năng + muốn + không có việc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "THỊ TRƯỜNG LAO ĐỘNG là gì?",
+      "options": [
+        "Nơi diễn ra sự trao đổi, mua bán sức lao động giữa người lao động (cung) và người sử dụng lao động (cầu)",
+        "Một cơ quan của Bộ Lao động",
+        "Một loại hàng hóa cụ thể",
+        "Khu vực sản xuất hàng nông nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Thị trường lao động: cung lao động (NLĐ) gặp cầu lao động (NSDLĐ)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Để giảm thất nghiệp, các giải pháp KINH TẾ - XÃ HỘI có thể bao gồm:",
+      "options": [
+        "Phát triển sản xuất - kinh doanh để tạo việc làm; đào tạo nghề; hỗ trợ khởi nghiệp; thông tin thị trường lao động",
+        "Hạn chế hoàn toàn việc tuyển dụng mới",
+        "Cấm người lao động đi tìm việc",
+        "Đóng cửa các doanh nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Giảm thất nghiệp: phát triển KT-XH + đào tạo + hỗ trợ khởi nghiệp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "ĐẠO ĐỨC KINH DOANH KHÔNG bao gồm nội dung nào sau đây?",
+      "options": [
+        "Trốn thuế, gian lận giá để tăng lợi nhuận",
+        "Trung thực với khách hàng và đối tác",
+        "Tuân thủ pháp luật",
+        "Bảo vệ môi trường và lợi ích cộng đồng"
+      ],
+      "answer": 0,
+      "hint": "Trốn thuế, gian lận là vi phạm pháp luật, đi ngược lại đạo đức kinh doanh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Văn hóa TIÊU DÙNG lành mạnh thể hiện qua thói quen nào?",
+      "options": [
+        "Tiêu dùng có kế hoạch, tiết kiệm, ưu tiên hàng Việt và sản phẩm thân thiện môi trường",
+        "Tiêu dùng vô độ, sa đà vào hàng xa xỉ",
+        "Mua sắm hoàn toàn theo cảm hứng nhất thời",
+        "Chỉ dùng hàng nhập khẩu giá cao"
+      ],
+      "answer": 0,
+      "hint": "Văn hóa tiêu dùng lành mạnh: có kế hoạch + tiết kiệm + ưu tiên hàng Việt + sản phẩm xanh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Vai trò của CẠNH TRANH lành mạnh trong nền kinh tế thị trường là:",
+      "options": [
+        "Thúc đẩy doanh nghiệp đổi mới công nghệ, nâng cao chất lượng sản phẩm và hạ giá thành, từ đó người tiêu dùng được lợi",
+        "Làm cho mọi doanh nghiệp đều thất bại",
+        "Không có vai trò gì đặc biệt",
+        "Chỉ làm tăng giá hàng hóa"
+      ],
+      "answer": 0,
+      "hint": "Cạnh tranh lành mạnh là động lực quan trọng của phát triển kinh tế."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế thị trường:",
+      "statements": [
+        { "text": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế để giành lợi thế trên thị trường.", "answer": true },
+        { "text": "Khi cung > cầu, giá cả có xu hướng giảm.", "answer": true },
+        { "text": "Khi cầu > cung, giá cả có xu hướng giảm.", "answer": false },
+        { "text": "Cạnh tranh lành mạnh là một trong những động lực quan trọng của phát triển kinh tế.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về lạm phát, thất nghiệp và thị trường lao động:",
+      "statements": [
+        { "text": "Lạm phát làm giảm sức mua của đồng tiền.", "answer": true },
+        { "text": "Thất nghiệp là tình trạng người trong độ tuổi lao động, có khả năng và muốn làm việc nhưng không tìm được việc.", "answer": true },
+        { "text": "Thị trường lao động là nơi diễn ra việc mua bán sức lao động.", "answer": true },
+        { "text": "Trốn thuế là hành vi phù hợp với đạo đức kinh doanh.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Hiện tượng mức giá chung tăng liên tục, làm giảm sức mua của đồng tiền gọi là ___",
+      "answer": "lạm phát",
+      "alternatives": ["lam phat"],
+      "hint": "Lạm phát = giá chung tăng liên tục."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Tình trạng người trong độ tuổi lao động, có khả năng và muốn làm việc nhưng không tìm được việc làm được gọi là ___",
+      "answer": "thất nghiệp",
+      "alternatives": ["that nghiep"],
+      "hint": "Thất nghiệp: có khả năng + muốn + không có việc."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Cạnh tranh lành mạnh trong kinh tế thị trường thúc đẩy đổi mới, nâng cao chất lượng sản phẩm và mang lại lợi ích cho người tiêu dùng.",
+      "answer": true,
+      "hint": "Đây là vai trò tích cực quan trọng của cạnh tranh."
+    }
+  ]
+}

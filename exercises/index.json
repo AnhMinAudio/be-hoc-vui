@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:29:38.909Z",
+  "generatedAt": "2026-05-30T01:41:09.461Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -446,6 +446,24 @@
       "path": "thpt/lop10/dia-li.json"
     },
     {
+      "id": "thpt-dia-li-l11-hoa-ky-trung-quoc",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 11,
+      "topic": "Hoa Kỳ và Trung Quốc - hai nền kinh tế lớn nhất thế giới",
+      "chapter": "Hoa Kỳ - Trung Quốc 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Hoa Kỳ: vị trí, dân cư và đặc điểm kinh tế",
+        "Trung Quốc: vị trí, dân cư và đặc điểm kinh tế",
+        "Vai trò của Hoa Kỳ và Trung Quốc trong nền kinh tế thế giới",
+        "Quan hệ kinh tế với Việt Nam"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/dia-li-hoa-ky-trung-quoc.json"
+    },
+    {
       "id": "thpt-dia-li-l11-on-tap",
       "stage": "thpt",
       "subject": "dia-li",
@@ -462,6 +480,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/dia-li.json"
+    },
+    {
+      "id": "thpt-dia-li-l11-toan-cau-hoa-eu-asean",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 11,
+      "topic": "Toàn cầu hóa, Liên minh châu Âu (EU) và ASEAN",
+      "chapter": "Toàn cầu hóa - EU - ASEAN 11",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Toàn cầu hóa và hội nhập kinh tế",
+        "An ninh toàn cầu",
+        "Liên minh châu Âu (EU)",
+        "Khu vực Đông Nam Á và ASEAN"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/dia-li-toan-cau-hoa-eu-asean.json"
     },
     {
       "id": "thpt-dia-li-l12-kinh-te-vung",
@@ -650,6 +686,24 @@
       "path": "thpt/lop10/gdkt-pl.json"
     },
     {
+      "id": "thpt-gdkt-pl-l11-kinh-te",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 11,
+      "topic": "Cạnh tranh, cung - cầu, lạm phát, thị trường lao động",
+      "chapter": "Kinh tế thị trường 11",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Cạnh tranh trong kinh tế thị trường",
+        "Cung - cầu và giá cả",
+        "Lạm phát - Thất nghiệp",
+        "Thị trường lao động và việc làm"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/gdkt-pl-kinh-te.json"
+    },
+    {
       "id": "thpt-gdkt-pl-l11-on-tap",
       "stage": "thpt",
       "subject": "gdkt-pl",
@@ -666,6 +720,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/gdkt-pl.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l11-phap-luat",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 11,
+      "topic": "Pháp luật và quyền - nghĩa vụ công dân trong các lĩnh vực",
+      "chapter": "Pháp luật & Quyền công dân 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Quyền và nghĩa vụ công dân về bầu cử - ứng cử",
+        "Quyền và nghĩa vụ trong hôn nhân - gia đình",
+        "Quyền và nghĩa vụ trong lao động",
+        "Các quyền tự do cơ bản và pháp luật quốc tế"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/gdkt-pl-phap-luat.json"
     },
     {
       "id": "thpt-gdkt-pl-l12-on-tap",
@@ -894,6 +966,42 @@
       "path": "thpt/lop10/hoa-hoc.json"
     },
     {
+      "id": "thpt-hoa-hoc-l11-can-bang-nitrogen",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 11,
+      "topic": "Cân bằng hóa học và các hợp chất nitrogen, sulfur",
+      "chapter": "Cân bằng & Nitrogen-Sulfur 11",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Cân bằng hóa học và nguyên lí Le Chatelier",
+        "Ammonia ($NH_3$) và hợp chất nitrogen ($HNO_3$)",
+        "Sulfur và hợp chất ($H_2SO_4$)",
+        "Ứng dụng trong sản xuất"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/hoa-hoc-can-bang-nitrogen.json"
+    },
+    {
+      "id": "thpt-hoa-hoc-l11-huu-co",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 11,
+      "topic": "Hóa học hữu cơ: Hydrocarbon, Alcohol và Acid carboxylic",
+      "chapter": "Hóa hữu cơ 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Hydrocarbon: alkane, alkene, alkyne, arene",
+        "Alcohol, phenol",
+        "Aldehyde, ketone",
+        "Carboxylic acid"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/hoa-hoc-huu-co.json"
+    },
+    {
       "id": "thpt-hoa-hoc-l11-on-tap",
       "stage": "thpt",
       "subject": "hoa-hoc",
@@ -1021,6 +1129,24 @@
       "path": "thpt/lop10/lich-su.json"
     },
     {
+      "id": "thpt-lich-su-l11-cach-mang-tu-san-cnxh",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 11,
+      "topic": "Các cuộc cách mạng tư sản và chủ nghĩa xã hội từ 1917 đến nay",
+      "chapter": "Cách mạng tư sản & CNXH 11",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Cách mạng tư sản Anh, Mỹ, Pháp",
+        "Sự phát triển của chủ nghĩa tư bản",
+        "Cách mạng tháng Mười Nga 1917",
+        "Chủ nghĩa xã hội từ 1917 đến nay"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/lich-su-cach-mang-tu-san-cnxh.json"
+    },
+    {
       "id": "thpt-lich-su-l11-on-tap",
       "stage": "thpt",
       "subject": "lich-su",
@@ -1037,6 +1163,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/lich-su.json"
+    },
+    {
+      "id": "thpt-lich-su-l11-dong-nam-a-viet-nam",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 11,
+      "topic": "Quá trình giành độc lập của Đông Nam Á và lịch sử bảo vệ Tổ quốc Việt Nam",
+      "chapter": "Đông Nam Á & Việt Nam 11",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Đông Nam Á: từ thuộc địa đến độc lập",
+        "Các cuộc kháng chiến chống ngoại xâm của dân tộc Việt Nam",
+        "Quang Trung và đại phá quân Thanh",
+        "Một số cuộc cải cách trong lịch sử Việt Nam"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/lich-su-dong-nam-a-viet-nam.json"
     },
     {
       "id": "thpt-lich-su-l12-on-tap",
@@ -1673,6 +1817,24 @@
       "path": "thpt/lop10/sinh-hoc.json"
     },
     {
+      "id": "thpt-sinh-hoc-l11-cam-ung-sinh-san",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 11,
+      "topic": "Cảm ứng, sinh trưởng - phát triển và sinh sản ở sinh vật",
+      "chapter": "Cảm ứng & Sinh sản 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Cảm ứng ở thực vật",
+        "Cảm ứng ở động vật - Phản xạ - Hệ thần kinh",
+        "Sinh trưởng và phát triển - Hormone",
+        "Sinh sản hữu tính và vô tính"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/sinh-hoc-cam-ung-sinh-san.json"
+    },
+    {
       "id": "thpt-sinh-hoc-l11-on-tap",
       "stage": "thpt",
       "subject": "sinh-hoc",
@@ -1689,6 +1851,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/sinh-hoc.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l11-trao-doi-chat",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 11,
+      "topic": "Trao đổi chất và chuyển hóa năng lượng ở thực vật và động vật",
+      "chapter": "Trao đổi chất 11",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Hấp thụ nước và muối khoáng ở thực vật",
+        "Quang hợp ở thực vật",
+        "Tiêu hóa, hô hấp, tuần hoàn ở động vật",
+        "Bài tiết và cân bằng nội môi"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/sinh-hoc-trao-doi-chat.json"
     },
     {
       "id": "thpt-sinh-hoc-l12-di-truyen",
@@ -4747,6 +4927,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop10/vat-li.json"
+    },
+    {
+      "id": "thpt-vat-li-l11-dao-dong-song",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 11,
+      "topic": "Dao động cơ và Sóng cơ",
+      "chapter": "Dao động & Sóng 11",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Dao động điều hòa - Con lắc lò xo",
+        "Con lắc đơn",
+        "Sóng cơ - Bước sóng - Tốc độ truyền sóng",
+        "Sóng âm"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/vat-li-dao-dong-song.json"
+    },
+    {
+      "id": "thpt-vat-li-l11-dien-truong-dong-dien",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 11,
+      "topic": "Điện trường và Dòng điện",
+      "chapter": "Điện trường - Dòng điện 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Điện tích - Định luật Coulomb",
+        "Điện trường - Cường độ điện trường - Điện thế",
+        "Dòng điện không đổi - Định luật Ohm",
+        "Công - công suất điện"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/vat-li-dien-truong-dong-dien.json"
     },
     {
       "id": "thpt-vat-li-l11-on-tap",

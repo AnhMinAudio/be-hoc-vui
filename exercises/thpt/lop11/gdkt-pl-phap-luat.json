@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l11-phap-luat",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 11,
+  "topic": "Pháp luật và quyền - nghĩa vụ công dân trong các lĩnh vực",
+  "chapter": "Pháp luật & Quyền công dân 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Quyền và nghĩa vụ công dân về bầu cử - ứng cử",
+    "Quyền và nghĩa vụ trong hôn nhân - gia đình",
+    "Quyền và nghĩa vụ trong lao động",
+    "Các quyền tự do cơ bản và pháp luật quốc tế"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Theo quy định của pháp luật Việt Nam, công dân đủ bao nhiêu tuổi trở lên có quyền BẦU CỬ đại biểu Quốc hội và Hội đồng nhân dân?",
+      "options": [
+        "Đủ 18 tuổi",
+        "Đủ 16 tuổi",
+        "Đủ 20 tuổi",
+        "Đủ 21 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Công dân đủ 18 tuổi trở lên có quyền bầu cử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công dân đủ bao nhiêu tuổi trở lên có quyền ỨNG CỬ vào Quốc hội, Hội đồng nhân dân?",
+      "options": [
+        "Đủ 21 tuổi",
+        "Đủ 18 tuổi",
+        "Đủ 25 tuổi",
+        "Đủ 30 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Quyền bầu cử: đủ 18 tuổi; quyền ứng cử: đủ 21 tuổi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên tắc cơ bản của HÔN NHÂN ở Việt Nam là:",
+      "options": [
+        "Tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng",
+        "Hôn nhân do cha mẹ sắp đặt hoàn toàn",
+        "Đa thê được chấp nhận",
+        "Hôn nhân với người dưới 16 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Luật Hôn nhân và Gia đình: tự nguyện + tiến bộ + một vợ một chồng + bình đẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong quan hệ TÀI SẢN giữa vợ và chồng, pháp luật Việt Nam quy định:",
+      "options": [
+        "Vợ, chồng bình đẳng, có quyền và nghĩa vụ ngang nhau",
+        "Người chồng có toàn quyền quyết định mọi tài sản",
+        "Người vợ không có quyền với tài sản chung",
+        "Tài sản chung chỉ thuộc về người tạo ra nhiều thu nhập hơn"
+      ],
+      "answer": 0,
+      "hint": "Vợ chồng bình đẳng về quyền và nghĩa vụ, kể cả trong quan hệ tài sản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong quan hệ LAO ĐỘNG, người lao động và người sử dụng lao động bình đẳng trên cơ sở:",
+      "options": [
+        "Hợp đồng lao động được kí kết tự nguyện giữa hai bên, phù hợp với quy định của pháp luật",
+        "Người sử dụng lao động được toàn quyền quyết định mọi vấn đề",
+        "Người lao động không có quyền thương lượng",
+        "Mọi quan hệ đều do Nhà nước quyết định"
+      ],
+      "answer": 0,
+      "hint": "Hợp đồng lao động là cơ sở pháp lí cho quan hệ lao động bình đẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quyền TỰ DO NGÔN LUẬN của công dân được hiểu là:",
+      "options": [
+        "Công dân có quyền tự do phát biểu ý kiến, bày tỏ quan điểm trong khuôn khổ pháp luật",
+        "Công dân được nói bất cứ điều gì mình muốn, kể cả vu khống, xúc phạm người khác",
+        "Chỉ cán bộ nhà nước mới được phát biểu",
+        "Công dân được phép xuyên tạc sự thật"
+      ],
+      "answer": 0,
+      "hint": "Quyền tự do ngôn luận có giới hạn — phải trong khuôn khổ pháp luật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quyền BẤT KHẢ XÂM PHẠM về THÂN THỂ của công dân nghĩa là:",
+      "options": [
+        "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát (trừ trường hợp phạm tội quả tang)",
+        "Công dân không phải tuân thủ pháp luật",
+        "Công dân được tự ý xử lí kẻ trộm",
+        "Mọi người có thể bị bắt bất cứ lúc nào"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp 2013 quy định: việc bắt người phải đúng trình tự pháp luật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "NGHĨA VỤ nào sau đây là nghĩa vụ cơ bản của công dân Việt Nam?",
+      "options": [
+        "Trung thành và bảo vệ Tổ quốc, tuân theo Hiến pháp và pháp luật, nộp thuế, học tập, bảo vệ môi trường",
+        "Phải đi du học bắt buộc",
+        "Phải sở hữu một doanh nghiệp",
+        "Không có nghĩa vụ gì"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp quy định các nghĩa vụ cơ bản của công dân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Chị B và anh C cùng làm một công việc với năng suất như nhau nhưng chị B bị trả lương thấp hơn chỉ vì là nữ. Hành vi này vi phạm quyền BÌNH ĐẲNG trong lĩnh vực nào?",
+      "options": [
+        "Lao động",
+        "Hôn nhân và gia đình",
+        "Kinh doanh",
+        "Tín ngưỡng, tôn giáo"
+      ],
+      "answer": 0,
+      "hint": "Trả lương khác nhau cho cùng công việc, năng suất như nhau chỉ vì giới tính là vi phạm bình đẳng trong LAO ĐỘNG."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Anh A bị doanh nghiệp đơn phương chấm dứt hợp đồng lao động TRÁI PHÁP LUẬT. Anh A có thể làm gì để bảo vệ quyền lợi của mình?",
+      "options": [
+        "Khiếu nại đến cơ quan có thẩm quyền hoặc khởi kiện ra Tòa án",
+        "Phải tự gánh chịu thiệt hại mà không được pháp luật bảo vệ",
+        "Phải bồi thường cho doanh nghiệp",
+        "Bị tước quyền công dân vĩnh viễn"
+      ],
+      "answer": 0,
+      "hint": "Người lao động có quyền khiếu nại / khởi kiện khi bị xâm phạm quyền lợi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Anh D điều khiển xe máy vượt đèn đỏ và bị cảnh sát giao thông xử phạt tiền. Trong trường hợp này, anh D phải chịu trách nhiệm pháp lí nào?",
+      "options": [
+        "Hành chính",
+        "Hình sự",
+        "Dân sự",
+        "Kỉ luật"
+      ],
+      "answer": 0,
+      "hint": "Vi phạm quy tắc giao thông bị xử phạt tiền là vi phạm hành chính → trách nhiệm hành chính."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ công dân:",
+      "statements": [
+        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử; đủ 21 tuổi trở lên có quyền ứng cử.", "answer": true },
+        { "text": "Nguyên tắc hôn nhân ở Việt Nam là tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.", "answer": true },
+        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
+        { "text": "Công dân chỉ có quyền mà không phải thực hiện bất kì nghĩa vụ nào đối với Nhà nước.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các quyền tự do cơ bản:",
+      "statements": [
+        { "text": "Quyền tự do ngôn luận của công dân được thực hiện trong khuôn khổ pháp luật.", "answer": true },
+        { "text": "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát (trừ trường hợp phạm tội quả tang).", "answer": true },
+        { "text": "Việc khám xét chỗ ở của công dân chỉ được tiến hành khi có quyết định / phê chuẩn của cơ quan có thẩm quyền và theo đúng trình tự pháp luật.", "answer": true },
+        { "text": "Công dân được phép xuyên tạc, vu khống người khác trên mạng xã hội với tư cách \"tự do ngôn luận\".", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội ở nước ta.",
+      "answer": "18",
+      "alternatives": ["mười tám"],
+      "hint": "Tuổi bầu cử ở Việt Nam: đủ 18."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Trong hôn nhân, nguyên tắc cơ bản ở nước ta là: tự nguyện, tiến bộ, một vợ một chồng, vợ chồng ___",
+      "answer": "bình đẳng",
+      "alternatives": ["binh dang"],
+      "hint": "Vợ chồng bình đẳng về quyền và nghĩa vụ."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Mọi công dân đều bình đẳng trước pháp luật, không phân biệt giới tính, dân tộc, tôn giáo, địa vị xã hội.",
+      "answer": true,
+      "hint": "Nguyên tắc \"bình đẳng trước pháp luật\" được Hiến pháp ghi nhận."
+    }
+  ]
+}
