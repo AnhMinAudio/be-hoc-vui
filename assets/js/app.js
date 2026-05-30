@@ -271,6 +271,35 @@ function mascotSVG(mood) {
   </svg>`;
 }
 
+// ===== Pet "lớn lên" cho tiểu học (UX 4C.1) =====
+// Rồng chibi 4 tier × 3 mood. Render INLINE để pet.css animate được.
+const PET_TIERS = [
+  { tier: 1, min: 0,   name: 'Trứng' },
+  { tier: 2, min: 50,  name: 'Bé con' },
+  { tier: 3, min: 200, name: 'Trẻ con' },
+  { tier: 4, min: 700, name: 'Trưởng thành' },
+];
+function petTierFor(stars) {
+  return PET_TIERS.slice().reverse().find(t => stars >= t.min) || PET_TIERS[0];
+}
+const _petCache = {};
+function petSVG(tier, mood = 'happy') {
+  const key = tier + '-' + mood;
+  if (!_petCache[key]) {
+    _petCache[key] = fetch('/assets/img/pet/pet-tier' + tier + '-' + mood + '.svg')
+      .then(r => r.ok ? r.text() : '').catch(() => '');
+  }
+  return _petCache[key];
+}
+// Tiện ích: chèn pet vào element (auto chờ Promise + giữ animation class). fallback mascotSVG nếu fail.
+function mountPet(el, tier, mood = 'happy') {
+  if (!el) return;
+  petSVG(tier, mood).then(svg => {
+    if (!svg) { el.innerHTML = mascotSVG(mood); return; }
+    el.innerHTML = svg;
+  });
+}
+
 // Logo-mark trong topbar: sách mở cho THCS/THPT, mặt mascot cho lứa nhỏ
 function brandMarkSVG(stage) {
   if (stage === 'thcs' || stage === 'thpt') {
@@ -981,7 +1010,9 @@ function renderWorldHome(view, world) {
     ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
     <section class="hero-pro">
       ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
-      ${mascotSVG()}
+      ${world === 'tieu-hoc' && u
+        ? `<div class="hero-pet" id="hero-pet">${mascotSVG()}</div>`
+        : mascotSVG()}
       <h1>${hero.a} <span class="accent">${hero.b}</span></h1>
       <p class="hero-sub">${hero.sub}</p>
       <div class="hero-cta">
@@ -1006,6 +1037,11 @@ function renderWorldHome(view, world) {
       ${WORLD_GRADES[world].map(g => `<a href="/lop${g}" class="grade-card${gcls}"><div class="num">${g}</div><div class="label">Lớp ${g}</div></a>`).join('')}
     </div>
   `;
+  // Pet hero cho tiểu học (4C.1) — chèn SVG inline sau khi DOM dựng xong
+  if (world === 'tieu-hoc' && u) {
+    const heroPet = view.querySelector('#hero-pet');
+    if (heroPet) mountPet(heroPet, petTierFor(Progress.getStars()).tier, 'happy');
+  }
 }
 
 function dailyCard(grade, s, today, review) {
@@ -1556,10 +1592,13 @@ function renderAchievements(view) {
   const stats = Progress.getStats();
   const av = Progress.getAvatar() || '📚';
   const earnedCount = BADGES.filter(b => b.earned(stats)).length;
+  const isTieuHoc = homeWorld() === 'tieu-hoc' && Auth.isLoggedIn();
   view.innerHTML = `
     <a href="/" class="back-btn">← Về trang chủ</a>
     <div class="result-card" style="margin-bottom:20px">
-      <div style="font-size:4.5rem">${av}</div>
+      ${isTieuHoc
+        ? `<div class="achv-pet" id="achv-pet" style="margin:0 auto 8px;width:140px;height:140px"></div>`
+        : `<div style="font-size:4.5rem">${av}</div>`}
       <div class="result-title">Thành tích của bé</div>
       <div class="achv-stats">
         <div class="achv-stat"><div class="n">⭐ ${stats.stars}</div><div class="l">Tổng sao</div></div>
@@ -1607,6 +1646,10 @@ function renderAchievements(view) {
       navTo('/');
     }
   };
+  if (isTieuHoc) {
+    const el = view.querySelector('#achv-pet');
+    if (el) mountPet(el, petTierFor(stats.stars).tier, 'happy');
+  }
 }
 
 // ===== Bảng xếp hạng =====
@@ -2112,7 +2155,7 @@ async function renderExercise(view, id) {
 
       view.innerHTML = `
         <div class="result-card wow-card">
-          <div class="result-mascot">${mascotSVG(mascotMood)}</div>
+          <div class="result-mascot" id="result-mascot">${mascotSVG(mascotMood)}</div>
           <div class="wow-zone wow-zone-1">
             <div class="wow-rating" aria-label="${percent}/100">${ratingStars}</div>
             <div class="wow-score-big"><span id="wow-num">0</span><span class="of">/${total}</span></div>
@@ -2137,6 +2180,11 @@ async function renderExercise(view, id) {
 
       // Animate đếm điểm 0 → score
       animateCount(view.querySelector('#wow-num'), score, 800);
+      // Pet cho tiểu học: thay mascot generic bằng pet tier hiện tại (mood theo điểm)
+      if (homeWorld() === 'tieu-hoc' && Auth.isLoggedIn()) {
+        const petEl = view.querySelector('#result-mascot');
+        if (petEl) mountPet(petEl, petTierFor(Progress.getStars()).tier, mascotMood);
+      }
 
       // CTA wiring
       view.querySelector('#retry-btn').onclick = () => renderExercise(view, id);
