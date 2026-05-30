@@ -150,6 +150,34 @@ Phân số `$\\frac{a}{b}$`, lũy thừa `$x^2$`, căn `$\\sqrt{16}$`, khác `$\
   { "type": "multiple-choice", "passage": "Lan is a student...", "question": "How does Lan go to school? (...)", "options": ["By bike", "By bus"], "answer": 0 }
   ```
 
+**Loại câu sắp xếp (ordering) — chủ yếu cho Lịch sử (mốc thời gian), Toán (bước giải), Sinh (chuỗi tiến hóa):**
+- Học sinh kéo-thả (chuột/cảm ứng) hoặc dùng nút ▲▼/bàn phím để xếp 3–6 thẻ theo đúng trình tự, rồi bấm "Kiểm tra".
+- `items`: mỗi thẻ có `id` duy nhất trong câu + `label` (hỗ trợ KaTeX `$...$`) + tùy chọn `icon` (emoji) và `year`.
+- `correctOrder`: mảng `id` theo đúng thứ tự. Hiện CHỈ chấp nhận 1 thứ tự đúng (nếu 2 sự kiện cùng năm, vẫn phải khớp `correctOrder`).
+- `hideMeta` (tùy chọn): danh sách field ẩn khi làm bài, hiện lại sau khi chấm (hiện hỗ trợ `"year"`).
+  ```json
+  {
+    "type": "ordering",
+    "question": "Sắp xếp các sự kiện sau theo đúng trình tự thời gian:",
+    "items": [
+      { "id": "cmtt", "label": "Cách mạng tháng Tám", "year": "1945", "icon": "🇻🇳" },
+      { "id": "dbp",  "label": "Chiến dịch Điện Biên Phủ", "year": "1954", "icon": "🎖️" },
+      { "id": "30-4", "label": "Đại thắng 30/4", "year": "1975", "icon": "🌟" }
+    ],
+    "correctOrder": ["cmtt", "dbp", "30-4"],
+    "hideMeta": ["year"],
+    "hint": "..."
+  }
+  ```
+
+**Hình ảnh trong câu hỏi (mọi loại trừ image-choice mầm non):**
+- Thêm trường `image` (URL ảnh, vd `/assets/img/diagrams/sinh-hoc/cau-truc-dna.svg`) và `imageAlt` (mô tả ngắn).
+- Click vào ảnh sẽ mở modal phóng to (pinch-zoom trên mobile).
+  ```json
+  { "type": "multiple-choice", "image": "/assets/img/diagrams/vat-li/mach-dien-don-gian.svg", "imageAlt": "Mạch điện đơn giản gồm pin, bóng đèn, công tắc", "question": "...", "options": [...], "answer": 0 }
+  ```
+- Thư viện SVG có sẵn: `assets/img/diagrams/<môn>/<tên>.svg` (40 file, 10 Vật lí + 10 Hóa + 10 Sinh + 10 Toán).
+
 **Tiếng Anh THCS:** vẫn theo quy tắc song ngữ (câu hỏi Anh + nghĩa Việt trong ngoặc; đáp án giữ nguyên). Đoạn đọc hiểu là đoạn tiếng Anh ngắn đúng trình độ.
 
 **Lưu ý:** Toán THCS (đại số/hình học) đa phần KHÔNG tự kiểm được đáp án → soạn cẩn thận, tự giải lại từng câu.

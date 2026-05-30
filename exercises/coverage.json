@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T08:35:00.836Z",
+  "generatedAt": "2026-05-30T10:18:25.700Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1383,8 +1383,8 @@
         ]
       },
       "8": {
-        "exerciseCount": 6,
-        "totalQuestions": 102,
+        "exerciseCount": 7,
+        "totalQuestions": 104,
         "topics": [
           {
             "id": "thcs-toan-l8-de-thi-thu-cuoi-ky-2",
@@ -1420,6 +1420,12 @@
             "id": "thcs-toan-l8-on-tap-giua-ky-1",
             "topic": "Ôn tập giữa kỳ 1 — Toán 8",
             "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "toan-l8-sap-xep-buoc-giai-pt",
+            "topic": "Sắp xếp các bước giải phương trình bậc nhất",
+            "questionCount": 2,
             "difficulty": 2
           }
         ]
@@ -2279,14 +2285,20 @@
         ]
       },
       "12": {
-        "exerciseCount": 3,
-        "totalQuestions": 49,
+        "exerciseCount": 4,
+        "totalQuestions": 51,
         "topics": [
           {
             "id": "thpt-lich-su-l12-on-tap",
             "topic": "Ôn tập Lịch sử 12",
             "questionCount": 17,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-lich-su-l12-sap-xep-su-kien",
+            "topic": "Sắp xếp sự kiện lịch sử Việt Nam 1945–1975",
+            "questionCount": 2,
+            "difficulty": 2
           },
           {
             "id": "thpt-lich-su-l12-the-gioi-asean",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T08:35:00.836Z",
+  "generatedAt": "2026-05-30T10:18:25.700Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -1200,6 +1200,19 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/lich-su.json"
+    },
+    {
+      "id": "thpt-lich-su-l12-sap-xep-su-kien",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 12,
+      "topic": "Sắp xếp sự kiện lịch sử Việt Nam 1945–1975",
+      "chapter": "Lịch sử Việt Nam hiện đại",
+      "difficulty": 2,
+      "questionCount": 2,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thpt/lop12/lich-su-sap-xep-su-kien.json"
     },
     {
       "id": "thpt-lich-su-l12-the-gioi-asean",
@@ -4540,6 +4553,19 @@
       ],
       "timeLimit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-1-toan8.json"
+    },
+    {
+      "id": "toan-l8-sap-xep-buoc-giai-pt",
+      "stage": "thcs",
+      "subject": "toan",
+      "grade": 8,
+      "topic": "Sắp xếp các bước giải phương trình bậc nhất",
+      "chapter": "Chương 3: Phương trình bậc nhất một ẩn",
+      "difficulty": 2,
+      "questionCount": 2,
+      "outcomes": [],
+      "timeLimit": null,
+      "path": "thcs/lop8/toan-sap-xep-buoc-giai-pt.json"
     },
     {
       "id": "thcs-toan-l9-can-bac-hai-va-ham-so",

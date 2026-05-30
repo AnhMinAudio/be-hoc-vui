@@ -1578,6 +1578,7 @@ async function renderExercise(view, id) {
       else if (q.type === 'matching') card = Matching.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'true-false') card = TrueFalse.render(q, currentIdx, onAnswer, mode);
       else if (q.type === 'true-false-group') card = TrueFalseGroup.render(q, currentIdx, onAnswer, mode);
+      else if (q.type === 'ordering') card = OrderingQuestion.render(q, currentIdx, onAnswer, mode);
       else { view.innerHTML += `<div class="empty">Loại câu chưa hỗ trợ: ${q.type}</div>`; return; }
       view.appendChild(card);
       Media.renderMath(card);

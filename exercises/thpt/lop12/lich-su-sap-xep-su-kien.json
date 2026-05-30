@@ -1,0 +1,39 @@
+{
+  "id": "thpt-lich-su-l12-sap-xep-su-kien",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 12,
+  "topic": "Sắp xếp sự kiện lịch sử Việt Nam 1945–1975",
+  "chapter": "Lịch sử Việt Nam hiện đại",
+  "difficulty": 2,
+  "questions": [
+    {
+      "type": "ordering",
+      "level": "VD",
+      "question": "Sắp xếp các sự kiện sau theo đúng trình tự thời gian (sớm nhất ở trên):",
+      "items": [
+        { "id": "cmtt", "label": "Cách mạng tháng Tám thành công", "year": "1945", "icon": "🇻🇳" },
+        { "id": "dbp",  "label": "Chiến dịch Điện Biên Phủ toàn thắng", "year": "1954", "icon": "🎖️" },
+        { "id": "genv", "label": "Hiệp định Genève được ký kết", "year": "1954", "icon": "📜" },
+        { "id": "30-4", "label": "Đại thắng 30/4 giải phóng miền Nam", "year": "1975", "icon": "🌟" }
+      ],
+      "correctOrder": ["cmtt", "dbp", "genv", "30-4"],
+      "hideMeta": ["year"],
+      "hint": "Cách mạng tháng Tám (1945) mở đầu; Điện Biên Phủ (5/1954) thắng lợi rồi Hiệp định Genève (7/1954) mới được ký; thống nhất đất nước năm 1975."
+    },
+    {
+      "type": "ordering",
+      "level": "VD",
+      "question": "Sắp xếp các mốc mở đầu cuộc kháng chiến chống Pháp theo thứ tự thời gian:",
+      "items": [
+        { "id": "tuyen-ngon", "label": "Bác Hồ đọc Tuyên ngôn Độc lập", "year": "2/9/1945", "icon": "📢" },
+        { "id": "toan-quoc",  "label": "Lời kêu gọi Toàn quốc kháng chiến", "year": "19/12/1946", "icon": "✊" },
+        { "id": "viet-bac",   "label": "Chiến dịch Việt Bắc thu – đông", "year": "1947", "icon": "🌲" },
+        { "id": "bien-gioi",  "label": "Chiến dịch Biên giới", "year": "1950", "icon": "🗺️" }
+      ],
+      "correctOrder": ["tuyen-ngon", "toan-quoc", "viet-bac", "bien-gioi"],
+      "hideMeta": ["year"],
+      "hint": "Độc lập (1945) → Toàn quốc kháng chiến (cuối 1946) → Việt Bắc (1947) → Biên giới (1950)."
+    }
+  ]
+}

@@ -105,6 +105,19 @@ function validateExercise(data) {
         if (!Array.isArray(q.statements) || q.statements.length < 2) errors.push(`câu ${n}: true-false-group cần >= 2 ý`);
         else if (q.statements.some(s => !s || typeof s.text !== 'string' || typeof s.answer !== 'boolean'))
           errors.push(`câu ${n}: mỗi ý cần {text, answer là true/false}`);
+      } else if (q.type === 'ordering') {
+        if (!Array.isArray(q.items) || q.items.length < 3 || q.items.length > 6)
+          errors.push(`câu ${n}: ordering cần 3–6 items`);
+        else if (q.items.some(it => !it || typeof it.id !== 'string' || typeof it.label !== 'string'))
+          errors.push(`câu ${n}: mỗi item ordering cần {id, label}`);
+        else {
+          const ids = q.items.map(it => it.id);
+          if (new Set(ids).size !== ids.length) errors.push(`câu ${n}: id của items ordering phải duy nhất`);
+          if (!Array.isArray(q.correctOrder) || q.correctOrder.length !== q.items.length)
+            errors.push(`câu ${n}: correctOrder phải có đủ ${q.items.length} id`);
+          else if (q.correctOrder.some(id => !ids.includes(id)))
+            errors.push(`câu ${n}: correctOrder chứa id không có trong items`);
+        }
       } else {
         errors.push(`câu ${n}: type không hỗ trợ: ${q.type}`);
       }

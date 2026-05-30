@@ -1159,6 +1159,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-lich-su-l12-sap-xep-su-kien</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-lich-su-l12-the-gioi-asean</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -1772,6 +1778,12 @@
   </url>
   <url>
     <loc>https://behocvui.id.vn/bai/toan-l5-thap-phan-phan-tram-dien-tich</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://behocvui.id.vn/bai/toan-l8-sap-xep-buoc-giai-pt</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

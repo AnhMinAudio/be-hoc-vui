@@ -1634,3 +1634,151 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 @media (prefers-reduced-motion: reduce) {
   .scratch-panel, .scratch-fab, .scratch-scrim { transition: none; }
 }
+/* ===== Feature C — Timeline kéo thả (ordering) =====
+   Đợt 3 · Bé Học Vui. Dùng 100% token sẵn có trong style.css — KHÔNG khai báo biến mới.
+   Append vào cuối assets/css/style.css. */
+
+.ordering-question { margin-top: 6px; }
+
+.ordering-help {
+  display: flex; align-items: center; gap: 8px;
+  color: var(--c-text-soft); font-size: 0.92rem; font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* Vùng cuộn khi nhiều item (>6) */
+.ordering-list {
+  display: flex; flex-direction: column; gap: 10px;
+  max-height: 70vh; overflow-y: auto;
+  /* chừa chỗ cho viền/shadow khi item nảy lên, tránh bị cắt */
+  padding: 2px;
+  list-style: none; margin: 0;
+}
+
+/* ===== Thẻ item ===== */
+.ordering-item {
+  display: flex; align-items: center; gap: 4px;
+  min-height: 56px;
+  background: var(--c-surface-2);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  padding: 8px 10px 8px 4px;
+  /* CHỈ transition transform/shadow — KHÔNG transition background/border-color vì chúng
+     dùng token đổi theo theme; Chromium giữ giá trị cũ (stale paint) khi bật/tắt dark mode.
+     Màu chấm điểm & dark mode vì vậy đổi tức thì (vẫn mượt về cảm nhận). */
+  transition: transform 0.18s var(--bounce), box-shadow 0.18s;
+  touch-action: pan-y; /* cho cuộn dọc ngoài handle; khi kéo handle ta preventDefault */
+  position: relative;
+}
+
+/* Drag handle ☰ — 44px touch target */
+.oi-handle {
+  flex-shrink: 0;
+  width: 44px; align-self: stretch;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--c-text-soft);
+  font-size: 1.25rem; line-height: 1;
+  cursor: grab;
+  border-radius: var(--radius-sm);
+  touch-action: none; /* handle: ta tự xử lý kéo */
+  -webkit-user-select: none; user-select: none;
+}
+.oi-handle:hover { color: var(--c-primary); background: color-mix(in srgb, var(--c-primary) 10%, transparent); }
+.oi-handle:active { cursor: grabbing; }
+
+.oi-icon { flex-shrink: 0; font-size: 1.4rem; line-height: 1; width: 32px; text-align: center; }
+
+.oi-body { flex: 1; min-width: 0; }
+.oi-label {
+  font-weight: 700; font-size: 1.02rem; line-height: 1.3;
+  text-wrap: pretty;
+}
+.oi-meta {
+  margin-top: 2px; font-size: 0.86rem; font-weight: 700;
+  font-family: var(--font-num); color: var(--c-text-soft);
+  max-height: 0; opacity: 0; overflow: hidden;
+}
+.ordering-item.revealed .oi-meta { max-height: 2em; opacity: 1; margin-top: 3px; }
+.oi-note { margin-left: 8px; color: var(--c-wrong); font-weight: 700; font-family: var(--font-body); }
+
+/* Nút ▲ ▼ */
+.oi-nudge { flex-shrink: 0; display: flex; flex-direction: column; gap: 6px; padding-right: 4px; }
+.oi-nudge button {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--c-card);
+  border: 1.5px solid var(--c-border);
+  color: var(--c-text-soft);
+  font-size: 0.85rem; line-height: 1;
+  transition: transform 0.12s;
+}
+.oi-nudge button:hover:not(:disabled) { background: var(--c-primary-soft); color: var(--c-primary-dark); border-color: var(--c-primary); }
+.oi-nudge button:active:not(:disabled) { transform: scale(0.9); }
+.oi-nudge button:disabled { opacity: 0.32; cursor: not-allowed; }
+
+/* Badge ✓ / ✗ (ẩn cho tới khi chấm) */
+.oi-mark {
+  flex-shrink: 0; width: 0; opacity: 0; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.05rem; font-weight: 800;
+}
+.ordering-item.correct .oi-mark,
+.ordering-item.wrong .oi-mark { width: 26px; opacity: 1; }
+
+/* ===== States ===== */
+/* Đang kéo (nguồn) */
+.ordering-item.dragging { opacity: 0.45; }
+/* "Nhấc lên" (touch long-press hoặc keyboard grab) */
+.ordering-item.lifted,
+.ordering-item.grabbed {
+  background: var(--c-card);
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-lg);
+  transform: scale(1.02);
+  z-index: 5;
+}
+.ordering-item.grabbed { outline: 2px dashed var(--c-primary); outline-offset: 2px; }
+.ordering-item:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; }
+
+/* Chấm điểm */
+.ordering-item.correct { border-color: var(--c-correct); background: var(--c-correct-soft); }
+.ordering-item.correct .oi-mark { color: var(--c-correct); }
+.ordering-item.wrong { border-color: var(--c-wrong); background: var(--c-wrong-soft); }
+.ordering-item.wrong .oi-mark { color: var(--c-wrong); }
+/* Sau khi chấm: khoá tương tác sắp xếp */
+.ordering-list.locked .oi-handle { cursor: default; }
+.ordering-list.locked .oi-nudge,
+.ordering-list.locked .oi-handle { pointer-events: none; opacity: 0.85; }
+
+/* Đường gợi ý vị trí thả (giữa 2 thẻ) */
+.ordering-drop-line {
+  height: 3px; margin: -6px 4px; border-radius: 3px;
+  background: var(--c-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--c-primary) 25%, transparent);
+}
+
+/* Hàng nút Kiểm tra */
+.ordering-actions { display: flex; justify-content: center; margin-top: 18px; }
+
+/* a11y live region (ẩn nhìn, screen reader đọc) */
+.ordering-sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Mobile: thân thiện ngón cái */
+@media (max-width: 560px) {
+  .oi-label { font-size: 0.98rem; }
+  .oi-icon { width: 26px; font-size: 1.25rem; }
+}
+
+/* Tôn trọng prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .ordering-item,
+  .oi-meta,
+  .oi-mark,
+  .oi-nudge button { transition: none; }
+  .ordering-item.lifted,
+  .ordering-item.grabbed { transform: none; }
+}
