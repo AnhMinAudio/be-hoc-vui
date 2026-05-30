@@ -309,6 +309,41 @@ function mascotSVG(mood) {
   </svg>`;
 }
 
+// ===== Thử thách tuần (UX 4D.3) =====
+// Đề khó nhất tuần (theo grade), pick deterministic theo (week, grade) để cả tuần cùng 1 đề.
+// User làm xong + đúng ≥ 80% → +50 sao bonus (1 lần/tuần/đề).
+function isoWeekKey(date) {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const wk = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+  return d.getUTCFullYear() + '-W' + String(wk).padStart(2, '0');
+}
+function getWeekChallenge(grade) {
+  if (!CATALOG || !Array.isArray(CATALOG.exercises) || !grade) return null;
+  // Pool: cùng grade + khó (difficulty ≥ 3 HOẶC có VDC HOẶC là đề thi thử)
+  const pool = CATALOG.exercises.filter(e => {
+    if (e.grade !== grade) return false;
+    if (e.difficulty >= 3) return true;
+    if (e.timeLimit) return true; // đề thi thử
+    return false;
+  });
+  if (!pool.length) return null;
+  const week = isoWeekKey(new Date());
+  const seed = week + ':' + grade;
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = ((h << 5) - h + seed.charCodeAt(i)) | 0;
+  return pool[Math.abs(h) % pool.length];
+}
+function weeklyChallengeStatus(grade) {
+  const ch = getWeekChallenge(grade);
+  if (!ch) return null;
+  const data = Progress.load();
+  const week = isoWeekKey(new Date());
+  const done = data.weeklyChallenges && data.weeklyChallenges[week] && data.weeklyChallenges[week].exId === ch.id;
+  return { challenge: ch, week, done: !!done };
+}
+
 // ===== Pet "lớn lên" cho tiểu học (UX 4C.1) =====
 // Rồng chibi 4 tier × 3 mood. Render INLINE để pet.css animate được.
 const PET_TIERS = [
@@ -1158,6 +1193,25 @@ function renderDailyHomeSection() {
       </div>
     </div>${extra || ''}`;
 
+  // Thử thách tuần (4D.3)
+  const wcStatus = u ? weeklyChallengeStatus(u.grade) : null;
+  const wcHTML = wcStatus ? (wcStatus.done
+    ? `<div class="weekly-challenge done">
+        <span class="wc-icon">✅</span>
+        <div class="wc-body">
+          <div class="wc-title">Thử thách tuần ${wcStatus.week}</div>
+          <div class="wc-sub">Hoàn thành! +50 sao bonus đã ghi nhận 🌟</div>
+        </div>
+      </div>`
+    : `<a href="/bai/${wcStatus.challenge.id}" class="weekly-challenge">
+        <span class="wc-icon">🏅</span>
+        <div class="wc-body">
+          <div class="wc-title">Thử thách tuần ${wcStatus.week}</div>
+          <div class="wc-sub">${escapeHtml(wcStatus.challenge.topic)} · ${(SUBJECTS[wcStatus.challenge.subject] || {}).name || wcStatus.challenge.subject} · đạt ≥ 80% nhận <b>+50 sao</b></div>
+        </div>
+        <span class="wc-go">→</span>
+      </a>`) : '';
+
   if (u) {
     const grade = u.grade;
     const subs = Daily.subjectsForGrade(grade);
@@ -1182,6 +1236,7 @@ function renderDailyHomeSection() {
     return `
     <section class="daily-section">
       ${head(grade)}
+      ${wcHTML}
       ${summary}
       ${hasMain ? `<div class="daily-grid">${mainCards}</div>` : ''}
       ${hasBelow ? `<h3 class="daily-sub">📖 Ôn lại Lớp ${below} <small>(để nắm chắc kiến thức — không tính thành tích)</small></h3><div class="daily-grid">${belowCards}</div>` : ''}
@@ -2602,6 +2657,23 @@ async function renderExercise(view, id) {
           // Social proof: chỉ POST khi lần ĐẦU hoàn thành đề (tránh dupe khi replay)
           if (meta && meta.wasFirst) {
             Auth.recordStat({ exId: exercise.id, score, total, timeMs: elapsedMs });
+          }
+          // Thử thách tuần (4D.3): nếu đề này là challenge tuần + đúng ≥ 80% + chưa nhận
+          // → cộng 50 sao bonus + ghi nhận để không trùng.
+          const u = Auth.getUser();
+          if (u && percent >= 80) {
+            const wc = getWeekChallenge(u.grade);
+            if (wc && wc.id === exercise.id) {
+              const week = isoWeekKey(new Date());
+              const pdata = Progress.load();
+              if (!pdata.weeklyChallenges) pdata.weeklyChallenges = {};
+              if (!pdata.weeklyChallenges[week] || pdata.weeklyChallenges[week].exId !== wc.id) {
+                pdata.weeklyChallenges[week] = { exId: wc.id, completedAt: Date.now(), bonus: 50 };
+                Progress.save(pdata);
+                Progress.addStars(50);
+                setTimeout(() => showToast('🏅 Thử thách tuần — +50 sao bonus!', 3500), 1200);
+              }
+            }
           }
           // Pet evolve check (chỉ tiểu học)
           if (homeWorld() === 'tieu-hoc') {

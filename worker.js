@@ -543,5 +543,14 @@ function mergeProgress(a, b) {
   const sud = new Set([...(a.shieldUsedDays || []), ...(b.shieldUsedDays || [])]);
   out.shieldUsedDays = [...sud];
 
+  // weeklyChallenges: union theo key '2026-Wxx'; conflict → giữ entry hoàn thành SỚM hơn
+  out.weeklyChallenges = {};
+  const wcKeys = new Set([...Object.keys(a.weeklyChallenges || {}), ...Object.keys(b.weeklyChallenges || {})]);
+  for (const k of wcKeys) {
+    const wa = (a.weeklyChallenges || {})[k], wb = (b.weeklyChallenges || {})[k];
+    if (wa && wb) out.weeklyChallenges[k] = (wa.completedAt || 0) <= (wb.completedAt || 0) ? wa : wb;
+    else out.weeklyChallenges[k] = wa || wb;
+  }
+
   return out;
 }

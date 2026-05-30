@@ -2656,3 +2656,24 @@ body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circl
   border: 1px solid color-mix(in srgb, #66BB6A 30%, transparent);
   white-space: nowrap;
 }
+
+/* Thử thách tuần (UX 4D.3) */
+.weekly-challenge {
+  display: flex; align-items: center; gap: 14px;
+  margin: 10px 0; padding: 14px 18px;
+  background: linear-gradient(135deg, color-mix(in srgb, #F0B429 10%, var(--c-card)), var(--c-card));
+  border: 1px solid color-mix(in srgb, #F0B429 30%, transparent);
+  border-radius: var(--radius-md);
+  text-decoration: none; color: inherit;
+  box-shadow: 0 2px 8px color-mix(in srgb, #F0B429 12%, transparent);
+  transition: transform .15s;
+}
+.weekly-challenge:hover { transform: translateY(-1px); box-shadow: 0 4px 12px color-mix(in srgb, #F0B429 22%, transparent); }
+.weekly-challenge.done { background: color-mix(in srgb, var(--c-correct) 8%, var(--c-card)); border-color: color-mix(in srgb, var(--c-correct) 30%, transparent); cursor: default; }
+.weekly-challenge.done:hover { transform: none; }
+.wc-icon { font-size: 2rem; line-height: 1; }
+.wc-body { flex: 1; min-width: 0; }
+.wc-title { font-weight: 800; color: var(--c-text); font-size: 1rem; }
+.wc-sub { font-size: .85rem; color: var(--c-text-soft); margin-top: 2px; line-height: 1.4; }
+.wc-sub b { color: #B8860B; }
+.wc-go { font-weight: 800; color: #B8860B; font-size: 1.4rem; }
