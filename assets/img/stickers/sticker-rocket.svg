@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" stroke-linejoin="round" stroke-linecap="round"><title>Tên lửa</title><ellipse cx="70" cy="128" rx="30" ry="6" fill="#000" opacity=".08"></ellipse>
+<path d="M70 24 q22 18 22 46 l-12 14 h-20 l-12 -14 q0 -28 22 -46z" fill="#FAFAFA" stroke="#3A2A33" stroke-width="3"></path>
+<path d="M70 24 q14 12 18 30 h-36 q4 -18 18 -30z" fill="#EF5350" stroke="#3A2A33" stroke-width="3"></path>
+<circle cx="70" cy="62" r="9" fill="#90CAF9" stroke="#3A2A33" stroke-width="3"></circle>
+<path d="M58 78 l-12 12 6 -22z" fill="#EF5350" stroke="#3A2A33" stroke-width="3"></path>
+<path d="M82 78 l12 12 -6 -22z" fill="#EF5350" stroke="#3A2A33" stroke-width="3"></path>
+<path d="M62 84 h16 l-4 18 -4 8 -4 -8z" fill="#FFB300" stroke="#3A2A33" stroke-width="2.4"></path>
+<path d="M67 88 h6 l-1.5 12 -1.5 4 -1.5 -4z" fill="#FFEB3B"></path>
+<path d="M38.0,33.0 L39.8,37.6 L44.7,37.8 L40.9,40.9 L42.1,45.7 L38.0,43.0 L33.9,45.7 L35.1,40.9 L31.3,37.8 L36.2,37.6 Z" fill="#FFC93C"></path><path d="M104.0,46.0 L105.5,49.9 L109.7,50.1 L106.5,52.8 L107.5,56.9 L104.0,54.6 L100.5,56.9 L101.5,52.8 L98.3,50.1 L102.5,49.9 Z" fill="#FFC93C"></path></svg>

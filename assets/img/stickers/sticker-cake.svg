@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" stroke-linejoin="round" stroke-linecap="round"><title>Bánh ngọt</title><ellipse cx="70" cy="128" rx="30" ry="6" fill="#000" opacity=".08"></ellipse>
+<rect x="38" y="80" width="64" height="30" rx="6" fill="#FFE0B2" stroke="#3A2A33" stroke-width="3"></rect>
+<path d="M38 84 q8 10 16 0 t16 0 t16 0 t16 0 v-6 h-64z" fill="#F8BBD0" stroke="#3A2A33" stroke-width="3"></path>
+<rect x="66" y="50" width="8" height="22" rx="2" fill="#FFF" stroke="#3A2A33" stroke-width="2.4"></rect>
+<path d="M70 36 q7 8 0 14 q-7 -6 0 -14z" fill="#FFB300" stroke="#3A2A33" stroke-width="2"></path>
+<circle cx="52" cy="94" r="3" fill="#EF5350"></circle><circle cx="70" cy="98" r="3" fill="#AB47BC"></circle><circle cx="88" cy="94" r="3" fill="#EF5350"></circle></svg>

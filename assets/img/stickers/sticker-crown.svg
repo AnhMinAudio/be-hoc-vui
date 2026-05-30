@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" stroke-linejoin="round" stroke-linecap="round"><title>Vương miện</title><ellipse cx="70" cy="128" rx="30" ry="6" fill="#000" opacity=".08"></ellipse>
+<path d="M34 92 l-6 -42 24 20 18 -30 18 30 24 -20 -6 42z" fill="#FFC93C" stroke="#3A2A33" stroke-width="3"></path>
+<rect x="34" y="92" width="72" height="14" rx="4" fill="#FFB300" stroke="#3A2A33" stroke-width="3"></rect>
+<circle cx="70" cy="56" r="6" fill="#EF5350" stroke="#3A2A33" stroke-width="2.4"></circle>
+<circle cx="30" cy="50" r="4" fill="#fff" stroke="#3A2A33" stroke-width="2"></circle><circle cx="110" cy="50" r="4" fill="#fff" stroke="#3A2A33" stroke-width="2"></circle>
+<circle cx="52" cy="99" r="2.6" fill="#42A5F5"></circle><circle cx="70" cy="99" r="2.6" fill="#66BB6A"></circle><circle cx="88" cy="99" r="2.6" fill="#42A5F5"></circle></svg>

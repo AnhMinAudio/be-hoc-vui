@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" stroke-linejoin="round" stroke-linecap="round"><title>Cầu vồng</title><ellipse cx="70" cy="128" rx="30" ry="6" fill="#000" opacity=".08"></ellipse>
+<path d="M30 104 a40 40 0 0 1 80 0" fill="none" stroke="#EF5350" stroke-width="5"></path><path d="M35 104 a35 35 0 0 1 70 0" fill="none" stroke="#FF9800" stroke-width="5"></path><path d="M40 104 a30 30 0 0 1 60 0" fill="none" stroke="#FFCA28" stroke-width="5"></path><path d="M45 104 a25 25 0 0 1 50 0" fill="none" stroke="#66BB6A" stroke-width="5"></path><path d="M50 104 a20 20 0 0 1 40 0" fill="none" stroke="#42A5F5" stroke-width="5"></path><path d="M55 104 a15 15 0 0 1 30 0" fill="none" stroke="#5C6BC0" stroke-width="5"></path>
+<ellipse cx="32" cy="104" rx="16" ry="11" fill="#fff" stroke="#3A2A33" stroke-width="3"></ellipse>
+<ellipse cx="108" cy="104" rx="16" ry="11" fill="#fff" stroke="#3A2A33" stroke-width="3"></ellipse></svg>

@@ -1588,9 +1588,9 @@ function renderAchievements(view) {
           ${catalog.map(s => {
             const got = owned[s.key];
             return `<div class="sticker-card tier-${s.tier} ${got ? 'earned' : 'locked'}" title="${s.hint}">
-              <div class="sticker-emoji">${got ? s.emoji : '❔'}</div>
+              <img class="sticker-art" src="/assets/img/stickers/sticker-${s.key}.svg" alt="${s.name}" width="84" height="84" loading="lazy">
               <div class="sticker-name">${got ? s.name : '???'}</div>
-              <div class="sticker-hint">${got ? ('Nhận ' + got) : s.hint}</div>
+              <div class="sticker-date">${got ? ('Nhận ' + got) : ('🔒 ' + s.hint)}</div>
             </div>`;
           }).join('')}
         </div>
@@ -2121,7 +2121,7 @@ async function renderExercise(view, id) {
             ${currentStreak > 0 ? `<div class="wow-streak ${streakTicked ? 'tick' : ''}" aria-label="Chuỗi ngày học liên tiếp ${currentStreak}">🔥 ${currentStreak} ngày liên tiếp${streakTicked ? ' ✨ +1' : ''}</div>` : ''}
             ${earnedStickers.length ? `<div class="wow-stickers">
               <div class="ws-title">🎁 Bạn nhận được sticker mới!</div>
-              <div class="ws-list">${earnedStickers.map((s, i) => `<div class="ws-pop" style="animation-delay:${(0.4 + i * 0.15).toFixed(2)}s"><div class="ws-emoji">${s.emoji}</div><div class="ws-name">${s.name}</div></div>`).join('')}</div>
+              <div class="ws-list">${earnedStickers.map((s, i) => `<div class="ws-pop" style="animation-delay:${(0.4 + i * 0.15).toFixed(2)}s"><div class="ws-emoji"><img class="sticker-art" src="/assets/img/stickers/sticker-${s.key}.svg" alt="${s.name}" width="64" height="64"></div><div class="ws-name">${s.name}</div></div>`).join('')}</div>
               <a href="/thanh-tich" class="ws-more">Xem bộ sưu tập →</a>
             </div>` : ''}
             <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>

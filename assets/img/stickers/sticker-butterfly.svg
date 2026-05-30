@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" stroke-linejoin="round" stroke-linecap="round"><title>Cánh bướm</title><ellipse cx="70" cy="128" rx="30" ry="6" fill="#000" opacity=".08"></ellipse>
+<ellipse cx="70" cy="74" rx="5" ry="22" fill="#3A2A33"></ellipse>
+<path d="M68 56 q-30 -26 -40 4 q-4 22 38 14z" fill="#FFCA28" stroke="#3A2A33" stroke-width="3"></path>
+<path d="M72 56 q30 -26 40 4 q4 22 -38 14z" fill="#FFCA28" stroke="#3A2A33" stroke-width="3"></path>
+<path d="M68 78 q-22 4 -30 20 q-2 14 30 2z" fill="#FF8A65" stroke="#3A2A33" stroke-width="3"></path>
+<path d="M72 78 q22 4 30 20 q2 14 -30 2z" fill="#FF8A65" stroke="#3A2A33" stroke-width="3"></path>
+<circle cx="46" cy="60" r="5" fill="#fff" opacity=".7"></circle><circle cx="94" cy="60" r="5" fill="#fff" opacity=".7"></circle>
+<path d="M68 54 q-6 -16 -14 -18 M72 54 q6 -16 14 -18" fill="none" stroke="#3A2A33" stroke-width="2.4"></path></svg>

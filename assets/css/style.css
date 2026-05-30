@@ -2159,3 +2159,68 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
   .ordering-item.lifted,
   .ordering-item.grabbed { transform: none; }
 }
+
+/* ===== 4C.5 — Khung sticker theo tier — Bé Học Vui =====
+   Nâng cấp .sticker-card. Sticker là tài sản user → khung dùng màu CỐ ĐỊNH,
+   KHÔNG đổi theo data-stage. Vẫn đọc được trên nền sáng & tối. */
+
+.sticker-card {
+  position: relative;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 14px 10px 12px;
+  border-radius: 18px;
+  text-align: center;
+  isolation: isolate;
+}
+.sticker-card .sticker-art { width: 84px; height: 84px; display: block; }
+.sticker-card.locked .sticker-art { filter: grayscale(1) opacity(.32); }
+.sticker-card .sticker-name { font-family: var(--font-display, sans-serif); font-weight: 700; font-size: .82rem; line-height: 1.2; color: var(--c-text, #333); }
+.sticker-card .sticker-date { font-size: .68rem; color: var(--c-text-soft, #888); font-family: var(--font-num, monospace); }
+
+/* ---- Common: viền tròn đơn giản, nền kem ---- */
+.sticker-card.tier-common {
+  background: #FFFDF5;
+  border: 2px solid #E7DCC0;
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,.05));
+}
+
+/* ---- Rare: viền glow xanh, nền xanh nhạt ---- */
+.sticker-card.tier-rare {
+  background: linear-gradient(160deg, #EEF5FF, #DCEBFF);
+  border: 2px solid #7FB0FF;
+  box-shadow: 0 0 0 3px rgba(80, 150, 255, .16), 0 4px 14px rgba(80, 150, 255, .22);
+}
+
+/* ---- Legendary: khung ornate vàng-cam + tia sáng nền ---- */
+.sticker-card.tier-legendary {
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255, 214, 102, .55), transparent 62%),
+    linear-gradient(160deg, #FFF7E0, #FFE9B8);
+  border: 2px solid #F0B429;
+  box-shadow: 0 0 0 3px rgba(240, 180, 41, .22), 0 6px 18px rgba(240, 150, 20, .28);
+  overflow: hidden;
+}
+/* tia sáng toả sau sticker legendary */
+.sticker-card.tier-legendary::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: conic-gradient(from 0deg, transparent 0 14deg, rgba(255,205,90,.35) 16deg 18deg, transparent 20deg 44deg, rgba(255,205,90,.35) 46deg 48deg, transparent 50deg);
+  background-size: 100% 100%;
+  -webkit-mask: radial-gradient(circle at 50% 40%, #000 18%, transparent 60%);
+  mask: radial-gradient(circle at 50% 40%, #000 18%, transparent 60%);
+  animation: stk-rays 14s linear infinite;
+}
+/* chấm "dây trang trí" góc khung legendary */
+.sticker-card.tier-legendary::after {
+  content: ""; position: absolute; top: 7px; left: 7px; right: 7px; bottom: 7px;
+  border: 1.5px dotted rgba(216, 150, 30, .5); border-radius: 13px; pointer-events: none;
+}
+@keyframes stk-rays { to { transform: rotate(360deg); } }
+
+/* Dark mode: nền khung dịu lại, chữ sáng */
+body.theme-dark .sticker-card.tier-common { background: #201D16; border-color: #4A422E; }
+body.theme-dark .sticker-card.tier-rare { background: linear-gradient(160deg, #14233D, #182C4D); border-color: #3D6FB5; }
+body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circle at 50% 38%, rgba(180,130,30,.5), transparent 62%), linear-gradient(160deg, #2A2212, #342812); border-color: #B8862A; }
+
+@media (prefers-reduced-motion: reduce) {
+  .sticker-card.tier-legendary::before { animation: none; }
+}
