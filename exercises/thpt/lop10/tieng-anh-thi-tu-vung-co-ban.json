@@ -1,0 +1,210 @@
+{
+  "id": "thpt-tieng-anh-l10-thi-tu-vung-co-ban",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 10,
+  "topic": "Tenses, basic grammar and vocabulary (Thì, ngữ pháp cơ bản và từ vựng)",
+  "chapter": "Grammar & Vocabulary",
+  "difficulty": 2,
+  "outcomes": [
+    "Present simple, past simple, present perfect",
+    "First conditional",
+    "Family - environment vocabulary",
+    "Prepositions"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "She _____ to school every day. (Cô ấy _____ đến trường mỗi ngày.)",
+      "options": [
+        "goes",
+        "go",
+        "going",
+        "gone"
+      ],
+      "answer": 0,
+      "hint": "Chủ ngữ ngôi thứ ba số ít ở thì hiện tại đơn → động từ thêm -s/-es: she goes."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Yesterday, I _____ a new movie. (Hôm qua, tôi _____ một bộ phim mới.)",
+      "options": [
+        "watched",
+        "watch",
+        "watches",
+        "watching"
+      ],
+      "answer": 0,
+      "hint": "\"Yesterday\" báo hiệu thì quá khứ đơn → động từ có quy tắc thêm -ed: watched."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "She _____ in Hanoi since 2010. (Cô ấy _____ ở Hà Nội từ năm 2010.)",
+      "options": [
+        "has lived",
+        "live",
+        "lives",
+        "lived"
+      ],
+      "answer": 0,
+      "hint": "Trạng từ \"since\" + mốc thời gian dùng với thì hiện tại hoàn thành: has lived."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "If it _____ tomorrow, we will stay at home. (Nếu trời _____ vào ngày mai, chúng tôi sẽ ở nhà.)",
+      "options": [
+        "rains",
+        "rained",
+        "will rain",
+        "raining"
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 1: If + S + V(s/es) (hiện tại đơn), S + will + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Choose the SYNONYM of the word \"help\". (Chọn từ ĐỒNG NGHĨA với từ \"help\".)",
+      "options": [
+        "assist",
+        "ignore",
+        "harm",
+        "refuse"
+      ],
+      "answer": 0,
+      "hint": "\"help\" (giúp đỡ) đồng nghĩa với \"assist\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What do you call your father's brother? (Anh hoặc em trai của bố bạn được gọi là gì?)",
+      "options": [
+        "uncle",
+        "aunt",
+        "cousin",
+        "nephew"
+      ],
+      "answer": 0,
+      "hint": "Anh/em trai của bố hoặc mẹ trong tiếng Anh là \"uncle\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which of the following is a RENEWABLE energy source? (Nguồn năng lượng nào sau đây là TÁI TẠO?)",
+      "options": [
+        "solar energy",
+        "coal",
+        "oil",
+        "natural gas"
+      ],
+      "answer": 0,
+      "hint": "Năng lượng mặt trời (solar) là năng lượng tái tạo; than, dầu, khí đốt là không tái tạo."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "She is interested _____ music. (Cô ấy yêu thích / quan tâm _____ âm nhạc.)",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "of"
+      ],
+      "answer": 0,
+      "hint": "Cấu trúc cố định: be interested IN something."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "While I _____ TV last night, my brother called me. (Tối qua, khi tôi đang _____ TV thì anh trai gọi điện cho tôi.)",
+      "options": [
+        "was watching",
+        "watch",
+        "watched",
+        "watching"
+      ],
+      "answer": 0,
+      "hint": "Hành động đang diễn ra trong quá khứ bị một hành động khác cắt ngang → dùng thì quá khứ tiếp diễn: was/were + V-ing."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Lan is a student in Grade 10. Every morning, she gets up at 6 a.m. and helps her mother prepare breakfast. After school, she usually does her homework and plays sports with her friends. On weekends, she likes reading books and watching movies with her family.",
+      "question": "What time does Lan get up in the morning? (Lan thức dậy vào lúc mấy giờ?)",
+      "options": [
+        "At 6 a.m.",
+        "At 5 a.m.",
+        "At 7 a.m.",
+        "At 8 a.m."
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn ghi rõ: \"Every morning, she gets up at 6 a.m.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Lan is a student in Grade 10. Every morning, she gets up at 6 a.m. and helps her mother prepare breakfast. After school, she usually does her homework and plays sports with her friends. On weekends, she likes reading books and watching movies with her family.",
+      "question": "What does Lan usually do AFTER school? (Lan thường làm gì SAU giờ học?)",
+      "options": [
+        "She does her homework and plays sports with her friends",
+        "She prepares breakfast for her mother",
+        "She watches movies with her family",
+        "She goes to school again"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu: \"After school, she usually does her homework and plays sports with her friends.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Lan is a student in Grade 10. Every morning, she gets up at 6 a.m. and helps her mother prepare breakfast. After school, she usually does her homework and plays sports with her friends. On weekends, she likes reading books and watching movies with her family.",
+      "question": "What can we say about Lan? (Chúng ta có thể nói gì về Lan?)",
+      "options": [
+        "She is a hard-working student who also helps her family",
+        "She does not care about her studies",
+        "She lives alone and has no family",
+        "She never plays sports"
+      ],
+      "answer": 0,
+      "hint": "Lan dậy sớm, giúp mẹ, làm bài tập và chơi thể thao → là học sinh chăm chỉ, biết giúp đỡ gia đình."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
+      "statements": [
+        { "text": "In the present simple, the third person singular subject (he/she/it) takes a verb with -s or -es. (Ở thì hiện tại đơn, chủ ngữ ngôi thứ ba số ít đi với động từ có -s hoặc -es.)", "answer": true },
+        { "text": "The past simple tense is used for actions completed in the past. (Thì quá khứ đơn được dùng cho hành động đã hoàn thành trong quá khứ.)", "answer": true },
+        { "text": "The present perfect tense is formed by \"have/has + V-ing\". (Thì hiện tại hoàn thành được tạo bởi \"have/has + V-ing\".)", "answer": false },
+        { "text": "In a first conditional sentence, the if-clause uses the present simple. (Trong câu điều kiện loại 1, mệnh đề if dùng thì hiện tại đơn.)", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "He _____ (go) to bed early last night. (Anh ấy _____ (go) đi ngủ sớm tối qua.) — Write the correct past simple form. (Viết dạng quá khứ đơn đúng.)",
+      "answer": "went",
+      "alternatives": ["Went"],
+      "hint": "\"go\" là động từ bất quy tắc; quá khứ đơn là \"went\"."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the word: r_n_w_ble (energy). (Hoàn thành từ: r_n_w_ble — chỉ năng lượng có thể tái tạo.)",
+      "answer": "renewable",
+      "alternatives": ["Renewable"],
+      "hint": "\"renewable\" nghĩa là \"có thể tái tạo\" (renewable energy = năng lượng tái tạo)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "\"Aunt\" is the English word for your father's or mother's sister. (\"Aunt\" trong tiếng Anh là chị/em gái của bố hoặc mẹ.)",
+      "answer": true,
+      "hint": "\"aunt\" = cô, dì, bác gái; chị/em gái của bố hoặc mẹ."
+    }
+  ]
+}

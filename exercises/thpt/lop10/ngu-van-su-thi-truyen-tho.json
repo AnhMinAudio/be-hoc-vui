@@ -1,0 +1,205 @@
+{
+  "id": "thpt-ngu-van-l10-su-thi-truyen-tho",
+  "stage": "thpt",
+  "subject": "ngu-van",
+  "grade": 10,
+  "topic": "Sử thi, truyện kể dân gian và thơ ca",
+  "chapter": "Văn học dân gian & thơ trung đại",
+  "difficulty": 2,
+  "outcomes": [
+    "Đặc trưng thể loại sử thi và truyền thuyết",
+    "Sử thi Đăm Săn và sử thi nước ngoài",
+    "Thơ Đường: Lí Bạch, Đỗ Phủ, Thôi Hiệu",
+    "Thơ Nguyễn Trãi (Quốc âm thi tập)"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sử thi là tác phẩm tự sự dân gian có quy mô lớn, kể về:",
+      "options": [
+        "Những sự kiện trọng đại có ý nghĩa với cả cộng đồng, qua hình tượng người anh hùng",
+        "Cuộc sống thường ngày của một cá nhân nhỏ bé",
+        "Những câu chuyện hài hước, châm biếm thói hư tật xấu",
+        "Những bài học đạo đức ngắn gọn dành cho trẻ em"
+      ],
+      "answer": 0,
+      "hint": "Sử thi kể về sự kiện trọng đại của cộng đồng, thường có nhân vật trung tâm là người anh hùng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sử thi \"Đăm Săn\" là sử thi của dân tộc nào ở Việt Nam?",
+      "options": [
+        "Ê-đê",
+        "Kinh",
+        "Tày",
+        "Mường"
+      ],
+      "answer": 0,
+      "hint": "\"Đăm Săn\" là sử thi nổi tiếng của dân tộc Ê-đê ở Tây Nguyên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sử thi \"Ô-đi-xê\" (Odyssey) là tác phẩm nổi tiếng của đất nước nào?",
+      "options": [
+        "Hy Lạp cổ đại",
+        "Trung Quốc",
+        "Ấn Độ",
+        "La Mã"
+      ],
+      "answer": 0,
+      "hint": "\"Ô-đi-xê\" và \"I-li-át\" là hai sử thi lớn của Hy Lạp cổ đại, được cho là của Hô-me-rơ (Homer)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong truyện \"An Dương Vương và Mị Châu - Trọng Thủy\", An Dương Vương được vị thần nào giúp đỡ xây thành Cổ Loa và tặng móng vuốt để làm nỏ thần?",
+      "options": [
+        "Thần Kim Quy (Rùa Vàng)",
+        "Sơn Tinh",
+        "Thủy Tinh",
+        "Long Quân"
+      ],
+      "answer": 0,
+      "hint": "Thần Kim Quy giúp An Dương Vương xây thành và cho móng vuốt làm lẫy nỏ thần."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bài học sâu sắc mà truyện \"An Dương Vương và Mị Châu - Trọng Thủy\" để lại cho người đọc là:",
+      "options": [
+        "Đề cao tinh thần cảnh giác trước âm mưu xâm lược; không vì tình riêng mà bỏ quên việc nước",
+        "Khẳng định tình yêu đôi lứa là cao quý nhất, vượt lên mọi giá trị khác",
+        "Ca ngợi quyền lực tuyệt đối của nhà vua trong xã hội phong kiến",
+        "Khuyên người trẻ nên chọn vợ/chồng cùng địa vị giàu sang"
+      ],
+      "answer": 0,
+      "hint": "Truyện là bài học về tinh thần cảnh giác giữ nước, đặt việc nước trên tình riêng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai nhà thơ tiêu biểu nhất của thơ Đường (Trung Quốc) là:",
+      "options": [
+        "Lí Bạch và Đỗ Phủ",
+        "Bạch Cư Dị và Vương Bột",
+        "Tô Đông Pha và Lí Thanh Chiếu",
+        "Khuất Nguyên và Tào Tháo"
+      ],
+      "answer": 0,
+      "hint": "Lí Bạch và Đỗ Phủ là hai \"đỉnh cao\" của thơ Đường, được gọi là Thi tiên và Thi thánh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Cảm xúc mùa thu\" (\"Thu hứng\") là tác phẩm nổi tiếng của nhà thơ nào?",
+      "options": [
+        "Đỗ Phủ",
+        "Lí Bạch",
+        "Thôi Hiệu",
+        "Bạch Cư Dị"
+      ],
+      "answer": 0,
+      "hint": "\"Thu hứng\" (Cảm xúc mùa thu) là chùm thơ tám bài của Đỗ Phủ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bài thơ \"Hoàng Hạc Lâu\" (Lầu Hoàng Hạc) là tác phẩm nổi tiếng của nhà thơ:",
+      "options": [
+        "Thôi Hiệu",
+        "Lí Bạch",
+        "Đỗ Phủ",
+        "Vương Duy"
+      ],
+      "answer": 0,
+      "hint": "\"Hoàng Hạc Lâu\" của Thôi Hiệu là một trong những bài thơ Đường nổi tiếng nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Bảo kính cảnh giới\" (số 43) trong \"Quốc âm thi tập\" là tác phẩm của nhà thơ Việt Nam nào?",
+      "options": [
+        "Nguyễn Trãi",
+        "Nguyễn Du",
+        "Hồ Xuân Hương",
+        "Nguyễn Bỉnh Khiêm"
+      ],
+      "answer": 0,
+      "hint": "\"Quốc âm thi tập\" là tập thơ chữ Nôm của Nguyễn Trãi; chùm \"Bảo kính cảnh giới\" là một phần trong đó."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bài thơ thất ngôn bát cú Đường luật gồm bao nhiêu câu, mỗi câu mấy chữ?",
+      "options": [
+        "8 câu, mỗi câu 7 chữ",
+        "4 câu, mỗi câu 7 chữ",
+        "8 câu, mỗi câu 5 chữ",
+        "10 câu, mỗi câu 7 chữ"
+      ],
+      "answer": 0,
+      "hint": "\"Thất ngôn\" nghĩa là 7 chữ; \"bát cú\" nghĩa là 8 câu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đặc điểm nghệ thuật nổi bật của sử thi anh hùng là:",
+      "options": [
+        "Ngôn ngữ phóng đại, so sánh trùng điệp, giàu nhịp điệu",
+        "Lời văn ngắn gọn, giàu chất luận lí khoa học",
+        "Ngôn ngữ đời thường, gần với tiếng nói hằng ngày",
+        "Câu chuyện ngắn gọn, tập trung vào một sự kiện nhỏ"
+      ],
+      "answer": 0,
+      "hint": "Sử thi thường dùng phóng đại, so sánh trùng điệp để khắc họa người anh hùng kì vĩ."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về sử thi và truyện kể dân gian:",
+      "statements": [
+        { "text": "Sử thi là tác phẩm tự sự dân gian có quy mô lớn, kể về sự kiện trọng đại của cộng đồng.", "answer": true },
+        { "text": "Sử thi \"Đăm Săn\" là sử thi của dân tộc Ê-đê ở Tây Nguyên.", "answer": true },
+        { "text": "Truyện \"An Dương Vương và Mị Châu - Trọng Thủy\" thuộc thể loại truyện cổ tích.", "answer": false },
+        { "text": "Sử thi thường dùng các hình ảnh phóng đại, so sánh trùng điệp để khắc họa người anh hùng.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về thơ Đường và thơ Nguyễn Trãi:",
+      "statements": [
+        { "text": "Đỗ Phủ và Lí Bạch là hai nhà thơ lớn của thời Đường (Trung Quốc).", "answer": true },
+        { "text": "Bài thơ \"Cảm xúc mùa thu\" (Thu hứng) là tác phẩm của Đỗ Phủ.", "answer": true },
+        { "text": "Nguyễn Trãi là tác giả của \"Quốc âm thi tập\" viết bằng chữ Nôm.", "answer": true },
+        { "text": "Thơ Đường luật chỉ có duy nhất một thể là thất ngôn tứ tuyệt.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Sử thi \"Đăm Săn\" là sử thi của dân tộc ___",
+      "answer": "Ê-đê",
+      "alternatives": ["Ê đê", "Ede", "Ê-đê (Tây Nguyên)"],
+      "hint": "\"Đăm Săn\" là sử thi anh hùng của dân tộc Ê-đê."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Bài thơ Đường luật thất ngôn bát cú gồm ___ câu, mỗi câu có 7 chữ.",
+      "answer": "8",
+      "alternatives": ["tám"],
+      "hint": "\"Bát cú\" nghĩa là 8 câu."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "\"Đại cáo bình Ngô\" do Nguyễn Trãi soạn thảo, có giá trị như một bản tuyên ngôn độc lập của dân tộc Việt Nam.",
+      "answer": true,
+      "hint": "\"Đại cáo bình Ngô\" (Bình Ngô đại cáo) công bố thắng lợi của khởi nghĩa Lam Sơn, được coi là tuyên ngôn độc lập."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T18:01:00.728Z",
+  "generatedAt": "2026-05-30T00:13:44.031Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1727,9 +1727,22 @@
   "thpt": {
     "toan": {
       "10": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 2,
+        "totalQuestions": 34,
+        "topics": [
+          {
+            "id": "thpt-toan-l10-he-thuc-luong-vector",
+            "topic": "Hệ thức lượng trong tam giác và Vector",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l10-menh-de-tap-hop-bpt",
+            "topic": "Mệnh đề, tập hợp, bất phương trình và hàm số bậc hai",
+            "questionCount": 17,
+            "difficulty": 2
+          }
+        ]
       },
       "11": {
         "exerciseCount": 0,
@@ -1787,9 +1800,22 @@
     },
     "ngu-van": {
       "10": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 2,
+        "totalQuestions": 32,
+        "topics": [
+          {
+            "id": "thpt-ngu-van-l10-su-thi-truyen-tho",
+            "topic": "Sử thi, truyện kể dân gian và thơ ca",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-ngu-van-l10-nghi-luan-san-khau-truyen",
+            "topic": "Văn nghị luận trung đại, sân khấu dân gian và truyện ngắn hiện đại",
+            "questionCount": 16,
+            "difficulty": 3
+          }
+        ]
       },
       "11": {
         "exerciseCount": 0,
@@ -1811,9 +1837,22 @@
     },
     "tieng-anh": {
       "10": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 2,
+        "totalQuestions": 32,
+        "topics": [
+          {
+            "id": "thpt-tieng-anh-l10-doc-hieu-giao-tiep",
+            "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-tieng-anh-l10-thi-tu-vung-co-ban",
+            "topic": "Tenses, basic grammar and vocabulary (Thì, ngữ pháp cơ bản và từ vựng)",
+            "questionCount": 16,
+            "difficulty": 2
+          }
+        ]
       },
       "11": {
         "exerciseCount": 0,

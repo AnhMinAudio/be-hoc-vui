@@ -1,0 +1,216 @@
+{
+  "id": "thpt-toan-l10-he-thuc-luong-vector",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 10,
+  "topic": "Hệ thức lượng trong tam giác và Vector",
+  "chapter": "Hình học 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Định lí sin, định lí cosin",
+    "Diện tích tam giác",
+    "Vector và các phép toán",
+    "Tích vô hướng của hai vector"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong tam giác $ABC$ có $BC = a$, $CA = b$, $AB = c$. Định lí cosin viết cho cạnh $a$ là:",
+      "options": [
+        "$a^2 = b^2 + c^2 - 2bc\\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc\\cos A$",
+        "$a^2 = b^2 - c^2 - 2bc\\cos A$",
+        "$a = b + c - 2bc\\cos A$"
+      ],
+      "answer": 0,
+      "hint": "Định lí cosin: bình phương một cạnh bằng tổng bình phương hai cạnh kia, trừ hai lần tích hai cạnh đó nhân cosin góc xen giữa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong tam giác $ABC$ nội tiếp đường tròn bán kính $R$, định lí sin được phát biểu là:",
+      "options": [
+        "$\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C} = 2R$",
+        "$\\dfrac{a}{\\cos A} = \\dfrac{b}{\\cos B} = \\dfrac{c}{\\cos C} = R$",
+        "$a \\sin A = b \\sin B = c \\sin C = 2R$",
+        "$\\dfrac{\\sin A}{a} = \\dfrac{\\sin B}{b} = \\dfrac{\\sin C}{c} = R$"
+      ],
+      "answer": 0,
+      "hint": "Tỉ số một cạnh trên sin của góc đối diện bằng $2R$ (đường kính đường tròn ngoại tiếp)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Diện tích tam giác $ABC$ (với $a$, $b$, $c$ là độ dài các cạnh đối diện $A$, $B$, $C$) được tính theo công thức:",
+      "options": [
+        "$S = \\dfrac{1}{2} ab \\sin C$",
+        "$S = \\dfrac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = a + b + c$"
+      ],
+      "answer": 0,
+      "hint": "Diện tích = $\\dfrac{1}{2}$ tích hai cạnh nhân sin của góc xen giữa hai cạnh đó."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho tam giác $ABC$ có $b = 5$, $c = 4$, $\\widehat{A} = 60^\\circ$. Diện tích tam giác $ABC$ bằng:",
+      "options": [
+        "$5\\sqrt{3}$",
+        "$10$",
+        "$10\\sqrt{3}$",
+        "$5$"
+      ],
+      "answer": 0,
+      "hint": "$S = \\dfrac{1}{2} bc \\sin A = \\dfrac{1}{2} \\cdot 5 \\cdot 4 \\cdot \\sin 60^\\circ = 10 \\cdot \\dfrac{\\sqrt{3}}{2} = 5\\sqrt{3}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tam giác $ABC$ có $b = 5$, $c = 8$, $\\widehat{A} = 60^\\circ$. Độ dài cạnh $a$ bằng:",
+      "options": [
+        "$7$",
+        "$9$",
+        "$\\sqrt{29}$",
+        "$13$"
+      ],
+      "answer": 0,
+      "hint": "$a^2 = b^2 + c^2 - 2bc \\cos A = 25 + 64 - 80 \\cdot \\dfrac{1}{2} = 49 \\Rightarrow a = 7$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai vector $\\vec{a}$ và $\\vec{b}$ (đều khác $\\vec{0}$) được gọi là CÙNG PHƯƠNG khi:",
+      "options": [
+        "Giá của chúng song song hoặc trùng nhau",
+        "Chúng có cùng độ dài",
+        "Chúng có điểm đầu trùng nhau",
+        "Chúng vuông góc với nhau"
+      ],
+      "answer": 0,
+      "hint": "Hai vector cùng phương khi giá (đường thẳng chứa chúng) song song hoặc trùng nhau."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Với ba điểm $A$, $B$, $C$ bất kì, ta có (quy tắc ba điểm):",
+      "options": [
+        "$\\vec{AB} + \\vec{BC} = \\vec{AC}$",
+        "$\\vec{AB} - \\vec{BC} = \\vec{AC}$",
+        "$\\vec{AB} + \\vec{AC} = \\vec{BC}$",
+        "$\\vec{AB} + \\vec{CA} = \\vec{BC}$"
+      ],
+      "answer": 0,
+      "hint": "Quy tắc ba điểm (quy tắc cộng vector): tổng hai vector liên tiếp $\\vec{AB} + \\vec{BC} = \\vec{AC}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong tam giác $ABC$, biểu thức $\\vec{AB} - \\vec{AC}$ bằng:",
+      "options": [
+        "$\\vec{CB}$",
+        "$\\vec{BC}$",
+        "$\\vec{AB}$",
+        "$\\vec{0}$"
+      ],
+      "answer": 0,
+      "hint": "$\\vec{AB} - \\vec{AC} = \\vec{AB} + \\vec{CA} = \\vec{CB}$ (theo quy tắc ba điểm $C \\to A \\to B$)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho hình bình hành $ABCD$. Khi đó ta có (quy tắc hình bình hành):",
+      "options": [
+        "$\\vec{AB} + \\vec{AD} = \\vec{AC}$",
+        "$\\vec{AB} + \\vec{AD} = \\vec{BD}$",
+        "$\\vec{AB} + \\vec{AD} = \\vec{DB}$",
+        "$\\vec{AB} - \\vec{AD} = \\vec{AC}$"
+      ],
+      "answer": 0,
+      "hint": "Trong hình bình hành $ABCD$, $\\vec{AC}$ là đường chéo nên $\\vec{AB} + \\vec{AD} = \\vec{AC}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tích vô hướng của hai vector $\\vec{a}$ và $\\vec{b}$ (cùng khác $\\vec{0}$) được xác định bởi:",
+      "options": [
+        "$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\cos(\\vec{a}, \\vec{b})$",
+        "$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\sin(\\vec{a}, \\vec{b})$",
+        "$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| + |\\vec{b}|$",
+        "$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| - |\\vec{b}|$"
+      ],
+      "answer": 0,
+      "hint": "Tích vô hướng = tích hai độ dài nhân $\\cos$ góc giữa hai vector."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cho hai vector $\\vec{a}$ và $\\vec{b}$ có $|\\vec{a}| = 3$, $|\\vec{b}| = 4$ và góc giữa chúng bằng $60^\\circ$. Tích vô hướng $\\vec{a} \\cdot \\vec{b}$ bằng:",
+      "options": [
+        "$6$",
+        "$12$",
+        "$3$",
+        "$6\\sqrt{3}$"
+      ],
+      "answer": 0,
+      "hint": "$\\vec{a} \\cdot \\vec{b} = 3 \\cdot 4 \\cdot \\cos 60^\\circ = 12 \\cdot \\dfrac{1}{2} = 6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Hai vector $\\vec{a}$ và $\\vec{b}$ (đều khác $\\vec{0}$) VUÔNG GÓC với nhau khi và chỉ khi:",
+      "options": [
+        "$\\vec{a} \\cdot \\vec{b} = 0$",
+        "$\\vec{a} \\cdot \\vec{b} = 1$",
+        "$|\\vec{a}| = |\\vec{b}|$",
+        "$\\vec{a} + \\vec{b} = \\vec{0}$"
+      ],
+      "answer": 0,
+      "hint": "Hai vector khác $\\vec{0}$ vuông góc $\\Leftrightarrow \\cos(\\vec{a}, \\vec{b}) = 0 \\Leftrightarrow \\vec{a} \\cdot \\vec{b} = 0$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hệ thức lượng trong tam giác:",
+      "statements": [
+        { "text": "Trong tam giác $ABC$ ta có $a^2 = b^2 + c^2 - 2bc\\cos A$ (định lí cosin).", "answer": true },
+        { "text": "Diện tích tam giác có thể tính bằng $S = \\dfrac{1}{2} a h_a$ với $h_a$ là đường cao tương ứng cạnh $a$.", "answer": true },
+        { "text": "Trong tam giác vuông tại $A$, ta có $a^2 = b^2 + c^2$.", "answer": true },
+        { "text": "Trong mọi tam giác, tổng ba góc trong luôn bằng $360^\\circ$.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về vector:",
+      "statements": [
+        { "text": "Hai vector cùng phương thì hoặc cùng hướng hoặc ngược hướng.", "answer": true },
+        { "text": "Quy tắc ba điểm: $\\vec{AB} + \\vec{BC} = \\vec{AC}$ với mọi ba điểm $A, B, C$.", "answer": true },
+        { "text": "Hai vector (khác $\\vec{0}$) vuông góc với nhau thì tích vô hướng của chúng bằng $0$.", "answer": true },
+        { "text": "Vector $\\vec{0}$ có độ dài bằng $1$.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Trong tam giác $ABC$ có $a = 6$, $b = 8$ và $\\widehat{C} = 90^\\circ$. Khi đó cạnh $c$ bằng ___",
+      "answer": "10",
+      "hint": "$c^2 = a^2 + b^2 - 2ab\\cos C = 36 + 64 - 0 = 100 \\Rightarrow c = 10$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Diện tích tam giác $ABC$ có $b = 4$, $c = 5$ và $\\widehat{A} = 30^\\circ$ bằng ___",
+      "answer": "5",
+      "hint": "$S = \\dfrac{1}{2} bc \\sin A = \\dfrac{1}{2} \\cdot 4 \\cdot 5 \\cdot \\sin 30^\\circ = 10 \\cdot \\dfrac{1}{2} = 5$."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Vector $\\vec{0}$ (vector không) có độ dài bằng $0$ và có phương, hướng tùy ý.",
+      "answer": true,
+      "hint": "Theo định nghĩa, vector không có điểm đầu trùng điểm cuối, độ dài bằng 0."
+    }
+  ]
+}

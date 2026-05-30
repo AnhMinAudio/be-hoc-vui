@@ -1,0 +1,210 @@
+{
+  "id": "thpt-tieng-anh-l10-doc-hieu-giao-tiep",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 10,
+  "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
+  "chapter": "Reading & Communication",
+  "difficulty": 3,
+  "outcomes": [
+    "Reading comprehension",
+    "Communication and everyday expressions",
+    "Comparatives and superlatives",
+    "Vocabulary: education, technology, environment"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "\"How are you?\" — \"_____\". (\"Bạn khỏe không?\" — \"_____\".) Choose the most natural response. (Chọn câu trả lời tự nhiên nhất.)",
+      "options": [
+        "I'm fine, thank you. And you?",
+        "I'm twenty years old.",
+        "I live in Hanoi.",
+        "Yes, please."
+      ],
+      "answer": 0,
+      "hint": "\"How are you?\" hỏi thăm sức khỏe → đáp \"I'm fine, thank you.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "When someone says \"Thank you very much.\", what is the most common response? (Khi ai đó nói \"Thank you very much\", câu đáp phổ biến nhất là gì?)",
+      "options": [
+        "You're welcome.",
+        "I'm sorry.",
+        "Goodbye.",
+        "Nice to meet you."
+      ],
+      "answer": 0,
+      "hint": "\"You're welcome\" là câu đáp lại lời cảm ơn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "My sister is _____ than me. (Chị/em gái của tôi _____ tôi.)",
+      "options": [
+        "taller",
+        "tall",
+        "tallest",
+        "more taller"
+      ],
+      "answer": 0,
+      "hint": "So sánh hơn của tính từ ngắn \"tall\" là \"taller\" + than."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "This is the _____ book I have ever read. (Đây là cuốn sách _____ mà tôi từng đọc.)",
+      "options": [
+        "most interesting",
+        "more interesting",
+        "interesting",
+        "interestinger"
+      ],
+      "answer": 0,
+      "hint": "So sánh nhất của tính từ dài \"interesting\" là \"the most interesting\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "We must _____ the environment by reducing plastic waste. (Chúng ta phải _____ môi trường bằng cách giảm rác thải nhựa.)",
+      "options": [
+        "protect",
+        "pollute",
+        "destroy",
+        "waste"
+      ],
+      "answer": 0,
+      "hint": "\"protect the environment\" = bảo vệ môi trường (giảm rác → bảo vệ, không phải làm ô nhiễm)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Many young people today learn English by using mobile apps. These apps allow them to study any time and anywhere. Students can listen to native speakers, do exercises, and practice speaking with friends online. Although technology cannot replace teachers, it makes learning more fun and flexible.",
+      "question": "How do many young people today learn English? (Nhiều bạn trẻ ngày nay học tiếng Anh bằng cách nào?)",
+      "options": [
+        "By using mobile apps",
+        "Only by reading old books",
+        "By staying away from technology",
+        "Only with private teachers"
+      ],
+      "answer": 0,
+      "hint": "Câu đầu đoạn: \"Many young people today learn English by using mobile apps.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Many young people today learn English by using mobile apps. These apps allow them to study any time and anywhere. Students can listen to native speakers, do exercises, and practice speaking with friends online. Although technology cannot replace teachers, it makes learning more fun and flexible.",
+      "question": "According to the passage, what can students do with the apps? (Theo đoạn văn, học sinh có thể làm gì với các ứng dụng?)",
+      "options": [
+        "Listen to native speakers, do exercises and practice speaking with friends online",
+        "Buy paper books at any time",
+        "Only watch movies in Vietnamese",
+        "Travel abroad for free"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu: \"Students can listen to native speakers, do exercises, and practice speaking with friends online.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Many young people today learn English by using mobile apps. These apps allow them to study any time and anywhere. Students can listen to native speakers, do exercises, and practice speaking with friends online. Although technology cannot replace teachers, it makes learning more fun and flexible.",
+      "question": "What is the main idea of the passage? (Ý chính của đoạn văn là gì?)",
+      "options": [
+        "Mobile apps are a useful tool that makes learning English more flexible, but they cannot replace teachers",
+        "Mobile apps will completely replace teachers in the future",
+        "Young people should stop learning English",
+        "Teachers do not need any technology at all"
+      ],
+      "answer": 0,
+      "hint": "Bài nhấn mạnh ích lợi của app nhưng cũng nói \"technology cannot replace teachers\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "He is good _____ playing the guitar. (Anh ấy chơi guitar giỏi.)",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "of"
+      ],
+      "answer": 0,
+      "hint": "Cấu trúc: be good AT + V-ing / something."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the correct sentence. (Chọn câu đúng ngữ pháp.)",
+      "options": [
+        "If I were you, I would study harder.",
+        "If I am you, I will study harder.",
+        "If I were you, I will studied harder.",
+        "If I am you, I studied harder."
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 2 (giả định không có thật ở hiện tại): If + S + V_past (với be dùng \"were\"), S + would + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which word means \"to keep something safe and prevent it from being damaged\"? (Từ nào có nghĩa là \"giữ cho điều gì đó an toàn và không bị hư hại\"?)",
+      "options": [
+        "protect",
+        "destroy",
+        "ignore",
+        "waste"
+      ],
+      "answer": 0,
+      "hint": "\"protect\" = bảo vệ (giữ an toàn, không cho bị hư hại)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "She enjoys _____ books in her free time. (Cô ấy thích _____ sách vào thời gian rảnh.)",
+      "options": [
+        "reading",
+        "to read",
+        "read",
+        "reads"
+      ],
+      "answer": 0,
+      "hint": "Sau động từ \"enjoy\" dùng V-ing: enjoy reading."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
+      "statements": [
+        { "text": "After the verb \"enjoy\", we use a V-ing form. (Sau động từ \"enjoy\" ta dùng dạng V-ing.)", "answer": true },
+        { "text": "The comparative form of \"good\" is \"gooder\". (So sánh hơn của \"good\" là \"gooder\".)", "answer": false },
+        { "text": "The superlative form of long adjectives uses \"the most + adjective\". (Hình thức so sánh nhất của tính từ dài dùng \"the most + tính từ\".)", "answer": true },
+        { "text": "We say \"good AT something\", not \"good ON something\". (Ta nói \"good AT something\", không nói \"good ON something\".)", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Fill in the blank with the comparative form: \"Mount Everest is the _____ (high) mountain in the world.\" (Điền dạng so sánh nhất: \"Everest là ngọn núi _____ (cao) trên thế giới.\")",
+      "answer": "highest",
+      "alternatives": ["Highest"],
+      "hint": "Tính từ ngắn \"high\" → so sánh nhất \"the highest\"."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the word for \"a place where students learn\": s_h_o_l (Hoàn thành từ chỉ \"nơi học sinh học\": s_h_o_l).",
+      "answer": "school",
+      "alternatives": ["School"],
+      "hint": "\"school\" = trường học."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "\"Goodbye\" is used when you meet someone for the first time. (\"Goodbye\" được dùng khi bạn gặp ai đó lần đầu tiên.)",
+      "answer": false,
+      "hint": "\"Goodbye\" dùng khi tạm biệt; khi mới gặp lần đầu thường dùng \"Hello\" hoặc \"Nice to meet you\"."
+    }
+  ]
+}

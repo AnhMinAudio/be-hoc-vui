@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T18:01:00.728Z",
+  "generatedAt": "2026-05-30T00:13:44.031Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -1169,6 +1169,42 @@
       "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
     },
     {
+      "id": "thpt-ngu-van-l10-su-thi-truyen-tho",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 10,
+      "topic": "Sử thi, truyện kể dân gian và thơ ca",
+      "chapter": "Văn học dân gian & thơ trung đại",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Đặc trưng thể loại sử thi và truyền thuyết",
+        "Sử thi Đăm Săn và sử thi nước ngoài",
+        "Thơ Đường: Lí Bạch, Đỗ Phủ, Thôi Hiệu",
+        "Thơ Nguyễn Trãi (Quốc âm thi tập)"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/ngu-van-su-thi-truyen-tho.json"
+    },
+    {
+      "id": "thpt-ngu-van-l10-nghi-luan-san-khau-truyen",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 10,
+      "topic": "Văn nghị luận trung đại, sân khấu dân gian và truyện ngắn hiện đại",
+      "chapter": "Văn nghị luận, sân khấu & truyện hiện đại",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Văn nghị luận trung đại: Hịch tướng sĩ - Đại cáo bình Ngô",
+        "Tư tưởng Nguyễn Trãi",
+        "Sân khấu dân gian: chèo, tuồng",
+        "Người kể chuyện trong truyện ngắn hiện đại"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/ngu-van-nghi-luan-san-khau-truyen.json"
+    },
+    {
       "id": "thpt-ngu-van-l12-on-tap",
       "stage": "thpt",
       "subject": "ngu-van",
@@ -2049,6 +2085,42 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "thcs/lop9/tieng-anh-relative-clauses.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l10-doc-hieu-giao-tiep",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 10,
+      "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
+      "chapter": "Reading & Communication",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Reading comprehension",
+        "Communication and everyday expressions",
+        "Comparatives and superlatives",
+        "Vocabulary: education, technology, environment"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/tieng-anh-doc-hieu-giao-tiep.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l10-thi-tu-vung-co-ban",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 10,
+      "topic": "Tenses, basic grammar and vocabulary (Thì, ngữ pháp cơ bản và từ vựng)",
+      "chapter": "Grammar & Vocabulary",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Present simple, past simple, present perfect",
+        "First conditional",
+        "Family - environment vocabulary",
+        "Prepositions"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/tieng-anh-thi-tu-vung-co-ban.json"
     },
     {
       "id": "thpt-tieng-anh-l12-on-tap",
@@ -3707,6 +3779,42 @@
       ],
       "timeLimit": 45,
       "path": "thcs/lop9/de-thi-thu-1.json"
+    },
+    {
+      "id": "thpt-toan-l10-he-thuc-luong-vector",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 10,
+      "topic": "Hệ thức lượng trong tam giác và Vector",
+      "chapter": "Hình học 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Định lí sin, định lí cosin",
+        "Diện tích tam giác",
+        "Vector và các phép toán",
+        "Tích vô hướng của hai vector"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/toan-he-thuc-luong-vector.json"
+    },
+    {
+      "id": "thpt-toan-l10-menh-de-tap-hop-bpt",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 10,
+      "topic": "Mệnh đề, tập hợp, bất phương trình và hàm số bậc hai",
+      "chapter": "Đại số 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Mệnh đề - Tập hợp",
+        "Bất phương trình bậc nhất hai ẩn",
+        "Hàm số bậc hai - Tam thức bậc hai và dấu",
+        "Phương trình - Bất phương trình bậc hai"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/toan-menh-de-tap-hop-bpt.json"
     },
     {
       "id": "thpt-toan-l12-c1-ung-dung-dao-ham",
