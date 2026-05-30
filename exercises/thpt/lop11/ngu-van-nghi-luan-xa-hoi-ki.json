@@ -1,0 +1,205 @@
+{
+  "id": "thpt-ngu-van-l11-nghi-luan-xa-hoi-ki",
+  "stage": "thpt",
+  "subject": "ngu-van",
+  "grade": 11,
+  "topic": "Văn nghị luận và kí hiện đại",
+  "chapter": "Nghị luận & Kí hiện đại 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Cấu trúc của văn bản nghị luận",
+    "Nghệ thuật thuyết phục",
+    "Đặc trưng thể loại kí (bút kí, tùy bút, hồi kí)",
+    "Kĩ năng đọc - hiểu văn bản nghị luận và kí"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Văn nghị luận là loại văn bản nhằm mục đích chủ yếu nào?",
+      "options": [
+        "Trình bày, lí giải, thuyết phục người đọc về một vấn đề nào đó bằng lí lẽ và dẫn chứng",
+        "Bày tỏ cảm xúc cá nhân của tác giả",
+        "Kể lại một câu chuyện hư cấu",
+        "Miêu tả cảnh vật một cách thuần túy"
+      ],
+      "answer": 0,
+      "hint": "Văn nghị luận dùng lí lẽ và dẫn chứng để thuyết phục người đọc/người nghe."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Một văn bản nghị luận thường gồm ba phần chính:",
+      "options": [
+        "Mở bài (giới thiệu vấn đề) — thân bài (triển khai luận điểm, lí lẽ, dẫn chứng) — kết bài (khẳng định, mở rộng)",
+        "Chỉ có duy nhất một đoạn văn dài",
+        "Mở bài — kết bài, không có thân bài",
+        "Thân bài đứng đầu, mở bài đứng cuối"
+      ],
+      "answer": 0,
+      "hint": "Cấu trúc 3 phần là chuẩn của văn nghị luận: mở - thân - kết."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong văn nghị luận, LUẬN ĐIỂM là:",
+      "options": [
+        "Quan điểm, ý kiến, tư tưởng chính mà người viết muốn khẳng định",
+        "Các sự kiện cụ thể được trích dẫn",
+        "Cảm xúc nhất thời của người viết",
+        "Tên của tác phẩm văn học"
+      ],
+      "answer": 0,
+      "hint": "Luận điểm là ý kiến chính, là \"linh hồn\" của bài nghị luận."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong văn nghị luận, LUẬN CỨ là:",
+      "options": [
+        "Lí lẽ và dẫn chứng được dùng để chứng minh, làm sáng tỏ luận điểm",
+        "Tên của người viết bài",
+        "Nhan đề của bài văn",
+        "Cảm xúc cá nhân của người viết"
+      ],
+      "answer": 0,
+      "hint": "Luận cứ = lí lẽ + dẫn chứng → dùng để chứng minh cho luận điểm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Để bài văn nghị luận có sức thuyết phục, người viết cần đảm bảo điều gì?",
+      "options": [
+        "Luận điểm rõ ràng; lí lẽ chặt chẽ, dẫn chứng tiêu biểu, xác thực; lập luận mạch lạc",
+        "Chỉ đưa ra cảm xúc, không cần lí lẽ",
+        "Sử dụng nhiều từ ngữ trừu tượng, khó hiểu để nâng cao trình độ bài viết",
+        "Không cần dẫn chứng cụ thể"
+      ],
+      "answer": 0,
+      "hint": "Sức thuyết phục của văn nghị luận = luận điểm rõ + lí lẽ chặt + dẫn chứng đắt + lập luận mạch lạc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai loại nghị luận phổ biến trong nhà trường là:",
+      "options": [
+        "Nghị luận xã hội và nghị luận văn học",
+        "Nghị luận lịch sử và nghị luận khoa học",
+        "Nghị luận âm nhạc và nghị luận thể thao",
+        "Nghị luận du lịch và nghị luận ẩm thực"
+      ],
+      "answer": 0,
+      "hint": "Nghị luận xã hội (bàn vấn đề xã hội) và nghị luận văn học (bàn về tác phẩm văn học)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Kí là thể loại văn học gắn liền với đặc điểm nào sau đây?",
+      "options": [
+        "Ghi chép về người thật, việc thật mà tác giả chứng kiến hoặc trải nghiệm, kết hợp với cảm xúc, suy ngẫm",
+        "Hoàn toàn hư cấu, sáng tạo theo trí tưởng tượng",
+        "Chỉ tả thiên nhiên, không có nhân vật",
+        "Chỉ ghi lại các giấc mơ"
+      ],
+      "answer": 0,
+      "hint": "Kí ghi chép về sự thật, đan xen cảm xúc và đánh giá chủ quan của tác giả."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong thể kí, BÚT KÍ là tiểu loại có đặc điểm:",
+      "options": [
+        "Ghi chép về một sự việc, sự vật, con người cụ thể, kết hợp giữa sự thật và cảm nhận của tác giả",
+        "Chỉ ghi chép về quá khứ của bản thân tác giả",
+        "Hoàn toàn không có yếu tố sự thật",
+        "Là một loại thơ trữ tình"
+      ],
+      "answer": 0,
+      "hint": "Bút kí ghi chép về điều mắt thấy tai nghe, kết hợp giữa thông tin và cảm nhận."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hồi kí là tiểu loại kí có đặc điểm nổi bật là:",
+      "options": [
+        "Ghi chép, kể lại các sự kiện trong quá khứ mà tác giả đã trải qua hoặc chứng kiến (thường là chính tác giả)",
+        "Dự đoán các sự kiện sẽ xảy ra trong tương lai",
+        "Tả cảnh thiên nhiên hư cấu",
+        "Chỉ kể về cuộc sống của người khác, không nói về bản thân"
+      ],
+      "answer": 0,
+      "hint": "Hồi kí = hồi tưởng + kí: kể lại quá khứ của chính tác giả hoặc nhân chứng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khi viết một bài nghị luận xã hội, người viết cần thực hiện thao tác nào sau đây?",
+      "options": [
+        "Giới thiệu rõ vấn đề, giải thích khái niệm, đưa ra quan điểm, bàn luận - mở rộng và rút ra bài học",
+        "Chỉ kể chuyện theo kiểu hư cấu mà không bàn luận",
+        "Chỉ trích dẫn ý kiến người khác mà không có quan điểm riêng",
+        "Đưa ra kết luận trước khi giải thích vấn đề"
+      ],
+      "answer": 0,
+      "hint": "Quy trình nghị luận xã hội: giới thiệu → giải thích → bàn luận → mở rộng → bài học."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khi đọc - hiểu một văn bản kí, người đọc cần chú ý điều gì?",
+      "options": [
+        "Nhận diện được sự kiện, nhân vật, không gian, thời gian; đồng thời cảm nhận được cảm xúc, suy ngẫm của tác giả",
+        "Chỉ chú ý đến cốt truyện hư cấu",
+        "Bỏ qua cảm xúc, ý kiến của tác giả",
+        "Đọc lướt qua, không cần phân tích gì"
+      ],
+      "answer": 0,
+      "hint": "Đọc kí: kết hợp tìm hiểu thông tin sự thật và cảm nhận, suy ngẫm của tác giả."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về văn nghị luận:",
+      "statements": [
+        { "text": "Văn nghị luận sử dụng lí lẽ và dẫn chứng để thuyết phục người đọc về một vấn đề.", "answer": true },
+        { "text": "Cấu trúc của một bài văn nghị luận thường gồm ba phần: mở bài, thân bài, kết bài.", "answer": true },
+        { "text": "Luận điểm là quan điểm, ý kiến chính mà người viết muốn khẳng định trong bài.", "answer": true },
+        { "text": "Văn nghị luận không cần dẫn chứng, chỉ cần cảm xúc cá nhân.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về thể kí:",
+      "statements": [
+        { "text": "Kí là thể loại văn học ghi chép về người thật, việc thật, có sự kết hợp giữa sự thật và cảm xúc của tác giả.", "answer": true },
+        { "text": "Hồi kí thường kể lại các sự kiện trong quá khứ của chính tác giả hoặc người trực tiếp trải qua sự kiện.", "answer": true },
+        { "text": "Tùy bút là tiểu loại kí mang đậm cảm xúc và suy nghĩ chủ quan của người viết.", "answer": true },
+        { "text": "Mọi tác phẩm kí đều hoàn toàn hư cấu, không gắn với sự thật.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Loại văn bản dùng lí lẽ và dẫn chứng để thuyết phục người đọc về một vấn đề được gọi là văn ___",
+      "answer": "nghị luận",
+      "alternatives": ["nghi luan", "văn nghị luận"],
+      "hint": "Văn nghị luận khác văn tự sự, văn miêu tả, văn biểu cảm ở mục đích thuyết phục."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Quan điểm, ý kiến chính mà người viết muốn khẳng định trong bài văn nghị luận được gọi là ___",
+      "answer": "luận điểm",
+      "alternatives": ["luan diem"],
+      "hint": "Luận điểm là \"linh hồn\" của bài nghị luận, được chứng minh bằng các luận cứ (lí lẽ + dẫn chứng)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trong văn nghị luận, lí lẽ và dẫn chứng (gọi chung là luận cứ) được dùng để chứng minh, làm sáng tỏ luận điểm.",
+      "answer": true,
+      "hint": "Luận cứ giúp luận điểm trở nên rõ ràng, có sức thuyết phục."
+    }
+  ]
+}

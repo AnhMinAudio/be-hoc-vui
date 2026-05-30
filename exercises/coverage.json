@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:45:08.609Z",
+  "generatedAt": "2026-05-30T01:00:06.194Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1727,8 +1727,8 @@
   "thpt": {
     "toan": {
       "10": {
-        "exerciseCount": 2,
-        "totalQuestions": 34,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
           {
             "id": "thpt-toan-l10-he-thuc-luong-vector",
@@ -1741,12 +1741,18 @@
             "topic": "Mệnh đề, tập hợp, bất phương trình và hàm số bậc hai",
             "questionCount": 17,
             "difficulty": 2
+          },
+          {
+            "id": "thpt-toan-l10-thong-ke-to-hop-xac-suat",
+            "topic": "Thống kê, Tổ hợp và Xác suất",
+            "questionCount": 17,
+            "difficulty": 2
           }
         ]
       },
       "11": {
-        "exerciseCount": 2,
-        "totalQuestions": 35,
+        "exerciseCount": 3,
+        "totalQuestions": 52,
         "topics": [
           {
             "id": "thpt-toan-l11-gioi-han-dao-ham",
@@ -1759,12 +1765,18 @@
             "topic": "Hàm số lượng giác và Dãy số (Cấp số cộng, cấp số nhân)",
             "questionCount": 18,
             "difficulty": 2
+          },
+          {
+            "id": "thpt-toan-l11-mu-logarit",
+            "topic": "Hàm số mũ và Hàm số logarit",
+            "questionCount": 17,
+            "difficulty": 3
           }
         ]
       },
       "12": {
-        "exerciseCount": 7,
-        "totalQuestions": 117,
+        "exerciseCount": 8,
+        "totalQuestions": 133,
         "topics": [
           {
             "id": "thpt-toan-l12-c1-ung-dung-dao-ham",
@@ -1807,18 +1819,30 @@
             "topic": "Đề thi thử tốt nghiệp THPT - Toán (cấu trúc 2025)",
             "questionCount": 16,
             "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l12-tich-phan-ung-dung",
+            "topic": "Nguyên hàm, Tích phân và ứng dụng (nâng cao)",
+            "questionCount": 16,
+            "difficulty": 3
           }
         ]
       }
     },
     "ngu-van": {
       "10": {
-        "exerciseCount": 2,
-        "totalQuestions": 32,
+        "exerciseCount": 3,
+        "totalQuestions": 48,
         "topics": [
           {
             "id": "thpt-ngu-van-l10-su-thi-truyen-tho",
             "topic": "Sử thi, truyện kể dân gian và thơ ca",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-ngu-van-l10-van-ban-thong-tin-ki",
+            "topic": "Văn bản thông tin và kí (ghi chép)",
             "questionCount": 16,
             "difficulty": 2
           },
@@ -1831,8 +1855,8 @@
         ]
       },
       "11": {
-        "exerciseCount": 2,
-        "totalQuestions": 33,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
           {
             "id": "thpt-ngu-van-l11-truyen-kieu-bi-kich",
@@ -1845,17 +1869,29 @@
             "topic": "Truyện ngắn Việt Nam hiện đại và thơ trữ tình (Thơ mới)",
             "questionCount": 16,
             "difficulty": 2
+          },
+          {
+            "id": "thpt-ngu-van-l11-nghi-luan-xa-hoi-ki",
+            "topic": "Văn nghị luận và kí hiện đại",
+            "questionCount": 16,
+            "difficulty": 2
           }
         ]
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 18,
+        "exerciseCount": 2,
+        "totalQuestions": 34,
         "topics": [
           {
             "id": "thpt-ngu-van-l12-on-tap",
             "topic": "Ôn tập Ngữ văn 12: Đọc hiểu và Thực hành tiếng Việt",
             "questionCount": 18,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-ngu-van-l12-truyen-ngan-hien-dai",
+            "topic": "Truyện ngắn Việt Nam hiện đại sau 1945",
+            "questionCount": 16,
             "difficulty": 3
           }
         ]
@@ -1863,9 +1899,15 @@
     },
     "tieng-anh": {
       "10": {
-        "exerciseCount": 2,
-        "totalQuestions": 32,
+        "exerciseCount": 3,
+        "totalQuestions": 49,
         "topics": [
+          {
+            "id": "thpt-tieng-anh-l10-modal-conditional",
+            "topic": "Modal verbs, conditional sentences and vocabulary (Động từ khuyết thiếu, câu điều kiện và từ vựng)",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-tieng-anh-l10-doc-hieu-giao-tiep",
             "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
@@ -1881,9 +1923,15 @@
         ]
       },
       "11": {
-        "exerciseCount": 2,
-        "totalQuestions": 34,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
+          {
+            "id": "thpt-tieng-anh-l11-passive-reported",
+            "topic": "Passive voice and reported speech (Câu bị động và câu tường thuật)",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-tieng-anh-l11-doc-hieu-giao-tiep",
             "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
@@ -1899,9 +1947,15 @@
         ]
       },
       "12": {
-        "exerciseCount": 1,
-        "totalQuestions": 19,
+        "exerciseCount": 2,
+        "totalQuestions": 35,
         "topics": [
+          {
+            "id": "thpt-tieng-anh-l12-reading-grammar",
+            "topic": "Advanced reading comprehension and grammar (Đọc hiểu và ngữ pháp nâng cao)",
+            "questionCount": 16,
+            "difficulty": 3
+          },
           {
             "id": "thpt-tieng-anh-l12-on-tap",
             "topic": "Ôn tập Tiếng Anh 12: Ngữ pháp, từ vựng và đọc hiểu",

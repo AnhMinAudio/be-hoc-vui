@@ -1,0 +1,218 @@
+{
+  "id": "thpt-tieng-anh-l10-modal-conditional",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 10,
+  "topic": "Modal verbs, conditional sentences and vocabulary (Động từ khuyết thiếu, câu điều kiện và từ vựng)",
+  "chapter": "Modal verbs & Conditional",
+  "difficulty": 3,
+  "outcomes": [
+    "Modal verbs: must, should, can, may",
+    "First and second conditional sentences",
+    "Future simple",
+    "Vocabulary: school, music, community"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which modal verb expresses OBLIGATION (sự bắt buộc)? (Động từ khuyết thiếu nào diễn tả sự BẮT BUỘC?)",
+      "options": [
+        "must",
+        "may",
+        "could",
+        "might"
+      ],
+      "answer": 0,
+      "hint": "\"must\" diễn tả sự bắt buộc (cũng như \"have to\")."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which modal verb is used to give ADVICE (đưa ra lời khuyên)? (Động từ khuyết thiếu nào dùng để KHUYÊN nhủ?)",
+      "options": [
+        "should",
+        "must",
+        "may",
+        "will"
+      ],
+      "answer": 0,
+      "hint": "\"should\" thường dùng để khuyên: You should study harder."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which modal verb expresses ABILITY (khả năng)? (Động từ khuyết thiếu nào diễn tả KHẢ NĂNG?)",
+      "options": [
+        "can",
+        "must",
+        "would",
+        "ought to"
+      ],
+      "answer": 0,
+      "hint": "\"can\" thể hiện khả năng: I can swim."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which modal verb expresses POSSIBILITY (khả năng có thể xảy ra)? (Động từ khuyết thiếu nào diễn tả KHẢ NĂNG có thể XẢY RA?)",
+      "options": [
+        "may",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "hint": "\"may\" / \"might\" thể hiện điều có thể xảy ra: It may rain tomorrow."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete the FIRST conditional sentence: If you _____ hard, you _____ the exam. (Hoàn thành câu điều kiện loại 1: Nếu bạn _____ chăm chỉ, bạn _____ kì thi.)",
+      "options": [
+        "study / will pass",
+        "studied / will pass",
+        "study / passed",
+        "will study / pass"
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 1: If + S + V(s/es) [hiện tại đơn], S + will + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete the SECOND conditional sentence: If I _____ rich, I _____ travel around the world. (Hoàn thành câu điều kiện loại 2: Nếu tôi _____ giàu, tôi _____ đi du lịch vòng quanh thế giới.)",
+      "options": [
+        "were / would",
+        "am / will",
+        "was / will",
+        "were / will"
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 2: If + S + V_past (be → were cho mọi chủ ngữ), S + would + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which sentence correctly uses the FUTURE SIMPLE tense? (Câu nào dùng đúng thì tương lai đơn?)",
+      "options": [
+        "I will visit my grandparents next weekend.",
+        "I visit my grandparents next weekend.",
+        "I am visit my grandparents next weekend.",
+        "I visited my grandparents next weekend."
+      ],
+      "answer": 0,
+      "hint": "Thì tương lai đơn: S + will + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word means \"a place where people learn\"? (Từ nào có nghĩa là \"nơi mọi người học tập\"?)",
+      "options": [
+        "school",
+        "park",
+        "hospital",
+        "market"
+      ],
+      "answer": 0,
+      "hint": "\"school\" = trường học."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word means \"a group of people living together in the same area\"? (Từ nào có nghĩa là \"nhóm người cùng sống trong một khu vực\"?)",
+      "options": [
+        "community",
+        "stranger",
+        "enemy",
+        "object"
+      ],
+      "answer": 0,
+      "hint": "\"community\" = cộng đồng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct prohibition: You _____ talk loudly in the library. (Chọn câu cấm đúng: Bạn _____ nói chuyện to trong thư viện.)",
+      "options": [
+        "must not",
+        "should",
+        "may",
+        "can"
+      ],
+      "answer": 0,
+      "hint": "\"must not\" (mustn't) dùng để cấm: không được phép."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "If she ______ harder, she would have passed the exam. (Nếu cô ấy ______ chăm hơn, cô ấy đã đỗ kì thi.) Choose the correct form for THIRD conditional. (Chọn dạng đúng cho câu điều kiện loại 3.)",
+      "options": [
+        "had studied",
+        "studied",
+        "studies",
+        "would study"
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 3 (giả định không có thật trong quá khứ): If + S + had + V3, S + would have + V3."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the meaning of the sentence: \"You should respect your parents.\" (Chọn nghĩa của câu \"You should respect your parents.\")",
+      "options": [
+        "Bạn NÊN tôn trọng bố mẹ.",
+        "Bạn ĐÃ tôn trọng bố mẹ.",
+        "Bạn KHÔNG được tôn trọng bố mẹ.",
+        "Bạn KHÔNG THỂ tôn trọng bố mẹ."
+      ],
+      "answer": 0,
+      "hint": "\"should\" = nên, là lời khuyên."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
+      "statements": [
+        { "text": "\"Must\" is used to express obligation. (\"Must\" dùng để diễn tả sự bắt buộc.)", "answer": true },
+        { "text": "\"Should\" is used to give advice. (\"Should\" dùng để khuyên nhủ.)", "answer": true },
+        { "text": "In a FIRST conditional sentence, the if-clause uses the past simple. (Trong câu điều kiện loại 1, mệnh đề if dùng thì quá khứ đơn.)", "answer": false },
+        { "text": "In a SECOND conditional sentence with the verb \"be\", we use \"were\" for all subjects. (Trong câu điều kiện loại 2 với động từ \"be\", ta dùng \"were\" cho mọi chủ ngữ.)", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each statement about vocabulary and modal verbs is true or false. (Xét tính đúng/sai của các phát biểu về từ vựng và modal verbs.)",
+      "statements": [
+        { "text": "\"Can\" is used to express ability. (\"Can\" dùng để diễn tả khả năng.)", "answer": true },
+        { "text": "\"May\" can be used to express possibility. (\"May\" có thể dùng để diễn tả khả năng có thể xảy ra.)", "answer": true },
+        { "text": "\"Must not\" expresses prohibition. (\"Must not\" diễn tả sự cấm.)", "answer": true },
+        { "text": "\"Should\" is the most polite way to give an order. (\"Should\" là cách lịch sự nhất để ra lệnh.)", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the modal verb expressing OBLIGATION: You _____ wear a uniform at school. (Điền modal chỉ sự BẮT BUỘC: Bạn _____ mặc đồng phục ở trường.)",
+      "answer": "must",
+      "alternatives": ["Must", "have to"],
+      "hint": "\"must\" / \"have to\" đều thể hiện sự bắt buộc."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Complete with the correct form for FIRST conditional: If it _____ (rain), we will stay at home. (Điền dạng đúng cho câu điều kiện loại 1.)",
+      "answer": "rains",
+      "alternatives": ["Rains"],
+      "hint": "Câu điều kiện loại 1: if-clause dùng thì hiện tại đơn → ngôi 3 số ít \"it\" → rains."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "\"Should\" is used in English to give advice or recommendation. (\"Should\" được dùng trong tiếng Anh để khuyên nhủ hoặc đưa ra lời khuyên.)",
+      "answer": true,
+      "hint": "\"You should + V\" là cấu trúc khuyên thường gặp."
+    }
+  ]
+}

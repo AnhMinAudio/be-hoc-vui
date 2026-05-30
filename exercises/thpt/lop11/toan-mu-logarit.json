@@ -1,0 +1,216 @@
+{
+  "id": "thpt-toan-l11-mu-logarit",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 11,
+  "topic": "Hàm số mũ và Hàm số logarit",
+  "chapter": "Mũ - Logarit 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Lũy thừa với số mũ thực",
+    "Logarit và các tính chất",
+    "Hàm số mũ - Hàm số logarit",
+    "Phương trình mũ và logarit cơ bản"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Với $a > 0$ và $a \\neq 1$, ta có:",
+      "options": [
+        "$\\log_a 1 = 0$",
+        "$\\log_a 1 = 1$",
+        "$\\log_a 1 = a$",
+        "$\\log_a 1$ không xác định"
+      ],
+      "answer": 0,
+      "hint": "$\\log_a 1 = 0$ vì $a^0 = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Với $a > 0$ và $a \\neq 1$, ta có $\\log_a a$ bằng:",
+      "options": [
+        "$1$",
+        "$0$",
+        "$a$",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "hint": "$\\log_a a = 1$ vì $a^1 = a$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Với $x, y > 0$ và $a > 0$, $a \\neq 1$, ta có:",
+      "options": [
+        "$\\log_a(xy) = \\log_a x + \\log_a y$",
+        "$\\log_a(xy) = \\log_a x \\cdot \\log_a y$",
+        "$\\log_a(xy) = \\log_a x - \\log_a y$",
+        "$\\log_a(xy) = \\dfrac{\\log_a x}{\\log_a y}$"
+      ],
+      "answer": 0,
+      "hint": "Tính chất logarit: log của tích bằng tổng các log."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Với $x, y > 0$ và $a > 0$, $a \\neq 1$, ta có:",
+      "options": [
+        "$\\log_a \\dfrac{x}{y} = \\log_a x - \\log_a y$",
+        "$\\log_a \\dfrac{x}{y} = \\log_a x + \\log_a y$",
+        "$\\log_a \\dfrac{x}{y} = \\dfrac{\\log_a x}{\\log_a y}$",
+        "$\\log_a \\dfrac{x}{y} = \\log_a x \\cdot \\log_a y$"
+      ],
+      "answer": 0,
+      "hint": "Log của thương bằng hiệu các log."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của $\\log_2 8$ bằng:",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$1$"
+      ],
+      "answer": 0,
+      "hint": "$\\log_2 8 = \\log_2 2^3 = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của $\\log_{10} 100$ (hay $\\lg 100$) bằng:",
+      "options": [
+        "$2$",
+        "$10$",
+        "$100$",
+        "$1$"
+      ],
+      "answer": 0,
+      "hint": "$\\log_{10} 100 = \\log_{10} 10^2 = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nghiệm của phương trình $2^x = 8$ là:",
+      "options": [
+        "$x = 3$",
+        "$x = 4$",
+        "$x = 2$",
+        "$x = 8$"
+      ],
+      "answer": 0,
+      "hint": "$2^x = 8 = 2^3 \\Leftrightarrow x = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hàm số $y = a^x$ với $a > 1$ có tính chất nào sau đây?",
+      "options": [
+        "Đồng biến trên $\\mathbb{R}$",
+        "Nghịch biến trên $\\mathbb{R}$",
+        "Không đổi",
+        "Có giá trị nhỏ nhất bằng 0"
+      ],
+      "answer": 0,
+      "hint": "$y = a^x$ ($a > 1$) đồng biến trên $\\mathbb{R}$; ($0 < a < 1$) nghịch biến."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hàm số $y = \\log_a x$ với $a > 1$ có tập xác định là:",
+      "options": [
+        "$(0; +\\infty)$",
+        "$\\mathbb{R}$",
+        "$[0; +\\infty)$",
+        "$(-\\infty; 0)$"
+      ],
+      "answer": 0,
+      "hint": "Logarit chỉ xác định khi đối số dương: $x > 0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Nghiệm của phương trình $\\log_2 x = 4$ là:",
+      "options": [
+        "$x = 16$",
+        "$x = 8$",
+        "$x = 2$",
+        "$x = 4$"
+      ],
+      "answer": 0,
+      "hint": "$\\log_2 x = 4 \\Leftrightarrow x = 2^4 = 16$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Nghiệm của phương trình $3^x = 27$ là:",
+      "options": [
+        "$x = 3$",
+        "$x = 9$",
+        "$x = 27$",
+        "$x = 1$"
+      ],
+      "answer": 0,
+      "hint": "$3^x = 27 = 3^3 \\Leftrightarrow x = 3$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Giá trị của biểu thức $\\log_2 4 + \\log_2 8$ bằng:",
+      "options": [
+        "$5$",
+        "$6$",
+        "$32$",
+        "$12$"
+      ],
+      "answer": 0,
+      "hint": "$\\log_2 4 + \\log_2 8 = 2 + 3 = 5$. (Hoặc $\\log_2(4 \\cdot 8) = \\log_2 32 = 5$.)"
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về lũy thừa và logarit:",
+      "statements": [
+        { "text": "Với $a > 0$, $a \\neq 1$ thì $\\log_a 1 = 0$ và $\\log_a a = 1$.", "answer": true },
+        { "text": "Với $x, y > 0$ và $a > 0$, $a \\neq 1$: $\\log_a(xy) = \\log_a x + \\log_a y$.", "answer": true },
+        { "text": "Với $x > 0$, $\\alpha \\in \\mathbb{R}$: $\\log_a(x^\\alpha) = \\alpha \\log_a x$.", "answer": true },
+        { "text": "Logarit của một số ÂM là một số thực có giá trị xác định.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hàm số mũ và hàm số logarit:",
+      "statements": [
+        { "text": "Hàm số $y = a^x$ với $a > 1$ đồng biến trên $\\mathbb{R}$.", "answer": true },
+        { "text": "Hàm số $y = \\log_a x$ có tập xác định $(0; +\\infty)$.", "answer": true },
+        { "text": "Đồ thị hàm $y = a^x$ luôn đi qua điểm $(0; 1)$ với mọi $a > 0$, $a \\neq 1$.", "answer": true },
+        { "text": "Hàm số $y = a^x$ với $0 < a < 1$ đồng biến trên $\\mathbb{R}$.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Giá trị của $\\log_3 81$ bằng ___",
+      "answer": "4",
+      "hint": "$\\log_3 81 = \\log_3 3^4 = 4$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Nghiệm của phương trình $\\log_5 x = 2$ là $x = $ ___",
+      "answer": "25",
+      "hint": "$\\log_5 x = 2 \\Leftrightarrow x = 5^2 = 25$."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Với mọi cơ số $a > 0$, $a \\neq 1$: $\\log_a 1 = 0$.",
+      "answer": true,
+      "hint": "$a^0 = 1$ nên $\\log_a 1 = 0$."
+    }
+  ]
+}

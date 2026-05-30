@@ -1,0 +1,205 @@
+{
+  "id": "thpt-ngu-van-l12-truyen-ngan-hien-dai",
+  "stage": "thpt",
+  "subject": "ngu-van",
+  "grade": 12,
+  "topic": "Truyện ngắn Việt Nam hiện đại sau 1945",
+  "chapter": "Truyện ngắn hiện đại 12",
+  "difficulty": 3,
+  "outcomes": [
+    "Vợ chồng A Phủ (Tô Hoài)",
+    "Rừng xà nu (Nguyễn Trung Thành)",
+    "Chiếc thuyền ngoài xa (Nguyễn Minh Châu)",
+    "Đặc trưng và phong cách truyện ngắn Việt Nam hiện đại"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Vợ chồng A Phủ\" là tác phẩm của nhà văn nào?",
+      "options": [
+        "Tô Hoài",
+        "Nam Cao",
+        "Nguyễn Minh Châu",
+        "Nguyễn Trung Thành"
+      ],
+      "answer": 0,
+      "hint": "\"Vợ chồng A Phủ\" in trong tập \"Truyện Tây Bắc\" của nhà văn Tô Hoài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Vợ chồng A Phủ\" lấy bối cảnh chính ở đâu?",
+      "options": [
+        "Vùng núi Tây Bắc, dưới chế độ phong kiến miền núi (trước Cách mạng) và trong cuộc kháng chiến",
+        "Đồng bằng sông Cửu Long thời bình",
+        "Thành phố Hà Nội hiện đại",
+        "Vùng biển miền Trung"
+      ],
+      "answer": 0,
+      "hint": "Tác phẩm phản ánh số phận người dân tộc thiểu số ở Tây Bắc dưới chế độ chúa đất phong kiến."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Rừng xà nu\" là tác phẩm của nhà văn:",
+      "options": [
+        "Nguyễn Trung Thành (Nguyên Ngọc)",
+        "Tô Hoài",
+        "Kim Lân",
+        "Nguyễn Minh Châu"
+      ],
+      "answer": 0,
+      "hint": "\"Rừng xà nu\" là tác phẩm tiêu biểu của Nguyễn Trung Thành (bút danh khác: Nguyên Ngọc)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Rừng xà nu\" lấy bối cảnh chính ở khu vực nào?",
+      "options": [
+        "Tây Nguyên, trong cuộc kháng chiến chống Mỹ",
+        "Tây Bắc, trong cuộc kháng chiến chống Pháp",
+        "Đồng bằng Bắc Bộ, trước Cách mạng tháng Tám",
+        "Nam Bộ, thời hòa bình"
+      ],
+      "answer": 0,
+      "hint": "\"Rừng xà nu\" viết về dân làng Xô Man ở Tây Nguyên trong kháng chiến chống Mỹ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hình tượng cây xà nu trong truyện ngắn \"Rừng xà nu\" mang ý nghĩa biểu tượng nào sau đây?",
+      "options": [
+        "Tượng trưng cho sức sống mãnh liệt, tinh thần bất khuất của dân làng Xô Man và đồng bào Tây Nguyên",
+        "Chỉ là cảnh vật miêu tả thuần túy, không có ý nghĩa biểu tượng",
+        "Biểu tượng cho sự yếu đuối, dễ bị quật ngã",
+        "Tượng trưng cho mùa xuân và tình yêu đôi lứa"
+      ],
+      "answer": 0,
+      "hint": "Cây xà nu — bị thương vẫn vươn lên — là biểu tượng cho sức sống bất khuất của dân làng và dân tộc Tây Nguyên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Chiếc thuyền ngoài xa\" là tác phẩm của nhà văn:",
+      "options": [
+        "Nguyễn Minh Châu",
+        "Nguyễn Trung Thành",
+        "Tô Hoài",
+        "Nguyễn Tuân"
+      ],
+      "answer": 0,
+      "hint": "Nguyễn Minh Châu là một trong những nhà văn tiên phong của \"thời kì Đổi mới\" văn học sau 1986."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Thông điệp chính mà nhà văn Nguyễn Minh Châu gửi gắm qua truyện ngắn \"Chiếc thuyền ngoài xa\" là gì?",
+      "options": [
+        "Người nghệ sĩ cần có cái nhìn đa diện, sâu sắc về cuộc đời; nghệ thuật không thể tách rời thực tế đời sống đầy bất ngờ và phức tạp",
+        "Cuộc đời lúc nào cũng đẹp như tranh, không có khó khăn gì",
+        "Nghệ thuật chỉ cần đẹp về hình thức, không cần phản ánh hiện thực",
+        "Người nghệ sĩ không nên quan tâm đến đời sống nhân dân"
+      ],
+      "answer": 0,
+      "hint": "Tác phẩm khẳng định: cái nhìn nghệ thuật phải gắn liền với việc khám phá hiện thực đa chiều, sâu sắc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nhân vật Mị (trong \"Vợ chồng A Phủ\") có quá trình diễn biến tâm lí nổi bật nào?",
+      "options": [
+        "Từ tê liệt, cam chịu trước số phận → bừng tỉnh, khát khao sống và đấu tranh giải phóng",
+        "Luôn vui vẻ, hạnh phúc và không có biến đổi gì",
+        "Luôn cam chịu cho đến khi chết",
+        "Trở thành kẻ ác, áp bức người khác"
+      ],
+      "answer": 0,
+      "hint": "Mị từ một cô gái bị áp bức, tê liệt cảm xúc → bừng tỉnh trong đêm tình mùa xuân → cuối cùng cùng A Phủ trốn khỏi Hồng Ngài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đặc điểm chung của các truyện ngắn Việt Nam hiện đại sau 1945 viết về số phận con người là:",
+      "options": [
+        "Khắc họa số phận con người trong những biến động lịch sử lớn, đề cao khát vọng giải phóng và sức sống mãnh liệt",
+        "Chỉ ca ngợi cuộc sống vương giả, xa xỉ",
+        "Hoàn toàn không liên quan đến hiện thực xã hội",
+        "Chỉ viết về tình yêu đôi lứa, không có vấn đề xã hội"
+      ],
+      "answer": 0,
+      "hint": "Truyện ngắn Việt Nam hiện đại sau 1945 đặt con người trong dòng chảy lớn của lịch sử và đề cao tinh thần giải phóng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cảm hứng chủ đạo trong các truyện ngắn của Nguyễn Trung Thành (\"Rừng xà nu\") và Tô Hoài (\"Vợ chồng A Phủ\") khi viết về kháng chiến là:",
+      "options": [
+        "Cảm hứng sử thi, ca ngợi tinh thần đấu tranh và sức sống bất khuất của con người, của dân tộc",
+        "Cảm hứng bi thương, tuyệt vọng về số phận con người",
+        "Cảm hứng hài hước, châm biếm thuần túy",
+        "Cảm hứng siêu thực, viễn tưởng"
+      ],
+      "answer": 0,
+      "hint": "Văn học kháng chiến mang đậm cảm hứng sử thi, đề cao chủ nghĩa anh hùng cách mạng và sức sống bất khuất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Trong \"Chiếc thuyền ngoài xa\", chi tiết \"chiếc thuyền nhỏ trong sương mù lúc bình minh\" có ý nghĩa nghệ thuật gì?",
+      "options": [
+        "Tượng trưng cho \"vẻ đẹp toàn bích\" của nghệ thuật, đồng thời đặt vấn đề về khoảng cách giữa cái nhìn nghệ thuật và hiện thực đời sống",
+        "Chỉ là chi tiết tả cảnh thuần túy, không có ý nghĩa gì khác",
+        "Biểu tượng cho sự giàu có",
+        "Tượng trưng cho công nghệ hiện đại"
+      ],
+      "answer": 0,
+      "hint": "Hình ảnh chiếc thuyền ngoài xa đẹp như tranh — ngược với hiện thực phía sau bức tranh — đặt vấn đề về cái nhìn nghệ thuật."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về truyện ngắn Việt Nam hiện đại:",
+      "statements": [
+        { "text": "Truyện ngắn \"Vợ chồng A Phủ\" của Tô Hoài viết về số phận người dân tộc thiểu số ở Tây Bắc.", "answer": true },
+        { "text": "Truyện ngắn \"Rừng xà nu\" của Nguyễn Trung Thành viết về cuộc kháng chiến chống Mỹ ở Tây Nguyên.", "answer": true },
+        { "text": "Hình tượng cây xà nu trong \"Rừng xà nu\" tượng trưng cho sức sống bất khuất của dân làng Xô Man.", "answer": true },
+        { "text": "Truyện ngắn \"Chiếc thuyền ngoài xa\" của Nguyễn Minh Châu chỉ ca ngợi vẻ đẹp tự nhiên, không có thông điệp về nghệ thuật và cuộc đời.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về phong cách và cảm hứng văn học:",
+      "statements": [
+        { "text": "Văn học Việt Nam giai đoạn 1945 - 1975 mang đậm cảm hứng sử thi, đề cao chủ nghĩa anh hùng cách mạng.", "answer": true },
+        { "text": "Nguyễn Minh Châu là một trong những nhà văn tiên phong đổi mới văn học Việt Nam sau năm 1986.", "answer": true },
+        { "text": "Mị (trong \"Vợ chồng A Phủ\") có sức sống tiềm tàng mạnh mẽ, dù bị áp bức nhưng vẫn khao khát tự do.", "answer": true },
+        { "text": "Tất cả các truyện ngắn Việt Nam hiện đại đều chỉ viết về tình yêu, không phản ánh xã hội.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Tác phẩm \"Vợ chồng A Phủ\" là sáng tác tiêu biểu của nhà văn ___",
+      "answer": "Tô Hoài",
+      "alternatives": ["to hoai"],
+      "hint": "Tô Hoài (1920-2014) là tác giả của \"Vợ chồng A Phủ\" và \"Dế Mèn phiêu lưu kí\"."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Truyện ngắn \"Rừng xà nu\" lấy bối cảnh ở khu vực ___ trong cuộc kháng chiến chống Mỹ.",
+      "answer": "Tây Nguyên",
+      "alternatives": ["tay nguyen"],
+      "hint": "Làng Xô Man (dân tộc Strá / Xơ-đăng) ở Tây Nguyên là bối cảnh chính của truyện."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Nguyễn Minh Châu là nhà văn tiêu biểu của giai đoạn đổi mới văn học Việt Nam sau năm 1986.",
+      "answer": true,
+      "hint": "Nguyễn Minh Châu được xem là \"người mở đường\" tinh anh và tài năng của văn học Việt Nam thời kì đổi mới."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "thpt-tieng-anh-l11-passive-reported",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 11,
+  "topic": "Passive voice and reported speech (Câu bị động và câu tường thuật)",
+  "chapter": "Passive & Reported speech",
+  "difficulty": 3,
+  "outcomes": [
+    "Passive voice in various tenses",
+    "Reported speech: statements, questions, commands",
+    "Linking words (although, however, because)",
+    "Vocabulary: heritage, environment, education"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "The general form of the passive voice in English is: ___. (Công thức chung của câu bị động trong tiếng Anh là: ___.)",
+      "options": [
+        "be + past participle (V3)",
+        "have + past participle (V3)",
+        "do + bare infinitive",
+        "be + V-ing"
+      ],
+      "answer": 0,
+      "hint": "Câu bị động: be + V3/Ved (past participle)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Change to PASSIVE voice: \"They built this house in 2010.\" (Chuyển sang bị động: \"Họ xây ngôi nhà này năm 2010.\")",
+      "options": [
+        "This house was built in 2010.",
+        "This house is built in 2010.",
+        "This house was build in 2010.",
+        "This house has built in 2010."
+      ],
+      "answer": 0,
+      "hint": "Bị động thì quá khứ đơn: was/were + V3 → \"was built\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Change to PASSIVE voice: \"Many people speak English around the world.\" (Chuyển sang bị động.)",
+      "options": [
+        "English is spoken by many people around the world.",
+        "English are spoken by many people around the world.",
+        "English was spoken by many people around the world.",
+        "English has spoken by many people around the world."
+      ],
+      "answer": 0,
+      "hint": "Bị động thì hiện tại đơn: is/are + V3 → English (số ít) → \"is spoken\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Reported speech (câu tường thuật) is used to: ___ (Câu tường thuật được dùng để: ___)",
+      "options": [
+        "Report what someone said without quoting them directly (Tường thuật lại lời ai đó nói mà không trích dẫn nguyên văn)",
+        "Quote someone's exact words (Trích dẫn nguyên văn lời ai đó)",
+        "Ask a direct question (Hỏi trực tiếp)",
+        "Give a command (Ra lệnh)"
+      ],
+      "answer": 0,
+      "hint": "Câu tường thuật (indirect speech): tường thuật gián tiếp lời nói của ai đó."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Change to reported speech: She said, \"I am tired.\" → She said that she _____ tired. (Chuyển sang câu tường thuật.)",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "had been"
+      ],
+      "answer": 0,
+      "hint": "Trong câu tường thuật, hiện tại đơn lùi thành quá khứ đơn: am → was."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Change to reported speech: He said, \"I will help you.\" → He said that he _____ help me. (Chuyển sang câu tường thuật.)",
+      "options": [
+        "would",
+        "will",
+        "had",
+        "could"
+      ],
+      "answer": 0,
+      "hint": "Trong câu tường thuật, \"will\" lùi thành \"would\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Reported speech of a COMMAND: She said, \"Close the door!\" → She _____ me _____ the door. (Câu tường thuật một mệnh lệnh.)",
+      "options": [
+        "told / to close",
+        "said / closing",
+        "asked / closed",
+        "said / to closed"
+      ],
+      "answer": 0,
+      "hint": "Tường thuật mệnh lệnh: S + told + O + to + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Change to passive: \"They are going to build a new school here next year.\" (Chuyển sang bị động.)",
+      "options": [
+        "A new school is going to be built here next year.",
+        "A new school is going to build here next year.",
+        "A new school is going to built here next year.",
+        "A new school will built here next year."
+      ],
+      "answer": 0,
+      "hint": "\"be going to + V\" → bị động: \"be going to be + V3\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which linking word means \"in spite of the fact that\"? (Liên từ nào có nghĩa là \"mặc dù\"?)",
+      "options": [
+        "although",
+        "because",
+        "so",
+        "and"
+      ],
+      "answer": 0,
+      "hint": "\"although\" = mặc dù (although + clause)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "\"_____ it was raining, we went to the park.\" Choose the correct linking word. (\"_____ trời mưa, chúng tôi vẫn đi công viên.\" Chọn liên từ đúng.)",
+      "options": [
+        "Although",
+        "Because",
+        "So",
+        "If"
+      ],
+      "answer": 0,
+      "hint": "\"Although\" diễn tả sự tương phản: mặc dù trời mưa, chúng tôi vẫn đi công viên."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word means \"something valuable from the past that we want to preserve\"? (Từ nào có nghĩa là \"điều gì đó quý giá từ quá khứ mà chúng ta muốn bảo tồn\"?)",
+      "options": [
+        "heritage",
+        "garbage",
+        "machine",
+        "noise"
+      ],
+      "answer": 0,
+      "hint": "\"heritage\" = di sản (cultural heritage = di sản văn hóa)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct form: The Imperial Citadel of Thang Long _____ recognized as a World Heritage Site by UNESCO in 2010. (Chọn dạng đúng: Hoàng thành Thăng Long _____ công nhận là Di sản Thế giới bởi UNESCO năm 2010.)",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "had"
+      ],
+      "answer": 0,
+      "hint": "Bị động quá khứ đơn (mốc thời gian rõ ràng \"in 2010\"): was + V3 → was recognized."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
+      "statements": [
+        { "text": "The passive voice is formed with \"be + past participle (V3)\". (Câu bị động được tạo bởi \"be + quá khứ phân từ\".)", "answer": true },
+        { "text": "In reported speech, the present simple usually changes to the past simple. (Trong câu tường thuật, hiện tại đơn thường chuyển sang quá khứ đơn.)", "answer": true },
+        { "text": "When reporting a command, we use the structure: told + object + to + V_inf. (Khi tường thuật mệnh lệnh, ta dùng cấu trúc: told + tân ngữ + to + V_inf.)", "answer": true },
+        { "text": "\"Although\" means \"because\". (\"Although\" có nghĩa là \"vì\".)", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each statement is true or false. (Xét tính đúng/sai.)",
+      "statements": [
+        { "text": "\"Heritage\" means something valuable from the past that we want to preserve. (\"Heritage\" có nghĩa là điều quý giá từ quá khứ mà chúng ta muốn bảo tồn.)", "answer": true },
+        { "text": "Hoang Thanh Thang Long is a cultural heritage site in Vietnam. (Hoàng thành Thăng Long là một di sản văn hóa của Việt Nam.)", "answer": true },
+        { "text": "In reported speech, \"will\" changes to \"would\". (Trong câu tường thuật, \"will\" chuyển thành \"would\".)", "answer": true },
+        { "text": "In reported speech, no tense changes are ever necessary. (Trong câu tường thuật, không bao giờ cần đổi thì động từ.)", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Change to passive: \"They have finished the project.\" → The project _____ ______ finished. (Chuyển sang bị động: hoàn thành 2 từ.)",
+      "answer": "has been",
+      "alternatives": ["Has been"],
+      "hint": "Bị động thì hiện tại hoàn thành: has/have + been + V3 → \"has been finished\"."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the reported speech: He said, \"I am happy.\" → He said that he _____ happy. (Hoàn thành câu tường thuật.)",
+      "answer": "was",
+      "alternatives": ["Was"],
+      "hint": "Hiện tại đơn → quá khứ đơn: am → was."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "In the passive voice, we focus on the action and the receiver of the action, not the doer. (Ở câu bị động, ta nhấn mạnh hành động và đối tượng nhận hành động, không nhấn mạnh chủ thể thực hiện.)",
+      "answer": true,
+      "hint": "Bị động được dùng khi đối tượng nhận hành động quan trọng hơn người thực hiện."
+    }
+  ]
+}

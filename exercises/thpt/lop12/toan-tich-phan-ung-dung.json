@@ -1,0 +1,209 @@
+{
+  "id": "thpt-toan-l12-tich-phan-ung-dung",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 12,
+  "topic": "Nguyên hàm, Tích phân và ứng dụng (nâng cao)",
+  "chapter": "Chương 4: Nguyên hàm - Tích phân",
+  "difficulty": 3,
+  "outcomes": [
+    "Bảng nguyên hàm cơ bản",
+    "Tính tích phân bằng định nghĩa",
+    "Ứng dụng tích phân: diện tích hình phẳng",
+    "Ứng dụng tích phân: thể tích vật thể tròn xoay"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên hàm $F(x)$ của hàm số $f(x)$ trên khoảng $K$ là hàm số thỏa mãn:",
+      "options": [
+        "$F'(x) = f(x)$ với mọi $x \\in K$",
+        "$F(x) = f'(x)$ với mọi $x \\in K$",
+        "$F(x) \\cdot f(x) = 1$",
+        "$F(x) = f(x)^2$"
+      ],
+      "answer": 0,
+      "hint": "Theo định nghĩa: $F$ là nguyên hàm của $f$ ⇔ $F'(x) = f(x)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên hàm của hàm số $f(x) = x^n$ ($n \\neq -1$) là:",
+      "options": [
+        "$F(x) = \\dfrac{x^{n+1}}{n+1} + C$",
+        "$F(x) = n \\cdot x^{n-1} + C$",
+        "$F(x) = x^{n+1} + C$",
+        "$F(x) = \\dfrac{x^n}{n} + C$"
+      ],
+      "answer": 0,
+      "hint": "$\\displaystyle\\int x^n\\,dx = \\dfrac{x^{n+1}}{n+1} + C$ với $n \\neq -1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên hàm của hàm $f(x) = \\sin x$ là:",
+      "options": [
+        "$F(x) = -\\cos x + C$",
+        "$F(x) = \\cos x + C$",
+        "$F(x) = \\sin x + C$",
+        "$F(x) = \\tan x + C$"
+      ],
+      "answer": 0,
+      "hint": "$\\displaystyle\\int \\sin x\\,dx = -\\cos x + C$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tích phân $\\displaystyle\\int_a^b f(x)\\,dx$ được hiểu là:",
+      "options": [
+        "$F(b) - F(a)$, trong đó $F(x)$ là một nguyên hàm bất kì của $f(x)$",
+        "$F(a) - F(b)$",
+        "$F(b) \\cdot F(a)$",
+        "$\\dfrac{F(b)}{F(a)}$"
+      ],
+      "answer": 0,
+      "hint": "Công thức Newton - Leibniz: $\\displaystyle\\int_a^b f(x)\\,dx = F(b) - F(a)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của $\\displaystyle\\int_0^2 2x\\,dx$ bằng:",
+      "options": [
+        "$4$",
+        "$2$",
+        "$8$",
+        "$0$"
+      ],
+      "answer": 0,
+      "hint": "$\\displaystyle\\int_0^2 2x\\,dx = [x^2]_0^2 = 4 - 0 = 4$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của $\\displaystyle\\int_0^1 (3x^2 + 1)\\,dx$ bằng:",
+      "options": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$1$"
+      ],
+      "answer": 0,
+      "hint": "$\\displaystyle\\int_0^1 (3x^2 + 1)\\,dx = [x^3 + x]_0^1 = (1 + 1) - 0 = 2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Giá trị của $\\displaystyle\\int_0^{\\pi/2} \\cos x\\,dx$ bằng:",
+      "options": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "hint": "$\\displaystyle\\int_0^{\\pi/2} \\cos x\\,dx = [\\sin x]_0^{\\pi/2} = 1 - 0 = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cho hai hàm số $f, g$ liên tục trên $[a; b]$. Khẳng định nào sau đây ĐÚNG?",
+      "options": [
+        "$\\displaystyle\\int_a^b [f(x) + g(x)]\\,dx = \\displaystyle\\int_a^b f(x)\\,dx + \\displaystyle\\int_a^b g(x)\\,dx$",
+        "$\\displaystyle\\int_a^b [f(x) \\cdot g(x)]\\,dx = \\displaystyle\\int_a^b f(x)\\,dx \\cdot \\displaystyle\\int_a^b g(x)\\,dx$",
+        "$\\displaystyle\\int_a^b f(x)\\,dx = \\displaystyle\\int_b^a f(x)\\,dx$",
+        "$\\displaystyle\\int_a^b f(x)\\,dx = 0$ với mọi hàm $f$"
+      ],
+      "answer": 0,
+      "hint": "Tính chất tuyến tính: tích phân của tổng = tổng các tích phân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm $y = f(x)$ liên tục, không âm trên $[a; b]$, trục $Ox$ và hai đường $x = a$, $x = b$ là:",
+      "options": [
+        "$S = \\displaystyle\\int_a^b f(x)\\,dx$",
+        "$S = \\displaystyle\\int_a^b f(x)^2\\,dx$",
+        "$S = f(b) - f(a)$",
+        "$S = (b - a) \\cdot f(a)$"
+      ],
+      "answer": 0,
+      "hint": "Diện tích dưới đường cong (khi $f(x) \\geq 0$) là $\\displaystyle\\int_a^b f(x)\\,dx$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị $y = x^2$, trục $Ox$ và hai đường $x = 0$, $x = 2$ bằng:",
+      "options": [
+        "$\\dfrac{8}{3}$",
+        "$\\dfrac{4}{3}$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 0,
+      "hint": "$S = \\displaystyle\\int_0^2 x^2\\,dx = \\left[\\dfrac{x^3}{3}\\right]_0^2 = \\dfrac{8}{3}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Thể tích vật thể tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y = f(x) \\geq 0$, $Ox$, $x = a$, $x = b$ quanh trục $Ox$ là:",
+      "options": [
+        "$V = \\pi \\displaystyle\\int_a^b f(x)^2\\,dx$",
+        "$V = \\displaystyle\\int_a^b f(x)\\,dx$",
+        "$V = 2\\pi \\displaystyle\\int_a^b f(x)\\,dx$",
+        "$V = \\pi \\displaystyle\\int_a^b f(x)\\,dx$"
+      ],
+      "answer": 0,
+      "hint": "Thể tích tròn xoay quanh $Ox$: $V = \\pi \\displaystyle\\int_a^b f(x)^2\\,dx$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Giá trị của tích phân $\\displaystyle\\int_1^2 \\dfrac{1}{x}\\,dx$ bằng:",
+      "options": [
+        "$\\ln 2$",
+        "$\\ln 1 = 0$",
+        "$\\dfrac{1}{2}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "hint": "$\\displaystyle\\int_1^2 \\dfrac{1}{x}\\,dx = [\\ln|x|]_1^2 = \\ln 2 - \\ln 1 = \\ln 2$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về nguyên hàm:",
+      "statements": [
+        { "text": "Nếu $F'(x) = f(x)$ thì $F(x)$ là một nguyên hàm của $f(x)$.", "answer": true },
+        { "text": "$\\displaystyle\\int x^n\\,dx = \\dfrac{x^{n+1}}{n+1} + C$ với mọi $n \\neq -1$.", "answer": true },
+        { "text": "Hai nguyên hàm của cùng một hàm số sai khác nhau một hằng số.", "answer": true },
+        { "text": "Nguyên hàm của $\\cos x$ là $-\\sin x + C$.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về tích phân và ứng dụng:",
+      "statements": [
+        { "text": "$\\displaystyle\\int_a^b [f(x) + g(x)]\\,dx = \\displaystyle\\int_a^b f(x)\\,dx + \\displaystyle\\int_a^b g(x)\\,dx$.", "answer": true },
+        { "text": "$\\displaystyle\\int_a^b k \\cdot f(x)\\,dx = k \\displaystyle\\int_a^b f(x)\\,dx$ với mọi hằng số $k$.", "answer": true },
+        { "text": "Diện tích hình phẳng giới hạn bởi đồ thị $y = f(x) \\geq 0$, trục $Ox$, $x = a$, $x = b$ là $\\displaystyle\\int_a^b f(x)\\,dx$.", "answer": true },
+        { "text": "$\\displaystyle\\int_a^b f(x)\\,dx = \\displaystyle\\int_b^a f(x)\\,dx$ với mọi hàm $f$.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Giá trị của tích phân $\\displaystyle\\int_0^1 2x\\,dx$ bằng ___",
+      "answer": "1",
+      "hint": "$\\displaystyle\\int_0^1 2x\\,dx = [x^2]_0^1 = 1 - 0 = 1$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Giá trị của tích phân $\\displaystyle\\int_0^1 (4x^3 + 2x)\\,dx$ bằng ___",
+      "answer": "2",
+      "hint": "$\\displaystyle\\int_0^1 (4x^3 + 2x)\\,dx = [x^4 + x^2]_0^1 = (1 + 1) - 0 = 2$."
+    }
+  ]
+}

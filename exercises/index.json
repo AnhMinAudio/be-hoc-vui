@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:45:08.609Z",
+  "generatedAt": "2026-05-30T01:00:06.194Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -1331,6 +1331,24 @@
       "path": "thpt/lop10/ngu-van-su-thi-truyen-tho.json"
     },
     {
+      "id": "thpt-ngu-van-l10-van-ban-thong-tin-ki",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 10,
+      "topic": "Văn bản thông tin và kí (ghi chép)",
+      "chapter": "Văn bản thông tin & Kí 10",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Đặc trưng văn bản thông tin",
+        "Cấu trúc văn bản thông tin",
+        "Đặc trưng thể loại kí",
+        "Kĩ năng đọc - hiểu văn bản thông tin và kí"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/ngu-van-van-ban-thong-tin-ki.json"
+    },
+    {
       "id": "thpt-ngu-van-l10-nghi-luan-san-khau-truyen",
       "stage": "thpt",
       "subject": "ngu-van",
@@ -1385,6 +1403,24 @@
       "path": "thpt/lop11/ngu-van-truyen-hien-dai-tho-moi.json"
     },
     {
+      "id": "thpt-ngu-van-l11-nghi-luan-xa-hoi-ki",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 11,
+      "topic": "Văn nghị luận và kí hiện đại",
+      "chapter": "Nghị luận & Kí hiện đại 11",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Cấu trúc của văn bản nghị luận",
+        "Nghệ thuật thuyết phục",
+        "Đặc trưng thể loại kí (bút kí, tùy bút, hồi kí)",
+        "Kĩ năng đọc - hiểu văn bản nghị luận và kí"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/ngu-van-nghi-luan-xa-hoi-ki.json"
+    },
+    {
       "id": "thpt-ngu-van-l12-on-tap",
       "stage": "thpt",
       "subject": "ngu-van",
@@ -1401,6 +1437,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/ngu-van.json"
+    },
+    {
+      "id": "thpt-ngu-van-l12-truyen-ngan-hien-dai",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 12,
+      "topic": "Truyện ngắn Việt Nam hiện đại sau 1945",
+      "chapter": "Truyện ngắn hiện đại 12",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Vợ chồng A Phủ (Tô Hoài)",
+        "Rừng xà nu (Nguyễn Trung Thành)",
+        "Chiếc thuyền ngoài xa (Nguyễn Minh Châu)",
+        "Đặc trưng và phong cách truyện ngắn Việt Nam hiện đại"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/ngu-van-truyen-ngan-hien-dai.json"
     },
     {
       "id": "thpt-sinh-hoc-l10-on-tap",
@@ -2303,6 +2357,24 @@
       "path": "thcs/lop9/tieng-anh-relative-clauses.json"
     },
     {
+      "id": "thpt-tieng-anh-l10-modal-conditional",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 10,
+      "topic": "Modal verbs, conditional sentences and vocabulary (Động từ khuyết thiếu, câu điều kiện và từ vựng)",
+      "chapter": "Modal verbs & Conditional",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Modal verbs: must, should, can, may",
+        "First and second conditional sentences",
+        "Future simple",
+        "Vocabulary: school, music, community"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/tieng-anh-modal-conditional.json"
+    },
+    {
       "id": "thpt-tieng-anh-l10-doc-hieu-giao-tiep",
       "stage": "thpt",
       "subject": "tieng-anh",
@@ -2339,6 +2411,24 @@
       "path": "thpt/lop10/tieng-anh-thi-tu-vung-co-ban.json"
     },
     {
+      "id": "thpt-tieng-anh-l11-passive-reported",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 11,
+      "topic": "Passive voice and reported speech (Câu bị động và câu tường thuật)",
+      "chapter": "Passive & Reported speech",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Passive voice in various tenses",
+        "Reported speech: statements, questions, commands",
+        "Linking words (although, however, because)",
+        "Vocabulary: heritage, environment, education"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/tieng-anh-passive-reported.json"
+    },
+    {
       "id": "thpt-tieng-anh-l11-doc-hieu-giao-tiep",
       "stage": "thpt",
       "subject": "tieng-anh",
@@ -2373,6 +2463,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/tieng-anh-menh-de-quan-he-tu-vung.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l12-reading-grammar",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 12,
+      "topic": "Advanced reading comprehension and grammar (Đọc hiểu và ngữ pháp nâng cao)",
+      "chapter": "Reading & Grammar 12",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Reading comprehension on social and environmental topics",
+        "Cleft sentences and inversion",
+        "Relative clauses (advanced)",
+        "Vocabulary: globalization, education, technology"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/tieng-anh-reading-grammar.json"
     },
     {
       "id": "thpt-tieng-anh-l12-on-tap",
@@ -4069,6 +4177,24 @@
       "path": "thpt/lop10/toan-menh-de-tap-hop-bpt.json"
     },
     {
+      "id": "thpt-toan-l10-thong-ke-to-hop-xac-suat",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 10,
+      "topic": "Thống kê, Tổ hợp và Xác suất",
+      "chapter": "Thống kê - Tổ hợp - Xác suất 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Các số đặc trưng của mẫu số liệu: trung bình, trung vị, mode",
+        "Hoán vị, chỉnh hợp, tổ hợp",
+        "Quy tắc đếm",
+        "Xác suất của biến cố theo định nghĩa cổ điển"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/toan-thong-ke-to-hop-xac-suat.json"
+    },
+    {
       "id": "thpt-toan-l11-gioi-han-dao-ham",
       "stage": "thpt",
       "subject": "toan",
@@ -4103,6 +4229,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/toan-luong-giac-day-so.json"
+    },
+    {
+      "id": "thpt-toan-l11-mu-logarit",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 11,
+      "topic": "Hàm số mũ và Hàm số logarit",
+      "chapter": "Mũ - Logarit 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Lũy thừa với số mũ thực",
+        "Logarit và các tính chất",
+        "Hàm số mũ - Hàm số logarit",
+        "Phương trình mũ và logarit cơ bản"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/toan-mu-logarit.json"
     },
     {
       "id": "thpt-toan-l12-c1-ung-dung-dao-ham",
@@ -4225,6 +4369,24 @@
       ],
       "timeLimit": 45,
       "path": "thpt/lop12/de-thi-thu-tot-nghiep-1.json"
+    },
+    {
+      "id": "thpt-toan-l12-tich-phan-ung-dung",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 12,
+      "topic": "Nguyên hàm, Tích phân và ứng dụng (nâng cao)",
+      "chapter": "Chương 4: Nguyên hàm - Tích phân",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Bảng nguyên hàm cơ bản",
+        "Tính tích phân bằng định nghĩa",
+        "Ứng dụng tích phân: diện tích hình phẳng",
+        "Ứng dụng tích phân: thể tích vật thể tròn xoay"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/toan-tich-phan-ung-dung.json"
     },
     {
       "id": "thpt-vat-li-l10-on-tap",
