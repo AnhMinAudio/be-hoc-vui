@@ -474,8 +474,10 @@ function mergeProgress(a, b) {
   // studyDays: union ngày học liên tiếp — true thắng vắng mặt
   out.studyDays = { ...(a.studyDays || {}), ...(b.studyDays || {}) };
 
-  // settings: union, client (b) thắng khi xung đột (vì client vừa edit & sync lên)
-  out.settings = { ...(a.settings || {}), ...(b.settings || {}) };
+  // settings: client (b) là nguồn sự thật — REPLACE toàn bộ, không union.
+  // Lý do: spread merge không truyền được hành vi XÓA (xóa key client → server giữ → trả lại
+  // → client phục hồi). Settings là field nhỏ user-controlled, không cần merge cross-device.
+  out.settings = { ...(b.settings || {}) };
 
   // stickers: union, GIỮ NGÀY SỚM hơn (sticker là vĩnh viễn, "ngày nhận đầu tiên")
   const stickerKeys = new Set([...Object.keys(a.stickers || {}), ...Object.keys(b.stickers || {})]);
