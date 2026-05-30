@@ -195,10 +195,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về đường thẳng và đường tròn trong mặt phẳng tọa độ:",
       "statements": [
-        { "text": "Đường thẳng $ax + by + c = 0$ ($a^2 + b^2 > 0$) có vector pháp tuyến $\\vec{n} = (a; b)$.", "answer": true },
-        { "text": "Đường tròn tâm $I(a; b)$ bán kính $R$ có phương trình $(x - a)^2 + (y - b)^2 = R^2$.", "answer": true },
-        { "text": "Hai đường thẳng song song khi hai vector pháp tuyến của chúng vuông góc.", "answer": false },
-        { "text": "Đường thẳng tiếp xúc với đường tròn $(I; R)$ khi khoảng cách từ $I$ đến đường thẳng bằng $R$.", "answer": true }
+        {
+          "text": "Đường thẳng $ax + by + c = 0$ ($a^2 + b^2 > 0$) có vector pháp tuyến $\\vec{n} = (a; b)$.",
+          "answer": true
+        },
+        {
+          "text": "Đường tròn tâm $I(a; b)$ bán kính $R$ có phương trình $(x - a)^2 + (y - b)^2 = R^2$.",
+          "answer": true
+        },
+        {
+          "text": "Hai đường thẳng song song khi hai vector pháp tuyến của chúng vuông góc.",
+          "answer": false
+        },
+        {
+          "text": "Đường thẳng tiếp xúc với đường tròn $(I; R)$ khi khoảng cách từ $I$ đến đường thẳng bằng $R$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -206,10 +218,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về ba đường conic:",
       "statements": [
-        { "text": "Phương trình chính tắc của elip có dạng $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ với $a > b > 0$.", "answer": true },
-        { "text": "Phương trình chính tắc của hyperbol có dạng $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$.", "answer": true },
-        { "text": "Parabol $y^2 = 2px$ ($p > 0$) có đỉnh tại gốc tọa độ và trục đối xứng là trục $Ox$.", "answer": true },
-        { "text": "Elip, hyperbol và parabol đều là các đường cong bậc nhất.", "answer": false }
+        {
+          "text": "Phương trình chính tắc của elip có dạng $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ với $a > b > 0$.",
+          "answer": true
+        },
+        {
+          "text": "Phương trình chính tắc của hyperbol có dạng $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$.",
+          "answer": true
+        },
+        {
+          "text": "Parabol $y^2 = 2px$ ($p > 0$) có đỉnh tại gốc tọa độ và trục đối xứng là trục $Ox$.",
+          "answer": true
+        },
+        {
+          "text": "Elip, hyperbol và parabol đều là các đường cong bậc nhất.",
+          "answer": false
+        }
       ]
     },
     {
@@ -226,5 +250,6 @@
       "answer": "25",
       "hint": "Phương trình: $x^2 + y^2 = R^2 = 25$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

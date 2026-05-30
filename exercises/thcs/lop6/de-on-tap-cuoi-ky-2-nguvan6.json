@@ -12,7 +12,12 @@
       "level": "NB",
       "passage": "Ngày xưa, ở một ngôi làng nọ có cậu bé tên Khoai. Nhà nghèo nhưng Khoai rất chăm chỉ và thật thà. Cậu thường giúp đỡ mọi người nên ai cũng quý mến. Một hôm, cậu nhặt được túi tiền của người lái buôn đánh rơi và tìm trả lại tận tay. Người lái buôn vô cùng cảm động, tặng cậu một phần thưởng lớn.",
       "question": "Cậu bé trong câu chuyện tên là gì?",
-      "options": ["Khoai", "Bưởi", "Tí", "Nam"],
+      "options": [
+        "Khoai",
+        "Bưởi",
+        "Tí",
+        "Nam"
+      ],
       "answer": 0
     },
     {
@@ -20,7 +25,12 @@
       "level": "NB",
       "passage": "Ngày xưa, ở một ngôi làng nọ có cậu bé tên Khoai. Nhà nghèo nhưng Khoai rất chăm chỉ và thật thà. Cậu thường giúp đỡ mọi người nên ai cũng quý mến. Một hôm, cậu nhặt được túi tiền của người lái buôn đánh rơi và tìm trả lại tận tay. Người lái buôn vô cùng cảm động, tặng cậu một phần thưởng lớn.",
       "question": "Khoai có những đức tính nào?",
-      "options": ["chăm chỉ, thật thà", "lười biếng", "tham lam", "kiêu căng"],
+      "options": [
+        "chăm chỉ, thật thà",
+        "lười biếng",
+        "tham lam",
+        "kiêu căng"
+      ],
       "answer": 0
     },
     {
@@ -28,7 +38,12 @@
       "level": "TH",
       "passage": "Ngày xưa, ở một ngôi làng nọ có cậu bé tên Khoai. Nhà nghèo nhưng Khoai rất chăm chỉ và thật thà. Cậu thường giúp đỡ mọi người nên ai cũng quý mến. Một hôm, cậu nhặt được túi tiền của người lái buôn đánh rơi và tìm trả lại tận tay. Người lái buôn vô cùng cảm động, tặng cậu một phần thưởng lớn.",
       "question": "Khoai đã làm gì khi nhặt được túi tiền?",
-      "options": ["tìm trả lại tận tay người đánh rơi", "giữ lại để tiêu", "đem cho bạn bè", "vứt đi"],
+      "options": [
+        "tìm trả lại tận tay người đánh rơi",
+        "giữ lại để tiêu",
+        "đem cho bạn bè",
+        "vứt đi"
+      ],
       "answer": 0
     },
     {
@@ -36,21 +51,36 @@
       "level": "VD",
       "passage": "Ngày xưa, ở một ngôi làng nọ có cậu bé tên Khoai. Nhà nghèo nhưng Khoai rất chăm chỉ và thật thà. Cậu thường giúp đỡ mọi người nên ai cũng quý mến. Một hôm, cậu nhặt được túi tiền của người lái buôn đánh rơi và tìm trả lại tận tay. Người lái buôn vô cùng cảm động, tặng cậu một phần thưởng lớn.",
       "question": "Bài học rút ra từ câu chuyện là gì?",
-      "options": ["sống thật thà, tốt bụng sẽ được đền đáp xứng đáng", "nên giữ của rơi cho mình", "không nên giúp đỡ người khác", "tiền là quan trọng nhất"],
+      "options": [
+        "sống thật thà, tốt bụng sẽ được đền đáp xứng đáng",
+        "nên giữ của rơi cho mình",
+        "không nên giúp đỡ người khác",
+        "tiền là quan trọng nhất"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Từ nào sau đây là từ láy?",
-      "options": ["lấp lánh", "nhà cửa", "bàn ghế", "sách vở"],
+      "options": [
+        "lấp lánh",
+        "nhà cửa",
+        "bàn ghế",
+        "sách vở"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Biện pháp tu từ trong câu 'Mặt trời xuống biển như hòn lửa.' là:",
-      "options": ["so sánh", "nhân hóa", "ẩn dụ", "hoán dụ"],
+      "options": [
+        "so sánh",
+        "nhân hóa",
+        "ẩn dụ",
+        "hoán dụ"
+      ],
       "answer": 0,
       "hint": "Có từ 'như' nối hai sự vật được đối chiếu."
     },
@@ -58,7 +88,12 @@
       "type": "multiple-choice",
       "level": "TH",
       "question": "Trong câu 'Vì chăm chỉ, Khoai được mọi người quý mến.', bộ phận 'Vì chăm chỉ' là:",
-      "options": ["trạng ngữ chỉ nguyên nhân", "chủ ngữ", "vị ngữ", "trạng ngữ chỉ thời gian"],
+      "options": [
+        "trạng ngữ chỉ nguyên nhân",
+        "chủ ngữ",
+        "vị ngữ",
+        "trạng ngữ chỉ thời gian"
+      ],
       "answer": 0
     },
     {
@@ -66,17 +101,34 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về tiếng Việt:",
       "statements": [
-        { "text": "Từ 'học sinh' là từ ghép.", "answer": true },
-        { "text": "Câu 'Ôi, đẹp quá!' là câu cảm thán.", "answer": true },
-        { "text": "Từ 'như' thường dùng trong phép so sánh.", "answer": true },
-        { "text": "Trạng ngữ luôn phải đứng ở cuối câu.", "answer": false }
+        {
+          "text": "Từ 'học sinh' là từ ghép.",
+          "answer": true
+        },
+        {
+          "text": "Câu 'Ôi, đẹp quá!' là câu cảm thán.",
+          "answer": true
+        },
+        {
+          "text": "Từ 'như' thường dùng trong phép so sánh.",
+          "answer": true
+        },
+        {
+          "text": "Trạng ngữ luôn phải đứng ở cuối câu.",
+          "answer": false
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Vì sao cụm từ 'Trái Đất' được viết hoa?",
-      "options": ["là tên riêng chỉ hành tinh chúng ta đang sống", "là danh từ chung", "để nhấn mạnh", "theo thói quen"],
+      "options": [
+        "là tên riêng chỉ hành tinh chúng ta đang sống",
+        "là danh từ chung",
+        "để nhấn mạnh",
+        "theo thói quen"
+      ],
       "answer": 0
     },
     {
@@ -84,13 +136,22 @@
       "level": "VD",
       "question": "Tìm một từ trái nghĩa với 'chăm chỉ': ___",
       "answer": "lười biếng",
-      "alternatives": ["lười", "biếng nhác", "lười nhác"]
+      "alternatives": [
+        "lười",
+        "biếng nhác",
+        "lười nhác"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Câu nào sau đây sử dụng biện pháp nhân hóa?",
-      "options": ["Ông trăng tròn nhô lên sau lũy tre.", "Trăng đêm nay rất sáng.", "Trời đã tối rồi.", "Em ngắm trăng cùng bà."],
+      "options": [
+        "Ông trăng tròn nhô lên sau lũy tre.",
+        "Trăng đêm nay rất sáng.",
+        "Trời đã tối rồi.",
+        "Em ngắm trăng cùng bà."
+      ],
       "answer": 0,
       "hint": "Gọi vật bằng từ ngữ vốn dùng cho người ('ông')."
     },
@@ -98,14 +159,24 @@
       "type": "multiple-choice",
       "level": "VD",
       "question": "Câu tục ngữ 'Ăn quả nhớ kẻ trồng cây' khuyên ta điều gì?",
-      "options": ["biết ơn người đã làm ra thành quả cho mình hưởng", "chăm trồng cây ăn quả", "ăn càng nhiều quả càng tốt", "không nên ăn quả của người khác"],
+      "options": [
+        "biết ơn người đã làm ra thành quả cho mình hưởng",
+        "chăm trồng cây ăn quả",
+        "ăn càng nhiều quả càng tốt",
+        "không nên ăn quả của người khác"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Dấu chấm than (!) thường được dùng ở cuối câu:",
-      "options": ["cảm thán hoặc cầu khiến", "kể (trần thuật)", "nghi vấn (hỏi)", "liệt kê"],
+      "options": [
+        "cảm thán hoặc cầu khiến",
+        "kể (trần thuật)",
+        "nghi vấn (hỏi)",
+        "liệt kê"
+      ],
       "answer": 0
     },
     {
@@ -113,21 +184,35 @@
       "level": "NB",
       "question": "Điền dấu câu thích hợp vào cuối câu: Bạn có thích đọc truyện cổ tích không___",
       "answer": "?",
-      "alternatives": ["dấu chấm hỏi", "dấu hỏi"]
+      "alternatives": [
+        "dấu chấm hỏi",
+        "dấu hỏi"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Từ 'cảm động' trong đoạn văn có nghĩa gần với từ nào?",
-      "options": ["xúc động", "tức giận", "thờ ơ", "buồn chán"],
+      "options": [
+        "xúc động",
+        "tức giận",
+        "thờ ơ",
+        "buồn chán"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "VDC",
       "question": "Theo em, nếu là người lái buôn trong câu chuyện, cách ứng xử nào là đẹp nhất?",
-      "options": ["cảm ơn và khen ngợi sự thật thà của Khoai", "trách mắng Khoai", "lờ đi không nói gì", "đòi thêm tiền"],
+      "options": [
+        "cảm ơn và khen ngợi sự thật thà của Khoai",
+        "trách mắng Khoai",
+        "lờ đi không nói gì",
+        "đòi thêm tiền"
+      ],
       "answer": 0
     }
-  ]
+  ],
+  "examType": "final2"
 }

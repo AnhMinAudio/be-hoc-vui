@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế và hội nhập:",
       "statements": [
-        { "text": "Tăng trưởng kinh tế là điều kiện cần để phát triển kinh tế và nâng cao đời sống nhân dân.", "answer": true },
-        { "text": "GDP là tổng giá trị bằng tiền của tất cả hàng hóa và dịch vụ cuối cùng được sản xuất ra trong phạm vi lãnh thổ một quốc gia trong một thời kì nhất định.", "answer": true },
-        { "text": "Hội nhập kinh tế quốc tế chỉ mang lại lợi ích mà không có bất kì thách thức nào.", "answer": false },
-        { "text": "Việt Nam là thành viên của Tổ chức Thương mại Thế giới (WTO).", "answer": true }
+        {
+          "text": "Tăng trưởng kinh tế là điều kiện cần để phát triển kinh tế và nâng cao đời sống nhân dân.",
+          "answer": true
+        },
+        {
+          "text": "GDP là tổng giá trị bằng tiền của tất cả hàng hóa và dịch vụ cuối cùng được sản xuất ra trong phạm vi lãnh thổ một quốc gia trong một thời kì nhất định.",
+          "answer": true
+        },
+        {
+          "text": "Hội nhập kinh tế quốc tế chỉ mang lại lợi ích mà không có bất kì thách thức nào.",
+          "answer": false
+        },
+        {
+          "text": "Việt Nam là thành viên của Tổ chức Thương mại Thế giới (WTO).",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về bảo hiểm và an sinh xã hội:",
       "statements": [
-        { "text": "Bảo hiểm xã hội nhằm bù đắp một phần thu nhập cho người lao động khi ốm đau, thai sản, tai nạn lao động hoặc hết tuổi lao động.", "answer": true },
-        { "text": "An sinh xã hội góp phần bảo đảm mức sống tối thiểu và hỗ trợ người dân khi gặp rủi ro.", "answer": true },
-        { "text": "Bảo hiểm y tế giúp chia sẻ rủi ro và hỗ trợ chi phí khám, chữa bệnh.", "answer": true },
-        { "text": "Tham gia bảo hiểm xã hội bắt buộc chỉ là quyền lợi, người lao động không có nghĩa vụ đóng góp nào.", "answer": false }
+        {
+          "text": "Bảo hiểm xã hội nhằm bù đắp một phần thu nhập cho người lao động khi ốm đau, thai sản, tai nạn lao động hoặc hết tuổi lao động.",
+          "answer": true
+        },
+        {
+          "text": "An sinh xã hội góp phần bảo đảm mức sống tối thiểu và hỗ trợ người dân khi gặp rủi ro.",
+          "answer": true
+        },
+        {
+          "text": "Bảo hiểm y tế giúp chia sẻ rủi ro và hỗ trợ chi phí khám, chữa bệnh.",
+          "answer": true
+        },
+        {
+          "text": "Tham gia bảo hiểm xã hội bắt buộc chỉ là quyền lợi, người lao động không có nghĩa vụ đóng góp nào.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Cụm từ \"bảo hiểm xã hội\" thường được viết tắt là ___",
       "answer": "BHXH",
-      "alternatives": ["bhxh"],
+      "alternatives": [
+        "bhxh"
+      ],
       "hint": "Bảo hiểm xã hội → BHXH."
     },
     {
@@ -191,7 +217,10 @@
       "level": "TH",
       "question": "Loại bảo hiểm bắt buộc giúp chi trả chi phí khám, chữa bệnh cho người tham gia là bảo hiểm ___",
       "answer": "y tế",
-      "alternatives": ["y te", "bảo hiểm y tế"],
+      "alternatives": [
+        "y te",
+        "bảo hiểm y tế"
+      ],
       "hint": "Bảo hiểm y tế (BHYT) hỗ trợ chi phí khám, chữa bệnh."
     },
     {
@@ -201,5 +230,6 @@
       "answer": true,
       "hint": "Trong bối cảnh toàn cầu hóa, hầu hết các quốc gia đều tham gia hội nhập kinh tế quốc tế."
     }
-  ]
+  ],
+  "examType": "practice"
 }

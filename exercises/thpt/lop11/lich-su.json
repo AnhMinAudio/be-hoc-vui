@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cách mạng tư sản và sự phát triển của CNTB:",
       "statements": [
-        { "text": "Cách mạng tư sản Pháp bùng nổ vào năm 1789.", "answer": true },
-        { "text": "Cuộc chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ đã dẫn đến sự thành lập Hợp chúng quốc Hoa Kỳ.", "answer": true },
-        { "text": "Các cuộc cách mạng tư sản đã lật đổ chế độ phong kiến, mở đường cho chủ nghĩa tư bản phát triển.", "answer": true },
-        { "text": "Cách mạng tư sản Anh diễn ra vào thế kỉ XX.", "answer": false }
+        {
+          "text": "Cách mạng tư sản Pháp bùng nổ vào năm 1789.",
+          "answer": true
+        },
+        {
+          "text": "Cuộc chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ đã dẫn đến sự thành lập Hợp chúng quốc Hoa Kỳ.",
+          "answer": true
+        },
+        {
+          "text": "Các cuộc cách mạng tư sản đã lật đổ chế độ phong kiến, mở đường cho chủ nghĩa tư bản phát triển.",
+          "answer": true
+        },
+        {
+          "text": "Cách mạng tư sản Anh diễn ra vào thế kỉ XX.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á và lịch sử bảo vệ Tổ quốc Việt Nam:",
       "statements": [
-        { "text": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á đều là thuộc địa hoặc nửa thuộc địa.", "answer": true },
-        { "text": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống quân Nguyên - Mông (thế kỉ XIII).", "answer": true },
-        { "text": "Quang Trung Nguyễn Huệ chỉ huy cuộc kháng chiến đánh tan quân Thanh xâm lược năm 1789.", "answer": true },
-        { "text": "Cuộc cải cách Hồ Quý Ly thành công trọn vẹn, đưa Đại Việt phát triển mạnh.", "answer": false }
+        {
+          "text": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á đều là thuộc địa hoặc nửa thuộc địa.",
+          "answer": true
+        },
+        {
+          "text": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống quân Nguyên - Mông (thế kỉ XIII).",
+          "answer": true
+        },
+        {
+          "text": "Quang Trung Nguyễn Huệ chỉ huy cuộc kháng chiến đánh tan quân Thanh xâm lược năm 1789.",
+          "answer": true
+        },
+        {
+          "text": "Cuộc cải cách Hồ Quý Ly thành công trọn vẹn, đưa Đại Việt phát triển mạnh.",
+          "answer": false
+        }
       ]
     },
     {
@@ -190,7 +214,10 @@
       "level": "TH",
       "question": "Mùa xuân năm Kỉ Dậu (1789), Quang Trung đánh tan quân ___ xâm lược.",
       "answer": "Thanh",
-      "alternatives": ["quân Thanh", "nhà Thanh"],
+      "alternatives": [
+        "quân Thanh",
+        "nhà Thanh"
+      ],
       "hint": "Quân Thanh do Tôn Sĩ Nghị chỉ huy bị Quang Trung đánh tan trong chiến dịch thần tốc mùa xuân 1789."
     },
     {
@@ -200,5 +227,6 @@
       "answer": true,
       "hint": "Cách mạng tháng Mười Nga đưa giai cấp vô sản lên nắm chính quyền, mở ra thời đại quá độ lên CNXH trên thế giới."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -27,7 +27,12 @@
     {
       "type": "multiple-choice",
       "question": "Số 408 đọc là:",
-      "options": ["Bốn trăm linh tám", "Bốn trăm tám mươi", "Bốn trăm tám", "Bốn mươi tám"],
+      "options": [
+        "Bốn trăm linh tám",
+        "Bốn trăm tám mươi",
+        "Bốn trăm tám",
+        "Bốn mươi tám"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -46,7 +51,12 @@
     {
       "type": "multiple-choice",
       "question": "Một phần năm của 20 là bao nhiêu?",
-      "options": ["4", "5", "2", "10"],
+      "options": [
+        "4",
+        "5",
+        "2",
+        "10"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Một phần năm của 20 là 20 : 5."
@@ -60,7 +70,12 @@
     {
       "type": "multiple-choice",
       "question": "1 giờ có bao nhiêu phút?",
-      "options": ["60 phút", "100 phút", "30 phút", "24 phút"],
+      "options": [
+        "60 phút",
+        "100 phút",
+        "30 phút",
+        "24 phút"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -68,17 +83,34 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả đúng",
       "pairs": [
-        ["2 × 6", "12"],
-        ["35 : 5", "7"],
-        ["3 × 9", "27"],
-        ["40 : 5", "8"]
+        [
+          "2 × 6",
+          "12"
+        ],
+        [
+          "35 : 5",
+          "7"
+        ],
+        [
+          "3 × 9",
+          "27"
+        ],
+        [
+          "40 : 5",
+          "8"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Điền dấu thích hợp vào chỗ trống: 305 ... 350",
-      "options": [">", "<", "=", "+"],
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -99,7 +131,12 @@
     {
       "type": "multiple-choice",
       "question": "Cửa hàng có 540 kg gạo, đã bán 210 kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?",
-      "options": ["330 kg", "750 kg", "340 kg", "320 kg"],
+      "options": [
+        "330 kg",
+        "750 kg",
+        "340 kg",
+        "320 kg"
+      ],
       "answer": 0,
       "level": "M3",
       "hint": "Còn lại thì lấy 540 - 210."
@@ -107,7 +144,12 @@
     {
       "type": "multiple-choice",
       "question": "Hình tam giác có mấy cạnh?",
-      "options": ["3 cạnh", "4 cạnh", "5 cạnh", "2 cạnh"],
+      "options": [
+        "3 cạnh",
+        "4 cạnh",
+        "5 cạnh",
+        "2 cạnh"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -117,5 +159,6 @@
       "answer": "16",
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "mock"
 }

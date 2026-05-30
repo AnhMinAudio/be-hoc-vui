@@ -177,10 +177,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "In the present simple, the third person singular subject (he/she/it) takes a verb with -s or -es. (Ở thì hiện tại đơn, chủ ngữ ngôi thứ ba số ít đi với động từ có -s hoặc -es.)", "answer": true },
-        { "text": "The past simple tense is used for actions completed in the past. (Thì quá khứ đơn được dùng cho hành động đã hoàn thành trong quá khứ.)", "answer": true },
-        { "text": "The present perfect tense is formed by \"have/has + V-ing\". (Thì hiện tại hoàn thành được tạo bởi \"have/has + V-ing\".)", "answer": false },
-        { "text": "In a first conditional sentence, the if-clause uses the present simple. (Trong câu điều kiện loại 1, mệnh đề if dùng thì hiện tại đơn.)", "answer": true }
+        {
+          "text": "In the present simple, the third person singular subject (he/she/it) takes a verb with -s or -es. (Ở thì hiện tại đơn, chủ ngữ ngôi thứ ba số ít đi với động từ có -s hoặc -es.)",
+          "answer": true
+        },
+        {
+          "text": "The past simple tense is used for actions completed in the past. (Thì quá khứ đơn được dùng cho hành động đã hoàn thành trong quá khứ.)",
+          "answer": true
+        },
+        {
+          "text": "The present perfect tense is formed by \"have/has + V-ing\". (Thì hiện tại hoàn thành được tạo bởi \"have/has + V-ing\".)",
+          "answer": false
+        },
+        {
+          "text": "In a first conditional sentence, the if-clause uses the present simple. (Trong câu điều kiện loại 1, mệnh đề if dùng thì hiện tại đơn.)",
+          "answer": true
+        }
       ]
     },
     {
@@ -188,7 +200,9 @@
       "level": "TH",
       "question": "He _____ (go) to bed early last night. (Anh ấy _____ (go) đi ngủ sớm tối qua.) — Write the correct past simple form. (Viết dạng quá khứ đơn đúng.)",
       "answer": "went",
-      "alternatives": ["Went"],
+      "alternatives": [
+        "Went"
+      ],
       "hint": "\"go\" là động từ bất quy tắc; quá khứ đơn là \"went\"."
     },
     {
@@ -196,7 +210,9 @@
       "level": "TH",
       "question": "Complete the word: r_n_w_ble (energy). (Hoàn thành từ: r_n_w_ble — chỉ năng lượng có thể tái tạo.)",
       "answer": "renewable",
-      "alternatives": ["Renewable"],
+      "alternatives": [
+        "Renewable"
+      ],
       "hint": "\"renewable\" nghĩa là \"có thể tái tạo\" (renewable energy = năng lượng tái tạo)."
     },
     {
@@ -206,5 +222,6 @@
       "answer": true,
       "hint": "\"aunt\" = cô, dì, bác gái; chị/em gái của bố hoặc mẹ."
     }
-  ]
+  ],
+  "examType": "practice"
 }

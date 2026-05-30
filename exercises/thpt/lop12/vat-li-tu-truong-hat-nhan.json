@@ -178,10 +178,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về từ trường và cảm ứng điện từ:",
       "statements": [
-        { "text": "Đường sức từ là những đường cong khép kín.", "answer": true },
-        { "text": "Bên ngoài một nam châm thẳng, đường sức từ đi ra từ cực Bắc (N) và đi vào cực Nam (S).", "answer": true },
-        { "text": "Lực từ tác dụng lên dây dẫn mang dòng điện đạt giá trị lớn nhất khi dây song song với đường sức từ.", "answer": false },
-        { "text": "Dòng điện cảm ứng chỉ xuất hiện khi từ thông qua mạch kín biến thiên.", "answer": true }
+        {
+          "text": "Đường sức từ là những đường cong khép kín.",
+          "answer": true
+        },
+        {
+          "text": "Bên ngoài một nam châm thẳng, đường sức từ đi ra từ cực Bắc (N) và đi vào cực Nam (S).",
+          "answer": true
+        },
+        {
+          "text": "Lực từ tác dụng lên dây dẫn mang dòng điện đạt giá trị lớn nhất khi dây song song với đường sức từ.",
+          "answer": false
+        },
+        {
+          "text": "Dòng điện cảm ứng chỉ xuất hiện khi từ thông qua mạch kín biến thiên.",
+          "answer": true
+        }
       ]
     },
     {
@@ -189,10 +201,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hạt nhân và hiện tượng phóng xạ:",
       "statements": [
-        { "text": "Số khối $A$ của hạt nhân bằng tổng số proton và số neutron.", "answer": true },
-        { "text": "Các đồng vị của cùng một nguyên tố có cùng số proton nhưng khác số neutron.", "answer": true },
-        { "text": "Phóng xạ là quá trình hạt nhân không bền tự phát biến đổi và phát ra tia phóng xạ.", "answer": true },
-        { "text": "Tia $\\alpha$ có khả năng đâm xuyên mạnh hơn tia $\\gamma$.", "answer": false }
+        {
+          "text": "Số khối $A$ của hạt nhân bằng tổng số proton và số neutron.",
+          "answer": true
+        },
+        {
+          "text": "Các đồng vị của cùng một nguyên tố có cùng số proton nhưng khác số neutron.",
+          "answer": true
+        },
+        {
+          "text": "Phóng xạ là quá trình hạt nhân không bền tự phát biến đổi và phát ra tia phóng xạ.",
+          "answer": true
+        },
+        {
+          "text": "Tia $\\alpha$ có khả năng đâm xuyên mạnh hơn tia $\\gamma$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -216,5 +240,9 @@
       "answer": true,
       "hint": "Cảm ứng từ đo bằng tesla (T); từ thông đo bằng vêbe (Wb), với $1$ Wb $= 1$ T·m$^2$."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 3
+  }
 }

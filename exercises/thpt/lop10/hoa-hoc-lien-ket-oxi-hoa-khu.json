@@ -176,10 +176,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về liên kết hóa học:",
       "statements": [
-        { "text": "Liên kết ion thường được hình thành giữa kim loại điển hình và phi kim điển hình.", "answer": true },
-        { "text": "Liên kết cộng hóa trị được hình thành do hai nguyên tử dùng chung cặp electron.", "answer": true },
-        { "text": "Liên kết cộng hóa trị KHÔNG CỰC thường gặp giữa hai nguyên tử của cùng một nguyên tố phi kim (vd $Cl_2$, $H_2$).", "answer": true },
-        { "text": "Mọi liên kết ion đều có thể được coi là liên kết cộng hóa trị.", "answer": false }
+        {
+          "text": "Liên kết ion thường được hình thành giữa kim loại điển hình và phi kim điển hình.",
+          "answer": true
+        },
+        {
+          "text": "Liên kết cộng hóa trị được hình thành do hai nguyên tử dùng chung cặp electron.",
+          "answer": true
+        },
+        {
+          "text": "Liên kết cộng hóa trị KHÔNG CỰC thường gặp giữa hai nguyên tử của cùng một nguyên tố phi kim (vd $Cl_2$, $H_2$).",
+          "answer": true
+        },
+        {
+          "text": "Mọi liên kết ion đều có thể được coi là liên kết cộng hóa trị.",
+          "answer": false
+        }
       ]
     },
     {
@@ -187,10 +199,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về phản ứng oxi hóa - khử và halogen:",
       "statements": [
-        { "text": "Trong phản ứng oxi hóa - khử, chất khử nhường electron và bị oxi hóa.", "answer": true },
-        { "text": "Halogen có tính oxi hóa mạnh do có 7 electron lớp ngoài cùng, dễ nhận thêm 1 electron.", "answer": true },
-        { "text": "Trong nhóm halogen, từ F xuống I, tính oxi hóa giảm dần.", "answer": true },
-        { "text": "Chất oxi hóa là chất bị oxi hóa, mất electron.", "answer": false }
+        {
+          "text": "Trong phản ứng oxi hóa - khử, chất khử nhường electron và bị oxi hóa.",
+          "answer": true
+        },
+        {
+          "text": "Halogen có tính oxi hóa mạnh do có 7 electron lớp ngoài cùng, dễ nhận thêm 1 electron.",
+          "answer": true
+        },
+        {
+          "text": "Trong nhóm halogen, từ F xuống I, tính oxi hóa giảm dần.",
+          "answer": true
+        },
+        {
+          "text": "Chất oxi hóa là chất bị oxi hóa, mất electron.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,7 +222,10 @@
       "level": "TH",
       "question": "Trong phản ứng $Zn + 2HCl \\rightarrow ZnCl_2 + H_2$, số oxi hóa của Zn tăng từ $0$ lên ___",
       "answer": "+2",
-      "alternatives": ["2", "+2"],
+      "alternatives": [
+        "2",
+        "+2"
+      ],
       "hint": "Zn → Zn$^{+2}$ + 2e: Zn nhường 2e, số oxi hóa tăng từ 0 lên $+2$."
     },
     {
@@ -206,7 +233,11 @@
       "level": "VD",
       "question": "Nguyên tố halogen nhẹ nhất, mạnh nhất về tính oxi hóa là ___",
       "answer": "F",
-      "alternatives": ["fluorine", "Fluorine", "F (fluorine)"],
+      "alternatives": [
+        "fluorine",
+        "Fluorine",
+        "F (fluorine)"
+      ],
       "hint": "Fluorine (F) là halogen có tính oxi hóa mạnh nhất."
     },
     {
@@ -216,5 +247,6 @@
       "answer": true,
       "hint": "Chất oxi hóa: nhận e ⇒ bị khử; chất khử: nhường e ⇒ bị oxi hóa."
     }
-  ]
+  ],
+  "examType": "practice"
 }

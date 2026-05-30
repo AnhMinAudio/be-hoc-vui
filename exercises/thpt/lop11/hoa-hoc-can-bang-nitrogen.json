@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cân bằng hóa học:",
       "statements": [
-        { "text": "Khi đạt trạng thái cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.", "answer": true },
-        { "text": "Cân bằng hóa học là cân bằng động, phản ứng vẫn diễn ra theo cả hai chiều.", "answer": true },
-        { "text": "Theo nguyên lí Le Chatelier, hệ phản ứng có xu hướng chống lại sự thay đổi do tác động bên ngoài.", "answer": true },
-        { "text": "Sau khi đạt cân bằng, phản ứng hoàn toàn dừng lại, không còn diễn ra theo bất kì chiều nào.", "answer": false }
+        {
+          "text": "Khi đạt trạng thái cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.",
+          "answer": true
+        },
+        {
+          "text": "Cân bằng hóa học là cân bằng động, phản ứng vẫn diễn ra theo cả hai chiều.",
+          "answer": true
+        },
+        {
+          "text": "Theo nguyên lí Le Chatelier, hệ phản ứng có xu hướng chống lại sự thay đổi do tác động bên ngoài.",
+          "answer": true
+        },
+        {
+          "text": "Sau khi đạt cân bằng, phản ứng hoàn toàn dừng lại, không còn diễn ra theo bất kì chiều nào.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về nitrogen, sulfur và hợp chất:",
       "statements": [
-        { "text": "$NH_3$ là một base yếu, làm quỳ tím ẩm hóa xanh.", "answer": true },
-        { "text": "$HNO_3$ là acid mạnh và có tính oxi hóa mạnh.", "answer": true },
-        { "text": "$H_2SO_4$ đặc có tính oxi hóa mạnh và tính háo nước rất mạnh.", "answer": true },
-        { "text": "$NH_3$ làm quỳ tím chuyển sang màu đỏ do có tính acid.", "answer": false }
+        {
+          "text": "$NH_3$ là một base yếu, làm quỳ tím ẩm hóa xanh.",
+          "answer": true
+        },
+        {
+          "text": "$HNO_3$ là acid mạnh và có tính oxi hóa mạnh.",
+          "answer": true
+        },
+        {
+          "text": "$H_2SO_4$ đặc có tính oxi hóa mạnh và tính háo nước rất mạnh.",
+          "answer": true
+        },
+        {
+          "text": "$NH_3$ làm quỳ tím chuyển sang màu đỏ do có tính acid.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,10 @@
       "level": "TH",
       "question": "Công thức phân tử của ammonia là ___",
       "answer": "NH3",
-      "alternatives": ["NH₃", "nh3"],
+      "alternatives": [
+        "NH₃",
+        "nh3"
+      ],
       "hint": "Ammonia: $NH_3$ (1 nitrogen + 3 hydrogen)."
     },
     {
@@ -204,7 +231,11 @@
       "level": "VD",
       "question": "Acid có công thức $H_2SO_4$ tên là ___ (tên gọi quen thuộc).",
       "answer": "sulfuric acid",
-      "alternatives": ["acid sulfuric", "axit sunfuric", "H2SO4 (sulfuric acid)"],
+      "alternatives": [
+        "acid sulfuric",
+        "axit sunfuric",
+        "H2SO4 (sulfuric acid)"
+      ],
       "hint": "$H_2SO_4$ — sulfuric acid (axit sunfuric)."
     },
     {
@@ -214,5 +245,6 @@
       "answer": true,
       "hint": "$H_2SO_4$ được gọi là \"máu của ngành công nghiệp hóa chất\"."
     }
-  ]
+  ],
+  "examType": "practice"
 }

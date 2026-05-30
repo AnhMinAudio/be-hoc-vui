@@ -6,12 +6,97 @@
   "topic": "Đếm số 1 - 5 (bài 2)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy quả đào?", "prompt": "🍑 🍑 🍑", "options": ["2", "3", "4", "5"], "answer": 1, "hint": "Đếm: 1, 2, 3." },
-    { "type": "image-choice", "question": "Có mấy con rùa?", "prompt": "🐢 🐢 🐢 🐢", "options": ["3", "4", "5", "6"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4." },
-    { "type": "image-choice", "question": "Có mấy chiếc lá?", "prompt": "🍃 🍃 🍃 🍃 🍃", "options": ["3", "4", "5", "6"], "answer": 2, "hint": "Đếm: 1, 2, 3, 4, 5." },
-    { "type": "image-choice", "question": "Có mấy chiếc thuyền?", "prompt": "⛵ ⛵", "options": ["1", "2", "3", "4"], "answer": 1, "hint": "Đếm: 1, 2." },
-    { "type": "image-choice", "question": "Có mấy quả cam?", "prompt": "🍊 🍊 🍊 🍊", "options": ["2", "3", "4", "5"], "answer": 2, "hint": "Đếm: 1, 2, 3, 4." },
-    { "type": "image-choice", "question": "Đếm xem có mấy con ốc sên?", "prompt": "🐌 🐌 🐌 🐌 🐌", "options": ["4", "5", "6", "7"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5." },
-    { "type": "image-choice", "question": "Có mấy chú chim?", "prompt": "🐦 🐦 🐦", "options": ["2", "3", "4", "5"], "answer": 1, "hint": "Đếm: 1, 2, 3." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả đào?",
+      "prompt": "🍑 🍑 🍑",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con rùa?",
+      "prompt": "🐢 🐢 🐢 🐢",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy chiếc lá?",
+      "prompt": "🍃 🍃 🍃 🍃 🍃",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "hint": "Đếm: 1, 2, 3, 4, 5."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy chiếc thuyền?",
+      "prompt": "⛵ ⛵",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả cam?",
+      "prompt": "🍊 🍊 🍊 🍊",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "hint": "Đếm: 1, 2, 3, 4."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đếm xem có mấy con ốc sên?",
+      "prompt": "🐌 🐌 🐌 🐌 🐌",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy chú chim?",
+      "prompt": "🐦 🐦 🐦",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3."
+    }
+  ],
+  "examType": "practice"
 }

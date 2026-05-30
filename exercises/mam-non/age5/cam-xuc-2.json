@@ -6,12 +6,90 @@
   "topic": "Cảm xúc theo tình huống",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Đi lạc mất mẹ trong siêu thị, bé thấy thế nào?", "options": ["😀", "😨", "😴", "😍"], "answer": 1, "hint": "Lạc mất mẹ thì bé lo sợ." },
-    { "type": "image-choice", "question": "Được cô giáo khen vẽ đẹp, bé thấy thế nào?", "options": ["😍", "😢", "😠", "😮"], "answer": 0, "hint": "Được khen thì bé thích lắm." },
-    { "type": "image-choice", "question": "Trời mưa nên không được đi công viên, bé thấy sao?", "options": ["😀", "😢", "😴", "😍"], "answer": 1, "hint": "Không được đi chơi thì bé buồn." },
-    { "type": "image-choice", "question": "Thấy bong bóng bay bất ngờ nổ \"Bụp!\", bé thấy thế nào?", "options": ["😴", "😍", "😮", "😀"], "answer": 2, "hint": "Tiếng nổ bất ngờ làm bé ngạc nhiên." },
-    { "type": "image-choice", "question": "Anh trai làm hỏng tháp xếp hình của bé, bé thấy thế nào?", "options": ["😍", "😠", "😀", "😴"], "answer": 1, "hint": "Bị làm hỏng đồ thì bé tức giận." },
-    { "type": "image-choice", "question": "Cả nhà cùng đi chơi biển, bé thấy thế nào?", "options": ["😀", "😢", "😨", "😠"], "answer": 0, "hint": "Đi chơi cùng nhà thì rất vui." },
-    { "type": "image-choice", "question": "Chơi đùa cả ngày mệt, bé nằm xuống và ngáp, bé thấy gì?", "options": ["😠", "😮", "😴", "😍"], "answer": 2, "hint": "Mệt và ngáp là buồn ngủ." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đi lạc mất mẹ trong siêu thị, bé thấy thế nào?",
+      "options": [
+        "😀",
+        "😨",
+        "😴",
+        "😍"
+      ],
+      "answer": 1,
+      "hint": "Lạc mất mẹ thì bé lo sợ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Được cô giáo khen vẽ đẹp, bé thấy thế nào?",
+      "options": [
+        "😍",
+        "😢",
+        "😠",
+        "😮"
+      ],
+      "answer": 0,
+      "hint": "Được khen thì bé thích lắm."
+    },
+    {
+      "type": "image-choice",
+      "question": "Trời mưa nên không được đi công viên, bé thấy sao?",
+      "options": [
+        "😀",
+        "😢",
+        "😴",
+        "😍"
+      ],
+      "answer": 1,
+      "hint": "Không được đi chơi thì bé buồn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Thấy bong bóng bay bất ngờ nổ \"Bụp!\", bé thấy thế nào?",
+      "options": [
+        "😴",
+        "😍",
+        "😮",
+        "😀"
+      ],
+      "answer": 2,
+      "hint": "Tiếng nổ bất ngờ làm bé ngạc nhiên."
+    },
+    {
+      "type": "image-choice",
+      "question": "Anh trai làm hỏng tháp xếp hình của bé, bé thấy thế nào?",
+      "options": [
+        "😍",
+        "😠",
+        "😀",
+        "😴"
+      ],
+      "answer": 1,
+      "hint": "Bị làm hỏng đồ thì bé tức giận."
+    },
+    {
+      "type": "image-choice",
+      "question": "Cả nhà cùng đi chơi biển, bé thấy thế nào?",
+      "options": [
+        "😀",
+        "😢",
+        "😨",
+        "😠"
+      ],
+      "answer": 0,
+      "hint": "Đi chơi cùng nhà thì rất vui."
+    },
+    {
+      "type": "image-choice",
+      "question": "Chơi đùa cả ngày mệt, bé nằm xuống và ngáp, bé thấy gì?",
+      "options": [
+        "😠",
+        "😮",
+        "😴",
+        "😍"
+      ],
+      "answer": 2,
+      "hint": "Mệt và ngáp là buồn ngủ."
+    }
+  ],
+  "examType": "practice"
 }

@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'fish' mean? (Từ 'fish' nghĩa là gì?)",
-      "options": ["con cá", "con chim", "con mèo", "con chó"],
+      "options": [
+        "con cá",
+        "con chim",
+        "con mèo",
+        "con chó"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'số bốn'? ('số bốn' tiếng Anh là gì?)",
-      "options": ["four", "three", "five", "two"],
+      "options": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'green' mean? (Từ 'green' nghĩa là gì?)",
-      "options": ["xanh lá", "đỏ", "vàng", "xanh dương"],
+      "options": [
+        "xanh lá",
+        "đỏ",
+        "vàng",
+        "xanh dương"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Which word is a family member? (Từ nào chỉ thành viên gia đình?)",
-      "options": ["brother", "apple", "ball", "sun"],
+      "options": [
+        "brother",
+        "apple",
+        "ball",
+        "sun"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,30 +58,52 @@
       "type": "fill-blank",
       "question": "Write 'số hai' in English (Viết 'số hai' bằng tiếng Anh): ___",
       "answer": "two",
-      "alternatives": ["Two", "TWO"],
+      "alternatives": [
+        "Two",
+        "TWO"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the number with its meaning (Nối số với nghĩa)",
       "pairs": [
-        ["one", "một"],
-        ["four", "bốn"],
-        ["five", "năm"]
+        [
+          "one",
+          "một"
+        ],
+        [
+          "four",
+          "bốn"
+        ],
+        [
+          "five",
+          "năm"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'sunny' mean? (Từ 'sunny' nghĩa là gì?)",
-      "options": ["có nắng", "có mưa", "có gió", "có tuyết"],
+      "options": [
+        "có nắng",
+        "có mưa",
+        "có gió",
+        "có tuyết"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Count the fish: 🐟 🐟 🐟 (Đếm số con cá)",
-      "options": ["two", "three", "four", "five"],
+      "options": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -69,20 +111,33 @@
       "type": "fill-blank",
       "question": "Write 'cái mũi' in English (Viết 'cái mũi' bằng tiếng Anh): ___",
       "answer": "nose",
-      "alternatives": ["Nose", "NOSE"],
+      "alternatives": [
+        "Nose",
+        "NOSE"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "How do you say goodbye? (Tạm biệt nói thế nào?)",
-      "options": ["Goodbye!", "Hello!", "Sorry!", "Thanks!"],
+      "options": [
+        "Goodbye!",
+        "Hello!",
+        "Sorry!",
+        "Thanks!"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Which one is a body part? (Đâu là một bộ phận cơ thể?)",
-      "options": ["mouth", "car", "tree", "sun"],
+      "options": [
+        "mouth",
+        "car",
+        "tree",
+        "sun"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -90,39 +145,69 @@
       "type": "matching",
       "question": "Match the colour with its meaning (Nối màu sắc với nghĩa)",
       "pairs": [
-        ["red", "đỏ"],
-        ["blue", "xanh dương"],
-        ["yellow", "vàng"]
+        [
+          "red",
+          "đỏ"
+        ],
+        [
+          "blue",
+          "xanh dương"
+        ],
+        [
+          "yellow",
+          "vàng"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "You see your teacher in the morning. You say: (Gặp cô giáo buổi sáng, em nói:)",
-      "options": ["Good morning, teacher!", "Goodbye!", "Sorry!", "No!"],
+      "options": [
+        "Good morning, teacher!",
+        "Goodbye!",
+        "Sorry!",
+        "No!"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Which animal says 'meow'? (Con vật nào kêu 'meo meo'?)",
-      "options": ["cat", "dog", "duck", "cow"],
+      "options": [
+        "cat",
+        "dog",
+        "duck",
+        "cow"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'mother' mean? (Từ 'mother' nghĩa là gì?)",
-      "options": ["mẹ", "bố", "anh trai", "chị gái"],
+      "options": [
+        "mẹ",
+        "bố",
+        "anh trai",
+        "chị gái"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Count the stars: ⭐ ⭐ ⭐ ⭐ ⭐ (Đếm số ngôi sao)",
-      "options": ["four", "five", "six", "three"],
+      "options": [
+        "four",
+        "five",
+        "six",
+        "three"
+      ],
       "answer": 1,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "mock"
 }

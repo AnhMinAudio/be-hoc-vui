@@ -11,28 +11,48 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'noise pollution' mean? (Cụm 'noise pollution' nghĩa là gì?)",
-      "options": ["ô nhiễm tiếng ồn", "ô nhiễm nước", "ô nhiễm đất", "ô nhiễm không khí"],
+      "options": [
+        "ô nhiễm tiếng ồn",
+        "ô nhiễm nước",
+        "ô nhiễm đất",
+        "ô nhiễm không khí"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the capital of England? (Thủ đô của nước Anh là gì?)",
-      "options": ["London", "Paris", "Washington D.C.", "Sydney"],
+      "options": [
+        "London",
+        "Paris",
+        "Washington D.C.",
+        "Sydney"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "The Opera House in Sydney is famous in which country? (Nhà hát Opera ở Sydney nổi tiếng ở nước nào?)",
-      "options": ["Australia", "Canada", "the USA", "Ireland"],
+      "options": [
+        "Australia",
+        "Canada",
+        "the USA",
+        "Ireland"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Choose the superlative form of 'beautiful'. (Dạng so sánh nhất của 'beautiful')",
-      "options": ["the most beautiful", "beautifuler", "more beautiful", "beautifulest"],
+      "options": [
+        "the most beautiful",
+        "beautifuler",
+        "more beautiful",
+        "beautifulest"
+      ],
       "answer": 0
     },
     {
@@ -40,31 +60,55 @@
       "level": "NB",
       "question": "Complete (present perfect): 'I ___ never been to London.' (điền 'have')",
       "answer": "have",
-      "alternatives": ["Have"]
+      "alternatives": [
+        "Have"
+      ]
     },
     {
       "type": "matching",
       "level": "NB",
       "question": "Match the country with its meaning (Nối quốc gia với nghĩa)",
       "pairs": [
-        ["England", "nước Anh"],
-        ["Australia", "nước Úc"],
-        ["the USA", "nước Mỹ"],
-        ["Canada", "Ca-na-đa"]
+        [
+          "England",
+          "nước Anh"
+        ],
+        [
+          "Australia",
+          "nước Úc"
+        ],
+        [
+          "the USA",
+          "nước Mỹ"
+        ],
+        [
+          "Canada",
+          "Ca-na-đa"
+        ]
       ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Choose the comparative: 'This river is ___ than that lake.' (ô nhiễm hơn)",
-      "options": ["more polluted", "polluteder", "most polluted", "polluted"],
+      "options": [
+        "more polluted",
+        "polluteder",
+        "most polluted",
+        "polluted"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Which one is a type of pollution? (Đâu là một loại ô nhiễm?)",
-      "options": ["water pollution", "traffic jam", "helmet", "cartoon"],
+      "options": [
+        "water pollution",
+        "traffic jam",
+        "helmet",
+        "cartoon"
+      ],
       "answer": 0
     },
     {
@@ -72,10 +116,22 @@
       "level": "TH",
       "question": "Decide True or False (Xét đúng/sai):",
       "statements": [
-        { "text": "London is the capital of England.", "answer": true },
-        { "text": "We use the superlative to compare three or more things.", "answer": true },
-        { "text": "'more polluted' is the comparative of 'polluted'.", "answer": true },
-        { "text": "Noise pollution is caused by clean and fresh air.", "answer": false }
+        {
+          "text": "London is the capital of England.",
+          "answer": true
+        },
+        {
+          "text": "We use the superlative to compare three or more things.",
+          "answer": true
+        },
+        {
+          "text": "'more polluted' is the comparative of 'polluted'.",
+          "answer": true
+        },
+        {
+          "text": "Noise pollution is caused by clean and fresh air.",
+          "answer": false
+        }
       ]
     },
     {
@@ -83,20 +139,32 @@
       "level": "TH",
       "question": "Complete with the superlative: 'Mount Everest is the ___ mountain in the world.' (cao nhất — điền 'highest')",
       "answer": "highest",
-      "alternatives": ["Highest"]
+      "alternatives": [
+        "Highest"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Which sentence is in the present perfect tense? (Câu nào ở thì hiện tại hoàn thành?)",
-      "options": ["She has visited London.", "She visit London.", "She visiting London.", "She to visit London."],
+      "options": [
+        "She has visited London.",
+        "She visit London.",
+        "She visiting London.",
+        "She to visit London."
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "VD",
       "question": "English is the official language of which country? (Tiếng Anh là ngôn ngữ chính thức của nước nào?)",
-      "options": ["Australia", "Japan", "France", "Germany"],
+      "options": [
+        "Australia",
+        "Japan",
+        "France",
+        "Germany"
+      ],
       "answer": 0
     },
     {
@@ -104,7 +172,12 @@
       "level": "NB",
       "passage": "Australia is a large country in the southern hemisphere. Its biggest city is Sydney, which is famous for the Opera House. Many tourists visit Australia every year to see kangaroos and koalas.",
       "question": "What is the biggest city in Australia mentioned in the passage? (Thành phố lớn nhất của Úc được nhắc đến là gì?)",
-      "options": ["Sydney", "London", "New York", "Tokyo"],
+      "options": [
+        "Sydney",
+        "London",
+        "New York",
+        "Tokyo"
+      ],
       "answer": 0
     },
     {
@@ -112,7 +185,12 @@
       "level": "TH",
       "passage": "Australia is a large country in the southern hemisphere. Its biggest city is Sydney, which is famous for the Opera House. Many tourists visit Australia every year to see kangaroos and koalas.",
       "question": "What is Sydney famous for? (Sydney nổi tiếng về gì?)",
-      "options": ["the Opera House", "Big Ben", "the Eiffel Tower", "the Statue of Liberty"],
+      "options": [
+        "the Opera House",
+        "Big Ben",
+        "the Eiffel Tower",
+        "the Statue of Liberty"
+      ],
       "answer": 0
     },
     {
@@ -120,15 +198,26 @@
       "level": "TH",
       "passage": "Australia is a large country in the southern hemisphere. Its biggest city is Sydney, which is famous for the Opera House. Many tourists visit Australia every year to see kangaroos and koalas.",
       "question": "What animals can tourists see in Australia? (Du khách có thể thấy con vật gì ở Úc?)",
-      "options": ["kangaroos and koalas", "lions and tigers", "pandas", "polar bears"],
+      "options": [
+        "kangaroos and koalas",
+        "lions and tigers",
+        "pandas",
+        "polar bears"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "VDC",
       "question": "You want to say you have never seen snow (Em muốn nói rằng em chưa từng thấy tuyết)",
-      "options": ["I have never seen snow.", "I never see snow yesterday.", "I am never seen snow.", "Snow I never have see."],
+      "options": [
+        "I have never seen snow.",
+        "I never see snow yesterday.",
+        "I am never seen snow.",
+        "Snow I never have see."
+      ],
       "answer": 0
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

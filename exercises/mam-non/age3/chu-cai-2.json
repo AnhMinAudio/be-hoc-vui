@@ -6,11 +6,72 @@
   "topic": "Làm quen chữ cái",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là chữ E?", "options": ["E", "O", "B"], "answer": 0, "hint": "Chữ E có ba cái gạch ngang." },
-    { "type": "image-choice", "question": "Đâu là chữ T?", "options": ["A", "T", "M"], "answer": 1, "hint": "Chữ T có cái mũ ở trên." },
-    { "type": "image-choice", "question": "Đâu là chữ I?", "options": ["L", "O", "I"], "answer": 2, "hint": "Chữ I bé xíu có một chấm." },
-    { "type": "image-choice", "question": "Đâu là chữ N?", "options": ["N", "C", "O"], "answer": 0, "hint": "Chữ N có hai cây cột." },
-    { "type": "image-choice", "question": "Đâu là chữ H?", "options": ["B", "H", "A"], "answer": 1, "hint": "Chữ H giống cái thang." },
-    { "type": "image-choice", "question": "Đâu là chữ V?", "options": ["M", "O", "V"], "answer": 2, "hint": "Chữ V nhọn như cái phễu." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ E?",
+      "options": [
+        "E",
+        "O",
+        "B"
+      ],
+      "answer": 0,
+      "hint": "Chữ E có ba cái gạch ngang."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ T?",
+      "options": [
+        "A",
+        "T",
+        "M"
+      ],
+      "answer": 1,
+      "hint": "Chữ T có cái mũ ở trên."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ I?",
+      "options": [
+        "L",
+        "O",
+        "I"
+      ],
+      "answer": 2,
+      "hint": "Chữ I bé xíu có một chấm."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ N?",
+      "options": [
+        "N",
+        "C",
+        "O"
+      ],
+      "answer": 0,
+      "hint": "Chữ N có hai cây cột."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ H?",
+      "options": [
+        "B",
+        "H",
+        "A"
+      ],
+      "answer": 1,
+      "hint": "Chữ H giống cái thang."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ V?",
+      "options": [
+        "M",
+        "O",
+        "V"
+      ],
+      "answer": 2,
+      "hint": "Chữ V nhọn như cái phễu."
+    }
+  ],
+  "examType": "practice"
 }

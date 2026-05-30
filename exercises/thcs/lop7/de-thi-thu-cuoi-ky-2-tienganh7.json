@@ -7,26 +7,213 @@
   "difficulty": 3,
   "timeLimit": 60,
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "What does 'festival' mean? (Từ 'festival' nghĩa là gì?)", "options": ["lễ hội", "kì nghỉ", "bữa ăn", "bộ phim"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "What is the English word for 'tắc đường'? ('tắc đường' tiếng Anh là gì?)", "options": ["traffic jam", "traffic light", "crossroads", "pavement"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "What is the past simple of 'see'? (Quá khứ đơn của 'see')", "options": ["saw", "seed", "seen", "seeing"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Complete: 'You ___ wear a helmet.' (phải)", "options": ["must", "can", "might", "may"], "answer": 0 },
-    { "type": "fill-blank", "level": "NB", "question": "Complete: 'How ___ rice do you eat?' (rice không đếm được — điền 'much')", "answer": "much", "alternatives": ["Much"] },
-    { "type": "matching", "level": "NB", "question": "Match the kind of film with its meaning (Nối loại phim với nghĩa)", "pairs": [["comedy", "phim hài"], ["horror", "phim kinh dị"], ["cartoon", "phim hoạt hình"]] },
-    { "type": "multiple-choice", "level": "TH", "question": "Choose the comparative: 'A train is ___ than a bicycle.' (nhanh hơn)", "options": ["faster", "fastest", "fast", "more fast"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "question": "Complete: 'There isn't ___ milk left.' (điền từ đúng)", "options": ["any", "some", "many", "a"], "answer": 0 },
-    { "type": "true-false-group", "level": "TH", "question": "Decide True or False (Xét đúng/sai):", "statements": [
-      { "text": "The past simple of 'go' is 'went'.", "answer": true },
-      { "text": "A red traffic light means 'stop'.", "answer": true },
-      { "text": "We use 'many' with countable nouns.", "answer": true },
-      { "text": "A horror film makes you laugh happily.", "answer": false }
-    ] },
-    { "type": "fill-blank", "level": "TH", "question": "Write the past simple of 'visit' (Viết quá khứ đơn của 'visit'): ___", "answer": "visited", "alternatives": ["Visited"] },
-    { "type": "multiple-choice", "level": "TH", "question": "Which one is a kind of film? (Đâu là một loại phim?)", "options": ["comedy", "helmet", "festival", "crossroads"], "answer": 0 },
-    { "type": "multiple-choice", "level": "VD", "question": "Choose the correct question about festivals (Chọn câu hỏi đúng về lễ hội)", "options": ["What is your favourite festival?", "Festival you favourite what?", "What you festival favourite?", "Favourite what festival you?"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "passage": "Tet is the most important festival in Vietnam. During Tet, people clean their houses, make banh chung and visit relatives. Children receive lucky money.", "question": "What is the most important festival in Vietnam? (Lễ hội quan trọng nhất ở Việt Nam là gì?)", "options": ["Tet", "Christmas", "Halloween", "Easter"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "passage": "Tet is the most important festival in Vietnam. During Tet, people clean their houses, make banh chung and visit relatives. Children receive lucky money.", "question": "What do people make during Tet? (Người ta làm món gì trong dịp Tết?)", "options": ["banh chung", "pizza", "sushi", "hamburgers"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "passage": "Tet is the most important festival in Vietnam. During Tet, people clean their houses, make banh chung and visit relatives. Children receive lucky money.", "question": "What do children receive during Tet? (Trẻ em nhận được gì trong dịp Tết?)", "options": ["lucky money", "homework", "books", "toys only"], "answer": 0 },
-    { "type": "multiple-choice", "level": "VDC", "question": "Invite a friend to watch a film with you (Mời bạn cùng xem phim)", "options": ["Would you like to watch a film with me?", "You film watch with me?", "Watch film you me?", "Film you like with watch me?"], "answer": 0 }
-  ]
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What does 'festival' mean? (Từ 'festival' nghĩa là gì?)",
+      "options": [
+        "lễ hội",
+        "kì nghỉ",
+        "bữa ăn",
+        "bộ phim"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the English word for 'tắc đường'? ('tắc đường' tiếng Anh là gì?)",
+      "options": [
+        "traffic jam",
+        "traffic light",
+        "crossroads",
+        "pavement"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "What is the past simple of 'see'? (Quá khứ đơn của 'see')",
+      "options": [
+        "saw",
+        "seed",
+        "seen",
+        "seeing"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Complete: 'You ___ wear a helmet.' (phải)",
+      "options": [
+        "must",
+        "can",
+        "might",
+        "may"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Complete: 'How ___ rice do you eat?' (rice không đếm được — điền 'much')",
+      "answer": "much",
+      "alternatives": [
+        "Much"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "NB",
+      "question": "Match the kind of film with its meaning (Nối loại phim với nghĩa)",
+      "pairs": [
+        [
+          "comedy",
+          "phim hài"
+        ],
+        [
+          "horror",
+          "phim kinh dị"
+        ],
+        [
+          "cartoon",
+          "phim hoạt hình"
+        ]
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the comparative: 'A train is ___ than a bicycle.' (nhanh hơn)",
+      "options": [
+        "faster",
+        "fastest",
+        "fast",
+        "more fast"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete: 'There isn't ___ milk left.' (điền từ đúng)",
+      "options": [
+        "any",
+        "some",
+        "many",
+        "a"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Decide True or False (Xét đúng/sai):",
+      "statements": [
+        {
+          "text": "The past simple of 'go' is 'went'.",
+          "answer": true
+        },
+        {
+          "text": "A red traffic light means 'stop'.",
+          "answer": true
+        },
+        {
+          "text": "We use 'many' with countable nouns.",
+          "answer": true
+        },
+        {
+          "text": "A horror film makes you laugh happily.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Write the past simple of 'visit' (Viết quá khứ đơn của 'visit'): ___",
+      "answer": "visited",
+      "alternatives": [
+        "Visited"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which one is a kind of film? (Đâu là một loại phim?)",
+      "options": [
+        "comedy",
+        "helmet",
+        "festival",
+        "crossroads"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the correct question about festivals (Chọn câu hỏi đúng về lễ hội)",
+      "options": [
+        "What is your favourite festival?",
+        "Festival you favourite what?",
+        "What you festival favourite?",
+        "Favourite what festival you?"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Tet is the most important festival in Vietnam. During Tet, people clean their houses, make banh chung and visit relatives. Children receive lucky money.",
+      "question": "What is the most important festival in Vietnam? (Lễ hội quan trọng nhất ở Việt Nam là gì?)",
+      "options": [
+        "Tet",
+        "Christmas",
+        "Halloween",
+        "Easter"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Tet is the most important festival in Vietnam. During Tet, people clean their houses, make banh chung and visit relatives. Children receive lucky money.",
+      "question": "What do people make during Tet? (Người ta làm món gì trong dịp Tết?)",
+      "options": [
+        "banh chung",
+        "pizza",
+        "sushi",
+        "hamburgers"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Tet is the most important festival in Vietnam. During Tet, people clean their houses, make banh chung and visit relatives. Children receive lucky money.",
+      "question": "What do children receive during Tet? (Trẻ em nhận được gì trong dịp Tết?)",
+      "options": [
+        "lucky money",
+        "homework",
+        "books",
+        "toys only"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Invite a friend to watch a film with you (Mời bạn cùng xem phim)",
+      "options": [
+        "Would you like to watch a film with me?",
+        "You film watch with me?",
+        "Watch film you me?",
+        "Film you like with watch me?"
+      ],
+      "answer": 0
+    }
+  ],
+  "examType": "mock"
 }

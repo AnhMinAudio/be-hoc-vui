@@ -6,12 +6,83 @@
   "topic": "Cảm xúc và tình huống",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Khuôn mặt nào đang NGẠC NHIÊN?", "options": ["😮", "😀", "😠"], "answer": 0, "hint": "Ngạc nhiên thì miệng tròn xoe." },
-    { "type": "image-choice", "question": "Bạn nào đang SỢ HÃI?", "options": ["😀", "😨", "😴"], "answer": 1, "hint": "Sợ thì mắt mở to, lo lắng." },
-    { "type": "image-choice", "question": "Khuôn mặt nào đang THÍCH THÚ, yêu thương?", "options": ["😢", "😍", "😠"], "answer": 1, "hint": "Thích thì mắt long lanh hình trái tim." },
-    { "type": "image-choice", "question": "Được mẹ ôm, bé cảm thấy thế nào?", "options": ["😀", "😢", "😠"], "answer": 0, "hint": "Được ôm thì rất vui." },
-    { "type": "image-choice", "question": "Bị ngã đau, bé thấy thế nào?", "options": ["😀", "😢", "😴"], "answer": 1, "hint": "Đau thì muốn khóc." },
-    { "type": "image-choice", "question": "Nghe tiếng sấm to, bé có thể thấy thế nào?", "options": ["😍", "😨", "😀"], "answer": 1, "hint": "Tiếng to bất ngờ làm bé sợ." },
-    { "type": "image-choice", "question": "Thấy món đồ chơi đẹp, bé thấy thế nào?", "options": ["😍", "😠", "😢"], "answer": 0, "hint": "Đẹp quá thì bé rất thích." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Khuôn mặt nào đang NGẠC NHIÊN?",
+      "options": [
+        "😮",
+        "😀",
+        "😠"
+      ],
+      "answer": 0,
+      "hint": "Ngạc nhiên thì miệng tròn xoe."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bạn nào đang SỢ HÃI?",
+      "options": [
+        "😀",
+        "😨",
+        "😴"
+      ],
+      "answer": 1,
+      "hint": "Sợ thì mắt mở to, lo lắng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Khuôn mặt nào đang THÍCH THÚ, yêu thương?",
+      "options": [
+        "😢",
+        "😍",
+        "😠"
+      ],
+      "answer": 1,
+      "hint": "Thích thì mắt long lanh hình trái tim."
+    },
+    {
+      "type": "image-choice",
+      "question": "Được mẹ ôm, bé cảm thấy thế nào?",
+      "options": [
+        "😀",
+        "😢",
+        "😠"
+      ],
+      "answer": 0,
+      "hint": "Được ôm thì rất vui."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bị ngã đau, bé thấy thế nào?",
+      "options": [
+        "😀",
+        "😢",
+        "😴"
+      ],
+      "answer": 1,
+      "hint": "Đau thì muốn khóc."
+    },
+    {
+      "type": "image-choice",
+      "question": "Nghe tiếng sấm to, bé có thể thấy thế nào?",
+      "options": [
+        "😍",
+        "😨",
+        "😀"
+      ],
+      "answer": 1,
+      "hint": "Tiếng to bất ngờ làm bé sợ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Thấy món đồ chơi đẹp, bé thấy thế nào?",
+      "options": [
+        "😍",
+        "😠",
+        "😢"
+      ],
+      "answer": 0,
+      "hint": "Đẹp quá thì bé rất thích."
+    }
+  ],
+  "examType": "practice"
 }

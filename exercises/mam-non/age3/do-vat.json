@@ -6,11 +6,72 @@
   "topic": "Đồ vật quanh bé",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là cái ghế?", "options": ["🪑", "🚪", "🛏️"], "answer": 0, "hint": "Cái ghế để ngồi." },
-    { "type": "image-choice", "question": "Đâu là quả bóng?", "options": ["🧸", "⚽", "🎈"], "answer": 1, "hint": "Quả bóng để chơi đá, lăn." },
-    { "type": "image-choice", "question": "Đâu là chiếc giày?", "options": ["👟", "👕", "🧢"], "answer": 0, "hint": "Giày để đi dưới chân." },
-    { "type": "image-choice", "question": "Đâu là cái thìa?", "options": ["🔑", "🥄", "✂️"], "answer": 1, "hint": "Cái thìa để xúc cơm ăn." },
-    { "type": "image-choice", "question": "Đâu là cái ô (dù)?", "options": ["☂️", "⏰", "📺"], "answer": 0, "hint": "Cái ô để che mưa." },
-    { "type": "image-choice", "question": "Đâu là gấu bông?", "options": ["📚", "💡", "🧸"], "answer": 2, "hint": "Gấu bông mềm để ôm chơi." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là cái ghế?",
+      "options": [
+        "🪑",
+        "🚪",
+        "🛏️"
+      ],
+      "answer": 0,
+      "hint": "Cái ghế để ngồi."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là quả bóng?",
+      "options": [
+        "🧸",
+        "⚽",
+        "🎈"
+      ],
+      "answer": 1,
+      "hint": "Quả bóng để chơi đá, lăn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chiếc giày?",
+      "options": [
+        "👟",
+        "👕",
+        "🧢"
+      ],
+      "answer": 0,
+      "hint": "Giày để đi dưới chân."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là cái thìa?",
+      "options": [
+        "🔑",
+        "🥄",
+        "✂️"
+      ],
+      "answer": 1,
+      "hint": "Cái thìa để xúc cơm ăn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là cái ô (dù)?",
+      "options": [
+        "☂️",
+        "⏰",
+        "📺"
+      ],
+      "answer": 0,
+      "hint": "Cái ô để che mưa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là gấu bông?",
+      "options": [
+        "📚",
+        "💡",
+        "🧸"
+      ],
+      "answer": 2,
+      "hint": "Gấu bông mềm để ôm chơi."
+    }
+  ],
+  "examType": "practice"
 }

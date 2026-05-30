@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'pen' mean? (Từ 'pen' nghĩa là gì?)",
-      "options": ["cây bút", "quyển sách", "cái cặp", "cái bàn"],
+      "options": [
+        "cây bút",
+        "quyển sách",
+        "cái cặp",
+        "cái bàn"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'quyển sách'? ('quyển sách' tiếng Anh là gì?)",
-      "options": ["book", "pen", "bag", "ruler"],
+      "options": [
+        "book",
+        "pen",
+        "bag",
+        "ruler"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Which one is a school thing? (Đâu là đồ dùng học tập?)",
-      "options": ["pencil", "banana", "cat", "sun"],
+      "options": [
+        "pencil",
+        "banana",
+        "cat",
+        "sun"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'Sunday' mean? (Từ 'Sunday' nghĩa là gì?)",
-      "options": ["Chủ nhật", "thứ Hai", "thứ Bảy", "thứ Sáu"],
+      "options": [
+        "Chủ nhật",
+        "thứ Hai",
+        "thứ Bảy",
+        "thứ Sáu"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,30 +58,52 @@
       "type": "fill-blank",
       "question": "Write 'cây bút chì' in English (Viết 'bút chì' bằng tiếng Anh): ___",
       "answer": "pencil",
-      "alternatives": ["Pencil", "PENCIL"],
+      "alternatives": [
+        "Pencil",
+        "PENCIL"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the school thing with its meaning (Nối đồ dùng học tập với nghĩa)",
       "pairs": [
-        ["pen", "cây bút"],
-        ["book", "quyển sách"],
-        ["bag", "cái cặp"]
+        [
+          "pen",
+          "cây bút"
+        ],
+        [
+          "book",
+          "quyển sách"
+        ],
+        [
+          "bag",
+          "cái cặp"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'thirsty' mean? (Từ 'thirsty' nghĩa là gì?)",
-      "options": ["khát", "đói", "mệt", "vui"],
+      "options": [
+        "khát",
+        "đói",
+        "mệt",
+        "vui"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "How many months are there in a year? (Một năm có mấy tháng?)",
-      "options": ["ten", "eleven", "twelve", "nine"],
+      "options": [
+        "ten",
+        "eleven",
+        "twelve",
+        "nine"
+      ],
       "answer": 2,
       "level": "M2"
     },
@@ -69,20 +111,33 @@
       "type": "fill-blank",
       "question": "Write 'quả táo' in English (Viết 'quả táo' bằng tiếng Anh): ___",
       "answer": "apple",
-      "alternatives": ["Apple", "APPLE"],
+      "alternatives": [
+        "Apple",
+        "APPLE"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: 'This is my ___.' (Đây là cái cặp của tôi)",
-      "options": ["bag", "run", "red", "happy"],
+      "options": [
+        "bag",
+        "run",
+        "red",
+        "happy"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What do you say when you are hungry? (Khi đói em nói gì?)",
-      "options": ["I'm hungry.", "I'm a pen.", "I'm Monday.", "I'm red."],
+      "options": [
+        "I'm hungry.",
+        "I'm a pen.",
+        "I'm Monday.",
+        "I'm red."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -90,39 +145,69 @@
       "type": "matching",
       "question": "Match the day with its meaning (Nối thứ với nghĩa)",
       "pairs": [
-        ["Monday", "thứ Hai"],
-        ["Tuesday", "thứ Ba"],
-        ["Sunday", "Chủ nhật"]
+        [
+          "Monday",
+          "thứ Hai"
+        ],
+        [
+          "Tuesday",
+          "thứ Ba"
+        ],
+        [
+          "Sunday",
+          "Chủ nhật"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Your friend helps you. You say: (Bạn giúp em. Em nói:)",
-      "options": ["Thank you!", "Goodbye.", "Sorry book.", "No friend."],
+      "options": [
+        "Thank you!",
+        "Goodbye.",
+        "Sorry book.",
+        "No friend."
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'sữa'? ('sữa' tiếng Anh là gì?)",
-      "options": ["milk", "rice", "bread", "fish"],
+      "options": [
+        "milk",
+        "rice",
+        "bread",
+        "fish"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Which day comes right before Monday? (Ngày nào ngay trước thứ Hai?)",
-      "options": ["Sunday", "Tuesday", "Friday", "Saturday"],
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Friday",
+        "Saturday"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Count the pencils: ✏️ ✏️ ✏️ ✏️ (Đếm số bút chì)",
-      "options": ["three", "four", "five", "two"],
+      "options": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
       "answer": 1,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "mock"
 }

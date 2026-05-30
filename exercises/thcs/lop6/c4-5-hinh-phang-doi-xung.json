@@ -192,5 +192,9 @@
       "answer": 0,
       "hint": "Tam giác đều có trục đối xứng nhưng không có tâm đối xứng."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 4
+  }
 }

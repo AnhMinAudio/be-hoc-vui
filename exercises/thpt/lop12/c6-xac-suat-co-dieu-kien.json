@@ -221,5 +221,9 @@
       "answer": "3",
       "hint": "Không gian rút gọn $\\{BT, TB, TT\\}$, chỉ $TT$ thoả mãn: $\\dfrac{1}{3}$."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 6
+  }
 }

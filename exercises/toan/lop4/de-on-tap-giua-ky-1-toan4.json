@@ -195,5 +195,6 @@
       "level": "M3",
       "hint": "Lấy tổng số sách trừ đi số sách của thư viện thứ nhất: 64500 - 35800."
     }
-  ]
+  ],
+  "examType": "midterm1"
 }

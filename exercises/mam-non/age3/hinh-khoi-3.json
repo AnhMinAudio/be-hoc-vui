@@ -6,12 +6,81 @@
   "topic": "Hình khối quanh bé (phần 3)",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Quả bóng có dạng hình gì?", "prompt": "⚽", "options": ["⭕", "🟥", "🔺"], "answer": 0, "hint": "Quả bóng tròn xoe." },
-    { "type": "image-choice", "question": "Mặt trăng tròn có dạng hình gì?", "prompt": "🌕", "options": ["🔺", "⭕", "🟥"], "answer": 1 },
-    { "type": "image-choice", "question": "Con vật nào TO hơn?", "options": ["🦁", "🐱"], "answer": 0, "hint": "Sư tử to hơn mèo." },
-    { "type": "image-choice", "question": "Quả nào NHỎ hơn?", "options": ["🍉", "🍒"], "answer": 1, "hint": "Quả anh đào nhỏ hơn quả dưa hấu." },
-    { "type": "image-choice", "question": "Hình nào là tam giác?", "options": ["🟦", "⭕", "🔺"], "answer": 2, "hint": "Tam giác có ba cạnh." },
-    { "type": "image-choice", "question": "Cái cây nào CAO hơn?", "options": ["🌳", "🌱"], "answer": 0, "hint": "Cây to cao hơn mầm non." },
-    { "type": "image-choice", "question": "Hình nào có bốn cạnh bằng nhau?", "options": ["🔺", "🟦", "⭕"], "answer": 1, "hint": "Hình vuông có 4 cạnh bằng nhau." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Quả bóng có dạng hình gì?",
+      "prompt": "⚽",
+      "options": [
+        "⭕",
+        "🟥",
+        "🔺"
+      ],
+      "answer": 0,
+      "hint": "Quả bóng tròn xoe."
+    },
+    {
+      "type": "image-choice",
+      "question": "Mặt trăng tròn có dạng hình gì?",
+      "prompt": "🌕",
+      "options": [
+        "🔺",
+        "⭕",
+        "🟥"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con vật nào TO hơn?",
+      "options": [
+        "🦁",
+        "🐱"
+      ],
+      "answer": 0,
+      "hint": "Sư tử to hơn mèo."
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả nào NHỎ hơn?",
+      "options": [
+        "🍉",
+        "🍒"
+      ],
+      "answer": 1,
+      "hint": "Quả anh đào nhỏ hơn quả dưa hấu."
+    },
+    {
+      "type": "image-choice",
+      "question": "Hình nào là tam giác?",
+      "options": [
+        "🟦",
+        "⭕",
+        "🔺"
+      ],
+      "answer": 2,
+      "hint": "Tam giác có ba cạnh."
+    },
+    {
+      "type": "image-choice",
+      "question": "Cái cây nào CAO hơn?",
+      "options": [
+        "🌳",
+        "🌱"
+      ],
+      "answer": 0,
+      "hint": "Cây to cao hơn mầm non."
+    },
+    {
+      "type": "image-choice",
+      "question": "Hình nào có bốn cạnh bằng nhau?",
+      "options": [
+        "🔺",
+        "🟦",
+        "⭕"
+      ],
+      "answer": 1,
+      "hint": "Hình vuông có 4 cạnh bằng nhau."
+    }
+  ],
+  "examType": "practice"
 }

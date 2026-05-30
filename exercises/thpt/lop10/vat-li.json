@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các định luật Newton và lực ma sát:",
       "statements": [
-        { "text": "Định luật I Newton (định luật quán tính): nếu hợp lực tác dụng lên vật bằng $\\vec{0}$ thì vật đứng yên hoặc chuyển động thẳng đều.", "answer": true },
-        { "text": "Định luật III Newton: lực và phản lực có cùng phương, cùng độ lớn nhưng NGƯỢC chiều.", "answer": true },
-        { "text": "Lực ma sát trượt luôn cùng chiều với chiều chuyển động của vật.", "answer": false },
-        { "text": "Trong định luật II Newton, gia tốc tỉ lệ thuận với hợp lực và tỉ lệ nghịch với khối lượng.", "answer": true }
+        {
+          "text": "Định luật I Newton (định luật quán tính): nếu hợp lực tác dụng lên vật bằng $\\vec{0}$ thì vật đứng yên hoặc chuyển động thẳng đều.",
+          "answer": true
+        },
+        {
+          "text": "Định luật III Newton: lực và phản lực có cùng phương, cùng độ lớn nhưng NGƯỢC chiều.",
+          "answer": true
+        },
+        {
+          "text": "Lực ma sát trượt luôn cùng chiều với chiều chuyển động của vật.",
+          "answer": false
+        },
+        {
+          "text": "Trong định luật II Newton, gia tốc tỉ lệ thuận với hợp lực và tỉ lệ nghịch với khối lượng.",
+          "answer": true
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về năng lượng và động lượng:",
       "statements": [
-        { "text": "Trong trọng trường, nếu chỉ có trọng lực tác dụng thì cơ năng của vật được bảo toàn.", "answer": true },
-        { "text": "Động lượng là đại lượng vector có cùng hướng với vận tốc.", "answer": true },
-        { "text": "Đơn vị của công và của động năng đều là Jun (J).", "answer": true },
-        { "text": "Trong một hệ kín không có ngoại lực, động lượng toàn phần của hệ thay đổi liên tục.", "answer": false }
+        {
+          "text": "Trong trọng trường, nếu chỉ có trọng lực tác dụng thì cơ năng của vật được bảo toàn.",
+          "answer": true
+        },
+        {
+          "text": "Động lượng là đại lượng vector có cùng hướng với vận tốc.",
+          "answer": true
+        },
+        {
+          "text": "Đơn vị của công và của động năng đều là Jun (J).",
+          "answer": true
+        },
+        {
+          "text": "Trong một hệ kín không có ngoại lực, động lượng toàn phần của hệ thay đổi liên tục.",
+          "answer": false
+        }
       ]
     },
     {
@@ -212,5 +236,6 @@
       "answer": true,
       "hint": "Đặc trưng của lực và phản lực: cùng độ lớn, ngược chiều, tác dụng lên hai vật khác nhau."
     }
-  ]
+  ],
+  "examType": "practice"
 }

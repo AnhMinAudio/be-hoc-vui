@@ -6,12 +6,87 @@
   "topic": "Hình khối và đếm cạnh (phần 3)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Hình tam giác có ba cạnh. Chạm vào hình tam giác nhé!", "options": ["⬜", "🔺", "⭐"], "answer": 1, "hint": "Tam giác có ba cạnh, ba góc." },
-    { "type": "image-choice", "question": "Hình vuông có mấy cạnh? Chạm vào hình có bốn cạnh bằng nhau nhé!", "options": ["🔺", "⬜", "🔵", "⭐"], "answer": 1, "hint": "Hình vuông có bốn cạnh bằng nhau." },
-    { "type": "image-choice", "question": "Quả trứng có dạng giống hình gì nhất?", "prompt": "🥚", "options": ["⭕", "🔺", "⬜", "⭐"], "answer": 0, "hint": "Quả trứng tròn dài." },
-    { "type": "image-choice", "question": "Con vật nào CAO nhất?", "options": ["🦒", "🐕", "🐁"], "answer": 0, "hint": "Hươu cao cổ cao nhất." },
-    { "type": "image-choice", "question": "Quả nào NHỎ nhất?", "options": ["🎃", "🍎", "🫐"], "answer": 2, "hint": "Quả việt quất nhỏ nhất." },
-    { "type": "image-choice", "question": "Cái nào RỘNG hơn?", "options": ["🛏️", "🪑"], "answer": 0, "hint": "Cái giường rộng hơn cái ghế." },
-    { "type": "image-choice", "question": "Miếng bánh pizza này giống hình gì?", "prompt": "🍕", "options": ["⭕", "🔺", "⬜", "⭐"], "answer": 1, "hint": "Miếng pizza nhọn như tam giác." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Hình tam giác có ba cạnh. Chạm vào hình tam giác nhé!",
+      "options": [
+        "⬜",
+        "🔺",
+        "⭐"
+      ],
+      "answer": 1,
+      "hint": "Tam giác có ba cạnh, ba góc."
+    },
+    {
+      "type": "image-choice",
+      "question": "Hình vuông có mấy cạnh? Chạm vào hình có bốn cạnh bằng nhau nhé!",
+      "options": [
+        "🔺",
+        "⬜",
+        "🔵",
+        "⭐"
+      ],
+      "answer": 1,
+      "hint": "Hình vuông có bốn cạnh bằng nhau."
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả trứng có dạng giống hình gì nhất?",
+      "prompt": "🥚",
+      "options": [
+        "⭕",
+        "🔺",
+        "⬜",
+        "⭐"
+      ],
+      "answer": 0,
+      "hint": "Quả trứng tròn dài."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con vật nào CAO nhất?",
+      "options": [
+        "🦒",
+        "🐕",
+        "🐁"
+      ],
+      "answer": 0,
+      "hint": "Hươu cao cổ cao nhất."
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả nào NHỎ nhất?",
+      "options": [
+        "🎃",
+        "🍎",
+        "🫐"
+      ],
+      "answer": 2,
+      "hint": "Quả việt quất nhỏ nhất."
+    },
+    {
+      "type": "image-choice",
+      "question": "Cái nào RỘNG hơn?",
+      "options": [
+        "🛏️",
+        "🪑"
+      ],
+      "answer": 0,
+      "hint": "Cái giường rộng hơn cái ghế."
+    },
+    {
+      "type": "image-choice",
+      "question": "Miếng bánh pizza này giống hình gì?",
+      "prompt": "🍕",
+      "options": [
+        "⭕",
+        "🔺",
+        "⬜",
+        "⭐"
+      ],
+      "answer": 1,
+      "hint": "Miếng pizza nhọn như tam giác."
+    }
+  ],
+  "examType": "practice"
 }

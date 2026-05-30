@@ -100,7 +100,9 @@
       "level": "NB",
       "question": "Viết gọn tích $5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 5$ dưới dạng lũy thừa ___",
       "answer": "5^6",
-      "alternatives": ["$5^6$"],
+      "alternatives": [
+        "$5^6$"
+      ],
       "hint": "Cơ số là $5$, số $5$ xuất hiện $6$ lần."
     },
     {
@@ -160,10 +162,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về dấu hiệu chia hết:",
       "statements": [
-        { "text": "Số $2\\,358$ chia hết cho $3$.", "answer": true },
-        { "text": "Số $645$ chia hết cho $9$.", "answer": false },
-        { "text": "Số $1\\,470$ chia hết cho cả $2$ và $5$.", "answer": true },
-        { "text": "Số $216$ chia hết cho $9$.", "answer": true }
+        {
+          "text": "Số $2\\,358$ chia hết cho $3$.",
+          "answer": true
+        },
+        {
+          "text": "Số $645$ chia hết cho $9$.",
+          "answer": false
+        },
+        {
+          "text": "Số $1\\,470$ chia hết cho cả $2$ và $5$.",
+          "answer": true
+        },
+        {
+          "text": "Số $216$ chia hết cho $9$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -171,10 +185,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định sau:",
       "statements": [
-        { "text": "Số $2$ là số nguyên tố chẵn duy nhất.", "answer": true },
-        { "text": "Mọi hợp số đều là số chẵn.", "answer": false },
-        { "text": "$\\text{ƯCLN}(a, b) = 1$ thì $a$ và $b$ là hai số nguyên tố cùng nhau.", "answer": true },
-        { "text": "Số $0$ là bội của mọi số tự nhiên khác $0$.", "answer": true }
+        {
+          "text": "Số $2$ là số nguyên tố chẵn duy nhất.",
+          "answer": true
+        },
+        {
+          "text": "Mọi hợp số đều là số chẵn.",
+          "answer": false
+        },
+        {
+          "text": "$\\text{ƯCLN}(a, b) = 1$ thì $a$ và $b$ là hai số nguyên tố cùng nhau.",
+          "answer": true
+        },
+        {
+          "text": "Số $0$ là bội của mọi số tự nhiên khác $0$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -182,7 +208,9 @@
       "level": "TH",
       "question": "Tìm $\\text{ƯCLN}(28, 42)$. Kết quả là ___",
       "answer": "14",
-      "alternatives": ["$14$"],
+      "alternatives": [
+        "$14$"
+      ],
       "hint": "$28 = 2^2 \\times 7$; $42 = 2 \\times 3 \\times 7$; lấy thừa số chung số mũ nhỏ nhất: $2 \\times 7 = 14$."
     },
     {
@@ -190,7 +218,9 @@
       "level": "VD",
       "question": "Tìm $\\text{BCNN}(9, 12, 18)$. Kết quả là ___",
       "answer": "36",
-      "alternatives": ["$36$"],
+      "alternatives": [
+        "$36$"
+      ],
       "hint": "$9 = 3^2$; $12 = 2^2 \\times 3$; $18 = 2 \\times 3^2$; BCNN $= 2^2 \\times 3^2 = 36$."
     },
     {
@@ -211,8 +241,11 @@
       "level": "VDC",
       "question": "Số học sinh của một khối khi xếp hàng $6$, hàng $8$ hay hàng $9$ đều vừa đủ, không thừa bạn nào. Biết số học sinh trong khoảng từ $130$ đến $200$. Số học sinh của khối đó là ___ học sinh.",
       "answer": "144",
-      "alternatives": ["$144$"],
+      "alternatives": [
+        "$144$"
+      ],
       "hint": "Số học sinh là bội chung của $6, 8, 9$; $\\text{BCNN}(6, 8, 9) = 72$; bội của $72$ trong khoảng $130$–$200$ là $144$."
     }
-  ]
+  ],
+  "examType": "midterm1"
 }

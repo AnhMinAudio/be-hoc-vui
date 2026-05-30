@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về thơ ca cách mạng Việt Nam:",
       "statements": [
-        { "text": "\"Tây Tiến\" của Quang Dũng được sáng tác năm 1948, viết về đoàn binh Tây Tiến trong kháng chiến chống Pháp.", "answer": true },
-        { "text": "\"Việt Bắc\" của Tố Hữu được sáng tác sau Hiệp định Giơ-ne-vơ (1954), khi Trung ương rời chiến khu về xuôi.", "answer": true },
-        { "text": "Hình tượng người lính trong \"Tây Tiến\" được khắc họa với cả hai mặt: hiện thực gian khổ và lãng mạn anh hùng.", "answer": true },
-        { "text": "Tố Hữu không phải là nhà thơ tiêu biểu của thơ ca cách mạng Việt Nam.", "answer": false }
+        {
+          "text": "\"Tây Tiến\" của Quang Dũng được sáng tác năm 1948, viết về đoàn binh Tây Tiến trong kháng chiến chống Pháp.",
+          "answer": true
+        },
+        {
+          "text": "\"Việt Bắc\" của Tố Hữu được sáng tác sau Hiệp định Giơ-ne-vơ (1954), khi Trung ương rời chiến khu về xuôi.",
+          "answer": true
+        },
+        {
+          "text": "Hình tượng người lính trong \"Tây Tiến\" được khắc họa với cả hai mặt: hiện thực gian khổ và lãng mạn anh hùng.",
+          "answer": true
+        },
+        {
+          "text": "Tố Hữu không phải là nhà thơ tiêu biểu của thơ ca cách mạng Việt Nam.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về \"Sóng\" và \"Đất Nước\":",
       "statements": [
-        { "text": "\"Sóng\" của Xuân Quỳnh thể hiện tâm hồn người phụ nữ khi yêu với những khát khao chân thành, mãnh liệt.", "answer": true },
-        { "text": "Hình tượng \"sóng\" và \"em\" trong bài thơ \"Sóng\" là hai hình tượng song hành, soi chiếu cho nhau.", "answer": true },
-        { "text": "Đoạn trích \"Đất Nước\" trích từ trường ca \"Mặt đường khát vọng\" của Nguyễn Khoa Điềm, thể hiện tư tưởng \"Đất Nước của Nhân dân\".", "answer": true },
-        { "text": "\"Sóng\" và \"Đất Nước\" hoàn toàn không liên quan đến cảm hứng yêu nước, chỉ là thơ tình thuần túy.", "answer": false }
+        {
+          "text": "\"Sóng\" của Xuân Quỳnh thể hiện tâm hồn người phụ nữ khi yêu với những khát khao chân thành, mãnh liệt.",
+          "answer": true
+        },
+        {
+          "text": "Hình tượng \"sóng\" và \"em\" trong bài thơ \"Sóng\" là hai hình tượng song hành, soi chiếu cho nhau.",
+          "answer": true
+        },
+        {
+          "text": "Đoạn trích \"Đất Nước\" trích từ trường ca \"Mặt đường khát vọng\" của Nguyễn Khoa Điềm, thể hiện tư tưởng \"Đất Nước của Nhân dân\".",
+          "answer": true
+        },
+        {
+          "text": "\"Sóng\" và \"Đất Nước\" hoàn toàn không liên quan đến cảm hứng yêu nước, chỉ là thơ tình thuần túy.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,9 @@
       "level": "NB",
       "question": "Bài thơ \"Tây Tiến\" là tác phẩm của nhà thơ ___",
       "answer": "Quang Dũng",
-      "alternatives": ["quang dung"],
+      "alternatives": [
+        "quang dung"
+      ],
       "hint": "Quang Dũng (1921-1988) sáng tác \"Tây Tiến\" năm 1948."
     },
     {
@@ -204,7 +230,9 @@
       "level": "TH",
       "question": "Đoạn trích \"Đất Nước\" được trích từ chương V của trường ca \"___\" của Nguyễn Khoa Điềm.",
       "answer": "Mặt đường khát vọng",
-      "alternatives": ["mat duong khat vong"],
+      "alternatives": [
+        "mat duong khat vong"
+      ],
       "hint": "\"Mặt đường khát vọng\" là trường ca dài, đoạn \"Đất Nước\" là một phần trong chương V."
     },
     {
@@ -214,5 +242,6 @@
       "answer": true,
       "hint": "Sự nghiệp thơ của Tố Hữu gắn liền với các chặng đường cách mạng của dân tộc."
     }
-  ]
+  ],
+  "examType": "practice"
 }

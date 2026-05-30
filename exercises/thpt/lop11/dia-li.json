@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về toàn cầu hóa và Liên minh châu Âu:",
       "statements": [
-        { "text": "Toàn cầu hóa kinh tế là quá trình liên kết, phụ thuộc lẫn nhau ngày càng tăng giữa các nền kinh tế trên thế giới.", "answer": true },
-        { "text": "Tổ chức Thương mại Thế giới (WTO) có vai trò điều phối thương mại toàn cầu.", "answer": true },
-        { "text": "Liên minh châu Âu (EU) là liên kết kinh tế - chính trị của nhiều quốc gia châu Âu.", "answer": true },
-        { "text": "Đồng Euro (€) là đồng tiền chung của tất cả các quốc gia trên thế giới.", "answer": false }
+        {
+          "text": "Toàn cầu hóa kinh tế là quá trình liên kết, phụ thuộc lẫn nhau ngày càng tăng giữa các nền kinh tế trên thế giới.",
+          "answer": true
+        },
+        {
+          "text": "Tổ chức Thương mại Thế giới (WTO) có vai trò điều phối thương mại toàn cầu.",
+          "answer": true
+        },
+        {
+          "text": "Liên minh châu Âu (EU) là liên kết kinh tế - chính trị của nhiều quốc gia châu Âu.",
+          "answer": true
+        },
+        {
+          "text": "Đồng Euro (€) là đồng tiền chung của tất cả các quốc gia trên thế giới.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á, Hoa Kỳ và Trung Quốc:",
       "statements": [
-        { "text": "ASEAN hiện có 10 quốc gia thành viên ở khu vực Đông Nam Á.", "answer": true },
-        { "text": "Việt Nam gia nhập ASEAN năm 1995.", "answer": true },
-        { "text": "Hoa Kỳ là một trong những nền kinh tế lớn nhất thế giới (xét theo GDP danh nghĩa).", "answer": true },
-        { "text": "Trung Quốc hiện nay chỉ phát triển nông nghiệp, không có công nghiệp đáng kể.", "answer": false }
+        {
+          "text": "ASEAN hiện có 10 quốc gia thành viên ở khu vực Đông Nam Á.",
+          "answer": true
+        },
+        {
+          "text": "Việt Nam gia nhập ASEAN năm 1995.",
+          "answer": true
+        },
+        {
+          "text": "Hoa Kỳ là một trong những nền kinh tế lớn nhất thế giới (xét theo GDP danh nghĩa).",
+          "answer": true
+        },
+        {
+          "text": "Trung Quốc hiện nay chỉ phát triển nông nghiệp, không có công nghiệp đáng kể.",
+          "answer": false
+        }
       ]
     },
     {
@@ -190,7 +214,11 @@
       "level": "TH",
       "question": "Đồng tiền chung của nhiều quốc gia trong Liên minh châu Âu (EU) là đồng ___",
       "answer": "Euro",
-      "alternatives": ["euro", "EUR", "€"],
+      "alternatives": [
+        "euro",
+        "EUR",
+        "€"
+      ],
       "hint": "Euro là đồng tiền của khu vực Eurozone (một bộ phận của EU)."
     },
     {
@@ -200,5 +228,6 @@
       "answer": true,
       "hint": "Vị trí cầu nối giữa hai đại dương lớn là một trong những lợi thế nổi bật của Đông Nam Á."
     }
-  ]
+  ],
+  "examType": "practice"
 }

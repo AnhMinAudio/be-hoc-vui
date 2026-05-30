@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về trao đổi chất và chuyển hóa năng lượng:",
       "statements": [
-        { "text": "Ở thực vật trên cạn, rễ là cơ quan chủ yếu hấp thụ nước và muối khoáng từ đất.", "answer": true },
-        { "text": "Quang hợp ở thực vật xanh tổng hợp glucose từ $CO_2$ và $H_2O$, đồng thời giải phóng $O_2$.", "answer": true },
-        { "text": "Hô hấp tế bào phân giải chất hữu cơ, giải phóng năng lượng cho hoạt động sống.", "answer": true },
-        { "text": "Khí khổng ở lá thực vật chỉ có chức năng duy nhất là quang hợp, không liên quan trao đổi khí.", "answer": false }
+        {
+          "text": "Ở thực vật trên cạn, rễ là cơ quan chủ yếu hấp thụ nước và muối khoáng từ đất.",
+          "answer": true
+        },
+        {
+          "text": "Quang hợp ở thực vật xanh tổng hợp glucose từ $CO_2$ và $H_2O$, đồng thời giải phóng $O_2$.",
+          "answer": true
+        },
+        {
+          "text": "Hô hấp tế bào phân giải chất hữu cơ, giải phóng năng lượng cho hoạt động sống.",
+          "answer": true
+        },
+        {
+          "text": "Khí khổng ở lá thực vật chỉ có chức năng duy nhất là quang hợp, không liên quan trao đổi khí.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cảm ứng, sinh trưởng và sinh sản:",
       "statements": [
-        { "text": "Phản xạ ở động vật có hệ thần kinh được thực hiện qua cung phản xạ.", "answer": true },
-        { "text": "Hormone do các tuyến nội tiết tiết ra, có vai trò điều hòa các hoạt động sinh lí của cơ thể.", "answer": true },
-        { "text": "Giâm cành, chiết cành là các hình thức sinh sản vô tính ở thực vật.", "answer": true },
-        { "text": "Sinh sản hữu tính ở động vật không cần có sự kết hợp giữa giao tử đực và giao tử cái.", "answer": false }
+        {
+          "text": "Phản xạ ở động vật có hệ thần kinh được thực hiện qua cung phản xạ.",
+          "answer": true
+        },
+        {
+          "text": "Hormone do các tuyến nội tiết tiết ra, có vai trò điều hòa các hoạt động sinh lí của cơ thể.",
+          "answer": true
+        },
+        {
+          "text": "Giâm cành, chiết cành là các hình thức sinh sản vô tính ở thực vật.",
+          "answer": true
+        },
+        {
+          "text": "Sinh sản hữu tính ở động vật không cần có sự kết hợp giữa giao tử đực và giao tử cái.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,10 @@
       "level": "TH",
       "question": "Bào quan diễn ra quá trình quang hợp ở tế bào lá thực vật là ___",
       "answer": "lục lạp",
-      "alternatives": ["luc lap", "Lục lạp"],
+      "alternatives": [
+        "luc lap",
+        "Lục lạp"
+      ],
       "hint": "Lục lạp chứa diệp lục, nơi diễn ra phản ứng quang hợp."
     },
     {
@@ -191,7 +218,11 @@
       "level": "VD",
       "question": "Quá trình thoát hơi nước ở lá thực vật diễn ra chủ yếu qua bộ phận ___ (trên bề mặt lá).",
       "answer": "khí khổng",
-      "alternatives": ["khi khong", "stomata", "khí khổng (lỗ khí)"],
+      "alternatives": [
+        "khi khong",
+        "stomata",
+        "khí khổng (lỗ khí)"
+      ],
       "hint": "Khí khổng (stomata) là các lỗ nhỏ ở biểu bì lá, đóng/mở để điều tiết thoát hơi nước và trao đổi khí."
     },
     {
@@ -201,5 +232,6 @@
       "answer": true,
       "hint": "Phản xạ là phản ứng của cơ thể trả lời kích thích thông qua hệ thần kinh."
     }
-  ]
+  ],
+  "examType": "practice"
 }

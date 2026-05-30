@@ -11,28 +11,48 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "What does 'festival' mean? (Từ 'festival' nghĩa là gì?)",
-      "options": ["lễ hội", "kì nghỉ", "bữa ăn", "bộ phim"],
+      "options": [
+        "lễ hội",
+        "kì nghỉ",
+        "bữa ăn",
+        "bộ phim"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "What is the English word for 'phim'? ('phim' tiếng Anh là gì?)",
-      "options": ["film", "book", "song", "game"],
+      "options": [
+        "film",
+        "book",
+        "song",
+        "game"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Which is an English-speaking country? (Nước nào nói tiếng Anh?)",
-      "options": ["Australia", "Japan", "France", "China"],
+      "options": [
+        "Australia",
+        "Japan",
+        "France",
+        "China"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Choose the correct word: 'How ___ water do you drink every day?' (nước - không đếm được)",
-      "options": ["much", "many", "a", "an"],
+      "options": [
+        "much",
+        "many",
+        "a",
+        "an"
+      ],
       "answer": 0
     },
     {
@@ -40,27 +60,44 @@
       "level": "NB",
       "question": "Complete: 'A: Do you want some tea? B: Yes, ___ tea, please.' (điền 'some')",
       "answer": "some",
-      "alternatives": ["Some"]
+      "alternatives": [
+        "Some"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "What is the past simple of 'go'? (Quá khứ đơn của 'go')",
-      "options": ["went", "goed", "gone", "going"],
+      "options": [
+        "went",
+        "goed",
+        "gone",
+        "going"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Choose the comparative: 'A plane is ___ than a car.' (nhanh hơn)",
-      "options": ["faster", "fastest", "fast", "more fast"],
+      "options": [
+        "faster",
+        "fastest",
+        "fast",
+        "more fast"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Complete: 'There aren't ___ apples in the fridge.' (điền từ đúng)",
-      "options": ["any", "some", "much", "a"],
+      "options": [
+        "any",
+        "some",
+        "much",
+        "a"
+      ],
       "answer": 0
     },
     {
@@ -68,10 +105,22 @@
       "level": "TH",
       "question": "Decide True or False (Xét đúng/sai):",
       "statements": [
-        { "text": "The past simple of 'eat' is 'ate'.", "answer": true },
-        { "text": "We use 'many' with countable nouns.", "answer": true },
-        { "text": "'Tet' is a festival in Vietnam.", "answer": true },
-        { "text": "A bicycle is faster than a plane.", "answer": false }
+        {
+          "text": "The past simple of 'eat' is 'ate'.",
+          "answer": true
+        },
+        {
+          "text": "We use 'many' with countable nouns.",
+          "answer": true
+        },
+        {
+          "text": "'Tet' is a festival in Vietnam.",
+          "answer": true
+        },
+        {
+          "text": "A bicycle is faster than a plane.",
+          "answer": false
+        }
       ]
     },
     {
@@ -79,20 +128,32 @@
       "level": "TH",
       "question": "Write the past simple of 'watch' (Viết quá khứ đơn của 'watch'): ___",
       "answer": "watched",
-      "alternatives": ["Watched"]
+      "alternatives": [
+        "Watched"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "VD",
       "question": "Choose the correct question about food (Chọn câu hỏi đúng về món ăn)",
-      "options": ["What is your favourite food?", "Food favourite you what?", "You what food favourite?", "Is what you food?"],
+      "options": [
+        "What is your favourite food?",
+        "Food favourite you what?",
+        "You what food favourite?",
+        "Is what you food?"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "VD",
       "question": "How might people travel in the future? (Trong tương lai con người có thể đi lại bằng gì?)",
-      "options": ["by flying car", "by dinosaur", "by cloud", "by tree"],
+      "options": [
+        "by flying car",
+        "by dinosaur",
+        "by cloud",
+        "by tree"
+      ],
       "answer": 0
     },
     {
@@ -100,7 +161,12 @@
       "level": "NB",
       "passage": "Last summer, Nam visited London, the capital of England. He saw Big Ben and took a ride on the London Eye. He tried fish and chips, a famous English food. Nam had a wonderful trip and took many photos.",
       "question": "Which city did Nam visit? (Nam đã thăm thành phố nào?)",
-      "options": ["London", "Paris", "Tokyo", "Sydney"],
+      "options": [
+        "London",
+        "Paris",
+        "Tokyo",
+        "Sydney"
+      ],
       "answer": 0
     },
     {
@@ -108,7 +174,12 @@
       "level": "TH",
       "passage": "Last summer, Nam visited London, the capital of England. He saw Big Ben and took a ride on the London Eye. He tried fish and chips, a famous English food. Nam had a wonderful trip and took many photos.",
       "question": "What famous food did Nam try? (Nam đã thử món ăn nổi tiếng nào?)",
-      "options": ["fish and chips", "sushi", "pizza", "phở"],
+      "options": [
+        "fish and chips",
+        "sushi",
+        "pizza",
+        "phở"
+      ],
       "answer": 0
     },
     {
@@ -116,15 +187,26 @@
       "level": "TH",
       "passage": "Last summer, Nam visited London, the capital of England. He saw Big Ben and took a ride on the London Eye. He tried fish and chips, a famous English food. Nam had a wonderful trip and took many photos.",
       "question": "How was Nam's trip? (Chuyến đi của Nam thế nào?)",
-      "options": ["wonderful", "boring", "scary", "sad"],
+      "options": [
+        "wonderful",
+        "boring",
+        "scary",
+        "sad"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "VDC",
       "question": "You want to invite a friend to a festival (Em muốn mời bạn đi dự một lễ hội)",
-      "options": ["Would you like to go to the festival with me?", "You festival go me?", "Festival you with go?", "Go festival you me will?"],
+      "options": [
+        "Would you like to go to the festival with me?",
+        "You festival go me?",
+        "Festival you with go?",
+        "Go festival you me will?"
+      ],
       "answer": 0
     }
-  ]
+  ],
+  "examType": "final2"
 }

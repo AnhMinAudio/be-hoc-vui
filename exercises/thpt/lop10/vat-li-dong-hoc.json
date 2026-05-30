@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về chuyển động:",
       "statements": [
-        { "text": "Trong chuyển động thẳng đều, vận tốc không đổi theo thời gian.", "answer": true },
-        { "text": "Gia tốc trong chuyển động thẳng đều bằng $0$.", "answer": true },
-        { "text": "Vận tốc và tốc độ là hai đại lượng giống hệt nhau.", "answer": false },
-        { "text": "Trong chuyển động thẳng biến đổi đều, gia tốc là một hằng số.", "answer": true }
+        {
+          "text": "Trong chuyển động thẳng đều, vận tốc không đổi theo thời gian.",
+          "answer": true
+        },
+        {
+          "text": "Gia tốc trong chuyển động thẳng đều bằng $0$.",
+          "answer": true
+        },
+        {
+          "text": "Vận tốc và tốc độ là hai đại lượng giống hệt nhau.",
+          "answer": false
+        },
+        {
+          "text": "Trong chuyển động thẳng biến đổi đều, gia tốc là một hằng số.",
+          "answer": true
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về rơi tự do:",
       "statements": [
-        { "text": "Rơi tự do là chuyển động chỉ chịu tác dụng của trọng lực.", "answer": true },
-        { "text": "Trong rơi tự do, vận tốc tăng đều theo thời gian với gia tốc bằng gia tốc rơi tự do $g$.", "answer": true },
-        { "text": "Hai vật có khối lượng khác nhau, khi rơi tự do trong chân không sẽ rơi với gia tốc khác nhau.", "answer": false },
-        { "text": "Gia tốc rơi tự do tại bề mặt Trái Đất xấp xỉ $9{,}8$ m/s$^2$.", "answer": true }
+        {
+          "text": "Rơi tự do là chuyển động chỉ chịu tác dụng của trọng lực.",
+          "answer": true
+        },
+        {
+          "text": "Trong rơi tự do, vận tốc tăng đều theo thời gian với gia tốc bằng gia tốc rơi tự do $g$.",
+          "answer": true
+        },
+        {
+          "text": "Hai vật có khối lượng khác nhau, khi rơi tự do trong chân không sẽ rơi với gia tốc khác nhau.",
+          "answer": false
+        },
+        {
+          "text": "Gia tốc rơi tự do tại bề mặt Trái Đất xấp xỉ $9{,}8$ m/s$^2$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -212,5 +236,6 @@
       "answer": true,
       "hint": "Gia tốc = biến thiên vận tốc / thời gian → đơn vị m/s$^2$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

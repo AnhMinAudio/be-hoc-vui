@@ -33,7 +33,12 @@
     {
       "type": "multiple-choice",
       "question": "Phép nhân 3 × 4 bằng tổng nào dưới đây?",
-      "options": ["3 + 3 + 3 + 3", "4 + 4 + 4 + 4", "3 + 4", "3 + 3 + 3"],
+      "options": [
+        "3 + 3 + 3 + 3",
+        "4 + 4 + 4 + 4",
+        "3 + 4",
+        "3 + 3 + 3"
+      ],
       "answer": 0,
       "level": "M1",
       "hint": "3 × 4 nghĩa là 3 được lấy 4 lần."
@@ -41,7 +46,12 @@
     {
       "type": "multiple-choice",
       "question": "Một phần ba của 9 là bao nhiêu?",
-      "options": ["3", "6", "2", "9"],
+      "options": [
+        "3",
+        "6",
+        "2",
+        "9"
+      ],
       "answer": 0,
       "level": "M1",
       "hint": "Một phần ba của 9 là 9 : 3."
@@ -68,7 +78,12 @@
     {
       "type": "multiple-choice",
       "question": "Một phần tư của 16 là bao nhiêu?",
-      "options": ["4", "8", "2", "16"],
+      "options": [
+        "4",
+        "8",
+        "2",
+        "16"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Một phần tư của 16 là 16 : 4."
@@ -77,17 +92,34 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả đúng",
       "pairs": [
-        ["3 × 5", "15"],
-        ["16 : 2", "8"],
-        ["4 × 7", "28"],
-        ["45 : 5", "9"]
+        [
+          "3 × 5",
+          "15"
+        ],
+        [
+          "16 : 2",
+          "8"
+        ],
+        [
+          "4 × 7",
+          "28"
+        ],
+        [
+          "45 : 5",
+          "9"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Tính 5 × 2 + 3 = ?",
-      "options": ["13", "10", "16", "25"],
+      "options": [
+        "13",
+        "10",
+        "16",
+        "25"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Làm phép nhân trước: 5 × 2 = 10, rồi cộng 3."
@@ -109,7 +141,12 @@
     {
       "type": "multiple-choice",
       "question": "Có 15 quả cam xếp vào các đĩa, mỗi đĩa 3 quả. Hỏi xếp được bao nhiêu đĩa?",
-      "options": ["5 đĩa", "3 đĩa", "45 đĩa", "12 đĩa"],
+      "options": [
+        "5 đĩa",
+        "3 đĩa",
+        "45 đĩa",
+        "12 đĩa"
+      ],
       "answer": 0,
       "level": "M3",
       "hint": "Lấy tổng số cam chia cho số quả mỗi đĩa: 15 : 3."
@@ -117,9 +154,15 @@
     {
       "type": "multiple-choice",
       "question": "Phép chia 24 : 4 có kết quả bằng:",
-      "options": ["6", "8", "4", "28"],
+      "options": [
+        "6",
+        "8",
+        "4",
+        "28"
+      ],
       "answer": 0,
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

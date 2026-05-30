@@ -6,12 +6,90 @@
   "topic": "Đồ vật quanh bé",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Đồ nào là ĐỒ CHƠI?", "options": ["🪁", "🪥", "🚪", "🥄"], "answer": 0, "hint": "Con diều để thả chơi ngoài trời." },
-    { "type": "image-choice", "question": "Đồ nào KHÔNG phải đồ dùng học tập?", "options": ["📚", "📏", "🧦", "🖍️"], "answer": 2, "hint": "Đôi tất để đi, không dùng để học." },
-    { "type": "image-choice", "question": "Đồ nào dùng để ĐI dưới chân?", "options": ["🧢", "👟", "📖", "💡"], "answer": 1, "hint": "Giày mang dưới chân khi đi." },
-    { "type": "image-choice", "question": "Đồ nào dùng để UỐNG nước?", "options": ["🍽️", "🥤", "✂️", "⏰"], "answer": 1, "hint": "Cái cốc để đựng nước uống." },
-    { "type": "image-choice", "question": "Đồ nào dùng để TÔ MÀU?", "options": ["🖍️", "🔑", "🛏️", "🧦"], "answer": 0, "hint": "Bút sáp để tô màu bức tranh." },
-    { "type": "image-choice", "question": "Đồ nào dùng để MỞ cửa?", "options": ["🕯️", "🔑", "🎈", "🥄"], "answer": 1, "hint": "Chìa khóa để mở khóa cửa." },
-    { "type": "image-choice", "question": "Đồ nào dùng để THẮP SÁNG khi mất điện?", "options": ["📺", "🎒", "🕯️", "⚽"], "answer": 2, "hint": "Cây nến cho ánh sáng khi tối." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đồ nào là ĐỒ CHƠI?",
+      "options": [
+        "🪁",
+        "🪥",
+        "🚪",
+        "🥄"
+      ],
+      "answer": 0,
+      "hint": "Con diều để thả chơi ngoài trời."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào KHÔNG phải đồ dùng học tập?",
+      "options": [
+        "📚",
+        "📏",
+        "🧦",
+        "🖍️"
+      ],
+      "answer": 2,
+      "hint": "Đôi tất để đi, không dùng để học."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào dùng để ĐI dưới chân?",
+      "options": [
+        "🧢",
+        "👟",
+        "📖",
+        "💡"
+      ],
+      "answer": 1,
+      "hint": "Giày mang dưới chân khi đi."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào dùng để UỐNG nước?",
+      "options": [
+        "🍽️",
+        "🥤",
+        "✂️",
+        "⏰"
+      ],
+      "answer": 1,
+      "hint": "Cái cốc để đựng nước uống."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào dùng để TÔ MÀU?",
+      "options": [
+        "🖍️",
+        "🔑",
+        "🛏️",
+        "🧦"
+      ],
+      "answer": 0,
+      "hint": "Bút sáp để tô màu bức tranh."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào dùng để MỞ cửa?",
+      "options": [
+        "🕯️",
+        "🔑",
+        "🎈",
+        "🥄"
+      ],
+      "answer": 1,
+      "hint": "Chìa khóa để mở khóa cửa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào dùng để THẮP SÁNG khi mất điện?",
+      "options": [
+        "📺",
+        "🎒",
+        "🕯️",
+        "⚽"
+      ],
+      "answer": 2,
+      "hint": "Cây nến cho ánh sáng khi tối."
+    }
+  ],
+  "examType": "practice"
 }

@@ -6,32 +6,191 @@
   "topic": "Đề thi thử Toán 9 (cấu trúc mới)",
   "difficulty": 3,
   "timeLimit": 45,
-  "outcomes": ["Căn bậc hai", "Hàm số bậc nhất", "Phương trình bậc hai & Vi-ét", "Hệ thức lượng trong tam giác vuông"],
+  "outcomes": [
+    "Căn bậc hai",
+    "Hàm số bậc nhất",
+    "Phương trình bậc hai & Vi-ét",
+    "Hệ thức lượng trong tam giác vuông"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Căn bậc hai số học của $9$ là:", "options": ["$3$", "$-3$", "$\\pm 3$", "$81$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Điều kiện xác định của $\\sqrt{x - 5}$ là:", "options": ["$x \\ge 5$", "$x > 5$", "$x \\le 5$", "$x \\ne 5$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Tính $\\sqrt{16} + \\sqrt{9}$:", "options": ["$7$", "$5$", "$25$", "$12$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "question": "Hàm số nào sau đây là hàm số bậc nhất?", "options": ["$y = 2x - 1$", "$y = x^2$", "$y = \\frac{1}{x}$", "$y = 3$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "question": "Đường thẳng $y = 2x + 3$ có hệ số góc là:", "options": ["$2$", "$3$", "$-2$", "$\\frac{3}{2}$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "question": "Theo định lí Vi-ét, tổng hai nghiệm của phương trình $x^2 - 5x + 6 = 0$ bằng:", "options": ["$5$", "$6$", "$-5$", "$-6$"], "answer": 0, "hint": "Tổng hai nghiệm $S = -\\frac{b}{a}$" },
-    { "type": "multiple-choice", "level": "TH", "question": "Tích hai nghiệm của phương trình $x^2 - 5x + 6 = 0$ bằng:", "options": ["$6$", "$5$", "$-6$", "$\\frac{6}{5}$"], "answer": 0, "hint": "Tích hai nghiệm $P = \\frac{c}{a}$" },
-    { "type": "multiple-choice", "level": "VD", "question": "Tam giác $ABC$ vuông tại $A$ có $\\sin B = \\frac{3}{5}$. Khi đó $\\cos B$ bằng:", "options": ["$\\frac{4}{5}$", "$\\frac{3}{4}$", "$\\frac{5}{3}$", "$\\frac{5}{4}$"], "answer": 0, "hint": "$\\sin^2 B + \\cos^2 B = 1$" },
-    { "type": "true-false-group", "level": "TH", "question": "Cho phương trình $x^2 - 4 = 0$. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Phương trình có hai nghiệm phân biệt.", "answer": true },
-      { "text": "$x = 2$ là một nghiệm của phương trình.", "answer": true },
-      { "text": "Phương trình vô nghiệm.", "answer": false },
-      { "text": "Tổng hai nghiệm của phương trình bằng $0$.", "answer": true }
-    ] },
-    { "type": "true-false-group", "level": "VD", "question": "Cho hàm số $y = 2x - 1$. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Đồ thị hàm số đi qua điểm $(0; -1)$.", "answer": true },
-      { "text": "Hàm số đồng biến trên $\\mathbb{R}$.", "answer": true },
-      { "text": "Đồ thị cắt trục hoành tại điểm có hoành độ $x = \\frac{1}{2}$.", "answer": true },
-      { "text": "Điểm $(1; 2)$ thuộc đồ thị hàm số.", "answer": false }
-    ] },
-    { "type": "fill-blank", "level": "NB", "question": "Tính $\\sqrt{144} = $ ___", "answer": "12" },
-    { "type": "fill-blank", "level": "VD", "question": "Giải phương trình $x^2 - 9 = 0$. Nghiệm dương của phương trình là $x = $ ___", "answer": "3" },
-    { "type": "fill-blank", "level": "VD", "question": "Phương trình $x^2 - 7x + 12 = 0$ có hai nghiệm. Nghiệm lớn hơn là ___", "answer": "4", "hint": "Nhẩm nghiệm theo Vi-ét: tổng $7$, tích $12$" },
-    { "type": "fill-blank", "level": "VD", "question": "Một mảnh vườn hình chữ nhật có chu vi $40$ m, chiều dài hơn chiều rộng $4$ m. Chiều rộng mảnh vườn là ___ m", "answer": "8", "hint": "Nửa chu vi = dài + rộng = $20$" },
-    { "type": "fill-blank", "level": "VDC", "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 4x + 7$.", "answer": "3", "hint": "Viết $A = (x - 2)^2 + 3$" }
-  ]
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Căn bậc hai số học của $9$ là:",
+      "options": [
+        "$3$",
+        "$-3$",
+        "$\\pm 3$",
+        "$81$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Điều kiện xác định của $\\sqrt{x - 5}$ là:",
+      "options": [
+        "$x \\ge 5$",
+        "$x > 5$",
+        "$x \\le 5$",
+        "$x \\ne 5$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tính $\\sqrt{16} + \\sqrt{9}$:",
+      "options": [
+        "$7$",
+        "$5$",
+        "$25$",
+        "$12$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+      "options": [
+        "$y = 2x - 1$",
+        "$y = x^2$",
+        "$y = \\frac{1}{x}$",
+        "$y = 3$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đường thẳng $y = 2x + 3$ có hệ số góc là:",
+      "options": [
+        "$2$",
+        "$3$",
+        "$-2$",
+        "$\\frac{3}{2}$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo định lí Vi-ét, tổng hai nghiệm của phương trình $x^2 - 5x + 6 = 0$ bằng:",
+      "options": [
+        "$5$",
+        "$6$",
+        "$-5$",
+        "$-6$"
+      ],
+      "answer": 0,
+      "hint": "Tổng hai nghiệm $S = -\\frac{b}{a}$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tích hai nghiệm của phương trình $x^2 - 5x + 6 = 0$ bằng:",
+      "options": [
+        "$6$",
+        "$5$",
+        "$-6$",
+        "$\\frac{6}{5}$"
+      ],
+      "answer": 0,
+      "hint": "Tích hai nghiệm $P = \\frac{c}{a}$"
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $\\sin B = \\frac{3}{5}$. Khi đó $\\cos B$ bằng:",
+      "options": [
+        "$\\frac{4}{5}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{5}{3}$",
+        "$\\frac{5}{4}$"
+      ],
+      "answer": 0,
+      "hint": "$\\sin^2 B + \\cos^2 B = 1$"
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Cho phương trình $x^2 - 4 = 0$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Phương trình có hai nghiệm phân biệt.",
+          "answer": true
+        },
+        {
+          "text": "$x = 2$ là một nghiệm của phương trình.",
+          "answer": true
+        },
+        {
+          "text": "Phương trình vô nghiệm.",
+          "answer": false
+        },
+        {
+          "text": "Tổng hai nghiệm của phương trình bằng $0$.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho hàm số $y = 2x - 1$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Đồ thị hàm số đi qua điểm $(0; -1)$.",
+          "answer": true
+        },
+        {
+          "text": "Hàm số đồng biến trên $\\mathbb{R}$.",
+          "answer": true
+        },
+        {
+          "text": "Đồ thị cắt trục hoành tại điểm có hoành độ $x = \\frac{1}{2}$.",
+          "answer": true
+        },
+        {
+          "text": "Điểm $(1; 2)$ thuộc đồ thị hàm số.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Tính $\\sqrt{144} = $ ___",
+      "answer": "12"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Giải phương trình $x^2 - 9 = 0$. Nghiệm dương của phương trình là $x = $ ___",
+      "answer": "3"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Phương trình $x^2 - 7x + 12 = 0$ có hai nghiệm. Nghiệm lớn hơn là ___",
+      "answer": "4",
+      "hint": "Nhẩm nghiệm theo Vi-ét: tổng $7$, tích $12$"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một mảnh vườn hình chữ nhật có chu vi $40$ m, chiều dài hơn chiều rộng $4$ m. Chiều rộng mảnh vườn là ___ m",
+      "answer": "8",
+      "hint": "Nửa chu vi = dài + rộng = $20$"
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 4x + 7$.",
+      "answer": "3",
+      "hint": "Viết $A = (x - 2)^2 + 3$"
+    }
+  ],
+  "examType": "mock"
 }

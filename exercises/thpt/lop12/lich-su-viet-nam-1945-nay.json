@@ -160,10 +160,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các cuộc kháng chiến của dân tộc Việt Nam:",
       "statements": [
-        { "text": "Chiến thắng Điện Biên Phủ năm 1954 buộc Pháp kí Hiệp định Giơ-ne-vơ, chấm dứt chiến tranh xâm lược Đông Dương.", "answer": true },
-        { "text": "Hiệp định Pa-ri năm 1973 buộc Mỹ rút hết quân khỏi miền Nam Việt Nam.", "answer": true },
-        { "text": "Cuộc kháng chiến chống Mỹ, cứu nước kết thúc thắng lợi năm 1975.", "answer": true },
-        { "text": "Đất nước Việt Nam được thống nhất về mặt nhà nước ngay trong năm 1945.", "answer": false }
+        {
+          "text": "Chiến thắng Điện Biên Phủ năm 1954 buộc Pháp kí Hiệp định Giơ-ne-vơ, chấm dứt chiến tranh xâm lược Đông Dương.",
+          "answer": true
+        },
+        {
+          "text": "Hiệp định Pa-ri năm 1973 buộc Mỹ rút hết quân khỏi miền Nam Việt Nam.",
+          "answer": true
+        },
+        {
+          "text": "Cuộc kháng chiến chống Mỹ, cứu nước kết thúc thắng lợi năm 1975.",
+          "answer": true
+        },
+        {
+          "text": "Đất nước Việt Nam được thống nhất về mặt nhà nước ngay trong năm 1945.",
+          "answer": false
+        }
       ]
     },
     {
@@ -171,10 +183,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về công cuộc Đổi mới và Chủ tịch Hồ Chí Minh:",
       "statements": [
-        { "text": "Công cuộc Đổi mới ở Việt Nam được khởi xướng từ Đại hội đại biểu toàn quốc lần thứ VI (1986) của Đảng.", "answer": true },
-        { "text": "Đường lối Đổi mới lấy đổi mới về kinh tế làm trọng tâm.", "answer": true },
-        { "text": "Năm 1911, Nguyễn Tất Thành ra đi tìm đường cứu nước.", "answer": true },
-        { "text": "Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa vào ngày 30/4/1975.", "answer": false }
+        {
+          "text": "Công cuộc Đổi mới ở Việt Nam được khởi xướng từ Đại hội đại biểu toàn quốc lần thứ VI (1986) của Đảng.",
+          "answer": true
+        },
+        {
+          "text": "Đường lối Đổi mới lấy đổi mới về kinh tế làm trọng tâm.",
+          "answer": true
+        },
+        {
+          "text": "Năm 1911, Nguyễn Tất Thành ra đi tìm đường cứu nước.",
+          "answer": true
+        },
+        {
+          "text": "Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa vào ngày 30/4/1975.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,5 +222,6 @@
       "answer": true,
       "hint": "Đây là câu thường dùng để ca ngợi tầm vóc của chiến thắng Điện Biên Phủ."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -163,10 +163,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về trao đổi chất ở thực vật:",
       "statements": [
-        { "text": "Rễ là cơ quan chủ yếu hấp thụ nước và muối khoáng ở thực vật trên cạn.", "answer": true },
-        { "text": "Quang hợp ở thực vật xanh tổng hợp glucose từ $CO_2$ và $H_2O$, giải phóng $O_2$.", "answer": true },
-        { "text": "Khí khổng ở lá thực vật có vai trò chủ yếu là quang hợp, không liên quan đến thoát hơi nước.", "answer": false },
-        { "text": "Khi thiếu nước, khí khổng thường đóng lại để hạn chế thoát hơi nước.", "answer": true }
+        {
+          "text": "Rễ là cơ quan chủ yếu hấp thụ nước và muối khoáng ở thực vật trên cạn.",
+          "answer": true
+        },
+        {
+          "text": "Quang hợp ở thực vật xanh tổng hợp glucose từ $CO_2$ và $H_2O$, giải phóng $O_2$.",
+          "answer": true
+        },
+        {
+          "text": "Khí khổng ở lá thực vật có vai trò chủ yếu là quang hợp, không liên quan đến thoát hơi nước.",
+          "answer": false
+        },
+        {
+          "text": "Khi thiếu nước, khí khổng thường đóng lại để hạn chế thoát hơi nước.",
+          "answer": true
+        }
       ]
     },
     {
@@ -174,10 +186,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về trao đổi chất ở động vật:",
       "statements": [
-        { "text": "Ở thú, trao đổi khí diễn ra tại các phế nang trong phổi.", "answer": true },
-        { "text": "Ruột non là nơi diễn ra tiêu hóa hóa học chủ yếu và hấp thụ chất dinh dưỡng.", "answer": true },
-        { "text": "Thận có vai trò lọc máu, bài tiết chất thải và điều hòa cân bằng nước - muối.", "answer": true },
-        { "text": "Hô hấp tế bào và hô hấp ngoài (hít thở) là cùng một quá trình.", "answer": false }
+        {
+          "text": "Ở thú, trao đổi khí diễn ra tại các phế nang trong phổi.",
+          "answer": true
+        },
+        {
+          "text": "Ruột non là nơi diễn ra tiêu hóa hóa học chủ yếu và hấp thụ chất dinh dưỡng.",
+          "answer": true
+        },
+        {
+          "text": "Thận có vai trò lọc máu, bài tiết chất thải và điều hòa cân bằng nước - muối.",
+          "answer": true
+        },
+        {
+          "text": "Hô hấp tế bào và hô hấp ngoài (hít thở) là cùng một quá trình.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,7 +209,10 @@
       "level": "TH",
       "question": "Cơ quan hấp thụ nước và muối khoáng chủ yếu ở thực vật trên cạn là ___",
       "answer": "rễ",
-      "alternatives": ["re", "rễ cây"],
+      "alternatives": [
+        "re",
+        "rễ cây"
+      ],
       "hint": "Rễ với các lông hút là cơ quan hấp thụ chính."
     },
     {
@@ -193,7 +220,10 @@
       "level": "VD",
       "question": "Quá trình thoát hơi nước ở lá thực vật diễn ra chủ yếu qua bộ phận ___ trên bề mặt lá.",
       "answer": "khí khổng",
-      "alternatives": ["khi khong", "stoma"],
+      "alternatives": [
+        "khi khong",
+        "stoma"
+      ],
       "hint": "Khí khổng (stoma) đóng/mở để điều tiết thoát hơi nước."
     },
     {
@@ -203,5 +233,6 @@
       "answer": true,
       "hint": "Quang hợp là quá trình tự dưỡng đặc trưng của thực vật xanh."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -9,7 +9,12 @@
     {
       "type": "multiple-choice",
       "question": "Câu nào có hình ảnh nhân hóa?",
-      "options": ["Ông trời mặc áo giáp đen ra trận.", "Bầu trời xanh ngắt.", "Cây cối tươi tốt.", "Trời mưa rất to."],
+      "options": [
+        "Ông trời mặc áo giáp đen ra trận.",
+        "Bầu trời xanh ngắt.",
+        "Cây cối tươi tốt.",
+        "Trời mưa rất to."
+      ],
       "answer": 0,
       "level": "M1",
       "hint": "Nhân hóa là gán hành động, đặc điểm của người cho vật."
@@ -17,21 +22,36 @@
     {
       "type": "multiple-choice",
       "question": "Trong câu 'Chú gà trống gọi mọi người thức dậy', sự vật nào được nhân hóa?",
-      "options": ["chú gà trống", "mọi người", "thức dậy", "buổi sáng"],
+      "options": [
+        "chú gà trống",
+        "mọi người",
+        "thức dậy",
+        "buổi sáng"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu khiến thường dùng để làm gì?",
-      "options": ["kể lại sự việc", "nêu yêu cầu, đề nghị, mong muốn", "hỏi điều chưa biết", "bộc lộ cảm xúc"],
+      "options": [
+        "kể lại sự việc",
+        "nêu yêu cầu, đề nghị, mong muốn",
+        "hỏi điều chưa biết",
+        "bộc lộ cảm xúc"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào là câu khiến?",
-      "options": ["Các bạn hãy giữ trật tự nhé!", "Hôm nay trời rất đẹp.", "Lan đang đi học.", "Ai đang hát thế?"],
+      "options": [
+        "Các bạn hãy giữ trật tự nhé!",
+        "Hôm nay trời rất đẹp.",
+        "Lan đang đi học.",
+        "Ai đang hát thế?"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -39,27 +59,45 @@
       "type": "fill-blank",
       "question": "Điền dấu câu thích hợp vào cuối câu khiến: Mời các bạn vào lớp___",
       "answer": "!",
-      "alternatives": ["dấu chấm than", "."],
+      "alternatives": [
+        "dấu chấm than",
+        "."
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào thuộc chủ điểm 'lễ hội'?",
-      "options": ["rước đèn", "máy tính", "tủ lạnh", "xe đạp"],
+      "options": [
+        "rước đèn",
+        "máy tính",
+        "tủ lạnh",
+        "xe đạp"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Đặt câu hỏi cho bộ phận in đậm: 'Đám rước diễn ra ở sân đình.' (bộ phận: ở sân đình)",
-      "options": ["Đám rước diễn ra khi nào?", "Đám rước diễn ra ở đâu?", "Ai tổ chức đám rước?", "Đám rước thế nào?"],
+      "options": [
+        "Đám rước diễn ra khi nào?",
+        "Đám rước diễn ra ở đâu?",
+        "Ai tổ chức đám rước?",
+        "Đám rước thế nào?"
+      ],
       "answer": 1,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Bộ phận trả lời cho câu hỏi 'Vì sao?' trong câu 'Vì trời mưa, em nghỉ học.' là:",
-      "options": ["Vì trời mưa", "em nghỉ học", "nghỉ học", "em"],
+      "options": [
+        "Vì trời mưa",
+        "em nghỉ học",
+        "nghỉ học",
+        "em"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -67,14 +105,21 @@
       "type": "fill-blank",
       "question": "Điền dấu hai chấm hoặc dấu phẩy: Trong vườn có nhiều loài hoa___ hoa hồng, hoa cúc, hoa lan.",
       "answer": ":",
-      "alternatives": ["dấu hai chấm"],
+      "alternatives": [
+        "dấu hai chấm"
+      ],
       "level": "M2",
       "hint": "Dấu này dùng để báo hiệu phần liệt kê đứng sau."
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào cùng nghĩa với 'chăm chỉ'?",
-      "options": ["lười biếng", "siêng năng", "ham chơi", "chậm chạp"],
+      "options": [
+        "lười biếng",
+        "siêng năng",
+        "ham chơi",
+        "chậm chạp"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -82,16 +127,30 @@
       "type": "matching",
       "question": "Nối câu với kiểu câu theo mục đích nói",
       "pairs": [
-        ["Bạn làm bài xong chưa?", "câu hỏi"],
-        ["Hãy chăm học nhé!", "câu khiến"],
-        ["Cảnh đẹp quá!", "câu cảm"]
+        [
+          "Bạn làm bài xong chưa?",
+          "câu hỏi"
+        ],
+        [
+          "Hãy chăm học nhé!",
+          "câu khiến"
+        ],
+        [
+          "Cảnh đẹp quá!",
+          "câu cảm"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Mặt trời như một quả cầu lửa khổng lồ.' sử dụng biện pháp gì?",
-      "options": ["so sánh", "nhân hóa", "không có biện pháp", "lặp từ"],
+      "options": [
+        "so sánh",
+        "nhân hóa",
+        "không có biện pháp",
+        "lặp từ"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -99,7 +158,12 @@
       "type": "multiple-choice",
       "passage": "Hội đua thuyền trên sông diễn ra vào mùa xuân. Trên mỗi chiếc thuyền, các tay đua khỏe mạnh nhịp nhàng khua mái chèo. Tiếng trống, tiếng hò reo vang dội cả một khúc sông.",
       "question": "Hội đua thuyền diễn ra vào mùa nào?",
-      "options": ["mùa xuân", "mùa hạ", "mùa thu", "mùa đông"],
+      "options": [
+        "mùa xuân",
+        "mùa hạ",
+        "mùa thu",
+        "mùa đông"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -107,7 +171,12 @@
       "type": "multiple-choice",
       "passage": "Hội đua thuyền trên sông diễn ra vào mùa xuân. Trên mỗi chiếc thuyền, các tay đua khỏe mạnh nhịp nhàng khua mái chèo. Tiếng trống, tiếng hò reo vang dội cả một khúc sông.",
       "question": "Các tay đua được miêu tả như thế nào?",
-      "options": ["yếu ớt, mệt mỏi", "khỏe mạnh, nhịp nhàng khua mái chèo", "ngồi yên một chỗ", "buồn bã"],
+      "options": [
+        "yếu ớt, mệt mỏi",
+        "khỏe mạnh, nhịp nhàng khua mái chèo",
+        "ngồi yên một chỗ",
+        "buồn bã"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -115,16 +184,27 @@
       "type": "multiple-choice",
       "passage": "Hội đua thuyền trên sông diễn ra vào mùa xuân. Trên mỗi chiếc thuyền, các tay đua khỏe mạnh nhịp nhàng khua mái chèo. Tiếng trống, tiếng hò reo vang dội cả một khúc sông.",
       "question": "Âm thanh nào vang dội cả khúc sông?",
-      "options": ["tiếng chim hót", "tiếng trống và tiếng hò reo", "tiếng mưa rơi", "tiếng gió thổi"],
+      "options": [
+        "tiếng chim hót",
+        "tiếng trống và tiếng hò reo",
+        "tiếng mưa rơi",
+        "tiếng gió thổi"
+      ],
       "answer": 1,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Tiếng trống vang dội cả một khúc sông.' thuộc mẫu câu nào?",
-      "options": ["Ai là gì?", "Ai làm gì?", "Ai (cái gì) thế nào?", "Ở đâu?"],
+      "options": [
+        "Ai là gì?",
+        "Ai làm gì?",
+        "Ai (cái gì) thế nào?",
+        "Ở đâu?"
+      ],
       "answer": 2,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "final2"
 }

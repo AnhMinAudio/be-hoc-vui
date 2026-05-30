@@ -6,12 +6,90 @@
   "topic": "Đếm số 1 - 5",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy quả dâu?", "prompt": "🍓 🍓 🍓", "options": ["2", "3", "4", "5"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy con cá?", "prompt": "🐟 🐟 🐟 🐟", "options": ["3", "4", "5", "6"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy bông hoa?", "prompt": "🌸 🌸 🌸 🌸 🌸", "options": ["3", "4", "5", "6"], "answer": 2 },
-    { "type": "image-choice", "question": "Có mấy chiếc xe?", "prompt": "🚗 🚗", "options": ["1", "2", "3", "4"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy quả táo?", "prompt": "🍎 🍎 🍎 🍎", "options": ["2", "3", "4", "5"], "answer": 2 },
-    { "type": "image-choice", "question": "Đếm xem có mấy ngôi sao?", "prompt": "⭐ ⭐ ⭐ ⭐ ⭐", "options": ["4", "5", "6", "7"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy chú gà con?", "prompt": "🐤 🐤 🐤", "options": ["2", "3", "4", "5"], "answer": 1 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả dâu?",
+      "prompt": "🍓 🍓 🍓",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con cá?",
+      "prompt": "🐟 🐟 🐟 🐟",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy bông hoa?",
+      "prompt": "🌸 🌸 🌸 🌸 🌸",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy chiếc xe?",
+      "prompt": "🚗 🚗",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả táo?",
+      "prompt": "🍎 🍎 🍎 🍎",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Đếm xem có mấy ngôi sao?",
+      "prompt": "⭐ ⭐ ⭐ ⭐ ⭐",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy chú gà con?",
+      "prompt": "🐤 🐤 🐤",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    }
+  ],
+  "examType": "practice"
 }

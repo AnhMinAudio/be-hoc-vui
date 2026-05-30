@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Trái Đất và lớp vỏ địa lí:",
       "statements": [
-        { "text": "Nội lực sinh ra trong lòng Trái Đất, gồm các vận động kiến tạo, động đất, núi lửa.", "answer": true },
-        { "text": "Tầng đối lưu là nơi diễn ra các hiện tượng thời tiết (mây, mưa, gió...).", "answer": true },
-        { "text": "Tầng ozone (trong tầng bình lưu) có vai trò hấp thụ phần lớn tia tử ngoại từ Mặt Trời.", "answer": true },
-        { "text": "Toàn bộ nước trên Trái Đất tập trung hoàn toàn trong các sông, hồ trên lục địa.", "answer": false }
+        {
+          "text": "Nội lực sinh ra trong lòng Trái Đất, gồm các vận động kiến tạo, động đất, núi lửa.",
+          "answer": true
+        },
+        {
+          "text": "Tầng đối lưu là nơi diễn ra các hiện tượng thời tiết (mây, mưa, gió...).",
+          "answer": true
+        },
+        {
+          "text": "Tầng ozone (trong tầng bình lưu) có vai trò hấp thụ phần lớn tia tử ngoại từ Mặt Trời.",
+          "answer": true
+        },
+        {
+          "text": "Toàn bộ nước trên Trái Đất tập trung hoàn toàn trong các sông, hồ trên lục địa.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về địa lí dân cư và các ngành kinh tế:",
       "statements": [
-        { "text": "Cơ cấu dân số được chia theo độ tuổi và giới tính.", "answer": true },
-        { "text": "Trồng trọt và chăn nuôi là hai ngành chính của khu vực nông nghiệp.", "answer": true },
-        { "text": "Ngành dịch vụ (khu vực III) đang chiếm tỉ trọng ngày càng lớn trong cơ cấu kinh tế của các nước phát triển.", "answer": true },
-        { "text": "Toàn bộ dân số thế giới phân bố hoàn toàn đồng đều ở mọi khu vực.", "answer": false }
+        {
+          "text": "Cơ cấu dân số được chia theo độ tuổi và giới tính.",
+          "answer": true
+        },
+        {
+          "text": "Trồng trọt và chăn nuôi là hai ngành chính của khu vực nông nghiệp.",
+          "answer": true
+        },
+        {
+          "text": "Ngành dịch vụ (khu vực III) đang chiếm tỉ trọng ngày càng lớn trong cơ cấu kinh tế của các nước phát triển.",
+          "answer": true
+        },
+        {
+          "text": "Toàn bộ dân số thế giới phân bố hoàn toàn đồng đều ở mọi khu vực.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,10 @@
       "level": "TH",
       "question": "Tầng khí quyển nơi diễn ra các hiện tượng thời tiết chủ yếu là tầng ___",
       "answer": "đối lưu",
-      "alternatives": ["doi luu", "tầng đối lưu"],
+      "alternatives": [
+        "doi luu",
+        "tầng đối lưu"
+      ],
       "hint": "Tầng đối lưu (0-12 km) là nơi diễn ra phần lớn hiện tượng thời tiết."
     },
     {
@@ -191,7 +218,10 @@
       "level": "VD",
       "question": "Theo quy luật phân bố nhiệt, nhiệt độ trung bình năm giảm dần từ Xích đạo về hai ___",
       "answer": "cực",
-      "alternatives": ["cuc", "hai cực"],
+      "alternatives": [
+        "cuc",
+        "hai cực"
+      ],
       "hint": "Càng xa Xích đạo (về phía cực), nhiệt độ trung bình càng thấp."
     },
     {
@@ -201,5 +231,6 @@
       "answer": true,
       "hint": "Sinh quyển = nơi có sự sống tồn tại trên Trái Đất."
     }
-  ]
+  ],
+  "examType": "practice"
 }

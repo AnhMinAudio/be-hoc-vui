@@ -176,10 +176,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hydrocarbon:",
       "statements": [
-        { "text": "Hợp chất hữu cơ là hợp chất của carbon (trừ một số ngoại lệ như $CO_2$, $CO$, các muối carbonate...).", "answer": true },
-        { "text": "Alkane có công thức tổng quát $C_nH_{2n+2}$ và là hydrocarbon no.", "answer": true },
-        { "text": "Benzene ($C_6H_6$) là hydrocarbon thơm đơn giản nhất.", "answer": true },
-        { "text": "Alkene là hydrocarbon no có công thức tổng quát $C_nH_{2n+2}$.", "answer": false }
+        {
+          "text": "Hợp chất hữu cơ là hợp chất của carbon (trừ một số ngoại lệ như $CO_2$, $CO$, các muối carbonate...).",
+          "answer": true
+        },
+        {
+          "text": "Alkane có công thức tổng quát $C_nH_{2n+2}$ và là hydrocarbon no.",
+          "answer": true
+        },
+        {
+          "text": "Benzene ($C_6H_6$) là hydrocarbon thơm đơn giản nhất.",
+          "answer": true
+        },
+        {
+          "text": "Alkene là hydrocarbon no có công thức tổng quát $C_nH_{2n+2}$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -187,10 +199,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về alcohol, aldehyde và carboxylic acid:",
       "statements": [
-        { "text": "Alcohol có nhóm chức $-OH$ gắn vào nguyên tử C no.", "answer": true },
-        { "text": "Aldehyde có nhóm chức $-CHO$.", "answer": true },
-        { "text": "Acetic acid ($CH_3COOH$) là một acid yếu, làm quỳ tím chuyển đỏ.", "answer": true },
-        { "text": "Carboxylic acid có nhóm chức đặc trưng là $-NH_2$.", "answer": false }
+        {
+          "text": "Alcohol có nhóm chức $-OH$ gắn vào nguyên tử C no.",
+          "answer": true
+        },
+        {
+          "text": "Aldehyde có nhóm chức $-CHO$.",
+          "answer": true
+        },
+        {
+          "text": "Acetic acid ($CH_3COOH$) là một acid yếu, làm quỳ tím chuyển đỏ.",
+          "answer": true
+        },
+        {
+          "text": "Carboxylic acid có nhóm chức đặc trưng là $-NH_2$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,7 +222,10 @@
       "level": "TH",
       "question": "Công thức phân tử của benzene là ___",
       "answer": "C6H6",
-      "alternatives": ["C₆H₆", "c6h6"],
+      "alternatives": [
+        "C₆H₆",
+        "c6h6"
+      ],
       "hint": "Benzene: 6 carbon + 6 hydrogen, vòng 6 cạnh."
     },
     {
@@ -206,7 +233,10 @@
       "level": "VD",
       "question": "Nhóm chức đặc trưng của carboxylic acid là ___ (viết kí hiệu nhóm)",
       "answer": "-COOH",
-      "alternatives": ["COOH", "carboxyl"],
+      "alternatives": [
+        "COOH",
+        "carboxyl"
+      ],
       "hint": "$-COOH$ = $-C(=O)-OH$ (carboxyl)."
     },
     {
@@ -216,5 +246,6 @@
       "answer": true,
       "hint": "Ethanol có 1 nhóm $-OH$ gắn vào C no → alcohol no đơn chức."
     }
-  ]
+  ],
+  "examType": "practice"
 }

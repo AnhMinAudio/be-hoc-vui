@@ -181,5 +181,9 @@
       "answer": 0,
       "hint": "Tìm một số khi biết giá trị phần trăm: lấy $8 : \\frac{20}{100} = 8 \\times 5$"
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 7
+  }
 }

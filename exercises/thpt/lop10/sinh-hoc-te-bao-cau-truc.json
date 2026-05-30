@@ -176,10 +176,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về tế bào nhân sơ và nhân thực:",
       "statements": [
-        { "text": "Tế bào nhân sơ chưa có màng nhân ngăn cách vật chất di truyền với tế bào chất.", "answer": true },
-        { "text": "Vi khuẩn là sinh vật nhân sơ.", "answer": true },
-        { "text": "Tế bào nhân thực có nhiều bào quan có màng (ti thể, lục lạp, lưới nội chất...).", "answer": true },
-        { "text": "Mọi tế bào nhân thực đều có lục lạp.", "answer": false }
+        {
+          "text": "Tế bào nhân sơ chưa có màng nhân ngăn cách vật chất di truyền với tế bào chất.",
+          "answer": true
+        },
+        {
+          "text": "Vi khuẩn là sinh vật nhân sơ.",
+          "answer": true
+        },
+        {
+          "text": "Tế bào nhân thực có nhiều bào quan có màng (ti thể, lục lạp, lưới nội chất...).",
+          "answer": true
+        },
+        {
+          "text": "Mọi tế bào nhân thực đều có lục lạp.",
+          "answer": false
+        }
       ]
     },
     {
@@ -189,10 +201,22 @@
       "imageAlt": "Sơ đồ tế bào nhân thực với các bào quan: nhân, ti thể, lục lạp, ribosome, lưới nội chất, Golgi",
       "question": "Quan sát sơ đồ tế bào nhân thực sau và xét tính đúng/sai các khẳng định về các bào quan:",
       "statements": [
-        { "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cho tế bào.", "answer": true },
-        { "text": "Lục lạp chỉ có ở tế bào thực vật và một số tảo.", "answer": true },
-        { "text": "Ribosome là bào quan tổng hợp protein.", "answer": true },
-        { "text": "Lysosome có vai trò chính là quang hợp.", "answer": false }
+        {
+          "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cho tế bào.",
+          "answer": true
+        },
+        {
+          "text": "Lục lạp chỉ có ở tế bào thực vật và một số tảo.",
+          "answer": true
+        },
+        {
+          "text": "Ribosome là bào quan tổng hợp protein.",
+          "answer": true
+        },
+        {
+          "text": "Lysosome có vai trò chính là quang hợp.",
+          "answer": false
+        }
       ]
     },
     {
@@ -200,7 +224,10 @@
       "level": "TH",
       "question": "Bào quan diễn ra quá trình quang hợp ở tế bào thực vật là ___",
       "answer": "lục lạp",
-      "alternatives": ["luc lap", "Lục lạp"],
+      "alternatives": [
+        "luc lap",
+        "Lục lạp"
+      ],
       "hint": "Lục lạp chứa diệp lục."
     },
     {
@@ -208,7 +235,10 @@
       "level": "VD",
       "question": "Bào quan tổng hợp protein trong tế bào là ___",
       "answer": "ribosome",
-      "alternatives": ["Ribosome", "ribôxôm"],
+      "alternatives": [
+        "Ribosome",
+        "ribôxôm"
+      ],
       "hint": "Ribosome có ở cả tế bào nhân sơ và nhân thực."
     },
     {
@@ -218,5 +248,6 @@
       "answer": true,
       "hint": "Thành cellulose là đặc trưng cấu trúc của tế bào thực vật."
     }
-  ]
+  ],
+  "examType": "practice"
 }

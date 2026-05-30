@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế thị trường:",
       "statements": [
-        { "text": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế nhằm giành lợi thế trên thị trường.", "answer": true },
-        { "text": "Lạm phát làm giảm sức mua của đồng tiền.", "answer": true },
-        { "text": "Thị trường lao động là nơi diễn ra việc mua bán sức lao động giữa người lao động và người sử dụng lao động.", "answer": true },
-        { "text": "Trốn thuế là hành vi phù hợp với đạo đức kinh doanh.", "answer": false }
+        {
+          "text": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế nhằm giành lợi thế trên thị trường.",
+          "answer": true
+        },
+        {
+          "text": "Lạm phát làm giảm sức mua của đồng tiền.",
+          "answer": true
+        },
+        {
+          "text": "Thị trường lao động là nơi diễn ra việc mua bán sức lao động giữa người lao động và người sử dụng lao động.",
+          "answer": true
+        },
+        {
+          "text": "Trốn thuế là hành vi phù hợp với đạo đức kinh doanh.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ công dân:",
       "statements": [
-        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân.", "answer": true },
-        { "text": "Nguyên tắc hôn nhân ở nước ta là tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.", "answer": true },
-        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
-        { "text": "Trong quan hệ lao động, người lao động không có quyền khiếu nại khi bị xâm phạm quyền lợi.", "answer": false }
+        {
+          "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân.",
+          "answer": true
+        },
+        {
+          "text": "Nguyên tắc hôn nhân ở nước ta là tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.",
+          "answer": true
+        },
+        {
+          "text": "Mọi công dân đều bình đẳng trước pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Trong quan hệ lao động, người lao động không có quyền khiếu nại khi bị xâm phạm quyền lợi.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội ở nước ta.",
       "answer": "18",
-      "alternatives": ["mười tám"],
+      "alternatives": [
+        "mười tám"
+      ],
       "hint": "Tuổi bầu cử ở Việt Nam là 18 tuổi trở lên."
     },
     {
@@ -191,7 +217,9 @@
       "level": "TH",
       "question": "Hiện tượng mức giá chung của hàng hóa và dịch vụ tăng lên liên tục, làm giảm sức mua của đồng tiền gọi là ___",
       "answer": "lạm phát",
-      "alternatives": ["lam phat"],
+      "alternatives": [
+        "lam phat"
+      ],
       "hint": "Lạm phát là sự tăng liên tục của mức giá chung."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Đây là một trong những định hướng quan trọng của văn hóa tiêu dùng hiện nay."
     }
-  ]
+  ],
+  "examType": "practice"
 }

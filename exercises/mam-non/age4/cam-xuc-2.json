@@ -6,12 +6,83 @@
   "topic": "Cảm xúc và tình huống",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Bạn lấy mất đồ chơi, bé thấy thế nào?", "options": ["😀", "😠", "😴"], "answer": 1, "hint": "Bị lấy đồ thì bé tức giận." },
-    { "type": "image-choice", "question": "Bất ngờ thấy bánh kem, bé thấy thế nào?", "options": ["😮", "😢", "😠"], "answer": 0, "hint": "Bất ngờ thì ngạc nhiên." },
-    { "type": "image-choice", "question": "Ở một mình trong phòng tối, bé thấy thế nào?", "options": ["😀", "😨", "😍"], "answer": 1, "hint": "Tối quá thì bé hơi sợ." },
-    { "type": "image-choice", "question": "Được khen ngoan, bé thấy thế nào?", "options": ["😀", "😢", "😠"], "answer": 0, "hint": "Được khen thì rất vui." },
-    { "type": "image-choice", "question": "Khuôn mặt nào đang BUỒN NGỦ?", "options": ["😴", "😮", "😀"], "answer": 0, "hint": "Buồn ngủ thì lim dim mắt." },
-    { "type": "image-choice", "question": "Ôm chú gấu bông mềm, bé thấy thế nào?", "options": ["😠", "😍", "😢"], "answer": 1, "hint": "Mềm và đáng yêu, bé rất thích." },
-    { "type": "image-choice", "question": "Khuôn mặt nào đang NGẠC NHIÊN nhất?", "options": ["🙂", "😮", "😴"], "answer": 1, "hint": "Ngạc nhiên thì miệng há tròn." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Bạn lấy mất đồ chơi, bé thấy thế nào?",
+      "options": [
+        "😀",
+        "😠",
+        "😴"
+      ],
+      "answer": 1,
+      "hint": "Bị lấy đồ thì bé tức giận."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bất ngờ thấy bánh kem, bé thấy thế nào?",
+      "options": [
+        "😮",
+        "😢",
+        "😠"
+      ],
+      "answer": 0,
+      "hint": "Bất ngờ thì ngạc nhiên."
+    },
+    {
+      "type": "image-choice",
+      "question": "Ở một mình trong phòng tối, bé thấy thế nào?",
+      "options": [
+        "😀",
+        "😨",
+        "😍"
+      ],
+      "answer": 1,
+      "hint": "Tối quá thì bé hơi sợ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Được khen ngoan, bé thấy thế nào?",
+      "options": [
+        "😀",
+        "😢",
+        "😠"
+      ],
+      "answer": 0,
+      "hint": "Được khen thì rất vui."
+    },
+    {
+      "type": "image-choice",
+      "question": "Khuôn mặt nào đang BUỒN NGỦ?",
+      "options": [
+        "😴",
+        "😮",
+        "😀"
+      ],
+      "answer": 0,
+      "hint": "Buồn ngủ thì lim dim mắt."
+    },
+    {
+      "type": "image-choice",
+      "question": "Ôm chú gấu bông mềm, bé thấy thế nào?",
+      "options": [
+        "😠",
+        "😍",
+        "😢"
+      ],
+      "answer": 1,
+      "hint": "Mềm và đáng yêu, bé rất thích."
+    },
+    {
+      "type": "image-choice",
+      "question": "Khuôn mặt nào đang NGẠC NHIÊN nhất?",
+      "options": [
+        "🙂",
+        "😮",
+        "😴"
+      ],
+      "answer": 1,
+      "hint": "Ngạc nhiên thì miệng há tròn."
+    }
+  ],
+  "examType": "practice"
 }

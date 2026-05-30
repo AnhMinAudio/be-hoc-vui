@@ -233,5 +233,9 @@
       "answer": "0,9",
       "hint": "$s^2 = \\dfrac{1(1-2,7)^2 + 3(2-2,7)^2 + 4(3-2,7)^2 + 2(4-2,7)^2}{10} = \\dfrac{8,1}{10} = 0,81 \\Rightarrow s = 0,9$."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 3
+  }
 }

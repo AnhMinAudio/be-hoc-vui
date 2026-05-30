@@ -182,10 +182,22 @@
       "level": "VD",
       "question": "Based on the reading passages, decide if each statement is true or false. (Dựa vào hai đoạn văn, xét tính đúng/sai.)",
       "statements": [
-        { "text": "AI can help doctors diagnose diseases more accurately. (AI có thể giúp bác sĩ chẩn đoán bệnh chính xác hơn.)", "answer": true },
-        { "text": "AI raises some concerns, including replacing jobs and privacy issues. (AI gây ra một số lo ngại, gồm thay thế việc làm và quyền riêng tư.)", "answer": true },
-        { "text": "Vietnam is especially vulnerable to rising sea levels due to its long coastline and large delta regions. (Việt Nam đặc biệt dễ tổn thương trước nước biển dâng vì có bờ biển dài và đồng bằng lớn.)", "answer": true },
-        { "text": "Climate change has no effect at all on people around the world. (Biến đổi khí hậu không có tác động nào đến con người trên thế giới.)", "answer": false }
+        {
+          "text": "AI can help doctors diagnose diseases more accurately. (AI có thể giúp bác sĩ chẩn đoán bệnh chính xác hơn.)",
+          "answer": true
+        },
+        {
+          "text": "AI raises some concerns, including replacing jobs and privacy issues. (AI gây ra một số lo ngại, gồm thay thế việc làm và quyền riêng tư.)",
+          "answer": true
+        },
+        {
+          "text": "Vietnam is especially vulnerable to rising sea levels due to its long coastline and large delta regions. (Việt Nam đặc biệt dễ tổn thương trước nước biển dâng vì có bờ biển dài và đồng bằng lớn.)",
+          "answer": true
+        },
+        {
+          "text": "Climate change has no effect at all on people around the world. (Biến đổi khí hậu không có tác động nào đến con người trên thế giới.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -193,10 +205,22 @@
       "level": "VD",
       "question": "Decide if each statement about vocabulary and reading skills is true or false. (Xét tính đúng/sai về từ vựng và kĩ năng đọc.)",
       "statements": [
-        { "text": "\"Vulnerable\" means easily harmed or affected. (\"Vulnerable\" có nghĩa là dễ bị tổn thương hoặc ảnh hưởng.)", "answer": true },
-        { "text": "\"Emissions\" refers to the release of gases into the atmosphere. (\"Emissions\" chỉ lượng khí thải ra bầu khí quyển.)", "answer": true },
-        { "text": "When reading, identifying the AUTHOR'S PURPOSE helps us understand the text better. (Khi đọc, xác định MỤC ĐÍCH của tác giả giúp ta hiểu văn bản tốt hơn.)", "answer": true },
-        { "text": "AI is always 100% safe and has no risks at all. (AI luôn 100% an toàn và không có rủi ro nào.)", "answer": false }
+        {
+          "text": "\"Vulnerable\" means easily harmed or affected. (\"Vulnerable\" có nghĩa là dễ bị tổn thương hoặc ảnh hưởng.)",
+          "answer": true
+        },
+        {
+          "text": "\"Emissions\" refers to the release of gases into the atmosphere. (\"Emissions\" chỉ lượng khí thải ra bầu khí quyển.)",
+          "answer": true
+        },
+        {
+          "text": "When reading, identifying the AUTHOR'S PURPOSE helps us understand the text better. (Khi đọc, xác định MỤC ĐÍCH của tác giả giúp ta hiểu văn bản tốt hơn.)",
+          "answer": true
+        },
+        {
+          "text": "AI is always 100% safe and has no risks at all. (AI luôn 100% an toàn và không có rủi ro nào.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -204,7 +228,9 @@
       "level": "TH",
       "question": "Complete the sentence: \"Vietnam is especially _____ to rising sea levels because of its long coastline.\" (Hoàn thành câu.)",
       "answer": "vulnerable",
-      "alternatives": ["Vulnerable"],
+      "alternatives": [
+        "Vulnerable"
+      ],
       "hint": "\"vulnerable\" = dễ bị tổn thương."
     },
     {
@@ -212,7 +238,9 @@
       "level": "TH",
       "question": "Complete: \"Many countries have signed the Paris _____ to reduce greenhouse gas emissions.\" (Hoàn thành câu.)",
       "answer": "Agreement",
-      "alternatives": ["agreement"],
+      "alternatives": [
+        "agreement"
+      ],
       "hint": "\"Paris Agreement\" = Hiệp định Paris về biến đổi khí hậu."
     },
     {
@@ -222,5 +250,6 @@
       "answer": true,
       "hint": "Đây là quan điểm phổ biến và đúng đắn trong giải quyết các vấn đề toàn cầu."
     }
-  ]
+  ],
+  "examType": "practice"
 }

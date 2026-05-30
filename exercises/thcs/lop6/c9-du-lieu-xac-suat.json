@@ -179,5 +179,9 @@
       "answer": 0,
       "hint": "Hộp chỉ có bi xanh nên chắc chắn lấy được bi xanh."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 9
+  }
 }

@@ -6,12 +6,90 @@
   "topic": "Thế giới động vật (phần 3)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Con nào có hai chân?", "options": ["🐦", "🐮", "🐶", "🐘"], "answer": 0, "hint": "Con chim đứng bằng hai chân." },
-    { "type": "image-choice", "question": "Ba con này đều biết bay, con nào KHÔNG cùng nhóm?", "options": ["🐦", "🦆", "🐝", "🐠"], "answer": 3, "hint": "Con cá sống dưới nước, không bay." },
-    { "type": "image-choice", "question": "Con nào đẻ ra trứng?", "options": ["🐔", "🐮", "🐶", "🐘"], "answer": 0, "hint": "Con gà đẻ trứng." },
-    { "type": "image-choice", "question": "Con nào sống ở trang trại cùng người?", "options": ["🦁", "🐷", "🐯", "🐻"], "answer": 1, "hint": "Con lợn nuôi ở trang trại." },
-    { "type": "image-choice", "question": "Con nào ăn lá tre và sống ở rừng?", "options": ["🐼", "🐱", "🐔", "🐠"], "answer": 0, "hint": "Gấu trúc ăn lá tre." },
-    { "type": "image-choice", "question": "Ba con này sống dưới nước, con nào KHÔNG cùng nhóm?", "options": ["🐟", "🐙", "🦀", "🐰"], "answer": 3, "hint": "Con thỏ sống trên cạn." },
-    { "type": "image-choice", "question": "Con nào cõng được người và chạy nhanh?", "options": ["🐴", "🐭", "🐤", "🐌"], "answer": 0, "hint": "Con ngựa cho ta cưỡi." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Con nào có hai chân?",
+      "options": [
+        "🐦",
+        "🐮",
+        "🐶",
+        "🐘"
+      ],
+      "answer": 0,
+      "hint": "Con chim đứng bằng hai chân."
+    },
+    {
+      "type": "image-choice",
+      "question": "Ba con này đều biết bay, con nào KHÔNG cùng nhóm?",
+      "options": [
+        "🐦",
+        "🦆",
+        "🐝",
+        "🐠"
+      ],
+      "answer": 3,
+      "hint": "Con cá sống dưới nước, không bay."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào đẻ ra trứng?",
+      "options": [
+        "🐔",
+        "🐮",
+        "🐶",
+        "🐘"
+      ],
+      "answer": 0,
+      "hint": "Con gà đẻ trứng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào sống ở trang trại cùng người?",
+      "options": [
+        "🦁",
+        "🐷",
+        "🐯",
+        "🐻"
+      ],
+      "answer": 1,
+      "hint": "Con lợn nuôi ở trang trại."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào ăn lá tre và sống ở rừng?",
+      "options": [
+        "🐼",
+        "🐱",
+        "🐔",
+        "🐠"
+      ],
+      "answer": 0,
+      "hint": "Gấu trúc ăn lá tre."
+    },
+    {
+      "type": "image-choice",
+      "question": "Ba con này sống dưới nước, con nào KHÔNG cùng nhóm?",
+      "options": [
+        "🐟",
+        "🐙",
+        "🦀",
+        "🐰"
+      ],
+      "answer": 3,
+      "hint": "Con thỏ sống trên cạn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào cõng được người và chạy nhanh?",
+      "options": [
+        "🐴",
+        "🐭",
+        "🐤",
+        "🐌"
+      ],
+      "answer": 0,
+      "hint": "Con ngựa cho ta cưỡi."
+    }
+  ],
+  "examType": "practice"
 }

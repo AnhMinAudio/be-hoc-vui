@@ -9,35 +9,60 @@
     {
       "type": "multiple-choice",
       "question": "Cặp từ nào là từ đồng nghĩa?",
-      "options": ["to lớn - khổng lồ", "cao - thấp", "vui - buồn", "ngày - đêm"],
+      "options": [
+        "to lớn - khổng lồ",
+        "cao - thấp",
+        "vui - buồn",
+        "ngày - đêm"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Cặp từ nào là từ trái nghĩa?",
-      "options": ["chăm chỉ - lười biếng", "siêng năng - cần cù", "to - lớn", "đẹp - xinh"],
+      "options": [
+        "chăm chỉ - lười biếng",
+        "siêng năng - cần cù",
+        "to - lớn",
+        "đẹp - xinh"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là danh từ?",
-      "options": ["quê hương", "yêu", "đẹp", "nhanh"],
+      "options": [
+        "quê hương",
+        "yêu",
+        "đẹp",
+        "nhanh"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là động từ?",
-      "options": ["bảo vệ", "xanh tươi", "ngôi nhà", "chăm chỉ"],
+      "options": [
+        "bảo vệ",
+        "xanh tươi",
+        "ngôi nhà",
+        "chăm chỉ"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là tính từ?",
-      "options": ["hùng vĩ", "dòng sông", "xây dựng", "học sinh"],
+      "options": [
+        "hùng vĩ",
+        "dòng sông",
+        "xây dựng",
+        "học sinh"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -45,20 +70,32 @@
       "type": "fill-blank",
       "question": "Tìm một từ trái nghĩa với 'hòa bình': ___",
       "answer": "chiến tranh",
-      "alternatives": ["loạn lạc"],
+      "alternatives": [
+        "loạn lạc"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào đồng nghĩa với 'siêng năng'?",
-      "options": ["chăm chỉ", "lười nhác", "ham chơi", "chậm chạp"],
+      "options": [
+        "chăm chỉ",
+        "lười nhác",
+        "ham chơi",
+        "chậm chạp"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Quê hương em rất tươi đẹp.' là loại câu gì?",
-      "options": ["câu đơn", "câu ghép", "câu hỏi", "câu khiến"],
+      "options": [
+        "câu đơn",
+        "câu ghép",
+        "câu hỏi",
+        "câu khiến"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -66,30 +103,53 @@
       "type": "fill-blank",
       "question": "Tìm một từ đồng nghĩa với 'to lớn': ___",
       "answer": "khổng lồ",
-      "alternatives": ["vĩ đại", "to", "lớn"],
+      "alternatives": [
+        "vĩ đại",
+        "to",
+        "lớn"
+      ],
       "level": "M2"
     },
     {
       "type": "matching",
       "question": "Nối yêu cầu với từ phù hợp",
       "pairs": [
-        ["đồng nghĩa với 'dũng cảm'", "gan dạ"],
-        ["trái nghĩa với 'chăm chỉ'", "lười biếng"],
-        ["đồng nghĩa với 'vui vẻ'", "hớn hở"]
+        [
+          "đồng nghĩa với 'dũng cảm'",
+          "gan dạ"
+        ],
+        [
+          "trái nghĩa với 'chăm chỉ'",
+          "lười biếng"
+        ],
+        [
+          "đồng nghĩa với 'vui vẻ'",
+          "hớn hở"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Dấu phẩy trong câu thường dùng để làm gì?",
-      "options": ["ngăn cách các bộ phận cùng chức vụ trong câu", "kết thúc câu", "dùng để hỏi", "bộc lộ cảm xúc mạnh"],
+      "options": [
+        "ngăn cách các bộ phận cùng chức vụ trong câu",
+        "kết thúc câu",
+        "dùng để hỏi",
+        "bộc lộ cảm xúc mạnh"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'nhân hậu' trái nghĩa với từ nào?",
-      "options": ["độc ác", "hiền lành", "tốt bụng", "nhân từ"],
+      "options": [
+        "độc ác",
+        "hiền lành",
+        "tốt bụng",
+        "nhân từ"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -97,7 +157,12 @@
       "type": "multiple-choice",
       "passage": "Đất nước ta tươi đẹp với những cánh đồng lúa thẳng cánh cò bay. Người dân cần cù, chịu khó, luôn yêu lao động. Ai cũng mong góp sức xây dựng quê hương ngày càng giàu mạnh.",
       "question": "Đất nước ta được miêu tả như thế nào?",
-      "options": ["tươi đẹp", "nghèo nàn", "khô cằn", "hoang vắng"],
+      "options": [
+        "tươi đẹp",
+        "nghèo nàn",
+        "khô cằn",
+        "hoang vắng"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -105,7 +170,12 @@
       "type": "multiple-choice",
       "passage": "Đất nước ta tươi đẹp với những cánh đồng lúa thẳng cánh cò bay. Người dân cần cù, chịu khó, luôn yêu lao động. Ai cũng mong góp sức xây dựng quê hương ngày càng giàu mạnh.",
       "question": "Người dân nước ta có những đức tính gì?",
-      "options": ["cần cù, chịu khó, yêu lao động", "lười biếng, ham chơi", "thờ ơ, lạnh nhạt", "kiêu căng"],
+      "options": [
+        "cần cù, chịu khó, yêu lao động",
+        "lười biếng, ham chơi",
+        "thờ ơ, lạnh nhạt",
+        "kiêu căng"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -113,16 +183,27 @@
       "type": "multiple-choice",
       "passage": "Đất nước ta tươi đẹp với những cánh đồng lúa thẳng cánh cò bay. Người dân cần cù, chịu khó, luôn yêu lao động. Ai cũng mong góp sức xây dựng quê hương ngày càng giàu mạnh.",
       "question": "Từ 'giàu mạnh' trong bài gần nghĩa với:",
-      "options": ["hùng cường, phát triển", "nghèo khó", "yếu ớt", "tàn lụi"],
+      "options": [
+        "hùng cường, phát triển",
+        "nghèo khó",
+        "yếu ớt",
+        "tàn lụi"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'cần cù' thuộc loại từ nào?",
-      "options": ["tính từ", "danh từ", "động từ", "số từ"],
+      "options": [
+        "tính từ",
+        "danh từ",
+        "động từ",
+        "số từ"
+      ],
       "answer": 0,
       "level": "M2"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

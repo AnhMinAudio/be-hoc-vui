@@ -182,5 +182,9 @@
       "answer": "18",
       "hint": "$2^3 = 8$, rồi $8 : 4 = 2$, sau đó $20 - 2$"
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 1
+  }
 }

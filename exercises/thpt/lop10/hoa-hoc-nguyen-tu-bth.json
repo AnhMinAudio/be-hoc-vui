@@ -163,10 +163,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cấu tạo nguyên tử:",
       "statements": [
-        { "text": "Số proton bằng số electron trong nguyên tử trung hòa điện.", "answer": true },
-        { "text": "Số khối $A$ bằng tổng số proton và số neutron trong hạt nhân.", "answer": true },
-        { "text": "Đồng vị của một nguyên tố có cùng số neutron nhưng khác số proton.", "answer": false },
-        { "text": "Electron mang điện tích âm, proton mang điện tích dương.", "answer": true }
+        {
+          "text": "Số proton bằng số electron trong nguyên tử trung hòa điện.",
+          "answer": true
+        },
+        {
+          "text": "Số khối $A$ bằng tổng số proton và số neutron trong hạt nhân.",
+          "answer": true
+        },
+        {
+          "text": "Đồng vị của một nguyên tố có cùng số neutron nhưng khác số proton.",
+          "answer": false
+        },
+        {
+          "text": "Electron mang điện tích âm, proton mang điện tích dương.",
+          "answer": true
+        }
       ]
     },
     {
@@ -174,10 +186,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về bảng tuần hoàn:",
       "statements": [
-        { "text": "Các nguyên tố trong bảng tuần hoàn được sắp xếp theo chiều tăng dần điện tích hạt nhân.", "answer": true },
-        { "text": "Số thứ tự chu kì bằng số lớp electron của nguyên tử.", "answer": true },
-        { "text": "Trong cùng một nhóm A, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.", "answer": true },
-        { "text": "Trong cùng một chu kì, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.", "answer": false }
+        {
+          "text": "Các nguyên tố trong bảng tuần hoàn được sắp xếp theo chiều tăng dần điện tích hạt nhân.",
+          "answer": true
+        },
+        {
+          "text": "Số thứ tự chu kì bằng số lớp electron của nguyên tử.",
+          "answer": true
+        },
+        {
+          "text": "Trong cùng một nhóm A, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.",
+          "answer": true
+        },
+        {
+          "text": "Trong cùng một chu kì, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.",
+          "answer": false
+        }
       ]
     },
     {
@@ -192,7 +216,9 @@
       "level": "VD",
       "question": "Nguyên tố có $Z = 19$ (potassium, K) thuộc chu kì ___ của bảng tuần hoàn.",
       "answer": "4",
-      "alternatives": ["bốn"],
+      "alternatives": [
+        "bốn"
+      ],
       "hint": "Cấu hình K: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^1$ → 4 lớp electron → chu kì 4."
     },
     {
@@ -202,5 +228,6 @@
       "answer": true,
       "hint": "Số thứ tự ô = $Z$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "Câu nào có hình ảnh so sánh?",
-      "options": ["Sương sớm long lanh như hạt ngọc.", "Trời đã sáng rồi.", "Em đi học đều.", "Gió thổi nhẹ."],
+      "options": [
+        "Sương sớm long lanh như hạt ngọc.",
+        "Trời đã sáng rồi.",
+        "Em đi học đều.",
+        "Gió thổi nhẹ."
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Trong câu 'Chị ong nâu chăm chỉ đi tìm mật', sự vật nào được nhân hóa?",
-      "options": ["chị ong nâu", "mật", "buổi sáng", "bông hoa"],
+      "options": [
+        "chị ong nâu",
+        "mật",
+        "buổi sáng",
+        "bông hoa"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Hà Nội là thủ đô của nước ta.' thuộc mẫu câu nào?",
-      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "options": [
+        "Ai là gì?",
+        "Ai làm gì?",
+        "Ai thế nào?",
+        "Ở đâu?"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -31,27 +46,44 @@
       "type": "fill-blank",
       "question": "Điền dấu phẩy vào chỗ thích hợp: 'Em yêu ông bà___ cha mẹ và thầy cô.'",
       "answer": ",",
-      "alternatives": ["dấu phẩy"],
+      "alternatives": [
+        "dấu phẩy"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ phẩm chất tốt của con người?",
-      "options": ["dũng cảm", "lười nhác", "gian dối", "ích kỉ"],
+      "options": [
+        "dũng cảm",
+        "lười nhác",
+        "gian dối",
+        "ích kỉ"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Bộ phận trả lời cho câu hỏi 'Khi nào?' trong câu 'Mùa hè, hoa phượng nở đỏ rực.' là:",
-      "options": ["Mùa hè", "hoa phượng", "nở đỏ rực", "đỏ rực"],
+      "options": [
+        "Mùa hè",
+        "hoa phượng",
+        "nở đỏ rực",
+        "đỏ rực"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Ông trời nổi giận, mây đen kéo đến.' nhân hóa sự vật bằng cách nào?",
-      "options": ["gọi vật bằng từ chỉ người và gán hành động của người", "so sánh với vật khác", "liệt kê sự vật", "đặt câu hỏi"],
+      "options": [
+        "gọi vật bằng từ chỉ người và gán hành động của người",
+        "so sánh với vật khác",
+        "liệt kê sự vật",
+        "đặt câu hỏi"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -59,9 +91,18 @@
       "type": "matching",
       "question": "Nối câu với kiểu câu theo mục đích nói",
       "pairs": [
-        ["Bạn tên là gì?", "câu hỏi"],
-        ["Em đá bóng ngoài sân.", "câu kể"],
-        ["Cảnh đẹp quá!", "câu cảm"]
+        [
+          "Bạn tên là gì?",
+          "câu hỏi"
+        ],
+        [
+          "Em đá bóng ngoài sân.",
+          "câu kể"
+        ],
+        [
+          "Cảnh đẹp quá!",
+          "câu cảm"
+        ]
       ],
       "level": "M2"
     },
@@ -69,20 +110,33 @@
       "type": "fill-blank",
       "question": "Tìm từ chỉ đặc điểm trong câu 'Bầu trời cao xanh': ___",
       "answer": "cao xanh",
-      "alternatives": ["xanh", "cao"],
+      "alternatives": [
+        "xanh",
+        "cao"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Trăng tròn như cái đĩa.' sử dụng biện pháp gì?",
-      "options": ["so sánh", "nhân hóa", "liệt kê", "không có biện pháp"],
+      "options": [
+        "so sánh",
+        "nhân hóa",
+        "liệt kê",
+        "không có biện pháp"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Đặt câu hỏi cho bộ phận in đậm: 'Em chơi cầu lông ở sân trường.' (bộ phận: ở sân trường)",
-      "options": ["Em chơi cầu lông ở đâu?", "Em chơi gì?", "Ai chơi cầu lông?", "Em làm gì?"],
+      "options": [
+        "Em chơi cầu lông ở đâu?",
+        "Em chơi gì?",
+        "Ai chơi cầu lông?",
+        "Em làm gì?"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -90,7 +144,12 @@
       "type": "multiple-choice",
       "passage": "Buổi sáng, vườn cây tỉnh giấc. Những chú chim sâu nhảy nhót, hót líu lo trên cành. Bác gà trống cất tiếng gáy vang gọi mọi người thức dậy.",
       "question": "Ai 'cất tiếng gáy vang' gọi mọi người thức dậy?",
-      "options": ["bác gà trống", "chú chim sâu", "vườn cây", "buổi sáng"],
+      "options": [
+        "bác gà trống",
+        "chú chim sâu",
+        "vườn cây",
+        "buổi sáng"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -98,7 +157,12 @@
       "type": "multiple-choice",
       "passage": "Buổi sáng, vườn cây tỉnh giấc. Những chú chim sâu nhảy nhót, hót líu lo trên cành. Bác gà trống cất tiếng gáy vang gọi mọi người thức dậy.",
       "question": "Những chú chim sâu làm gì?",
-      "options": ["nhảy nhót, hót líu lo", "ngủ say", "bay đi mất", "kiếm mồi dưới đất"],
+      "options": [
+        "nhảy nhót, hót líu lo",
+        "ngủ say",
+        "bay đi mất",
+        "kiếm mồi dưới đất"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -106,23 +170,39 @@
       "type": "multiple-choice",
       "passage": "Buổi sáng, vườn cây tỉnh giấc. Những chú chim sâu nhảy nhót, hót líu lo trên cành. Bác gà trống cất tiếng gáy vang gọi mọi người thức dậy.",
       "question": "Hình ảnh 'vườn cây tỉnh giấc' sử dụng biện pháp gì?",
-      "options": ["nhân hóa", "so sánh", "liệt kê", "không có biện pháp"],
+      "options": [
+        "nhân hóa",
+        "so sánh",
+        "liệt kê",
+        "không có biện pháp"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Bác gà trống gáy vang.' thuộc mẫu câu nào?",
-      "options": ["Ai làm gì?", "Ai là gì?", "Ai thế nào?", "Ở đâu?"],
+      "options": [
+        "Ai làm gì?",
+        "Ai là gì?",
+        "Ai thế nào?",
+        "Ở đâu?"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'líu lo' gợi tả điều gì?",
-      "options": ["tiếng chim hót", "màu sắc", "mùi hương", "hình dáng"],
+      "options": [
+        "tiếng chim hót",
+        "màu sắc",
+        "mùi hương",
+        "hình dáng"
+      ],
       "answer": 0,
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "mock"
 }

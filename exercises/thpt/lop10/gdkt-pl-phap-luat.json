@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hệ thống chính trị và pháp luật Việt Nam:",
       "statements": [
-        { "text": "Đảng Cộng sản Việt Nam là lực lượng lãnh đạo Nhà nước và xã hội ở Việt Nam.", "answer": true },
-        { "text": "Pháp luật do Nhà nước ban hành và được bảo đảm thực hiện bằng quyền lực nhà nước.", "answer": true },
-        { "text": "Hiến pháp là luật cơ bản của Nhà nước, có hiệu lực pháp lí cao nhất.", "answer": true },
-        { "text": "Quốc hội là cơ quan có thẩm quyền cao nhất trong xét xử các vụ án.", "answer": false }
+        {
+          "text": "Đảng Cộng sản Việt Nam là lực lượng lãnh đạo Nhà nước và xã hội ở Việt Nam.",
+          "answer": true
+        },
+        {
+          "text": "Pháp luật do Nhà nước ban hành và được bảo đảm thực hiện bằng quyền lực nhà nước.",
+          "answer": true
+        },
+        {
+          "text": "Hiến pháp là luật cơ bản của Nhà nước, có hiệu lực pháp lí cao nhất.",
+          "answer": true
+        },
+        {
+          "text": "Quốc hội là cơ quan có thẩm quyền cao nhất trong xét xử các vụ án.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ công dân:",
       "statements": [
-        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử; đủ 21 tuổi trở lên có quyền ứng cử vào Quốc hội, HĐND.", "answer": true },
-        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
-        { "text": "Bảo vệ Tổ quốc là quyền và nghĩa vụ thiêng liêng của công dân.", "answer": true },
-        { "text": "Công dân chỉ có quyền mà không có nghĩa vụ nào đối với Nhà nước.", "answer": false }
+        {
+          "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử; đủ 21 tuổi trở lên có quyền ứng cử vào Quốc hội, HĐND.",
+          "answer": true
+        },
+        {
+          "text": "Mọi công dân đều bình đẳng trước pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Bảo vệ Tổ quốc là quyền và nghĩa vụ thiêng liêng của công dân.",
+          "answer": true
+        },
+        {
+          "text": "Công dân chỉ có quyền mà không có nghĩa vụ nào đối với Nhà nước.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Cơ quan quyền lực nhà nước cao nhất ở Việt Nam, có thẩm quyền ban hành Hiến pháp và các luật là ___",
       "answer": "Quốc hội",
-      "alternatives": ["quoc hoi"],
+      "alternatives": [
+        "quoc hoi"
+      ],
       "hint": "Quốc hội là cơ quan đại biểu cao nhất của Nhân dân."
     },
     {
@@ -191,7 +217,9 @@
       "level": "TH",
       "question": "Công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội ở nước ta.",
       "answer": "18",
-      "alternatives": ["mười tám"],
+      "alternatives": [
+        "mười tám"
+      ],
       "hint": "Tuổi bầu cử ở Việt Nam: đủ 18."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Tính tối thượng của Hiến pháp."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -229,5 +229,9 @@
       "answer": "5",
       "hint": "$d(I,(P)) = \\dfrac{|2 - 1 + 2 - 12|}{\\sqrt{4+1+4}} = 3$ rồi $R = \\sqrt{d^2 + r^2}$"
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 5
+  }
 }

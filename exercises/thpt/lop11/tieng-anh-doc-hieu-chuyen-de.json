@@ -181,10 +181,22 @@
       "level": "VD",
       "question": "Based on the reading passages, decide if each statement is true or false. (Dựa vào hai đoạn văn, xét tính đúng/sai.)",
       "statements": [
-        { "text": "Ha Long Bay is located in Quang Ninh Province and was recognized by UNESCO as a World Heritage Site in 1994. (Vịnh Hạ Long ở Quảng Ninh, được UNESCO công nhận là Di sản Thế giới năm 1994.)", "answer": true },
-        { "text": "Global warming is mainly caused by greenhouse gases such as CO₂ from burning fossil fuels. (Nóng lên toàn cầu chủ yếu do khí nhà kính như CO₂ từ đốt nhiên liệu hóa thạch.)", "answer": true },
-        { "text": "Renewable energy and reforestation are important actions to slow down global warming. (Năng lượng tái tạo và trồng rừng là hành động quan trọng để làm chậm nóng lên toàn cầu.)", "answer": true },
-        { "text": "Global warming has no effect on sea levels and weather. (Nóng lên toàn cầu không ảnh hưởng đến mực nước biển và thời tiết.)", "answer": false }
+        {
+          "text": "Ha Long Bay is located in Quang Ninh Province and was recognized by UNESCO as a World Heritage Site in 1994. (Vịnh Hạ Long ở Quảng Ninh, được UNESCO công nhận là Di sản Thế giới năm 1994.)",
+          "answer": true
+        },
+        {
+          "text": "Global warming is mainly caused by greenhouse gases such as CO₂ from burning fossil fuels. (Nóng lên toàn cầu chủ yếu do khí nhà kính như CO₂ từ đốt nhiên liệu hóa thạch.)",
+          "answer": true
+        },
+        {
+          "text": "Renewable energy and reforestation are important actions to slow down global warming. (Năng lượng tái tạo và trồng rừng là hành động quan trọng để làm chậm nóng lên toàn cầu.)",
+          "answer": true
+        },
+        {
+          "text": "Global warming has no effect on sea levels and weather. (Nóng lên toàn cầu không ảnh hưởng đến mực nước biển và thời tiết.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -192,10 +204,22 @@
       "level": "VD",
       "question": "Decide if each statement about heritage and environment vocabulary is true or false. (Xét tính đúng/sai về từ vựng di sản và môi trường.)",
       "statements": [
-        { "text": "\"Heritage\" refers to something valuable that has been passed down from the past and is worth preserving. (\"Heritage\" chỉ điều quý giá được truyền lại từ quá khứ và đáng được bảo tồn.)", "answer": true },
-        { "text": "Solar and wind energy are examples of renewable energy. (Năng lượng mặt trời và gió là ví dụ về năng lượng tái tạo.)", "answer": true },
-        { "text": "Burning coal and oil does not produce any greenhouse gases. (Đốt than và dầu không tạo ra khí nhà kính nào.)", "answer": false },
-        { "text": "Planting trees can help reduce CO₂ in the atmosphere. (Trồng cây có thể giúp giảm CO₂ trong khí quyển.)", "answer": true }
+        {
+          "text": "\"Heritage\" refers to something valuable that has been passed down from the past and is worth preserving. (\"Heritage\" chỉ điều quý giá được truyền lại từ quá khứ và đáng được bảo tồn.)",
+          "answer": true
+        },
+        {
+          "text": "Solar and wind energy are examples of renewable energy. (Năng lượng mặt trời và gió là ví dụ về năng lượng tái tạo.)",
+          "answer": true
+        },
+        {
+          "text": "Burning coal and oil does not produce any greenhouse gases. (Đốt than và dầu không tạo ra khí nhà kính nào.)",
+          "answer": false
+        },
+        {
+          "text": "Planting trees can help reduce CO₂ in the atmosphere. (Trồng cây có thể giúp giảm CO₂ trong khí quyển.)",
+          "answer": true
+        }
       ]
     },
     {
@@ -203,7 +227,9 @@
       "level": "TH",
       "question": "Complete the sentence: \"Solar and wind energy are examples of _____ energy.\" (Hoàn thành câu: \"Năng lượng mặt trời và gió là ví dụ về năng lượng _____.\")",
       "answer": "renewable",
-      "alternatives": ["Renewable"],
+      "alternatives": [
+        "Renewable"
+      ],
       "hint": "\"renewable\" = tái tạo."
     },
     {
@@ -220,5 +246,6 @@
       "answer": true,
       "hint": "Đây là quan điểm phổ biến trong bảo tồn di sản trên toàn thế giới."
     }
-  ]
+  ],
+  "examType": "practice"
 }

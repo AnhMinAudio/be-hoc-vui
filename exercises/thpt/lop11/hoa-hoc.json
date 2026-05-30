@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cân bằng hóa học và hợp chất nitrogen, sulfur:",
       "statements": [
-        { "text": "Khi đạt trạng thái cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.", "answer": true },
-        { "text": "Ammonia ($NH_3$) là một base yếu, làm quỳ tím ẩm chuyển xanh.", "answer": true },
-        { "text": "Nitric acid ($HNO_3$) là một acid mạnh và có tính oxi hóa mạnh.", "answer": true },
-        { "text": "Sulfuric acid ($H_2SO_4$) loãng KHÔNG phải là một acid mạnh.", "answer": false }
+        {
+          "text": "Khi đạt trạng thái cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.",
+          "answer": true
+        },
+        {
+          "text": "Ammonia ($NH_3$) là một base yếu, làm quỳ tím ẩm chuyển xanh.",
+          "answer": true
+        },
+        {
+          "text": "Nitric acid ($HNO_3$) là một acid mạnh và có tính oxi hóa mạnh.",
+          "answer": true
+        },
+        {
+          "text": "Sulfuric acid ($H_2SO_4$) loãng KHÔNG phải là một acid mạnh.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hóa học hữu cơ:",
       "statements": [
-        { "text": "Hợp chất hữu cơ là hợp chất của carbon (trừ một số ngoại lệ như $CO_2$, $CO$, muối carbonate...).", "answer": true },
-        { "text": "Alkane có công thức tổng quát $C_nH_{2n+2}$.", "answer": true },
-        { "text": "Alcohol có nhóm chức đặc trưng là $-COOH$.", "answer": false },
-        { "text": "Acetic acid ($CH_3COOH$) làm quỳ tím chuyển sang màu đỏ.", "answer": true }
+        {
+          "text": "Hợp chất hữu cơ là hợp chất của carbon (trừ một số ngoại lệ như $CO_2$, $CO$, muối carbonate...).",
+          "answer": true
+        },
+        {
+          "text": "Alkane có công thức tổng quát $C_nH_{2n+2}$.",
+          "answer": true
+        },
+        {
+          "text": "Alcohol có nhóm chức đặc trưng là $-COOH$.",
+          "answer": false
+        },
+        {
+          "text": "Acetic acid ($CH_3COOH$) làm quỳ tím chuyển sang màu đỏ.",
+          "answer": true
+        }
       ]
     },
     {
@@ -183,7 +207,10 @@
       "level": "TH",
       "question": "Công thức phân tử của ammonia là ___",
       "answer": "NH3",
-      "alternatives": ["NH₃", "nh3"],
+      "alternatives": [
+        "NH₃",
+        "nh3"
+      ],
       "hint": "Ammonia: 1 nguyên tử N + 3 nguyên tử H → $NH_3$."
     },
     {
@@ -191,7 +218,11 @@
       "level": "VD",
       "question": "Nhóm chức đặc trưng của carboxylic acid là ___",
       "answer": "-COOH",
-      "alternatives": ["COOH", "carboxyl", "-COOH (carboxyl)"],
+      "alternatives": [
+        "COOH",
+        "carboxyl",
+        "-COOH (carboxyl)"
+      ],
       "hint": "Nhóm $-COOH$ (carboxyl) gồm $-C(=O)-OH$."
     },
     {
@@ -201,5 +232,6 @@
       "answer": true,
       "hint": "Benzene là hydrocarbon thơm cơ bản, có vòng 6 cạnh với 3 liên kết đôi xen kẽ."
     }
-  ]
+  ],
+  "examType": "practice"
 }

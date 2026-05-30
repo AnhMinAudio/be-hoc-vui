@@ -6,13 +6,106 @@
   "topic": "Đếm số 1 - 10 và so sánh (bài 2)",
   "difficulty": 3,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy quả dứa?", "prompt": "🍍 🍍 🍍 🍍 🍍 🍍", "options": ["5", "6", "7", "8"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6." },
-    { "type": "image-choice", "question": "Có mấy con sò?", "prompt": "🐚 🐚 🐚 🐚 🐚 🐚 🐚", "options": ["6", "7", "8", "9"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7." },
-    { "type": "image-choice", "question": "Có mấy quả dâu tằm?", "prompt": "🫐 🫐 🫐 🫐 🫐 🫐 🫐 🫐", "options": ["7", "8", "9", "10"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7, 8." },
-    { "type": "image-choice", "question": "Có mấy quả tim?", "prompt": "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️", "options": ["8", "9", "10", "11"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7, 8, 9." },
-    { "type": "image-choice", "question": "Số nào lớn nhất?", "options": ["4", "10", "7", "2"], "answer": 1, "hint": "Số càng đếm về sau càng lớn." },
-    { "type": "image-choice", "question": "Số nào bé nhất?", "options": ["5", "3", "8", "1"], "answer": 3, "hint": "Số đếm đầu tiên là bé nhất." },
-    { "type": "image-choice", "question": "Đếm tiếp: 5, 6, 7, ... số nào đứng sau?", "options": ["8", "9", "10", "6"], "answer": 0, "hint": "Sau số 7 là số 8." },
-    { "type": "image-choice", "question": "Số nào đứng giữa 7 và 9?", "options": ["6", "8", "10", "5"], "answer": 1, "hint": "Giữa 7 và 9 là số 8." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả dứa?",
+      "prompt": "🍍 🍍 🍍 🍍 🍍 🍍",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con sò?",
+      "prompt": "🐚 🐚 🐚 🐚 🐚 🐚 🐚",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả dâu tằm?",
+      "prompt": "🫐 🫐 🫐 🫐 🫐 🫐 🫐 🫐",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả tim?",
+      "prompt": "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào lớn nhất?",
+      "options": [
+        "4",
+        "10",
+        "7",
+        "2"
+      ],
+      "answer": 1,
+      "hint": "Số càng đếm về sau càng lớn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào bé nhất?",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "1"
+      ],
+      "answer": 3,
+      "hint": "Số đếm đầu tiên là bé nhất."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đếm tiếp: 5, 6, 7, ... số nào đứng sau?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "6"
+      ],
+      "answer": 0,
+      "hint": "Sau số 7 là số 8."
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào đứng giữa 7 và 9?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "Giữa 7 và 9 là số 8."
+    }
+  ],
+  "examType": "practice"
 }

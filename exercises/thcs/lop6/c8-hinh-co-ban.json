@@ -179,5 +179,9 @@
       "answer": 0,
       "hint": "Góc nhọn có số đo nhỏ hơn $90^\\circ$."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 8
+  }
 }

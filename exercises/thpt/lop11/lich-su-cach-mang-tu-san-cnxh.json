@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các cuộc cách mạng tư sản:",
       "statements": [
-        { "text": "Cách mạng tư sản Anh diễn ra vào thế kỉ XVII.", "answer": true },
-        { "text": "Cách mạng tư sản Pháp bùng nổ năm 1789.", "answer": true },
-        { "text": "Tuyên ngôn Độc lập Hoa Kỳ được công bố ngày 4/7/1776.", "answer": true },
-        { "text": "Cách mạng tư sản nhằm khôi phục chế độ phong kiến.", "answer": false }
+        {
+          "text": "Cách mạng tư sản Anh diễn ra vào thế kỉ XVII.",
+          "answer": true
+        },
+        {
+          "text": "Cách mạng tư sản Pháp bùng nổ năm 1789.",
+          "answer": true
+        },
+        {
+          "text": "Tuyên ngôn Độc lập Hoa Kỳ được công bố ngày 4/7/1776.",
+          "answer": true
+        },
+        {
+          "text": "Cách mạng tư sản nhằm khôi phục chế độ phong kiến.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về CNXH từ 1917:",
       "statements": [
-        { "text": "Cách mạng tháng Mười Nga 1917 là cuộc cách mạng XHCN đầu tiên giành thắng lợi trên thế giới.", "answer": true },
-        { "text": "Liên bang Cộng hòa XHCN Xô viết (Liên Xô) được thành lập năm 1922.", "answer": true },
-        { "text": "Liên Xô tan rã vào năm 1991.", "answer": true },
-        { "text": "Sau khi Liên Xô tan rã, mọi nước XHCN đều ngừng tồn tại.", "answer": false }
+        {
+          "text": "Cách mạng tháng Mười Nga 1917 là cuộc cách mạng XHCN đầu tiên giành thắng lợi trên thế giới.",
+          "answer": true
+        },
+        {
+          "text": "Liên bang Cộng hòa XHCN Xô viết (Liên Xô) được thành lập năm 1922.",
+          "answer": true
+        },
+        {
+          "text": "Liên Xô tan rã vào năm 1991.",
+          "answer": true
+        },
+        {
+          "text": "Sau khi Liên Xô tan rã, mọi nước XHCN đều ngừng tồn tại.",
+          "answer": false
+        }
       ]
     },
     {
@@ -212,5 +236,6 @@
       "answer": true,
       "hint": "Đây là ý nghĩa lịch sử quan trọng nhất của Cách mạng tháng Mười."
     }
-  ]
+  ],
+  "examType": "practice"
 }

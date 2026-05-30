@@ -6,12 +6,97 @@
   "topic": "Làm quen chữ cái",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Tiếng 'Ếch' bắt đầu bằng chữ nào?", "prompt": "🐸", "options": ["E", "Ê", "Ơ", "A"], "answer": 1, "hint": "Ếch có chữ Ê đội mũ." },
-    { "type": "image-choice", "question": "Tiếng 'Ô tô' bắt đầu bằng chữ nào?", "prompt": "🚗", "options": ["O", "Ô", "Ơ", "U"], "answer": 1, "hint": "Ô tô có chữ Ô đội mũ." },
-    { "type": "image-choice", "question": "Tiếng 'Bóng' bắt đầu bằng chữ nào?", "prompt": "⚽", "options": ["D", "P", "B", "Đ"], "answer": 2, "hint": "Bờ... Bóng." },
-    { "type": "image-choice", "question": "Tiếng 'Hoa' bắt đầu bằng chữ nào?", "prompt": "🌸", "options": ["K", "H", "N", "G"], "answer": 1, "hint": "Hờ... Hoa." },
-    { "type": "image-choice", "question": "Tiếng 'Gấu' bắt đầu bằng chữ nào?", "prompt": "🐻", "options": ["C", "K", "G", "Q"], "answer": 2, "hint": "Gờ... Gấu." },
-    { "type": "image-choice", "question": "Tiếng 'Xe' bắt đầu bằng chữ nào?", "prompt": "🚲", "options": ["S", "X", "C", "T"], "answer": 1, "hint": "Xờ... Xe." },
-    { "type": "image-choice", "question": "Tiếng 'Đèn' bắt đầu bằng chữ nào?", "prompt": "💡", "options": ["D", "Đ", "B", "T"], "answer": 1, "hint": "Đờ... Đèn, chữ Đ có gạch ngang." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Ếch' bắt đầu bằng chữ nào?",
+      "prompt": "🐸",
+      "options": [
+        "E",
+        "Ê",
+        "Ơ",
+        "A"
+      ],
+      "answer": 1,
+      "hint": "Ếch có chữ Ê đội mũ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Ô tô' bắt đầu bằng chữ nào?",
+      "prompt": "🚗",
+      "options": [
+        "O",
+        "Ô",
+        "Ơ",
+        "U"
+      ],
+      "answer": 1,
+      "hint": "Ô tô có chữ Ô đội mũ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Bóng' bắt đầu bằng chữ nào?",
+      "prompt": "⚽",
+      "options": [
+        "D",
+        "P",
+        "B",
+        "Đ"
+      ],
+      "answer": 2,
+      "hint": "Bờ... Bóng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Hoa' bắt đầu bằng chữ nào?",
+      "prompt": "🌸",
+      "options": [
+        "K",
+        "H",
+        "N",
+        "G"
+      ],
+      "answer": 1,
+      "hint": "Hờ... Hoa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Gấu' bắt đầu bằng chữ nào?",
+      "prompt": "🐻",
+      "options": [
+        "C",
+        "K",
+        "G",
+        "Q"
+      ],
+      "answer": 2,
+      "hint": "Gờ... Gấu."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Xe' bắt đầu bằng chữ nào?",
+      "prompt": "🚲",
+      "options": [
+        "S",
+        "X",
+        "C",
+        "T"
+      ],
+      "answer": 1,
+      "hint": "Xờ... Xe."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tiếng 'Đèn' bắt đầu bằng chữ nào?",
+      "prompt": "💡",
+      "options": [
+        "D",
+        "Đ",
+        "B",
+        "T"
+      ],
+      "answer": 1,
+      "hint": "Đờ... Đèn, chữ Đ có gạch ngang."
+    }
+  ],
+  "examType": "practice"
 }

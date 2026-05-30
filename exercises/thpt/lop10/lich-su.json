@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về sử học và các nền văn minh cổ - trung đại:",
       "statements": [
-        { "text": "Sử học là ngành khoa học nghiên cứu về quá khứ của con người và xã hội loài người.", "answer": true },
-        { "text": "Các nền văn minh cổ đại lớn (Ai Cập, Lưỡng Hà, Ấn Độ, Trung Hoa) đều hình thành ở lưu vực các con sông lớn.", "answer": true },
-        { "text": "Văn minh Hy Lạp - La Mã cổ đại không có ảnh hưởng gì đến nền văn minh phương Tây hiện đại.", "answer": false },
-        { "text": "Kim tự tháp là công trình kiến trúc tiêu biểu của nền văn minh Ai Cập cổ đại.", "answer": true }
+        {
+          "text": "Sử học là ngành khoa học nghiên cứu về quá khứ của con người và xã hội loài người.",
+          "answer": true
+        },
+        {
+          "text": "Các nền văn minh cổ đại lớn (Ai Cập, Lưỡng Hà, Ấn Độ, Trung Hoa) đều hình thành ở lưu vực các con sông lớn.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Hy Lạp - La Mã cổ đại không có ảnh hưởng gì đến nền văn minh phương Tây hiện đại.",
+          "answer": false
+        },
+        {
+          "text": "Kim tự tháp là công trình kiến trúc tiêu biểu của nền văn minh Ai Cập cổ đại.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các nền văn minh trên đất nước Việt Nam:",
       "statements": [
-        { "text": "Văn Lang là nhà nước đầu tiên trong lịch sử Việt Nam, do các vua Hùng đứng đầu.", "answer": true },
-        { "text": "An Dương Vương đóng đô và xây thành Cổ Loa.", "answer": true },
-        { "text": "Văn minh Champa phát triển chủ yếu ở khu vực Trung Bộ Việt Nam.", "answer": true },
-        { "text": "Văn minh Đại Việt chỉ tồn tại trong thời nhà Lý.", "answer": false }
+        {
+          "text": "Văn Lang là nhà nước đầu tiên trong lịch sử Việt Nam, do các vua Hùng đứng đầu.",
+          "answer": true
+        },
+        {
+          "text": "An Dương Vương đóng đô và xây thành Cổ Loa.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Champa phát triển chủ yếu ở khu vực Trung Bộ Việt Nam.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Đại Việt chỉ tồn tại trong thời nhà Lý.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,10 @@
       "level": "NB",
       "question": "Nhà nước Âu Lạc do An Dương Vương Thục Phán sáng lập, đóng đô ở thành ___",
       "answer": "Cổ Loa",
-      "alternatives": ["co loa", "Cổ Loa (Đông Anh, Hà Nội)"],
+      "alternatives": [
+        "co loa",
+        "Cổ Loa (Đông Anh, Hà Nội)"
+      ],
       "hint": "An Dương Vương xây thành Cổ Loa làm kinh đô của Âu Lạc."
     },
     {
@@ -191,7 +218,10 @@
       "level": "TH",
       "question": "Bộ luật tiêu biểu của triều đại Lê sơ (Đại Việt) là Quốc triều hình luật, còn được gọi là Luật ___",
       "answer": "Hồng Đức",
-      "alternatives": ["hong duc", "Luật Hồng Đức"],
+      "alternatives": [
+        "hong duc",
+        "Luật Hồng Đức"
+      ],
       "hint": "Quốc triều hình luật được biên soạn dưới thời vua Lê Thánh Tông (niên hiệu Hồng Đức)."
     },
     {
@@ -201,5 +231,6 @@
       "answer": true,
       "hint": "Chữ Nôm là sáng tạo độc đáo của người Việt, được sử dụng song song với chữ Hán trong lịch sử."
     }
-  ]
+  ],
+  "examType": "practice"
 }

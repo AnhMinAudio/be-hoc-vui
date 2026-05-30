@@ -178,5 +178,6 @@
       "answer": 0,
       "hint": "Áp dụng định lý Pythagore: $BC^2 = AB^2 + AC^2$"
     }
-  ]
+  ],
+  "examType": "practice"
 }

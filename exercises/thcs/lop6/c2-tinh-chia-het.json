@@ -181,5 +181,9 @@
       "answer": 0,
       "hint": "Số ngày là BCNN$(6, 8) = 24$"
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 2
+  }
 }

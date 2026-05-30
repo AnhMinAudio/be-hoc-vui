@@ -6,12 +6,83 @@
   "topic": "Con vật và đặc điểm",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Con nào kêu 'meo meo'?", "options": ["🐶", "🐱", "🐮", "🐔"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào kêu 'gâu gâu'?", "options": ["🐱", "🐶", "🐸", "🐔"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào biết bay?", "options": ["🐟", "🐦", "🐶", "🐢"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào sống dưới nước?", "options": ["🐟", "🐰", "🐱", "🐘"], "answer": 0 },
-    { "type": "image-choice", "question": "Con nào có vòi dài?", "options": ["🦒", "🐘", "🐴", "🐶"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào gáy 'ò ó o' buổi sáng?", "options": ["🐔", "🐮", "🐷", "🐸"], "answer": 0 },
-    { "type": "image-choice", "question": "Con nào nhảy và kêu 'ộp ộp'?", "options": ["🐭", "🐸", "🐻", "🐰"], "answer": 1 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Con nào kêu 'meo meo'?",
+      "options": [
+        "🐶",
+        "🐱",
+        "🐮",
+        "🐔"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào kêu 'gâu gâu'?",
+      "options": [
+        "🐱",
+        "🐶",
+        "🐸",
+        "🐔"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào biết bay?",
+      "options": [
+        "🐟",
+        "🐦",
+        "🐶",
+        "🐢"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào sống dưới nước?",
+      "options": [
+        "🐟",
+        "🐰",
+        "🐱",
+        "🐘"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào có vòi dài?",
+      "options": [
+        "🦒",
+        "🐘",
+        "🐴",
+        "🐶"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào gáy 'ò ó o' buổi sáng?",
+      "options": [
+        "🐔",
+        "🐮",
+        "🐷",
+        "🐸"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào nhảy và kêu 'ộp ộp'?",
+      "options": [
+        "🐭",
+        "🐸",
+        "🐻",
+        "🐰"
+      ],
+      "answer": 1
+    }
+  ],
+  "examType": "practice"
 }

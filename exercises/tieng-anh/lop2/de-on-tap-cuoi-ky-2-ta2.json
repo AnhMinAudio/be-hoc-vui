@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "What does 'apple' mean? (Từ 'apple' nghĩa là gì?)",
-      "options": ["quả táo", "quả cam", "cái bánh", "quả chuối"],
+      "options": [
+        "quả táo",
+        "quả cam",
+        "cái bánh",
+        "quả chuối"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'con voi'? ('con voi' tiếng Anh là gì?)",
-      "options": ["elephant", "tiger", "monkey", "lion"],
+      "options": [
+        "elephant",
+        "tiger",
+        "monkey",
+        "lion"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Which one is a wild animal? (Con vật nào sống hoang dã?)",
-      "options": ["tiger", "hen", "cow", "duck"],
+      "options": [
+        "tiger",
+        "hen",
+        "cow",
+        "duck"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -31,37 +46,64 @@
       "type": "fill-blank",
       "question": "Write 'con cá' in English (Viết 'con cá' bằng tiếng Anh): ___",
       "answer": "fish",
-      "alternatives": ["Fish", "FISH"],
+      "alternatives": [
+        "Fish",
+        "FISH"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the word with its meaning (Nối từ với nghĩa)",
       "pairs": [
-        ["banana", "quả chuối"],
-        ["orange", "quả cam"],
-        ["milk", "sữa"]
+        [
+          "banana",
+          "quả chuối"
+        ],
+        [
+          "orange",
+          "quả cam"
+        ],
+        [
+          "milk",
+          "sữa"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'happy' mean? (Từ 'happy' nghĩa là gì?)",
-      "options": ["vui", "buồn", "mệt", "đói"],
+      "options": [
+        "vui",
+        "buồn",
+        "mệt",
+        "đói"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct sentence to say you have a kite (Chọn câu đúng để nói em có một con diều)",
-      "options": ["I have a kite.", "I am a kite.", "Kite have I.", "You kite."],
+      "options": [
+        "I have a kite.",
+        "I am a kite.",
+        "Kite have I.",
+        "You kite."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'màu tím'? ('màu tím' tiếng Anh là gì?)",
-      "options": ["purple", "pink", "brown", "grey"],
+      "options": [
+        "purple",
+        "pink",
+        "brown",
+        "grey"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -69,20 +111,33 @@
       "type": "fill-blank",
       "question": "Write 'con mèo' in English (Viết 'con mèo' bằng tiếng Anh): ___",
       "answer": "cat",
-      "alternatives": ["Cat", "CAT"],
+      "alternatives": [
+        "Cat",
+        "CAT"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "How many legs does a dog have? (Con chó có mấy chân?)",
-      "options": ["two", "four", "six", "eight"],
+      "options": [
+        "two",
+        "four",
+        "six",
+        "eight"
+      ],
       "answer": 1,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct question to ask someone's name (Chọn câu hỏi tên của người khác)",
-      "options": ["What's your name?", "How old you?", "Where name?", "Are name you?"],
+      "options": [
+        "What's your name?",
+        "How old you?",
+        "Where name?",
+        "Are name you?"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -90,40 +145,73 @@
       "type": "matching",
       "question": "Match the toy with its meaning (Nối đồ chơi với nghĩa)",
       "pairs": [
-        ["doll", "búp bê"],
-        ["ball", "quả bóng"],
-        ["car", "ô tô"],
-        ["kite", "con diều"]
+        [
+          "doll",
+          "búp bê"
+        ],
+        [
+          "ball",
+          "quả bóng"
+        ],
+        [
+          "car",
+          "ô tô"
+        ],
+        [
+          "kite",
+          "con diều"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Your teacher says 'Sit down, please.' What do you do? (Cô giáo nói 'Sit down, please.'. Em làm gì?)",
-      "options": ["ngồi xuống", "đứng dậy", "đi ra ngoài", "viết bài"],
+      "options": [
+        "ngồi xuống",
+        "đứng dậy",
+        "đi ra ngoài",
+        "viết bài"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "You want to introduce your friend Nam (Em muốn giới thiệu bạn Nam)",
-      "options": ["This is Nam.", "Nam this are.", "Is Nam this you.", "Nam you is."],
+      "options": [
+        "This is Nam.",
+        "Nam this are.",
+        "Is Nam this you.",
+        "Nam you is."
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "A friend gives you a gift. What do you say? (Bạn tặng em một món quà. Em nói gì?)",
-      "options": ["Thank you!", "Goodbye.", "Stand up.", "It's red."],
+      "options": [
+        "Thank you!",
+        "Goodbye.",
+        "Stand up.",
+        "It's red."
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Count the cows: 🐄 🐄 🐄 🐄 (Đếm số con bò)",
-      "options": ["three", "four", "five", "six"],
+      "options": [
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
       "answer": 1,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "final2"
 }

@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng 'hoa' có vần gì?",
-      "options": ["oa", "oe", "ua", "ao"],
+      "options": [
+        "oa",
+        "oe",
+        "ua",
+        "ao"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào viết đúng chính tả?",
-      "options": ["quyển sách", "quển sách", "quyển xách", "quển xách"],
+      "options": [
+        "quyển sách",
+        "quển sách",
+        "quyển xách",
+        "quển xách"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ con vật?",
-      "options": ["con voi", "cái trống", "màu xanh", "chạy"],
+      "options": [
+        "con voi",
+        "cái trống",
+        "màu xanh",
+        "chạy"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -37,21 +52,36 @@
     {
       "type": "multiple-choice",
       "question": "Câu 'Bạn đi đâu đấy' nên kết thúc bằng dấu gì?",
-      "options": ["dấu chấm hỏi", "dấu chấm", "dấu phẩy", "dấu chấm than"],
+      "options": [
+        "dấu chấm hỏi",
+        "dấu chấm",
+        "dấu phẩy",
+        "dấu chấm than"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ hoạt động?",
-      "options": ["hát", "cái bàn", "đỏ", "cao"],
+      "options": [
+        "hát",
+        "cái bàn",
+        "đỏ",
+        "cao"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng nào có thanh nặng?",
-      "options": ["bẹ", "bè", "bé", "be"],
+      "options": [
+        "bẹ",
+        "bè",
+        "bé",
+        "be"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Thanh nặng là dấu chấm dưới chân chữ."
@@ -66,14 +96,24 @@
     {
       "type": "multiple-choice",
       "question": "Sắp xếp các tiếng thành câu đúng: 'hoa / đẹp / rất'",
-      "options": ["Hoa rất đẹp.", "Đẹp hoa rất.", "Rất hoa đẹp.", "Hoa đẹp rất."],
+      "options": [
+        "Hoa rất đẹp.",
+        "Đẹp hoa rất.",
+        "Rất hoa đẹp.",
+        "Hoa đẹp rất."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ trái nghĩa với 'to' là:",
-      "options": ["nhỏ", "lớn", "cao", "dài"],
+      "options": [
+        "nhỏ",
+        "lớn",
+        "cao",
+        "dài"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -81,9 +121,18 @@
       "type": "matching",
       "question": "Nối con vật với hoạt động phù hợp",
       "pairs": [
-        ["con cá", "bơi"],
-        ["con chim", "bay"],
-        ["con thỏ", "nhảy"]
+        [
+          "con cá",
+          "bơi"
+        ],
+        [
+          "con chim",
+          "bay"
+        ],
+        [
+          "con thỏ",
+          "nhảy"
+        ]
       ],
       "level": "M2"
     },
@@ -91,7 +140,12 @@
       "type": "multiple-choice",
       "passage": "Bé Mai có một chú mèo nhỏ. Chú mèo lông trắng muốt, rất ngoan. Hằng ngày, Mai cho mèo ăn và chơi cùng mèo.",
       "question": "Bé Mai nuôi con gì?",
-      "options": ["một chú mèo nhỏ", "một con chó", "một con chim", "một con cá"],
+      "options": [
+        "một chú mèo nhỏ",
+        "một con chó",
+        "một con chim",
+        "một con cá"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -99,7 +153,12 @@
       "type": "multiple-choice",
       "passage": "Bé Mai có một chú mèo nhỏ. Chú mèo lông trắng muốt, rất ngoan. Hằng ngày, Mai cho mèo ăn và chơi cùng mèo.",
       "question": "Chú mèo có bộ lông màu gì?",
-      "options": ["trắng muốt", "đen", "vàng", "nâu"],
+      "options": [
+        "trắng muốt",
+        "đen",
+        "vàng",
+        "nâu"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -107,23 +166,39 @@
       "type": "multiple-choice",
       "passage": "Bé Mai có một chú mèo nhỏ. Chú mèo lông trắng muốt, rất ngoan. Hằng ngày, Mai cho mèo ăn và chơi cùng mèo.",
       "question": "Hằng ngày Mai làm gì cho mèo?",
-      "options": ["cho mèo ăn và chơi cùng mèo", "tắm cho mèo", "đưa mèo đi học", "bỏ đói mèo"],
+      "options": [
+        "cho mèo ăn và chơi cùng mèo",
+        "tắm cho mèo",
+        "đưa mèo đi học",
+        "bỏ đói mèo"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'ngoan' là từ chỉ:",
-      "options": ["đặc điểm", "hoạt động", "sự vật", "số lượng"],
+      "options": [
+        "đặc điểm",
+        "hoạt động",
+        "sự vật",
+        "số lượng"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là tên một loại quả?",
-      "options": ["quả cam", "con gà", "cái ghế", "chạy nhảy"],
+      "options": [
+        "quả cam",
+        "con gà",
+        "cái ghế",
+        "chạy nhảy"
+      ],
       "answer": 0,
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "mock"
 }

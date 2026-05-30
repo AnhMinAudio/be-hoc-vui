@@ -169,5 +169,6 @@
       "question": "Mỗi xe chở được 8 bao gạo. Hỏi 6 xe như thế chở được bao nhiêu bao gạo? Trả lời: 8 × 6 = ___",
       "answer": "48"
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -6,11 +6,69 @@
   "topic": "Nhận biết màu sắc (phần 2)",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là màu hồng?", "options": ["🩷", "🔵", "🟢"], "answer": 0, "hint": "Màu hồng giống bông hoa." },
-    { "type": "image-choice", "question": "Tìm màu nâu giúp bé nhé!", "options": ["🟡", "🟤", "🔴"], "answer": 1, "hint": "Màu nâu giống cục đất." },
-    { "type": "image-choice", "question": "Tìm màu đen nào!", "options": ["⚫", "⚪", "🔴"], "answer": 0 },
-    { "type": "image-choice", "question": "Tìm màu trắng nhé!", "options": ["🔵", "🟣", "⚪"], "answer": 2 },
-    { "type": "image-choice", "question": "Hai trái tim này màu gì? Chạm vào màu giống nhé!", "options": ["💙", "❤️", "💚"], "answer": 1, "prompt": "❤️ ❤️" },
-    { "type": "image-choice", "question": "Chạm vào ngôi sao màu vàng", "options": ["💙", "⭐", "💜"], "answer": 1 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là màu hồng?",
+      "options": [
+        "🩷",
+        "🔵",
+        "🟢"
+      ],
+      "answer": 0,
+      "hint": "Màu hồng giống bông hoa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tìm màu nâu giúp bé nhé!",
+      "options": [
+        "🟡",
+        "🟤",
+        "🔴"
+      ],
+      "answer": 1,
+      "hint": "Màu nâu giống cục đất."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tìm màu đen nào!",
+      "options": [
+        "⚫",
+        "⚪",
+        "🔴"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Tìm màu trắng nhé!",
+      "options": [
+        "🔵",
+        "🟣",
+        "⚪"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Hai trái tim này màu gì? Chạm vào màu giống nhé!",
+      "options": [
+        "💙",
+        "❤️",
+        "💚"
+      ],
+      "answer": 1,
+      "prompt": "❤️ ❤️"
+    },
+    {
+      "type": "image-choice",
+      "question": "Chạm vào ngôi sao màu vàng",
+      "options": [
+        "💙",
+        "⭐",
+        "💜"
+      ],
+      "answer": 1
+    }
+  ],
+  "examType": "practice"
 }

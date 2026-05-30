@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'bedroom' mean? (Từ 'bedroom' nghĩa là gì?)",
-      "options": ["phòng ngủ", "nhà bếp", "phòng tắm", "phòng khách"],
+      "options": [
+        "phòng ngủ",
+        "nhà bếp",
+        "phòng tắm",
+        "phòng khách"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'nhà bếp'? ('nhà bếp' tiếng Anh là gì?)",
-      "options": ["kitchen", "bedroom", "garden", "bathroom"],
+      "options": [
+        "kitchen",
+        "bedroom",
+        "garden",
+        "bathroom"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'windy' mean? (Từ 'windy' nghĩa là gì?)",
-      "options": ["có gió", "có nắng", "có mưa", "có tuyết"],
+      "options": [
+        "có gió",
+        "có nắng",
+        "có mưa",
+        "có tuyết"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What can a bird do? (Con chim có thể làm gì?)",
-      "options": ["fly", "swim like a fish", "read", "cook"],
+      "options": [
+        "fly",
+        "swim like a fish",
+        "read",
+        "cook"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,30 +58,51 @@
       "type": "fill-blank",
       "question": "Complete: 'I ___ play the piano.' (Em có thể chơi đàn piano — điền 'can')",
       "answer": "can",
-      "alternatives": ["Can"],
+      "alternatives": [
+        "Can"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the clothes word with its meaning (Nối từ quần áo với nghĩa)",
       "pairs": [
-        ["hat", "cái mũ"],
-        ["shoes", "đôi giày"],
-        ["coat", "áo khoác"]
+        [
+          "hat",
+          "cái mũ"
+        ],
+        [
+          "shoes",
+          "đôi giày"
+        ],
+        [
+          "coat",
+          "áo khoác"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the comparative: 'A cat is ___ than a dog.' (nhỏ hơn)",
-      "options": ["smaller", "smallest", "small", "more small"],
+      "options": [
+        "smaller",
+        "smallest",
+        "small",
+        "more small"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Answer 'Can you cook?' positively (Trả lời 'Can you cook?' khi em biết nấu ăn)",
-      "options": ["Yes, I can.", "Yes, I am.", "No, you can.", "Can yes."],
+      "options": [
+        "Yes, I can.",
+        "Yes, I am.",
+        "No, you can.",
+        "Can yes."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -69,20 +110,33 @@
       "type": "fill-blank",
       "question": "Write 'cái mũ' in English (Viết 'cái mũ' bằng tiếng Anh): ___",
       "answer": "hat",
-      "alternatives": ["Hat", "HAT"],
+      "alternatives": [
+        "Hat",
+        "HAT"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'tall' mean? (Từ 'tall' nghĩa là gì?)",
-      "options": ["cao", "thấp", "béo", "gầy"],
+      "options": [
+        "cao",
+        "thấp",
+        "béo",
+        "gầy"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct sentence (Chọn câu đúng)",
-      "options": ["She has long hair.", "She hair long.", "Long she hair.", "Hair she long."],
+      "options": [
+        "She has long hair.",
+        "She hair long.",
+        "Long she hair.",
+        "Hair she long."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -90,9 +144,18 @@
       "type": "matching",
       "question": "Match the weather word with its meaning (Nối từ thời tiết với nghĩa)",
       "pairs": [
-        ["sunny", "có nắng"],
-        ["rainy", "có mưa"],
-        ["windy", "có gió"]
+        [
+          "sunny",
+          "có nắng"
+        ],
+        [
+          "rainy",
+          "có mưa"
+        ],
+        [
+          "windy",
+          "có gió"
+        ]
       ],
       "level": "M2"
     },
@@ -100,7 +163,12 @@
       "type": "multiple-choice",
       "passage": "This is my house. It has a living room, a kitchen and two bedrooms. There is a small garden in front of the house. I love my house very much.",
       "question": "How many bedrooms are there in the house? (Nhà có mấy phòng ngủ?)",
-      "options": ["two", "one", "three", "four"],
+      "options": [
+        "two",
+        "one",
+        "three",
+        "four"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -108,7 +176,12 @@
       "type": "multiple-choice",
       "passage": "This is my house. It has a living room, a kitchen and two bedrooms. There is a small garden in front of the house. I love my house very much.",
       "question": "What is in front of the house? (Phía trước nhà có gì?)",
-      "options": ["a small garden", "a big pool", "a tall tree", "a car"],
+      "options": [
+        "a small garden",
+        "a big pool",
+        "a tall tree",
+        "a car"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -116,16 +189,27 @@
       "type": "multiple-choice",
       "passage": "This is my house. It has a living room, a kitchen and two bedrooms. There is a small garden in front of the house. I love my house very much.",
       "question": "How does the speaker feel about the house? (Bạn nhỏ cảm thấy thế nào về ngôi nhà?)",
-      "options": ["loves it very much", "hates it", "is bored", "is scared"],
+      "options": [
+        "loves it very much",
+        "hates it",
+        "is bored",
+        "is scared"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Ask what your friend can do (Hỏi bạn có thể làm gì)",
-      "options": ["What can you do?", "You can what?", "Can what you?", "Do you can what?"],
+      "options": [
+        "What can you do?",
+        "You can what?",
+        "Can what you?",
+        "Do you can what?"
+      ],
       "answer": 0,
       "level": "M2"
     }
-  ]
+  ],
+  "examType": "mock"
 }

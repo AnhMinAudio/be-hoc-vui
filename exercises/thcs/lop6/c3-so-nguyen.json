@@ -153,5 +153,9 @@
       "answer": 0,
       "hint": "Lấy $-3 + 8$"
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 3
+  }
 }

@@ -11,28 +11,48 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Phân số $\\dfrac{-3}{5}$ có tử số là:",
-      "options": ["$-3$", "$5$", "$3$", "$-5$"],
+      "options": [
+        "$-3$",
+        "$5$",
+        "$3$",
+        "$-5$"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Hai phân số $\\dfrac{1}{2}$ và $\\dfrac{2}{4}$ là hai phân số:",
-      "options": ["bằng nhau", "khác nhau", "đối nhau", "nghịch đảo của nhau"],
+      "options": [
+        "bằng nhau",
+        "khác nhau",
+        "đối nhau",
+        "nghịch đảo của nhau"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Phân số nghịch đảo của $\\dfrac{3}{7}$ là:",
-      "options": ["$\\dfrac{7}{3}$", "$\\dfrac{-3}{7}$", "$\\dfrac{3}{7}$", "$\\dfrac{-7}{3}$"],
+      "options": [
+        "$\\dfrac{7}{3}$",
+        "$\\dfrac{-3}{7}$",
+        "$\\dfrac{3}{7}$",
+        "$\\dfrac{-7}{3}$"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Rút gọn phân số $\\dfrac{12}{18}$ được phân số tối giản:",
-      "options": ["$\\dfrac{2}{3}$", "$\\dfrac{3}{2}$", "$\\dfrac{6}{9}$", "$\\dfrac{1}{2}$"],
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{3}{2}$",
+        "$\\dfrac{6}{9}$",
+        "$\\dfrac{1}{2}$"
+      ],
       "answer": 0,
       "hint": "Chia cả tử và mẫu cho $6$."
     },
@@ -40,7 +60,12 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Hỗn số $2\\dfrac{1}{3}$ viết dưới dạng phân số là:",
-      "options": ["$\\dfrac{7}{3}$", "$\\dfrac{6}{3}$", "$\\dfrac{2}{3}$", "$\\dfrac{5}{3}$"],
+      "options": [
+        "$\\dfrac{7}{3}$",
+        "$\\dfrac{6}{3}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{5}{3}$"
+      ],
       "answer": 0,
       "hint": "$2\\dfrac{1}{3} = \\dfrac{2 \\times 3 + 1}{3}$."
     },
@@ -48,7 +73,12 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Mẫu chung nhỏ nhất khi quy đồng hai phân số $\\dfrac{1}{4}$ và $\\dfrac{1}{6}$ là:",
-      "options": ["$12$", "$24$", "$10$", "$6$"],
+      "options": [
+        "$12$",
+        "$24$",
+        "$10$",
+        "$6$"
+      ],
       "answer": 0,
       "hint": "$\\text{BCNN}(4, 6) = 12$."
     },
@@ -56,14 +86,24 @@
       "type": "multiple-choice",
       "level": "TH",
       "question": "Tính $\\dfrac{2}{5} + \\dfrac{1}{5}$:",
-      "options": ["$\\dfrac{3}{5}$", "$\\dfrac{3}{10}$", "$\\dfrac{2}{5}$", "$\\dfrac{1}{5}$"],
+      "options": [
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{3}{10}$",
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{1}{5}$"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Tính $\\dfrac{5}{6} - \\dfrac{1}{2}$:",
-      "options": ["$\\dfrac{1}{3}$", "$\\dfrac{4}{4}$", "$\\dfrac{2}{3}$", "$\\dfrac{1}{2}$"],
+      "options": [
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{4}{4}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{1}{2}$"
+      ],
       "answer": 0,
       "hint": "Quy đồng: $\\dfrac{5}{6} - \\dfrac{3}{6} = \\dfrac{2}{6} = \\dfrac{1}{3}$."
     },
@@ -72,10 +112,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về phân số:",
       "statements": [
-        { "text": "$\\dfrac{3}{4} > \\dfrac{1}{2}$.", "answer": true },
-        { "text": "$\\dfrac{2}{3} \\times \\dfrac{3}{2} = 1$.", "answer": true },
-        { "text": "$\\dfrac{-1}{2} = \\dfrac{1}{-2}$.", "answer": true },
-        { "text": "$\\dfrac{4}{5} : \\dfrac{2}{5} = \\dfrac{8}{25}$.", "answer": false }
+        {
+          "text": "$\\dfrac{3}{4} > \\dfrac{1}{2}$.",
+          "answer": true
+        },
+        {
+          "text": "$\\dfrac{2}{3} \\times \\dfrac{3}{2} = 1$.",
+          "answer": true
+        },
+        {
+          "text": "$\\dfrac{-1}{2} = \\dfrac{1}{-2}$.",
+          "answer": true
+        },
+        {
+          "text": "$\\dfrac{4}{5} : \\dfrac{2}{5} = \\dfrac{8}{25}$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -89,7 +141,12 @@
       "type": "multiple-choice",
       "level": "TH",
       "question": "So sánh $\\dfrac{3}{4}$ và $\\dfrac{5}{6}$ (sau khi quy đồng):",
-      "options": ["$\\dfrac{3}{4} < \\dfrac{5}{6}$", "$\\dfrac{3}{4} > \\dfrac{5}{6}$", "$\\dfrac{3}{4} = \\dfrac{5}{6}$", "Không so sánh được"],
+      "options": [
+        "$\\dfrac{3}{4} < \\dfrac{5}{6}$",
+        "$\\dfrac{3}{4} > \\dfrac{5}{6}$",
+        "$\\dfrac{3}{4} = \\dfrac{5}{6}$",
+        "Không so sánh được"
+      ],
       "answer": 0,
       "hint": "Quy đồng mẫu $12$: $\\dfrac{9}{12}$ và $\\dfrac{10}{12}$."
     },
@@ -111,7 +168,12 @@
       "type": "multiple-choice",
       "level": "VD",
       "question": "Một mảnh đất dùng $\\dfrac{3}{4}$ diện tích để trồng rau, phần còn lại trồng hoa. Phần trồng hoa chiếm mấy phần mảnh đất?",
-      "options": ["$\\dfrac{1}{4}$", "$\\dfrac{3}{4}$", "$\\dfrac{1}{2}$", "$\\dfrac{1}{3}$"],
+      "options": [
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{3}$"
+      ],
       "answer": 0,
       "hint": "$1 - \\dfrac{3}{4} = \\dfrac{1}{4}$."
     },
@@ -126,9 +188,15 @@
       "type": "multiple-choice",
       "level": "VDC",
       "question": "Tính giá trị biểu thức $\\dfrac{1}{2} + \\dfrac{1}{2} \\times \\dfrac{2}{3}$:",
-      "options": ["$\\dfrac{5}{6}$", "$\\dfrac{2}{3}$", "$\\dfrac{1}{2}$", "$\\dfrac{1}{3}$"],
+      "options": [
+        "$\\dfrac{5}{6}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{3}$"
+      ],
       "answer": 0,
       "hint": "Nhân trước: $\\dfrac{1}{2} \\times \\dfrac{2}{3} = \\dfrac{1}{3}$; rồi $\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{5}{6}$."
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

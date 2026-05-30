@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các nền văn minh cổ đại phương Đông:",
       "statements": [
-        { "text": "Văn minh Ai Cập cổ đại hình thành ở lưu vực sông Nile, nổi tiếng với kim tự tháp và chữ tượng hình.", "answer": true },
-        { "text": "\"Lưỡng Hà\" là vùng đất giữa hai con sông Tigris và Euphrates (Tây Á).", "answer": true },
-        { "text": "Phật giáo và Hin-đu giáo đều ra đời tại Ấn Độ cổ đại.", "answer": true },
-        { "text": "Vạn Lý Trường Thành là công trình kiến trúc nổi tiếng của Ai Cập.", "answer": false }
+        {
+          "text": "Văn minh Ai Cập cổ đại hình thành ở lưu vực sông Nile, nổi tiếng với kim tự tháp và chữ tượng hình.",
+          "answer": true
+        },
+        {
+          "text": "\"Lưỡng Hà\" là vùng đất giữa hai con sông Tigris và Euphrates (Tây Á).",
+          "answer": true
+        },
+        {
+          "text": "Phật giáo và Hin-đu giáo đều ra đời tại Ấn Độ cổ đại.",
+          "answer": true
+        },
+        {
+          "text": "Vạn Lý Trường Thành là công trình kiến trúc nổi tiếng của Ai Cập.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về văn minh Hy Lạp - La Mã cổ đại:",
       "statements": [
-        { "text": "Hy Lạp và La Mã cổ đại đặt nền móng cho văn minh phương Tây.", "answer": true },
-        { "text": "Aristotle, Plato, Socrates là ba nhà triết học lớn của Hy Lạp cổ đại.", "answer": true },
-        { "text": "Đấu trường Colosseum là di sản nổi tiếng của La Mã cổ đại.", "answer": true },
-        { "text": "Văn minh Hy Lạp - La Mã không có ảnh hưởng gì đến văn minh phương Tây hiện đại.", "answer": false }
+        {
+          "text": "Hy Lạp và La Mã cổ đại đặt nền móng cho văn minh phương Tây.",
+          "answer": true
+        },
+        {
+          "text": "Aristotle, Plato, Socrates là ba nhà triết học lớn của Hy Lạp cổ đại.",
+          "answer": true
+        },
+        {
+          "text": "Đấu trường Colosseum là di sản nổi tiếng của La Mã cổ đại.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Hy Lạp - La Mã không có ảnh hưởng gì đến văn minh phương Tây hiện đại.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,11 @@
       "level": "TH",
       "question": "Loại chữ viết tiêu biểu của người Ai Cập cổ đại là chữ ___",
       "answer": "tượng hình",
-      "alternatives": ["tuong hinh", "chữ tượng hình", "hieroglyph"],
+      "alternatives": [
+        "tuong hinh",
+        "chữ tượng hình",
+        "hieroglyph"
+      ],
       "hint": "Chữ tượng hình (hieroglyph) được khắc trên giấy papyrus và đá."
     },
     {
@@ -204,7 +232,9 @@
       "level": "VD",
       "question": "Người Trung Quốc cổ-trung đại có \"tứ đại phát minh\": giấy, kĩ thuật in, la bàn và ___",
       "answer": "thuốc súng",
-      "alternatives": ["thuoc sung"],
+      "alternatives": [
+        "thuoc sung"
+      ],
       "hint": "Bốn phát minh lớn: giấy, kĩ thuật in, la bàn, thuốc súng."
     },
     {
@@ -214,5 +244,6 @@
       "answer": true,
       "hint": "Nho giáo do Khổng Tử (Confucius) sáng lập, lan tỏa khắp Đông Á."
     }
-  ]
+  ],
+  "examType": "practice"
 }

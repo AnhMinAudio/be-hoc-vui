@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á và Việt Nam:",
       "statements": [
-        { "text": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á đều là thuộc địa hoặc nửa thuộc địa.", "answer": true },
-        { "text": "Sau 1945, hàng loạt nước Đông Nam Á giành được độc lập.", "answer": true },
-        { "text": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống Nguyên - Mông thế kỉ XIII.", "answer": true },
-        { "text": "Cuộc cải cách của Hồ Quý Ly thành công trọn vẹn, đưa Đại Việt phát triển vượt bậc.", "answer": false }
+        {
+          "text": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á đều là thuộc địa hoặc nửa thuộc địa.",
+          "answer": true
+        },
+        {
+          "text": "Sau 1945, hàng loạt nước Đông Nam Á giành được độc lập.",
+          "answer": true
+        },
+        {
+          "text": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống Nguyên - Mông thế kỉ XIII.",
+          "answer": true
+        },
+        {
+          "text": "Cuộc cải cách của Hồ Quý Ly thành công trọn vẹn, đưa Đại Việt phát triển vượt bậc.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các cuộc kháng chiến của dân tộc Việt Nam:",
       "statements": [
-        { "text": "Ngô Quyền chỉ huy chiến thắng Bạch Đằng năm 938, chấm dứt hơn 1 000 năm Bắc thuộc.", "answer": true },
-        { "text": "Khởi nghĩa Lam Sơn (1418-1427) do Lê Lợi lãnh đạo, đánh đuổi quân Minh ra khỏi đất nước.", "answer": true },
-        { "text": "Quang Trung Nguyễn Huệ chỉ huy đại phá quân Thanh xâm lược năm 1789.", "answer": true },
-        { "text": "Trận Bạch Đằng năm 938 do Lê Lợi chỉ huy chống quân Minh.", "answer": false }
+        {
+          "text": "Ngô Quyền chỉ huy chiến thắng Bạch Đằng năm 938, chấm dứt hơn 1 000 năm Bắc thuộc.",
+          "answer": true
+        },
+        {
+          "text": "Khởi nghĩa Lam Sơn (1418-1427) do Lê Lợi lãnh đạo, đánh đuổi quân Minh ra khỏi đất nước.",
+          "answer": true
+        },
+        {
+          "text": "Quang Trung Nguyễn Huệ chỉ huy đại phá quân Thanh xâm lược năm 1789.",
+          "answer": true
+        },
+        {
+          "text": "Trận Bạch Đằng năm 938 do Lê Lợi chỉ huy chống quân Minh.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,10 @@
       "level": "TH",
       "question": "Mùa xuân năm Kỉ Dậu (1789), Quang Trung Nguyễn Huệ đại phá quân ___ xâm lược.",
       "answer": "Thanh",
-      "alternatives": ["quân Thanh", "nhà Thanh"],
+      "alternatives": [
+        "quân Thanh",
+        "nhà Thanh"
+      ],
       "hint": "Quân Thanh do Tôn Sĩ Nghị chỉ huy bị Quang Trung đánh tan trong chiến dịch thần tốc."
     },
     {
@@ -191,7 +218,9 @@
       "level": "VD",
       "question": "Khởi nghĩa Lam Sơn (1418-1427) do ___ lãnh đạo, đánh đuổi quân Minh xâm lược.",
       "answer": "Lê Lợi",
-      "alternatives": ["le loi"],
+      "alternatives": [
+        "le loi"
+      ],
       "hint": "Lê Lợi khởi xướng khởi nghĩa Lam Sơn từ rừng núi Thanh Hóa."
     },
     {
@@ -201,5 +230,6 @@
       "answer": true,
       "hint": "Bạch Đằng 938 — mốc son chấm dứt hơn 1 000 năm Bắc thuộc."
     }
-  ]
+  ],
+  "examType": "practice"
 }

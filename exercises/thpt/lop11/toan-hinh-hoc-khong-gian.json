@@ -176,10 +176,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quan hệ song song trong không gian:",
       "statements": [
-        { "text": "Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì song song với nhau.", "answer": true },
-        { "text": "Hai mặt phẳng song song không có điểm chung.", "answer": true },
-        { "text": "Hai đường thẳng chéo nhau cùng nằm trên một mặt phẳng.", "answer": false },
-        { "text": "Nếu đường thẳng $d$ song song với mặt phẳng $(P)$ thì $d$ không có điểm chung với $(P)$.", "answer": true }
+        {
+          "text": "Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì song song với nhau.",
+          "answer": true
+        },
+        {
+          "text": "Hai mặt phẳng song song không có điểm chung.",
+          "answer": true
+        },
+        {
+          "text": "Hai đường thẳng chéo nhau cùng nằm trên một mặt phẳng.",
+          "answer": false
+        },
+        {
+          "text": "Nếu đường thẳng $d$ song song với mặt phẳng $(P)$ thì $d$ không có điểm chung với $(P)$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -187,10 +199,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quan hệ vuông góc trong không gian:",
       "statements": [
-        { "text": "Hai đường thẳng vuông góc khi góc giữa chúng bằng $90^\\circ$.", "answer": true },
-        { "text": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi $d$ vuông góc với mọi đường thẳng nằm trong $(P)$.", "answer": true },
-        { "text": "Nếu $d$ vuông góc với hai đường thẳng cắt nhau cùng nằm trong $(P)$ thì $d \\perp (P)$.", "answer": true },
-        { "text": "Hai mặt phẳng song song với nhau thì vuông góc với nhau.", "answer": false }
+        {
+          "text": "Hai đường thẳng vuông góc khi góc giữa chúng bằng $90^\\circ$.",
+          "answer": true
+        },
+        {
+          "text": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi $d$ vuông góc với mọi đường thẳng nằm trong $(P)$.",
+          "answer": true
+        },
+        {
+          "text": "Nếu $d$ vuông góc với hai đường thẳng cắt nhau cùng nằm trong $(P)$ thì $d \\perp (P)$.",
+          "answer": true
+        },
+        {
+          "text": "Hai mặt phẳng song song với nhau thì vuông góc với nhau.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,7 +222,9 @@
       "level": "NB",
       "question": "Một mặt phẳng được xác định duy nhất khi biết ___ điểm phân biệt không thẳng hàng.",
       "answer": "3",
-      "alternatives": ["ba"],
+      "alternatives": [
+        "ba"
+      ],
       "hint": "Qua 3 điểm phân biệt không thẳng hàng có duy nhất 1 mặt phẳng."
     },
     {
@@ -208,5 +234,6 @@
       "answer": "2",
       "hint": "$AC' = a\\sqrt{3} = 2\\sqrt{3}$, nên hệ số trước $\\sqrt{3}$ là $2$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

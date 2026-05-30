@@ -6,12 +6,94 @@
   "topic": "Đếm và phép tính đơn giản (phần 3)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy quả cam?", "prompt": "🍊 🍊 🍊 🍊 🍊 🍊 🍊 🍊", "options": ["7", "8", "9", "10"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7, 8." },
-    { "type": "image-choice", "question": "Có 2 quả táo, thêm 1 quả nữa là mấy quả?", "prompt": "🍎 🍎 ➕ 🍎", "options": ["2", "3", "4", "5"], "answer": 1, "hint": "2 thêm 1 là 3." },
-    { "type": "image-choice", "question": "Có 3 con cá, thêm 2 con nữa là mấy con?", "prompt": "🐟 🐟 🐟 ➕ 🐟 🐟", "options": ["4", "5", "6", "7"], "answer": 1, "hint": "3 thêm 2 là 5." },
-    { "type": "image-choice", "question": "Có 4 quả bóng, bớt đi 1 quả còn mấy quả?", "prompt": "🎈 🎈 🎈 🎈 ➖ 🎈", "options": ["2", "3", "4", "5"], "answer": 1, "hint": "4 bớt 1 còn 3." },
-    { "type": "image-choice", "question": "Số nào đứng giữa 6 và 8?", "options": ["5", "7", "9", "10"], "answer": 1, "hint": "Giữa 6 và 8 là số 7." },
-    { "type": "image-choice", "question": "Bên nào NHIỀU hơn?", "prompt": "🌟 🌟 🌟 🌟 🌟 | 🌟 🌟 🌟", "options": ["🌟 🌟 🌟 🌟 🌟", "🌟 🌟 🌟"], "answer": 0, "hint": "Bên 5 ngôi sao nhiều hơn." },
-    { "type": "image-choice", "question": "Có 5 cái kẹo, ăn hết 2 cái còn mấy cái?", "prompt": "🍬 🍬 🍬 🍬 🍬 ➖ 🍬 🍬", "options": ["2", "3", "4", "5"], "answer": 1, "hint": "5 bớt 2 còn 3." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả cam?",
+      "prompt": "🍊 🍊 🍊 🍊 🍊 🍊 🍊 🍊",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có 2 quả táo, thêm 1 quả nữa là mấy quả?",
+      "prompt": "🍎 🍎 ➕ 🍎",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "2 thêm 1 là 3."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có 3 con cá, thêm 2 con nữa là mấy con?",
+      "prompt": "🐟 🐟 🐟 ➕ 🐟 🐟",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "hint": "3 thêm 2 là 5."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có 4 quả bóng, bớt đi 1 quả còn mấy quả?",
+      "prompt": "🎈 🎈 🎈 🎈 ➖ 🎈",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "4 bớt 1 còn 3."
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào đứng giữa 6 và 8?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "hint": "Giữa 6 và 8 là số 7."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bên nào NHIỀU hơn?",
+      "prompt": "🌟 🌟 🌟 🌟 🌟 | 🌟 🌟 🌟",
+      "options": [
+        "🌟 🌟 🌟 🌟 🌟",
+        "🌟 🌟 🌟"
+      ],
+      "answer": 0,
+      "hint": "Bên 5 ngôi sao nhiều hơn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có 5 cái kẹo, ăn hết 2 cái còn mấy cái?",
+      "prompt": "🍬 🍬 🍬 🍬 🍬 ➖ 🍬 🍬",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "5 bớt 2 còn 3."
+    }
+  ],
+  "examType": "practice"
 }

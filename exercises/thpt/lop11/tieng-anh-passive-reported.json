@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "The passive voice is formed with \"be + past participle (V3)\". (Câu bị động được tạo bởi \"be + quá khứ phân từ\".)", "answer": true },
-        { "text": "In reported speech, the present simple usually changes to the past simple. (Trong câu tường thuật, hiện tại đơn thường chuyển sang quá khứ đơn.)", "answer": true },
-        { "text": "When reporting a command, we use the structure: told + object + to + V_inf. (Khi tường thuật mệnh lệnh, ta dùng cấu trúc: told + tân ngữ + to + V_inf.)", "answer": true },
-        { "text": "\"Although\" means \"because\". (\"Although\" có nghĩa là \"vì\".)", "answer": false }
+        {
+          "text": "The passive voice is formed with \"be + past participle (V3)\". (Câu bị động được tạo bởi \"be + quá khứ phân từ\".)",
+          "answer": true
+        },
+        {
+          "text": "In reported speech, the present simple usually changes to the past simple. (Trong câu tường thuật, hiện tại đơn thường chuyển sang quá khứ đơn.)",
+          "answer": true
+        },
+        {
+          "text": "When reporting a command, we use the structure: told + object + to + V_inf. (Khi tường thuật mệnh lệnh, ta dùng cấu trúc: told + tân ngữ + to + V_inf.)",
+          "answer": true
+        },
+        {
+          "text": "\"Although\" means \"because\". (\"Although\" có nghĩa là \"vì\".)",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Decide if each statement is true or false. (Xét tính đúng/sai.)",
       "statements": [
-        { "text": "\"Heritage\" means something valuable from the past that we want to preserve. (\"Heritage\" có nghĩa là điều quý giá từ quá khứ mà chúng ta muốn bảo tồn.)", "answer": true },
-        { "text": "Hoang Thanh Thang Long is a cultural heritage site in Vietnam. (Hoàng thành Thăng Long là một di sản văn hóa của Việt Nam.)", "answer": true },
-        { "text": "In reported speech, \"will\" changes to \"would\". (Trong câu tường thuật, \"will\" chuyển thành \"would\".)", "answer": true },
-        { "text": "In reported speech, no tense changes are ever necessary. (Trong câu tường thuật, không bao giờ cần đổi thì động từ.)", "answer": false }
+        {
+          "text": "\"Heritage\" means something valuable from the past that we want to preserve. (\"Heritage\" có nghĩa là điều quý giá từ quá khứ mà chúng ta muốn bảo tồn.)",
+          "answer": true
+        },
+        {
+          "text": "Hoang Thanh Thang Long is a cultural heritage site in Vietnam. (Hoàng thành Thăng Long là một di sản văn hóa của Việt Nam.)",
+          "answer": true
+        },
+        {
+          "text": "In reported speech, \"will\" changes to \"would\". (Trong câu tường thuật, \"will\" chuyển thành \"would\".)",
+          "answer": true
+        },
+        {
+          "text": "In reported speech, no tense changes are ever necessary. (Trong câu tường thuật, không bao giờ cần đổi thì động từ.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,9 @@
       "level": "TH",
       "question": "Change to passive: \"They have finished the project.\" → The project _____ ______ finished. (Chuyển sang bị động: hoàn thành 2 từ.)",
       "answer": "has been",
-      "alternatives": ["Has been"],
+      "alternatives": [
+        "Has been"
+      ],
       "hint": "Bị động thì hiện tại hoàn thành: has/have + been + V3 → \"has been finished\"."
     },
     {
@@ -204,7 +230,9 @@
       "level": "TH",
       "question": "Complete the reported speech: He said, \"I am happy.\" → He said that he _____ happy. (Hoàn thành câu tường thuật.)",
       "answer": "was",
-      "alternatives": ["Was"],
+      "alternatives": [
+        "Was"
+      ],
       "hint": "Hiện tại đơn → quá khứ đơn: am → was."
     },
     {
@@ -214,5 +242,6 @@
       "answer": true,
       "hint": "Bị động được dùng khi đối tượng nhận hành động quan trọng hơn người thực hiện."
     }
-  ]
+  ],
+  "examType": "practice"
 }

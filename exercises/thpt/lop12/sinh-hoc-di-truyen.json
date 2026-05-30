@@ -165,10 +165,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cơ sở phân tử của hiện tượng di truyền:",
       "statements": [
-        { "text": "DNA được cấu tạo theo nguyên tắc đa phân, đơn phân là các nucleotide.", "answer": true },
-        { "text": "Trong phân tử DNA mạch kép, số nucleotide loại A luôn bằng số loại T.", "answer": true },
-        { "text": "Mã di truyền có tính thoái hóa, nghĩa là một codon mã hóa cho nhiều loại amino acid khác nhau.", "answer": false },
-        { "text": "Quá trình phiên mã tạo ra phân tử mRNA dùng làm khuôn cho dịch mã.", "answer": true }
+        {
+          "text": "DNA được cấu tạo theo nguyên tắc đa phân, đơn phân là các nucleotide.",
+          "answer": true
+        },
+        {
+          "text": "Trong phân tử DNA mạch kép, số nucleotide loại A luôn bằng số loại T.",
+          "answer": true
+        },
+        {
+          "text": "Mã di truyền có tính thoái hóa, nghĩa là một codon mã hóa cho nhiều loại amino acid khác nhau.",
+          "answer": false
+        },
+        {
+          "text": "Quá trình phiên mã tạo ra phân tử mRNA dùng làm khuôn cho dịch mã.",
+          "answer": true
+        }
       ]
     },
     {
@@ -176,10 +188,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quy luật di truyền và đột biến:",
       "statements": [
-        { "text": "Theo quy luật phân li của Mendel, mỗi tính trạng do một cặp allele quy định và phân li đồng đều về các giao tử.", "answer": true },
-        { "text": "Đột biến gene có thể làm thay đổi số lượng hoặc trình tự các nucleotide của gene.", "answer": true },
-        { "text": "Thể lệch bội (ví dụ thể ba $2n+1$) là do thừa hoặc thiếu một vài nhiễm sắc thể ở một hoặc một số cặp.", "answer": true },
-        { "text": "Đột biến gene luôn luôn có hại cho thể đột biến.", "answer": false }
+        {
+          "text": "Theo quy luật phân li của Mendel, mỗi tính trạng do một cặp allele quy định và phân li đồng đều về các giao tử.",
+          "answer": true
+        },
+        {
+          "text": "Đột biến gene có thể làm thay đổi số lượng hoặc trình tự các nucleotide của gene.",
+          "answer": true
+        },
+        {
+          "text": "Thể lệch bội (ví dụ thể ba $2n+1$) là do thừa hoặc thiếu một vài nhiễm sắc thể ở một hoặc một số cặp.",
+          "answer": true
+        },
+        {
+          "text": "Đột biến gene luôn luôn có hại cho thể đột biến.",
+          "answer": false
+        }
       ]
     },
     {
@@ -203,5 +227,6 @@
       "answer": true,
       "hint": "Ngoài nhân, một lượng nhỏ DNA còn có trong ti thể và lục lạp."
     }
-  ]
+  ],
+  "examType": "practice"
 }

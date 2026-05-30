@@ -222,5 +222,9 @@
       "question": "Nếu $F(x)$ là một nguyên hàm của $f(x)$ trên đoạn $[a; b]$ thì $\\displaystyle\\int_a^b f(x)\\,dx = F(b) - F(a)$.",
       "answer": true
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 4
+  }
 }

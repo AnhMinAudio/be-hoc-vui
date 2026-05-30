@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'tall' mean? (Từ 'tall' nghĩa là gì?)",
-      "options": ["cao", "thấp", "béo", "gầy"],
+      "options": [
+        "cao",
+        "thấp",
+        "béo",
+        "gầy"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'áo khoác'? ('áo khoác' tiếng Anh là gì?)",
-      "options": ["coat", "shoes", "hat", "socks"],
+      "options": [
+        "coat",
+        "shoes",
+        "hat",
+        "socks"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Which word can describe hair? (Từ nào có thể tả mái tóc?)",
-      "options": ["long", "fast", "hungry", "sunny"],
+      "options": [
+        "long",
+        "fast",
+        "hungry",
+        "sunny"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What can a fish do? (Con cá có thể làm gì?)",
-      "options": ["swim", "fly", "read", "drive"],
+      "options": [
+        "swim",
+        "fly",
+        "read",
+        "drive"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,31 +58,55 @@
       "type": "fill-blank",
       "question": "Complete: 'I ___ ride a bike.' (Em có thể đi xe đạp — điền 'can')",
       "answer": "can",
-      "alternatives": ["Can"],
+      "alternatives": [
+        "Can"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the clothes word with its meaning (Nối từ quần áo với nghĩa)",
       "pairs": [
-        ["hat", "cái mũ"],
-        ["shoes", "đôi giày"],
-        ["shirt", "cái áo sơ mi"],
-        ["coat", "áo khoác"]
+        [
+          "hat",
+          "cái mũ"
+        ],
+        [
+          "shoes",
+          "đôi giày"
+        ],
+        [
+          "shirt",
+          "cái áo sơ mi"
+        ],
+        [
+          "coat",
+          "áo khoác"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the comparative: 'An elephant is ___ than a cat.' (to hơn)",
-      "options": ["bigger", "biggest", "big", "more big"],
+      "options": [
+        "bigger",
+        "biggest",
+        "big",
+        "more big"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Answer 'Can you swim?' when you can (Trả lời 'Can you swim?' khi em biết bơi)",
-      "options": ["Yes, I can.", "Yes, I am.", "No, you can.", "Can yes."],
+      "options": [
+        "Yes, I can.",
+        "Yes, I am.",
+        "No, you can.",
+        "Can yes."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -70,20 +114,33 @@
       "type": "fill-blank",
       "question": "Write 'đôi giày' in English (Viết 'đôi giày' bằng tiếng Anh): ___",
       "answer": "shoes",
-      "alternatives": ["Shoes", "SHOES"],
+      "alternatives": [
+        "Shoes",
+        "SHOES"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'short' mean? (Từ 'short' nghĩa là gì?)",
-      "options": ["thấp/ngắn", "cao", "dài", "to"],
+      "options": [
+        "thấp/ngắn",
+        "cao",
+        "dài",
+        "to"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct sentence describing a person (Chọn câu tả người đúng)",
-      "options": ["She has long black hair.", "She hair long black.", "Long hair she black.", "Black she long hair."],
+      "options": [
+        "She has long black hair.",
+        "She hair long black.",
+        "Long hair she black.",
+        "Black she long hair."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -91,9 +148,18 @@
       "type": "matching",
       "question": "Match the adjective with its meaning (Nối tính từ với nghĩa)",
       "pairs": [
-        ["tall", "cao"],
-        ["short", "thấp"],
-        ["long", "dài"]
+        [
+          "tall",
+          "cao"
+        ],
+        [
+          "short",
+          "thấp"
+        ],
+        [
+          "long",
+          "dài"
+        ]
       ],
       "level": "M2"
     },
@@ -101,7 +167,12 @@
       "type": "multiple-choice",
       "passage": "This is my friend Tom. He is tall and has short brown hair. He can play football very well, but he can't swim. He is friendly and kind.",
       "question": "What does Tom look like? (Tom trông như thế nào?)",
-      "options": ["tall with short brown hair", "short with long hair", "small and fat", "very old"],
+      "options": [
+        "tall with short brown hair",
+        "short with long hair",
+        "small and fat",
+        "very old"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -109,7 +180,12 @@
       "type": "multiple-choice",
       "passage": "This is my friend Tom. He is tall and has short brown hair. He can play football very well, but he can't swim. He is friendly and kind.",
       "question": "What can Tom do well? (Tom làm gì giỏi?)",
-      "options": ["play football", "swim", "cook", "sing"],
+      "options": [
+        "play football",
+        "swim",
+        "cook",
+        "sing"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -117,16 +193,27 @@
       "type": "multiple-choice",
       "passage": "This is my friend Tom. He is tall and has short brown hair. He can play football very well, but he can't swim. He is friendly and kind.",
       "question": "What can't Tom do? (Tom không làm được gì?)",
-      "options": ["swim", "play football", "run", "walk"],
+      "options": [
+        "swim",
+        "play football",
+        "run",
+        "walk"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "You want to ask if your friend can dance (Em muốn hỏi bạn có biết nhảy không)",
-      "options": ["Can you dance?", "You dance can?", "Dance you can?", "Do can you dance?"],
+      "options": [
+        "Can you dance?",
+        "You dance can?",
+        "Dance you can?",
+        "Do can you dance?"
+      ],
       "answer": 0,
       "level": "M2"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

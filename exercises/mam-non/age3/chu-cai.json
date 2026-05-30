@@ -6,11 +6,72 @@
   "topic": "Làm quen chữ cái",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là chữ A?", "options": ["A", "O", "M"], "answer": 0, "hint": "Chữ A như cái mái nhà." },
-    { "type": "image-choice", "question": "Đâu là chữ O?", "options": ["B", "O", "L"], "answer": 1, "hint": "Chữ O tròn như quả trứng." },
-    { "type": "image-choice", "question": "Đâu là chữ M?", "options": ["M", "A", "C"], "answer": 0, "hint": "Chữ M có hai cái chân." },
-    { "type": "image-choice", "question": "Đâu là chữ B?", "options": ["O", "B", "T"], "answer": 1, "hint": "Chữ B có hai cái bụng." },
-    { "type": "image-choice", "question": "Đâu là chữ C?", "options": ["C", "M", "O"], "answer": 0, "hint": "Chữ C cong như mặt trăng." },
-    { "type": "image-choice", "question": "Đâu là chữ L?", "options": ["A", "B", "L"], "answer": 2, "hint": "Chữ L đứng thẳng có một chân." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ A?",
+      "options": [
+        "A",
+        "O",
+        "M"
+      ],
+      "answer": 0,
+      "hint": "Chữ A như cái mái nhà."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ O?",
+      "options": [
+        "B",
+        "O",
+        "L"
+      ],
+      "answer": 1,
+      "hint": "Chữ O tròn như quả trứng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ M?",
+      "options": [
+        "M",
+        "A",
+        "C"
+      ],
+      "answer": 0,
+      "hint": "Chữ M có hai cái chân."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ B?",
+      "options": [
+        "O",
+        "B",
+        "T"
+      ],
+      "answer": 1,
+      "hint": "Chữ B có hai cái bụng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ C?",
+      "options": [
+        "C",
+        "M",
+        "O"
+      ],
+      "answer": 0,
+      "hint": "Chữ C cong như mặt trăng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là chữ L?",
+      "options": [
+        "A",
+        "B",
+        "L"
+      ],
+      "answer": 2,
+      "hint": "Chữ L đứng thẳng có một chân."
+    }
+  ],
+  "examType": "practice"
 }

@@ -6,13 +6,98 @@
   "topic": "Đếm số 1 - 10 và so sánh",
   "difficulty": 3,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy chùm nho?", "prompt": "🍇 🍇 🍇 🍇 🍇 🍇", "options": ["5", "6", "7", "8"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy con bướm?", "prompt": "🦋 🦋 🦋 🦋 🦋 🦋 🦋", "options": ["6", "7", "8", "9"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy cái bánh?", "prompt": "🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪", "options": ["7", "8", "9", "10"], "answer": 1 },
-    { "type": "image-choice", "question": "Có mấy quả bóng?", "prompt": "🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈", "options": ["8", "9", "10", "11"], "answer": 2 },
-    { "type": "image-choice", "question": "Số nào lớn nhất?", "options": ["3", "8", "5", "1"], "answer": 1 },
-    { "type": "image-choice", "question": "Số nào bé nhất?", "options": ["6", "2", "9", "4"], "answer": 1 },
-    { "type": "image-choice", "question": "Đếm tiếp: 1, 2, 3, ... số nào đứng sau?", "options": ["4", "5", "6", "2"], "answer": 0 },
-    { "type": "image-choice", "question": "Số nào đứng giữa 4 và 6?", "options": ["3", "5", "7", "8"], "answer": 1 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy chùm nho?",
+      "prompt": "🍇 🍇 🍇 🍇 🍇 🍇",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con bướm?",
+      "prompt": "🦋 🦋 🦋 🦋 🦋 🦋 🦋",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy cái bánh?",
+      "prompt": "🍪 🍪 🍪 🍪 🍪 🍪 🍪 🍪",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả bóng?",
+      "prompt": "🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào lớn nhất?",
+      "options": [
+        "3",
+        "8",
+        "5",
+        "1"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào bé nhất?",
+      "options": [
+        "6",
+        "2",
+        "9",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Đếm tiếp: 1, 2, 3, ... số nào đứng sau?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Số nào đứng giữa 4 và 6?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": 1
+    }
+  ],
+  "examType": "practice"
 }

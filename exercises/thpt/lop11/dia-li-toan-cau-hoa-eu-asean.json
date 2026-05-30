@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về toàn cầu hóa và EU:",
       "statements": [
-        { "text": "Toàn cầu hóa kinh tế là xu thế tất yếu, làm gia tăng liên kết và phụ thuộc lẫn nhau giữa các nền kinh tế.", "answer": true },
-        { "text": "Tổ chức Thương mại Thế giới (WTO) có vai trò điều phối thương mại toàn cầu.", "answer": true },
-        { "text": "Liên minh châu Âu (EU) là liên kết kinh tế - chính trị của nhiều quốc gia châu Âu.", "answer": true },
-        { "text": "Đồng Euro là đồng tiền chung của TẤT CẢ các quốc gia trên thế giới.", "answer": false }
+        {
+          "text": "Toàn cầu hóa kinh tế là xu thế tất yếu, làm gia tăng liên kết và phụ thuộc lẫn nhau giữa các nền kinh tế.",
+          "answer": true
+        },
+        {
+          "text": "Tổ chức Thương mại Thế giới (WTO) có vai trò điều phối thương mại toàn cầu.",
+          "answer": true
+        },
+        {
+          "text": "Liên minh châu Âu (EU) là liên kết kinh tế - chính trị của nhiều quốc gia châu Âu.",
+          "answer": true
+        },
+        {
+          "text": "Đồng Euro là đồng tiền chung của TẤT CẢ các quốc gia trên thế giới.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á và ASEAN:",
       "statements": [
-        { "text": "ASEAN được thành lập năm 1967 với 5 nước thành viên ban đầu.", "answer": true },
-        { "text": "Việt Nam gia nhập ASEAN năm 1995.", "answer": true },
-        { "text": "Cộng đồng ASEAN ra đời cuối năm 2015 gồm 3 trụ cột.", "answer": true },
-        { "text": "ASEAN hiện chỉ có 5 quốc gia thành viên.", "answer": false }
+        {
+          "text": "ASEAN được thành lập năm 1967 với 5 nước thành viên ban đầu.",
+          "answer": true
+        },
+        {
+          "text": "Việt Nam gia nhập ASEAN năm 1995.",
+          "answer": true
+        },
+        {
+          "text": "Cộng đồng ASEAN ra đời cuối năm 2015 gồm 3 trụ cột.",
+          "answer": true
+        },
+        {
+          "text": "ASEAN hiện chỉ có 5 quốc gia thành viên.",
+          "answer": false
+        }
       ]
     },
     {
@@ -203,7 +227,11 @@
       "level": "TH",
       "question": "Đồng tiền chung của nhiều quốc gia trong Liên minh châu Âu (EU) là đồng ___",
       "answer": "Euro",
-      "alternatives": ["euro", "EUR", "€"],
+      "alternatives": [
+        "euro",
+        "EUR",
+        "€"
+      ],
       "hint": "Euro là đồng tiền của khu vực Eurozone."
     },
     {
@@ -213,5 +241,6 @@
       "answer": true,
       "hint": "Vị trí cầu nối hai đại dương là một trong những lợi thế nổi bật của Đông Nam Á."
     }
-  ]
+  ],
+  "examType": "practice"
 }

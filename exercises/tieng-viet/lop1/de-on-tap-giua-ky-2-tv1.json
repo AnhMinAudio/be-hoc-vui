@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "Tiếng 'biển' có vần gì?",
-      "options": ["iên", "yên", "iêng", "in"],
+      "options": [
+        "iên",
+        "yên",
+        "iêng",
+        "in"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào viết đúng chính tả?",
-      "options": ["quả chuối", "quả chúi", "quả truối", "quả chuôi"],
+      "options": [
+        "quả chuối",
+        "quả chúi",
+        "quả truối",
+        "quả chuôi"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ đồ vật?",
-      "options": ["cái bàn", "con chó", "chạy", "xanh"],
+      "options": [
+        "cái bàn",
+        "con chó",
+        "chạy",
+        "xanh"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -37,21 +52,36 @@
     {
       "type": "multiple-choice",
       "question": "Câu 'Hôm nay trời nắng to' nên kết thúc bằng dấu gì?",
-      "options": ["dấu chấm", "dấu chấm hỏi", "dấu phẩy", "dấu hai chấm"],
+      "options": [
+        "dấu chấm",
+        "dấu chấm hỏi",
+        "dấu phẩy",
+        "dấu hai chấm"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ hoạt động?",
-      "options": ["nhảy", "bàn", "hoa", "tròn"],
+      "options": [
+        "nhảy",
+        "bàn",
+        "hoa",
+        "tròn"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Tiếng nào có thanh huyền?",
-      "options": ["bà", "bá", "bả", "ba"],
+      "options": [
+        "bà",
+        "bá",
+        "bả",
+        "ba"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Thanh huyền là dấu ̀ đi xuống."
@@ -66,14 +96,24 @@
     {
       "type": "multiple-choice",
       "question": "Sắp xếp các tiếng thành câu đúng: 'mèo / con / ngủ'",
-      "options": ["Con mèo ngủ.", "Ngủ mèo con.", "Mèo ngủ con.", "Con ngủ mèo."],
+      "options": [
+        "Con mèo ngủ.",
+        "Ngủ mèo con.",
+        "Mèo ngủ con.",
+        "Con ngủ mèo."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ trái nghĩa với 'nóng' là:",
-      "options": ["lạnh", "ấm", "sôi", "bỏng"],
+      "options": [
+        "lạnh",
+        "ấm",
+        "sôi",
+        "bỏng"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -81,9 +121,18 @@
       "type": "matching",
       "question": "Nối từ với nhóm thích hợp",
       "pairs": [
-        ["quả cam", "trái cây"],
-        ["con gà", "con vật"],
-        ["cái ghế", "đồ vật"]
+        [
+          "quả cam",
+          "trái cây"
+        ],
+        [
+          "con gà",
+          "con vật"
+        ],
+        [
+          "cái ghế",
+          "đồ vật"
+        ]
       ],
       "level": "M2"
     },
@@ -91,7 +140,12 @@
       "type": "multiple-choice",
       "passage": "Nhà em có một vườn rau nhỏ. Mỗi sáng, em cùng mẹ ra vườn tưới rau. Rau lớn nhanh, xanh tốt. Em rất vui khi được giúp mẹ.",
       "question": "Mỗi sáng, em làm gì cùng mẹ?",
-      "options": ["tưới rau", "nấu cơm", "quét nhà", "đi chợ"],
+      "options": [
+        "tưới rau",
+        "nấu cơm",
+        "quét nhà",
+        "đi chợ"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -99,7 +153,12 @@
       "type": "multiple-choice",
       "passage": "Nhà em có một vườn rau nhỏ. Mỗi sáng, em cùng mẹ ra vườn tưới rau. Rau lớn nhanh, xanh tốt. Em rất vui khi được giúp mẹ.",
       "question": "Vườn rau được tả như thế nào?",
-      "options": ["lớn nhanh, xanh tốt", "khô héo", "ít rau", "đầy cỏ dại"],
+      "options": [
+        "lớn nhanh, xanh tốt",
+        "khô héo",
+        "ít rau",
+        "đầy cỏ dại"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -107,23 +166,39 @@
       "type": "multiple-choice",
       "passage": "Nhà em có một vườn rau nhỏ. Mỗi sáng, em cùng mẹ ra vườn tưới rau. Rau lớn nhanh, xanh tốt. Em rất vui khi được giúp mẹ.",
       "question": "Tình cảm của em khi giúp mẹ ra sao?",
-      "options": ["rất vui", "buồn bã", "mệt mỏi", "sợ hãi"],
+      "options": [
+        "rất vui",
+        "buồn bã",
+        "mệt mỏi",
+        "sợ hãi"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'xanh tốt' là từ chỉ:",
-      "options": ["đặc điểm", "hoạt động", "sự vật", "số lượng"],
+      "options": [
+        "đặc điểm",
+        "hoạt động",
+        "sự vật",
+        "số lượng"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là tên gọi một loài hoa?",
-      "options": ["hoa hồng", "con cá", "bàn ghế", "chạy nhảy"],
+      "options": [
+        "hoa hồng",
+        "con cá",
+        "bàn ghế",
+        "chạy nhảy"
+      ],
       "answer": 0,
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

@@ -6,28 +6,206 @@
   "topic": "Đề thi thử cuối học kỳ 2 — Toán 6 (cấu trúc mới, bấm giờ)",
   "difficulty": 3,
   "timeLimit": 90,
-  "outcomes": ["Phân số", "Số thập phân", "Điểm, đường thẳng, góc", "Dữ liệu và xác suất"],
+  "outcomes": [
+    "Phân số",
+    "Số thập phân",
+    "Điểm, đường thẳng, góc",
+    "Dữ liệu và xác suất"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Rút gọn phân số $\\dfrac{10}{15}$ được phân số tối giản:", "options": ["$\\dfrac{2}{3}$", "$\\dfrac{3}{2}$", "$\\dfrac{10}{15}$", "$\\dfrac{1}{2}$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Phân số $\\dfrac{1}{4}$ viết dưới dạng số thập phân là:", "options": ["$0{,}25$", "$0{,}4$", "$0{,}14$", "$0{,}5$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Làm tròn số $7{,}43$ đến hàng phần mười được:", "options": ["$7{,}4$", "$7{,}5$", "$8$", "$7{,}43$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Góc bẹt có số đo bằng:", "options": ["$180^\\circ$", "$90^\\circ$", "$360^\\circ$", "$0^\\circ$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Phân số nghịch đảo của $\\dfrac{5}{2}$ là:", "options": ["$\\dfrac{2}{5}$", "$\\dfrac{-5}{2}$", "$\\dfrac{5}{2}$", "$\\dfrac{-2}{5}$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "NB", "question": "Qua hai điểm phân biệt, vẽ được bao nhiêu đường thẳng?", "options": ["$1$", "$2$", "$0$", "vô số"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "question": "Tính $\\dfrac{3}{5} + \\dfrac{1}{5}$:", "options": ["$\\dfrac{4}{5}$", "$\\dfrac{4}{10}$", "$\\dfrac{3}{5}$", "$\\dfrac{2}{5}$"], "answer": 0 },
-    { "type": "multiple-choice", "level": "TH", "question": "Tính $\\dfrac{2}{3} \\times \\dfrac{3}{8}$:", "options": ["$\\dfrac{1}{4}$", "$\\dfrac{5}{11}$", "$\\dfrac{6}{11}$", "$\\dfrac{1}{2}$"], "answer": 0, "hint": "$\\dfrac{2 \\times 3}{3 \\times 8} = \\dfrac{6}{24} = \\dfrac{1}{4}$." },
-    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "$0{,}5 = \\dfrac{1}{2}$.", "answer": true },
-      { "text": "$\\dfrac{2}{3} < \\dfrac{1}{2}$.", "answer": false },
-      { "text": "$3{,}2 + 1{,}8 = 5$.", "answer": true },
-      { "text": "Góc vuông có số đo $90^\\circ$.", "answer": true }
-    ] },
-    { "type": "fill-blank", "level": "TH", "question": "Tính $\\dfrac{7}{10} - \\dfrac{2}{10}$ (viết phân số tối giản). Kết quả là ___", "answer": "1/2", "alternatives": ["5/10"], "hint": "$\\dfrac{7}{10} - \\dfrac{2}{10} = \\dfrac{5}{10} = \\dfrac{1}{2}$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Tìm $\\dfrac{2}{5}$ của $30$:", "options": ["$12$", "$6$", "$75$", "$15$"], "answer": 0, "hint": "$30 \\times \\dfrac{2}{5} = 12$." },
-    { "type": "fill-blank", "level": "VD", "question": "Một lớp có $45$ học sinh, trong đó $\\dfrac{1}{3}$ là học sinh giỏi. Số học sinh giỏi là ___ học sinh.", "answer": "15", "hint": "$45 \\times \\dfrac{1}{3} = 15$." },
-    { "type": "fill-blank", "level": "VD", "question": "Một cửa hàng giảm giá $10\\%$ cho chiếc áo giá $200\\,000$ đồng. Số tiền được giảm là ___ đồng.", "answer": "20000", "hint": "$200\\,000 \\times 10\\% = 20\\,000$." },
-    { "type": "multiple-choice", "level": "VD", "question": "Một hộp có $4$ viên bi đỏ và $6$ viên bi xanh. Lấy ngẫu nhiên $1$ viên. Xác suất lấy được bi đỏ là:", "options": ["$\\dfrac{2}{5}$", "$\\dfrac{3}{5}$", "$\\dfrac{4}{6}$", "$\\dfrac{1}{2}$"], "answer": 0, "hint": "$\\dfrac{4}{4+6} = \\dfrac{4}{10} = \\dfrac{2}{5}$." },
-    { "type": "fill-blank", "level": "VDC", "question": "Tính $\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{6}$ (viết phân số tối giản hoặc số nguyên). Kết quả là ___", "answer": "1", "alternatives": ["6/6"], "hint": "Quy đồng mẫu $6$: $\\dfrac{3}{6} + \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{6}{6} = 1$." },
-    { "type": "multiple-choice", "level": "VDC", "question": "Tính $\\left(\\dfrac{2}{3} - \\dfrac{1}{6}\\right) \\times 2$:", "options": ["$1$", "$\\dfrac{1}{2}$", "$\\dfrac{3}{2}$", "$2$"], "answer": 0, "hint": "$\\dfrac{2}{3} - \\dfrac{1}{6} = \\dfrac{1}{2}$; $\\dfrac{1}{2} \\times 2 = 1$." }
-  ]
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Rút gọn phân số $\\dfrac{10}{15}$ được phân số tối giản:",
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{3}{2}$",
+        "$\\dfrac{10}{15}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phân số $\\dfrac{1}{4}$ viết dưới dạng số thập phân là:",
+      "options": [
+        "$0{,}25$",
+        "$0{,}4$",
+        "$0{,}14$",
+        "$0{,}5$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Làm tròn số $7{,}43$ đến hàng phần mười được:",
+      "options": [
+        "$7{,}4$",
+        "$7{,}5$",
+        "$8$",
+        "$7{,}43$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Góc bẹt có số đo bằng:",
+      "options": [
+        "$180^\\circ$",
+        "$90^\\circ$",
+        "$360^\\circ$",
+        "$0^\\circ$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phân số nghịch đảo của $\\dfrac{5}{2}$ là:",
+      "options": [
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{-5}{2}$",
+        "$\\dfrac{5}{2}$",
+        "$\\dfrac{-2}{5}$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Qua hai điểm phân biệt, vẽ được bao nhiêu đường thẳng?",
+      "options": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "vô số"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính $\\dfrac{3}{5} + \\dfrac{1}{5}$:",
+      "options": [
+        "$\\dfrac{4}{5}$",
+        "$\\dfrac{4}{10}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{2}{5}$"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính $\\dfrac{2}{3} \\times \\dfrac{3}{8}$:",
+      "options": [
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{5}{11}$",
+        "$\\dfrac{6}{11}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 0,
+      "hint": "$\\dfrac{2 \\times 3}{3 \\times 8} = \\dfrac{6}{24} = \\dfrac{1}{4}$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "$0{,}5 = \\dfrac{1}{2}$.",
+          "answer": true
+        },
+        {
+          "text": "$\\dfrac{2}{3} < \\dfrac{1}{2}$.",
+          "answer": false
+        },
+        {
+          "text": "$3{,}2 + 1{,}8 = 5$.",
+          "answer": true
+        },
+        {
+          "text": "Góc vuông có số đo $90^\\circ$.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tính $\\dfrac{7}{10} - \\dfrac{2}{10}$ (viết phân số tối giản). Kết quả là ___",
+      "answer": "1/2",
+      "alternatives": [
+        "5/10"
+      ],
+      "hint": "$\\dfrac{7}{10} - \\dfrac{2}{10} = \\dfrac{5}{10} = \\dfrac{1}{2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tìm $\\dfrac{2}{5}$ của $30$:",
+      "options": [
+        "$12$",
+        "$6$",
+        "$75$",
+        "$15$"
+      ],
+      "answer": 0,
+      "hint": "$30 \\times \\dfrac{2}{5} = 12$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một lớp có $45$ học sinh, trong đó $\\dfrac{1}{3}$ là học sinh giỏi. Số học sinh giỏi là ___ học sinh.",
+      "answer": "15",
+      "hint": "$45 \\times \\dfrac{1}{3} = 15$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một cửa hàng giảm giá $10\\%$ cho chiếc áo giá $200\\,000$ đồng. Số tiền được giảm là ___ đồng.",
+      "answer": "20000",
+      "hint": "$200\\,000 \\times 10\\% = 20\\,000$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một hộp có $4$ viên bi đỏ và $6$ viên bi xanh. Lấy ngẫu nhiên $1$ viên. Xác suất lấy được bi đỏ là:",
+      "options": [
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{4}{6}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 0,
+      "hint": "$\\dfrac{4}{4+6} = \\dfrac{4}{10} = \\dfrac{2}{5}$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tính $\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{6}$ (viết phân số tối giản hoặc số nguyên). Kết quả là ___",
+      "answer": "1",
+      "alternatives": [
+        "6/6"
+      ],
+      "hint": "Quy đồng mẫu $6$: $\\dfrac{3}{6} + \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{6}{6} = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Tính $\\left(\\dfrac{2}{3} - \\dfrac{1}{6}\\right) \\times 2$:",
+      "options": [
+        "$1$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{3}{2}$",
+        "$2$"
+      ],
+      "answer": 0,
+      "hint": "$\\dfrac{2}{3} - \\dfrac{1}{6} = \\dfrac{1}{2}$; $\\dfrac{1}{2} \\times 2 = 1$."
+    }
+  ],
+  "examType": "mock"
 }

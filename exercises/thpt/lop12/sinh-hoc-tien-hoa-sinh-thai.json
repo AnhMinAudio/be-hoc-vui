@@ -163,10 +163,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về tiến hóa:",
       "statements": [
-        { "text": "Theo thuyết tiến hóa tổng hợp hiện đại, đột biến và biến dị tổ hợp tạo nguồn nguyên liệu cho tiến hóa.", "answer": true },
-        { "text": "Chọn lọc tự nhiên tác động trực tiếp lên kiểu hình của cá thể.", "answer": true },
-        { "text": "Cơ quan tương đồng phản ánh hướng tiến hóa phân li từ một nguồn gốc chung.", "answer": true },
-        { "text": "Chọn lọc tự nhiên trực tiếp tạo ra các đột biến thích nghi cho sinh vật.", "answer": false }
+        {
+          "text": "Theo thuyết tiến hóa tổng hợp hiện đại, đột biến và biến dị tổ hợp tạo nguồn nguyên liệu cho tiến hóa.",
+          "answer": true
+        },
+        {
+          "text": "Chọn lọc tự nhiên tác động trực tiếp lên kiểu hình của cá thể.",
+          "answer": true
+        },
+        {
+          "text": "Cơ quan tương đồng phản ánh hướng tiến hóa phân li từ một nguồn gốc chung.",
+          "answer": true
+        },
+        {
+          "text": "Chọn lọc tự nhiên trực tiếp tạo ra các đột biến thích nghi cho sinh vật.",
+          "answer": false
+        }
       ]
     },
     {
@@ -174,10 +186,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về sinh thái học:",
       "statements": [
-        { "text": "Quần thể là tập hợp các cá thể cùng loài, cùng sống trong một sinh cảnh và có khả năng giao phối sinh ra con cái.", "answer": true },
-        { "text": "Trong hệ sinh thái, năng lượng truyền theo một chiều từ sinh vật sản xuất qua các bậc dinh dưỡng.", "answer": true },
-        { "text": "Sinh vật phân giải (vi khuẩn, nấm) phân hủy chất hữu cơ thành chất vô cơ trả lại môi trường.", "answer": true },
-        { "text": "Chuỗi thức ăn trong tự nhiên thường có rất nhiều mắt xích (trên 10 bậc) vì năng lượng được bảo toàn hoàn toàn.", "answer": false }
+        {
+          "text": "Quần thể là tập hợp các cá thể cùng loài, cùng sống trong một sinh cảnh và có khả năng giao phối sinh ra con cái.",
+          "answer": true
+        },
+        {
+          "text": "Trong hệ sinh thái, năng lượng truyền theo một chiều từ sinh vật sản xuất qua các bậc dinh dưỡng.",
+          "answer": true
+        },
+        {
+          "text": "Sinh vật phân giải (vi khuẩn, nấm) phân hủy chất hữu cơ thành chất vô cơ trả lại môi trường.",
+          "answer": true
+        },
+        {
+          "text": "Chuỗi thức ăn trong tự nhiên thường có rất nhiều mắt xích (trên 10 bậc) vì năng lượng được bảo toàn hoàn toàn.",
+          "answer": false
+        }
       ]
     },
     {
@@ -192,7 +216,9 @@
       "level": "VD",
       "question": "Trong quần xã có các loài: cỏ, thỏ, cáo, sắp xếp thành một chuỗi thức ăn thì sinh vật đứng đầu chuỗi (sinh vật sản xuất) là ___",
       "answer": "cỏ",
-      "alternatives": ["cây cỏ"],
+      "alternatives": [
+        "cây cỏ"
+      ],
       "hint": "Chuỗi thức ăn: Cỏ → Thỏ → Cáo; cỏ là sinh vật tự dưỡng nên đứng đầu chuỗi."
     },
     {
@@ -202,5 +228,6 @@
       "answer": true,
       "hint": "Sinh quyển là hệ sinh thái lớn nhất, bao gồm mọi sinh vật và môi trường sống của chúng."
     }
-  ]
+  ],
+  "examType": "practice"
 }

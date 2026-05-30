@@ -165,10 +165,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về carbohydrate:",
       "statements": [
-        { "text": "Glucose và fructose là đồng phân của nhau, cùng có công thức phân tử $C_6H_{12}O_6$.", "answer": true },
-        { "text": "Thủy phân hoàn toàn saccharose thu được glucose và fructose.", "answer": true },
-        { "text": "Tinh bột và cellulose là đồng phân của nhau.", "answer": false },
-        { "text": "Cellulose được dùng làm nguyên liệu sản xuất tơ visco và tơ acetate.", "answer": true }
+        {
+          "text": "Glucose và fructose là đồng phân của nhau, cùng có công thức phân tử $C_6H_{12}O_6$.",
+          "answer": true
+        },
+        {
+          "text": "Thủy phân hoàn toàn saccharose thu được glucose và fructose.",
+          "answer": true
+        },
+        {
+          "text": "Tinh bột và cellulose là đồng phân của nhau.",
+          "answer": false
+        },
+        {
+          "text": "Cellulose được dùng làm nguyên liệu sản xuất tơ visco và tơ acetate.",
+          "answer": true
+        }
       ]
     },
     {
@@ -176,10 +188,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về ester, lipid, amine và polymer:",
       "statements": [
-        { "text": "Nhiều ester có mùi thơm đặc trưng của hoa quả.", "answer": true },
-        { "text": "Chất béo lỏng (dầu thực vật) chứa chủ yếu các gốc acid béo không no.", "answer": true },
-        { "text": "Phản ứng trùng ngưng đòi hỏi monomer có ít nhất hai nhóm chức có khả năng phản ứng.", "answer": true },
-        { "text": "Tất cả các amine đều ở thể khí ở điều kiện thường.", "answer": false }
+        {
+          "text": "Nhiều ester có mùi thơm đặc trưng của hoa quả.",
+          "answer": true
+        },
+        {
+          "text": "Chất béo lỏng (dầu thực vật) chứa chủ yếu các gốc acid béo không no.",
+          "answer": true
+        },
+        {
+          "text": "Phản ứng trùng ngưng đòi hỏi monomer có ít nhất hai nhóm chức có khả năng phản ứng.",
+          "answer": true
+        },
+        {
+          "text": "Tất cả các amine đều ở thể khí ở điều kiện thường.",
+          "answer": false
+        }
       ]
     },
     {
@@ -194,7 +218,9 @@
       "level": "VD",
       "question": "Đốt cháy hoàn toàn $0,1$ mol glucose $C_6H_{12}O_6$ thu được ___ mol khí $CO_2$",
       "answer": "0,6",
-      "alternatives": ["0.6"],
+      "alternatives": [
+        "0.6"
+      ],
       "hint": "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$. Mỗi mol glucose tạo 6 mol $CO_2$ → $0,1 \\cdot 6 = 0,6$ mol."
     },
     {
@@ -204,5 +230,6 @@
       "answer": true,
       "hint": "Nylon-6,6 tạo từ hexamethylenediamine và adipic acid bằng phản ứng trùng ngưng."
     }
-  ]
+  ],
+  "examType": "practice"
 }

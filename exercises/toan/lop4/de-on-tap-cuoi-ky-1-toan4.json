@@ -22,7 +22,9 @@
       "type": "fill-blank",
       "question": "Chữ số 7 trong số 4 728 069 thuộc hàng trăm nghìn. Giá trị của chữ số 7 là ___",
       "answer": "700000",
-      "alternatives": ["700 000"],
+      "alternatives": [
+        "700 000"
+      ],
       "level": "M1",
       "hint": "Chữ số ở hàng trăm nghìn có giá trị bằng chữ số đó nhân 100 000"
     },
@@ -42,14 +44,18 @@
       "type": "fill-blank",
       "question": "45 678 + 32 145 = ___",
       "answer": "77823",
-      "alternatives": ["77 823"],
+      "alternatives": [
+        "77 823"
+      ],
       "level": "M1"
     },
     {
       "type": "fill-blank",
       "question": "80 000 - 27 564 = ___",
       "answer": "52436",
-      "alternatives": ["52 436"],
+      "alternatives": [
+        "52 436"
+      ],
       "level": "M2"
     },
     {
@@ -129,7 +135,9 @@
       "type": "fill-blank",
       "question": "Đổi: 3 tấn 5 tạ = ___ kg",
       "answer": "3500",
-      "alternatives": ["3 500"],
+      "alternatives": [
+        "3 500"
+      ],
       "level": "M2",
       "hint": "1 tấn = 1000 kg, 1 tạ = 100 kg"
     },
@@ -172,7 +180,9 @@
       "type": "fill-blank",
       "question": "Một cửa hàng buổi sáng bán được 1 250 kg gạo, buổi chiều bán được ít hơn buổi sáng 320 kg. Hỏi cả hai buổi cửa hàng bán được bao nhiêu ki-lô-gam gạo? Đáp số: 1250 + (1250 - 320) = ___ kg",
       "answer": "2180",
-      "alternatives": ["2 180"],
+      "alternatives": [
+        "2 180"
+      ],
       "level": "M3",
       "hint": "Tính số gạo buổi chiều trước rồi cộng với buổi sáng"
     },
@@ -196,5 +206,6 @@
       "level": "M3",
       "hint": "Chia đều nghĩa là lấy tổng số chia cho số thùng"
     }
-  ]
+  ],
+  "examType": "final1"
 }

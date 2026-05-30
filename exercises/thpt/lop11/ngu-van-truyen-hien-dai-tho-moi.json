@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về truyện ngắn Việt Nam hiện đại:",
       "statements": [
-        { "text": "\"Chí Phèo\" và \"Vợ nhặt\" đều là truyện ngắn hiện đại viết về số phận người nông dân trước Cách mạng tháng Tám.", "answer": true },
-        { "text": "Nhân vật Chí Phèo (trong \"Chí Phèo\" của Nam Cao) bị tha hóa nhưng vẫn khao khát được trở lại làm người lương thiện.", "answer": true },
-        { "text": "Tác phẩm \"Vợ nhặt\" của Kim Lân ca ngợi khát vọng sống và hạnh phúc của con người ngay trong nạn đói.", "answer": true },
-        { "text": "Trong truyện ngắn, \"người kể chuyện\" và \"điểm nhìn trần thuật\" là một khái niệm hoàn toàn giống nhau.", "answer": false }
+        {
+          "text": "\"Chí Phèo\" và \"Vợ nhặt\" đều là truyện ngắn hiện đại viết về số phận người nông dân trước Cách mạng tháng Tám.",
+          "answer": true
+        },
+        {
+          "text": "Nhân vật Chí Phèo (trong \"Chí Phèo\" của Nam Cao) bị tha hóa nhưng vẫn khao khát được trở lại làm người lương thiện.",
+          "answer": true
+        },
+        {
+          "text": "Tác phẩm \"Vợ nhặt\" của Kim Lân ca ngợi khát vọng sống và hạnh phúc của con người ngay trong nạn đói.",
+          "answer": true
+        },
+        {
+          "text": "Trong truyện ngắn, \"người kể chuyện\" và \"điểm nhìn trần thuật\" là một khái niệm hoàn toàn giống nhau.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Thơ mới và cấu tứ thơ:",
       "statements": [
-        { "text": "Phong trào Thơ mới (1932-1945) đề cao cái tôi cá nhân và cảm xúc trữ tình.", "answer": true },
-        { "text": "Bài thơ \"Tràng giang\" của Huy Cận thể hiện nỗi buồn cô đơn trước thiên nhiên rộng lớn.", "answer": true },
-        { "text": "Cấu tứ là cách tổ chức hình ảnh, mạch cảm xúc và tư tưởng tạo nên chỉnh thể nghệ thuật của bài thơ.", "answer": true },
-        { "text": "Thơ mới hoàn toàn không có bất kì sự kế thừa nào từ thơ ca truyền thống.", "answer": false }
+        {
+          "text": "Phong trào Thơ mới (1932-1945) đề cao cái tôi cá nhân và cảm xúc trữ tình.",
+          "answer": true
+        },
+        {
+          "text": "Bài thơ \"Tràng giang\" của Huy Cận thể hiện nỗi buồn cô đơn trước thiên nhiên rộng lớn.",
+          "answer": true
+        },
+        {
+          "text": "Cấu tứ là cách tổ chức hình ảnh, mạch cảm xúc và tư tưởng tạo nên chỉnh thể nghệ thuật của bài thơ.",
+          "answer": true
+        },
+        {
+          "text": "Thơ mới hoàn toàn không có bất kì sự kế thừa nào từ thơ ca truyền thống.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Truyện ngắn \"Chí Phèo\" là tác phẩm tiêu biểu của nhà văn ___",
       "answer": "Nam Cao",
-      "alternatives": ["nam cao"],
+      "alternatives": [
+        "nam cao"
+      ],
       "hint": "Nam Cao (1917-1951) là tác giả \"Chí Phèo\"."
     },
     {
@@ -200,5 +226,6 @@
       "answer": true,
       "hint": "\"Tràng giang\" của Huy Cận in trong tập \"Lửa thiêng\", là một trong những đỉnh cao của Thơ mới."
     }
-  ]
+  ],
+  "examType": "practice"
 }

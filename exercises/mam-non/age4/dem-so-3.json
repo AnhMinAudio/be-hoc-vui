@@ -6,12 +6,93 @@
   "topic": "Đếm số 1 - 10 (phần 3)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy quả nho?", "prompt": "🍇 🍇 🍇 🍇", "options": ["3", "4", "5", "6"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4." },
-    { "type": "image-choice", "question": "Có mấy con bướm?", "prompt": "🦋 🦋 🦋 🦋 🦋 🦋", "options": ["5", "6", "7", "8"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6." },
-    { "type": "image-choice", "question": "Có mấy con ong?", "prompt": "🐝 🐝 🐝 🐝 🐝", "options": ["4", "5", "6", "7"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5." },
-    { "type": "image-choice", "question": "Bên nào ÍT hơn?", "prompt": "🍎 🍎 🍎 🍎 | 🍌 🍌", "options": ["🍎 🍎 🍎 🍎", "🍌 🍌"], "answer": 1, "hint": "Nhóm chuối ít hơn." },
-    { "type": "image-choice", "question": "Sau số 3 là số mấy?", "options": ["2", "4", "5", "6"], "answer": 1, "hint": "Đếm: 1, 2, 3, rồi tới 4." },
-    { "type": "image-choice", "question": "Có mấy con cá?", "prompt": "🐟 🐟 🐟 🐟 🐟 🐟 🐟", "options": ["6", "7", "8", "9"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7." },
-    { "type": "image-choice", "question": "Sau số 6 là số mấy?", "options": ["5", "7", "8", "9"], "answer": 1, "hint": "Sau số 6 là số 7." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả nho?",
+      "prompt": "🍇 🍇 🍇 🍇",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con bướm?",
+      "prompt": "🦋 🦋 🦋 🦋 🦋 🦋",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con ong?",
+      "prompt": "🐝 🐝 🐝 🐝 🐝",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bên nào ÍT hơn?",
+      "prompt": "🍎 🍎 🍎 🍎 | 🍌 🍌",
+      "options": [
+        "🍎 🍎 🍎 🍎",
+        "🍌 🍌"
+      ],
+      "answer": 1,
+      "hint": "Nhóm chuối ít hơn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Sau số 3 là số mấy?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, rồi tới 4."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con cá?",
+      "prompt": "🐟 🐟 🐟 🐟 🐟 🐟 🐟",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4, 5, 6, 7."
+    },
+    {
+      "type": "image-choice",
+      "question": "Sau số 6 là số mấy?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "hint": "Sau số 6 là số 7."
+    }
+  ],
+  "examType": "practice"
 }

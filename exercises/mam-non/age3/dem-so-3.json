@@ -6,11 +6,77 @@
   "topic": "Đếm số 1 - 5 (phần 3)",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy con vịt?", "prompt": "🦆 🦆", "options": ["1", "2", "3"], "answer": 1, "hint": "Đếm: 1, 2." },
-    { "type": "image-choice", "question": "Có mấy quả dâu?", "prompt": "🍓 🍓 🍓 🍓", "options": ["3", "4", "5"], "answer": 1, "hint": "Đếm: 1, 2, 3, 4." },
-    { "type": "image-choice", "question": "Có mấy con bướm?", "prompt": "🦋 🦋 🦋 🦋 🦋", "options": ["3", "4", "5"], "answer": 2, "hint": "Đếm: 1, 2, 3, 4, 5." },
-    { "type": "image-choice", "question": "Có mấy chú gà con?", "prompt": "🐤", "options": ["1", "2", "3"], "answer": 0, "hint": "Chỉ có một chú." },
-    { "type": "image-choice", "question": "Bên nào NHIỀU hơn?", "prompt": "🐶 🐶 🐶 | 🐱", "options": ["🐶 🐶 🐶", "🐱"], "answer": 0, "hint": "Nhóm chó nhiều hơn." },
-    { "type": "image-choice", "question": "Có mấy quả bóng?", "prompt": "🎈 🎈 🎈", "options": ["2", "3", "4"], "answer": 1, "hint": "Đếm: 1, 2, 3." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy con vịt?",
+      "prompt": "🦆 🦆",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả dâu?",
+      "prompt": "🍓 🍓 🍓 🍓",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3, 4."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con bướm?",
+      "prompt": "🦋 🦋 🦋 🦋 🦋",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "hint": "Đếm: 1, 2, 3, 4, 5."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy chú gà con?",
+      "prompt": "🐤",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "hint": "Chỉ có một chú."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bên nào NHIỀU hơn?",
+      "prompt": "🐶 🐶 🐶 | 🐱",
+      "options": [
+        "🐶 🐶 🐶",
+        "🐱"
+      ],
+      "answer": 0,
+      "hint": "Nhóm chó nhiều hơn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả bóng?",
+      "prompt": "🎈 🎈 🎈",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3."
+    }
+  ],
+  "examType": "practice"
 }

@@ -147,10 +147,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về số thực:",
       "statements": [
-        { "text": "$\\sqrt{0{,}04} = 0{,}2$.", "answer": true },
-        { "text": "Số $\\sqrt{25}$ là một số vô tỉ.", "answer": false },
-        { "text": "$\\left| 0 \\right| = 0$.", "answer": true },
-        { "text": "Mọi số hữu tỉ đều là số thực.", "answer": true }
+        {
+          "text": "$\\sqrt{0{,}04} = 0{,}2$.",
+          "answer": true
+        },
+        {
+          "text": "Số $\\sqrt{25}$ là một số vô tỉ.",
+          "answer": false
+        },
+        {
+          "text": "$\\left| 0 \\right| = 0$.",
+          "answer": true
+        },
+        {
+          "text": "Mọi số hữu tỉ đều là số thực.",
+          "answer": true
+        }
       ]
     },
     {
@@ -158,10 +170,22 @@
       "level": "TH",
       "question": "Cho hai đường thẳng $a$ và $b$ song song, bị cắt bởi đường thẳng $c$. Xét tính đúng/sai của các khẳng định:",
       "statements": [
-        { "text": "Hai góc so le trong bằng nhau.", "answer": true },
-        { "text": "Hai góc đồng vị bằng nhau.", "answer": true },
-        { "text": "Hai góc trong cùng phía bằng nhau.", "answer": false },
-        { "text": "Hai góc trong cùng phía bù nhau (tổng bằng $180^\\circ$).", "answer": true }
+        {
+          "text": "Hai góc so le trong bằng nhau.",
+          "answer": true
+        },
+        {
+          "text": "Hai góc đồng vị bằng nhau.",
+          "answer": true
+        },
+        {
+          "text": "Hai góc trong cùng phía bằng nhau.",
+          "answer": false
+        },
+        {
+          "text": "Hai góc trong cùng phía bù nhau (tổng bằng $180^\\circ$).",
+          "answer": true
+        }
       ]
     },
     {
@@ -169,7 +193,10 @@
       "level": "TH",
       "question": "Tính: $\\dfrac{3}{5} : \\dfrac{6}{25} = $ ___ (viết phân số tối giản dạng a/b).",
       "answer": "5/2",
-      "alternatives": ["2.5", "2,5"],
+      "alternatives": [
+        "2.5",
+        "2,5"
+      ],
       "hint": "Chia phân số là nhân với nghịch đảo: $\\dfrac{3}{5} \\times \\dfrac{25}{6} = \\dfrac{75}{30} = \\dfrac{5}{2}$."
     },
     {
@@ -177,7 +204,9 @@
       "level": "VD",
       "question": "Tìm $x$ biết $\\left| x \\right| = 3{,}5$ và $x < 0$. Khi đó $x = $ ___ (ghi cả dấu).",
       "answer": "-3,5",
-      "alternatives": ["-3.5"],
+      "alternatives": [
+        "-3.5"
+      ],
       "hint": "$\\left| x \\right| = 3{,}5$ cho $x = 3{,}5$ hoặc $x = -3{,}5$; chọn giá trị âm."
     },
     {
@@ -185,7 +214,10 @@
       "level": "VD",
       "question": "Hai góc kề bù, trong đó góc thứ nhất có số đo gấp $4$ lần góc thứ hai. Số đo góc thứ hai là ___ độ.",
       "answer": "36",
-      "alternatives": ["36 độ", "$36^\\circ$"],
+      "alternatives": [
+        "36 độ",
+        "$36^\\circ$"
+      ],
       "hint": "Gọi góc thứ hai là $x$ thì $4x + x = 180^\\circ$, suy ra $x = 36^\\circ$."
     },
     {
@@ -208,5 +240,6 @@
       "answer": "26",
       "hint": "Số tiền còn lại sau khi rút: $30 \\times \\dfrac{3}{5} = 18$ triệu; gửi thêm $8$ triệu: $18 + 8 = 26$ triệu."
     }
-  ]
+  ],
+  "examType": "final1"
 }

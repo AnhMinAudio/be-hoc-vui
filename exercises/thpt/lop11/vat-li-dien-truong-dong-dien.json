@@ -178,10 +178,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về điện tích và điện trường:",
       "statements": [
-        { "text": "Lực tương tác giữa hai điện tích điểm tỉ lệ thuận với tích độ lớn các điện tích và tỉ lệ nghịch với bình phương khoảng cách giữa chúng.", "answer": true },
-        { "text": "Hai điện tích cùng dấu thì đẩy nhau; hai điện tích trái dấu thì hút nhau.", "answer": true },
-        { "text": "Cường độ điện trường $E$ tại một điểm là đại lượng đặc trưng cho điện trường tại điểm đó.", "answer": true },
-        { "text": "Đơn vị của điện tích trong hệ SI là Vôn (V).", "answer": false }
+        {
+          "text": "Lực tương tác giữa hai điện tích điểm tỉ lệ thuận với tích độ lớn các điện tích và tỉ lệ nghịch với bình phương khoảng cách giữa chúng.",
+          "answer": true
+        },
+        {
+          "text": "Hai điện tích cùng dấu thì đẩy nhau; hai điện tích trái dấu thì hút nhau.",
+          "answer": true
+        },
+        {
+          "text": "Cường độ điện trường $E$ tại một điểm là đại lượng đặc trưng cho điện trường tại điểm đó.",
+          "answer": true
+        },
+        {
+          "text": "Đơn vị của điện tích trong hệ SI là Vôn (V).",
+          "answer": false
+        }
       ]
     },
     {
@@ -189,10 +201,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về dòng điện không đổi:",
       "statements": [
-        { "text": "Định luật Ohm cho đoạn mạch chỉ có điện trở $R$: $U = IR$.", "answer": true },
-        { "text": "Cường độ dòng điện đo bằng điện lượng chuyển qua tiết diện thẳng trong một đơn vị thời gian.", "answer": true },
-        { "text": "Công suất điện $P = UI$, đơn vị Oát (W).", "answer": true },
-        { "text": "Đơn vị của điện trở trong hệ SI là Ampe (A).", "answer": false }
+        {
+          "text": "Định luật Ohm cho đoạn mạch chỉ có điện trở $R$: $U = IR$.",
+          "answer": true
+        },
+        {
+          "text": "Cường độ dòng điện đo bằng điện lượng chuyển qua tiết diện thẳng trong một đơn vị thời gian.",
+          "answer": true
+        },
+        {
+          "text": "Công suất điện $P = UI$, đơn vị Oát (W).",
+          "answer": true
+        },
+        {
+          "text": "Đơn vị của điện trở trong hệ SI là Ampe (A).",
+          "answer": false
+        }
       ]
     },
     {
@@ -207,7 +231,10 @@
       "level": "VD",
       "question": "Một bóng đèn $U = 220$ V, $P = 110$ W. Cường độ dòng điện qua đèn là ___ A (với $0{,}5$ là $0{,}5$)",
       "answer": "0,5",
-      "alternatives": ["0.5", "1/2"],
+      "alternatives": [
+        "0.5",
+        "1/2"
+      ],
       "hint": "$I = \\dfrac{P}{U} = \\dfrac{110}{220} = 0{,}5$ A."
     },
     {
@@ -217,5 +244,6 @@
       "answer": true,
       "hint": "Định luật Ohm: $R = \\dfrac{U}{I}$ → đơn vị V/A = Ω."
     }
-  ]
+  ],
+  "examType": "practice"
 }

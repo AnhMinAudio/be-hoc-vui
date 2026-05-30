@@ -6,34 +6,234 @@
   "topic": "Ôn tập giữa kỳ 1 — Toán 8",
   "chapter": "Ôn tập giữa kỳ 1",
   "difficulty": 2,
-  "outcomes": ["Đa thức nhiều biến", "Hằng đẳng thức đáng nhớ", "Phân tích đa thức thành nhân tử", "Tứ giác và hình bình hành"],
+  "outcomes": [
+    "Đa thức nhiều biến",
+    "Hằng đẳng thức đáng nhớ",
+    "Phân tích đa thức thành nhân tử",
+    "Tứ giác và hình bình hành"
+  ],
   "questions": [
-    { "type": "multiple-choice", "level": "NB", "question": "Trong các biểu thức sau, biểu thức nào là đơn thức?", "options": ["$3x^2y$", "$x + y$", "$x^2 - 1$", "$\\frac{1}{x}$"], "answer": 0, "hint": "Đơn thức là tích của một số với các biến (mỗi biến luỹ thừa nguyên không âm)." },
-    { "type": "multiple-choice", "level": "NB", "question": "Bậc của đa thức $5x^3 - 2x + 7$ là:", "options": ["$3$", "$5$", "$2$", "$7$"], "answer": 0, "hint": "Bậc của đa thức là bậc cao nhất của các hạng tử." },
-    { "type": "multiple-choice", "level": "NB", "question": "Khai triển $(x + 3)^2$ bằng:", "options": ["$x^2 + 6x + 9$", "$x^2 + 9$", "$x^2 + 3x + 9$", "$x^2 + 6x + 6$"], "answer": 0, "hint": "Bình phương của một tổng: $(a+b)^2 = a^2 + 2ab + b^2$." },
-    { "type": "multiple-choice", "level": "NB", "question": "Phân tích $x^2 - 9$ thành nhân tử bằng:", "options": ["$(x - 3)(x + 3)$", "$(x - 3)^2$", "$(x + 3)^2$", "$(x - 9)(x + 1)$"], "answer": 0, "hint": "Hiệu hai bình phương: $a^2 - b^2 = (a-b)(a+b)$." },
-    { "type": "multiple-choice", "level": "NB", "question": "Tổng các góc trong một tứ giác bằng:", "options": ["$360^\\circ$", "$180^\\circ$", "$540^\\circ$", "$90^\\circ$"], "answer": 0, "hint": "Tứ giác chia được thành hai tam giác." },
-    { "type": "multiple-choice", "level": "NB", "question": "Tứ giác nào sau đây có hai cạnh đối song song và bằng nhau?", "options": ["Hình bình hành", "Hình thang cân", "Tứ giác bất kì", "Tứ giác lồi"], "answer": 0, "hint": "Nhớ định nghĩa hình bình hành." },
-    { "type": "multiple-choice", "level": "TH", "question": "Khai triển $(2x - 1)^2$ bằng:", "options": ["$4x^2 - 4x + 1$", "$4x^2 - 2x + 1$", "$2x^2 - 4x + 1$", "$4x^2 + 4x + 1$"], "answer": 0, "hint": "$(a-b)^2 = a^2 - 2ab + b^2$ với $a = 2x,\\ b = 1$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Thu gọn đa thức $3x^2y + 2x^2y - x^2y$ ta được:", "options": ["$4x^2y$", "$5x^2y$", "$6x^2y$", "$4x^4y^3$"], "answer": 0, "hint": "Cộng trừ các hạng tử đồng dạng: $3 + 2 - 1 = 4$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Kết quả phép chia $\\frac{6x^3 - 9x^2}{3x}$ (với $x \\neq 0$) là:", "options": ["$2x^2 - 3x$", "$2x^2 - 9x$", "$6x^2 - 3x$", "$2x^3 - 3x$"], "answer": 0, "hint": "Chia từng hạng tử cho $3x$." },
-    { "type": "multiple-choice", "level": "TH", "question": "Phân tích đa thức $x^2 + 6x + 9$ thành nhân tử bằng:", "options": ["$(x + 3)^2$", "$(x - 3)^2$", "$(x + 9)(x + 1)$", "$(x + 3)(x - 3)$"], "answer": 0, "hint": "Đây là dạng $a^2 + 2ab + b^2 = (a+b)^2$." },
-    { "type": "fill-blank", "level": "TH", "question": "Tính nhanh $51^2 - 49^2 = $ ___", "answer": "200", "hint": "Dùng $a^2 - b^2 = (a-b)(a+b) = 2 \\times 100$." },
-    { "type": "fill-blank", "level": "TH", "question": "Một tứ giác có ba góc lần lượt bằng $80^\\circ,\\ 90^\\circ,\\ 100^\\circ$. Số đo góc thứ tư là ___ độ.", "answer": "90", "alternatives": ["90 độ", "$90^\\circ$"], "hint": "Tổng bốn góc bằng $360^\\circ$." },
-    { "type": "true-false-group", "level": "TH", "question": "Xét tính đúng/sai của các khẳng định về hằng đẳng thức:", "statements": [
-      { "text": "$(a + b)^2 = a^2 + 2ab + b^2$.", "answer": true },
-      { "text": "$(a - b)^2 = a^2 - b^2$.", "answer": false },
-      { "text": "$a^2 - b^2 = (a - b)(a + b)$.", "answer": true },
-      { "text": "$(a + b)(a - b) = a^2 + b^2$.", "answer": false }
-    ] },
-    { "type": "true-false-group", "level": "VD", "question": "Cho hình bình hành $ABCD$. Xét tính đúng/sai của các khẳng định:", "statements": [
-      { "text": "Hai cạnh đối $AB$ và $CD$ bằng nhau.", "answer": true },
-      { "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường.", "answer": true },
-      { "text": "Hai đường chéo của hình bình hành luôn bằng nhau.", "answer": false },
-      { "text": "Các góc đối của hình bình hành bằng nhau.", "answer": true }
-    ] },
-    { "type": "fill-blank", "level": "VD", "question": "Cho $x + y = 5$ và $xy = 6$. Tính giá trị của $x^2 + y^2 = $ ___", "answer": "13", "hint": "$x^2 + y^2 = (x+y)^2 - 2xy = 25 - 12$." },
-    { "type": "multiple-choice", "level": "VD", "question": "Rút gọn biểu thức $A = (x + 2)^2 - (x - 2)^2$ ta được:", "options": ["$8x$", "$4x$", "$2x$", "$8$"], "answer": 0, "hint": "Dùng hiệu hai bình phương hoặc khai triển: $(x+2)^2 - (x-2)^2 = 4x + 4x$." },
-    { "type": "fill-blank", "level": "VDC", "question": "Tìm giá trị nhỏ nhất của biểu thức $B = x^2 - 6x + 11$. Giá trị nhỏ nhất đó là ___", "answer": "2", "hint": "Viết $B = (x - 3)^2 + 2 \\ge 2$." }
-  ]
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong các biểu thức sau, biểu thức nào là đơn thức?",
+      "options": [
+        "$3x^2y$",
+        "$x + y$",
+        "$x^2 - 1$",
+        "$\\frac{1}{x}$"
+      ],
+      "answer": 0,
+      "hint": "Đơn thức là tích của một số với các biến (mỗi biến luỹ thừa nguyên không âm)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bậc của đa thức $5x^3 - 2x + 7$ là:",
+      "options": [
+        "$3$",
+        "$5$",
+        "$2$",
+        "$7$"
+      ],
+      "answer": 0,
+      "hint": "Bậc của đa thức là bậc cao nhất của các hạng tử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khai triển $(x + 3)^2$ bằng:",
+      "options": [
+        "$x^2 + 6x + 9$",
+        "$x^2 + 9$",
+        "$x^2 + 3x + 9$",
+        "$x^2 + 6x + 6$"
+      ],
+      "answer": 0,
+      "hint": "Bình phương của một tổng: $(a+b)^2 = a^2 + 2ab + b^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phân tích $x^2 - 9$ thành nhân tử bằng:",
+      "options": [
+        "$(x - 3)(x + 3)$",
+        "$(x - 3)^2$",
+        "$(x + 3)^2$",
+        "$(x - 9)(x + 1)$"
+      ],
+      "answer": 0,
+      "hint": "Hiệu hai bình phương: $a^2 - b^2 = (a-b)(a+b)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tổng các góc trong một tứ giác bằng:",
+      "options": [
+        "$360^\\circ$",
+        "$180^\\circ$",
+        "$540^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "hint": "Tứ giác chia được thành hai tam giác."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tứ giác nào sau đây có hai cạnh đối song song và bằng nhau?",
+      "options": [
+        "Hình bình hành",
+        "Hình thang cân",
+        "Tứ giác bất kì",
+        "Tứ giác lồi"
+      ],
+      "answer": 0,
+      "hint": "Nhớ định nghĩa hình bình hành."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khai triển $(2x - 1)^2$ bằng:",
+      "options": [
+        "$4x^2 - 4x + 1$",
+        "$4x^2 - 2x + 1$",
+        "$2x^2 - 4x + 1$",
+        "$4x^2 + 4x + 1$"
+      ],
+      "answer": 0,
+      "hint": "$(a-b)^2 = a^2 - 2ab + b^2$ với $a = 2x,\\ b = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Thu gọn đa thức $3x^2y + 2x^2y - x^2y$ ta được:",
+      "options": [
+        "$4x^2y$",
+        "$5x^2y$",
+        "$6x^2y$",
+        "$4x^4y^3$"
+      ],
+      "answer": 0,
+      "hint": "Cộng trừ các hạng tử đồng dạng: $3 + 2 - 1 = 4$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Kết quả phép chia $\\frac{6x^3 - 9x^2}{3x}$ (với $x \\neq 0$) là:",
+      "options": [
+        "$2x^2 - 3x$",
+        "$2x^2 - 9x$",
+        "$6x^2 - 3x$",
+        "$2x^3 - 3x$"
+      ],
+      "answer": 0,
+      "hint": "Chia từng hạng tử cho $3x$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phân tích đa thức $x^2 + 6x + 9$ thành nhân tử bằng:",
+      "options": [
+        "$(x + 3)^2$",
+        "$(x - 3)^2$",
+        "$(x + 9)(x + 1)$",
+        "$(x + 3)(x - 3)$"
+      ],
+      "answer": 0,
+      "hint": "Đây là dạng $a^2 + 2ab + b^2 = (a+b)^2$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tính nhanh $51^2 - 49^2 = $ ___",
+      "answer": "200",
+      "hint": "Dùng $a^2 - b^2 = (a-b)(a+b) = 2 \\times 100$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Một tứ giác có ba góc lần lượt bằng $80^\\circ,\\ 90^\\circ,\\ 100^\\circ$. Số đo góc thứ tư là ___ độ.",
+      "answer": "90",
+      "alternatives": [
+        "90 độ",
+        "$90^\\circ$"
+      ],
+      "hint": "Tổng bốn góc bằng $360^\\circ$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "TH",
+      "question": "Xét tính đúng/sai của các khẳng định về hằng đẳng thức:",
+      "statements": [
+        {
+          "text": "$(a + b)^2 = a^2 + 2ab + b^2$.",
+          "answer": true
+        },
+        {
+          "text": "$(a - b)^2 = a^2 - b^2$.",
+          "answer": false
+        },
+        {
+          "text": "$a^2 - b^2 = (a - b)(a + b)$.",
+          "answer": true
+        },
+        {
+          "text": "$(a + b)(a - b) = a^2 + b^2$.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Cho hình bình hành $ABCD$. Xét tính đúng/sai của các khẳng định:",
+      "statements": [
+        {
+          "text": "Hai cạnh đối $AB$ và $CD$ bằng nhau.",
+          "answer": true
+        },
+        {
+          "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+          "answer": true
+        },
+        {
+          "text": "Hai đường chéo của hình bình hành luôn bằng nhau.",
+          "answer": false
+        },
+        {
+          "text": "Các góc đối của hình bình hành bằng nhau.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Cho $x + y = 5$ và $xy = 6$. Tính giá trị của $x^2 + y^2 = $ ___",
+      "answer": "13",
+      "hint": "$x^2 + y^2 = (x+y)^2 - 2xy = 25 - 12$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Rút gọn biểu thức $A = (x + 2)^2 - (x - 2)^2$ ta được:",
+      "options": [
+        "$8x$",
+        "$4x$",
+        "$2x$",
+        "$8$"
+      ],
+      "answer": 0,
+      "hint": "Dùng hiệu hai bình phương hoặc khai triển: $(x+2)^2 - (x-2)^2 = 4x + 4x$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VDC",
+      "question": "Tìm giá trị nhỏ nhất của biểu thức $B = x^2 - 6x + 11$. Giá trị nhỏ nhất đó là ___",
+      "answer": "2",
+      "hint": "Viết $B = (x - 3)^2 + 2 \\ge 2$."
+    }
+  ],
+  "examType": "midterm1"
 }

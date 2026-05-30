@@ -23,7 +23,9 @@
       "type": "fill-blank",
       "question": "Viết phân số 7/10 dưới dạng số thập phân: ___",
       "answer": "0,7",
-      "alternatives": ["0.7"],
+      "alternatives": [
+        "0.7"
+      ],
       "level": "M1",
       "hint": "Mẫu số là 10 nên phần thập phân có một chữ số"
     },
@@ -44,14 +46,18 @@
       "type": "fill-blank",
       "question": "6,84 + 2,57 = ___",
       "answer": "9,41",
-      "alternatives": ["9.41"],
+      "alternatives": [
+        "9.41"
+      ],
       "level": "M1"
     },
     {
       "type": "fill-blank",
       "question": "15,3 - 7,68 = ___",
       "answer": "7,62",
-      "alternatives": ["7.62"],
+      "alternatives": [
+        "7.62"
+      ],
       "level": "M2",
       "hint": "Viết 15,30 rồi trừ theo cột cho thẳng dấu phẩy"
     },
@@ -71,14 +77,18 @@
       "type": "fill-blank",
       "question": "9,6 : 4 = ___",
       "answer": "2,4",
-      "alternatives": ["2.4"],
+      "alternatives": [
+        "2.4"
+      ],
       "level": "M2"
     },
     {
       "type": "fill-blank",
       "question": "8,7 × 0,6 = ___",
       "answer": "5,22",
-      "alternatives": ["5.22"],
+      "alternatives": [
+        "5.22"
+      ],
       "level": "M2",
       "hint": "Nhân như số tự nhiên rồi đếm tổng số chữ số phần thập phân của hai thừa số"
     },
@@ -165,7 +175,9 @@
       "type": "fill-blank",
       "question": "Viết số đo 3 m 7 dm dưới dạng số thập phân có đơn vị mét: ___ m",
       "answer": "3,7",
-      "alternatives": ["3.7"],
+      "alternatives": [
+        "3.7"
+      ],
       "level": "M2",
       "hint": "7 dm = 0,7 m"
     },
@@ -173,7 +185,9 @@
       "type": "fill-blank",
       "question": "Mẹ mua 3,5 kg gạo, mỗi ki-lô-gam giá 18 000 đồng. Hỏi mẹ phải trả bao nhiêu tiền? Đáp số: 3,5 × 18000 = ___ đồng",
       "answer": "63000",
-      "alternatives": ["63 000"],
+      "alternatives": [
+        "63 000"
+      ],
       "level": "M3",
       "hint": "Số tiền = số ki-lô-gam nhân giá mỗi ki-lô-gam"
     },
@@ -181,7 +195,9 @@
       "type": "fill-blank",
       "question": "Một sợi dây dài 9,6 m được cắt thành 8 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu mét? Đáp số: 9,6 : 8 = ___ m",
       "answer": "1,2",
-      "alternatives": ["1.2"],
+      "alternatives": [
+        "1.2"
+      ],
       "level": "M3",
       "hint": "Lấy độ dài cả sợi dây chia cho số đoạn"
     },
@@ -198,5 +214,6 @@
       "level": "M3",
       "hint": "Diện tích hình chữ nhật = chiều dài nhân chiều rộng"
     }
-  ]
+  ],
+  "examType": "final1"
 }

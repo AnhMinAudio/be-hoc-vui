@@ -6,12 +6,83 @@
   "topic": "Đồ vật quanh bé",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Đồ nào để VIẾT và VẼ?", "options": ["✏️", "🥄", "👟"], "answer": 0, "hint": "Bút chì để viết, vẽ." },
-    { "type": "image-choice", "question": "Đồ nào để ĐI dưới chân?", "options": ["🧢", "👟", "☂️"], "answer": 1, "hint": "Giày mang dưới chân khi đi." },
-    { "type": "image-choice", "question": "Đồ nào để CHE MƯA?", "options": ["⏰", "📚", "☂️"], "answer": 2, "hint": "Cái ô che cho khỏi ướt mưa." },
-    { "type": "image-choice", "question": "Đồ nào để XEM giờ?", "options": ["⏰", "🔑", "🧦"], "answer": 0, "hint": "Đồng hồ cho biết mấy giờ." },
-    { "type": "image-choice", "question": "Đồ nào để XÚC cơm ăn?", "options": ["✂️", "🥄", "🖍️"], "answer": 1, "hint": "Cái thìa để xúc thức ăn." },
-    { "type": "image-choice", "question": "Đồ nào để NGỒI?", "options": ["🪑", "💡", "📺"], "answer": 0, "hint": "Cái ghế để ngồi." },
-    { "type": "image-choice", "question": "Đồ nào để ĐỌC truyện?", "options": ["🔑", "📖", "🥄"], "answer": 1, "hint": "Quyển sách để đọc, xem tranh." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để VIẾT và VẼ?",
+      "options": [
+        "✏️",
+        "🥄",
+        "👟"
+      ],
+      "answer": 0,
+      "hint": "Bút chì để viết, vẽ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để ĐI dưới chân?",
+      "options": [
+        "🧢",
+        "👟",
+        "☂️"
+      ],
+      "answer": 1,
+      "hint": "Giày mang dưới chân khi đi."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để CHE MƯA?",
+      "options": [
+        "⏰",
+        "📚",
+        "☂️"
+      ],
+      "answer": 2,
+      "hint": "Cái ô che cho khỏi ướt mưa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để XEM giờ?",
+      "options": [
+        "⏰",
+        "🔑",
+        "🧦"
+      ],
+      "answer": 0,
+      "hint": "Đồng hồ cho biết mấy giờ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để XÚC cơm ăn?",
+      "options": [
+        "✂️",
+        "🥄",
+        "🖍️"
+      ],
+      "answer": 1,
+      "hint": "Cái thìa để xúc thức ăn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để NGỒI?",
+      "options": [
+        "🪑",
+        "💡",
+        "📺"
+      ],
+      "answer": 0,
+      "hint": "Cái ghế để ngồi."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồ nào để ĐỌC truyện?",
+      "options": [
+        "🔑",
+        "📖",
+        "🥄"
+      ],
+      "answer": 1,
+      "hint": "Quyển sách để đọc, xem tranh."
+    }
+  ],
+  "examType": "practice"
 }

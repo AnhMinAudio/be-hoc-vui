@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về sử thi và truyện kể dân gian:",
       "statements": [
-        { "text": "Sử thi là tác phẩm tự sự dân gian có quy mô lớn, kể về sự kiện trọng đại của cộng đồng.", "answer": true },
-        { "text": "Sử thi \"Đăm Săn\" là sử thi của dân tộc Ê-đê ở Tây Nguyên.", "answer": true },
-        { "text": "Truyện \"An Dương Vương và Mị Châu - Trọng Thủy\" thuộc thể loại truyện cổ tích.", "answer": false },
-        { "text": "Sử thi thường dùng các hình ảnh phóng đại, so sánh trùng điệp để khắc họa người anh hùng.", "answer": true }
+        {
+          "text": "Sử thi là tác phẩm tự sự dân gian có quy mô lớn, kể về sự kiện trọng đại của cộng đồng.",
+          "answer": true
+        },
+        {
+          "text": "Sử thi \"Đăm Săn\" là sử thi của dân tộc Ê-đê ở Tây Nguyên.",
+          "answer": true
+        },
+        {
+          "text": "Truyện \"An Dương Vương và Mị Châu - Trọng Thủy\" thuộc thể loại truyện cổ tích.",
+          "answer": false
+        },
+        {
+          "text": "Sử thi thường dùng các hình ảnh phóng đại, so sánh trùng điệp để khắc họa người anh hùng.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về thơ Đường và thơ Nguyễn Trãi:",
       "statements": [
-        { "text": "Đỗ Phủ và Lí Bạch là hai nhà thơ lớn của thời Đường (Trung Quốc).", "answer": true },
-        { "text": "Bài thơ \"Cảm xúc mùa thu\" (Thu hứng) là tác phẩm của Đỗ Phủ.", "answer": true },
-        { "text": "Nguyễn Trãi là tác giả của \"Quốc âm thi tập\" viết bằng chữ Nôm.", "answer": true },
-        { "text": "Thơ Đường luật chỉ có duy nhất một thể là thất ngôn tứ tuyệt.", "answer": false }
+        {
+          "text": "Đỗ Phủ và Lí Bạch là hai nhà thơ lớn của thời Đường (Trung Quốc).",
+          "answer": true
+        },
+        {
+          "text": "Bài thơ \"Cảm xúc mùa thu\" (Thu hứng) là tác phẩm của Đỗ Phủ.",
+          "answer": true
+        },
+        {
+          "text": "Nguyễn Trãi là tác giả của \"Quốc âm thi tập\" viết bằng chữ Nôm.",
+          "answer": true
+        },
+        {
+          "text": "Thơ Đường luật chỉ có duy nhất một thể là thất ngôn tứ tuyệt.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,11 @@
       "level": "NB",
       "question": "Sử thi \"Đăm Săn\" là sử thi của dân tộc ___",
       "answer": "Ê-đê",
-      "alternatives": ["Ê đê", "Ede", "Ê-đê (Tây Nguyên)"],
+      "alternatives": [
+        "Ê đê",
+        "Ede",
+        "Ê-đê (Tây Nguyên)"
+      ],
       "hint": "\"Đăm Săn\" là sử thi anh hùng của dân tộc Ê-đê."
     },
     {
@@ -191,7 +219,9 @@
       "level": "TH",
       "question": "Bài thơ Đường luật thất ngôn bát cú gồm ___ câu, mỗi câu có 7 chữ.",
       "answer": "8",
-      "alternatives": ["tám"],
+      "alternatives": [
+        "tám"
+      ],
       "hint": "\"Bát cú\" nghĩa là 8 câu."
     },
     {
@@ -201,5 +231,6 @@
       "answer": true,
       "hint": "\"Đại cáo bình Ngô\" (Bình Ngô đại cáo) công bố thắng lợi của khởi nghĩa Lam Sơn, được coi là tuyên ngôn độc lập."
     }
-  ]
+  ],
+  "examType": "practice"
 }

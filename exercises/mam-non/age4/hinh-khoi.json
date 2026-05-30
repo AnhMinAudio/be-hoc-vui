@@ -6,12 +6,79 @@
   "topic": "Hình khối và so sánh",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là hình tròn?", "options": ["🟦", "🔴", "🔺", "⭐"], "answer": 1 },
-    { "type": "image-choice", "question": "Đâu là hình vuông?", "options": ["🔵", "🔺", "🟥", "❤️"], "answer": 2 },
-    { "type": "image-choice", "question": "Đâu là hình tam giác?", "options": ["🔻", "🔵", "🟦", "⭐"], "answer": 0 },
-    { "type": "image-choice", "question": "Tìm hình trái tim nhé!", "options": ["🟦", "🔺", "❤️", "🔵"], "answer": 2 },
-    { "type": "image-choice", "question": "Con vật nào TO hơn?", "options": ["🐹", "🦛"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào CAO hơn?", "options": ["🦒", "🐰"], "answer": 0 },
-    { "type": "image-choice", "question": "Ngôi sao ở đâu?", "options": ["🔷", "🟥", "⭐", "🔵"], "answer": 2 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là hình tròn?",
+      "options": [
+        "🟦",
+        "🔴",
+        "🔺",
+        "⭐"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là hình vuông?",
+      "options": [
+        "🔵",
+        "🔺",
+        "🟥",
+        "❤️"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là hình tam giác?",
+      "options": [
+        "🔻",
+        "🔵",
+        "🟦",
+        "⭐"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Tìm hình trái tim nhé!",
+      "options": [
+        "🟦",
+        "🔺",
+        "❤️",
+        "🔵"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Con vật nào TO hơn?",
+      "options": [
+        "🐹",
+        "🦛"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào CAO hơn?",
+      "options": [
+        "🦒",
+        "🐰"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Ngôi sao ở đâu?",
+      "options": [
+        "🔷",
+        "🟥",
+        "⭐",
+        "🔵"
+      ],
+      "answer": 2
+    }
+  ],
+  "examType": "practice"
 }

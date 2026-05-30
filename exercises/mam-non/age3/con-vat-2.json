@@ -6,12 +6,76 @@
   "topic": "Nhận biết con vật (phần 2)",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là con gấu?", "options": ["🐻", "🐭", "🐢"], "answer": 0 },
-    { "type": "image-choice", "question": "Đâu là con cáo?", "options": ["🐤", "🦊", "🐮"], "answer": 1 },
-    { "type": "image-choice", "question": "Đâu là con bò?", "options": ["🐷", "🐰", "🐮"], "answer": 2 },
-    { "type": "image-choice", "question": "Đâu là con lợn (heo)?", "options": ["🐷", "🐔", "🐬"], "answer": 0 },
-    { "type": "image-choice", "question": "Đâu là con bướm?", "options": ["🐝", "🦋", "🐭"], "answer": 1 },
-    { "type": "image-choice", "question": "Đâu là con rùa?", "options": ["🐤", "🦒", "🐢"], "answer": 2 },
-    { "type": "image-choice", "question": "Đâu là con chuột?", "options": ["🐭", "🐻", "🦊"], "answer": 0 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là con gấu?",
+      "options": [
+        "🐻",
+        "🐭",
+        "🐢"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con cáo?",
+      "options": [
+        "🐤",
+        "🦊",
+        "🐮"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con bò?",
+      "options": [
+        "🐷",
+        "🐰",
+        "🐮"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con lợn (heo)?",
+      "options": [
+        "🐷",
+        "🐔",
+        "🐬"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con bướm?",
+      "options": [
+        "🐝",
+        "🦋",
+        "🐭"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con rùa?",
+      "options": [
+        "🐤",
+        "🦒",
+        "🐢"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con chuột?",
+      "options": [
+        "🐭",
+        "🐻",
+        "🦊"
+      ],
+      "answer": 0
+    }
+  ],
+  "examType": "practice"
 }

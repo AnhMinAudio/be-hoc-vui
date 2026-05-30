@@ -189,10 +189,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "The relative pronoun \"who\" is used for people. (\"who\" dùng cho người.)", "answer": true },
-        { "text": "The relative pronoun \"which\" is used for things or animals. (\"which\" dùng cho vật hoặc động vật.)", "answer": true },
-        { "text": "After the verb \"enjoy\", we use a \"to + V\" form. (Sau động từ \"enjoy\" ta dùng dạng \"to + V\".)", "answer": false },
-        { "text": "In a type 2 conditional sentence, the if-clause uses the past simple. (Trong câu điều kiện loại 2, mệnh đề if dùng thì quá khứ đơn.)", "answer": true }
+        {
+          "text": "The relative pronoun \"who\" is used for people. (\"who\" dùng cho người.)",
+          "answer": true
+        },
+        {
+          "text": "The relative pronoun \"which\" is used for things or animals. (\"which\" dùng cho vật hoặc động vật.)",
+          "answer": true
+        },
+        {
+          "text": "After the verb \"enjoy\", we use a \"to + V\" form. (Sau động từ \"enjoy\" ta dùng dạng \"to + V\".)",
+          "answer": false
+        },
+        {
+          "text": "In a type 2 conditional sentence, the if-clause uses the past simple. (Trong câu điều kiện loại 2, mệnh đề if dùng thì quá khứ đơn.)",
+          "answer": true
+        }
       ]
     },
     {
@@ -200,7 +212,11 @@
       "level": "TH",
       "question": "Complete the relative pronoun for things: \"The bag _____ I bought yesterday is red.\" (Điền đại từ quan hệ chỉ vật: \"Cái túi _____ tôi mua hôm qua màu đỏ.\")",
       "answer": "which",
-      "alternatives": ["that", "Which", "That"],
+      "alternatives": [
+        "that",
+        "Which",
+        "That"
+      ],
       "hint": "Đại từ quan hệ chỉ vật làm tân ngữ: \"which\" hoặc \"that\"."
     },
     {
@@ -208,7 +224,9 @@
       "level": "TH",
       "question": "Complete the word: r_n_w_ble (energy that can be replaced naturally — chỉ năng lượng có thể tái tạo).",
       "answer": "renewable",
-      "alternatives": ["Renewable"],
+      "alternatives": [
+        "Renewable"
+      ],
       "hint": "\"renewable\" = có thể tái tạo (renewable energy = năng lượng tái tạo)."
     },
     {
@@ -218,5 +236,6 @@
       "answer": true,
       "hint": "\"whose\" thay thế cho tính từ sở hữu (his/her/their) trong mệnh đề quan hệ."
     }
-  ]
+  ],
+  "examType": "practice"
 }

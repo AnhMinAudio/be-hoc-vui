@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về dân cư và đô thị hóa:",
       "statements": [
-        { "text": "Cơ cấu dân số có thể được phân chia theo độ tuổi và giới tính.", "answer": true },
-        { "text": "Các nước phát triển thường có cơ cấu dân số già.", "answer": true },
-        { "text": "Đô thị hóa là quá trình gia tăng tỉ lệ dân thành thị và mở rộng không gian đô thị.", "answer": true },
-        { "text": "Đô thị hóa chỉ mang lại lợi ích, không có bất kì tác động tiêu cực nào.", "answer": false }
+        {
+          "text": "Cơ cấu dân số có thể được phân chia theo độ tuổi và giới tính.",
+          "answer": true
+        },
+        {
+          "text": "Các nước phát triển thường có cơ cấu dân số già.",
+          "answer": true
+        },
+        {
+          "text": "Đô thị hóa là quá trình gia tăng tỉ lệ dân thành thị và mở rộng không gian đô thị.",
+          "answer": true
+        },
+        {
+          "text": "Đô thị hóa chỉ mang lại lợi ích, không có bất kì tác động tiêu cực nào.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các ngành kinh tế:",
       "statements": [
-        { "text": "Khu vực I gồm nông - lâm - thủy sản; khu vực II gồm công nghiệp - xây dựng; khu vực III gồm các ngành dịch vụ.", "answer": true },
-        { "text": "Lúa là cây lương thực chính của hầu hết châu Á.", "answer": true },
-        { "text": "Đường biển là phương tiện vận tải chủ yếu cho thương mại quốc tế.", "answer": true },
-        { "text": "Ở các nước phát triển, nông nghiệp chiếm tỉ trọng lớn nhất trong GDP.", "answer": false }
+        {
+          "text": "Khu vực I gồm nông - lâm - thủy sản; khu vực II gồm công nghiệp - xây dựng; khu vực III gồm các ngành dịch vụ.",
+          "answer": true
+        },
+        {
+          "text": "Lúa là cây lương thực chính của hầu hết châu Á.",
+          "answer": true
+        },
+        {
+          "text": "Đường biển là phương tiện vận tải chủ yếu cho thương mại quốc tế.",
+          "answer": true
+        },
+        {
+          "text": "Ở các nước phát triển, nông nghiệp chiếm tỉ trọng lớn nhất trong GDP.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,11 @@
       "level": "TH",
       "question": "Khu vực ___ của nền kinh tế gồm các ngành thương mại, ngân hàng, du lịch, giáo dục, y tế.",
       "answer": "III",
-      "alternatives": ["3", "dịch vụ", "khu vực III"],
+      "alternatives": [
+        "3",
+        "dịch vụ",
+        "khu vực III"
+      ],
       "hint": "Khu vực III = dịch vụ."
     },
     {
@@ -204,7 +232,10 @@
       "level": "VD",
       "question": "Loại hình giao thông vận chuyển hàng hóa thương mại quốc tế chủ yếu là đường ___",
       "answer": "biển",
-      "alternatives": ["bien", "đường biển"],
+      "alternatives": [
+        "bien",
+        "đường biển"
+      ],
       "hint": "Đường biển chiếm phần lớn thương mại quốc tế do chi phí thấp, khối lượng lớn."
     },
     {
@@ -214,5 +245,6 @@
       "answer": true,
       "hint": "Đây là quy luật phân bố dân cư phổ biến trên thế giới."
     }
-  ]
+  ],
+  "examType": "practice"
 }

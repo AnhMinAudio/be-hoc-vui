@@ -164,10 +164,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "Cleft sentences (câu chẻ) are used to emphasize a particular part of a sentence. (Câu chẻ được dùng để nhấn mạnh một phần cụ thể trong câu.)", "answer": true },
-        { "text": "\"I wish I knew the answer\" expresses an unreal wish about the present. (\"I wish I knew the answer\" diễn tả một điều ước không có thật ở hiện tại.)", "answer": true },
-        { "text": "After \"by the time\" referring to a past moment, we usually use the past perfect tense. (Sau \"by the time\" chỉ một thời điểm trong quá khứ, ta thường dùng thì quá khứ hoàn thành.)", "answer": true },
-        { "text": "Inversion structures are never used in formal English writing. (Cấu trúc đảo ngữ không bao giờ được dùng trong văn viết tiếng Anh trang trọng.)", "answer": false }
+        {
+          "text": "Cleft sentences (câu chẻ) are used to emphasize a particular part of a sentence. (Câu chẻ được dùng để nhấn mạnh một phần cụ thể trong câu.)",
+          "answer": true
+        },
+        {
+          "text": "\"I wish I knew the answer\" expresses an unreal wish about the present. (\"I wish I knew the answer\" diễn tả một điều ước không có thật ở hiện tại.)",
+          "answer": true
+        },
+        {
+          "text": "After \"by the time\" referring to a past moment, we usually use the past perfect tense. (Sau \"by the time\" chỉ một thời điểm trong quá khứ, ta thường dùng thì quá khứ hoàn thành.)",
+          "answer": true
+        },
+        {
+          "text": "Inversion structures are never used in formal English writing. (Cấu trúc đảo ngữ không bao giờ được dùng trong văn viết tiếng Anh trang trọng.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -175,10 +187,22 @@
       "level": "VD",
       "question": "Decide if each statement about vocabulary and reading is true or false. (Xét tính đúng/sai về từ vựng và đọc hiểu.)",
       "statements": [
-        { "text": "\"Globalization\" refers to the process of becoming connected with other countries around the world. (\"Globalization\" chỉ quá trình kết nối với các nước khác trên thế giới.)", "answer": true },
-        { "text": "Online learning has both advantages and disadvantages. (Học trực tuyến có cả ưu điểm và nhược điểm.)", "answer": true },
-        { "text": "Combining online and traditional learning can be an effective approach. (Kết hợp học trực tuyến và truyền thống có thể là cách tiếp cận hiệu quả.)", "answer": true },
-        { "text": "Online learning completely replaces traditional schools in every country. (Học trực tuyến hoàn toàn thay thế các trường truyền thống ở mọi quốc gia.)", "answer": false }
+        {
+          "text": "\"Globalization\" refers to the process of becoming connected with other countries around the world. (\"Globalization\" chỉ quá trình kết nối với các nước khác trên thế giới.)",
+          "answer": true
+        },
+        {
+          "text": "Online learning has both advantages and disadvantages. (Học trực tuyến có cả ưu điểm và nhược điểm.)",
+          "answer": true
+        },
+        {
+          "text": "Combining online and traditional learning can be an effective approach. (Kết hợp học trực tuyến và truyền thống có thể là cách tiếp cận hiệu quả.)",
+          "answer": true
+        },
+        {
+          "text": "Online learning completely replaces traditional schools in every country. (Học trực tuyến hoàn toàn thay thế các trường truyền thống ở mọi quốc gia.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -186,7 +210,11 @@
       "level": "TH",
       "question": "Complete with the correct form of \"wish\": \"I wish I _____ (be) taller.\" (Hoàn thành với dạng đúng của \"wish\": \"Tôi ước tôi cao hơn.\")",
       "answer": "were",
-      "alternatives": ["was", "Were", "Was"],
+      "alternatives": [
+        "was",
+        "Were",
+        "Was"
+      ],
       "hint": "Wish + S + V_past; với \"be\" thường dùng \"were\" cho mọi ngôi (was cũng được dùng thông tục)."
     },
     {
@@ -194,7 +222,11 @@
       "level": "VD",
       "question": "Complete the relative pronoun: \"The teacher _____ teaches us English is very kind.\" (Hoàn thành đại từ quan hệ.)",
       "answer": "who",
-      "alternatives": ["that", "Who", "That"],
+      "alternatives": [
+        "that",
+        "Who",
+        "That"
+      ],
       "hint": "\"who\" / \"that\" cho người làm chủ ngữ của mệnh đề quan hệ."
     },
     {
@@ -204,5 +236,6 @@
       "answer": true,
       "hint": "Đây là quan điểm phổ biến và chính xác về tác động hai mặt của toàn cầu hóa."
     }
-  ]
+  ],
+  "examType": "practice"
 }

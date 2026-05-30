@@ -16,7 +16,12 @@
     {
       "type": "multiple-choice",
       "question": "Phân số 3/4 đọc là:",
-      "options": ["ba phần tư", "bốn phần ba", "ba phần bốn mươi", "ba bốn"],
+      "options": [
+        "ba phần tư",
+        "bốn phần ba",
+        "ba phần bốn mươi",
+        "ba bốn"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -36,14 +41,24 @@
     {
       "type": "multiple-choice",
       "question": "1 tấn bằng bao nhiêu ki-lô-gam?",
-      "options": ["100 kg", "1000 kg", "10 kg", "10000 kg"],
+      "options": [
+        "100 kg",
+        "1000 kg",
+        "10 kg",
+        "10000 kg"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Phân số nào lớn hơn: 2/3 hay 1/3?",
-      "options": ["2/3", "1/3", "Hai phân số bằng nhau", "Không so sánh được"],
+      "options": [
+        "2/3",
+        "1/3",
+        "Hai phân số bằng nhau",
+        "Không so sánh được"
+      ],
       "answer": 0,
       "level": "M1",
       "hint": "Cùng mẫu, tử số nào lớn hơn thì phân số lớn hơn."
@@ -57,7 +72,12 @@
     {
       "type": "multiple-choice",
       "question": "1 thế kỉ bằng bao nhiêu năm?",
-      "options": ["10 năm", "100 năm", "1000 năm", "50 năm"],
+      "options": [
+        "10 năm",
+        "100 năm",
+        "1000 năm",
+        "50 năm"
+      ],
       "answer": 1,
       "level": "M1"
     },
@@ -72,7 +92,9 @@
       "type": "fill-blank",
       "question": "1/2 - 1/6 = ___",
       "answer": "1/3",
-      "alternatives": ["2/6"],
+      "alternatives": [
+        "2/6"
+      ],
       "level": "M2",
       "hint": "Quy đồng về mẫu 6: 1/2 = 3/6."
     },
@@ -86,7 +108,12 @@
     {
       "type": "multiple-choice",
       "question": "Phân số tối giản bằng 10/15 là:",
-      "options": ["2/3", "5/3", "1/2", "10/15"],
+      "options": [
+        "2/3",
+        "5/3",
+        "1/2",
+        "10/15"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Chia cả tử và mẫu cho 5."
@@ -114,10 +141,16 @@
     {
       "type": "multiple-choice",
       "question": "Một mảnh vườn hình vuông cạnh 8 m. Chu vi mảnh vườn là:",
-      "options": ["16 m", "32 m", "64 m", "24 m"],
+      "options": [
+        "16 m",
+        "32 m",
+        "64 m",
+        "24 m"
+      ],
       "answer": 1,
       "level": "M3",
       "hint": "Chu vi hình vuông bằng cạnh nhân 4: 8 × 4."
     }
-  ]
+  ],
+  "examType": "final2"
 }

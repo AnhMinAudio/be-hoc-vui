@@ -6,12 +6,90 @@
   "topic": "Cảm xúc theo tình huống",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Được tặng quà sinh nhật, bé thấy thế nào?", "options": ["😍", "😢", "😠", "😴"], "answer": 0, "hint": "Quà sinh nhật làm bé thích mê." },
-    { "type": "image-choice", "question": "Làm rơi mất đồ chơi yêu thích, bé thấy sao?", "options": ["😀", "😢", "😮", "😠"], "answer": 1, "hint": "Mất đồ yêu thích thì bé buồn." },
-    { "type": "image-choice", "question": "Thấy con chó to sủa, bé có thể thấy thế nào?", "options": ["😍", "😀", "😨", "😴"], "answer": 2, "hint": "Chó to sủa lớn làm bé sợ." },
-    { "type": "image-choice", "question": "Sắp đến giờ đi ngủ và bé ngáp, bé đang thấy gì?", "options": ["😴", "😠", "😮", "😍"], "answer": 0, "hint": "Ngáp nhiều là buồn ngủ rồi." },
-    { "type": "image-choice", "question": "Bạn thân tới chơi cùng, bé thấy thế nào?", "options": ["😢", "😀", "😠", "😨"], "answer": 1, "hint": "Có bạn chơi thì rất vui." },
-    { "type": "image-choice", "question": "Bị em bé giành mất bánh, bé thấy thế nào?", "options": ["😍", "😴", "😠", "😀"], "answer": 2, "hint": "Bị giành đồ thì bé tức giận." },
-    { "type": "image-choice", "question": "Bỗng có người hét \"Ú òa!\", bé thấy thế nào?", "options": ["😮", "😴", "😢", "😀"], "answer": 0, "hint": "Bất ngờ thì bé giật mình, ngạc nhiên." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Được tặng quà sinh nhật, bé thấy thế nào?",
+      "options": [
+        "😍",
+        "😢",
+        "😠",
+        "😴"
+      ],
+      "answer": 0,
+      "hint": "Quà sinh nhật làm bé thích mê."
+    },
+    {
+      "type": "image-choice",
+      "question": "Làm rơi mất đồ chơi yêu thích, bé thấy sao?",
+      "options": [
+        "😀",
+        "😢",
+        "😮",
+        "😠"
+      ],
+      "answer": 1,
+      "hint": "Mất đồ yêu thích thì bé buồn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Thấy con chó to sủa, bé có thể thấy thế nào?",
+      "options": [
+        "😍",
+        "😀",
+        "😨",
+        "😴"
+      ],
+      "answer": 2,
+      "hint": "Chó to sủa lớn làm bé sợ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Sắp đến giờ đi ngủ và bé ngáp, bé đang thấy gì?",
+      "options": [
+        "😴",
+        "😠",
+        "😮",
+        "😍"
+      ],
+      "answer": 0,
+      "hint": "Ngáp nhiều là buồn ngủ rồi."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bạn thân tới chơi cùng, bé thấy thế nào?",
+      "options": [
+        "😢",
+        "😀",
+        "😠",
+        "😨"
+      ],
+      "answer": 1,
+      "hint": "Có bạn chơi thì rất vui."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bị em bé giành mất bánh, bé thấy thế nào?",
+      "options": [
+        "😍",
+        "😴",
+        "😠",
+        "😀"
+      ],
+      "answer": 2,
+      "hint": "Bị giành đồ thì bé tức giận."
+    },
+    {
+      "type": "image-choice",
+      "question": "Bỗng có người hét \"Ú òa!\", bé thấy thế nào?",
+      "options": [
+        "😮",
+        "😴",
+        "😢",
+        "😀"
+      ],
+      "answer": 0,
+      "hint": "Bất ngờ thì bé giật mình, ngạc nhiên."
+    }
+  ],
+  "examType": "practice"
 }

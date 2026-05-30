@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về nội năng và định luật I nhiệt động lực học (áp dụng cho khí lí tưởng):",
       "statements": [
-        { "text": "Khi hệ nhận nhiệt lượng từ bên ngoài thì $Q > 0$.", "answer": true },
-        { "text": "Nội năng của một lượng khí lí tưởng chỉ phụ thuộc vào nhiệt độ của nó.", "answer": true },
-        { "text": "Trong quá trình đẳng nhiệt của khí lí tưởng, nội năng của khí không đổi.", "answer": true },
-        { "text": "Khi khí dãn nở và thực hiện công lên môi trường ngoài thì công $A$ mà khí nhận được mang giá trị dương.", "answer": false }
+        {
+          "text": "Khi hệ nhận nhiệt lượng từ bên ngoài thì $Q > 0$.",
+          "answer": true
+        },
+        {
+          "text": "Nội năng của một lượng khí lí tưởng chỉ phụ thuộc vào nhiệt độ của nó.",
+          "answer": true
+        },
+        {
+          "text": "Trong quá trình đẳng nhiệt của khí lí tưởng, nội năng của khí không đổi.",
+          "answer": true
+        },
+        {
+          "text": "Khi khí dãn nở và thực hiện công lên môi trường ngoài thì công $A$ mà khí nhận được mang giá trị dương.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các quá trình biến đổi trạng thái của một lượng khí lí tưởng xác định:",
       "statements": [
-        { "text": "Trong quá trình đẳng nhiệt, tích áp suất và thể tích là một hằng số ($pV =$ hằng số).", "answer": true },
-        { "text": "Trong quá trình đẳng áp, thể tích tỉ lệ thuận với nhiệt độ tuyệt đối.", "answer": true },
-        { "text": "Trong quá trình đẳng tích, áp suất tỉ lệ thuận với nhiệt độ tuyệt đối.", "answer": true },
-        { "text": "Ở nhiệt độ $0\\ ^\\circ$C, chuyển động nhiệt của các phân tử khí hoàn toàn dừng lại.", "answer": false }
+        {
+          "text": "Trong quá trình đẳng nhiệt, tích áp suất và thể tích là một hằng số ($pV =$ hằng số).",
+          "answer": true
+        },
+        {
+          "text": "Trong quá trình đẳng áp, thể tích tỉ lệ thuận với nhiệt độ tuyệt đối.",
+          "answer": true
+        },
+        {
+          "text": "Trong quá trình đẳng tích, áp suất tỉ lệ thuận với nhiệt độ tuyệt đối.",
+          "answer": true
+        },
+        {
+          "text": "Ở nhiệt độ $0\\ ^\\circ$C, chuyển động nhiệt của các phân tử khí hoàn toàn dừng lại.",
+          "answer": false
+        }
       ]
     },
     {
@@ -190,7 +214,11 @@
       "level": "VD",
       "question": "Cần cung cấp nhiệt lượng để làm nóng chảy hoàn toàn $2$ kg nước đá ở $0\\ ^\\circ$C. Cho nhiệt nóng chảy riêng của nước đá $\\lambda = 3,4 \\cdot 10^5$ J/kg. Nhiệt lượng cần cung cấp là ___ J",
       "answer": "680000",
-      "alternatives": ["680 000", "6,8.10^5", "6,8·10^5"],
+      "alternatives": [
+        "680 000",
+        "6,8.10^5",
+        "6,8·10^5"
+      ],
       "hint": "$Q = \\lambda m = 3,4 \\cdot 10^5 \\cdot 2 = 6,8 \\cdot 10^5 = 680\\,000$ J."
     },
     {
@@ -200,5 +228,9 @@
       "answer": true,
       "hint": "$0$ K là độ không tuyệt đối — nhiệt độ thấp nhất có thể có."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 1
+  }
 }

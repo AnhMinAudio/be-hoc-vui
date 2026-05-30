@@ -21,14 +21,24 @@
     {
       "type": "multiple-choice",
       "question": "Số 8 305 đọc là:",
-      "options": ["Tám nghìn ba trăm linh năm", "Tám trăm ba mươi lăm", "Tám nghìn ba trăm năm mươi", "Tám nghìn ba mươi lăm"],
+      "options": [
+        "Tám nghìn ba trăm linh năm",
+        "Tám trăm ba mươi lăm",
+        "Tám nghìn ba trăm năm mươi",
+        "Tám nghìn ba mươi lăm"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "1 kg bằng bao nhiêu gam?",
-      "options": ["10 g", "100 g", "1000 g", "1 g"],
+      "options": [
+        "10 g",
+        "100 g",
+        "1000 g",
+        "1 g"
+      ],
       "answer": 2,
       "level": "M1"
     },
@@ -41,7 +51,12 @@
     {
       "type": "multiple-choice",
       "question": "Tháng 4 có bao nhiêu ngày?",
-      "options": ["28 ngày", "30 ngày", "31 ngày", "29 ngày"],
+      "options": [
+        "28 ngày",
+        "30 ngày",
+        "31 ngày",
+        "29 ngày"
+      ],
       "answer": 1,
       "level": "M1",
       "hint": "Tháng 4, 6, 9, 11 có 30 ngày."
@@ -68,7 +83,12 @@
     {
       "type": "multiple-choice",
       "question": "Diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 3 cm là:",
-      "options": ["11 cm²", "24 cm²", "22 cm²", "16 cm²"],
+      "options": [
+        "11 cm²",
+        "24 cm²",
+        "22 cm²",
+        "16 cm²"
+      ],
       "answer": 1,
       "level": "M2",
       "hint": "Diện tích hình chữ nhật bằng dài nhân rộng: 8 × 3."
@@ -77,17 +97,34 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả đúng",
       "pairs": [
-        ["7 × 8", "56"],
-        ["81 : 9", "9"],
-        ["123 × 3", "369"],
-        ["100 - 45", "55"]
+        [
+          "7 × 8",
+          "56"
+        ],
+        [
+          "81 : 9",
+          "9"
+        ],
+        [
+          "123 × 3",
+          "369"
+        ],
+        [
+          "100 - 45",
+          "55"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Số liền trước của 5000 là số nào?",
-      "options": ["4999", "5001", "4990", "5009"],
+      "options": [
+        "4999",
+        "5001",
+        "4990",
+        "5009"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -115,10 +152,16 @@
     {
       "type": "multiple-choice",
       "question": "Một mảnh đất hình chữ nhật có chiều dài 9 m, chiều rộng 5 m. Chu vi mảnh đất đó là:",
-      "options": ["14 m", "28 m", "45 m", "18 m"],
+      "options": [
+        "14 m",
+        "28 m",
+        "45 m",
+        "18 m"
+      ],
       "answer": 1,
       "level": "M3",
       "hint": "Chu vi hình chữ nhật bằng (dài + rộng) × 2 = (9 + 5) × 2."
     }
-  ]
+  ],
+  "examType": "final2"
 }

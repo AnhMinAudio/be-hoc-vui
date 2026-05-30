@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế:",
       "statements": [
-        { "text": "Trong nền kinh tế thị trường, giá cả hàng hóa được hình thành chủ yếu trên cơ sở quan hệ cung - cầu.", "answer": true },
-        { "text": "Thuế là khoản nộp bắt buộc vào ngân sách nhà nước, không hoàn trả trực tiếp cho người nộp.", "answer": true },
-        { "text": "Tín dụng là quan hệ tặng cho hoàn toàn miễn phí giữa các cá nhân.", "answer": false },
-        { "text": "Việc lập kế hoạch tài chính cá nhân giúp mỗi người chủ động hơn trong chi tiêu và tiết kiệm.", "answer": true }
+        {
+          "text": "Trong nền kinh tế thị trường, giá cả hàng hóa được hình thành chủ yếu trên cơ sở quan hệ cung - cầu.",
+          "answer": true
+        },
+        {
+          "text": "Thuế là khoản nộp bắt buộc vào ngân sách nhà nước, không hoàn trả trực tiếp cho người nộp.",
+          "answer": true
+        },
+        {
+          "text": "Tín dụng là quan hệ tặng cho hoàn toàn miễn phí giữa các cá nhân.",
+          "answer": false
+        },
+        {
+          "text": "Việc lập kế hoạch tài chính cá nhân giúp mỗi người chủ động hơn trong chi tiêu và tiết kiệm.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về pháp luật và hệ thống chính trị:",
       "statements": [
-        { "text": "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.", "answer": true },
-        { "text": "Hiến pháp là luật cơ bản, có hiệu lực pháp lí cao nhất trong hệ thống pháp luật Việt Nam.", "answer": true },
-        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
-        { "text": "Quốc hội là cơ quan có thẩm quyền cao nhất xét xử trong hệ thống tư pháp.", "answer": false }
+        {
+          "text": "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.",
+          "answer": true
+        },
+        {
+          "text": "Hiến pháp là luật cơ bản, có hiệu lực pháp lí cao nhất trong hệ thống pháp luật Việt Nam.",
+          "answer": true
+        },
+        {
+          "text": "Mọi công dân đều bình đẳng trước pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Quốc hội là cơ quan có thẩm quyền cao nhất xét xử trong hệ thống tư pháp.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Văn bản pháp luật có hiệu lực pháp lí cao nhất trong hệ thống pháp luật Việt Nam là ___",
       "answer": "Hiến pháp",
-      "alternatives": ["hien phap"],
+      "alternatives": [
+        "hien phap"
+      ],
       "hint": "Hiến pháp là luật cơ bản của Nhà nước."
     },
     {
@@ -191,7 +217,9 @@
       "level": "TH",
       "question": "Cơ quan quyền lực nhà nước cao nhất ở Việt Nam, có thẩm quyền ban hành Hiến pháp và các luật là ___",
       "answer": "Quốc hội",
-      "alternatives": ["quoc hoi"],
+      "alternatives": [
+        "quoc hoi"
+      ],
       "hint": "Quốc hội là cơ quan đại biểu cao nhất của Nhân dân, cơ quan quyền lực nhà nước cao nhất."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Thuế chiếm tỉ trọng lớn nhất trong nguồn thu của ngân sách nhà nước."
     }
-  ]
+  ],
+  "examType": "practice"
 }

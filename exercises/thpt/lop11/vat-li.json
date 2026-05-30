@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về dao động và sóng:",
       "statements": [
-        { "text": "Dao động điều hòa là dao động có li độ là một hàm cosin (hoặc sin) của thời gian.", "answer": true },
-        { "text": "Chu kì dao động của con lắc đơn (góc lệch nhỏ) là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.", "answer": true },
-        { "text": "Sóng cơ có thể lan truyền cả trong chân không.", "answer": false },
-        { "text": "Trong sóng, bước sóng $\\lambda$ bằng tích của tốc độ truyền sóng $v$ và chu kì $T$.", "answer": true }
+        {
+          "text": "Dao động điều hòa là dao động có li độ là một hàm cosin (hoặc sin) của thời gian.",
+          "answer": true
+        },
+        {
+          "text": "Chu kì dao động của con lắc đơn (góc lệch nhỏ) là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.",
+          "answer": true
+        },
+        {
+          "text": "Sóng cơ có thể lan truyền cả trong chân không.",
+          "answer": false
+        },
+        {
+          "text": "Trong sóng, bước sóng $\\lambda$ bằng tích của tốc độ truyền sóng $v$ và chu kì $T$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về điện trường và dòng điện:",
       "statements": [
-        { "text": "Theo định luật Coulomb, lực tương tác giữa hai điện tích điểm tỉ lệ thuận với tích độ lớn các điện tích và tỉ lệ NGHỊCH với BÌNH PHƯƠNG khoảng cách giữa chúng.", "answer": true },
-        { "text": "Định luật Ohm cho đoạn mạch chỉ có điện trở $R$: $U = IR$.", "answer": true },
-        { "text": "Cường độ dòng điện đo bằng tổng điện lượng chuyển qua tiết diện thẳng trong một đơn vị thời gian.", "answer": true },
-        { "text": "Đơn vị của điện trở trong hệ SI là vôn (V).", "answer": false }
+        {
+          "text": "Theo định luật Coulomb, lực tương tác giữa hai điện tích điểm tỉ lệ thuận với tích độ lớn các điện tích và tỉ lệ NGHỊCH với BÌNH PHƯƠNG khoảng cách giữa chúng.",
+          "answer": true
+        },
+        {
+          "text": "Định luật Ohm cho đoạn mạch chỉ có điện trở $R$: $U = IR$.",
+          "answer": true
+        },
+        {
+          "text": "Cường độ dòng điện đo bằng tổng điện lượng chuyển qua tiết diện thẳng trong một đơn vị thời gian.",
+          "answer": true
+        },
+        {
+          "text": "Đơn vị của điện trở trong hệ SI là vôn (V).",
+          "answer": false
+        }
       ]
     },
     {
@@ -212,5 +236,6 @@
       "answer": true,
       "hint": "Điện trở đo bằng ôm: $1$ Ω = $1$ V/A."
     }
-  ]
+  ],
+  "examType": "practice"
 }

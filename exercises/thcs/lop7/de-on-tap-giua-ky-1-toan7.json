@@ -95,7 +95,10 @@
       "level": "NB",
       "question": "Một góc có số đo $110^\\circ$. Số đo góc kề bù với nó là ___ độ.",
       "answer": "70",
-      "alternatives": ["70 độ", "$70^\\circ$"],
+      "alternatives": [
+        "70 độ",
+        "$70^\\circ$"
+      ],
       "hint": "Hai góc kề bù có tổng $180^\\circ$, nên góc còn lại là $180^\\circ - 110^\\circ$."
     },
     {
@@ -155,10 +158,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về số hữu tỉ:",
       "statements": [
-        { "text": "Mọi số nguyên đều là số hữu tỉ.", "answer": true },
-        { "text": "$\\left( \\dfrac{-1}{2} \\right)^4 = \\dfrac{1}{16}$.", "answer": true },
-        { "text": "$\\dfrac{-2}{3} = \\dfrac{2}{-3}$.", "answer": true },
-        { "text": "Số nghịch đảo của $\\dfrac{2}{5}$ là $-\\dfrac{2}{5}$.", "answer": false }
+        {
+          "text": "Mọi số nguyên đều là số hữu tỉ.",
+          "answer": true
+        },
+        {
+          "text": "$\\left( \\dfrac{-1}{2} \\right)^4 = \\dfrac{1}{16}$.",
+          "answer": true
+        },
+        {
+          "text": "$\\dfrac{-2}{3} = \\dfrac{2}{-3}$.",
+          "answer": true
+        },
+        {
+          "text": "Số nghịch đảo của $\\dfrac{2}{5}$ là $-\\dfrac{2}{5}$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -166,10 +181,22 @@
       "level": "TH",
       "question": "Cho hai đường thẳng cắt nhau tạo thành bốn góc, trong đó có một góc bằng $65^\\circ$. Xét tính đúng/sai của các khẳng định:",
       "statements": [
-        { "text": "Góc đối đỉnh với góc $65^\\circ$ cũng bằng $65^\\circ$.", "answer": true },
-        { "text": "Góc kề bù với góc $65^\\circ$ bằng $115^\\circ$.", "answer": true },
-        { "text": "Hai góc đối đỉnh thì bằng nhau.", "answer": true },
-        { "text": "Hai góc kề bù thì luôn bằng nhau.", "answer": false }
+        {
+          "text": "Góc đối đỉnh với góc $65^\\circ$ cũng bằng $65^\\circ$.",
+          "answer": true
+        },
+        {
+          "text": "Góc kề bù với góc $65^\\circ$ bằng $115^\\circ$.",
+          "answer": true
+        },
+        {
+          "text": "Hai góc đối đỉnh thì bằng nhau.",
+          "answer": true
+        },
+        {
+          "text": "Hai góc kề bù thì luôn bằng nhau.",
+          "answer": false
+        }
       ]
     },
     {
@@ -177,7 +204,9 @@
       "level": "TH",
       "question": "Tính: $\\dfrac{5}{8} : \\dfrac{15}{16} = $ ___ (viết phân số tối giản dạng a/b).",
       "answer": "2/3",
-      "alternatives": ["$\\dfrac{2}{3}$"],
+      "alternatives": [
+        "$\\dfrac{2}{3}$"
+      ],
       "hint": "Chia phân số là nhân với nghịch đảo: $\\dfrac{5}{8} \\times \\dfrac{16}{15} = \\dfrac{80}{120} = \\dfrac{2}{3}$."
     },
     {
@@ -185,7 +214,9 @@
       "level": "VD",
       "question": "Tính giá trị của biểu thức $\\dfrac{1}{3} + \\dfrac{2}{3} \\times \\dfrac{3}{4}$. Đáp án: ___ (viết phân số tối giản dạng a/b).",
       "answer": "5/6",
-      "alternatives": ["$\\dfrac{5}{6}$"],
+      "alternatives": [
+        "$\\dfrac{5}{6}$"
+      ],
       "hint": "Nhân trước: $\\dfrac{2}{3} \\times \\dfrac{3}{4} = \\dfrac{1}{2}$; rồi $\\dfrac{1}{3} + \\dfrac{1}{2} = \\dfrac{2}{6} + \\dfrac{3}{6} = \\dfrac{5}{6}$."
     },
     {
@@ -193,7 +224,10 @@
       "level": "VD",
       "question": "Hai góc kề bù, trong đó góc lớn hơn góc nhỏ $30^\\circ$. Số đo góc lớn là ___ độ.",
       "answer": "105",
-      "alternatives": ["105 độ", "$105^\\circ$"],
+      "alternatives": [
+        "105 độ",
+        "$105^\\circ$"
+      ],
       "hint": "Gọi góc nhỏ là $x$ thì $x + (x + 30^\\circ) = 180^\\circ$, suy ra $x = 75^\\circ$ và góc lớn $= 105^\\circ$."
     },
     {
@@ -201,8 +235,11 @@
       "level": "VDC",
       "question": "Một cửa hàng có $120$ kg gạo. Ngày thứ nhất bán được $\\dfrac{2}{5}$ số gạo, ngày thứ hai bán được $\\dfrac{1}{3}$ số gạo còn lại sau ngày thứ nhất. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo? Đáp án: ___ (chỉ ghi số).",
       "answer": "48",
-      "alternatives": ["48 kg"],
+      "alternatives": [
+        "48 kg"
+      ],
       "hint": "Sau ngày 1 còn $120 \\times \\dfrac{3}{5} = 72$ kg; ngày 2 bán $72 \\times \\dfrac{1}{3} = 24$ kg; còn lại $72 - 24 = 48$ kg."
     }
-  ]
+  ],
+  "examType": "midterm1"
 }

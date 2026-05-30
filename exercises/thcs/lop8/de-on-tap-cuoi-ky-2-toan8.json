@@ -11,14 +11,24 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn?",
-      "options": ["$2x - 3 = 0$", "$x^2 + 1 = 0$", "$\\dfrac{1}{x} = 2$", "$0x + 1 = 0$"],
+      "options": [
+        "$2x - 3 = 0$",
+        "$x^2 + 1 = 0$",
+        "$\\dfrac{1}{x} = 2$",
+        "$0x + 1 = 0$"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Nghiệm của phương trình $2x - 6 = 0$ là:",
-      "options": ["$x = 3$", "$x = -3$", "$x = 6$", "$x = 2$"],
+      "options": [
+        "$x = 3$",
+        "$x = -3$",
+        "$x = 6$",
+        "$x = 2$"
+      ],
       "answer": 0,
       "hint": "$2x = 6 \\Rightarrow x = 3$."
     },
@@ -26,14 +36,24 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Hàm số nào sau đây là hàm số bậc nhất?",
-      "options": ["$y = 2x + 1$", "$y = x^2$", "$y = \\dfrac{3}{x}$", "$y = 5$"],
+      "options": [
+        "$y = 2x + 1$",
+        "$y = x^2$",
+        "$y = \\dfrac{3}{x}$",
+        "$y = 5$"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Điều kiện xác định của phân thức $\\dfrac{x+1}{x-2}$ là:",
-      "options": ["$x \\neq 2$", "$x \\neq -1$", "$x \\neq 0$", "$x \\neq 1$"],
+      "options": [
+        "$x \\neq 2$",
+        "$x \\neq -1$",
+        "$x \\neq 0$",
+        "$x \\neq 1$"
+      ],
       "answer": 0,
       "hint": "Mẫu khác $0$: $x - 2 \\neq 0$."
     },
@@ -41,21 +61,36 @@
       "type": "multiple-choice",
       "level": "NB",
       "question": "Hệ số góc của đường thẳng $y = -3x + 2$ là:",
-      "options": ["$-3$", "$2$", "$3$", "$-2$"],
+      "options": [
+        "$-3$",
+        "$2$",
+        "$3$",
+        "$-2$"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Nếu hai tam giác đồng dạng thì các góc tương ứng:",
-      "options": ["bằng nhau", "bù nhau", "phụ nhau", "tỉ lệ với nhau"],
+      "options": [
+        "bằng nhau",
+        "bù nhau",
+        "phụ nhau",
+        "tỉ lệ với nhau"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Giải phương trình $3x + 5 = 2x + 9$. Nghiệm là:",
-      "options": ["$x = 4$", "$x = 14$", "$x = -4$", "$x = 2$"],
+      "options": [
+        "$x = 4$",
+        "$x = 14$",
+        "$x = -4$",
+        "$x = 2$"
+      ],
       "answer": 0,
       "hint": "$3x - 2x = 9 - 5 \\Rightarrow x = 4$."
     },
@@ -63,7 +98,12 @@
       "type": "multiple-choice",
       "level": "TH",
       "question": "Rút gọn phân thức $\\dfrac{2x}{4x^2}$ (với $x \\neq 0$):",
-      "options": ["$\\dfrac{1}{2x}$", "$\\dfrac{2}{x}$", "$\\dfrac{x}{2}$", "$2x$"],
+      "options": [
+        "$\\dfrac{1}{2x}$",
+        "$\\dfrac{2}{x}$",
+        "$\\dfrac{x}{2}$",
+        "$2x$"
+      ],
       "answer": 0,
       "hint": "$\\dfrac{2x}{4x^2} = \\dfrac{1}{2x}$."
     },
@@ -72,10 +112,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về phương trình và hàm số:",
       "statements": [
-        { "text": "Phương trình $x + 3 = 3 + x$ có vô số nghiệm.", "answer": true },
-        { "text": "Đường thẳng $y = 2x + 1$ đi qua điểm $(0; 1)$.", "answer": true },
-        { "text": "Phương trình $0x = 5$ có nghiệm $x = 5$.", "answer": false },
-        { "text": "Hàm số $y = -x + 4$ là hàm số nghịch biến.", "answer": true }
+        {
+          "text": "Phương trình $x + 3 = 3 + x$ có vô số nghiệm.",
+          "answer": true
+        },
+        {
+          "text": "Đường thẳng $y = 2x + 1$ đi qua điểm $(0; 1)$.",
+          "answer": true
+        },
+        {
+          "text": "Phương trình $0x = 5$ có nghiệm $x = 5$.",
+          "answer": false
+        },
+        {
+          "text": "Hàm số $y = -x + 4$ là hàm số nghịch biến.",
+          "answer": true
+        }
       ]
     },
     {
@@ -89,7 +141,12 @@
       "type": "multiple-choice",
       "level": "TH",
       "question": "Cho $\\triangle ABC \\sim \\triangle DEF$ với $\\dfrac{AB}{DE} = 2$. Nếu $AB = 6$ cm thì $DE = $",
-      "options": ["$3$ cm", "$12$ cm", "$8$ cm", "$4$ cm"],
+      "options": [
+        "$3$ cm",
+        "$12$ cm",
+        "$8$ cm",
+        "$4$ cm"
+      ],
       "answer": 0,
       "hint": "$DE = \\dfrac{AB}{2} = 3$ cm."
     },
@@ -111,7 +168,12 @@
       "type": "multiple-choice",
       "level": "VD",
       "question": "Tổng của hai số là $30$, biết số lớn gấp đôi số bé. Số lớn là:",
-      "options": ["$20$", "$10$", "$15$", "$25$"],
+      "options": [
+        "$20$",
+        "$10$",
+        "$15$",
+        "$25$"
+      ],
       "answer": 0,
       "hint": "Gọi số bé là $a$ thì số lớn là $2a$; $a + 2a = 30 \\Rightarrow a = 10$; số lớn $= 20$."
     },
@@ -126,9 +188,15 @@
       "type": "multiple-choice",
       "level": "VDC",
       "question": "Đường thẳng $y = ax + b$ đi qua hai điểm $(0; 2)$ và $(1; 5)$. Giá trị của $a$ và $b$ là:",
-      "options": ["$a = 3,\\ b = 2$", "$a = 2,\\ b = 3$", "$a = 5,\\ b = 2$", "$a = 3,\\ b = 5$"],
+      "options": [
+        "$a = 3,\\ b = 2$",
+        "$a = 2,\\ b = 3$",
+        "$a = 5,\\ b = 2$",
+        "$a = 3,\\ b = 5$"
+      ],
       "answer": 0,
       "hint": "Tại $(0; 2)$: $b = 2$; tại $(1; 5)$: $a + b = 5 \\Rightarrow a = 3$."
     }
-  ]
+  ],
+  "examType": "final2"
 }

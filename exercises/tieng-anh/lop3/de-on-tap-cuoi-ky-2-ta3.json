@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "What does 'rabbit' mean? (Từ 'rabbit' nghĩa là gì?)",
-      "options": ["con thỏ", "con gấu", "con chuột", "con cáo"],
+      "options": [
+        "con thỏ",
+        "con gấu",
+        "con chuột",
+        "con cáo"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'cái bàn (học)'? ('cái bàn học' tiếng Anh là gì?)",
-      "options": ["desk", "chair", "book", "pen"],
+      "options": [
+        "desk",
+        "chair",
+        "book",
+        "pen"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Which one is a drink? (Đâu là một đồ uống?)",
-      "options": ["milk", "bread", "rice", "fish"],
+      "options": [
+        "milk",
+        "bread",
+        "rice",
+        "fish"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -31,13 +46,21 @@
       "type": "fill-blank",
       "question": "Write 'con chim' in English (Viết 'con chim' bằng tiếng Anh): ___",
       "answer": "bird",
-      "alternatives": ["Bird", "BIRD"],
+      "alternatives": [
+        "Bird",
+        "BIRD"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'hand' mean? (Từ 'hand' nghĩa là gì?)",
-      "options": ["bàn tay", "bàn chân", "cái đầu", "cái mũi"],
+      "options": [
+        "bàn tay",
+        "bàn chân",
+        "cái đầu",
+        "cái mũi"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -45,24 +68,46 @@
       "type": "matching",
       "question": "Match the food with its meaning (Nối thức ăn với nghĩa)",
       "pairs": [
-        ["rice", "cơm"],
-        ["bread", "bánh mì"],
-        ["egg", "trứng"],
-        ["fish", "cá"]
+        [
+          "rice",
+          "cơm"
+        ],
+        [
+          "bread",
+          "bánh mì"
+        ],
+        [
+          "egg",
+          "trứng"
+        ],
+        [
+          "fish",
+          "cá"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the question word: '___ pens do you have?' - 'I have two pens.' (Chọn từ để hỏi số lượng)",
-      "options": ["How many", "What color", "Where", "Who"],
+      "options": [
+        "How many",
+        "What color",
+        "Where",
+        "Who"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Complete the sentence: 'I ___ a teddy bear.' (Em có một con gấu bông)",
-      "options": ["have", "is", "are", "am"],
+      "options": [
+        "have",
+        "is",
+        "are",
+        "am"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -70,20 +115,33 @@
       "type": "fill-blank",
       "question": "Write 'quyển sách' in English (Viết 'quyển sách' bằng tiếng Anh): ___",
       "answer": "book",
-      "alternatives": ["Book", "BOOK"],
+      "alternatives": [
+        "Book",
+        "BOOK"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Answer 'Do you like milk?' when you like it (Trả lời 'Do you like milk?' khi em thích)",
-      "options": ["Yes, I do.", "No, I don't.", "I am milk.", "Milk you."],
+      "options": [
+        "Yes, I do.",
+        "No, I don't.",
+        "I am milk.",
+        "Milk you."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Which sentence is correct? (Câu nào đúng?)",
-      "options": ["This is my pen.", "This my pen is.", "Pen this my.", "My this pen."],
+      "options": [
+        "This is my pen.",
+        "This my pen is.",
+        "Pen this my.",
+        "My this pen."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -91,10 +149,22 @@
       "type": "matching",
       "question": "Match the body part with its meaning (Nối bộ phận cơ thể với nghĩa)",
       "pairs": [
-        ["head", "cái đầu"],
-        ["leg", "cái chân"],
-        ["arm", "cánh tay"],
-        ["nose", "cái mũi"]
+        [
+          "head",
+          "cái đầu"
+        ],
+        [
+          "leg",
+          "cái chân"
+        ],
+        [
+          "arm",
+          "cánh tay"
+        ],
+        [
+          "nose",
+          "cái mũi"
+        ]
       ],
       "level": "M2"
     },
@@ -102,7 +172,12 @@
       "type": "multiple-choice",
       "passage": "Hi! I am Mai. I have a pet. It is a small dog. Its name is Lucky. I like playing with Lucky every day.",
       "question": "What pet does Mai have? (Mai có thú cưng gì?)",
-      "options": ["a cat", "a small dog", "a rabbit", "a bird"],
+      "options": [
+        "a cat",
+        "a small dog",
+        "a rabbit",
+        "a bird"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -110,7 +185,12 @@
       "type": "multiple-choice",
       "passage": "Hi! I am Mai. I have a pet. It is a small dog. Its name is Lucky. I like playing with Lucky every day.",
       "question": "What is the dog's name? (Con chó tên là gì?)",
-      "options": ["Mai", "Lucky", "Milu", "Kitty"],
+      "options": [
+        "Mai",
+        "Lucky",
+        "Milu",
+        "Kitty"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -118,9 +198,15 @@
       "type": "multiple-choice",
       "passage": "Hi! I am Mai. I have a pet. It is a small dog. Its name is Lucky. I like playing with Lucky every day.",
       "question": "What does Mai like doing? (Mai thích làm gì?)",
-      "options": ["playing with Lucky", "reading books", "singing songs", "cooking"],
+      "options": [
+        "playing with Lucky",
+        "reading books",
+        "singing songs",
+        "cooking"
+      ],
       "answer": 0,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "final2"
 }

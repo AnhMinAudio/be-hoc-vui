@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'chair' mean? (Từ 'chair' nghĩa là gì?)",
-      "options": ["cái ghế", "cái bàn", "quyển sách", "cây bút"],
+      "options": [
+        "cái ghế",
+        "cái bàn",
+        "quyển sách",
+        "cây bút"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'cái bảng'? ('cái bảng' tiếng Anh là gì?)",
-      "options": ["board", "door", "window", "floor"],
+      "options": [
+        "board",
+        "door",
+        "window",
+        "floor"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct word: '___ is a pen.' (Đây là một cây bút - chỉ vật ở gần)",
-      "options": ["This", "Those", "They", "Are"],
+      "options": [
+        "This",
+        "Those",
+        "They",
+        "Are"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'window' mean? (Từ 'window' nghĩa là gì?)",
-      "options": ["cửa sổ", "cửa ra vào", "bức tường", "cái sàn"],
+      "options": [
+        "cửa sổ",
+        "cửa ra vào",
+        "bức tường",
+        "cái sàn"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,31 +58,56 @@
       "type": "fill-blank",
       "question": "Write 'cái bàn học' in English (Viết 'cái bàn học' bằng tiếng Anh): ___",
       "answer": "desk",
-      "alternatives": ["Desk", "DESK"],
+      "alternatives": [
+        "Desk",
+        "DESK"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the classroom object with its meaning (Nối đồ vật trong lớp với nghĩa)",
       "pairs": [
-        ["door", "cửa ra vào"],
-        ["window", "cửa sổ"],
-        ["board", "cái bảng"],
-        ["chair", "cái ghế"]
+        [
+          "door",
+          "cửa ra vào"
+        ],
+        [
+          "window",
+          "cửa sổ"
+        ],
+        [
+          "board",
+          "cái bảng"
+        ],
+        [
+          "chair",
+          "cái ghế"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: '___ are my books.' (Kia là những quyển sách của tôi - chỉ vật ở xa)",
-      "options": ["Those", "This", "It", "Am"],
+      "options": [
+        "Those",
+        "This",
+        "It",
+        "Am"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'số mười'? ('số mười' tiếng Anh là gì?)",
-      "options": ["ten", "nine", "eight", "seven"],
+      "options": [
+        "ten",
+        "nine",
+        "eight",
+        "seven"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -70,20 +115,33 @@
       "type": "fill-blank",
       "question": "Write the colour 'màu cam' in English (Viết 'màu cam' bằng tiếng Anh): ___",
       "answer": "orange",
-      "alternatives": ["Orange", "ORANGE"],
+      "alternatives": [
+        "Orange",
+        "ORANGE"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct question: '___ is this?' - 'It's a ruler.' (Hỏi đây là cái gì)",
-      "options": ["What", "Who", "When", "Where"],
+      "options": [
+        "What",
+        "Who",
+        "When",
+        "Where"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Count the pencils: ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ (Đếm số bút chì)",
-      "options": ["five", "six", "seven", "four"],
+      "options": [
+        "five",
+        "six",
+        "seven",
+        "four"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -91,9 +149,18 @@
       "type": "matching",
       "question": "Match the colour with its meaning (Nối màu sắc với nghĩa)",
       "pairs": [
-        ["red", "đỏ"],
-        ["orange", "cam"],
-        ["pink", "hồng"]
+        [
+          "red",
+          "đỏ"
+        ],
+        [
+          "orange",
+          "cam"
+        ],
+        [
+          "pink",
+          "hồng"
+        ]
       ],
       "level": "M2"
     },
@@ -101,7 +168,12 @@
       "type": "multiple-choice",
       "passage": "This is my classroom. There is a big board and many desks. I sit near the window. I like my classroom very much.",
       "question": "Where does the speaker sit? (Bạn nhỏ ngồi ở đâu?)",
-      "options": ["near the window", "near the door", "near the board", "outside"],
+      "options": [
+        "near the window",
+        "near the door",
+        "near the board",
+        "outside"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -109,7 +181,12 @@
       "type": "multiple-choice",
       "passage": "This is my classroom. There is a big board and many desks. I sit near the window. I like my classroom very much.",
       "question": "What is there in the classroom? (Trong lớp học có gì?)",
-      "options": ["a big board and many desks", "a kitchen", "a garden", "a swimming pool"],
+      "options": [
+        "a big board and many desks",
+        "a kitchen",
+        "a garden",
+        "a swimming pool"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -117,16 +194,27 @@
       "type": "multiple-choice",
       "passage": "This is my classroom. There is a big board and many desks. I sit near the window. I like my classroom very much.",
       "question": "How does the speaker feel about the classroom? (Bạn nhỏ cảm thấy thế nào về lớp học?)",
-      "options": ["likes it very much", "hates it", "is bored", "is scared"],
+      "options": [
+        "likes it very much",
+        "hates it",
+        "is bored",
+        "is scared"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Answer the question: 'What colour is the board?' - 'It's ___.' (Cái bảng màu xanh lá)",
-      "options": ["green", "run", "desk", "ten"],
+      "options": [
+        "green",
+        "run",
+        "desk",
+        "ten"
+      ],
       "answer": 0,
       "level": "M2"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

@@ -6,12 +6,89 @@
   "topic": "Màu sắc của sự vật quanh em",
   "difficulty": 3,
   "questions": [
-    { "type": "image-choice", "question": "Quả chuối chín màu gì?", "prompt": "🍌", "options": ["🟢", "🟡", "🔴", "🟣"], "answer": 1 },
-    { "type": "image-choice", "question": "Bầu trời ban ngày màu gì?", "options": ["🔵", "🔴", "🟤", "⚫"], "answer": 0 },
-    { "type": "image-choice", "question": "Củ cà rốt màu gì?", "prompt": "🥕", "options": ["🟠", "🟢", "🔵", "🟣"], "answer": 0 },
-    { "type": "image-choice", "question": "Quả cà tím màu gì?", "prompt": "🍆", "options": ["🟣", "🟡", "🟢", "🔴"], "answer": 0 },
-    { "type": "image-choice", "question": "Người tuyết màu gì?", "prompt": "⛄", "options": ["⚪", "⚫", "🔴", "🟢"], "answer": 0 },
-    { "type": "image-choice", "question": "Cây thông màu gì?", "prompt": "🌲", "options": ["🔵", "🟢", "🟠", "🟤"], "answer": 1 },
-    { "type": "image-choice", "question": "Quả cà chua chín màu gì?", "prompt": "🍅", "options": ["🔴", "🟡", "🟤", "🔵"], "answer": 0 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Quả chuối chín màu gì?",
+      "prompt": "🍌",
+      "options": [
+        "🟢",
+        "🟡",
+        "🔴",
+        "🟣"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Bầu trời ban ngày màu gì?",
+      "options": [
+        "🔵",
+        "🔴",
+        "🟤",
+        "⚫"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Củ cà rốt màu gì?",
+      "prompt": "🥕",
+      "options": [
+        "🟠",
+        "🟢",
+        "🔵",
+        "🟣"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả cà tím màu gì?",
+      "prompt": "🍆",
+      "options": [
+        "🟣",
+        "🟡",
+        "🟢",
+        "🔴"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Người tuyết màu gì?",
+      "prompt": "⛄",
+      "options": [
+        "⚪",
+        "⚫",
+        "🔴",
+        "🟢"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Cây thông màu gì?",
+      "prompt": "🌲",
+      "options": [
+        "🔵",
+        "🟢",
+        "🟠",
+        "🟤"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả cà chua chín màu gì?",
+      "prompt": "🍅",
+      "options": [
+        "🔴",
+        "🟡",
+        "🟤",
+        "🔵"
+      ],
+      "answer": 0
+    }
+  ],
+  "examType": "practice"
 }

@@ -178,10 +178,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về enzyme và ATP:",
       "statements": [
-        { "text": "Enzyme là chất xúc tác sinh học, bản chất chủ yếu là protein.", "answer": true },
-        { "text": "Enzyme có tính đặc hiệu cao đối với cơ chất.", "answer": true },
-        { "text": "ATP là phân tử mang năng lượng được sử dụng trực tiếp cho hầu hết hoạt động sống của tế bào.", "answer": true },
-        { "text": "Enzyme hoạt động tốt nhất ở mọi nhiệt độ và pH bất kì.", "answer": false }
+        {
+          "text": "Enzyme là chất xúc tác sinh học, bản chất chủ yếu là protein.",
+          "answer": true
+        },
+        {
+          "text": "Enzyme có tính đặc hiệu cao đối với cơ chất.",
+          "answer": true
+        },
+        {
+          "text": "ATP là phân tử mang năng lượng được sử dụng trực tiếp cho hầu hết hoạt động sống của tế bào.",
+          "answer": true
+        },
+        {
+          "text": "Enzyme hoạt động tốt nhất ở mọi nhiệt độ và pH bất kì.",
+          "answer": false
+        }
       ]
     },
     {
@@ -189,10 +201,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hô hấp tế bào và quang hợp:",
       "statements": [
-        { "text": "Hô hấp tế bào phân giải chất hữu cơ, giải phóng năng lượng và tổng hợp ATP.", "answer": true },
-        { "text": "Quang hợp tổng hợp chất hữu cơ từ $CO_2$ và $H_2O$, đồng thời giải phóng $O_2$.", "answer": true },
-        { "text": "Ti thể là nơi diễn ra hô hấp tế bào; lục lạp là nơi diễn ra quang hợp.", "answer": true },
-        { "text": "Quang hợp và hô hấp tế bào là cùng một quá trình.", "answer": false }
+        {
+          "text": "Hô hấp tế bào phân giải chất hữu cơ, giải phóng năng lượng và tổng hợp ATP.",
+          "answer": true
+        },
+        {
+          "text": "Quang hợp tổng hợp chất hữu cơ từ $CO_2$ và $H_2O$, đồng thời giải phóng $O_2$.",
+          "answer": true
+        },
+        {
+          "text": "Ti thể là nơi diễn ra hô hấp tế bào; lục lạp là nơi diễn ra quang hợp.",
+          "answer": true
+        },
+        {
+          "text": "Quang hợp và hô hấp tế bào là cùng một quá trình.",
+          "answer": false
+        }
       ]
     },
     {
@@ -200,7 +224,9 @@
       "level": "TH",
       "question": "Phân tử mang năng lượng được sử dụng trực tiếp trong tế bào là ___",
       "answer": "ATP",
-      "alternatives": ["atp"],
+      "alternatives": [
+        "atp"
+      ],
       "hint": "ATP (adenosine triphosphate) là \"đồng tiền năng lượng\" của tế bào."
     },
     {
@@ -208,7 +234,10 @@
       "level": "VD",
       "question": "Bào quan diễn ra hô hấp tế bào và tổng hợp ATP chủ yếu trong tế bào nhân thực là ___",
       "answer": "ti thể",
-      "alternatives": ["ti the", "Ti thể"],
+      "alternatives": [
+        "ti the",
+        "Ti thể"
+      ],
       "hint": "Ti thể được ví là \"nhà máy năng lượng\" của tế bào."
     },
     {
@@ -218,5 +247,6 @@
       "answer": true,
       "hint": "Đặc trưng cơ bản của chất xúc tác: không bị tiêu hao."
     }
-  ]
+  ],
+  "examType": "practice"
 }

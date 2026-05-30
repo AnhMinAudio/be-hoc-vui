@@ -21,14 +21,24 @@
     {
       "type": "multiple-choice",
       "question": "Số 4 027 đọc là:",
-      "options": ["Bốn nghìn không trăm hai mươi bảy", "Bốn nghìn hai trăm bảy mươi", "Bốn trăm hai mươi bảy", "Bốn nghìn hai mươi"],
+      "options": [
+        "Bốn nghìn không trăm hai mươi bảy",
+        "Bốn nghìn hai trăm bảy mươi",
+        "Bốn trăm hai mươi bảy",
+        "Bốn nghìn hai mươi"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Số liền sau của 2 999 là số nào?",
-      "options": ["3 000", "2 998", "2 990", "3 009"],
+      "options": [
+        "3 000",
+        "2 998",
+        "2 990",
+        "3 009"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -59,7 +69,12 @@
     {
       "type": "multiple-choice",
       "question": "Tính 6 × 100 = ?",
-      "options": ["600", "60", "6000", "160"],
+      "options": [
+        "600",
+        "60",
+        "6000",
+        "160"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -67,24 +82,46 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả đúng",
       "pairs": [
-        ["9 × 7", "63"],
-        ["48 : 6", "8"],
-        ["132 × 2", "264"],
-        ["88 : 4", "22"]
+        [
+          "9 × 7",
+          "63"
+        ],
+        [
+          "48 : 6",
+          "8"
+        ],
+        [
+          "132 × 2",
+          "264"
+        ],
+        [
+          "88 : 4",
+          "22"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Trong các số 3 500, 3 050, 3 005, số nào bé nhất?",
-      "options": ["3 005", "3 050", "3 500", "Ba số bằng nhau"],
+      "options": [
+        "3 005",
+        "3 050",
+        "3 500",
+        "Ba số bằng nhau"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "9 nghìn bằng bao nhiêu đơn vị?",
-      "options": ["900", "9 000", "90 000", "90"],
+      "options": [
+        "900",
+        "9 000",
+        "90 000",
+        "90"
+      ],
       "answer": 1,
       "level": "M1"
     },
@@ -112,10 +149,16 @@
     {
       "type": "multiple-choice",
       "question": "Lan có 5 hộp bi, mỗi hộp 8 viên. Hỏi Lan có tất cả bao nhiêu viên bi?",
-      "options": ["40 viên", "13 viên", "85 viên", "48 viên"],
+      "options": [
+        "40 viên",
+        "13 viên",
+        "85 viên",
+        "48 viên"
+      ],
       "answer": 0,
       "level": "M3",
       "hint": "Số bi bằng số hộp nhân số bi mỗi hộp: 5 × 8."
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

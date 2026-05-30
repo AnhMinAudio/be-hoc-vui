@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ công dân:",
       "statements": [
-        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử; đủ 21 tuổi trở lên có quyền ứng cử.", "answer": true },
-        { "text": "Nguyên tắc hôn nhân ở Việt Nam là tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.", "answer": true },
-        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
-        { "text": "Công dân chỉ có quyền mà không phải thực hiện bất kì nghĩa vụ nào đối với Nhà nước.", "answer": false }
+        {
+          "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử; đủ 21 tuổi trở lên có quyền ứng cử.",
+          "answer": true
+        },
+        {
+          "text": "Nguyên tắc hôn nhân ở Việt Nam là tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.",
+          "answer": true
+        },
+        {
+          "text": "Mọi công dân đều bình đẳng trước pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Công dân chỉ có quyền mà không phải thực hiện bất kì nghĩa vụ nào đối với Nhà nước.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các quyền tự do cơ bản:",
       "statements": [
-        { "text": "Quyền tự do ngôn luận của công dân được thực hiện trong khuôn khổ pháp luật.", "answer": true },
-        { "text": "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát (trừ trường hợp phạm tội quả tang).", "answer": true },
-        { "text": "Việc khám xét chỗ ở của công dân chỉ được tiến hành khi có quyết định / phê chuẩn của cơ quan có thẩm quyền và theo đúng trình tự pháp luật.", "answer": true },
-        { "text": "Công dân được phép xuyên tạc, vu khống người khác trên mạng xã hội với tư cách \"tự do ngôn luận\".", "answer": false }
+        {
+          "text": "Quyền tự do ngôn luận của công dân được thực hiện trong khuôn khổ pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát (trừ trường hợp phạm tội quả tang).",
+          "answer": true
+        },
+        {
+          "text": "Việc khám xét chỗ ở của công dân chỉ được tiến hành khi có quyết định / phê chuẩn của cơ quan có thẩm quyền và theo đúng trình tự pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Công dân được phép xuyên tạc, vu khống người khác trên mạng xã hội với tư cách \"tự do ngôn luận\".",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội ở nước ta.",
       "answer": "18",
-      "alternatives": ["mười tám"],
+      "alternatives": [
+        "mười tám"
+      ],
       "hint": "Tuổi bầu cử ở Việt Nam: đủ 18."
     },
     {
@@ -191,7 +217,9 @@
       "level": "TH",
       "question": "Trong hôn nhân, nguyên tắc cơ bản ở nước ta là: tự nguyện, tiến bộ, một vợ một chồng, vợ chồng ___",
       "answer": "bình đẳng",
-      "alternatives": ["binh dang"],
+      "alternatives": [
+        "binh dang"
+      ],
       "hint": "Vợ chồng bình đẳng về quyền và nghĩa vụ."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Nguyên tắc \"bình đẳng trước pháp luật\" được Hiến pháp ghi nhận."
     }
-  ]
+  ],
+  "examType": "practice"
 }

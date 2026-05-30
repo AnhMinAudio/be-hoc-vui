@@ -6,12 +6,90 @@
   "topic": "Đặc điểm con vật (phần 3)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Con nào thích ăn cà rốt?", "options": ["🐰", "🐱", "🐮", "🐢"], "answer": 0, "hint": "Con thỏ rất thích cà rốt." },
-    { "type": "image-choice", "question": "Con nào thích ăn xương?", "options": ["🐔", "🐶", "🐝", "🐠"], "answer": 1, "hint": "Con chó thích gặm xương." },
-    { "type": "image-choice", "question": "Con nào có cái mai cứng trên lưng?", "options": ["🐭", "🐤", "🐢", "🦊"], "answer": 2, "hint": "Con rùa mang mai trên lưng." },
-    { "type": "image-choice", "question": "Con nào kêu 'cạc cạc' và bơi được?", "options": ["🐶", "🦆", "🐱", "🐻"], "answer": 1, "hint": "Con vịt bơi dưới ao." },
-    { "type": "image-choice", "question": "Con nào có hai cái càng để kẹp?", "options": ["🦀", "🐟", "🐔", "🐰"], "answer": 0, "hint": "Con cua có càng to." },
-    { "type": "image-choice", "question": "Con nào có tám cánh tay dưới biển?", "options": ["🐙", "🐮", "🐤", "🦋"], "answer": 0, "hint": "Con bạch tuộc có tám tay." },
-    { "type": "image-choice", "question": "Con nào kéo cày giúp nhà nông?", "options": ["🐮", "🐭", "🐦", "🐟"], "answer": 0, "hint": "Con trâu, con bò kéo cày." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Con nào thích ăn cà rốt?",
+      "options": [
+        "🐰",
+        "🐱",
+        "🐮",
+        "🐢"
+      ],
+      "answer": 0,
+      "hint": "Con thỏ rất thích cà rốt."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào thích ăn xương?",
+      "options": [
+        "🐔",
+        "🐶",
+        "🐝",
+        "🐠"
+      ],
+      "answer": 1,
+      "hint": "Con chó thích gặm xương."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào có cái mai cứng trên lưng?",
+      "options": [
+        "🐭",
+        "🐤",
+        "🐢",
+        "🦊"
+      ],
+      "answer": 2,
+      "hint": "Con rùa mang mai trên lưng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào kêu 'cạc cạc' và bơi được?",
+      "options": [
+        "🐶",
+        "🦆",
+        "🐱",
+        "🐻"
+      ],
+      "answer": 1,
+      "hint": "Con vịt bơi dưới ao."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào có hai cái càng để kẹp?",
+      "options": [
+        "🦀",
+        "🐟",
+        "🐔",
+        "🐰"
+      ],
+      "answer": 0,
+      "hint": "Con cua có càng to."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào có tám cánh tay dưới biển?",
+      "options": [
+        "🐙",
+        "🐮",
+        "🐤",
+        "🦋"
+      ],
+      "answer": 0,
+      "hint": "Con bạch tuộc có tám tay."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào kéo cày giúp nhà nông?",
+      "options": [
+        "🐮",
+        "🐭",
+        "🐦",
+        "🐟"
+      ],
+      "answer": 0,
+      "hint": "Con trâu, con bò kéo cày."
+    }
+  ],
+  "examType": "practice"
 }

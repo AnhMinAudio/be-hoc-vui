@@ -177,10 +177,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "After the verb \"enjoy\", we use a V-ing form. (Sau động từ \"enjoy\" ta dùng dạng V-ing.)", "answer": true },
-        { "text": "The comparative form of \"good\" is \"gooder\". (So sánh hơn của \"good\" là \"gooder\".)", "answer": false },
-        { "text": "The superlative form of long adjectives uses \"the most + adjective\". (Hình thức so sánh nhất của tính từ dài dùng \"the most + tính từ\".)", "answer": true },
-        { "text": "We say \"good AT something\", not \"good ON something\". (Ta nói \"good AT something\", không nói \"good ON something\".)", "answer": true }
+        {
+          "text": "After the verb \"enjoy\", we use a V-ing form. (Sau động từ \"enjoy\" ta dùng dạng V-ing.)",
+          "answer": true
+        },
+        {
+          "text": "The comparative form of \"good\" is \"gooder\". (So sánh hơn của \"good\" là \"gooder\".)",
+          "answer": false
+        },
+        {
+          "text": "The superlative form of long adjectives uses \"the most + adjective\". (Hình thức so sánh nhất của tính từ dài dùng \"the most + tính từ\".)",
+          "answer": true
+        },
+        {
+          "text": "We say \"good AT something\", not \"good ON something\". (Ta nói \"good AT something\", không nói \"good ON something\".)",
+          "answer": true
+        }
       ]
     },
     {
@@ -188,7 +200,9 @@
       "level": "TH",
       "question": "Fill in the blank with the comparative form: \"Mount Everest is the _____ (high) mountain in the world.\" (Điền dạng so sánh nhất: \"Everest là ngọn núi _____ (cao) trên thế giới.\")",
       "answer": "highest",
-      "alternatives": ["Highest"],
+      "alternatives": [
+        "Highest"
+      ],
       "hint": "Tính từ ngắn \"high\" → so sánh nhất \"the highest\"."
     },
     {
@@ -196,7 +210,9 @@
       "level": "TH",
       "question": "Complete the word for \"a place where students learn\": s_h_o_l (Hoàn thành từ chỉ \"nơi học sinh học\": s_h_o_l).",
       "answer": "school",
-      "alternatives": ["School"],
+      "alternatives": [
+        "School"
+      ],
       "hint": "\"school\" = trường học."
     },
     {
@@ -206,5 +222,6 @@
       "answer": false,
       "hint": "\"Goodbye\" dùng khi tạm biệt; khi mới gặp lần đầu thường dùng \"Hello\" hoặc \"Nice to meet you\"."
     }
-  ]
+  ],
+  "examType": "practice"
 }

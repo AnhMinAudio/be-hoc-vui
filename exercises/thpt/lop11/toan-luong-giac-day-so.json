@@ -202,10 +202,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hàm số lượng giác:",
       "statements": [
-        { "text": "$\\sin^2 x + \\cos^2 x = 1$ với mọi $x \\in \\mathbb{R}$.", "answer": true },
-        { "text": "Hàm số $y = \\sin x$ có chu kì $T = 2\\pi$.", "answer": true },
-        { "text": "Hàm số $y = \\cos x$ là hàm số chẵn (đối xứng qua trục tung).", "answer": true },
-        { "text": "Phương trình $\\sin x = 2$ có nghiệm thực.", "answer": false }
+        {
+          "text": "$\\sin^2 x + \\cos^2 x = 1$ với mọi $x \\in \\mathbb{R}$.",
+          "answer": true
+        },
+        {
+          "text": "Hàm số $y = \\sin x$ có chu kì $T = 2\\pi$.",
+          "answer": true
+        },
+        {
+          "text": "Hàm số $y = \\cos x$ là hàm số chẵn (đối xứng qua trục tung).",
+          "answer": true
+        },
+        {
+          "text": "Phương trình $\\sin x = 2$ có nghiệm thực.",
+          "answer": false
+        }
       ]
     },
     {
@@ -213,10 +225,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về dãy số và cấp số:",
       "statements": [
-        { "text": "Trong cấp số cộng $(u_n)$ với công sai $d$, ta có $u_n - u_{n-1} = d$ với mọi $n \\geq 2$.", "answer": true },
-        { "text": "Cấp số cộng có công sai $d = 0$ là dãy số có tất cả các số hạng bằng nhau.", "answer": true },
-        { "text": "Trong cấp số nhân với công bội $q \\neq 0$, ta có $\\dfrac{u_n}{u_{n-1}} = q$ với mọi $n \\geq 2$.", "answer": true },
-        { "text": "Mọi cấp số cộng đều đồng thời là một cấp số nhân.", "answer": false }
+        {
+          "text": "Trong cấp số cộng $(u_n)$ với công sai $d$, ta có $u_n - u_{n-1} = d$ với mọi $n \\geq 2$.",
+          "answer": true
+        },
+        {
+          "text": "Cấp số cộng có công sai $d = 0$ là dãy số có tất cả các số hạng bằng nhau.",
+          "answer": true
+        },
+        {
+          "text": "Trong cấp số nhân với công bội $q \\neq 0$, ta có $\\dfrac{u_n}{u_{n-1}} = q$ với mọi $n \\geq 2$.",
+          "answer": true
+        },
+        {
+          "text": "Mọi cấp số cộng đều đồng thời là một cấp số nhân.",
+          "answer": false
+        }
       ]
     },
     {
@@ -224,7 +248,9 @@
       "level": "TH",
       "question": "Giá trị $\\sin 90^\\circ$ bằng ___",
       "answer": "1",
-      "alternatives": ["một"],
+      "alternatives": [
+        "một"
+      ],
       "hint": "$\\sin 90^\\circ = 1$ (giá trị lượng giác đặc biệt)."
     },
     {
@@ -234,5 +260,6 @@
       "answer": "26",
       "hint": "$u_8 = u_1 + 7d = 5 + 7 \\cdot 3 = 26$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

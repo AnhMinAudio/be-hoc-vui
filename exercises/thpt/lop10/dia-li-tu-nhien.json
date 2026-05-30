@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Trái Đất và thạch quyển:",
       "statements": [
-        { "text": "Cấu trúc bên trong Trái Đất từ ngoài vào trong gồm: vỏ, manti, nhân.", "answer": true },
-        { "text": "Nội lực sinh ra trong lòng Trái Đất, biểu hiện qua kiến tạo, động đất, núi lửa.", "answer": true },
-        { "text": "Ngoại lực sinh ra do năng lượng Mặt Trời, biểu hiện qua phong hóa, xâm thực, bồi tụ.", "answer": true },
-        { "text": "Nội lực và ngoại lực có cùng nguồn gốc và biểu hiện giống nhau.", "answer": false }
+        {
+          "text": "Cấu trúc bên trong Trái Đất từ ngoài vào trong gồm: vỏ, manti, nhân.",
+          "answer": true
+        },
+        {
+          "text": "Nội lực sinh ra trong lòng Trái Đất, biểu hiện qua kiến tạo, động đất, núi lửa.",
+          "answer": true
+        },
+        {
+          "text": "Ngoại lực sinh ra do năng lượng Mặt Trời, biểu hiện qua phong hóa, xâm thực, bồi tụ.",
+          "answer": true
+        },
+        {
+          "text": "Nội lực và ngoại lực có cùng nguồn gốc và biểu hiện giống nhau.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về khí quyển, thủy quyển và sinh quyển:",
       "statements": [
-        { "text": "Tầng đối lưu là tầng nằm sát mặt đất, nơi diễn ra phần lớn hiện tượng thời tiết.", "answer": true },
-        { "text": "Tầng ozone (trong tầng bình lưu) hấp thụ phần lớn tia tử ngoại từ Mặt Trời, bảo vệ sự sống.", "answer": true },
-        { "text": "Phần lớn nước trên Trái Đất nằm trong các đại dương.", "answer": true },
-        { "text": "Sinh quyển chỉ bao gồm động vật, không bao gồm thực vật.", "answer": false }
+        {
+          "text": "Tầng đối lưu là tầng nằm sát mặt đất, nơi diễn ra phần lớn hiện tượng thời tiết.",
+          "answer": true
+        },
+        {
+          "text": "Tầng ozone (trong tầng bình lưu) hấp thụ phần lớn tia tử ngoại từ Mặt Trời, bảo vệ sự sống.",
+          "answer": true
+        },
+        {
+          "text": "Phần lớn nước trên Trái Đất nằm trong các đại dương.",
+          "answer": true
+        },
+        {
+          "text": "Sinh quyển chỉ bao gồm động vật, không bao gồm thực vật.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,10 @@
       "level": "TH",
       "question": "Tầng khí quyển nơi diễn ra các hiện tượng thời tiết chủ yếu là tầng ___",
       "answer": "đối lưu",
-      "alternatives": ["doi luu", "tầng đối lưu"],
+      "alternatives": [
+        "doi luu",
+        "tầng đối lưu"
+      ],
       "hint": "Đối lưu là tầng thấp nhất của khí quyển, độ cao 0-12 km."
     },
     {
@@ -204,7 +231,9 @@
       "level": "VD",
       "question": "Theo quy luật, nhiệt độ trung bình năm trên Trái Đất giảm dần từ Xích đạo về hai ___",
       "answer": "cực",
-      "alternatives": ["cuc"],
+      "alternatives": [
+        "cuc"
+      ],
       "hint": "Càng xa Xích đạo càng lạnh hơn."
     },
     {
@@ -214,5 +243,6 @@
       "answer": true,
       "hint": "Sinh quyển = nơi có sự sống tồn tại."
     }
-  ]
+  ],
+  "examType": "practice"
 }

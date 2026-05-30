@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "Câu nào có hình ảnh so sánh?",
-      "options": ["Trăng tròn như chiếc đĩa bạc.", "Trăng đã lên cao.", "Đêm đã về khuya.", "Em chuẩn bị đi ngủ."],
+      "options": [
+        "Trăng tròn như chiếc đĩa bạc.",
+        "Trăng đã lên cao.",
+        "Đêm đã về khuya.",
+        "Em chuẩn bị đi ngủ."
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Trong câu 'Cây bàng dang rộng cánh tay che mát sân trường', sự vật nào được nhân hóa?",
-      "options": ["cây bàng", "sân trường", "cánh tay", "bóng mát"],
+      "options": [
+        "cây bàng",
+        "sân trường",
+        "cánh tay",
+        "bóng mát"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Lan là học sinh giỏi.' thuộc mẫu câu nào?",
-      "options": ["Ai là gì?", "Ai làm gì?", "Ai thế nào?", "Ở đâu?"],
+      "options": [
+        "Ai là gì?",
+        "Ai làm gì?",
+        "Ai thế nào?",
+        "Ở đâu?"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -31,27 +46,44 @@
       "type": "fill-blank",
       "question": "Điền dấu phẩy vào chỗ thích hợp: 'Trong vườn, hoa hồng___ hoa cúc đua nhau khoe sắc.'",
       "answer": ",",
-      "alternatives": ["dấu phẩy"],
+      "alternatives": [
+        "dấu phẩy"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào chỉ tình cảm trong gia đình?",
-      "options": ["yêu thương", "chạy nhảy", "bàn ghế", "xanh tốt"],
+      "options": [
+        "yêu thương",
+        "chạy nhảy",
+        "bàn ghế",
+        "xanh tốt"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Bộ phận trả lời cho câu hỏi 'Ở đâu?' trong câu 'Đàn trâu gặm cỏ trên đồng.' là:",
-      "options": ["trên đồng", "đàn trâu", "gặm cỏ", "đàn"],
+      "options": [
+        "trên đồng",
+        "đàn trâu",
+        "gặm cỏ",
+        "đàn"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Sự vật 'ông mặt trời' được nhân hóa bằng cách nào?",
-      "options": ["gọi vật bằng từ ngữ chỉ người ('ông')", "so sánh với vật khác", "liệt kê", "dùng dấu phẩy"],
+      "options": [
+        "gọi vật bằng từ ngữ chỉ người ('ông')",
+        "so sánh với vật khác",
+        "liệt kê",
+        "dùng dấu phẩy"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -59,9 +91,18 @@
       "type": "matching",
       "question": "Nối câu với mẫu câu tương ứng",
       "pairs": [
-        ["Bố em là bác sĩ.", "Ai là gì?"],
-        ["Em quét nhà.", "Ai làm gì?"],
-        ["Bé rất ngoan.", "Ai thế nào?"]
+        [
+          "Bố em là bác sĩ.",
+          "Ai là gì?"
+        ],
+        [
+          "Em quét nhà.",
+          "Ai làm gì?"
+        ],
+        [
+          "Bé rất ngoan.",
+          "Ai thế nào?"
+        ]
       ],
       "level": "M2"
     },
@@ -69,20 +110,32 @@
       "type": "fill-blank",
       "question": "Tìm từ chỉ đặc điểm trong câu 'Dòng sông xanh mát': ___",
       "answer": "xanh mát",
-      "alternatives": ["xanh"],
+      "alternatives": [
+        "xanh"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Mặt trời như quả bóng lửa khổng lồ.' sử dụng biện pháp gì?",
-      "options": ["so sánh", "nhân hóa", "liệt kê", "không có biện pháp"],
+      "options": [
+        "so sánh",
+        "nhân hóa",
+        "liệt kê",
+        "không có biện pháp"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Đặt câu hỏi cho bộ phận in đậm: 'Em đọc sách trong thư viện.' (bộ phận: trong thư viện)",
-      "options": ["Em đọc sách ở đâu?", "Em đọc gì?", "Ai đọc sách?", "Em làm gì?"],
+      "options": [
+        "Em đọc sách ở đâu?",
+        "Em đọc gì?",
+        "Ai đọc sách?",
+        "Em làm gì?"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -90,7 +143,12 @@
       "type": "multiple-choice",
       "passage": "Mỗi buổi sáng, ông mặt trời thức dậy, tỏa ánh nắng ấm áp xuống khu vườn. Những giọt sương trên lá long lanh như viên ngọc nhỏ. Đàn chim hót líu lo chào ngày mới.",
       "question": "Ai 'thức dậy' tỏa nắng xuống khu vườn?",
-      "options": ["ông mặt trời", "đàn chim", "giọt sương", "khu vườn"],
+      "options": [
+        "ông mặt trời",
+        "đàn chim",
+        "giọt sương",
+        "khu vườn"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -98,7 +156,12 @@
       "type": "multiple-choice",
       "passage": "Mỗi buổi sáng, ông mặt trời thức dậy, tỏa ánh nắng ấm áp xuống khu vườn. Những giọt sương trên lá long lanh như viên ngọc nhỏ. Đàn chim hót líu lo chào ngày mới.",
       "question": "Giọt sương được so sánh với gì?",
-      "options": ["viên ngọc nhỏ", "ngôi sao", "bông hoa", "hạt mưa"],
+      "options": [
+        "viên ngọc nhỏ",
+        "ngôi sao",
+        "bông hoa",
+        "hạt mưa"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -106,23 +169,39 @@
       "type": "multiple-choice",
       "passage": "Mỗi buổi sáng, ông mặt trời thức dậy, tỏa ánh nắng ấm áp xuống khu vườn. Những giọt sương trên lá long lanh như viên ngọc nhỏ. Đàn chim hót líu lo chào ngày mới.",
       "question": "Đàn chim làm gì?",
-      "options": ["hót líu lo chào ngày mới", "bay đi mất", "đứng im", "kiếm mồi dưới đất"],
+      "options": [
+        "hót líu lo chào ngày mới",
+        "bay đi mất",
+        "đứng im",
+        "kiếm mồi dưới đất"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Câu 'Đàn chim hót líu lo.' thuộc mẫu câu nào?",
-      "options": ["Ai làm gì?", "Ai là gì?", "Ai thế nào?", "Ở đâu?"],
+      "options": [
+        "Ai làm gì?",
+        "Ai là gì?",
+        "Ai thế nào?",
+        "Ở đâu?"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'ấm áp' là từ chỉ:",
-      "options": ["đặc điểm", "hoạt động", "sự vật", "số lượng"],
+      "options": [
+        "đặc điểm",
+        "hoạt động",
+        "sự vật",
+        "số lượng"
+      ],
       "answer": 0,
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

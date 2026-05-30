@@ -6,11 +6,72 @@
   "topic": "Thế giới động vật (phần 3)",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là con vịt?", "options": ["🦆", "🐶", "🐱"], "answer": 0, "hint": "Con vịt kêu 'cạc cạc'." },
-    { "type": "image-choice", "question": "Đâu là con ong?", "options": ["🦋", "🐝", "🐭"], "answer": 1, "hint": "Con ong bay vo ve." },
-    { "type": "image-choice", "question": "Đâu là con gấu trúc?", "options": ["🐻", "🐼", "🐰"], "answer": 1, "hint": "Gấu trúc đen trắng." },
-    { "type": "image-choice", "question": "Con nào bơi tung tăng trong ao?", "options": ["🐔", "🐠", "🐘"], "answer": 1, "hint": "Con cá bơi dưới nước." },
-    { "type": "image-choice", "question": "Con nào có cánh bay trên trời?", "options": ["🕊️", "🐢", "🐮"], "answer": 0, "hint": "Con chim bồ câu bay lượn." },
-    { "type": "image-choice", "question": "Đâu là con sư tử?", "options": ["🐰", "🐭", "🦁"], "answer": 2, "hint": "Sư tử là vua rừng xanh." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là con vịt?",
+      "options": [
+        "🦆",
+        "🐶",
+        "🐱"
+      ],
+      "answer": 0,
+      "hint": "Con vịt kêu 'cạc cạc'."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con ong?",
+      "options": [
+        "🦋",
+        "🐝",
+        "🐭"
+      ],
+      "answer": 1,
+      "hint": "Con ong bay vo ve."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con gấu trúc?",
+      "options": [
+        "🐻",
+        "🐼",
+        "🐰"
+      ],
+      "answer": 1,
+      "hint": "Gấu trúc đen trắng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào bơi tung tăng trong ao?",
+      "options": [
+        "🐔",
+        "🐠",
+        "🐘"
+      ],
+      "answer": 1,
+      "hint": "Con cá bơi dưới nước."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào có cánh bay trên trời?",
+      "options": [
+        "🕊️",
+        "🐢",
+        "🐮"
+      ],
+      "answer": 0,
+      "hint": "Con chim bồ câu bay lượn."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là con sư tử?",
+      "options": [
+        "🐰",
+        "🐭",
+        "🦁"
+      ],
+      "answer": 2,
+      "hint": "Sư tử là vua rừng xanh."
+    }
+  ],
+  "examType": "practice"
 }

@@ -155,10 +155,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về số nguyên:",
       "statements": [
-        { "text": "$(-8) + (-5) = -13$.", "answer": true },
-        { "text": "$(-6) \\times (-4) = -24$.", "answer": false },
-        { "text": "Số đối của $-11$ là $11$.", "answer": true },
-        { "text": "$(-36) : 9 = -4$.", "answer": true }
+        {
+          "text": "$(-8) + (-5) = -13$.",
+          "answer": true
+        },
+        {
+          "text": "$(-6) \\times (-4) = -24$.",
+          "answer": false
+        },
+        {
+          "text": "Số đối của $-11$ là $11$.",
+          "answer": true
+        },
+        {
+          "text": "$(-36) : 9 = -4$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -166,10 +178,22 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về tính chia hết:",
       "statements": [
-        { "text": "Số $2{,}340$ chia hết cho cả $2$ và $5$.", "answer": true },
-        { "text": "Số $7$ là số nguyên tố.", "answer": true },
-        { "text": "$\\text{ƯCLN}(15, 25) = 10$.", "answer": false },
-        { "text": "$\\text{BCNN}(3, 4) = 12$.", "answer": true }
+        {
+          "text": "Số $2{,}340$ chia hết cho cả $2$ và $5$.",
+          "answer": true
+        },
+        {
+          "text": "Số $7$ là số nguyên tố.",
+          "answer": true
+        },
+        {
+          "text": "$\\text{ƯCLN}(15, 25) = 10$.",
+          "answer": false
+        },
+        {
+          "text": "$\\text{BCNN}(3, 4) = 12$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -213,5 +237,6 @@
       "answer": "243",
       "hint": "Gọi số học sinh là $n$ thì $n - 3$ là bội chung của $8, 10, 12$; $\\text{BCNN} = 120$; $n - 3 = 240 \\Rightarrow n = 243$."
     }
-  ]
+  ],
+  "examType": "final1"
 }

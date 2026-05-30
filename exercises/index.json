@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T16:04:57.057Z",
+  "generatedAt": "2026-05-30T17:43:10.417Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -12,6 +12,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/cam-xuc-2.json"
     },
     {
@@ -25,6 +27,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/cam-xuc.json"
     },
     {
@@ -38,6 +42,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/cam-xuc-2.json"
     },
     {
@@ -51,6 +57,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/cam-xuc.json"
     },
     {
@@ -64,6 +72,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/cam-xuc-2.json"
     },
     {
@@ -77,6 +87,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/cam-xuc.json"
     },
     {
@@ -90,6 +102,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/chu-cai-2.json"
     },
     {
@@ -103,6 +117,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/chu-cai.json"
     },
     {
@@ -116,6 +132,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/chu-cai-2.json"
     },
     {
@@ -129,6 +147,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/chu-cai.json"
     },
     {
@@ -142,6 +162,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/chu-cai-2.json"
     },
     {
@@ -155,6 +177,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/chu-cai.json"
     },
     {
@@ -168,6 +192,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/con-vat.json"
     },
     {
@@ -181,6 +207,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/con-vat-2.json"
     },
     {
@@ -194,6 +222,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/con-vat-3.json"
     },
     {
@@ -207,6 +237,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/con-vat.json"
     },
     {
@@ -220,6 +252,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/con-vat-2.json"
     },
     {
@@ -233,6 +267,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/con-vat-3.json"
     },
     {
@@ -246,6 +282,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/con-vat.json"
     },
     {
@@ -259,6 +297,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/con-vat-3.json"
     },
     {
@@ -272,6 +312,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/con-vat-2.json"
     },
     {
@@ -285,6 +327,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/dem-so.json"
     },
     {
@@ -298,6 +342,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/dem-so-2.json"
     },
     {
@@ -311,6 +357,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/dem-so-3.json"
     },
     {
@@ -324,6 +372,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/dem-so-3.json"
     },
     {
@@ -337,6 +387,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/dem-so.json"
     },
     {
@@ -350,6 +402,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/dem-so-2.json"
     },
     {
@@ -363,6 +417,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/dem-so.json"
     },
     {
@@ -376,6 +432,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/dem-so-2.json"
     },
     {
@@ -389,6 +447,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/dem-so-3.json"
     },
     {
@@ -407,6 +467,8 @@
         "Công nghiệp và dịch vụ"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/dia-li-kinh-te-xa-hoi.json"
     },
     {
@@ -425,6 +487,8 @@
         "Sinh quyển và một số quy luật địa lí"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/dia-li-tu-nhien.json"
     },
     {
@@ -443,6 +507,8 @@
         "Địa lí các ngành kinh tế chủ yếu"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/dia-li.json"
     },
     {
@@ -461,6 +527,8 @@
         "Quan hệ kinh tế với Việt Nam"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/dia-li-hoa-ky-trung-quoc.json"
     },
     {
@@ -479,6 +547,8 @@
         "Hoa Kỳ và Trung Quốc"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/dia-li.json"
     },
     {
@@ -497,6 +567,8 @@
         "Khu vực Đông Nam Á và ASEAN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/dia-li-toan-cau-hoa-eu-asean.json"
     },
     {
@@ -515,6 +587,8 @@
         "Vùng kinh tế trọng điểm"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/dia-li-kinh-te-vung.json"
     },
     {
@@ -533,6 +607,8 @@
         "Đô thị hóa"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/dia-li-tu-nhien-dan-cu.json"
     },
     {
@@ -551,6 +627,8 @@
         "Địa lí vùng kinh tế"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/dia-li.json"
     },
     {
@@ -564,6 +642,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/do-vat-2.json"
     },
     {
@@ -577,6 +657,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/do-vat.json"
     },
     {
@@ -590,6 +672,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/do-vat-2.json"
     },
     {
@@ -603,6 +687,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/do-vat.json"
     },
     {
@@ -616,6 +702,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/do-vat-2.json"
     },
     {
@@ -629,6 +717,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/do-vat.json"
     },
     {
@@ -647,6 +737,8 @@
         "Quyền và nghĩa vụ cơ bản của công dân"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/gdkt-pl-phap-luat.json"
     },
     {
@@ -665,6 +757,8 @@
         "Tín dụng - lập kế hoạch tài chính cá nhân"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/gdkt-pl-kinh-te.json"
     },
     {
@@ -683,6 +777,8 @@
         "Hệ thống chính trị, pháp luật và Hiến pháp Việt Nam"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/gdkt-pl.json"
     },
     {
@@ -701,6 +797,8 @@
         "Thị trường lao động và việc làm"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/gdkt-pl-kinh-te.json"
     },
     {
@@ -719,6 +817,8 @@
         "Quyền và nghĩa vụ công dân trong các lĩnh vực"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/gdkt-pl.json"
     },
     {
@@ -737,6 +837,8 @@
         "Các quyền tự do cơ bản và pháp luật quốc tế"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/gdkt-pl-phap-luat.json"
     },
     {
@@ -756,6 +858,8 @@
         "Pháp luật"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/gdkt-pl.json"
     },
     {
@@ -774,6 +878,8 @@
         "Bình đẳng trước pháp luật"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/gdkt-pl-phap-luat-cong-dan.json"
     },
     {
@@ -792,6 +898,8 @@
         "Trách nhiệm xã hội, quản lí thu chi"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/gdkt-pl-kinh-te-an-sinh.json"
     },
     {
@@ -805,6 +913,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/hinh-khoi.json"
     },
     {
@@ -818,6 +928,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/hinh-khoi-2.json"
     },
     {
@@ -831,6 +943,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/hinh-khoi-3.json"
     },
     {
@@ -844,6 +958,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/hinh-khoi-3.json"
     },
     {
@@ -857,6 +973,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/hinh-khoi.json"
     },
     {
@@ -870,6 +988,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/hinh-khoi-2.json"
     },
     {
@@ -883,6 +1003,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/hinh-khoi-3.json"
     },
     {
@@ -896,6 +1018,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/hinh-khoi.json"
     },
     {
@@ -909,6 +1033,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/hinh-khoi-2.json"
     },
     {
@@ -927,6 +1053,8 @@
         "Biến thiên tuần hoàn tính chất"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/hoa-hoc-nguyen-tu-bth.json"
     },
     {
@@ -945,6 +1073,8 @@
         "Nguyên tố nhóm halogen"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/hoa-hoc-lien-ket-oxi-hoa-khu.json"
     },
     {
@@ -963,6 +1093,8 @@
         "Phản ứng oxi hóa - khử và Halogen"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/hoa-hoc.json"
     },
     {
@@ -981,6 +1113,8 @@
         "Ứng dụng trong sản xuất"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/hoa-hoc-can-bang-nitrogen.json"
     },
     {
@@ -999,6 +1133,8 @@
         "Carboxylic acid"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/hoa-hoc-huu-co.json"
     },
     {
@@ -1017,6 +1153,8 @@
         "Hydrocarbon, alcohol, carboxylic acid"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/hoa-hoc.json"
     },
     {
@@ -1035,6 +1173,8 @@
         "Điều chế kim loại"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/hoa-hoc-kim-loai.json"
     },
     {
@@ -1053,6 +1193,8 @@
         "Polymer và vật liệu polymer"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/hoa-hoc-huu-co.json"
     },
     {
@@ -1072,6 +1214,8 @@
         "Đại cương kim loại"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/hoa-hoc.json"
     },
     {
@@ -1090,6 +1234,8 @@
         "Thành tựu tiêu biểu của các nền văn minh"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/lich-su-van-minh-the-gioi.json"
     },
     {
@@ -1108,6 +1254,8 @@
         "Thành tựu tiêu biểu của văn minh Đại Việt"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/lich-su-van-minh-viet-nam.json"
     },
     {
@@ -1126,6 +1274,8 @@
         "Văn minh Đại Việt"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/lich-su.json"
     },
     {
@@ -1144,6 +1294,8 @@
         "Chủ nghĩa xã hội từ 1917 đến nay"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/lich-su-cach-mang-tu-san-cnxh.json"
     },
     {
@@ -1162,6 +1314,8 @@
         "Lịch sử bảo vệ Tổ quốc Việt Nam và các cuộc cải cách"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/lich-su.json"
     },
     {
@@ -1180,6 +1334,8 @@
         "Một số cuộc cải cách trong lịch sử Việt Nam"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/lich-su-dong-nam-a-viet-nam.json"
     },
     {
@@ -1199,6 +1355,8 @@
         "Công cuộc Đổi mới"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/lich-su.json"
     },
     {
@@ -1212,6 +1370,8 @@
       "questionCount": 2,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/lich-su-sap-xep-su-kien.json"
     },
     {
@@ -1230,6 +1390,8 @@
         "ASEAN và Cộng đồng ASEAN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/lich-su-the-gioi-asean.json"
     },
     {
@@ -1247,6 +1409,8 @@
         "Hồ Chí Minh trong lịch sử Việt Nam"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/lich-su-viet-nam-1945-nay.json"
     },
     {
@@ -1260,6 +1424,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/mau-sac-3.json"
     },
     {
@@ -1273,6 +1439,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/mau-sac.json"
     },
     {
@@ -1286,6 +1454,8 @@
       "questionCount": 6,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age3/mau-sac-2.json"
     },
     {
@@ -1299,6 +1469,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/mau-sac-2.json"
     },
     {
@@ -1312,6 +1484,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/mau-sac-3.json"
     },
     {
@@ -1325,6 +1499,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age4/mau-sac.json"
     },
     {
@@ -1338,6 +1514,8 @@
       "questionCount": 8,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/mau-sac-2.json"
     },
     {
@@ -1351,6 +1529,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/mau-sac.json"
     },
     {
@@ -1364,6 +1544,8 @@
       "questionCount": 7,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "mam-non/age5/mau-sac-3.json"
     },
     {
@@ -1377,6 +1559,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop6/de-thi-thu-cuoi-ky-2-nguvan6.json"
     },
     {
@@ -1390,6 +1574,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-nguvan6.json"
     },
     {
@@ -1403,6 +1589,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-cuoi-ky-2-nguvan6.json"
     },
     {
@@ -1416,6 +1604,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-giua-ky-1-nguvan6.json"
     },
     {
@@ -1429,6 +1619,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-giua-ky-2-nguvan6.json"
     },
     {
@@ -1442,6 +1634,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop6/ngu-van-tu-loai-va-bien-phap-tu-tu.json"
     },
     {
@@ -1455,6 +1649,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop7/de-thi-thu-cuoi-ky-2-nguvan7.json"
     },
     {
@@ -1468,6 +1664,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-nguvan7.json"
     },
     {
@@ -1481,6 +1679,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-2-nguvan7.json"
     },
     {
@@ -1494,6 +1694,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-giua-ky-1-nguvan7.json"
     },
     {
@@ -1507,6 +1709,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-giua-ky-2-nguvan7.json"
     },
     {
@@ -1520,6 +1724,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop7/ngu-van-tu-han-viet-va-tu-tu.json"
     },
     {
@@ -1533,6 +1739,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop8/ngu-van-cau-va-bien-phap-tu-tu.json"
     },
     {
@@ -1546,6 +1754,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop8/de-thi-thu-cuoi-ky-2-nguvan8.json"
     },
     {
@@ -1559,6 +1769,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-1-nguvan8.json"
     },
     {
@@ -1572,6 +1784,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-2-nguvan8.json"
     },
     {
@@ -1585,6 +1799,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-1-nguvan8.json"
     },
     {
@@ -1598,6 +1814,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-2-nguvan8.json"
     },
     {
@@ -1611,6 +1829,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop9/ngu-van-hoi-thoai-va-nghia.json"
     },
     {
@@ -1629,6 +1849,8 @@
         "Thơ Nguyễn Trãi (Quốc âm thi tập)"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/ngu-van-su-thi-truyen-tho.json"
     },
     {
@@ -1647,6 +1869,8 @@
         "Kĩ năng đọc - hiểu văn bản thông tin và kí"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/ngu-van-van-ban-thong-tin-ki.json"
     },
     {
@@ -1665,6 +1889,8 @@
         "Người kể chuyện trong truyện ngắn hiện đại"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/ngu-van-nghi-luan-san-khau-truyen.json"
     },
     {
@@ -1683,6 +1909,8 @@
         "Vũ Như Tô (Nguyễn Huy Tưởng) và Romeo - Juliet (Shakespeare)"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/ngu-van-truyen-kieu-bi-kich.json"
     },
     {
@@ -1701,6 +1929,8 @@
         "Cấu tứ và hình ảnh trong thơ trữ tình"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/ngu-van-truyen-hien-dai-tho-moi.json"
     },
     {
@@ -1719,6 +1949,8 @@
         "Kĩ năng đọc - hiểu văn bản nghị luận và kí"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/ngu-van-nghi-luan-xa-hoi-ki.json"
     },
     {
@@ -1737,6 +1969,8 @@
         "Nghị luận"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/ngu-van.json"
     },
     {
@@ -1755,6 +1989,8 @@
         "Đất Nước - trích \"Mặt đường khát vọng\" (Nguyễn Khoa Điềm)"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/ngu-van-tho-cach-mang.json"
     },
     {
@@ -1773,6 +2009,8 @@
         "Đặc trưng và phong cách truyện ngắn Việt Nam hiện đại"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/ngu-van-truyen-ngan-hien-dai.json"
     },
     {
@@ -1791,6 +2029,8 @@
         "Chức năng của các bào quan"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/sinh-hoc-te-bao-cau-truc.json"
     },
     {
@@ -1809,6 +2049,8 @@
         "Quang hợp"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/sinh-hoc-chuyen-hoa-nang-luong.json"
     },
     {
@@ -1827,6 +2069,8 @@
         "Enzyme, hô hấp tế bào và quang hợp"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/sinh-hoc.json"
     },
     {
@@ -1845,6 +2089,8 @@
         "Sinh sản hữu tính và vô tính"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/sinh-hoc-cam-ung-sinh-san.json"
     },
     {
@@ -1863,6 +2109,8 @@
         "Sinh trưởng, phát triển và sinh sản"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/sinh-hoc.json"
     },
     {
@@ -1881,6 +2129,8 @@
         "Bài tiết và cân bằng nội môi"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/sinh-hoc-trao-doi-chat.json"
     },
     {
@@ -1899,6 +2149,8 @@
         "Đột biến gene và đột biến nhiễm sắc thể"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/sinh-hoc-di-truyen.json"
     },
     {
@@ -1918,6 +2170,8 @@
         "Sinh thái học"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/sinh-hoc.json"
     },
     {
@@ -1936,6 +2190,8 @@
         "Chuỗi và lưới thức ăn - Bảo vệ môi trường"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/sinh-hoc-tien-hoa-sinh-thai.json"
     },
     {
@@ -1952,6 +2208,8 @@
         "TA1-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/animals-and-pets.json"
     },
     {
@@ -1968,6 +2226,8 @@
         "TA1-COMMAND"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/classroom-objects.json"
     },
     {
@@ -1981,6 +2241,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/colors-and-numbers.json"
     },
     {
@@ -1994,6 +2256,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 30,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/de-thi-thu-cuoi-ky-2-ta1.json"
     },
     {
@@ -2010,6 +2274,8 @@
         "TA1-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/greetings-and-names.json"
     },
     {
@@ -2026,6 +2292,8 @@
         "TA1-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/my-family.json"
     },
     {
@@ -2041,6 +2309,8 @@
         "TA1-NUM"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/numbers-1-to-10.json"
     },
     {
@@ -2061,6 +2331,8 @@
         "TA1-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/de-on-tap-cuoi-ky-1-ta1.json"
     },
     {
@@ -2074,6 +2346,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/de-on-tap-cuoi-ky-2-ta1.json"
     },
     {
@@ -2093,6 +2367,8 @@
         "TA1-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/de-on-tap-giua-ky-1-ta1.json"
     },
     {
@@ -2106,6 +2382,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/de-on-tap-giua-ky-2-ta1.json"
     },
     {
@@ -2122,6 +2400,8 @@
         "TA1-FOOD"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop1/toys-and-food.json"
     },
     {
@@ -2135,6 +2415,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/animals-family-school.json"
     },
     {
@@ -2148,6 +2430,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 35,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/de-thi-thu-cuoi-ky-2-ta2.json"
     },
     {
@@ -2166,6 +2450,8 @@
         "TA2-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/on-luyen-1.json"
     },
     {
@@ -2184,6 +2470,8 @@
         "TA2-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/on-luyen-2.json"
     },
     {
@@ -2202,6 +2490,8 @@
         "TA2-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/on-luyen-3.json"
     },
     {
@@ -2220,6 +2510,8 @@
         "TA2-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/de-on-tap-cuoi-ky-1-ta2.json"
     },
     {
@@ -2233,6 +2525,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/de-on-tap-cuoi-ky-2-ta2.json"
     },
     {
@@ -2251,6 +2545,8 @@
         "TA2-PATTERN"
       ],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/de-on-tap-giua-ky-1-ta2.json"
     },
     {
@@ -2264,6 +2560,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-anh/lop2/de-on-tap-giua-ky-2-ta2.json"
     },
     {
@@ -2277,6 +2575,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 35,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-anh/lop3/de-thi-thu-cuoi-ky-2-ta3.json"
     },
     {
@@ -2290,6 +2590,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop3/numbers-and-days.json"
     },
     {
@@ -2303,6 +2605,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-anh/lop3/de-on-tap-cuoi-ky-1-ta3.json"
     },
     {
@@ -2316,6 +2620,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-anh/lop3/de-on-tap-cuoi-ky-2-ta3.json"
     },
     {
@@ -2329,6 +2635,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-anh/lop3/de-on-tap-giua-ky-1-ta3.json"
     },
     {
@@ -2342,6 +2650,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-anh/lop3/de-on-tap-giua-ky-2-ta3.json"
     },
     {
@@ -2355,6 +2665,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 40,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-anh/lop4/de-thi-thu-cuoi-ky-2-ta4.json"
     },
     {
@@ -2368,6 +2680,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop4/jobs-and-hobbies.json"
     },
     {
@@ -2381,6 +2695,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-anh/lop4/de-on-tap-cuoi-ky-1-ta4.json"
     },
     {
@@ -2394,6 +2710,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-anh/lop4/de-on-tap-cuoi-ky-2-ta4.json"
     },
     {
@@ -2407,6 +2725,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-anh/lop4/de-on-tap-giua-ky-1-ta4.json"
     },
     {
@@ -2420,6 +2740,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-anh/lop4/de-on-tap-giua-ky-2-ta4.json"
     },
     {
@@ -2433,6 +2755,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-anh/lop5/routines-places-comparatives.json"
     },
     {
@@ -2446,6 +2770,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 40,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-anh/lop5/de-thi-thu-cuoi-ky-2-ta5.json"
     },
     {
@@ -2459,6 +2785,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-anh/lop5/de-on-tap-cuoi-ky-1-ta5.json"
     },
     {
@@ -2472,6 +2800,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-anh/lop5/de-on-tap-cuoi-ky-2-ta5.json"
     },
     {
@@ -2485,6 +2815,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-anh/lop5/de-on-tap-giua-ky-1-ta5.json"
     },
     {
@@ -2498,6 +2830,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-anh/lop5/de-on-tap-giua-ky-2-ta5.json"
     },
     {
@@ -2511,6 +2845,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 60,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop6/de-thi-thu-cuoi-ky-2-tienganh6.json"
     },
     {
@@ -2524,6 +2860,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-tienganh6.json"
     },
     {
@@ -2537,6 +2875,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-cuoi-ky-2-tienganh6.json"
     },
     {
@@ -2550,6 +2890,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-giua-ky-1-tienganh6.json"
     },
     {
@@ -2563,6 +2905,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-giua-ky-2-tienganh6.json"
     },
     {
@@ -2576,6 +2920,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop6/tieng-anh-present-simple.json"
     },
     {
@@ -2589,6 +2935,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 60,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop7/de-thi-thu-cuoi-ky-2-tienganh7.json"
     },
     {
@@ -2602,6 +2950,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-tienganh7.json"
     },
     {
@@ -2615,6 +2965,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-2-tienganh7.json"
     },
     {
@@ -2628,6 +2980,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-giua-ky-1-tienganh7.json"
     },
     {
@@ -2641,6 +2995,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-giua-ky-2-tienganh7.json"
     },
     {
@@ -2654,6 +3010,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop7/tieng-anh-past-simple-comparatives.json"
     },
     {
@@ -2667,6 +3025,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 60,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop8/de-thi-thu-cuoi-ky-2-tienganh8.json"
     },
     {
@@ -2680,6 +3040,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-1-tienganh8.json"
     },
     {
@@ -2693,6 +3055,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-2-tienganh8.json"
     },
     {
@@ -2706,6 +3070,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-1-tienganh8.json"
     },
     {
@@ -2719,6 +3085,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-2-tienganh8.json"
     },
     {
@@ -2732,6 +3100,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop8/tieng-anh-present-perfect.json"
     },
     {
@@ -2745,6 +3115,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop9/tieng-anh-relative-clauses.json"
     },
     {
@@ -2763,6 +3135,8 @@
         "Vocabulary: school, music, community"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/tieng-anh-modal-conditional.json"
     },
     {
@@ -2781,6 +3155,8 @@
         "Vocabulary: education, technology, environment"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/tieng-anh-doc-hieu-giao-tiep.json"
     },
     {
@@ -2799,6 +3175,8 @@
         "Identifying main ideas and details"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/tieng-anh-doc-hieu-chuyen-de.json"
     },
     {
@@ -2817,6 +3195,8 @@
         "Prepositions"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/tieng-anh-thi-tu-vung-co-ban.json"
     },
     {
@@ -2835,6 +3215,8 @@
         "Vocabulary: heritage, environment, education"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/tieng-anh-passive-reported.json"
     },
     {
@@ -2853,6 +3235,8 @@
         "Comparatives and idioms"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/tieng-anh-doc-hieu-giao-tiep.json"
     },
     {
@@ -2871,6 +3255,8 @@
         "Vocabulary: heritage, environment, conservation"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/tieng-anh-doc-hieu-chuyen-de.json"
     },
     {
@@ -2889,6 +3275,8 @@
         "Generation gap, global warming and heritage vocabulary"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/tieng-anh-menh-de-quan-he-tu-vung.json"
     },
     {
@@ -2907,6 +3295,8 @@
         "Vocabulary: globalization, education, technology"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/tieng-anh-reading-grammar.json"
     },
     {
@@ -2925,6 +3315,8 @@
         "Reading comprehension"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/tieng-anh.json"
     },
     {
@@ -2943,6 +3335,8 @@
         "Advanced vocabulary in context"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/tieng-anh-doc-hieu-chuyen-de.json"
     },
     {
@@ -2960,6 +3354,8 @@
         "TV1-AM-3"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/am-va-chu-cai-nang-cao.json"
     },
     {
@@ -2973,6 +3369,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/chu-cai-va-am.json"
     },
     {
@@ -2989,6 +3387,8 @@
         "TV1-GHEP-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/dau-thanh-va-ghep-tieng.json"
     },
     {
@@ -3002,6 +3402,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 30,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/de-thi-thu-cuoi-ky-2-tv1.json"
     },
     {
@@ -3018,6 +3420,8 @@
         "TV1-DH-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/dien-van-chu-va-doc-hieu.json"
     },
     {
@@ -3033,6 +3437,8 @@
         "TV1-TU-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/mo-rong-von-tu.json"
     },
     {
@@ -3046,6 +3452,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/de-on-tap-cuoi-ky-1-tv1.json"
     },
     {
@@ -3059,6 +3467,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/de-on-tap-cuoi-ky-2-tv1.json"
     },
     {
@@ -3072,6 +3482,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/de-on-tap-giua-ky-1-tv1.json"
     },
     {
@@ -3085,6 +3497,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/de-on-tap-giua-ky-2-tv1.json"
     },
     {
@@ -3103,6 +3517,8 @@
         "TV1-LN-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/phan-biet-am-de-lan.json"
     },
     {
@@ -3120,6 +3536,8 @@
         "TV1-VAN-4"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop1/van-thong-dung.json"
     },
     {
@@ -3133,6 +3551,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 35,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/de-thi-thu-cuoi-ky-2-tv2.json"
     },
     {
@@ -3157,6 +3577,8 @@
         "TV2-CT-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/on-luyen-1.json"
     },
     {
@@ -3181,6 +3603,8 @@
         "TV2-CT-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/on-luyen-2.json"
     },
     {
@@ -3205,6 +3629,8 @@
         "TV2-CT-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/on-luyen-3.json"
     },
     {
@@ -3218,6 +3644,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/de-on-tap-cuoi-ky-1-tv2.json"
     },
     {
@@ -3231,6 +3659,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/de-on-tap-cuoi-ky-2-tv2.json"
     },
     {
@@ -3244,6 +3674,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/de-on-tap-giua-ky-1-tv2.json"
     },
     {
@@ -3257,6 +3689,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/de-on-tap-giua-ky-2-tv2.json"
     },
     {
@@ -3270,6 +3704,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop2/tu-loai-va-cau.json"
     },
     {
@@ -3283,6 +3719,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 35,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-viet/lop3/de-thi-thu-cuoi-ky-2-tv3.json"
     },
     {
@@ -3296,6 +3734,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-viet/lop3/de-on-tap-cuoi-ky-1-tv3.json"
     },
     {
@@ -3309,6 +3749,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-viet/lop3/de-on-tap-cuoi-ky-2-tv3.json"
     },
     {
@@ -3322,6 +3764,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-viet/lop3/de-on-tap-giua-ky-1-tv3.json"
     },
     {
@@ -3335,6 +3779,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-viet/lop3/de-on-tap-giua-ky-2-tv3.json"
     },
     {
@@ -3348,6 +3794,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop3/tu-loai-va-so-sanh.json"
     },
     {
@@ -3361,6 +3809,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop4/danh-dong-tinh-tu.json"
     },
     {
@@ -3374,6 +3824,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 40,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-viet/lop4/de-thi-thu-cuoi-ky-2-tv4.json"
     },
     {
@@ -3387,6 +3839,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-viet/lop4/de-on-tap-cuoi-ky-1-tv4.json"
     },
     {
@@ -3400,6 +3854,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-viet/lop4/de-on-tap-cuoi-ky-2-tv4.json"
     },
     {
@@ -3413,6 +3869,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-viet/lop4/de-on-tap-giua-ky-1-tv4.json"
     },
     {
@@ -3426,6 +3884,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-viet/lop4/de-on-tap-giua-ky-2-tv4.json"
     },
     {
@@ -3439,6 +3899,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 40,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "tieng-viet/lop5/de-thi-thu-cuoi-ky-2-tv5.json"
     },
     {
@@ -3452,6 +3914,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "tieng-viet/lop5/de-on-tap-cuoi-ky-1-tv5.json"
     },
     {
@@ -3465,6 +3929,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "tieng-viet/lop5/de-on-tap-cuoi-ky-2-tv5.json"
     },
     {
@@ -3478,6 +3944,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "tieng-viet/lop5/de-on-tap-giua-ky-1-tv5.json"
     },
     {
@@ -3491,6 +3959,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "tieng-viet/lop5/de-on-tap-giua-ky-2-tv5.json"
     },
     {
@@ -3504,6 +3974,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "tieng-viet/lop5/dong-trai-nghia-quan-he-tu.json"
     },
     {
@@ -3520,6 +3992,8 @@
         "T1-PT-6"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/cong-tru-trong-20.json"
     },
     {
@@ -3533,6 +4007,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 30,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "toan/lop1/de-thi-thu-cuoi-ky-2-toan1.json"
     },
     {
@@ -3554,6 +4030,8 @@
         "T1-VT-1"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/hinh-hoc-do-luong-vi-tri.json"
     },
     {
@@ -3567,6 +4045,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "toan/lop1/de-on-tap-cuoi-ky-1-toan1.json"
     },
     {
@@ -3580,6 +4060,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "toan/lop1/de-on-tap-cuoi-ky-2-toan1.json"
     },
     {
@@ -3593,6 +4075,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "toan/lop1/de-on-tap-giua-ky-1-toan1.json"
     },
     {
@@ -3606,6 +4090,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "toan/lop1/de-on-tap-giua-ky-2-toan1.json"
     },
     {
@@ -3619,6 +4105,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/phep-cong-trong-10.json"
     },
     {
@@ -3636,6 +4124,8 @@
         "T1-PT-6"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/phep-tru-trong-10.json"
     },
     {
@@ -3653,6 +4143,8 @@
         "T1-SO-7"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/so-den-100-so-sanh.json"
     },
     {
@@ -3669,6 +4161,8 @@
         "T1-SO-6"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/so-den-20-chuc-don-vi.json"
     },
     {
@@ -3686,6 +4180,8 @@
         "T1-SO-3"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop1/so-trong-pham-vi-10.json"
     },
     {
@@ -3699,6 +4195,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/bang-chia-2-va-3.json"
     },
     {
@@ -3712,6 +4210,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/bang-chia-4-va-5.json"
     },
     {
@@ -3725,6 +4225,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/bang-nhan-2-va-3.json"
     },
     {
@@ -3738,6 +4240,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/bang-nhan-4-va-5.json"
     },
     {
@@ -3751,6 +4255,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/cong-tru-va-bang-nhan.json"
     },
     {
@@ -3764,6 +4270,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 35,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "toan/lop2/de-thi-thu-cuoi-ky-2-toan2.json"
     },
     {
@@ -3777,6 +4285,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/don-vi-do-do-dai.json"
     },
     {
@@ -3790,6 +4300,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/toan-co-loi-van.json"
     },
     {
@@ -3803,6 +4315,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "toan/lop2/de-on-tap-cuoi-ky-1-toan2.json"
     },
     {
@@ -3816,6 +4330,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "toan/lop2/de-on-tap-cuoi-ky-2-toan2.json"
     },
     {
@@ -3829,6 +4345,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "toan/lop2/de-on-tap-giua-ky-1-toan2.json"
     },
     {
@@ -3842,6 +4360,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "toan/lop2/de-on-tap-giua-ky-2-toan2.json"
     },
     {
@@ -3855,6 +4375,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/cong-co-nho-trong-100.json"
     },
     {
@@ -3868,6 +4390,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/tru-co-nho-trong-100.json"
     },
     {
@@ -3881,6 +4405,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/so-co-ba-chu-so.json"
     },
     {
@@ -3894,6 +4420,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop2/xem-dong-ho.json"
     },
     {
@@ -3907,6 +4435,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 35,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "toan/lop3/de-thi-thu-cuoi-ky-2-toan3.json"
     },
     {
@@ -3920,6 +4450,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop3/nhan-chia-trong-bang.json"
     },
     {
@@ -3933,6 +4465,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "toan/lop3/de-on-tap-cuoi-ky-1-toan3.json"
     },
     {
@@ -3946,6 +4480,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "toan/lop3/de-on-tap-cuoi-ky-2-toan3.json"
     },
     {
@@ -3959,6 +4495,8 @@
       "questionCount": 15,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "toan/lop3/de-on-tap-giua-ky-1-toan3.json"
     },
     {
@@ -3972,6 +4510,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "toan/lop3/de-on-tap-giua-ky-2-toan3.json"
     },
     {
@@ -3985,6 +4525,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 40,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "toan/lop4/de-thi-thu-cuoi-ky-2-toan4.json"
     },
     {
@@ -3998,6 +4540,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "toan/lop4/de-on-tap-cuoi-ky-1-toan4.json"
     },
     {
@@ -4011,6 +4555,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "toan/lop4/de-on-tap-cuoi-ky-2-toan4.json"
     },
     {
@@ -4024,6 +4570,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "toan/lop4/de-on-tap-giua-ky-1-toan4.json"
     },
     {
@@ -4037,6 +4585,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "toan/lop4/de-on-tap-giua-ky-2-toan4.json"
     },
     {
@@ -4050,6 +4600,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop4/so-lon-phan-so-hinh-hoc.json"
     },
     {
@@ -4063,6 +4615,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": 40,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "toan/lop5/de-thi-thu-cuoi-ky-2-toan5.json"
     },
     {
@@ -4076,6 +4630,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "toan/lop5/de-on-tap-cuoi-ky-1-toan5.json"
     },
     {
@@ -4089,6 +4645,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "toan/lop5/de-on-tap-cuoi-ky-2-toan5.json"
     },
     {
@@ -4102,6 +4660,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "toan/lop5/de-on-tap-giua-ky-1-toan5.json"
     },
     {
@@ -4115,6 +4675,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "toan/lop5/de-on-tap-giua-ky-2-toan5.json"
     },
     {
@@ -4128,6 +4690,8 @@
       "questionCount": 17,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "toan/lop5/thap-phan-phan-tram-dien-tich.json"
     },
     {
@@ -4147,6 +4711,10 @@
         "T6-STN-5"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 1
+      },
       "path": "thcs/lop6/c1-so-tu-nhien.json"
     },
     {
@@ -4165,6 +4733,10 @@
         "T6-CH-4"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 2
+      },
       "path": "thcs/lop6/c2-tinh-chia-het.json"
     },
     {
@@ -4184,6 +4756,10 @@
         "T6-SN-5"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 3
+      },
       "path": "thcs/lop6/c3-so-nguyen.json"
     },
     {
@@ -4203,6 +4779,10 @@
         "T6-DX-2"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 4
+      },
       "path": "thcs/lop6/c4-5-hinh-phang-doi-xung.json"
     },
     {
@@ -4222,6 +4802,10 @@
         "T6-PS-5"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 6
+      },
       "path": "thcs/lop6/c6-phan-so.json"
     },
     {
@@ -4240,6 +4824,10 @@
         "T6-TP-4"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 7
+      },
       "path": "thcs/lop6/c7-so-thap-phan.json"
     },
     {
@@ -4258,6 +4846,10 @@
         "T6-HC-4"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 8
+      },
       "path": "thcs/lop6/c8-hinh-co-ban.json"
     },
     {
@@ -4276,6 +4868,10 @@
         "T6-DL-4"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 9
+      },
       "path": "thcs/lop6/c9-du-lieu-xac-suat.json"
     },
     {
@@ -4294,6 +4890,8 @@
         "Dữ liệu và xác suất"
       ],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop6/de-thi-thu-cuoi-ky-2-toan6.json"
     },
     {
@@ -4319,6 +4917,8 @@
         "T6-HH-3"
       ],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-cuoi-ky-1-toan6.json"
     },
     {
@@ -4332,6 +4932,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-cuoi-ky-2-toan6.json"
     },
     {
@@ -4354,6 +4956,8 @@
         "T6-CH-4"
       ],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-giua-ky-1-toan6.json"
     },
     {
@@ -4367,6 +4971,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop6/de-on-tap-giua-ky-2-toan6.json"
     },
     {
@@ -4385,6 +4991,8 @@
         "Xác suất"
       ],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop7/de-thi-thu-cuoi-ky-2-toan7.json"
     },
     {
@@ -4402,6 +5010,8 @@
         "Góc ở vị trí đặc biệt và hai đường thẳng song song"
       ],
       "timeLimit": null,
+      "examType": "final1",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-1-toan7.json"
     },
     {
@@ -4415,6 +5025,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-cuoi-ky-2-toan7.json"
     },
     {
@@ -4432,6 +5044,8 @@
         "Góc kề bù, góc đối đỉnh"
       ],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-giua-ky-1-toan7.json"
     },
     {
@@ -4445,6 +5059,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop7/de-on-tap-giua-ky-2-toan7.json"
     },
     {
@@ -4458,6 +5074,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop7/toan-so-huu-ti-va-bieu-thuc.json"
     },
     {
@@ -4476,6 +5094,8 @@
         "Tam giác đồng dạng"
       ],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop8/de-thi-thu-cuoi-ky-2-toan8.json"
     },
     {
@@ -4495,6 +5115,8 @@
         "Dữ liệu và biểu đồ"
       ],
       "timeLimit": 90,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop8/de-thi-thu-cuoi-ky-1-toan8.json"
     },
     {
@@ -4508,6 +5130,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop8/toan-hang-dang-thuc-va-phuong-trinh.json"
     },
     {
@@ -4521,6 +5145,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "final2",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-cuoi-ky-2-toan8.json"
     },
     {
@@ -4534,6 +5160,8 @@
       "questionCount": 16,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "midterm2",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-2-toan8.json"
     },
     {
@@ -4552,6 +5180,8 @@
         "Tứ giác và hình bình hành"
       ],
       "timeLimit": null,
+      "examType": "midterm1",
+      "bookUnit": null,
       "path": "thcs/lop8/de-on-tap-giua-ky-1-toan8.json"
     },
     {
@@ -4565,6 +5195,10 @@
       "questionCount": 2,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 3
+      },
       "path": "thcs/lop8/toan-sap-xep-buoc-giai-pt.json"
     },
     {
@@ -4578,6 +5212,8 @@
       "questionCount": 18,
       "outcomes": [],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thcs/lop9/toan-can-bac-hai-va-ham-so.json"
     },
     {
@@ -4596,6 +5232,8 @@
         "Hệ thức lượng trong tam giác vuông"
       ],
       "timeLimit": 45,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thcs/lop9/de-thi-thu-1.json"
     },
     {
@@ -4614,6 +5252,8 @@
         "Tích vô hướng của hai vector"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/toan-he-thuc-luong-vector.json"
     },
     {
@@ -4632,6 +5272,8 @@
         "Phương trình - Bất phương trình bậc hai"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/toan-menh-de-tap-hop-bpt.json"
     },
     {
@@ -4650,6 +5292,8 @@
         "Ba đường conic: elip, hyperbol, parabol"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/toan-toa-do-mat-phang.json"
     },
     {
@@ -4668,6 +5312,8 @@
         "Xác suất của biến cố theo định nghĩa cổ điển"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/toan-thong-ke-to-hop-xac-suat.json"
     },
     {
@@ -4686,6 +5332,8 @@
         "Tính xác suất theo định nghĩa cổ điển"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/toan-xac-suat.json"
     },
     {
@@ -4704,6 +5352,8 @@
         "Đạo hàm của các hàm số sơ cấp"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/toan-gioi-han-dao-ham.json"
     },
     {
@@ -4722,6 +5372,8 @@
         "Cấp số nhân"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/toan-luong-giac-day-so.json"
     },
     {
@@ -4740,6 +5392,8 @@
         "Phương trình mũ và logarit cơ bản"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/toan-mu-logarit.json"
     },
     {
@@ -4758,6 +5412,8 @@
         "Quan hệ vuông góc trong không gian"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/toan-hinh-hoc-khong-gian.json"
     },
     {
@@ -4778,6 +5434,10 @@
         "T12-DH-6"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 1
+      },
       "path": "thpt/lop12/c1-ung-dung-dao-ham.json"
     },
     {
@@ -4795,6 +5455,10 @@
         "T12-KG-3"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 2
+      },
       "path": "thpt/lop12/c2-vecto-toa-do.json"
     },
     {
@@ -4811,6 +5475,10 @@
         "T12-TK-2"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 3
+      },
       "path": "thpt/lop12/c3-thong-ke.json"
     },
     {
@@ -4828,6 +5496,10 @@
         "T12-TP-3"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 4
+      },
       "path": "thpt/lop12/c4-nguyen-ham-tich-phan.json"
     },
     {
@@ -4846,6 +5518,10 @@
         "T12-PT-4"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 5
+      },
       "path": "thpt/lop12/c5-phuong-trinh-khong-gian.json"
     },
     {
@@ -4862,6 +5538,10 @@
         "T12-XS-2"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 6
+      },
       "path": "thpt/lop12/c6-xac-suat-co-dieu-kien.json"
     },
     {
@@ -4880,6 +5560,8 @@
         "Xác suất có điều kiện"
       ],
       "timeLimit": 45,
+      "examType": "mock",
+      "bookUnit": null,
       "path": "thpt/lop12/de-thi-thu-tot-nghiep-1.json"
     },
     {
@@ -4898,6 +5580,10 @@
         "Ứng dụng tích phân: thể tích vật thể tròn xoay"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 4
+      },
       "path": "thpt/lop12/toan-tich-phan-ung-dung.json"
     },
     {
@@ -4916,6 +5602,8 @@
         "Động lượng - Bảo toàn động lượng"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/vat-li-newton-nang-luong.json"
     },
     {
@@ -4934,6 +5622,8 @@
         "Rơi tự do"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/vat-li-dong-hoc.json"
     },
     {
@@ -4952,6 +5642,8 @@
         "Động lượng - Chuyển động tròn"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop10/vat-li.json"
     },
     {
@@ -4970,6 +5662,8 @@
         "Sóng âm"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/vat-li-dao-dong-song.json"
     },
     {
@@ -4988,6 +5682,8 @@
         "Công - công suất điện"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/vat-li-dien-truong-dong-dien.json"
     },
     {
@@ -5006,6 +5702,8 @@
         "Dòng điện không đổi - Định luật Ohm"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop11/vat-li.json"
     },
     {
@@ -5024,6 +5722,8 @@
         "Vật lí hạt nhân"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": null,
       "path": "thpt/lop12/vat-li.json"
     },
     {
@@ -5042,6 +5742,10 @@
         "Phóng xạ - Phản ứng hạt nhân"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 3
+      },
       "path": "thpt/lop12/vat-li-tu-truong-hat-nhan.json"
     },
     {
@@ -5060,6 +5764,10 @@
         "Các định luật chất khí - Phương trình trạng thái"
       ],
       "timeLimit": null,
+      "examType": "practice",
+      "bookUnit": {
+        "chapter": 1
+      },
       "path": "thpt/lop12/vat-li-nhiet-khi-li-tuong.json"
     }
   ]

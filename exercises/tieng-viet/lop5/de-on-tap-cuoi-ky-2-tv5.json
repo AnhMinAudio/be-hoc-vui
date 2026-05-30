@@ -9,35 +9,60 @@
     {
       "type": "multiple-choice",
       "question": "Cặp từ nào là từ trái nghĩa?",
-      "options": ["to - lớn", "cao - thấp", "đẹp - xinh", "nhanh - mau"],
+      "options": [
+        "to - lớn",
+        "cao - thấp",
+        "đẹp - xinh",
+        "nhanh - mau"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Cặp từ nào là từ đồng nghĩa?",
-      "options": ["vui - buồn", "siêng năng - chăm chỉ", "đen - trắng", "sáng - tối"],
+      "options": [
+        "vui - buồn",
+        "siêng năng - chăm chỉ",
+        "đen - trắng",
+        "sáng - tối"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'đường' trong 'đường phố' và 'đường (để) ăn' là hiện tượng gì?",
-      "options": ["từ đồng nghĩa", "từ trái nghĩa", "từ đồng âm", "từ láy"],
+      "options": [
+        "từ đồng nghĩa",
+        "từ trái nghĩa",
+        "từ đồng âm",
+        "từ láy"
+      ],
       "answer": 2,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu ghép là câu như thế nào?",
-      "options": ["chỉ có một vế câu", "do hai hay nhiều vế câu ghép lại", "không có chủ ngữ", "chỉ có vị ngữ"],
+      "options": [
+        "chỉ có một vế câu",
+        "do hai hay nhiều vế câu ghép lại",
+        "không có chủ ngữ",
+        "chỉ có vị ngữ"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào là câu ghép?",
-      "options": ["Trời mưa to nên đường ngập nước.", "Em đi học đều đặn.", "Bầu trời trong xanh.", "Hoa nở rất đẹp."],
+      "options": [
+        "Trời mưa to nên đường ngập nước.",
+        "Em đi học đều đặn.",
+        "Bầu trời trong xanh.",
+        "Hoa nở rất đẹp."
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -45,20 +70,32 @@
       "type": "fill-blank",
       "question": "Điền quan hệ từ thích hợp: 'Tuy nhà nghèo ___ bạn ấy học rất giỏi.'",
       "answer": "nhưng",
-      "alternatives": ["mà"],
+      "alternatives": [
+        "mà"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Trong câu ghép 'Vì trời mưa nên trận đấu bị hoãn.', hai vế được nối bằng cặp quan hệ từ nào?",
-      "options": ["Vì... nên...", "Tuy... nhưng...", "Nếu... thì...", "Chẳng những... mà còn..."],
+      "options": [
+        "Vì... nên...",
+        "Tuy... nhưng...",
+        "Nếu... thì...",
+        "Chẳng những... mà còn..."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'chân' trong 'chân bàn', 'chân núi', 'chân người' là hiện tượng gì?",
-      "options": ["từ đồng âm", "từ nhiều nghĩa", "từ trái nghĩa", "từ láy"],
+      "options": [
+        "từ đồng âm",
+        "từ nhiều nghĩa",
+        "từ trái nghĩa",
+        "từ láy"
+      ],
       "answer": 1,
       "level": "M2",
       "hint": "Các nghĩa đều liên quan đến 'bộ phận dưới cùng, để đỡ' nên là một từ nhiều nghĩa."
@@ -66,7 +103,12 @@
     {
       "type": "multiple-choice",
       "question": "Hai câu 'Lan rất chăm học. Bạn ấy luôn đạt điểm cao.' được liên kết bằng cách nào?",
-      "options": ["lặp từ ngữ", "thay thế từ ngữ (dùng 'Bạn ấy' thay cho 'Lan')", "dùng từ nối", "không liên kết"],
+      "options": [
+        "lặp từ ngữ",
+        "thay thế từ ngữ (dùng 'Bạn ấy' thay cho 'Lan')",
+        "dùng từ nối",
+        "không liên kết"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -74,23 +116,40 @@
       "type": "fill-blank",
       "question": "Tìm một từ trái nghĩa với 'dũng cảm': ___",
       "answer": "hèn nhát",
-      "alternatives": ["nhút nhát", "hèn"],
+      "alternatives": [
+        "nhút nhát",
+        "hèn"
+      ],
       "level": "M2"
     },
     {
       "type": "matching",
       "question": "Nối biện pháp tu từ với ví dụ phù hợp",
       "pairs": [
-        ["so sánh", "Cô giáo như mẹ hiền."],
-        ["nhân hóa", "Ông trời mặc áo giáp đen."],
-        ["điệp ngữ", "Trùng trùng điệp điệp."]
+        [
+          "so sánh",
+          "Cô giáo như mẹ hiền."
+        ],
+        [
+          "nhân hóa",
+          "Ông trời mặc áo giáp đen."
+        ],
+        [
+          "điệp ngữ",
+          "Trùng trùng điệp điệp."
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Dấu ngoặc kép trong câu thường dùng để làm gì?",
-      "options": ["kết thúc câu", "đánh dấu lời nói trực tiếp hoặc từ ngữ đặc biệt", "ngăn cách các vế câu", "dùng để hỏi"],
+      "options": [
+        "kết thúc câu",
+        "đánh dấu lời nói trực tiếp hoặc từ ngữ đặc biệt",
+        "ngăn cách các vế câu",
+        "dùng để hỏi"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -98,7 +157,12 @@
       "type": "multiple-choice",
       "passage": "Biển luôn thay đổi màu sắc theo sắc mây trời. Trời xanh thẳm, biển cũng xanh thẳm như dâng cao lên, chắc nịch. Trời rải mây trắng nhạt, biển lại mơ màng dịu hơi sương.",
       "question": "Theo bài, biển thay đổi màu sắc theo điều gì?",
-      "options": ["theo mùa trong năm", "theo sắc mây trời", "theo hướng gió", "theo giờ trong ngày"],
+      "options": [
+        "theo mùa trong năm",
+        "theo sắc mây trời",
+        "theo hướng gió",
+        "theo giờ trong ngày"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -106,7 +170,12 @@
       "type": "multiple-choice",
       "passage": "Biển luôn thay đổi màu sắc theo sắc mây trời. Trời xanh thẳm, biển cũng xanh thẳm như dâng cao lên, chắc nịch. Trời rải mây trắng nhạt, biển lại mơ màng dịu hơi sương.",
       "question": "Khi trời xanh thẳm, biển được tả như thế nào?",
-      "options": ["mơ màng dịu hơi sương", "xanh thẳm, như dâng cao lên, chắc nịch", "xám xịt u ám", "đỏ rực"],
+      "options": [
+        "mơ màng dịu hơi sương",
+        "xanh thẳm, như dâng cao lên, chắc nịch",
+        "xám xịt u ám",
+        "đỏ rực"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -114,16 +183,27 @@
       "type": "multiple-choice",
       "passage": "Biển luôn thay đổi màu sắc theo sắc mây trời. Trời xanh thẳm, biển cũng xanh thẳm như dâng cao lên, chắc nịch. Trời rải mây trắng nhạt, biển lại mơ màng dịu hơi sương.",
       "question": "Câu 'Biển luôn thay đổi màu sắc theo sắc mây trời.' là loại câu gì?",
-      "options": ["câu ghép", "câu đơn", "câu hỏi", "câu khiến"],
+      "options": [
+        "câu ghép",
+        "câu đơn",
+        "câu hỏi",
+        "câu khiến"
+      ],
       "answer": 1,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'mơ màng' thuộc loại từ nào?",
-      "options": ["danh từ", "động từ", "tính từ", "quan hệ từ"],
+      "options": [
+        "danh từ",
+        "động từ",
+        "tính từ",
+        "quan hệ từ"
+      ],
       "answer": 2,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "final2"
 }

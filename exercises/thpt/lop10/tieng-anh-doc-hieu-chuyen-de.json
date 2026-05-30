@@ -181,10 +181,22 @@
       "level": "VD",
       "question": "Based on the reading passages, decide if each statement is true or false. (Dựa vào hai đoạn văn, xét tính đúng/sai.)",
       "statements": [
-        { "text": "Family is very important to most Vietnamese people. (Gia đình rất quan trọng với hầu hết người Việt Nam.)", "answer": true },
-        { "text": "Plastic waste is a serious environmental problem all over the world. (Rác thải nhựa là vấn đề môi trường nghiêm trọng trên toàn thế giới.)", "answer": true },
-        { "text": "Plastic waste in rivers and oceans is good for animals. (Rác thải nhựa trong sông và đại dương có lợi cho động vật.)", "answer": false },
-        { "text": "Small daily actions can help protect the environment. (Những hành động nhỏ hằng ngày có thể giúp bảo vệ môi trường.)", "answer": true }
+        {
+          "text": "Family is very important to most Vietnamese people. (Gia đình rất quan trọng với hầu hết người Việt Nam.)",
+          "answer": true
+        },
+        {
+          "text": "Plastic waste is a serious environmental problem all over the world. (Rác thải nhựa là vấn đề môi trường nghiêm trọng trên toàn thế giới.)",
+          "answer": true
+        },
+        {
+          "text": "Plastic waste in rivers and oceans is good for animals. (Rác thải nhựa trong sông và đại dương có lợi cho động vật.)",
+          "answer": false
+        },
+        {
+          "text": "Small daily actions can help protect the environment. (Những hành động nhỏ hằng ngày có thể giúp bảo vệ môi trường.)",
+          "answer": true
+        }
       ]
     },
     {
@@ -192,10 +204,22 @@
       "level": "VD",
       "question": "Decide if each statement about reading skills and vocabulary is true or false. (Xét tính đúng/sai về kĩ năng đọc và từ vựng.)",
       "statements": [
-        { "text": "When reading, finding the MAIN IDEA helps us understand the writer's purpose. (Khi đọc, tìm Ý CHÍNH giúp ta hiểu mục đích của người viết.)", "answer": true },
-        { "text": "\"Reusable\" means something that can be used many times. (\"Reusable\" có nghĩa là vật có thể dùng nhiều lần.)", "answer": true },
-        { "text": "\"Plastic waste\" only refers to plastic bottles, not bags or straws. (\"Plastic waste\" chỉ nói đến chai nhựa, không phải túi và ống hút.)", "answer": false },
-        { "text": "Cloth bags are an alternative to plastic bags when shopping. (Túi vải là một lựa chọn thay thế cho túi nhựa khi đi mua sắm.)", "answer": true }
+        {
+          "text": "When reading, finding the MAIN IDEA helps us understand the writer's purpose. (Khi đọc, tìm Ý CHÍNH giúp ta hiểu mục đích của người viết.)",
+          "answer": true
+        },
+        {
+          "text": "\"Reusable\" means something that can be used many times. (\"Reusable\" có nghĩa là vật có thể dùng nhiều lần.)",
+          "answer": true
+        },
+        {
+          "text": "\"Plastic waste\" only refers to plastic bottles, not bags or straws. (\"Plastic waste\" chỉ nói đến chai nhựa, không phải túi và ống hút.)",
+          "answer": false
+        },
+        {
+          "text": "Cloth bags are an alternative to plastic bags when shopping. (Túi vải là một lựa chọn thay thế cho túi nhựa khi đi mua sắm.)",
+          "answer": true
+        }
       ]
     },
     {
@@ -203,7 +227,9 @@
       "level": "TH",
       "question": "Complete the word from the second passage: r_u_a_le (có thể dùng lại được).",
       "answer": "reusable",
-      "alternatives": ["Reusable"],
+      "alternatives": [
+        "Reusable"
+      ],
       "hint": "\"reusable\" = tái sử dụng được."
     },
     {
@@ -211,7 +237,9 @@
       "level": "TH",
       "question": "Complete the sentence: \"We should protect the _____ for future generations.\" (Hoàn thành câu: \"Chúng ta nên bảo vệ _____ cho các thế hệ tương lai.\")",
       "answer": "environment",
-      "alternatives": ["Environment"],
+      "alternatives": [
+        "Environment"
+      ],
       "hint": "\"environment\" = môi trường."
     },
     {
@@ -221,5 +249,6 @@
       "answer": true,
       "hint": "Đoạn văn nêu rõ rác nhựa \"harms fish, birds, and other animals\"."
     }
-  ]
+  ],
+  "examType": "practice"
 }

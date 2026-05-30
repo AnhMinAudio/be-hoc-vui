@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về trật tự thế giới và Chiến tranh lạnh:",
       "statements": [
-        { "text": "Sau Chiến tranh thế giới thứ hai, một trật tự thế giới mới hình thành theo khuôn khổ thỏa thuận tại Hội nghị Yalta (trật tự hai cực).", "answer": true },
-        { "text": "Liên hợp quốc được thành lập năm 1945 nhằm duy trì hòa bình và an ninh thế giới.", "answer": true },
-        { "text": "Trong Chiến tranh lạnh, Mỹ và Liên Xô đã trực tiếp tiến hành chiến tranh tổng lực bằng vũ khí hạt nhân với nhau.", "answer": false },
-        { "text": "Sau Chiến tranh lạnh, thế giới phát triển theo xu thế đa cực.", "answer": true }
+        {
+          "text": "Sau Chiến tranh thế giới thứ hai, một trật tự thế giới mới hình thành theo khuôn khổ thỏa thuận tại Hội nghị Yalta (trật tự hai cực).",
+          "answer": true
+        },
+        {
+          "text": "Liên hợp quốc được thành lập năm 1945 nhằm duy trì hòa bình và an ninh thế giới.",
+          "answer": true
+        },
+        {
+          "text": "Trong Chiến tranh lạnh, Mỹ và Liên Xô đã trực tiếp tiến hành chiến tranh tổng lực bằng vũ khí hạt nhân với nhau.",
+          "answer": false
+        },
+        {
+          "text": "Sau Chiến tranh lạnh, thế giới phát triển theo xu thế đa cực.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về tổ chức ASEAN:",
       "statements": [
-        { "text": "ASEAN được thành lập năm 1967 với 5 nước thành viên ban đầu.", "answer": true },
-        { "text": "Việt Nam gia nhập ASEAN vào năm 1995.", "answer": true },
-        { "text": "Hiện nay ASEAN có 10 quốc gia thành viên.", "answer": true },
-        { "text": "Tất cả các quốc gia ở khu vực Đông Nam Á hiện đều đã là thành viên chính thức của ASEAN.", "answer": false }
+        {
+          "text": "ASEAN được thành lập năm 1967 với 5 nước thành viên ban đầu.",
+          "answer": true
+        },
+        {
+          "text": "Việt Nam gia nhập ASEAN vào năm 1995.",
+          "answer": true
+        },
+        {
+          "text": "Hiện nay ASEAN có 10 quốc gia thành viên.",
+          "answer": true
+        },
+        {
+          "text": "Tất cả các quốc gia ở khu vực Đông Nam Á hiện đều đã là thành viên chính thức của ASEAN.",
+          "answer": false
+        }
       ]
     },
     {
@@ -199,5 +223,6 @@
       "answer": true,
       "hint": "Liên hợp quốc có trụ sở chính tại New York."
     }
-  ]
+  ],
+  "examType": "practice"
 }

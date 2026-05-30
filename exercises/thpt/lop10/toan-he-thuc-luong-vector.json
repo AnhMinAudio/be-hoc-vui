@@ -178,10 +178,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hệ thức lượng trong tam giác:",
       "statements": [
-        { "text": "Trong tam giác $ABC$ ta có $a^2 = b^2 + c^2 - 2bc\\cos A$ (định lí cosin).", "answer": true },
-        { "text": "Diện tích tam giác có thể tính bằng $S = \\dfrac{1}{2} a h_a$ với $h_a$ là đường cao tương ứng cạnh $a$.", "answer": true },
-        { "text": "Trong tam giác vuông tại $A$, ta có $a^2 = b^2 + c^2$.", "answer": true },
-        { "text": "Trong mọi tam giác, tổng ba góc trong luôn bằng $360^\\circ$.", "answer": false }
+        {
+          "text": "Trong tam giác $ABC$ ta có $a^2 = b^2 + c^2 - 2bc\\cos A$ (định lí cosin).",
+          "answer": true
+        },
+        {
+          "text": "Diện tích tam giác có thể tính bằng $S = \\dfrac{1}{2} a h_a$ với $h_a$ là đường cao tương ứng cạnh $a$.",
+          "answer": true
+        },
+        {
+          "text": "Trong tam giác vuông tại $A$, ta có $a^2 = b^2 + c^2$.",
+          "answer": true
+        },
+        {
+          "text": "Trong mọi tam giác, tổng ba góc trong luôn bằng $360^\\circ$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -189,10 +201,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về vector:",
       "statements": [
-        { "text": "Hai vector cùng phương thì hoặc cùng hướng hoặc ngược hướng.", "answer": true },
-        { "text": "Quy tắc ba điểm: $\\vec{AB} + \\vec{BC} = \\vec{AC}$ với mọi ba điểm $A, B, C$.", "answer": true },
-        { "text": "Hai vector (khác $\\vec{0}$) vuông góc với nhau thì tích vô hướng của chúng bằng $0$.", "answer": true },
-        { "text": "Vector $\\vec{0}$ có độ dài bằng $1$.", "answer": false }
+        {
+          "text": "Hai vector cùng phương thì hoặc cùng hướng hoặc ngược hướng.",
+          "answer": true
+        },
+        {
+          "text": "Quy tắc ba điểm: $\\vec{AB} + \\vec{BC} = \\vec{AC}$ với mọi ba điểm $A, B, C$.",
+          "answer": true
+        },
+        {
+          "text": "Hai vector (khác $\\vec{0}$) vuông góc với nhau thì tích vô hướng của chúng bằng $0$.",
+          "answer": true
+        },
+        {
+          "text": "Vector $\\vec{0}$ có độ dài bằng $1$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -216,5 +240,6 @@
       "answer": true,
       "hint": "Theo định nghĩa, vector không có điểm đầu trùng điểm cuối, độ dài bằng 0."
     }
-  ]
+  ],
+  "examType": "practice"
 }

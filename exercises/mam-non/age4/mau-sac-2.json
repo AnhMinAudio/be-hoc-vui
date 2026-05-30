@@ -6,13 +6,102 @@
   "topic": "Màu sắc của đồ vật (phần 2)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Quả cam có màu gì?", "options": ["🟠", "🔵", "🟣", "⚫"], "answer": 0, "prompt": "🍊", "hint": "Quả cam màu cam." },
-    { "type": "image-choice", "question": "Quả dưa hấu bên ngoài màu gì?", "options": ["🔴", "🟢", "🟡", "🟤"], "answer": 1, "prompt": "🍉" },
-    { "type": "image-choice", "question": "Bông hoa hồng này màu gì?", "options": ["🔴", "🔵", "⚫", "🟤"], "answer": 0, "prompt": "🌹" },
-    { "type": "image-choice", "question": "Quả chanh có màu gì?", "options": ["🟣", "🟡", "🔵", "⚫"], "answer": 1, "prompt": "🍋" },
-    { "type": "image-choice", "question": "Bắp ngô có màu gì?", "options": ["🔵", "🟣", "🟡", "⚫"], "answer": 2, "prompt": "🌽" },
-    { "type": "image-choice", "question": "Quả việt quất có màu gì?", "options": ["🔵", "🔴", "🟡", "🟢"], "answer": 0, "prompt": "🫐" },
-    { "type": "image-choice", "question": "Cục than đá có màu gì?", "options": ["⚪", "🟡", "⚫", "🔴"], "answer": 2 },
-    { "type": "image-choice", "question": "Bông tuyết có màu gì?", "options": ["⚫", "⚪", "🔴", "🟤"], "answer": 1, "prompt": "❄️" }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Quả cam có màu gì?",
+      "options": [
+        "🟠",
+        "🔵",
+        "🟣",
+        "⚫"
+      ],
+      "answer": 0,
+      "prompt": "🍊",
+      "hint": "Quả cam màu cam."
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả dưa hấu bên ngoài màu gì?",
+      "options": [
+        "🔴",
+        "🟢",
+        "🟡",
+        "🟤"
+      ],
+      "answer": 1,
+      "prompt": "🍉"
+    },
+    {
+      "type": "image-choice",
+      "question": "Bông hoa hồng này màu gì?",
+      "options": [
+        "🔴",
+        "🔵",
+        "⚫",
+        "🟤"
+      ],
+      "answer": 0,
+      "prompt": "🌹"
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả chanh có màu gì?",
+      "options": [
+        "🟣",
+        "🟡",
+        "🔵",
+        "⚫"
+      ],
+      "answer": 1,
+      "prompt": "🍋"
+    },
+    {
+      "type": "image-choice",
+      "question": "Bắp ngô có màu gì?",
+      "options": [
+        "🔵",
+        "🟣",
+        "🟡",
+        "⚫"
+      ],
+      "answer": 2,
+      "prompt": "🌽"
+    },
+    {
+      "type": "image-choice",
+      "question": "Quả việt quất có màu gì?",
+      "options": [
+        "🔵",
+        "🔴",
+        "🟡",
+        "🟢"
+      ],
+      "answer": 0,
+      "prompt": "🫐"
+    },
+    {
+      "type": "image-choice",
+      "question": "Cục than đá có màu gì?",
+      "options": [
+        "⚪",
+        "🟡",
+        "⚫",
+        "🔴"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Bông tuyết có màu gì?",
+      "options": [
+        "⚫",
+        "⚪",
+        "🔴",
+        "🟤"
+      ],
+      "answer": 1,
+      "prompt": "❄️"
+    }
+  ],
+  "examType": "practice"
 }

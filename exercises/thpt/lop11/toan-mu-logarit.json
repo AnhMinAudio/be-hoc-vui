@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về lũy thừa và logarit:",
       "statements": [
-        { "text": "Với $a > 0$, $a \\neq 1$ thì $\\log_a 1 = 0$ và $\\log_a a = 1$.", "answer": true },
-        { "text": "Với $x, y > 0$ và $a > 0$, $a \\neq 1$: $\\log_a(xy) = \\log_a x + \\log_a y$.", "answer": true },
-        { "text": "Với $x > 0$, $\\alpha \\in \\mathbb{R}$: $\\log_a(x^\\alpha) = \\alpha \\log_a x$.", "answer": true },
-        { "text": "Logarit của một số ÂM là một số thực có giá trị xác định.", "answer": false }
+        {
+          "text": "Với $a > 0$, $a \\neq 1$ thì $\\log_a 1 = 0$ và $\\log_a a = 1$.",
+          "answer": true
+        },
+        {
+          "text": "Với $x, y > 0$ và $a > 0$, $a \\neq 1$: $\\log_a(xy) = \\log_a x + \\log_a y$.",
+          "answer": true
+        },
+        {
+          "text": "Với $x > 0$, $\\alpha \\in \\mathbb{R}$: $\\log_a(x^\\alpha) = \\alpha \\log_a x$.",
+          "answer": true
+        },
+        {
+          "text": "Logarit của một số ÂM là một số thực có giá trị xác định.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hàm số mũ và hàm số logarit:",
       "statements": [
-        { "text": "Hàm số $y = a^x$ với $a > 1$ đồng biến trên $\\mathbb{R}$.", "answer": true },
-        { "text": "Hàm số $y = \\log_a x$ có tập xác định $(0; +\\infty)$.", "answer": true },
-        { "text": "Đồ thị hàm $y = a^x$ luôn đi qua điểm $(0; 1)$ với mọi $a > 0$, $a \\neq 1$.", "answer": true },
-        { "text": "Hàm số $y = a^x$ với $0 < a < 1$ đồng biến trên $\\mathbb{R}$.", "answer": false }
+        {
+          "text": "Hàm số $y = a^x$ với $a > 1$ đồng biến trên $\\mathbb{R}$.",
+          "answer": true
+        },
+        {
+          "text": "Hàm số $y = \\log_a x$ có tập xác định $(0; +\\infty)$.",
+          "answer": true
+        },
+        {
+          "text": "Đồ thị hàm $y = a^x$ luôn đi qua điểm $(0; 1)$ với mọi $a > 0$, $a \\neq 1$.",
+          "answer": true
+        },
+        {
+          "text": "Hàm số $y = a^x$ với $0 < a < 1$ đồng biến trên $\\mathbb{R}$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -212,5 +236,6 @@
       "answer": true,
       "hint": "$a^0 = 1$ nên $\\log_a 1 = 0$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

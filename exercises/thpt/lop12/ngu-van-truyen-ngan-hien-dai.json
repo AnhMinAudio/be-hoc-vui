@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về truyện ngắn Việt Nam hiện đại:",
       "statements": [
-        { "text": "Truyện ngắn \"Vợ chồng A Phủ\" của Tô Hoài viết về số phận người dân tộc thiểu số ở Tây Bắc.", "answer": true },
-        { "text": "Truyện ngắn \"Rừng xà nu\" của Nguyễn Trung Thành viết về cuộc kháng chiến chống Mỹ ở Tây Nguyên.", "answer": true },
-        { "text": "Hình tượng cây xà nu trong \"Rừng xà nu\" tượng trưng cho sức sống bất khuất của dân làng Xô Man.", "answer": true },
-        { "text": "Truyện ngắn \"Chiếc thuyền ngoài xa\" của Nguyễn Minh Châu chỉ ca ngợi vẻ đẹp tự nhiên, không có thông điệp về nghệ thuật và cuộc đời.", "answer": false }
+        {
+          "text": "Truyện ngắn \"Vợ chồng A Phủ\" của Tô Hoài viết về số phận người dân tộc thiểu số ở Tây Bắc.",
+          "answer": true
+        },
+        {
+          "text": "Truyện ngắn \"Rừng xà nu\" của Nguyễn Trung Thành viết về cuộc kháng chiến chống Mỹ ở Tây Nguyên.",
+          "answer": true
+        },
+        {
+          "text": "Hình tượng cây xà nu trong \"Rừng xà nu\" tượng trưng cho sức sống bất khuất của dân làng Xô Man.",
+          "answer": true
+        },
+        {
+          "text": "Truyện ngắn \"Chiếc thuyền ngoài xa\" của Nguyễn Minh Châu chỉ ca ngợi vẻ đẹp tự nhiên, không có thông điệp về nghệ thuật và cuộc đời.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về phong cách và cảm hứng văn học:",
       "statements": [
-        { "text": "Văn học Việt Nam giai đoạn 1945 - 1975 mang đậm cảm hứng sử thi, đề cao chủ nghĩa anh hùng cách mạng.", "answer": true },
-        { "text": "Nguyễn Minh Châu là một trong những nhà văn tiên phong đổi mới văn học Việt Nam sau năm 1986.", "answer": true },
-        { "text": "Mị (trong \"Vợ chồng A Phủ\") có sức sống tiềm tàng mạnh mẽ, dù bị áp bức nhưng vẫn khao khát tự do.", "answer": true },
-        { "text": "Tất cả các truyện ngắn Việt Nam hiện đại đều chỉ viết về tình yêu, không phản ánh xã hội.", "answer": false }
+        {
+          "text": "Văn học Việt Nam giai đoạn 1945 - 1975 mang đậm cảm hứng sử thi, đề cao chủ nghĩa anh hùng cách mạng.",
+          "answer": true
+        },
+        {
+          "text": "Nguyễn Minh Châu là một trong những nhà văn tiên phong đổi mới văn học Việt Nam sau năm 1986.",
+          "answer": true
+        },
+        {
+          "text": "Mị (trong \"Vợ chồng A Phủ\") có sức sống tiềm tàng mạnh mẽ, dù bị áp bức nhưng vẫn khao khát tự do.",
+          "answer": true
+        },
+        {
+          "text": "Tất cả các truyện ngắn Việt Nam hiện đại đều chỉ viết về tình yêu, không phản ánh xã hội.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Tác phẩm \"Vợ chồng A Phủ\" là sáng tác tiêu biểu của nhà văn ___",
       "answer": "Tô Hoài",
-      "alternatives": ["to hoai"],
+      "alternatives": [
+        "to hoai"
+      ],
       "hint": "Tô Hoài (1920-2014) là tác giả của \"Vợ chồng A Phủ\" và \"Dế Mèn phiêu lưu kí\"."
     },
     {
@@ -191,7 +217,9 @@
       "level": "TH",
       "question": "Truyện ngắn \"Rừng xà nu\" lấy bối cảnh ở khu vực ___ trong cuộc kháng chiến chống Mỹ.",
       "answer": "Tây Nguyên",
-      "alternatives": ["tay nguyen"],
+      "alternatives": [
+        "tay nguyen"
+      ],
       "hint": "Làng Xô Man (dân tộc Strá / Xơ-đăng) ở Tây Nguyên là bối cảnh chính của truyện."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Nguyễn Minh Châu được xem là \"người mở đường\" tinh anh và tài năng của văn học Việt Nam thời kì đổi mới."
     }
-  ]
+  ],
+  "examType": "practice"
 }

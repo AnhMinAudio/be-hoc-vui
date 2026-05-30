@@ -9,35 +9,60 @@
     {
       "type": "multiple-choice",
       "question": "Câu kể 'Ai làm gì?' gồm mấy bộ phận chính?",
-      "options": ["1 bộ phận", "2 bộ phận (chủ ngữ và vị ngữ)", "3 bộ phận", "4 bộ phận"],
+      "options": [
+        "1 bộ phận",
+        "2 bộ phận (chủ ngữ và vị ngữ)",
+        "3 bộ phận",
+        "4 bộ phận"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Trạng ngữ trong câu 'Sáng nay, em đi học sớm.' là bộ phận nào?",
-      "options": ["Sáng nay", "em", "đi học sớm", "học"],
+      "options": [
+        "Sáng nay",
+        "em",
+        "đi học sớm",
+        "học"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Trạng ngữ 'Sáng nay' bổ sung ý nghĩa gì cho câu?",
-      "options": ["nơi chốn", "thời gian", "nguyên nhân", "mục đích"],
+      "options": [
+        "nơi chốn",
+        "thời gian",
+        "nguyên nhân",
+        "mục đích"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào là câu cảm?",
-      "options": ["Ôi, cảnh biển đẹp quá!", "Em đang đi học.", "Bạn tên là gì?", "Hãy giữ im lặng."],
+      "options": [
+        "Ôi, cảnh biển đẹp quá!",
+        "Em đang đi học.",
+        "Bạn tên là gì?",
+        "Hãy giữ im lặng."
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào là tính từ chỉ màu sắc?",
-      "options": ["xanh biếc", "chạy nhảy", "quyển vở", "ca hát"],
+      "options": [
+        "xanh biếc",
+        "chạy nhảy",
+        "quyển vở",
+        "ca hát"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -45,27 +70,46 @@
       "type": "fill-blank",
       "question": "Tìm chủ ngữ trong câu 'Đàn cò trắng bay lượn trên cánh đồng.': ___",
       "answer": "Đàn cò trắng",
-      "alternatives": ["đàn cò trắng", "Đàn cò", "đàn cò"],
+      "alternatives": [
+        "đàn cò trắng",
+        "Đàn cò",
+        "đàn cò"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Vị ngữ trong câu 'Những bông hoa đua nhau khoe sắc.' là bộ phận nào?",
-      "options": ["Những bông hoa", "đua nhau khoe sắc", "bông hoa", "khoe"],
+      "options": [
+        "Những bông hoa",
+        "đua nhau khoe sắc",
+        "bông hoa",
+        "khoe"
+      ],
       "answer": 1,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Thêm trạng ngữ chỉ nơi chốn vào câu: '___, em trồng rau.'",
-      "options": ["Buổi sáng", "Trong vườn", "Vì chăm chỉ", "Để có rau sạch"],
+      "options": [
+        "Buổi sáng",
+        "Trong vườn",
+        "Vì chăm chỉ",
+        "Để có rau sạch"
+      ],
       "answer": 1,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào sử dụng biện pháp nhân hóa?",
-      "options": ["Ông mặt trời vừa tỉnh giấc.", "Hôm nay trời rất nắng.", "Em ăn cơm rất nhanh.", "Lá rụng đầy sân."],
+      "options": [
+        "Ông mặt trời vừa tỉnh giấc.",
+        "Hôm nay trời rất nắng.",
+        "Em ăn cơm rất nhanh.",
+        "Lá rụng đầy sân."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -73,23 +117,41 @@
       "type": "fill-blank",
       "question": "Điền trạng ngữ chỉ nguyên nhân vào chỗ trống (gợi ý: trời mưa): '___, đường rất trơn.'",
       "answer": "Vì trời mưa",
-      "alternatives": ["vì trời mưa", "Do trời mưa", "do trời mưa"],
+      "alternatives": [
+        "vì trời mưa",
+        "Do trời mưa",
+        "do trời mưa"
+      ],
       "level": "M2"
     },
     {
       "type": "matching",
       "question": "Nối từ với từ loại của nó",
       "pairs": [
-        ["chạy", "động từ"],
-        ["đẹp", "tính từ"],
-        ["bàn", "danh từ"]
+        [
+          "chạy",
+          "động từ"
+        ],
+        [
+          "đẹp",
+          "tính từ"
+        ],
+        [
+          "bàn",
+          "danh từ"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Trong câu 'Trên cành cao, chú chim hót líu lo.', trạng ngữ chỉ điều gì?",
-      "options": ["thời gian", "nơi chốn", "nguyên nhân", "mục đích"],
+      "options": [
+        "thời gian",
+        "nơi chốn",
+        "nguyên nhân",
+        "mục đích"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -97,7 +159,12 @@
       "type": "multiple-choice",
       "passage": "Rừng cọ quê tôi trải dài bạt ngàn. Thân cọ thẳng vút, lá cọ xòe ra như những chiếc quạt lớn. Mỗi khi gió về, cả rừng cọ reo lên rì rào như bản nhạc của núi rừng.",
       "question": "Lá cọ được so sánh với gì?",
-      "options": ["những chiếc quạt lớn", "bàn tay", "mái nhà", "cây dù"],
+      "options": [
+        "những chiếc quạt lớn",
+        "bàn tay",
+        "mái nhà",
+        "cây dù"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -105,7 +172,12 @@
       "type": "multiple-choice",
       "passage": "Rừng cọ quê tôi trải dài bạt ngàn. Thân cọ thẳng vút, lá cọ xòe ra như những chiếc quạt lớn. Mỗi khi gió về, cả rừng cọ reo lên rì rào như bản nhạc của núi rừng.",
       "question": "Khi gió về, rừng cọ được tả như thế nào?",
-      "options": ["im lặng hoàn toàn", "reo lên rì rào như bản nhạc", "đổ rạp xuống", "héo úa"],
+      "options": [
+        "im lặng hoàn toàn",
+        "reo lên rì rào như bản nhạc",
+        "đổ rạp xuống",
+        "héo úa"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -113,16 +185,27 @@
       "type": "multiple-choice",
       "passage": "Rừng cọ quê tôi trải dài bạt ngàn. Thân cọ thẳng vút, lá cọ xòe ra như những chiếc quạt lớn. Mỗi khi gió về, cả rừng cọ reo lên rì rào như bản nhạc của núi rừng.",
       "question": "Câu 'Thân cọ thẳng vút.' thuộc kiểu câu kể nào?",
-      "options": ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Khi nào?"],
+      "options": [
+        "Ai làm gì?",
+        "Ai thế nào?",
+        "Ai là gì?",
+        "Khi nào?"
+      ],
       "answer": 1,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'bạt ngàn' có nghĩa gần với từ nào?",
-      "options": ["nhỏ hẹp", "rộng lớn mênh mông", "thưa thớt", "khô cằn"],
+      "options": [
+        "nhỏ hẹp",
+        "rộng lớn mênh mông",
+        "thưa thớt",
+        "khô cằn"
+      ],
       "answer": 1,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "final2"
 }

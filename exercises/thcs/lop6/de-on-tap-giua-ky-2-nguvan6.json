@@ -12,7 +12,12 @@
       "level": "NB",
       "passage": "Đời Hùng Vương thứ sáu, ở làng Gióng có một cậu bé kì lạ. Lên ba tuổi mà cậu vẫn chưa biết nói. Thế nhưng khi nghe tin giặc Ân xâm lược, cậu bỗng cất tiếng xin đi đánh giặc. Cậu lớn nhanh như thổi, vươn vai thành tráng sĩ, cưỡi ngựa sắt xông ra trận, đánh tan quân giặc.",
       "question": "Câu chuyện gắn với đời vua nào?",
-      "options": ["Hùng Vương thứ sáu", "An Dương Vương", "Hùng Vương thứ nhất", "vua Lê Lợi"],
+      "options": [
+        "Hùng Vương thứ sáu",
+        "An Dương Vương",
+        "Hùng Vương thứ nhất",
+        "vua Lê Lợi"
+      ],
       "answer": 0
     },
     {
@@ -20,7 +25,12 @@
       "level": "TH",
       "passage": "Đời Hùng Vương thứ sáu, ở làng Gióng có một cậu bé kì lạ. Lên ba tuổi mà cậu vẫn chưa biết nói. Thế nhưng khi nghe tin giặc Ân xâm lược, cậu bỗng cất tiếng xin đi đánh giặc. Cậu lớn nhanh như thổi, vươn vai thành tráng sĩ, cưỡi ngựa sắt xông ra trận, đánh tan quân giặc.",
       "question": "Điều gì khiến cậu bé bỗng cất tiếng nói?",
-      "options": ["nghe tin giặc Ân xâm lược", "thấy đói bụng", "được mẹ gọi", "nhìn thấy ngựa sắt"],
+      "options": [
+        "nghe tin giặc Ân xâm lược",
+        "thấy đói bụng",
+        "được mẹ gọi",
+        "nhìn thấy ngựa sắt"
+      ],
       "answer": 0
     },
     {
@@ -28,7 +38,12 @@
       "level": "TH",
       "passage": "Đời Hùng Vương thứ sáu, ở làng Gióng có một cậu bé kì lạ. Lên ba tuổi mà cậu vẫn chưa biết nói. Thế nhưng khi nghe tin giặc Ân xâm lược, cậu bỗng cất tiếng xin đi đánh giặc. Cậu lớn nhanh như thổi, vươn vai thành tráng sĩ, cưỡi ngựa sắt xông ra trận, đánh tan quân giặc.",
       "question": "Chi tiết nào cho thấy sự kì lạ của cậu bé?",
-      "options": ["lên ba chưa biết nói rồi bỗng lớn nhanh như thổi", "biết hát rất hay", "có ba đầu sáu tay", "biết bơi từ nhỏ"],
+      "options": [
+        "lên ba chưa biết nói rồi bỗng lớn nhanh như thổi",
+        "biết hát rất hay",
+        "có ba đầu sáu tay",
+        "biết bơi từ nhỏ"
+      ],
       "answer": 0
     },
     {
@@ -36,28 +51,48 @@
       "level": "VD",
       "passage": "Đời Hùng Vương thứ sáu, ở làng Gióng có một cậu bé kì lạ. Lên ba tuổi mà cậu vẫn chưa biết nói. Thế nhưng khi nghe tin giặc Ân xâm lược, cậu bỗng cất tiếng xin đi đánh giặc. Cậu lớn nhanh như thổi, vươn vai thành tráng sĩ, cưỡi ngựa sắt xông ra trận, đánh tan quân giặc.",
       "question": "Đoạn văn trên thuộc thể loại nào?",
-      "options": ["truyền thuyết", "cổ tích loài vật", "truyện cười", "văn bản thông tin"],
+      "options": [
+        "truyền thuyết",
+        "cổ tích loài vật",
+        "truyện cười",
+        "văn bản thông tin"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Từ 'tráng sĩ' là loại từ nào?",
-      "options": ["từ ghép Hán Việt", "từ láy", "từ đơn", "số từ"],
+      "options": [
+        "từ ghép Hán Việt",
+        "từ láy",
+        "từ đơn",
+        "số từ"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Biện pháp tu từ trong câu 'Cậu lớn nhanh như thổi' là:",
-      "options": ["so sánh", "nhân hóa", "ẩn dụ", "hoán dụ"],
+      "options": [
+        "so sánh",
+        "nhân hóa",
+        "ẩn dụ",
+        "hoán dụ"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Từ nào sau đây là từ láy?",
-      "options": ["lấp ló", "ngựa sắt", "đánh giặc", "tráng sĩ"],
+      "options": [
+        "lấp ló",
+        "ngựa sắt",
+        "đánh giặc",
+        "tráng sĩ"
+      ],
       "answer": 0
     },
     {
@@ -65,17 +100,34 @@
       "level": "TH",
       "question": "Xét tính đúng/sai của các khẳng định về tiếng Việt:",
       "statements": [
-        { "text": "Truyền thuyết kể về nhân vật, sự kiện có liên quan đến lịch sử.", "answer": true },
-        { "text": "Từ 'xâm lược' là từ Hán Việt.", "answer": true },
-        { "text": "Trạng ngữ bổ sung thông tin về thời gian, nơi chốn, nguyên nhân...", "answer": true },
-        { "text": "Từ đơn là từ gồm hai tiếng trở lên.", "answer": false }
+        {
+          "text": "Truyền thuyết kể về nhân vật, sự kiện có liên quan đến lịch sử.",
+          "answer": true
+        },
+        {
+          "text": "Từ 'xâm lược' là từ Hán Việt.",
+          "answer": true
+        },
+        {
+          "text": "Trạng ngữ bổ sung thông tin về thời gian, nơi chốn, nguyên nhân...",
+          "answer": true
+        },
+        {
+          "text": "Từ đơn là từ gồm hai tiếng trở lên.",
+          "answer": false
+        }
       ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Trong câu 'Đời Hùng Vương thứ sáu, ở làng Gióng có một cậu bé.', bộ phận 'ở làng Gióng' là:",
-      "options": ["trạng ngữ chỉ nơi chốn", "chủ ngữ", "vị ngữ", "trạng ngữ chỉ thời gian"],
+      "options": [
+        "trạng ngữ chỉ nơi chốn",
+        "chủ ngữ",
+        "vị ngữ",
+        "trạng ngữ chỉ thời gian"
+      ],
       "answer": 0
     },
     {
@@ -83,27 +135,45 @@
       "level": "VD",
       "question": "Tìm một từ trái nghĩa với 'kì lạ': ___",
       "answer": "bình thường",
-      "alternatives": ["quen thuộc", "thường"]
+      "alternatives": [
+        "quen thuộc",
+        "thường"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Cụm từ 'lớn nhanh như thổi' diễn tả điều gì?",
-      "options": ["lớn lên rất nhanh", "thổi hơi cho lớn", "lớn chậm chạp", "không lớn được"],
+      "options": [
+        "lớn lên rất nhanh",
+        "thổi hơi cho lớn",
+        "lớn chậm chạp",
+        "không lớn được"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Câu nào sau đây là câu trần thuật (câu kể)?",
-      "options": ["Cậu cưỡi ngựa sắt xông ra trận.", "Ôi, kì lạ thay!", "Cậu đi đâu đấy?", "Hãy đánh tan quân giặc!"],
+      "options": [
+        "Cậu cưỡi ngựa sắt xông ra trận.",
+        "Ôi, kì lạ thay!",
+        "Cậu đi đâu đấy?",
+        "Hãy đánh tan quân giặc!"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "NB",
       "question": "Dấu phẩy trong câu 'Cậu lớn nhanh, vươn vai thành tráng sĩ.' dùng để làm gì?",
-      "options": ["ngăn cách các hành động liên tiếp", "kết thúc câu", "dùng để hỏi", "thay cho dấu chấm"],
+      "options": [
+        "ngăn cách các hành động liên tiếp",
+        "kết thúc câu",
+        "dùng để hỏi",
+        "thay cho dấu chấm"
+      ],
       "answer": 0
     },
     {
@@ -111,21 +181,34 @@
       "level": "NB",
       "question": "Điền dấu câu thích hợp vào cuối câu cảm: Cậu bé thật phi thường___",
       "answer": "!",
-      "alternatives": ["dấu chấm than"]
+      "alternatives": [
+        "dấu chấm than"
+      ]
     },
     {
       "type": "multiple-choice",
       "level": "TH",
       "question": "Cụm từ 'xông ra trận' gần nghĩa với:",
-      "options": ["lao ra chiến trận", "chạy về nhà", "đứng yên một chỗ", "trốn đi nơi khác"],
+      "options": [
+        "lao ra chiến trận",
+        "chạy về nhà",
+        "đứng yên một chỗ",
+        "trốn đi nơi khác"
+      ],
       "answer": 0
     },
     {
       "type": "multiple-choice",
       "level": "VDC",
       "question": "Theo em, hình ảnh Thánh Gióng tượng trưng cho điều gì?",
-      "options": ["tinh thần yêu nước, chống giặc ngoại xâm của nhân dân", "sự lười biếng", "lòng tham lam", "tính nhút nhát"],
+      "options": [
+        "tinh thần yêu nước, chống giặc ngoại xâm của nhân dân",
+        "sự lười biếng",
+        "lòng tham lam",
+        "tính nhút nhát"
+      ],
       "answer": 0
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

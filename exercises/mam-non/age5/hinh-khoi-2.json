@@ -6,13 +6,94 @@
   "topic": "Hình khối và so sánh nâng cao (bài 2)",
   "difficulty": 3,
   "questions": [
-    { "type": "image-choice", "question": "Đâu là hình thoi màu cam?", "options": ["🔵", "🔶", "🟦", "🔺"], "answer": 1, "hint": "Hình thoi có bốn cạnh và bốn góc nghiêng." },
-    { "type": "image-choice", "question": "Đâu là hình vuông màu vàng?", "options": ["🔺", "🟨", "⚪", "🔷"], "answer": 1, "hint": "Hình vuông có bốn cạnh bằng nhau." },
-    { "type": "image-choice", "question": "Hình nào có ba cạnh chỉ xuống dưới?", "options": ["🟥", "🔻", "🔵", "⭐"], "answer": 1, "hint": "Tam giác ngược có đỉnh chỉ xuống." },
-    { "type": "image-choice", "question": "Con vật nào NHỎ hơn?", "options": ["🦒", "🐁"], "answer": 1, "hint": "Chuột nhỏ hơn hươu cao cổ." },
-    { "type": "image-choice", "question": "Tòa nhà nào CAO hơn?", "options": ["🏠", "🏢"], "answer": 1, "hint": "Tòa nhà cao tầng cao hơn ngôi nhà nhỏ." },
-    { "type": "image-choice", "question": "Con nào DÀI hơn?", "options": ["🐊", "🐞"], "answer": 0, "hint": "Cá sấu dài hơn con bọ rùa." },
-    { "type": "image-choice", "question": "Cái nào NẶNG hơn?", "options": ["🪨", "🪶"], "answer": 0, "hint": "Hòn đá nặng hơn chiếc lông vũ." },
-    { "type": "image-choice", "question": "Tìm hình tròn màu xanh dương!", "options": ["❤️", "🟦", "🔵", "🔻"], "answer": 2, "hint": "Hình tròn không có góc nhọn." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Đâu là hình thoi màu cam?",
+      "options": [
+        "🔵",
+        "🔶",
+        "🟦",
+        "🔺"
+      ],
+      "answer": 1,
+      "hint": "Hình thoi có bốn cạnh và bốn góc nghiêng."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đâu là hình vuông màu vàng?",
+      "options": [
+        "🔺",
+        "🟨",
+        "⚪",
+        "🔷"
+      ],
+      "answer": 1,
+      "hint": "Hình vuông có bốn cạnh bằng nhau."
+    },
+    {
+      "type": "image-choice",
+      "question": "Hình nào có ba cạnh chỉ xuống dưới?",
+      "options": [
+        "🟥",
+        "🔻",
+        "🔵",
+        "⭐"
+      ],
+      "answer": 1,
+      "hint": "Tam giác ngược có đỉnh chỉ xuống."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con vật nào NHỎ hơn?",
+      "options": [
+        "🦒",
+        "🐁"
+      ],
+      "answer": 1,
+      "hint": "Chuột nhỏ hơn hươu cao cổ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tòa nhà nào CAO hơn?",
+      "options": [
+        "🏠",
+        "🏢"
+      ],
+      "answer": 1,
+      "hint": "Tòa nhà cao tầng cao hơn ngôi nhà nhỏ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào DÀI hơn?",
+      "options": [
+        "🐊",
+        "🐞"
+      ],
+      "answer": 0,
+      "hint": "Cá sấu dài hơn con bọ rùa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Cái nào NẶNG hơn?",
+      "options": [
+        "🪨",
+        "🪶"
+      ],
+      "answer": 0,
+      "hint": "Hòn đá nặng hơn chiếc lông vũ."
+    },
+    {
+      "type": "image-choice",
+      "question": "Tìm hình tròn màu xanh dương!",
+      "options": [
+        "❤️",
+        "🟦",
+        "🔵",
+        "🔻"
+      ],
+      "answer": 2,
+      "hint": "Hình tròn không có góc nhọn."
+    }
+  ],
+  "examType": "practice"
 }

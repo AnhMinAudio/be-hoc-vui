@@ -250,5 +250,6 @@
       "question": "Một gene có 600 nucleotide loại adenine (A) và 900 nucleotide loại guanine (G). Theo nguyên tắc bổ sung, tổng số nucleotide của gene này là ___",
       "answer": "3000"
     }
-  ]
+  ],
+  "examType": "practice"
 }

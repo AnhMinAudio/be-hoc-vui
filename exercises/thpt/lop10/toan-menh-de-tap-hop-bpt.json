@@ -176,10 +176,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về mệnh đề và tập hợp:",
       "statements": [
-        { "text": "Tập hợp $\\mathbb{N}$ các số tự nhiên có vô số phần tử.", "answer": true },
-        { "text": "Tập rỗng $\\emptyset$ là tập con của mọi tập hợp.", "answer": true },
-        { "text": "Mệnh đề $P \\Rightarrow Q$ chỉ SAI khi $P$ đúng và $Q$ sai.", "answer": true },
-        { "text": "Hai tập hợp $\\{1; 2; 3\\}$ và $\\{3; 2; 1\\}$ là khác nhau vì thứ tự phần tử khác nhau.", "answer": false }
+        {
+          "text": "Tập hợp $\\mathbb{N}$ các số tự nhiên có vô số phần tử.",
+          "answer": true
+        },
+        {
+          "text": "Tập rỗng $\\emptyset$ là tập con của mọi tập hợp.",
+          "answer": true
+        },
+        {
+          "text": "Mệnh đề $P \\Rightarrow Q$ chỉ SAI khi $P$ đúng và $Q$ sai.",
+          "answer": true
+        },
+        {
+          "text": "Hai tập hợp $\\{1; 2; 3\\}$ và $\\{3; 2; 1\\}$ là khác nhau vì thứ tự phần tử khác nhau.",
+          "answer": false
+        }
       ]
     },
     {
@@ -187,10 +199,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về hàm số bậc hai và tam thức bậc hai:",
       "statements": [
-        { "text": "Parabol $y = ax^2 + bx + c$ với $a > 0$ có bề lõm hướng lên trên.", "answer": true },
-        { "text": "Hoành độ đỉnh của parabol $y = ax^2 + bx + c$ là $x_0 = -\\dfrac{b}{2a}$.", "answer": true },
-        { "text": "Nếu tam thức $f(x) = ax^2 + bx + c$ có $\\Delta < 0$ thì $f(x)$ luôn cùng dấu với hệ số $a$ với mọi $x$.", "answer": true },
-        { "text": "Tam thức $x^2 + 1$ có hai nghiệm thực phân biệt.", "answer": false }
+        {
+          "text": "Parabol $y = ax^2 + bx + c$ với $a > 0$ có bề lõm hướng lên trên.",
+          "answer": true
+        },
+        {
+          "text": "Hoành độ đỉnh của parabol $y = ax^2 + bx + c$ là $x_0 = -\\dfrac{b}{2a}$.",
+          "answer": true
+        },
+        {
+          "text": "Nếu tam thức $f(x) = ax^2 + bx + c$ có $\\Delta < 0$ thì $f(x)$ luôn cùng dấu với hệ số $a$ với mọi $x$.",
+          "answer": true
+        },
+        {
+          "text": "Tam thức $x^2 + 1$ có hai nghiệm thực phân biệt.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,7 +222,9 @@
       "level": "TH",
       "question": "Số nghiệm của phương trình $x^2 - 4x + 3 = 0$ là ___",
       "answer": "2",
-      "alternatives": ["hai"],
+      "alternatives": [
+        "hai"
+      ],
       "hint": "$\\Delta = 16 - 12 = 4 > 0$ nên phương trình có 2 nghiệm phân biệt ($x = 1$, $x = 3$)."
     },
     {
@@ -206,7 +232,9 @@
       "level": "VD",
       "question": "Cho $A = \\{1; 2; 3; 4; 5\\}$ và $B = \\{2; 4; 6\\}$. Tập hợp $A \\cap B$ có ___ phần tử.",
       "answer": "2",
-      "alternatives": ["hai"],
+      "alternatives": [
+        "hai"
+      ],
       "hint": "$A \\cap B = \\{2; 4\\}$, gồm 2 phần tử."
     },
     {
@@ -216,5 +244,6 @@
       "answer": true,
       "hint": "Tập rỗng $\\emptyset$ là tập hợp không có phần tử nào."
     }
-  ]
+  ],
+  "examType": "practice"
 }

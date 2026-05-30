@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'desk' mean? (Từ 'desk' nghĩa là gì?)",
-      "options": ["cái bàn học", "cái ghế", "cửa sổ", "cái bảng"],
+      "options": [
+        "cái bàn học",
+        "cái ghế",
+        "cửa sổ",
+        "cái bảng"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'cửa ra vào'? ('cửa ra vào' tiếng Anh là gì?)",
-      "options": ["door", "window", "board", "wall"],
+      "options": [
+        "door",
+        "window",
+        "board",
+        "wall"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: '___ is a book.' (Đây là một quyển sách - vật ở gần)",
-      "options": ["This", "Those", "They", "Are"],
+      "options": [
+        "This",
+        "Those",
+        "They",
+        "Are"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'leg' mean? (Từ 'leg' nghĩa là gì?)",
-      "options": ["cái chân", "bàn tay", "cái đầu", "cái mũi"],
+      "options": [
+        "cái chân",
+        "bàn tay",
+        "cái đầu",
+        "cái mũi"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,30 +58,52 @@
       "type": "fill-blank",
       "question": "Write 'con thỏ' in English (Viết 'con thỏ' bằng tiếng Anh): ___",
       "answer": "rabbit",
-      "alternatives": ["Rabbit", "RABBIT"],
+      "alternatives": [
+        "Rabbit",
+        "RABBIT"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the food with its meaning (Nối thức ăn với nghĩa)",
       "pairs": [
-        ["egg", "trứng"],
-        ["rice", "cơm"],
-        ["milk", "sữa"]
+        [
+          "egg",
+          "trứng"
+        ],
+        [
+          "rice",
+          "cơm"
+        ],
+        [
+          "milk",
+          "sữa"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: 'I ___ a pet dog.' (Em có một chú chó cưng)",
-      "options": ["have", "is", "are", "am"],
+      "options": [
+        "have",
+        "is",
+        "are",
+        "am"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the question word: '___ books do you have?' - 'Five.' (hỏi số lượng)",
-      "options": ["How many", "What", "Where", "Who"],
+      "options": [
+        "How many",
+        "What",
+        "Where",
+        "Who"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -69,20 +111,33 @@
       "type": "fill-blank",
       "question": "Write 'cái đầu' in English (Viết 'cái đầu' bằng tiếng Anh): ___",
       "answer": "head",
-      "alternatives": ["Head", "HEAD"],
+      "alternatives": [
+        "Head",
+        "HEAD"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Answer 'Do you like milk?' positively (Trả lời 'Do you like milk?' khi em thích)",
-      "options": ["Yes, I do.", "No, I don't.", "I am milk.", "Milk you."],
+      "options": [
+        "Yes, I do.",
+        "No, I don't.",
+        "I am milk.",
+        "Milk you."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Which sentence is correct? (Câu nào đúng?)",
-      "options": ["This is my chair.", "This chair my.", "Chair this my.", "My this chair."],
+      "options": [
+        "This is my chair.",
+        "This chair my.",
+        "Chair this my.",
+        "My this chair."
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -90,9 +145,18 @@
       "type": "matching",
       "question": "Match the body part with its meaning (Nối bộ phận cơ thể với nghĩa)",
       "pairs": [
-        ["head", "cái đầu"],
-        ["hand", "bàn tay"],
-        ["leg", "cái chân"]
+        [
+          "head",
+          "cái đầu"
+        ],
+        [
+          "hand",
+          "bàn tay"
+        ],
+        [
+          "leg",
+          "cái chân"
+        ]
       ],
       "level": "M2"
     },
@@ -100,7 +164,12 @@
       "type": "multiple-choice",
       "passage": "This is Nam. He has a pet cat. Its name is Mimi. Nam likes playing with Mimi after school.",
       "question": "What pet does Nam have? (Nam có thú cưng gì?)",
-      "options": ["a cat", "a dog", "a rabbit", "a bird"],
+      "options": [
+        "a cat",
+        "a dog",
+        "a rabbit",
+        "a bird"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -108,7 +177,12 @@
       "type": "multiple-choice",
       "passage": "This is Nam. He has a pet cat. Its name is Mimi. Nam likes playing with Mimi after school.",
       "question": "What is the cat's name? (Con mèo tên là gì?)",
-      "options": ["Mimi", "Nam", "Lucky", "Kitty"],
+      "options": [
+        "Mimi",
+        "Nam",
+        "Lucky",
+        "Kitty"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -116,16 +190,27 @@
       "type": "multiple-choice",
       "passage": "This is Nam. He has a pet cat. Its name is Mimi. Nam likes playing with Mimi after school.",
       "question": "When does Nam play with Mimi? (Nam chơi với Mimi khi nào?)",
-      "options": ["after school", "at night", "before breakfast", "on the weekend"],
+      "options": [
+        "after school",
+        "at night",
+        "before breakfast",
+        "on the weekend"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Ask your friend if she likes apples (Hỏi bạn có thích táo không)",
-      "options": ["Do you like apples?", "You apples like?", "Like you apples?", "Are you apples?"],
+      "options": [
+        "Do you like apples?",
+        "You apples like?",
+        "Like you apples?",
+        "Are you apples?"
+      ],
       "answer": 0,
       "level": "M2"
     }
-  ]
+  ],
+  "examType": "mock"
 }

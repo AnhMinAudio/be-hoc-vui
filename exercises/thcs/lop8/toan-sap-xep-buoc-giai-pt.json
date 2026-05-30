@@ -12,11 +12,27 @@
       "level": "TH",
       "question": "Sắp xếp các bước giải phương trình $3x - 5 = 2x + 4$ theo đúng thứ tự:",
       "items": [
-        { "id": "b1", "label": "Chuyển vế: $3x - 2x = 4 + 5$", "icon": "1️⃣" },
-        { "id": "b2", "label": "Thu gọn hai vế: $x = 9$", "icon": "2️⃣" },
-        { "id": "b3", "label": "Kết luận: phương trình có nghiệm $x = 9$", "icon": "3️⃣" }
+        {
+          "id": "b1",
+          "label": "Chuyển vế: $3x - 2x = 4 + 5$",
+          "icon": "1️⃣"
+        },
+        {
+          "id": "b2",
+          "label": "Thu gọn hai vế: $x = 9$",
+          "icon": "2️⃣"
+        },
+        {
+          "id": "b3",
+          "label": "Kết luận: phương trình có nghiệm $x = 9$",
+          "icon": "3️⃣"
+        }
       ],
-      "correctOrder": ["b1", "b2", "b3"],
+      "correctOrder": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "hint": "Đầu tiên chuyển các hạng tử chứa ẩn về một vế, hằng số về vế kia; sau đó thu gọn; cuối cùng kết luận nghiệm."
     },
     {
@@ -24,12 +40,32 @@
       "level": "VD",
       "question": "Sắp xếp các bước giải phương trình $\\dfrac{x}{2} + 3 = 7$:",
       "items": [
-        { "id": "s1", "label": "Trừ 3 ở hai vế: $\\dfrac{x}{2} = 4$", "icon": "✏️" },
-        { "id": "s2", "label": "Nhân hai vế với 2: $x = 8$", "icon": "✖️" },
-        { "id": "s3", "label": "Thử lại: $\\dfrac{8}{2} + 3 = 7$ (đúng)", "icon": "✅" }
+        {
+          "id": "s1",
+          "label": "Trừ 3 ở hai vế: $\\dfrac{x}{2} = 4$",
+          "icon": "✏️"
+        },
+        {
+          "id": "s2",
+          "label": "Nhân hai vế với 2: $x = 8$",
+          "icon": "✖️"
+        },
+        {
+          "id": "s3",
+          "label": "Thử lại: $\\dfrac{8}{2} + 3 = 7$ (đúng)",
+          "icon": "✅"
+        }
       ],
-      "correctOrder": ["s1", "s2", "s3"],
+      "correctOrder": [
+        "s1",
+        "s2",
+        "s3"
+      ],
       "hint": "Cô lập số hạng chứa ẩn trước (trừ 3), rồi khử mẫu (nhân 2), cuối cùng thử lại nghiệm."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 3
+  }
 }

@@ -187,10 +187,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về xác suất:",
       "statements": [
-        { "text": "Xác suất của một biến cố luôn thỏa mãn $0 \\leq P(A) \\leq 1$.", "answer": true },
-        { "text": "Xác suất của biến cố CHẮC CHẮN bằng $1$.", "answer": true },
-        { "text": "Hai biến cố $A$ và $\\overline{A}$ (biến cố đối) thỏa mãn $P(A) + P(\\overline{A}) = 1$.", "answer": true },
-        { "text": "Xác suất của biến cố KHÔNG THỂ bằng $1$.", "answer": false }
+        {
+          "text": "Xác suất của một biến cố luôn thỏa mãn $0 \\leq P(A) \\leq 1$.",
+          "answer": true
+        },
+        {
+          "text": "Xác suất của biến cố CHẮC CHẮN bằng $1$.",
+          "answer": true
+        },
+        {
+          "text": "Hai biến cố $A$ và $\\overline{A}$ (biến cố đối) thỏa mãn $P(A) + P(\\overline{A}) = 1$.",
+          "answer": true
+        },
+        {
+          "text": "Xác suất của biến cố KHÔNG THỂ bằng $1$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,10 +210,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quy tắc cộng và quy tắc nhân xác suất:",
       "statements": [
-        { "text": "Với hai biến cố XUNG KHẮC $A, B$: $P(A \\cup B) = P(A) + P(B)$.", "answer": true },
-        { "text": "Với hai biến cố ĐỘC LẬP $A, B$: $P(A \\cap B) = P(A) \\cdot P(B)$.", "answer": true },
-        { "text": "Hai biến cố xung khắc thì luôn độc lập với nhau.", "answer": false },
-        { "text": "Với hai biến cố $A, B$ bất kì: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.", "answer": true }
+        {
+          "text": "Với hai biến cố XUNG KHẮC $A, B$: $P(A \\cup B) = P(A) + P(B)$.",
+          "answer": true
+        },
+        {
+          "text": "Với hai biến cố ĐỘC LẬP $A, B$: $P(A \\cap B) = P(A) \\cdot P(B)$.",
+          "answer": true
+        },
+        {
+          "text": "Hai biến cố xung khắc thì luôn độc lập với nhau.",
+          "answer": false
+        },
+        {
+          "text": "Với hai biến cố $A, B$ bất kì: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -218,5 +242,6 @@
       "answer": "6",
       "hint": "Tổng = 7 có 6 cách (1+6, 2+5, 3+4, 4+3, 5+2, 6+1); không gian mẫu 36 → $P = \\dfrac{6}{36} = \\dfrac{1}{6}$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

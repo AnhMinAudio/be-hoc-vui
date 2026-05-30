@@ -6,12 +6,86 @@
   "topic": "Hình dạng đồ vật (phần 3)",
   "difficulty": 2,
   "questions": [
-    { "type": "image-choice", "question": "Bánh xe ô tô có dạng hình gì?", "prompt": "🚗", "options": ["⭕", "🟥", "🔺", "⭐"], "answer": 0, "hint": "Bánh xe tròn để lăn được." },
-    { "type": "image-choice", "question": "Đồng hồ treo tường này có dạng hình gì?", "prompt": "🕐", "options": ["🔺", "🟦", "⭕", "❤️"], "answer": 2 },
-    { "type": "image-choice", "question": "Mái nhà thường có dạng hình gì?", "prompt": "🏠", "options": ["⭕", "🔺", "🟦", "⭐"], "answer": 1, "hint": "Mái nhà nhọn như tam giác." },
-    { "type": "image-choice", "question": "Cái nào NẶNG hơn?", "options": ["🚛", "🚲"], "answer": 0, "hint": "Xe tải nặng hơn xe đạp." },
-    { "type": "image-choice", "question": "Con vật nào DÀI hơn?", "options": ["🐍", "🐞"], "answer": 0, "hint": "Con rắn dài hơn con bọ rùa." },
-    { "type": "image-choice", "question": "Cái nào TO hơn?", "options": ["🏀", "🎾"], "answer": 0, "hint": "Bóng rổ to hơn bóng tennis." },
-    { "type": "image-choice", "question": "Hình nào tròn xoe không có góc?", "options": ["🟥", "🔺", "🔵", "⭐"], "answer": 2, "hint": "Hình tròn không có góc nhọn." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Bánh xe ô tô có dạng hình gì?",
+      "prompt": "🚗",
+      "options": [
+        "⭕",
+        "🟥",
+        "🔺",
+        "⭐"
+      ],
+      "answer": 0,
+      "hint": "Bánh xe tròn để lăn được."
+    },
+    {
+      "type": "image-choice",
+      "question": "Đồng hồ treo tường này có dạng hình gì?",
+      "prompt": "🕐",
+      "options": [
+        "🔺",
+        "🟦",
+        "⭕",
+        "❤️"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Mái nhà thường có dạng hình gì?",
+      "prompt": "🏠",
+      "options": [
+        "⭕",
+        "🔺",
+        "🟦",
+        "⭐"
+      ],
+      "answer": 1,
+      "hint": "Mái nhà nhọn như tam giác."
+    },
+    {
+      "type": "image-choice",
+      "question": "Cái nào NẶNG hơn?",
+      "options": [
+        "🚛",
+        "🚲"
+      ],
+      "answer": 0,
+      "hint": "Xe tải nặng hơn xe đạp."
+    },
+    {
+      "type": "image-choice",
+      "question": "Con vật nào DÀI hơn?",
+      "options": [
+        "🐍",
+        "🐞"
+      ],
+      "answer": 0,
+      "hint": "Con rắn dài hơn con bọ rùa."
+    },
+    {
+      "type": "image-choice",
+      "question": "Cái nào TO hơn?",
+      "options": [
+        "🏀",
+        "🎾"
+      ],
+      "answer": 0,
+      "hint": "Bóng rổ to hơn bóng tennis."
+    },
+    {
+      "type": "image-choice",
+      "question": "Hình nào tròn xoe không có góc?",
+      "options": [
+        "🟥",
+        "🔺",
+        "🔵",
+        "⭐"
+      ],
+      "answer": 2,
+      "hint": "Hình tròn không có góc nhọn."
+    }
+  ],
+  "examType": "practice"
 }

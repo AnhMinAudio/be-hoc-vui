@@ -169,10 +169,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về dao động:",
       "statements": [
-        { "text": "Dao động điều hòa là dao động trong đó li độ là hàm cosin (hoặc sin) của thời gian.", "answer": true },
-        { "text": "Chu kì con lắc đơn (góc nhỏ) là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.", "answer": true },
-        { "text": "Trong dao động điều hòa, vận tốc của vật đạt cực đại khi vật ở vị trí biên.", "answer": false },
-        { "text": "Biên độ $A$ là giá trị cực đại của li độ trong dao động điều hòa.", "answer": true }
+        {
+          "text": "Dao động điều hòa là dao động trong đó li độ là hàm cosin (hoặc sin) của thời gian.",
+          "answer": true
+        },
+        {
+          "text": "Chu kì con lắc đơn (góc nhỏ) là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.",
+          "answer": true
+        },
+        {
+          "text": "Trong dao động điều hòa, vận tốc của vật đạt cực đại khi vật ở vị trí biên.",
+          "answer": false
+        },
+        {
+          "text": "Biên độ $A$ là giá trị cực đại của li độ trong dao động điều hòa.",
+          "answer": true
+        }
       ]
     },
     {
@@ -180,10 +192,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về sóng cơ:",
       "statements": [
-        { "text": "Sóng cơ cần môi trường vật chất để truyền, không truyền được trong chân không.", "answer": true },
-        { "text": "Bước sóng $\\lambda$ bằng tích của tốc độ truyền $v$ và chu kì $T$.", "answer": true },
-        { "text": "Sóng âm là một loại sóng cơ.", "answer": true },
-        { "text": "Sóng âm có thể truyền được trong chân không.", "answer": false }
+        {
+          "text": "Sóng cơ cần môi trường vật chất để truyền, không truyền được trong chân không.",
+          "answer": true
+        },
+        {
+          "text": "Bước sóng $\\lambda$ bằng tích của tốc độ truyền $v$ và chu kì $T$.",
+          "answer": true
+        },
+        {
+          "text": "Sóng âm là một loại sóng cơ.",
+          "answer": true
+        },
+        {
+          "text": "Sóng âm có thể truyền được trong chân không.",
+          "answer": false
+        }
       ]
     },
     {
@@ -207,5 +231,6 @@
       "answer": true,
       "hint": "Sóng cơ cần môi trường vật chất (rắn, lỏng, khí) để truyền."
     }
-  ]
+  ],
+  "examType": "practice"
 }

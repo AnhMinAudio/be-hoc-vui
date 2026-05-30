@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các nền văn minh trên đất nước Việt Nam:",
       "statements": [
-        { "text": "Văn Lang là nhà nước đầu tiên trong lịch sử Việt Nam, do các vua Hùng đứng đầu.", "answer": true },
-        { "text": "An Dương Vương Thục Phán sáng lập Âu Lạc và xây thành Cổ Loa.", "answer": true },
-        { "text": "Văn minh Champa phát triển chủ yếu ở miền Trung Việt Nam.", "answer": true },
-        { "text": "Văn minh Phù Nam phát triển ở vùng đồng bằng Bắc Bộ.", "answer": false }
+        {
+          "text": "Văn Lang là nhà nước đầu tiên trong lịch sử Việt Nam, do các vua Hùng đứng đầu.",
+          "answer": true
+        },
+        {
+          "text": "An Dương Vương Thục Phán sáng lập Âu Lạc và xây thành Cổ Loa.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Champa phát triển chủ yếu ở miền Trung Việt Nam.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Phù Nam phát triển ở vùng đồng bằng Bắc Bộ.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về văn minh Đại Việt:",
       "statements": [
-        { "text": "Bộ luật \"Quốc triều hình luật\" (Luật Hồng Đức) là thành tựu pháp luật nổi bật thời Lê sơ.", "answer": true },
-        { "text": "Quốc Tử Giám được lập tại Thăng Long năm 1076, là trường học lớn của Đại Việt.", "answer": true },
-        { "text": "Chữ Nôm là sáng tạo của người Việt, dựa trên cơ sở chữ Hán để ghi âm tiếng Việt.", "answer": true },
-        { "text": "Văn minh Đại Việt hoàn toàn sao chép văn hóa Trung Quốc, không có bản sắc riêng.", "answer": false }
+        {
+          "text": "Bộ luật \"Quốc triều hình luật\" (Luật Hồng Đức) là thành tựu pháp luật nổi bật thời Lê sơ.",
+          "answer": true
+        },
+        {
+          "text": "Quốc Tử Giám được lập tại Thăng Long năm 1076, là trường học lớn của Đại Việt.",
+          "answer": true
+        },
+        {
+          "text": "Chữ Nôm là sáng tạo của người Việt, dựa trên cơ sở chữ Hán để ghi âm tiếng Việt.",
+          "answer": true
+        },
+        {
+          "text": "Văn minh Đại Việt hoàn toàn sao chép văn hóa Trung Quốc, không có bản sắc riêng.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,9 @@
       "level": "NB",
       "question": "An Dương Vương Thục Phán đóng đô và xây thành ___ ở vị trí Đông Anh (Hà Nội) ngày nay.",
       "answer": "Cổ Loa",
-      "alternatives": ["co loa"],
+      "alternatives": [
+        "co loa"
+      ],
       "hint": "Thành Cổ Loa là kinh đô của Âu Lạc."
     },
     {
@@ -204,7 +230,9 @@
       "level": "TH",
       "question": "\"Đại cáo bình Ngô\" do ___ soạn thảo năm 1428 sau thắng lợi của khởi nghĩa Lam Sơn.",
       "answer": "Nguyễn Trãi",
-      "alternatives": ["nguyen trai"],
+      "alternatives": [
+        "nguyen trai"
+      ],
       "hint": "Nguyễn Trãi là tác giả \"Đại cáo bình Ngô\" — bản tuyên ngôn độc lập của Đại Việt."
     },
     {
@@ -214,5 +242,6 @@
       "answer": true,
       "hint": "Quốc Tử Giám là minh chứng cho truyền thống hiếu học của dân tộc Việt Nam."
     }
-  ]
+  ],
+  "examType": "practice"
 }

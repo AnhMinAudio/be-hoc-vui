@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "What does 'get up' mean? (Cụm 'get up' nghĩa là gì?)",
-      "options": ["thức dậy", "đi ngủ", "ăn sáng", "đi học"],
+      "options": [
+        "thức dậy",
+        "đi ngủ",
+        "ăn sáng",
+        "đi học"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English for 'ăn sáng'? ('ăn sáng' tiếng Anh là gì?)",
-      "options": ["have breakfast", "have lunch", "go to bed", "get up"],
+      "options": [
+        "have breakfast",
+        "have lunch",
+        "go to bed",
+        "get up"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'every day' mean? (Cụm 'every day' nghĩa là gì?)",
-      "options": ["mỗi ngày", "đôi khi", "không bao giờ", "hôm qua"],
+      "options": [
+        "mỗi ngày",
+        "đôi khi",
+        "không bao giờ",
+        "hôm qua"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'It is seven o'clock.' mean? (Câu này nghĩa là gì?)",
-      "options": ["Bây giờ là 7 giờ.", "Bây giờ là 8 giờ.", "Hôm nay thứ Bảy.", "Trời đang mưa."],
+      "options": [
+        "Bây giờ là 7 giờ.",
+        "Bây giờ là 8 giờ.",
+        "Hôm nay thứ Bảy.",
+        "Trời đang mưa."
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,31 +58,55 @@
       "type": "fill-blank",
       "question": "Complete: 'I ___ up at 6 o'clock.' (Em thức dậy lúc 6 giờ — điền 'get')",
       "answer": "get",
-      "alternatives": ["Get"],
+      "alternatives": [
+        "Get"
+      ],
       "level": "M1"
     },
     {
       "type": "matching",
       "question": "Match the daily activity with its meaning (Nối hoạt động hằng ngày với nghĩa)",
       "pairs": [
-        ["get up", "thức dậy"],
-        ["have breakfast", "ăn sáng"],
-        ["go to school", "đi học"],
-        ["go to bed", "đi ngủ"]
+        [
+          "get up",
+          "thức dậy"
+        ],
+        [
+          "have breakfast",
+          "ăn sáng"
+        ],
+        [
+          "go to school",
+          "đi học"
+        ],
+        [
+          "go to bed",
+          "đi ngủ"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Choose the correct question about time (Chọn câu hỏi đúng về giờ giấc)",
-      "options": ["What time do you get up?", "Time you get up what?", "You what time up?", "Get up time you?"],
+      "options": [
+        "What time do you get up?",
+        "Time you get up what?",
+        "You what time up?",
+        "Get up time you?"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Which word shows how often something happens? (Từ nào chỉ mức độ thường xuyên?)",
-      "options": ["always", "table", "green", "tall"],
+      "options": [
+        "always",
+        "table",
+        "green",
+        "tall"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -70,20 +114,32 @@
       "type": "fill-blank",
       "question": "Complete: 'go to ___' means 'đi ngủ' (điền từ còn thiếu)",
       "answer": "bed",
-      "alternatives": ["Bed"],
+      "alternatives": [
+        "Bed"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: 'She ___ TV in the evening.' (xem ti vi — ngôi thứ ba số ít)",
-      "options": ["watches", "watch", "watching", "to watch"],
+      "options": [
+        "watches",
+        "watch",
+        "watching",
+        "to watch"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Which is the correct order of a day? (Thứ tự đúng của một ngày?)",
-      "options": ["get up → have breakfast → go to school", "go to bed → get up → have breakfast", "go to school → get up → have breakfast", "have breakfast → go to bed → get up"],
+      "options": [
+        "get up → have breakfast → go to school",
+        "go to bed → get up → have breakfast",
+        "go to school → get up → have breakfast",
+        "have breakfast → go to bed → get up"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -91,9 +147,18 @@
       "type": "matching",
       "question": "Match the time of day with its meaning (Nối buổi trong ngày với nghĩa)",
       "pairs": [
-        ["morning", "buổi sáng"],
-        ["afternoon", "buổi chiều"],
-        ["evening", "buổi tối"]
+        [
+          "morning",
+          "buổi sáng"
+        ],
+        [
+          "afternoon",
+          "buổi chiều"
+        ],
+        [
+          "evening",
+          "buổi tối"
+        ]
       ],
       "level": "M2"
     },
@@ -101,7 +166,12 @@
       "type": "multiple-choice",
       "passage": "Every morning, Lan gets up at 6 o'clock. She has breakfast and then goes to school at 7. In the evening, she does her homework and goes to bed at 9 o'clock.",
       "question": "What time does Lan get up? (Lan thức dậy lúc mấy giờ?)",
-      "options": ["at 6 o'clock", "at 7 o'clock", "at 9 o'clock", "at 8 o'clock"],
+      "options": [
+        "at 6 o'clock",
+        "at 7 o'clock",
+        "at 9 o'clock",
+        "at 8 o'clock"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -109,7 +179,12 @@
       "type": "multiple-choice",
       "passage": "Every morning, Lan gets up at 6 o'clock. She has breakfast and then goes to school at 7. In the evening, she does her homework and goes to bed at 9 o'clock.",
       "question": "What does Lan do in the evening? (Lan làm gì vào buổi tối?)",
-      "options": ["does her homework", "plays football", "goes shopping", "cooks dinner"],
+      "options": [
+        "does her homework",
+        "plays football",
+        "goes shopping",
+        "cooks dinner"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -117,16 +192,27 @@
       "type": "multiple-choice",
       "passage": "Every morning, Lan gets up at 6 o'clock. She has breakfast and then goes to school at 7. In the evening, she does her homework and goes to bed at 9 o'clock.",
       "question": "What time does Lan go to bed? (Lan đi ngủ lúc mấy giờ?)",
-      "options": ["at 9 o'clock", "at 6 o'clock", "at 7 o'clock", "at 10 o'clock"],
+      "options": [
+        "at 9 o'clock",
+        "at 6 o'clock",
+        "at 7 o'clock",
+        "at 10 o'clock"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "You want to ask a friend about her daily routine (Em muốn hỏi bạn về thói quen hằng ngày)",
-      "options": ["What do you do every day?", "You every day what do?", "Do what you every day?", "Every day you what do is?"],
+      "options": [
+        "What do you do every day?",
+        "You every day what do?",
+        "Do what you every day?",
+        "Every day you what do is?"
+      ],
       "answer": 0,
       "level": "M2"
     }
-  ]
+  ],
+  "examType": "midterm2"
 }

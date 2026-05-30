@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "\"Must\" is used to express obligation. (\"Must\" dùng để diễn tả sự bắt buộc.)", "answer": true },
-        { "text": "\"Should\" is used to give advice. (\"Should\" dùng để khuyên nhủ.)", "answer": true },
-        { "text": "In a FIRST conditional sentence, the if-clause uses the past simple. (Trong câu điều kiện loại 1, mệnh đề if dùng thì quá khứ đơn.)", "answer": false },
-        { "text": "In a SECOND conditional sentence with the verb \"be\", we use \"were\" for all subjects. (Trong câu điều kiện loại 2 với động từ \"be\", ta dùng \"were\" cho mọi chủ ngữ.)", "answer": true }
+        {
+          "text": "\"Must\" is used to express obligation. (\"Must\" dùng để diễn tả sự bắt buộc.)",
+          "answer": true
+        },
+        {
+          "text": "\"Should\" is used to give advice. (\"Should\" dùng để khuyên nhủ.)",
+          "answer": true
+        },
+        {
+          "text": "In a FIRST conditional sentence, the if-clause uses the past simple. (Trong câu điều kiện loại 1, mệnh đề if dùng thì quá khứ đơn.)",
+          "answer": false
+        },
+        {
+          "text": "In a SECOND conditional sentence with the verb \"be\", we use \"were\" for all subjects. (Trong câu điều kiện loại 2 với động từ \"be\", ta dùng \"were\" cho mọi chủ ngữ.)",
+          "answer": true
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Decide if each statement about vocabulary and modal verbs is true or false. (Xét tính đúng/sai của các phát biểu về từ vựng và modal verbs.)",
       "statements": [
-        { "text": "\"Can\" is used to express ability. (\"Can\" dùng để diễn tả khả năng.)", "answer": true },
-        { "text": "\"May\" can be used to express possibility. (\"May\" có thể dùng để diễn tả khả năng có thể xảy ra.)", "answer": true },
-        { "text": "\"Must not\" expresses prohibition. (\"Must not\" diễn tả sự cấm.)", "answer": true },
-        { "text": "\"Should\" is the most polite way to give an order. (\"Should\" là cách lịch sự nhất để ra lệnh.)", "answer": false }
+        {
+          "text": "\"Can\" is used to express ability. (\"Can\" dùng để diễn tả khả năng.)",
+          "answer": true
+        },
+        {
+          "text": "\"May\" can be used to express possibility. (\"May\" có thể dùng để diễn tả khả năng có thể xảy ra.)",
+          "answer": true
+        },
+        {
+          "text": "\"Must not\" expresses prohibition. (\"Must not\" diễn tả sự cấm.)",
+          "answer": true
+        },
+        {
+          "text": "\"Should\" is the most polite way to give an order. (\"Should\" là cách lịch sự nhất để ra lệnh.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,10 @@
       "level": "TH",
       "question": "Complete the modal verb expressing OBLIGATION: You _____ wear a uniform at school. (Điền modal chỉ sự BẮT BUỘC: Bạn _____ mặc đồng phục ở trường.)",
       "answer": "must",
-      "alternatives": ["Must", "have to"],
+      "alternatives": [
+        "Must",
+        "have to"
+      ],
       "hint": "\"must\" / \"have to\" đều thể hiện sự bắt buộc."
     },
     {
@@ -204,7 +231,9 @@
       "level": "VD",
       "question": "Complete with the correct form for FIRST conditional: If it _____ (rain), we will stay at home. (Điền dạng đúng cho câu điều kiện loại 1.)",
       "answer": "rains",
-      "alternatives": ["Rains"],
+      "alternatives": [
+        "Rains"
+      ],
       "hint": "Câu điều kiện loại 1: if-clause dùng thì hiện tại đơn → ngôi 3 số ít \"it\" → rains."
     },
     {
@@ -214,5 +243,6 @@
       "answer": true,
       "hint": "\"You should + V\" là cấu trúc khuyên thường gặp."
     }
-  ]
+  ],
+  "examType": "practice"
 }

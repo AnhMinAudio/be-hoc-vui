@@ -9,21 +9,36 @@
     {
       "type": "multiple-choice",
       "question": "What does 'kitchen' mean? (Từ 'kitchen' nghĩa là gì?)",
-      "options": ["nhà bếp", "phòng ngủ", "phòng khách", "nhà tắm"],
+      "options": [
+        "nhà bếp",
+        "phòng ngủ",
+        "phòng khách",
+        "nhà tắm"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What is the English word for 'phòng ngủ'? ('phòng ngủ' tiếng Anh là gì?)",
-      "options": ["bedroom", "bathroom", "kitchen", "garden"],
+      "options": [
+        "bedroom",
+        "bathroom",
+        "kitchen",
+        "garden"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What does 'sunny' mean? (Từ 'sunny' nghĩa là gì?)",
-      "options": ["có nắng", "có mưa", "có gió", "có tuyết"],
+      "options": [
+        "có nắng",
+        "có mưa",
+        "có gió",
+        "có tuyết"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -31,13 +46,21 @@
       "type": "fill-blank",
       "question": "Complete the weather word: It's ___. (Trời mưa — điền tính từ thời tiết)",
       "answer": "rainy",
-      "alternatives": ["raining", "Rainy"],
+      "alternatives": [
+        "raining",
+        "Rainy"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "What can a bird do? (Con chim có thể làm gì?)",
-      "options": ["fly", "swim like a fish", "read a book", "cook"],
+      "options": [
+        "fly",
+        "swim like a fish",
+        "read a book",
+        "cook"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -45,30 +68,54 @@
       "type": "matching",
       "question": "Match the room with its meaning (Nối phòng với nghĩa)",
       "pairs": [
-        ["living room", "phòng khách"],
-        ["bathroom", "phòng tắm"],
-        ["garden", "khu vườn"]
+        [
+          "living room",
+          "phòng khách"
+        ],
+        [
+          "bathroom",
+          "phòng tắm"
+        ],
+        [
+          "garden",
+          "khu vườn"
+        ]
       ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: 'I ___ swim very well.' (Em có thể bơi rất giỏi)",
-      "options": ["can", "am", "do", "is"],
+      "options": [
+        "can",
+        "am",
+        "do",
+        "is"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Answer 'Can you sing?' when you can (Trả lời 'Can you sing?' khi em biết hát)",
-      "options": ["Yes, I can.", "Yes, I am.", "Yes, you can.", "Can I yes."],
+      "options": [
+        "Yes, I can.",
+        "Yes, I am.",
+        "Yes, you can.",
+        "Can I yes."
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What is the weather usually like in summer? (Mùa hè thời tiết thường thế nào?)",
-      "options": ["hot", "snowy", "freezing", "icy"],
+      "options": [
+        "hot",
+        "snowy",
+        "freezing",
+        "icy"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -76,13 +123,21 @@
       "type": "fill-blank",
       "question": "Write 'cái áo sơ mi' in English (Viết 'cái áo sơ mi' bằng tiếng Anh): ___",
       "answer": "shirt",
-      "alternatives": ["Shirt", "a shirt"],
+      "alternatives": [
+        "Shirt",
+        "a shirt"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "What does the question 'What time is it?' mean? (Câu 'What time is it?' nghĩa là gì?)",
-      "options": ["Mấy giờ rồi?", "Hôm nay thứ mấy?", "Thời tiết thế nào?", "Bạn bao nhiêu tuổi?"],
+      "options": [
+        "Mấy giờ rồi?",
+        "Hôm nay thứ mấy?",
+        "Thời tiết thế nào?",
+        "Bạn bao nhiêu tuổi?"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -90,10 +145,22 @@
       "type": "matching",
       "question": "Match the activity with its meaning (Nối hoạt động với nghĩa)",
       "pairs": [
-        ["cook", "nấu ăn"],
-        ["dance", "nhảy múa"],
-        ["draw", "vẽ"],
-        ["sing", "hát"]
+        [
+          "cook",
+          "nấu ăn"
+        ],
+        [
+          "dance",
+          "nhảy múa"
+        ],
+        [
+          "draw",
+          "vẽ"
+        ],
+        [
+          "sing",
+          "hát"
+        ]
       ],
       "level": "M2"
     },
@@ -101,7 +168,12 @@
       "type": "multiple-choice",
       "passage": "My name is Tom. There are four rooms in my house: a living room, a kitchen, a bedroom and a bathroom. I like my bedroom best because it is big and bright.",
       "question": "How many rooms are there in Tom's house? (Nhà Tom có mấy phòng?)",
-      "options": ["three", "four", "five", "two"],
+      "options": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -109,7 +181,12 @@
       "type": "multiple-choice",
       "passage": "My name is Tom. There are four rooms in my house: a living room, a kitchen, a bedroom and a bathroom. I like my bedroom best because it is big and bright.",
       "question": "Which room does Tom like best? (Tom thích phòng nào nhất?)",
-      "options": ["the kitchen", "his bedroom", "the living room", "the bathroom"],
+      "options": [
+        "the kitchen",
+        "his bedroom",
+        "the living room",
+        "the bathroom"
+      ],
       "answer": 1,
       "level": "M3"
     },
@@ -117,9 +194,15 @@
       "type": "multiple-choice",
       "passage": "My name is Tom. There are four rooms in my house: a living room, a kitchen, a bedroom and a bathroom. I like my bedroom best because it is big and bright.",
       "question": "Why does Tom like that room? (Vì sao Tom thích phòng đó?)",
-      "options": ["because it is big and bright", "because it is small", "because it is dark", "because it is cold"],
+      "options": [
+        "because it is big and bright",
+        "because it is small",
+        "because it is dark",
+        "because it is cold"
+      ],
       "answer": 0,
       "level": "M3"
     }
-  ]
+  ],
+  "examType": "final2"
 }

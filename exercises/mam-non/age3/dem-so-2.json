@@ -6,11 +6,78 @@
   "topic": "Đếm số 1 - 3 (bài 2)",
   "difficulty": 1,
   "questions": [
-    { "type": "image-choice", "question": "Có mấy quả cam?", "prompt": "🍊", "options": ["1", "2", "3"], "answer": 0, "hint": "Đếm: 1." },
-    { "type": "image-choice", "question": "Có mấy con thỏ?", "prompt": "🐰 🐰", "options": ["1", "2", "3"], "answer": 1, "hint": "Đếm: 1, 2." },
-    { "type": "image-choice", "question": "Có mấy bông tuyết?", "prompt": "❄️ ❄️ ❄️", "options": ["1", "2", "3"], "answer": 2, "hint": "Đếm: 1, 2, 3." },
-    { "type": "image-choice", "question": "Có mấy con ong?", "prompt": "🐝 🐝", "options": ["3", "2", "1"], "answer": 1, "hint": "Đếm từng con nhé." },
-    { "type": "image-choice", "question": "Có mấy cây kem?", "prompt": "🍦", "options": ["1", "2", "3"], "answer": 0, "hint": "Chỉ có một cây kem." },
-    { "type": "image-choice", "question": "Có mấy quả dưa hấu?", "prompt": "🍉 🍉 🍉", "options": ["2", "3", "1"], "answer": 1, "hint": "Đếm: 1, 2, 3." }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả cam?",
+      "prompt": "🍊",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "hint": "Đếm: 1."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con thỏ?",
+      "prompt": "🐰 🐰",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy bông tuyết?",
+      "prompt": "❄️ ❄️ ❄️",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "hint": "Đếm: 1, 2, 3."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy con ong?",
+      "prompt": "🐝 🐝",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 1,
+      "hint": "Đếm từng con nhé."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy cây kem?",
+      "prompt": "🍦",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "hint": "Chỉ có một cây kem."
+    },
+    {
+      "type": "image-choice",
+      "question": "Có mấy quả dưa hấu?",
+      "prompt": "🍉 🍉 🍉",
+      "options": [
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 1,
+      "hint": "Đếm: 1, 2, 3."
+    }
+  ],
+  "examType": "practice"
 }

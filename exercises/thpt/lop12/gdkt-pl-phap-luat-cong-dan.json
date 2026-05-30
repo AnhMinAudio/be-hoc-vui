@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về pháp luật:",
       "statements": [
-        { "text": "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.", "answer": true },
-        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
-        { "text": "Chỉ những người có chức quyền mới phải tuân theo pháp luật.", "answer": false },
-        { "text": "Vi phạm hình sự là hành vi nguy hiểm cho xã hội, bị coi là tội phạm.", "answer": true }
+        {
+          "text": "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.",
+          "answer": true
+        },
+        {
+          "text": "Mọi công dân đều bình đẳng trước pháp luật.",
+          "answer": true
+        },
+        {
+          "text": "Chỉ những người có chức quyền mới phải tuân theo pháp luật.",
+          "answer": false
+        },
+        {
+          "text": "Vi phạm hình sự là hành vi nguy hiểm cho xã hội, bị coi là tội phạm.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ của công dân:",
       "statements": [
-        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân.", "answer": true },
-        { "text": "Bảo vệ Tổ quốc là quyền và nghĩa vụ thiêng liêng của công dân.", "answer": true },
-        { "text": "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát, trừ trường hợp phạm tội quả tang.", "answer": true },
-        { "text": "Công dân chỉ có quyền mà không phải thực hiện bất kì nghĩa vụ nào đối với Nhà nước.", "answer": false }
+        {
+          "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân.",
+          "answer": true
+        },
+        {
+          "text": "Bảo vệ Tổ quốc là quyền và nghĩa vụ thiêng liêng của công dân.",
+          "answer": true
+        },
+        {
+          "text": "Không ai bị bắt nếu không có quyết định của Tòa án, quyết định hoặc phê chuẩn của Viện kiểm sát, trừ trường hợp phạm tội quả tang.",
+          "answer": true
+        },
+        {
+          "text": "Công dân chỉ có quyền mà không phải thực hiện bất kì nghĩa vụ nào đối với Nhà nước.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Theo quy định của pháp luật, công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội.",
       "answer": "18",
-      "alternatives": ["mười tám"],
+      "alternatives": [
+        "mười tám"
+      ],
       "hint": "Quyền bầu cử: công dân đủ 18 tuổi trở lên."
     },
     {
@@ -191,7 +217,10 @@
       "level": "TH",
       "question": "Hành vi nguy hiểm cho xã hội, bị coi là tội phạm thì người vi phạm phải chịu trách nhiệm ___ (loại trách nhiệm pháp lí).",
       "answer": "hình sự",
-      "alternatives": ["hinh su", "trách nhiệm hình sự"],
+      "alternatives": [
+        "hinh su",
+        "trách nhiệm hình sự"
+      ],
       "hint": "Tội phạm phải chịu trách nhiệm hình sự."
     },
     {
@@ -201,5 +230,6 @@
       "answer": true,
       "hint": "Mọi văn bản pháp luật khác đều phải phù hợp với Hiến pháp."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về nền kinh tế thị trường:",
       "statements": [
-        { "text": "Trong nền kinh tế thị trường, giá cả hàng hóa chủ yếu hình thành trên cơ sở quan hệ cung - cầu.", "answer": true },
-        { "text": "Người tiêu dùng tham gia vào quan hệ cung - cầu thông qua hành vi mua sắm.", "answer": true },
-        { "text": "Khi cung lớn hơn cầu, giá cả thường có xu hướng giảm.", "answer": true },
-        { "text": "Khi cầu tăng cao mà cung không đổi, giá cả thường có xu hướng giảm.", "answer": false }
+        {
+          "text": "Trong nền kinh tế thị trường, giá cả hàng hóa chủ yếu hình thành trên cơ sở quan hệ cung - cầu.",
+          "answer": true
+        },
+        {
+          "text": "Người tiêu dùng tham gia vào quan hệ cung - cầu thông qua hành vi mua sắm.",
+          "answer": true
+        },
+        {
+          "text": "Khi cung lớn hơn cầu, giá cả thường có xu hướng giảm.",
+          "answer": true
+        },
+        {
+          "text": "Khi cầu tăng cao mà cung không đổi, giá cả thường có xu hướng giảm.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về ngân sách, thuế và tín dụng:",
       "statements": [
-        { "text": "Thuế là nguồn thu chủ yếu của ngân sách nhà nước.", "answer": true },
-        { "text": "Thuế là khoản nộp bắt buộc, không hoàn trả trực tiếp cho người nộp.", "answer": true },
-        { "text": "Tín dụng là quan hệ vay - mượn có hoàn trả gốc và lãi đúng hạn.", "answer": true },
-        { "text": "Tín dụng là việc tặng cho hoàn toàn miễn phí, không cần hoàn trả.", "answer": false }
+        {
+          "text": "Thuế là nguồn thu chủ yếu của ngân sách nhà nước.",
+          "answer": true
+        },
+        {
+          "text": "Thuế là khoản nộp bắt buộc, không hoàn trả trực tiếp cho người nộp.",
+          "answer": true
+        },
+        {
+          "text": "Tín dụng là quan hệ vay - mượn có hoàn trả gốc và lãi đúng hạn.",
+          "answer": true
+        },
+        {
+          "text": "Tín dụng là việc tặng cho hoàn toàn miễn phí, không cần hoàn trả.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "TH",
       "question": "Nguồn thu chủ yếu của ngân sách nhà nước là ___",
       "answer": "thuế",
-      "alternatives": ["Thuế"],
+      "alternatives": [
+        "Thuế"
+      ],
       "hint": "Thuế chiếm tỉ trọng lớn nhất trong tổng thu ngân sách nhà nước."
     },
     {
@@ -191,7 +217,9 @@
       "level": "VD",
       "question": "Quan hệ vay - mượn dựa trên nguyên tắc hoàn trả vốn gốc và lãi sau một thời gian được gọi là ___",
       "answer": "tín dụng",
-      "alternatives": ["tin dung"],
+      "alternatives": [
+        "tin dung"
+      ],
       "hint": "Tín dụng = vay - mượn có hoàn trả + lãi."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Quy luật cung - cầu là một trong những quy luật cơ bản của thị trường."
     }
-  ]
+  ],
+  "examType": "practice"
 }

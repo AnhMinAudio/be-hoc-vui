@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về tự nhiên Việt Nam:",
       "statements": [
-        { "text": "Việt Nam nằm hoàn toàn trong vùng nội chí tuyến của bán cầu Bắc.", "answer": true },
-        { "text": "Địa hình nước ta chủ yếu là đồi núi, trong đó đồi núi thấp chiếm ưu thế.", "answer": true },
-        { "text": "Khí hậu nước ta có sự phân hóa theo mùa và theo chiều Bắc - Nam.", "answer": true },
-        { "text": "Phần lớn lãnh thổ nước ta có khí hậu ôn đới lạnh quanh năm.", "answer": false }
+        {
+          "text": "Việt Nam nằm hoàn toàn trong vùng nội chí tuyến của bán cầu Bắc.",
+          "answer": true
+        },
+        {
+          "text": "Địa hình nước ta chủ yếu là đồi núi, trong đó đồi núi thấp chiếm ưu thế.",
+          "answer": true
+        },
+        {
+          "text": "Khí hậu nước ta có sự phân hóa theo mùa và theo chiều Bắc - Nam.",
+          "answer": true
+        },
+        {
+          "text": "Phần lớn lãnh thổ nước ta có khí hậu ôn đới lạnh quanh năm.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về dân cư nước ta:",
       "statements": [
-        { "text": "Việt Nam là quốc gia có nhiều dân tộc cùng sinh sống.", "answer": true },
-        { "text": "Dân cư nước ta phân bố không đều giữa đồng bằng và miền núi, giữa thành thị và nông thôn.", "answer": true },
-        { "text": "Tỉ lệ dân thành thị của nước ta đang có xu hướng tăng lên do quá trình đô thị hóa.", "answer": true },
-        { "text": "Dân số nước ta hiện nay phân bố hoàn toàn đồng đều trên khắp cả nước.", "answer": false }
+        {
+          "text": "Việt Nam là quốc gia có nhiều dân tộc cùng sinh sống.",
+          "answer": true
+        },
+        {
+          "text": "Dân cư nước ta phân bố không đều giữa đồng bằng và miền núi, giữa thành thị và nông thôn.",
+          "answer": true
+        },
+        {
+          "text": "Tỉ lệ dân thành thị của nước ta đang có xu hướng tăng lên do quá trình đô thị hóa.",
+          "answer": true
+        },
+        {
+          "text": "Dân số nước ta hiện nay phân bố hoàn toàn đồng đều trên khắp cả nước.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,10 @@
       "level": "NB",
       "question": "Trên đất liền, nước ta có chung đường biên giới dài nhất với quốc gia ___",
       "answer": "Lào",
-      "alternatives": ["lao", "nước Lào"],
+      "alternatives": [
+        "lao",
+        "nước Lào"
+      ],
       "hint": "Đường biên giới Việt Nam - Lào dài nhất, hơn cả biên giới với Trung Quốc và Campuchia."
     },
     {
@@ -191,7 +218,10 @@
       "level": "TH",
       "question": "Đồng bằng có diện tích lớn nhất nước ta là Đồng bằng sông ___",
       "answer": "Cửu Long",
-      "alternatives": ["cuu long", "Cửu Long (Mê Công)"],
+      "alternatives": [
+        "cuu long",
+        "Cửu Long (Mê Công)"
+      ],
       "hint": "Đồng bằng sông Cửu Long rộng khoảng 40 000 km², lớn nhất cả nước."
     },
     {
@@ -201,5 +231,6 @@
       "answer": true,
       "hint": "Biển Đông giàu hải sản, dầu khí và là tuyến giao thông hàng hải quan trọng."
     }
-  ]
+  ],
+  "examType": "practice"
 }

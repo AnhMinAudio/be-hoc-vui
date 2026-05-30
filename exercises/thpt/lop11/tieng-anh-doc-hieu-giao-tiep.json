@@ -190,10 +190,22 @@
       "level": "VD",
       "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
       "statements": [
-        { "text": "The passive voice is formed by \"be + past participle (V3)\". (Câu bị động có dạng \"be + quá khứ phân từ\".)", "answer": true },
-        { "text": "In reported speech, present simple usually changes to past simple. (Trong câu tường thuật, hiện tại đơn thường chuyển thành quá khứ đơn.)", "answer": true },
-        { "text": "\"Must not\" is used to express PROHIBITION. (\"Must not\" dùng để diễn tả sự CẤM.)", "answer": true },
-        { "text": "\"Will\" is used only to talk about events in the PAST. (\"Will\" chỉ dùng để nói về sự kiện trong QUÁ KHỨ.)", "answer": false }
+        {
+          "text": "The passive voice is formed by \"be + past participle (V3)\". (Câu bị động có dạng \"be + quá khứ phân từ\".)",
+          "answer": true
+        },
+        {
+          "text": "In reported speech, present simple usually changes to past simple. (Trong câu tường thuật, hiện tại đơn thường chuyển thành quá khứ đơn.)",
+          "answer": true
+        },
+        {
+          "text": "\"Must not\" is used to express PROHIBITION. (\"Must not\" dùng để diễn tả sự CẤM.)",
+          "answer": true
+        },
+        {
+          "text": "\"Will\" is used only to talk about events in the PAST. (\"Will\" chỉ dùng để nói về sự kiện trong QUÁ KHỨ.)",
+          "answer": false
+        }
       ]
     },
     {
@@ -201,7 +213,10 @@
       "level": "TH",
       "question": "Change to PASSIVE voice: \"They built this house in 2010.\" → This house _____ in 2010. (Chuyển sang bị động: \"Họ xây ngôi nhà này năm 2010.\" → Ngôi nhà này _____ năm 2010.)",
       "answer": "was built",
-      "alternatives": ["Was built", "was built by them"],
+      "alternatives": [
+        "Was built",
+        "was built by them"
+      ],
       "hint": "Bị động quá khứ đơn: was/were + V3 → \"was built\"."
     },
     {
@@ -209,7 +224,10 @@
       "level": "TH",
       "question": "Write the modal that expresses OBLIGATION: You _____ wear a helmet when riding a motorbike. (Viết động từ khuyết thiếu chỉ sự BẮT BUỘC: Bạn _____ đội mũ bảo hiểm khi đi xe máy.)",
       "answer": "must",
-      "alternatives": ["Must", "have to"],
+      "alternatives": [
+        "Must",
+        "have to"
+      ],
       "hint": "\"must\" và \"have to\" đều thể hiện sự bắt buộc."
     },
     {
@@ -219,5 +237,6 @@
       "answer": true,
       "hint": "Đây là một trong những thành ngữ phổ biến nhất trong tiếng Anh."
     }
-  ]
+  ],
+  "examType": "practice"
 }

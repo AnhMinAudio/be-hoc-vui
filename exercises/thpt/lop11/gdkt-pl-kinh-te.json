@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế thị trường:",
       "statements": [
-        { "text": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế để giành lợi thế trên thị trường.", "answer": true },
-        { "text": "Khi cung > cầu, giá cả có xu hướng giảm.", "answer": true },
-        { "text": "Khi cầu > cung, giá cả có xu hướng giảm.", "answer": false },
-        { "text": "Cạnh tranh lành mạnh là một trong những động lực quan trọng của phát triển kinh tế.", "answer": true }
+        {
+          "text": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế để giành lợi thế trên thị trường.",
+          "answer": true
+        },
+        {
+          "text": "Khi cung > cầu, giá cả có xu hướng giảm.",
+          "answer": true
+        },
+        {
+          "text": "Khi cầu > cung, giá cả có xu hướng giảm.",
+          "answer": false
+        },
+        {
+          "text": "Cạnh tranh lành mạnh là một trong những động lực quan trọng của phát triển kinh tế.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về lạm phát, thất nghiệp và thị trường lao động:",
       "statements": [
-        { "text": "Lạm phát làm giảm sức mua của đồng tiền.", "answer": true },
-        { "text": "Thất nghiệp là tình trạng người trong độ tuổi lao động, có khả năng và muốn làm việc nhưng không tìm được việc.", "answer": true },
-        { "text": "Thị trường lao động là nơi diễn ra việc mua bán sức lao động.", "answer": true },
-        { "text": "Trốn thuế là hành vi phù hợp với đạo đức kinh doanh.", "answer": false }
+        {
+          "text": "Lạm phát làm giảm sức mua của đồng tiền.",
+          "answer": true
+        },
+        {
+          "text": "Thất nghiệp là tình trạng người trong độ tuổi lao động, có khả năng và muốn làm việc nhưng không tìm được việc.",
+          "answer": true
+        },
+        {
+          "text": "Thị trường lao động là nơi diễn ra việc mua bán sức lao động.",
+          "answer": true
+        },
+        {
+          "text": "Trốn thuế là hành vi phù hợp với đạo đức kinh doanh.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "TH",
       "question": "Hiện tượng mức giá chung tăng liên tục, làm giảm sức mua của đồng tiền gọi là ___",
       "answer": "lạm phát",
-      "alternatives": ["lam phat"],
+      "alternatives": [
+        "lam phat"
+      ],
       "hint": "Lạm phát = giá chung tăng liên tục."
     },
     {
@@ -191,7 +217,9 @@
       "level": "VD",
       "question": "Tình trạng người trong độ tuổi lao động, có khả năng và muốn làm việc nhưng không tìm được việc làm được gọi là ___",
       "answer": "thất nghiệp",
-      "alternatives": ["that nghiep"],
+      "alternatives": [
+        "that nghiep"
+      ],
       "hint": "Thất nghiệp: có khả năng + muốn + không có việc."
     },
     {
@@ -201,5 +229,6 @@
       "answer": true,
       "hint": "Đây là vai trò tích cực quan trọng của cạnh tranh."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -227,5 +227,9 @@
       "answer": "4",
       "hint": "$\\vec{a} \\cdot \\vec{b} = 3m - 2 - 2 = 0$"
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 2
+  }
 }

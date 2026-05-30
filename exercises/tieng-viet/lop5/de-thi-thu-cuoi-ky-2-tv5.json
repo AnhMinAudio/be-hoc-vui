@@ -9,28 +9,48 @@
     {
       "type": "multiple-choice",
       "question": "Cặp từ nào là từ đồng nghĩa?",
-      "options": ["dũng cảm - gan dạ", "cao - thấp", "vui - buồn", "ngày - đêm"],
+      "options": [
+        "dũng cảm - gan dạ",
+        "cao - thấp",
+        "vui - buồn",
+        "ngày - đêm"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Cặp từ nào là từ trái nghĩa?",
-      "options": ["sáng - tối", "to - lớn", "siêng năng - chăm chỉ", "đẹp - xinh"],
+      "options": [
+        "sáng - tối",
+        "to - lớn",
+        "siêng năng - chăm chỉ",
+        "đẹp - xinh"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'bàn' trong 'bàn ghế' và 'bàn bạc' là hiện tượng gì?",
-      "options": ["từ đồng âm", "từ nhiều nghĩa", "từ trái nghĩa", "từ láy"],
+      "options": [
+        "từ đồng âm",
+        "từ nhiều nghĩa",
+        "từ trái nghĩa",
+        "từ láy"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Câu nào là câu ghép?",
-      "options": ["Gió thổi mạnh và mưa rơi tầm tã.", "Em học bài chăm chỉ.", "Bầu trời rất trong xanh.", "Hoa nở thật đẹp."],
+      "options": [
+        "Gió thổi mạnh và mưa rơi tầm tã.",
+        "Em học bài chăm chỉ.",
+        "Bầu trời rất trong xanh.",
+        "Hoa nở thật đẹp."
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -38,27 +58,44 @@
       "type": "fill-blank",
       "question": "Điền quan hệ từ thích hợp: 'Vì trời mưa ___ đường ngập nước.'",
       "answer": "nên",
-      "alternatives": ["cho nên"],
+      "alternatives": [
+        "cho nên"
+      ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'chân' trong 'chân bàn', 'chân núi', 'chân người' là hiện tượng gì?",
-      "options": ["từ nhiều nghĩa", "từ đồng âm", "từ trái nghĩa", "từ láy"],
+      "options": [
+        "từ nhiều nghĩa",
+        "từ đồng âm",
+        "từ trái nghĩa",
+        "từ láy"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ nào đồng nghĩa với 'chăm chỉ'?",
-      "options": ["siêng năng", "lười biếng", "ham chơi", "chậm chạp"],
+      "options": [
+        "siêng năng",
+        "lười biếng",
+        "ham chơi",
+        "chậm chạp"
+      ],
       "answer": 0,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Hai câu 'Lan học rất giỏi. Bạn ấy luôn chăm chỉ.' được liên kết bằng cách nào?",
-      "options": ["thay thế từ ngữ (dùng 'Bạn ấy' thay cho 'Lan')", "lặp từ ngữ", "dùng từ nối", "không liên kết"],
+      "options": [
+        "thay thế từ ngữ (dùng 'Bạn ấy' thay cho 'Lan')",
+        "lặp từ ngữ",
+        "dùng từ nối",
+        "không liên kết"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -66,30 +103,51 @@
       "type": "fill-blank",
       "question": "Tìm một từ trái nghĩa với 'chiến tranh': ___",
       "answer": "hòa bình",
-      "alternatives": ["yên bình"],
+      "alternatives": [
+        "yên bình"
+      ],
       "level": "M2"
     },
     {
       "type": "matching",
       "question": "Nối yêu cầu với từ phù hợp",
       "pairs": [
-        ["đồng nghĩa với 'to lớn'", "khổng lồ"],
-        ["trái nghĩa với 'vui'", "buồn"],
-        ["đồng nghĩa với 'chăm chỉ'", "siêng năng"]
+        [
+          "đồng nghĩa với 'to lớn'",
+          "khổng lồ"
+        ],
+        [
+          "trái nghĩa với 'vui'",
+          "buồn"
+        ],
+        [
+          "đồng nghĩa với 'chăm chỉ'",
+          "siêng năng"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Dấu hai chấm (:) thường được dùng để làm gì?",
-      "options": ["báo hiệu phần liệt kê hoặc lời nói đứng sau", "kết thúc câu hỏi", "ngăn cách chủ ngữ và vị ngữ", "bộc lộ cảm xúc"],
+      "options": [
+        "báo hiệu phần liệt kê hoặc lời nói đứng sau",
+        "kết thúc câu hỏi",
+        "ngăn cách chủ ngữ và vị ngữ",
+        "bộc lộ cảm xúc"
+      ],
       "answer": 0,
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'nhân ái' gần nghĩa với cụm từ nào?",
-      "options": ["yêu thương con người", "ích kỉ, nhỏ nhen", "lạnh lùng", "kiêu căng"],
+      "options": [
+        "yêu thương con người",
+        "ích kỉ, nhỏ nhen",
+        "lạnh lùng",
+        "kiêu căng"
+      ],
       "answer": 0,
       "level": "M2"
     },
@@ -97,7 +155,12 @@
       "type": "multiple-choice",
       "passage": "Rừng là lá phổi xanh của Trái Đất. Rừng cho ta gỗ, điều hòa không khí và giữ đất, giữ nước. Vì vậy, mỗi người cần chung tay bảo vệ rừng và trồng thêm nhiều cây xanh.",
       "question": "Rừng được ví là gì của Trái Đất?",
-      "options": ["lá phổi xanh", "trái tim", "đôi mắt", "mái nhà"],
+      "options": [
+        "lá phổi xanh",
+        "trái tim",
+        "đôi mắt",
+        "mái nhà"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -105,7 +168,12 @@
       "type": "multiple-choice",
       "passage": "Rừng là lá phổi xanh của Trái Đất. Rừng cho ta gỗ, điều hòa không khí và giữ đất, giữ nước. Vì vậy, mỗi người cần chung tay bảo vệ rừng và trồng thêm nhiều cây xanh.",
       "question": "Rừng mang lại những lợi ích nào?",
-      "options": ["cho gỗ, điều hòa không khí, giữ đất giữ nước", "chỉ để ngắm cảnh", "không có lợi ích gì", "gây ô nhiễm"],
+      "options": [
+        "cho gỗ, điều hòa không khí, giữ đất giữ nước",
+        "chỉ để ngắm cảnh",
+        "không có lợi ích gì",
+        "gây ô nhiễm"
+      ],
       "answer": 0,
       "level": "M3"
     },
@@ -113,16 +181,27 @@
       "type": "multiple-choice",
       "passage": "Rừng là lá phổi xanh của Trái Đất. Rừng cho ta gỗ, điều hòa không khí và giữ đất, giữ nước. Vì vậy, mỗi người cần chung tay bảo vệ rừng và trồng thêm nhiều cây xanh.",
       "question": "Theo bài, chúng ta cần làm gì để bảo vệ rừng?",
-      "options": ["chung tay bảo vệ rừng và trồng thêm cây xanh", "chặt phá cây rừng", "đốt rừng làm nương", "không quan tâm"],
+      "options": [
+        "chung tay bảo vệ rừng và trồng thêm cây xanh",
+        "chặt phá cây rừng",
+        "đốt rừng làm nương",
+        "không quan tâm"
+      ],
       "answer": 0,
       "level": "M3"
     },
     {
       "type": "multiple-choice",
       "question": "Từ 'bảo vệ' thuộc loại từ nào?",
-      "options": ["động từ", "danh từ", "tính từ", "quan hệ từ"],
+      "options": [
+        "động từ",
+        "danh từ",
+        "tính từ",
+        "quan hệ từ"
+      ],
       "answer": 0,
       "level": "M1"
     }
-  ]
+  ],
+  "examType": "mock"
 }

@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Hoa Kỳ:",
       "statements": [
-        { "text": "Hoa Kỳ nằm ở Bắc Mỹ, giáp Canada (Bắc) và Mexico (Nam).", "answer": true },
-        { "text": "Hoa Kỳ là một trong những nền kinh tế lớn nhất thế giới theo GDP danh nghĩa.", "answer": true },
-        { "text": "Ngành dịch vụ chiếm tỉ trọng lớn nhất trong GDP của Hoa Kỳ.", "answer": true },
-        { "text": "Hoa Kỳ không có dân nhập cư, dân số hoàn toàn đồng nhất.", "answer": false }
+        {
+          "text": "Hoa Kỳ nằm ở Bắc Mỹ, giáp Canada (Bắc) và Mexico (Nam).",
+          "answer": true
+        },
+        {
+          "text": "Hoa Kỳ là một trong những nền kinh tế lớn nhất thế giới theo GDP danh nghĩa.",
+          "answer": true
+        },
+        {
+          "text": "Ngành dịch vụ chiếm tỉ trọng lớn nhất trong GDP của Hoa Kỳ.",
+          "answer": true
+        },
+        {
+          "text": "Hoa Kỳ không có dân nhập cư, dân số hoàn toàn đồng nhất.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Trung Quốc:",
       "statements": [
-        { "text": "Trung Quốc là một trong những quốc gia có dân số đông nhất thế giới.", "answer": true },
-        { "text": "Trung Quốc tiến hành công cuộc cải cách - mở cửa từ năm 1978.", "answer": true },
-        { "text": "Trung Quốc hiện là nền kinh tế lớn thứ hai thế giới (theo GDP danh nghĩa).", "answer": true },
-        { "text": "Trung Quốc hiện nay chỉ phát triển nông nghiệp, không có công nghiệp đáng kể.", "answer": false }
+        {
+          "text": "Trung Quốc là một trong những quốc gia có dân số đông nhất thế giới.",
+          "answer": true
+        },
+        {
+          "text": "Trung Quốc tiến hành công cuộc cải cách - mở cửa từ năm 1978.",
+          "answer": true
+        },
+        {
+          "text": "Trung Quốc hiện là nền kinh tế lớn thứ hai thế giới (theo GDP danh nghĩa).",
+          "answer": true
+        },
+        {
+          "text": "Trung Quốc hiện nay chỉ phát triển nông nghiệp, không có công nghiệp đáng kể.",
+          "answer": false
+        }
       ]
     },
     {
@@ -190,7 +214,12 @@
       "level": "TH",
       "question": "Quốc gia có nền kinh tế lớn nhất thế giới theo GDP danh nghĩa trong nhiều thập kỉ qua là ___",
       "answer": "Hoa Kỳ",
-      "alternatives": ["hoa ky", "Mỹ", "Hoa Kì", "USA"],
+      "alternatives": [
+        "hoa ky",
+        "Mỹ",
+        "Hoa Kì",
+        "USA"
+      ],
       "hint": "Hoa Kỳ (Mỹ) là nền kinh tế lớn nhất thế giới."
     },
     {
@@ -200,5 +229,6 @@
       "answer": true,
       "hint": "Theo GDP danh nghĩa: Hoa Kỳ thứ nhất, Trung Quốc thứ hai."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -249,6 +249,8 @@ function buildArtifacts(okList) {
       questionCount: data.questions.length,
       outcomes: data.outcomes || [],
       timeLimit: data.timeLimit || null,
+      examType: data.examType || 'practice',
+      bookUnit: data.bookUnit || null,
       path: rel,
     });
   }

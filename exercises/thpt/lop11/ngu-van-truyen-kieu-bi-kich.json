@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về Nguyễn Du và Truyện Kiều:",
       "statements": [
-        { "text": "Nguyễn Du là một trong những đại thi hào của dân tộc Việt Nam, được UNESCO vinh danh là Danh nhân văn hóa thế giới.", "answer": true },
-        { "text": "\"Truyện Kiều\" được Nguyễn Du sáng tác dựa trên \"Kim Vân Kiều truyện\" của Thanh Tâm Tài Nhân (Trung Quốc).", "answer": true },
-        { "text": "Truyện Kiều được viết theo thể thơ lục bát truyền thống.", "answer": true },
-        { "text": "Nhân vật trung tâm của \"Truyện Kiều\" là Kim Trọng.", "answer": false }
+        {
+          "text": "Nguyễn Du là một trong những đại thi hào của dân tộc Việt Nam, được UNESCO vinh danh là Danh nhân văn hóa thế giới.",
+          "answer": true
+        },
+        {
+          "text": "\"Truyện Kiều\" được Nguyễn Du sáng tác dựa trên \"Kim Vân Kiều truyện\" của Thanh Tâm Tài Nhân (Trung Quốc).",
+          "answer": true
+        },
+        {
+          "text": "Truyện Kiều được viết theo thể thơ lục bát truyền thống.",
+          "answer": true
+        },
+        {
+          "text": "Nhân vật trung tâm của \"Truyện Kiều\" là Kim Trọng.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về bi kịch:",
       "statements": [
-        { "text": "Bi kịch là một thể loại của kịch, có nhân vật trung tâm thường gặp thất bại hoặc cái chết.", "answer": true },
-        { "text": "Xung đột trong bi kịch thường là xung đột giữa khát vọng cá nhân với hoàn cảnh không thể vượt qua.", "answer": true },
-        { "text": "Đoạn trích \"Vĩnh biệt Cửu Trùng Đài\" thuộc vở kịch \"Vũ Như Tô\" của nhà văn Nguyễn Huy Tưởng.", "answer": true },
-        { "text": "\"Romeo và Juliet\" là vở bi kịch nổi tiếng của nhà văn Việt Nam Nguyễn Huy Tưởng.", "answer": false }
+        {
+          "text": "Bi kịch là một thể loại của kịch, có nhân vật trung tâm thường gặp thất bại hoặc cái chết.",
+          "answer": true
+        },
+        {
+          "text": "Xung đột trong bi kịch thường là xung đột giữa khát vọng cá nhân với hoàn cảnh không thể vượt qua.",
+          "answer": true
+        },
+        {
+          "text": "Đoạn trích \"Vĩnh biệt Cửu Trùng Đài\" thuộc vở kịch \"Vũ Như Tô\" của nhà văn Nguyễn Huy Tưởng.",
+          "answer": true
+        },
+        {
+          "text": "\"Romeo và Juliet\" là vở bi kịch nổi tiếng của nhà văn Việt Nam Nguyễn Huy Tưởng.",
+          "answer": false
+        }
       ]
     },
     {
@@ -196,7 +220,9 @@
       "level": "NB",
       "question": "Tác giả của \"Truyện Kiều\" là đại thi hào ___",
       "answer": "Nguyễn Du",
-      "alternatives": ["nguyen du"],
+      "alternatives": [
+        "nguyen du"
+      ],
       "hint": "Nguyễn Du (1765-1820) là tác giả \"Truyện Kiều\"."
     },
     {
@@ -204,7 +230,10 @@
       "level": "TH",
       "question": "\"Truyện Kiều\" của Nguyễn Du được viết theo thể thơ ___",
       "answer": "lục bát",
-      "alternatives": ["luc bat", "thơ lục bát"],
+      "alternatives": [
+        "luc bat",
+        "thơ lục bát"
+      ],
       "hint": "Truyện Kiều dùng thể thơ lục bát truyền thống (câu 6 - câu 8 đan xen)."
     },
     {
@@ -214,5 +243,6 @@
       "answer": true,
       "hint": "Truyện Kiều là một trong những kiệt tác lớn nhất của văn học Việt Nam, đã được dịch ra nhiều ngôn ngữ."
     }
-  ]
+  ],
+  "examType": "practice"
 }

@@ -6,13 +6,94 @@
   "topic": "Thế giới động vật",
   "difficulty": 3,
   "questions": [
-    { "type": "image-choice", "question": "Con nào sống ở dưới biển?", "options": ["🐬", "🐶", "🐔", "🐰"], "answer": 0 },
-    { "type": "image-choice", "question": "Con chim nào KHÔNG biết bay?", "options": ["🐦", "🦅", "🐧", "🦆"], "answer": 2 },
-    { "type": "image-choice", "question": "Con nào là vật nuôi trong nhà?", "options": ["🦁", "🐯", "🐶", "🐻"], "answer": 2 },
-    { "type": "image-choice", "question": "Con nào sống trong rừng?", "options": ["🦁", "🐱", "🐔", "🐷"], "answer": 0 },
-    { "type": "image-choice", "question": "Con nào cho chúng ta sữa?", "options": ["🐮", "🐔", "🐟", "🐝"], "answer": 0 },
-    { "type": "image-choice", "question": "Con nào làm ra mật ong?", "options": ["🦋", "🐝", "🐜", "🐌"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào to lớn nhất?", "options": ["🐭", "🐘", "🐰", "🐱"], "answer": 1 },
-    { "type": "image-choice", "question": "Con nào bơi giỏi dưới nước?", "options": ["🐟", "🐶", "🐦", "🐰"], "answer": 0 }
-  ]
+    {
+      "type": "image-choice",
+      "question": "Con nào sống ở dưới biển?",
+      "options": [
+        "🐬",
+        "🐶",
+        "🐔",
+        "🐰"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Con chim nào KHÔNG biết bay?",
+      "options": [
+        "🐦",
+        "🦅",
+        "🐧",
+        "🦆"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào là vật nuôi trong nhà?",
+      "options": [
+        "🦁",
+        "🐯",
+        "🐶",
+        "🐻"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào sống trong rừng?",
+      "options": [
+        "🦁",
+        "🐱",
+        "🐔",
+        "🐷"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào cho chúng ta sữa?",
+      "options": [
+        "🐮",
+        "🐔",
+        "🐟",
+        "🐝"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào làm ra mật ong?",
+      "options": [
+        "🦋",
+        "🐝",
+        "🐜",
+        "🐌"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào to lớn nhất?",
+      "options": [
+        "🐭",
+        "🐘",
+        "🐰",
+        "🐱"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "image-choice",
+      "question": "Con nào bơi giỏi dưới nước?",
+      "options": [
+        "🐟",
+        "🐶",
+        "🐦",
+        "🐰"
+      ],
+      "answer": 0
+    }
+  ],
+  "examType": "practice"
 }

@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về văn nghị luận trung đại:",
       "statements": [
-        { "text": "\"Hịch tướng sĩ\" do Trần Quốc Tuấn soạn để khích lệ tinh thần tướng sĩ chống quân Nguyên - Mông.", "answer": true },
-        { "text": "\"Đại cáo bình Ngô\" của Nguyễn Trãi được coi như một bản tuyên ngôn độc lập của dân tộc.", "answer": true },
-        { "text": "Tư tưởng nhân nghĩa trong \"Đại cáo bình Ngô\" gắn liền với việc \"yên dân\", \"trừ bạo\".", "answer": true },
-        { "text": "Hịch và cáo là hai thể loại của văn học hiện đại, ra đời sau Cách mạng tháng Tám 1945.", "answer": false }
+        {
+          "text": "\"Hịch tướng sĩ\" do Trần Quốc Tuấn soạn để khích lệ tinh thần tướng sĩ chống quân Nguyên - Mông.",
+          "answer": true
+        },
+        {
+          "text": "\"Đại cáo bình Ngô\" của Nguyễn Trãi được coi như một bản tuyên ngôn độc lập của dân tộc.",
+          "answer": true
+        },
+        {
+          "text": "Tư tưởng nhân nghĩa trong \"Đại cáo bình Ngô\" gắn liền với việc \"yên dân\", \"trừ bạo\".",
+          "answer": true
+        },
+        {
+          "text": "Hịch và cáo là hai thể loại của văn học hiện đại, ra đời sau Cách mạng tháng Tám 1945.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về sân khấu dân gian và truyện ngắn hiện đại:",
       "statements": [
-        { "text": "Chèo là loại hình sân khấu dân gian truyền thống ở Đồng bằng Bắc Bộ.", "answer": true },
-        { "text": "Tuồng (hát bội) thường mang đề tài lịch sử, ca ngợi các nhân vật anh hùng.", "answer": true },
-        { "text": "Người kể chuyện trong truyện ngắn có thể là người trong truyện hoặc người ngoài truyện.", "answer": true },
-        { "text": "Trong truyện ngắn hiện đại, người kể chuyện ngôi thứ nhất bắt buộc phải là chính tác giả ngoài đời thực.", "answer": false }
+        {
+          "text": "Chèo là loại hình sân khấu dân gian truyền thống ở Đồng bằng Bắc Bộ.",
+          "answer": true
+        },
+        {
+          "text": "Tuồng (hát bội) thường mang đề tài lịch sử, ca ngợi các nhân vật anh hùng.",
+          "answer": true
+        },
+        {
+          "text": "Người kể chuyện trong truyện ngắn có thể là người trong truyện hoặc người ngoài truyện.",
+          "answer": true
+        },
+        {
+          "text": "Trong truyện ngắn hiện đại, người kể chuyện ngôi thứ nhất bắt buộc phải là chính tác giả ngoài đời thực.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Tác phẩm \"Đại cáo bình Ngô\" do ___ soạn thảo sau khi khởi nghĩa Lam Sơn thắng lợi.",
       "answer": "Nguyễn Trãi",
-      "alternatives": ["nguyen trai"],
+      "alternatives": [
+        "nguyen trai"
+      ],
       "hint": "Nguyễn Trãi là tác giả của \"Đại cáo bình Ngô\"."
     },
     {
@@ -191,7 +217,13 @@
       "level": "TH",
       "question": "Bài \"Hịch tướng sĩ\" được Trần Quốc Tuấn viết để chuẩn bị tinh thần cho cuộc kháng chiến chống quân ___",
       "answer": "Nguyên - Mông",
-      "alternatives": ["Nguyên", "Nguyên Mông", "Mông - Nguyên", "nguyen mong", "quân Nguyên Mông"],
+      "alternatives": [
+        "Nguyên",
+        "Nguyên Mông",
+        "Mông - Nguyên",
+        "nguyen mong",
+        "quân Nguyên Mông"
+      ],
       "hint": "Bài hịch được viết trước cuộc kháng chiến chống quân Nguyên - Mông (thế kỉ XIII)."
     },
     {
@@ -201,5 +233,6 @@
       "answer": true,
       "hint": "Chèo và tuồng đều là di sản sân khấu dân gian truyền thống của Việt Nam."
     }
-  ]
+  ],
+  "examType": "practice"
 }

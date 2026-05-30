@@ -225,5 +225,9 @@
       "question": "Nếu hàm số $f(x)$ có đạo hàm $f'(x) > 0$ với mọi $x$ thuộc khoảng $(a; b)$ thì $f(x)$ đồng biến trên khoảng $(a; b)$.",
       "answer": true
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 1
+  }
 }

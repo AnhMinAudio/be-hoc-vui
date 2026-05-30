@@ -176,10 +176,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cảm ứng:",
       "statements": [
-        { "text": "Cảm ứng là phản ứng của sinh vật trả lời các kích thích từ môi trường.", "answer": true },
-        { "text": "Phản xạ là một hình thức cảm ứng đặc trưng của động vật có hệ thần kinh.", "answer": true },
-        { "text": "Cảm ứng ở thực vật diễn ra nhanh và mạnh giống hệt phản xạ ở động vật.", "answer": false },
-        { "text": "Cung phản xạ gồm thụ thể, dây thần kinh hướng tâm, trung ương, dây li tâm và cơ quan đáp ứng.", "answer": true }
+        {
+          "text": "Cảm ứng là phản ứng của sinh vật trả lời các kích thích từ môi trường.",
+          "answer": true
+        },
+        {
+          "text": "Phản xạ là một hình thức cảm ứng đặc trưng của động vật có hệ thần kinh.",
+          "answer": true
+        },
+        {
+          "text": "Cảm ứng ở thực vật diễn ra nhanh và mạnh giống hệt phản xạ ở động vật.",
+          "answer": false
+        },
+        {
+          "text": "Cung phản xạ gồm thụ thể, dây thần kinh hướng tâm, trung ương, dây li tâm và cơ quan đáp ứng.",
+          "answer": true
+        }
       ]
     },
     {
@@ -187,10 +199,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về sinh trưởng, phát triển và sinh sản:",
       "statements": [
-        { "text": "Hormone do các tuyến nội tiết tiết ra, có vai trò điều hòa các hoạt động sinh lí của cơ thể.", "answer": true },
-        { "text": "Giâm cành, chiết cành là các hình thức sinh sản vô tính ở thực vật.", "answer": true },
-        { "text": "Sinh sản hữu tính tạo ra đời con có sự đa dạng di truyền hơn sinh sản vô tính.", "answer": true },
-        { "text": "Sinh sản hữu tính ở động vật không cần có sự kết hợp giữa giao tử đực và giao tử cái.", "answer": false }
+        {
+          "text": "Hormone do các tuyến nội tiết tiết ra, có vai trò điều hòa các hoạt động sinh lí của cơ thể.",
+          "answer": true
+        },
+        {
+          "text": "Giâm cành, chiết cành là các hình thức sinh sản vô tính ở thực vật.",
+          "answer": true
+        },
+        {
+          "text": "Sinh sản hữu tính tạo ra đời con có sự đa dạng di truyền hơn sinh sản vô tính.",
+          "answer": true
+        },
+        {
+          "text": "Sinh sản hữu tính ở động vật không cần có sự kết hợp giữa giao tử đực và giao tử cái.",
+          "answer": false
+        }
       ]
     },
     {
@@ -198,7 +222,10 @@
       "level": "TH",
       "question": "Đường đi của xung thần kinh trong một phản xạ được gọi là cung ___",
       "answer": "phản xạ",
-      "alternatives": ["phan xa", "cung phản xạ"],
+      "alternatives": [
+        "phan xa",
+        "cung phản xạ"
+      ],
       "hint": "Cung phản xạ có 5 thành phần."
     },
     {
@@ -206,7 +233,9 @@
       "level": "VD",
       "question": "Hình thức sinh sản nào ở thực vật KHÔNG có sự kết hợp giữa giao tử đực và cái được gọi là sinh sản ___",
       "answer": "vô tính",
-      "alternatives": ["vo tinh"],
+      "alternatives": [
+        "vo tinh"
+      ],
       "hint": "Vô tính: con sinh ra giống hệt mẹ về di truyền."
     },
     {
@@ -216,5 +245,6 @@
       "answer": true,
       "hint": "Phản xạ thực hiện qua cung phản xạ trong hệ thần kinh."
     }
-  ]
+  ],
+  "examType": "practice"
 }

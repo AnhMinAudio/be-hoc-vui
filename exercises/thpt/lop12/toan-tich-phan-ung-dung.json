@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về nguyên hàm:",
       "statements": [
-        { "text": "Nếu $F'(x) = f(x)$ thì $F(x)$ là một nguyên hàm của $f(x)$.", "answer": true },
-        { "text": "$\\displaystyle\\int x^n\\,dx = \\dfrac{x^{n+1}}{n+1} + C$ với mọi $n \\neq -1$.", "answer": true },
-        { "text": "Hai nguyên hàm của cùng một hàm số sai khác nhau một hằng số.", "answer": true },
-        { "text": "Nguyên hàm của $\\cos x$ là $-\\sin x + C$.", "answer": false }
+        {
+          "text": "Nếu $F'(x) = f(x)$ thì $F(x)$ là một nguyên hàm của $f(x)$.",
+          "answer": true
+        },
+        {
+          "text": "$\\displaystyle\\int x^n\\,dx = \\dfrac{x^{n+1}}{n+1} + C$ với mọi $n \\neq -1$.",
+          "answer": true
+        },
+        {
+          "text": "Hai nguyên hàm của cùng một hàm số sai khác nhau một hằng số.",
+          "answer": true
+        },
+        {
+          "text": "Nguyên hàm của $\\cos x$ là $-\\sin x + C$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về tích phân và ứng dụng:",
       "statements": [
-        { "text": "$\\displaystyle\\int_a^b [f(x) + g(x)]\\,dx = \\displaystyle\\int_a^b f(x)\\,dx + \\displaystyle\\int_a^b g(x)\\,dx$.", "answer": true },
-        { "text": "$\\displaystyle\\int_a^b k \\cdot f(x)\\,dx = k \\displaystyle\\int_a^b f(x)\\,dx$ với mọi hằng số $k$.", "answer": true },
-        { "text": "Diện tích hình phẳng giới hạn bởi đồ thị $y = f(x) \\geq 0$, trục $Ox$, $x = a$, $x = b$ là $\\displaystyle\\int_a^b f(x)\\,dx$.", "answer": true },
-        { "text": "$\\displaystyle\\int_a^b f(x)\\,dx = \\displaystyle\\int_b^a f(x)\\,dx$ với mọi hàm $f$.", "answer": false }
+        {
+          "text": "$\\displaystyle\\int_a^b [f(x) + g(x)]\\,dx = \\displaystyle\\int_a^b f(x)\\,dx + \\displaystyle\\int_a^b g(x)\\,dx$.",
+          "answer": true
+        },
+        {
+          "text": "$\\displaystyle\\int_a^b k \\cdot f(x)\\,dx = k \\displaystyle\\int_a^b f(x)\\,dx$ với mọi hằng số $k$.",
+          "answer": true
+        },
+        {
+          "text": "Diện tích hình phẳng giới hạn bởi đồ thị $y = f(x) \\geq 0$, trục $Ox$, $x = a$, $x = b$ là $\\displaystyle\\int_a^b f(x)\\,dx$.",
+          "answer": true
+        },
+        {
+          "text": "$\\displaystyle\\int_a^b f(x)\\,dx = \\displaystyle\\int_b^a f(x)\\,dx$ với mọi hàm $f$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -205,5 +229,9 @@
       "answer": "2",
       "hint": "$\\displaystyle\\int_0^1 (4x^3 + 2x)\\,dx = [x^4 + x^2]_0^1 = (1 + 1) - 0 = 2$."
     }
-  ]
+  ],
+  "examType": "practice",
+  "bookUnit": {
+    "chapter": 4
+  }
 }

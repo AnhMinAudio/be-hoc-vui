@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về cấu tạo nguyên tử và bảng tuần hoàn:",
       "statements": [
-        { "text": "Trong nguyên tử trung hòa, số proton bằng số electron.", "answer": true },
-        { "text": "Các nguyên tố trong cùng một NHÓM của bảng tuần hoàn có cùng số electron ở lớp ngoài cùng (đối với nhóm A).", "answer": true },
-        { "text": "Đồng vị là các nguyên tử của cùng nguyên tố hóa học, có cùng số proton nhưng khác số neutron.", "answer": true },
-        { "text": "Trong cùng một chu kì, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.", "answer": false }
+        {
+          "text": "Trong nguyên tử trung hòa, số proton bằng số electron.",
+          "answer": true
+        },
+        {
+          "text": "Các nguyên tố trong cùng một NHÓM của bảng tuần hoàn có cùng số electron ở lớp ngoài cùng (đối với nhóm A).",
+          "answer": true
+        },
+        {
+          "text": "Đồng vị là các nguyên tử của cùng nguyên tố hóa học, có cùng số proton nhưng khác số neutron.",
+          "answer": true
+        },
+        {
+          "text": "Trong cùng một chu kì, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.",
+          "answer": false
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về liên kết hóa học và phản ứng oxi hóa - khử:",
       "statements": [
-        { "text": "Liên kết cộng hóa trị được hình thành do hai nguyên tử dùng chung cặp electron.", "answer": true },
-        { "text": "Liên kết ion thường được hình thành giữa kim loại điển hình và phi kim điển hình.", "answer": true },
-        { "text": "Trong phản ứng oxi hóa - khử, chất khử là chất nhường electron và bị OXI HÓA.", "answer": true },
-        { "text": "Trong phản ứng oxi hóa - khử, không có sự thay đổi số oxi hóa của bất kì nguyên tố nào.", "answer": false }
+        {
+          "text": "Liên kết cộng hóa trị được hình thành do hai nguyên tử dùng chung cặp electron.",
+          "answer": true
+        },
+        {
+          "text": "Liên kết ion thường được hình thành giữa kim loại điển hình và phi kim điển hình.",
+          "answer": true
+        },
+        {
+          "text": "Trong phản ứng oxi hóa - khử, chất khử là chất nhường electron và bị OXI HÓA.",
+          "answer": true
+        },
+        {
+          "text": "Trong phản ứng oxi hóa - khử, không có sự thay đổi số oxi hóa của bất kì nguyên tố nào.",
+          "answer": false
+        }
       ]
     },
     {
@@ -203,7 +227,10 @@
       "level": "VD",
       "question": "Nguyên tố có $Z = 17$ thuộc nhóm ___ trong bảng tuần hoàn (viết kí hiệu nhóm A, vd: IA, VIIA, ...).",
       "answer": "VIIA",
-      "alternatives": ["viia", "nhóm VIIA"],
+      "alternatives": [
+        "viia",
+        "nhóm VIIA"
+      ],
       "hint": "$Z = 17$ là Chlorine (Cl), có $7$ electron lớp ngoài cùng → nhóm VIIA (halogen)."
     },
     {
@@ -213,5 +240,6 @@
       "answer": true,
       "hint": "Số thứ tự chu kì = số lớp electron của nguyên tử."
     }
-  ]
+  ],
+  "examType": "practice"
 }

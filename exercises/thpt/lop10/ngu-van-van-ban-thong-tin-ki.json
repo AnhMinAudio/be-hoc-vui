@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về văn bản thông tin:",
       "statements": [
-        { "text": "Văn bản thông tin chủ yếu nhằm cung cấp thông tin xác thực về một đối tượng, sự việc, hiện tượng.", "answer": true },
-        { "text": "Ngôn ngữ của văn bản thông tin cần ngắn gọn, rõ ràng, chính xác, khách quan.", "answer": true },
-        { "text": "Văn bản thông tin có thể sử dụng bảng biểu, sơ đồ, hình ảnh, số liệu để hỗ trợ truyền tải nội dung.", "answer": true },
-        { "text": "Văn bản thông tin và tác phẩm văn học hư cấu (như truyện ngắn) là cùng một loại văn bản.", "answer": false }
+        {
+          "text": "Văn bản thông tin chủ yếu nhằm cung cấp thông tin xác thực về một đối tượng, sự việc, hiện tượng.",
+          "answer": true
+        },
+        {
+          "text": "Ngôn ngữ của văn bản thông tin cần ngắn gọn, rõ ràng, chính xác, khách quan.",
+          "answer": true
+        },
+        {
+          "text": "Văn bản thông tin có thể sử dụng bảng biểu, sơ đồ, hình ảnh, số liệu để hỗ trợ truyền tải nội dung.",
+          "answer": true
+        },
+        {
+          "text": "Văn bản thông tin và tác phẩm văn học hư cấu (như truyện ngắn) là cùng một loại văn bản.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về thể loại kí:",
       "statements": [
-        { "text": "Kí là thể loại ghi chép về người thật, việc thật mà tác giả chứng kiến hoặc trải nghiệm.", "answer": true },
-        { "text": "Tùy bút mang đậm cảm xúc, suy nghĩ chủ quan của người viết.", "answer": true },
-        { "text": "Phóng sự thường gắn với việc phản ánh các sự kiện có ý nghĩa thời sự.", "answer": true },
-        { "text": "Kí là thể loại hoàn toàn hư cấu, không gắn với người thật, việc thật.", "answer": false }
+        {
+          "text": "Kí là thể loại ghi chép về người thật, việc thật mà tác giả chứng kiến hoặc trải nghiệm.",
+          "answer": true
+        },
+        {
+          "text": "Tùy bút mang đậm cảm xúc, suy nghĩ chủ quan của người viết.",
+          "answer": true
+        },
+        {
+          "text": "Phóng sự thường gắn với việc phản ánh các sự kiện có ý nghĩa thời sự.",
+          "answer": true
+        },
+        {
+          "text": "Kí là thể loại hoàn toàn hư cấu, không gắn với người thật, việc thật.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,11 @@
       "level": "NB",
       "question": "Thể loại văn học ghi chép về người thật, việc thật, kết hợp giữa sự thật và cảm xúc của tác giả gọi là ___",
       "answer": "kí",
-      "alternatives": ["ký", "thể kí", "thể loại kí"],
+      "alternatives": [
+        "ký",
+        "thể kí",
+        "thể loại kí"
+      ],
       "hint": "Kí gồm các tiểu loại: bút kí, hồi kí, du kí, tùy bút, phóng sự..."
     },
     {
@@ -191,7 +219,9 @@
       "level": "TH",
       "question": "Tiểu loại kí có đặc điểm ghi chép tự do, đậm cảm xúc, suy nghĩ chủ quan của người viết được gọi là ___",
       "answer": "tùy bút",
-      "alternatives": ["tuy but"],
+      "alternatives": [
+        "tuy but"
+      ],
       "hint": "Tùy bút (essay) gần với tản văn, ghi chép phóng khoáng theo cảm xúc."
     },
     {
@@ -201,5 +231,6 @@
       "answer": true,
       "hint": "Văn bản thông tin là một phần không thể thiếu của đời sống thông tin hiện đại."
     }
-  ]
+  ],
+  "examType": "practice"
 }

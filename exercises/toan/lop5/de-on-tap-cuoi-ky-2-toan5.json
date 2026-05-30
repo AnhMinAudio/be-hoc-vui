@@ -9,7 +9,12 @@
     {
       "type": "multiple-choice",
       "question": "Số thập phân 0,5 đọc là:",
-      "options": ["không phẩy năm", "năm phẩy không", "không phẩy năm mươi", "năm"],
+      "options": [
+        "không phẩy năm",
+        "năm phẩy không",
+        "không phẩy năm mươi",
+        "năm"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -17,27 +22,41 @@
       "type": "fill-blank",
       "question": "12,5 + 3,2 = ___",
       "answer": "15,7",
-      "alternatives": ["15.7"],
+      "alternatives": [
+        "15.7"
+      ],
       "level": "M1"
     },
     {
       "type": "fill-blank",
       "question": "8 + 0,75 = ___",
       "answer": "8,75",
-      "alternatives": ["8.75"],
+      "alternatives": [
+        "8.75"
+      ],
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Phân số 1/2 viết dưới dạng tỉ số phần trăm là:",
-      "options": ["5%", "50%", "20%", "2%"],
+      "options": [
+        "5%",
+        "50%",
+        "20%",
+        "2%"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Diện tích hình tam giác có đáy 6 cm, chiều cao 4 cm là:",
-      "options": ["24 cm²", "12 cm²", "10 cm²", "20 cm²"],
+      "options": [
+        "24 cm²",
+        "12 cm²",
+        "10 cm²",
+        "20 cm²"
+      ],
       "answer": 1,
       "level": "M1",
       "hint": "Diện tích tam giác bằng đáy nhân chiều cao rồi chia 2."
@@ -51,14 +70,24 @@
     {
       "type": "multiple-choice",
       "question": "1 giờ bằng bao nhiêu phút?",
-      "options": ["10 phút", "60 phút", "100 phút", "30 phút"],
+      "options": [
+        "10 phút",
+        "60 phút",
+        "100 phút",
+        "30 phút"
+      ],
       "answer": 1,
       "level": "M1"
     },
     {
       "type": "multiple-choice",
       "question": "Trong số 7,25 chữ số 5 ở hàng nào?",
-      "options": ["hàng phần mười", "hàng phần trăm", "hàng đơn vị", "hàng chục"],
+      "options": [
+        "hàng phần mười",
+        "hàng phần trăm",
+        "hàng đơn vị",
+        "hàng chục"
+      ],
       "answer": 1,
       "level": "M1"
     },
@@ -66,7 +95,9 @@
       "type": "fill-blank",
       "question": "6,4 × 2 = ___",
       "answer": "12,8",
-      "alternatives": ["12.8"],
+      "alternatives": [
+        "12.8"
+      ],
       "level": "M2"
     },
     {
@@ -79,7 +110,12 @@
     {
       "type": "multiple-choice",
       "question": "Diện tích hình thang có hai đáy 5 cm và 7 cm, chiều cao 4 cm là:",
-      "options": ["24 cm²", "48 cm²", "20 cm²", "12 cm²"],
+      "options": [
+        "24 cm²",
+        "48 cm²",
+        "20 cm²",
+        "12 cm²"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Diện tích hình thang = (đáy lớn + đáy bé) × chiều cao : 2."
@@ -94,7 +130,12 @@
     {
       "type": "multiple-choice",
       "question": "Chu vi hình tròn bán kính 2 cm (lấy π = 3,14) là:",
-      "options": ["6,28 cm", "12,56 cm", "12,56 cm²", "4 cm"],
+      "options": [
+        "6,28 cm",
+        "12,56 cm",
+        "12,56 cm²",
+        "4 cm"
+      ],
       "answer": 1,
       "level": "M2",
       "hint": "Chu vi hình tròn = bán kính × 2 × 3,14."
@@ -116,10 +157,16 @@
     {
       "type": "multiple-choice",
       "question": "Một người gửi 1 000 000 đồng, lãi suất 6% một năm. Sau 1 năm tiền lãi nhận được là:",
-      "options": ["6 000 đồng", "60 000 đồng", "600 000 đồng", "16 000 đồng"],
+      "options": [
+        "6 000 đồng",
+        "60 000 đồng",
+        "600 000 đồng",
+        "16 000 đồng"
+      ],
       "answer": 1,
       "level": "M3",
       "hint": "Tiền lãi = 1 000 000 × 6 : 100."
     }
-  ]
+  ],
+  "examType": "final2"
 }

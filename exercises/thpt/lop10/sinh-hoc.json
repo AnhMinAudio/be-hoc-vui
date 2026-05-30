@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về tế bào và bào quan:",
       "statements": [
-        { "text": "Tế bào nhân sơ không có nhân hoàn chỉnh và không có các bào quan có màng.", "answer": true },
-        { "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cung cấp cho hoạt động sống.", "answer": true },
-        { "text": "Lục lạp có ở mọi tế bào động vật.", "answer": false },
-        { "text": "Ribosome có ở cả tế bào nhân sơ và tế bào nhân thực, là nơi tổng hợp protein.", "answer": true }
+        {
+          "text": "Tế bào nhân sơ không có nhân hoàn chỉnh và không có các bào quan có màng.",
+          "answer": true
+        },
+        {
+          "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cung cấp cho hoạt động sống.",
+          "answer": true
+        },
+        {
+          "text": "Lục lạp có ở mọi tế bào động vật.",
+          "answer": false
+        },
+        {
+          "text": "Ribosome có ở cả tế bào nhân sơ và tế bào nhân thực, là nơi tổng hợp protein.",
+          "answer": true
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về chuyển hóa năng lượng trong tế bào:",
       "statements": [
-        { "text": "Quang hợp là quá trình tổng hợp chất hữu cơ (glucose) từ $CO_2$ và $H_2O$ nhờ năng lượng ánh sáng.", "answer": true },
-        { "text": "Hô hấp tế bào là quá trình phân giải chất hữu cơ giải phóng năng lượng cho hoạt động sống của tế bào.", "answer": true },
-        { "text": "Enzyme có vai trò xúc tác sinh học, làm tăng tốc độ phản ứng hóa học trong tế bào.", "answer": true },
-        { "text": "Vận chuyển chủ động qua màng tế bào không tiêu tốn năng lượng.", "answer": false }
+        {
+          "text": "Quang hợp là quá trình tổng hợp chất hữu cơ (glucose) từ $CO_2$ và $H_2O$ nhờ năng lượng ánh sáng.",
+          "answer": true
+        },
+        {
+          "text": "Hô hấp tế bào là quá trình phân giải chất hữu cơ giải phóng năng lượng cho hoạt động sống của tế bào.",
+          "answer": true
+        },
+        {
+          "text": "Enzyme có vai trò xúc tác sinh học, làm tăng tốc độ phản ứng hóa học trong tế bào.",
+          "answer": true
+        },
+        {
+          "text": "Vận chuyển chủ động qua màng tế bào không tiêu tốn năng lượng.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "TH",
       "question": "Phân tử mang năng lượng được sử dụng trực tiếp cho hầu hết các hoạt động sống của tế bào là ___",
       "answer": "ATP",
-      "alternatives": ["atp"],
+      "alternatives": [
+        "atp"
+      ],
       "hint": "ATP (adenosine triphosphate) là đồng tiền năng lượng của tế bào."
     },
     {
@@ -191,7 +217,10 @@
       "level": "VD",
       "question": "Bào quan diễn ra quá trình quang hợp ở thực vật là ___",
       "answer": "lục lạp",
-      "alternatives": ["luc lap", "Lục lạp"],
+      "alternatives": [
+        "luc lap",
+        "Lục lạp"
+      ],
       "hint": "Lục lạp chứa diệp lục, hấp thụ ánh sáng để thực hiện quang hợp."
     },
     {
@@ -201,5 +230,6 @@
       "answer": true,
       "hint": "Vi khuẩn (Bacteria) thuộc nhóm sinh vật nhân sơ (prokaryote)."
     }
-  ]
+  ],
+  "examType": "practice"
 }

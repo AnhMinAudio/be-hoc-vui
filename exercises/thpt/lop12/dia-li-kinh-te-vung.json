@@ -161,10 +161,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về các ngành kinh tế nước ta:",
       "statements": [
-        { "text": "Cơ cấu kinh tế nước ta đang chuyển dịch theo hướng công nghiệp hóa, hiện đại hóa.", "answer": true },
-        { "text": "Đồng bằng sông Cửu Long là vùng sản xuất lương thực và thủy sản lớn nhất nước ta.", "answer": true },
-        { "text": "Tây Nguyên là vùng chuyên canh cây công nghiệp lâu năm lớn, đặc biệt là cà phê.", "answer": true },
-        { "text": "Ngành nông nghiệp hiện chiếm tỉ trọng lớn nhất trong cơ cấu GDP của nước ta.", "answer": false }
+        {
+          "text": "Cơ cấu kinh tế nước ta đang chuyển dịch theo hướng công nghiệp hóa, hiện đại hóa.",
+          "answer": true
+        },
+        {
+          "text": "Đồng bằng sông Cửu Long là vùng sản xuất lương thực và thủy sản lớn nhất nước ta.",
+          "answer": true
+        },
+        {
+          "text": "Tây Nguyên là vùng chuyên canh cây công nghiệp lâu năm lớn, đặc biệt là cà phê.",
+          "answer": true
+        },
+        {
+          "text": "Ngành nông nghiệp hiện chiếm tỉ trọng lớn nhất trong cơ cấu GDP của nước ta.",
+          "answer": false
+        }
       ]
     },
     {
@@ -172,10 +184,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về vùng kinh tế và dịch vụ:",
       "statements": [
-        { "text": "Thành phố Hồ Chí Minh và Hà Nội là hai trung tâm kinh tế lớn nhất nước ta.", "answer": true },
-        { "text": "Giao thông đường biển có vai trò quan trọng trong vận chuyển hàng hóa xuất, nhập khẩu.", "answer": true },
-        { "text": "Du lịch là ngành dịch vụ đang được đẩy mạnh phát triển ở nước ta.", "answer": true },
-        { "text": "Trung du và miền núi Bắc Bộ là vùng trọng điểm sản xuất lúa gạo lớn nhất nước ta.", "answer": false }
+        {
+          "text": "Thành phố Hồ Chí Minh và Hà Nội là hai trung tâm kinh tế lớn nhất nước ta.",
+          "answer": true
+        },
+        {
+          "text": "Giao thông đường biển có vai trò quan trọng trong vận chuyển hàng hóa xuất, nhập khẩu.",
+          "answer": true
+        },
+        {
+          "text": "Du lịch là ngành dịch vụ đang được đẩy mạnh phát triển ở nước ta.",
+          "answer": true
+        },
+        {
+          "text": "Trung du và miền núi Bắc Bộ là vùng trọng điểm sản xuất lúa gạo lớn nhất nước ta.",
+          "answer": false
+        }
       ]
     },
     {
@@ -183,7 +207,9 @@
       "level": "NB",
       "question": "Vùng chuyên canh cây cà phê lớn nhất nước ta là ___",
       "answer": "Tây Nguyên",
-      "alternatives": ["tay nguyen"],
+      "alternatives": [
+        "tay nguyen"
+      ],
       "hint": "Tây Nguyên với đất badan là vùng trồng cà phê lớn nhất cả nước."
     },
     {
@@ -191,7 +217,11 @@
       "level": "TH",
       "question": "Trung tâm kinh tế, công nghiệp lớn nhất ở phía Nam nước ta là Thành phố ___",
       "answer": "Hồ Chí Minh",
-      "alternatives": ["ho chi minh", "Thành phố Hồ Chí Minh", "TP Hồ Chí Minh"],
+      "alternatives": [
+        "ho chi minh",
+        "Thành phố Hồ Chí Minh",
+        "TP Hồ Chí Minh"
+      ],
       "hint": "Thành phố Hồ Chí Minh là đầu tàu kinh tế của phía Nam và cả nước."
     },
     {
@@ -201,5 +231,6 @@
       "answer": true,
       "hint": "Phần lớn lượng gạo xuất khẩu của Việt Nam đến từ Đồng bằng sông Cửu Long."
     }
-  ]
+  ],
+  "examType": "practice"
 }

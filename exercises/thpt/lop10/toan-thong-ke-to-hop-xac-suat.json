@@ -174,10 +174,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về thống kê và đại số tổ hợp:",
       "statements": [
-        { "text": "Số trung bình cộng $\\bar{x}$ là tổng các giá trị chia cho số giá trị của mẫu.", "answer": true },
-        { "text": "$P_n = n!$ là số hoán vị của $n$ phần tử.", "answer": true },
-        { "text": "$C_n^k$ là số cách chọn $k$ phần tử có phân biệt thứ tự từ $n$ phần tử.", "answer": false },
-        { "text": "Mode của mẫu số liệu là giá trị có tần số xuất hiện cao nhất.", "answer": true }
+        {
+          "text": "Số trung bình cộng $\\bar{x}$ là tổng các giá trị chia cho số giá trị của mẫu.",
+          "answer": true
+        },
+        {
+          "text": "$P_n = n!$ là số hoán vị của $n$ phần tử.",
+          "answer": true
+        },
+        {
+          "text": "$C_n^k$ là số cách chọn $k$ phần tử có phân biệt thứ tự từ $n$ phần tử.",
+          "answer": false
+        },
+        {
+          "text": "Mode của mẫu số liệu là giá trị có tần số xuất hiện cao nhất.",
+          "answer": true
+        }
       ]
     },
     {
@@ -185,10 +197,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về xác suất:",
       "statements": [
-        { "text": "Xác suất của mọi biến cố luôn nằm trong đoạn $[0; 1]$.", "answer": true },
-        { "text": "Xác suất của biến cố CHẮC CHẮN bằng $1$.", "answer": true },
-        { "text": "Xác suất của biến cố KHÔNG THỂ bằng $1$.", "answer": false },
-        { "text": "Hai biến cố $A$ và $\\overline{A}$ (biến cố đối) thỏa mãn $P(A) + P(\\overline{A}) = 1$.", "answer": true }
+        {
+          "text": "Xác suất của mọi biến cố luôn nằm trong đoạn $[0; 1]$.",
+          "answer": true
+        },
+        {
+          "text": "Xác suất của biến cố CHẮC CHẮN bằng $1$.",
+          "answer": true
+        },
+        {
+          "text": "Xác suất của biến cố KHÔNG THỂ bằng $1$.",
+          "answer": false
+        },
+        {
+          "text": "Hai biến cố $A$ và $\\overline{A}$ (biến cố đối) thỏa mãn $P(A) + P(\\overline{A}) = 1$.",
+          "answer": true
+        }
       ]
     },
     {
@@ -212,5 +236,6 @@
       "answer": true,
       "hint": "$0 \\leq P(A) \\leq 1$ với mọi biến cố $A$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

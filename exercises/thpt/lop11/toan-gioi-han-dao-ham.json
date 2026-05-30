@@ -187,10 +187,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về giới hạn và hàm số liên tục:",
       "statements": [
-        { "text": "Nếu $\\displaystyle\\lim_{x \\to a} f(x)$ và $\\displaystyle\\lim_{x \\to a} g(x)$ đều tồn tại thì $\\displaystyle\\lim_{x \\to a}[f(x) + g(x)] = \\displaystyle\\lim_{x \\to a} f(x) + \\displaystyle\\lim_{x \\to a} g(x)$.", "answer": true },
-        { "text": "Mọi hàm đa thức đều liên tục trên $\\mathbb{R}$.", "answer": true },
-        { "text": "Hàm phân thức $\\dfrac{P(x)}{Q(x)}$ luôn liên tục trên toàn bộ $\\mathbb{R}$.", "answer": false },
-        { "text": "Nếu hàm số $f$ liên tục trên đoạn $[a; b]$ thì $f$ đạt giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó.", "answer": true }
+        {
+          "text": "Nếu $\\displaystyle\\lim_{x \\to a} f(x)$ và $\\displaystyle\\lim_{x \\to a} g(x)$ đều tồn tại thì $\\displaystyle\\lim_{x \\to a}[f(x) + g(x)] = \\displaystyle\\lim_{x \\to a} f(x) + \\displaystyle\\lim_{x \\to a} g(x)$.",
+          "answer": true
+        },
+        {
+          "text": "Mọi hàm đa thức đều liên tục trên $\\mathbb{R}$.",
+          "answer": true
+        },
+        {
+          "text": "Hàm phân thức $\\dfrac{P(x)}{Q(x)}$ luôn liên tục trên toàn bộ $\\mathbb{R}$.",
+          "answer": false
+        },
+        {
+          "text": "Nếu hàm số $f$ liên tục trên đoạn $[a; b]$ thì $f$ đạt giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó.",
+          "answer": true
+        }
       ]
     },
     {
@@ -198,10 +210,22 @@
       "level": "VD",
       "question": "Xét tính đúng/sai của các khẳng định sau về đạo hàm:",
       "statements": [
-        { "text": "Đạo hàm của một hàm hằng số bằng $0$.", "answer": true },
-        { "text": "$(x^n)' = nx^{n-1}$ với mọi $n \\in \\mathbb{N}^*$.", "answer": true },
-        { "text": "$(u + v)' = u' + v'$ (đạo hàm của tổng bằng tổng các đạo hàm).", "answer": true },
-        { "text": "Đạo hàm của hàm số $y = \\sin x$ là $-\\cos x$.", "answer": false }
+        {
+          "text": "Đạo hàm của một hàm hằng số bằng $0$.",
+          "answer": true
+        },
+        {
+          "text": "$(x^n)' = nx^{n-1}$ với mọi $n \\in \\mathbb{N}^*$.",
+          "answer": true
+        },
+        {
+          "text": "$(u + v)' = u' + v'$ (đạo hàm của tổng bằng tổng các đạo hàm).",
+          "answer": true
+        },
+        {
+          "text": "Đạo hàm của hàm số $y = \\sin x$ là $-\\cos x$.",
+          "answer": false
+        }
       ]
     },
     {
@@ -218,5 +242,6 @@
       "answer": "12",
       "hint": "$f'(x) = 3x^2 \\Rightarrow f'(2) = 3 \\cdot 4 = 12$."
     }
-  ]
+  ],
+  "examType": "practice"
 }

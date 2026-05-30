@@ -9,7 +9,12 @@
     {
       "type": "multiple-choice",
       "question": "Số 47 gồm mấy chục và mấy đơn vị?",
-      "options": ["4 chục và 7 đơn vị", "7 chục và 4 đơn vị", "47 chục", "4 đơn vị và 7 chục"],
+      "options": [
+        "4 chục và 7 đơn vị",
+        "7 chục và 4 đơn vị",
+        "47 chục",
+        "4 đơn vị và 7 chục"
+      ],
       "answer": 0,
       "level": "M1"
     },
@@ -34,7 +39,12 @@
     {
       "type": "multiple-choice",
       "question": "Số liền sau của 89 là số nào?",
-      "options": ["88", "90", "91", "99"],
+      "options": [
+        "88",
+        "90",
+        "91",
+        "99"
+      ],
       "answer": 1,
       "level": "M1",
       "hint": "Liền sau là thêm 1 đơn vị nhé!"
@@ -42,7 +52,12 @@
     {
       "type": "multiple-choice",
       "question": "Kim ngắn chỉ số 8, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?",
-      "options": ["7 giờ", "8 giờ", "12 giờ", "9 giờ"],
+      "options": [
+        "7 giờ",
+        "8 giờ",
+        "12 giờ",
+        "9 giờ"
+      ],
       "answer": 1,
       "level": "M1"
     },
@@ -67,7 +82,12 @@
     {
       "type": "multiple-choice",
       "question": "Điền dấu thích hợp vào chỗ trống: 45 ... 54",
-      "options": [">", "<", "=", "+"],
+      "options": [
+        ">",
+        "<",
+        "=",
+        "+"
+      ],
       "answer": 1,
       "level": "M2",
       "hint": "Số nào có chữ số hàng chục bé hơn thì bé hơn."
@@ -76,17 +96,34 @@
       "type": "matching",
       "question": "Nối phép tính với kết quả đúng",
       "pairs": [
-        ["32 + 5", "37"],
-        ["68 - 6", "62"],
-        ["20 + 40", "60"],
-        ["55 - 5", "50"]
+        [
+          "32 + 5",
+          "37"
+        ],
+        [
+          "68 - 6",
+          "62"
+        ],
+        [
+          "20 + 40",
+          "60"
+        ],
+        [
+          "55 - 5",
+          "50"
+        ]
       ],
       "level": "M2"
     },
     {
       "type": "multiple-choice",
       "question": "Cái bút dài 15 cm, cục tẩy dài 3 cm. Cái bút dài hơn cục tẩy bao nhiêu xăng-ti-mét?",
-      "options": ["12 cm", "18 cm", "13 cm", "11 cm"],
+      "options": [
+        "12 cm",
+        "18 cm",
+        "13 cm",
+        "11 cm"
+      ],
       "answer": 0,
       "level": "M2",
       "hint": "Dài hơn bao nhiêu thì làm phép trừ: 15 - 3."
@@ -94,7 +131,12 @@
     {
       "type": "multiple-choice",
       "question": "Sắp xếp các số 36, 63, 30 theo thứ tự từ bé đến lớn:",
-      "options": ["63, 36, 30", "30, 36, 63", "30, 63, 36", "36, 30, 63"],
+      "options": [
+        "63, 36, 30",
+        "30, 36, 63",
+        "30, 63, 36",
+        "36, 30, 63"
+      ],
       "answer": 1,
       "level": "M2"
     },
@@ -115,10 +157,16 @@
     {
       "type": "multiple-choice",
       "question": "Hộp thứ nhất có 40 cái kẹo, hộp thứ hai có 30 cái kẹo. Hỏi cả hai hộp có bao nhiêu cái kẹo?",
-      "options": ["10 cái", "70 cái", "43 cái", "60 cái"],
+      "options": [
+        "10 cái",
+        "70 cái",
+        "43 cái",
+        "60 cái"
+      ],
       "answer": 1,
       "level": "M3",
       "hint": "Cả hai hộp thì cộng lại: 40 + 30."
     }
-  ]
+  ],
+  "examType": "final2"
 }
