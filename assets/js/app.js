@@ -509,6 +509,19 @@ function renderAuth(view) {
           <p class="about-note" style="margin-top:10px"><a href="/huong-dan-cai-dat">📖 Hướng dẫn chi tiết: cách tắt trên Windows, macOS, Android, iPhone →</a></p>
         </div>
 
+        ${u.grade >= 6 ? `
+        <div class="auth-card pp-card">
+          <h2 style="margin-top:0">🎯 Ngày thi</h2>
+          <p class="about-note" style="margin-top:6px">Đặt ngày thi quan trọng (Chuyển cấp / Tốt nghiệp / ĐGNL...) để xem đếm ngược trên trang chủ. Chỉ bạn biết — không công khai.</p>
+          <div class="exam-row">
+            <label class="exam-label">Ngày thi:
+              <input type="date" id="opt-exam-date" value="${Progress.getExamDate() || ''}">
+            </label>
+            <button type="button" class="btn btn-secondary" id="opt-exam-clear">Xóa</button>
+          </div>
+          <div class="exam-msg" id="exam-msg"></div>
+        </div>` : ''}
+
         <div class="auth-card pp-card">
           <h2 style="margin-top:0">👨‍👩‍👧 Theo dõi của phụ huynh</h2>
           <p class="about-note" style="margin-top:6px">Đặt một <b>mã 6 chữ số</b> để bố mẹ xem được tiến trình học của con từ điện thoại của mình — vào <b>behocvui.id.vn/phu-huynh</b>, nhập biệt danh + mã. Phụ huynh <b>chỉ xem</b>, không sửa được gì.</p>
@@ -517,6 +530,22 @@ function renderAuth(view) {
       </div>`;
     view.querySelector('#logout-btn').onclick = () => { Auth.logout(); navTo('/'); };
     refreshPinCard(view);
+    // Ngày thi (chỉ ≥ lớp 6)
+    const examInput = view.querySelector('#opt-exam-date');
+    const examClear = view.querySelector('#opt-exam-clear');
+    const examMsg = view.querySelector('#exam-msg');
+    const updateExamMsg = () => {
+      const d = Progress.daysUntilExam();
+      if (d === null) { examMsg.textContent = ''; return; }
+      if (d < 0) examMsg.textContent = `🏁 Ngày thi đã qua ${-d} ngày trước.`;
+      else if (d === 0) examMsg.textContent = '🎯 Hôm nay là ngày thi — chúc bạn may mắn!';
+      else examMsg.textContent = `⏳ Còn ${d} ngày nữa đến ngày thi.`;
+    };
+    if (examInput) {
+      updateExamMsg();
+      examInput.onchange = () => { Progress.setExamDate(examInput.value); updateExamMsg(); };
+      examClear.onclick = () => { examInput.value = ''; Progress.setExamDate(''); updateExamMsg(); };
+    }
     // Cài đặt âm thanh / rung (toggle, lưu vào localStorage qua Media)
     const optSound = view.querySelector('#opt-sound');
     const optVib = view.querySelector('#opt-vibrate');
@@ -890,12 +919,20 @@ function renderDailyHomeSection() {
   const today = Progress.getTodayDaily().subjects || {};
   const streak = Progress.getStreak();
   const u = Auth.getUser();
+  const daysLeft = Progress.daysUntilExam ? Progress.daysUntilExam() : null;
+  // Hiển thị countdown khi: có ngày thi + còn ≤ 365 ngày + chưa qua quá 1 ngày
+  const showExam = daysLeft !== null && daysLeft >= -1 && daysLeft <= 365;
 
   const head = (grade, extra) => `
     <div class="daily-head">
       <h2>📅 Đề hôm nay <small>· Lớp ${grade}</small></h2>
       <div class="daily-meta">
         ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
+        ${showExam ? `<span class="exam-countdown ${daysLeft <= 7 ? 'urgent' : daysLeft <= 30 ? 'soon' : ''}" title="Đặt lại trong Tài khoản">${
+          daysLeft < 0 ? '🏁 Thi đã qua' :
+          daysLeft === 0 ? '🎯 Hôm nay thi!' :
+          `🎯 Thi còn ${daysLeft} ngày`
+        }</span>` : ''}
         <a href="/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
       </div>
     </div>${extra || ''}`;

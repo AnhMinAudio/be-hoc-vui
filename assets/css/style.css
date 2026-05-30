@@ -1016,6 +1016,48 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
   box-shadow: 0 2px 8px color-mix(in srgb, #FF7043 35%, transparent);
 }
 .wow-streak.tick { animation: pop-in .55s .35s cubic-bezier(0.18, 1.4, 0.5, 1) both; }
+
+/* === Countdown ngày thi (UX 4A.4) === */
+.exam-countdown {
+  font-weight: 800; font-size: .82rem;
+  padding: 5px 12px; border-radius: 999px;
+  background: color-mix(in srgb, var(--c-primary) 14%, var(--c-card));
+  color: var(--c-primary-dark);
+  border: 1px solid color-mix(in srgb, var(--c-primary) 30%, transparent);
+  white-space: nowrap;
+}
+.exam-countdown.soon {
+  background: color-mix(in srgb, #FFA726 18%, var(--c-card));
+  color: #E65100;
+  border-color: color-mix(in srgb, #FFA726 40%, transparent);
+}
+.exam-countdown.urgent {
+  background: linear-gradient(90deg, #FF7043, #EF5350);
+  color: #fff;
+  border-color: transparent;
+  animation: streak-pulse 1.6s ease-in-out infinite;
+}
+.exam-row {
+  display: flex; align-items: flex-end; gap: 10px;
+  flex-wrap: wrap; margin-top: 10px;
+}
+.exam-label {
+  display: flex; flex-direction: column; gap: 4px;
+  font-size: .9rem; font-weight: 600; color: var(--c-text-soft);
+  flex: 1; min-width: 180px;
+}
+.exam-label input[type=date] {
+  padding: 9px 12px; border-radius: 8px;
+  border: 1px solid var(--c-border); background: var(--c-card);
+  color: var(--c-text); font-family: inherit; font-size: .95rem;
+}
+.exam-msg {
+  margin-top: 10px; font-size: .9rem; color: var(--c-text-soft);
+  min-height: 1.3em;
+}
+@media (prefers-reduced-motion: reduce) {
+  .exam-countdown.urgent { animation: none; }
+}
 .wow-earn { color: var(--c-text-soft); margin: 10px 0 0; font-size: .95rem; }
 
 /* Vùng 2: phân tích theo mức độ */

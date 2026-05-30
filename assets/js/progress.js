@@ -222,6 +222,33 @@ const Progress = (() => {
     };
   }
 
+  // ===== Cài đặt cá nhân (lưu trong cùng kho progress) =====
+  function getSetting(key) {
+    const data = load();
+    return (data.settings || {})[key];
+  }
+  function setSetting(key, value) {
+    const data = load();
+    if (!data.settings) data.settings = {};
+    if (value == null || value === '') delete data.settings[key];
+    else data.settings[key] = value;
+    save(data);
+  }
+  // Ngày thi (YYYY-MM-DD). Trả null nếu chưa đặt hoặc đã qua.
+  function getExamDate() {
+    const v = getSetting('examDate');
+    if (!v) return null;
+    return v;
+  }
+  function setExamDate(dateStr) { setSetting('examDate', dateStr || ''); }
+  function daysUntilExam() {
+    const v = getExamDate(); if (!v) return null;
+    const exam = new Date(v + 'T00:00:00'); if (isNaN(exam)) return null;
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const diff = Math.round((exam - today) / 86400000);
+    return diff; // có thể âm nếu đã qua
+  }
+
   function reset() {
     localStorage.removeItem(activeKey);
   }
@@ -233,6 +260,7 @@ const Progress = (() => {
   return {
     load, save, addStars, markCompleted, getCompletion, getStars, getAvatar, setAvatar, getStats, reset,
     recordDaily, getDailyLog, getTodayDaily, getStreak, markStudyDay, getSubjectStats, last28Days, todayKey,
+    getSetting, setSetting, getExamDate, setExamDate, daysUntilExam,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
     setActiveKey, onSave, replaceAll,
