@@ -97,7 +97,7 @@ async function readBody(request) {
   try { return await request.json(); } catch { return {}; }
 }
 function emptyProgress() {
-  return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, speed: { questions: 0, timeMs: 0 } };
+  return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, studyDays: {}, settings: {}, stickers: {}, speed: { questions: 0, timeMs: 0 } };
 }
 
 async function getAccount(env, name) {
@@ -470,6 +470,21 @@ function mergeProgress(a, b) {
     sl[day] = Math.max((a.starLog || {})[day] || 0, (b.starLog || {})[day] || 0);
   }
   out.starLog = pruneStarLogSrv(sl, Date.now());
+
+  // studyDays: union ngày học liên tiếp — true thắng vắng mặt
+  out.studyDays = { ...(a.studyDays || {}), ...(b.studyDays || {}) };
+
+  // settings: union, client (b) thắng khi xung đột (vì client vừa edit & sync lên)
+  out.settings = { ...(a.settings || {}), ...(b.settings || {}) };
+
+  // stickers: union, GIỮ NGÀY SỚM hơn (sticker là vĩnh viễn, "ngày nhận đầu tiên")
+  const stickerKeys = new Set([...Object.keys(a.stickers || {}), ...Object.keys(b.stickers || {})]);
+  out.stickers = {};
+  for (const k of stickerKeys) {
+    const da = (a.stickers || {})[k], db = (b.stickers || {})[k];
+    if (da && db) out.stickers[k] = da < db ? da : db;
+    else out.stickers[k] = da || db;
+  }
 
   return out;
 }
