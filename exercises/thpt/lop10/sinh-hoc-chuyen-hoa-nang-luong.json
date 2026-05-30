@@ -1,0 +1,218 @@
+{
+  "id": "thpt-sinh-hoc-l10-chuyen-hoa-nang-luong",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 10,
+  "topic": "Chuyển hóa năng lượng trong tế bào: enzyme, hô hấp và quang hợp",
+  "chapter": "Chuyển hóa năng lượng 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Enzyme và vai trò xúc tác sinh học",
+    "ATP - đồng tiền năng lượng",
+    "Hô hấp tế bào",
+    "Quang hợp"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Enzyme là gì?",
+      "options": [
+        "Chất xúc tác sinh học, bản chất chủ yếu là protein, làm tăng tốc độ phản ứng trong tế bào",
+        "Một loại muối khoáng",
+        "Một loại lipid",
+        "Một loại carbohydrate cung cấp năng lượng"
+      ],
+      "answer": 0,
+      "hint": "Enzyme = xúc tác sinh học, hầu hết là protein (một số ít là ribozyme - RNA)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đặc điểm nào sau đây ĐÚNG về enzyme?",
+      "options": [
+        "Có tính đặc hiệu cao (mỗi enzyme thường chỉ xúc tác một loại phản ứng hoặc một nhóm phản ứng nhất định)",
+        "Không có tính đặc hiệu",
+        "Bị tiêu hao sau khi phản ứng hoàn thành",
+        "Chỉ hoạt động ở nhiệt độ rất cao"
+      ],
+      "answer": 0,
+      "hint": "Enzyme có tính đặc hiệu cao: cơ chất phù hợp \"như chìa khóa khớp ổ khóa\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hoạt động của enzyme phụ thuộc vào các yếu tố nào sau đây?",
+      "options": [
+        "Nhiệt độ, pH, nồng độ cơ chất, nồng độ enzyme",
+        "Chỉ phụ thuộc vào màu sắc cơ chất",
+        "Hoàn toàn không phụ thuộc môi trường",
+        "Chỉ phụ thuộc vào ánh sáng"
+      ],
+      "answer": 0,
+      "hint": "Mỗi enzyme có nhiệt độ và pH tối ưu; nồng độ cơ chất, enzyme cũng ảnh hưởng tốc độ phản ứng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "ATP (adenosine triphosphate) có vai trò chính trong tế bào là:",
+      "options": [
+        "Là \"đồng tiền năng lượng\" — chất mang năng lượng được sử dụng trực tiếp cho hầu hết các hoạt động sống",
+        "Lưu trữ thông tin di truyền",
+        "Cấu tạo nên màng sinh chất",
+        "Là chất xúc tác sinh học"
+      ],
+      "answer": 0,
+      "hint": "ATP là dạng năng lượng có thể sử dụng ngay; được hình thành chủ yếu từ hô hấp tế bào."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quá trình HÔ HẤP TẾ BÀO là gì?",
+      "options": [
+        "Quá trình phân giải chất hữu cơ (glucose) thành $CO_2$ và $H_2O$, đồng thời giải phóng năng lượng và tổng hợp ATP",
+        "Quá trình tổng hợp chất hữu cơ từ $CO_2$ và $H_2O$",
+        "Sự hô hấp ngoài (hít thở)",
+        "Quá trình tiêu hóa thức ăn ở miệng"
+      ],
+      "answer": 0,
+      "hint": "Hô hấp tế bào: oxi hóa chất hữu cơ → giải phóng năng lượng → tổng hợp ATP."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phương trình tổng quát của hô hấp tế bào (hiếu khí) là:",
+      "options": [
+        "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{năng lượng (ATP + nhiệt)}$",
+        "$6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2$",
+        "$N_2 + 3H_2 \\rightarrow 2NH_3$",
+        "$2H_2 + O_2 \\rightarrow 2H_2O$"
+      ],
+      "answer": 0,
+      "hint": "Hô hấp tế bào là quá trình ngược với quang hợp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bào quan nào trong tế bào nhân thực là nơi diễn ra hô hấp tế bào (giai đoạn chính tổng hợp ATP)?",
+      "options": [
+        "Ti thể",
+        "Lục lạp",
+        "Ribosome",
+        "Nhân tế bào"
+      ],
+      "answer": 0,
+      "hint": "Ti thể được ví là \"nhà máy năng lượng\" — nơi tổng hợp phần lớn ATP."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "QUANG HỢP là quá trình:",
+      "options": [
+        "Tổng hợp chất hữu cơ (glucose) từ $CO_2$ và $H_2O$ nhờ năng lượng ánh sáng, có sự tham gia của diệp lục",
+        "Phân giải chất hữu cơ thành $CO_2$ và $H_2O$",
+        "Sự hít thở của thực vật",
+        "Sự bốc hơi nước ở lá"
+      ],
+      "answer": 0,
+      "hint": "Quang hợp = tổng hợp chất hữu cơ; cần ánh sáng, $CO_2$, $H_2O$ và diệp lục."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phương trình tổng quát của quang hợp là:",
+      "options": [
+        "$6CO_2 + 6H_2O \\xrightarrow{\\text{ánh sáng, diệp lục}} C_6H_{12}O_6 + 6O_2$",
+        "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$",
+        "$N_2 + 3H_2 \\rightarrow 2NH_3$",
+        "$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$"
+      ],
+      "answer": 0,
+      "hint": "Quang hợp: $CO_2 + H_2O$ → đường + $O_2$ (cần ánh sáng + diệp lục)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quang hợp có vai trò quan trọng trong sinh quyển vì:",
+      "options": [
+        "Tạo ra chất hữu cơ là thức ăn cho hầu hết các sinh vật; tạo ra $O_2$; điều hòa khí $CO_2$ trong khí quyển",
+        "Chỉ tạo ra muối khoáng",
+        "Chỉ làm nóng Trái Đất",
+        "Không có vai trò gì quan trọng"
+      ],
+      "answer": 0,
+      "hint": "Quang hợp là nguồn cung cấp chất hữu cơ và $O_2$ chủ yếu cho sinh quyển."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tại sao nói \"không có quang hợp, sự sống trên Trái Đất khó tồn tại\"?",
+      "options": [
+        "Quang hợp tạo ra chất hữu cơ và khí $O_2$ — nền tảng cho mọi chuỗi thức ăn và quá trình hô hấp",
+        "Quang hợp tạo ra điện cho thiết bị điện tử",
+        "Quang hợp tạo ra nhiên liệu hóa thạch ngay lập tức",
+        "Quang hợp không liên quan đến sự sống"
+      ],
+      "answer": 0,
+      "hint": "Quang hợp là nguồn cung cấp năng lượng và chất hữu cơ cho gần như toàn bộ sinh giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tại sao khi nhiệt độ quá cao, enzyme có thể mất hoạt tính?",
+      "options": [
+        "Vì nhiệt độ cao làm biến tính cấu trúc protein của enzyme, làm thay đổi vùng hoạt động (active site)",
+        "Vì nhiệt độ cao làm enzyme bị tan ra",
+        "Vì nhiệt độ cao làm enzyme bay hơi",
+        "Enzyme không bị ảnh hưởng bởi nhiệt độ"
+      ],
+      "answer": 0,
+      "hint": "Nhiệt độ cao làm protein bị biến tính → enzyme mất cấu trúc 3D đặc trưng → không còn xúc tác được."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về enzyme và ATP:",
+      "statements": [
+        { "text": "Enzyme là chất xúc tác sinh học, bản chất chủ yếu là protein.", "answer": true },
+        { "text": "Enzyme có tính đặc hiệu cao đối với cơ chất.", "answer": true },
+        { "text": "ATP là phân tử mang năng lượng được sử dụng trực tiếp cho hầu hết hoạt động sống của tế bào.", "answer": true },
+        { "text": "Enzyme hoạt động tốt nhất ở mọi nhiệt độ và pH bất kì.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hô hấp tế bào và quang hợp:",
+      "statements": [
+        { "text": "Hô hấp tế bào phân giải chất hữu cơ, giải phóng năng lượng và tổng hợp ATP.", "answer": true },
+        { "text": "Quang hợp tổng hợp chất hữu cơ từ $CO_2$ và $H_2O$, đồng thời giải phóng $O_2$.", "answer": true },
+        { "text": "Ti thể là nơi diễn ra hô hấp tế bào; lục lạp là nơi diễn ra quang hợp.", "answer": true },
+        { "text": "Quang hợp và hô hấp tế bào là cùng một quá trình.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Phân tử mang năng lượng được sử dụng trực tiếp trong tế bào là ___",
+      "answer": "ATP",
+      "alternatives": ["atp"],
+      "hint": "ATP (adenosine triphosphate) là \"đồng tiền năng lượng\" của tế bào."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Bào quan diễn ra hô hấp tế bào và tổng hợp ATP chủ yếu trong tế bào nhân thực là ___",
+      "answer": "ti thể",
+      "alternatives": ["ti the", "Ti thể"],
+      "hint": "Ti thể được ví là \"nhà máy năng lượng\" của tế bào."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Enzyme là chất xúc tác sinh học, có vai trò làm tăng tốc độ phản ứng nhưng KHÔNG bị tiêu hao trong phản ứng.",
+      "answer": true,
+      "hint": "Đặc trưng cơ bản của chất xúc tác: không bị tiêu hao."
+    }
+  ]
+}

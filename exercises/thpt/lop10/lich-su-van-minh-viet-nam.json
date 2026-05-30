@@ -1,0 +1,218 @@
+{
+  "id": "thpt-lich-su-l10-van-minh-viet-nam",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 10,
+  "topic": "Các nền văn minh trên đất nước Việt Nam (Văn Lang - Âu Lạc - Champa - Phù Nam - Đại Việt)",
+  "chapter": "Văn minh Việt Nam 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Văn minh Văn Lang - Âu Lạc",
+    "Văn minh Champa và Phù Nam",
+    "Văn minh Đại Việt: các triều đại lớn",
+    "Thành tựu tiêu biểu của văn minh Đại Việt"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhà nước đầu tiên trong lịch sử Việt Nam là:",
+      "options": [
+        "Văn Lang (do các vua Hùng đứng đầu, hình thành khoảng thế kỉ VII TCN)",
+        "Âu Lạc",
+        "Champa",
+        "Đại Việt"
+      ],
+      "answer": 0,
+      "hint": "Văn Lang ra đời sớm nhất trên lãnh thổ Việt Nam ngày nay."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "An Dương Vương Thục Phán sáng lập nhà nước Âu Lạc, đóng đô ở:",
+      "options": [
+        "Thành Cổ Loa (Đông Anh, Hà Nội ngày nay)",
+        "Hoa Lư (Ninh Bình)",
+        "Phong Châu (Phú Thọ)",
+        "Thăng Long (Hà Nội)"
+      ],
+      "answer": 0,
+      "hint": "An Dương Vương xây thành Cổ Loa làm kinh đô."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Văn minh Champa phát triển chủ yếu ở khu vực nào của Việt Nam ngày nay?",
+      "options": [
+        "Miền Trung",
+        "Đồng bằng Bắc Bộ",
+        "Tây Bắc",
+        "Đồng bằng sông Cửu Long"
+      ],
+      "answer": 0,
+      "hint": "Champa nằm dọc dải đất Trung Bộ Việt Nam, từ Quảng Bình đến Bình Thuận."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Văn minh Phù Nam (thế kỉ I - VII) phát triển ở khu vực nào của Việt Nam ngày nay?",
+      "options": [
+        "Đồng bằng sông Cửu Long và một phần Đông Nam Bộ",
+        "Đồng bằng Bắc Bộ",
+        "Trung du và miền núi Bắc Bộ",
+        "Tây Nguyên"
+      ],
+      "answer": 0,
+      "hint": "Phù Nam là vương quốc cổ ở vùng đồng bằng sông Cửu Long và lân cận, đã được phát hiện qua khu di tích Óc Eo (An Giang)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Văn minh Đại Việt (từ thế kỉ X) hình thành và phát triển gắn liền với các triều đại nào?",
+      "options": [
+        "Ngô, Đinh, Tiền Lê, Lý, Trần, Hồ, Lê sơ, Mạc, Tây Sơn, Nguyễn (giai đoạn đầu)",
+        "Chỉ duy nhất triều Nguyễn",
+        "Chỉ thời Bắc thuộc",
+        "Các vua Hùng và An Dương Vương"
+      ],
+      "answer": 0,
+      "hint": "Văn minh Đại Việt trải qua nhiều triều đại từ thế kỉ X đến XIX."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bộ luật \"Quốc triều hình luật\" (Luật Hồng Đức) là thành tựu pháp luật nổi bật của triều đại nào?",
+      "options": [
+        "Triều Lê sơ (đặc biệt thời vua Lê Thánh Tông)",
+        "Triều Nguyễn",
+        "Triều Lý",
+        "Triều Trần"
+      ],
+      "answer": 0,
+      "hint": "Luật Hồng Đức được biên soạn dưới triều Lê sơ (niên hiệu Hồng Đức của vua Lê Thánh Tông)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bộ luật \"Hoàng Việt luật lệ\" (Luật Gia Long) được ban hành dưới triều đại nào?",
+      "options": [
+        "Triều Nguyễn (đầu thế kỉ XIX)",
+        "Triều Lê sơ",
+        "Triều Lý",
+        "Triều Trần"
+      ],
+      "answer": 0,
+      "hint": "Luật Gia Long ban hành thời vua Gia Long (triều Nguyễn)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quốc Tử Giám — trường học lớn nhất của Đại Việt thời trung đại — được thành lập tại đâu?",
+      "options": [
+        "Thăng Long (Hà Nội), năm 1076 dưới triều Lý",
+        "Hoa Lư (Ninh Bình), triều Đinh",
+        "Cố đô Huế, triều Nguyễn",
+        "Cổ Loa, thời An Dương Vương"
+      ],
+      "answer": 0,
+      "hint": "Quốc Tử Giám lập năm 1076 tại Thăng Long, đào tạo nhân tài cho đất nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chữ Nôm là loại chữ viết do người Việt sáng tạo dựa trên cơ sở của:",
+      "options": [
+        "Chữ Hán",
+        "Chữ Phạn",
+        "Chữ Latin",
+        "Chữ Hy Lạp"
+      ],
+      "answer": 0,
+      "hint": "Chữ Nôm là sáng tạo độc đáo của người Việt từ chữ Hán để ghi âm tiếng Việt."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Văn miếu Quốc Tử Giám ở Hà Nội ngày nay vẫn còn các tấm bia đá ghi danh các vị Tiến sĩ thời:",
+      "options": [
+        "Triều Lê sơ và triều Mạc (thời trung đại)",
+        "Triều Nguyễn (thế kỉ XIX)",
+        "Thời Bắc thuộc",
+        "Thời các vua Hùng"
+      ],
+      "answer": 0,
+      "hint": "Các tấm bia Tiến sĩ tại Văn miếu chủ yếu khắc tên các Tiến sĩ triều Lê sơ và Mạc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tác phẩm \"Đại cáo bình Ngô\" (Bình Ngô đại cáo) do ai soạn thảo và có ý nghĩa lịch sử như thế nào?",
+      "options": [
+        "Do Nguyễn Trãi soạn (1428), được coi là bản \"tuyên ngôn độc lập\" của Đại Việt sau khi đánh thắng quân Minh",
+        "Do Lý Thường Kiệt soạn, tuyên ngôn độc lập thời chống Tống",
+        "Do Trần Quốc Tuấn soạn, kêu gọi tướng sĩ chống quân Mông - Nguyên",
+        "Do Quang Trung soạn, tuyên cáo đánh quân Thanh"
+      ],
+      "answer": 0,
+      "hint": "Nguyễn Trãi soạn Đại cáo bình Ngô năm 1428 sau thắng lợi của khởi nghĩa Lam Sơn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Đặc trưng nổi bật của văn minh Đại Việt là:",
+      "options": [
+        "Tiếp thu có chọn lọc văn hóa bên ngoài (Trung Hoa, Ấn Độ...), kết hợp với truyền thống bản địa để hình thành bản sắc riêng",
+        "Hoàn toàn sao chép văn hóa Trung Quốc, không có nét riêng",
+        "Bài trừ tất cả ảnh hưởng văn hóa bên ngoài",
+        "Không có thành tựu văn hóa đáng kể"
+      ],
+      "answer": 0,
+      "hint": "Văn minh Đại Việt là sự kết hợp giữa tiếp thu có chọn lọc bên ngoài và truyền thống bản địa, tạo nên bản sắc riêng."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các nền văn minh trên đất nước Việt Nam:",
+      "statements": [
+        { "text": "Văn Lang là nhà nước đầu tiên trong lịch sử Việt Nam, do các vua Hùng đứng đầu.", "answer": true },
+        { "text": "An Dương Vương Thục Phán sáng lập Âu Lạc và xây thành Cổ Loa.", "answer": true },
+        { "text": "Văn minh Champa phát triển chủ yếu ở miền Trung Việt Nam.", "answer": true },
+        { "text": "Văn minh Phù Nam phát triển ở vùng đồng bằng Bắc Bộ.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về văn minh Đại Việt:",
+      "statements": [
+        { "text": "Bộ luật \"Quốc triều hình luật\" (Luật Hồng Đức) là thành tựu pháp luật nổi bật thời Lê sơ.", "answer": true },
+        { "text": "Quốc Tử Giám được lập tại Thăng Long năm 1076, là trường học lớn của Đại Việt.", "answer": true },
+        { "text": "Chữ Nôm là sáng tạo của người Việt, dựa trên cơ sở chữ Hán để ghi âm tiếng Việt.", "answer": true },
+        { "text": "Văn minh Đại Việt hoàn toàn sao chép văn hóa Trung Quốc, không có bản sắc riêng.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "An Dương Vương Thục Phán đóng đô và xây thành ___ ở vị trí Đông Anh (Hà Nội) ngày nay.",
+      "answer": "Cổ Loa",
+      "alternatives": ["co loa"],
+      "hint": "Thành Cổ Loa là kinh đô của Âu Lạc."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "\"Đại cáo bình Ngô\" do ___ soạn thảo năm 1428 sau thắng lợi của khởi nghĩa Lam Sơn.",
+      "answer": "Nguyễn Trãi",
+      "alternatives": ["nguyen trai"],
+      "hint": "Nguyễn Trãi là tác giả \"Đại cáo bình Ngô\" — bản tuyên ngôn độc lập của Đại Việt."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Quốc Tử Giám là trường học lớn nhất của Đại Việt, được lập tại Thăng Long năm 1076 dưới triều Lý.",
+      "answer": true,
+      "hint": "Quốc Tử Giám là minh chứng cho truyền thống hiếu học của dân tộc Việt Nam."
+    }
+  ]
+}

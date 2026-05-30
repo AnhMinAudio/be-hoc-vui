@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:17:25.120Z",
+  "generatedAt": "2026-05-30T01:29:38.909Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -392,6 +392,42 @@
       "path": "mam-non/age5/dem-so-3.json"
     },
     {
+      "id": "thpt-dia-li-l10-kinh-te-xa-hoi",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 10,
+      "topic": "Địa lí dân cư và các ngành kinh tế",
+      "chapter": "Địa lí kinh tế - xã hội 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Quy mô và cơ cấu dân số",
+        "Đô thị hóa",
+        "Các ngành nông - lâm - thủy sản",
+        "Công nghiệp và dịch vụ"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/dia-li-kinh-te-xa-hoi.json"
+    },
+    {
+      "id": "thpt-dia-li-l10-tu-nhien",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 10,
+      "topic": "Địa lí tự nhiên: Trái Đất, các lớp vỏ và các quy luật địa lí",
+      "chapter": "Địa lí tự nhiên 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Trái Đất - cấu trúc nội tại - thạch quyển",
+        "Khí quyển và các tầng",
+        "Thủy quyển - dòng chảy biển - hoàn lưu",
+        "Sinh quyển và một số quy luật địa lí"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/dia-li-tu-nhien.json"
+    },
+    {
       "id": "thpt-dia-li-l10-on-tap",
       "stage": "thpt",
       "subject": "dia-li",
@@ -558,6 +594,42 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age5/do-vat.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l10-phap-luat",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 10,
+      "topic": "Hệ thống chính trị, pháp luật và Hiến pháp Việt Nam",
+      "chapter": "Pháp luật 10",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Hệ thống chính trị Việt Nam",
+        "Đặc điểm và vai trò của pháp luật",
+        "Hiến pháp - luật cơ bản",
+        "Quyền và nghĩa vụ cơ bản của công dân"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/gdkt-pl-phap-luat.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l10-kinh-te",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 10,
+      "topic": "Nền kinh tế và các chủ thể, thị trường, ngân sách và thuế",
+      "chapter": "Kinh tế 10",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Nền kinh tế - các chủ thể kinh tế",
+        "Thị trường - giá cả - cung cầu",
+        "Ngân sách nhà nước và thuế",
+        "Tín dụng - lập kế hoạch tài chính cá nhân"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/gdkt-pl-kinh-te.json"
     },
     {
       "id": "thpt-gdkt-pl-l10-on-tap",
@@ -768,6 +840,42 @@
       "path": "mam-non/age5/hinh-khoi-2.json"
     },
     {
+      "id": "thpt-hoa-hoc-l10-nguyen-tu-bth",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 10,
+      "topic": "Cấu tạo nguyên tử và Bảng tuần hoàn",
+      "chapter": "Cấu tạo nguyên tử & BTH 10",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Thành phần hạt nhân, số khối, đồng vị",
+        "Cấu hình electron và ô nguyên tố",
+        "Cấu tạo bảng tuần hoàn (chu kì, nhóm)",
+        "Biến thiên tuần hoàn tính chất"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/hoa-hoc-nguyen-tu-bth.json"
+    },
+    {
+      "id": "thpt-hoa-hoc-l10-lien-ket-oxi-hoa-khu",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 10,
+      "topic": "Liên kết hóa học, phản ứng oxi hóa - khử và Halogen",
+      "chapter": "Liên kết - Oxi hóa-khử - Halogen 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Liên kết ion - Liên kết cộng hóa trị",
+        "Số oxi hóa và phản ứng oxi hóa - khử",
+        "Cân bằng phương trình oxi hóa - khử",
+        "Nguyên tố nhóm halogen"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/hoa-hoc-lien-ket-oxi-hoa-khu.json"
+    },
+    {
       "id": "thpt-hoa-hoc-l10-on-tap",
       "stage": "thpt",
       "subject": "hoa-hoc",
@@ -857,6 +965,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/hoa-hoc.json"
+    },
+    {
+      "id": "thpt-lich-su-l10-van-minh-the-gioi",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 10,
+      "topic": "Các nền văn minh thế giới thời cổ - trung đại",
+      "chapter": "Văn minh thế giới 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Văn minh Ai Cập và Lưỡng Hà cổ đại",
+        "Văn minh Hy Lạp và La Mã cổ đại",
+        "Văn minh Ấn Độ và Trung Hoa",
+        "Thành tựu tiêu biểu của các nền văn minh"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/lich-su-van-minh-the-gioi.json"
+    },
+    {
+      "id": "thpt-lich-su-l10-van-minh-viet-nam",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 10,
+      "topic": "Các nền văn minh trên đất nước Việt Nam (Văn Lang - Âu Lạc - Champa - Phù Nam - Đại Việt)",
+      "chapter": "Văn minh Việt Nam 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Văn minh Văn Lang - Âu Lạc",
+        "Văn minh Champa và Phù Nam",
+        "Văn minh Đại Việt: các triều đại lớn",
+        "Thành tựu tiêu biểu của văn minh Đại Việt"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/lich-su-van-minh-viet-nam.json"
     },
     {
       "id": "thpt-lich-su-l10-on-tap",
@@ -1473,6 +1617,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/ngu-van-truyen-ngan-hien-dai.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l10-te-bao-cau-truc",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 10,
+      "topic": "Cấu trúc tế bào nhân sơ và tế bào nhân thực",
+      "chapter": "Sinh học tế bào 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Tế bào nhân sơ - cấu trúc và đặc điểm",
+        "Tế bào nhân thực - các bào quan chính",
+        "Màng sinh chất và vận chuyển qua màng",
+        "Chức năng của các bào quan"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/sinh-hoc-te-bao-cau-truc.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l10-chuyen-hoa-nang-luong",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 10,
+      "topic": "Chuyển hóa năng lượng trong tế bào: enzyme, hô hấp và quang hợp",
+      "chapter": "Chuyển hóa năng lượng 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Enzyme và vai trò xúc tác sinh học",
+        "ATP - đồng tiền năng lượng",
+        "Hô hấp tế bào",
+        "Quang hợp"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/sinh-hoc-chuyen-hoa-nang-luong.json"
     },
     {
       "id": "thpt-sinh-hoc-l10-on-tap",
@@ -4513,6 +4693,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/toan-tich-phan-ung-dung.json"
+    },
+    {
+      "id": "thpt-vat-li-l10-newton-nang-luong",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 10,
+      "topic": "Ba định luật Newton, công - năng lượng và động lượng",
+      "chapter": "Động lực học - Năng lượng 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Ba định luật Newton - Lực và phản lực",
+        "Công - Công suất",
+        "Động năng - Thế năng - Bảo toàn cơ năng",
+        "Động lượng - Bảo toàn động lượng"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/vat-li-newton-nang-luong.json"
+    },
+    {
+      "id": "thpt-vat-li-l10-dong-hoc",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 10,
+      "topic": "Động học chất điểm",
+      "chapter": "Động học 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Chuyển động thẳng đều - Vận tốc trung bình",
+        "Chuyển động thẳng biến đổi đều - Gia tốc",
+        "Phương trình chuyển động và đồ thị",
+        "Rơi tự do"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/vat-li-dong-hoc.json"
     },
     {
       "id": "thpt-vat-li-l10-on-tap",

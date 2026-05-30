@@ -1,0 +1,218 @@
+{
+  "id": "thpt-dia-li-l10-tu-nhien",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 10,
+  "topic": "Địa lí tự nhiên: Trái Đất, các lớp vỏ và các quy luật địa lí",
+  "chapter": "Địa lí tự nhiên 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Trái Đất - cấu trúc nội tại - thạch quyển",
+    "Khí quyển và các tầng",
+    "Thủy quyển - dòng chảy biển - hoàn lưu",
+    "Sinh quyển và một số quy luật địa lí"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cấu trúc bên trong của Trái Đất gồm các lớp chính (từ ngoài vào trong) là:",
+      "options": [
+        "Vỏ Trái Đất, manti, nhân",
+        "Nhân, manti, vỏ Trái Đất",
+        "Khí quyển, thủy quyển, thạch quyển",
+        "Lớp đá vôi, lớp đất sét, lớp cát"
+      ],
+      "answer": 0,
+      "hint": "Từ ngoài vào trong: vỏ (crust) → manti (mantle) → nhân (core)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "NỘI LỰC là lực sinh ra ở đâu và biểu hiện qua những hiện tượng gì?",
+      "options": [
+        "Sinh ra trong lòng Trái Đất, biểu hiện qua vận động kiến tạo, động đất, núi lửa",
+        "Sinh ra ngoài Trái Đất (từ Mặt Trời) - phong hóa, xâm thực",
+        "Sinh ra bởi con người - xây dựng, khai thác",
+        "Sinh ra bởi gió và mưa"
+      ],
+      "answer": 0,
+      "hint": "Nội lực: bên trong Trái Đất; biểu hiện qua kiến tạo mảng, động đất, núi lửa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "NGOẠI LỰC là lực sinh ra do nguồn năng lượng nào và biểu hiện qua những quá trình gì?",
+      "options": [
+        "Năng lượng Mặt Trời (chủ yếu); biểu hiện qua phong hóa, xâm thực, vận chuyển, bồi tụ",
+        "Năng lượng từ nhân Trái Đất; biểu hiện qua động đất, núi lửa",
+        "Năng lượng hạt nhân; biểu hiện qua chuyển động của các mảng",
+        "Năng lượng hóa thạch; biểu hiện qua nông nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Ngoại lực do năng lượng Mặt Trời; phong hóa - xâm thực - bồi tụ là biểu hiện chính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khí quyển Trái Đất, theo chiều từ thấp lên cao, gồm các tầng:",
+      "options": [
+        "Đối lưu, bình lưu, giữa, ion (nhiệt), ngoài",
+        "Bình lưu, đối lưu, ngoài",
+        "Ngoài, ion, đối lưu",
+        "Đối lưu duy nhất, không có tầng khác"
+      ],
+      "answer": 0,
+      "hint": "Theo độ cao: đối lưu (0-12 km) → bình lưu → giữa → nhiệt/ion → ngoài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tầng nào của khí quyển diễn ra các hiện tượng thời tiết (mây, mưa, gió...)?",
+      "options": [
+        "Tầng đối lưu",
+        "Tầng bình lưu",
+        "Tầng ion",
+        "Tầng ngoài"
+      ],
+      "answer": 0,
+      "hint": "Tầng đối lưu nằm sát mặt đất, là nơi diễn ra phần lớn hiện tượng thời tiết."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tầng OZONE quan trọng vì:",
+      "options": [
+        "Hấp thụ phần lớn tia tử ngoại từ Mặt Trời, bảo vệ sự sống trên Trái Đất",
+        "Cung cấp oxygen cho con người hít thở",
+        "Là nơi máy bay thường bay",
+        "Không có vai trò gì đặc biệt"
+      ],
+      "answer": 0,
+      "hint": "Tầng ozone nằm trong tầng bình lưu, hấp thụ tia UV nguy hiểm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "THỦY QUYỂN bao gồm:",
+      "options": [
+        "Toàn bộ nước trên Trái Đất: nước trong đại dương, sông, hồ, băng tuyết, nước ngầm, hơi nước trong khí quyển",
+        "Chỉ nước trong các đại dương",
+        "Chỉ băng tuyết ở hai cực",
+        "Chỉ nước ở trên mặt đất, không gồm hơi nước"
+      ],
+      "answer": 0,
+      "hint": "Thủy quyển = toàn bộ nước, chủ yếu (97%) là nước biển và đại dương."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Gió TÍN PHONG (gió Mậu dịch) là gió thổi:",
+      "options": [
+        "Quanh năm từ khu áp cao chí tuyến về phía áp thấp Xích đạo",
+        "Từ Xích đạo về hai cực",
+        "Từ vùng cực về Xích đạo",
+        "Theo hướng đông - tây ở mọi vĩ độ"
+      ],
+      "answer": 0,
+      "hint": "Tín phong: từ áp cao chí tuyến thổi về áp thấp Xích đạo."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "SINH QUYỂN là gì?",
+      "options": [
+        "Toàn bộ sinh vật sống trên Trái Đất cùng với môi trường sống của chúng (đất, nước, không khí)",
+        "Chỉ các loài thực vật trên cạn",
+        "Chỉ các loài động vật biển",
+        "Chỉ vi sinh vật"
+      ],
+      "answer": 0,
+      "hint": "Sinh quyển = nơi có sự sống trên Trái Đất + môi trường sống của chúng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo quy luật phân bố nhiệt độ trên Trái Đất, nhiệt độ trung bình năm có xu hướng:",
+      "options": [
+        "Giảm dần từ Xích đạo về hai cực",
+        "Tăng dần từ Xích đạo về hai cực",
+        "Đồng đều ở mọi vĩ độ",
+        "Cao nhất ở hai cực"
+      ],
+      "answer": 0,
+      "hint": "Càng xa Xích đạo, góc chiếu sáng nhỏ → nhiệt độ trung bình thấp hơn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Hiện tượng nào sau đây là biểu hiện của NỘI LỰC?",
+      "options": [
+        "Động đất, núi lửa, sự dịch chuyển của các mảng kiến tạo",
+        "Sông bồi tụ phù sa ở hạ lưu",
+        "Đá bị phong hóa do nhiệt độ và nước",
+        "Đất xói mòn do mưa lũ"
+      ],
+      "answer": 0,
+      "hint": "Nội lực sinh ra trong lòng Trái Đất: kiến tạo, động đất, núi lửa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Hiện tượng nào sau đây là biểu hiện của NGOẠI LỰC?",
+      "options": [
+        "Đá granite bị phong hóa thành cát, đất bị xói mòn do mưa, sông bồi tụ tạo đồng bằng",
+        "Núi lửa phun trào",
+        "Động đất",
+        "Mảng kiến tạo di chuyển"
+      ],
+      "answer": 0,
+      "hint": "Ngoại lực: phong hóa - xâm thực - vận chuyển - bồi tụ."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Trái Đất và thạch quyển:",
+      "statements": [
+        { "text": "Cấu trúc bên trong Trái Đất từ ngoài vào trong gồm: vỏ, manti, nhân.", "answer": true },
+        { "text": "Nội lực sinh ra trong lòng Trái Đất, biểu hiện qua kiến tạo, động đất, núi lửa.", "answer": true },
+        { "text": "Ngoại lực sinh ra do năng lượng Mặt Trời, biểu hiện qua phong hóa, xâm thực, bồi tụ.", "answer": true },
+        { "text": "Nội lực và ngoại lực có cùng nguồn gốc và biểu hiện giống nhau.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về khí quyển, thủy quyển và sinh quyển:",
+      "statements": [
+        { "text": "Tầng đối lưu là tầng nằm sát mặt đất, nơi diễn ra phần lớn hiện tượng thời tiết.", "answer": true },
+        { "text": "Tầng ozone (trong tầng bình lưu) hấp thụ phần lớn tia tử ngoại từ Mặt Trời, bảo vệ sự sống.", "answer": true },
+        { "text": "Phần lớn nước trên Trái Đất nằm trong các đại dương.", "answer": true },
+        { "text": "Sinh quyển chỉ bao gồm động vật, không bao gồm thực vật.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tầng khí quyển nơi diễn ra các hiện tượng thời tiết chủ yếu là tầng ___",
+      "answer": "đối lưu",
+      "alternatives": ["doi luu", "tầng đối lưu"],
+      "hint": "Đối lưu là tầng thấp nhất của khí quyển, độ cao 0-12 km."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Theo quy luật, nhiệt độ trung bình năm trên Trái Đất giảm dần từ Xích đạo về hai ___",
+      "answer": "cực",
+      "alternatives": ["cuc"],
+      "hint": "Càng xa Xích đạo càng lạnh hơn."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Sinh quyển là toàn bộ sinh vật sống trên Trái Đất cùng với môi trường sống của chúng.",
+      "answer": true,
+      "hint": "Sinh quyển = nơi có sự sống tồn tại."
+    }
+  ]
+}

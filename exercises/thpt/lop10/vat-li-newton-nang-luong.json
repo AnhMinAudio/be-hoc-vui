@@ -1,0 +1,222 @@
+{
+  "id": "thpt-vat-li-l10-newton-nang-luong",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 10,
+  "topic": "Ba định luật Newton, công - năng lượng và động lượng",
+  "chapter": "Động lực học - Năng lượng 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Ba định luật Newton - Lực và phản lực",
+    "Công - Công suất",
+    "Động năng - Thế năng - Bảo toàn cơ năng",
+    "Động lượng - Bảo toàn động lượng"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật I Newton (định luật quán tính) phát biểu rằng:",
+      "options": [
+        "Nếu một vật không chịu tác dụng của lực nào (hoặc hợp lực bằng $\\vec{0}$) thì vật đứng yên hoặc chuyển động thẳng đều",
+        "Mọi vật đều rơi với cùng vận tốc",
+        "Lực bằng tích khối lượng và gia tốc",
+        "Mọi vật đều có ma sát"
+      ],
+      "answer": 0,
+      "hint": "Định luật I: vật giữ nguyên trạng thái nếu không có hợp lực tác dụng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật II Newton có dạng vector:",
+      "options": [
+        "$\\vec{F} = m \\cdot \\vec{a}$",
+        "$\\vec{F} = \\dfrac{m}{\\vec{a}}$",
+        "$\\vec{F} = m + \\vec{a}$",
+        "$\\vec{F} = \\vec{a} / m$"
+      ],
+      "answer": 0,
+      "hint": "Định luật II Newton: hợp lực = khối lượng × gia tốc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật III Newton (lực và phản lực) phát biểu rằng:",
+      "options": [
+        "Hai vật tương tác: vật $A$ tác dụng lên $B$ một lực thì $B$ tác dụng lên $A$ một lực cùng độ lớn, cùng phương, ngược chiều",
+        "Lực luôn lớn hơn phản lực",
+        "Lực và phản lực luôn cùng chiều",
+        "Phản lực luôn bằng $0$"
+      ],
+      "answer": 0,
+      "hint": "Định luật III: $\\vec{F}_{AB} = -\\vec{F}_{BA}$ — cặp lực và phản lực."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công cơ học $A$ do lực $\\vec{F}$ thực hiện khi vật dịch chuyển quãng đường $s$ (góc giữa $\\vec{F}$ và phương dịch chuyển là $\\alpha$) là:",
+      "options": [
+        "$A = F \\cdot s \\cdot \\cos\\alpha$",
+        "$A = F \\cdot s \\cdot \\sin\\alpha$",
+        "$A = F + s$",
+        "$A = \\dfrac{F}{s}$"
+      ],
+      "answer": 0,
+      "hint": "Công: $A = Fs\\cos\\alpha$, đơn vị J."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công suất $P$ là đại lượng đo:",
+      "options": [
+        "Tốc độ thực hiện công ($P = \\dfrac{A}{t}$)",
+        "Tổng công thực hiện",
+        "Khối lượng vật",
+        "Vận tốc của vật"
+      ],
+      "answer": 0,
+      "hint": "Công suất = công thực hiện trong một đơn vị thời gian, đơn vị W."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Động năng $W_đ$ của vật khối lượng $m$ chuyển động với vận tốc $v$:",
+      "options": [
+        "$W_đ = \\dfrac{1}{2}mv^2$",
+        "$W_đ = mv$",
+        "$W_đ = mgh$",
+        "$W_đ = mv^2$"
+      ],
+      "answer": 0,
+      "hint": "Động năng: $W_đ = \\dfrac{1}{2}mv^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong trọng trường, nếu vật chỉ chịu tác dụng của trọng lực thì cơ năng (tổng động năng và thế năng) của vật:",
+      "options": [
+        "Được bảo toàn (không đổi theo thời gian)",
+        "Tăng dần theo thời gian",
+        "Giảm dần theo thời gian",
+        "Luôn bằng $0$"
+      ],
+      "answer": 0,
+      "hint": "Định luật bảo toàn cơ năng: nếu chỉ có trọng lực thì $W_đ + W_t = $ hằng số."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Động lượng $\\vec{p}$ của vật khối lượng $m$ chuyển động với vận tốc $\\vec{v}$ được xác định:",
+      "options": [
+        "$\\vec{p} = m \\vec{v}$",
+        "$\\vec{p} = \\dfrac{1}{2} m v^2$",
+        "$\\vec{p} = m \\cdot g \\cdot h$",
+        "$\\vec{p} = m + v$"
+      ],
+      "answer": 0,
+      "hint": "Động lượng là đại lượng vector: $\\vec{p} = m\\vec{v}$, đơn vị kg·m/s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Định luật bảo toàn động lượng phát biểu rằng:",
+      "options": [
+        "Trong một hệ kín (không có ngoại lực, hoặc tổng ngoại lực bằng $\\vec{0}$), tổng động lượng của hệ được bảo toàn",
+        "Động lượng của mỗi vật luôn được bảo toàn",
+        "Động lượng tăng theo thời gian",
+        "Động lượng giảm theo thời gian"
+      ],
+      "answer": 0,
+      "hint": "Bảo toàn động lượng: hệ kín → tổng $\\vec{p}$ trước = tổng $\\vec{p}$ sau tương tác."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tác dụng lực $F = 12$ N theo phương ngang lên vật khối lượng $m = 3$ kg. Gia tốc của vật là:",
+      "options": [
+        "$4$ m/s$^2$",
+        "$36$ m/s$^2$",
+        "$0{,}25$ m/s$^2$",
+        "$15$ m/s$^2$"
+      ],
+      "answer": 0,
+      "hint": "$a = \\dfrac{F}{m} = \\dfrac{12}{3} = 4$ m/s$^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một vật có khối lượng $4$ kg chuyển động với vận tốc $5$ m/s. Động năng của vật bằng:",
+      "options": [
+        "$50$ J",
+        "$20$ J",
+        "$100$ J",
+        "$10$ J"
+      ],
+      "answer": 0,
+      "hint": "$W_đ = \\dfrac{1}{2}mv^2 = \\dfrac{1}{2} \\cdot 4 \\cdot 5^2 = 50$ J."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một động cơ thực hiện được công $A = 6\\,000$ J trong $30$ s. Công suất của động cơ bằng:",
+      "options": [
+        "$200$ W",
+        "$180\\,000$ W",
+        "$0{,}005$ W",
+        "$30$ W"
+      ],
+      "answer": 0,
+      "hint": "$P = \\dfrac{A}{t} = \\dfrac{6\\,000}{30} = 200$ W."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Một vật có khối lượng $2$ kg đang chuyển động với vận tốc $3$ m/s. Động lượng của vật bằng:",
+      "options": [
+        "$6$ kg·m/s",
+        "$1{,}5$ kg·m/s",
+        "$9$ kg·m/s",
+        "$18$ kg·m/s"
+      ],
+      "answer": 0,
+      "hint": "$p = mv = 2 \\cdot 3 = 6$ kg·m/s."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về định luật Newton:",
+      "statements": [
+        { "text": "Định luật I Newton thể hiện tính quán tính của vật: vật có xu hướng giữ nguyên trạng thái chuyển động.", "answer": true },
+        { "text": "Định luật II Newton: hợp lực tác dụng lên vật bằng tích khối lượng và gia tốc ($\\vec{F} = m\\vec{a}$).", "answer": true },
+        { "text": "Lực và phản lực (theo định luật III Newton) có cùng phương, cùng độ lớn và CÙNG chiều.", "answer": false },
+        { "text": "Cặp lực và phản lực luôn tác dụng lên hai vật khác nhau.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về năng lượng và động lượng:",
+      "statements": [
+        { "text": "Trong trọng trường, nếu chỉ có trọng lực tác dụng thì cơ năng của vật được bảo toàn.", "answer": true },
+        { "text": "Trong một hệ kín, tổng động lượng của hệ được bảo toàn.", "answer": true },
+        { "text": "Đơn vị công suất trong hệ SI là oát (W); $1$ W = $1$ J/s.", "answer": true },
+        { "text": "Động lượng là đại lượng vô hướng, không phụ thuộc hướng chuyển động.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Lực không đổi $F = 25$ N kéo vật đi quãng đường $s = 4$ m theo cùng phương lực kéo. Công của lực bằng ___ J",
+      "answer": "100",
+      "hint": "$A = Fs\\cos 0^\\circ = 25 \\cdot 4 = 100$ J."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Vật khối lượng $5$ kg ở độ cao $10$ m so với mặt đất. Lấy $g = 10$ m/s$^2$. Thế năng trọng trường của vật bằng ___ J",
+      "answer": "500",
+      "hint": "$W_t = mgh = 5 \\cdot 10 \\cdot 10 = 500$ J."
+    }
+  ]
+}

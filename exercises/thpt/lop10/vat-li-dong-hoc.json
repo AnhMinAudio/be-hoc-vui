@@ -1,0 +1,216 @@
+{
+  "id": "thpt-vat-li-l10-dong-hoc",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 10,
+  "topic": "Động học chất điểm",
+  "chapter": "Động học 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Chuyển động thẳng đều - Vận tốc trung bình",
+    "Chuyển động thẳng biến đổi đều - Gia tốc",
+    "Phương trình chuyển động và đồ thị",
+    "Rơi tự do"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chuyển động thẳng đều là chuyển động:",
+      "options": [
+        "Có quỹ đạo là đường thẳng và có tốc độ không đổi theo thời gian",
+        "Có quỹ đạo là đường cong và tốc độ thay đổi",
+        "Có tốc độ tăng đều theo thời gian",
+        "Có tốc độ giảm đều theo thời gian"
+      ],
+      "answer": 0,
+      "hint": "Chuyển động thẳng đều: quỹ đạo thẳng + tốc độ không đổi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong chuyển động thẳng đều với vận tốc $v$, quãng đường đi được trong thời gian $t$ là:",
+      "options": [
+        "$s = v \\cdot t$",
+        "$s = \\dfrac{v}{t}$",
+        "$s = v + t$",
+        "$s = v^2 \\cdot t$"
+      ],
+      "answer": 0,
+      "hint": "Quãng đường = tốc độ × thời gian."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Gia tốc $a$ của chuyển động thẳng biến đổi đều cho biết:",
+      "options": [
+        "Tốc độ biến thiên (tăng/giảm) của vận tốc theo thời gian",
+        "Quãng đường vật đi được trong 1 giây",
+        "Khối lượng của vật",
+        "Lực tác dụng lên vật"
+      ],
+      "answer": 0,
+      "hint": "Gia tốc đo tốc độ biến thiên của vận tốc; đơn vị m/s$^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong hệ SI, đơn vị của gia tốc là:",
+      "options": [
+        "m/s$^2$",
+        "m/s",
+        "kg·m/s",
+        "N"
+      ],
+      "answer": 0,
+      "hint": "Gia tốc = $\\Delta v / \\Delta t$ → m/s ÷ s = m/s$^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong chuyển động thẳng biến đổi đều, vận tốc tại thời điểm $t$ được tính bằng:",
+      "options": [
+        "$v = v_0 + a t$",
+        "$v = v_0 \\cdot t$",
+        "$v = a + t$",
+        "$v = v_0 - t$"
+      ],
+      "answer": 0,
+      "hint": "Công thức vận tốc trong CĐ thẳng BĐĐ: $v = v_0 + at$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quãng đường đi được trong chuyển động thẳng biến đổi đều (vận tốc đầu $v_0$, gia tốc $a$, thời gian $t$) là:",
+      "options": [
+        "$s = v_0 t + \\dfrac{1}{2}a t^2$",
+        "$s = v_0 \\cdot a \\cdot t$",
+        "$s = v_0 + a t$",
+        "$s = a t$"
+      ],
+      "answer": 0,
+      "hint": "Công thức quãng đường: $s = v_0 t + \\dfrac{1}{2} a t^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Vật rơi tự do là vật:",
+      "options": [
+        "Chỉ chịu tác dụng của trọng lực (bỏ qua sức cản không khí)",
+        "Có nhiều lực tác dụng cùng lúc",
+        "Đang đứng yên",
+        "Chuyển động ngang đều"
+      ],
+      "answer": 0,
+      "hint": "Rơi tự do: chỉ có trọng lực; gia tốc bằng gia tốc rơi tự do $g$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Vật rơi tự do từ độ cao $h$ (bỏ qua sức cản). Thời gian rơi được tính bằng:",
+      "options": [
+        "$t = \\sqrt{\\dfrac{2h}{g}}$",
+        "$t = \\sqrt{\\dfrac{h}{g}}$",
+        "$t = h \\cdot g$",
+        "$t = \\dfrac{h}{g}$"
+      ],
+      "answer": 0,
+      "hint": "Từ $h = \\dfrac{1}{2}gt^2 \\Rightarrow t = \\sqrt{\\dfrac{2h}{g}}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một xe đi với tốc độ trung bình $60$ km/h. Trong $2$ giờ, xe đi được quãng đường:",
+      "options": [
+        "$120$ km",
+        "$30$ km",
+        "$60$ km",
+        "$180$ km"
+      ],
+      "answer": 0,
+      "hint": "$s = v t = 60 \\cdot 2 = 120$ km."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một vật bắt đầu chuyển động (từ trạng thái nghỉ) với gia tốc $a = 2$ m/s$^2$. Vận tốc của vật sau $5$ s là:",
+      "options": [
+        "$10$ m/s",
+        "$2{,}5$ m/s",
+        "$25$ m/s",
+        "$50$ m/s"
+      ],
+      "answer": 0,
+      "hint": "$v = v_0 + at = 0 + 2 \\cdot 5 = 10$ m/s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Vật rơi tự do từ độ cao $h = 20$ m (lấy $g = 10$ m/s$^2$). Thời gian rơi là:",
+      "options": [
+        "$2$ s",
+        "$4$ s",
+        "$1$ s",
+        "$10$ s"
+      ],
+      "answer": 0,
+      "hint": "$t = \\sqrt{\\dfrac{2h}{g}} = \\sqrt{\\dfrac{2 \\cdot 20}{10}} = \\sqrt{4} = 2$ s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một ô tô đang chạy với vận tốc $20$ m/s thì hãm phanh với gia tốc $-4$ m/s$^2$ (vật giảm tốc). Sau bao lâu xe dừng hẳn?",
+      "options": [
+        "$5$ s",
+        "$4$ s",
+        "$80$ s",
+        "$10$ s"
+      ],
+      "answer": 0,
+      "hint": "Xe dừng khi $v = 0$: $0 = 20 + (-4)t \\Rightarrow t = 5$ s."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về chuyển động:",
+      "statements": [
+        { "text": "Trong chuyển động thẳng đều, vận tốc không đổi theo thời gian.", "answer": true },
+        { "text": "Gia tốc trong chuyển động thẳng đều bằng $0$.", "answer": true },
+        { "text": "Vận tốc và tốc độ là hai đại lượng giống hệt nhau.", "answer": false },
+        { "text": "Trong chuyển động thẳng biến đổi đều, gia tốc là một hằng số.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về rơi tự do:",
+      "statements": [
+        { "text": "Rơi tự do là chuyển động chỉ chịu tác dụng của trọng lực.", "answer": true },
+        { "text": "Trong rơi tự do, vận tốc tăng đều theo thời gian với gia tốc bằng gia tốc rơi tự do $g$.", "answer": true },
+        { "text": "Hai vật có khối lượng khác nhau, khi rơi tự do trong chân không sẽ rơi với gia tốc khác nhau.", "answer": false },
+        { "text": "Gia tốc rơi tự do tại bề mặt Trái Đất xấp xỉ $9{,}8$ m/s$^2$.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Một vật chuyển động thẳng đều với vận tốc $15$ m/s. Quãng đường đi được trong $10$ s là ___ m",
+      "answer": "150",
+      "hint": "$s = v t = 15 \\cdot 10 = 150$ m."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Vật rơi tự do trong $3$ giây (bỏ qua sức cản, lấy $g = 10$ m/s$^2$). Quãng đường rơi là ___ m",
+      "answer": "45",
+      "hint": "$s = \\dfrac{1}{2} g t^2 = \\dfrac{1}{2} \\cdot 10 \\cdot 3^2 = 45$ m."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đơn vị của gia tốc trong hệ SI là m/s$^2$.",
+      "answer": true,
+      "hint": "Gia tốc = biến thiên vận tốc / thời gian → đơn vị m/s$^2$."
+    }
+  ]
+}

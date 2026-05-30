@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:17:25.120Z",
+  "generatedAt": "2026-05-30T01:29:38.909Z",
   "coverage": {
     "toan": {
       "1": {
@@ -2009,9 +2009,21 @@
     },
     "vat-li": {
       "10": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
+          {
+            "id": "thpt-vat-li-l10-newton-nang-luong",
+            "topic": "Ba định luật Newton, công - năng lượng và động lượng",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-vat-li-l10-dong-hoc",
+            "topic": "Động học chất điểm",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "thpt-vat-li-l10-on-tap",
             "topic": "Ôn tập Vật lí 10",
@@ -2059,9 +2071,21 @@
     },
     "hoa-hoc": {
       "10": {
-        "exerciseCount": 1,
-        "totalQuestions": 17,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-hoa-hoc-l10-nguyen-tu-bth",
+            "topic": "Cấu tạo nguyên tử và Bảng tuần hoàn",
+            "questionCount": 16,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-hoa-hoc-l10-lien-ket-oxi-hoa-khu",
+            "topic": "Liên kết hóa học, phản ứng oxi hóa - khử và Halogen",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-hoa-hoc-l10-on-tap",
             "topic": "Ôn tập Hóa học 10",
@@ -2109,9 +2133,21 @@
     },
     "sinh-hoc": {
       "10": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-sinh-hoc-l10-te-bao-cau-truc",
+            "topic": "Cấu trúc tế bào nhân sơ và tế bào nhân thực",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-sinh-hoc-l10-chuyen-hoa-nang-luong",
+            "topic": "Chuyển hóa năng lượng trong tế bào: enzyme, hô hấp và quang hợp",
+            "questionCount": 17,
+            "difficulty": 3
+          },
           {
             "id": "thpt-sinh-hoc-l10-on-tap",
             "topic": "Ôn tập Sinh học 10",
@@ -2159,9 +2195,21 @@
     },
     "lich-su": {
       "10": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-lich-su-l10-van-minh-the-gioi",
+            "topic": "Các nền văn minh thế giới thời cổ - trung đại",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-lich-su-l10-van-minh-viet-nam",
+            "topic": "Các nền văn minh trên đất nước Việt Nam (Văn Lang - Âu Lạc - Champa - Phù Nam - Đại Việt)",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "thpt-lich-su-l10-on-tap",
             "topic": "Ôn tập Lịch sử 10",
@@ -2209,9 +2257,21 @@
     },
     "dia-li": {
       "10": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 50,
         "topics": [
+          {
+            "id": "thpt-dia-li-l10-kinh-te-xa-hoi",
+            "topic": "Địa lí dân cư và các ngành kinh tế",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
+            "id": "thpt-dia-li-l10-tu-nhien",
+            "topic": "Địa lí tự nhiên: Trái Đất, các lớp vỏ và các quy luật địa lí",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "thpt-dia-li-l10-on-tap",
             "topic": "Ôn tập Địa lí 10",
@@ -2259,9 +2319,21 @@
     },
     "gdkt-pl": {
       "10": {
-        "exerciseCount": 1,
-        "totalQuestions": 16,
+        "exerciseCount": 3,
+        "totalQuestions": 48,
         "topics": [
+          {
+            "id": "thpt-gdkt-pl-l10-phap-luat",
+            "topic": "Hệ thống chính trị, pháp luật và Hiến pháp Việt Nam",
+            "questionCount": 16,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-gdkt-pl-l10-kinh-te",
+            "topic": "Nền kinh tế và các chủ thể, thị trường, ngân sách và thuế",
+            "questionCount": 16,
+            "difficulty": 2
+          },
           {
             "id": "thpt-gdkt-pl-l10-on-tap",
             "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 10",

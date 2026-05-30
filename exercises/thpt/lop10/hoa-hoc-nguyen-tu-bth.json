@@ -1,0 +1,204 @@
+{
+  "id": "thpt-hoa-hoc-l10-nguyen-tu-bth",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 10,
+  "topic": "Cấu tạo nguyên tử và Bảng tuần hoàn",
+  "chapter": "Cấu tạo nguyên tử & BTH 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Thành phần hạt nhân, số khối, đồng vị",
+    "Cấu hình electron và ô nguyên tố",
+    "Cấu tạo bảng tuần hoàn (chu kì, nhóm)",
+    "Biến thiên tuần hoàn tính chất"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên tử được cấu tạo bởi các loại hạt cơ bản nào?",
+      "options": [
+        "Proton, neutron và electron",
+        "Chỉ proton",
+        "Chỉ neutron",
+        "Chỉ electron"
+      ],
+      "answer": 0,
+      "hint": "Nguyên tử = hạt nhân (proton + neutron) + vỏ (electron)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số khối $A$ của một nguyên tử bằng:",
+      "options": [
+        "Số proton $Z$ + số neutron $N$",
+        "Số proton $Z$ + số electron",
+        "Số neutron - số proton",
+        "Số electron - số neutron"
+      ],
+      "answer": 0,
+      "hint": "$A = Z + N$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đồng vị là các nguyên tử có:",
+      "options": [
+        "Cùng số proton nhưng khác số neutron",
+        "Cùng số neutron nhưng khác số proton",
+        "Cùng số electron và cùng số proton",
+        "Khác cả số proton và số neutron"
+      ],
+      "answer": 0,
+      "hint": "Đồng vị: cùng $Z$, khác $N$ → khác $A$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cấu hình electron của nguyên tử $Mg$ ($Z = 12$) là:",
+      "options": [
+        "$1s^2 2s^2 2p^6 3s^2$",
+        "$1s^2 2s^2 2p^6$",
+        "$1s^2 2s^2 2p^5 3s^3$",
+        "$1s^2 2s^2 2p^6 3s^1$"
+      ],
+      "answer": 0,
+      "hint": "12 electron: $1s^2 2s^2 2p^6 3s^2$. Lớp ngoài cùng $3s^2$, thuộc nhóm IIA."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số thứ tự CHU KÌ trong bảng tuần hoàn tương ứng với:",
+      "options": [
+        "Số lớp electron của nguyên tử",
+        "Số electron lớp ngoài cùng",
+        "Số proton trong hạt nhân",
+        "Số neutron trong hạt nhân"
+      ],
+      "answer": 0,
+      "hint": "Chu kì = số lớp electron. Ví dụ: $Mg$ có 3 lớp ($1s, 2s/2p, 3s$) → chu kì 3."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số thứ tự NHÓM A trong bảng tuần hoàn tương ứng với:",
+      "options": [
+        "Số electron lớp ngoài cùng",
+        "Số lớp electron",
+        "Tổng số electron",
+        "Số proton"
+      ],
+      "answer": 0,
+      "hint": "Nhóm A: số electron lớp ngoài cùng = số thứ tự nhóm. $Mg$ có 2e lớp ngoài → nhóm IIA."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong một chu kì, theo chiều tăng dần điện tích hạt nhân, tính KIM LOẠI:",
+      "options": [
+        "Giảm dần",
+        "Tăng dần",
+        "Không đổi",
+        "Tăng rồi giảm"
+      ],
+      "answer": 0,
+      "hint": "Trong cùng chu kì, từ trái sang phải: tính kim loại giảm, tính phi kim tăng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong một nhóm A, theo chiều tăng dần điện tích hạt nhân, tính KIM LOẠI:",
+      "options": [
+        "Tăng dần",
+        "Giảm dần",
+        "Không đổi",
+        "Tăng rồi giảm"
+      ],
+      "answer": 0,
+      "hint": "Trong cùng nhóm A, từ trên xuống dưới: tính kim loại tăng, tính phi kim giảm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Nguyên tử $^{27}_{13}Al$ có tổng số hạt cơ bản (proton + neutron + electron) là:",
+      "options": [
+        "$40$",
+        "$27$",
+        "$13$",
+        "$14$"
+      ],
+      "answer": 0,
+      "hint": "$Z = 13$ proton = 13 electron; neutron $= 27 - 13 = 14$. Tổng $= 13 + 14 + 13 = 40$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Nguyên tố nào sau đây có cấu hình electron lớp ngoài cùng là $3s^2 3p^5$?",
+      "options": [
+        "Chlorine (Cl)",
+        "Sulfur (S)",
+        "Sodium (Na)",
+        "Magnesium (Mg)"
+      ],
+      "answer": 0,
+      "hint": "$3s^2 3p^5$ ⇒ chu kì 3, nhóm VIIA (halogen) → Chlorine (Cl), $Z = 17$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Nguyên tố $X$ thuộc CHU KÌ 3, NHÓM IA của bảng tuần hoàn. Nguyên tố $X$ là:",
+      "options": [
+        "Sodium (Na, $Z = 11$)",
+        "Magnesium (Mg, $Z = 12$)",
+        "Lithium (Li, $Z = 3$)",
+        "Potassium (K, $Z = 19$)"
+      ],
+      "answer": 0,
+      "hint": "Chu kì 3 (có 3 lớp electron) + nhóm IA (1 electron lớp ngoài) → $1s^2 2s^2 2p^6 3s^1$ → Na ($Z = 11$)."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cấu tạo nguyên tử:",
+      "statements": [
+        { "text": "Số proton bằng số electron trong nguyên tử trung hòa điện.", "answer": true },
+        { "text": "Số khối $A$ bằng tổng số proton và số neutron trong hạt nhân.", "answer": true },
+        { "text": "Đồng vị của một nguyên tố có cùng số neutron nhưng khác số proton.", "answer": false },
+        { "text": "Electron mang điện tích âm, proton mang điện tích dương.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về bảng tuần hoàn:",
+      "statements": [
+        { "text": "Các nguyên tố trong bảng tuần hoàn được sắp xếp theo chiều tăng dần điện tích hạt nhân.", "answer": true },
+        { "text": "Số thứ tự chu kì bằng số lớp electron của nguyên tử.", "answer": true },
+        { "text": "Trong cùng một nhóm A, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.", "answer": true },
+        { "text": "Trong cùng một chu kì, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Nguyên tử $^{31}_{15}P$ (phosphorus) có ___ neutron",
+      "answer": "16",
+      "hint": "$N = A - Z = 31 - 15 = 16$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Nguyên tố có $Z = 19$ (potassium, K) thuộc chu kì ___ của bảng tuần hoàn.",
+      "answer": "4",
+      "alternatives": ["bốn"],
+      "hint": "Cấu hình K: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^1$ → 4 lớp electron → chu kì 4."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Số thứ tự ô của một nguyên tố trong bảng tuần hoàn bằng số proton (số hiệu nguyên tử) của nguyên tố đó.",
+      "answer": true,
+      "hint": "Số thứ tự ô = $Z$."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "thpt-dia-li-l10-kinh-te-xa-hoi",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 10,
+  "topic": "Địa lí dân cư và các ngành kinh tế",
+  "chapter": "Địa lí kinh tế - xã hội 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Quy mô và cơ cấu dân số",
+    "Đô thị hóa",
+    "Các ngành nông - lâm - thủy sản",
+    "Công nghiệp và dịch vụ"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quy mô dân số của một quốc gia/khu vực được hiểu là:",
+      "options": [
+        "Tổng số dân của quốc gia/khu vực đó tại một thời điểm xác định",
+        "Diện tích đất đai",
+        "Tổng sản lượng nông nghiệp",
+        "Số lượng nhà ở"
+      ],
+      "answer": 0,
+      "hint": "Quy mô dân số = số người sinh sống tại một khu vực."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cơ cấu dân số thường được phân chia theo:",
+      "options": [
+        "Độ tuổi và giới tính (cơ cấu sinh học)",
+        "Màu tóc và chiều cao",
+        "Sở thích và nghề nghiệp duy nhất",
+        "Loại nhà ở"
+      ],
+      "answer": 0,
+      "hint": "Cơ cấu dân số gồm: cơ cấu theo độ tuổi, giới tính, lao động, dân tộc..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "ĐÔ THỊ HÓA là quá trình:",
+      "options": [
+        "Tỉ lệ dân thành thị tăng lên và không gian đô thị mở rộng",
+        "Dân thành thị di cư về nông thôn",
+        "Đô thị bị thu hẹp dần",
+        "Mọi đô thị biến thành làng quê"
+      ],
+      "answer": 0,
+      "hint": "Đô thị hóa: gia tăng dân thành thị + mở rộng không gian đô thị + phát triển lối sống đô thị."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đặc điểm của một quốc gia có cơ cấu dân số GIÀ là:",
+      "options": [
+        "Tỉ lệ người trên 60 tuổi cao, tỉ lệ trẻ em (dưới 15) thấp; thường gặp ở các nước phát triển",
+        "Tỉ lệ trẻ em cực cao, tỉ lệ người cao tuổi rất thấp",
+        "Hoàn toàn không có người trẻ tuổi",
+        "Dân số tăng nhanh 5-7% mỗi năm"
+      ],
+      "answer": 0,
+      "hint": "Dân số già: tỉ lệ người cao tuổi cao + sinh suất thấp + thường gặp ở các nước phát triển."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ngành nào sau đây thuộc khu vực I (nông - lâm - thủy sản)?",
+      "options": [
+        "Trồng trọt, chăn nuôi, lâm nghiệp, đánh bắt và nuôi trồng thủy sản",
+        "Sản xuất ô tô",
+        "Du lịch và ngân hàng",
+        "Khai thác than và dầu khí"
+      ],
+      "answer": 0,
+      "hint": "Khu vực I = các ngành dựa vào tự nhiên: nông, lâm, thủy sản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cây LÚA là cây lương thực chính của khu vực nào trên thế giới?",
+      "options": [
+        "Châu Á (đặc biệt khu vực Đông Á, Đông Nam Á, Nam Á)",
+        "Châu Âu",
+        "Bắc Mỹ",
+        "Châu Phi cực Bắc"
+      ],
+      "answer": 0,
+      "hint": "Lúa nước phù hợp khí hậu nhiệt đới gió mùa châu Á; là lương thực chính cho khoảng 1/2 dân số thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ngành CÔNG NGHIỆP nào sau đây có vai trò \"đầu tàu\" trong nền kinh tế hiện đại?",
+      "options": [
+        "Công nghiệp năng lượng (điện), khai thác - chế biến nhiên liệu (dầu khí), công nghiệp điện tử",
+        "Chỉ duy nhất ngành may mặc",
+        "Chỉ ngành làm gốm sứ",
+        "Chỉ ngành sản xuất giày dép"
+      ],
+      "answer": 0,
+      "hint": "Các ngành then chốt: năng lượng, hóa chất, điện tử, cơ khí — định hình nền công nghiệp hiện đại."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ngành nào sau đây thuộc khu vực III (DỊCH VỤ)?",
+      "options": [
+        "Thương mại, ngân hàng, vận tải, du lịch, giáo dục, y tế",
+        "Trồng lúa và nuôi cá",
+        "Khai thác than và dầu khí",
+        "Sản xuất xi măng và thép"
+      ],
+      "answer": 0,
+      "hint": "Khu vực III: các ngành phục vụ con người và sản xuất — thương mại, vận tải, du lịch, giáo dục, y tế..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong nền kinh tế của các nước phát triển hiện nay, ngành nào thường chiếm tỉ trọng LỚN NHẤT trong GDP?",
+      "options": [
+        "Dịch vụ (khu vực III)",
+        "Nông - lâm - thủy sản (khu vực I)",
+        "Công nghiệp khai khoáng",
+        "Săn bắt hái lượm"
+      ],
+      "answer": 0,
+      "hint": "Các nước phát triển: dịch vụ chiếm 60-80% GDP."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Loại hình giao thông nào sau đây có vai trò QUAN TRỌNG NHẤT trong vận chuyển hàng hóa thương mại quốc tế?",
+      "options": [
+        "Đường biển",
+        "Đường hàng không",
+        "Đường sắt",
+        "Đường ống"
+      ],
+      "answer": 0,
+      "hint": "Đường biển: chi phí thấp, vận chuyển khối lượng lớn → chiếm phần lớn thương mại quốc tế."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tại sao các đô thị lớn thường có sức hút dân cư mạnh?",
+      "options": [
+        "Vì cung cấp nhiều cơ hội việc làm, giáo dục, y tế tốt hơn và các dịch vụ đa dạng",
+        "Vì không khí ở đô thị luôn trong lành nhất",
+        "Vì đô thị không có tình trạng tắc đường",
+        "Vì giá nhà ở đô thị rất rẻ"
+      ],
+      "answer": 0,
+      "hint": "Đô thị hấp dẫn vì cơ hội việc làm, dịch vụ, giáo dục, y tế tốt hơn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đô thị hóa quá nhanh có thể gây ra hệ quả tiêu cực nào sau đây?",
+      "options": [
+        "Quá tải hạ tầng, ô nhiễm môi trường, tệ nạn xã hội, chênh lệch giàu nghèo",
+        "Làm giảm dân số đô thị",
+        "Làm tăng cảnh quan thiên nhiên",
+        "Không có hệ quả gì tiêu cực"
+      ],
+      "answer": 0,
+      "hint": "Đô thị hóa quá nhanh thường vượt khả năng đáp ứng của hạ tầng và dịch vụ."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về dân cư và đô thị hóa:",
+      "statements": [
+        { "text": "Cơ cấu dân số có thể được phân chia theo độ tuổi và giới tính.", "answer": true },
+        { "text": "Các nước phát triển thường có cơ cấu dân số già.", "answer": true },
+        { "text": "Đô thị hóa là quá trình gia tăng tỉ lệ dân thành thị và mở rộng không gian đô thị.", "answer": true },
+        { "text": "Đô thị hóa chỉ mang lại lợi ích, không có bất kì tác động tiêu cực nào.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các ngành kinh tế:",
+      "statements": [
+        { "text": "Khu vực I gồm nông - lâm - thủy sản; khu vực II gồm công nghiệp - xây dựng; khu vực III gồm các ngành dịch vụ.", "answer": true },
+        { "text": "Lúa là cây lương thực chính của hầu hết châu Á.", "answer": true },
+        { "text": "Đường biển là phương tiện vận tải chủ yếu cho thương mại quốc tế.", "answer": true },
+        { "text": "Ở các nước phát triển, nông nghiệp chiếm tỉ trọng lớn nhất trong GDP.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Khu vực ___ của nền kinh tế gồm các ngành thương mại, ngân hàng, du lịch, giáo dục, y tế.",
+      "answer": "III",
+      "alternatives": ["3", "dịch vụ", "khu vực III"],
+      "hint": "Khu vực III = dịch vụ."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Loại hình giao thông vận chuyển hàng hóa thương mại quốc tế chủ yếu là đường ___",
+      "answer": "biển",
+      "alternatives": ["bien", "đường biển"],
+      "hint": "Đường biển chiếm phần lớn thương mại quốc tế do chi phí thấp, khối lượng lớn."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Dân cư trên thế giới phân bố không đều — tập trung đông ở đồng bằng, ven biển; thưa thớt ở vùng núi cao, sa mạc, băng giá.",
+      "answer": true,
+      "hint": "Đây là quy luật phân bố dân cư phổ biến trên thế giới."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l10-kinh-te",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 10,
+  "topic": "Nền kinh tế và các chủ thể, thị trường, ngân sách và thuế",
+  "chapter": "Kinh tế 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Nền kinh tế - các chủ thể kinh tế",
+    "Thị trường - giá cả - cung cầu",
+    "Ngân sách nhà nước và thuế",
+    "Tín dụng - lập kế hoạch tài chính cá nhân"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Các chủ thể chính tham gia hoạt động trong nền kinh tế thị trường gồm:",
+      "options": [
+        "Người sản xuất, người tiêu dùng, người trung gian (thương mại, tài chính), Nhà nước",
+        "Chỉ duy nhất Nhà nước",
+        "Chỉ doanh nghiệp nước ngoài",
+        "Chỉ người tiêu dùng"
+      ],
+      "answer": 0,
+      "hint": "Nền kinh tế có nhiều chủ thể: SX, TD, trung gian, Nhà nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thị trường được hiểu là:",
+      "options": [
+        "Nơi (không nhất thiết phải là địa điểm cụ thể) diễn ra việc trao đổi, mua bán hàng hóa, dịch vụ",
+        "Chỉ là khu chợ truyền thống ở nông thôn",
+        "Một cơ quan của Nhà nước",
+        "Một loại hàng hóa cụ thể"
+      ],
+      "answer": 0,
+      "hint": "Thị trường = nơi gặp gỡ giữa người mua và người bán (vật lí hoặc online)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi nhu cầu (cầu) đối với một mặt hàng tăng cao mà nguồn cung không thay đổi, giá cả của mặt hàng thường:",
+      "options": [
+        "Tăng lên",
+        "Giảm xuống",
+        "Không thay đổi",
+        "Giảm về $0$"
+      ],
+      "answer": 0,
+      "hint": "Cầu tăng + cung không đổi → giá tăng. Đây là quy luật cung - cầu cơ bản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi cung lớn hơn cầu (hàng hóa nhiều hơn nhu cầu), giá cả thường:",
+      "options": [
+        "Giảm xuống",
+        "Tăng lên",
+        "Không thay đổi",
+        "Tăng vọt"
+      ],
+      "answer": 0,
+      "hint": "Cung > cầu → tồn kho → người bán hạ giá để bán được hàng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "NGÂN SÁCH NHÀ NƯỚC là:",
+      "options": [
+        "Toàn bộ các khoản thu, chi của Nhà nước được dự toán và thực hiện trong một thời gian nhất định",
+        "Tiền tiết kiệm cá nhân của một gia đình",
+        "Số dư tài khoản ngân hàng của một doanh nghiệp",
+        "Tiền lương của cán bộ Nhà nước"
+      ],
+      "answer": 0,
+      "hint": "Ngân sách nhà nước = toàn bộ thu - chi của Nhà nước trong kì."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguồn thu CHỦ YẾU của ngân sách nhà nước là:",
+      "options": [
+        "Thuế",
+        "Tiền tài trợ của các tổ chức quốc tế",
+        "Tiền lương của công chức",
+        "Tiền thưởng"
+      ],
+      "answer": 0,
+      "hint": "Thuế là nguồn thu lớn nhất, ổn định nhất của ngân sách nhà nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "THUẾ có đặc trưng nào sau đây?",
+      "options": [
+        "Là khoản nộp bắt buộc, không hoàn trả trực tiếp cho người nộp, do Nhà nước quy định",
+        "Là khoản tự nguyện đóng góp, có hoàn trả trực tiếp",
+        "Chỉ áp dụng cho người giàu, người nghèo không phải nộp",
+        "Là tiền các doanh nghiệp tặng cho Nhà nước"
+      ],
+      "answer": 0,
+      "hint": "Đặc trưng của thuế: bắt buộc + không hoàn trả trực tiếp + do Nhà nước quy định."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "TÍN DỤNG được hiểu là:",
+      "options": [
+        "Quan hệ vay - mượn dựa trên nguyên tắc hoàn trả vốn gốc và lãi sau một thời gian",
+        "Việc tặng cho không hoàn trả",
+        "Hoạt động sản xuất hàng hóa",
+        "Hoạt động xuất khẩu"
+      ],
+      "answer": 0,
+      "hint": "Tín dụng = vay - mượn có hoàn trả gốc + lãi đúng hạn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Để LẬP KẾ HOẠCH TÀI CHÍNH CÁ NHÂN hiệu quả, một người nên:",
+      "options": [
+        "Xác định mục tiêu tài chính, cân đối thu - chi, tiết kiệm và có khoản dự phòng",
+        "Chi tiêu hết thu nhập ngay khi nhận lương",
+        "Vay nợ thật nhiều để mua sắm xa xỉ",
+        "Không cần ghi chép hay theo dõi các khoản chi"
+      ],
+      "answer": 0,
+      "hint": "Quản lí tài chính tốt = mục tiêu + cân đối + tiết kiệm + dự phòng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khi mua một sản phẩm trên thị trường, người TIÊU DÙNG có vai trò gì?",
+      "options": [
+        "Tham gia vào quan hệ cung - cầu, ảnh hưởng đến giá cả và sản lượng hàng hóa qua quyết định mua sắm",
+        "Không có vai trò gì với thị trường",
+        "Chỉ là người chấp nhận giá mà người bán đưa ra, không thể tác động gì",
+        "Là chủ sở hữu của doanh nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Người tiêu dùng tạo nên \"cầu\", quyết định mua / không mua ảnh hưởng đến giá và sản xuất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Một sản phẩm có cả VAI TRÒ ĐẦU VÀO (input) cho quá trình sản xuất khác và VAI TRÒ ĐẦU RA (output) khi đến người tiêu dùng cuối cùng. Trong nền kinh tế, hàng hóa được phân thành:",
+      "options": [
+        "Hàng hóa tiêu dùng và hàng hóa tư liệu sản xuất (tư liệu)",
+        "Chỉ hàng hóa nhập khẩu",
+        "Chỉ hàng hóa nông sản",
+        "Chỉ một loại duy nhất"
+      ],
+      "answer": 0,
+      "hint": "Phân loại: tiêu dùng (cuối cùng) vs tư liệu sản xuất (đầu vào cho sản xuất tiếp theo)."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về nền kinh tế thị trường:",
+      "statements": [
+        { "text": "Trong nền kinh tế thị trường, giá cả hàng hóa chủ yếu hình thành trên cơ sở quan hệ cung - cầu.", "answer": true },
+        { "text": "Người tiêu dùng tham gia vào quan hệ cung - cầu thông qua hành vi mua sắm.", "answer": true },
+        { "text": "Khi cung lớn hơn cầu, giá cả thường có xu hướng giảm.", "answer": true },
+        { "text": "Khi cầu tăng cao mà cung không đổi, giá cả thường có xu hướng giảm.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về ngân sách, thuế và tín dụng:",
+      "statements": [
+        { "text": "Thuế là nguồn thu chủ yếu của ngân sách nhà nước.", "answer": true },
+        { "text": "Thuế là khoản nộp bắt buộc, không hoàn trả trực tiếp cho người nộp.", "answer": true },
+        { "text": "Tín dụng là quan hệ vay - mượn có hoàn trả gốc và lãi đúng hạn.", "answer": true },
+        { "text": "Tín dụng là việc tặng cho hoàn toàn miễn phí, không cần hoàn trả.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Nguồn thu chủ yếu của ngân sách nhà nước là ___",
+      "answer": "thuế",
+      "alternatives": ["Thuế"],
+      "hint": "Thuế chiếm tỉ trọng lớn nhất trong tổng thu ngân sách nhà nước."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Quan hệ vay - mượn dựa trên nguyên tắc hoàn trả vốn gốc và lãi sau một thời gian được gọi là ___",
+      "answer": "tín dụng",
+      "alternatives": ["tin dung"],
+      "hint": "Tín dụng = vay - mượn có hoàn trả + lãi."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trong nền kinh tế thị trường, giá cả hàng hóa được hình thành chủ yếu trên cơ sở quan hệ cung - cầu.",
+      "answer": true,
+      "hint": "Quy luật cung - cầu là một trong những quy luật cơ bản của thị trường."
+    }
+  ]
+}

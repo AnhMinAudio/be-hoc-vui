@@ -1,0 +1,218 @@
+{
+  "id": "thpt-hoa-hoc-l10-lien-ket-oxi-hoa-khu",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 10,
+  "topic": "Liên kết hóa học, phản ứng oxi hóa - khử và Halogen",
+  "chapter": "Liên kết - Oxi hóa-khử - Halogen 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Liên kết ion - Liên kết cộng hóa trị",
+    "Số oxi hóa và phản ứng oxi hóa - khử",
+    "Cân bằng phương trình oxi hóa - khử",
+    "Nguyên tố nhóm halogen"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Liên kết ION được hình thành khi:",
+      "options": [
+        "Có sự nhường - nhận electron giữa nguyên tử kim loại điển hình và phi kim điển hình, tạo lực hút tĩnh điện giữa ion dương và ion âm",
+        "Hai nguyên tử dùng chung cặp electron",
+        "Có sự dùng chung electron tự do trong mạng kim loại",
+        "Hai phân tử liên kết qua liên kết hydrogen"
+      ],
+      "answer": 0,
+      "hint": "Liên kết ion: nguyên tử nhường e tạo ion $+$, nguyên tử nhận e tạo ion $-$, hút nhau bằng lực tĩnh điện."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Liên kết CỘNG HÓA TRỊ được hình thành khi:",
+      "options": [
+        "Hai nguyên tử dùng chung một hoặc nhiều cặp electron",
+        "Một nguyên tử cho hoàn toàn electron cho nguyên tử kia",
+        "Hai nguyên tử cùng hút lẫn nhau bằng lực tĩnh điện",
+        "Các electron tự do di chuyển trong mạng tinh thể"
+      ],
+      "answer": 0,
+      "hint": "Cộng hóa trị: dùng chung cặp electron để mỗi nguyên tử đạt cấu hình bền."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chất nào sau đây có liên kết ion?",
+      "options": [
+        "$NaCl$",
+        "$H_2$",
+        "$CH_4$",
+        "$CO_2$"
+      ],
+      "answer": 0,
+      "hint": "$NaCl$ tạo từ ion $Na^+$ và $Cl^-$ → liên kết ion. $H_2$, $CH_4$, $CO_2$ là cộng hóa trị."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Chất nào sau đây có liên kết CỘNG HÓA TRỊ KHÔNG CỰC (electron dùng chung phân bố đều)?",
+      "options": [
+        "$Cl_2$",
+        "$NaCl$",
+        "$HCl$",
+        "$H_2O$"
+      ],
+      "answer": 0,
+      "hint": "$Cl_2$ — hai nguyên tử cùng nguyên tố → độ âm điện như nhau → liên kết CHT không cực."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phản ứng OXI HÓA - KHỬ là phản ứng có:",
+      "options": [
+        "Sự thay đổi số oxi hóa của một số nguyên tố (có sự nhường - nhận electron)",
+        "Sự thay đổi màu sắc dung dịch",
+        "Sự thoát khí",
+        "Sự tạo kết tủa"
+      ],
+      "answer": 0,
+      "hint": "Phản ứng oxi hóa - khử có sự chuyển electron giữa các chất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong phản ứng oxi hóa - khử, CHẤT KHỬ là chất:",
+      "options": [
+        "Nhường electron và bị OXI HÓA (số oxi hóa tăng)",
+        "Nhận electron và bị KHỬ",
+        "Không thay đổi số oxi hóa",
+        "Luôn là kim loại"
+      ],
+      "answer": 0,
+      "hint": "Chất khử nhường e ⇒ bị oxi hóa; chất oxi hóa nhận e ⇒ bị khử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong phản ứng $Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$, vai trò của $Fe$ là:",
+      "options": [
+        "Chất khử (số oxi hóa $Fe$ tăng từ $0$ lên $+2$)",
+        "Chất oxi hóa",
+        "Chất xúc tác",
+        "Không tham gia phản ứng"
+      ],
+      "answer": 0,
+      "hint": "$Fe^0 \\rightarrow Fe^{+2}$: $Fe$ nhường 2 electron → là chất khử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số oxi hóa của nguyên tố $H$ trong $H_2O$ là:",
+      "options": [
+        "$+1$",
+        "$-1$",
+        "$0$",
+        "$+2$"
+      ],
+      "answer": 0,
+      "hint": "$H$ trong các hợp chất với phi kim (như $H_2O$, $HCl$) thường có số oxi hóa $+1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số oxi hóa của nguyên tố $O$ trong hầu hết các hợp chất là:",
+      "options": [
+        "$-2$",
+        "$+2$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "hint": "$O$ thường có số oxi hóa $-2$ (trừ một số ngoại lệ như $H_2O_2$, $OF_2$)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Các nguyên tố halogen (nhóm VIIA) gồm:",
+      "options": [
+        "F, Cl, Br, I, At",
+        "Li, Na, K, Rb, Cs",
+        "Be, Mg, Ca, Sr, Ba",
+        "He, Ne, Ar, Kr, Xe"
+      ],
+      "answer": 0,
+      "hint": "Halogen thuộc nhóm VIIA: F, Cl, Br, I, At."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính oxi hóa của các halogen biến thiên như thế nào khi đi từ F xuống I?",
+      "options": [
+        "Giảm dần: F > Cl > Br > I",
+        "Tăng dần: F < Cl < Br < I",
+        "Không thay đổi",
+        "Tăng rồi giảm"
+      ],
+      "answer": 0,
+      "hint": "Trong nhóm VIIA, từ F → I: tính oxi hóa giảm dần (F mạnh nhất)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Chất nào sau đây có liên kết CỘNG HÓA TRỊ CÓ CỰC (electron dùng chung lệch về phía nguyên tử có độ âm điện lớn hơn)?",
+      "options": [
+        "$HCl$",
+        "$Cl_2$",
+        "$H_2$",
+        "$N_2$"
+      ],
+      "answer": 0,
+      "hint": "$HCl$: $H$ và $Cl$ có độ âm điện khác nhau → cặp electron lệch về $Cl$ → liên kết CHT có cực."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về liên kết hóa học:",
+      "statements": [
+        { "text": "Liên kết ion thường được hình thành giữa kim loại điển hình và phi kim điển hình.", "answer": true },
+        { "text": "Liên kết cộng hóa trị được hình thành do hai nguyên tử dùng chung cặp electron.", "answer": true },
+        { "text": "Liên kết cộng hóa trị KHÔNG CỰC thường gặp giữa hai nguyên tử của cùng một nguyên tố phi kim (vd $Cl_2$, $H_2$).", "answer": true },
+        { "text": "Mọi liên kết ion đều có thể được coi là liên kết cộng hóa trị.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về phản ứng oxi hóa - khử và halogen:",
+      "statements": [
+        { "text": "Trong phản ứng oxi hóa - khử, chất khử nhường electron và bị oxi hóa.", "answer": true },
+        { "text": "Halogen có tính oxi hóa mạnh do có 7 electron lớp ngoài cùng, dễ nhận thêm 1 electron.", "answer": true },
+        { "text": "Trong nhóm halogen, từ F xuống I, tính oxi hóa giảm dần.", "answer": true },
+        { "text": "Chất oxi hóa là chất bị oxi hóa, mất electron.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Trong phản ứng $Zn + 2HCl \\rightarrow ZnCl_2 + H_2$, số oxi hóa của Zn tăng từ $0$ lên ___",
+      "answer": "+2",
+      "alternatives": ["2", "+2"],
+      "hint": "Zn → Zn$^{+2}$ + 2e: Zn nhường 2e, số oxi hóa tăng từ 0 lên $+2$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Nguyên tố halogen nhẹ nhất, mạnh nhất về tính oxi hóa là ___",
+      "answer": "F",
+      "alternatives": ["fluorine", "Fluorine", "F (fluorine)"],
+      "hint": "Fluorine (F) là halogen có tính oxi hóa mạnh nhất."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trong phản ứng oxi hóa - khử, chất oxi hóa nhận electron và bị khử.",
+      "answer": true,
+      "hint": "Chất oxi hóa: nhận e ⇒ bị khử; chất khử: nhường e ⇒ bị oxi hóa."
+    }
+  ]
+}

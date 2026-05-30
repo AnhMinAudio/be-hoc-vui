@@ -1,0 +1,218 @@
+{
+  "id": "thpt-sinh-hoc-l10-te-bao-cau-truc",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 10,
+  "topic": "Cấu trúc tế bào nhân sơ và tế bào nhân thực",
+  "chapter": "Sinh học tế bào 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Tế bào nhân sơ - cấu trúc và đặc điểm",
+    "Tế bào nhân thực - các bào quan chính",
+    "Màng sinh chất và vận chuyển qua màng",
+    "Chức năng của các bào quan"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tế bào NHÂN SƠ có đặc điểm cấu trúc nào sau đây?",
+      "options": [
+        "Không có nhân hoàn chỉnh (chưa có màng nhân) và không có các bào quan có màng",
+        "Có nhân hoàn chỉnh, có nhiều bào quan có màng",
+        "Kích thước thường lớn hơn tế bào nhân thực",
+        "Có ti thể và lục lạp"
+      ],
+      "answer": 0,
+      "hint": "Tế bào nhân sơ (như vi khuẩn) chưa có nhân được bao bọc bởi màng; chưa có ti thể, lưới nội chất, Golgi..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tế bào NHÂN THỰC khác tế bào nhân sơ ở chỗ:",
+      "options": [
+        "Có nhân hoàn chỉnh được bao bọc bởi màng nhân và có nhiều bào quan có màng",
+        "Không có màng sinh chất",
+        "Không có vật chất di truyền",
+        "Hoàn toàn không có bào quan"
+      ],
+      "answer": 0,
+      "hint": "Tế bào nhân thực có nhân + nhiều bào quan có màng (ti thể, lục lạp, lưới nội chất, Golgi, lysosome…)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "MÀNG SINH CHẤT của tế bào có cấu trúc cơ bản là:",
+      "options": [
+        "Lớp kép phospholipid kết hợp với các loại protein, có tính \"khảm động\"",
+        "Một lớp protein duy nhất",
+        "Tinh thể muối khoáng",
+        "Lớp đường saccharose"
+      ],
+      "answer": 0,
+      "hint": "Mô hình \"khảm động\" (fluid mosaic): lớp kép phospholipid + các protein khảm trong đó."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "NHÂN của tế bào nhân thực chứa thành phần nào sau đây?",
+      "options": [
+        "Chất nhiễm sắc (chromatin) chứa DNA và protein, là nơi lưu giữ thông tin di truyền",
+        "Lipid là chính",
+        "Carbohydrate dự trữ",
+        "Không chứa gì"
+      ],
+      "answer": 0,
+      "hint": "Nhân chứa chromatin (DNA + protein histone), là trung tâm điều khiển hoạt động của tế bào."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bào quan nào trong tế bào tổng hợp protein?",
+      "options": [
+        "Ribosome",
+        "Ti thể",
+        "Lysosome",
+        "Không bào"
+      ],
+      "answer": 0,
+      "hint": "Ribosome — bào quan nhỏ, có thể tự do hoặc gắn trên lưới nội chất hạt."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "TI THỂ có vai trò chính là:",
+      "options": [
+        "Nơi diễn ra hô hấp tế bào, tổng hợp ATP",
+        "Tổng hợp protein",
+        "Lưu trữ DNA",
+        "Tiêu hóa các chất ngoại bào"
+      ],
+      "answer": 0,
+      "hint": "Ti thể được ví là \"nhà máy năng lượng\" của tế bào."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "LỤC LẠP có ở loại tế bào nào và chức năng chính là gì?",
+      "options": [
+        "Tế bào thực vật và một số tảo; chứa diệp lục, là nơi diễn ra quang hợp",
+        "Tế bào động vật; tổng hợp protein",
+        "Tế bào vi khuẩn; lưu trữ DNA",
+        "Mọi tế bào; phân giải chất hữu cơ"
+      ],
+      "answer": 0,
+      "hint": "Lục lạp chỉ có ở thực vật và một số tảo (không có ở động vật, nấm)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "BỘ MÁY GOLGI (Golgi) có vai trò gì trong tế bào?",
+      "options": [
+        "Đóng gói, hoàn thiện và phân phối protein, lipid đến các vị trí cần thiết",
+        "Lưu trữ DNA",
+        "Tổng hợp ATP",
+        "Quang hợp"
+      ],
+      "answer": 0,
+      "hint": "Golgi như \"trung tâm phân phối\" của tế bào: đóng gói, chế biến và phân phối sản phẩm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "LYSOSOME (lizôxôm) là bào quan có vai trò:",
+      "options": [
+        "Chứa enzyme tiêu hóa, phân giải các chất và bào quan hư hỏng trong tế bào",
+        "Tổng hợp protein",
+        "Quang hợp",
+        "Lưu trữ DNA"
+      ],
+      "answer": 0,
+      "hint": "Lysosome chứa enzyme thủy phân — như \"hệ thống tiêu hóa nội bào\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "LƯỚI NỘI CHẤT HẠT (rough ER) khác lưới nội chất trơn ở chỗ:",
+      "options": [
+        "Trên bề mặt có gắn các ribosome — tham gia tổng hợp và vận chuyển protein",
+        "Không có ribosome trên bề mặt",
+        "Chỉ tổng hợp lipid",
+        "Chứa diệp lục"
+      ],
+      "answer": 0,
+      "hint": "Lưới nội chất hạt có ribosome → tổng hợp protein; lưới nội chất trơn không có ribosome → tổng hợp lipid."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cấu trúc nào CHỈ có ở tế bào thực vật (KHÔNG có ở tế bào động vật)?",
+      "options": [
+        "Thành tế bào (cellulose) và lục lạp",
+        "Nhân tế bào",
+        "Ti thể",
+        "Màng sinh chất"
+      ],
+      "answer": 0,
+      "hint": "Thành cellulose và lục lạp là đặc trưng của tế bào thực vật; tế bào động vật không có."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tế bào nào sau đây thuộc nhóm NHÂN SƠ?",
+      "options": [
+        "Vi khuẩn $E.\\,coli$",
+        "Tế bào gan người",
+        "Tế bào lá cây",
+        "Tế bào nấm men"
+      ],
+      "answer": 0,
+      "hint": "Vi khuẩn (Bacteria) thuộc giới Khởi sinh, là sinh vật nhân sơ. Gan, lá, nấm men đều nhân thực."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về tế bào nhân sơ và nhân thực:",
+      "statements": [
+        { "text": "Tế bào nhân sơ chưa có màng nhân ngăn cách vật chất di truyền với tế bào chất.", "answer": true },
+        { "text": "Vi khuẩn là sinh vật nhân sơ.", "answer": true },
+        { "text": "Tế bào nhân thực có nhiều bào quan có màng (ti thể, lục lạp, lưới nội chất...).", "answer": true },
+        { "text": "Mọi tế bào nhân thực đều có lục lạp.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các bào quan:",
+      "statements": [
+        { "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cho tế bào.", "answer": true },
+        { "text": "Lục lạp chỉ có ở tế bào thực vật và một số tảo.", "answer": true },
+        { "text": "Ribosome là bào quan tổng hợp protein.", "answer": true },
+        { "text": "Lysosome có vai trò chính là quang hợp.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Bào quan diễn ra quá trình quang hợp ở tế bào thực vật là ___",
+      "answer": "lục lạp",
+      "alternatives": ["luc lap", "Lục lạp"],
+      "hint": "Lục lạp chứa diệp lục."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Bào quan tổng hợp protein trong tế bào là ___",
+      "answer": "ribosome",
+      "alternatives": ["Ribosome", "ribôxôm"],
+      "hint": "Ribosome có ở cả tế bào nhân sơ và nhân thực."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Tế bào thực vật có thành tế bào bằng cellulose, còn tế bào động vật không có.",
+      "answer": true,
+      "hint": "Thành cellulose là đặc trưng cấu trúc của tế bào thực vật."
+    }
+  ]
+}

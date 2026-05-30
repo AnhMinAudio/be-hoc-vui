@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l10-phap-luat",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 10,
+  "topic": "Hệ thống chính trị, pháp luật và Hiến pháp Việt Nam",
+  "chapter": "Pháp luật 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Hệ thống chính trị Việt Nam",
+    "Đặc điểm và vai trò của pháp luật",
+    "Hiến pháp - luật cơ bản",
+    "Quyền và nghĩa vụ cơ bản của công dân"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hệ thống chính trị nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm:",
+      "options": [
+        "Đảng Cộng sản Việt Nam, Nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã hội",
+        "Chỉ Đảng Cộng sản Việt Nam",
+        "Chỉ Nhà nước",
+        "Một số doanh nghiệp lớn"
+      ],
+      "answer": 0,
+      "hint": "Hệ thống chính trị VN: Đảng + Nhà nước + MTTQ + các tổ chức CT-XH."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đảng Cộng sản Việt Nam giữ vai trò gì trong hệ thống chính trị Việt Nam?",
+      "options": [
+        "Lãnh đạo Nhà nước và xã hội",
+        "Chỉ tham gia bầu cử như các tổ chức khác",
+        "Không có vai trò gì đặc biệt",
+        "Là một tổ chức kinh tế"
+      ],
+      "answer": 0,
+      "hint": "Theo Hiến pháp 2013, Đảng Cộng sản VN lãnh đạo Nhà nước và xã hội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "PHÁP LUẬT có những đặc điểm cơ bản nào sau đây?",
+      "options": [
+        "Tính quy phạm phổ biến, tính quyền lực bắt buộc chung, tính xác định chặt chẽ về hình thức",
+        "Chỉ áp dụng cho một số người nhất định",
+        "Có thể tuân theo hoặc không tùy ý muốn",
+        "Chỉ là quy ước miệng giữa các cá nhân"
+      ],
+      "answer": 0,
+      "hint": "Ba đặc điểm: quy phạm phổ biến + bắt buộc chung + xác định chặt chẽ về hình thức."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong hệ thống pháp luật Việt Nam, văn bản nào có hiệu lực pháp lí CAO NHẤT?",
+      "options": [
+        "Hiến pháp",
+        "Bộ luật Hình sự",
+        "Luật do Quốc hội ban hành",
+        "Nghị định của Chính phủ"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp là luật cơ bản của Nhà nước; mọi văn bản khác phải phù hợp với Hiến pháp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cơ quan có thẩm quyền ban hành Hiến pháp và các luật ở Việt Nam là:",
+      "options": [
+        "Quốc hội",
+        "Chính phủ",
+        "Tòa án nhân dân tối cao",
+        "Ủy ban Mặt trận Tổ quốc"
+      ],
+      "answer": 0,
+      "hint": "Quốc hội là cơ quan đại biểu cao nhất của Nhân dân, cơ quan quyền lực nhà nước cao nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quyền nào sau đây là quyền CƠ BẢN của công dân được Hiến pháp ghi nhận?",
+      "options": [
+        "Quyền sống, quyền tự do ngôn luận, quyền bầu cử, quyền tự do tín ngưỡng - tôn giáo, quyền học tập, quyền lao động...",
+        "Quyền vi phạm pháp luật mà không bị xử lí",
+        "Quyền không phải nộp thuế",
+        "Quyền tự ý xử kẻ trộm mà không cần qua cơ quan có thẩm quyền"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp 2013 ghi nhận nhiều quyền cơ bản của công dân (Chương II)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo Hiến pháp 2013, công dân Việt Nam đủ bao nhiêu tuổi trở lên có quyền BẦU CỬ đại biểu Quốc hội và Hội đồng nhân dân?",
+      "options": [
+        "Đủ 18 tuổi",
+        "Đủ 16 tuổi",
+        "Đủ 20 tuổi",
+        "Đủ 21 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Công dân đủ 18 tuổi trở lên có quyền bầu cử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo Hiến pháp 2013, công dân Việt Nam đủ bao nhiêu tuổi trở lên có quyền ỨNG CỬ vào Quốc hội, HĐND?",
+      "options": [
+        "Đủ 21 tuổi",
+        "Đủ 18 tuổi",
+        "Đủ 25 tuổi",
+        "Đủ 30 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Quyền bầu cử: đủ 18 tuổi; quyền ứng cử: đủ 21 tuổi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "NGHĨA VỤ nào sau đây là nghĩa vụ cơ bản của công dân Việt Nam?",
+      "options": [
+        "Trung thành và bảo vệ Tổ quốc, tuân theo Hiến pháp và pháp luật, nộp thuế, học tập, bảo vệ môi trường",
+        "Phải đi du học bắt buộc",
+        "Phải sở hữu một doanh nghiệp",
+        "Không có nghĩa vụ gì"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp ghi nhận các nghĩa vụ cơ bản: bảo vệ Tổ quốc, tuân thủ pháp luật, nộp thuế, học tập, bảo vệ môi trường..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một bạn học sinh tự ý quay video người khác mà không xin phép, rồi đăng lên mạng xã hội với lời lẽ xúc phạm. Hành vi này VI PHẠM quyền cơ bản nào của công dân?",
+      "options": [
+        "Quyền bảo vệ danh dự, nhân phẩm, uy tín và quyền về hình ảnh cá nhân",
+        "Quyền tự do ngôn luận tuyệt đối",
+        "Quyền học tập",
+        "Quyền lao động"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp 2013 và Bộ luật Dân sự bảo vệ danh dự, nhân phẩm, uy tín, hình ảnh cá nhân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Khẳng định nào sau đây thể hiện đúng nguyên tắc \"Mọi công dân đều BÌNH ĐẲNG trước pháp luật\"?",
+      "options": [
+        "Mọi công dân, không phân biệt giới tính, dân tộc, tôn giáo, địa vị xã hội..., đều được pháp luật bảo vệ và phải thực hiện các nghĩa vụ pháp luật như nhau",
+        "Người có chức vụ được hưởng đặc quyền hơn người dân thường",
+        "Chỉ người giàu mới phải tuân thủ pháp luật",
+        "Pháp luật chỉ áp dụng cho người lớn"
+      ],
+      "answer": 0,
+      "hint": "Bình đẳng trước pháp luật: không phân biệt đối xử về quyền và nghĩa vụ."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hệ thống chính trị và pháp luật Việt Nam:",
+      "statements": [
+        { "text": "Đảng Cộng sản Việt Nam là lực lượng lãnh đạo Nhà nước và xã hội ở Việt Nam.", "answer": true },
+        { "text": "Pháp luật do Nhà nước ban hành và được bảo đảm thực hiện bằng quyền lực nhà nước.", "answer": true },
+        { "text": "Hiến pháp là luật cơ bản của Nhà nước, có hiệu lực pháp lí cao nhất.", "answer": true },
+        { "text": "Quốc hội là cơ quan có thẩm quyền cao nhất trong xét xử các vụ án.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ công dân:",
+      "statements": [
+        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử; đủ 21 tuổi trở lên có quyền ứng cử vào Quốc hội, HĐND.", "answer": true },
+        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
+        { "text": "Bảo vệ Tổ quốc là quyền và nghĩa vụ thiêng liêng của công dân.", "answer": true },
+        { "text": "Công dân chỉ có quyền mà không có nghĩa vụ nào đối với Nhà nước.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Cơ quan quyền lực nhà nước cao nhất ở Việt Nam, có thẩm quyền ban hành Hiến pháp và các luật là ___",
+      "answer": "Quốc hội",
+      "alternatives": ["quoc hoi"],
+      "hint": "Quốc hội là cơ quan đại biểu cao nhất của Nhân dân."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội ở nước ta.",
+      "answer": "18",
+      "alternatives": ["mười tám"],
+      "hint": "Tuổi bầu cử ở Việt Nam: đủ 18."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Hiến pháp là luật cơ bản của Nhà nước, có hiệu lực pháp lí cao nhất; mọi văn bản pháp luật khác phải phù hợp với Hiến pháp.",
+      "answer": true,
+      "hint": "Tính tối thượng của Hiến pháp."
+    }
+  ]
+}

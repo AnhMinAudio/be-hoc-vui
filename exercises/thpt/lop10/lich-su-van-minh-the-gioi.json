@@ -1,0 +1,218 @@
+{
+  "id": "thpt-lich-su-l10-van-minh-the-gioi",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 10,
+  "topic": "Các nền văn minh thế giới thời cổ - trung đại",
+  "chapter": "Văn minh thế giới 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Văn minh Ai Cập và Lưỡng Hà cổ đại",
+    "Văn minh Hy Lạp và La Mã cổ đại",
+    "Văn minh Ấn Độ và Trung Hoa",
+    "Thành tựu tiêu biểu của các nền văn minh"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nền văn minh Ai Cập cổ đại hình thành và phát triển ở lưu vực sông nào?",
+      "options": [
+        "Sông Nile (Ai Cập)",
+        "Sông Hằng (Ấn Độ)",
+        "Sông Hoàng Hà (Trung Quốc)",
+        "Sông Tigris và Euphrates (Lưỡng Hà)"
+      ],
+      "answer": 0,
+      "hint": "Ai Cập cổ đại nằm dọc sông Nile (Bắc Phi)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Văn minh LƯỠNG HÀ cổ đại hình thành ở lưu vực hai con sông nào?",
+      "options": [
+        "Tigris và Euphrates (vùng Tây Á)",
+        "Nile và Niger (châu Phi)",
+        "Hằng và Indus (Ấn Độ)",
+        "Hoàng Hà và Trường Giang (Trung Quốc)"
+      ],
+      "answer": 0,
+      "hint": "\"Lưỡng Hà\" nghĩa là vùng giữa hai con sông Tigris và Euphrates."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công trình kiến trúc tiêu biểu nhất của văn minh Ai Cập cổ đại là:",
+      "options": [
+        "Kim tự tháp (Pyramid)",
+        "Đại Vạn Lý Trường Thành",
+        "Đấu trường La Mã (Colosseum)",
+        "Đền thờ Parthenon"
+      ],
+      "answer": 0,
+      "hint": "Kim tự tháp là biểu tượng nổi tiếng nhất của Ai Cập cổ đại."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Loại chữ viết tiêu biểu của người Ai Cập cổ đại là:",
+      "options": [
+        "Chữ tượng hình (hieroglyph)",
+        "Chữ Latin",
+        "Chữ Hán",
+        "Chữ Arập"
+      ],
+      "answer": 0,
+      "hint": "Chữ tượng hình Ai Cập được khắc trên giấy papyrus và đá."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai nền văn minh nào sau đây đặt nền móng cho văn minh phương Tây?",
+      "options": [
+        "Văn minh Hy Lạp và La Mã cổ đại",
+        "Văn minh Ai Cập và Lưỡng Hà",
+        "Văn minh Ấn Độ và Trung Hoa",
+        "Văn minh Maya và Inca"
+      ],
+      "answer": 0,
+      "hint": "Hy Lạp - La Mã cổ đại là cội nguồn của triết học, pháp luật, kiến trúc phương Tây."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đấu trường Colosseum (Cô-li-dê) ở Rô-ma (Italia ngày nay) là di sản nổi tiếng của nền văn minh:",
+      "options": [
+        "La Mã cổ đại",
+        "Ai Cập cổ đại",
+        "Hy Lạp cổ đại",
+        "Trung Hoa cổ đại"
+      ],
+      "answer": 0,
+      "hint": "Colosseum được xây dựng ở thủ đô Rô-ma của La Mã cổ đại."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhà triết học nổi tiếng nào sau đây là người Hy Lạp cổ đại?",
+      "options": [
+        "Arít-xtốt (Aristotle), Pla-tông (Plato), Xô-crát (Socrates)",
+        "Khổng Tử, Lão Tử, Mạnh Tử",
+        "Đức Phật, Mahatma Gandhi",
+        "Tào Tháo, Lưu Bị"
+      ],
+      "answer": 0,
+      "hint": "Aristotle, Plato, Socrates là ba triết gia lớn của Hy Lạp cổ đại."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tôn giáo nào sau đây ra đời tại Ấn Độ cổ đại?",
+      "options": [
+        "Phật giáo và Hin-đu giáo (Ấn Độ giáo)",
+        "Hồi giáo",
+        "Thiên Chúa giáo",
+        "Đạo Tin Lành"
+      ],
+      "answer": 0,
+      "hint": "Phật giáo và Hin-đu giáo đều phát nguyên từ Ấn Độ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nhà tư tưởng nào sau đây là người đặt nền móng cho Nho giáo, có ảnh hưởng lớn ở Trung Quốc và Đông Á?",
+      "options": [
+        "Khổng Tử",
+        "Lão Tử",
+        "Đức Phật",
+        "Pla-tông"
+      ],
+      "answer": 0,
+      "hint": "Khổng Tử (551-479 TCN) là người sáng lập Nho giáo."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Vạn Lý Trường Thành là công trình kiến trúc nổi tiếng của nền văn minh:",
+      "options": [
+        "Trung Hoa",
+        "Ai Cập",
+        "La Mã",
+        "Ấn Độ"
+      ],
+      "answer": 0,
+      "hint": "Vạn Lý Trường Thành được xây dựng và mở rộng qua nhiều triều đại Trung Quốc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Phát minh \"4 phát minh lớn\" của người Trung Hoa cổ-trung đại gồm:",
+      "options": [
+        "Giấy, kĩ thuật in, la bàn và thuốc súng",
+        "Bánh xe, đèn dầu, kính thiên văn, kim tự tháp",
+        "Máy hơi nước, điện, điện thoại, ô tô",
+        "Internet, máy tính, máy bay, tên lửa"
+      ],
+      "answer": 0,
+      "hint": "\"Tứ đại phát minh\" của Trung Hoa: giấy, kĩ thuật in, la bàn và thuốc súng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tại sao các nền văn minh cổ đại lớn (Ai Cập, Lưỡng Hà, Ấn Độ, Trung Hoa) thường hình thành ở lưu vực các con sông lớn?",
+      "options": [
+        "Vì nguồn nước dồi dào, đất phù sa màu mỡ thuận lợi cho nông nghiệp; giao thông đường thủy thuận tiện",
+        "Vì các con sông có nhiều mỏ vàng",
+        "Vì khí hậu ven sông lạnh quanh năm",
+        "Vì không có cư dân nào khác sinh sống"
+      ],
+      "answer": 0,
+      "hint": "Nông nghiệp dựa vào nước tưới và đất phù sa → các nền văn minh nông nghiệp lớn thường ven sông."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các nền văn minh cổ đại phương Đông:",
+      "statements": [
+        { "text": "Văn minh Ai Cập cổ đại hình thành ở lưu vực sông Nile, nổi tiếng với kim tự tháp và chữ tượng hình.", "answer": true },
+        { "text": "\"Lưỡng Hà\" là vùng đất giữa hai con sông Tigris và Euphrates (Tây Á).", "answer": true },
+        { "text": "Phật giáo và Hin-đu giáo đều ra đời tại Ấn Độ cổ đại.", "answer": true },
+        { "text": "Vạn Lý Trường Thành là công trình kiến trúc nổi tiếng của Ai Cập.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về văn minh Hy Lạp - La Mã cổ đại:",
+      "statements": [
+        { "text": "Hy Lạp và La Mã cổ đại đặt nền móng cho văn minh phương Tây.", "answer": true },
+        { "text": "Aristotle, Plato, Socrates là ba nhà triết học lớn của Hy Lạp cổ đại.", "answer": true },
+        { "text": "Đấu trường Colosseum là di sản nổi tiếng của La Mã cổ đại.", "answer": true },
+        { "text": "Văn minh Hy Lạp - La Mã không có ảnh hưởng gì đến văn minh phương Tây hiện đại.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Loại chữ viết tiêu biểu của người Ai Cập cổ đại là chữ ___",
+      "answer": "tượng hình",
+      "alternatives": ["tuong hinh", "chữ tượng hình", "hieroglyph"],
+      "hint": "Chữ tượng hình (hieroglyph) được khắc trên giấy papyrus và đá."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Người Trung Quốc cổ-trung đại có \"tứ đại phát minh\": giấy, kĩ thuật in, la bàn và ___",
+      "answer": "thuốc súng",
+      "alternatives": ["thuoc sung"],
+      "hint": "Bốn phát minh lớn: giấy, kĩ thuật in, la bàn, thuốc súng."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Khổng Tử là người sáng lập Nho giáo, có ảnh hưởng sâu rộng đến văn hóa Trung Quốc và các nước Đông Á.",
+      "answer": true,
+      "hint": "Nho giáo do Khổng Tử (Confucius) sáng lập, lan tỏa khắp Đông Á."
+    }
+  ]
+}
