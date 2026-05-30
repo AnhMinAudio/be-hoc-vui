@@ -1167,6 +1167,7 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
   margin-top: 16px; display: flex; flex-direction: column; gap: 10px;
   text-align: left;
 }
+.review-list[hidden] { display: none; } /* author CSS đè HTML hidden → cần ép lại */
 .rv {
   padding: 12px 14px; border-radius: 10px;
   border-left: 4px solid var(--c-border);
