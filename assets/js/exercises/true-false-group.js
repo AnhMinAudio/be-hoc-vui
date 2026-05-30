@@ -9,7 +9,8 @@ const TrueFalseGroup = {
 
     const text = document.createElement('div');
     text.className = 'question-text';
-    text.textContent = `Câu ${idx + 1}. ${q.question}`;
+    const fmt = window.__formatQ || (s => String(s == null ? '' : s));
+    text.innerHTML = `Câu ${idx + 1}. ${fmt(q.question)}`;
     wrap.appendChild(text);
     if (q.image && window.__renderImage) window.__renderImage(wrap, q);
 
@@ -27,7 +28,7 @@ const TrueFalseGroup = {
       row.className = 'tfg-row';
       const label = document.createElement('div');
       label.className = 'tfg-statement';
-      label.textContent = `${letters[i]}) ${st.text}`;
+      label.innerHTML = `${letters[i]}) ${fmt(st.text)}`;
       const btns = document.createElement('div');
       btns.className = 'tfg-buttons';
       [['Đúng', true], ['Sai', false]].forEach(([txt, val]) => {

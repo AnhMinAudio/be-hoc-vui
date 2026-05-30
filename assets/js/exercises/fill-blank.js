@@ -15,6 +15,7 @@ const FillBlank = {
     // Tách "___" trong câu hỏi để chèn input vào giữa
     const fq = document.createElement('div');
     fq.className = 'fill-question';
+    const fmt = window.__formatQ || (s => String(s == null ? '' : s));
     const parts = q.question.split(/_{2,}|\.\.\./);
     const input = document.createElement('input');
     input.className = 'fill-input';
@@ -26,14 +27,14 @@ const FillBlank = {
       parts.forEach((p, i) => {
         if (p) {
           const span = document.createElement('span');
-          span.textContent = p;
+          span.innerHTML = fmt(p);
           fq.appendChild(span);
         }
         if (i < parts.length - 1) fq.appendChild(input);
       });
     } else {
       const span = document.createElement('span');
-      span.textContent = q.question;
+      span.innerHTML = fmt(q.question);
       fq.appendChild(span);
       fq.appendChild(input);
     }

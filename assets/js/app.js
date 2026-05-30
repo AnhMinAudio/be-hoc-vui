@@ -191,6 +191,18 @@ window.addEventListener('beforeunload', (e) => {
   if (exerciseGuard) { e.preventDefault(); e.returnValue = ''; }
 });
 
+// Format text câu hỏi: escape HTML rồi convert marker [u]…[/u] → <u>…</u> (+ [b], [i]).
+// An toàn cho user input (escape trước, mở allowlist sau). KaTeX vẫn chạy trên $...$.
+function formatQuestionText(s) {
+  const esc = String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+  return esc
+    .replace(/\[u\]/g, '<u>').replace(/\[\/u\]/g, '</u>')
+    .replace(/\[b\]/g, '<b>').replace(/\[\/b\]/g, '</b>')
+    .replace(/\[i\]/g, '<i>').replace(/\[\/i\]/g, '</i>');
+}
+window.__formatQ = formatQuestionText;
+
 function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -2406,8 +2418,8 @@ async function renderExercise(view, id) {
             const ans = questionAnswerText(q);
             return `<div class="rv ${ok ? 'ok' : 'no'}">
               <div class="rv-h">Câu ${i + 1} ${ok ? '✓' : '✗'}${q.level ? ` <span class="rv-lv">${q.level}</span>` : ''}</div>
-              ${q.question ? `<div class="rv-q">${q.question}</div>` : ''}
-              ${ans ? `<div class="rv-a">Đáp án: <b>${ans}</b></div>` : ''}
+              ${q.question ? `<div class="rv-q">${formatQuestionText(q.question)}</div>` : ''}
+              ${ans ? `<div class="rv-a">Đáp án: <b>${formatQuestionText(ans)}</b></div>` : ''}
               ${q.hint ? `<div class="rv-hint">💡 ${q.hint}</div>` : ''}
             </div>`;
           }).join('');

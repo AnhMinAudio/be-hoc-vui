@@ -117,6 +117,7 @@ Ví dụ:
 { "type": "multiple-choice", "question": "What does 'mother' mean? (Từ 'mother' nghĩa là gì?)", "options": ["bố", "mẹ", "anh trai", "chị gái"], "answer": 1 }
 ```
 - Câu ghép cặp: phần hướng dẫn cũng song ngữ, ví dụ `"Match the word with its meaning (Nối từ với nghĩa)"`.
+- **Gạch chân từ:** dùng marker `[u]…[/u]` cho câu "tìm từ đồng nghĩa/trái nghĩa với từ được gạch chân". Ví dụ: `"Choose the word closest in meaning to the underlined word: 'Global warming is a serious [u]threat[/u] to the environment.'"`. Cũng hỗ trợ `[b]…[/b]` (in đậm), `[i]…[/i]` (in nghiêng) cho mọi cấp.
 - Áp dụng cho TẤT CẢ đề `tieng-anh`, mọi lớp.
 
 ## QUY TẮC CHẤT LƯỢNG ĐỀ

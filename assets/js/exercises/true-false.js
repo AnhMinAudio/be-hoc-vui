@@ -8,7 +8,8 @@ const TrueFalse = {
 
     const text = document.createElement('div');
     text.className = 'question-text';
-    text.textContent = `Câu ${idx + 1}. ${q.question}`;
+    const fmt = window.__formatQ || (s => String(s == null ? '' : s));
+    text.innerHTML = `Câu ${idx + 1}. ${fmt(q.question)}`;
     wrap.appendChild(text);
     if (q.image && window.__renderImage) window.__renderImage(wrap, q);
 

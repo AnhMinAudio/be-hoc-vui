@@ -794,6 +794,14 @@ body[data-stage="thcs"] .brand-mark, body[data-stage="thpt"] .brand-mark { borde
   margin-bottom: 18px;
   line-height: 1.35;
 }
+/* Gạch chân + đậm trong câu hỏi (tìm từ đồng nghĩa/trái nghĩa) — rõ hơn mặc định */
+.question-text u, .tfg-statement u, .rv-q u, .fill-question u {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--c-primary);
+  font-weight: 800;
+}
 
 /* Multiple choice */
 .options { display: grid; gap: 10px; }

@@ -107,7 +107,7 @@
     {
       "type": "multiple-choice",
       "level": "VD",
-      "question": "Choose the word closest in meaning to the underlined word: 'Global warming is a serious threat to the environment.' (Chọn từ gần nghĩa nhất với từ được gạch chân 'threat')",
+      "question": "Choose the word closest in meaning to the underlined word: 'Global warming is a serious [u]threat[/u] to the environment.' (Chọn từ gần nghĩa nhất với từ được gạch chân)",
       "options": [
         "benefit",
         "danger",

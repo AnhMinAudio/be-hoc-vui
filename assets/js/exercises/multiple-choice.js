@@ -9,7 +9,8 @@ const MultipleChoice = {
 
     const text = document.createElement('div');
     text.className = 'question-text';
-    text.textContent = `Câu ${idx + 1}. ${q.question}`;
+    const fmt = window.__formatQ || (s => String(s == null ? '' : s));
+    text.innerHTML = `Câu ${idx + 1}. ${fmt(q.question)}`;
     wrap.appendChild(text);
 
     if (q.image && window.__renderImage) window.__renderImage(wrap, q);
@@ -22,7 +23,7 @@ const MultipleChoice = {
     q.options.forEach((opt, i) => {
       const btn = document.createElement('button');
       btn.className = 'option';
-      btn.innerHTML = `<span class="letter">${letters[i]}</span><span>${opt}</span>`;
+      btn.innerHTML = `<span class="letter">${letters[i]}</span><span>${fmt(opt)}</span>`;
       btn.onclick = () => {
         if (answered) return;
         answered = true;

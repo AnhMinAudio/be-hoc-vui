@@ -6,7 +6,8 @@ const Matching = {
 
     const text = document.createElement('div');
     text.className = 'question-text';
-    text.textContent = `Câu ${idx + 1}. ${q.question || 'Hãy ghép các cặp tương ứng'}`;
+    const fmt = window.__formatQ || (s => String(s == null ? '' : s));
+    text.innerHTML = `Câu ${idx + 1}. ${fmt(q.question || 'Hãy ghép các cặp tương ứng')}`;
     wrap.appendChild(text);
 
     const hint = document.createElement('div');
