@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="Arial, sans-serif">
+  <title>Mạch điện đơn giản: pin, công tắc, bóng đèn</title>
+  <polyline points="50,55 50,86" fill="none" stroke="#0D47A1" stroke-width="2.5"></polyline>
+  <polyline points="50,106 50,150 270,150 270,116" fill="none" stroke="#0D47A1" stroke-width="2.5"></polyline>
+  <polyline points="270,84 270,55 188,55" fill="none" stroke="#0D47A1" stroke-width="2.5"></polyline>
+  <polyline points="140,55 50,55" fill="none" stroke="#0D47A1" stroke-width="2.5"></polyline>
+  <line x1="32" y1="90" x2="68" y2="90" stroke="#0D47A1" stroke-width="2"></line>
+  <line x1="44" y1="103" x2="56" y2="103" stroke="#0D47A1" stroke-width="5"></line>
+  <text x="22" y="101" font-size="15" font-weight="700" fill="#C62828">V</text>
+  <circle cx="270" cy="100" r="16" fill="#E3F2FD" stroke="#0D47A1" stroke-width="2.5"></circle>
+  <line x1="259" y1="89" x2="281" y2="111" stroke="#0D47A1" stroke-width="2"></line>
+  <line x1="281" y1="89" x2="259" y2="111" stroke="#0D47A1" stroke-width="2"></line>
+  <text x="290" y="105" font-size="15" font-weight="700" fill="#C62828">R</text>
+  <line x1="140" y1="55" x2="166" y2="40" stroke="#0D47A1" stroke-width="2.5" stroke-linecap="round"></line>
+  <circle cx="140" cy="55" r="2.6" fill="#0D47A1"></circle><circle cx="188" cy="55" r="2.6" fill="#0D47A1"></circle>
+  <text x="158" y="30" font-size="14" font-weight="700" fill="#0D47A1">K</text>
+</svg>

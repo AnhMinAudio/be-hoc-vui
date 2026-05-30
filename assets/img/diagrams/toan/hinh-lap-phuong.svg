@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" font-family="Arial, sans-serif">
+  <title>Hình lập phương ABCD.A&#39;B&#39;C&#39;D&#39;</title>
+  <polygon points="70,90 190,90 190,200 70,200" fill="#E3F2FD" stroke="#0D47A1" stroke-width="2.2"></polygon>
+  <polygon points="70,90 110,50 230,50 190,90" fill="#BBDEFB" stroke="#0D47A1" stroke-width="2.2"></polygon>
+  <polygon points="190,90 230,50 230,160 190,200" fill="#90CAF9" stroke="#0D47A1" stroke-width="2.2"></polygon>
+  <line x1="110" y1="50" x2="110" y2="160" stroke="#0D47A1" stroke-width="1.4" stroke-dasharray="5 4"></line>
+  <line x1="110" y1="160" x2="230" y2="160" stroke="#0D47A1" stroke-width="1.4" stroke-dasharray="5 4"></line>
+  <line x1="110" y1="160" x2="70" y2="200" stroke="#0D47A1" stroke-width="1.4" stroke-dasharray="5 4"></line>
+  <text x="60" y="214" font-size="12" font-weight="800" fill="#0D47A1">A</text>
+  <text x="194" y="214" font-size="12" font-weight="800" fill="#0D47A1">B</text>
+  <text x="232" y="172" font-size="12" font-weight="800" fill="#0D47A1">C</text>
+  <text x="98" y="172" font-size="12" font-weight="800" fill="#0D47A1">D</text>
+  <text x="58" y="88" font-size="12" font-weight="800" fill="#0D47A1">A&#39;</text>
+  <text x="190" y="86" font-size="12" font-weight="800" fill="#0D47A1">B&#39;</text>
+  <text x="234" y="48" font-size="12" font-weight="800" fill="#0D47A1">C&#39;</text>
+  <text x="100" y="46" font-size="12" font-weight="800" fill="#0D47A1">D&#39;</text>
+</svg>

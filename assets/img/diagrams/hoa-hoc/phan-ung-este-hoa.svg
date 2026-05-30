@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" font-family="Arial, sans-serif">
+  <title>Phản ứng ester hóa</title>
+  <text x="14" y="66" font-size="15" font-weight="700" fill="#37474F">R–COOH</text>
+  <text x="96" y="66" font-size="15" fill="#546E7A">+</text>
+  <text x="112" y="66" font-size="15" font-weight="700" fill="#37474F">R&#39;–OH</text>
+  <g stroke="#0D47A1" stroke-width="1.8" fill="none">
+    <path d="M186,56 L214,56"></path><path d="M208,52 L214,56"></path>
+    <path d="M214,66 L186,66"></path><path d="M192,70 L186,66"></path>
+  </g>
+  <text x="200" y="44" text-anchor="middle" font-size="9" fill="#0D47A1">xúc tác, t°</text>
+  <text x="232" y="66" font-size="15" font-weight="700" fill="#2E7D32">R–COO–R&#39;</text>
+  <text x="318" y="66" font-size="15" fill="#546E7A">+</text>
+  <text x="332" y="66" font-size="15" font-weight="700" fill="#1565C0">H₂O</text>
+  <text x="180" y="112" text-anchor="middle" font-size="11" fill="#546E7A">phản ứng thuận nghịch</text>
+</svg>

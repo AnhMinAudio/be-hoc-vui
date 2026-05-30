@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" font-family="Arial, sans-serif">
+  <title>Pin Galvani Zn–Cu</title>
+  <path d="M40,96 L40,200 L150,200 L150,96" fill="#E3F2FD" stroke="#546E7A" stroke-width="2"></path>
+  <path d="M210,96 L210,200 L320,200 L320,96" fill="#FFF3E0" stroke="#546E7A" stroke-width="2"></path>
+  <rect x="86" y="70" width="12" height="118" rx="2" fill="#90A4AE" stroke="#546E7A" stroke-width="1.5"></rect>
+  <rect x="262" y="70" width="12" height="118" rx="2" fill="#D7842B" stroke="#A65A12" stroke-width="1.5"></rect>
+  <path d="M120,108 Q120,84 180,84 Q240,84 240,108" fill="none" stroke="#7B1FA2" stroke-width="9" stroke-linecap="round" opacity="0.55"></path>
+  <polyline points="92,70 92,46 180,46" fill="none" stroke="#0D47A1" stroke-width="2"></polyline>
+  <polyline points="200,46 268,46 268,70" fill="none" stroke="#0D47A1" stroke-width="2"></polyline>
+  <circle cx="190" cy="46" r="16" fill="#fff" stroke="#0D47A1" stroke-width="2"></circle>
+  <text x="190" y="52" text-anchor="middle" font-size="15" font-weight="800" fill="#0D47A1">V</text>
+  <line x1="108" y1="38" x2="168" y2="38" stroke="#C62828" stroke-width="1.8"></line><path d="M160.7,41.3 L168,38 L160.7,34.7" fill="none" stroke="#C62828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+  <text x="120" y="30" font-size="12" font-weight="700" fill="#C62828">e⁻</text>
+  <text x="92" y="224" text-anchor="middle" font-size="13" font-weight="800" fill="#37474F">Zn</text>
+  <text x="268" y="224" text-anchor="middle" font-size="13" font-weight="800" fill="#A65A12">Cu</text>
+  <text x="95" y="160" text-anchor="middle" font-size="10" fill="#546E7A">ZnSO₄</text>
+  <text x="265" y="160" text-anchor="middle" font-size="10" fill="#546E7A">CuSO₄</text>
+  <text x="180" y="78" text-anchor="middle" font-size="10" fill="#7B1FA2">cầu muối</text>
+</svg>

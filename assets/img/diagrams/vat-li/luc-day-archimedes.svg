@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 240" font-family="Arial, sans-serif">
+  <title>Lực đẩy Archimedes</title>
+  <path d="M40,60 L40,210 L220,210 L220,60" fill="none" stroke="#546E7A" stroke-width="2"></path>
+  <rect x="40" y="86" width="180" height="124" fill="#BBDEFB" opacity="0.7"></rect>
+  <path d="M40,86 q12,-8 24,0 t24,0 t24,0 t24,0 t24,0 t24,0 t24,0" fill="none" stroke="#1565C0" stroke-width="1.5"></path>
+  <rect x="98" y="116" width="64" height="64" rx="4" fill="#FFB74D" stroke="#E65100" stroke-width="2"></rect>
+  <line x1="130" y1="148" x2="130" y2="80" stroke="#2E7D32" stroke-width="2.6"></line><path d="M133.3,87.3 L130,80 L126.7,87.3" fill="none" stroke="#2E7D32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path><text x="136" y="90" font-size="13" font-weight="700" fill="#2E7D32">FA→</text>
+  <line x1="130" y1="148" x2="130" y2="214" stroke="#C62828" stroke-width="2.6"></line><path d="M126.7,206.7 L130,214 L133.3,206.7" fill="none" stroke="#C62828" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path><text x="136" y="208" font-size="13" font-weight="700" fill="#C62828">P→</text>
+</svg>

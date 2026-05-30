@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" font-family="Arial, sans-serif">
+  <title>Sơ đồ hệ tuần hoàn — tim 4 ngăn</title>
+  <path d="M150,60 C110,30 60,60 70,110 C78,150 150,200 150,200 C150,200 222,150 230,110 C240,60 190,30 150,60 Z" fill="#EF9A9A" stroke="#C62828" stroke-width="2"></path>
+  <line x1="150" y1="64" x2="150" y2="192" stroke="#B71C1C" stroke-width="1.6"></line>
+  <line x1="92" y1="110" x2="150" y2="110" stroke="#B71C1C" stroke-width="1.2"></line>
+  <line x1="150" y1="110" x2="208" y2="110" stroke="#B71C1C" stroke-width="1.2"></line>
+  <path d="M120,108 L120,80" fill="none"></path>
+  <ellipse cx="110" cy="90" rx="12" ry="9" fill="#90CAF9"></ellipse><text x="110" y="94" text-anchor="middle" font-size="9" fill="#0D47A1">TP</text>
+  <ellipse cx="190" cy="90" rx="12" ry="9" fill="#EF9A9A"></ellipse><text x="190" y="94" text-anchor="middle" font-size="9" fill="#B71C1C">TT</text>
+  <line x1="150" y1="200" x2="150" y2="228" stroke="#C62828" stroke-width="2.2"></line><path d="M146.7,220.7 L150,228 L153.3,220.7" fill="none" stroke="#C62828" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path><text x="156" y="222" font-size="10" fill="#C62828">vòng lớn</text>
+  <line x1="70" y1="80" x2="40" y2="60" stroke="#1565C0" stroke-width="2"></line><path d="M47.9,61.3 L40,60 L44.3,66.8" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><text x="20" y="54" font-size="10" fill="#1565C0">phổi</text>
+  <text x="150" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#C62828">Tim 4 ngăn</text>
+  <text x="40" y="200" font-size="9" fill="#1565C0">máu giàu CO₂</text>
+  <text x="214" y="200" font-size="9" fill="#C62828">máu giàu O₂</text>
+</svg>

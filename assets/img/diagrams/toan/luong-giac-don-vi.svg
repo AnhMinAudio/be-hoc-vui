@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" font-family="Arial, sans-serif">
+  <title>Đường tròn lượng giác — góc đặc biệt</title>
+  <line x1="150" y1="288" x2="150" y2="20" stroke="#0D47A1" stroke-width="2"></line><path d="M153.3,27.3 L150,20 L146.7,27.3" fill="none" stroke="#0D47A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  <line x1="12" y1="158" x2="288" y2="158" stroke="#0D47A1" stroke-width="2"></line><path d="M280.7,161.3 L288,158 L280.7,154.7" fill="none" stroke="#0D47A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  <circle cx="150" cy="158" r="112" fill="none" stroke="#0D47A1" stroke-width="2"></circle>
+  <line x1="150" y1="158" x2="247.0" y2="102.0" stroke="#1565C0" stroke-width="1.6"></line><circle cx="247.0" cy="102.0" r="3" fill="#C62828"></circle><line x1="150" y1="158" x2="229.2" y2="78.8" stroke="#1565C0" stroke-width="1.6"></line><circle cx="229.2" cy="78.8" r="3" fill="#C62828"></circle><line x1="150" y1="158" x2="206.0" y2="61.0" stroke="#1565C0" stroke-width="1.6"></line><circle cx="206.0" cy="61.0" r="3" fill="#C62828"></circle><line x1="150" y1="158" x2="150.0" y2="46.0" stroke="#1565C0" stroke-width="1.6"></line><circle cx="150.0" cy="46.0" r="3" fill="#C62828"></circle>
+  <text x="290" y="174" font-size="13" font-weight="700" fill="#0D47A1">x</text>
+  <text x="156" y="16" font-size="13" font-weight="700" fill="#0D47A1">y</text>
+  <text x="134" y="176" font-size="11" fill="#546E7A">O</text>
+  <text x="252.99484522385714" y="106" font-size="11" fill="#C62828">30°</text>
+  <text x="233.19595949289334" y="74.80404050710669" font-size="11" fill="#C62828">45°</text>
+  <text x="204" y="55.005154776142874" font-size="11" fill="#C62828">60°</text>
+  <text x="156" y="42" font-size="11" fill="#C62828">90°</text>
+</svg>

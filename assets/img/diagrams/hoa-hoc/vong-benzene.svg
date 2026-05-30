@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 248" font-family="Arial, sans-serif">
+  <title>Vòng benzene C₆H₆ — electron π</title>
+  <polygon points="120.0,52.0 57.6,88.0 57.6,160.0 120.0,196.0 182.4,160.0 182.4,88.0" fill="#E3F2FD" stroke="#0D47A1" stroke-width="2.5" stroke-linejoin="round"></polygon>
+  <circle cx="120" cy="124" r="42" fill="none" stroke="#0D47A1" stroke-width="2.2"></circle>
+  <circle cx="120.0" cy="52.0" r="3.4" fill="#0D47A1"></circle><circle cx="57.6" cy="88.0" r="3.4" fill="#0D47A1"></circle><circle cx="57.6" cy="160.0" r="3.4" fill="#0D47A1"></circle><circle cx="120.0" cy="196.0" r="3.4" fill="#0D47A1"></circle><circle cx="182.4" cy="160.0" r="3.4" fill="#0D47A1"></circle><circle cx="182.4" cy="88.0" r="3.4" fill="#0D47A1"></circle>
+  <text x="120" y="129" text-anchor="middle" font-size="12" fill="#0D47A1">π</text>
+  <text x="120" y="232" text-anchor="middle" font-size="12" fill="#546E7A">6 nguyên tử C</text>
+</svg>

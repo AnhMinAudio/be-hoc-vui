@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180" font-family="Arial, sans-serif">
+  <title>Phóng xạ alpha</title>
+  <circle cx="70" cy="90" r="38" fill="#CE93D8" stroke="#7B1FA2" stroke-width="2"></circle>
+  <text x="70" y="86" text-anchor="middle" font-size="14" font-weight="800" fill="#4A148C">Z, A</text>
+  <text x="70" y="104" text-anchor="middle" font-size="10" fill="#4A148C">hạt nhân mẹ</text>
+  <line x1="118" y1="90" x2="182" y2="90" stroke="#0D47A1" stroke-width="2.4"></line><path d="M174.7,93.3 L182,90 L174.7,86.7" fill="none" stroke="#0D47A1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <text x="150" y="80" text-anchor="middle" font-size="12" font-weight="700" fill="#0D47A1">phân rã α</text>
+  <circle cx="232" cy="90" r="30" fill="#CE93D8" stroke="#7B1FA2" stroke-width="2"></circle>
+  <text x="232" y="88" text-anchor="middle" font-size="12" font-weight="800" fill="#4A148C">Z-2</text>
+  <text x="232" y="102" text-anchor="middle" font-size="12" font-weight="800" fill="#4A148C">A-4</text>
+  <text x="300" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#C62828">+</text>
+  <circle cx="300" cy="86" r="18" fill="#FFCC80" stroke="#E65100" stroke-width="2"></circle>
+  <text x="300" y="90" text-anchor="middle" font-size="12" font-weight="800" fill="#E65100">α</text>
+  <text x="300" y="124" text-anchor="middle" font-size="10" fill="#E65100">⁴₂He</text>
+</svg>

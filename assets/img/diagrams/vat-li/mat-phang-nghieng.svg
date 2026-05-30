@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" font-family="Arial, sans-serif">
+  <title>Vật trên mặt phẳng nghiêng — các lực</title>
+  <polygon points="40,200 290,200 290,80" fill="#E3F2FD" stroke="#0D47A1" stroke-width="2.5" stroke-linejoin="round"></polygon>
+  <path d="M70,200 A 30 30 0 0 0 78,182" fill="none" stroke="#C62828" stroke-width="1.4"></path>
+  <text x="80" y="195" font-size="13" font-weight="700" fill="#C62828">α</text>
+  <g transform="rotate(-25.6 175 137)"><rect x="153" y="121" width="44" height="30" rx="3" fill="#FFB74D" stroke="#E65100" stroke-width="2"></rect><text x="175" y="141" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">m</text></g>
+  <line x1="175" y1="137" x2="175" y2="205" stroke="#C62828" stroke-width="2.4"></line><path d="M171.7,197.7 L175,205 L178.3,197.7" fill="none" stroke="#C62828" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path><text x="180" y="200" font-size="13" font-weight="700" fill="#C62828">P→</text>
+  <line x1="175" y1="137" x2="139" y2="86" stroke="#0D47A1" stroke-width="2.4"></line><path d="M145.9,90.1 L139,86 L140.5,93.8" fill="none" stroke="#0D47A1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path><text x="120" y="86" font-size="13" font-weight="700" fill="#0D47A1">N→</text>
+  <line x1="175" y1="137" x2="219" y2="116" stroke="#2E7D32" stroke-width="2.2"></line><path d="M213.8,122.1 L219,116 L211.0,116.2" fill="none" stroke="#2E7D32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path><text x="222" y="112" font-size="12" font-weight="700" fill="#2E7D32">Fms→</text>
+</svg>

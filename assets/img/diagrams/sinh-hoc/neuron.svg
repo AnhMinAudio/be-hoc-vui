@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" font-family="Arial, sans-serif">
+  <title>Cấu trúc nơ-ron thần kinh</title>
+  <path d="M86,100 q-18,-28 -40,-36" fill="none" stroke="#7B1FA2" stroke-width="2"></path><path d="M86,100 q-18,0 -40,0" fill="none" stroke="#7B1FA2" stroke-width="2"></path><path d="M86,100 q-18,28 -40,36" fill="none" stroke="#7B1FA2" stroke-width="2"></path><path d="M86,100 q-23.400000000000002,-11.200000000000001 -52,-14.4" fill="none" stroke="#7B1FA2" stroke-width="2"></path><path d="M86,100 q-23.400000000000002,11.200000000000001 -52,14.4" fill="none" stroke="#7B1FA2" stroke-width="2"></path>
+  <ellipse cx="92" cy="100" rx="34" ry="30" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"></ellipse>
+  <circle cx="92" cy="100" r="11" fill="#7B1FA2"></circle>
+  <line x1="126" y1="100" x2="300" y2="100" stroke="#0D47A1" stroke-width="4"></line>
+  <ellipse cx="162" cy="100" rx="16" ry="9" fill="#E3F2FD" stroke="#0D47A1" stroke-width="1.6"></ellipse><ellipse cx="208" cy="100" rx="16" ry="9" fill="#E3F2FD" stroke="#0D47A1" stroke-width="1.6"></ellipse><ellipse cx="254" cy="100" rx="16" ry="9" fill="#E3F2FD" stroke="#0D47A1" stroke-width="1.6"></ellipse>
+  <path d="M300,100 q16,-18 30,-20" fill="none" stroke="#0D47A1" stroke-width="2"></path><path d="M300,100 q16,18 30,20" fill="none" stroke="#0D47A1" stroke-width="2"></path><path d="M300,100 q19.2,0 36,0" fill="none" stroke="#0D47A1" stroke-width="2"></path>
+  <text x="92" y="158" text-anchor="middle" font-size="11" fill="#7B1FA2">Thân nơ-ron</text>
+  <text x="34" y="100" text-anchor="middle" font-size="10" fill="#7B1FA2">Sợi nhánh</text>
+  <text x="196" y="80" text-anchor="middle" font-size="10" fill="#0D47A1">Bao myelin</text>
+  <text x="250" y="148" text-anchor="middle" font-size="10" fill="#0D47A1">Sợi trục</text>
+  <text x="330" y="100" text-anchor="middle" font-size="10" fill="#0D47A1">Xináp</text>
+</svg>

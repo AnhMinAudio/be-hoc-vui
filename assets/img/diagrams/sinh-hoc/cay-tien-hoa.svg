@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" font-family="Arial, sans-serif">
+  <title>Cây tiến hóa đơn giản</title>
+  <g fill="none" stroke="#2E7D32" stroke-width="2.4" stroke-linecap="round">
+    <path d="M40,180 L110,180"></path>
+    <path d="M110,180 L150,140 L300,140"></path>
+    <path d="M150,140 L150,180 L300,180"></path>
+    <path d="M190,140 L190,100 L300,100"></path>
+    <path d="M230,100 L230,60 L300,60"></path>
+    <path d="M230,60 L230,30 L300,30"></path>
+  </g>
+  <text x="20" y="184" font-size="10" fill="#546E7A">gốc chung</text>
+  
+  <text x="306" y="184" font-size="11" font-weight="700" fill="#37474F">Cá</text>
+  <text x="306" y="144" font-size="11" font-weight="700" fill="#37474F">Lưỡng cư</text>
+  <text x="306" y="104" font-size="11" font-weight="700" fill="#37474F">Bò sát</text>
+  <text x="306" y="64" font-size="11" font-weight="700" fill="#37474F">Chim</text>
+  <text x="306" y="34" font-size="11" font-weight="700" fill="#37474F">Thú</text>
+</svg>

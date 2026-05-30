@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" font-family="Arial, sans-serif">
+  <title>α-glucose mạch vòng</title>
+  <polygon points="140.0,72.0 190.2,101.0 190.2,159.0 140.0,188.0 89.8,159.0 89.8,101.0" fill="#E8F5E9" stroke="#0D47A1" stroke-width="2.4" stroke-linejoin="round"></polygon>
+  <text x="140" y="64" text-anchor="middle" font-size="14" font-weight="800" fill="#B71C1C">O</text>
+  <text x="212.22947341949745" y="105" font-size="11" fill="#2E7D32">CH₂OH</text>
+  <text x="196.22947341949745" y="173" font-size="11" fill="#2E7D32">OH</text><text x="146" y="202" font-size="11" fill="#2E7D32">OH</text><text x="63.77052658050255" y="173" font-size="11" fill="#2E7D32">OH</text><text x="63.77052658050256" y="115" font-size="11" fill="#2E7D32">OH</text>
+  <text x="190.22947341949745" y="105" text-anchor="middle" font-size="11" font-weight="700" fill="#455A64">C</text><text x="190.22947341949745" y="163" text-anchor="middle" font-size="11" font-weight="700" fill="#455A64">C</text><text x="140" y="192" text-anchor="middle" font-size="11" font-weight="700" fill="#455A64">C</text><text x="89.77052658050255" y="163" text-anchor="middle" font-size="11" font-weight="700" fill="#455A64">C</text><text x="89.77052658050256" y="105" text-anchor="middle" font-size="11" font-weight="700" fill="#455A64">C</text>
+  <text x="140" y="225" text-anchor="middle" font-size="11" fill="#546E7A">vòng 6 cạnh (5C + 1O)</text>
+</svg>

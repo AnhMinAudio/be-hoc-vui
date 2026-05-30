@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="Arial, sans-serif">
+  <title>Cấu trúc ti thể</title>
+  <ellipse cx="160" cy="100" rx="130" ry="66" fill="#FFCDD2" stroke="#C62828" stroke-width="3"></ellipse>
+  <ellipse cx="160" cy="100" rx="118" ry="56" fill="#FFEBEE" stroke="#E57373" stroke-width="1.6"></ellipse>
+  <path d="M70,76 q18,24 0,48 M104,72 q20,28 0,56 M138,70 q22,30 0,60 M180,70 q-22,30 0,60 M216,72 q-20,28 0,56 M250,76 q-18,24 0,48" fill="none" stroke="#E57373" stroke-width="2.4"></path>
+  <text x="160" y="186" text-anchor="middle" font-size="10" fill="#C62828">màng trong gấp khúc (cristae)</text>
+  <text x="40" y="58" font-size="10" fill="#C62828">màng ngoài</text>
+  <text x="160" y="104" text-anchor="middle" font-size="10" fill="#B71C1C">chất nền</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" font-family="Arial, sans-serif">
+  <title>Định luật Coulomb — lực giữa hai điện tích</title>
+  <line x1="80" y1="80" x2="240" y2="80" stroke="#546E7A" stroke-width="1" stroke-dasharray="5 4"></line>
+  <circle cx="80" cy="80" r="18" fill="#EF9A9A" stroke="#C62828" stroke-width="2"></circle><text x="80" y="86" text-anchor="middle" font-size="14" font-weight="800" fill="#C62828">+</text>
+  <circle cx="240" cy="80" r="18" fill="#EF9A9A" stroke="#C62828" stroke-width="2"></circle><text x="240" y="86" text-anchor="middle" font-size="14" font-weight="800" fill="#C62828">+</text>
+  <text x="64" y="112" font-size="13" font-weight="700" fill="#0D47A1">q₁</text>
+  <text x="240" y="112" font-size="13" font-weight="700" fill="#0D47A1">q₂</text>
+  <line x1="62" y1="80" x2="28" y2="80" stroke="#1565C0" stroke-width="2.4"></line><path d="M35.3,76.7 L28,80 L35.3,83.3" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path><line x1="258" y1="80" x2="292" y2="80" stroke="#1565C0" stroke-width="2.4"></line><path d="M284.7,83.3 L292,80 L284.7,76.7" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <line x1="80" y1="44" x2="240" y2="44" stroke="#0D47A1" stroke-width="1"></line>
+  <line x1="80" y1="40" x2="80" y2="48" stroke="#0D47A1" stroke-width="1"></line><line x1="240" y1="40" x2="240" y2="48" stroke="#0D47A1" stroke-width="1"></line>
+  <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="700" fill="#0D47A1">r</text>
+  <text x="160" y="168" text-anchor="middle" font-size="15" font-weight="700" fill="#37474F">F = k·q₁q₂ / r²</text>
+</svg>

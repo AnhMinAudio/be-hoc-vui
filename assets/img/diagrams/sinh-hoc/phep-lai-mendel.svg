@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230" font-family="Arial, sans-serif">
+  <title>Bảng Punnett — phép lai Aa × Aa</title>
+  <text x="152" y="50" text-anchor="middle" font-size="16" font-weight="800" fill="#0D47A1">A</text>
+  <text x="216" y="50" text-anchor="middle" font-size="16" font-weight="800" fill="#0D47A1">a</text>
+  <text x="92" y="116" text-anchor="middle" font-size="16" font-weight="800" fill="#0D47A1">A</text>
+  <text x="92" y="180" text-anchor="middle" font-size="16" font-weight="800" fill="#0D47A1">a</text>
+  <rect x="120" y="80" width="60" height="60" fill="#A5D6A7" stroke="#546E7A" stroke-width="1.5"></rect><text x="150" y="118" text-anchor="middle" font-size="18" font-weight="800" fill="#37474F">AA</text><rect x="184" y="80" width="60" height="60" fill="#FFF59D" stroke="#546E7A" stroke-width="1.5"></rect><text x="214" y="118" text-anchor="middle" font-size="18" font-weight="800" fill="#37474F">Aa</text><rect x="120" y="144" width="60" height="60" fill="#FFF59D" stroke="#546E7A" stroke-width="1.5"></rect><text x="150" y="182" text-anchor="middle" font-size="18" font-weight="800" fill="#37474F">Aa</text><rect x="184" y="144" width="60" height="60" fill="#EF9A9A" stroke="#546E7A" stroke-width="1.5"></rect><text x="214" y="182" text-anchor="middle" font-size="18" font-weight="800" fill="#37474F">aa</text>
+  <text x="150" y="216" text-anchor="middle" font-size="12" fill="#546E7A">Kiểu gen 1 : 2 : 1 · Kiểu hình 3 : 1</text>
+</svg>
