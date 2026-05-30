@@ -176,7 +176,11 @@ const Progress = (() => {
   function markCompleted(exerciseId, score, total) {
     const data = load();
     const prev = data.completed[exerciseId];
-    const isNewBest = !prev || score > prev.score;
+    const wasFirst = !prev;
+    const isNewBest = wasFirst || score > prev.score;
+    const isPerfect = total > 0 && score === total;
+    const prevPerfect = prev && prev.bestScore === prev.total;
+    const isFirstPerfect = isPerfect && !prevPerfect; // 100% lần đầu của đề này
     data.completed[exerciseId] = {
       score,
       total,
@@ -185,11 +189,10 @@ const Progress = (() => {
     };
     data.history.unshift({ exerciseId, score, total, at: Date.now() });
     data.history = data.history.slice(0, 50);
-    // Ghi nhật ký ngày học (cho streak) — mọi đề đều tính, không chỉ đề hôm nay
     if (!data.studyDays) data.studyDays = {};
     data.studyDays[todayKey()] = true;
     save(data);
-    return isNewBest;
+    return { isNewBest, wasFirst, isFirstPerfect };
   }
 
   function getCompletion(exerciseId) {
@@ -249,6 +252,59 @@ const Progress = (() => {
     return diff; // có thể âm nếu đã qua
   }
 
+  // ===== Sticker collection (UX 4A.5) =====
+  // Catalog cố định — earn ngẫu nhiên từ tier phù hợp. Lưu dạng map key→ngày YYYY-MM-DD.
+  const STICKERS = [
+    // Common (thưởng lần đầu hoàn thành đề)
+    { key: 'star',      emoji: '🌟', name: 'Ngôi sao',    tier: 'common', hint: 'Hoàn thành đề mới lần đầu' },
+    { key: 'balloon',   emoji: '🎈', name: 'Bóng bay',     tier: 'common', hint: 'Hoàn thành đề mới lần đầu' },
+    { key: 'cake',      emoji: '🍰', name: 'Bánh ngọt',    tier: 'common', hint: 'Hoàn thành đề mới lần đầu' },
+    { key: 'butterfly', emoji: '🦋', name: 'Cánh bướm',    tier: 'common', hint: 'Hoàn thành đề mới lần đầu' },
+    { key: 'rainbow',   emoji: '🌈', name: 'Cầu vồng',     tier: 'common', hint: 'Hoàn thành đề mới lần đầu' },
+    // Rare (thưởng 100% lần đầu của đề)
+    { key: 'rocket',    emoji: '🚀', name: 'Tên lửa',      tier: 'rare',   hint: 'Đạt 100% một đề lần đầu' },
+    { key: 'diamond',   emoji: '💎', name: 'Kim cương',    tier: 'rare',   hint: 'Đạt 100% một đề lần đầu' },
+    { key: 'crown',     emoji: '👑', name: 'Vương miện',   tier: 'rare',   hint: 'Đạt 100% một đề lần đầu' },
+    { key: 'trophy',    emoji: '🏆', name: 'Cúp vàng',     tier: 'rare',   hint: 'Đạt 100% một đề lần đầu' },
+    { key: 'unicorn',   emoji: '🦄', name: 'Kỳ lân',       tier: 'rare',   hint: 'Đạt 100% một đề lần đầu' },
+    // Legendary (cột mốc streak — gắn cụ thể với mốc)
+    { key: 'fire7',     emoji: '🔥', name: 'Lửa nhỏ',      tier: 'legendary', milestone: 7,   hint: 'Streak 7 ngày liên tiếp' },
+    { key: 'dragon14',  emoji: '🐉', name: 'Rồng',         tier: 'legendary', milestone: 14,  hint: 'Streak 14 ngày liên tiếp' },
+    { key: 'galaxy30',  emoji: '🌌', name: 'Dải ngân hà',  tier: 'legendary', milestone: 30,  hint: 'Streak 30 ngày liên tiếp' },
+    { key: 'eagle100',  emoji: '🦅', name: 'Đại bàng',     tier: 'legendary', milestone: 100, hint: 'Streak 100 ngày liên tiếp' },
+  ];
+  function getStickerCatalog() { return STICKERS.slice(); }
+  function getStickers() { return (load().stickers) || {}; }
+  function _saveSticker(key) {
+    const data = load();
+    if (!data.stickers) data.stickers = {};
+    if (data.stickers[key]) return false; // đã có rồi
+    data.stickers[key] = todayKey();
+    save(data);
+    return true;
+  }
+  // Pick ngẫu nhiên 1 sticker chưa có trong tier; null nếu hết.
+  function _earnRandomInTier(tier) {
+    const owned = getStickers();
+    const pool = STICKERS.filter(s => s.tier === tier && !owned[s.key]);
+    if (!pool.length) return null;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    return _saveSticker(pick.key) ? pick : null;
+  }
+  function _earnSpecificMilestone(milestone) {
+    const sticker = STICKERS.find(s => s.tier === 'legendary' && s.milestone === milestone);
+    if (!sticker) return null;
+    return _saveSticker(sticker.key) ? sticker : null;
+  }
+  // Gọi sau khi hoàn thành đề. Trả mảng sticker mới (có thể rỗng).
+  function maybeEarnStickers({ wasFirst, isFirstPerfect, streakMilestone } = {}) {
+    const earned = [];
+    if (wasFirst) { const s = _earnRandomInTier('common'); if (s) earned.push(s); }
+    if (isFirstPerfect) { const s = _earnRandomInTier('rare'); if (s) earned.push(s); }
+    if (streakMilestone) { const s = _earnSpecificMilestone(streakMilestone); if (s) earned.push(s); }
+    return earned;
+  }
+
   function reset() {
     localStorage.removeItem(activeKey);
   }
@@ -261,6 +317,7 @@ const Progress = (() => {
     load, save, addStars, markCompleted, getCompletion, getStars, getAvatar, setAvatar, getStats, reset,
     recordDaily, getDailyLog, getTodayDaily, getStreak, markStudyDay, getSubjectStats, last28Days, todayKey,
     getSetting, setSetting, getExamDate, setExamDate, daysUntilExam,
+    getStickerCatalog, getStickers, maybeEarnStickers,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
     setActiveKey, onSave, replaceAll,

@@ -1388,6 +1388,24 @@ function renderAchievements(view) {
         </div>`;
       }).join('')}
     </div>
+    ${(() => {
+      const catalog = Progress.getStickerCatalog();
+      const owned = Progress.getStickers();
+      const ownedCount = catalog.filter(s => owned[s.key]).length;
+      return `
+        <h2 style="margin:18px 4px 10px">🎁 Sticker (${ownedCount}/${catalog.length})</h2>
+        <div class="sticker-grid">
+          ${catalog.map(s => {
+            const got = owned[s.key];
+            return `<div class="sticker-card tier-${s.tier} ${got ? 'earned' : 'locked'}" title="${s.hint}">
+              <div class="sticker-emoji">${got ? s.emoji : '❔'}</div>
+              <div class="sticker-name">${got ? s.name : '???'}</div>
+              <div class="sticker-hint">${got ? ('Nhận ' + got) : s.hint}</div>
+            </div>`;
+          }).join('')}
+        </div>
+      `;
+    })()}
     <div class="action-bar" style="justify-content:center;margin-top:24px">
       <a href="/doi-nhan-vat" class="btn btn-secondary">🎭 Đổi nhân vật</a>
       <button class="btn btn-secondary" id="reset-btn" style="color:#EF5350">🗑️ Xóa tiến độ</button>
@@ -1767,15 +1785,23 @@ async function renderExercise(view, id) {
       // Chưa đăng nhập → luyện tập tự do, không lưu. Đề khác lớp → ôn, không tính.
       const loggedIn = Auth.isLoggedIn();
       const counts = loggedIn && Auth.countsForExercise(exercise);
-      let isNewBest = false, currentStreak = 0, streakTicked = false;
+      let isNewBest = false, currentStreak = 0, streakTicked = false, earnedStickers = [];
       if (counts) {
         const prevStreak = Progress.getStreak();
-        isNewBest = Progress.markCompleted(exercise.id, score, total);
+        const meta = Progress.markCompleted(exercise.id, score, total);
+        isNewBest = meta.isNewBest;
         Progress.addStars(score);
         Progress.recordTime(total, elapsedMs);
         if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
         currentStreak = Progress.getStreak();
-        streakTicked = currentStreak > prevStreak; // hôm nay là ngày học MỚI
+        streakTicked = currentStreak > prevStreak;
+        // Sticker: thưởng theo wasFirst / isFirstPerfect / streak milestone (7/14/30/100)
+        const streakMilestone = streakTicked && [7, 14, 30, 100].includes(currentStreak) ? currentStreak : null;
+        earnedStickers = Progress.maybeEarnStickers({
+          wasFirst: meta.wasFirst,
+          isFirstPerfect: meta.isFirstPerfect,
+          streakMilestone,
+        });
       }
       updateHeader();
       const earnNote = counts
@@ -1856,6 +1882,11 @@ async function renderExercise(view, id) {
             <div class="result-title">${emoji} ${title}</div>
             ${isNewBest ? '<div class="wow-newbest">🎉 Kỷ lục mới!</div>' : ''}
             ${currentStreak > 0 ? `<div class="wow-streak ${streakTicked ? 'tick' : ''}" aria-label="Chuỗi ngày học liên tiếp ${currentStreak}">🔥 ${currentStreak} ngày liên tiếp${streakTicked ? ' ✨ +1' : ''}</div>` : ''}
+            ${earnedStickers.length ? `<div class="wow-stickers">
+              <div class="ws-title">🎁 Bạn nhận được sticker mới!</div>
+              <div class="ws-list">${earnedStickers.map((s, i) => `<div class="ws-pop" style="animation-delay:${(0.4 + i * 0.15).toFixed(2)}s"><div class="ws-emoji">${s.emoji}</div><div class="ws-name">${s.name}</div></div>`).join('')}</div>
+              <a href="/thanh-tich" class="ws-more">Xem bộ sưu tập →</a>
+            </div>` : ''}
             <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
             ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
             <div class="wow-earn">${earnNote}</div>
