@@ -1197,8 +1197,36 @@ function todoSuggestions() {
   return out;
 }
 
+// Rank text theo tổng sao (UX 4C.2)
+function rankFor(stars) {
+  if (stars >= 5000) return { name: 'Bậc thầy', filled: 5 };
+  if (stars >= 2000) return { name: 'Kim Cương', filled: 4 };
+  if (stars >= 500)  return { name: 'Vàng',      filled: 3 };
+  if (stars >= 100)  return { name: 'Bạc',       filled: 2 };
+  return { name: 'Đồng', filled: 1 };
+}
+function greetingByHour() {
+  const h = new Date().getHours();
+  if (h < 11) return { text: 'Chào buổi sáng', emoji: '☀️' };
+  if (h < 14) return { text: 'Chào buổi trưa', emoji: '🌤️' };
+  if (h < 18) return { text: 'Chào buổi chiều', emoji: '🌅' };
+  return { text: 'Chào buổi tối', emoji: '🌙' };
+}
+// Đề gợi ý cho bạn — ưu tiên cùng grade + có outcome yếu nhất + chưa làm
+function suggestExercises(user) {
+  if (!CATALOG || !Array.isArray(CATALOG.exercises) || !user) return [];
+  const weak = (typeof findWeakestOutcome === 'function') ? findWeakestOutcome() : null;
+  const pool = CATALOG.exercises.filter(e =>
+    e.grade === user.grade &&
+    (!weak || (Array.isArray(e.outcomes) && e.outcomes.includes(weak.outcome))) &&
+    !Progress.getCompletion(e.id));
+  return pool.slice(0, 3);
+}
+
 function renderProgress(view) {
   if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để xem Tiến trình', 'Lịch học theo tháng và phân tích 28 ngày được lưu theo tài khoản của bạn.');
+  // Rẽ nhánh: THPT dùng dashboard 2 cột (4C.2), các cấp khác giữ bản 1 cột cũ
+  if (homeWorld() === 'thpt') return renderProgressThpt(view);
   const month = Progress.getMonthInfo();
   const log = Progress.getDailyLog();
   const streak = Progress.getStreak();
@@ -1298,6 +1326,118 @@ function renderProgress(view) {
       </div>` : ''}
 
     ${activeDays === 0 ? emptyStateWithIll('empty-dashboard-new', 'Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
+  `;
+  activateIllustrations(view);
+}
+
+// Dashboard 2 cột riêng cho THPT (UX 4C.2)
+function renderProgressThpt(view) {
+  const u = Auth.getUser();
+  const stats = Progress.getStats();
+  const av = Progress.getAvatar() || '🦉';
+  const streak = Progress.getStreak();
+  const completedCount = stats.completedCount;
+  const rank = rankFor(stats.stars);
+  const daysLeft = Progress.daysUntilExam();
+  const showExam = daysLeft !== null && daysLeft >= -1 && daysLeft <= 365;
+
+  // Lịch tháng (rút gọn cho cột trái — không có dow header)
+  const month = Progress.getMonthInfo();
+  const log = Progress.getDailyLog();
+  const blanks = Array.from({ length: month.leading }, () => '<div class="d"></div>').join('');
+  const dayCells = month.days.map(d => {
+    const day = log[d.key];
+    let lvl = '';
+    if (day) {
+      const subs = Object.values(day.subjects || {});
+      const sc = subs.reduce((a, r) => a + r.score, 0);
+      const tt = subs.reduce((a, r) => a + r.total, 0);
+      const pct = tt ? sc / tt * 100 : 0;
+      lvl = pct >= 80 ? 'l3' : pct >= 50 ? 'l2' : pct >= 20 ? 'l1' : 'l1';
+    }
+    return `<div class="d ${lvl} ${d.isToday ? 'today' : ''}" title="${d.key}"></div>`;
+  }).join('');
+
+  // Subject bars (THPT 9 môn)
+  const subjStats = Progress.getSubjectStats();
+  const subjRows = THPT_SUBJECT_KEYS.map(s => {
+    const st = subjStats[s];
+    const pct = st && st.total ? Math.round(st.score / st.total * 100) : null;
+    const spd = st && st.total && st.timeMs ? Math.round(st.timeMs / 1000 / st.total) : null;
+    if (pct === null) return '';
+    return `<div class="subj-row">
+      <span class="nm">${(SUBJECTS[s] || {}).name || s}</span>
+      <div class="subj-bar"><span style="width:${pct}%"></span></div>
+      <span class="meta">${pct}%${spd ? ' · ' + spd + 's/câu' : ''}</span>
+    </div>`;
+  }).filter(Boolean).join('');
+
+  // Todo + suggest
+  const todos = todoSuggestions();
+  const suggests = suggestExercises(u);
+  const g = greetingByHour();
+
+  view.innerHTML = `
+    <a href="/" class="back-btn">← Về trang chủ</a>
+    <div class="dash-thpt">
+      <aside class="dash-left">
+        <div class="dash-card dash-profile">
+          <div class="dash-avatar">${av}</div>
+          <div class="nm">${escapeHtml(u.displayName)}</div>
+          <div class="cl">Lớp ${u.grade}</div>
+          <div class="dash-rank"><span class="stars">${'★'.repeat(rank.filled)}${'☆'.repeat(5 - rank.filled)}</span> ${rank.name}</div>
+          <div class="dash-stats">
+            <div class="dash-stat"><div class="n">${stats.stars.toLocaleString('vi-VN')}</div><div class="l">TỔNG SAO</div></div>
+            <div class="dash-stat"><div class="n">${completedCount}</div><div class="l">ĐÃ LÀM</div></div>
+            <div class="dash-stat"><div class="n">🔥${streak}</div><div class="l">STREAK</div></div>
+          </div>
+          ${showExam ? `<div class="dash-exam">🎯 ${daysLeft < 0 ? 'Thi đã qua' : daysLeft === 0 ? 'Hôm nay thi!' : `Thi còn ${daysLeft} ngày`}</div>` : ''}
+          <div class="dash-actions">
+            <button onclick="navTo('/doi-nhan-vat')">🎭 Đổi avatar</button>
+            <button onclick="navTo('/tai-khoan')">⚙️ Cài đặt</button>
+          </div>
+        </div>
+        <div class="dash-card dash-cal">
+          <h4>📅 LỊCH HỌC THÁNG</h4>
+          <div class="cal-grid">${blanks}${dayCells}</div>
+        </div>
+      </aside>
+      <main class="dash-right">
+        <div class="dash-greet">
+          <div class="hi">${g.text}, ${escapeHtml(u.displayName)}! ${g.emoji}</div>
+          <div class="row">
+            ${streak > 0 ? `<span class="chip">🔥 ${streak} ngày liên tiếp</span>` : ''}
+            <span>Đã làm ${completedCount} đề</span>
+          </div>
+        </div>
+
+        ${todos.length ? `
+        <div class="dash-sec-title">🎯 Hôm nay cần làm</div>
+        <div class="todo-list">
+          ${todos.map(t => `<a class="todo-card" href="${t.href}">
+            <span class="ic">${t.icon}</span>
+            <div><div class="tt">${t.label}</div><div class="ds">${t.sub}</div></div>
+            <span class="go">→</span>
+          </a>`).join('')}
+        </div>` : ''}
+
+        ${subjRows ? `
+        <div class="dash-sec-title">📊 Tiến độ theo môn <small style="color:var(--c-text-soft);font-weight:600">(28 ngày)</small></div>
+        <div class="dash-card">${subjRows}</div>` : ''}
+
+        ${suggests.length ? `
+        <div class="dash-sec-title">💡 Đề gợi ý cho bạn</div>
+        <div class="suggest-list">
+          ${suggests.map(e => `<a class="suggest-card" href="/bai/${e.id}">
+            <span class="ic">${(SUBJECTS[e.subject] || {}).icon || '📘'}</span>
+            <div><div class="tt">${escapeHtml(e.topic)}</div><div class="ds">${(SUBJECTS[e.subject] || {}).name || e.subject} · Lớp ${e.grade}</div></div>
+            <span class="go" style="margin-left:auto">→</span>
+          </a>`).join('')}
+        </div>` : ''}
+
+        ${!todos.length && !subjRows && !suggests.length ? emptyStateWithIll('empty-dashboard-new', 'Chưa có dữ liệu tiến trình', 'Hãy làm vài đề trên trang chủ để xem dashboard sống dậy!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
+      </main>
+    </div>
   `;
   activateIllustrations(view);
 }
