@@ -724,8 +724,9 @@ function renderParent(view) {
 function parentStats(p) {
   const dayKey = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   const dailyLog = p.dailyLog || {};
-  const has = k => dailyLog[k] && Object.keys(dailyLog[k].subjects || {}).length > 0;
-  // streak: chuỗi ngày liên tiếp có làm bài tính tới hôm nay
+  const studyDays = p.studyDays || {};
+  const has = k => studyDays[k] || (dailyLog[k] && Object.keys(dailyLog[k].subjects || {}).length > 0);
+  // streak: chuỗi ngày liên tiếp có làm bài tính tới hôm nay (mọi đề, không chỉ "đề hôm nay")
   const d = new Date(); d.setHours(0, 0, 0, 0);
   if (!has(dayKey(d))) d.setDate(d.getDate() - 1);
   let streak = 0; while (has(dayKey(d))) { streak++; d.setDate(d.getDate() - 1); }
@@ -1729,12 +1730,15 @@ async function renderExercise(view, id) {
       // Chưa đăng nhập → luyện tập tự do, không lưu. Đề khác lớp → ôn, không tính.
       const loggedIn = Auth.isLoggedIn();
       const counts = loggedIn && Auth.countsForExercise(exercise);
-      let isNewBest = false;
+      let isNewBest = false, currentStreak = 0, streakTicked = false;
       if (counts) {
+        const prevStreak = Progress.getStreak();
         isNewBest = Progress.markCompleted(exercise.id, score, total);
         Progress.addStars(score);
         Progress.recordTime(total, elapsedMs);
         if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
+        currentStreak = Progress.getStreak();
+        streakTicked = currentStreak > prevStreak; // hôm nay là ngày học MỚI
       }
       updateHeader();
       const earnNote = counts
@@ -1814,6 +1818,7 @@ async function renderExercise(view, id) {
             <div class="wow-score-big"><span id="wow-num">0</span><span class="of">/${total}</span></div>
             <div class="result-title">${emoji} ${title}</div>
             ${isNewBest ? '<div class="wow-newbest">🎉 Kỷ lục mới!</div>' : ''}
+            ${currentStreak > 0 ? `<div class="wow-streak ${streakTicked ? 'tick' : ''}" aria-label="Chuỗi ngày học liên tiếp ${currentStreak}">🔥 ${currentStreak} ngày liên tiếp${streakTicked ? ' ✨ +1' : ''}</div>` : ''}
             <div class="result-time">⏱ ${timeStr} · ~${secPerQ.toFixed(0)} giây/câu</div>
             ${timeNote ? `<div class="time-note">${timeNote}</div>` : ''}
             <div class="wow-earn">${earnNote}</div>

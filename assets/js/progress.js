@@ -11,9 +11,9 @@ const Progress = (() => {
   function load() {
     try {
       const d = JSON.parse(localStorage.getItem(activeKey));
-      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, speed: { questions: 0, timeMs: 0 } }, d || {});
+      return Object.assign({ stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, studyDays: {}, speed: { questions: 0, timeMs: 0 } }, d || {});
     } catch {
-      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, speed: { questions: 0, timeMs: 0 } };
+      return { stars: 0, completed: {}, history: [], avatar: null, dailyLog: {}, starLog: {}, studyDays: {}, speed: { questions: 0, timeMs: 0 } };
     }
   }
 
@@ -79,10 +79,29 @@ const Progress = (() => {
     return pruned;
   }
   function getTodayDaily() { return getDailyLog()[todayKey()] || { subjects: {} }; }
+  // Ghi nhận MỘT NGÀY có học (mọi đề, không chỉ đề hôm nay) — phục vụ tính streak
+  function markStudyDay() {
+    const data = load();
+    const k = todayKey();
+    const before = !!data.studyDays[k];
+    data.studyDays[k] = true;
+    // Prune: giữ tối đa 90 ngày để streak vẫn chính xác kể cả không làm vài tuần
+    const cutoff = new Date(); cutoff.setHours(0, 0, 0, 0);
+    cutoff.setDate(cutoff.getDate() - 90);
+    const cutoffKey = dateKey(cutoff);
+    for (const day of Object.keys(data.studyDays)) {
+      if (day < cutoffKey) delete data.studyDays[day];
+    }
+    save(data);
+    return !before; // true = ngày học MỚI hôm nay
+  }
   function getStreak() {
+    const data = load();
+    const study = data.studyDays || {};
     const log = getDailyLog();
+    // Fallback: nếu chưa có studyDays (legacy data) dùng dailyLog như cũ
+    const has = k => study[k] || (log[k] && Object.keys(log[k].subjects || {}).length > 0);
     const d = new Date(); d.setHours(0, 0, 0, 0);
-    const has = k => log[k] && Object.keys(log[k].subjects || {}).length > 0;
     if (!has(todayKey())) d.setDate(d.getDate() - 1); // hôm nay chưa làm → đếm từ hôm qua
     let streak = 0;
     while (has(dateKey(d))) { streak++; d.setDate(d.getDate() - 1); }
@@ -166,6 +185,9 @@ const Progress = (() => {
     };
     data.history.unshift({ exerciseId, score, total, at: Date.now() });
     data.history = data.history.slice(0, 50);
+    // Ghi nhật ký ngày học (cho streak) — mọi đề đều tính, không chỉ đề hôm nay
+    if (!data.studyDays) data.studyDays = {};
+    data.studyDays[todayKey()] = true;
     save(data);
     return isNewBest;
   }
@@ -210,7 +232,7 @@ const Progress = (() => {
 
   return {
     load, save, addStars, markCompleted, getCompletion, getStars, getAvatar, setAvatar, getStats, reset,
-    recordDaily, getDailyLog, getTodayDaily, getStreak, getSubjectStats, last28Days, todayKey,
+    recordDaily, getDailyLog, getTodayDaily, getStreak, markStudyDay, getSubjectStats, last28Days, todayKey,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
     setActiveKey, onSave, replaceAll,
