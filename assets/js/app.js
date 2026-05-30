@@ -1148,6 +1148,14 @@ function renderWorldHome(view, world) {
     const heroPet = view.querySelector('#hero-pet');
     if (heroPet) mountPet(heroPet, petTierFor(Progress.getStars()).tier, 'happy');
   }
+  // Onboarding tour (4D.1) — chỉ chạy 1 lần với user mới đăng nhập + chưa làm đề + chưa xem
+  if (u && window.Tour && !Progress.getSetting('onboardingDone')
+      && Object.keys(Progress.load().completed || {}).length === 0
+      && world !== 'mam-non') {
+    setTimeout(() => {
+      Tour.show(Tour.defaultSteps(world), () => Progress.setSetting('onboardingDone', '1'));
+    }, 900);
+  }
 }
 
 function dailyCard(grade, s, today, review) {
