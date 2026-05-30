@@ -1,0 +1,225 @@
+{
+  "id": "thpt-tieng-anh-l10-doc-hieu-chuyen-de",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 10,
+  "topic": "Reading comprehension by topic: family life and the environment (Đọc hiểu chuyên đề: gia đình và môi trường)",
+  "chapter": "Reading by topic 10",
+  "difficulty": 2,
+  "outcomes": [
+    "Reading comprehension on family life",
+    "Reading comprehension on environment",
+    "Vocabulary in context",
+    "Identifying main ideas and details"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Family is very important to most Vietnamese people. In a typical family, the parents work hard to support their children. The children, in return, study hard and help with housework. Family members often share meals together and talk about their day in the evening. On weekends, many families visit grandparents or go out together to enjoy time as a family.",
+      "question": "According to the passage, what do parents in a typical Vietnamese family do? (Theo đoạn văn, bố mẹ trong một gia đình Việt Nam điển hình làm gì?)",
+      "options": [
+        "They work hard to support their children",
+        "They never help their children",
+        "They only travel abroad every weekend",
+        "They do nothing for the family"
+      ],
+      "answer": 0,
+      "hint": "Câu thứ hai của đoạn văn: \"the parents work hard to support their children.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Family is very important to most Vietnamese people. In a typical family, the parents work hard to support their children. The children, in return, study hard and help with housework. Family members often share meals together and talk about their day in the evening. On weekends, many families visit grandparents or go out together to enjoy time as a family.",
+      "question": "What do family members often do in the evening, according to the passage? (Các thành viên trong gia đình thường làm gì vào buổi tối?)",
+      "options": [
+        "They share meals together and talk about their day",
+        "They go to school together",
+        "They sleep until very late",
+        "They go to work outside"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu: \"Family members often share meals together and talk about their day in the evening.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Family is very important to most Vietnamese people. In a typical family, the parents work hard to support their children. The children, in return, study hard and help with housework. Family members often share meals together and talk about their day in the evening. On weekends, many families visit grandparents or go out together to enjoy time as a family.",
+      "question": "What is the MAIN IDEA of the passage? (Ý chính của đoạn văn là gì?)",
+      "options": [
+        "Family is very important in Vietnamese life; members support each other and spend time together",
+        "Vietnamese families never spend time together",
+        "Vietnamese parents never work",
+        "Children never help with housework in Vietnam"
+      ],
+      "answer": 0,
+      "hint": "Câu đầu là ý chính: \"Family is very important to most Vietnamese people.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Plastic waste is a serious environmental problem all over the world. Every day, millions of plastic bags, bottles, and straws are thrown away. Most of this waste ends up in rivers and oceans, where it harms fish, birds, and other animals. To reduce plastic waste, we can do many small things: use cloth bags when shopping, drink from reusable bottles, and avoid using plastic straws. If everyone takes these small actions, we can protect the environment for future generations.",
+      "question": "According to the passage, what is a SERIOUS environmental problem mentioned? (Theo đoạn văn, vấn đề môi trường nghiêm trọng được nhắc đến là gì?)",
+      "options": [
+        "Plastic waste",
+        "Lack of trees",
+        "Too much rain",
+        "Loud noise"
+      ],
+      "answer": 0,
+      "hint": "Câu đầu đoạn: \"Plastic waste is a serious environmental problem all over the world.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Plastic waste is a serious environmental problem all over the world. Every day, millions of plastic bags, bottles, and straws are thrown away. Most of this waste ends up in rivers and oceans, where it harms fish, birds, and other animals. To reduce plastic waste, we can do many small things: use cloth bags when shopping, drink from reusable bottles, and avoid using plastic straws. If everyone takes these small actions, we can protect the environment for future generations.",
+      "question": "Where does most plastic waste end up, according to the passage? (Theo đoạn văn, phần lớn rác thải nhựa cuối cùng ở đâu?)",
+      "options": [
+        "In rivers and oceans, where it harms fish, birds and other animals",
+        "It is recycled completely 100%",
+        "It disappears immediately after being thrown away",
+        "It is sent to outer space"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn ghi: \"Most of this waste ends up in rivers and oceans, where it harms fish, birds, and other animals.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Plastic waste is a serious environmental problem all over the world. Every day, millions of plastic bags, bottles, and straws are thrown away. Most of this waste ends up in rivers and oceans, where it harms fish, birds, and other animals. To reduce plastic waste, we can do many small things: use cloth bags when shopping, drink from reusable bottles, and avoid using plastic straws. If everyone takes these small actions, we can protect the environment for future generations.",
+      "question": "Which of these is suggested as a way to REDUCE plastic waste? (Cách nào sau đây được gợi ý để GIẢM rác thải nhựa?)",
+      "options": [
+        "Use cloth bags when shopping and reusable bottles for drinking",
+        "Use more plastic straws every day",
+        "Throw bottles into the river",
+        "Ignore the problem completely"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn liệt kê: \"use cloth bags when shopping, drink from reusable bottles, and avoid using plastic straws.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Plastic waste is a serious environmental problem all over the world. Every day, millions of plastic bags, bottles, and straws are thrown away. Most of this waste ends up in rivers and oceans, where it harms fish, birds, and other animals. To reduce plastic waste, we can do many small things: use cloth bags when shopping, drink from reusable bottles, and avoid using plastic straws. If everyone takes these small actions, we can protect the environment for future generations.",
+      "question": "What is the MAIN message of the passage? (Thông điệp CHÍNH của đoạn văn là gì?)",
+      "options": [
+        "Each person can help reduce plastic waste through small daily actions, and together we can protect the environment for the future",
+        "Plastic waste is a wonderful thing for the environment",
+        "Only governments can solve the problem, not individuals",
+        "We should produce more plastic, not less"
+      ],
+      "answer": 0,
+      "hint": "Câu cuối đoạn: \"If everyone takes these small actions, we can protect the environment for future generations.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word in the second passage is the OPPOSITE of \"throw away\"? (Từ nào trong đoạn văn thứ hai TRÁI NGHĨA với \"throw away\"?)",
+      "options": [
+        "reusable (có thể tái sử dụng)",
+        "harms (làm hại)",
+        "waste (rác thải)",
+        "ends up (kết thúc)"
+      ],
+      "answer": 0,
+      "hint": "\"Reusable\" (có thể tái sử dụng) là ý đối lập với \"throw away\" (vứt đi)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which word means \"to protect or save (something) from being destroyed\"? (Từ nào có nghĩa là \"bảo vệ điều gì khỏi bị phá hủy\"?)",
+      "options": [
+        "preserve",
+        "destroy",
+        "ignore",
+        "throw"
+      ],
+      "answer": 0,
+      "hint": "\"preserve\" = bảo tồn, gìn giữ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Complete the sentence: \"We should ___ less plastic to protect the environment.\" (Hoàn thành câu: \"Chúng ta nên ___ ít nhựa hơn để bảo vệ môi trường.\")",
+      "options": [
+        "use",
+        "uses",
+        "using",
+        "used"
+      ],
+      "answer": 0,
+      "hint": "Sau \"should\" dùng động từ nguyên thể (V_inf): use."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the best title for the second passage. (Chọn tiêu đề phù hợp nhất cho đoạn văn thứ hai.)",
+      "options": [
+        "Reducing plastic waste: small actions, big impact",
+        "Why plastic is good for the ocean",
+        "How to throw away more plastic",
+        "Animals love plastic waste"
+      ],
+      "answer": 0,
+      "hint": "Tiêu đề nên tóm tắt thông điệp chính: hành động nhỏ giảm rác nhựa, tác động lớn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which sentence uses the FIRST conditional correctly? (Câu nào dùng đúng câu điều kiện loại 1?)",
+      "options": [
+        "If we reduce plastic, we will help the environment.",
+        "If we reduced plastic, we will help the environment.",
+        "If we reduce plastic, we helped the environment.",
+        "If we will reduce plastic, we help the environment."
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 1: If + S + V(s/es), S + will + V_inf."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Based on the reading passages, decide if each statement is true or false. (Dựa vào hai đoạn văn, xét tính đúng/sai.)",
+      "statements": [
+        { "text": "Family is very important to most Vietnamese people. (Gia đình rất quan trọng với hầu hết người Việt Nam.)", "answer": true },
+        { "text": "Plastic waste is a serious environmental problem all over the world. (Rác thải nhựa là vấn đề môi trường nghiêm trọng trên toàn thế giới.)", "answer": true },
+        { "text": "Plastic waste in rivers and oceans is good for animals. (Rác thải nhựa trong sông và đại dương có lợi cho động vật.)", "answer": false },
+        { "text": "Small daily actions can help protect the environment. (Những hành động nhỏ hằng ngày có thể giúp bảo vệ môi trường.)", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each statement about reading skills and vocabulary is true or false. (Xét tính đúng/sai về kĩ năng đọc và từ vựng.)",
+      "statements": [
+        { "text": "When reading, finding the MAIN IDEA helps us understand the writer's purpose. (Khi đọc, tìm Ý CHÍNH giúp ta hiểu mục đích của người viết.)", "answer": true },
+        { "text": "\"Reusable\" means something that can be used many times. (\"Reusable\" có nghĩa là vật có thể dùng nhiều lần.)", "answer": true },
+        { "text": "\"Plastic waste\" only refers to plastic bottles, not bags or straws. (\"Plastic waste\" chỉ nói đến chai nhựa, không phải túi và ống hút.)", "answer": false },
+        { "text": "Cloth bags are an alternative to plastic bags when shopping. (Túi vải là một lựa chọn thay thế cho túi nhựa khi đi mua sắm.)", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the word from the second passage: r_u_a_le (có thể dùng lại được).",
+      "answer": "reusable",
+      "alternatives": ["Reusable"],
+      "hint": "\"reusable\" = tái sử dụng được."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the sentence: \"We should protect the _____ for future generations.\" (Hoàn thành câu: \"Chúng ta nên bảo vệ _____ cho các thế hệ tương lai.\")",
+      "answer": "environment",
+      "alternatives": ["Environment"],
+      "hint": "\"environment\" = môi trường."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Plastic waste is harmful to animals living in rivers and oceans. (Rác thải nhựa gây hại cho động vật sống ở sông và đại dương.)",
+      "answer": true,
+      "hint": "Đoạn văn nêu rõ rác nhựa \"harms fish, birds, and other animals\"."
+    }
+  ]
+}

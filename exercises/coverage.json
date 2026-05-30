@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:07:07.548Z",
+  "generatedAt": "2026-05-30T01:17:25.120Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1897,13 +1897,19 @@
         ]
       },
       "12": {
-        "exerciseCount": 2,
-        "totalQuestions": 34,
+        "exerciseCount": 3,
+        "totalQuestions": 51,
         "topics": [
           {
             "id": "thpt-ngu-van-l12-on-tap",
             "topic": "Ôn tập Ngữ văn 12: Đọc hiểu và Thực hành tiếng Việt",
             "questionCount": 18,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-ngu-van-l12-tho-cach-mang",
+            "topic": "Thơ ca cách mạng và kháng chiến: Tây Tiến, Việt Bắc, Sóng, Đất Nước",
+            "questionCount": 17,
             "difficulty": 3
           },
           {
@@ -1917,8 +1923,8 @@
     },
     "tieng-anh": {
       "10": {
-        "exerciseCount": 3,
-        "totalQuestions": 49,
+        "exerciseCount": 4,
+        "totalQuestions": 66,
         "topics": [
           {
             "id": "thpt-tieng-anh-l10-modal-conditional",
@@ -1933,6 +1939,12 @@
             "difficulty": 3
           },
           {
+            "id": "thpt-tieng-anh-l10-doc-hieu-chuyen-de",
+            "topic": "Reading comprehension by topic: family life and the environment (Đọc hiểu chuyên đề: gia đình và môi trường)",
+            "questionCount": 17,
+            "difficulty": 2
+          },
+          {
             "id": "thpt-tieng-anh-l10-thi-tu-vung-co-ban",
             "topic": "Tenses, basic grammar and vocabulary (Thì, ngữ pháp cơ bản và từ vựng)",
             "questionCount": 16,
@@ -1941,8 +1953,8 @@
         ]
       },
       "11": {
-        "exerciseCount": 3,
-        "totalQuestions": 51,
+        "exerciseCount": 4,
+        "totalQuestions": 68,
         "topics": [
           {
             "id": "thpt-tieng-anh-l11-passive-reported",
@@ -1957,6 +1969,12 @@
             "difficulty": 3
           },
           {
+            "id": "thpt-tieng-anh-l11-doc-hieu-chuyen-de",
+            "topic": "Reading comprehension by topic: heritage and global warming (Đọc hiểu chuyên đề: di sản và nóng lên toàn cầu)",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
             "id": "thpt-tieng-anh-l11-menh-de-quan-he-tu-vung",
             "topic": "Relative clauses, gerunds/infinitives and vocabulary (Mệnh đề quan hệ, V-ing/to V và từ vựng)",
             "questionCount": 17,
@@ -1965,8 +1983,8 @@
         ]
       },
       "12": {
-        "exerciseCount": 2,
-        "totalQuestions": 35,
+        "exerciseCount": 3,
+        "totalQuestions": 52,
         "topics": [
           {
             "id": "thpt-tieng-anh-l12-reading-grammar",
@@ -1978,6 +1996,12 @@
             "id": "thpt-tieng-anh-l12-on-tap",
             "topic": "Ôn tập Tiếng Anh 12: Ngữ pháp, từ vựng và đọc hiểu",
             "questionCount": 19,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-tieng-anh-l12-doc-hieu-chuyen-de",
+            "topic": "Reading comprehension by topic: technology and global issues (Đọc hiểu chuyên đề: công nghệ và vấn đề toàn cầu)",
+            "questionCount": 17,
             "difficulty": 3
           }
         ]

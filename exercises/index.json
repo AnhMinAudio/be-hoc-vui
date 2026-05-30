@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:07:07.548Z",
+  "generatedAt": "2026-05-30T01:17:25.120Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -1439,6 +1439,24 @@
       "path": "thpt/lop12/ngu-van.json"
     },
     {
+      "id": "thpt-ngu-van-l12-tho-cach-mang",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 12,
+      "topic": "Thơ ca cách mạng và kháng chiến: Tây Tiến, Việt Bắc, Sóng, Đất Nước",
+      "chapter": "Thơ ca cách mạng 12",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Tây Tiến (Quang Dũng)",
+        "Việt Bắc (Tố Hữu)",
+        "Sóng (Xuân Quỳnh)",
+        "Đất Nước - trích \"Mặt đường khát vọng\" (Nguyễn Khoa Điềm)"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/ngu-van-tho-cach-mang.json"
+    },
+    {
       "id": "thpt-ngu-van-l12-truyen-ngan-hien-dai",
       "stage": "thpt",
       "subject": "ngu-van",
@@ -2393,6 +2411,24 @@
       "path": "thpt/lop10/tieng-anh-doc-hieu-giao-tiep.json"
     },
     {
+      "id": "thpt-tieng-anh-l10-doc-hieu-chuyen-de",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 10,
+      "topic": "Reading comprehension by topic: family life and the environment (Đọc hiểu chuyên đề: gia đình và môi trường)",
+      "chapter": "Reading by topic 10",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Reading comprehension on family life",
+        "Reading comprehension on environment",
+        "Vocabulary in context",
+        "Identifying main ideas and details"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/tieng-anh-doc-hieu-chuyen-de.json"
+    },
+    {
       "id": "thpt-tieng-anh-l10-thi-tu-vung-co-ban",
       "stage": "thpt",
       "subject": "tieng-anh",
@@ -2447,6 +2483,24 @@
       "path": "thpt/lop11/tieng-anh-doc-hieu-giao-tiep.json"
     },
     {
+      "id": "thpt-tieng-anh-l11-doc-hieu-chuyen-de",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 11,
+      "topic": "Reading comprehension by topic: heritage and global warming (Đọc hiểu chuyên đề: di sản và nóng lên toàn cầu)",
+      "chapter": "Reading by topic 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Reading about cultural heritage",
+        "Reading about global warming",
+        "Inferring meaning from context",
+        "Vocabulary: heritage, environment, conservation"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/tieng-anh-doc-hieu-chuyen-de.json"
+    },
+    {
       "id": "thpt-tieng-anh-l11-menh-de-quan-he-tu-vung",
       "stage": "thpt",
       "subject": "tieng-anh",
@@ -2499,6 +2553,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/tieng-anh.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l12-doc-hieu-chuyen-de",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 12,
+      "topic": "Reading comprehension by topic: technology and global issues (Đọc hiểu chuyên đề: công nghệ và vấn đề toàn cầu)",
+      "chapter": "Reading by topic 12",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Reading about technology and AI",
+        "Reading about global issues",
+        "Identifying author's purpose and tone",
+        "Advanced vocabulary in context"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop12/tieng-anh-doc-hieu-chuyen-de.json"
     },
     {
       "id": "tv-l1-am-va-chu-cai-nang-cao",

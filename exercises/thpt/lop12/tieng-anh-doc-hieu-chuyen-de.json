@@ -1,0 +1,226 @@
+{
+  "id": "thpt-tieng-anh-l12-doc-hieu-chuyen-de",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 12,
+  "topic": "Reading comprehension by topic: technology and global issues (Đọc hiểu chuyên đề: công nghệ và vấn đề toàn cầu)",
+  "chapter": "Reading by topic 12",
+  "difficulty": 3,
+  "outcomes": [
+    "Reading about technology and AI",
+    "Reading about global issues",
+    "Identifying author's purpose and tone",
+    "Advanced vocabulary in context"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Artificial intelligence (AI) is changing the way we live and work. Smart assistants on our phones can answer questions, set reminders, and translate languages. In hospitals, AI helps doctors diagnose diseases more accurately. In schools, AI tools can give students personalised feedback on their learning. However, AI also raises concerns: it may replace some jobs, raise privacy issues, and be used to spread false information online. To benefit from AI while avoiding its risks, both users and developers must use it responsibly.",
+      "question": "According to the passage, what can smart assistants on our phones do? (Theo đoạn văn, trợ lí thông minh trên điện thoại có thể làm gì?)",
+      "options": [
+        "Answer questions, set reminders and translate languages",
+        "Cook meals automatically",
+        "Drive a car for us",
+        "Build houses"
+      ],
+      "answer": 0,
+      "hint": "Câu thứ hai: \"Smart assistants on our phones can answer questions, set reminders, and translate languages.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Artificial intelligence (AI) is changing the way we live and work. Smart assistants on our phones can answer questions, set reminders, and translate languages. In hospitals, AI helps doctors diagnose diseases more accurately. In schools, AI tools can give students personalised feedback on their learning. However, AI also raises concerns: it may replace some jobs, raise privacy issues, and be used to spread false information online. To benefit from AI while avoiding its risks, both users and developers must use it responsibly.",
+      "question": "How does AI help in HOSPITALS, according to the passage? (Theo đoạn văn, AI giúp gì trong các BỆNH VIỆN?)",
+      "options": [
+        "It helps doctors diagnose diseases more accurately",
+        "It performs all surgeries without human help",
+        "It replaces all doctors completely",
+        "It cleans the hospital floors"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu: \"In hospitals, AI helps doctors diagnose diseases more accurately.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Artificial intelligence (AI) is changing the way we live and work. Smart assistants on our phones can answer questions, set reminders, and translate languages. In hospitals, AI helps doctors diagnose diseases more accurately. In schools, AI tools can give students personalised feedback on their learning. However, AI also raises concerns: it may replace some jobs, raise privacy issues, and be used to spread false information online. To benefit from AI while avoiding its risks, both users and developers must use it responsibly.",
+      "question": "Which of the following is NOT mentioned as a CONCERN about AI in the passage? (Điều nào sau đây KHÔNG được nêu là MỐI LO về AI?)",
+      "options": [
+        "It can cure all diseases instantly",
+        "It may replace some jobs",
+        "It raises privacy issues",
+        "It can be used to spread false information"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn liệt kê 3 lo ngại: thay thế việc làm, quyền riêng tư, thông tin sai. Không nói AI \"chữa mọi bệnh tức thì\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Artificial intelligence (AI) is changing the way we live and work. Smart assistants on our phones can answer questions, set reminders, and translate languages. In hospitals, AI helps doctors diagnose diseases more accurately. In schools, AI tools can give students personalised feedback on their learning. However, AI also raises concerns: it may replace some jobs, raise privacy issues, and be used to spread false information online. To benefit from AI while avoiding its risks, both users and developers must use it responsibly.",
+      "question": "What is the AUTHOR's overall view of AI in this passage? (Quan điểm chung của tác giả về AI trong đoạn văn này là gì?)",
+      "options": [
+        "AI has both benefits and risks; we must use it responsibly to maximise benefits and reduce harm",
+        "AI is completely good and has no problems at all",
+        "AI is completely bad and should be banned",
+        "AI has no real effect on our daily lives"
+      ],
+      "answer": 0,
+      "hint": "Tác giả nêu cả ưu điểm và lo ngại, và kêu gọi sử dụng có trách nhiệm — quan điểm cân bằng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Climate change is one of the most pressing global issues of our time. Rising temperatures, melting ice caps and more frequent natural disasters are affecting millions of people worldwide. Vietnam, with its long coastline and large delta regions, is especially vulnerable to rising sea levels. Many countries have signed the Paris Agreement, promising to reduce greenhouse gas emissions. At the individual level, simple actions such as saving electricity, using public transport, and reducing meat consumption can also make a difference.",
+      "question": "Why is Vietnam especially VULNERABLE to climate change, according to the passage? (Theo đoạn văn, vì sao Việt Nam đặc biệt DỄ BỊ TỔN THƯƠNG bởi biến đổi khí hậu?)",
+      "options": [
+        "Because of its long coastline and large delta regions, sea levels rising affects Vietnam more",
+        "Because Vietnam has very cold winters",
+        "Because Vietnam has no rivers at all",
+        "Because Vietnam is a landlocked country"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn: \"Vietnam, with its long coastline and large delta regions, is especially vulnerable to rising sea levels.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Climate change is one of the most pressing global issues of our time. Rising temperatures, melting ice caps and more frequent natural disasters are affecting millions of people worldwide. Vietnam, with its long coastline and large delta regions, is especially vulnerable to rising sea levels. Many countries have signed the Paris Agreement, promising to reduce greenhouse gas emissions. At the individual level, simple actions such as saving electricity, using public transport, and reducing meat consumption can also make a difference.",
+      "question": "What is the Paris Agreement, according to the passage? (Theo đoạn văn, Hiệp định Paris là gì?)",
+      "options": [
+        "An international agreement in which many countries promise to reduce greenhouse gas emissions",
+        "A trade agreement between two countries only",
+        "A political agreement about borders",
+        "A peace treaty after World War II"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn ghi: \"Many countries have signed the Paris Agreement, promising to reduce greenhouse gas emissions.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Climate change is one of the most pressing global issues of our time. Rising temperatures, melting ice caps and more frequent natural disasters are affecting millions of people worldwide. Vietnam, with its long coastline and large delta regions, is especially vulnerable to rising sea levels. Many countries have signed the Paris Agreement, promising to reduce greenhouse gas emissions. At the individual level, simple actions such as saving electricity, using public transport, and reducing meat consumption can also make a difference.",
+      "question": "Which is an example of INDIVIDUAL action mentioned in the passage? (Hành động CÁ NHÂN nào được nhắc đến?)",
+      "options": [
+        "Saving electricity, using public transport, reducing meat consumption",
+        "Building a new nuclear plant",
+        "Signing international agreements",
+        "Launching satellites into space"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn liệt kê các hành động cá nhân ở câu cuối."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Climate change is one of the most pressing global issues of our time. Rising temperatures, melting ice caps and more frequent natural disasters are affecting millions of people worldwide. Vietnam, with its long coastline and large delta regions, is especially vulnerable to rising sea levels. Many countries have signed the Paris Agreement, promising to reduce greenhouse gas emissions. At the individual level, simple actions such as saving electricity, using public transport, and reducing meat consumption can also make a difference.",
+      "question": "What is the MAIN MESSAGE of the passage? (Thông điệp CHÍNH của đoạn văn là gì?)",
+      "options": [
+        "Climate change is a serious global issue requiring action at both national and individual levels",
+        "Climate change is not a real problem",
+        "Only governments are responsible; individuals can do nothing",
+        "Vietnam is not affected by climate change at all"
+      ],
+      "answer": 0,
+      "hint": "Bài nhấn mạnh tính cấp bách và kêu gọi hành động ở cả cấp quốc gia (Paris Agreement) và cấp cá nhân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word means \"someone who can be easily harmed or affected\"? (Từ nào có nghĩa là \"dễ bị tổn thương / dễ bị ảnh hưởng\"?)",
+      "options": [
+        "vulnerable",
+        "strong",
+        "wealthy",
+        "modern"
+      ],
+      "answer": 0,
+      "hint": "\"vulnerable\" = dễ bị tổn thương (vulnerable to + danger)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which word in the SECOND passage means \"the release of gases into the atmosphere\"? (Từ nào trong đoạn văn thứ hai có nghĩa là \"sự thải khí vào bầu khí quyển\"?)",
+      "options": [
+        "emissions",
+        "consumption",
+        "agreement",
+        "transport"
+      ],
+      "answer": 0,
+      "hint": "\"emissions\" = lượng khí thải (greenhouse gas emissions)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct cleft sentence: \"_____ AI that is changing the way we work.\" (Chọn câu chẻ đúng.)",
+      "options": [
+        "It is",
+        "There is",
+        "He is",
+        "They are"
+      ],
+      "answer": 0,
+      "hint": "Câu chẻ nhấn mạnh chủ ngữ: It + be + S + that/who + V."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the best title for the FIRST passage. (Chọn tiêu đề phù hợp nhất cho đoạn văn thứ nhất.)",
+      "options": [
+        "Artificial intelligence: benefits and concerns",
+        "Why we should ban all smart phones",
+        "Doctors no longer needed",
+        "Smart assistants only work in schools"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu cả lợi ích và lo ngại về AI → tiêu đề cần phản ánh sự cân bằng đó."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Based on the reading passages, decide if each statement is true or false. (Dựa vào hai đoạn văn, xét tính đúng/sai.)",
+      "statements": [
+        { "text": "AI can help doctors diagnose diseases more accurately. (AI có thể giúp bác sĩ chẩn đoán bệnh chính xác hơn.)", "answer": true },
+        { "text": "AI raises some concerns, including replacing jobs and privacy issues. (AI gây ra một số lo ngại, gồm thay thế việc làm và quyền riêng tư.)", "answer": true },
+        { "text": "Vietnam is especially vulnerable to rising sea levels due to its long coastline and large delta regions. (Việt Nam đặc biệt dễ tổn thương trước nước biển dâng vì có bờ biển dài và đồng bằng lớn.)", "answer": true },
+        { "text": "Climate change has no effect at all on people around the world. (Biến đổi khí hậu không có tác động nào đến con người trên thế giới.)", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each statement about vocabulary and reading skills is true or false. (Xét tính đúng/sai về từ vựng và kĩ năng đọc.)",
+      "statements": [
+        { "text": "\"Vulnerable\" means easily harmed or affected. (\"Vulnerable\" có nghĩa là dễ bị tổn thương hoặc ảnh hưởng.)", "answer": true },
+        { "text": "\"Emissions\" refers to the release of gases into the atmosphere. (\"Emissions\" chỉ lượng khí thải ra bầu khí quyển.)", "answer": true },
+        { "text": "When reading, identifying the AUTHOR'S PURPOSE helps us understand the text better. (Khi đọc, xác định MỤC ĐÍCH của tác giả giúp ta hiểu văn bản tốt hơn.)", "answer": true },
+        { "text": "AI is always 100% safe and has no risks at all. (AI luôn 100% an toàn và không có rủi ro nào.)", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the sentence: \"Vietnam is especially _____ to rising sea levels because of its long coastline.\" (Hoàn thành câu.)",
+      "answer": "vulnerable",
+      "alternatives": ["Vulnerable"],
+      "hint": "\"vulnerable\" = dễ bị tổn thương."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete: \"Many countries have signed the Paris _____ to reduce greenhouse gas emissions.\" (Hoàn thành câu.)",
+      "answer": "Agreement",
+      "alternatives": ["agreement"],
+      "hint": "\"Paris Agreement\" = Hiệp định Paris về biến đổi khí hậu."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Both individual and collective actions are important in tackling global issues such as climate change. (Cả hành động cá nhân và tập thể đều quan trọng để giải quyết các vấn đề toàn cầu như biến đổi khí hậu.)",
+      "answer": true,
+      "hint": "Đây là quan điểm phổ biến và đúng đắn trong giải quyết các vấn đề toàn cầu."
+    }
+  ]
+}

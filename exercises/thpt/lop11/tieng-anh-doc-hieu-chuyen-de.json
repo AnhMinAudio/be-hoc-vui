@@ -1,0 +1,224 @@
+{
+  "id": "thpt-tieng-anh-l11-doc-hieu-chuyen-de",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 11,
+  "topic": "Reading comprehension by topic: heritage and global warming (Đọc hiểu chuyên đề: di sản và nóng lên toàn cầu)",
+  "chapter": "Reading by topic 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Reading about cultural heritage",
+    "Reading about global warming",
+    "Inferring meaning from context",
+    "Vocabulary: heritage, environment, conservation"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Ha Long Bay, located in Quang Ninh Province, is one of Vietnam's most famous natural wonders. The bay covers about 1,500 square kilometers and contains thousands of islands and islets made of limestone. In 1994, UNESCO recognized Ha Long Bay as a World Natural Heritage site. The bay attracts millions of tourists every year, both from Vietnam and abroad. Visitors can take boat trips to explore the caves, swim in the clear water, and enjoy the spectacular scenery.",
+      "question": "Where is Ha Long Bay located, according to the passage? (Vịnh Hạ Long nằm ở đâu?)",
+      "options": [
+        "In Quang Ninh Province",
+        "In Da Nang",
+        "In Ho Chi Minh City",
+        "In Hai Phong"
+      ],
+      "answer": 0,
+      "hint": "Câu đầu đoạn: \"Ha Long Bay, located in Quang Ninh Province...\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Ha Long Bay, located in Quang Ninh Province, is one of Vietnam's most famous natural wonders. The bay covers about 1,500 square kilometers and contains thousands of islands and islets made of limestone. In 1994, UNESCO recognized Ha Long Bay as a World Natural Heritage site. The bay attracts millions of tourists every year, both from Vietnam and abroad. Visitors can take boat trips to explore the caves, swim in the clear water, and enjoy the spectacular scenery.",
+      "question": "When did UNESCO recognize Ha Long Bay as a World Heritage Site? (UNESCO công nhận Vịnh Hạ Long là Di sản Thế giới vào năm nào?)",
+      "options": [
+        "In 1994",
+        "In 2000",
+        "In 1975",
+        "In 2015"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn ghi: \"In 1994, UNESCO recognized Ha Long Bay as a World Natural Heritage site.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Ha Long Bay, located in Quang Ninh Province, is one of Vietnam's most famous natural wonders. The bay covers about 1,500 square kilometers and contains thousands of islands and islets made of limestone. In 1994, UNESCO recognized Ha Long Bay as a World Natural Heritage site. The bay attracts millions of tourists every year, both from Vietnam and abroad. Visitors can take boat trips to explore the caves, swim in the clear water, and enjoy the spectacular scenery.",
+      "question": "What can visitors do in Ha Long Bay? (Du khách có thể làm gì ở Vịnh Hạ Long?)",
+      "options": [
+        "Take boat trips, explore caves, swim, and enjoy the scenery",
+        "Skiing on snow mountains",
+        "Visit a large desert",
+        "Build new factories"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn liệt kê: \"Visitors can take boat trips to explore the caves, swim in the clear water, and enjoy the spectacular scenery.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Global warming refers to the long-term rise in the Earth's average temperature. It is mainly caused by greenhouse gases such as carbon dioxide (CO₂) that are released when we burn coal, oil, and gas. As a result, the climate is changing: glaciers are melting, sea levels are rising, and extreme weather events such as heatwaves and storms are becoming more common. To slow down global warming, governments and individuals must work together. Important actions include using renewable energy, planting more trees, and reducing our use of fossil fuels.",
+      "question": "What is global warming, according to the passage? (Theo đoạn văn, nóng lên toàn cầu là gì?)",
+      "options": [
+        "The long-term rise in the Earth's average temperature",
+        "A short-term cold weather event",
+        "A type of tropical disease",
+        "A new kind of game"
+      ],
+      "answer": 0,
+      "hint": "Câu đầu đoạn: \"Global warming refers to the long-term rise in the Earth's average temperature.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Global warming refers to the long-term rise in the Earth's average temperature. It is mainly caused by greenhouse gases such as carbon dioxide (CO₂) that are released when we burn coal, oil, and gas. As a result, the climate is changing: glaciers are melting, sea levels are rising, and extreme weather events such as heatwaves and storms are becoming more common. To slow down global warming, governments and individuals must work together. Important actions include using renewable energy, planting more trees, and reducing our use of fossil fuels.",
+      "question": "What is the MAIN CAUSE of global warming, according to the passage? (Nguyên nhân CHÍNH của nóng lên toàn cầu là gì?)",
+      "options": [
+        "Greenhouse gases such as CO₂ released when burning fossil fuels",
+        "Too much rain in tropical regions",
+        "Only natural cycles, with no human activity involved",
+        "Movement of ocean currents"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu: \"It is mainly caused by greenhouse gases such as carbon dioxide (CO₂) that are released when we burn coal, oil, and gas.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Global warming refers to the long-term rise in the Earth's average temperature. It is mainly caused by greenhouse gases such as carbon dioxide (CO₂) that are released when we burn coal, oil, and gas. As a result, the climate is changing: glaciers are melting, sea levels are rising, and extreme weather events such as heatwaves and storms are becoming more common. To slow down global warming, governments and individuals must work together. Important actions include using renewable energy, planting more trees, and reducing our use of fossil fuels.",
+      "question": "Which is NOT a consequence of global warming mentioned in the passage? (Hậu quả nào KHÔNG được nhắc đến trong đoạn văn?)",
+      "options": [
+        "Snow falling in the Sahara desert every day",
+        "Glaciers melting",
+        "Sea levels rising",
+        "More frequent heatwaves and storms"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn liệt kê: glaciers melting, sea levels rising, heatwaves and storms — không nói tuyết rơi ở sa mạc Sahara."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "passage": "Global warming refers to the long-term rise in the Earth's average temperature. It is mainly caused by greenhouse gases such as carbon dioxide (CO₂) that are released when we burn coal, oil, and gas. As a result, the climate is changing: glaciers are melting, sea levels are rising, and extreme weather events such as heatwaves and storms are becoming more common. To slow down global warming, governments and individuals must work together. Important actions include using renewable energy, planting more trees, and reducing our use of fossil fuels.",
+      "question": "What is the MAIN MESSAGE of the passage? (Thông điệp CHÍNH của đoạn văn là gì?)",
+      "options": [
+        "Global warming is a serious problem caused mainly by human activities; both governments and individuals must act to slow it down",
+        "Global warming is good for the planet",
+        "Only governments are responsible; individuals can do nothing",
+        "Fossil fuels are completely safe for the climate"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nhấn mạnh tính nghiêm trọng + cần hành động chung của chính phủ và cá nhân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word means \"a place, building, or tradition that is preserved for its cultural or historical value\"? (Từ nào có nghĩa là \"địa điểm, công trình hay truyền thống được bảo tồn vì giá trị văn hóa hay lịch sử\"?)",
+      "options": [
+        "heritage",
+        "garbage",
+        "factory",
+        "machine"
+      ],
+      "answer": 0,
+      "hint": "\"heritage\" = di sản (cultural / natural heritage)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Which word in the SECOND passage means \"sources of energy that can be replaced naturally\"? (Từ nào trong đoạn văn thứ hai có nghĩa là \"nguồn năng lượng có thể được bổ sung tự nhiên\"?)",
+      "options": [
+        "renewable energy",
+        "fossil fuels",
+        "greenhouse gases",
+        "extreme weather"
+      ],
+      "answer": 0,
+      "hint": "\"renewable energy\" = năng lượng tái tạo (gió, mặt trời, thủy điện…)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct relative pronoun: \"Ha Long Bay is a place _____ many tourists visit every year.\" (Chọn đại từ quan hệ đúng.)",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "when"
+      ],
+      "answer": 0,
+      "hint": "Đại từ quan hệ chỉ vật (Ha Long Bay) làm tân ngữ: \"which\" hoặc \"that\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Choose the best title for the SECOND passage. (Chọn tiêu đề phù hợp nhất cho đoạn văn thứ hai.)",
+      "options": [
+        "Global warming: causes, consequences and solutions",
+        "Why fossil fuels are good for the planet",
+        "How to make the Earth warmer",
+        "Snowfall in the Sahara desert"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nói về nguyên nhân, hậu quả và giải pháp cho nóng lên toàn cầu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Choose the correct passive form: \"Ha Long Bay _____ as a World Heritage Site in 1994.\" (Chọn dạng bị động đúng: \"Vịnh Hạ Long _____ là Di sản Thế giới năm 1994.\")",
+      "options": [
+        "was recognized",
+        "is recognized",
+        "has recognized",
+        "had recognized"
+      ],
+      "answer": 0,
+      "hint": "Bị động thì quá khứ đơn (có mốc rõ ràng \"in 1994\"): was/were + V3."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Based on the reading passages, decide if each statement is true or false. (Dựa vào hai đoạn văn, xét tính đúng/sai.)",
+      "statements": [
+        { "text": "Ha Long Bay is located in Quang Ninh Province and was recognized by UNESCO as a World Heritage Site in 1994. (Vịnh Hạ Long ở Quảng Ninh, được UNESCO công nhận là Di sản Thế giới năm 1994.)", "answer": true },
+        { "text": "Global warming is mainly caused by greenhouse gases such as CO₂ from burning fossil fuels. (Nóng lên toàn cầu chủ yếu do khí nhà kính như CO₂ từ đốt nhiên liệu hóa thạch.)", "answer": true },
+        { "text": "Renewable energy and reforestation are important actions to slow down global warming. (Năng lượng tái tạo và trồng rừng là hành động quan trọng để làm chậm nóng lên toàn cầu.)", "answer": true },
+        { "text": "Global warming has no effect on sea levels and weather. (Nóng lên toàn cầu không ảnh hưởng đến mực nước biển và thời tiết.)", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each statement about heritage and environment vocabulary is true or false. (Xét tính đúng/sai về từ vựng di sản và môi trường.)",
+      "statements": [
+        { "text": "\"Heritage\" refers to something valuable that has been passed down from the past and is worth preserving. (\"Heritage\" chỉ điều quý giá được truyền lại từ quá khứ và đáng được bảo tồn.)", "answer": true },
+        { "text": "Solar and wind energy are examples of renewable energy. (Năng lượng mặt trời và gió là ví dụ về năng lượng tái tạo.)", "answer": true },
+        { "text": "Burning coal and oil does not produce any greenhouse gases. (Đốt than và dầu không tạo ra khí nhà kính nào.)", "answer": false },
+        { "text": "Planting trees can help reduce CO₂ in the atmosphere. (Trồng cây có thể giúp giảm CO₂ trong khí quyển.)", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the sentence: \"Solar and wind energy are examples of _____ energy.\" (Hoàn thành câu: \"Năng lượng mặt trời và gió là ví dụ về năng lượng _____.\")",
+      "answer": "renewable",
+      "alternatives": ["Renewable"],
+      "hint": "\"renewable\" = tái tạo."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "UNESCO recognized Ha Long Bay as a World Natural Heritage Site in the year ___",
+      "answer": "1994",
+      "hint": "Năm 1994 (đoạn văn ghi rõ)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Cultural and natural heritage sites should be preserved for future generations. (Các di sản văn hóa và tự nhiên nên được bảo tồn cho các thế hệ tương lai.)",
+      "answer": true,
+      "hint": "Đây là quan điểm phổ biến trong bảo tồn di sản trên toàn thế giới."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "thpt-ngu-van-l12-tho-cach-mang",
+  "stage": "thpt",
+  "subject": "ngu-van",
+  "grade": 12,
+  "topic": "Thơ ca cách mạng và kháng chiến: Tây Tiến, Việt Bắc, Sóng, Đất Nước",
+  "chapter": "Thơ ca cách mạng 12",
+  "difficulty": 3,
+  "outcomes": [
+    "Tây Tiến (Quang Dũng)",
+    "Việt Bắc (Tố Hữu)",
+    "Sóng (Xuân Quỳnh)",
+    "Đất Nước - trích \"Mặt đường khát vọng\" (Nguyễn Khoa Điềm)"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Tây Tiến\" là tác phẩm của nhà thơ nào?",
+      "options": [
+        "Quang Dũng",
+        "Tố Hữu",
+        "Xuân Quỳnh",
+        "Nguyễn Khoa Điềm"
+      ],
+      "answer": 0,
+      "hint": "Quang Dũng viết \"Tây Tiến\" năm 1948 khi nhớ về đoàn quân Tây Tiến."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Tây Tiến\" được sáng tác trong hoàn cảnh nào?",
+      "options": [
+        "Năm 1948, khi Quang Dũng rời đơn vị Tây Tiến và nhớ về những đồng đội đã từng cùng chiến đấu",
+        "Sau khi đất nước thống nhất năm 1975",
+        "Trong thời kì Đổi mới sau 1986",
+        "Khi đang ở Pa-ri để học tập"
+      ],
+      "answer": 0,
+      "hint": "\"Tây Tiến\" ra đời tại Phù Lưu Chanh năm 1948, là nỗi nhớ về đoàn binh Tây Tiến anh hùng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai câu thơ \"Quân xanh màu lá dữ oai hùm / Mắt trừng gửi mộng qua biên giới\" trong \"Tây Tiến\" khắc họa hình tượng người lính như thế nào?",
+      "options": [
+        "Vừa hiện thực (gian khổ, bệnh tật) vừa lãng mạn (mộng mơ, oai phong, anh dũng)",
+        "Chỉ hiện thực trần trụi, không có nét lãng mạn",
+        "Chỉ có nét lãng mạn, không phản ánh hiện thực",
+        "Hoàn toàn không có yếu tố nghệ thuật"
+      ],
+      "answer": 0,
+      "hint": "\"Quân xanh màu lá\" gợi gian khổ (sốt rét), \"dữ oai hùm\", \"mắt trừng gửi mộng\" gợi oai hùng, lãng mạn — kết hợp hiện thực và lãng mạn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Việt Bắc\" là tác phẩm của nhà thơ:",
+      "options": [
+        "Tố Hữu",
+        "Quang Dũng",
+        "Xuân Diệu",
+        "Huy Cận"
+      ],
+      "answer": 0,
+      "hint": "Tố Hữu được coi là \"lá cờ đầu\" của thơ ca cách mạng Việt Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bài thơ \"Việt Bắc\" được Tố Hữu sáng tác nhân sự kiện lịch sử nào?",
+      "options": [
+        "Sau Hiệp định Giơ-ne-vơ (10/1954), khi Trung ương Đảng và Chính phủ từ chiến khu Việt Bắc về Hà Nội",
+        "Sau Cách mạng tháng Tám 1945 thành công",
+        "Sau ngày giải phóng miền Nam 30/4/1975",
+        "Trong thời kì Đổi mới 1986"
+      ],
+      "answer": 0,
+      "hint": "\"Việt Bắc\" ghi lại nỗi nhớ và tình cảm giữa \"người về\" (cán bộ về xuôi) và \"người ở\" (đồng bào Việt Bắc) sau 9 năm kháng chiến."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bài thơ \"Việt Bắc\" sử dụng kết cấu đối đáp đặc trưng của thể loại nào trong văn học dân gian?",
+      "options": [
+        "Ca dao - dân ca (lối đối đáp giữa \"mình\" và \"ta\")",
+        "Sử thi anh hùng",
+        "Truyện cổ tích",
+        "Truyện ngụ ngôn"
+      ],
+      "answer": 0,
+      "hint": "\"Mình về mình có nhớ ta...\" — kết cấu đối đáp \"mình - ta\" mượn từ ca dao - dân ca."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Sóng\" là tác phẩm của nhà thơ:",
+      "options": [
+        "Xuân Quỳnh",
+        "Xuân Diệu",
+        "Hàn Mặc Tử",
+        "Chế Lan Viên"
+      ],
+      "answer": 0,
+      "hint": "Xuân Quỳnh viết \"Sóng\" năm 1967 trong chuyến đi thực tế ở biển Diêm Điền (Thái Bình)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hình tượng \"sóng\" trong bài thơ \"Sóng\" của Xuân Quỳnh tượng trưng cho điều gì?",
+      "options": [
+        "Tâm trạng, khát khao của người con gái khi yêu — vừa dữ dội vừa dịu êm, vừa khao khát vừa lo âu",
+        "Chỉ là cảnh thiên nhiên thuần túy, không có ý nghĩa biểu tượng",
+        "Sự bất biến, không đổi thay của thời gian",
+        "Sức mạnh quân sự của đất nước"
+      ],
+      "answer": 0,
+      "hint": "\"Sóng\" và \"em\" là hai hình tượng song hành, biểu trưng cho tình yêu và tâm hồn người phụ nữ khi yêu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đoạn trích \"Đất Nước\" trong sách giáo khoa được trích từ trường ca \"Mặt đường khát vọng\" của nhà thơ:",
+      "options": [
+        "Nguyễn Khoa Điềm",
+        "Tố Hữu",
+        "Xuân Diệu",
+        "Chế Lan Viên"
+      ],
+      "answer": 0,
+      "hint": "Trường ca \"Mặt đường khát vọng\" của Nguyễn Khoa Điềm hoàn thành năm 1971, đoạn \"Đất Nước\" nằm trong chương V."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tư tưởng cốt lõi mà Nguyễn Khoa Điềm muốn gửi gắm qua đoạn trích \"Đất Nước\" là gì?",
+      "options": [
+        "Tư tưởng \"Đất Nước của Nhân dân\" — Đất Nước được làm nên, gìn giữ và sống mãi nhờ nhân dân; mỗi cá nhân đều mang một phần Đất Nước",
+        "Đất Nước chỉ thuộc về tầng lớp vua chúa, quý tộc",
+        "Đất Nước không có liên hệ gì với nhân dân lao động",
+        "Đất Nước là của riêng các nhà thơ"
+      ],
+      "answer": 0,
+      "hint": "Tư tưởng \"Đất Nước của Nhân dân\" là điểm sáng tạo nổi bật của Nguyễn Khoa Điềm so với các bài viết về đề tài đất nước trước đó."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đặc điểm chung về cảm hứng của thơ ca Việt Nam giai đoạn kháng chiến chống Pháp và chống Mỹ (1945-1975) là:",
+      "options": [
+        "Cảm hứng sử thi và lãng mạn cách mạng — ca ngợi đất nước, nhân dân và những con người anh hùng trong chiến đấu, lao động",
+        "Cảm hứng bi quan, tuyệt vọng về cuộc đời",
+        "Cảm hứng siêu thực, viễn tưởng",
+        "Cảm hứng chỉ tập trung vào tình yêu đôi lứa, không có yếu tố thời đại"
+      ],
+      "answer": 0,
+      "hint": "Thơ ca 1945-1975 đậm chất sử thi và lãng mạn cách mạng, gắn liền với vận mệnh đất nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Câu thơ \"Khi ta lớn lên Đất Nước đã có rồi / Đất Nước có trong những cái 'ngày xửa ngày xưa...' mẹ thường hay kể\" (Nguyễn Khoa Điềm) thể hiện điều gì?",
+      "options": [
+        "Đất Nước có nguồn cội từ rất xa xưa, gần gũi, gắn với những điều bình dị trong đời sống của mỗi con người (lời ru, câu chuyện cổ)",
+        "Đất Nước hoàn toàn xa lạ với tuổi thơ",
+        "Đất Nước chỉ tồn tại trên giấy tờ pháp lí",
+        "Đất Nước không cần đến truyền thuyết, cổ tích"
+      ],
+      "answer": 0,
+      "hint": "Nguyễn Khoa Điềm cảm nhận Đất Nước từ những điều gần gũi, bình dị: lời ru, miếng trầu bà ăn, truyền thuyết..."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về thơ ca cách mạng Việt Nam:",
+      "statements": [
+        { "text": "\"Tây Tiến\" của Quang Dũng được sáng tác năm 1948, viết về đoàn binh Tây Tiến trong kháng chiến chống Pháp.", "answer": true },
+        { "text": "\"Việt Bắc\" của Tố Hữu được sáng tác sau Hiệp định Giơ-ne-vơ (1954), khi Trung ương rời chiến khu về xuôi.", "answer": true },
+        { "text": "Hình tượng người lính trong \"Tây Tiến\" được khắc họa với cả hai mặt: hiện thực gian khổ và lãng mạn anh hùng.", "answer": true },
+        { "text": "Tố Hữu không phải là nhà thơ tiêu biểu của thơ ca cách mạng Việt Nam.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về \"Sóng\" và \"Đất Nước\":",
+      "statements": [
+        { "text": "\"Sóng\" của Xuân Quỳnh thể hiện tâm hồn người phụ nữ khi yêu với những khát khao chân thành, mãnh liệt.", "answer": true },
+        { "text": "Hình tượng \"sóng\" và \"em\" trong bài thơ \"Sóng\" là hai hình tượng song hành, soi chiếu cho nhau.", "answer": true },
+        { "text": "Đoạn trích \"Đất Nước\" trích từ trường ca \"Mặt đường khát vọng\" của Nguyễn Khoa Điềm, thể hiện tư tưởng \"Đất Nước của Nhân dân\".", "answer": true },
+        { "text": "\"Sóng\" và \"Đất Nước\" hoàn toàn không liên quan đến cảm hứng yêu nước, chỉ là thơ tình thuần túy.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Bài thơ \"Tây Tiến\" là tác phẩm của nhà thơ ___",
+      "answer": "Quang Dũng",
+      "alternatives": ["quang dung"],
+      "hint": "Quang Dũng (1921-1988) sáng tác \"Tây Tiến\" năm 1948."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đoạn trích \"Đất Nước\" được trích từ chương V của trường ca \"___\" của Nguyễn Khoa Điềm.",
+      "answer": "Mặt đường khát vọng",
+      "alternatives": ["mat duong khat vong"],
+      "hint": "\"Mặt đường khát vọng\" là trường ca dài, đoạn \"Đất Nước\" là một phần trong chương V."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Tố Hữu được coi là \"lá cờ đầu\" của thơ ca cách mạng Việt Nam.",
+      "answer": true,
+      "hint": "Sự nghiệp thơ của Tố Hữu gắn liền với các chặng đường cách mạng của dân tộc."
+    }
+  ]
+}

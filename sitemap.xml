@@ -1117,6 +1117,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-ngu-van-l12-tho-cach-mang</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-ngu-van-l12-truyen-ngan-hien-dai</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -1153,6 +1159,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-tieng-anh-l10-doc-hieu-chuyen-de</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-tieng-anh-l10-doc-hieu-giao-tiep</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -1171,6 +1183,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://behocvui.id.vn/bai/thpt-tieng-anh-l11-doc-hieu-chuyen-de</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://behocvui.id.vn/bai/thpt-tieng-anh-l11-doc-hieu-giao-tiep</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -1184,6 +1202,12 @@
   </url>
   <url>
     <loc>https://behocvui.id.vn/bai/thpt-tieng-anh-l11-passive-reported</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://behocvui.id.vn/bai/thpt-tieng-anh-l12-doc-hieu-chuyen-de</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
