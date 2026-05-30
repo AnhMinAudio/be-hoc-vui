@@ -54,6 +54,7 @@ const MultipleChoice = {
 // Hiển thị phản hồi đúng/sai + khối "Giải thích" (đáp án đúng + lời giải) sau MỖI câu.
 // answerText: đáp án đúng dạng chữ (tùy chọn). hint: lời giải/cách làm (tùy chọn).
 function showFeedback(wrap, correct, hint, answerText) {
+  if (window.Media && Media.feedback) Media.feedback(correct); // ding khi đúng / buzz + rung nhẹ khi sai
   const fb = document.createElement('div');
   fb.className = 'feedback ' + (correct ? 'correct' : 'wrong');
   const emoji = correct

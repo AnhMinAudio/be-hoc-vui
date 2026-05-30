@@ -97,5 +97,56 @@ const Media = (() => {
     } catch (e) { /* bỏ qua */ }
   }
 
-  return { visual, speak, supportsSpeech, isEmoji, renderMath };
+  // ===== Âm thanh + rung phản hồi (microinteractions) =====
+  // Dùng Web Audio API để tự tổng hợp tiếng "ding" / "buzz" — không cần file MP3.
+  // Tôn trọng cài đặt tắt tiếng của người dùng (lưu trong localStorage).
+  const SOUND_KEY = 'be-hoc-vui-sound';   // '0' = tắt, mặc định bật
+  const VIBRATE_KEY = 'be-hoc-vui-vibrate'; // '0' = tắt, mặc định bật
+  let audioCtx = null;
+  function soundOn() { return localStorage.getItem(SOUND_KEY) !== '0'; }
+  function vibrateOn() { return localStorage.getItem(VIBRATE_KEY) !== '0'; }
+  function setSoundOn(on) { localStorage.setItem(SOUND_KEY, on ? '1' : '0'); }
+  function setVibrateOn(on) { localStorage.setItem(VIBRATE_KEY, on ? '1' : '0'); }
+
+  function ensureCtx() {
+    if (!soundOn()) return null;
+    if (audioCtx) { try { if (audioCtx.state === 'suspended') audioCtx.resume(); } catch {} return audioCtx; }
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return null;
+    try { audioCtx = new AC(); } catch { return null; }
+    return audioCtx;
+  }
+  // Phát một âm ngắn với tần số, thời lượng, dạng sóng tùy chọn
+  function tone(freq, durationMs, type = 'sine', volume = 0.18) {
+    const ctx = ensureCtx();
+    if (!ctx) return;
+    try {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, ctx.currentTime);
+      gain.gain.setValueAtTime(0, ctx.currentTime);
+      gain.gain.linearRampToValueAtTime(volume, ctx.currentTime + 0.01);
+      gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + durationMs / 1000);
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + durationMs / 1000 + 0.02);
+    } catch { /* bỏ qua */ }
+  }
+  const sound = {
+    correct() { tone(880, 120, 'sine'); setTimeout(() => tone(1175, 160, 'sine'), 80); }, // "ding" 2 nốt
+    wrong()   { tone(196, 220, 'sawtooth', 0.12); },  // "buzz" trầm
+    complete() { tone(659, 120); setTimeout(() => tone(784, 120), 110); setTimeout(() => tone(988, 220), 220); }, // fanfare
+  };
+  function vibrate(ms) {
+    if (!vibrateOn()) return;
+    if (navigator.vibrate) { try { navigator.vibrate(ms); } catch {} }
+  }
+  // Phản hồi câu trả lời: gộp âm + rung trong 1 lời gọi.
+  function feedback(correct) {
+    if (correct) sound.correct();
+    else { sound.wrong(); vibrate(120); }
+  }
+
+  return { visual, speak, supportsSpeech, isEmoji, renderMath, sound, vibrate, feedback, soundOn, vibrateOn, setSoundOn, setVibrateOn };
 })();

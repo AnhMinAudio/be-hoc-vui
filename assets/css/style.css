@@ -1377,3 +1377,65 @@ body[data-stage="mam-non"] .lb-name, body[data-stage="tieu-hoc"] .lb-name { font
 .pv-act-name { flex: 1; font-weight: 600; color: var(--c-text); font-size: .92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pv-act-score { font-weight: 800; color: var(--c-primary-dark, var(--c-primary)); font-variant-numeric: tabular-nums; }
 .pv-act-date { font-size: .8rem; color: var(--c-text-soft); min-width: 34px; text-align: right; }
+
+/* ===== Microinteractions — phản hồi câu trả lời =====
+   - .option.correct/.wrong tự thêm icon ✓/✗ scale-in
+   - .option.wrong lắc nhẹ (shake) báo sai
+   - .skeleton: khối shimmer dùng cho mọi trạng thái loading
+   - prefers-reduced-motion: tự tắt mọi chuyển động */
+.option { position: relative; }
+.option.correct::after, .option.wrong::after {
+  content: '✓'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%) scale(0);
+  width: 26px; height: 26px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 1rem; color: #fff;
+  animation: pop-in 0.32s cubic-bezier(0.18, 1.4, 0.5, 1) forwards;
+}
+.option.correct::after { background: var(--c-correct); }
+.option.wrong::after { content: '✗'; background: var(--c-wrong); }
+.option.wrong { animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97); }
+@keyframes shake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(3px); }
+  30%, 50%, 70% { transform: translateX(-5px); }
+  40%, 60% { transform: translateX(5px); }
+}
+
+/* Skeleton loading shimmer — dùng khi đang tải đề/dữ liệu */
+.skeleton {
+  background: linear-gradient(90deg, var(--c-surface-2) 25%, var(--c-bg-tint) 50%, var(--c-surface-2) 75%);
+  background-size: 200% 100%; animation: skeleton-shimmer 1.4s linear infinite;
+  border-radius: var(--radius-sm); color: transparent !important;
+}
+@keyframes skeleton-shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+.skeleton-card {
+  padding: 18px; background: var(--c-card); border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm); margin-bottom: 14px;
+}
+.skeleton-line { height: 16px; margin: 10px 0; border-radius: 6px; }
+.skeleton-line.short { width: 55%; }
+.skeleton-line.medium { width: 80%; }
+
+/* Đồng hồ thi: cảnh báo "đỏ rung" mạnh hơn khi sắp hết giờ (< 10% tổng) */
+.exam-timer.warning {
+  background: var(--c-wrong); color: #fff; animation: timer-shake 0.6s ease-in-out infinite;
+}
+@keyframes timer-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+
+/* Tôn trọng người dùng thích "giảm chuyển động" — tắt thêm các animation mới */
+@media (prefers-reduced-motion: reduce) {
+  .option.correct::after, .option.wrong::after,
+  .option.wrong, .exam-timer.warning, .skeleton { animation: none; }
+}
+
+/* Toggle bật/tắt âm thanh, rung trong trang Tài khoản */
+.acct-toggle {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 14px; background: var(--c-bg-tint); border-radius: var(--radius-md);
+  font-weight: 600; color: var(--c-text); cursor: pointer; user-select: none;
+}
+.acct-toggle input[type=checkbox] { width: 18px; height: 18px; cursor: pointer; accent-color: var(--c-primary); }

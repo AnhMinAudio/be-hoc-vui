@@ -91,7 +91,10 @@ async function applySeo(path) {
 async function route() {
   const path = (location.pathname || '/').replace(/^\/+|\/+$/g, '');
   const view = document.getElementById('view');
-  view.innerHTML = '<div class="empty"><div class="emoji">⏳</div><div class="msg">Đang tải...</div></div>';
+  // Skeleton placeholder — mượt hơn spinner, gợi ý cấu trúc đang tới
+  view.innerHTML = `
+    <div class="skeleton-card"><div class="skeleton skeleton-line medium"></div><div class="skeleton skeleton-line short"></div></div>
+    <div class="skeleton-card"><div class="skeleton skeleton-line"></div><div class="skeleton skeleton-line short"></div></div>`;
   updateHeader();
   updateTabbar(path);
   document.body.classList.remove('in-exercise'); // rời màn làm bài thì hiện lại chrome
@@ -398,6 +401,15 @@ function renderAuth(view) {
         </div>
 
         <div class="auth-card pp-card">
+          <h2 style="margin-top:0">⚙️ Hiệu ứng khi làm bài</h2>
+          <p class="about-note" style="margin-top:6px">Bật/tắt âm thanh phản hồi đúng-sai và rung nhẹ khi sai (chỉ trên điện thoại). Cài đặt lưu trên trình duyệt này.</p>
+          <div class="action-bar" style="gap:10px;margin-top:8px">
+            <label class="acct-toggle"><input type="checkbox" id="opt-sound"> 🔊 Âm thanh</label>
+            <label class="acct-toggle"><input type="checkbox" id="opt-vibrate"> 📳 Rung khi sai</label>
+          </div>
+        </div>
+
+        <div class="auth-card pp-card">
           <h2 style="margin-top:0">👨‍👩‍👧 Theo dõi của phụ huynh</h2>
           <p class="about-note" style="margin-top:6px">Đặt một <b>mã 6 chữ số</b> để bố mẹ xem được tiến trình học của con từ điện thoại của mình — vào <b>behocvui.id.vn/phu-huynh</b>, nhập biệt danh + mã. Phụ huynh <b>chỉ xem</b>, không sửa được gì.</p>
           <div id="pp-state"></div>
@@ -405,6 +417,17 @@ function renderAuth(view) {
       </div>`;
     view.querySelector('#logout-btn').onclick = () => { Auth.logout(); navTo('/'); };
     refreshPinCard(view);
+    // Cài đặt âm thanh / rung (toggle, lưu vào localStorage qua Media)
+    const optSound = view.querySelector('#opt-sound');
+    const optVib = view.querySelector('#opt-vibrate');
+    if (optSound) {
+      optSound.checked = Media.soundOn();
+      optSound.onchange = () => { Media.setSoundOn(optSound.checked); if (optSound.checked) Media.sound.correct(); };
+    }
+    if (optVib) {
+      optVib.checked = Media.vibrateOn();
+      optVib.onchange = () => { Media.setVibrateOn(optVib.checked); if (optVib.checked) Media.vibrate(80); };
+    }
     return;
   }
 
@@ -1499,7 +1522,9 @@ async function renderExercise(view, id) {
         const remain = Math.max(0, deadline - Date.now());
         const s = Math.floor(remain / 1000);
         el.textContent = `⏱ ${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
-        el.classList.toggle('low', remain <= 60000);
+        const totalMs = exercise.timeLimit * 60000;
+        el.classList.toggle('low', remain <= 60000);                // cảnh báo cơ bản (< 1 phút)
+        el.classList.toggle('warning', remain <= totalMs * 0.10);   // cảnh báo MẠNH (rung đỏ) khi < 10% tổng
         if (remain <= 0) { clearInterval(timerInterval); showResult(); }
       };
       tick();
