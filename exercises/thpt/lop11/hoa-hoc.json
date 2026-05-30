@@ -1,0 +1,205 @@
+{
+  "id": "thpt-hoa-hoc-l11-on-tap",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 11,
+  "topic": "Ôn tập Hóa học 11",
+  "chapter": "Tổng ôn Hóa học 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Cân bằng hóa học",
+    "Nitrogen, Sulfur và hợp chất",
+    "Đại cương hóa học hữu cơ",
+    "Hydrocarbon, alcohol, carboxylic acid"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Một phản ứng hóa học thuận nghịch được gọi là đạt trạng thái cân bằng khi:",
+      "options": [
+        "Tốc độ phản ứng thuận BẰNG tốc độ phản ứng nghịch",
+        "Phản ứng dừng hoàn toàn, không còn diễn ra",
+        "Chỉ phản ứng thuận xảy ra",
+        "Nồng độ các chất phản ứng giảm về 0"
+      ],
+      "answer": 0,
+      "hint": "Cân bằng động: tốc độ phản ứng thuận = tốc độ phản ứng nghịch; phản ứng vẫn diễn ra theo cả hai chiều."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo nguyên lí Le Chatelier, khi tăng áp suất của hệ, cân bằng của một phản ứng khí thuận nghịch sẽ chuyển dịch theo chiều:",
+      "options": [
+        "Làm giảm số mol khí (chiều giảm áp suất của hệ)",
+        "Làm tăng số mol khí",
+        "Không thay đổi",
+        "Luôn về phía sản phẩm"
+      ],
+      "answer": 0,
+      "hint": "Nguyên lí Le Chatelier: hệ chống lại sự thay đổi → tăng áp suất, cân bằng chuyển dịch theo chiều giảm số mol khí."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khí nitrogen ($N_2$) chiếm khoảng bao nhiêu phần trăm thể tích không khí?",
+      "options": [
+        "Khoảng 78%",
+        "Khoảng 21%",
+        "Khoảng 50%",
+        "Khoảng 99%"
+      ],
+      "answer": 0,
+      "hint": "Khí quyển gần mặt đất: $N_2$ ≈ 78%, $O_2$ ≈ 21%, còn lại các khí khác."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử của ammonia (amoniac) là:",
+      "options": [
+        "$NH_3$",
+        "$N_2H_4$",
+        "$HNO_3$",
+        "$NO_2$"
+      ],
+      "answer": 0,
+      "hint": "Ammonia có công thức $NH_3$, khí không màu, mùi khai."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Dung dịch nitric acid ($HNO_3$) loãng tác dụng với hầu hết kim loại tạo ra:",
+      "options": [
+        "Muối nitrate, khí (như $NO$) và nước",
+        "Chỉ tạo khí $H_2$ (như acid HCl)",
+        "Khí $CO_2$ và nước",
+        "Khí $SO_2$ và muối sulfate"
+      ],
+      "answer": 0,
+      "hint": "$HNO_3$ là acid có tính oxi hóa mạnh; tác dụng kim loại không sinh $H_2$ mà thường tạo $NO$ (loãng) hoặc $NO_2$ (đặc)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử chung của dãy đồng đẳng alkane là:",
+      "options": [
+        "$C_nH_{2n+2}$ (với $n \\geq 1$)",
+        "$C_nH_{2n}$",
+        "$C_nH_{2n-2}$",
+        "$C_nH_{2n-6}$"
+      ],
+      "answer": 0,
+      "hint": "Alkane là hydrocarbon no, mạch hở, công thức $C_nH_{2n+2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử chung của alkene (chỉ chứa 1 liên kết đôi C=C) là:",
+      "options": [
+        "$C_nH_{2n}$ ($n \\geq 2$)",
+        "$C_nH_{2n+2}$",
+        "$C_nH_{2n-2}$",
+        "$C_nH_{2n-6}$"
+      ],
+      "answer": 0,
+      "hint": "Alkene: hydrocarbon không no có 1 liên kết đôi C=C, mạch hở, công thức $C_nH_{2n}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức phân tử của benzene là:",
+      "options": [
+        "$C_6H_6$",
+        "$C_6H_{12}$",
+        "$C_2H_6$",
+        "$C_6H_{14}$"
+      ],
+      "answer": 0,
+      "hint": "Benzene là hydrocarbon thơm đơn giản nhất, công thức $C_6H_6$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nhóm chức của ALCOHOL (rượu) đơn chức, no, mạch hở là:",
+      "options": [
+        "$-OH$ (gắn vào nguyên tử carbon no)",
+        "$-CHO$",
+        "$-COOH$",
+        "$-NH_2$"
+      ],
+      "answer": 0,
+      "hint": "Nhóm chức của alcohol là $-OH$ (hydroxyl) gắn vào C no; phenol cũng có $-OH$ nhưng gắn vào vòng benzene."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nhóm chức đặc trưng của CARBOXYLIC ACID là:",
+      "options": [
+        "$-COOH$",
+        "$-OH$",
+        "$-CHO$",
+        "$-NH_2$"
+      ],
+      "answer": 0,
+      "hint": "Carboxylic acid có nhóm chức carboxyl $-COOH$ (ví dụ $CH_3COOH$ là acetic acid)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong các chất sau, chất nào là một alkene?",
+      "options": [
+        "$CH_2{=}CH_2$ (ethylene)",
+        "$CH_3-CH_3$ (ethane)",
+        "$CH \\equiv CH$ (acetylene)",
+        "$C_6H_6$ (benzene)"
+      ],
+      "answer": 0,
+      "hint": "Alkene có 1 liên kết đôi C=C; ethylene $CH_2{=}CH_2$ là alkene đơn giản nhất."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cân bằng hóa học và hợp chất nitrogen, sulfur:",
+      "statements": [
+        { "text": "Khi đạt trạng thái cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.", "answer": true },
+        { "text": "Ammonia ($NH_3$) là một base yếu, làm quỳ tím ẩm chuyển xanh.", "answer": true },
+        { "text": "Nitric acid ($HNO_3$) là một acid mạnh và có tính oxi hóa mạnh.", "answer": true },
+        { "text": "Sulfuric acid ($H_2SO_4$) loãng KHÔNG phải là một acid mạnh.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hóa học hữu cơ:",
+      "statements": [
+        { "text": "Hợp chất hữu cơ là hợp chất của carbon (trừ một số ngoại lệ như $CO_2$, $CO$, muối carbonate...).", "answer": true },
+        { "text": "Alkane có công thức tổng quát $C_nH_{2n+2}$.", "answer": true },
+        { "text": "Alcohol có nhóm chức đặc trưng là $-COOH$.", "answer": false },
+        { "text": "Acetic acid ($CH_3COOH$) làm quỳ tím chuyển sang màu đỏ.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Công thức phân tử của ammonia là ___",
+      "answer": "NH3",
+      "alternatives": ["NH₃", "nh3"],
+      "hint": "Ammonia: 1 nguyên tử N + 3 nguyên tử H → $NH_3$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Nhóm chức đặc trưng của carboxylic acid là ___",
+      "answer": "-COOH",
+      "alternatives": ["COOH", "carboxyl", "-COOH (carboxyl)"],
+      "hint": "Nhóm $-COOH$ (carboxyl) gồm $-C(=O)-OH$."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Benzene ($C_6H_6$) là hydrocarbon thơm đơn giản nhất.",
+      "answer": true,
+      "hint": "Benzene là hydrocarbon thơm cơ bản, có vòng 6 cạnh với 3 liên kết đôi xen kẽ."
+    }
+  ]
+}

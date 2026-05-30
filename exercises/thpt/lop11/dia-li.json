@@ -1,0 +1,204 @@
+{
+  "id": "thpt-dia-li-l11-on-tap",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 11,
+  "topic": "Ôn tập Địa lí 11",
+  "chapter": "Tổng ôn Địa lí 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Toàn cầu hóa và hội nhập kinh tế quốc tế",
+    "Liên minh châu Âu (EU)",
+    "Khu vực Đông Nam Á và ASEAN",
+    "Hoa Kỳ và Trung Quốc"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Toàn cầu hóa kinh tế được hiểu là:",
+      "options": [
+        "Quá trình liên kết, hợp tác kinh tế ngày càng chặt chẽ giữa các quốc gia, các khu vực trên toàn thế giới",
+        "Quá trình các nước đóng cửa, ngừng giao thương với bên ngoài",
+        "Sự sáp nhập toàn bộ các quốc gia thành một nước duy nhất",
+        "Việc xóa bỏ hoàn toàn ranh giới giữa các nước"
+      ],
+      "answer": 0,
+      "hint": "Toàn cầu hóa kinh tế là sự gia tăng liên kết, phụ thuộc lẫn nhau giữa các nền kinh tế trên thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tổ chức Thương mại Thế giới được viết tắt là:",
+      "options": [
+        "WTO",
+        "ASEAN",
+        "EU",
+        "NATO"
+      ],
+      "answer": 0,
+      "hint": "WTO = World Trade Organization, tổ chức điều phối thương mại toàn cầu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "An ninh toàn cầu hiện nay bao gồm nhiều vấn đề, trong đó nổi bật là:",
+      "options": [
+        "An ninh lương thực, an ninh năng lượng, an ninh nguồn nước, an ninh mạng, biến đổi khí hậu",
+        "Chỉ có an ninh quân sự",
+        "Chỉ có vấn đề kinh tế",
+        "Chỉ có vấn đề biên giới giữa các nước"
+      ],
+      "answer": 0,
+      "hint": "Khái niệm an ninh toàn cầu mở rộng: bao gồm lương thực, năng lượng, nguồn nước, môi trường, mạng,..."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Liên minh châu Âu (EU) là một tổ chức:",
+      "options": [
+        "Liên kết kinh tế - chính trị của nhiều quốc gia châu Âu",
+        "Một quốc gia thống nhất tại châu Âu",
+        "Một tổ chức quân sự ở châu Á",
+        "Một câu lạc bộ thể thao quốc tế"
+      ],
+      "answer": 0,
+      "hint": "EU là liên minh kinh tế và chính trị, các thành viên là các quốc gia châu Âu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đồng tiền chung của nhiều quốc gia thành viên Liên minh châu Âu là:",
+      "options": [
+        "Euro (EUR, €)",
+        "Đô la Mỹ (USD)",
+        "Bảng Anh (GBP)",
+        "Yên Nhật (JPY)"
+      ],
+      "answer": 0,
+      "hint": "Đồng Euro được sử dụng bởi phần lớn (không phải tất cả) các nước EU, gọi là khu vực Eurozone."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "ASEAN — Hiệp hội các quốc gia Đông Nam Á — hiện nay có bao nhiêu thành viên?",
+      "options": [
+        "10 nước",
+        "5 nước",
+        "7 nước",
+        "12 nước"
+      ],
+      "answer": 0,
+      "hint": "ASEAN hiện có 10 thành viên ở khu vực Đông Nam Á."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đông Nam Á có vị trí địa lí quan trọng trên thế giới chủ yếu vì:",
+      "options": [
+        "Nằm trên tuyến đường hàng hải quốc tế (cầu nối Ấn Độ Dương và Thái Bình Dương), giàu tài nguyên",
+        "Là khu vực có nhiều băng tuyết quanh năm",
+        "Nằm hoàn toàn ở Bắc Cực",
+        "Không có biển và đại dương bao quanh"
+      ],
+      "answer": 0,
+      "hint": "Đông Nam Á là cầu nối giữa hai đại dương lớn (Ấn Độ Dương, Thái Bình Dương) và nằm trên các tuyến giao thông quốc tế chính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quốc gia nào sau đây có nền kinh tế lớn nhất thế giới (theo GDP danh nghĩa) trong nhiều thập kỉ qua?",
+      "options": [
+        "Hoa Kỳ",
+        "Nhật Bản",
+        "Brazil",
+        "Nga"
+      ],
+      "answer": 0,
+      "hint": "Hoa Kỳ là nền kinh tế lớn nhất thế giới theo GDP danh nghĩa trong thời gian dài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đặc điểm nổi bật của nền kinh tế Trung Quốc trong những thập kỉ gần đây là:",
+      "options": [
+        "Tăng trưởng nhanh, trở thành công xưởng của thế giới và là một trong những nền kinh tế lớn nhất",
+        "Tăng trưởng âm liên tục, suy thoái sâu",
+        "Hoàn toàn không có công nghiệp",
+        "Chỉ phát triển nông nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Từ cuối thế kỉ XX, Trung Quốc tăng trưởng kinh tế nhanh, trở thành \"công xưởng thế giới\"; hiện là nền kinh tế lớn thứ hai theo GDP danh nghĩa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tại sao Đông Nam Á được xem là khu vực có nhiều tiềm năng phát triển kinh tế?",
+      "options": [
+        "Vị trí địa lí thuận lợi, tài nguyên thiên nhiên phong phú, dân số đông và trẻ, hội nhập sâu rộng qua ASEAN",
+        "Vì có khí hậu lạnh quanh năm",
+        "Vì nằm cách xa các tuyến giao thông quốc tế",
+        "Vì không có dân cư sinh sống"
+      ],
+      "answer": 0,
+      "hint": "Tiềm năng của Đông Nam Á: vị trí cầu nối, tài nguyên phong phú, lao động dồi dào, hội nhập qua ASEAN."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Việt Nam gia nhập ASEAN vào năm:",
+      "options": [
+        "1995",
+        "1967",
+        "1986",
+        "2007"
+      ],
+      "answer": 0,
+      "hint": "Việt Nam chính thức gia nhập ASEAN vào ngày 28/7/1995."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về toàn cầu hóa và Liên minh châu Âu:",
+      "statements": [
+        { "text": "Toàn cầu hóa kinh tế là quá trình liên kết, phụ thuộc lẫn nhau ngày càng tăng giữa các nền kinh tế trên thế giới.", "answer": true },
+        { "text": "Tổ chức Thương mại Thế giới (WTO) có vai trò điều phối thương mại toàn cầu.", "answer": true },
+        { "text": "Liên minh châu Âu (EU) là liên kết kinh tế - chính trị của nhiều quốc gia châu Âu.", "answer": true },
+        { "text": "Đồng Euro (€) là đồng tiền chung của tất cả các quốc gia trên thế giới.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á, Hoa Kỳ và Trung Quốc:",
+      "statements": [
+        { "text": "ASEAN hiện có 10 quốc gia thành viên ở khu vực Đông Nam Á.", "answer": true },
+        { "text": "Việt Nam gia nhập ASEAN năm 1995.", "answer": true },
+        { "text": "Hoa Kỳ là một trong những nền kinh tế lớn nhất thế giới (xét theo GDP danh nghĩa).", "answer": true },
+        { "text": "Trung Quốc hiện nay chỉ phát triển nông nghiệp, không có công nghiệp đáng kể.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Việt Nam chính thức gia nhập ASEAN vào năm ___",
+      "answer": "1995",
+      "hint": "Ngày 28/7/1995, Việt Nam chính thức là thành viên thứ 7 của ASEAN."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đồng tiền chung của nhiều quốc gia trong Liên minh châu Âu (EU) là đồng ___",
+      "answer": "Euro",
+      "alternatives": ["euro", "EUR", "€"],
+      "hint": "Euro là đồng tiền của khu vực Eurozone (một bộ phận của EU)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đông Nam Á có vị trí địa lí được ví như cầu nối giữa Ấn Độ Dương và Thái Bình Dương.",
+      "answer": true,
+      "hint": "Vị trí cầu nối giữa hai đại dương lớn là một trong những lợi thế nổi bật của Đông Nam Á."
+    }
+  ]
+}

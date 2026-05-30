@@ -1,0 +1,205 @@
+{
+  "id": "thpt-sinh-hoc-l10-on-tap",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 10,
+  "topic": "Ôn tập Sinh học 10",
+  "chapter": "Tổng ôn Sinh học 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Giới thiệu chung về sinh học - Các cấp tổ chức sống",
+    "Tế bào nhân sơ và tế bào nhân thực",
+    "Vận chuyển các chất qua màng sinh chất",
+    "Enzyme, hô hấp tế bào và quang hợp"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đơn vị cơ bản về cấu tạo và chức năng của mọi cơ thể sống là:",
+      "options": [
+        "Tế bào",
+        "Phân tử",
+        "Mô",
+        "Cơ quan"
+      ],
+      "answer": 0,
+      "hint": "Tế bào là đơn vị cấu trúc và chức năng cơ bản của sự sống."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tế bào nhân sơ KHÁC tế bào nhân thực ở đặc điểm cốt lõi nào?",
+      "options": [
+        "Không có nhân hoàn chỉnh (vật chất di truyền không được bao bọc bởi màng nhân) và không có các bào quan có màng",
+        "Có nhân hoàn chỉnh và có nhiều bào quan có màng",
+        "Có kích thước lớn hơn tế bào nhân thực",
+        "Chỉ có ở động vật"
+      ],
+      "answer": 0,
+      "hint": "Tế bào nhân sơ (vd vi khuẩn) không có màng nhân và không có bào quan có màng (ribosome thì có)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bào quan nào sau đây có vai trò là \"nhà máy năng lượng\" của tế bào, nơi diễn ra hô hấp tế bào?",
+      "options": [
+        "Ti thể",
+        "Ribosome",
+        "Lưới nội chất",
+        "Bộ máy Golgi"
+      ],
+      "answer": 0,
+      "hint": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bào quan nào sau đây là nơi diễn ra quá trình quang hợp ở thực vật?",
+      "options": [
+        "Lục lạp",
+        "Ti thể",
+        "Ribosome",
+        "Lysosome"
+      ],
+      "answer": 0,
+      "hint": "Lục lạp chứa chất diệp lục và là nơi diễn ra quang hợp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bào quan nào trong tế bào tham gia tổng hợp protein?",
+      "options": [
+        "Ribosome",
+        "Nhân",
+        "Lysosome",
+        "Bộ máy Golgi"
+      ],
+      "answer": 0,
+      "hint": "Ribosome là nơi tổng hợp chuỗi polypeptide (protein)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Vận chuyển thụ động (khuếch tán) các chất qua màng tế bào có đặc điểm nào sau đây?",
+      "options": [
+        "Đi từ nơi có nồng độ chất tan CAO đến nơi có nồng độ THẤP và không tiêu tốn năng lượng (ATP)",
+        "Đi từ nơi có nồng độ thấp đến nơi có nồng độ cao và tiêu tốn ATP",
+        "Đi theo cả hai chiều như nhau và tiêu tốn ATP",
+        "Chỉ xảy ra ở tế bào nhân sơ"
+      ],
+      "answer": 0,
+      "hint": "Khuếch tán/thẩm thấu là vận chuyển thụ động, xuôi gradient nồng độ, không cần ATP."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hiện tượng nước di chuyển qua màng bán thấm theo chiều từ dung dịch nhược trương sang dung dịch ưu trương được gọi là:",
+      "options": [
+        "Thẩm thấu",
+        "Khuếch tán đơn giản các chất tan",
+        "Vận chuyển chủ động",
+        "Bài tiết"
+      ],
+      "answer": 0,
+      "hint": "Thẩm thấu là sự khuếch tán của NƯỚC qua màng bán thấm theo chiều cân bằng nồng độ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Enzyme là chất xúc tác sinh học có bản chất chủ yếu là:",
+      "options": [
+        "Protein",
+        "Lipid",
+        "Carbohydrate",
+        "Acid nucleic"
+      ],
+      "answer": 0,
+      "hint": "Hầu hết enzyme có bản chất là protein (một số ít là RNA - ribozyme)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sản phẩm chính của quá trình quang hợp ở thực vật là:",
+      "options": [
+        "Glucose ($C_6H_{12}O_6$) và khí oxygen ($O_2$)",
+        "Carbon dioxide ($CO_2$) và nước",
+        "Tinh bột và protein",
+        "Lipid và muối khoáng"
+      ],
+      "answer": 0,
+      "hint": "$6CO_2 + 6H_2O \\xrightarrow{\\text{ánh sáng, diệp lục}} C_6H_{12}O_6 + 6O_2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong hô hấp tế bào, phân tử mang năng lượng được tế bào sử dụng trực tiếp là:",
+      "options": [
+        "ATP (adenosine triphosphate)",
+        "DNA",
+        "Glucose",
+        "Lipid"
+      ],
+      "answer": 0,
+      "hint": "ATP là \"đồng tiền năng lượng\" của tế bào - được sản xuất từ hô hấp và sử dụng cho hầu hết hoạt động sống."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tính chất nào sau đây KHÔNG phải là đặc trưng của sinh vật sống?",
+      "options": [
+        "Hoàn toàn không trao đổi chất với môi trường",
+        "Trao đổi chất và năng lượng với môi trường",
+        "Sinh trưởng và sinh sản",
+        "Cảm ứng với các kích thích từ môi trường"
+      ],
+      "answer": 0,
+      "hint": "Mọi sinh vật sống đều phải trao đổi chất và năng lượng với môi trường."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về tế bào và bào quan:",
+      "statements": [
+        { "text": "Tế bào nhân sơ không có nhân hoàn chỉnh và không có các bào quan có màng.", "answer": true },
+        { "text": "Ti thể là nơi diễn ra hô hấp tế bào, tổng hợp phần lớn ATP cung cấp cho hoạt động sống.", "answer": true },
+        { "text": "Lục lạp có ở mọi tế bào động vật.", "answer": false },
+        { "text": "Ribosome có ở cả tế bào nhân sơ và tế bào nhân thực, là nơi tổng hợp protein.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về chuyển hóa năng lượng trong tế bào:",
+      "statements": [
+        { "text": "Quang hợp là quá trình tổng hợp chất hữu cơ (glucose) từ $CO_2$ và $H_2O$ nhờ năng lượng ánh sáng.", "answer": true },
+        { "text": "Hô hấp tế bào là quá trình phân giải chất hữu cơ giải phóng năng lượng cho hoạt động sống của tế bào.", "answer": true },
+        { "text": "Enzyme có vai trò xúc tác sinh học, làm tăng tốc độ phản ứng hóa học trong tế bào.", "answer": true },
+        { "text": "Vận chuyển chủ động qua màng tế bào không tiêu tốn năng lượng.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Phân tử mang năng lượng được sử dụng trực tiếp cho hầu hết các hoạt động sống của tế bào là ___",
+      "answer": "ATP",
+      "alternatives": ["atp"],
+      "hint": "ATP (adenosine triphosphate) là đồng tiền năng lượng của tế bào."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Bào quan diễn ra quá trình quang hợp ở thực vật là ___",
+      "answer": "lục lạp",
+      "alternatives": ["luc lap", "Lục lạp"],
+      "hint": "Lục lạp chứa diệp lục, hấp thụ ánh sáng để thực hiện quang hợp."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Vi khuẩn là sinh vật nhân sơ, tế bào không có nhân hoàn chỉnh.",
+      "answer": true,
+      "hint": "Vi khuẩn (Bacteria) thuộc nhóm sinh vật nhân sơ (prokaryote)."
+    }
+  ]
+}

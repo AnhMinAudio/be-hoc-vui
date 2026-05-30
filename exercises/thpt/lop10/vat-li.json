@@ -1,0 +1,216 @@
+{
+  "id": "thpt-vat-li-l10-on-tap",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 10,
+  "topic": "Ôn tập Vật lí 10",
+  "chapter": "Tổng ôn Vật lí 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Động học chất điểm",
+    "Ba định luật Newton - Lực ma sát",
+    "Công - Năng lượng - Công suất",
+    "Động lượng - Chuyển động tròn"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tốc độ trung bình của một chuyển động được tính bằng:",
+      "options": [
+        "Quãng đường đi được chia cho thời gian đi hết quãng đường đó",
+        "Thời gian đi chia cho quãng đường",
+        "Tổng quãng đường nhân với thời gian",
+        "Hiệu của vận tốc đầu và vận tốc cuối"
+      ],
+      "answer": 0,
+      "hint": "$v_{tb} = \\dfrac{s}{t}$ với $s$ là quãng đường, $t$ là thời gian."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật II Newton phát biểu rằng:",
+      "options": [
+        "Gia tốc của một vật có cùng hướng với hợp lực tác dụng, có độ lớn tỉ lệ thuận với hợp lực và tỉ lệ nghịch với khối lượng: $\\vec{a} = \\dfrac{\\vec{F}}{m}$",
+        "Vật đứng yên thì luôn đứng yên",
+        "Mọi vật đều rơi với cùng vận tốc",
+        "Lực và phản lực luôn cùng phương, cùng chiều"
+      ],
+      "answer": 0,
+      "hint": "Định luật II Newton: $\\vec{F} = m\\vec{a}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong hệ SI, đơn vị của lực là:",
+      "options": [
+        "Niu-tơn (N)",
+        "Jun (J)",
+        "Oát (W)",
+        "Pa-xcan (Pa)"
+      ],
+      "answer": 0,
+      "hint": "1 N là lực gây ra gia tốc $1$ m/s$^2$ cho khối lượng $1$ kg."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Công thức tính công cơ học do lực $\\vec{F}$ không đổi thực hiện khi vật đi được quãng đường $s$ là:",
+      "options": [
+        "$A = F \\cdot s \\cdot \\cos\\alpha$ ($\\alpha$ là góc giữa $\\vec{F}$ và phương dịch chuyển)",
+        "$A = \\dfrac{F}{s}$",
+        "$A = F + s$",
+        "$A = F^2 \\cdot s$"
+      ],
+      "answer": 0,
+      "hint": "Công $A = Fs\\cos\\alpha$; khi $\\vec{F}$ cùng hướng dịch chuyển ($\\alpha = 0$) thì $A = Fs$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Động năng của một vật khối lượng $m$ chuyển động với vận tốc $v$ là:",
+      "options": [
+        "$W_{đ} = \\dfrac{1}{2}mv^2$",
+        "$W_{đ} = mv$",
+        "$W_{đ} = mgh$",
+        "$W_{đ} = 2mv^2$"
+      ],
+      "answer": 0,
+      "hint": "Động năng: $W_đ = \\dfrac{1}{2}mv^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thế năng trọng trường của một vật khối lượng $m$ ở độ cao $h$ so với mốc thế năng là:",
+      "options": [
+        "$W_{t} = mgh$",
+        "$W_{t} = \\dfrac{1}{2}mh^2$",
+        "$W_{t} = mg + h$",
+        "$W_{t} = \\dfrac{m}{gh}$"
+      ],
+      "answer": 0,
+      "hint": "Thế năng trọng trường: $W_t = mgh$, với $g$ là gia tốc rơi tự do."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Động lượng của một vật khối lượng $m$ chuyển động với vận tốc $\\vec{v}$ là:",
+      "options": [
+        "$\\vec{p} = m\\vec{v}$",
+        "$\\vec{p} = \\dfrac{1}{2}m\\vec{v}$",
+        "$\\vec{p} = \\dfrac{\\vec{v}}{m}$",
+        "$\\vec{p} = m\\vec{v}^2$"
+      ],
+      "answer": 0,
+      "hint": "Động lượng là đại lượng vector: $\\vec{p} = m\\vec{v}$, đơn vị kg·m/s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Lực ma sát trượt giữa vật và mặt tiếp xúc có độ lớn:",
+      "options": [
+        "$F_{ms} = \\mu \\cdot N$, với $\\mu$ là hệ số ma sát trượt, $N$ là độ lớn áp lực",
+        "$F_{ms} = \\mu + N$",
+        "$F_{ms} = \\dfrac{\\mu}{N}$",
+        "$F_{ms} = \\mu \\cdot N^2$"
+      ],
+      "answer": 0,
+      "hint": "Ma sát trượt: $F_{ms} = \\mu N$, ngược chiều chuyển động."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Một vật rơi tự do (bỏ qua sức cản không khí) thì:",
+      "options": [
+        "Vật chuyển động với gia tốc bằng gia tốc rơi tự do $g$, theo phương thẳng đứng, chiều từ trên xuống",
+        "Vật chuyển động với gia tốc bằng 0",
+        "Vật chuyển động ngang đều",
+        "Vật đứng yên"
+      ],
+      "answer": 0,
+      "hint": "Rơi tự do là chuyển động dưới tác dụng duy nhất của trọng lực, gia tốc $g$ hướng xuống."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một vật khối lượng $m = 2$ kg chịu tác dụng của hợp lực $F = 6$ N theo phương ngang. Gia tốc của vật là:",
+      "options": [
+        "$3$ m/s$^2$",
+        "$12$ m/s$^2$",
+        "$1{,}5$ m/s$^2$",
+        "$4$ m/s$^2$"
+      ],
+      "answer": 0,
+      "hint": "$a = \\dfrac{F}{m} = \\dfrac{6}{2} = 3$ m/s$^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một lực $F = 10$ N kéo vật đi được quãng đường $s = 5$ m theo cùng phương lực kéo. Công của lực là:",
+      "options": [
+        "$50$ J",
+        "$2$ J",
+        "$15$ J",
+        "$25$ J"
+      ],
+      "answer": 0,
+      "hint": "$A = F \\cdot s \\cdot \\cos 0^\\circ = 10 \\cdot 5 = 50$ J."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một vật có khối lượng $m = 2$ kg đang chuyển động với vận tốc $v = 3$ m/s. Động năng của vật bằng:",
+      "options": [
+        "$9$ J",
+        "$6$ J",
+        "$3$ J",
+        "$18$ J"
+      ],
+      "answer": 0,
+      "hint": "$W_đ = \\dfrac{1}{2}mv^2 = \\dfrac{1}{2} \\cdot 2 \\cdot 3^2 = 9$ J."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các định luật Newton và lực ma sát:",
+      "statements": [
+        { "text": "Định luật I Newton (định luật quán tính): nếu hợp lực tác dụng lên vật bằng $\\vec{0}$ thì vật đứng yên hoặc chuyển động thẳng đều.", "answer": true },
+        { "text": "Định luật III Newton: lực và phản lực có cùng phương, cùng độ lớn nhưng NGƯỢC chiều.", "answer": true },
+        { "text": "Lực ma sát trượt luôn cùng chiều với chiều chuyển động của vật.", "answer": false },
+        { "text": "Trong định luật II Newton, gia tốc tỉ lệ thuận với hợp lực và tỉ lệ nghịch với khối lượng.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về năng lượng và động lượng:",
+      "statements": [
+        { "text": "Trong trọng trường, nếu chỉ có trọng lực tác dụng thì cơ năng của vật được bảo toàn.", "answer": true },
+        { "text": "Động lượng là đại lượng vector có cùng hướng với vận tốc.", "answer": true },
+        { "text": "Đơn vị của công và của động năng đều là Jun (J).", "answer": true },
+        { "text": "Trong một hệ kín không có ngoại lực, động lượng toàn phần của hệ thay đổi liên tục.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Một vật có khối lượng $5$ kg chịu hợp lực $20$ N. Gia tốc của vật là ___ m/s$^2$",
+      "answer": "4",
+      "hint": "$a = \\dfrac{F}{m} = \\dfrac{20}{5} = 4$ m/s$^2$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một vật khối lượng $3$ kg ở độ cao $4$ m so với mặt đất. Lấy $g = 10$ m/s$^2$. Thế năng trọng trường của vật bằng ___ J",
+      "answer": "120",
+      "hint": "$W_t = mgh = 3 \\cdot 10 \\cdot 4 = 120$ J."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Theo định luật III Newton, lực và phản lực luôn xuất hiện đồng thời và tác dụng lên hai vật khác nhau.",
+      "answer": true,
+      "hint": "Đặc trưng của lực và phản lực: cùng độ lớn, ngược chiều, tác dụng lên hai vật khác nhau."
+    }
+  ]
+}

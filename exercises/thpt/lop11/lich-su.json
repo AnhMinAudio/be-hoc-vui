@@ -1,0 +1,204 @@
+{
+  "id": "thpt-lich-su-l11-on-tap",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 11,
+  "topic": "Ôn tập Lịch sử 11",
+  "chapter": "Tổng ôn Lịch sử 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Các cuộc cách mạng tư sản và sự phát triển của chủ nghĩa tư bản",
+    "Chủ nghĩa xã hội từ 1917 đến nay",
+    "Đông Nam Á: từ thuộc địa đến độc lập",
+    "Lịch sử bảo vệ Tổ quốc Việt Nam và các cuộc cải cách"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cuộc cách mạng tư sản nào sau đây diễn ra vào thế kỉ XVII?",
+      "options": [
+        "Cách mạng tư sản Anh",
+        "Cách mạng tư sản Pháp",
+        "Cách mạng tháng Mười Nga",
+        "Cách mạng Cuba"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tư sản Anh diễn ra giữa thế kỉ XVII (khoảng 1640-1689)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cách mạng tư sản Pháp bùng nổ vào năm nào?",
+      "options": [
+        "1789",
+        "1640",
+        "1776",
+        "1848"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng Pháp bắt đầu năm 1789 với sự kiện phá ngục Bastille (14/7/1789)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cuộc Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ đã dẫn đến sự ra đời của:",
+      "options": [
+        "Hợp chúng quốc Hoa Kỳ (Hoa Kỳ)",
+        "Liên bang Nga",
+        "Cộng hòa Pháp",
+        "Đế chế La Mã"
+      ],
+      "answer": 0,
+      "hint": "Bản Tuyên ngôn Độc lập của Hoa Kỳ được công bố ngày 4/7/1776."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ý nghĩa lớn nhất của các cuộc cách mạng tư sản (Anh, Mỹ, Pháp...) là:",
+      "options": [
+        "Lật đổ chế độ phong kiến, mở đường cho chủ nghĩa tư bản phát triển",
+        "Khôi phục lại chế độ phong kiến trên toàn thế giới",
+        "Đưa giai cấp công nhân lên nắm chính quyền ngay lập tức",
+        "Không có ý nghĩa lịch sử quan trọng"
+      ],
+      "answer": 0,
+      "hint": "Các cuộc cách mạng tư sản đã lật đổ phong kiến, thiết lập nhà nước tư sản, mở đường cho CNTB phát triển."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cách mạng tháng Mười Nga năm 1917 do giai cấp nào lãnh đạo?",
+      "options": [
+        "Giai cấp vô sản (công nhân) do Đảng Bolshevik của Lê-nin lãnh đạo",
+        "Giai cấp tư sản",
+        "Giai cấp địa chủ phong kiến",
+        "Tầng lớp quý tộc"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tháng Mười Nga (1917) là cuộc cách mạng XHCN đầu tiên trên thế giới, do giai cấp vô sản lãnh đạo (Lê-nin và Đảng Bolshevik)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cách mạng tháng Mười Nga (1917) có ý nghĩa lịch sử thế giới sâu sắc nào?",
+      "options": [
+        "Mở ra thời đại mới — thời đại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội trên phạm vi thế giới",
+        "Khôi phục chế độ Nga hoàng",
+        "Làm cho chủ nghĩa thực dân trở nên vững mạnh hơn",
+        "Không ảnh hưởng đến phong trào giải phóng dân tộc các nước"
+      ],
+      "answer": 0,
+      "hint": "Cách mạng tháng Mười mở ra thời đại quá độ lên CNXH, cổ vũ mạnh mẽ phong trào cách mạng và giải phóng dân tộc trên thế giới."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á (trừ Thái Lan/Xiêm) đều là:",
+      "options": [
+        "Thuộc địa hoặc nửa thuộc địa của các nước thực dân phương Tây",
+        "Các quốc gia độc lập, phát triển công nghiệp",
+        "Một liên bang chung",
+        "Các nước trung lập"
+      ],
+      "answer": 0,
+      "hint": "Trước 1945, Đông Nam Á chủ yếu là thuộc địa của Anh, Pháp, Hà Lan, Mỹ, Tây Ban Nha; chỉ Xiêm (Thái Lan) giữ được độc lập tương đối."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Sau Chiến tranh thế giới thứ hai, làn sóng đấu tranh ở Đông Nam Á đã dẫn đến kết quả nổi bật nào?",
+      "options": [
+        "Hàng loạt quốc gia ở Đông Nam Á giành được độc lập, thoát khỏi ách thực dân",
+        "Toàn bộ Đông Nam Á trở lại làm thuộc địa cũ",
+        "Đông Nam Á sáp nhập làm một quốc gia chung",
+        "Không có thay đổi gì về chính trị"
+      ],
+      "answer": 0,
+      "hint": "Sau 1945, các nước Đông Nam Á lần lượt giành được độc lập từ thực dân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong lịch sử Việt Nam, cuộc kháng chiến chống quân Nguyên - Mông xâm lược (thế kỉ XIII) gắn liền với vị tướng kiệt xuất nào?",
+      "options": [
+        "Trần Quốc Tuấn (Hưng Đạo Đại Vương)",
+        "Lý Thường Kiệt",
+        "Nguyễn Trãi",
+        "Quang Trung"
+      ],
+      "answer": 0,
+      "hint": "Trần Quốc Tuấn (Hưng Đạo Vương) là tổng chỉ huy của ba cuộc kháng chiến chống Nguyên - Mông."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cuộc cải cách nào sau đây gắn liền với tên tuổi vua Lê Thánh Tông và bộ Luật Hồng Đức?",
+      "options": [
+        "Cải cách thời Lê sơ (thế kỉ XV)",
+        "Cải cách của Hồ Quý Ly (cuối thế kỉ XIV - đầu XV)",
+        "Cải cách Minh Mạng (thế kỉ XIX)",
+        "Cải cách của Phan Châu Trinh"
+      ],
+      "answer": 0,
+      "hint": "Vua Lê Thánh Tông (1460-1497) tiến hành cải cách quy mô lớn về hành chính, pháp luật; bộ Luật Hồng Đức được hoàn thiện."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quang Trung (Nguyễn Huệ) gắn liền với chiến thắng nào sau đây trong lịch sử bảo vệ Tổ quốc?",
+      "options": [
+        "Đại phá quân Thanh xâm lược, đặc biệt chiến thắng Ngọc Hồi - Đống Đa (mùa xuân Kỉ Dậu 1789)",
+        "Chiến thắng Bạch Đằng năm 938",
+        "Chiến thắng Điện Biên Phủ 1954",
+        "Chiến thắng quân Mông - Nguyên thế kỉ XIII"
+      ],
+      "answer": 0,
+      "hint": "Mùa xuân năm Kỉ Dậu (1789), Quang Trung Nguyễn Huệ đánh tan quân Thanh, đỉnh cao là chiến thắng Ngọc Hồi - Đống Đa."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cách mạng tư sản và sự phát triển của CNTB:",
+      "statements": [
+        { "text": "Cách mạng tư sản Pháp bùng nổ vào năm 1789.", "answer": true },
+        { "text": "Cuộc chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ đã dẫn đến sự thành lập Hợp chúng quốc Hoa Kỳ.", "answer": true },
+        { "text": "Các cuộc cách mạng tư sản đã lật đổ chế độ phong kiến, mở đường cho chủ nghĩa tư bản phát triển.", "answer": true },
+        { "text": "Cách mạng tư sản Anh diễn ra vào thế kỉ XX.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Đông Nam Á và lịch sử bảo vệ Tổ quốc Việt Nam:",
+      "statements": [
+        { "text": "Trước Chiến tranh thế giới thứ hai, hầu hết các nước Đông Nam Á đều là thuộc địa hoặc nửa thuộc địa.", "answer": true },
+        { "text": "Trần Quốc Tuấn là tổng chỉ huy ba cuộc kháng chiến chống quân Nguyên - Mông (thế kỉ XIII).", "answer": true },
+        { "text": "Quang Trung Nguyễn Huệ chỉ huy cuộc kháng chiến đánh tan quân Thanh xâm lược năm 1789.", "answer": true },
+        { "text": "Cuộc cải cách Hồ Quý Ly thành công trọn vẹn, đưa Đại Việt phát triển mạnh.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Cách mạng tháng Mười Nga diễn ra vào năm ___",
+      "answer": "1917",
+      "hint": "Cách mạng tháng Mười Nga thắng lợi tháng 10/1917 (theo lịch Nga cũ)."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Mùa xuân năm Kỉ Dậu (1789), Quang Trung đánh tan quân ___ xâm lược.",
+      "answer": "Thanh",
+      "alternatives": ["quân Thanh", "nhà Thanh"],
+      "hint": "Quân Thanh do Tôn Sĩ Nghị chỉ huy bị Quang Trung đánh tan trong chiến dịch thần tốc mùa xuân 1789."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Cách mạng tháng Mười Nga năm 1917 là cuộc cách mạng xã hội chủ nghĩa đầu tiên trên thế giới giành thắng lợi.",
+      "answer": true,
+      "hint": "Cách mạng tháng Mười Nga đưa giai cấp vô sản lên nắm chính quyền, mở ra thời đại quá độ lên CNXH trên thế giới."
+    }
+  ]
+}

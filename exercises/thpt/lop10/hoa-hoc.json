@@ -1,0 +1,217 @@
+{
+  "id": "thpt-hoa-hoc-l10-on-tap",
+  "stage": "thpt",
+  "subject": "hoa-hoc",
+  "grade": 10,
+  "topic": "Ôn tập Hóa học 10",
+  "chapter": "Tổng ôn Hóa học 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Cấu tạo nguyên tử",
+    "Bảng tuần hoàn các nguyên tố hóa học",
+    "Liên kết hóa học",
+    "Phản ứng oxi hóa - khử và Halogen"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hạt nhân nguyên tử được cấu tạo bởi các hạt nào sau đây?",
+      "options": [
+        "Proton và neutron",
+        "Proton và electron",
+        "Neutron và electron",
+        "Chỉ có proton"
+      ],
+      "answer": 0,
+      "hint": "Hạt nhân gồm các nucleon: proton (mang điện dương) và neutron (không mang điện)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Số hiệu nguyên tử $Z$ của một nguyên tố cho biết:",
+      "options": [
+        "Số proton trong hạt nhân (cũng bằng số electron khi nguyên tử trung hòa)",
+        "Số neutron trong hạt nhân",
+        "Tổng số nucleon",
+        "Số phân tử trong một mol"
+      ],
+      "answer": 0,
+      "hint": "$Z$ = số proton = số electron (ở trạng thái trung hòa điện); $A$ = $Z + N$ là số khối."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên tử $^{23}_{11}Na$ có số neutron là:",
+      "options": [
+        "$12$",
+        "$11$",
+        "$23$",
+        "$34$"
+      ],
+      "answer": 0,
+      "hint": "Số neutron $= A - Z = 23 - 11 = 12$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong bảng tuần hoàn, các nguyên tố được sắp xếp theo chiều tăng dần của:",
+      "options": [
+        "Điện tích hạt nhân (số proton)",
+        "Khối lượng nguyên tử",
+        "Số neutron",
+        "Số lớp electron"
+      ],
+      "answer": 0,
+      "hint": "Bảng tuần hoàn hiện đại sắp xếp theo chiều tăng dần điện tích hạt nhân."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong một CHU KÌ, theo chiều tăng dần điện tích hạt nhân, tính phi kim của các nguyên tố:",
+      "options": [
+        "Tăng dần",
+        "Giảm dần",
+        "Không thay đổi",
+        "Tăng rồi giảm"
+      ],
+      "answer": 0,
+      "hint": "Trong cùng chu kì, từ trái sang phải, tính kim loại giảm và tính phi kim tăng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Liên kết hình thành giữa hai nguyên tử do sự dùng chung một hoặc nhiều cặp electron được gọi là:",
+      "options": [
+        "Liên kết cộng hóa trị",
+        "Liên kết ion",
+        "Liên kết kim loại",
+        "Liên kết hydrogen"
+      ],
+      "answer": 0,
+      "hint": "Liên kết cộng hóa trị: hai nguyên tử dùng chung cặp electron."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa ion dương và ion âm gọi là:",
+      "options": [
+        "Liên kết ion",
+        "Liên kết cộng hóa trị",
+        "Liên kết kim loại",
+        "Liên kết hydrogen"
+      ],
+      "answer": 0,
+      "hint": "Liên kết ion: nguyên tử nhường-nhận electron tạo ion trái dấu, hút nhau bằng lực tĩnh điện."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phản ứng oxi hóa - khử là phản ứng hóa học trong đó:",
+      "options": [
+        "Có sự thay đổi số oxi hóa của một số nguyên tố (có sự nhường - nhận electron)",
+        "Có sự thay đổi màu sắc của dung dịch",
+        "Có khí thoát ra",
+        "Có kết tủa tạo thành"
+      ],
+      "answer": 0,
+      "hint": "Phản ứng oxi hóa - khử có sự chuyển electron giữa các nguyên tử, dẫn đến thay đổi số oxi hóa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nguyên tố nào sau đây thuộc nhóm VIIA (nhóm halogen)?",
+      "options": [
+        "Chlorine (Cl)",
+        "Sodium (Na)",
+        "Oxygen (O)",
+        "Iron (Fe)"
+      ],
+      "answer": 0,
+      "hint": "Nhóm VIIA (halogen) gồm: F, Cl, Br, I, At."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tính chất hóa học đặc trưng của các nguyên tố halogen là:",
+      "options": [
+        "Tính oxi hóa mạnh (dễ nhận thêm 1 electron để đạt cấu hình bền)",
+        "Tính khử mạnh",
+        "Tính lưỡng tính",
+        "Không có tính chất hóa học rõ rệt"
+      ],
+      "answer": 0,
+      "hint": "Halogen có 7 electron lớp ngoài, dễ nhận 1 electron → tính oxi hóa mạnh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tổng số hạt cơ bản (proton + neutron + electron) trong nguyên tử $^{16}_{8}O$ là:",
+      "options": [
+        "$24$",
+        "$16$",
+        "$8$",
+        "$32$"
+      ],
+      "answer": 0,
+      "hint": "Số proton = số electron = 8; số neutron = 16 - 8 = 8. Tổng = 8 + 8 + 8 = 24."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cấu hình electron của nguyên tử nguyên tố có $Z = 11$ (sodium) là:",
+      "options": [
+        "$1s^2 2s^2 2p^6 3s^1$",
+        "$1s^2 2s^2 2p^6$",
+        "$1s^2 2s^2 2p^5 3s^2$",
+        "$1s^2 2s^2 2p^6 3s^2$"
+      ],
+      "answer": 0,
+      "hint": "11 electron phân bố lần lượt: 2 + 2 + 6 + 1 = 11; lớp ngoài cùng là $3s^1$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cấu tạo nguyên tử và bảng tuần hoàn:",
+      "statements": [
+        { "text": "Trong nguyên tử trung hòa, số proton bằng số electron.", "answer": true },
+        { "text": "Các nguyên tố trong cùng một NHÓM của bảng tuần hoàn có cùng số electron ở lớp ngoài cùng (đối với nhóm A).", "answer": true },
+        { "text": "Đồng vị là các nguyên tử của cùng nguyên tố hóa học, có cùng số proton nhưng khác số neutron.", "answer": true },
+        { "text": "Trong cùng một chu kì, theo chiều tăng điện tích hạt nhân, tính kim loại tăng dần.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về liên kết hóa học và phản ứng oxi hóa - khử:",
+      "statements": [
+        { "text": "Liên kết cộng hóa trị được hình thành do hai nguyên tử dùng chung cặp electron.", "answer": true },
+        { "text": "Liên kết ion thường được hình thành giữa kim loại điển hình và phi kim điển hình.", "answer": true },
+        { "text": "Trong phản ứng oxi hóa - khử, chất khử là chất nhường electron và bị OXI HÓA.", "answer": true },
+        { "text": "Trong phản ứng oxi hóa - khử, không có sự thay đổi số oxi hóa của bất kì nguyên tố nào.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Nguyên tử $^{35}_{17}Cl$ có ___ neutron",
+      "answer": "18",
+      "hint": "Số neutron $= A - Z = 35 - 17 = 18$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Nguyên tố có $Z = 17$ thuộc nhóm ___ trong bảng tuần hoàn (viết kí hiệu nhóm A, vd: IA, VIIA, ...).",
+      "answer": "VIIA",
+      "alternatives": ["viia", "nhóm VIIA"],
+      "hint": "$Z = 17$ là Chlorine (Cl), có $7$ electron lớp ngoài cùng → nhóm VIIA (halogen)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Trong bảng tuần hoàn, các nguyên tố cùng một chu kì có cùng số lớp electron.",
+      "answer": true,
+      "hint": "Số thứ tự chu kì = số lớp electron của nguyên tử."
+    }
+  ]
+}

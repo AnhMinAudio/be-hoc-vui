@@ -1,0 +1,205 @@
+{
+  "id": "thpt-sinh-hoc-l11-on-tap",
+  "stage": "thpt",
+  "subject": "sinh-hoc",
+  "grade": 11,
+  "topic": "Ôn tập Sinh học 11",
+  "chapter": "Tổng ôn Sinh học 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Trao đổi chất và chuyển hóa năng lượng ở thực vật",
+    "Trao đổi chất và chuyển hóa năng lượng ở động vật",
+    "Cảm ứng ở sinh vật",
+    "Sinh trưởng, phát triển và sinh sản"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cơ quan chủ yếu hấp thụ nước và muối khoáng của thực vật trên cạn là:",
+      "options": [
+        "Rễ (chủ yếu qua các lông hút)",
+        "Lá",
+        "Thân",
+        "Hoa"
+      ],
+      "answer": 0,
+      "hint": "Lông hút ở rễ là nơi chính hấp thụ nước và muối khoáng từ đất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quá trình thoát hơi nước ở lá thực vật chủ yếu diễn ra qua bộ phận nào?",
+      "options": [
+        "Khí khổng (stoma) trên bề mặt lá",
+        "Rễ",
+        "Hoa",
+        "Vỏ thân cây"
+      ],
+      "answer": 0,
+      "hint": "Khí khổng đóng/mở để điều tiết quá trình thoát hơi nước (và trao đổi khí) ở lá."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quá trình quang hợp ở thực vật diễn ra chủ yếu tại bào quan nào?",
+      "options": [
+        "Lục lạp (ở các tế bào lá)",
+        "Ti thể",
+        "Ribosome",
+        "Nhân tế bào"
+      ],
+      "answer": 0,
+      "hint": "Lục lạp chứa chất diệp lục, nơi diễn ra phản ứng quang hợp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phương trình tổng quát của quang hợp ở thực vật xanh là:",
+      "options": [
+        "$6CO_2 + 6H_2O \\xrightarrow{\\text{ánh sáng, diệp lục}} C_6H_{12}O_6 + 6O_2$",
+        "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$",
+        "$N_2 + 3H_2 \\rightarrow 2NH_3$",
+        "$2H_2 + O_2 \\rightarrow 2H_2O$"
+      ],
+      "answer": 0,
+      "hint": "Quang hợp: tổng hợp glucose từ $CO_2$ và $H_2O$, giải phóng $O_2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ở động vật có vú, cơ quan nào sau đây thực hiện chức năng tiêu hóa hóa học chủ yếu (chứa nhiều enzyme tiêu hóa)?",
+      "options": [
+        "Ruột non",
+        "Thực quản",
+        "Khoang miệng",
+        "Đại tràng"
+      ],
+      "answer": 0,
+      "hint": "Ruột non là nơi tập trung nhiều enzyme tiêu hóa và là nơi hấp thụ chất dinh dưỡng chính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Quá trình hô hấp ở động vật có vú diễn ra trực tiếp tại cơ quan trao đổi khí nào?",
+      "options": [
+        "Phổi (qua các phế nang)",
+        "Da",
+        "Mang",
+        "Khí quản (chỉ là đường dẫn khí)"
+      ],
+      "answer": 0,
+      "hint": "Ở thú, trao đổi khí diễn ra tại phế nang trong phổi."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hệ tuần hoàn KÍN của động vật có đặc điểm:",
+      "options": [
+        "Máu chảy trong hệ mạch (động mạch - mao mạch - tĩnh mạch), không trộn lẫn với dịch mô",
+        "Máu chảy tự do trong khoang cơ thể, tiếp xúc trực tiếp với mô",
+        "Không có tim",
+        "Chỉ có ở thực vật"
+      ],
+      "answer": 0,
+      "hint": "Hệ tuần hoàn kín: máu lưu thông trong hệ mạch, có ở giun đốt, mực, động vật có xương sống."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phản xạ là một dạng cảm ứng ở động vật, được thực hiện qua cấu trúc nào sau đây?",
+      "options": [
+        "Cung phản xạ (gồm thụ thể - dây thần kinh hướng tâm - trung ương - dây li tâm - cơ quan đáp ứng)",
+        "Lá cây",
+        "Khí khổng",
+        "Lông hút ở rễ"
+      ],
+      "answer": 0,
+      "hint": "Cung phản xạ gồm 5 thành phần, là cơ sở cấu trúc của phản xạ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hoocmon (hormone) là chất hóa học do các tuyến nội tiết tiết ra, có vai trò chính là:",
+      "options": [
+        "Điều hòa các quá trình sinh lí trong cơ thể (sinh trưởng, sinh sản, trao đổi chất...)",
+        "Tiêu hóa thức ăn trong dạ dày",
+        "Vận chuyển khí oxygen trong máu",
+        "Bảo vệ cơ thể khỏi vi khuẩn (kháng thể)"
+      ],
+      "answer": 0,
+      "hint": "Hormone là tín hiệu hóa học điều hòa hoạt động sinh lí ở xa nơi tiết ra (vận chuyển qua máu)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hình thức sinh sản nào sau đây thuộc về sinh sản VÔ TÍNH ở thực vật?",
+      "options": [
+        "Giâm cành",
+        "Sinh sản bằng hạt sau khi thụ phấn, thụ tinh",
+        "Sinh sản hữu tính qua giao tử đực và cái",
+        "Sinh sản qua hợp tử của hoa"
+      ],
+      "answer": 0,
+      "hint": "Giâm cành, chiết cành, ghép cây, nuôi cấy mô là các hình thức sinh sản vô tính ở thực vật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Ở thực vật có hoa, sự THỤ TINH KÉP là gì?",
+      "options": [
+        "Một tinh tử kết hợp với trứng tạo hợp tử (2n); tinh tử thứ hai kết hợp với nhân lưỡng cực tạo nội nhũ (3n)",
+        "Hai trứng cùng được thụ tinh bởi một tinh tử",
+        "Sự thụ tinh chỉ tạo nội nhũ, không tạo hợp tử",
+        "Sự nảy mầm của hạt"
+      ],
+      "answer": 0,
+      "hint": "Đặc điểm độc đáo của thực vật hạt kín: hai tinh tử cùng tham gia thụ tinh, tạo hợp tử và nội nhũ."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về trao đổi chất và chuyển hóa năng lượng:",
+      "statements": [
+        { "text": "Ở thực vật trên cạn, rễ là cơ quan chủ yếu hấp thụ nước và muối khoáng từ đất.", "answer": true },
+        { "text": "Quang hợp ở thực vật xanh tổng hợp glucose từ $CO_2$ và $H_2O$, đồng thời giải phóng $O_2$.", "answer": true },
+        { "text": "Hô hấp tế bào phân giải chất hữu cơ, giải phóng năng lượng cho hoạt động sống.", "answer": true },
+        { "text": "Khí khổng ở lá thực vật chỉ có chức năng duy nhất là quang hợp, không liên quan trao đổi khí.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về cảm ứng, sinh trưởng và sinh sản:",
+      "statements": [
+        { "text": "Phản xạ ở động vật có hệ thần kinh được thực hiện qua cung phản xạ.", "answer": true },
+        { "text": "Hormone do các tuyến nội tiết tiết ra, có vai trò điều hòa các hoạt động sinh lí của cơ thể.", "answer": true },
+        { "text": "Giâm cành, chiết cành là các hình thức sinh sản vô tính ở thực vật.", "answer": true },
+        { "text": "Sinh sản hữu tính ở động vật không cần có sự kết hợp giữa giao tử đực và giao tử cái.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Bào quan diễn ra quá trình quang hợp ở tế bào lá thực vật là ___",
+      "answer": "lục lạp",
+      "alternatives": ["luc lap", "Lục lạp"],
+      "hint": "Lục lạp chứa diệp lục, nơi diễn ra phản ứng quang hợp."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Quá trình thoát hơi nước ở lá thực vật diễn ra chủ yếu qua bộ phận ___ (trên bề mặt lá).",
+      "answer": "khí khổng",
+      "alternatives": ["khi khong", "stomata", "khí khổng (lỗ khí)"],
+      "hint": "Khí khổng (stomata) là các lỗ nhỏ ở biểu bì lá, đóng/mở để điều tiết thoát hơi nước và trao đổi khí."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Phản xạ là một hình thức cảm ứng đặc trưng của động vật có hệ thần kinh.",
+      "answer": true,
+      "hint": "Phản xạ là phản ứng của cơ thể trả lời kích thích thông qua hệ thần kinh."
+    }
+  ]
+}

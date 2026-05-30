@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l11-on-tap",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 11,
+  "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 11",
+  "chapter": "Tổng ôn GDKT & Pháp luật 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Cạnh tranh, cung - cầu trong kinh tế thị trường",
+    "Lạm phát - Thất nghiệp - Thị trường lao động",
+    "Đạo đức kinh doanh và văn hóa tiêu dùng",
+    "Quyền và nghĩa vụ công dân trong các lĩnh vực"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cạnh tranh trong nền kinh tế thị trường được hiểu là:",
+      "options": [
+        "Sự ganh đua giữa các chủ thể kinh tế nhằm giành lấy điều kiện thuận lợi để sản xuất, tiêu thụ và thu lợi nhuận",
+        "Việc các doanh nghiệp hợp tác hoàn toàn, không có sự ganh đua",
+        "Hoạt động của các cơ quan Nhà nước",
+        "Việc tặng cho hàng hóa miễn phí"
+      ],
+      "answer": 0,
+      "hint": "Cạnh tranh là sự ganh đua giữa các chủ thể trên thị trường để giành lợi thế và lợi nhuận."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi cung lớn hơn cầu, trên thị trường thường xảy ra hiện tượng:",
+      "options": [
+        "Giá cả có xu hướng giảm xuống",
+        "Giá cả có xu hướng tăng cao",
+        "Giá cả không thay đổi",
+        "Hàng hóa hoàn toàn biến mất"
+      ],
+      "answer": 0,
+      "hint": "Cung > cầu → hàng hóa nhiều hơn nhu cầu → giá giảm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Lạm phát được hiểu là hiện tượng:",
+      "options": [
+        "Mức giá chung của hàng hóa và dịch vụ tăng lên liên tục trong một thời gian nhất định, làm giảm sức mua của đồng tiền",
+        "Mức giá chung giảm xuống liên tục, sức mua của đồng tiền tăng",
+        "Sản lượng hàng hóa giảm sút",
+        "Số lượng việc làm tăng nhanh"
+      ],
+      "answer": 0,
+      "hint": "Lạm phát: giá cả chung tăng liên tục, đồng tiền mất giá."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thất nghiệp là tình trạng người trong độ tuổi lao động:",
+      "options": [
+        "Có khả năng lao động, muốn làm việc nhưng không tìm được việc làm",
+        "Không muốn làm việc và không tìm việc",
+        "Đang đi học toàn thời gian",
+        "Đã nghỉ hưu hoàn toàn"
+      ],
+      "answer": 0,
+      "hint": "Thất nghiệp: có khả năng lao động + muốn làm việc + không có việc làm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Thị trường lao động là gì?",
+      "options": [
+        "Nơi diễn ra sự trao đổi, mua bán sức lao động giữa người lao động và người sử dụng lao động",
+        "Một cơ quan của Bộ Lao động - Thương binh và Xã hội",
+        "Một loại hàng hóa cụ thể",
+        "Khu vực sản xuất hàng nông nghiệp"
+      ],
+      "answer": 0,
+      "hint": "Thị trường lao động: nơi cung lao động (người lao động) gặp cầu lao động (người sử dụng lao động)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đạo đức kinh doanh KHÔNG bao gồm nội dung nào sau đây?",
+      "options": [
+        "Trốn thuế, gian lận giá để tăng lợi nhuận",
+        "Trung thực với khách hàng và đối tác",
+        "Tuân thủ pháp luật",
+        "Bảo vệ môi trường và lợi ích cộng đồng"
+      ],
+      "answer": 0,
+      "hint": "Trốn thuế, gian lận là hành vi vi phạm pháp luật và đi ngược lại đạo đức kinh doanh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Văn hóa tiêu dùng lành mạnh bao gồm những thói quen nào sau đây?",
+      "options": [
+        "Tiêu dùng có kế hoạch, tiết kiệm, ưu tiên hàng Việt và sản phẩm thân thiện môi trường",
+        "Tiêu dùng vô độ, sa đà vào các sản phẩm xa xỉ",
+        "Mua sắm hoàn toàn theo cảm hứng nhất thời",
+        "Chỉ tiêu dùng hàng nhập khẩu giá cao"
+      ],
+      "answer": 0,
+      "hint": "Văn hóa tiêu dùng lành mạnh: có kế hoạch, tiết kiệm, ưu tiên hàng Việt và sản phẩm xanh."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Công dân đủ bao nhiêu tuổi trở lên có quyền bầu cử đại biểu Quốc hội?",
+      "options": [
+        "Đủ 18 tuổi",
+        "Đủ 16 tuổi",
+        "Đủ 21 tuổi",
+        "Đủ 25 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và HĐND."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trong quan hệ hôn nhân và gia đình, nguyên tắc cốt lõi được pháp luật bảo vệ là:",
+      "options": [
+        "Hôn nhân tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng",
+        "Hôn nhân do cha mẹ sắp đặt hoàn toàn",
+        "Đa thê được chấp nhận",
+        "Hôn nhân với người dưới 16 tuổi"
+      ],
+      "answer": 0,
+      "hint": "Nguyên tắc cốt lõi: tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong quan hệ lao động, khi bị doanh nghiệp đơn phương chấm dứt hợp đồng trái pháp luật, người lao động có thể:",
+      "options": [
+        "Khiếu nại đến cơ quan có thẩm quyền hoặc khởi kiện ra Tòa án để bảo vệ quyền và lợi ích hợp pháp của mình",
+        "Phải tự gánh chịu thiệt hại mà không được pháp luật bảo vệ",
+        "Phải bồi thường cho doanh nghiệp",
+        "Bị tước quyền công dân vĩnh viễn"
+      ],
+      "answer": 0,
+      "hint": "Người lao động có quyền khiếu nại hoặc khởi kiện ra Tòa án nếu bị chấm dứt hợp đồng trái pháp luật."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Anh A thường xuyên đăng tin sai sự thật trên mạng xã hội, gây ảnh hưởng đến danh dự, nhân phẩm của người khác. Hành vi của A có thể bị xử lí theo:",
+      "options": [
+        "Trách nhiệm hành chính hoặc hình sự, tùy mức độ vi phạm",
+        "Không bị xử lí vì là quyền tự do ngôn luận tuyệt đối",
+        "Chỉ bị nhắc nhở miệng",
+        "Được thưởng vì cung cấp thông tin"
+      ],
+      "answer": 0,
+      "hint": "Đăng tin sai sự thật, xúc phạm danh dự người khác là hành vi vi phạm pháp luật, có thể bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế thị trường:",
+      "statements": [
+        { "text": "Cạnh tranh là sự ganh đua giữa các chủ thể kinh tế nhằm giành lợi thế trên thị trường.", "answer": true },
+        { "text": "Lạm phát làm giảm sức mua của đồng tiền.", "answer": true },
+        { "text": "Thị trường lao động là nơi diễn ra việc mua bán sức lao động giữa người lao động và người sử dụng lao động.", "answer": true },
+        { "text": "Trốn thuế là hành vi phù hợp với đạo đức kinh doanh.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quyền và nghĩa vụ công dân:",
+      "statements": [
+        { "text": "Công dân đủ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân.", "answer": true },
+        { "text": "Nguyên tắc hôn nhân ở nước ta là tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.", "answer": true },
+        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
+        { "text": "Trong quan hệ lao động, người lao động không có quyền khiếu nại khi bị xâm phạm quyền lợi.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Công dân đủ ___ tuổi trở lên có quyền bầu cử đại biểu Quốc hội ở nước ta.",
+      "answer": "18",
+      "alternatives": ["mười tám"],
+      "hint": "Tuổi bầu cử ở Việt Nam là 18 tuổi trở lên."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Hiện tượng mức giá chung của hàng hóa và dịch vụ tăng lên liên tục, làm giảm sức mua của đồng tiền gọi là ___",
+      "answer": "lạm phát",
+      "alternatives": ["lam phat"],
+      "hint": "Lạm phát là sự tăng liên tục của mức giá chung."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Văn hóa tiêu dùng lành mạnh khuyến khích tiêu dùng có kế hoạch, tiết kiệm và ưu tiên hàng Việt Nam.",
+      "answer": true,
+      "hint": "Đây là một trong những định hướng quan trọng của văn hóa tiêu dùng hiện nay."
+    }
+  ]
+}

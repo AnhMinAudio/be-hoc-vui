@@ -1,0 +1,216 @@
+{
+  "id": "thpt-vat-li-l11-on-tap",
+  "stage": "thpt",
+  "subject": "vat-li",
+  "grade": 11,
+  "topic": "Ôn tập Vật lí 11",
+  "chapter": "Tổng ôn Vật lí 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Dao động (dao động điều hòa, con lắc lò xo, con lắc đơn)",
+    "Sóng cơ - Sóng âm",
+    "Điện trường - Điện tích",
+    "Dòng điện không đổi - Định luật Ohm"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình dao động điều hòa có dạng:",
+      "options": [
+        "$x = A\\cos(\\omega t + \\varphi)$",
+        "$x = A + \\omega t$",
+        "$x = A \\cdot t^2$",
+        "$x = \\dfrac{A}{\\omega t}$"
+      ],
+      "answer": 0,
+      "hint": "Dao động điều hòa: li độ là hàm cosin (hoặc sin) của thời gian; $A$ là biên độ, $\\omega$ là tần số góc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chu kì dao động của con lắc lò xo (khối lượng $m$, độ cứng $k$) là:",
+      "options": [
+        "$T = 2\\pi\\sqrt{\\dfrac{m}{k}}$",
+        "$T = 2\\pi\\sqrt{\\dfrac{k}{m}}$",
+        "$T = \\dfrac{m}{k}$",
+        "$T = \\dfrac{1}{2\\pi}\\sqrt{mk}$"
+      ],
+      "answer": 0,
+      "hint": "Con lắc lò xo: $T = 2\\pi\\sqrt{\\dfrac{m}{k}}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Chu kì dao động của con lắc đơn (chiều dài $l$, ở nơi có gia tốc $g$) là:",
+      "options": [
+        "$T = 2\\pi\\sqrt{\\dfrac{l}{g}}$",
+        "$T = 2\\pi\\sqrt{\\dfrac{g}{l}}$",
+        "$T = \\dfrac{l}{g}$",
+        "$T = \\sqrt{lg}$"
+      ],
+      "answer": 0,
+      "hint": "Con lắc đơn (góc lệch nhỏ): $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sóng cơ là gì?",
+      "options": [
+        "Là dao động cơ lan truyền trong một môi trường vật chất (rắn, lỏng, khí)",
+        "Là sóng có thể lan truyền trong chân không",
+        "Là dòng các hạt mang điện",
+        "Là chuyển động thẳng đều của một vật"
+      ],
+      "answer": 0,
+      "hint": "Sóng cơ cần môi trường vật chất để truyền (không truyền được trong chân không)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong dao động sóng, bước sóng $\\lambda$ liên hệ với tốc độ truyền $v$ và chu kì $T$ qua công thức:",
+      "options": [
+        "$\\lambda = v \\cdot T$",
+        "$\\lambda = \\dfrac{v}{T}$",
+        "$\\lambda = v + T$",
+        "$\\lambda = v \\cdot T^2$"
+      ],
+      "answer": 0,
+      "hint": "$\\lambda = vT = \\dfrac{v}{f}$ (với $f$ là tần số)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật Coulomb mô tả lực tương tác giữa hai điện tích điểm $q_1$, $q_2$ đặt cách nhau khoảng $r$ trong chân không bằng công thức:",
+      "options": [
+        "$F = k\\dfrac{|q_1 q_2|}{r^2}$",
+        "$F = k\\dfrac{|q_1 q_2|}{r}$",
+        "$F = k \\cdot |q_1 q_2| \\cdot r^2$",
+        "$F = \\dfrac{k}{|q_1 q_2| r^2}$"
+      ],
+      "answer": 0,
+      "hint": "Định luật Coulomb: $F = k\\dfrac{|q_1 q_2|}{r^2}$, với $k \\approx 9 \\cdot 10^9$ N·m$^2$/C$^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đơn vị đo cường độ dòng điện trong hệ SI là:",
+      "options": [
+        "Ampe (A)",
+        "Vôn (V)",
+        "Ôm (Ω)",
+        "Oát (W)"
+      ],
+      "answer": 0,
+      "hint": "Cường độ dòng điện $I$ có đơn vị ampe (A); $1$ A = $1$ C/s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Định luật Ohm cho đoạn mạch chỉ chứa điện trở $R$ phát biểu rằng:",
+      "options": [
+        "$I = \\dfrac{U}{R}$",
+        "$I = U \\cdot R$",
+        "$U = \\dfrac{I}{R}$",
+        "$R = U \\cdot I$"
+      ],
+      "answer": 0,
+      "hint": "Định luật Ohm: $U = IR$, suy ra $I = \\dfrac{U}{R}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cường độ dòng điện $I$ qua một dây dẫn được định nghĩa là điện lượng $q$ chuyển qua tiết diện thẳng của dây trong một đơn vị thời gian: $I = \\dfrac{q}{t}$. Vậy đơn vị của điện lượng là:",
+      "options": [
+        "Coulomb (C)",
+        "Vôn (V)",
+        "Joule (J)",
+        "Ampe (A)"
+      ],
+      "answer": 0,
+      "hint": "$q = It$ → đơn vị $q$ là A·s, gọi là coulomb (C)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một con lắc lò xo có khối lượng $m = 0{,}1$ kg và độ cứng $k = 40$ N/m. Chu kì dao động của con lắc là (lấy $\\pi^2 \\approx 10$):",
+      "options": [
+        "$0{,}1\\pi$ s",
+        "$0{,}2\\pi$ s",
+        "$2\\pi$ s",
+        "$\\pi$ s"
+      ],
+      "answer": 0,
+      "hint": "$T = 2\\pi\\sqrt{\\dfrac{m}{k}} = 2\\pi\\sqrt{\\dfrac{0{,}1}{40}} = 2\\pi \\cdot \\dfrac{1}{20} = \\dfrac{\\pi}{10} = 0{,}1\\pi$ s."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Đặt vào hai đầu một điện trở $R = 5$ Ω một hiệu điện thế $U = 10$ V. Cường độ dòng điện qua điện trở là:",
+      "options": [
+        "$2$ A",
+        "$0{,}5$ A",
+        "$50$ A",
+        "$5$ A"
+      ],
+      "answer": 0,
+      "hint": "$I = \\dfrac{U}{R} = \\dfrac{10}{5} = 2$ A."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một sóng cơ truyền với tốc độ $v = 4$ m/s và có chu kì $T = 0{,}5$ s. Bước sóng $\\lambda$ là:",
+      "options": [
+        "$2$ m",
+        "$8$ m",
+        "$0{,}5$ m",
+        "$2{,}5$ m"
+      ],
+      "answer": 0,
+      "hint": "$\\lambda = vT = 4 \\cdot 0{,}5 = 2$ m."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về dao động và sóng:",
+      "statements": [
+        { "text": "Dao động điều hòa là dao động có li độ là một hàm cosin (hoặc sin) của thời gian.", "answer": true },
+        { "text": "Chu kì dao động của con lắc đơn (góc lệch nhỏ) là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.", "answer": true },
+        { "text": "Sóng cơ có thể lan truyền cả trong chân không.", "answer": false },
+        { "text": "Trong sóng, bước sóng $\\lambda$ bằng tích của tốc độ truyền sóng $v$ và chu kì $T$.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về điện trường và dòng điện:",
+      "statements": [
+        { "text": "Theo định luật Coulomb, lực tương tác giữa hai điện tích điểm tỉ lệ thuận với tích độ lớn các điện tích và tỉ lệ NGHỊCH với BÌNH PHƯƠNG khoảng cách giữa chúng.", "answer": true },
+        { "text": "Định luật Ohm cho đoạn mạch chỉ có điện trở $R$: $U = IR$.", "answer": true },
+        { "text": "Cường độ dòng điện đo bằng tổng điện lượng chuyển qua tiết diện thẳng trong một đơn vị thời gian.", "answer": true },
+        { "text": "Đơn vị của điện trở trong hệ SI là vôn (V).", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đặt vào hai đầu điện trở $R = 10$ Ω hiệu điện thế $U = 20$ V. Cường độ dòng điện qua điện trở là ___ A",
+      "answer": "2",
+      "hint": "$I = \\dfrac{U}{R} = \\dfrac{20}{10} = 2$ A."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Một sóng cơ có tốc độ truyền $v = 340$ m/s và tần số $f = 170$ Hz. Bước sóng $\\lambda$ bằng ___ m",
+      "answer": "2",
+      "hint": "$\\lambda = \\dfrac{v}{f} = \\dfrac{340}{170} = 2$ m."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Đơn vị của điện trở trong hệ SI là ôm (Ω).",
+      "answer": true,
+      "hint": "Điện trở đo bằng ôm: $1$ Ω = $1$ V/A."
+    }
+  ]
+}

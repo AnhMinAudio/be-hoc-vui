@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:27:44.020Z",
+  "generatedAt": "2026-05-30T00:45:08.609Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -392,6 +392,42 @@
       "path": "mam-non/age5/dem-so-3.json"
     },
     {
+      "id": "thpt-dia-li-l10-on-tap",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 10,
+      "topic": "Ôn tập Địa lí 10",
+      "chapter": "Tổng ôn Địa lí 10",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Trái Đất - thạch quyển, khí quyển, thủy quyển",
+        "Một số quy luật của lớp vỏ địa lí",
+        "Địa lí dân cư thế giới",
+        "Địa lí các ngành kinh tế chủ yếu"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/dia-li.json"
+    },
+    {
+      "id": "thpt-dia-li-l11-on-tap",
+      "stage": "thpt",
+      "subject": "dia-li",
+      "grade": 11,
+      "topic": "Ôn tập Địa lí 11",
+      "chapter": "Tổng ôn Địa lí 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Toàn cầu hóa và hội nhập kinh tế quốc tế",
+        "Liên minh châu Âu (EU)",
+        "Khu vực Đông Nam Á và ASEAN",
+        "Hoa Kỳ và Trung Quốc"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/dia-li.json"
+    },
+    {
       "id": "thpt-dia-li-l12-kinh-te-vung",
       "stage": "thpt",
       "subject": "dia-li",
@@ -522,6 +558,42 @@
       "outcomes": [],
       "timeLimit": null,
       "path": "mam-non/age5/do-vat.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l10-on-tap",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 10,
+      "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 10",
+      "chapter": "Tổng ôn GDKT & Pháp luật 10",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Nền kinh tế và các chủ thể của nền kinh tế",
+        "Thị trường - giá cả - ngân sách - thuế",
+        "Tín dụng - Lập kế hoạch tài chính cá nhân",
+        "Hệ thống chính trị, pháp luật và Hiến pháp Việt Nam"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/gdkt-pl.json"
+    },
+    {
+      "id": "thpt-gdkt-pl-l11-on-tap",
+      "stage": "thpt",
+      "subject": "gdkt-pl",
+      "grade": 11,
+      "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 11",
+      "chapter": "Tổng ôn GDKT & Pháp luật 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Cạnh tranh, cung - cầu trong kinh tế thị trường",
+        "Lạm phát - Thất nghiệp - Thị trường lao động",
+        "Đạo đức kinh doanh và văn hóa tiêu dùng",
+        "Quyền và nghĩa vụ công dân trong các lĩnh vực"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/gdkt-pl.json"
     },
     {
       "id": "thpt-gdkt-pl-l12-on-tap",
@@ -696,6 +768,42 @@
       "path": "mam-non/age5/hinh-khoi-2.json"
     },
     {
+      "id": "thpt-hoa-hoc-l10-on-tap",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 10,
+      "topic": "Ôn tập Hóa học 10",
+      "chapter": "Tổng ôn Hóa học 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Cấu tạo nguyên tử",
+        "Bảng tuần hoàn các nguyên tố hóa học",
+        "Liên kết hóa học",
+        "Phản ứng oxi hóa - khử và Halogen"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/hoa-hoc.json"
+    },
+    {
+      "id": "thpt-hoa-hoc-l11-on-tap",
+      "stage": "thpt",
+      "subject": "hoa-hoc",
+      "grade": 11,
+      "topic": "Ôn tập Hóa học 11",
+      "chapter": "Tổng ôn Hóa học 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Cân bằng hóa học",
+        "Nitrogen, Sulfur và hợp chất",
+        "Đại cương hóa học hữu cơ",
+        "Hydrocarbon, alcohol, carboxylic acid"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/hoa-hoc.json"
+    },
+    {
       "id": "thpt-hoa-hoc-l12-kim-loai",
       "stage": "thpt",
       "subject": "hoa-hoc",
@@ -749,6 +857,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/hoa-hoc.json"
+    },
+    {
+      "id": "thpt-lich-su-l10-on-tap",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 10,
+      "topic": "Ôn tập Lịch sử 10",
+      "chapter": "Tổng ôn Lịch sử 10",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Lịch sử và Sử học",
+        "Các nền văn minh thế giới cổ - trung đại",
+        "Văn minh Đông Nam Á - Văn Lang, Âu Lạc, Champa, Phù Nam",
+        "Văn minh Đại Việt"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/lich-su.json"
+    },
+    {
+      "id": "thpt-lich-su-l11-on-tap",
+      "stage": "thpt",
+      "subject": "lich-su",
+      "grade": 11,
+      "topic": "Ôn tập Lịch sử 11",
+      "chapter": "Tổng ôn Lịch sử 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Các cuộc cách mạng tư sản và sự phát triển của chủ nghĩa tư bản",
+        "Chủ nghĩa xã hội từ 1917 đến nay",
+        "Đông Nam Á: từ thuộc địa đến độc lập",
+        "Lịch sử bảo vệ Tổ quốc Việt Nam và các cuộc cải cách"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/lich-su.json"
     },
     {
       "id": "thpt-lich-su-l12-on-tap",
@@ -1257,6 +1401,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop12/ngu-van.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l10-on-tap",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 10,
+      "topic": "Ôn tập Sinh học 10",
+      "chapter": "Tổng ôn Sinh học 10",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Giới thiệu chung về sinh học - Các cấp tổ chức sống",
+        "Tế bào nhân sơ và tế bào nhân thực",
+        "Vận chuyển các chất qua màng sinh chất",
+        "Enzyme, hô hấp tế bào và quang hợp"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/sinh-hoc.json"
+    },
+    {
+      "id": "thpt-sinh-hoc-l11-on-tap",
+      "stage": "thpt",
+      "subject": "sinh-hoc",
+      "grade": 11,
+      "topic": "Ôn tập Sinh học 11",
+      "chapter": "Tổng ôn Sinh học 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Trao đổi chất và chuyển hóa năng lượng ở thực vật",
+        "Trao đổi chất và chuyển hóa năng lượng ở động vật",
+        "Cảm ứng ở sinh vật",
+        "Sinh trưởng, phát triển và sinh sản"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/sinh-hoc.json"
     },
     {
       "id": "thpt-sinh-hoc-l12-di-truyen",
@@ -4045,6 +4225,42 @@
       ],
       "timeLimit": 45,
       "path": "thpt/lop12/de-thi-thu-tot-nghiep-1.json"
+    },
+    {
+      "id": "thpt-vat-li-l10-on-tap",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 10,
+      "topic": "Ôn tập Vật lí 10",
+      "chapter": "Tổng ôn Vật lí 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Động học chất điểm",
+        "Ba định luật Newton - Lực ma sát",
+        "Công - Năng lượng - Công suất",
+        "Động lượng - Chuyển động tròn"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/vat-li.json"
+    },
+    {
+      "id": "thpt-vat-li-l11-on-tap",
+      "stage": "thpt",
+      "subject": "vat-li",
+      "grade": 11,
+      "topic": "Ôn tập Vật lí 11",
+      "chapter": "Tổng ôn Vật lí 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Dao động (dao động điều hòa, con lắc lò xo, con lắc đơn)",
+        "Sóng cơ - Sóng âm",
+        "Điện trường - Điện tích",
+        "Dòng điện không đổi - Định luật Ohm"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/vat-li.json"
     },
     {
       "id": "thpt-vat-li-l12-on-tap",

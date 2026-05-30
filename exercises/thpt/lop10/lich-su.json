@@ -1,0 +1,205 @@
+{
+  "id": "thpt-lich-su-l10-on-tap",
+  "stage": "thpt",
+  "subject": "lich-su",
+  "grade": 10,
+  "topic": "Ôn tập Lịch sử 10",
+  "chapter": "Tổng ôn Lịch sử 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Lịch sử và Sử học",
+    "Các nền văn minh thế giới cổ - trung đại",
+    "Văn minh Đông Nam Á - Văn Lang, Âu Lạc, Champa, Phù Nam",
+    "Văn minh Đại Việt"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sử học là ngành khoa học nghiên cứu về:",
+      "options": [
+        "Quá khứ của con người và xã hội loài người",
+        "Các loài động, thực vật trong tự nhiên",
+        "Các quy luật của vật chất",
+        "Cách trồng cây và chăn nuôi"
+      ],
+      "answer": 0,
+      "hint": "Sử học nghiên cứu lịch sử (toàn bộ những gì đã diễn ra trong quá khứ của con người và xã hội)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Sử liệu là gì?",
+      "options": [
+        "Những tài liệu, di vật, di tích còn lưu giữ được, giúp nhận thức về lịch sử",
+        "Tất cả các bài thi môn Lịch sử",
+        "Những câu chuyện do nhà văn sáng tác",
+        "Các bản đồ địa lí hiện đại"
+      ],
+      "answer": 0,
+      "hint": "Sử liệu là nguồn tư liệu (vật chất, chữ viết, truyền miệng...) để nhà sử học nghiên cứu lịch sử."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nền văn minh cổ đại nào sau đây hình thành ở lưu vực sông Nile (Ai Cập cổ đại)?",
+      "options": [
+        "Văn minh Ai Cập cổ đại",
+        "Văn minh Hy Lạp - La Mã",
+        "Văn minh Trung Hoa",
+        "Văn minh Ấn Độ"
+      ],
+      "answer": 0,
+      "hint": "Nền văn minh Ai Cập cổ đại hình thành ven sông Nile, nổi tiếng với kim tự tháp và chữ tượng hình."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nền văn minh nào sau đây nổi tiếng với hệ thống chữ viết tượng hình và các kim tự tháp?",
+      "options": [
+        "Văn minh Ai Cập cổ đại",
+        "Văn minh Hy Lạp",
+        "Văn minh Ấn Độ",
+        "Văn minh Lưỡng Hà"
+      ],
+      "answer": 0,
+      "hint": "Kim tự tháp và chữ tượng hình là di sản nổi bật của Ai Cập cổ đại."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai nền văn minh cổ đại nào đặt nền móng cho nền văn minh phương Tây?",
+      "options": [
+        "Hy Lạp và La Mã cổ đại",
+        "Ai Cập và Trung Hoa",
+        "Ấn Độ và Ba Tư",
+        "Lưỡng Hà và Ai Cập"
+      ],
+      "answer": 0,
+      "hint": "Văn minh Hy Lạp - La Mã (cổ đại) là nền tảng của văn hóa, triết học, pháp luật phương Tây."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nhà nước Văn Lang được hình thành dưới sự đứng đầu của:",
+      "options": [
+        "Các vua Hùng",
+        "An Dương Vương",
+        "Triệu Đà",
+        "Hai Bà Trưng"
+      ],
+      "answer": 0,
+      "hint": "Văn Lang là nhà nước đầu tiên ở Việt Nam, do các vua Hùng đứng đầu (từ khoảng thế kỉ VII TCN)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Nhà nước Âu Lạc do ai sáng lập, đóng đô ở đâu?",
+      "options": [
+        "An Dương Vương Thục Phán; đóng đô ở Cổ Loa (Đông Anh, Hà Nội ngày nay)",
+        "Vua Hùng; đóng đô ở Hoa Lư",
+        "Triệu Đà; đóng đô ở Phong Châu",
+        "Lý Bí; đóng đô ở Thăng Long"
+      ],
+      "answer": 0,
+      "hint": "An Dương Vương Thục Phán sáng lập Âu Lạc, đóng đô và xây thành Cổ Loa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Nền văn minh cổ Champa hình thành chủ yếu ở khu vực nào của Việt Nam ngày nay?",
+      "options": [
+        "Khu vực Trung Bộ",
+        "Khu vực Đồng bằng Bắc Bộ",
+        "Khu vực Tây Bắc",
+        "Khu vực Đồng bằng sông Cửu Long"
+      ],
+      "answer": 0,
+      "hint": "Văn minh Champa phát triển dọc dải đất Trung Bộ Việt Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Văn minh Đại Việt (từ thế kỉ X đến XIX) gắn liền với các triều đại nào sau đây?",
+      "options": [
+        "Lý, Trần, Lê sơ, Mạc, Tây Sơn, Nguyễn (giai đoạn đầu)",
+        "Triệu, Đinh, Lê, Lý, Trần (thời Bắc thuộc)",
+        "Các vua Hùng và An Dương Vương",
+        "Chỉ có thời nhà Trần"
+      ],
+      "answer": 0,
+      "hint": "Văn minh Đại Việt phát triển qua các triều đại từ Lý đến Nguyễn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bộ luật nào sau đây là thành tựu pháp luật nổi bật của văn minh Đại Việt thời Lê sơ?",
+      "options": [
+        "Quốc triều hình luật (Luật Hồng Đức)",
+        "Hoàng Việt luật lệ (Luật Gia Long)",
+        "Hình luật của nhà Trần",
+        "Hiến pháp 1946"
+      ],
+      "answer": 0,
+      "hint": "Quốc triều hình luật (Luật Hồng Đức) là bộ luật tiêu biểu thời Lê sơ, có nhiều điểm tiến bộ về bảo vệ phụ nữ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Loại chữ viết nào sau đây là sáng tạo của người Việt, được phát triển từ chữ Hán để ghi âm tiếng Việt?",
+      "options": [
+        "Chữ Nôm",
+        "Chữ Quốc ngữ (hệ chữ Latin)",
+        "Chữ Hán",
+        "Chữ Phạn"
+      ],
+      "answer": 0,
+      "hint": "Chữ Nôm do người Việt sáng tạo trên cơ sở chữ Hán để ghi âm tiếng Việt."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về sử học và các nền văn minh cổ - trung đại:",
+      "statements": [
+        { "text": "Sử học là ngành khoa học nghiên cứu về quá khứ của con người và xã hội loài người.", "answer": true },
+        { "text": "Các nền văn minh cổ đại lớn (Ai Cập, Lưỡng Hà, Ấn Độ, Trung Hoa) đều hình thành ở lưu vực các con sông lớn.", "answer": true },
+        { "text": "Văn minh Hy Lạp - La Mã cổ đại không có ảnh hưởng gì đến nền văn minh phương Tây hiện đại.", "answer": false },
+        { "text": "Kim tự tháp là công trình kiến trúc tiêu biểu của nền văn minh Ai Cập cổ đại.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về các nền văn minh trên đất nước Việt Nam:",
+      "statements": [
+        { "text": "Văn Lang là nhà nước đầu tiên trong lịch sử Việt Nam, do các vua Hùng đứng đầu.", "answer": true },
+        { "text": "An Dương Vương đóng đô và xây thành Cổ Loa.", "answer": true },
+        { "text": "Văn minh Champa phát triển chủ yếu ở khu vực Trung Bộ Việt Nam.", "answer": true },
+        { "text": "Văn minh Đại Việt chỉ tồn tại trong thời nhà Lý.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Nhà nước Âu Lạc do An Dương Vương Thục Phán sáng lập, đóng đô ở thành ___",
+      "answer": "Cổ Loa",
+      "alternatives": ["co loa", "Cổ Loa (Đông Anh, Hà Nội)"],
+      "hint": "An Dương Vương xây thành Cổ Loa làm kinh đô của Âu Lạc."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Bộ luật tiêu biểu của triều đại Lê sơ (Đại Việt) là Quốc triều hình luật, còn được gọi là Luật ___",
+      "answer": "Hồng Đức",
+      "alternatives": ["hong duc", "Luật Hồng Đức"],
+      "hint": "Quốc triều hình luật được biên soạn dưới thời vua Lê Thánh Tông (niên hiệu Hồng Đức)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Chữ Nôm là loại chữ viết do người Việt sáng tạo, dựa trên cơ sở chữ Hán để ghi âm tiếng Việt.",
+      "answer": true,
+      "hint": "Chữ Nôm là sáng tạo độc đáo của người Việt, được sử dụng song song với chữ Hán trong lịch sử."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "thpt-gdkt-pl-l10-on-tap",
+  "stage": "thpt",
+  "subject": "gdkt-pl",
+  "grade": 10,
+  "topic": "Ôn tập Giáo dục Kinh tế và Pháp luật 10",
+  "chapter": "Tổng ôn GDKT & Pháp luật 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Nền kinh tế và các chủ thể của nền kinh tế",
+    "Thị trường - giá cả - ngân sách - thuế",
+    "Tín dụng - Lập kế hoạch tài chính cá nhân",
+    "Hệ thống chính trị, pháp luật và Hiến pháp Việt Nam"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong nền kinh tế thị trường, các chủ thể chính tham gia bao gồm:",
+      "options": [
+        "Người sản xuất, người tiêu dùng, người trung gian, Nhà nước",
+        "Chỉ duy nhất Nhà nước",
+        "Chỉ có người tiêu dùng",
+        "Chỉ có doanh nghiệp nước ngoài"
+      ],
+      "answer": 0,
+      "hint": "Nền kinh tế có nhiều chủ thể cùng tham gia: người sản xuất, người tiêu dùng, người trung gian (thương mại, tài chính) và Nhà nước."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thị trường là gì?",
+      "options": [
+        "Nơi gặp gỡ và trao đổi giữa người mua và người bán hàng hóa, dịch vụ",
+        "Chỉ là khu chợ truyền thống ở nông thôn",
+        "Một cơ quan của Nhà nước",
+        "Một loại hàng hóa cụ thể"
+      ],
+      "answer": 0,
+      "hint": "Thị trường là nơi (không nhất thiết phải là một địa điểm vật lí) diễn ra việc trao đổi, mua bán hàng hóa - dịch vụ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khi cung lớn hơn cầu thì thường giá cả có xu hướng:",
+      "options": [
+        "Giảm xuống",
+        "Tăng lên",
+        "Không thay đổi",
+        "Tăng vọt không kiểm soát"
+      ],
+      "answer": 0,
+      "hint": "Cung > cầu → hàng hóa nhiều hơn nhu cầu → giá giảm; ngược lại cung < cầu → giá tăng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ngân sách nhà nước được hiểu là:",
+      "options": [
+        "Toàn bộ các khoản thu, chi của Nhà nước được dự toán và thực hiện trong một thời gian nhất định",
+        "Tiền tiết kiệm cá nhân của một gia đình",
+        "Số dư tài khoản ngân hàng của một doanh nghiệp",
+        "Tiền mặt trong két của một cửa hàng"
+      ],
+      "answer": 0,
+      "hint": "Ngân sách nhà nước = toàn bộ các khoản thu (thuế, phí...) và chi (đầu tư công, an sinh xã hội...) trong kì."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Thuế là khoản nộp bắt buộc vào ngân sách nhà nước, có tính chất:",
+      "options": [
+        "Bắt buộc, không hoàn trả trực tiếp cho người nộp",
+        "Tự nguyện, có hoàn trả trực tiếp cho người nộp",
+        "Bắt buộc, có hoàn trả tương đương cho người nộp",
+        "Tự nguyện, không hoàn trả"
+      ],
+      "answer": 0,
+      "hint": "Thuế mang tính bắt buộc và không hoàn trả trực tiếp (khác phí và lệ phí)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tín dụng được hiểu là:",
+      "options": [
+        "Quan hệ vay - mượn dựa trên nguyên tắc hoàn trả vốn và lãi sau một thời gian nhất định",
+        "Việc tặng cho không hoàn lại giữa các cá nhân",
+        "Hoạt động sản xuất hàng hóa",
+        "Hoạt động xuất khẩu trực tiếp"
+      ],
+      "answer": 0,
+      "hint": "Tín dụng = vay - mượn có hoàn trả gốc và lãi đúng hạn."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Để lập kế hoạch tài chính cá nhân hiệu quả, mỗi người nên:",
+      "options": [
+        "Xác định mục tiêu tài chính, cân đối thu - chi, tiết kiệm và đầu tư phù hợp với khả năng",
+        "Chi tiêu hết thu nhập ngay khi nhận lương",
+        "Vay nợ thật nhiều để mua sắm",
+        "Không cần ghi chép hay theo dõi các khoản chi"
+      ],
+      "answer": 0,
+      "hint": "Quản lí tài chính cá nhân tốt: đặt mục tiêu rõ ràng, cân đối thu - chi và có khoản dự phòng, tiết kiệm."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hệ thống chính trị nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm:",
+      "options": [
+        "Đảng Cộng sản Việt Nam, Nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã hội",
+        "Chỉ có Đảng Cộng sản Việt Nam",
+        "Chỉ có Nhà nước",
+        "Một số doanh nghiệp lớn"
+      ],
+      "answer": 0,
+      "hint": "Hệ thống chính trị Việt Nam gồm: Đảng, Nhà nước, Mặt trận Tổ quốc và các tổ chức chính trị - xã hội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong hệ thống pháp luật Việt Nam, văn bản có hiệu lực pháp lí CAO NHẤT là:",
+      "options": [
+        "Hiến pháp",
+        "Luật do Quốc hội ban hành",
+        "Nghị định của Chính phủ",
+        "Thông tư của bộ trưởng"
+      ],
+      "answer": 0,
+      "hint": "Hiến pháp là luật cơ bản của Nhà nước, có hiệu lực pháp lí cao nhất; mọi văn bản khác phải phù hợp với Hiến pháp."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Pháp luật có đặc điểm cơ bản nào sau đây?",
+      "options": [
+        "Tính quy phạm phổ biến, tính quyền lực bắt buộc chung, tính xác định chặt chẽ về hình thức",
+        "Chỉ áp dụng cho một nhóm người nhất định",
+        "Có thể tuân theo hoặc không tùy ý muốn",
+        "Chỉ là quy ước miệng giữa các cá nhân"
+      ],
+      "answer": 0,
+      "hint": "Ba đặc điểm cơ bản: quy phạm phổ biến (áp dụng với mọi người), bắt buộc chung, xác định chặt chẽ về hình thức."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cơ quan có thẩm quyền cao nhất ban hành Hiến pháp và các luật ở Việt Nam là:",
+      "options": [
+        "Quốc hội",
+        "Chính phủ",
+        "Tòa án nhân dân tối cao",
+        "Ủy ban Mặt trận Tổ quốc"
+      ],
+      "answer": 0,
+      "hint": "Quốc hội là cơ quan quyền lực nhà nước cao nhất, ban hành Hiến pháp và các đạo luật."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về kinh tế:",
+      "statements": [
+        { "text": "Trong nền kinh tế thị trường, giá cả hàng hóa được hình thành chủ yếu trên cơ sở quan hệ cung - cầu.", "answer": true },
+        { "text": "Thuế là khoản nộp bắt buộc vào ngân sách nhà nước, không hoàn trả trực tiếp cho người nộp.", "answer": true },
+        { "text": "Tín dụng là quan hệ tặng cho hoàn toàn miễn phí giữa các cá nhân.", "answer": false },
+        { "text": "Việc lập kế hoạch tài chính cá nhân giúp mỗi người chủ động hơn trong chi tiêu và tiết kiệm.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về pháp luật và hệ thống chính trị:",
+      "statements": [
+        { "text": "Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.", "answer": true },
+        { "text": "Hiến pháp là luật cơ bản, có hiệu lực pháp lí cao nhất trong hệ thống pháp luật Việt Nam.", "answer": true },
+        { "text": "Mọi công dân đều bình đẳng trước pháp luật.", "answer": true },
+        { "text": "Quốc hội là cơ quan có thẩm quyền cao nhất xét xử trong hệ thống tư pháp.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Văn bản pháp luật có hiệu lực pháp lí cao nhất trong hệ thống pháp luật Việt Nam là ___",
+      "answer": "Hiến pháp",
+      "alternatives": ["hien phap"],
+      "hint": "Hiến pháp là luật cơ bản của Nhà nước."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Cơ quan quyền lực nhà nước cao nhất ở Việt Nam, có thẩm quyền ban hành Hiến pháp và các luật là ___",
+      "answer": "Quốc hội",
+      "alternatives": ["quoc hoi"],
+      "hint": "Quốc hội là cơ quan đại biểu cao nhất của Nhân dân, cơ quan quyền lực nhà nước cao nhất."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Thuế là một trong những nguồn thu chủ yếu của ngân sách nhà nước.",
+      "answer": true,
+      "hint": "Thuế chiếm tỉ trọng lớn nhất trong nguồn thu của ngân sách nhà nước."
+    }
+  ]
+}

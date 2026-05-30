@@ -1,0 +1,205 @@
+{
+  "id": "thpt-dia-li-l10-on-tap",
+  "stage": "thpt",
+  "subject": "dia-li",
+  "grade": 10,
+  "topic": "Ôn tập Địa lí 10",
+  "chapter": "Tổng ôn Địa lí 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Trái Đất - thạch quyển, khí quyển, thủy quyển",
+    "Một số quy luật của lớp vỏ địa lí",
+    "Địa lí dân cư thế giới",
+    "Địa lí các ngành kinh tế chủ yếu"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Lớp vỏ ngoài cùng của Trái Đất, có cấu tạo bằng các loại đá rắn, được gọi là:",
+      "options": [
+        "Thạch quyển (vỏ Trái Đất)",
+        "Khí quyển",
+        "Thủy quyển",
+        "Sinh quyển"
+      ],
+      "answer": 0,
+      "hint": "Thạch quyển là lớp đá ngoài cùng (vỏ Trái Đất + phần trên của manti)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Các quá trình NỘI LỰC sinh ra trong lòng Trái Đất bao gồm:",
+      "options": [
+        "Vận động kiến tạo, động đất, núi lửa",
+        "Mưa, gió, dòng chảy",
+        "Phong hóa, xâm thực, bồi tụ",
+        "Sự nóng lên của khí hậu"
+      ],
+      "answer": 0,
+      "hint": "Nội lực do năng lượng từ trong lòng Trái Đất sinh ra: kiến tạo mảng, động đất, núi lửa."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Các quá trình NGOẠI LỰC chủ yếu là:",
+      "options": [
+        "Phong hóa, xâm thực, vận chuyển, bồi tụ",
+        "Động đất, núi lửa",
+        "Sự dịch chuyển của các mảng kiến tạo",
+        "Sự nâng lên của các dãy núi"
+      ],
+      "answer": 0,
+      "hint": "Ngoại lực do năng lượng bên ngoài Trái Đất (chủ yếu là Mặt Trời) gây ra: phong hóa, xâm thực, vận chuyển, bồi tụ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khí quyển Trái Đất gồm các tầng (theo chiều từ thấp lên cao) lần lượt là:",
+      "options": [
+        "Tầng đối lưu, tầng bình lưu, tầng giữa, tầng ion (nhiệt), tầng ngoài",
+        "Tầng bình lưu, tầng đối lưu, tầng ngoài",
+        "Tầng ngoài, tầng đối lưu, tầng bình lưu",
+        "Tầng giữa, tầng đối lưu, tầng bình lưu"
+      ],
+      "answer": 0,
+      "hint": "Khí quyển từ thấp lên cao: đối lưu → bình lưu → giữa → ion (nhiệt) → ngoài."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Các hiện tượng thời tiết (mây, mưa, gió...) xảy ra chủ yếu ở tầng nào của khí quyển?",
+      "options": [
+        "Tầng đối lưu",
+        "Tầng bình lưu",
+        "Tầng ion",
+        "Tầng ngoài"
+      ],
+      "answer": 0,
+      "hint": "Tầng đối lưu (gần mặt đất) là nơi diễn ra các hiện tượng thời tiết."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Gió Tín phong (gió Mậu dịch) là loại gió thổi quanh năm từ:",
+      "options": [
+        "Khu áp cao chí tuyến về phía Xích đạo (khu áp thấp Xích đạo)",
+        "Xích đạo về hai cực",
+        "Vùng cực về Xích đạo",
+        "Đông sang Tây ở mọi vĩ độ"
+      ],
+      "answer": 0,
+      "hint": "Tín phong: từ áp cao chí tuyến thổi về Xích đạo, do chênh lệch khí áp giữa hai vùng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Lớp nước trên Trái Đất (gồm nước trong các đại dương, sông, hồ, băng tuyết...) được gọi là:",
+      "options": [
+        "Thủy quyển",
+        "Thạch quyển",
+        "Khí quyển",
+        "Sinh quyển"
+      ],
+      "answer": 0,
+      "hint": "Thủy quyển bao gồm tất cả nước trên Trái Đất (chủ yếu là nước trong đại dương)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Lớp vỏ của Trái Đất nơi có sự sống tồn tại (gồm các sinh vật và môi trường sống) được gọi là:",
+      "options": [
+        "Sinh quyển",
+        "Thạch quyển",
+        "Khí quyển",
+        "Thủy quyển"
+      ],
+      "answer": 0,
+      "hint": "Sinh quyển là lớp vỏ chứa sự sống, bao gồm tất cả sinh vật và môi trường sống của chúng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Theo quy luật phân bố nhiệt độ trên Trái Đất, nhiệt độ trung bình năm:",
+      "options": [
+        "Giảm dần từ Xích đạo về hai cực",
+        "Tăng dần từ Xích đạo về hai cực",
+        "Đồng đều ở mọi vĩ độ",
+        "Cao nhất ở hai cực"
+      ],
+      "answer": 0,
+      "hint": "Càng xa Xích đạo, góc chiếu sáng càng nhỏ → nhiệt độ trung bình giảm dần."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Ngành kinh tế nào sau đây thuộc khu vực I (nông - lâm - thủy sản)?",
+      "options": [
+        "Trồng trọt",
+        "Sản xuất ô tô",
+        "Du lịch",
+        "Ngân hàng"
+      ],
+      "answer": 0,
+      "hint": "Khu vực I gồm nông nghiệp (trồng trọt, chăn nuôi), lâm nghiệp, thủy sản."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Trên thế giới, các quốc gia có cơ cấu dân số GIÀ thường có đặc điểm chung là:",
+      "options": [
+        "Tỉ lệ người trên 60 tuổi cao, tỉ lệ trẻ em thấp; thường là các nước phát triển",
+        "Tỉ lệ trẻ em rất cao, tỉ lệ người già rất thấp",
+        "Dân số tăng nhanh chóng từ 5-7%/năm",
+        "Hoàn toàn không có người cao tuổi"
+      ],
+      "answer": 0,
+      "hint": "Cơ cấu dân số già: tỉ lệ người cao tuổi cao, sinh suất thấp; thường ở các nước phát triển."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Trái Đất và lớp vỏ địa lí:",
+      "statements": [
+        { "text": "Nội lực sinh ra trong lòng Trái Đất, gồm các vận động kiến tạo, động đất, núi lửa.", "answer": true },
+        { "text": "Tầng đối lưu là nơi diễn ra các hiện tượng thời tiết (mây, mưa, gió...).", "answer": true },
+        { "text": "Tầng ozone (trong tầng bình lưu) có vai trò hấp thụ phần lớn tia tử ngoại từ Mặt Trời.", "answer": true },
+        { "text": "Toàn bộ nước trên Trái Đất tập trung hoàn toàn trong các sông, hồ trên lục địa.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về địa lí dân cư và các ngành kinh tế:",
+      "statements": [
+        { "text": "Cơ cấu dân số được chia theo độ tuổi và giới tính.", "answer": true },
+        { "text": "Trồng trọt và chăn nuôi là hai ngành chính của khu vực nông nghiệp.", "answer": true },
+        { "text": "Ngành dịch vụ (khu vực III) đang chiếm tỉ trọng ngày càng lớn trong cơ cấu kinh tế của các nước phát triển.", "answer": true },
+        { "text": "Toàn bộ dân số thế giới phân bố hoàn toàn đồng đều ở mọi khu vực.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Tầng khí quyển nơi diễn ra các hiện tượng thời tiết chủ yếu là tầng ___",
+      "answer": "đối lưu",
+      "alternatives": ["doi luu", "tầng đối lưu"],
+      "hint": "Tầng đối lưu (0-12 km) là nơi diễn ra phần lớn hiện tượng thời tiết."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Theo quy luật phân bố nhiệt, nhiệt độ trung bình năm giảm dần từ Xích đạo về hai ___",
+      "answer": "cực",
+      "alternatives": ["cuc", "hai cực"],
+      "hint": "Càng xa Xích đạo (về phía cực), nhiệt độ trung bình càng thấp."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Sinh quyển là lớp vỏ của Trái Đất chứa toàn bộ các sinh vật sống cùng môi trường sống của chúng.",
+      "answer": true,
+      "hint": "Sinh quyển = nơi có sự sống tồn tại trên Trái Đất."
+    }
+  ]
+}
