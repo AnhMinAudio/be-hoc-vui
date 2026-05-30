@@ -148,6 +148,7 @@ async function route() {
     return renderTopicList(view, grade, parts[1]);
   }
   if (parts[0] === 'on-tap-cau-sai') return renderExercise(view, '_review');
+  if (parts[0] === 'luyen-chuyen-de') return renderExercise(view, '_outcome');
   if (parts[0] === 'bai' && parts[1]) return renderExercise(view, parts[1]);
   return renderWorldHome(view, homeWorld());
 }
@@ -347,6 +348,60 @@ function levelBreakdown(questions, answers) {
     lv, label: labels[lv], ...buckets[lv],
     pct: Math.round(buckets[lv].ok / buckets[lv].total * 100),
   }));
+}
+
+// Tìm outcome yếu nhất của user (UX 4B.2). Trả null nếu chưa đủ dữ liệu.
+// Tiêu chí: phải làm ≥ 2 đề có outcome này + tổng ≥ 10 câu mẫu + đúng < 70%.
+function findWeakestOutcome() {
+  if (!CATALOG || !Array.isArray(CATALOG.exercises)) return null;
+  const stats = Progress.getOutcomeStats(CATALOG.exercises);
+  const cand = Object.entries(stats)
+    .filter(([_, s]) => s.total >= 10 && s.exCount >= 2)
+    .map(([o, s]) => ({ outcome: o, pct: s.correct / s.total, total: s.total }))
+    .filter(x => x.pct < 0.7)
+    .sort((a, b) => a.pct - b.pct);
+  return cand[0] || null;
+}
+
+// Dựng đề ad-hoc 10 câu xoay quanh 1 outcome cụ thể (UX 4B.2).
+// Lấy ngẫu nhiên từ các đề có outcome đó (ưu tiên cùng grade với user). Async vì fetch.
+async function buildOutcomeExercise(outcome) {
+  if (!outcome || !CATALOG || !Array.isArray(CATALOG.exercises)) return null;
+  const user = Auth.getUser();
+  let pool = CATALOG.exercises.filter(e =>
+    Array.isArray(e.outcomes) && e.outcomes.includes(outcome));
+  if (!pool.length) return null;
+  // Ưu tiên đề cùng grade nếu có
+  if (user) {
+    const sameGrade = pool.filter(e => e.grade === user.grade);
+    if (sameGrade.length >= 2) pool = sameGrade;
+  }
+  // Lấy tối đa 5 đề ngẫu nhiên để fetch
+  const sample = shuffleArr(pool.slice()).slice(0, 5);
+  const fetched = await Promise.all(sample.map(async meta => {
+    try { return await (await fetch('/exercises/' + meta.path)).json(); } catch (_) { return null; }
+  }));
+  const allQuestions = [];
+  fetched.filter(Boolean).forEach(ex => {
+    ex.questions.forEach((q, i) => {
+      allQuestions.push({ ...q, _qIdx: i, _exId: ex.id });
+    });
+  });
+  if (!allQuestions.length) return null;
+  // Xáo + lấy 10 câu
+  shuffleArr(allQuestions);
+  const questions = allQuestions.slice(0, 10);
+  return {
+    id: '_outcome',
+    topic: 'Luyện chuyên đề: ' + outcome,
+    chapter: 'Ad-hoc · lấy từ ' + new Set(questions.map(q => q._exId)).size + ' đề',
+    stage: user ? stageFromGrade(user.grade) : 'thpt',
+    subject: sample[0].subject,
+    grade: user ? user.grade : 11,
+    questions,
+    isReviewSession: true,
+    outcomeFocus: outcome,
+  };
 }
 
 // Dựng đề "ôn câu sai" động từ hàng đợi (UX 4B.1).
@@ -970,6 +1025,7 @@ function renderDailyHomeSection() {
   // Hiển thị countdown khi: có ngày thi + còn ≤ 365 ngày + chưa qua quá 1 ngày
   const showExam = daysLeft !== null && daysLeft >= -1 && daysLeft <= 365;
   const wrongCount = u && Progress.getWrongQueue ? Progress.getWrongQueue().length : 0;
+  const weakOutcome = u && typeof findWeakestOutcome === 'function' ? findWeakestOutcome() : null;
 
   const head = (grade, extra) => `
     <div class="daily-head">
@@ -982,6 +1038,7 @@ function renderDailyHomeSection() {
           `🎯 Thi còn ${daysLeft} ngày`
         }</span>` : ''}
         ${wrongCount > 0 ? `<a href="/on-tap-cau-sai" class="wrong-chip" title="Ôn lại các câu bạn từng sai">🔁 Ôn ${Math.min(wrongCount, 10)} câu sai</a>` : ''}
+        ${weakOutcome ? `<a href="/luyen-chuyen-de" class="weak-chip" title="Chuyên đề bạn còn yếu (${Math.round(weakOutcome.pct*100)}%)">💡 Luyện chuyên đề yếu</a>` : ''}
         <a href="/tien-trinh" class="daily-progress-link">Xem tiến trình →</a>
       </div>
     </div>${extra || ''}`;
@@ -1675,6 +1732,21 @@ async function renderExercise(view, id) {
     if (!exercise) {
       view.innerHTML = emptyState('Chưa có câu sai để ôn 🎉',
         'Cứ làm bài bình thường nhé — câu nào sai mình sẽ ghi nhớ giúp để ôn lại sau.',
+        '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
+      return;
+    }
+  } else if (id === '_outcome') {
+    if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để luyện chuyên đề', 'Mình cần dữ liệu của bạn để biết chuyên đề nào còn yếu.');
+    const weak = findWeakestOutcome();
+    if (!weak) {
+      view.innerHTML = emptyState('Chưa đủ dữ liệu để gợi ý chuyên đề 📊',
+        'Hãy hoàn thành thêm vài đề ở các chuyên đề khác nhau — mình sẽ chỉ ra phần bạn còn yếu để luyện.',
+        '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
+      return;
+    }
+    exercise = await buildOutcomeExercise(weak.outcome);
+    if (!exercise) {
+      view.innerHTML = emptyState('Không dựng được đề luyện', 'Có thể vài đề liên quan không tải được. Thử lại sau nhé!',
         '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
       return;
     }

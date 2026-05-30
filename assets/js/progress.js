@@ -288,6 +288,29 @@ const Progress = (() => {
     return Object.values(q).filter(it => (it.lastWrong || it.addedAt) >= cutoffKey);
   }
 
+  // ===== Outcome stats (UX 4B.2) =====
+  // Gom điểm theo outcome string từ progress.completed × ex.outcomes.
+  // catalogList = CATALOG.exercises (truyền từ caller, tránh phụ thuộc global).
+  // Trả map: outcome → { correct, total, exCount }
+  function getOutcomeStats(catalogList) {
+    const data = load();
+    const completed = data.completed || {};
+    const stats = {};
+    for (const [exId, c] of Object.entries(completed)) {
+      if (!c || !c.total) continue;
+      const ex = (catalogList || []).find(e => e.id === exId);
+      if (!ex || !Array.isArray(ex.outcomes) || !ex.outcomes.length) continue;
+      const best = c.bestScore != null ? c.bestScore : c.score;
+      for (const o of ex.outcomes) {
+        if (!stats[o]) stats[o] = { correct: 0, total: 0, exCount: 0 };
+        stats[o].correct += best || 0;
+        stats[o].total += c.total;
+        stats[o].exCount += 1;
+      }
+    }
+    return stats;
+  }
+
   // ===== Sticker collection (UX 4A.5) =====
   // Catalog cố định — earn ngẫu nhiên từ tier phù hợp. Lưu dạng map key→ngày YYYY-MM-DD.
   const STICKERS = [
@@ -355,6 +378,7 @@ const Progress = (() => {
     getSetting, setSetting, getExamDate, setExamDate, daysUntilExam,
     getStickerCatalog, getStickers, maybeEarnStickers,
     recordWrong, clearWrong, getWrongQueue,
+    getOutcomeStats,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
     setActiveKey, onSave, replaceAll,

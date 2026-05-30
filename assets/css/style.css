@@ -1048,6 +1048,17 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
   transition: transform .15s;
 }
 .wrong-chip:hover { transform: translateY(-1px); }
+.weak-chip {
+  font-weight: 800; font-size: .82rem;
+  padding: 5px 12px; border-radius: 999px;
+  background: color-mix(in srgb, #29B6F6 14%, var(--c-card));
+  color: #01579B;
+  border: 1px solid color-mix(in srgb, #29B6F6 35%, transparent);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform .15s;
+}
+.weak-chip:hover { transform: translateY(-1px); }
 .exam-row {
   display: flex; align-items: flex-end; gap: 10px;
   flex-wrap: wrap; margin-top: 10px;
