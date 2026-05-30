@@ -1873,6 +1873,7 @@ async function renderExercise(view, id) {
         return Array.from({ length: 5 }, (_, i) => i < filled ? '⭐' : '☆').join('');
       })();
 
+      try {
       view.innerHTML = `
         <div class="result-card wow-card">
           <div class="result-mascot">${mascotSVG(mascotMood)}</div>
@@ -1931,6 +1932,28 @@ async function renderExercise(view, id) {
       };
 
       if (percent >= 80) confetti();
+      } catch (err) {
+        // Lưới an toàn: không để học sinh bị "đứng yên ở câu cuối" nếu màn WOW render lỗi
+        console.error('[showResult] Lỗi render màn WOW:', err);
+        const earnTxt = counts ? `Bạn được +${score} ⭐` : 'Đề ôn — không tính sao';
+        view.innerHTML = `
+          <div class="result-card">
+            <div class="result-title">🏁 Đã làm xong!</div>
+            <div class="result-score">${score}/${total}</div>
+            <div class="result-stars">${'⭐'.repeat(Math.min(score, 10))}</div>
+            <div style="color:#6B6B8C;margin:10px 0 16px">${earnTxt} · ⏱ ${timeStr}</div>
+            <div class="time-note" style="background:#FFF3E0;padding:10px;border-radius:8px;color:#E65100">
+              ⚠️ Không hiển thị được kết quả chi tiết do lỗi nội bộ. Tiến độ ĐÃ được lưu.
+              <br><small>Nếu lặp lại, mở DevTools (F12) → Console rồi gửi ảnh cho mình để sửa.</small>
+            </div>
+            <div class="action-bar" style="justify-content:center;margin-top:22px">
+              <a href="${backHref}" class="btn btn-secondary">Bài khác</a>
+              <button class="btn btn-primary" id="retry-fb">Làm lại</button>
+            </div>
+          </div>`;
+        const rfb = view.querySelector('#retry-fb');
+        if (rfb) rfb.onclick = () => renderExercise(view, id);
+      }
     };
 
     beginExerciseFocus(); // ẩn chrome điều hướng + chặn thoát nhầm
