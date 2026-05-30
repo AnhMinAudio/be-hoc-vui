@@ -120,5 +120,16 @@ const Auth = (() => {
       .catch(() => ({ ok: false, error: 'network' }));
   }
 
-  return { isLoggedIn, getUser, register, login, logout, syncUp, consumeDeletedNotice, countsForExercise, getLeaderboard, setParentPin, hasParentPin };
+  // Ghi nhận thống kê 1 lần làm đề (cho social proof per-đề). Không chặn UI.
+  async function recordStat({ exId, score, total, timeMs }) {
+    if (!session || !exId || exId.indexOf('_') === 0) return;
+    try { await api('/api/record-stat', { username: session.username, token: session.token, exId, score, total, timeMs }); } catch { }
+  }
+  // Lấy thống kê tổng hợp 1 đề. Không cần auth.
+  async function getExerciseStats(exId) {
+    if (!exId) return null;
+    try { return await api('/api/exercise-stats', { exId }); } catch { return null; }
+  }
+
+  return { isLoggedIn, getUser, register, login, logout, syncUp, consumeDeletedNotice, countsForExercise, getLeaderboard, setParentPin, hasParentPin, recordStat, getExerciseStats };
 })();

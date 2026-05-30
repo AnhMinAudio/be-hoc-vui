@@ -1059,6 +1059,22 @@ body[data-stage="mam-non"] .btn-primary:active { transform: translateY(3px); box
   transition: transform .15s;
 }
 .weak-chip:hover { transform: translateY(-1px); }
+
+/* Social proof trong WOW (UX 4B.3) */
+.sp-card {
+  margin: 14px 0 6px; padding: 12px 14px;
+  background: color-mix(in srgb, var(--c-primary) 8%, var(--c-card));
+  border: 1px solid color-mix(in srgb, var(--c-primary) 22%, transparent);
+  border-radius: 10px; text-align: left;
+}
+.sp-title {
+  font-weight: 800; font-size: .95rem;
+  color: var(--c-primary-dark); margin-bottom: 6px;
+}
+.sp-row {
+  font-size: .9rem; color: var(--c-text); margin-top: 4px;
+}
+.sp-row b { color: var(--c-primary-dark); }
 .exam-row {
   display: flex; align-items: flex-end; gap: 10px;
   flex-wrap: wrap; margin-top: 10px;

@@ -1944,6 +1944,10 @@ async function renderExercise(view, id) {
             isFirstPerfect: meta && meta.isFirstPerfect,
             streakMilestone,
           }) || [];
+          // Social proof: chỉ POST khi lần ĐẦU hoàn thành đề (tránh dupe khi replay)
+          if (meta && meta.wasFirst) {
+            Auth.recordStat({ exId: exercise.id, score, total, timeMs: elapsedMs });
+          }
         } catch (err) {
           console.error('[showResult] Lỗi khi lưu tiến độ:', err);
         }
@@ -2041,6 +2045,7 @@ async function renderExercise(view, id) {
             <div class="wow-earn">${earnNote}</div>
           </div>
           ${breakdownHTML}
+          <div id="social-proof"></div>
           ${ctaHTML}
           <div class="review-list" id="review-list" hidden></div>
           <div class="recap" aria-label="Tóm tắt câu">${recap}</div>
@@ -2080,6 +2085,26 @@ async function renderExercise(view, id) {
       };
 
       if (percent >= 80) confetti();
+
+      // Social proof: fetch async, chỉ hiện nếu n ≥ 30 (đủ mẫu)
+      if (!isReview && exercise.id && exercise.id.indexOf('_') !== 0) {
+        Auth.getExerciseStats(exercise.id).then(stats => {
+          if (!stats || !stats.ok || (stats.n || 0) < 30) return;
+          const el = view.querySelector('#social-proof');
+          if (!el) return;
+          const userPct = total ? Math.round(score / total * 100) : 0;
+          const userSec = Math.round(elapsedMs / 1000);
+          const avgSec = stats.avgMs ? Math.round(stats.avgMs / 1000) : null;
+          const cmpScore = userPct > stats.avgPct ? '👍 cao hơn trung bình' : userPct < stats.avgPct ? '👀 thấp hơn trung bình' : '➖ ngang trung bình';
+          const cmpTime = avgSec ? (userSec < avgSec ? '⚡ nhanh hơn trung bình' : userSec > avgSec ? '🐢 chậm hơn trung bình' : '➖ ngang trung bình') : '';
+          const fmt = s => `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
+          el.innerHTML = `<div class="sp-card">
+            <div class="sp-title">👥 ${stats.n} người đã làm đề này</div>
+            <div class="sp-row"><span>Điểm TB:</span> <b>${stats.avgPct}%</b> · bạn ${cmpScore}</div>
+            ${avgSec ? `<div class="sp-row"><span>Thời gian TB:</span> <b>${fmt(avgSec)}</b> · bạn ${cmpTime}</div>` : ''}
+          </div>`;
+        });
+      }
       } catch (err) {
         // Lưới an toàn: không để học sinh bị "đứng yên ở câu cuối" nếu màn WOW render lỗi
         console.error('[showResult] Lỗi render màn WOW:', err);

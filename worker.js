@@ -127,6 +127,8 @@ async function handleApi(request, env, url) {
     case '/api/leaderboard': return leaderboard(env, body);
     case '/api/set-parent-pin': return setParentPin(env, body);
     case '/api/parent-view': return parentView(env, body);
+    case '/api/record-stat': return recordStat(env, body);
+    case '/api/exercise-stats': return exerciseStats(env, body);
     default: return json({ ok: false, error: 'not_found' }, 404);
   }
 }
@@ -183,6 +185,42 @@ async function sync(env, body) {
   acc.progress = mergeProgress(acc.progress || emptyProgress(), body.progress || {});
   await putAccount(env, acc, true); // làm bài = có hoạt động → gia hạn 15 ngày
   return json({ ok: true, progress: acc.progress });
+}
+
+// ===== Social proof — thống kê per-đề tổng hợp (UX 4B.3) =====
+// KV key: stats:<exId> = { n, sumScore, sumTotal, sumMs }
+// Ghi: đòi auth (token) để giảm spam, không lưu user nào → ẩn danh.
+// Đọc: mở (không auth) — chỉ trả số liệu tổng hợp.
+async function recordStat(env, body) {
+  const acc = await getAccount(env, body.username);
+  if (!acc) return json({ ok: false, error: 'not_found' });
+  if (!acc.tokens || !acc.tokens[String(body.token || '')]) return json({ ok: false, error: 'auth' });
+  const exId = String(body.exId || '');
+  const score = Number(body.score), total = Number(body.total), timeMs = Number(body.timeMs || 0);
+  if (!exId || exId.indexOf('_') === 0) return json({ ok: true, skipped: 'internal' });
+  if (!Number.isFinite(score) || !Number.isFinite(total) || total <= 0) return json({ ok: false, error: 'bad_input' });
+  const key = 'stats:' + exId;
+  const raw = await env.PROGRESS.get(key);
+  const cur = raw ? JSON.parse(raw) : { n: 0, sumScore: 0, sumTotal: 0, sumMs: 0 };
+  cur.n += 1;
+  cur.sumScore += score;
+  cur.sumTotal += total;
+  cur.sumMs += Math.max(0, timeMs);
+  await env.PROGRESS.put(key, JSON.stringify(cur));
+  return json({ ok: true });
+}
+async function exerciseStats(env, body) {
+  const exId = String(body.exId || '');
+  if (!exId) return json({ ok: false, error: 'bad_input' });
+  const raw = await env.PROGRESS.get('stats:' + exId);
+  if (!raw) return json({ ok: true, n: 0 });
+  const cur = JSON.parse(raw);
+  return json({
+    ok: true,
+    n: cur.n || 0,
+    avgPct: cur.sumTotal ? Math.round(cur.sumScore / cur.sumTotal * 100) : null,
+    avgMs: cur.n ? Math.round(cur.sumMs / cur.n) : null,
+  });
 }
 
 // ===== Theo dõi của phụ huynh (mã PIN xem tiến trình, CHỈ ĐỌC) =====
