@@ -2764,3 +2764,87 @@ body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circl
   font-size: .88rem; margin: 8px auto; max-width: 480px;
 }
 .hero-explore-note a { color: var(--c-primary-dark); font-weight: 700; }
+
+/* === Trang môn: 3 tab + accordion + search (UX 4E.2) === */
+.topic-tabs {
+  display: flex; gap: 6px; padding: 4px;
+  background: var(--c-card); border-radius: var(--radius-md);
+  margin-bottom: 12px; box-shadow: var(--shadow-sm);
+  overflow-x: auto; scrollbar-width: thin;
+}
+.ttab {
+  flex: 1 1 auto; text-align: center;
+  padding: 10px 12px; border-radius: var(--radius-sm);
+  font-weight: 700; font-size: .92rem;
+  color: var(--c-text-soft); background: transparent; border: 0;
+  cursor: pointer; white-space: nowrap; font-family: inherit;
+  transition: background .15s, color .15s;
+}
+.ttab:hover { background: var(--c-surface-2); }
+.ttab.active {
+  background: var(--c-primary); color: #fff;
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--c-primary) 30%, transparent);
+}
+.ttab-count {
+  display: inline-block; margin-left: 6px;
+  padding: 1px 8px; border-radius: 999px;
+  background: color-mix(in srgb, var(--c-text-soft) 20%, transparent);
+  font-size: .78rem; font-weight: 700;
+  font-family: var(--font-num);
+}
+.ttab.active .ttab-count {
+  background: rgba(255,255,255,.25); color: #fff;
+}
+
+.topic-search {
+  margin-bottom: 14px;
+}
+.topic-search input {
+  width: 100%; padding: 10px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-border);
+  background: var(--c-card); color: var(--c-text);
+  font-family: inherit; font-size: .95rem;
+}
+.topic-search input:focus {
+  outline: 2px solid color-mix(in srgb, var(--c-primary) 40%, transparent);
+  outline-offset: 1px;
+}
+
+.ttab-panel { display: none; }
+.ttab-panel.active { display: block; }
+.ttab-empty {
+  text-align: center; padding: 30px 16px;
+  color: var(--c-text-soft); font-style: italic;
+}
+
+/* Accordion chương trong tab Theo SGK */
+.chapter-acc {
+  background: var(--c-card); border-radius: var(--radius-md);
+  margin-bottom: 10px; box-shadow: var(--shadow-sm);
+  border: 1px solid var(--c-border);
+}
+.chapter-acc summary {
+  cursor: pointer; padding: 14px 18px;
+  display: flex; align-items: center; justify-content: space-between;
+  font-weight: 700; user-select: none;
+  list-style: none;
+}
+.chapter-acc summary::-webkit-details-marker { display: none; }
+.chapter-acc summary::marker { content: ''; }
+.chapter-acc summary::after {
+  content: '▾'; color: var(--c-text-soft);
+  transition: transform .2s;
+  margin-left: 8px;
+}
+.chapter-acc[open] summary::after { transform: rotate(180deg); }
+.chapter-acc summary:hover { background: var(--c-surface-2); border-radius: var(--radius-md) var(--radius-md) 0 0; }
+.chapter-acc[open] summary { border-bottom: 1px solid var(--c-border); border-radius: var(--radius-md) var(--radius-md) 0 0; }
+.chapter-acc .ch-name { flex: 1; min-width: 0; }
+.chapter-acc .ch-count {
+  background: var(--c-surface-2);
+  padding: 2px 10px; border-radius: 999px;
+  font-family: var(--font-num); font-size: .78rem;
+  color: var(--c-text-soft); font-weight: 700;
+}
+.chapter-acc .topic-list { padding: 8px 14px 14px; }

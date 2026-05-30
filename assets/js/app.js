@@ -2158,48 +2158,134 @@ function topicItemHTML(ex) {
       ${done ? `<span class="ti-badge">★ ${done.bestScore}/${done.total}</span>` : ''}
     </a>`;
 }
+// Sub-mục ôn kỳ (UX 4E.2)
+const EXAM_TYPE_LABEL = {
+  midterm1: '📘 Giữa kỳ 1',
+  final1:   '📕 Cuối kỳ 1',
+  midterm2: '📗 Giữa kỳ 2',
+  final2:   '📙 Cuối kỳ 2',
+};
+const EXAM_TYPE_ORDER = ['midterm1', 'final1', 'midterm2', 'final2'];
+
 function renderTopicList(view, grade, subject) {
   const s = SUBJECTS[subject];
   if (!s) { navTo('/'); return; }
   const all = CATALOG.exercises.filter(e => e.grade === grade && e.subject === subject);
   const byDiff = (a, b) => (a.difficulty || 1) - (b.difficulty || 1);
-  const practice = all.filter(e => !e.timeLimit).sort(byDiff);
-  const exams = all.filter(e => e.timeLimit).sort(byDiff);
 
-  // Phần luyện tập: nhóm theo chương nếu đề có gắn chapter; nếu không thì danh sách phẳng (đã sắp dễ→khó)
-  let practiceHTML = '';
+  // Phân loại theo examType (fallback: practice nếu không có examType)
+  const practice = all.filter(e => (e.examType || 'practice') === 'practice').sort(byDiff);
+  const onKy = all.filter(e => ['midterm1', 'final1', 'midterm2', 'final2'].includes(e.examType));
+  const thiThu = all.filter(e => e.examType === 'mock').sort(byDiff);
+
+  // === Tab 1: Theo SGK — accordion theo chương ===
+  // Ưu tiên bookUnit.chapter (số); fallback chapter text. Trống → "Khác"
+  let theoSGKHTML = '';
   if (practice.length) {
-    // Chỉ nhóm theo chương khi có từ 2 đề trở lên (tránh tiêu đề thừa cho mục chỉ 1 đề)
-    if (practice.length >= 2 && practice.some(e => e.chapter)) {
-      const groups = {};
-      for (const e of practice) (groups[e.chapter || 'Khác'] = groups[e.chapter || 'Khác'] || []).push(e);
-      practiceHTML = Object.keys(groups)
-        .sort((a, b) => { const ra = chapterRank(a), rb = chapterRank(b); return (ra[0] - rb[0]) || (ra[1] - rb[1]) || a.localeCompare(b, 'vi'); })
-        .map(k => `<h3 class="topic-group">${k === 'Khác' ? '📦 Bài khác' : '📘 ' + escapeHtml(k)}</h3>
-          <div class="topic-list">${groups[k].map(topicItemHTML).join('')}</div>`).join('');
-    } else {
-      practiceHTML = `<div class="topic-list">${practice.map(topicItemHTML).join('')}</div>`;
+    const groups = {};
+    for (const e of practice) {
+      const ck = (e.bookUnit && e.bookUnit.chapter)
+        ? 'Chương ' + e.bookUnit.chapter + (e.chapter ? ': ' + e.chapter.replace(/^Ch[ưu][ơo]ng\s*\d+:?\s*/i, '') : '')
+        : (e.chapter || 'Khác');
+      (groups[ck] = groups[ck] || []).push(e);
     }
+    const sortedKeys = Object.keys(groups).sort((a, b) => {
+      const na = (a.match(/^Chương\s*(\d+)/) || [0, 999])[1];
+      const nb = (b.match(/^Chương\s*(\d+)/) || [0, 999])[1];
+      if (+na !== +nb) return +na - +nb;
+      return a.localeCompare(b, 'vi');
+    });
+    theoSGKHTML = sortedKeys.map((k, i) => {
+      const items = groups[k].sort(byDiff);
+      return `<details class="chapter-acc" ${i === 0 ? 'open' : ''}>
+        <summary><span class="ch-name">${k === 'Khác' ? '📦 Bài khác' : '📘 ' + escapeHtml(k)}</span> <span class="ch-count">${items.length}</span></summary>
+        <div class="topic-list">${items.map(topicItemHTML).join('')}</div>
+      </details>`;
+    }).join('');
+  } else {
+    theoSGKHTML = `<p class="ttab-empty">Chưa có bài luyện tập theo chương cho môn này.</p>`;
   }
 
-  const sections = [];
-  if (practice.length) {
-    sections.push((exams.length ? '<h2 class="topic-section">📚 Luyện tập theo chủ đề</h2>' : '') + practiceHTML);
+  // === Tab 2: Ôn kỳ — 4 mục con (chỉ hiện mục có đề) ===
+  let onKyHTML = '';
+  if (onKy.length) {
+    onKyHTML = EXAM_TYPE_ORDER.map(t => {
+      const items = onKy.filter(e => e.examType === t).sort(byDiff);
+      if (!items.length) return '';
+      return `<h3 class="topic-group">${EXAM_TYPE_LABEL[t]}</h3>
+        <div class="topic-list">${items.map(topicItemHTML).join('')}</div>`;
+    }).filter(Boolean).join('');
+  } else {
+    onKyHTML = `<p class="ttab-empty">Chưa có đề ôn tập định kỳ cho môn này.</p>`;
   }
-  if (exams.length) {
-    sections.push(`<h2 class="topic-section">📝 Đề thi thử <small>(bấm giờ như thi thật)</small></h2>
-      <div class="topic-list">${exams.map(topicItemHTML).join('')}</div>`);
-  }
+
+  // === Tab 3: Thi thử ===
+  const thiThuHTML = thiThu.length
+    ? `<div class="topic-list">${thiThu.map(topicItemHTML).join('')}</div>`
+    : `<p class="ttab-empty">Chưa có đề thi thử cho môn này.</p>`;
+
+  // Tab mặc định từ hash hoặc fallback theo có dữ liệu hay không
+  const allowed = ['theo-sgk', 'on-ky', 'thi-thu'];
+  let active = (location.hash || '').replace(/^#/, '');
+  if (!allowed.includes(active)) active = 'theo-sgk';
 
   view.innerHTML = `
     <a href="/lop${grade}" class="back-btn">← Quay lại môn lớp ${grade}</a>
-    <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
+    <div class="hero" style="padding:20px 10px 26px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn loại bài tập bạn muốn làm</p></div>
     ${currentPageSeo ? `<p class="seo-desc">${currentPageSeo.d}</p>` : ''}
     ${all.length === 0
       ? emptyStateWithIll('empty-no-exercise', 'Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
-      : sections.join('')}
+      : `<div class="topic-tabs" role="tablist">
+          <button class="ttab ${active==='theo-sgk'?'active':''}" data-tab="theo-sgk" role="tab">📚 Theo SGK <span class="ttab-count">${practice.length}</span></button>
+          <button class="ttab ${active==='on-ky'?'active':''}" data-tab="on-ky" role="tab">📝 Ôn kỳ <span class="ttab-count">${onKy.length}</span></button>
+          <button class="ttab ${active==='thi-thu'?'active':''}" data-tab="thi-thu" role="tab">🎯 Thi thử <span class="ttab-count">${thiThu.length}</span></button>
+        </div>
+        <div class="topic-search">
+          <input type="search" id="topic-search-input" placeholder="🔎 Tìm bài trong tab đang xem..." autocomplete="off">
+        </div>
+        <div class="ttab-panel ${active==='theo-sgk'?'active':''}" data-tab="theo-sgk">${theoSGKHTML}</div>
+        <div class="ttab-panel ${active==='on-ky'?'active':''}" data-tab="on-ky">${onKyHTML}</div>
+        <div class="ttab-panel ${active==='thi-thu'?'active':''}" data-tab="thi-thu">${thiThuHTML}</div>`}
   `;
-  if (all.length === 0) activateIllustrations(view);
+  if (all.length === 0) { activateIllustrations(view); return; }
+
+  // Wire tab click → đổi hash + toggle .active
+  view.querySelectorAll('.ttab').forEach(btn => {
+    btn.onclick = () => {
+      const t = btn.dataset.tab;
+      history.replaceState(null, '', location.pathname + '#' + t);
+      view.querySelectorAll('.ttab').forEach(b => b.classList.toggle('active', b.dataset.tab === t));
+      view.querySelectorAll('.ttab-panel').forEach(p => p.classList.toggle('active', p.dataset.tab === t));
+      const inp = view.querySelector('#topic-search-input');
+      if (inp) { inp.value = ''; filterCurrentPanel(view, ''); }
+    };
+  });
+
+  // Search realtime trong panel đang active
+  const inp = view.querySelector('#topic-search-input');
+  if (inp) inp.oninput = () => filterCurrentPanel(view, inp.value);
+}
+
+function filterCurrentPanel(view, q) {
+  const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const nq = norm(q.trim());
+  const panel = view.querySelector('.ttab-panel.active');
+  if (!panel) return;
+  const items = panel.querySelectorAll('.topic-item');
+  items.forEach(it => {
+    const title = norm(it.querySelector('.ti-title') ? it.querySelector('.ti-title').textContent : '');
+    const meta  = norm(it.querySelector('.ti-meta')  ? it.querySelector('.ti-meta').textContent  : '');
+    const match = !nq || title.includes(nq) || meta.includes(nq);
+    it.style.display = match ? '' : 'none';
+  });
+  // Ẩn group/chapter rỗng
+  panel.querySelectorAll('.topic-group, .chapter-acc').forEach(g => {
+    const visibleItems = g.querySelectorAll('.topic-item:not([style*="none"])').length;
+    if (g.tagName === 'DETAILS') {
+      g.style.display = visibleItems ? '' : 'none';
+      if (nq && visibleItems) g.setAttribute('open', '');
+    } else g.style.display = visibleItems ? '' : 'none';
+  });
 }
 
 function renderAchievements(view) {
