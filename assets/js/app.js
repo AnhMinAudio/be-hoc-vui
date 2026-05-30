@@ -136,6 +136,7 @@ async function route() {
   if (parts[0] === 'chinh-sach') return renderPolicy(view);
   if (parts[0] === 'faq') return renderFAQ(view);
   if (parts[0] === 'huong-dan-cai-dat') return renderHelpSettings(view);
+  if (parts[0] === 'huong-dan') return renderGuide(view);
   if (parts[0] === 'tien-trinh') return renderProgress(view);
   if (parts[0] === 'tai-khoan') return renderAuth(view);
   if (parts[0] === 'phu-huynh') return renderParent(view);
@@ -684,6 +685,7 @@ function renderAuth(view) {
             <label class="acct-toggle"><input type="checkbox" id="opt-vibrate"> 📳 Rung khi sai</label>
           </div>
           <p class="about-note" style="margin-top:10px"><a href="/huong-dan-cai-dat">📖 Hướng dẫn chi tiết: cách tắt trên Windows, macOS, Android, iPhone →</a></p>
+          <p class="about-note" style="margin-top:6px"><a href="/huong-dan">📘 Tìm hiểu thêm về các tính năng (pet, rank, sticker, streak, ôn câu sai...) →</a></p>
         </div>
 
         ${u.grade >= 6 ? `
@@ -1056,6 +1058,8 @@ function renderWorldHome(view, world) {
     ${deleted ? '<div class="acct-notice">⚠️ Tài khoản đã bị xóa do 15 ngày không làm bài. Hãy <a href="/tai-khoan">đăng ký lại</a> để tiếp tục lưu tiến trình.</div>' : ''}
     <section class="hero-pro">
       ${u ? `<div class="hero-greet">👋 Chào <b>${escapeHtml(u.displayName)}</b> · Lớp ${u.grade}</div>` : ''}
+      ${u && Object.keys(Progress.load().completed || {}).length === 0
+        ? `<a href="/huong-dan" class="hero-onboard">📘 Lần đầu dùng app? Xem hướng dẫn các tính năng → </a>` : ''}
       ${world === 'tieu-hoc' && u
         ? `<div class="hero-pet" id="hero-pet">${mascotSVG()}</div>`
         : mascotSVG()}
@@ -1547,6 +1551,301 @@ function renderFAQ(view) {
     </article>
   `;
 }
+
+// ===== Hướng dẫn dùng app (tab-per-cấp) =====
+// Auto-detect cấp user, fallback Tiểu học cho anonymous. Switch tab qua ?stage=...
+function renderGuide(view) {
+  const stageQS = new URLSearchParams(location.search).get('stage');
+  const stageOrder = ['mam-non', 'tieu-hoc', 'thcs', 'thpt'];
+  const stageLabel = { 'mam-non': 'Mầm non (3-5t)', 'tieu-hoc': 'Tiểu học (1-5)', thcs: 'THCS (6-9)', thpt: 'THPT (10-12)' };
+  let active = stageQS && stageOrder.includes(stageQS) ? stageQS
+    : (Auth.isLoggedIn() ? homeWorld() : 'tieu-hoc');
+  applyStageTheme(active);
+  const tabs = stageOrder.map(s =>
+    `<a class="guide-tab ${s === active ? 'active' : ''}" href="/huong-dan?stage=${s}">${stageLabel[s]}</a>`).join('');
+
+  const content = GUIDE_CONTENT[active] || '';
+  view.innerHTML = `
+    <a href="/" class="back-btn">← Về trang chủ</a>
+    <div class="guide-page">
+      <header class="guide-hero">
+        <h1>📘 Hướng dẫn dùng Bé Học Vui</h1>
+        <p>Mỗi cấp học có tính năng riêng — chọn tab đúng cấp của bạn để xem hướng dẫn phù hợp.</p>
+      </header>
+      <nav class="guide-tabs" role="tablist">${tabs}</nav>
+      <div class="guide-content">${content}</div>
+      <p class="guide-footer-note">📖 Hướng dẫn cài đặt âm thanh / rung trên máy → <a href="/huong-dan-cai-dat">xem riêng tại đây</a>.</p>
+    </div>
+  `;
+}
+
+// Nội dung 4 tab — tách object để dễ maintain
+const GUIDE_CONTENT = {
+  'mam-non': `
+    <section class="guide-sec">
+      <h2>🚀 Bắt đầu trong 30 giây</h2>
+      <ol class="guide-steps">
+        <li><b>Bố mẹ giúp bé chọn cấp Mầm non</b> → chọn tuổi (3, 4, 5) → chọn chủ đề (Màu sắc, Con vật, Đếm số...).</li>
+        <li><b>Bé chạm vào tranh</b> để chọn đáp án — không cần đọc chữ.</li>
+        <li><b>Nghe câu hỏi đọc to</b>: chạm vào loa 🔊 để nghe lại.</li>
+      </ol>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🎁 Phần thưởng</h2>
+      <p>Mỗi câu đúng có âm thanh vui + biểu cảm khen. Cuối bài có vòng <b>sao vàng ⭐</b> trên màn kết quả.</p>
+      <p class="guide-note">Mầm non chưa có hệ thống pet / rank — chỉ chơi vui là chính.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>⚙️ Cài đặt (cho phụ huynh)</h2>
+      <ul class="guide-list">
+        <li><b>🔊 Âm thanh:</b> nên BẬT — bé học qua nghe là chính.</li>
+        <li><b>📱 Rung:</b> không cần (Mầm non không dùng).</li>
+        <li><b>Reduce motion:</b> nếu bé nhạy với animation, bật ở hệ điều hành (xem <a href="/huong-dan-cai-dat">hướng dẫn cài máy</a>).</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>💡 Mẹo cho phụ huynh</h2>
+      <ul class="guide-list">
+        <li>Mỗi lần chơi 10-15 phút là đủ với bé 3-5 tuổi.</li>
+        <li>Ngồi cùng bé lần đầu để hướng dẫn chạm; sau quen bé tự chơi được.</li>
+        <li>Khen ngợi khi bé làm đúng — không trách khi sai. App đã có biểu cảm khen rồi.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>❓ Câu hỏi thường gặp</h2>
+      <details><summary>Bé chưa biết đọc có chơi được không?</summary><p>Được — tất cả câu hỏi đều có tranh + đọc to bằng giọng tiếng Việt.</p></details>
+      <details><summary>Cần đăng nhập không?</summary><p>Không bắt buộc cho Mầm non. Nhưng nếu muốn lưu sao thì cần đăng nhập.</p></details>
+    </section>
+  `,
+
+  'tieu-hoc': `
+    <section class="guide-sec">
+      <h2>🚀 Bắt đầu trong 30 giây</h2>
+      <ol class="guide-steps">
+        <li><b>Đăng nhập</b> bằng biệt danh + mật khẩu → app nhớ tiến trình của bé.</li>
+        <li>Trang chủ thấy <b>"Đề hôm nay"</b> (3 môn Toán + Tiếng Việt + Tiếng Anh) → làm từng đề.</li>
+        <li>Xong → xem điểm + sao kiếm được. Mai làm tiếp để giữ <b>streak 🔥</b>.</li>
+      </ol>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🐉 Pet "lớn lên" theo sao — đặc biệt cho tiểu học</h2>
+      <p>Mỗi học sinh tiểu học có 1 con <b>rồng nhỏ</b> riêng. Càng làm bài kiếm sao, pet càng tiến hóa qua 4 giai đoạn:</p>
+      <div class="pet-tier-table">
+        <div class="ptt-row"><span class="ptt-icon">🥚</span><div><b>Trứng</b><span>0-49 sao</span></div><span class="ptt-tip">~3-5 đề đầu</span></div>
+        <div class="ptt-row"><span class="ptt-icon">🐣</span><div><b>Bé con</b><span>50-199 sao</span></div><span class="ptt-tip">~1-2 tuần</span></div>
+        <div class="ptt-row"><span class="ptt-icon">🐱</span><div><b>Trẻ con (có nơ)</b><span>200-699 sao</span></div><span class="ptt-tip">~1-2 tháng</span></div>
+        <div class="ptt-row"><span class="ptt-icon">🦊</span><div><b>Trưởng thành (đeo kính)</b><span>700+ sao</span></div><span class="ptt-tip">~3 tháng</span></div>
+      </div>
+      <p class="guide-note">💎 <b>Cách kiếm sao:</b> mỗi câu đúng = 1 sao. Khi pet lên tier → có cảnh tiến hóa hoành tráng toàn màn hình!</p>
+      <p>Xem pet ở: trang chủ (góc trên), <a href="/thanh-tich">Thành tích</a>, và màn kết quả sau mỗi bài.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🎁 Sticker — sưu tập 14 cái</h2>
+      <table class="guide-table">
+        <thead><tr><th>Loại</th><th>Số</th><th>Cách mở khóa</th></tr></thead>
+        <tbody>
+          <tr><td>🌟 Common</td><td>5 sticker</td><td>Hoàn thành đề mới lần đầu</td></tr>
+          <tr><td>💎 Rare</td><td>5 sticker</td><td>Đạt 100% lần đầu của 1 đề</td></tr>
+          <tr><td>👑 Legendary</td><td>4 sticker</td><td>Streak chạm 7 / 14 / 30 / 100 ngày</td></tr>
+        </tbody>
+      </table>
+      <p>Xem bộ sưu tập tại <a href="/thanh-tich">Thành tích</a>.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🔥 Streak — chuỗi ngày học liên tiếp</h2>
+      <ul class="guide-list">
+        <li><b>Cách giữ:</b> làm ít nhất 1 đề/ngày (bất kỳ đề nào — Đề hôm nay, luyện tập, ôn lại đều tính).</li>
+        <li><b>Reset:</b> bỏ 1 ngày là về 0 — cố gắng đừng để mất nhé!</li>
+        <li><b>Phần thưởng đặc biệt:</b> streak 7/14/30/100 ngày → tự nhận 1 sticker legendary.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>⚙️ Cài đặt</h2>
+      <ul class="guide-list">
+        <li><b>🔊 Âm thanh đúng/sai:</b> bật ở <a href="/tai-khoan">Tài khoản</a>. Nên bật vì có nhạc khen vui.</li>
+        <li><b>📱 Rung khi sai:</b> chỉ dùng được trên điện thoại Android.</li>
+        <li><b>🎭 Đổi nhân vật:</b> bấm "Đổi avatar" ở <a href="/thanh-tich">Thành tích</a> — chọn emoji yêu thích.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>❓ Câu hỏi thường gặp</h2>
+      <details><summary>Mất pass thì sao?</summary><p>Hiện chưa có chức năng khôi phục — phải đăng ký lại với biệt danh khác.</p></details>
+      <details><summary>Pet của em đâu rồi?</summary><p>Cần đăng nhập + làm ít nhất 1 đề. Pet sẽ hiện ở trang chủ + Thành tích.</p></details>
+      <details><summary>Có thể làm đề khác lớp không?</summary><p>Được, nhưng đề khác lớp KHÔNG tính sao + sticker (chỉ để ôn).</p></details>
+    </section>
+  `,
+
+  thcs: `
+    <section class="guide-sec">
+      <h2>🚀 Bắt đầu trong 30 giây</h2>
+      <ol class="guide-steps">
+        <li>Đăng nhập → trang chủ hiện "Đề hôm nay" 3 môn (Toán, Ngữ văn, Tiếng Anh).</li>
+        <li>Chọn <b>Luyện tập</b> (xem đúng/sai từng câu) hoặc <b>Làm bài thi</b> (chấm cuối).</li>
+        <li>Đề thi thử có <b>bấm giờ</b> như phòng thi thật.</li>
+      </ol>
+    </section>
+
+    <section class="guide-sec">
+      <h2>⭐ Sao &amp; Huy hiệu</h2>
+      <ul class="guide-list">
+        <li><b>Sao:</b> mỗi câu đúng = 1 sao. Tích lũy vào tổng sao của tài khoản.</li>
+        <li><b>Huy hiệu:</b> mở khóa theo số đề hoàn thành / điểm tuyệt đối. Xem ở <a href="/thanh-tich">Thành tích</a>.</li>
+        <li><b>Sticker:</b> 14 sticker theo 3 tier (xem bộ sưu tập ở Thành tích) — cùng quy tắc như tiểu học.</li>
+      </ul>
+      <p class="guide-note">THCS chưa có rank Đồng/Bạc/Vàng (đó là tính năng THPT). Chỉ tổng sao + huy hiệu.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🏆 Bảng xếp hạng</h2>
+      <p>Vào <a href="/bang-xep-hang">Bảng xếp hạng</a> để so sao / streak với bạn cùng lớp (toàn hệ thống). Cập nhật theo tuần.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🔥 Streak — chuỗi ngày học</h2>
+      <ul class="guide-list">
+        <li>Làm ít nhất 1 đề/ngày để giữ streak.</li>
+        <li>Streak 7/14/30/100 ngày → sticker legendary đặc biệt.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>📚 Đề thi thử</h2>
+      <p>Đề thi thử (có icon 📝 + bấm giờ) mô phỏng cấu trúc đề thật. Nên làm trước kỳ kiểm tra 1-2 tuần để quen áp lực thời gian.</p>
+      <p>Đề thi thử BẮT BUỘC đăng nhập + làm đúng lớp mới tính thành tích.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>⚙️ Cài đặt</h2>
+      <ul class="guide-list">
+        <li><b>🔊 Âm thanh / 📱 Rung:</b> bật/tắt ở <a href="/tai-khoan">Tài khoản</a>.</li>
+        <li><b>👨‍👩‍👧 Theo dõi của phụ huynh:</b> đặt mã PIN 6 chữ số → bố mẹ vào <code>/phu-huynh</code> xem được tiến trình con (CHỈ XEM).</li>
+        <li><b>🎯 Ngày thi:</b> đặt trong Tài khoản → trang chủ thấy đếm ngược đến ngày thi (chuyển cấp / cuối kỳ...).</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>💡 Mẹo học hiệu quả</h2>
+      <ul class="guide-list">
+        <li>Mỗi ngày làm 1-2 đề "Đề hôm nay" → giữ streak + ôn nhẹ.</li>
+        <li>2-3 tuần trước kỳ kiểm tra → tăng cường đề thi thử để quen áp lực.</li>
+        <li>Sai câu nào → đọc kỹ lời giải ở phần "Xem lại" sau bài.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>❓ Câu hỏi thường gặp</h2>
+      <details><summary>Đề có công thức Toán không hiện đúng?</summary><p>App dùng KaTeX để vẽ công thức. Nếu công thức bị lỗi hiển thị, tải lại trang.</p></details>
+      <details><summary>Tài khoản có bị xoá không?</summary><p>Có — nếu 15 ngày liên tục không làm bài. Cứ học đều là không sao.</p></details>
+      <details><summary>Làm bài có cộng sao khi không đăng nhập?</summary><p>Không — phải đăng nhập + làm đề đúng lớp mới được tính sao.</p></details>
+      <details><summary>Có chế độ vẽ nháp không?</summary><p>Có — nút FAB ✏️ ở góc dưới trong đề Toán/Lý (THCS có Toán).</p></details>
+    </section>
+  `,
+
+  thpt: `
+    <section class="guide-sec">
+      <h2>🚀 Bắt đầu trong 30 giây</h2>
+      <ol class="guide-steps">
+        <li>Đăng nhập → trang chủ hiện "Đề hôm nay" 9 môn (Toán, Văn, Anh + 6 KHTN/KHXH).</li>
+        <li>Chọn <b>Luyện tập</b> (đúng/sai ngay) hoặc <b>Làm bài thi</b> (chấm cuối). Đề thi thử có bấm giờ.</li>
+        <li>Vào <a href="/tien-trinh">Tiến trình</a> để xem dashboard cá nhân: streak, đề gợi ý, chuyên đề yếu.</li>
+      </ol>
+    </section>
+
+    <section class="guide-sec">
+      <h2>⭐ Sao &amp; Rank — 5 cấp</h2>
+      <table class="guide-table">
+        <thead><tr><th>Rank</th><th>Sao cần</th><th>Ước tính số đề (15-20 sao/đề)</th></tr></thead>
+        <tbody>
+          <tr><td>🥉 Đồng</td><td>0 - 99</td><td>~5-7 đề đầu</td></tr>
+          <tr><td>🥈 Bạc</td><td>100 - 499</td><td>~25-30 đề</td></tr>
+          <tr><td>🥇 Vàng</td><td>500 - 1.999</td><td>~100-130 đề</td></tr>
+          <tr><td>💎 Kim Cương</td><td>2.000 - 4.999</td><td>~250+ đề</td></tr>
+          <tr><td>👑 Bậc thầy</td><td>5.000+</td><td>~600+ đề</td></tr>
+        </tbody>
+      </table>
+      <p class="guide-note">Rank hiện rõ trên <a href="/tien-trinh">Dashboard</a> (cột trái) bằng ★ tiến triển.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>📊 Dashboard 2 cột (chỉ THPT)</h2>
+      <p>Mở <a href="/tien-trinh">Tiến trình</a>:</p>
+      <ul class="guide-list">
+        <li><b>Cột trái:</b> avatar + rank + 3 stat (tổng sao / đã làm / streak) + lịch tháng + cài đặt nhanh.</li>
+        <li><b>Cột phải:</b> "Hôm nay cần làm" (gợi ý tự động), tiến độ 9 môn, đề gợi ý cho bạn.</li>
+      </ul>
+      <p>Mobile: tự động xếp 1 cột.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🔁 Ôn câu sai — tự động ghi nhớ</h2>
+      <p>Mỗi câu bạn trả lời SAI → tự động vào "hàng đợi câu sai". Bạn không cần làm gì cả.</p>
+      <ul class="guide-list">
+        <li>Vào <a href="/on-tap-cau-sai">/on-tap-cau-sai</a> hoặc bấm chip "🔁 Ôn N câu sai" ở trang chủ.</li>
+        <li>10 câu sai NHIỀU LẦN nhất + LÂU nhất sẽ được lấy ra.</li>
+        <li>Làm đúng → tự gỡ khỏi queue.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>💡 Luyện chuyên đề yếu</h2>
+      <p>App tự phát hiện chuyên đề bạn yếu nhất (≥10 câu mẫu, &lt;70% đúng) → bấm chip "💡 Luyện chuyên đề yếu" hoặc vào <a href="/luyen-chuyen-de">/luyen-chuyen-de</a>.</p>
+      <p>Sẽ dựng 10 câu ad-hoc lấy từ 3-5 đề CÙNG chuyên đề (ưu tiên cùng lớp).</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🎯 Đếm ngược ngày thi</h2>
+      <p>Vào <a href="/tai-khoan">Tài khoản</a> → "Ngày thi" → nhập ngày THPT QG / ĐGNL / kiểm tra quan trọng.</p>
+      <p>Trang chủ + dashboard sẽ hiện chip "🎯 Thi còn N ngày". 7 ngày cuối: chip nhấp nháy đỏ.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>🎁 Sticker (14 cái) + Streak</h2>
+      <ul class="guide-list">
+        <li>Sticker: common (5) cho lần đầu hoàn thành đề; rare (5) cho 100% lần đầu; legendary (4) cho streak 7/14/30/100.</li>
+        <li>Xem bộ sưu tập + huy hiệu ở <a href="/thanh-tich">Thành tích</a>.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>⚙️ Cài đặt</h2>
+      <ul class="guide-list">
+        <li><b>🔊 Âm thanh / 📱 Rung:</b> ở <a href="/tai-khoan">Tài khoản</a>. Nhiều bạn THPT tắt cả 2 để tập trung.</li>
+        <li><b>🎯 Ngày thi:</b> tự đặt + xoá được. Server lưu, đồng bộ đa thiết bị.</li>
+        <li><b>👨‍👩‍👧 Theo dõi của phụ huynh:</b> mã PIN 6 chữ số → bố mẹ truy cập <code>/phu-huynh</code> bằng PIN + biệt danh, CHỈ XEM, không sửa được gì.</li>
+        <li><b>Chế độ tối:</b> theo dõi cài đặt hệ điều hành. Bấm 🌙 trên header để override (nếu có).</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>💡 Mẹo học hiệu quả (Spaced Repetition)</h2>
+      <ul class="guide-list">
+        <li>Mỗi ngày dành 20-30 phút: Đề hôm nay + Ôn câu sai → giữ streak + spaced repetition tự nhiên.</li>
+        <li>Cuối tuần: Luyện chuyên đề yếu (10 câu) + 1 đề thi thử full → đánh giá tiến độ.</li>
+        <li>2-3 tháng trước thi: ưu tiên Đề thi thử để quen áp lực thời gian.</li>
+        <li>Dashboard có chỉ số "giây/câu TB" → so với chính mình theo thời gian.</li>
+      </ul>
+    </section>
+
+    <section class="guide-sec">
+      <h2>❓ Câu hỏi thường gặp</h2>
+      <details><summary>Sao tài khoản bị mất sau 15 ngày?</summary><p>Để giải phóng KV storage. Cứ làm bài đều là không bị xoá. Streak giữ luôn.</p></details>
+      <details><summary>Có thể đăng nhập trên nhiều thiết bị không?</summary><p>Được — tiến trình đồng bộ qua server. Setting "Ngày thi" thay đổi ở máy nào sẽ ghi đè máy khác (last-write-wins).</p></details>
+      <details><summary>"Đề tiếp theo" trên màn kết quả lấy ở đâu?</summary><p>Đề kế tiếp cùng môn cùng lớp, sắp xếp theo id alphabet.</p></details>
+      <details><summary>Social proof "N người đã làm" sao chưa thấy?</summary><p>Chỉ hiện khi ≥30 người đã hoàn thành đề đó. Đợi thêm bạn bè làm.</p></details>
+      <details><summary>Chế độ vẽ nháp đâu rồi?</summary><p>FAB ✏️ góc dưới trong đề Toán/Lý THPT.</p></details>
+      <details><summary>Đề có công thức Toán không hiện?</summary><p>App dùng KaTeX. Reload trang nếu công thức lỗi. Nếu lặp lại, báo cho admin.</p></details>
+    </section>
+  `,
+};
 
 // ===== Hướng dẫn cài đặt âm thanh, rung, hiệu ứng =====
 function renderHelpSettings(view) {

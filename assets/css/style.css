@@ -2526,3 +2526,123 @@ body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circl
   .cb-overlay.show .cb-perfect, .cb-overlay.show .cb-streak-num, .cb-overlay.show .cb-stk,
   .cb-overlay.show .cb-sub, .cb-overlay.show .cb-streak-txt, .cb-overlay.show .cb-stk-name, .cb-overlay.show .cb-stk-tier, .cb-overlay.show .cb-pet { animation: cb-fade .4s ease both !important; transform: none !important; opacity: 1; }
 }
+
+/* === Trang hướng dẫn /huong-dan (UX 4D) === */
+.guide-page { max-width: 880px; margin: 0 auto; padding: 6px 4px 32px; }
+.guide-hero {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-primary-dark));
+  color: #fff; padding: 22px 22px 18px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 16px; text-align: center;
+}
+.guide-hero h1 { font-family: var(--font-display); font-size: 1.6rem; margin: 0 0 6px; }
+.guide-hero p { margin: 0; opacity: .92; font-size: .95rem; }
+.guide-tabs {
+  display: flex; gap: 6px; padding: 4px;
+  background: var(--c-card); border-radius: var(--radius-md);
+  margin-bottom: 16px; box-shadow: var(--shadow-sm);
+  overflow-x: auto; scrollbar-width: thin;
+}
+.guide-tab {
+  flex: 1 1 auto; text-align: center; padding: 10px 12px;
+  border-radius: var(--radius-sm); font-weight: 700; font-size: .9rem;
+  color: var(--c-text-soft); text-decoration: none;
+  white-space: nowrap; transition: background .15s;
+}
+.guide-tab:hover { background: var(--c-surface-2); }
+.guide-tab.active {
+  background: var(--c-primary); color: #fff;
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--c-primary) 30%, transparent);
+}
+.guide-content { display: flex; flex-direction: column; gap: 14px; }
+.guide-sec {
+  background: var(--c-card); border-radius: var(--radius-md);
+  padding: 18px 20px; box-shadow: var(--shadow-sm);
+}
+.guide-sec h2 {
+  font-family: var(--font-display); font-size: 1.15rem;
+  margin: 0 0 10px; color: var(--c-text);
+}
+.guide-sec p { margin: 8px 0; line-height: 1.55; }
+.guide-sec a { color: var(--c-primary-dark); font-weight: 600; }
+.guide-steps { margin: 8px 0; padding-left: 22px; line-height: 1.7; }
+.guide-steps li { margin-bottom: 4px; }
+.guide-list { margin: 8px 0; padding-left: 22px; line-height: 1.7; }
+.guide-list li { margin-bottom: 4px; }
+.guide-note {
+  background: color-mix(in srgb, var(--c-primary) 8%, var(--c-card));
+  border-left: 3px solid var(--c-primary);
+  padding: 8px 12px; border-radius: 6px; font-size: .92rem;
+  margin: 10px 0;
+}
+.guide-table {
+  width: 100%; border-collapse: collapse; margin: 10px 0;
+  font-size: .92rem;
+}
+.guide-table th, .guide-table td {
+  padding: 9px 12px; text-align: left;
+  border-bottom: 1px solid var(--c-border);
+}
+.guide-table th {
+  background: var(--c-surface-2); font-weight: 800;
+  color: var(--c-text);
+}
+.guide-table tbody tr:hover { background: var(--c-bg-tint); }
+.pet-tier-table { display: flex; flex-direction: column; gap: 8px; margin: 12px 0; }
+.ptt-row {
+  display: grid; grid-template-columns: 48px 1fr auto;
+  align-items: center; gap: 12px;
+  padding: 10px 14px; border-radius: 10px;
+  background: var(--c-surface-2);
+}
+.ptt-icon { font-size: 2rem; line-height: 1; text-align: center; }
+.ptt-row > div { display: flex; flex-direction: column; }
+.ptt-row > div b { font-weight: 800; color: var(--c-text); }
+.ptt-row > div span { font-size: .82rem; color: var(--c-text-soft); font-family: var(--font-num); }
+.ptt-tip { font-size: .78rem; color: var(--c-text-soft); font-style: italic; }
+.guide-sec details {
+  margin: 6px 0; padding: 8px 12px;
+  background: var(--c-surface-2); border-radius: 8px;
+}
+.guide-sec details summary {
+  font-weight: 700; cursor: pointer; padding: 4px 0;
+  color: var(--c-text);
+}
+.guide-sec details[open] summary { margin-bottom: 6px; }
+.guide-sec details p { margin: 4px 0; font-size: .92rem; }
+.guide-footer-note {
+  text-align: center; margin: 18px 0 0;
+  color: var(--c-text-soft); font-size: .9rem;
+}
+
+/* Header help chip "?" */
+.help-chip {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--c-surface-2); color: var(--c-text-soft);
+  text-decoration: none; font-weight: 800; font-size: 1rem;
+  border: 1px solid var(--c-border);
+  transition: background .15s, color .15s;
+}
+.help-chip:hover { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+
+/* Banner onboarding ở hero trang chủ (user mới) */
+.hero-onboard {
+  display: inline-block;
+  background: color-mix(in srgb, #FFD54F 20%, var(--c-card));
+  color: #E65100; font-weight: 700;
+  padding: 8px 16px; border-radius: 999px;
+  text-decoration: none; font-size: .9rem;
+  margin: 8px 0;
+  border: 1px dashed #FFA726;
+  transition: transform .15s;
+}
+.hero-onboard:hover { transform: translateY(-1px); }
+
+@media (max-width: 480px) {
+  .guide-tab { font-size: .82rem; padding: 9px 8px; }
+  .guide-table { font-size: .85rem; }
+  .guide-table th, .guide-table td { padding: 7px 8px; }
+  .ptt-row { grid-template-columns: 38px 1fr; }
+  .ptt-tip { display: none; }
+}
