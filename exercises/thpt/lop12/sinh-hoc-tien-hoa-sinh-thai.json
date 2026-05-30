@@ -16,6 +16,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/sinh-hoc/cay-tien-hoa.svg",
+      "imageAlt": "Cây tiến hóa đơn giản: gốc chung phân nhánh ra cá, lưỡng cư, bò sát, chim và thú — minh họa tiến hóa từ tổ tiên chung",
       "question": "Cánh chim, cánh dơi và tay người là ví dụ về cơ quan:",
       "options": [
         "Tương đồng (cùng nguồn gốc)",

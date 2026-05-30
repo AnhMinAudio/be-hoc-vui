@@ -159,6 +159,8 @@
     {
       "type": "multiple-choice",
       "level": "VD",
+      "image": "/assets/img/diagrams/toan/hinh-lap-phuong.svg",
+      "imageAlt": "Hình lập phương 3D ABCD.A'B'C'D' với 8 đỉnh, các cạnh khuất vẽ nét đứt; đường chéo AC' nối 2 đỉnh đối diện",
       "question": "Hình lập phương có cạnh bằng $a$. Độ dài đường chéo của hình lập phương (vd $AC'$) bằng:",
       "options": [
         "$a\\sqrt{3}$",

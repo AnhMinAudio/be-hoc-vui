@@ -29,6 +29,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/sinh-hoc/cau-truc-dna.svg",
+      "imageAlt": "Cấu trúc xoắn kép DNA: 2 mạch xoắn nối nhau bằng liên kết hydro giữa các base — A pair T, G pair C",
       "question": "Phân tử RNA khác với phân tử DNA ở chỗ trong thành phần đơn phân của RNA có chứa:",
       "options": [
         "Đường ribose và base uracil (U) thay cho thymine (T)",
@@ -107,6 +109,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/sinh-hoc/phep-lai-mendel.svg",
+      "imageAlt": "Bảng Punnett phép lai Aa × Aa: 4 ô tổ hợp kiểu gen AA, Aa, Aa, aa — tỉ lệ kiểu hình trội:lặn = 3:1",
       "question": "Cho lai hai cây đậu Hà Lan thuần chủng: hoa đỏ (AA) với hoa trắng (aa), biết alen A trội hoàn toàn. Kiểu hình ở đời $F_1$ là:",
       "options": [
         "100% hoa đỏ (kiểu gen Aa)",

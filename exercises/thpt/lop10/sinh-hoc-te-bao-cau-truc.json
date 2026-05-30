@@ -29,6 +29,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/sinh-hoc/te-bao-nhan-so.svg",
+      "imageAlt": "Tế bào nhân sơ (vi khuẩn): thành tế bào, màng, vùng nhân chứa DNA dạng vòng, ribosome — KHÔNG có bào quan màng",
       "question": "Tế bào NHÂN THỰC khác tế bào nhân sơ ở chỗ:",
       "options": [
         "Có nhân hoàn chỉnh được bao bọc bởi màng nhân và có nhiều bào quan có màng",

@@ -16,6 +16,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/vat-li/luc-coulomb.svg",
+      "imageAlt": "Hai điện tích điểm q1 và q2 đặt cách nhau khoảng r, tương tác bằng lực Coulomb (hút hoặc đẩy)",
       "question": "Định luật Coulomb cho lực tương tác giữa hai điện tích điểm $q_1, q_2$ đặt cách nhau khoảng $r$ trong chân không là:",
       "options": [
         "$F = k\\dfrac{|q_1 q_2|}{r^2}$",
@@ -94,6 +96,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/vat-li/mach-dien-don-gian.svg",
+      "imageAlt": "Mạch điện đơn giản gồm pin (hiệu điện thế U), điện trở R, công tắc và dây dẫn",
       "question": "Định luật Ohm cho đoạn mạch chỉ chứa điện trở $R$:",
       "options": [
         "$I = \\dfrac{U}{R}$",

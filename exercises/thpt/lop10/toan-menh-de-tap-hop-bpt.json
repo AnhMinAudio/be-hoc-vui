@@ -120,6 +120,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/toan/parabol.svg",
+      "imageAlt": "Đồ thị parabol y = x² (bề lõm hướng lên) trên hệ trục Oxy, đỉnh tại gốc tọa độ",
       "question": "Đỉnh của parabol $y = x^2 - 4x + 3$ có tọa độ là:",
       "options": [
         "$(2; -1)$",

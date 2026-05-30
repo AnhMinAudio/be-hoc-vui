@@ -42,6 +42,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/hoa-hoc/vong-benzene.svg",
+      "imageAlt": "Vòng benzene C6H6: lục giác 6 nguyên tử carbon với hệ electron π tạo vòng tròn giữa",
       "question": "Công thức phân tử của benzene là:",
       "options": [
         "$C_6H_6$",

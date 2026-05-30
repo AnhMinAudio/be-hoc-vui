@@ -68,6 +68,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/hoa-hoc/bang-tuan-hoan-snippet.svg",
+      "imageAlt": "Snippet bảng tuần hoàn 4 chu kì × 8 nhóm, highlight nhóm IA (kim loại kiềm) và VIIA (halogen)",
       "question": "Số thứ tự CHU KÌ trong bảng tuần hoàn tương ứng với:",
       "options": [
         "Số lớp electron của nguyên tử",

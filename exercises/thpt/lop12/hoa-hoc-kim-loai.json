@@ -94,6 +94,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/hoa-hoc/dien-phan.svg",
+      "imageAlt": "Sơ đồ thiết bị điện phân dung dịch: cốc dung dịch, 2 điện cực (catot, anot) nối với nguồn điện 1 chiều, khí thoát ra ở 2 điện cực",
       "question": "Khi điện phân dung dịch $CuSO_4$ với điện cực trơ, tại catot (cathode) xảy ra quá trình:",
       "options": [
         "$Cu^{2+} + 2e \\rightarrow Cu$ (ion $Cu^{2+}$ bị khử)",
@@ -170,7 +172,9 @@
     {
       "type": "true-false-group",
       "level": "VD",
-      "question": "Xét tính đúng/sai của các khẳng định sau về pin điện, điện phân và bảo vệ kim loại:",
+      "image": "/assets/img/diagrams/hoa-hoc/pin-galvani.svg",
+      "imageAlt": "Pin Galvani Zn-Cu: 2 cốc (Zn trong ZnSO4 và Cu trong CuSO4) nối qua cầu muối, dây dẫn nối qua vôn kế; electron chạy từ Zn (anot) sang Cu (catot)",
+      "question": "Quan sát sơ đồ pin Galvani và xét tính đúng/sai của các khẳng định sau về pin điện, điện phân và bảo vệ kim loại:",
       "statements": [
         { "text": "Trong pin điện hóa (pin Galvani), điện cực âm (anode) là nơi xảy ra quá trình oxi hóa.", "answer": true },
         { "text": "Nguyên tắc điều chế kim loại là khử ion kim loại thành nguyên tử kim loại.", "answer": true },

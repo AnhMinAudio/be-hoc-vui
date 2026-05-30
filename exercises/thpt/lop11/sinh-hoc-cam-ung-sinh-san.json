@@ -42,6 +42,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/sinh-hoc/neuron.svg",
+      "imageAlt": "Cấu trúc neuron: thân tế bào, dendrites (đuôi gai), axon (sợi trục) có bao myelin, synapse — đơn vị truyền xung trong cung phản xạ",
       "question": "CUNG PHẢN XẠ gồm các thành phần nào?",
       "options": [
         "Thụ thể - dây thần kinh hướng tâm - trung ương thần kinh - dây thần kinh li tâm - cơ quan đáp ứng",

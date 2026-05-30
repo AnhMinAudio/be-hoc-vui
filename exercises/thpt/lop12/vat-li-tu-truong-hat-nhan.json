@@ -16,6 +16,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/vat-li/tu-truong-nam-cham.svg",
+      "imageAlt": "Đường sức từ của nam châm thẳng đi ra từ cực Bắc (N), uốn cong vào cực Nam (S)",
       "question": "Từ trường được sinh ra bởi:",
       "options": [
         "Dòng điện (điện tích chuyển động) và nam châm",
@@ -120,6 +122,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/vat-li/phong-xa-alpha.svg",
+      "imageAlt": "Sơ đồ phân rã alpha: hạt nhân mẹ (Z, A) phân rã thành hạt nhân con (Z-2, A-4) và phát ra hạt α (^4_2He)",
       "question": "Tia phóng xạ $\\alpha$ thực chất là dòng các hạt:",
       "options": [
         "Hạt nhân heli $^4_2He$",

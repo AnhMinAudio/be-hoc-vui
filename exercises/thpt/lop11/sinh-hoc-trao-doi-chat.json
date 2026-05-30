@@ -94,6 +94,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/sinh-hoc/tim-mach-mau.svg",
+      "imageAlt": "Sơ đồ hệ tuần hoàn người: tim 4 ngăn, vòng tuần hoàn lớn (đến cơ thể) và vòng nhỏ (đến phổi); máu giàu oxygen màu đỏ, máu giàu CO2 màu xanh dương",
       "question": "Hệ TUẦN HOÀN KÍN có đặc điểm gì?",
       "options": [
         "Máu chảy trong hệ mạch (động mạch - mao mạch - tĩnh mạch), không trộn lẫn với dịch mô",

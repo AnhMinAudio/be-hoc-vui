@@ -16,6 +16,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/vat-li/dao-dong-dieu-hoa.svg",
+      "imageAlt": "Đồ thị li độ x theo thời gian t của dao động điều hòa — hàm cosin với biên độ A và chu kì T",
       "question": "Phương trình dao động điều hòa có dạng:",
       "options": [
         "$x = A\\cos(\\omega t + \\varphi)$",
@@ -44,7 +46,9 @@
     {
       "type": "multiple-choice",
       "level": "NB",
-      "question": "Chu kì $T$ của con lắc đơn dao động với góc lệch nhỏ (chiều dài $l$, gia tốc rơi $g$) là:",
+      "image": "/assets/img/diagrams/vat-li/con-lac-don.svg",
+      "imageAlt": "Con lắc đơn: sợi dây dài l treo cố định, quả nặng dao động qua lại với góc lệch nhỏ",
+      "question": "Chu kì $T$ của con lắc đơn dao động với góc lệch nhỏ (chiều dài $l$, gia tốc rơi $g$) như hình là:",
       "options": [
         "$T = 2\\pi\\sqrt{\\dfrac{l}{g}}$",
         "$T = 2\\pi\\sqrt{\\dfrac{g}{l}}$",

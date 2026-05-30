@@ -42,6 +42,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/toan/luong-giac-don-vi.svg",
+      "imageAlt": "Đường tròn lượng giác đơn vị với các góc đặc biệt 30°, 45°, 60°, 90° và giá trị sin/cos tương ứng",
       "question": "Giá trị $\\sin 30^\\circ$ bằng:",
       "options": [
         "$\\dfrac{1}{2}$",

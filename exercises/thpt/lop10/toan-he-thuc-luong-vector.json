@@ -122,6 +122,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/toan/vector-tong.svg",
+      "imageAlt": "Tổng 2 vector theo quy tắc hình bình hành: vector a và vector b xuất phát cùng điểm, vector tổng là đường chéo của hình bình hành",
       "question": "Cho hình bình hành $ABCD$. Khi đó ta có (quy tắc hình bình hành):",
       "options": [
         "$\\vec{AB} + \\vec{AD} = \\vec{AC}$",

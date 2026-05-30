@@ -16,6 +16,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/hoa-hoc/lien-ket-ion-nacl.svg",
+      "imageAlt": "Liên kết ion NaCl: Na nhường electron tạo Na+, Cl nhận electron tạo Cl-; ion trái dấu hút nhau tạo tinh thể NaCl",
       "question": "Liên kết ION được hình thành khi:",
       "options": [
         "Có sự nhường - nhận electron giữa nguyên tử kim loại điển hình và phi kim điển hình, tạo lực hút tĩnh điện giữa ion dương và ion âm",

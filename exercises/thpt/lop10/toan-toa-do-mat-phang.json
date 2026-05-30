@@ -94,6 +94,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/toan/duong-tron.svg",
+      "imageAlt": "Đường tròn tâm I, bán kính r vẽ trên hệ trục Oxy",
       "question": "Phương trình đường tròn tâm $I(a; b)$, bán kính $R$ là:",
       "options": [
         "$(x - a)^2 + (y - b)^2 = R^2$",
@@ -133,6 +135,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/toan/elip.svg",
+      "imageAlt": "Elip với 2 trục: trục lớn a, trục nhỏ b, hai tiêu điểm F1, F2 trên trục lớn",
       "question": "Phương trình chính tắc của ELIP là:",
       "options": [
         "$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ (với $a > b > 0$)",
@@ -146,6 +150,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/toan/hyperbol.svg",
+      "imageAlt": "Hyperbol có 2 nhánh, 2 đỉnh A1 A2, 2 đường tiệm cận",
       "question": "Phương trình chính tắc của HYPERBOL là:",
       "options": [
         "$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$",
@@ -159,6 +165,8 @@
     {
       "type": "multiple-choice",
       "level": "NB",
+      "image": "/assets/img/diagrams/toan/parabol-conic.svg",
+      "imageAlt": "Parabol conic với đỉnh tại gốc tọa độ, trục đối xứng Ox, có tiêu điểm và đường chuẩn",
       "question": "Phương trình chính tắc của PARABOL (đỉnh tại gốc tọa độ, trục đối xứng là $Ox$) là:",
       "options": [
         "$y^2 = 2px$ (với $p > 0$)",

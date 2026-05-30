@@ -81,6 +81,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/sinh-hoc/ho-hap-te-bao.svg",
+      "imageAlt": "Sơ đồ hô hấp tế bào: tế bào với ti thể, nhận C6H12O6 + 6O2, thải ra 6CO2 + 6H2O + năng lượng ATP",
       "question": "Phương trình tổng quát của hô hấp tế bào (hiếu khí) là:",
       "options": [
         "$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{năng lượng (ATP + nhiệt)}$",
@@ -120,6 +122,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/sinh-hoc/quang-hop-input-output.svg",
+      "imageAlt": "Sơ đồ quang hợp ở lá cây: nhận 6CO2 + 6H2O + ánh sáng (Mặt Trời), thải ra C6H12O6 + 6O2",
       "question": "Phương trình tổng quát của quang hợp là:",
       "options": [
         "$6CO_2 + 6H_2O \\xrightarrow{\\text{ánh sáng, diệp lục}} C_6H_{12}O_6 + 6O_2$",

@@ -68,6 +68,8 @@
     {
       "type": "multiple-choice",
       "level": "TH",
+      "image": "/assets/img/diagrams/hoa-hoc/glucose-mach-vong.svg",
+      "imageAlt": "Cấu trúc α-glucose mạch vòng: vòng 6 cạnh gồm 5 carbon + 1 oxygen với các nhóm -OH và -CH2OH",
       "question": "Carbohydrate nào sau đây có phản ứng tráng bạc (tráng gương)?",
       "options": [
         "Glucose",
@@ -120,6 +122,8 @@
     {
       "type": "multiple-choice",
       "level": "VD",
+      "image": "/assets/img/diagrams/hoa-hoc/phan-ung-este-hoa.svg",
+      "imageAlt": "Phản ứng ester hóa thuận nghịch: R-COOH + R'-OH ⇌ R-COO-R' + H2O (xúc tác H2SO4 đặc)",
       "question": "Thủy phân ester ethyl acetate ($CH_3COOC_2H_5$) trong môi trường acid (xúc tác $H_2SO_4$ loãng, đun nóng) thu được:",
       "options": [
         "Acetic acid và ethanol",
