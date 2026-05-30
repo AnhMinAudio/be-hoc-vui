@@ -32,14 +32,35 @@ const AVATARS = ['🦊', '🐼', '🐯', '🐰', '🦄', '🐲', '🐧', '🦉',
 
 // Huy hiệu — mở khóa theo thống kê (stars, số bài hoàn thành, số bài điểm tuyệt đối)
 const BADGES = [
+  // Khởi đầu
   { icon: '🌱', name: 'Mầm non', desc: 'Hoàn thành bài đầu tiên', earned: s => s.completedCount >= 1 },
   { icon: '⭐', name: 'Ngôi sao nhỏ', desc: 'Đạt 20 sao', earned: s => s.stars >= 20 },
   { icon: '🏅', name: 'Chăm chỉ', desc: 'Hoàn thành 5 bài', earned: s => s.completedCount >= 5 },
   { icon: '💯', name: 'Hoàn hảo', desc: 'Đạt điểm tuyệt đối 1 bài', earned: s => s.perfectCount >= 1 },
+  // Sao tier
   { icon: '🌟', name: 'Ngôi sao sáng', desc: 'Đạt 50 sao', earned: s => s.stars >= 50 },
-  { icon: '🏆', name: 'Nhà vô địch', desc: '10 bài điểm tuyệt đối', earned: s => s.perfectCount >= 10 },
   { icon: '💎', name: 'Kim cương', desc: 'Đạt 100 sao', earned: s => s.stars >= 100 },
+  { icon: '💫', name: 'Sao chổi', desc: 'Đạt 500 sao', earned: s => s.stars >= 500 },
+  { icon: '🔆', name: 'Mặt trời', desc: 'Đạt 1.000 sao', earned: s => s.stars >= 1000 },
+  { icon: '🌠', name: 'Siêu tân tinh', desc: 'Đạt 5.000 sao', earned: s => s.stars >= 5000 },
+  // Số đề
+  { icon: '🏆', name: 'Nhà vô địch', desc: '10 bài điểm tuyệt đối', earned: s => s.perfectCount >= 10 },
   { icon: '👑', name: 'Bậc thầy', desc: 'Hoàn thành 20 bài', earned: s => s.completedCount >= 20 },
+  { icon: '🎯', name: 'Tay thợ', desc: 'Hoàn thành 50 bài', earned: s => s.completedCount >= 50 },
+  { icon: '🚀', name: 'Phi hành gia', desc: 'Hoàn thành 100 bài', earned: s => s.completedCount >= 100 },
+  { icon: '🌌', name: 'Du hành ngân hà', desc: 'Hoàn thành 500 bài', earned: s => s.completedCount >= 500 },
+  // Perfect count
+  { icon: '🥇', name: 'Hoàn mỹ', desc: '25 bài điểm tuyệt đối', earned: s => s.perfectCount >= 25 },
+  { icon: '🎖️', name: 'Đỉnh cao', desc: '50 bài điểm tuyệt đối', earned: s => s.perfectCount >= 50 },
+  // Streak
+  { icon: '🔥', name: 'Lửa nhỏ', desc: 'Streak 7 ngày liên tiếp', earned: s => (s.streak || 0) >= 7 },
+  { icon: '🐉', name: 'Rồng lửa', desc: 'Streak 30 ngày liên tiếp', earned: s => (s.streak || 0) >= 30 },
+  { icon: '🦅', name: 'Đại bàng bay', desc: 'Streak 100 ngày liên tiếp', earned: s => (s.streak || 0) >= 100 },
+  // Sticker collector
+  { icon: '🎁', name: 'Tay sưu tập', desc: 'Mở khóa 5 sticker', earned: s => (s.stickerCount || 0) >= 5 },
+  { icon: '🪄', name: 'Phù thủy sticker', desc: 'Mở khóa toàn bộ 14 sticker', earned: s => (s.stickerCount || 0) >= 14 },
+  // Bonus đặc biệt
+  { icon: '📖', name: 'Học giả', desc: 'Đạt rank Vàng (500 sao)', earned: s => s.stars >= 500 },
 ];
 
 let CATALOG = null;

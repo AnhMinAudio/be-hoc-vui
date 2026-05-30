@@ -222,6 +222,8 @@ const Progress = (() => {
       completedCount: completedList.length,
       perfectCount: completedList.filter(c => c.bestScore === c.total).length,
       totalAttempts: data.history.length,
+      streak: getStreak(),
+      stickerCount: Object.keys(data.stickers || {}).length,
     };
   }
 
