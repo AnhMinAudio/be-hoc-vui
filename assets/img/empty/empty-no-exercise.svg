@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" role="img" style="color:var(--c-text,#333)" stroke-linejoin="round" stroke-linecap="round"><title>Chưa có đề cho mục này</title>
+<ellipse cx="140" cy="214" rx="92" ry="10" fill="currentColor" opacity=".06"></ellipse>
+<rect x="150" y="70" width="96" height="118" rx="6" fill="none" stroke="currentColor" stroke-width="3"></rect>
+<line x1="150" y1="110" x2="246" y2="110" stroke="currentColor" stroke-width="2.4"></line><line x1="150" y1="150" x2="246" y2="150" stroke="currentColor" stroke-width="2.4"></line>
+<rect x="158" y="84" width="14" height="22" rx="2" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="2" opacity=".7"></rect>
+<g>
+    <line x1="80" y1="80" x2="80" y2="68" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"></line>
+    <path d="M80.0,55.5 L81.5,59.9 L86.2,60.0 L82.5,62.8 L83.8,67.3 L80.0,64.6 L76.2,67.3 L77.5,62.8 L73.8,60.0 L78.5,59.9 Z" fill="var(--c-star,#FFB23E)" stroke="currentColor" stroke-width="1.5"></path>
+    <circle cx="80" cy="120" r="40" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="3"></circle>
+    <ellipse cx="60" cy="128" rx="6.4" ry="4.8" fill="#FF8FA3" opacity=".45"></ellipse>
+    <ellipse cx="100" cy="128" rx="6.4" ry="4.8" fill="#FF8FA3" opacity=".45"></ellipse>
+    <circle cx="67.2" cy="118" r="4.4" fill="currentColor"></circle><circle cx="92.8" cy="118" r="4.4" fill="currentColor"></circle><path d="M69.6 131.2 q10.4 11.200000000000001 20.8 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path></g>
+<circle cx="80" cy="66" r="15" fill="var(--c-card)" stroke="currentColor" stroke-width="2.6"></circle><path d="M80 66 v-8 M80 66 l6 4" stroke="currentColor" stroke-width="2.4" fill="none"></path></svg>

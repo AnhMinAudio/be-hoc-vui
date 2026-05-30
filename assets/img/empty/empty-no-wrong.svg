@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" role="img" style="color:var(--c-text,#333)" stroke-linejoin="round" stroke-linecap="round"><title>Không còn câu sai — mọi thứ đã đúng</title>
+<ellipse cx="140" cy="214" rx="92" ry="10" fill="currentColor" opacity=".06"></ellipse>
+<rect x="138" y="60" width="104" height="120" rx="10" fill="var(--c-card)" stroke="currentColor" stroke-width="3"></rect>
+<g><circle cx="160" cy="88" r="11" fill="var(--c-correct,#18A957)" opacity=".18"></circle><path d="M154 88 l4 5 8 -9" fill="none" stroke="var(--c-correct,#18A957)" stroke-width="3.4"></path><rect x="176" y="83" width="50" height="8" rx="4" fill="var(--c-text-soft)" opacity=".3"></rect></g><g><circle cx="160" cy="120" r="11" fill="var(--c-correct,#18A957)" opacity=".18"></circle><path d="M154 120 l4 5 8 -9" fill="none" stroke="var(--c-correct,#18A957)" stroke-width="3.4"></path><rect x="176" y="115" width="50" height="8" rx="4" fill="var(--c-text-soft)" opacity=".3"></rect></g><g><circle cx="160" cy="152" r="11" fill="var(--c-correct,#18A957)" opacity=".18"></circle><path d="M154 152 l4 5 8 -9" fill="none" stroke="var(--c-correct,#18A957)" stroke-width="3.4"></path><rect x="176" y="147" width="50" height="8" rx="4" fill="var(--c-text-soft)" opacity=".3"></rect></g>
+<g>
+    <line x1="78" y1="78" x2="78" y2="66" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"></line>
+    <path d="M78.0,53.5 L79.5,57.9 L84.2,58.0 L80.5,60.8 L81.8,65.3 L78.0,62.6 L74.2,65.3 L75.5,60.8 L71.8,58.0 L76.5,57.9 Z" fill="var(--c-star,#FFB23E)" stroke="currentColor" stroke-width="1.5"></path>
+    <circle cx="78" cy="118" r="40" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="3"></circle>
+    <ellipse cx="58" cy="126" rx="6.4" ry="4.8" fill="#FF8FA3" opacity=".45"></ellipse>
+    <ellipse cx="98" cy="126" rx="6.4" ry="4.8" fill="#FF8FA3" opacity=".45"></ellipse>
+    <circle cx="65.2" cy="116" r="4.4" fill="currentColor"></circle><circle cx="90.8" cy="116" r="4.4" fill="currentColor"></circle><path d="M67.6 129.2 q10.4 11.200000000000001 20.8 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path></g>
+<circle cx="78" cy="70" r="20" fill="var(--c-correct,#18A957)" opacity=".16"></circle><path d="M69 70 l6 7 13 -15" fill="none" stroke="var(--c-correct,#18A957)" stroke-width="5"></path></svg>

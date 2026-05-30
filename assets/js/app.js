@@ -105,7 +105,11 @@ async function route() {
     try {
       CATALOG = await (await fetch('/exercises/index.json')).json();
     } catch (e) {
-      view.innerHTML = `<div class="empty"><div class="emoji">📭</div><div class="msg">Chưa có đề bài. Chạy <code>node tools/build-index.js</code>.</div></div>`;
+      view.innerHTML = emptyStateWithIll('empty-offline',
+        'Không tải được danh sách bài',
+        'Có thể đang mất kết nối. Kiểm tra mạng rồi thử tải lại trang.',
+        '<button class="btn btn-primary" style="margin-top:14px" onclick="location.reload()">🔁 Tải lại</button>');
+      activateIllustrations(view);
       return;
     }
   }
@@ -297,6 +301,36 @@ function mountPet(el, tier, mood = 'happy') {
   petSVG(tier, mood).then(svg => {
     if (!svg) { el.innerHTML = mascotSVG(mood); return; }
     el.innerHTML = svg;
+  });
+}
+
+// Illustration trạng thái rỗng (UX 4C.4) — fetch + inline để CSS var chạy.
+const _illCache = {};
+function illustrationSVG(name) {
+  if (!_illCache[name]) {
+    _illCache[name] = fetch('/assets/img/empty/' + name + '.svg')
+      .then(r => r.ok ? r.text() : '').catch(() => '');
+  }
+  return _illCache[name];
+}
+function mountIllustration(el, name) {
+  if (!el) return;
+  illustrationSVG(name).then(svg => { if (svg) el.innerHTML = svg; });
+}
+// Empty state có illustration (thay mascot mặc định). Khi mount cần defer set illustration.
+function emptyStateWithIll(illName, title, desc, actionHtml) {
+  return `<div class="empty-state">
+    <div class="empty-ill" data-ill="${illName}">${mascotSVG()}</div>
+    <div class="es-title">${title}</div>
+    ${desc ? `<div class="es-desc">${desc}</div>` : ''}
+    ${actionHtml || ''}
+  </div>`;
+}
+// Sau khi gán innerHTML chứa emptyStateWithIll → gọi cái này để fetch và inline SVG.
+function activateIllustrations(root) {
+  if (!root) return;
+  root.querySelectorAll('.empty-ill[data-ill]').forEach(el => {
+    mountIllustration(el, el.getAttribute('data-ill'));
   });
 }
 
@@ -1263,8 +1297,9 @@ function renderProgress(view) {
         <a href="/luyen-chuyen-de" class="btn btn-primary" style="margin-top:12px;display:inline-block">💡 Luyện chuyên đề yếu nhất</a>
       </div>` : ''}
 
-    ${activeDays === 0 ? emptyState('Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
+    ${activeDays === 0 ? emptyStateWithIll('empty-dashboard-new', 'Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
   `;
+  activateIllustrations(view);
 }
 
 function renderAbout(view) {
@@ -1582,9 +1617,10 @@ function renderTopicList(view, grade, subject) {
     <div class="hero" style="padding:20px 10px 30px"><h1>${s.icon} ${s.name} - Lớp ${grade}</h1><p>Chọn bài tập để làm</p></div>
     ${currentPageSeo ? `<p class="seo-desc">${currentPageSeo.d}</p>` : ''}
     ${all.length === 0
-      ? emptyState('Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
+      ? emptyStateWithIll('empty-no-exercise', 'Chưa có bài nào', 'Môn này sắp có thêm bài mới — bạn quay lại sau nhé!')
       : sections.join('')}
   `;
+  if (all.length === 0) activateIllustrations(view);
 }
 
 function renderAchievements(view) {
@@ -1857,18 +1893,22 @@ async function renderExercise(view, id) {
     if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để ôn câu sai', 'Mình cần biết bạn là ai để lưu các câu hỏi bạn từng sai và ôn lại sau.');
     exercise = await buildReviewExercise();
     if (!exercise) {
-      view.innerHTML = emptyState('Chưa có câu sai để ôn 🎉',
+      view.innerHTML = emptyStateWithIll('empty-no-wrong',
+        'Chưa có câu sai để ôn 🎉',
         'Cứ làm bài bình thường nhé — câu nào sai mình sẽ ghi nhớ giúp để ôn lại sau.',
         '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
+      activateIllustrations(view);
       return;
     }
   } else if (id === '_outcome') {
     if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để luyện chuyên đề', 'Mình cần dữ liệu của bạn để biết chuyên đề nào còn yếu.');
     const weak = findWeakestOutcome();
     if (!weak) {
-      view.innerHTML = emptyState('Chưa đủ dữ liệu để gợi ý chuyên đề 📊',
+      view.innerHTML = emptyStateWithIll('empty-no-outcome-data',
+        'Chưa đủ dữ liệu để gợi ý chuyên đề 📊',
         'Hãy hoàn thành thêm vài đề ở các chuyên đề khác nhau — mình sẽ chỉ ra phần bạn còn yếu để luyện.',
         '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>');
+      activateIllustrations(view);
       return;
     }
     exercise = await buildOutcomeExercise(weak.outcome);

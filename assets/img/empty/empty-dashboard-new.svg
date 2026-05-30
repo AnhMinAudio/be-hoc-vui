@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" role="img" style="color:var(--c-text,#333)" stroke-linejoin="round" stroke-linecap="round"><title>Bắt đầu hành trình học tập</title>
+<ellipse cx="150" cy="216" rx="100" ry="10" fill="currentColor" opacity=".06"></ellipse>
+<rect x="120" y="188" width="34" height="30" fill="var(--c-card)" stroke="currentColor" stroke-width="2.6"></rect><rect x="154" y="158" width="34" height="60" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="2.6"></rect><rect x="188" y="128" width="34" height="90" fill="var(--c-card)" stroke="currentColor" stroke-width="2.6"></rect><rect x="222" y="98" width="34" height="120" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="2.6"></rect>
+<path d="M120 150 L246 60" fill="none" stroke="var(--c-primary)" stroke-width="3.4" stroke-dasharray="2 9"></path>
+<path d="M236 56 l14 4 -6 13z" fill="var(--c-primary)"></path>
+<g>
+    <line x1="74" y1="114" x2="74" y2="102" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"></line>
+    <path d="M74.0,89.5 L75.5,93.9 L80.2,94.0 L76.5,96.8 L77.8,101.3 L74.0,98.6 L70.2,101.3 L71.5,96.8 L67.8,94.0 L72.5,93.9 Z" fill="var(--c-star,#FFB23E)" stroke="currentColor" stroke-width="1.5"></path>
+    <circle cx="74" cy="150" r="36" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="3"></circle>
+    <ellipse cx="56" cy="157.2" rx="5.76" ry="4.32" fill="#FF8FA3" opacity=".45"></ellipse>
+    <ellipse cx="92" cy="157.2" rx="5.76" ry="4.32" fill="#FF8FA3" opacity=".45"></ellipse>
+    <circle cx="62.480000000000004" cy="148.2" r="3.96" fill="currentColor"></circle><circle cx="85.52" cy="148.2" r="3.96" fill="currentColor"></circle><path d="M64.64 160.08 q9.36 10.080000000000002 18.72 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path></g>
+<circle cx="236" cy="96" r="2.6" fill="var(--c-star,#FFB23E)"></circle><circle cx="254" cy="120" r="2.6" fill="var(--c-star,#FFB23E)"></circle><circle cx="226" cy="128" r="2.6" fill="var(--c-star,#FFB23E)"></circle></svg>

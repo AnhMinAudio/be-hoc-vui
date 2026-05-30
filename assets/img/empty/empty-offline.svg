@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" role="img" style="color:var(--c-text,#333)" stroke-linejoin="round" stroke-linecap="round"><title>Đang mất kết nối</title>
+<ellipse cx="140" cy="214" rx="92" ry="10" fill="currentColor" opacity=".06"></ellipse>
+<g>
+    <line x1="108" y1="78" x2="108" y2="66" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"></line>
+    <path d="M108.0,53.5 L109.5,57.9 L114.2,58.0 L110.5,60.8 L111.8,65.3 L108.0,62.6 L104.2,65.3 L105.5,60.8 L101.8,58.0 L106.5,57.9 Z" fill="var(--c-star,#FFB23E)" stroke="currentColor" stroke-width="1.5"></path>
+    <circle cx="108" cy="120" r="42" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="3"></circle>
+    <ellipse cx="87" cy="128.4" rx="6.72" ry="5.04" fill="#FF8FA3" opacity=".45"></ellipse>
+    <ellipse cx="129" cy="128.4" rx="6.72" ry="5.04" fill="#FF8FA3" opacity=".45"></ellipse>
+    <circle cx="94.56" cy="117.9" r="4.62" fill="currentColor"></circle><circle cx="121.44" cy="117.9" r="4.62" fill="currentColor"></circle><path d="M97.08 131.76 q10.92 11.760000000000002 21.84 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path></g>
+<rect x="150" y="150" width="72" height="30" rx="6" fill="var(--c-primary-soft)" stroke="currentColor" stroke-width="2.6"></rect>
+<circle cx="164" cy="165" r="3" fill="var(--c-correct,#18A957)"></circle><circle cx="176" cy="165" r="3" fill="var(--c-text-soft)" opacity=".5"></circle>
+<line x1="206" y1="150" x2="206" y2="134" stroke="currentColor" stroke-width="2.4"></line>
+<path d="M188 132 a26 26 0 0 1 36 0 M196 142 a14 14 0 0 1 20 0" fill="none" stroke="var(--c-text-soft)" stroke-width="3" opacity=".45"></path>
+<path d="M198 100 l24 24 M222 100 l-24 24" stroke="var(--c-wrong,#EF4F56)" stroke-width="3.4"></path></svg>
