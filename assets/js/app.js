@@ -1126,6 +1126,12 @@ function dailyCard(grade, s, today, review) {
 
 function renderDailyHomeSection() {
   const today = Progress.getTodayDaily().subjects || {};
+  // Kiểm tra streak shield TRƯỚC khi đọc streak (chỉ chạy 1 lần/session)
+  if (Auth.isLoggedIn() && !window._shieldChecked && Progress.checkAndApplyShield) {
+    window._shieldChecked = true;
+    const saved = Progress.checkAndApplyShield();
+    if (saved) setTimeout(() => showToast('🛡️ Đã dùng 1 bùa cứu streak cho ' + saved + '!', 3500), 600);
+  }
   const streak = Progress.getStreak();
   const u = Auth.getUser();
   const daysLeft = Progress.daysUntilExam ? Progress.daysUntilExam() : null;
@@ -1133,12 +1139,14 @@ function renderDailyHomeSection() {
   const showExam = daysLeft !== null && daysLeft >= -1 && daysLeft <= 365;
   const wrongCount = u && Progress.getWrongQueue ? Progress.getWrongQueue().length : 0;
   const weakOutcome = u && typeof findWeakestOutcome === 'function' ? findWeakestOutcome() : null;
+  const shields = u && Progress.getShieldsRemaining ? Progress.getShieldsRemaining() : 0;
 
   const head = (grade, extra) => `
     <div class="daily-head">
       <h2>📅 Đề hôm nay <small>· Lớp ${grade}</small></h2>
       <div class="daily-meta">
         ${streak > 0 ? `<span class="streak">🔥 ${streak} ngày</span>` : ''}
+        ${u && streak > 0 ? `<span class="shield-chip" title="Bùa tự cứu streak khi quên 1 ngày (3 bùa/tháng, reset đầu tháng)">🛡️ ${shields} bùa</span>` : ''}
         ${showExam ? `<span class="exam-countdown ${daysLeft <= 7 ? 'urgent' : daysLeft <= 30 ? 'soon' : ''}" title="Đặt lại trong Tài khoản">${
           daysLeft < 0 ? '🏁 Thi đã qua' :
           daysLeft === 0 ? '🎯 Hôm nay thi!' :

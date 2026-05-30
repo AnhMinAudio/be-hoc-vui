@@ -2646,3 +2646,13 @@ body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circl
   .ptt-row { grid-template-columns: 38px 1fr; }
   .ptt-tip { display: none; }
 }
+
+/* Streak shield chip (UX 4D.2) */
+.shield-chip {
+  font-weight: 700; font-size: .8rem;
+  padding: 5px 11px; border-radius: 999px;
+  background: color-mix(in srgb, #66BB6A 14%, var(--c-card));
+  color: #2E7D32;
+  border: 1px solid color-mix(in srgb, #66BB6A 30%, transparent);
+  white-space: nowrap;
+}

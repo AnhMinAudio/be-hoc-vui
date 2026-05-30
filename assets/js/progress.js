@@ -254,6 +254,44 @@ const Progress = (() => {
     return diff; // có thể âm nếu đã qua
   }
 
+  // ===== Streak shield "bùa cứu streak" (UX 4D.2) =====
+  // 3 bùa/tháng (reset đầu tháng). Tự áp dụng vào HÔM QUA nếu hôm qua bị trống
+  // nhưng hôm kia có học (tức streak vừa bị đứt 1 ngày).
+  function _monthKey(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0'); }
+  function getShieldsRemaining() {
+    const data = load();
+    const cur = _monthKey(new Date());
+    if (!data.shields || data.shields.month !== cur) return 3;
+    return Math.max(0, data.shields.remaining || 0);
+  }
+  // Gọi 1 lần khi app load / sau khi markStudyDay. Trả 'YYYY-MM-DD' nếu vừa dùng bùa, null nếu không.
+  function checkAndApplyShield() {
+    const data = load();
+    const curMonth = _monthKey(new Date());
+    // Reset đầu tháng
+    if (!data.shields || data.shields.month !== curMonth) {
+      data.shields = { month: curMonth, remaining: 3 };
+    }
+    if (data.shields.remaining <= 0) { save(data); return null; }
+    const study = data.studyDays || {};
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() - 1);
+    const yKey = dateKey(yesterday);
+    const dayBefore = new Date(yesterday); dayBefore.setDate(dayBefore.getDate() - 1);
+    const dbKey = dateKey(dayBefore);
+    // Đk: hôm qua trống + hôm kia có học → vừa bị đứt streak 1 ngày → đáng cứu
+    if (study[yKey]) { save(data); return null; }
+    if (!study[dbKey]) { save(data); return null; }
+    // Áp dụng: đánh dấu hôm qua = học (qua bùa)
+    study[yKey] = true;
+    if (!data.shieldUsedDays) data.shieldUsedDays = [];
+    data.shieldUsedDays.push(yKey);
+    data.shields.remaining--;
+    data.studyDays = study;
+    save(data);
+    return yKey;
+  }
+
   // ===== Hàng đợi câu sai (UX 4B.1) =====
   // wrongQueue: { "exId|qIdx" → { exId, qIdx, addedAt, lastWrong, wrongCount } }
   // - recordWrong: cộng dồn lần sai + cập nhật lastWrong
@@ -380,6 +418,7 @@ const Progress = (() => {
     getSetting, setSetting, getExamDate, setExamDate, daysUntilExam,
     getStickerCatalog, getStickers, maybeEarnStickers,
     recordWrong, clearWrong, getWrongQueue,
+    getShieldsRemaining, checkAndApplyShield,
     getOutcomeStats,
     getActiveDays, getMonthInfo,
     recordTime, getAvgSecPerQ,
