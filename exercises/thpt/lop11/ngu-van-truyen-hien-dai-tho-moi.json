@@ -1,0 +1,204 @@
+{
+  "id": "thpt-ngu-van-l11-truyen-hien-dai-tho-moi",
+  "stage": "thpt",
+  "subject": "ngu-van",
+  "grade": 11,
+  "topic": "Truyện ngắn Việt Nam hiện đại và thơ trữ tình (Thơ mới)",
+  "chapter": "Truyện ngắn hiện đại & Thơ mới",
+  "difficulty": 2,
+  "outcomes": [
+    "Truyện ngắn hiện đại: Chí Phèo (Nam Cao), Vợ nhặt (Kim Lân)",
+    "Điểm nhìn và người kể chuyện",
+    "Phong trào Thơ mới: Tràng giang (Huy Cận)",
+    "Cấu tứ và hình ảnh trong thơ trữ tình"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Tác phẩm \"Chí Phèo\" là sáng tác tiêu biểu của nhà văn nào?",
+      "options": [
+        "Nam Cao",
+        "Kim Lân",
+        "Nguyễn Tuân",
+        "Vũ Trọng Phụng"
+      ],
+      "answer": 0,
+      "hint": "\"Chí Phèo\" là một trong những truyện ngắn nổi tiếng nhất của Nam Cao về số phận người nông dân trước Cách mạng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Vợ nhặt\" là tác phẩm của nhà văn:",
+      "options": [
+        "Kim Lân",
+        "Nam Cao",
+        "Tô Hoài",
+        "Nguyễn Minh Châu"
+      ],
+      "answer": 0,
+      "hint": "\"Vợ nhặt\" là truyện ngắn xuất sắc của Kim Lân về cuộc sống người nông dân trong nạn đói năm 1945."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Truyện ngắn \"Vợ nhặt\" lấy bối cảnh chính của xã hội Việt Nam ở thời điểm:",
+      "options": [
+        "Nạn đói khủng khiếp năm 1945 ở miền Bắc Việt Nam",
+        "Thời kì kháng chiến chống Mỹ",
+        "Thời kì Đổi mới sau năm 1986",
+        "Thời kì hòa bình hiện đại"
+      ],
+      "answer": 0,
+      "hint": "Bối cảnh truyện \"Vợ nhặt\" là nạn đói khủng khiếp năm 1945 ở miền Bắc, do chính sách của thực dân Pháp và phát xít Nhật gây ra."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bi kịch lớn nhất của nhân vật Chí Phèo (trong \"Chí Phèo\" của Nam Cao) là:",
+      "options": [
+        "Bị tha hóa và bị xã hội từ chối quyền được làm người lương thiện",
+        "Không có tiền tiêu xài hằng ngày",
+        "Không được học hành",
+        "Bị mất một tài sản lớn"
+      ],
+      "answer": 0,
+      "hint": "Chí Phèo bị tha hóa thành \"con quỷ dữ của làng Vũ Đại\", khao khát trở lại lương thiện nhưng bị xã hội từ chối — đó là bi kịch sâu sắc nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Bài thơ \"Tràng giang\" là tác phẩm tiêu biểu của nhà thơ nào trong phong trào Thơ mới?",
+      "options": [
+        "Huy Cận",
+        "Xuân Diệu",
+        "Hàn Mặc Tử",
+        "Chế Lan Viên"
+      ],
+      "answer": 0,
+      "hint": "\"Tràng giang\" là bài thơ nổi tiếng của Huy Cận, in trong tập \"Lửa thiêng\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Bài thơ \"Tràng giang\" của Huy Cận thể hiện chủ đề chủ yếu nào?",
+      "options": [
+        "Nỗi buồn cô đơn, mênh mang trước thiên nhiên rộng lớn và tình yêu quê hương đất nước thầm kín",
+        "Niềm vui phơi phới trước cuộc sống mới sau Cách mạng",
+        "Ca ngợi thành tựu công nghiệp hóa hiện đại",
+        "Khắc họa cảnh chiến đấu hào hùng nơi tiền tuyến"
+      ],
+      "answer": 0,
+      "hint": "Toàn bài thơ là nỗi buồn cô đơn của cái tôi nhỏ bé trước không gian sông nước mênh mông, ẩn chứa tình yêu quê hương đất nước thầm kín."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phong trào Thơ mới (1932-1945) đề cao điều gì?",
+      "options": [
+        "Cái tôi cá nhân, cảm xúc và đổi mới hình thức thơ (từ chặt chẽ niêm luật sang tự do hơn)",
+        "Tiếp tục duy trì hoàn toàn cấu trúc Đường luật cổ điển",
+        "Đề cao tinh thần tập thể, phủ nhận cảm xúc cá nhân",
+        "Chỉ viết về đề tài chiến tranh"
+      ],
+      "answer": 0,
+      "hint": "Thơ mới giải phóng cái tôi cá nhân, đề cao cảm xúc và đổi mới hình thức thơ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Trong truyện ngắn, \"điểm nhìn trần thuật\" được hiểu là:",
+      "options": [
+        "Vị trí, góc nhìn từ đó người kể chuyện quan sát và kể lại câu chuyện",
+        "Đoạn cuối của một câu chuyện",
+        "Tên gọi khác của nhân vật chính",
+        "Số trang của truyện ngắn"
+      ],
+      "answer": 0,
+      "hint": "Điểm nhìn trần thuật là vị trí, góc nhìn của người kể chuyện đối với sự việc, nhân vật trong câu chuyện."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Ý nghĩa nhân văn sâu sắc của truyện \"Vợ nhặt\" (Kim Lân) là:",
+      "options": [
+        "Ngay trong cảnh tăm tối, đói khát của nạn đói, con người vẫn khao khát sống, khao khát hạnh phúc và yêu thương nhau",
+        "Khẳng định rằng đói nghèo là do số phận, không thay đổi được",
+        "Đề cao cuộc sống giàu sang của tầng lớp trên",
+        "Phê phán hôn nhân tự nguyện của người trẻ"
+      ],
+      "answer": 0,
+      "hint": "Tác phẩm thể hiện khát vọng sống, hạnh phúc và tình người ngay cả trong hoàn cảnh tăm tối nhất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Một trong những đặc điểm nổi bật về phong cách viết của Nam Cao trong \"Chí Phèo\" là:",
+      "options": [
+        "Nghệ thuật xây dựng nhân vật và miêu tả tâm lí sâu sắc; ngôn ngữ giàu chất hiện thực và triết lí",
+        "Lời văn nhẹ nhàng, lãng mạn, giàu mộng tưởng",
+        "Câu văn ngắn, thuần túy miêu tả ngoại cảnh",
+        "Sử dụng nhiều thuật ngữ khoa học khô khan"
+      ],
+      "answer": 0,
+      "hint": "Nam Cao nổi tiếng với nghệ thuật miêu tả tâm lí và ngôn ngữ hiện thực, đậm chất triết lí."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong thơ trữ tình, \"cấu tứ\" của bài thơ được hiểu là:",
+      "options": [
+        "Ý tứ, mạch tư tưởng và cách tổ chức hình ảnh, cảm xúc tạo nên kết cấu chỉnh thể của bài thơ",
+        "Số câu, số chữ của bài thơ",
+        "Tên tác giả và năm sáng tác",
+        "Cách in ấn bài thơ trên trang giấy"
+      ],
+      "answer": 0,
+      "hint": "Cấu tứ là mạch ý, mạch tư tưởng và cách tổ chức hình ảnh, cảm xúc của bài thơ."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về truyện ngắn Việt Nam hiện đại:",
+      "statements": [
+        { "text": "\"Chí Phèo\" và \"Vợ nhặt\" đều là truyện ngắn hiện đại viết về số phận người nông dân trước Cách mạng tháng Tám.", "answer": true },
+        { "text": "Nhân vật Chí Phèo (trong \"Chí Phèo\" của Nam Cao) bị tha hóa nhưng vẫn khao khát được trở lại làm người lương thiện.", "answer": true },
+        { "text": "Tác phẩm \"Vợ nhặt\" của Kim Lân ca ngợi khát vọng sống và hạnh phúc của con người ngay trong nạn đói.", "answer": true },
+        { "text": "Trong truyện ngắn, \"người kể chuyện\" và \"điểm nhìn trần thuật\" là một khái niệm hoàn toàn giống nhau.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về Thơ mới và cấu tứ thơ:",
+      "statements": [
+        { "text": "Phong trào Thơ mới (1932-1945) đề cao cái tôi cá nhân và cảm xúc trữ tình.", "answer": true },
+        { "text": "Bài thơ \"Tràng giang\" của Huy Cận thể hiện nỗi buồn cô đơn trước thiên nhiên rộng lớn.", "answer": true },
+        { "text": "Cấu tứ là cách tổ chức hình ảnh, mạch cảm xúc và tư tưởng tạo nên chỉnh thể nghệ thuật của bài thơ.", "answer": true },
+        { "text": "Thơ mới hoàn toàn không có bất kì sự kế thừa nào từ thơ ca truyền thống.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Truyện ngắn \"Chí Phèo\" là tác phẩm tiêu biểu của nhà văn ___",
+      "answer": "Nam Cao",
+      "alternatives": ["nam cao"],
+      "hint": "Nam Cao (1917-1951) là tác giả \"Chí Phèo\"."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Truyện ngắn \"Vợ nhặt\" của Kim Lân lấy bối cảnh nạn đói năm ___",
+      "answer": "1945",
+      "hint": "Nạn đói khủng khiếp ở miền Bắc Việt Nam vào năm 1945 cướp đi sinh mạng hàng triệu người."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "Bài thơ \"Tràng giang\" là một trong những tác phẩm tiêu biểu của phong trào Thơ mới Việt Nam.",
+      "answer": true,
+      "hint": "\"Tràng giang\" của Huy Cận in trong tập \"Lửa thiêng\", là một trong những đỉnh cao của Thơ mới."
+    }
+  ]
+}

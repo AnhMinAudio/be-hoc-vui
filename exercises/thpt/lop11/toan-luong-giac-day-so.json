@@ -1,0 +1,236 @@
+{
+  "id": "thpt-toan-l11-luong-giac-day-so",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 11,
+  "topic": "Hàm số lượng giác và Dãy số (Cấp số cộng, cấp số nhân)",
+  "chapter": "Đại số 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Đơn vị radian - Giá trị lượng giác",
+    "Công thức lượng giác - Phương trình lượng giác cơ bản",
+    "Dãy số - Cấp số cộng",
+    "Cấp số nhân"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Một radian là số đo của cung tròn có độ dài bằng:",
+      "options": [
+        "Bán kính của đường tròn chứa cung đó",
+        "Đường kính của đường tròn chứa cung đó",
+        "Chu vi của đường tròn",
+        "Một nửa chu vi đường tròn"
+      ],
+      "answer": 0,
+      "hint": "Theo định nghĩa: 1 rad là số đo của cung có độ dài bằng đúng bán kính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "$180^\\circ$ tương ứng với bao nhiêu radian?",
+      "options": [
+        "$\\pi$",
+        "$2\\pi$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{3}$"
+      ],
+      "answer": 0,
+      "hint": "Quy đổi: $180^\\circ = \\pi$ rad; do đó $1^\\circ = \\dfrac{\\pi}{180}$ rad."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Giá trị $\\sin 30^\\circ$ bằng:",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{\\sqrt{3}}{2}$",
+        "$\\dfrac{\\sqrt{2}}{2}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "hint": "$\\sin 30^\\circ = \\dfrac{1}{2}$ (giá trị đặc biệt cần nhớ)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Giá trị $\\tan 45^\\circ$ bằng:",
+      "options": [
+        "$1$",
+        "$0$",
+        "$\\dfrac{1}{2}$",
+        "$\\sqrt{3}$"
+      ],
+      "answer": 0,
+      "hint": "$\\tan 45^\\circ = \\dfrac{\\sin 45^\\circ}{\\cos 45^\\circ} = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Công thức cộng đối với hàm sin: $\\sin(a + b)$ bằng:",
+      "options": [
+        "$\\sin a \\cos b + \\cos a \\sin b$",
+        "$\\sin a \\cos b - \\cos a \\sin b$",
+        "$\\cos a \\cos b - \\sin a \\sin b$",
+        "$\\cos a \\cos b + \\sin a \\sin b$"
+      ],
+      "answer": 0,
+      "hint": "Công thức cộng: $\\sin(a+b) = \\sin a \\cos b + \\cos a \\sin b$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phương trình $\\sin x = \\dfrac{1}{2}$ có nghiệm tổng quát là (với $k \\in \\mathbb{Z}$):",
+      "options": [
+        "$x = \\dfrac{\\pi}{6} + k2\\pi$ hoặc $x = \\dfrac{5\\pi}{6} + k2\\pi$",
+        "$x = \\dfrac{\\pi}{6} + k\\pi$",
+        "$x = \\dfrac{\\pi}{3} + k2\\pi$",
+        "Vô nghiệm"
+      ],
+      "answer": 0,
+      "hint": "$\\sin x = \\sin \\dfrac{\\pi}{6} \\Leftrightarrow x = \\dfrac{\\pi}{6} + k2\\pi$ hoặc $x = \\pi - \\dfrac{\\pi}{6} + k2\\pi = \\dfrac{5\\pi}{6} + k2\\pi$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Dãy số $(u_n)$ là một hàm số xác định trên:",
+      "options": [
+        "Tập các số nguyên dương $\\mathbb{N}^*$ (hoặc tập con của nó)",
+        "Tập các số thực $\\mathbb{R}$",
+        "Tập các số hữu tỉ $\\mathbb{Q}$",
+        "Một khoảng $(a; b)$ bất kì"
+      ],
+      "answer": 0,
+      "hint": "Dãy số $(u_n)$ là hàm số có tập xác định trên $\\mathbb{N}^*$, giá trị $u_n$ là số hạng thứ $n$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Cấp số cộng là dãy số mà:",
+      "options": [
+        "Kể từ số hạng thứ hai, mỗi số hạng bằng số hạng đứng trước cộng với một số không đổi $d$ (công sai)",
+        "Kể từ số hạng thứ hai, mỗi số hạng bằng số hạng đứng trước nhân với một số không đổi $q$ (công bội)",
+        "Tất cả các số hạng đều giống nhau",
+        "Các số hạng tăng dần theo bình phương"
+      ],
+      "answer": 0,
+      "hint": "Cấp số cộng (CSC): $u_n = u_{n-1} + d$ với $d$ là công sai."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cấp số cộng $(u_n)$ có số hạng đầu $u_1$ và công sai $d$. Số hạng tổng quát $u_n$ bằng:",
+      "options": [
+        "$u_n = u_1 + (n - 1)d$",
+        "$u_n = u_1 \\cdot d^{n-1}$",
+        "$u_n = u_1 + nd$",
+        "$u_n = u_1 \\cdot n + d$"
+      ],
+      "answer": 0,
+      "hint": "Số hạng tổng quát của CSC: $u_n = u_1 + (n - 1)d$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Tổng $n$ số hạng đầu của cấp số cộng $(u_n)$ được tính bằng công thức:",
+      "options": [
+        "$S_n = \\dfrac{n(u_1 + u_n)}{2}$",
+        "$S_n = n \\cdot u_1 \\cdot u_n$",
+        "$S_n = n + u_1 + u_n$",
+        "$S_n = \\dfrac{u_1 + u_n}{2n}$"
+      ],
+      "answer": 0,
+      "hint": "Tổng $n$ số hạng đầu của CSC: $S_n = \\dfrac{n(u_1 + u_n)}{2}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Cấp số nhân là dãy số mà:",
+      "options": [
+        "Kể từ số hạng thứ hai, mỗi số hạng bằng số hạng đứng trước nhân với một số không đổi $q$ (công bội)",
+        "Kể từ số hạng thứ hai, mỗi số hạng bằng số hạng đứng trước cộng với một số không đổi",
+        "Tất cả các số hạng đều bằng nhau",
+        "Các số hạng tăng dần theo căn bậc hai"
+      ],
+      "answer": 0,
+      "hint": "Cấp số nhân (CSN): $u_n = u_{n-1} \\cdot q$ với $q$ là công bội."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cấp số cộng $(u_n)$ có $u_1 = 3$ và công sai $d = 2$. Số hạng $u_{10}$ bằng:",
+      "options": [
+        "$21$",
+        "$23$",
+        "$19$",
+        "$30$"
+      ],
+      "answer": 0,
+      "hint": "$u_{10} = u_1 + 9d = 3 + 9 \\cdot 2 = 21$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Tổng 100 số nguyên dương đầu tiên $1 + 2 + 3 + \\ldots + 100$ bằng:",
+      "options": [
+        "$5050$",
+        "$10000$",
+        "$5000$",
+        "$10100$"
+      ],
+      "answer": 0,
+      "hint": "Đây là CSC với $u_1 = 1$, $u_{100} = 100$, $n = 100$. $S_{100} = \\dfrac{100 \\cdot (1 + 100)}{2} = 5050$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Cấp số nhân $(u_n)$ có $u_1 = 2$ và công bội $q = 3$. Số hạng $u_4$ bằng:",
+      "options": [
+        "$54$",
+        "$18$",
+        "$24$",
+        "$162$"
+      ],
+      "answer": 0,
+      "hint": "$u_n = u_1 \\cdot q^{n-1}$, suy ra $u_4 = 2 \\cdot 3^3 = 2 \\cdot 27 = 54$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về hàm số lượng giác:",
+      "statements": [
+        { "text": "$\\sin^2 x + \\cos^2 x = 1$ với mọi $x \\in \\mathbb{R}$.", "answer": true },
+        { "text": "Hàm số $y = \\sin x$ có chu kì $T = 2\\pi$.", "answer": true },
+        { "text": "Hàm số $y = \\cos x$ là hàm số chẵn (đối xứng qua trục tung).", "answer": true },
+        { "text": "Phương trình $\\sin x = 2$ có nghiệm thực.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về dãy số và cấp số:",
+      "statements": [
+        { "text": "Trong cấp số cộng $(u_n)$ với công sai $d$, ta có $u_n - u_{n-1} = d$ với mọi $n \\geq 2$.", "answer": true },
+        { "text": "Cấp số cộng có công sai $d = 0$ là dãy số có tất cả các số hạng bằng nhau.", "answer": true },
+        { "text": "Trong cấp số nhân với công bội $q \\neq 0$, ta có $\\dfrac{u_n}{u_{n-1}} = q$ với mọi $n \\geq 2$.", "answer": true },
+        { "text": "Mọi cấp số cộng đều đồng thời là một cấp số nhân.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Giá trị $\\sin 90^\\circ$ bằng ___",
+      "answer": "1",
+      "alternatives": ["một"],
+      "hint": "$\\sin 90^\\circ = 1$ (giá trị lượng giác đặc biệt)."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Cấp số cộng $(u_n)$ có $u_1 = 5$ và công sai $d = 3$. Số hạng $u_8$ bằng ___",
+      "answer": "26",
+      "hint": "$u_8 = u_1 + 7d = 5 + 7 \\cdot 3 = 26$."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "thpt-tieng-anh-l11-menh-de-quan-he-tu-vung",
+  "stage": "thpt",
+  "subject": "tieng-anh",
+  "grade": 11,
+  "topic": "Relative clauses, gerunds/infinitives and vocabulary (Mệnh đề quan hệ, V-ing/to V và từ vựng)",
+  "chapter": "Grammar & Vocabulary",
+  "difficulty": 2,
+  "outcomes": [
+    "Relative pronouns (who, which, that, whose)",
+    "Gerunds and infinitives",
+    "Past perfect tense",
+    "Generation gap, global warming and heritage vocabulary"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "The man _____ is standing over there is my uncle. (Người đàn ông _____ đang đứng đằng kia là chú của tôi.)",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "hint": "Đại từ quan hệ \"who\" dùng cho người đóng vai trò chủ ngữ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "The book _____ I bought yesterday is very interesting. (Cuốn sách _____ tôi mua hôm qua rất thú vị.)",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": 0,
+      "hint": "Đại từ quan hệ \"which\" (hoặc \"that\") dùng cho vật làm tân ngữ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "She is the girl _____ father is a doctor. (Cô ấy là cô gái mà _____ bố là bác sĩ.)",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "that"
+      ],
+      "answer": 0,
+      "hint": "\"whose\" thể hiện sự sở hữu (\"father of the girl\" → \"whose father\")."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "She enjoys _____ to music in her free time. (Cô ấy thích _____ nhạc vào thời gian rảnh.)",
+      "options": [
+        "listening",
+        "to listen",
+        "listen",
+        "listened"
+      ],
+      "answer": 0,
+      "hint": "Sau động từ \"enjoy\" dùng V-ing: enjoy listening to music."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "By the time I arrived at the party, my friends _____ already _____ home. (Vào lúc tôi đến bữa tiệc, các bạn tôi đã _____ về nhà.)",
+      "options": [
+        "had / gone",
+        "have / gone",
+        "was / going",
+        "did / go"
+      ],
+      "answer": 0,
+      "hint": "Hành động xảy ra trước một mốc trong quá khứ → thì quá khứ hoàn thành: had + past participle (gone)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which word means \"the difference in attitudes between younger and older generations\"? (Từ nào có nghĩa là \"sự khác biệt trong thái độ giữa thế hệ trẻ và thế hệ già\"?)",
+      "options": [
+        "generation gap",
+        "traffic jam",
+        "climate change",
+        "family time"
+      ],
+      "answer": 0,
+      "hint": "\"generation gap\" = khoảng cách / sự khác biệt giữa các thế hệ."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which of the following is a MAIN cause of GLOBAL WARMING? (Yếu tố nào sau đây là nguyên nhân CHỦ YẾU gây ra hiện tượng nóng lên toàn cầu?)",
+      "options": [
+        "Increased emissions of greenhouse gases such as carbon dioxide (CO₂)",
+        "Planting more trees in cities",
+        "Walking instead of driving",
+        "Using renewable energy"
+      ],
+      "answer": 0,
+      "hint": "Khí nhà kính (đặc biệt là CO₂) tăng do hoạt động của con người là nguyên nhân chính gây nóng lên toàn cầu."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "The man _____ over there is my English teacher. Choose the option that uses a REDUCED relative clause. (Người đàn ông _____ đằng kia là giáo viên tiếng Anh của tôi. Chọn phương án dùng mệnh đề quan hệ rút gọn.)",
+      "options": [
+        "standing",
+        "stand",
+        "stood",
+        "stands"
+      ],
+      "answer": 0,
+      "hint": "Mệnh đề quan hệ chủ động rút gọn dùng V-ing: \"who is standing\" → \"standing\"."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Which of the following is an example of a CULTURAL HERITAGE site in Vietnam? (Ví dụ nào sau đây là một di sản văn hóa của Việt Nam?)",
+      "options": [
+        "The Imperial Citadel of Thang Long (Hoàng thành Thăng Long)",
+        "Mount Everest",
+        "The Pacific Ocean",
+        "The Sahara Desert"
+      ],
+      "answer": 0,
+      "hint": "Hoàng thành Thăng Long là di sản văn hóa thế giới được UNESCO công nhận ở Hà Nội, Việt Nam."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "To have a healthy lifestyle, you should _____. (Để có lối sống lành mạnh, bạn nên _____.)",
+      "options": [
+        "eat a balanced diet and exercise regularly",
+        "eat fast food every day",
+        "sleep only two hours each night",
+        "smoke after every meal"
+      ],
+      "answer": 0,
+      "hint": "Lối sống lành mạnh = ăn cân bằng + tập thể dục đều đặn + ngủ đủ giấc."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "If I _____ a millionaire, I would build schools for poor children. (Nếu tôi _____ là triệu phú, tôi sẽ xây trường cho trẻ em nghèo.)",
+      "options": [
+        "were",
+        "am",
+        "was",
+        "will be"
+      ],
+      "answer": 0,
+      "hint": "Câu điều kiện loại 2 (giả định không có thật ở hiện tại): If + S + V_past (động từ \"be\" dùng \"were\" cho mọi chủ ngữ), S + would + V_inf."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "passage": "Climate change is one of the most serious problems of our time. It is mainly caused by human activities such as burning fossil fuels and cutting down forests. As a result, the Earth is getting warmer, sea levels are rising, and many species are becoming extinct. To slow down climate change, we should use renewable energy, plant more trees, and reduce waste.",
+      "question": "According to the passage, what is the MAIN cause of climate change? (Theo đoạn văn, nguyên nhân CHÍNH của biến đổi khí hậu là gì?)",
+      "options": [
+        "Human activities such as burning fossil fuels and cutting down forests",
+        "Natural disasters such as volcanic eruptions only",
+        "Sunlight in tropical regions",
+        "The movement of ocean currents"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn nêu: \"It is mainly caused by human activities such as burning fossil fuels and cutting down forests.\""
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "passage": "Climate change is one of the most serious problems of our time. It is mainly caused by human activities such as burning fossil fuels and cutting down forests. As a result, the Earth is getting warmer, sea levels are rising, and many species are becoming extinct. To slow down climate change, we should use renewable energy, plant more trees, and reduce waste.",
+      "question": "What should we do to SLOW DOWN climate change, according to the passage? (Theo đoạn văn, chúng ta nên làm gì để LÀM CHẬM biến đổi khí hậu?)",
+      "options": [
+        "Use renewable energy, plant more trees and reduce waste",
+        "Burn more fossil fuels for electricity",
+        "Cut down more forests for farmland",
+        "Ignore the problem completely"
+      ],
+      "answer": 0,
+      "hint": "Đoạn văn ghi rõ: \"we should use renewable energy, plant more trees, and reduce waste\"."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Decide if each grammar statement is true or false. (Xét tính đúng/sai của các phát biểu ngữ pháp sau.)",
+      "statements": [
+        { "text": "The relative pronoun \"who\" is used for people. (\"who\" dùng cho người.)", "answer": true },
+        { "text": "The relative pronoun \"which\" is used for things or animals. (\"which\" dùng cho vật hoặc động vật.)", "answer": true },
+        { "text": "After the verb \"enjoy\", we use a \"to + V\" form. (Sau động từ \"enjoy\" ta dùng dạng \"to + V\".)", "answer": false },
+        { "text": "In a type 2 conditional sentence, the if-clause uses the past simple. (Trong câu điều kiện loại 2, mệnh đề if dùng thì quá khứ đơn.)", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the relative pronoun for things: \"The bag _____ I bought yesterday is red.\" (Điền đại từ quan hệ chỉ vật: \"Cái túi _____ tôi mua hôm qua màu đỏ.\")",
+      "answer": "which",
+      "alternatives": ["that", "Which", "That"],
+      "hint": "Đại từ quan hệ chỉ vật làm tân ngữ: \"which\" hoặc \"that\"."
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Complete the word: r_n_w_ble (energy that can be replaced naturally — chỉ năng lượng có thể tái tạo).",
+      "answer": "renewable",
+      "alternatives": ["Renewable"],
+      "hint": "\"renewable\" = có thể tái tạo (renewable energy = năng lượng tái tạo)."
+    },
+    {
+      "type": "true-false",
+      "level": "NB",
+      "question": "\"Whose\" is the relative pronoun used to show POSSESSION. (\"Whose\" là đại từ quan hệ dùng để chỉ sự SỞ HỮU.)",
+      "answer": true,
+      "hint": "\"whose\" thay thế cho tính từ sở hữu (his/her/their) trong mệnh đề quan hệ."
+    }
+  ]
+}

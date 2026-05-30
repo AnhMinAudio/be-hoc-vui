@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:13:44.031Z",
+  "generatedAt": "2026-05-30T00:27:44.020Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -1205,6 +1205,42 @@
       "path": "thpt/lop10/ngu-van-nghi-luan-san-khau-truyen.json"
     },
     {
+      "id": "thpt-ngu-van-l11-truyen-kieu-bi-kich",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 11,
+      "topic": "Nguyễn Du – Truyện Kiều và bi kịch",
+      "chapter": "Truyện Kiều & Bi kịch",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Nguyễn Du và sự nghiệp văn học",
+        "Tác phẩm Truyện Kiều: nội dung và nghệ thuật",
+        "Bi kịch: đặc trưng thể loại",
+        "Vũ Như Tô (Nguyễn Huy Tưởng) và Romeo - Juliet (Shakespeare)"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/ngu-van-truyen-kieu-bi-kich.json"
+    },
+    {
+      "id": "thpt-ngu-van-l11-truyen-hien-dai-tho-moi",
+      "stage": "thpt",
+      "subject": "ngu-van",
+      "grade": 11,
+      "topic": "Truyện ngắn Việt Nam hiện đại và thơ trữ tình (Thơ mới)",
+      "chapter": "Truyện ngắn hiện đại & Thơ mới",
+      "difficulty": 2,
+      "questionCount": 16,
+      "outcomes": [
+        "Truyện ngắn hiện đại: Chí Phèo (Nam Cao), Vợ nhặt (Kim Lân)",
+        "Điểm nhìn và người kể chuyện",
+        "Phong trào Thơ mới: Tràng giang (Huy Cận)",
+        "Cấu tứ và hình ảnh trong thơ trữ tình"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/ngu-van-truyen-hien-dai-tho-moi.json"
+    },
+    {
       "id": "thpt-ngu-van-l12-on-tap",
       "stage": "thpt",
       "subject": "ngu-van",
@@ -2121,6 +2157,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop10/tieng-anh-thi-tu-vung-co-ban.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l11-doc-hieu-giao-tiep",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 11,
+      "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
+      "chapter": "Reading & Communication",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Reading comprehension",
+        "Modal verbs and polite expressions",
+        "Passive voice and reported speech",
+        "Comparatives and idioms"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/tieng-anh-doc-hieu-giao-tiep.json"
+    },
+    {
+      "id": "thpt-tieng-anh-l11-menh-de-quan-he-tu-vung",
+      "stage": "thpt",
+      "subject": "tieng-anh",
+      "grade": 11,
+      "topic": "Relative clauses, gerunds/infinitives and vocabulary (Mệnh đề quan hệ, V-ing/to V và từ vựng)",
+      "chapter": "Grammar & Vocabulary",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Relative pronouns (who, which, that, whose)",
+        "Gerunds and infinitives",
+        "Past perfect tense",
+        "Generation gap, global warming and heritage vocabulary"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/tieng-anh-menh-de-quan-he-tu-vung.json"
     },
     {
       "id": "thpt-tieng-anh-l12-on-tap",
@@ -3815,6 +3887,42 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop10/toan-menh-de-tap-hop-bpt.json"
+    },
+    {
+      "id": "thpt-toan-l11-gioi-han-dao-ham",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 11,
+      "topic": "Giới hạn, hàm số liên tục và Đạo hàm",
+      "chapter": "Giải tích 11",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Giới hạn của dãy số và của hàm số",
+        "Hàm số liên tục",
+        "Định nghĩa và quy tắc tính đạo hàm",
+        "Đạo hàm của các hàm số sơ cấp"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/toan-gioi-han-dao-ham.json"
+    },
+    {
+      "id": "thpt-toan-l11-luong-giac-day-so",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 11,
+      "topic": "Hàm số lượng giác và Dãy số (Cấp số cộng, cấp số nhân)",
+      "chapter": "Đại số 11",
+      "difficulty": 2,
+      "questionCount": 18,
+      "outcomes": [
+        "Đơn vị radian - Giá trị lượng giác",
+        "Công thức lượng giác - Phương trình lượng giác cơ bản",
+        "Dãy số - Cấp số cộng",
+        "Cấp số nhân"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/toan-luong-giac-day-so.json"
     },
     {
       "id": "thpt-toan-l12-c1-ung-dung-dao-ham",

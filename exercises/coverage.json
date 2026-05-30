@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:13:44.031Z",
+  "generatedAt": "2026-05-30T00:27:44.020Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1745,9 +1745,22 @@
         ]
       },
       "11": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 2,
+        "totalQuestions": 35,
+        "topics": [
+          {
+            "id": "thpt-toan-l11-gioi-han-dao-ham",
+            "topic": "Giới hạn, hàm số liên tục và Đạo hàm",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l11-luong-giac-day-so",
+            "topic": "Hàm số lượng giác và Dãy số (Cấp số cộng, cấp số nhân)",
+            "questionCount": 18,
+            "difficulty": 2
+          }
+        ]
       },
       "12": {
         "exerciseCount": 7,
@@ -1818,9 +1831,22 @@
         ]
       },
       "11": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 2,
+        "totalQuestions": 33,
+        "topics": [
+          {
+            "id": "thpt-ngu-van-l11-truyen-kieu-bi-kich",
+            "topic": "Nguyễn Du – Truyện Kiều và bi kịch",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-ngu-van-l11-truyen-hien-dai-tho-moi",
+            "topic": "Truyện ngắn Việt Nam hiện đại và thơ trữ tình (Thơ mới)",
+            "questionCount": 16,
+            "difficulty": 2
+          }
+        ]
       },
       "12": {
         "exerciseCount": 1,
@@ -1855,9 +1881,22 @@
         ]
       },
       "11": {
-        "exerciseCount": 0,
-        "totalQuestions": 0,
-        "topics": []
+        "exerciseCount": 2,
+        "totalQuestions": 34,
+        "topics": [
+          {
+            "id": "thpt-tieng-anh-l11-doc-hieu-giao-tiep",
+            "topic": "Reading comprehension and communication (Đọc hiểu và giao tiếp)",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-tieng-anh-l11-menh-de-quan-he-tu-vung",
+            "topic": "Relative clauses, gerunds/infinitives and vocabulary (Mệnh đề quan hệ, V-ing/to V và từ vựng)",
+            "questionCount": 17,
+            "difficulty": 2
+          }
+        ]
       },
       "12": {
         "exerciseCount": 1,
