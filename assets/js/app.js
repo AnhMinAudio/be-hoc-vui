@@ -1775,6 +1775,7 @@ async function renderExercise(view, id) {
     const showResult = () => {
       if (done) return;
       done = true;
+      console.log('[showResult]', { exId: exercise.id, score, total, answers: answers.length });
       endExerciseFocus(); // bài đã xong → cho điều hướng tự do, hiện lại chrome
       if (timerInterval) clearInterval(timerInterval);
       if (elapsedInterval) clearInterval(elapsedInterval);
@@ -1787,23 +1788,26 @@ async function renderExercise(view, id) {
       const counts = loggedIn && Auth.countsForExercise(exercise);
       let isNewBest = false, currentStreak = 0, streakTicked = false, earnedStickers = [];
       if (counts) {
-        const prevStreak = Progress.getStreak();
-        const meta = Progress.markCompleted(exercise.id, score, total);
-        isNewBest = meta.isNewBest;
-        Progress.addStars(score);
-        Progress.recordTime(total, elapsedMs);
-        if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
-        currentStreak = Progress.getStreak();
-        streakTicked = currentStreak > prevStreak;
-        // Sticker: thưởng theo wasFirst / isFirstPerfect / streak milestone (7/14/30/100)
-        const streakMilestone = streakTicked && [7, 14, 30, 100].includes(currentStreak) ? currentStreak : null;
-        earnedStickers = Progress.maybeEarnStickers({
-          wasFirst: meta.wasFirst,
-          isFirstPerfect: meta.isFirstPerfect,
-          streakMilestone,
-        });
+        try {
+          const prevStreak = Progress.getStreak();
+          const meta = Progress.markCompleted(exercise.id, score, total);
+          isNewBest = meta && meta.isNewBest;
+          Progress.addStars(score);
+          Progress.recordTime(total, elapsedMs);
+          if (exercise.daily) Progress.recordDaily(exercise.subject, score, total, elapsedMs);
+          currentStreak = Progress.getStreak();
+          streakTicked = currentStreak > prevStreak;
+          const streakMilestone = streakTicked && [7, 14, 30, 100].includes(currentStreak) ? currentStreak : null;
+          earnedStickers = Progress.maybeEarnStickers({
+            wasFirst: meta && meta.wasFirst,
+            isFirstPerfect: meta && meta.isFirstPerfect,
+            streakMilestone,
+          }) || [];
+        } catch (err) {
+          console.error('[showResult] Lỗi khi lưu tiến độ:', err);
+        }
       }
-      updateHeader();
+      try { updateHeader(); } catch (err) { console.error('[updateHeader]', err); }
       const earnNote = counts
         ? `Bạn được +${score} ⭐`
         : (loggedIn
