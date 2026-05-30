@@ -344,8 +344,9 @@ function levelBreakdown(questions, answers) {
 
 // Tìm đề kế tiếp cùng stage/subject/grade (sắp theo id). null nếu không có đề khác.
 function findNextExercise(currentEx) {
-  if (!CATALOG) return null;
-  const peers = CATALOG.filter(e =>
+  const list = CATALOG && CATALOG.exercises;
+  if (!Array.isArray(list)) return null;
+  const peers = list.filter(e =>
     e.stage === currentEx.stage && e.subject === currentEx.subject &&
     e.grade === currentEx.grade && e.id !== currentEx.id
   );
@@ -1775,7 +1776,6 @@ async function renderExercise(view, id) {
     const showResult = () => {
       if (done) return;
       done = true;
-      console.log('[showResult]', { exId: exercise.id, score, total, answers: answers.length });
       endExerciseFocus(); // bài đã xong → cho điều hướng tự do, hiện lại chrome
       if (timerInterval) clearInterval(timerInterval);
       if (elapsedInterval) clearInterval(elapsedInterval);
@@ -1838,6 +1838,7 @@ async function renderExercise(view, id) {
         else timeNote = 'Cứ bình tĩnh, làm cẩn thận rồi sẽ tiến bộ!';
       }
 
+      try {
       // === Vùng 2: phân tích theo mức độ NB/TH/VD/VDC (nếu có) ===
       const stats = levelBreakdown(questions, answers);
       const weakest = stats.length > 1
@@ -1877,7 +1878,6 @@ async function renderExercise(view, id) {
         return Array.from({ length: 5 }, (_, i) => i < filled ? '⭐' : '☆').join('');
       })();
 
-      try {
       view.innerHTML = `
         <div class="result-card wow-card">
           <div class="result-mascot">${mascotSVG(mascotMood)}</div>
