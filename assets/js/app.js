@@ -2235,9 +2235,12 @@ async function renderExercise(view, id) {
           });
         } catch (err) { console.error('[wrongQueue]', err); }
       }
+      let petEvolveFrom = null, petEvolveTo = null;
       if (counts && !exercise.isReviewSession) {
         try {
           const prevStreak = Progress.getStreak();
+          const prevStars = Progress.getStars();
+          const prevTier = petTierFor(prevStars).tier;
           const meta = Progress.markCompleted(exercise.id, score, total);
           isNewBest = meta && meta.isNewBest;
           Progress.addStars(score);
@@ -2254,6 +2257,22 @@ async function renderExercise(view, id) {
           // Social proof: chỉ POST khi lần ĐẦU hoàn thành đề (tránh dupe khi replay)
           if (meta && meta.wasFirst) {
             Auth.recordStat({ exId: exercise.id, score, total, timeMs: elapsedMs });
+          }
+          // Pet evolve check (chỉ tiểu học)
+          if (homeWorld() === 'tieu-hoc') {
+            const newTier = petTierFor(Progress.getStars()).tier;
+            if (newTier > prevTier) { petEvolveFrom = prevTier; petEvolveTo = newTier; }
+          }
+          // Trigger celebrations (4C.3) — tuần tự, mỗi cảnh tự đóng
+          if (window.Celebrate) {
+            // Delay nhẹ để WOW render xong
+            setTimeout(() => {
+              if (percent === 100) Celebrate.show('firework-perfect');
+              else if (streakMilestone) Celebrate.show('streak-milestone', { days: streakMilestone });
+            }, 500);
+            const legendary = earnedStickers.find(s => s.tier === 'legendary');
+            if (legendary) setTimeout(() => Celebrate.show('sticker-legendary', { sticker: legendary }), 1500);
+            if (petEvolveTo) setTimeout(() => Celebrate.show('pet-evolve', { fromTier: petEvolveFrom, toTier: petEvolveTo }), 2500);
           }
         } catch (err) {
           console.error('[showResult] Lỗi khi lưu tiến độ:', err);
