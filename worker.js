@@ -532,12 +532,12 @@ function mergeProgress(a, b) {
 
   // shields: nếu cùng tháng → lấy MIN remaining (bùa đã tiêu hao là không thể hoàn trả).
   // Khác tháng → lấy bên có tháng mới hơn (string compare đủ với 'YYYY-MM').
-  const sa = a.shields, sb = b.shields;
-  if (sa && sb) {
-    out.shields = sa.month === sb.month
-      ? { month: sa.month, remaining: Math.min(sa.remaining || 0, sb.remaining || 0) }
-      : (sa.month > sb.month ? sa : sb);
-  } else out.shields = sb || sa || null;
+  const sha = a.shields, shb = b.shields;
+  if (sha && shb) {
+    out.shields = sha.month === shb.month
+      ? { month: sha.month, remaining: Math.min(sha.remaining || 0, shb.remaining || 0) }
+      : (sha.month > shb.month ? sha : shb);
+  } else out.shields = shb || sha || null;
 
   // shieldUsedDays: union dedup
   const sud = new Set([...(a.shieldUsedDays || []), ...(b.shieldUsedDays || [])]);
