@@ -1,0 +1,210 @@
+{
+  "id": "thpt-toan-l11-hinh-hoc-khong-gian",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 11,
+  "topic": "Quan hệ song song và quan hệ vuông góc trong không gian",
+  "chapter": "Hình học không gian 11",
+  "difficulty": 3,
+  "outcomes": [
+    "Đại cương về đường thẳng và mặt phẳng",
+    "Hai đường thẳng song song - Đường thẳng song song mặt phẳng",
+    "Hai mặt phẳng song song",
+    "Quan hệ vuông góc trong không gian"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Một mặt phẳng trong không gian được xác định duy nhất khi biết:",
+      "options": [
+        "Ba điểm phân biệt không thẳng hàng",
+        "Hai điểm phân biệt",
+        "Một điểm và một đường thẳng đi qua điểm đó",
+        "Một đường thẳng duy nhất"
+      ],
+      "answer": 0,
+      "hint": "3 điểm phân biệt không thẳng hàng (hoặc đường thẳng + điểm ngoài đường thẳng, hoặc 2 đường thẳng cắt nhau, hoặc 2 đường thẳng song song) xác định duy nhất một mặt phẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai đường thẳng trong không gian có thể có các vị trí tương đối nào sau đây?",
+      "options": [
+        "Trùng nhau, cắt nhau, song song, chéo nhau",
+        "Chỉ song song hoặc cắt nhau",
+        "Chỉ trùng nhau",
+        "Chỉ chéo nhau"
+      ],
+      "answer": 0,
+      "hint": "Trong KG có thêm trường hợp \"chéo nhau\" — hai đường thẳng không cùng nằm trên một mặt phẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai đường thẳng được gọi là CHÉO NHAU khi:",
+      "options": [
+        "Chúng không cùng nằm trên bất kì mặt phẳng nào",
+        "Chúng song song và cùng nằm trên một mặt phẳng",
+        "Chúng có một điểm chung duy nhất",
+        "Chúng trùng nhau"
+      ],
+      "answer": 0,
+      "hint": "Đặc trưng của hai đường thẳng chéo nhau: không cùng nằm trên một mặt phẳng nào."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường thẳng $d$ song song với mặt phẳng $(P)$ khi và chỉ khi:",
+      "options": [
+        "$d$ và $(P)$ không có điểm chung",
+        "$d$ nằm trong $(P)$",
+        "$d$ cắt $(P)$ tại đúng một điểm",
+        "$d$ vuông góc với $(P)$"
+      ],
+      "answer": 0,
+      "hint": "Đường thẳng song song với mặt phẳng: không có điểm chung."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai mặt phẳng $(P)$ và $(Q)$ song song với nhau khi và chỉ khi:",
+      "options": [
+        "$(P)$ và $(Q)$ không có điểm chung nào",
+        "$(P)$ và $(Q)$ có chung đúng một điểm",
+        "$(P)$ và $(Q)$ có chung một đường thẳng",
+        "$(P)$ trùng với $(Q)$"
+      ],
+      "answer": 0,
+      "hint": "Hai mặt phẳng song song: không có điểm chung; nếu có 1 điểm chung thì cắt nhau theo cả 1 đường thẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Để chứng minh đường thẳng $d$ song song với mặt phẳng $(P)$, ta có thể chỉ ra rằng:",
+      "options": [
+        "$d$ song song với một đường thẳng $d'$ nằm trong $(P)$ và $d$ không nằm trong $(P)$",
+        "$d$ vuông góc với $(P)$",
+        "$d$ cắt $(P)$ tại nhiều điểm",
+        "$d$ trùng với $(P)$"
+      ],
+      "answer": 0,
+      "hint": "Dấu hiệu nhận biết: $d$ song song với một đường thẳng nào đó trong $(P)$ và $d \\not\\subset (P)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Hai đường thẳng được gọi là VUÔNG GÓC với nhau khi:",
+      "options": [
+        "Góc giữa chúng bằng $90^\\circ$",
+        "Chúng song song",
+        "Chúng trùng nhau",
+        "Chúng cùng đi qua một điểm"
+      ],
+      "answer": 0,
+      "hint": "Trong không gian, hai đường thẳng vuông góc khi góc giữa chúng bằng $90^\\circ$ (không cần phải cắt nhau)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi và chỉ khi:",
+      "options": [
+        "$d$ vuông góc với MỌI đường thẳng nằm trong $(P)$",
+        "$d$ song song với một đường thẳng trong $(P)$",
+        "$d$ nằm trong $(P)$",
+        "$d$ cắt $(P)$ tại 2 điểm"
+      ],
+      "answer": 0,
+      "hint": "Định nghĩa: $d \\perp (P)$ ⇔ $d \\perp$ mọi đường thẳng trong $(P)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Định lí: \"Nếu đường thẳng $d$ vuông góc với HAI đường thẳng cắt nhau cùng nằm trong mặt phẳng $(P)$ thì:",
+      "options": [
+        "$d$ vuông góc với mặt phẳng $(P)$",
+        "$d$ song song với mặt phẳng $(P)$",
+        "$d$ nằm trong mặt phẳng $(P)$",
+        "Không kết luận được điều gì\""
+      ],
+      "answer": 0,
+      "hint": "Đây là định lí cơ bản để chứng minh đường thẳng vuông góc mặt phẳng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai mặt phẳng $(P)$ và $(Q)$ vuông góc với nhau khi và chỉ khi:",
+      "options": [
+        "Trong $(P)$ có ít nhất một đường thẳng vuông góc với $(Q)$ (hoặc ngược lại)",
+        "$(P)$ song song với $(Q)$",
+        "$(P)$ trùng với $(Q)$",
+        "$(P)$ và $(Q)$ không có điểm chung"
+      ],
+      "answer": 0,
+      "hint": "Dấu hiệu nhận biết hai mặt phẳng vuông góc: có một đường thẳng trong mp này vuông góc với mp kia."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Trong hình lập phương $ABCD.A'B'C'D'$, đường thẳng $AA'$ và đường thẳng $BC$ có mối quan hệ:",
+      "options": [
+        "Vuông góc với nhau (góc giữa chúng bằng $90^\\circ$)",
+        "Song song với nhau",
+        "Trùng nhau",
+        "Cắt nhau tại một điểm"
+      ],
+      "answer": 0,
+      "hint": "$AA' \\perp (ABCD)$ nên $AA'$ vuông góc với mọi đường thẳng trong $(ABCD)$, kể cả $BC$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Hình lập phương có cạnh bằng $a$. Độ dài đường chéo của hình lập phương (vd $AC'$) bằng:",
+      "options": [
+        "$a\\sqrt{3}$",
+        "$a\\sqrt{2}$",
+        "$2a$",
+        "$3a$"
+      ],
+      "answer": 0,
+      "hint": "$AC' = \\sqrt{AB^2 + BC^2 + CC'^2} = \\sqrt{a^2 + a^2 + a^2} = a\\sqrt{3}$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quan hệ song song trong không gian:",
+      "statements": [
+        { "text": "Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì song song với nhau.", "answer": true },
+        { "text": "Hai mặt phẳng song song không có điểm chung.", "answer": true },
+        { "text": "Hai đường thẳng chéo nhau cùng nằm trên một mặt phẳng.", "answer": false },
+        { "text": "Nếu đường thẳng $d$ song song với mặt phẳng $(P)$ thì $d$ không có điểm chung với $(P)$.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quan hệ vuông góc trong không gian:",
+      "statements": [
+        { "text": "Hai đường thẳng vuông góc khi góc giữa chúng bằng $90^\\circ$.", "answer": true },
+        { "text": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi $d$ vuông góc với mọi đường thẳng nằm trong $(P)$.", "answer": true },
+        { "text": "Nếu $d$ vuông góc với hai đường thẳng cắt nhau cùng nằm trong $(P)$ thì $d \\perp (P)$.", "answer": true },
+        { "text": "Hai mặt phẳng song song với nhau thì vuông góc với nhau.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "NB",
+      "question": "Một mặt phẳng được xác định duy nhất khi biết ___ điểm phân biệt không thẳng hàng.",
+      "answer": "3",
+      "alternatives": ["ba"],
+      "hint": "Qua 3 điểm phân biệt không thẳng hàng có duy nhất 1 mặt phẳng."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Hình lập phương cạnh $a = 2$ có độ dài đường chéo (vd $AC'$) bằng ___$\\sqrt{3}$",
+      "answer": "2",
+      "hint": "$AC' = a\\sqrt{3} = 2\\sqrt{3}$, nên hệ số trước $\\sqrt{3}$ là $2$."
+    }
+  ]
+}

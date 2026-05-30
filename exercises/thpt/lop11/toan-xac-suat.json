@@ -1,0 +1,222 @@
+{
+  "id": "thpt-toan-l11-xac-suat",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 11,
+  "topic": "Các quy tắc tính xác suất",
+  "chapter": "Xác suất 11",
+  "difficulty": 2,
+  "outcomes": [
+    "Biến cố hợp, biến cố giao, biến cố đối",
+    "Biến cố xung khắc - Quy tắc cộng xác suất",
+    "Biến cố độc lập - Quy tắc nhân xác suất",
+    "Tính xác suất theo định nghĩa cổ điển"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Theo định nghĩa cổ điển, xác suất của biến cố $A$ trong phép thử có không gian mẫu $\\Omega$ là:",
+      "options": [
+        "$P(A) = \\dfrac{n(A)}{n(\\Omega)}$ ($n(A)$ là số kết quả thuận lợi cho $A$; $n(\\Omega)$ là số kết quả có thể)",
+        "$P(A) = n(A) \\cdot n(\\Omega)$",
+        "$P(A) = \\dfrac{n(\\Omega)}{n(A)}$",
+        "$P(A) = n(A) + n(\\Omega)$"
+      ],
+      "answer": 0,
+      "hint": "Xác suất = số kết quả thuận lợi / tổng số kết quả đồng khả năng."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Khẳng định nào sau đây ĐÚNG về xác suất của một biến cố $A$ bất kì?",
+      "options": [
+        "$0 \\leq P(A) \\leq 1$",
+        "$P(A) > 1$ luôn",
+        "$P(A) < 0$ luôn",
+        "$P(A) = 2$"
+      ],
+      "answer": 0,
+      "hint": "Xác suất luôn nằm trong đoạn $[0; 1]$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Biến cố đối $\\overline{A}$ của biến cố $A$ thỏa mãn:",
+      "options": [
+        "$P(A) + P(\\overline{A}) = 1$",
+        "$P(A) \\cdot P(\\overline{A}) = 1$",
+        "$P(A) = P(\\overline{A})$ luôn",
+        "$P(\\overline{A}) = 0$ luôn"
+      ],
+      "answer": 0,
+      "hint": "$\\overline{A}$ là biến cố \"không xảy ra $A$\", do đó $P(A) + P(\\overline{A}) = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Biến cố hợp $A \\cup B$ là biến cố:",
+      "options": [
+        "Xảy ra khi $A$ HOẶC $B$ xảy ra (ít nhất một trong hai xảy ra)",
+        "Xảy ra khi $A$ VÀ $B$ cùng xảy ra",
+        "Xảy ra khi $A$ không xảy ra và $B$ không xảy ra",
+        "Là biến cố không thể"
+      ],
+      "answer": 0,
+      "hint": "$A \\cup B$ xảy ra khi ít nhất một trong $A, B$ xảy ra."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Biến cố giao $A \\cap B$ là biến cố:",
+      "options": [
+        "Xảy ra khi $A$ VÀ $B$ cùng xảy ra",
+        "Xảy ra khi $A$ HOẶC $B$ xảy ra",
+        "Xảy ra khi $A$ và $B$ đều không xảy ra",
+        "Là biến cố chắc chắn"
+      ],
+      "answer": 0,
+      "hint": "$A \\cap B$ xảy ra khi cả $A$ và $B$ cùng xảy ra."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai biến cố $A$ và $B$ được gọi là XUNG KHẮC khi:",
+      "options": [
+        "Chúng không thể đồng thời xảy ra trong cùng một phép thử ($A \\cap B = \\emptyset$)",
+        "Chúng luôn cùng xảy ra với nhau",
+        "Xác suất của chúng bằng nhau",
+        "Chúng là cùng một biến cố"
+      ],
+      "answer": 0,
+      "hint": "Hai biến cố xung khắc: không bao giờ cùng xảy ra; $A \\cap B = \\emptyset$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quy tắc CỘNG xác suất cho hai biến cố XUNG KHẮC $A$ và $B$ là:",
+      "options": [
+        "$P(A \\cup B) = P(A) + P(B)$",
+        "$P(A \\cup B) = P(A) \\cdot P(B)$",
+        "$P(A \\cup B) = P(A) - P(B)$",
+        "$P(A \\cup B) = \\dfrac{P(A)}{P(B)}$"
+      ],
+      "answer": 0,
+      "hint": "Khi xung khắc: $P(A \\cup B) = P(A) + P(B)$. Tổng quát: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai biến cố $A$ và $B$ được gọi là ĐỘC LẬP khi:",
+      "options": [
+        "Việc xảy ra (hay không xảy ra) của $A$ không ảnh hưởng đến xác suất xảy ra của $B$ và ngược lại",
+        "$A$ và $B$ là hai biến cố giống hệt nhau",
+        "$A$ luôn kéo theo $B$",
+        "$A$ và $B$ là xung khắc"
+      ],
+      "answer": 0,
+      "hint": "Định nghĩa độc lập: xảy ra (hoặc không) của biến cố này không ảnh hưởng xác suất của biến cố kia."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Quy tắc NHÂN xác suất cho hai biến cố ĐỘC LẬP $A$ và $B$ là:",
+      "options": [
+        "$P(A \\cap B) = P(A) \\cdot P(B)$",
+        "$P(A \\cap B) = P(A) + P(B)$",
+        "$P(A \\cap B) = P(A) - P(B)$",
+        "$P(A \\cap B) = 1 - P(A) \\cdot P(B)$"
+      ],
+      "answer": 0,
+      "hint": "Quy tắc nhân (khi độc lập): xác suất xảy ra cả hai = tích các xác suất."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện số 6 bằng:",
+      "options": [
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{5}{6}$"
+      ],
+      "answer": 0,
+      "hint": "Xúc xắc có 6 mặt đồng khả năng; chỉ có 1 mặt 6 chấm → $P = \\dfrac{1}{6}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất CẢ HAI cùng xuất hiện mặt 6 chấm bằng:",
+      "options": [
+        "$\\dfrac{1}{36}$",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{2}{6}$",
+        "$\\dfrac{1}{12}$"
+      ],
+      "answer": 0,
+      "hint": "Hai biến cố độc lập: $P = \\dfrac{1}{6} \\cdot \\dfrac{1}{6} = \\dfrac{1}{36}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Gieo một xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 bằng:",
+      "options": [
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "answer": 0,
+      "hint": "Số chia hết cho 3 trên xúc xắc: 3 và 6 (2 mặt). $P = \\dfrac{2}{6} = \\dfrac{1}{3}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VDC",
+      "question": "Xác suất bắn trúng đích của xạ thủ $A$ là $0{,}7$; của xạ thủ $B$ là $0{,}8$. Hai xạ thủ bắn độc lập. Xác suất cả hai cùng bắn TRÚNG đích là:",
+      "options": [
+        "$0{,}56$",
+        "$1{,}5$",
+        "$0{,}14$",
+        "$0{,}06$"
+      ],
+      "answer": 0,
+      "hint": "Hai biến cố độc lập: $P = 0{,}7 \\cdot 0{,}8 = 0{,}56$."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về xác suất:",
+      "statements": [
+        { "text": "Xác suất của một biến cố luôn thỏa mãn $0 \\leq P(A) \\leq 1$.", "answer": true },
+        { "text": "Xác suất của biến cố CHẮC CHẮN bằng $1$.", "answer": true },
+        { "text": "Hai biến cố $A$ và $\\overline{A}$ (biến cố đối) thỏa mãn $P(A) + P(\\overline{A}) = 1$.", "answer": true },
+        { "text": "Xác suất của biến cố KHÔNG THỂ bằng $1$.", "answer": false }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về quy tắc cộng và quy tắc nhân xác suất:",
+      "statements": [
+        { "text": "Với hai biến cố XUNG KHẮC $A, B$: $P(A \\cup B) = P(A) + P(B)$.", "answer": true },
+        { "text": "Với hai biến cố ĐỘC LẬP $A, B$: $P(A \\cap B) = P(A) \\cdot P(B)$.", "answer": true },
+        { "text": "Hai biến cố xung khắc thì luôn độc lập với nhau.", "answer": false },
+        { "text": "Với hai biến cố $A, B$ bất kì: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.", "answer": true }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Gieo một xúc xắc cân đối. Xác suất xuất hiện số chẵn là $\\dfrac{1}{a}$ với $a = $ ___",
+      "answer": "2",
+      "hint": "Số chẵn: 2, 4, 6 (3 mặt). $P = \\dfrac{3}{6} = \\dfrac{1}{2}$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Gieo đồng thời hai xúc xắc cân đối. Xác suất TỔNG số chấm của hai mặt xuất hiện bằng $7$ là $\\dfrac{1}{a}$ với $a = $ ___",
+      "answer": "6",
+      "hint": "Tổng = 7 có 6 cách (1+6, 2+5, 3+4, 4+3, 5+2, 6+1); không gian mẫu 36 → $P = \\dfrac{6}{36} = \\dfrac{1}{6}$."
+    }
+  ]
+}

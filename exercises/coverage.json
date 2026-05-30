@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:00:06.194Z",
+  "generatedAt": "2026-05-30T01:07:07.548Z",
   "coverage": {
     "toan": {
       "1": {
@@ -1727,8 +1727,8 @@
   "thpt": {
     "toan": {
       "10": {
-        "exerciseCount": 3,
-        "totalQuestions": 51,
+        "exerciseCount": 4,
+        "totalQuestions": 68,
         "topics": [
           {
             "id": "thpt-toan-l10-he-thuc-luong-vector",
@@ -1743,6 +1743,12 @@
             "difficulty": 2
           },
           {
+            "id": "thpt-toan-l10-toa-do-mat-phang",
+            "topic": "Phương pháp tọa độ trong mặt phẳng: đường thẳng, đường tròn, ba đường conic",
+            "questionCount": 17,
+            "difficulty": 3
+          },
+          {
             "id": "thpt-toan-l10-thong-ke-to-hop-xac-suat",
             "topic": "Thống kê, Tổ hợp và Xác suất",
             "questionCount": 17,
@@ -1751,9 +1757,15 @@
         ]
       },
       "11": {
-        "exerciseCount": 3,
-        "totalQuestions": 52,
+        "exerciseCount": 5,
+        "totalQuestions": 85,
         "topics": [
+          {
+            "id": "thpt-toan-l11-xac-suat",
+            "topic": "Các quy tắc tính xác suất",
+            "questionCount": 17,
+            "difficulty": 2
+          },
           {
             "id": "thpt-toan-l11-gioi-han-dao-ham",
             "topic": "Giới hạn, hàm số liên tục và Đạo hàm",
@@ -1770,6 +1782,12 @@
             "id": "thpt-toan-l11-mu-logarit",
             "topic": "Hàm số mũ và Hàm số logarit",
             "questionCount": 17,
+            "difficulty": 3
+          },
+          {
+            "id": "thpt-toan-l11-hinh-hoc-khong-gian",
+            "topic": "Quan hệ song song và quan hệ vuông góc trong không gian",
+            "questionCount": 16,
             "difficulty": 3
           }
         ]

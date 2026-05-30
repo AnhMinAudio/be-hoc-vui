@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:00:06.194Z",
+  "generatedAt": "2026-05-30T01:07:07.548Z",
   "exercises": [
     {
       "id": "mn-cam-xuc-3t-2",
@@ -4177,6 +4177,24 @@
       "path": "thpt/lop10/toan-menh-de-tap-hop-bpt.json"
     },
     {
+      "id": "thpt-toan-l10-toa-do-mat-phang",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 10,
+      "topic": "Phương pháp tọa độ trong mặt phẳng: đường thẳng, đường tròn, ba đường conic",
+      "chapter": "Tọa độ trong mặt phẳng 10",
+      "difficulty": 3,
+      "questionCount": 17,
+      "outcomes": [
+        "Phương trình đường thẳng (tham số, tổng quát)",
+        "Vị trí tương đối, khoảng cách, góc giữa hai đường thẳng",
+        "Phương trình đường tròn",
+        "Ba đường conic: elip, hyperbol, parabol"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop10/toan-toa-do-mat-phang.json"
+    },
+    {
       "id": "thpt-toan-l10-thong-ke-to-hop-xac-suat",
       "stage": "thpt",
       "subject": "toan",
@@ -4193,6 +4211,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop10/toan-thong-ke-to-hop-xac-suat.json"
+    },
+    {
+      "id": "thpt-toan-l11-xac-suat",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 11,
+      "topic": "Các quy tắc tính xác suất",
+      "chapter": "Xác suất 11",
+      "difficulty": 2,
+      "questionCount": 17,
+      "outcomes": [
+        "Biến cố hợp, biến cố giao, biến cố đối",
+        "Biến cố xung khắc - Quy tắc cộng xác suất",
+        "Biến cố độc lập - Quy tắc nhân xác suất",
+        "Tính xác suất theo định nghĩa cổ điển"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/toan-xac-suat.json"
     },
     {
       "id": "thpt-toan-l11-gioi-han-dao-ham",
@@ -4247,6 +4283,24 @@
       ],
       "timeLimit": null,
       "path": "thpt/lop11/toan-mu-logarit.json"
+    },
+    {
+      "id": "thpt-toan-l11-hinh-hoc-khong-gian",
+      "stage": "thpt",
+      "subject": "toan",
+      "grade": 11,
+      "topic": "Quan hệ song song và quan hệ vuông góc trong không gian",
+      "chapter": "Hình học không gian 11",
+      "difficulty": 3,
+      "questionCount": 16,
+      "outcomes": [
+        "Đại cương về đường thẳng và mặt phẳng",
+        "Hai đường thẳng song song - Đường thẳng song song mặt phẳng",
+        "Hai mặt phẳng song song",
+        "Quan hệ vuông góc trong không gian"
+      ],
+      "timeLimit": null,
+      "path": "thpt/lop11/toan-hinh-hoc-khong-gian.json"
     },
     {
       "id": "thpt-toan-l12-c1-ung-dung-dao-ham",

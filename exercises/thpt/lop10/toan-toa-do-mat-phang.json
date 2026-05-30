@@ -1,0 +1,222 @@
+{
+  "id": "thpt-toan-l10-toa-do-mat-phang",
+  "stage": "thpt",
+  "subject": "toan",
+  "grade": 10,
+  "topic": "Phương pháp tọa độ trong mặt phẳng: đường thẳng, đường tròn, ba đường conic",
+  "chapter": "Tọa độ trong mặt phẳng 10",
+  "difficulty": 3,
+  "outcomes": [
+    "Phương trình đường thẳng (tham số, tổng quát)",
+    "Vị trí tương đối, khoảng cách, góc giữa hai đường thẳng",
+    "Phương trình đường tròn",
+    "Ba đường conic: elip, hyperbol, parabol"
+  ],
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường thẳng $\\Delta$ có phương trình tổng quát $ax + by + c = 0$ (với $a^2 + b^2 > 0$). Vector pháp tuyến của $\\Delta$ là:",
+      "options": [
+        "$\\vec{n} = (a; b)$",
+        "$\\vec{n} = (b; a)$",
+        "$\\vec{n} = (-a; -b)$",
+        "$\\vec{n} = (c; 0)$"
+      ],
+      "answer": 0,
+      "hint": "Đường thẳng $ax + by + c = 0$ có vector pháp tuyến $\\vec{n} = (a; b)$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Đường thẳng có vector pháp tuyến $\\vec{n} = (a; b)$ thì một vector chỉ phương của nó là:",
+      "options": [
+        "$\\vec{u} = (-b; a)$",
+        "$\\vec{u} = (a; b)$",
+        "$\\vec{u} = (a; -b)$",
+        "$\\vec{u} = (b; b)$"
+      ],
+      "answer": 0,
+      "hint": "Vector chỉ phương vuông góc với vector pháp tuyến: $\\vec{u} = (-b; a)$ (hoặc $\\vec{u} = (b; -a)$)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình tham số của đường thẳng đi qua $A(x_0; y_0)$ và có vector chỉ phương $\\vec{u} = (a; b)$ là:",
+      "options": [
+        "$\\begin{cases} x = x_0 + at \\\\ y = y_0 + bt \\end{cases}$ ($t \\in \\mathbb{R}$)",
+        "$\\begin{cases} x = x_0 - at \\\\ y = y_0 - bt \\end{cases}$",
+        "$\\begin{cases} x = a + x_0 t \\\\ y = b + y_0 t \\end{cases}$",
+        "$\\begin{cases} x = x_0 \\cdot t \\\\ y = y_0 \\cdot t \\end{cases}$"
+      ],
+      "answer": 0,
+      "hint": "Đi qua điểm $A$ + chạy theo hướng $\\vec{u}$: $x = x_0 + at$, $y = y_0 + bt$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Phương trình tổng quát của đường thẳng đi qua $A(1; 2)$ và có vector pháp tuyến $\\vec{n} = (3; 4)$ là:",
+      "options": [
+        "$3x + 4y - 11 = 0$",
+        "$3x + 4y + 11 = 0$",
+        "$4x + 3y - 11 = 0$",
+        "$3x + 4y = 0$"
+      ],
+      "answer": 0,
+      "hint": "Phương trình: $3(x - 1) + 4(y - 2) = 0 \\Leftrightarrow 3x + 4y - 11 = 0$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: ax + by + c = 0$ được tính bằng:",
+      "options": [
+        "$d(M; \\Delta) = \\dfrac{|ax_0 + by_0 + c|}{\\sqrt{a^2 + b^2}}$",
+        "$d(M; \\Delta) = \\dfrac{ax_0 + by_0 + c}{a^2 + b^2}$",
+        "$d(M; \\Delta) = |ax_0 + by_0 + c|$",
+        "$d(M; \\Delta) = \\sqrt{a^2 + b^2}$"
+      ],
+      "answer": 0,
+      "hint": "Công thức khoảng cách: $d = \\dfrac{|ax_0 + by_0 + c|}{\\sqrt{a^2 + b^2}}$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "VD",
+      "question": "Khoảng cách từ điểm $O(0; 0)$ đến đường thẳng $3x + 4y - 5 = 0$ bằng:",
+      "options": [
+        "$1$",
+        "$5$",
+        "$\\dfrac{1}{5}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "hint": "$d = \\dfrac{|3 \\cdot 0 + 4 \\cdot 0 - 5|}{\\sqrt{3^2 + 4^2}} = \\dfrac{5}{5} = 1$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình đường tròn tâm $I(a; b)$, bán kính $R$ là:",
+      "options": [
+        "$(x - a)^2 + (y - b)^2 = R^2$",
+        "$(x + a)^2 + (y + b)^2 = R^2$",
+        "$(x - a)^2 + (y - b)^2 = R$",
+        "$x^2 + y^2 = R^2 + a^2 + b^2$"
+      ],
+      "answer": 0,
+      "hint": "Phương trình đường tròn dạng chính tắc: $(x - a)^2 + (y - b)^2 = R^2$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đường tròn $(x - 2)^2 + (y + 3)^2 = 16$ có tâm $I$ và bán kính $R$ là:",
+      "options": [
+        "$I(2; -3)$, $R = 4$",
+        "$I(-2; 3)$, $R = 16$",
+        "$I(2; 3)$, $R = 4$",
+        "$I(2; -3)$, $R = 16$"
+      ],
+      "answer": 0,
+      "hint": "So với $(x - a)^2 + (y - b)^2 = R^2$: $a = 2$, $b = -3$, $R^2 = 16 \\Rightarrow R = 4$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Đường thẳng $\\Delta$ tiếp xúc với đường tròn $(C)$ tâm $I$, bán kính $R$ khi và chỉ khi:",
+      "options": [
+        "$d(I; \\Delta) = R$",
+        "$d(I; \\Delta) < R$",
+        "$d(I; \\Delta) > R$",
+        "$d(I; \\Delta) = 0$"
+      ],
+      "answer": 0,
+      "hint": "Tiếp xúc: khoảng cách từ tâm đến đường thẳng bằng bán kính."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình chính tắc của ELIP là:",
+      "options": [
+        "$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ (với $a > b > 0$)",
+        "$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$",
+        "$y^2 = 2px$",
+        "$x^2 + y^2 = R^2$"
+      ],
+      "answer": 0,
+      "hint": "Elip có hai trục: trục lớn $2a$ và trục nhỏ $2b$ ($a > b > 0$)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình chính tắc của HYPERBOL là:",
+      "options": [
+        "$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$",
+        "$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$",
+        "$y^2 = 2px$",
+        "$\\dfrac{x^2}{a} - \\dfrac{y^2}{b} = 1$"
+      ],
+      "answer": 0,
+      "hint": "Hyperbol có dấu \"trừ\" giữa hai phân thức (khác elip ở dấu)."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "NB",
+      "question": "Phương trình chính tắc của PARABOL (đỉnh tại gốc tọa độ, trục đối xứng là $Ox$) là:",
+      "options": [
+        "$y^2 = 2px$ (với $p > 0$)",
+        "$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$",
+        "$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$",
+        "$y = ax + b$"
+      ],
+      "answer": 0,
+      "hint": "Parabol $y^2 = 2px$ có đỉnh $O$, trục đối xứng là trục hoành $Ox$."
+    },
+    {
+      "type": "multiple-choice",
+      "level": "TH",
+      "question": "Hai đường thẳng $\\Delta_1: a_1x + b_1y + c_1 = 0$ và $\\Delta_2: a_2x + b_2y + c_2 = 0$ SONG SONG khi và chỉ khi:",
+      "options": [
+        "Hai vector pháp tuyến cùng phương và hai đường thẳng KHÔNG trùng nhau",
+        "Hai vector pháp tuyến vuông góc",
+        "Tích vô hướng hai vector pháp tuyến bằng $0$",
+        "Hai đường thẳng có chung ít nhất một điểm"
+      ],
+      "answer": 0,
+      "hint": "Song song: pháp tuyến cùng phương + không trùng."
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về đường thẳng và đường tròn trong mặt phẳng tọa độ:",
+      "statements": [
+        { "text": "Đường thẳng $ax + by + c = 0$ ($a^2 + b^2 > 0$) có vector pháp tuyến $\\vec{n} = (a; b)$.", "answer": true },
+        { "text": "Đường tròn tâm $I(a; b)$ bán kính $R$ có phương trình $(x - a)^2 + (y - b)^2 = R^2$.", "answer": true },
+        { "text": "Hai đường thẳng song song khi hai vector pháp tuyến của chúng vuông góc.", "answer": false },
+        { "text": "Đường thẳng tiếp xúc với đường tròn $(I; R)$ khi khoảng cách từ $I$ đến đường thẳng bằng $R$.", "answer": true }
+      ]
+    },
+    {
+      "type": "true-false-group",
+      "level": "VD",
+      "question": "Xét tính đúng/sai của các khẳng định sau về ba đường conic:",
+      "statements": [
+        { "text": "Phương trình chính tắc của elip có dạng $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ với $a > b > 0$.", "answer": true },
+        { "text": "Phương trình chính tắc của hyperbol có dạng $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$.", "answer": true },
+        { "text": "Parabol $y^2 = 2px$ ($p > 0$) có đỉnh tại gốc tọa độ và trục đối xứng là trục $Ox$.", "answer": true },
+        { "text": "Elip, hyperbol và parabol đều là các đường cong bậc nhất.", "answer": false }
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "level": "TH",
+      "question": "Đường tròn $(x - 1)^2 + y^2 = 9$ có tâm là $(1; 0)$ và có bán kính bằng ___",
+      "answer": "3",
+      "hint": "$R^2 = 9 \\Rightarrow R = 3$."
+    },
+    {
+      "type": "fill-blank",
+      "level": "VD",
+      "question": "Phương trình đường tròn tâm $O(0; 0)$, bán kính $R = 5$ là $x^2 + y^2 = $ ___",
+      "answer": "25",
+      "hint": "Phương trình: $x^2 + y^2 = R^2 = 25$."
+    }
+  ]
+}
