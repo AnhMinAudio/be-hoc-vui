@@ -1344,18 +1344,23 @@ function renderProgressThpt(view) {
   // Lịch tháng (rút gọn cho cột trái — không có dow header)
   const month = Progress.getMonthInfo();
   const log = Progress.getDailyLog();
-  const blanks = Array.from({ length: month.leading }, () => '<div class="d"></div>').join('');
+  const dowHead = ['T2','T3','T4','T5','T6','T7','CN']
+    .map(w => `<div class="d dow">${w}</div>`).join('');
+  const blanks = Array.from({ length: month.leading }, () => '<div class="d blank"></div>').join('');
   const dayCells = month.days.map(d => {
     const day = log[d.key];
-    let lvl = '';
+    let lvl = '', count = 0, pct = 0;
     if (day) {
       const subs = Object.values(day.subjects || {});
+      count = subs.length;
       const sc = subs.reduce((a, r) => a + r.score, 0);
       const tt = subs.reduce((a, r) => a + r.total, 0);
-      const pct = tt ? sc / tt * 100 : 0;
-      lvl = pct >= 80 ? 'l3' : pct >= 50 ? 'l2' : pct >= 20 ? 'l1' : 'l1';
+      pct = tt ? Math.round(sc / tt * 100) : 0;
+      lvl = pct >= 80 ? 'l3' : pct >= 50 ? 'l2' : 'l1';
     }
-    return `<div class="d ${lvl} ${d.isToday ? 'today' : ''}" title="${d.key}"></div>`;
+    const title = `${d.key}${count ? ` · ${count} đề · ${pct}%` : (d.isFuture ? ' · sắp tới' : ' · chưa làm')}`;
+    const cls = ['d', lvl, d.isToday ? 'today' : '', d.isFuture ? 'future' : ''].filter(Boolean).join(' ');
+    return `<div class="${cls}" title="${title}">${d.dom}</div>`;
   }).join('');
 
   // Subject bars (THPT 9 môn)
@@ -1398,8 +1403,8 @@ function renderProgressThpt(view) {
           </div>
         </div>
         <div class="dash-card dash-cal">
-          <h4>📅 LỊCH HỌC THÁNG</h4>
-          <div class="cal-grid">${blanks}${dayCells}</div>
+          <h4>📅 ${month.label.toUpperCase()}</h4>
+          <div class="cal-grid">${dowHead}${blanks}${dayCells}</div>
         </div>
       </aside>
       <main class="dash-right">

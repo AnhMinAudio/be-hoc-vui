@@ -2384,11 +2384,21 @@ body.theme-dark .sticker-card.tier-legendary { background: radial-gradient(circl
 /* heatmap tháng */
 .dash-cal h4 { font-size: .82rem; font-family: var(--font-display); margin: 0 0 8px; color: var(--c-text-soft); letter-spacing: .03em; }
 .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
-.cal-grid .d { aspect-ratio: 1; border-radius: 4px; background: var(--c-surface-2); }
-.cal-grid .d.l1 { background: color-mix(in srgb, var(--c-primary) 28%, var(--c-card)); }
-.cal-grid .d.l2 { background: color-mix(in srgb, var(--c-primary) 55%, var(--c-card)); }
-.cal-grid .d.l3 { background: var(--c-primary); }
-.cal-grid .d.today { outline: 2px solid var(--c-primary-dark); }
+.cal-grid .d {
+  aspect-ratio: 1; border-radius: 4px;
+  background: var(--c-surface-2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .68rem; font-weight: 700; color: var(--c-text-soft);
+  font-family: var(--font-num);
+}
+.cal-grid .d.dow { background: transparent; font-size: .62rem; opacity: .7; }
+.cal-grid .d.blank { background: transparent; }
+.cal-grid .d.future { opacity: .45; background: transparent; }
+.cal-grid .d.l1 { background: color-mix(in srgb, var(--c-primary) 28%, var(--c-card)); color: var(--c-text); }
+.cal-grid .d.l2 { background: color-mix(in srgb, var(--c-primary) 55%, var(--c-card)); color: #fff; }
+.cal-grid .d.l3 { background: var(--c-primary); color: #fff; }
+.cal-grid .d.today { outline: 2px solid var(--c-primary-dark); color: var(--c-primary-dark); font-weight: 800; }
+.cal-grid .d.today.l1, .cal-grid .d.today.l2, .cal-grid .d.today.l3 { color: #fff; }
 
 /* ---- Cột phải ---- */
 .dash-right { display: flex; flex-direction: column; gap: 16px; }
