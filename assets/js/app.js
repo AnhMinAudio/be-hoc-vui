@@ -1088,6 +1088,45 @@ function renderDailyHomeSection() {
     </section>`;
 }
 
+// Gợi ý "hôm nay cần làm" — mảng { icon, label, sub, href } theo độ ưu tiên (UX 4B.4)
+function todoSuggestions() {
+  const out = [];
+  const u = Auth.getUser(); if (!u) return out;
+  // 1) Câu sai trong queue
+  if (typeof Progress.getWrongQueue === 'function') {
+    const wq = Progress.getWrongQueue();
+    if (wq.length > 0) out.push({
+      icon: '🔁', label: `Ôn ${Math.min(wq.length, 10)} câu sai`,
+      sub: `Từ ${new Set(wq.map(w => w.exId)).size} đề bạn từng làm`,
+      href: '/on-tap-cau-sai', kind: 'wrong',
+    });
+  }
+  // 2) Chuyên đề yếu
+  if (typeof findWeakestOutcome === 'function') {
+    const w = findWeakestOutcome();
+    if (w) out.push({
+      icon: '💡', label: 'Luyện chuyên đề yếu',
+      sub: `${w.outcome} · hiện ${Math.round(w.pct*100)}%`,
+      href: '/luyen-chuyen-de', kind: 'weak',
+    });
+  }
+  // 3) Đề hôm nay chưa làm hết
+  const today = Progress.getTodayDaily().subjects || {};
+  const subsForGrade = Daily.subjectsForGrade ? Daily.subjectsForGrade(u.grade) : [];
+  const doneToday = subsForGrade.filter(s => today[s]).length;
+  if (subsForGrade.length && doneToday < subsForGrade.length) out.push({
+    icon: '📅', label: `Hoàn thành đề hôm nay (${doneToday}/${subsForGrade.length})`,
+    sub: 'Còn ' + (subsForGrade.length - doneToday) + ' môn chưa làm',
+    href: '/', kind: 'daily',
+  });
+  // 4) Nếu hôm nay chưa làm bài nào → gợi ý mở app
+  if (!out.length && Progress.getStreak() > 0 && !today[Object.keys(today)[0]]) out.push({
+    icon: '✨', label: 'Chưa làm bài nào hôm nay',
+    sub: 'Mở 1 đề hôm nay để giữ streak nhé!', href: '/', kind: 'streak',
+  });
+  return out;
+}
+
 function renderProgress(view) {
   if (!Auth.isLoggedIn()) return loginRequiredView(view, 'Đăng nhập để xem Tiến trình', 'Lịch học theo tháng và phân tích 28 ngày được lưu theo tài khoản của bạn.');
   const month = Progress.getMonthInfo();
@@ -1114,35 +1153,80 @@ function renderProgress(view) {
     return `<div class="${cls}" title="${title}">${d.dom}</div>`;
   }).join('');
 
-  const SUB = { toan: 'Toán', 'tieng-viet': 'Tiếng Việt', 'tieng-anh': 'Tiếng Anh' };
-  const rows = Object.keys(SUB).map(s => {
+  // Subject list adaptive theo cấp học của user
+  const u = Auth.getUser();
+  const subKeys = u.grade <= 5 ? PRIMARY_SUBJECT_KEYS
+    : u.grade <= 9 ? THCS_SUBJECT_KEYS : THPT_SUBJECT_KEYS;
+  const rows = subKeys.map(s => {
     const st = subjStats[s];
     const pct = st && st.total ? Math.round(st.score / st.total * 100) : null;
     const spd = st && st.total && st.timeMs ? (st.timeMs / 1000 / st.total) : null;
-    return { name: SUB[s], pct, spd };
+    return { key: s, name: (SUBJECTS[s] || {}).name || s, icon: (SUBJECTS[s] || {}).icon || '📚', pct, spd };
   });
   const done = rows.filter(r => r.pct !== null);
   const weak = done.length ? done.reduce((a, b) => (b.pct < a.pct ? b : a)) : null;
   const activeDays = Progress.getActiveDays();
   const avgSpeed = Progress.getAvgSecPerQ();
 
+  // Top-3 chuyên đề yếu (UX 4B.4)
+  let weakOutcomes = [];
+  if (typeof findWeakestOutcome === 'function' && CATALOG && Array.isArray(CATALOG.exercises)) {
+    const stats = Progress.getOutcomeStats(CATALOG.exercises);
+    weakOutcomes = Object.entries(stats)
+      .filter(([_, s]) => s.total >= 10 && s.exCount >= 2)
+      .map(([o, s]) => ({ outcome: o, pct: Math.round(s.correct / s.total * 100), total: s.total }))
+      .sort((a, b) => a.pct - b.pct)
+      .slice(0, 3);
+  }
+
+  // Hôm nay cần làm
+  const todos = todoSuggestions();
+  const daysLeft = Progress.daysUntilExam();
+  const showExam = daysLeft !== null && daysLeft >= -1 && daysLeft <= 365;
+
   view.innerHTML = `
     <a href="/" class="back-btn">← Về trang chủ</a>
-    <div class="hero" style="padding:16px 10px 14px"><h1>📈 Tiến trình</h1><p>Lịch tháng này · số liệu phân tích theo 28 ngày gần nhất</p></div>
-    <div class="achv-stats">
-      <div class="achv-stat"><div class="n">🔥 ${streak}</div><div class="l">Ngày liên tiếp</div></div>
-      <div class="achv-stat"><div class="n">📅 ${activeDays}</div><div class="l">Ngày có học (28n)</div></div>
-      <div class="achv-stat"><div class="n">⚡ ${avgSpeed !== null ? Math.round(avgSpeed) + 's' : '—'}</div><div class="l">Giây/câu (TB)</div></div>
+    <div class="hero" style="padding:16px 10px 14px"><h1>📈 Tiến trình</h1><p>Bảng điều khiển cá nhân · số liệu 28 ngày gần nhất</p></div>
+
+    <div class="dash-chips">
+      <span class="dash-chip"><b>🔥 ${streak}</b> ngày liên tiếp</span>
+      <span class="dash-chip"><b>📅 ${activeDays}</b> ngày có học</span>
+      <span class="dash-chip"><b>⚡ ${avgSpeed !== null ? Math.round(avgSpeed) + 's' : '—'}</b> giây/câu</span>
+      ${showExam ? `<span class="dash-chip exam">${daysLeft < 0 ? '🏁 Thi đã qua' : daysLeft === 0 ? '🎯 Hôm nay thi!' : `🎯 Còn ${daysLeft} ngày đến thi`}</span>` : ''}
     </div>
+
+    ${todos.length ? `
+      <h2 class="home-section">🎯 Hôm nay cần làm</h2>
+      <div class="todo-list">
+        ${todos.map(t => `<a class="todo-card todo-${t.kind}" href="${t.href}">
+          <div class="td-ic">${t.icon}</div>
+          <div class="td-body"><div class="td-label">${t.label}</div><div class="td-sub">${t.sub}</div></div>
+          <div class="td-arrow">→</div>
+        </a>`).join('')}
+      </div>` : '<p class="about-note" style="text-align:center;margin:14px">🌟 Hôm nay bạn không có việc gấp — cứ thoải mái khám phá đề mới!</p>'}
+
     <h2 class="home-section">📅 ${month.label}</h2>
     <div class="cal-head">${weekHead}</div>
     <div class="heatmap month-cal">${blanks}${dayCells}</div>
     <div class="hm-legend">Ít <span class="hm-cell l1"></span><span class="hm-cell l2"></span><span class="hm-cell l3"></span><span class="hm-cell l4"></span> Nhiều / đúng cao · <span class="hm-cell today legend-today"></span> hôm nay</div>
-    <h2 class="home-section">Kết quả theo môn <small style="font-weight:600;color:var(--c-text-soft)">(28 ngày gần nhất)</small></h2>
+
+    <h2 class="home-section">Tiến độ theo môn <small style="font-weight:600;color:var(--c-text-soft)">(28 ngày gần nhất)</small></h2>
     <div class="subj-stats">
-      ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span><span class="sr-spd">${r.spd !== null ? Math.round(r.spd) + 's/câu' : ''}</span></div>`).join('')}
+      ${rows.map(r => `<div class="subj-row"><span class="sr-name">${r.icon} ${r.name}</span><div class="sr-bar"><div class="sr-fill" style="width:${r.pct || 0}%"></div></div><span class="sr-pct">${r.pct !== null ? r.pct + '%' : '—'}</span><span class="sr-spd">${r.spd !== null ? Math.round(r.spd) + 's/câu' : ''}</span></div>`).join('')}
     </div>
     ${weak && done.length > 1 ? `<p class="about-note">💡 Nên ôn thêm môn <b>${weak.name}</b> (đang ${weak.pct}%).</p>` : ''}
+
+    ${weakOutcomes.length ? `
+      <h2 class="home-section">📊 Chuyên đề cần luyện thêm</h2>
+      <div class="weak-outcomes">
+        ${weakOutcomes.map(w => `<div class="wo-row">
+          <div class="wo-name">${w.outcome}</div>
+          <div class="wo-bar"><div class="wo-fill ${w.pct>=60?'mid':'low'}" style="width:${w.pct}%"></div></div>
+          <div class="wo-pct">${w.pct}% (${w.total} câu)</div>
+        </div>`).join('')}
+        <a href="/luyen-chuyen-de" class="btn btn-primary" style="margin-top:12px;display:inline-block">💡 Luyện chuyên đề yếu nhất</a>
+      </div>` : ''}
+
     ${activeDays === 0 ? emptyState('Chưa có dữ liệu tiến trình', 'Hãy làm "Đề hôm nay" trên trang chủ để bắt đầu ghi nhận tiến trình của bạn!', '<a href="/" class="btn btn-primary" style="margin-top:14px">Về trang chủ</a>') : ''}
   `;
 }
